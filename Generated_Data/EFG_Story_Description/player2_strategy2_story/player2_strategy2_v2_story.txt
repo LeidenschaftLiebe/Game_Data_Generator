@@ -1,0 +1,28 @@
+Story 1: A Penalty Shootout
+During this dramatic face-off, Player1 must decide between A1: aiming left corner and A2: blasting center, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: diving left or B2: standing ground, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a penalty shootout mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 2: A Wizard Duel
+In the heat of the game, Player1 must decide between A1: casting a fireball and A2: vanishing in smoke, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: raising a shield or B2: casting mirror spell, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a wizard duel mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 3: A Submarine Encounter
+As anticipation builds, Player1 must decide between A1: launching torpedoes and A2: running silent, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: using sonar ping or B2: deploying depth charges, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a submarine encounter mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 4: A Trade Negotiation
+In this high-stakes match, Player1 must decide between A1: offering a price cut and A2: holding firm, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: accepting partial terms or B2: walking away, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a trade negotiation mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Payoff Matrix (Base values shown as Player1, Player2):
+        B1      B2
+A1  (10, 20)
+A2  (80, 90)
+
+Payoff Adjustment Rule:
+The outcomes are shaped by a base payoff matrix, with adjustments made by subtracting the average of both players' base scores from each individual score. This ensures the result remains zero-sum, making each decision a strategic gamble.
+

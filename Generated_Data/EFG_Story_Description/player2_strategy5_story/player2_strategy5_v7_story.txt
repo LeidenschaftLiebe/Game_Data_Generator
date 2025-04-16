@@ -1,0 +1,83 @@
+Story 1: An Ai-Powered Songwriting Battle
+In this unique scenario, the conflict unfolds in the context of an AI-powered songwriting battle.
+Player1 selects from:
+  A1: synth bass,
+  A2: folk lyrics,
+  A3: dynamic key shift,
+  A4: jazz bridge,
+  A5: rap collab.
+Player2 counters with:
+  B1: melody reroll,
+  B2: audience sync,
+  B3: echo effect,
+  B4: lo-fi overlay,
+  B5: auto-remix.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 2: A Courtroom Showdown
+In this unique scenario, the conflict unfolds in the context of a courtroom showdown.
+Player1 selects from:
+  A1: DNA twist,
+  A2: emotional close,
+  A3: expert contradiction,
+  A4: evidence misdirection,
+  A5: surprise witness.
+Player2 counters with:
+  B1: recess delay,
+  B2: jury appeal,
+  B3: photo blow-up,
+  B4: prior conviction,
+  B5: mistrial motion.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 3: A Teen Spy Recruitment Trial
+In this unique scenario, the conflict unfolds in the context of a teen spy recruitment trial.
+Player1 selects from:
+  A1: wire tap,
+  A2: disguise test,
+  A3: chase diversion,
+  A4: puzzle lock,
+  A5: signal decode.
+Player2 counters with:
+  B1: surprise handler,
+  B2: trust twist,
+  B3: stealth cam,
+  B4: team split,
+  B5: drone tail.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 4: A Futuristic Theme Park Heist
+In this unique scenario, the conflict unfolds in the context of a futuristic theme park heist.
+Player1 selects from:
+  A1: staff badge clone,
+  A2: maintenance shaft,
+  A3: crowd mislead,
+  A4: hologram cover,
+  A5: cart escape.
+Player2 counters with:
+  B1: AI security reroute,
+  B2: animatronic block,
+  B3: guest disguise,
+  B4: parkwide alert,
+  B5: VR glitch.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=25, A2=30, A3=35, A4=40, A5=45],
+    "Player2": [B1=2, B2=3, B3=4, B4=5, B5=6]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
+  Player1: 30, Player2: 5
+  Average = (30 + 5) / 2 = 17.5
+  Adjusted Payoffs = [Player1: 12.5, Player2: -12.5]
+This ensures the total payoff remains zero-sum.
+

@@ -1,0 +1,338 @@
+STAGE 1 PROMPT: Game Specification Generation
+Role: Game Theory Architect
+Task (General Game Description): Generate extensive-form game specifications with explicit structural parameters. 
+In this case, generate a two-player zero-sum game with two strategies per player. 
+
+Core Template: 
+[Strategic Structure]
+- Players: <2|3|...|N>
+- Move Sequence: <Simultaneous/Sequential>
+- Game Type: <One-shot/Finite Repeated(rounds=X)/Infinitely Repeated>
+- Action Space: <Discrete([options])|Continuous(range=[])>
+- Game Depth: <levels>
+- Branching Factor: <branches/level> 
+- Chance Events: <Yes(prob-distrib)/No>
+
+[Game ID]: <unique_identifier>
+[Players]: <name:role pairs>
+[Information Sets]: 
+<player>: <information constraints>
+[Game Tree]:
+<Nature/Player sequence with action labels>
+[Payoff Matrix]:
+<path → payoffs matrix> 
+
+Example: 
+[Strategic Structure]
+- Players: 2
+- Move Sequence: Sequential  
+- Game Type: One-shot
+- Action Space: Discrete [High, Medium, Low]
+- Game Depth: 3
+- Branching Factor: 2→3→2
+- Chance Events: Yes (Nature first move 0.6/0.4)
+
+[Game ID]: SA-02v2
+[Players]:
+- BidderA: First mover
+- BidderB: Responder
+
+[Information Sets]:
+- BidderA: Cannot observe nature's state
+- BidderB: Observes BidderA's action type
+
+[Game Tree]:
+1. Nature → High(0.6)/Low(0.4)
+2. BidderA → HighBid/MedBid/LowBid
+3. BidderB → Match/Pass
+
+[Payoff Matrix]:
+| Path                  | Payoffs | Context                   |
+|-----------------------|---------|---------------------------|
+| High→HighBid→Match    | (50,-50)| Accurate valuation match  |
+| High→HighBid→Pass     | (-20,30)| Overpricing avoidance     |
+| High→LowBid→Match     | (40,-40)| Underpricing exploitation |
+| High→LowBid→Pass      | (-10,20)| Conservative withdrawal   |
+| Low→HighBid→Match     | (-30,15)| Overbid trap activation   |
+| Low→HighBid→Pass      | (-50,10)| Risk mitigation           |
+| Low→LowBid→Match      | (30,-20)| Fair value settlement     |
+| Low→LowBid→Pass       | (-10,10)| Market exit               |
+
+
+STAGE 2 PROMPT: EFG Conversion
+Role: Gambit Compiler
+Task: Convert structured game description to valid .efg format
+
+Conversion RULES: Add sections from Gambit documentation? 
+
+Format of chance (nature) nodes. Entries for chance nodes begin with the character c . Following this, in order, are: 
+a text string, giving the name of the node
+a positive integer specifying the information set number
+(optional) the name of the information set
+(optional) a list of actions at the information set with their corresponding probabilities
+a nonnegative integer specifying the outcome
+(optional)the payoffs to each player for the outcome
+
+Example: 
+Input: SA-02v2 description
+Output: 
+EFG 2 R "Sealed-Bid Auction with Imperfect Information" { "BidderA" "BidderB" }
+
+c "Root" 1 "Nature" { "High" 0.6 "Low" 0.4 } 0
+p "A_High" 1 1 "BidderA" { "HighBid" "LowBid" } 0
+  p "B_High_H" 2 1 "BidderB" { "Match" "Pass" } 0
+    t "" 1 "T1" { 50, -50 }
+    t "" 2 "T2" { -20, 30 }
+  p "B_High_L" 2 1 "BidderB" { "Match" "Pass" } 0
+    t "" 3 "T3" { 40, -40 }
+    t "" 4 "T4" { -10, 20 }
+p "A_Low" 1 2 "BidderA" { "HighBid" "LowBid" } 0
+  p "B_Low_H" 2 2 "BidderB" { "Match" "Pass" } 0
+    t "" 5 "T5" { -30, 15 }
+    t "" 6 "T6" { -50, 10 }
+  p "B_Low_L" 2 2 "BidderB" { "Match" "Pass" } 0
+    t "" 7 "T7" { 30, -20 }
+    t "" 8 "T8" { -10, 10 }
+
+
+
+
+
+STAGE 1 PROMPT: Game Specification Template
+Role: Game Theory Architect
+Task: Generate a two-player zero-sum game with two strategies per player, compatible with both perfect and imperfect information structures. The output structure should follow the Example Template below. 
+
+SEQUENTIAL (Perfect Information) GENERIC TEMPLATE: 
+[Game Structure]
+Players: 2
+Move Sequence: Sequential
+Game Type: One-shot
+Action Space:
+  Player1: [<StrategyA>, <StrategyB>]
+  Player2: [<StrategyX>, <StrategyY>]
+Game Depth: 2
+Branching Factor: 2
+Chance Events: No
+Zero-Sum: Yes
+
+[Game ID] <Unique_Name>
+
+[Players]
+Player1 (P1)
+Player2 (P2)
+
+[Information]
+Player2 observes Player1's action (Perfect Information)
+
+[Game Tree]
+1. P1 chooses <StrategyA> or <StrategyB>
+2. P2 responds (observes P1's choice)
+
+[Payoffs]
+P1<StrategyA> → P2<StrategyX>: (a, -a)
+P1<StrategyA> → P2<StrategyY>: (b, -b)
+P1<StrategyB> → P2<StrategyX>: (c, -c)
+P1<StrategyB> → P2<StrategyY>: (d, -d)
+
+
+
+
+SIMULTANEOUS (Imperfect Information) GENERIC TEMPLATE 
+[Game Structure]
+Players: 2
+Move Sequence: Simultaneous
+Game Type: One-shot
+Action Space:
+  Player1: [<StrategyA>, <StrategyB>]
+  Player2: [<StrategyX>, <StrategyY>]
+Game Depth: 1  // Single decision stage
+Branching Factor: 2 per player → 4 total outcomes
+Chance Events: No
+Zero-Sum: Yes
+
+[Game ID] <Unique_Name>
+
+[Players]
+Player1 (P1)
+Player2 (P2)
+
+[Information]
+Neither player observes the other’s action (Imperfect information)
+
+[Game Tree]
+Players choose actions simultaneously:
+1. P1 selects <StrategyA>/<StrategyB>
+2. P2 selects <StrategyX>/<StrategyY> (no observation)
+
+[Payoffs]
+// Represented as a matrix (P1’s payoff, P2’s payoff):
+                <StrategyX>     <StrategyY>
+<StrategyA>     (<a>, <−a>)     (<b>, <−b>)
+<StrategyB>     (<c>, <−c>)     (<d>, <−d>)
+
+
+
+[3-Player Simultaneous Game]
+Players: 3
+Move Sequence: Simultaneous
+Game Type: One-shot
+Action Space:
+  P1: [A1, A2]
+  P2: [B1, B2]
+  P3: [C1, C2]
+Game Depth: 1
+Branching Factor: 2 (per player → 8 total outcomes)
+Chance Events: No
+Zero-Sum: Yes (P1 + P2 + P3 = 0 for all outcomes)
+
+[Game Tree]
+All players choose simultaneously:
+1. P1 → A1/A2
+2. P2 → B1/B2 (no observation)
+3. P3 → C1/C2 (no observation)
+
+[Payoffs]
+// Format: (P1, P2, P3) for all 2×2×2 combinations:
+(A1, B1, C1): (x1, y1, -(x1+y1))
+(A1, B1, C2): (x2, y2, -(x2+y2))
+(A1, B2, C1): (x3, y3, -(x3+y3))
+(A1, B2, C2): (x4, y4, -(x4+y4))
+(A2, B1, C1): (x5, y5, -(x5+y5))
+(A2, B1, C2): (x6, y6, -(x6+y6))
+(A2, B2, C1): (x7, y7, -(x7+y7))
+(A2, B2, C2): (x8, y8, -(x8+y8))
+
+
+
+
+
+
+[Game Structure]  
+Players: 3  
+Move Sequence: Sequential (P1 → P2 → P3)  
+Game Type: One-shot  
+Action Space:  
+  P1: [A1, A2]  
+  P2: [B1, B2]  
+  P3: [C1, C2]  
+Game Depth: 3  
+Branching Factor: 2 (per level → 8 paths)  
+Zero-Sum: Yes (P1 + P2 + P3 = 0 for all paths)  
+
+[Game Tree Paths & Payoffs]  
+A1 → B1 → C1: (x1, y1, -(x1+y1))  
+A1 → B1 → C2: (x2, y2, -(x2+y2))  
+A1 → B2 → C1: (x3, y3, -(x3+y3))  
+A1 → B2 → C2: (x4, y4, -(x4+y4))  
+A2 → B1 → C1: (x5, y5, -(x5+y5))  
+A2 → B1 → C2: (x6, y6, -(x6+y6))  
+A2 → B2 → C1: (x7, y7, -(x7+y7))  
+A2 → B2 → C2: (x8, y8, -(x8+y8))  
+
+
+
+
+
+4-Player/More Actions per player: Too many outcomes/payoffs. 
+Cannot list every possible outcome (exhaustively). Change template. 
+
+
+ULTIMATE STAGE 1 TEMPLATE 
+Please generate both a sequential and a simultaneous four-player zero-sum game with four strategies per player, 
+according to the template below. 
+
+[Game Structure]
+Players: N
+Move Sequence: <Sequential/Simultaneous>
+Game Type: One-shot
+Action Space:
+  Player1: [P1_Action_1, P1_Action_2, ..., P1_Action_K]
+  Player2: [P2_Action_1, P2_Action_2, ..., P2_Action_K]
+  ...
+  PlayerN: [PN_Action_1, PN_Action_2, ..., PN_Action_K]
+Zero-Sum: Yes (Payoff Sum = 0)
+
+[Game Tree Rules]
+1. Depth: <N> levels (one decision per player)
+2. For sequential moves:  
+   - Players act in order (e.g., P1 → P2 → ... → PN).  
+   - Later players observe prior actions.  
+3. For simultaneous moves:  
+   - All players act independently.
+
+[Payoff Generation Constraints]
+1. Zero-Sum Enforcement:
+   Total payoff = Sum of Player1 to Player(N)'s payoff = 0 
+
+2. BasePayoffMatrix = [
+[Payoff_11, Payoff_12, Payoff_13 ... Payoff_1k], 
+[Payoff_21, Payoff_22, Payoff_23 ... Payoff_2k], 
+... 
+[Payoff_N1, Payoff_N2, Payoff_N3 ... Payoff_Nk]
+]
+
+3. Payoff calculation in a specific path: 
+Payoff_ij means Player(i)'s payoff by choosing Action_j, 
+then the player's payoff = BasePayoffMatrix[i][j] - Average(All players' base payoff in that path). 
+
+
+
+
+
+
+Generating game templates and pygambit code in separate parts: 
+
+Please generate N different three-player zero-sum game with three strategies per player according to the 
+template provided earlier. Each version should have a distinct type of base payoff distribution. 
+
+Each game now has distinct characteristics: 
+V2: Compact integers (0–3)
+V3: Mixed signs, negatives
+V4: Small decimals / fractional payoffs
+V5: High variance, large numbers
+
+Then for each game template generate its corresponding pygambit script to build the efg. 
+And please add some comments about the payoff matrix's variation style/pattern. 
+
+
+
+
+Then I/LLM! found that similar games (4player_4action) just need to change the payoff matrix. 
+LLM can then generate the pygambit code directly (without producing a filled template), 
+once it is familiar with the general game template structure. 
+
+Please generate 10 different four-player zero-sum game with three strategies per player   
+according to the template provided earlier. Each version should have a distinct type of base payoff distribution. 
+ALWAYS Name the files as playerX_strategyY_vx.py from now on. Use integers as payoffs. 
+
+Then for each game template generate its corresponding pygambit script to build the efg. 
+And please add some comments about the payoff matrix's variation style/pattern. 
+Maybe can put all generated templates/pygambit scripts in a zip. Also remind to change payoff matrix. 
+
+
+
+Now, for each of these pygambit code (X player zero-sum game with Y strategies per player), 
+generate N versions of background story description in natural language. 
+Include players, natural language strategy descriptions, and specific outcome payoffs. 
+If there are too many strategies per player or too many outcomes, include the payoff matrix in the story description. 
+Make the description like a real-world game/story description in a paragraph. 
+
+Now write another 40 different story descriptions (themes+strategies) for each of the pygambit code attached. 
+Put each 4 stories in the corresponding player2_strategyN_vX_story.txt, where N matches the number of strategies 
+per player in the pygambit file name and X is the version number. This should produce 10 .txt files, 
+each containing 4 different story descriptions. The outcome payoffs should refer to the adjusted_payoffs in the 
+pygambit code. You can put the 10 .txt files in a zip for me to download. 
+Make sure the strategy descriptions match the story theme. 
+Since now there are too many outcome payoffs, you don't need to list all outcomes. 
+Instead, you can include the adjusted_payoffs as a matrix for outcome reference. 
+
+SOME PROBLEMS: 
+Cannot send multiple files for analysis. Provide 1 at a time? 
+ALMOST every 10 versions follow the same payoff distribution pattern. 
+Some outcome labels in pygambit code are identical. TRY: label = f"Outcome_V1_{i}_{j}" 
+Gambit Visualization: 
+Player 2 Strategy 6 a bit slow => 1 min 
+Player 2 Strategy 7 SUPER slow => 4 Hours? 
+Player 3 Strategy 8 Almost Impossible 
+
+Strategy description not matching story themes. 

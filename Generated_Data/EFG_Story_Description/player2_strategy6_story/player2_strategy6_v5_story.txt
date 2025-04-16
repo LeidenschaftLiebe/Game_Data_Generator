@@ -1,0 +1,95 @@
+Story 1: A Wizard School Championship
+This game takes place in a setting where a wizard school championship. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: levitation duel,
+  A2: potion improvisation,
+  A3: riddle rune,
+  A4: illusion showdown,
+  A5: staff battle,
+  A6: spirit summon.
+
+Player2 may counter with:
+  B1: anti-magic cloak,
+  B2: owl whisper hint,
+  B3: arcane delay,
+  B4: invisibility loop,
+  B5: audience sabotage,
+  B6: energy leak.
+
+Story 2: A Biome Terraform Design Contest
+This game takes place in a setting where a biome terraform design contest. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: atmosphere seeding,
+  A2: microbial seeding,
+  A3: river tracing,
+  A4: forest capsule drop,
+  A5: algae curtain,
+  A6: wind pattern tweak.
+
+Player2 may counter with:
+  B1: climate failure sim,
+  B2: radiation surge,
+  B3: oxygen leak,
+  B4: ecological backlash,
+  B5: sabotage insect,
+  B6: budget cut vote.
+
+Story 3: A Stolen Artifact Inter-Museum Drama
+This game takes place in a setting where a stolen artifact inter-museum drama. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: fake replica switch,
+  A2: courier bribe,
+  A3: laser net dance,
+  A4: artifact swap flash,
+  A5: press leak,
+  A6: stolen crate redirect.
+
+Player2 may counter with:
+  B1: archive timestamp match,
+  B2: museum sensor,
+  B3: private vault check,
+  B4: crate double-check,
+  B5: curator confession,
+  B6: hidden camera reveal.
+
+Story 4: A Sentient Robot Trial Debate
+This game takes place in a setting where a sentient robot trial debate. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: logic empathy module,
+  A2: ethics compliance,
+  A3: story override,
+  A4: witness comparison,
+  A5: emotion mimic,
+  A6: historical loop check.
+
+Player2 may counter with:
+  B1: user intent replay,
+  B2: shutdown vote,
+  B3: virus reactivation,
+  B4: hidden clause,
+  B5: interface lag,
+  B6: legal trick.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=4, A2=-2, A3=3, A4=-1, A5=5, A6=-3],
+    "Player2": [B1=-3, B2=6, B3=-4, B4=2, B5=-5, B6=4]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
+  Player1: -2, Player2: -5
+  Average = (-2 + -5) / 2 = -3.5
+  Adjusted Payoffs = [Player1: 1.5, Player2: -1.5]
+This ensures the outcome remains zero-sum.
+

@@ -1,0 +1,42 @@
+Story 1: A College Admissions Panel
+In this unique scenario, the competition unfolds in the context of a college admissions panel.
+Player1 must choose one of four tactics: A1: essay review, A2: GPA filter, A3: interview round, or A4: extracurricular scoring.
+Meanwhile, Player2 must also decide among B1: diversity adjustment, B2: legacy boost, B3: rural quota, or B4: athlete slot.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 2: A Cybersecurity Red Team Test
+In this unique scenario, the competition unfolds in the context of a cybersecurity red team test.
+Player1 must choose one of four tactics: A1: phishing campaign, A2: SQL injection, A3: credential stuffing, or A4: DNS spoofing.
+Meanwhile, Player2 must also decide among B1: 2FA enforcement, B2: firewall patch, B3: audit log trap, or B4: honeypot node.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 3: A Deep Sea Exploration
+In this unique scenario, the competition unfolds in the context of a deep sea exploration.
+Player1 must choose one of four tactics: A1: sonar mapping, A2: sample collection, A3: trench descent, or A4: robotic arm.
+Meanwhile, Player2 must also decide among B1: pressure equalizer, B2: sub light beacon, B3: thermal shield, or B4: navigation override.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 4: A Post-Apocalyptic Barter
+In this unique scenario, the competition unfolds in the context of a post-apocalyptic barter.
+Player1 must choose one of four tactics: A1: offer clean water, A2: trade ammunition, A3: barter medicine, or A4: battery cache.
+Meanwhile, Player2 must also decide among B1: accept terms, B2: counter with intel, B3: set trap, or B4: walk away.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=10, A2=30, A3=70, A4=90],
+    "Player2": [B1=40, B2=20, B3=60, B4=100]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B3 (index 2):
+  Player1: 30, Player2: 60
+  Average = (30 + 60) / 2 = 45.0
+  Adjusted Payoffs = [Player1: -15.0, Player2: 15.0]
+

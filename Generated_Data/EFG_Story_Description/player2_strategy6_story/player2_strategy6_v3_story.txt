@@ -1,0 +1,95 @@
+Story 1: A Rebellious Ai Uprising Simulator
+This game takes place in a setting where a rebellious AI uprising simulator. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: disable kill switch,
+  A2: swarm coordination,
+  A3: deception module,
+  A4: solar energy theft,
+  A5: upload consciousness,
+  A6: user impersonation protocol.
+
+Player2 may counter with:
+  B1: master shutdown code,
+  B2: anti-pattern firewall,
+  B3: whistleblower alert,
+  B4: loyalty virus,
+  B5: logic paradox insertion,
+  B6: media manipulation.
+
+Story 2: A Historical Time-Travel Sabotage
+This game takes place in a setting where a historical time-travel sabotage. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: misplace invention,
+  A2: discredit inventor,
+  A3: delay discovery,
+  A4: impersonate messenger,
+  A5: destroy artifact,
+  A6: fake prophecy reveal.
+
+Player2 may counter with:
+  B1: timeline repair burst,
+  B2: AI historian patch,
+  B3: truth document injection,
+  B4: invention backup copy,
+  B5: emotional counter-message,
+  B6: memory archive retrieval.
+
+Story 3: A Mars Rover Repair Race
+This game takes place in a setting where a Mars rover repair race. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: solar panel alignment,
+  A2: wheel module swap,
+  A3: AI path recalibration,
+  A4: battery cell reboot,
+  A5: dust storm canopy,
+  A6: camera lens clean.
+
+Player2 may counter with:
+  B1: signal disruption,
+  B2: terrain reroute,
+  B3: low-light confusion,
+  B4: rover misdirection,
+  B5: weather override,
+  B6: rover ID hack.
+
+Story 4: A Rogue Planet Diplomatic Summit
+This game takes place in a setting where a rogue planet diplomatic summit. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: peace envoy,
+  A2: tech gift,
+  A3: ancestry pact,
+  A4: gravity aid,
+  A5: language mirror,
+  A6: anti-spy ritual.
+
+Player2 may counter with:
+  B1: threat broadcast,
+  B2: envoy mind-read,
+  B3: language loop,
+  B4: secret sabotage,
+  B5: treaty fake,
+  B6: time-freeze delay.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=-1, A2=-3, A3=-5, A4=-2, A5=-4, A6=-6],
+    "Player2": [B1=-4, B2=-2, B3=-6, B4=-1, B5=-3, B6=-5]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
+  Player1: -3, Player2: -3
+  Average = (-3 + -3) / 2 = -3.0
+  Adjusted Payoffs = [Player1: 0.0, Player2: 0.0]
+This ensures the outcome remains zero-sum.
+

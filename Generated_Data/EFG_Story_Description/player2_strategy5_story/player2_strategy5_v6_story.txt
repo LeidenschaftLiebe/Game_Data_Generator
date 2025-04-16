@@ -1,0 +1,83 @@
+Story 1: A Dystopian Surveillance Game
+In this unique scenario, the conflict unfolds in the context of a dystopian surveillance game.
+Player1 selects from:
+  A1: mask facial ID,
+  A2: break CCTV loop,
+  A3: jam comms,
+  A4: fake voiceprint,
+  A5: disrupt AI drone.
+Player2 counters with:
+  B1: signal sweep,
+  B2: camera re-sync,
+  B3: threat level spike,
+  B4: auto alert trigger,
+  B5: heat scan.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 2: A Post-Zombie Apocalypse Supply Run
+In this unique scenario, the conflict unfolds in the context of a post-zombie apocalypse supply run.
+Player1 selects from:
+  A1: rooftop sneak,
+  A2: alley sprint,
+  A3: flare diversion,
+  A4: dog lure,
+  A5: silent engine.
+Player2 counters with:
+  B1: zombie wave,
+  B2: trap noise,
+  B3: loot mislead,
+  B4: tire puncture,
+  B5: survivor betrayal.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 3: A Magician'S Duel
+In this unique scenario, the conflict unfolds in the context of a magician's duel.
+Player1 selects from:
+  A1: mirror vanish,
+  A2: levitation bluff,
+  A3: rabbit reversal,
+  A4: teleport exit,
+  A5: illusion swap.
+Player2 counters with:
+  B1: wand freeze,
+  B2: audience reveal,
+  B3: smoke block,
+  B4: time freeze,
+  B5: handcuff trap.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 4: A Stock Trading Game Show
+In this unique scenario, the conflict unfolds in the context of a stock trading game show.
+Player1 selects from:
+  A1: buy dip,
+  A2: earnings bet,
+  A3: short squeeze,
+  A4: tech IPO,
+  A5: hedge volatility.
+Player2 counters with:
+  B1: margin call,
+  B2: rate shock,
+  B3: tweet spike,
+  B4: dividend delay,
+  B5: circuit breaker.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=5, A2=6, A3=7, A4=6, A5=5],
+    "Player2": [B1=5, B2=4, B3=3, B4=4, B5=5]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
+  Player1: 6, Player2: 4
+  Average = (6 + 4) / 2 = 5.0
+  Adjusted Payoffs = [Player1: 1.0, Player2: -1.0]
+This ensures the total payoff remains zero-sum.
+

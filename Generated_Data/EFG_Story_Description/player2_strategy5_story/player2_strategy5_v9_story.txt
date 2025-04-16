@@ -1,0 +1,83 @@
+Story 1: A Billionaire Race To Space
+In this unique scenario, the conflict unfolds in the context of a billionaire race to space.
+Player1 selects from:
+  A1: rocket redesign,
+  A2: branding stunt,
+  A3: NFT orbit drop,
+  A4: crew celeb leak,
+  A5: launch countdown flip.
+Player2 counters with:
+  B1: wind cancel,
+  B2: oxygen tank fail,
+  B3: stream delay,
+  B4: troll protest,
+  B5: engine rumor.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 2: A Steampunk Invention Fair
+In this unique scenario, the conflict unfolds in the context of a steampunk invention fair.
+Player1 selects from:
+  A1: gear-powered drone,
+  A2: tea-based engine,
+  A3: monocle projector,
+  A4: hat turbine,
+  A5: steam walker.
+Player2 counters with:
+  B1: sabotage soot,
+  B2: vote trick,
+  B3: whistle leak,
+  B4: sabotage vial,
+  B5: gear lock.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 3: A Coral Reef Protection Rally
+In this unique scenario, the conflict unfolds in the context of a coral reef protection rally.
+Player1 selects from:
+  A1: reef drone scan,
+  A2: underwater mural,
+  A3: coral cloning,
+  A4: plastic scoop net,
+  A5: fish lullaby sonar.
+Player2 counters with:
+  B1: oil spill scare,
+  B2: media spin,
+  B3: policy block,
+  B4: fish noise disrupt,
+  B5: beach riot.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 4: A Sky Castle Tournament
+In this unique scenario, the conflict unfolds in the context of a sky castle tournament.
+Player1 selects from:
+  A1: griffin dash,
+  A2: cloud bridge,
+  A3: wind sword,
+  A4: featherfall dive,
+  A5: gold flag snatch.
+Player2 counters with:
+  B1: storm summon,
+  B2: magic blink,
+  B3: barrier loop,
+  B4: wind prison,
+  B5: altitude flip.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=10, A2=-10, A3=10, A4=-10, A5=10],
+    "Player2": [B1=-10, B2=10, B3=-10, B4=10, B5=-10]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
+  Player1: -10, Player2: 10
+  Average = (-10 + 10) / 2 = 0.0
+  Adjusted Payoffs = [Player1: -10.0, Player2: 10.0]
+This ensures the total payoff remains zero-sum.
+

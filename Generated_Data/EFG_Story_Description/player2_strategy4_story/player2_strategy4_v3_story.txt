@@ -1,0 +1,42 @@
+Story 1: A Social Media Rebrand
+In this unique scenario, the competition unfolds in the context of a social media rebrand.
+Player1 must choose one of four tactics: A1: logo revamp, A2: influencer takeover, A3: algorithm tweak, or A4: surprise livestream.
+Meanwhile, Player2 must also decide among B1: push notifications, B2: viral dance, B3: fan competition, or B4: NFT drop.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 2: A Mountaineering Survival Test
+In this unique scenario, the competition unfolds in the context of a mountaineering survival test.
+Player1 must choose one of four tactics: A1: cross glacier, A2: climb vertical face, A3: set base camp, or A4: wait for weather.
+Meanwhile, Player2 must also decide among B1: call rescue, B2: split team, B3: ration food, or B4: descend immediately.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 3: A Pirate Ship Skirmish
+In this unique scenario, the competition unfolds in the context of a pirate ship skirmish.
+Player1 must choose one of four tactics: A1: raise black sails, A2: broadside fire, A3: boarding party, or A4: cannon smoke screen.
+Meanwhile, Player2 must also decide among B1: evasive maneuver, B2: powder barrel drop, B3: hook defense, or B4: flee to fog.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 4: A Biotech Startup Demo
+In this unique scenario, the competition unfolds in the context of a biotech startup demo.
+Player1 must choose one of four tactics: A1: show lab-grown organ, A2: CRISPR gene edit, A3: AI diagnosis tool, or A4: nano-drug patch.
+Meanwhile, Player2 must also decide among B1: FDA fast track, B2: investor pitch, B3: press Q&A, or B4: patient trial.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=-2, A2=-4, A3=-5, A4=-3],
+    "Player2": [B1=-3, B2=-6, B3=-2, B4=-1]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B3 (index 2):
+  Player1: -4, Player2: -2
+  Average = (-4 + -2) / 2 = -3.0
+  Adjusted Payoffs = [Player1: -1.0, Player2: 1.0]
+

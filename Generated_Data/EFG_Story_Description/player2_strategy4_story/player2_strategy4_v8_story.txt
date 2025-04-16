@@ -1,0 +1,42 @@
+Story 1: A Startup Rival Hackathon
+In this unique scenario, the competition unfolds in the context of a startup rival hackathon.
+Player1 must choose one of four tactics: A1: login system, A2: dashboard UI, A3: cloud API, or A4: social share.
+Meanwhile, Player2 must also decide among B1: reverse engineer, B2: UI copy, B3: vote inflation, or B4: PR stunt.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 2: A Science Olympiad Challenge
+In this unique scenario, the competition unfolds in the context of a science olympiad challenge.
+Player1 must choose one of four tactics: A1: egg drop, A2: molecule model, A3: gravity race, or A4: bridge build.
+Meanwhile, Player2 must also decide among B1: circuit tester, B2: air cannon, B3: vinegar volcano, or B4: balloon lift.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 3: A Detective Board Game
+In this unique scenario, the competition unfolds in the context of a detective board game.
+Player1 must choose one of four tactics: A1: accuse spouse, A2: search attic, A3: check phone, or A4: test fingerprints.
+Meanwhile, Player2 must also decide among B1: block motive, B2: swap alibi, B3: remove weapon, or B4: mislead timeline.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 4: A Meme Competition
+In this unique scenario, the competition unfolds in the context of a meme competition.
+Player1 must choose one of four tactics: A1: surprise cat, A2: typo drama, A3: celebrity shade, or A4: politics joke.
+Meanwhile, Player2 must also decide among B1: auto-caption, B2: remix challenge, B3: reaction face, or B4: viral remix.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=12, A2=9, A3=6, A4=3],
+    "Player2": [B1=8, B2=5, B3=2, B4=0]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B3 (index 2):
+  Player1: 9, Player2: 2
+  Average = (9 + 2) / 2 = 5.5
+  Adjusted Payoffs = [Player1: 3.5, Player2: -3.5]
+

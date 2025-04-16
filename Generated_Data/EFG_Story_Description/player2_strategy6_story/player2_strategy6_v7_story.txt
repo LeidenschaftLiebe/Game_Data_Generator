@@ -1,0 +1,95 @@
+Story 1: A Global Hacker Puzzle Hunt
+This game takes place in a setting where a global hacker puzzle hunt. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: server backdoor,
+  A2: DNS stealth,
+  A3: CAPTCHA deception,
+  A4: exploit riddle,
+  A5: dev Easter egg,
+  A6: blockchain proof trick.
+
+Player2 may counter with:
+  B1: decoy server,
+  B2: flag swap,
+  B3: judge delay,
+  B4: IP leak trap,
+  B5: peer ban report,
+  B6: syntax break.
+
+Story 2: A Music Genre Mashup Battle
+This game takes place in a setting where a music genre mashup battle. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: trap jazz blend,
+  A2: acoustic dubstep,
+  A3: orchestral EDM,
+  A4: bossa nova drill,
+  A5: opera glitch-hop,
+  A6: silence beat drop.
+
+Player2 may counter with:
+  B1: crowd poll shift,
+  B2: tempo sabotage,
+  B3: genre randomizer,
+  B4: delay fade echo,
+  B5: ad-libs leak,
+  B6: disqualify remix.
+
+Story 3: A Biomech Evolution Strategy Game
+This game takes place in a setting where a biomech evolution strategy game. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: neural reflex graft,
+  A2: reinforced exo-limbs,
+  A3: solar skin,
+  A4: emotion processor,
+  A5: hive sync node,
+  A6: organic regeneration.
+
+Player2 may counter with:
+  B1: immune attack,
+  B2: mutation counter,
+  B3: sync desync,
+  B4: genetic reversion,
+  B5: data override,
+  B6: virus exploit.
+
+Story 4: A War Propaganda Simulator
+This game takes place in a setting where a war propaganda simulator. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: rally footage,
+  A2: viral slogan,
+  A3: defector clip,
+  A4: enemy failure montage,
+  A5: legend story,
+  A6: children's cartoon.
+
+Player2 may counter with:
+  B1: counter-meme,
+  B2: fact-check leak,
+  B3: rival anthem,
+  B4: influencer shift,
+  B5: censorship strike,
+  B6: mascot satire.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=25, A2=30, A3=35, A4=40, A5=45, A6=50],
+    "Player2": [B1=2, B2=3, B3=4, B4=5, B5=6, B6=7]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
+  Player1: 30, Player2: 6
+  Average = (30 + 6) / 2 = 18.0
+  Adjusted Payoffs = [Player1: 12.0, Player2: -12.0]
+This ensures the outcome remains zero-sum.
+

@@ -1,0 +1,95 @@
+Story 1: A Space Station Quarantine Breach
+This game takes place in a setting where a space station quarantine breach. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: airlock freeze,
+  A2: crew tracking,
+  A3: virus scent lure,
+  A4: code lock override,
+  A5: dock mislabel,
+  A6: decoy med suit.
+
+Player2 may counter with:
+  B1: breach siren,
+  B2: lab report leak,
+  B3: capsule jettison,
+  B4: security override,
+  B5: injector scan,
+  B6: crowd protocol.
+
+Story 2: An Ai Art Copyright Trial
+This game takes place in a setting where an AI art copyright trial. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: dataset audit,
+  A2: creative intent argument,
+  A3: author signature prompt,
+  A4: training bias exposure,
+  A5: historical precedent,
+  A6: public domain loop.
+
+Player2 may counter with:
+  B1: originality claim,
+  B2: fair use case,
+  B3: artist alliance,
+  B4: image leak,
+  B5: prompt transcript,
+  B6: emotional appeal.
+
+Story 3: A Biotech Infiltration Thriller
+This game takes place in a setting where a biotech infiltration thriller. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: lab coat swipe,
+  A2: retinal spoof,
+  A3: genome map clone,
+  A4: vent sneak,
+  A5: vial swap,
+  A6: fake patient file.
+
+Player2 may counter with:
+  B1: cold vault scan,
+  B2: airlock log,
+  B3: syringe match,
+  B4: power flicker,
+  B5: name alert,
+  B6: breach pulse.
+
+Story 4: A Rival Ghost Hunting Tv Show
+This game takes place in a setting where a rival ghost hunting TV show. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: thermal cam reveal,
+  A2: EMF reader,
+  A3: seance bluff,
+  A4: ghost actor,
+  A5: night vision duel,
+  A6: noise trap edit.
+
+Player2 may counter with:
+  B1: spirit debunk,
+  B2: camera cross feed,
+  B3: fanbase revolt,
+  B4: haunted history record,
+  B5: prop expose,
+  B6: fake scream sync.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=1, A2=1, A3=1, A4=1, A5=1, A6=25],
+    "Player2": [B1=2, B2=2, B3=2, B4=2, B5=2, B6=30]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
+  Player1: 1, Player2: 2
+  Average = (1 + 2) / 2 = 1.5
+  Adjusted Payoffs = [Player1: -0.5, Player2: 0.5]
+This ensures the outcome remains zero-sum.
+

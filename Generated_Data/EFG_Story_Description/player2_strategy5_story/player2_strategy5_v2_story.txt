@@ -1,0 +1,83 @@
+Story 1: A Wildlife Documentary Shoot
+In this unique scenario, the conflict unfolds in the context of a wildlife documentary shoot.
+Player1 selects from:
+  A1: drone camera,
+  A2: scent bait,
+  A3: infrared trap,
+  A4: night vision trek,
+  A5: tree canopy hideout.
+Player2 counters with:
+  B1: sound camouflage,
+  B2: thermal net,
+  B3: time-lapse rig,
+  B4: weather adaptation,
+  B5: nest tagging.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 2: A Vr Game Design Contest
+In this unique scenario, the conflict unfolds in the context of a VR game design contest.
+Player1 selects from:
+  A1: physics puzzle,
+  A2: horror jump scares,
+  A3: memory loop,
+  A4: stealth levels,
+  A5: time-bending plot.
+Player2 counters with:
+  B1: haptic suits,
+  B2: eye-tracking,
+  B3: social leaderboard,
+  B4: AR merge,
+  B5: streamer boost.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 3: A Robotics Rescue Challenge
+In this unique scenario, the conflict unfolds in the context of a robotics rescue challenge.
+Player1 selects from:
+  A1: fire extinguishing bot,
+  A2: terrain climbing bot,
+  A3: human detection,
+  A4: relay drone,
+  A5: modular AI.
+Player2 counters with:
+  B1: debris mapping,
+  B2: emergency beacon,
+  B3: obstacle surprise,
+  B4: collapse simulation,
+  B5: GPS blackout.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 4: An Indie Game Speedrun Tournament
+In this unique scenario, the conflict unfolds in the context of an indie game speedrun tournament.
+Player1 selects from:
+  A1: glitch skip,
+  A2: reverse input,
+  A3: perfect frame dash,
+  A4: RNG manipulation,
+  A5: stealth pacifist route.
+Player2 counters with:
+  B1: time penalty event,
+  B2: random enemy AI,
+  B3: stage remix,
+  B4: fog overlay,
+  B5: dev commentary mod.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=10, A2=25, A3=50, A4=75, A5=100],
+    "Player2": [B1=95, B2=35, B3=60, B4=20, B5=85]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
+  Player1: 25, Player2: 20
+  Average = (25 + 20) / 2 = 22.5
+  Adjusted Payoffs = [Player1: 2.5, Player2: -2.5]
+This ensures the total payoff remains zero-sum.
+

@@ -1,0 +1,95 @@
+Story 1: A Disaster Relief Coordination Sim
+This game takes place in a setting where a disaster relief coordination sim. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: airlift plan,
+  A2: hospital triage,
+  A3: data route share,
+  A4: backup power relay,
+  A5: med drone launch,
+  A6: shelter cluster.
+
+Player2 may counter with:
+  B1: road collapse,
+  B2: comms tower fail,
+  B3: team mix-up,
+  B4: rumor panic,
+  B5: resource raid,
+  B6: time constraint.
+
+Story 2: A Spy Interrogation Standoff
+This game takes place in a setting where a spy interrogation standoff. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: family pressure card,
+  A2: timed silence,
+  A3: planted audio,
+  A4: emotional trigger,
+  A5: truth serum bluff,
+  A6: false ID leak.
+
+Player2 may counter with:
+  B1: memory redaction,
+  B2: eye twitch monitor,
+  B3: escape attempt,
+  B4: loyalty mantra,
+  B5: fake confession,
+  B6: agent tag.
+
+Story 3: A Mind Maze Puzzle Competition
+This game takes place in a setting where a mind maze puzzle competition. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: door math riddle,
+  A2: scent path,
+  A3: backwards mirror cue,
+  A4: compass hallucination,
+  A5: spinning gate,
+  A6: dream logic leap.
+
+Player2 may counter with:
+  B1: sensory overload,
+  B2: countdown glitch,
+  B3: trap door shift,
+  B4: light frequency block,
+  B5: color symbol swap,
+  B6: noise distraction.
+
+Story 4: A Deep Space Beacon Relay Challenge
+This game takes place in a setting where a deep space beacon relay challenge. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: solar flare piggyback,
+  A2: neutrino burst,
+  A3: pulsar align,
+  A4: wormhole echo,
+  A5: black hole ping,
+  A6: quantum pulse beacon.
+
+Player2 may counter with:
+  B1: phase delay,
+  B2: magnetic field swing,
+  B3: asteroid scatter,
+  B4: cosmic ray distortion,
+  B5: signal jam cloud,
+  B6: lost coordinate drift.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=5, A2=6, A3=7, A4=6, A5=5, A6=4],
+    "Player2": [B1=5, B2=4, B3=3, B4=4, B5=5, B6=6]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
+  Player1: 6, Player2: 5
+  Average = (6 + 5) / 2 = 5.5
+  Adjusted Payoffs = [Player1: 0.5, Player2: -0.5]
+This ensures the outcome remains zero-sum.
+

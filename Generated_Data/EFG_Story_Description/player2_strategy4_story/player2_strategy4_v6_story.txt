@@ -1,0 +1,42 @@
+Story 1: A Drone Combat Simulation
+In this unique scenario, the competition unfolds in the context of a drone combat simulation.
+Player1 must choose one of four tactics: A1: evasive loop, A2: auto-lock missile, A3: terrain nap, or A4: counter-jamming.
+Meanwhile, Player2 must also decide among B1: flare deploy, B2: swarm launch, B3: stealth shield, or B4: decoy clone.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 2: A Film Director'S Shootout
+In this unique scenario, the competition unfolds in the context of a film director's shootout.
+Player1 must choose one of four tactics: A1: rewrite script, A2: shoot new ending, A3: change lead actor, or A4: add dream sequence.
+Meanwhile, Player2 must also decide among B1: increase budget, B2: cut runtime, B3: change soundtrack, or B4: alter color grade.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 3: A Fashion Week Debut
+In this unique scenario, the competition unfolds in the context of a fashion week debut.
+Player1 must choose one of four tactics: A1: bold prints, A2: sustainable fabric, A3: asymmetrical cuts, or A4: nostalgic throwback.
+Meanwhile, Player2 must also decide among B1: influencer runway, B2: digital backstage, B3: interactive voting, or B4: afterparty promo.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 4: A Hacker Convention Duel
+In this unique scenario, the competition unfolds in the context of a hacker convention duel.
+Player1 must choose one of four tactics: A1: code obfuscation, A2: exploit leak, A3: deepfake bypass, or A4: botnet wave.
+Meanwhile, Player2 must also decide among B1: encrypt vault, B2: trace relay, B3: ban IP, or B4: live patch.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=5, A2=6, A3=4, A4=5],
+    "Player2": [B1=5, B2=4, B3=6, B4=5]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B3 (index 2):
+  Player1: 6, Player2: 6
+  Average = (6 + 6) / 2 = 6.0
+  Adjusted Payoffs = [Player1: 0.0, Player2: 0.0]
+

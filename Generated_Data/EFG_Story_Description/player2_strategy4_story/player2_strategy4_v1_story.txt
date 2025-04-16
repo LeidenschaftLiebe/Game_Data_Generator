@@ -1,0 +1,42 @@
+Story 1: A Medieval Siege
+In this unique scenario, the competition unfolds in the context of a medieval siege.
+Player1 must choose one of four tactics: A1: battering ram, A2: archers on the wall, A3: underground tunnel, or A4: frontal assault.
+Meanwhile, Player2 must also decide among B1: boiling oil, B2: reinforce gate, B3: surprise sortie, or B4: collapsing bridge.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 2: A Global Climate Summit
+In this unique scenario, the competition unfolds in the context of a global climate summit.
+Player1 must choose one of four tactics: A1: carbon tax, A2: reforestation plan, A3: renewable energy subsidies, or A4: climate tech fund.
+Meanwhile, Player2 must also decide among B1: cap-and-trade, B2: nuclear investment, B3: international carbon market, or B4: emissions moratorium.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 3: A Bank Heist Operation
+In this unique scenario, the competition unfolds in the context of a bank heist operation.
+Player1 must choose one of four tactics: A1: disable cameras, A2: distract guard, A3: drill vault, or A4: getaway plan.
+Meanwhile, Player2 must also decide among B1: alarm trigger, B2: time lock, B3: silent signal, or B4: backup squad.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 4: A Fantasy Gladiator Arena
+In this unique scenario, the competition unfolds in the context of a fantasy gladiator arena.
+Player1 must choose one of four tactics: A1: sword slash, A2: shield bash, A3: leap strike, or A4: elemental magic.
+Meanwhile, Player2 must also decide among B1: dragon breath, B2: parry counter, B3: invisibility blink, or B4: double strike.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=0, A2=1, A3=2, A4=3],
+    "Player2": [B1=3, B2=2, B3=1, B4=0]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B3 (index 2):
+  Player1: 1, Player2: 1
+  Average = (1 + 1) / 2 = 1.0
+  Adjusted Payoffs = [Player1: 0.0, Player2: 0.0]
+

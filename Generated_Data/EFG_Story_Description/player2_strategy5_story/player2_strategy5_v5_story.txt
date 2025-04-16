@@ -1,0 +1,83 @@
+Story 1: A Comic-Con Cosplay Deathmatch
+In this unique scenario, the conflict unfolds in the context of a comic-con cosplay deathmatch.
+Player1 selects from:
+  A1: LED wings,
+  A2: mechanical tail,
+  A3: 3D printed armor,
+  A4: foam weaponry,
+  A5: live voice mod.
+Player2 counters with:
+  B1: prop malfunction,
+  B2: fan vote boost,
+  B3: viral walk,
+  B4: meme attack,
+  B5: character quiz.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 2: A Haunted Amusement Park Puzzle
+In this unique scenario, the conflict unfolds in the context of a haunted amusement park puzzle.
+Player1 selects from:
+  A1: haunted house logic,
+  A2: funhouse mirror cipher,
+  A3: ghost carousel clue,
+  A4: Ferris code wheel,
+  A5: ride scream pitch.
+Player2 counters with:
+  B1: fog blinder,
+  B2: scare skip,
+  B3: timer reverse,
+  B4: spooky voice hint,
+  B5: illusion loop.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 3: A Renaissance Fair Duel
+In this unique scenario, the conflict unfolds in the context of a renaissance fair duel.
+Player1 selects from:
+  A1: saber parry,
+  A2: bow and chant,
+  A3: armored tackle,
+  A4: courtly insult,
+  A5: bear bait distraction.
+Player2 counters with:
+  B1: trumpet blast,
+  B2: crowd boo,
+  B3: jester trick,
+  B4: chicken escape,
+  B5: tent collapse.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 4: A Surreal Dream Escape Room
+In this unique scenario, the conflict unfolds in the context of a surreal dream escape room.
+Player1 selects from:
+  A1: whisper password,
+  A2: walk backward,
+  A3: sing memory tune,
+  A4: mirror stare,
+  A5: fall up.
+Player2 counters with:
+  B1: clock run,
+  B2: maze echo,
+  B3: firefly code,
+  B4: infinite hallway,
+  B5: paradox loop.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=4, A2=-2, A3=3, A4=-1, A5=5],
+    "Player2": [B1=-3, B2=6, B3=-4, B4=2, B5=-5]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
+  Player1: -2, Player2: 2
+  Average = (-2 + 2) / 2 = 0.0
+  Adjusted Payoffs = [Player1: -2.0, Player2: 2.0]
+This ensures the total payoff remains zero-sum.
+

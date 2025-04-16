@@ -1,0 +1,95 @@
+Story 1: A Teleportation Tech Demo
+This game takes place in a setting where a teleportation tech demo. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: phase tunnel jump,
+  A2: human cargo test,
+  A3: object cloning,
+  A4: memory coherence,
+  A5: time-sync pulse,
+  A6: doorless entry.
+
+Player2 may counter with:
+  B1: energy loss distortion,
+  B2: bug report broadcast,
+  B3: ethics query,
+  B4: misroute warning,
+  B5: disintegration rumor,
+  B6: refund burst.
+
+Story 2: A Climate Disaster Political Summit
+This game takes place in a setting where a climate disaster political summit. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: climate reparation bill,
+  A2: carbon passport,
+  A3: fossil divestment,
+  A4: floodwall funding,
+  A5: solar geoengineering,
+  A6: climate war pact.
+
+Player2 may counter with:
+  B1: veto threat,
+  B2: greenwash trap,
+  B3: border heat riot,
+  B4: timeline pushback,
+  B5: desertification projection,
+  B6: crisis leak.
+
+Story 3: A Magical Forest Border Patrol
+This game takes place in a setting where a magical forest border patrol. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: root trap,
+  A2: owl spy,
+  A3: camouflage shroud,
+  A4: moonlit chant,
+  A5: scent mislead,
+  A6: barkskin decoy.
+
+Player2 may counter with:
+  B1: fairy scout,
+  B2: druid call,
+  B3: whisper net,
+  B4: truth pollen,
+  B5: treetop sweep,
+  B6: illusion flare.
+
+Story 4: A Genetic Engineering Ethics Court
+This game takes place in a setting where a genetic engineering ethics court. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: embryo edit defense,
+  A2: cure-by-design case,
+  A3: eugenics denial,
+  A4: family consent clause,
+  A5: public good model,
+  A6: genetic justice principle.
+
+Player2 may counter with:
+  B1: survivor testimony,
+  B2: gene class discrimination,
+  B3: test lab failure,
+  B4: truth archive,
+  B5: amendment clause,
+  B6: lawmaker testimony.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=18, A2=15, A3=12, A4=9, A5=6, A6=3],
+    "Player2": [B1=10, B2=8, B3=6, B4=4, B5=2, B6=0]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
+  Player1: 15, Player2: 2
+  Average = (15 + 2) / 2 = 8.5
+  Adjusted Payoffs = [Player1: 6.5, Player2: -6.5]
+This ensures the outcome remains zero-sum.
+

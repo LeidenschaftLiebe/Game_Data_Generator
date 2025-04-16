@@ -1,0 +1,40 @@
+Story 1: A Jungle Obstacle Race
+In a compelling contest set in a jungle obstacle race, Player1 faces a trio of decisions: A1: climb vines, A2: dash logs, and A3: swim river.
+Across the board, Player2 counters with their own tactical arsenal: B1: shortcut leap, B2: safe crawl, and B3: river paddle.
+Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+
+Story 2: A Musical Trio Faceoff
+In a compelling contest set in a musical trio faceoff, Player1 faces a trio of decisions: A1: violin solo, A2: jazz riff, and A3: beat drop.
+Across the board, Player2 counters with their own tactical arsenal: B1: tempo change, B2: chord switch, and B3: harmony counter.
+Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+
+Story 3: A Corporate Merger War
+In a compelling contest set in a corporate merger war, Player1 faces a trio of decisions: A1: leverage debt, A2: offer equity, and A3: PR campaign.
+Across the board, Player2 counters with their own tactical arsenal: B1: market pressure, B2: insider leak, and B3: buyback splash.
+Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+
+Story 4: A Sci-Fi Spaceship Skirmish
+In a compelling contest set in a sci-fi spaceship skirmish, Player1 faces a trio of decisions: A1: plasma beam, A2: warp escape, and A3: EMP strike.
+Across the board, Player2 counters with their own tactical arsenal: B1: drone swarm, B2: shield deploy, and B3: tractor pull.
+Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=0, A2=1, A3=2],
+    "Player2": [B1=2, B2=1, B3=0]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A1 (index 0) and Player2 selects B2 (index 1), we get:
+  base_payoffs['Player1'][0] = 0
+  base_payoffs['Player2'][1] = 1
+  Average = (0 + 1) / 2 = 0.5
+  Adjusted Payoffs = [Player1: -0.5, Player2: 0.5]
+This ensures the total payoff always sums to zero.
+

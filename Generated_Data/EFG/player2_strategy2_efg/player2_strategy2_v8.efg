@@ -1,0 +1,10 @@
+EFG 2 R "Two-player zero-sum V8 - Skewed toward P1" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "A1" "A2" } 0
+p "" 2 1 "" { "B1" "B2" } 0
+t "" 1 "Outcome_V8_00" { 4.5, -4.5 }
+t "" 2 "Outcome_V8_01" { 4.0, -4.0 }
+p "" 2 2 "" { "B1" "B2" } 0
+t "" 3 "Outcome_V8_10" { 7.0, -7.0 }
+t "" 4 "Outcome_V8_11" { 6.5, -6.5 }

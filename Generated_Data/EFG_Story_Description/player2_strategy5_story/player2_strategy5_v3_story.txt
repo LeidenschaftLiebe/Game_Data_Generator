@@ -1,0 +1,83 @@
+Story 1: A Culinary Fusion Food War
+In this unique scenario, the conflict unfolds in the context of a culinary fusion food war.
+Player1 selects from:
+  A1: kimchi quesadilla,
+  A2: wasabi mac & cheese,
+  A3: mole ramen,
+  A4: jerk curry taco,
+  A5: sushi burger.
+Player2 counters with:
+  B1: plating obstacle,
+  B2: surprise vegan twist,
+  B3: ancestral origin judge,
+  B4: social vote,
+  B5: spice endurance.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 2: A Psychological Thriller Simulation
+In this unique scenario, the conflict unfolds in the context of a psychological thriller simulation.
+Player1 selects from:
+  A1: secret alliance,
+  A2: fake alibi,
+  A3: delayed reaction,
+  A4: guilt trap,
+  A5: journal reveal.
+Player2 counters with:
+  B1: lie detector fail,
+  B2: empathy probe,
+  B3: hallucination twist,
+  B4: loop memory,
+  B5: shadow figure.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 3: A Cross-Cultural Wedding Planner Duel
+In this unique scenario, the conflict unfolds in the context of a cross-cultural wedding planner duel.
+Player1 selects from:
+  A1: food fusion menu,
+  A2: bilingual ceremony,
+  A3: mixed attire style,
+  A4: joint family dance,
+  A5: hybrid rituals.
+Player2 counters with:
+  B1: venue clash,
+  B2: grandma objection,
+  B3: dress code debate,
+  B4: officiant confusion,
+  B5: time zone mishap.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 4: A Hacker Vs. Counter-Hacker Live Match
+In this unique scenario, the conflict unfolds in the context of a hacker vs. counter-hacker live match.
+Player1 selects from:
+  A1: DDOS spike,
+  A2: login brute,
+  A3: URL bait,
+  A4: database ransom,
+  A5: false zero-day.
+Player2 counters with:
+  B1: honeypot,
+  B2: trace route,
+  B3: logic bomb,
+  B4: patch bait,
+  B5: user lockout.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=-1, A2=-3, A3=-5, A4=-2, A5=-4],
+    "Player2": [B1=-4, B2=-2, B3=-6, B4=-1, B5=-3]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
+  Player1: -3, Player2: -1
+  Average = (-3 + -1) / 2 = -2.0
+  Adjusted Payoffs = [Player1: -1.0, Player2: 1.0]
+This ensures the total payoff remains zero-sum.
+

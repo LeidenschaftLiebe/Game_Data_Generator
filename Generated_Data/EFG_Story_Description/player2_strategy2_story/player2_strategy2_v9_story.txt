@@ -1,0 +1,28 @@
+Story 1: A Winter Survival Game
+During this dramatic face-off, Player1 must decide between A1: igloo shelter and A2: snowshoe sprint, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: flare signal or B2: ice fishing, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a winter survival game mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 2: A Monster Hunting Quest
+In the heat of the game, Player1 must decide between A1: trap bait and A2: magic weapon, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: roar bait or B2: decoy luring, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a monster hunting quest mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 3: A Drone Obstacle Course
+As anticipation builds, Player1 must decide between A1: narrow tunnel and A2: low altitude fly, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: hover precision or B2: boost dash, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a drone obstacle course mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 4: A Zoo Exhibit Planning
+In this high-stakes match, Player1 must decide between A1: endangered zone and A2: interactive petting, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: night cam feature or B2: open feeding demo, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a zoo exhibit planning mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Payoff Matrix (Base values shown as Player1, Player2):
+        B1      B2
+A1  (1, 2)
+A2  (2, 3)
+
+Payoff Adjustment Rule:
+The outcomes are shaped by a base payoff matrix, with adjustments made by subtracting the average of both players' base scores from each individual score. This ensures the result remains zero-sum, making each decision a strategic gamble.
+

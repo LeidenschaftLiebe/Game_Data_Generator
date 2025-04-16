@@ -1,0 +1,83 @@
+Story 1: A Museum Exhibit Battle
+In this unique scenario, the conflict unfolds in the context of a museum exhibit battle.
+Player1 selects from:
+  A1: reframe caption,
+  A2: swap artifact,
+  A3: mirror theft,
+  A4: climate sabotage,
+  A5: fake QR code.
+Player2 counters with:
+  B1: motion sensor,
+  B2: curator reveal,
+  B3: projection alarm,
+  B4: press alert,
+  B5: time lock.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 2: A Data Leak Blackmail Case
+In this unique scenario, the conflict unfolds in the context of a data leak blackmail case.
+Player1 selects from:
+  A1: encrypt archive,
+  A2: deepfake trap,
+  A3: public leak,
+  A4: whistleblower redirect,
+  A5: wipe trace.
+Player2 counters with:
+  B1: media leak,
+  B2: hostage dump,
+  B3: counter hack,
+  B4: bot smear,
+  B5: safe house trace.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 3: A Virtual Fashion Catwalk
+In this unique scenario, the conflict unfolds in the context of a virtual fashion catwalk.
+Player1 selects from:
+  A1: morphing dress,
+  A2: neon coat,
+  A3: body-reactive fabric,
+  A4: 3D heels,
+  A5: avatar mirror walk.
+Player2 counters with:
+  B1: catwalk glitch,
+  B2: sparkle overload,
+  B3: lag rewind,
+  B4: vote surge,
+  B5: social sim sabotage.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 4: A Martian Science Fair
+In this unique scenario, the conflict unfolds in the context of a Martian science fair.
+Player1 selects from:
+  A1: soil bacteria chip,
+  A2: rover rebuild,
+  A3: crop dome hack,
+  A4: oxygen balloon,
+  A5: Martian weather sim.
+Player2 counters with:
+  B1: judge probe,
+  B2: radio jamming,
+  B3: lab sabotage,
+  B4: demo crash,
+  B5: team betrayal.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=15, A2=12, A3=9, A4=6, A5=3],
+    "Player2": [B1=10, B2=8, B3=6, B4=4, B5=2]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
+  Player1: 12, Player2: 4
+  Average = (12 + 4) / 2 = 8.0
+  Adjusted Payoffs = [Player1: 4.0, Player2: -4.0]
+This ensures the total payoff remains zero-sum.
+

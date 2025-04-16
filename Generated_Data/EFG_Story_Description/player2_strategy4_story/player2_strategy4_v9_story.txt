@@ -1,0 +1,42 @@
+Story 1: A Robotics Soccer Match
+In this unique scenario, the competition unfolds in the context of a robotics soccer match.
+Player1 must choose one of four tactics: A1: goal snipe, A2: flank pass, A3: kick flip, or A4: mid-air block.
+Meanwhile, Player2 must also decide among B1: goalie upgrade, B2: obstacle ram, B3: double bot, or B4: override AI.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 2: A Philosophical Symposium
+In this unique scenario, the competition unfolds in the context of a philosophical symposium.
+Player1 must choose one of four tactics: A1: free will claim, A2: moral realism, A3: panpsychism, or A4: simulation argument.
+Meanwhile, Player2 must also decide among B1: Socratic counter, B2: citation overload, B3: logical paradox, or B4: Kantian block.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 3: A Zoo Enrichment Design
+In this unique scenario, the competition unfolds in the context of a zoo enrichment design.
+Player1 must choose one of four tactics: A1: bamboo puzzle, A2: scent track, A3: foraging box, or A4: climb net.
+Meanwhile, Player2 must also decide among B1: mirror enrichment, B2: timed feeder, B3: moving log, or B4: cold treat.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 4: A Mobile Game Launch
+In this unique scenario, the competition unfolds in the context of a mobile game launch.
+Player1 must choose one of four tactics: A1: loot box drop, A2: teaser ad, A3: PvP mode, or A4: event skins.
+Meanwhile, Player2 must also decide among B1: Reddit AMA, B2: streamer pack, B3: patch notes, or B4: delay drop.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=10, A2=-10, A3=10, A4=-10],
+    "Player2": [B1=-10, B2=10, B3=-10, B4=10]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B3 (index 2):
+  Player1: -10, Player2: -10
+  Average = (-10 + -10) / 2 = -10.0
+  Adjusted Payoffs = [Player1: 0.0, Player2: 0.0]
+

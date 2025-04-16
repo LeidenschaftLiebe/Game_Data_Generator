@@ -1,0 +1,28 @@
+Story 1: A Courtroom Trial
+During this dramatic face-off, Player1 must decide between A1: presenting legal documents and A2: making an emotional appeal, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: calling a surprise witness or B2: challenging the prosecution, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a courtroom trial mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 2: A Political Debate
+In the heat of the game, Player1 must decide between A1: proposing tax reform and A2: advocating universal healthcare, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: emphasizing education or B2: promoting green energy, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a political debate mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 3: A Cooking Contest
+As anticipation builds, Player1 must decide between A1: preparing a French entrée and A2: presenting a spicy fusion, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: decorating for plating or B2: enhancing with exotic spices, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a cooking contest mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 4: A Tech Product Pitch
+In this high-stakes match, Player1 must decide between A1: showing hardware prototype and A2: projecting market growth, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: live demo or B2: competitor comparison, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a tech product pitch mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Payoff Matrix (Base values shown as Player1, Player2):
+        B1      B2
+A1  (0, 1)
+A2  (1, 0)
+
+Payoff Adjustment Rule:
+The outcomes are shaped by a base payoff matrix, with adjustments made by subtracting the average of both players' base scores from each individual score. This ensures the result remains zero-sum, making each decision a strategic gamble.
+

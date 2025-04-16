@@ -1,0 +1,162 @@
+Version 1: "Market Micro-Moves" – A Digital Trading Competition
+In a futuristic virtual stock exchange, three AI-powered trading bots compete daily for micro-gains in a tightly regulated environment.
+
+Player1 represents a bot focusing on high-frequency trading:
+
+A1 = Short-Term Arbitrage
+
+A2 = Predictive Pricing Model
+
+A3 = Dynamic Rebalancing
+
+Player2 uses news sentiment analysis:
+
+B1 = Breaking News Alert Mode
+
+B2 = Political Volatility Filter
+
+B3 = Quiet Market Mode
+
+Player3 is a crypto-specialist:
+
+C1 = Ethereum Derivatives
+
+C2 = NFT Futures
+
+C3 = Stablecoin Spread Optimization
+
+Every combination of strategies leads to subtle decimal-scale profits or losses — measured in digital points — where one bot’s advantage means others earn less. For instance, if Player1 chooses A2 (1.75) and Player2 picks B3 (1.12), Player3 might counter with C2 (2.67), shifting the balance in their favor.
+
+
+
+
+
+Version 2: "Space Race Diplomacy" – Martian Treaty Negotiations
+Three planetary factions meet on Mars to negotiate resource-sharing from a newly discovered mineral zone.
+
+Player1 (Earth Coalition):
+
+A1 = Offer 20% cut
+
+A2 = Share transport tech
+
+A3 = Withhold mining secrets
+
+Player2 (Lunar Trade Federation):
+
+B1 = Trade helium-3
+
+B2 = Propose time-limited access
+
+B3 = Block treaty unless paid
+
+Player3 (Asteroid Confederation):
+
+C1 = Offer orbital maps
+
+C2 = Threaten to build station
+
+C3 = Neutral stance
+
+Each move yields subtle influence scores — for example, Player2’s B1 (2.41) is aggressive and rewarding but vulnerable to C1 (1.04), a counter by Player3.
+
+The payoffs represent political capital — whoever gains more sway causes the others to lose ground.
+
+
+
+
+
+Version 3: "Indie Music Chart Battle"
+Three underground artists release singles on the same weekend. They each choose their marketing strategy:
+
+Player1:
+
+A1 = Local Club Tour
+
+A2 = TikTok Campaign
+
+A3 = Radio Interviews
+
+Player2:
+
+B1 = YouTube MV Premiere
+
+B2 = DJ Collaboration
+
+B3 = Merch Drop
+
+Player3:
+
+C1 = Street Posters
+
+C2 = Spotify Playlist Bribery
+
+C3 = SoundCloud Livestream
+
+The decimal payoffs represent fan engagement points. A combination like A2 + B3 + C2 leads to 1.75, 1.12, and 2.67 — the most viral moment for Player3, putting the others in the shadow. 
+
+
+
+
+
+Version 4: "Academic Grant Draft"
+Three research teams submit proposals for a prestigious innovation fund.
+
+Player1: AI + Ethics
+
+A1 = Focus on algorithm bias
+
+A2 = LLM alignment techniques
+
+A3 = Human-in-the-loop systems
+
+Player2: Environmental Tech
+
+B1 = Smart forest sensors
+
+B2 = Carbon capture modeling
+
+B3 = Agro-drone platforms
+
+Player3: Health Biotech
+
+C1 = CRISPR toolkit
+
+C2 = Pandemic prediction
+
+C3 = Nano drug delivery
+
+Reviewers distribute decimal scores to reflect marginal gains in appeal or innovation. Small changes in proposal emphasis yield shifts like 1.48 vs. 2.41 vs. 1.89 — precision matters. 
+
+
+
+
+
+Version 5: "Tabletop Strategy Duel: Guild Wars"
+In a steampunk fantasy realm, three guilds strategize in a tabletop skirmish.
+
+Player1 (Tinkerers’ Guild):
+
+A1 = Deploy clockwork turrets
+
+A2 = Hack enemy units
+
+A3 = Smoke bomb retreat
+
+Player2 (Alchemists’ Circle):
+
+B1 = Fire flask volley
+
+B2 = Regeneration elixir
+
+B3 = Poison mist deployment
+
+Player3 (Mystics’ Brotherhood):
+
+C1 = Cast confusion
+
+C2 = Summon shadow wraith
+
+C3 = Mind reading
+
+The decimal payoffs represent mana efficiency. When Player1 uses A3 (1.48) and Player2 drops B2 (1.96), a smart Player3 might use C3 (1.89) to balance the energy field and tilt the final result.

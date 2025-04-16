@@ -1,0 +1,83 @@
+Story 1: A Mars Colony Leadership Vote
+In this unique scenario, the conflict unfolds in the context of a Mars colony leadership vote.
+Player1 selects from:
+  A1: terraform support,
+  A2: resource rationing,
+  A3: AI governance,
+  A4: crew rotation,
+  A5: trade pact.
+Player2 counters with:
+  B1: orbital defense,
+  B2: Earth diplomacy,
+  B3: water mining,
+  B4: lab expansion,
+  B5: mission veto.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 2: A Haunted Hotel Mystery
+In this unique scenario, the conflict unfolds in the context of a haunted hotel mystery.
+Player1 selects from:
+  A1: inspect attic,
+  A2: decode journal,
+  A3: exorcise room,
+  A4: trap ghost,
+  A5: interview staff.
+Player2 counters with:
+  B1: reset power,
+  B2: check surveillance,
+  B3: interrogate guest,
+  B4: read guestbook,
+  B5: unlock basement.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 3: A Startup Investor Pitch Marathon
+In this unique scenario, the conflict unfolds in the context of a startup investor pitch marathon.
+Player1 selects from:
+  A1: traction graph,
+  A2: viral video,
+  A3: user testimonial,
+  A4: demo live,
+  A5: stealth exit strategy.
+Player2 counters with:
+  B1: valuation challenge,
+  B2: ask for roadmap,
+  B3: product critique,
+  B4: funding match,
+  B5: legal red flag.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Story 4: A Medieval Naval War Game
+In this unique scenario, the conflict unfolds in the context of a medieval naval war game.
+Player1 selects from:
+  A1: fire ship ambush,
+  A2: boarding attack,
+  A3: weather magic,
+  A4: ramming maneuver,
+  A5: false surrender.
+Player2 counters with:
+  B1: port blockade,
+  B2: sea mines,
+  B3: wind disruption,
+  B4: fleet decoy,
+  B5: fog escape.
+The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=0, A2=1, A3=2, A4=3, A5=4],
+    "Player2": [B1=4, B2=3, B3=2, B4=1, B5=0]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
+  Player1: 1, Player2: 1
+  Average = (1 + 1) / 2 = 1.0
+  Adjusted Payoffs = [Player1: 0.0, Player2: 0.0]
+This ensures the total payoff remains zero-sum.
+

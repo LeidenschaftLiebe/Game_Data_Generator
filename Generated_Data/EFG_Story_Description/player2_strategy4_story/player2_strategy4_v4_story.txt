@@ -1,0 +1,42 @@
+Story 1: A Historical Treaty Negotiation
+In this unique scenario, the competition unfolds in the context of a historical treaty negotiation.
+Player1 must choose one of four tactics: A1: border concession, A2: economic aid, A3: ceasefire line, or A4: cultural exchange.
+Meanwhile, Player2 must also decide among B1: third-party mediation, B2: time limit demand, B3: troop withdrawal, or B4: alliance clause.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 2: A World Cuisine Cook-Off
+In this unique scenario, the competition unfolds in the context of a world cuisine cook-off.
+Player1 must choose one of four tactics: A1: Italian risotto, A2: Thai curry, A3: Mexican tacos, or A4: Japanese sushi.
+Meanwhile, Player2 must also decide among B1: spice level test, B2: plating artistry, B3: local ingredient use, or B4: fusion twist.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 3: A Time Travel Experiment
+In this unique scenario, the competition unfolds in the context of a time travel experiment.
+Player1 must choose one of four tactics: A1: stabilize wormhole, A2: encrypt timeline, A3: anchor consciousness, or A4: quantum tether.
+Meanwhile, Player2 must also decide among B1: create paradox, B2: backup reality, B3: jump delay, or B4: AI override.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Story 4: A Luxury Hotel Management Game
+In this unique scenario, the competition unfolds in the context of a luxury hotel management game.
+Player1 must choose one of four tactics: A1: upgrade spa, A2: celebrity chef, A3: VIP suite remodel, or A4: concierge AI.
+Meanwhile, Player2 must also decide among B1: raise prices, B2: hire influencer, B3: add rooftop lounge, or B4: launch app.
+Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=4, A2=6, A3=5, A4=3],
+    "Player2": [B1=30, B2=50, B3=60, B4=70]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B3 (index 2):
+  Player1: 6, Player2: 60
+  Average = (6 + 60) / 2 = 33.0
+  Adjusted Payoffs = [Player1: -27.0, Player2: 27.0]
+

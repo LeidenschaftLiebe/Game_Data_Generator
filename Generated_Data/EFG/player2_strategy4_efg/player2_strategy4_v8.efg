@@ -1,0 +1,24 @@
+EFG 2 R "Two-player zero-sum V8 - Monotonic descending" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "A1" "A2" "A3" "A4" } 0
+p "" 2 1 "" { "B1" "B2" "B3" "B4" } 0
+t "" 1 "Outcome_V8_00" { 2.0, -2.0 }
+t "" 2 "Outcome_V8_01" { 3.5, -3.5 }
+t "" 3 "Outcome_V8_02" { 5.0, -5.0 }
+t "" 4 "Outcome_V8_03" { 6.0, -6.0 }
+p "" 2 2 "" { "B1" "B2" "B3" "B4" } 0
+t "" 5 "Outcome_V8_10" { 0.5, -0.5 }
+t "" 6 "Outcome_V8_11" { 2.0, -2.0 }
+t "" 7 "Outcome_V8_12" { 3.5, -3.5 }
+t "" 8 "Outcome_V8_13" { 4.5, -4.5 }
+p "" 2 3 "" { "B1" "B2" "B3" "B4" } 0
+t "" 9 "Outcome_V8_20" { -1.0, 1.0 }
+t "" 10 "Outcome_V8_21" { 0.5, -0.5 }
+t "" 11 "Outcome_V8_22" { 2.0, -2.0 }
+t "" 12 "Outcome_V8_23" { 3.0, -3.0 }
+p "" 2 4 "" { "B1" "B2" "B3" "B4" } 0
+t "" 13 "Outcome_V8_30" { -2.5, 2.5 }
+t "" 14 "Outcome_V8_31" { -1.0, 1.0 }
+t "" 15 "Outcome_V8_32" { 0.5, -0.5 }
+t "" 16 "Outcome_V8_33" { 1.5, -1.5 }

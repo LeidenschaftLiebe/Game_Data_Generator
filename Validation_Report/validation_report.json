@@ -1,0 +1,960 @@
+{
+  "metadata": {
+    "start_time": "2025-04-14 08:15:43",
+    "duration": 3.49,
+    "total_files": 190,
+    "valid_files": 190
+  },
+  "details": {
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy3_efg\\player3_strategy3_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy3_efg\\player3_strategy3_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy3_efg\\player3_strategy3_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy3_efg\\player3_strategy3_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy3_efg\\player3_strategy3_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy3_efg\\player3_strategy3_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy3_efg\\player3_strategy3_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy3_efg\\player3_strategy3_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy3_efg\\player3_strategy3_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy3_efg\\player3_strategy3_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy4_efg\\player3_strategy4_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy4_efg\\player3_strategy4_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy4_efg\\player3_strategy4_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy4_efg\\player3_strategy4_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy4_efg\\player3_strategy4_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy4_efg\\player3_strategy4_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy4_efg\\player3_strategy4_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy4_efg\\player3_strategy4_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy4_efg\\player3_strategy4_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player3_strategy4_efg\\player3_strategy4_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy3_efg\\player4_strategy3_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy3_efg\\player4_strategy3_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy3_efg\\player4_strategy3_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy3_efg\\player4_strategy3_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy3_efg\\player4_strategy3_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy3_efg\\player4_strategy3_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy3_efg\\player4_strategy3_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy3_efg\\player4_strategy3_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy3_efg\\player4_strategy3_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy3_efg\\player4_strategy3_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy4_efg\\player4_strategy4_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy4_efg\\player4_strategy4_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy4_efg\\player4_strategy4_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy4_efg\\player4_strategy4_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy4_efg\\player4_strategy4_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy4_efg\\player4_strategy4_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy4_efg\\player4_strategy4_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy4_efg\\player4_strategy4_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy4_efg\\player4_strategy4_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player4_strategy4_efg\\player4_strategy4_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:43"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy10_efg\\player2_strategy10_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy10_efg\\player2_strategy10_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy10_efg\\player2_strategy10_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy10_efg\\player2_strategy10_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy10_efg\\player2_strategy10_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy10_efg\\player2_strategy10_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy10_efg\\player2_strategy10_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy10_efg\\player2_strategy10_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy10_efg\\player2_strategy10_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy10_efg\\player2_strategy10_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy11_efg\\player2_strategy11_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy11_efg\\player2_strategy11_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy11_efg\\player2_strategy11_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy11_efg\\player2_strategy11_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy11_efg\\player2_strategy11_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy11_efg\\player2_strategy11_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy11_efg\\player2_strategy11_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy11_efg\\player2_strategy11_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy11_efg\\player2_strategy11_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy11_efg\\player2_strategy11_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy12_efg\\player2_strategy12_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy12_efg\\player2_strategy12_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy12_efg\\player2_strategy12_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy12_efg\\player2_strategy12_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy12_efg\\player2_strategy12_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy12_efg\\player2_strategy12_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy12_efg\\player2_strategy12_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy12_efg\\player2_strategy12_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy12_efg\\player2_strategy12_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy12_efg\\player2_strategy12_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy13_efg\\player2_strategy13_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy13_efg\\player2_strategy13_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy13_efg\\player2_strategy13_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy13_efg\\player2_strategy13_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy13_efg\\player2_strategy13_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy13_efg\\player2_strategy13_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy13_efg\\player2_strategy13_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy13_efg\\player2_strategy13_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy13_efg\\player2_strategy13_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy13_efg\\player2_strategy13_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy14_efg\\player2_strategy14_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy14_efg\\player2_strategy14_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy14_efg\\player2_strategy14_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy14_efg\\player2_strategy14_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy14_efg\\player2_strategy14_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy14_efg\\player2_strategy14_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy14_efg\\player2_strategy14_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy14_efg\\player2_strategy14_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy14_efg\\player2_strategy14_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy14_efg\\player2_strategy14_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy15_efg\\player2_strategy15_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy15_efg\\player2_strategy15_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy15_efg\\player2_strategy15_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:44"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy15_efg\\player2_strategy15_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy15_efg\\player2_strategy15_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy15_efg\\player2_strategy15_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy15_efg\\player2_strategy15_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy15_efg\\player2_strategy15_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy15_efg\\player2_strategy15_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy15_efg\\player2_strategy15_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy16_efg\\player2_strategy16_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy16_efg\\player2_strategy16_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy16_efg\\player2_strategy16_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy16_efg\\player2_strategy16_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy16_efg\\player2_strategy16_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy16_efg\\player2_strategy16_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy16_efg\\player2_strategy16_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy16_efg\\player2_strategy16_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy16_efg\\player2_strategy16_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy16_efg\\player2_strategy16_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy2_efg\\player2_strategy2_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy2_efg\\player2_strategy2_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy2_efg\\player2_strategy2_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy2_efg\\player2_strategy2_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy2_efg\\player2_strategy2_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy2_efg\\player2_strategy2_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy2_efg\\player2_strategy2_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy2_efg\\player2_strategy2_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy2_efg\\player2_strategy2_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy2_efg\\player2_strategy2_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy3_efg\\player2_strategy3_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy3_efg\\player2_strategy3_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy3_efg\\player2_strategy3_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy3_efg\\player2_strategy3_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy3_efg\\player2_strategy3_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy3_efg\\player2_strategy3_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy3_efg\\player2_strategy3_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy3_efg\\player2_strategy3_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy3_efg\\player2_strategy3_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy3_efg\\player2_strategy3_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy4_efg\\player2_strategy4_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy4_efg\\player2_strategy4_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy4_efg\\player2_strategy4_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy4_efg\\player2_strategy4_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy4_efg\\player2_strategy4_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy4_efg\\player2_strategy4_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy4_efg\\player2_strategy4_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy4_efg\\player2_strategy4_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy4_efg\\player2_strategy4_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy4_efg\\player2_strategy4_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy5_efg\\player2_strategy5_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy5_efg\\player2_strategy5_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy5_efg\\player2_strategy5_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy5_efg\\player2_strategy5_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy5_efg\\player2_strategy5_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy5_efg\\player2_strategy5_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy5_efg\\player2_strategy5_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy5_efg\\player2_strategy5_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy5_efg\\player2_strategy5_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy5_efg\\player2_strategy5_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy6_efg\\player2_strategy6_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy6_efg\\player2_strategy6_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy6_efg\\player2_strategy6_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy6_efg\\player2_strategy6_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:45"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy6_efg\\player2_strategy6_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy6_efg\\player2_strategy6_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy6_efg\\player2_strategy6_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy6_efg\\player2_strategy6_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy6_efg\\player2_strategy6_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy6_efg\\player2_strategy6_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy7_efg\\player2_strategy7_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy7_efg\\player2_strategy7_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy7_efg\\player2_strategy7_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy7_efg\\player2_strategy7_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy7_efg\\player2_strategy7_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy7_efg\\player2_strategy7_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy7_efg\\player2_strategy7_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy7_efg\\player2_strategy7_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy7_efg\\player2_strategy7_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy7_efg\\player2_strategy7_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy8_efg\\player2_strategy8_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy8_efg\\player2_strategy8_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy8_efg\\player2_strategy8_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy8_efg\\player2_strategy8_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy8_efg\\player2_strategy8_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy8_efg\\player2_strategy8_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy8_efg\\player2_strategy8_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy8_efg\\player2_strategy8_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy8_efg\\player2_strategy8_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy8_efg\\player2_strategy8_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy9_efg\\player2_strategy9_v3.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy9_efg\\player2_strategy9_v4.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy9_efg\\player2_strategy9_v5.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy9_efg\\player2_strategy9_v6.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy9_efg\\player2_strategy9_v7.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy9_efg\\player2_strategy9_v8.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy9_efg\\player2_strategy9_v9.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy9_efg\\player2_strategy9_v10.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy9_efg\\player2_strategy9_v1.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    },
+    "D:\\Research Game Data Generator\\Generated_Data\\EFG\\player2_strategy9_efg\\player2_strategy9_v2.efg": {
+      "valid": true,
+      "error": null,
+      "timestamp": "2025-04-14 08:15:46"
+    }
+  }
+}

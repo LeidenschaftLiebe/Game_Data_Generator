@@ -1,0 +1,40 @@
+Story 1: A Wilderness Survival Game
+In a compelling contest set in a wilderness survival game, Player1 faces a trio of decisions: A1: set snares, A2: climb tree, and A3: purify stream.
+Across the board, Player2 counters with their own tactical arsenal: B1: shelter build, B2: spark fire, and B3: track trail.
+Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+
+Story 2: A Live Talent Show
+In a compelling contest set in a live talent show, Player1 faces a trio of decisions: A1: power ballad, A2: freestyle rap, and A3: dance flip.
+Across the board, Player2 counters with their own tactical arsenal: B1: costume reveal, B2: pyrotechnics, and B3: confetti finish.
+Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+
+Story 3: A Mountaintop Diplomacy
+In a compelling contest set in a mountaintop diplomacy, Player1 faces a trio of decisions: A1: declare ceasefire, A2: propose alliance, and A3: demand territory.
+Across the board, Player2 counters with their own tactical arsenal: B1: reject talks, B2: offer trade, and B3: escalate threats.
+Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+
+Story 4: A Courtroom Media Trial
+In a compelling contest set in a courtroom media trial, Player1 faces a trio of decisions: A1: show CCTV, A2: emotional witness, and A3: discredit expert.
+Across the board, Player2 counters with their own tactical arsenal: B1: admit guilt, B2: redirect blame, and B3: legal technicality.
+Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=-1, A2=-3, A3=-6],
+    "Player2": [B1=-4, B2=-2, B3=-5]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A1 (index 0) and Player2 selects B2 (index 1), we get:
+  base_payoffs['Player1'][0] = -1
+  base_payoffs['Player2'][1] = -2
+  Average = (-1 + -2) / 2 = -1.5
+  Adjusted Payoffs = [Player1: 0.5, Player2: -0.5]
+This ensures the total payoff always sums to zero.
+

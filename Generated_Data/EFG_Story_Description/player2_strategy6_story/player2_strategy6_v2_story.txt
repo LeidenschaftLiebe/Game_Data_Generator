@@ -1,0 +1,95 @@
+Story 1: A Haunted Crypt Excavation
+This game takes place in a setting where a haunted crypt excavation. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: torchlit survey,
+  A2: glyph translation,
+  A3: spirit bait ritual,
+  A4: echo sonar map,
+  A5: curse containment circle,
+  A6: artifact container.
+
+Player2 may counter with:
+  B1: ghost reawakening,
+  B2: wall collapse,
+  B3: glyph rearrange,
+  B4: undead ambush,
+  B5: shadow shift,
+  B6: cursed item swap.
+
+Story 2: A Hacker-Themed Escape Room
+This game takes place in a setting where a hacker-themed escape room. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: binary lock crack,
+  A2: live circuit bypass,
+  A3: firewall emulator,
+  A4: password entropy solver,
+  A5: fake server trace,
+  A6: VPN stack jump.
+
+Player2 may counter with:
+  B1: network blackout,
+  B2: decoy terminal,
+  B3: delayed log purge,
+  B4: lockout timer,
+  B5: encryption overload,
+  B6: trap file execute.
+
+Story 3: A Futuristic Courtroom Ai Trial
+This game takes place in a setting where a futuristic courtroom AI trial. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: sentiment data injection,
+  A2: ethics model override,
+  A3: live empathy simulation,
+  A4: facial expression replay,
+  A5: historical precedent mapping,
+  A6: bias flagging argument.
+
+Player2 may counter with:
+  B1: data sanitization patch,
+  B2: emotion block protocol,
+  B3: verdict timer scramble,
+  B4: witness inconsistency replay,
+  B5: jury consensus distortion,
+  B6: logic tree mislead.
+
+Story 4: An Intergalactic Treasure Hunt
+This game takes place in a setting where an intergalactic treasure hunt. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: alien language decryption,
+  A2: star map triangulation,
+  A3: plasma drill,
+  A4: wormhole lens scan,
+  A5: ship cloak mode,
+  A6: magnetic anomaly probe.
+
+Player2 may counter with:
+  B1: bounty hunter tracker,
+  B2: spatial fold decoy,
+  B3: fake treasure signal,
+  B4: logic puzzle artifact,
+  B5: anti-gravity pit,
+  B6: memory wipe gas.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=10, A2=25, A3=50, A4=75, A5=90, A6=100],
+    "Player2": [B1=95, B2=35, B3=60, B4=20, B5=85, B6=15]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
+  Player1: 25, Player2: 85
+  Average = (25 + 85) / 2 = 55.0
+  Adjusted Payoffs = [Player1: -30.0, Player2: 30.0]
+This ensures the outcome remains zero-sum.
+

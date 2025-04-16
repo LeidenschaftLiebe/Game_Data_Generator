@@ -1,0 +1,95 @@
+Story 1: A Fashion-Tech Innovation Gala
+This game takes place in a setting where a fashion-tech innovation gala. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: mood-reactive jacket,
+  A2: solar dress,
+  A3: self-cleaning boots,
+  A4: hologram scarf,
+  A5: AI-tailored pants,
+  A6: kinetic heels.
+
+Player2 may counter with:
+  B1: influencer flop,
+  B2: seam split,
+  B3: flashback error,
+  B4: mood mismatch,
+  B5: price backlash,
+  B6: AI glitch feedback.
+
+Story 2: A Mythological Pantheon Trial
+This game takes place in a setting where a mythological pantheon trial. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: thunder oath,
+  A2: river blood pact,
+  A3: golden feather token,
+  A4: truth mirror,
+  A5: fate weaving,
+  A6: divine trial by combat.
+
+Player2 may counter with:
+  B1: oracle reversal,
+  B2: god-swap challenge,
+  B3: memory trap,
+  B4: ancestral binding,
+  B5: divine penalty,
+  B6: celestial veto.
+
+Story 3: A Cyberpunk Rebellion Network
+This game takes place in a setting where a cyberpunk rebellion network. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: net split protocol,
+  A2: tunnel router,
+  A3: ghost drop,
+  A4: memory stack clone,
+  A5: power grid jolt,
+  A6: police ID mask.
+
+Player2 may counter with:
+  B1: bio-chip scan,
+  B2: trace echo,
+  B3: loyalty test,
+  B4: rebel tracker,
+  B5: neural flash,
+  B6: broadcast block.
+
+Story 4: An Ice-Age Survival Contest
+This game takes place in a setting where an ice-age survival contest. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: thermal cave shelter,
+  A2: firestorm signal,
+  A3: mammoth lure,
+  A4: glacier crossing,
+  A5: herbal salve,
+  A6: tribe alliance.
+
+Player2 may counter with:
+  B1: frost bite trap,
+  B2: meat theft,
+  B3: blizzard bluff,
+  B4: broken sled,
+  B5: frost wolf call,
+  B6: group vote.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=5, A2=10, A3=7, A4=3, A5=8, A6=12],
+    "Player2": [B1=40, B2=50, B3=60, B4=70, B5=80, B6=90]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
+  Player1: 10, Player2: 80
+  Average = (10 + 80) / 2 = 45.0
+  Adjusted Payoffs = [Player1: -35.0, Player2: 35.0]
+This ensures the outcome remains zero-sum.
+

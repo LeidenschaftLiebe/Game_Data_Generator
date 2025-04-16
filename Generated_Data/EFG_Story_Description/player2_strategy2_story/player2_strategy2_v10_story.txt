@@ -1,0 +1,28 @@
+Story 1: A Fantasy Duel
+During this dramatic face-off, Player1 must decide between A1: ice storm and A2: thunder strike, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: mana barrier or B2: healing chant, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a fantasy duel mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 2: A Coding Bootcamp Final
+In the heat of the game, Player1 must decide between A1: app UI polish and A2: backend optimization, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: API test coverage or B2: feature roadmap, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a coding bootcamp final mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 3: A Treasure Island Puzzle
+As anticipation builds, Player1 must decide between A1: read ancient map and A2: dig near landmark, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: test riddle or B2: cross coordinates, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a treasure island puzzle mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 4: A Pirate Ship Clash
+In this high-stakes match, Player1 must decide between A1: drop anchor and A2: raise sails, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: fire cannons or B2: swing aboard, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a pirate ship clash mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Payoff Matrix (Base values shown as Player1, Player2):
+        B1      B2
+A1  (10, -10)
+A2  (-10, 10)
+
+Payoff Adjustment Rule:
+The outcomes are shaped by a base payoff matrix, with adjustments made by subtracting the average of both players' base scores from each individual score. This ensures the result remains zero-sum, making each decision a strategic gamble.
+

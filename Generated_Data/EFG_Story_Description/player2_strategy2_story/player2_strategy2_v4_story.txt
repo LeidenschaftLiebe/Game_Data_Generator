@@ -1,0 +1,28 @@
+Story 1: A Fencing Match
+During this dramatic face-off, Player1 must decide between A1: feint thrust and A2: overhead lunge, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: parry high or B2: step back, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a fencing match mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 2: A Spy Encounter
+In the heat of the game, Player1 must decide between A1: coded message drop and A2: disguise entry, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: camera sweep or B2: tail the suspect, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a spy encounter mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 3: A University Debate
+As anticipation builds, Player1 must decide between A1: opening statement and A2: cross-examination attack, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: rebuttal case or B2: closing appeal, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a university debate mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Story 4: A Boxing Match
+In this high-stakes match, Player1 must decide between A1: jab combo and A2: uppercut, each reflecting a different tactical approach.
+On the other side, Player2 prepares to react with either B1: counterpunch or B2: clinch, knowing that their choice will intersect with Player1’s to determine the outcome.
+The tension in a boxing match mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+
+Payoff Matrix (Base values shown as Player1, Player2):
+        B1      B2
+A1  (2, 20)
+A2  (3, 30)
+
+Payoff Adjustment Rule:
+The outcomes are shaped by a base payoff matrix, with adjustments made by subtracting the average of both players' base scores from each individual score. This ensures the result remains zero-sum, making each decision a strategic gamble.
+

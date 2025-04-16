@@ -1,0 +1,95 @@
+Story 1: A Deep Sea Rescue Drone Trial
+This game takes place in a setting where a deep sea rescue drone trial. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: dive sonar ping,
+  A2: sediment scanner,
+  A3: modular grabber arm,
+  A4: high-torque propellers,
+  A5: emergency flare beacon,
+  A6: deep pressure shield.
+
+Player2 may counter with:
+  B1: coordinate distortion field,
+  B2: water current pulse,
+  B3: sonar jam burst,
+  B4: light decoy trail,
+  B5: mimic drone shadow,
+  B6: thermal rise wave.
+
+Story 2: An Underground Art Forgery Syndicate
+This game takes place in a setting where an underground art forgery syndicate. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: pigment test replication,
+  A2: aging canvas technique,
+  A3: brushstroke mimicry,
+  A4: frame antiquing,
+  A5: provenance forgery,
+  A6: museum bribe.
+
+Player2 may counter with:
+  B1: spectrograph analysis,
+  B2: curator double-check,
+  B3: provenance scan,
+  B4: auctioneer alert,
+  B5: press tip-off,
+  B6: sting operation.
+
+Story 3: A Next-Gen Urban Farming Competition
+This game takes place in a setting where a next-gen urban farming competition. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: vertical aquaponics,
+  A2: AI nutrient sensors,
+  A3: LED light modulation,
+  A4: drone pollination,
+  A5: temperature zoning,
+  A6: compost feedback loop.
+
+Player2 may counter with:
+  B1: regulatory inspection,
+  B2: water shortage protocol,
+  B3: supply chain hack,
+  B4: competitor sabotage,
+  B5: pest bio-release,
+  B6: zoning fine.
+
+Story 4: A Political Debate Strategy Sim
+This game takes place in a setting where a political debate strategy sim. Players engage through strategic decisions.
+
+Player1 may choose from:
+  A1: pivot to economy,
+  A2: call out corruption,
+  A3: quote founding father,
+  A4: emotional family story,
+  A5: foreign policy redirect,
+  A6: interrupt opponent.
+
+Player2 may counter with:
+  B1: fact-check overlay,
+  B2: mock ad replay,
+  B3: crowd noise boost,
+  B4: viral soundbite cut,
+  B5: host intervention,
+  B6: split screen contrast.
+
+Base Payoff Definitions:
+base_payoffs = {
+    "Player1": [A1=0, A2=1, A3=2, A4=3, A5=4, A6=5],
+    "Player2": [B1=5, B2=4, B3=3, B4=2, B5=1, B6=0]
+}
+
+Adjusted Payoff Calculation:
+def adjusted_payoffs(i, j):
+    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
+    avg = sum(raw) / 2
+    return [round(p - avg, 2) for p in raw]
+
+Example:
+If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
+  Player1: 1, Player2: 1
+  Average = (1 + 1) / 2 = 1.0
+  Adjusted Payoffs = [Player1: 0.0, Player2: 0.0]
+This ensures the outcome remains zero-sum.
+

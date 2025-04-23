@@ -5,7 +5,9 @@ Generated_Data/Template
 
 __pycache__/
 
-Prompts/Plan.txt
+Prompts/Plan.txt 
+
+player2_action3_description.txt
 
 # Ignore everything in Validation_Report, except two specific files
 Validation_Report/*

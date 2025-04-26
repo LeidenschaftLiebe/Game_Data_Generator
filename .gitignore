@@ -11,6 +11,8 @@ player2_action3_description.txt
 
 renaming_script.py
 
+QUESTIONS.txt
+
 # Ignore everything in Validation_Report, except two specific files
 Validation_Report/*
 !Validation_Report/validation3.py

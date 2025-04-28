@@ -1,42 +1,180 @@
-Story 1: A Drone Combat Simulation
-In this unique scenario, the competition unfolds in the context of a drone combat simulation.
-Player1 must choose one of four tactics: A1: evasive loop, A2: auto-lock missile, A3: terrain nap, or A4: counter-jamming.
-Meanwhile, Player2 must also decide among B1: flare deploy, B2: swarm launch, B3: stealth shield, or B4: decoy clone.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+Game Description 1: Drone Combat Simulation
 
-Story 2: A Film Director'S Shootout
-In this unique scenario, the competition unfolds in the context of a film director's shootout.
-Player1 must choose one of four tactics: A1: rewrite script, A2: shoot new ending, A3: change lead actor, or A4: add dream sequence.
-Meanwhile, Player2 must also decide among B1: increase budget, B2: cut runtime, B3: change soundtrack, or B4: alter color grade.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+In the heart of drone combat simulation, critical choices carve the path to triumph.
 
-Story 3: A Fashion Week Debut
-In this unique scenario, the competition unfolds in the context of a fashion week debut.
-Player1 must choose one of four tactics: A1: bold prints, A2: sustainable fabric, A3: asymmetrical cuts, or A4: nostalgic throwback.
-Meanwhile, Player2 must also decide among B1: influencer runway, B2: digital backstage, B3: interactive voting, or B4: afterparty promo.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+**Player1** evaluates the following strategies:
+- evasive loop
+- auto-lock missile
+- terrain nap
+- counter-jamming
 
-Story 4: A Hacker Convention Duel
-In this unique scenario, the competition unfolds in the context of a hacker convention duel.
-Player1 must choose one of four tactics: A1: code obfuscation, A2: exploit leak, A3: deepfake bypass, or A4: botnet wave.
-Meanwhile, Player2 must also decide among B1: encrypt vault, B2: trace relay, B3: ban IP, or B4: live patch.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+Meanwhile, **Player2** plots their countermoves:
+- flare deploy
+- swarm launch
+- stealth shield
+- decoy clone
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=5, A2=6, A3=4, A4=5],
-    "Player2": [B1=5, B2=4, B3=6, B4=5]
-}
+When both players commit to their choices, these outcomes unfold:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- If **Player1** selects **evasive loop**:
+  - And **Player2** counters with **flare deploy**, the resulting payoff is (67, -67).
+  - And **Player2** counters with **swarm launch**, the resulting payoff is (16, -16).
+  - And **Player2** counters with **stealth shield**, the resulting payoff is (-8, 8).
+  - And **Player2** counters with **decoy clone**, the resulting payoff is (88, -88).
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B3 (index 2):
-  Player1: 6, Player2: 6
-  Average = (6 + 6) / 2 = 6.0
-  Adjusted Payoffs = [Player1: 0.0, Player2: 0.0]
+- If **Player1** selects **auto-lock missile**:
+  - And **Player2** counters with **flare deploy**, the resulting payoff is (11, -11).
+  - And **Player2** counters with **swarm launch**, the resulting payoff is (-66, 66).
+  - And **Player2** counters with **stealth shield**, the resulting payoff is (70, -70).
+  - And **Player2** counters with **decoy clone**, the resulting payoff is (21, -21).
+
+- If **Player1** selects **terrain nap**:
+  - And **Player2** counters with **flare deploy**, the resulting payoff is (-96, 96).
+  - And **Player2** counters with **swarm launch**, the resulting payoff is (-54, 54).
+  - And **Player2** counters with **stealth shield**, the resulting payoff is (-23, 23).
+  - And **Player2** counters with **decoy clone**, the resulting payoff is (-59, 59).
+
+- If **Player1** selects **counter-jamming**:
+  - And **Player2** counters with **flare deploy**, the resulting payoff is (-86, 86).
+  - And **Player2** counters with **swarm launch**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **stealth shield**, the resulting payoff is (-11, 11).
+  - And **Player2** counters with **decoy clone**, the resulting payoff is (15, -15).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Film Director's Shootout
+
+In the heart of film director's shootout, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- rewrite script
+- shoot new ending
+- change lead actor
+- add dream sequence
+
+Meanwhile, **Player2** plots their countermoves:
+- increase budget
+- cut runtime
+- change soundtrack
+- alter color grade
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **rewrite script**:
+  - And **Player2** counters with **increase budget**, the resulting payoff is (67, -67).
+  - And **Player2** counters with **cut runtime**, the resulting payoff is (16, -16).
+  - And **Player2** counters with **change soundtrack**, the resulting payoff is (-8, 8).
+  - And **Player2** counters with **alter color grade**, the resulting payoff is (88, -88).
+
+- If **Player1** selects **shoot new ending**:
+  - And **Player2** counters with **increase budget**, the resulting payoff is (11, -11).
+  - And **Player2** counters with **cut runtime**, the resulting payoff is (-66, 66).
+  - And **Player2** counters with **change soundtrack**, the resulting payoff is (70, -70).
+  - And **Player2** counters with **alter color grade**, the resulting payoff is (21, -21).
+
+- If **Player1** selects **change lead actor**:
+  - And **Player2** counters with **increase budget**, the resulting payoff is (-96, 96).
+  - And **Player2** counters with **cut runtime**, the resulting payoff is (-54, 54).
+  - And **Player2** counters with **change soundtrack**, the resulting payoff is (-23, 23).
+  - And **Player2** counters with **alter color grade**, the resulting payoff is (-59, 59).
+
+- If **Player1** selects **add dream sequence**:
+  - And **Player2** counters with **increase budget**, the resulting payoff is (-86, 86).
+  - And **Player2** counters with **cut runtime**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **change soundtrack**, the resulting payoff is (-11, 11).
+  - And **Player2** counters with **alter color grade**, the resulting payoff is (15, -15).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Fashion Week Debut
+
+In the heart of fashion week debut, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- bold prints
+- sustainable fabric
+- asymmetrical cuts
+- nostalgic throwback
+
+Meanwhile, **Player2** plots their countermoves:
+- influencer runway
+- digital backstage
+- interactive voting
+- afterparty promo
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **bold prints**:
+  - And **Player2** counters with **influencer runway**, the resulting payoff is (67, -67).
+  - And **Player2** counters with **digital backstage**, the resulting payoff is (16, -16).
+  - And **Player2** counters with **interactive voting**, the resulting payoff is (-8, 8).
+  - And **Player2** counters with **afterparty promo**, the resulting payoff is (88, -88).
+
+- If **Player1** selects **sustainable fabric**:
+  - And **Player2** counters with **influencer runway**, the resulting payoff is (11, -11).
+  - And **Player2** counters with **digital backstage**, the resulting payoff is (-66, 66).
+  - And **Player2** counters with **interactive voting**, the resulting payoff is (70, -70).
+  - And **Player2** counters with **afterparty promo**, the resulting payoff is (21, -21).
+
+- If **Player1** selects **asymmetrical cuts**:
+  - And **Player2** counters with **influencer runway**, the resulting payoff is (-96, 96).
+  - And **Player2** counters with **digital backstage**, the resulting payoff is (-54, 54).
+  - And **Player2** counters with **interactive voting**, the resulting payoff is (-23, 23).
+  - And **Player2** counters with **afterparty promo**, the resulting payoff is (-59, 59).
+
+- If **Player1** selects **nostalgic throwback**:
+  - And **Player2** counters with **influencer runway**, the resulting payoff is (-86, 86).
+  - And **Player2** counters with **digital backstage**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **interactive voting**, the resulting payoff is (-11, 11).
+  - And **Player2** counters with **afterparty promo**, the resulting payoff is (15, -15).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Hacker Convention Duel
+
+In the heart of hacker convention duel, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- code obfuscation
+- exploit leak
+- deepfake bypass
+- botnet wave
+
+Meanwhile, **Player2** plots their countermoves:
+- encrypt vault
+- trace relay
+- ban IP
+- live patch
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **code obfuscation**:
+  - And **Player2** counters with **encrypt vault**, the resulting payoff is (67, -67).
+  - And **Player2** counters with **trace relay**, the resulting payoff is (16, -16).
+  - And **Player2** counters with **ban IP**, the resulting payoff is (-8, 8).
+  - And **Player2** counters with **live patch**, the resulting payoff is (88, -88).
+
+- If **Player1** selects **exploit leak**:
+  - And **Player2** counters with **encrypt vault**, the resulting payoff is (11, -11).
+  - And **Player2** counters with **trace relay**, the resulting payoff is (-66, 66).
+  - And **Player2** counters with **ban IP**, the resulting payoff is (70, -70).
+  - And **Player2** counters with **live patch**, the resulting payoff is (21, -21).
+
+- If **Player1** selects **deepfake bypass**:
+  - And **Player2** counters with **encrypt vault**, the resulting payoff is (-96, 96).
+  - And **Player2** counters with **trace relay**, the resulting payoff is (-54, 54).
+  - And **Player2** counters with **ban IP**, the resulting payoff is (-23, 23).
+  - And **Player2** counters with **live patch**, the resulting payoff is (-59, 59).
+
+- If **Player1** selects **botnet wave**:
+  - And **Player2** counters with **encrypt vault**, the resulting payoff is (-86, 86).
+  - And **Player2** counters with **trace relay**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **ban IP**, the resulting payoff is (-11, 11).
+  - And **Player2** counters with **live patch**, the resulting payoff is (15, -15).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

@@ -1,95 +1,292 @@
-Story 1: A Disaster Relief Coordination Sim
-This game takes place in a setting where a disaster relief coordination sim. Players engage through strategic decisions.
+Game Description 1: Disaster Relief Coordination Sim
 
-Player1 may choose from:
-  A1: airlift plan,
-  A2: hospital triage,
-  A3: data route share,
-  A4: backup power relay,
-  A5: med drone launch,
-  A6: shelter cluster.
+In the heart of disaster relief coordination sim, critical choices carve the path to triumph.
 
-Player2 may counter with:
-  B1: road collapse,
-  B2: comms tower fail,
-  B3: team mix-up,
-  B4: rumor panic,
-  B5: resource raid,
-  B6: time constraint.
+**Player1** evaluates the following strategies:
+- airlift plan
+- hospital triage
+- data route share
+- backup power relay
+- med drone launch
+- shelter cluster
 
-Story 2: A Spy Interrogation Standoff
-This game takes place in a setting where a spy interrogation standoff. Players engage through strategic decisions.
+Meanwhile, **Player2** plots their countermoves:
+- road collapse
+- comms tower fail
+- team mix-up
+- rumor panic
+- resource raid
+- time constraint
 
-Player1 may choose from:
-  A1: family pressure card,
-  A2: timed silence,
-  A3: planted audio,
-  A4: emotional trigger,
-  A5: truth serum bluff,
-  A6: false ID leak.
+When both players commit to their choices, these outcomes unfold:
 
-Player2 may counter with:
-  B1: memory redaction,
-  B2: eye twitch monitor,
-  B3: escape attempt,
-  B4: loyalty mantra,
-  B5: fake confession,
-  B6: agent tag.
+- If **Player1** selects **airlift plan**:
+  - And **Player2** counters with **road collapse**, the resulting payoff is (75, -75).
+  - And **Player2** counters with **comms tower fail**, the resulting payoff is (74, -74).
+  - And **Player2** counters with **team mix-up**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **rumor panic**, the resulting payoff is (-62, 62).
+  - And **Player2** counters with **resource raid**, the resulting payoff is (-86, 86).
+  - And **Player2** counters with **time constraint**, the resulting payoff is (24, -24).
 
-Story 3: A Mind Maze Puzzle Competition
-This game takes place in a setting where a mind maze puzzle competition. Players engage through strategic decisions.
+- If **Player1** selects **hospital triage**:
+  - And **Player2** counters with **road collapse**, the resulting payoff is (58, -58).
+  - And **Player2** counters with **comms tower fail**, the resulting payoff is (-74, 74).
+  - And **Player2** counters with **team mix-up**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **rumor panic**, the resulting payoff is (84, -84).
+  - And **Player2** counters with **resource raid**, the resulting payoff is (66, -66).
+  - And **Player2** counters with **time constraint**, the resulting payoff is (-41, 41).
 
-Player1 may choose from:
-  A1: door math riddle,
-  A2: scent path,
-  A3: backwards mirror cue,
-  A4: compass hallucination,
-  A5: spinning gate,
-  A6: dream logic leap.
+- If **Player1** selects **data route share**:
+  - And **Player2** counters with **road collapse**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **comms tower fail**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **team mix-up**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **rumor panic**, the resulting payoff is (2, -2).
+  - And **Player2** counters with **resource raid**, the resulting payoff is (25, -25).
+  - And **Player2** counters with **time constraint**, the resulting payoff is (88, -88).
 
-Player2 may counter with:
-  B1: sensory overload,
-  B2: countdown glitch,
-  B3: trap door shift,
-  B4: light frequency block,
-  B5: color symbol swap,
-  B6: noise distraction.
+- If **Player1** selects **backup power relay**:
+  - And **Player2** counters with **road collapse**, the resulting payoff is (-6, 6).
+  - And **Player2** counters with **comms tower fail**, the resulting payoff is (-84, 84).
+  - And **Player2** counters with **team mix-up**, the resulting payoff is (63, -63).
+  - And **Player2** counters with **rumor panic**, the resulting payoff is (-32, 32).
+  - And **Player2** counters with **resource raid**, the resulting payoff is (-61, 61).
+  - And **Player2** counters with **time constraint**, the resulting payoff is (7, -7).
 
-Story 4: A Deep Space Beacon Relay Challenge
-This game takes place in a setting where a deep space beacon relay challenge. Players engage through strategic decisions.
+- If **Player1** selects **med drone launch**:
+  - And **Player2** counters with **road collapse**, the resulting payoff is (-37, 37).
+  - And **Player2** counters with **comms tower fail**, the resulting payoff is (54, -54).
+  - And **Player2** counters with **team mix-up**, the resulting payoff is (10, -10).
+  - And **Player2** counters with **rumor panic**, the resulting payoff is (-57, 57).
+  - And **Player2** counters with **resource raid**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **time constraint**, the resulting payoff is (-59, 59).
 
-Player1 may choose from:
-  A1: solar flare piggyback,
-  A2: neutrino burst,
-  A3: pulsar align,
-  A4: wormhole echo,
-  A5: black hole ping,
-  A6: quantum pulse beacon.
+- If **Player1** selects **shelter cluster**:
+  - And **Player2** counters with **road collapse**, the resulting payoff is (-47, 47).
+  - And **Player2** counters with **comms tower fail**, the resulting payoff is (-43, 43).
+  - And **Player2** counters with **team mix-up**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **rumor panic**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **resource raid**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **time constraint**, the resulting payoff is (-91, 91).
 
-Player2 may counter with:
-  B1: phase delay,
-  B2: magnetic field swing,
-  B3: asteroid scatter,
-  B4: cosmic ray distortion,
-  B5: signal jam cloud,
-  B6: lost coordinate drift.
+In this dynamic contest, foresight and adaptation decide the victor.
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=5, A2=6, A3=7, A4=6, A5=5, A6=4],
-    "Player2": [B1=5, B2=4, B3=3, B4=4, B5=5, B6=6]
-}
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+Game Description 2: Spy Interrogation Standoff
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
-  Player1: 6, Player2: 5
-  Average = (6 + 5) / 2 = 5.5
-  Adjusted Payoffs = [Player1: 0.5, Player2: -0.5]
-This ensures the outcome remains zero-sum.
+In the heart of spy interrogation standoff, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- family pressure card
+- timed silence
+- planted audio
+- emotional trigger
+- truth serum bluff
+- false ID leak
+
+Meanwhile, **Player2** plots their countermoves:
+- memory redaction
+- eye twitch monitor
+- escape attempt
+- loyalty mantra
+- fake confession
+- agent tag
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **family pressure card**:
+  - And **Player2** counters with **memory redaction**, the resulting payoff is (75, -75).
+  - And **Player2** counters with **eye twitch monitor**, the resulting payoff is (74, -74).
+  - And **Player2** counters with **escape attempt**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **loyalty mantra**, the resulting payoff is (-62, 62).
+  - And **Player2** counters with **fake confession**, the resulting payoff is (-86, 86).
+  - And **Player2** counters with **agent tag**, the resulting payoff is (24, -24).
+
+- If **Player1** selects **timed silence**:
+  - And **Player2** counters with **memory redaction**, the resulting payoff is (58, -58).
+  - And **Player2** counters with **eye twitch monitor**, the resulting payoff is (-74, 74).
+  - And **Player2** counters with **escape attempt**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **loyalty mantra**, the resulting payoff is (84, -84).
+  - And **Player2** counters with **fake confession**, the resulting payoff is (66, -66).
+  - And **Player2** counters with **agent tag**, the resulting payoff is (-41, 41).
+
+- If **Player1** selects **planted audio**:
+  - And **Player2** counters with **memory redaction**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **eye twitch monitor**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **escape attempt**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **loyalty mantra**, the resulting payoff is (2, -2).
+  - And **Player2** counters with **fake confession**, the resulting payoff is (25, -25).
+  - And **Player2** counters with **agent tag**, the resulting payoff is (88, -88).
+
+- If **Player1** selects **emotional trigger**:
+  - And **Player2** counters with **memory redaction**, the resulting payoff is (-6, 6).
+  - And **Player2** counters with **eye twitch monitor**, the resulting payoff is (-84, 84).
+  - And **Player2** counters with **escape attempt**, the resulting payoff is (63, -63).
+  - And **Player2** counters with **loyalty mantra**, the resulting payoff is (-32, 32).
+  - And **Player2** counters with **fake confession**, the resulting payoff is (-61, 61).
+  - And **Player2** counters with **agent tag**, the resulting payoff is (7, -7).
+
+- If **Player1** selects **truth serum bluff**:
+  - And **Player2** counters with **memory redaction**, the resulting payoff is (-37, 37).
+  - And **Player2** counters with **eye twitch monitor**, the resulting payoff is (54, -54).
+  - And **Player2** counters with **escape attempt**, the resulting payoff is (10, -10).
+  - And **Player2** counters with **loyalty mantra**, the resulting payoff is (-57, 57).
+  - And **Player2** counters with **fake confession**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **agent tag**, the resulting payoff is (-59, 59).
+
+- If **Player1** selects **false ID leak**:
+  - And **Player2** counters with **memory redaction**, the resulting payoff is (-47, 47).
+  - And **Player2** counters with **eye twitch monitor**, the resulting payoff is (-43, 43).
+  - And **Player2** counters with **escape attempt**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **loyalty mantra**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **fake confession**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **agent tag**, the resulting payoff is (-91, 91).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Mind Maze Puzzle Competition
+
+In the heart of mind maze puzzle competition, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- door math riddle
+- scent path
+- backwards mirror cue
+- compass hallucination
+- spinning gate
+- dream logic leap
+
+Meanwhile, **Player2** plots their countermoves:
+- sensory overload
+- countdown glitch
+- trap door shift
+- light frequency block
+- color symbol swap
+- noise distraction
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **door math riddle**:
+  - And **Player2** counters with **sensory overload**, the resulting payoff is (75, -75).
+  - And **Player2** counters with **countdown glitch**, the resulting payoff is (74, -74).
+  - And **Player2** counters with **trap door shift**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **light frequency block**, the resulting payoff is (-62, 62).
+  - And **Player2** counters with **color symbol swap**, the resulting payoff is (-86, 86).
+  - And **Player2** counters with **noise distraction**, the resulting payoff is (24, -24).
+
+- If **Player1** selects **scent path**:
+  - And **Player2** counters with **sensory overload**, the resulting payoff is (58, -58).
+  - And **Player2** counters with **countdown glitch**, the resulting payoff is (-74, 74).
+  - And **Player2** counters with **trap door shift**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **light frequency block**, the resulting payoff is (84, -84).
+  - And **Player2** counters with **color symbol swap**, the resulting payoff is (66, -66).
+  - And **Player2** counters with **noise distraction**, the resulting payoff is (-41, 41).
+
+- If **Player1** selects **backwards mirror cue**:
+  - And **Player2** counters with **sensory overload**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **countdown glitch**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **trap door shift**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **light frequency block**, the resulting payoff is (2, -2).
+  - And **Player2** counters with **color symbol swap**, the resulting payoff is (25, -25).
+  - And **Player2** counters with **noise distraction**, the resulting payoff is (88, -88).
+
+- If **Player1** selects **compass hallucination**:
+  - And **Player2** counters with **sensory overload**, the resulting payoff is (-6, 6).
+  - And **Player2** counters with **countdown glitch**, the resulting payoff is (-84, 84).
+  - And **Player2** counters with **trap door shift**, the resulting payoff is (63, -63).
+  - And **Player2** counters with **light frequency block**, the resulting payoff is (-32, 32).
+  - And **Player2** counters with **color symbol swap**, the resulting payoff is (-61, 61).
+  - And **Player2** counters with **noise distraction**, the resulting payoff is (7, -7).
+
+- If **Player1** selects **spinning gate**:
+  - And **Player2** counters with **sensory overload**, the resulting payoff is (-37, 37).
+  - And **Player2** counters with **countdown glitch**, the resulting payoff is (54, -54).
+  - And **Player2** counters with **trap door shift**, the resulting payoff is (10, -10).
+  - And **Player2** counters with **light frequency block**, the resulting payoff is (-57, 57).
+  - And **Player2** counters with **color symbol swap**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **noise distraction**, the resulting payoff is (-59, 59).
+
+- If **Player1** selects **dream logic leap**:
+  - And **Player2** counters with **sensory overload**, the resulting payoff is (-47, 47).
+  - And **Player2** counters with **countdown glitch**, the resulting payoff is (-43, 43).
+  - And **Player2** counters with **trap door shift**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **light frequency block**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **color symbol swap**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **noise distraction**, the resulting payoff is (-91, 91).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Deep Space Beacon Relay Challenge
+
+In the heart of deep space beacon relay challenge, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- solar flare piggyback
+- neutrino burst
+- pulsar align
+- wormhole echo
+- black hole ping
+- quantum pulse beacon
+
+Meanwhile, **Player2** plots their countermoves:
+- phase delay
+- magnetic field swing
+- asteroid scatter
+- cosmic ray distortion
+- signal jam cloud
+- lost coordinate drift
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **solar flare piggyback**:
+  - And **Player2** counters with **phase delay**, the resulting payoff is (75, -75).
+  - And **Player2** counters with **magnetic field swing**, the resulting payoff is (74, -74).
+  - And **Player2** counters with **asteroid scatter**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **cosmic ray distortion**, the resulting payoff is (-62, 62).
+  - And **Player2** counters with **signal jam cloud**, the resulting payoff is (-86, 86).
+  - And **Player2** counters with **lost coordinate drift**, the resulting payoff is (24, -24).
+
+- If **Player1** selects **neutrino burst**:
+  - And **Player2** counters with **phase delay**, the resulting payoff is (58, -58).
+  - And **Player2** counters with **magnetic field swing**, the resulting payoff is (-74, 74).
+  - And **Player2** counters with **asteroid scatter**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **cosmic ray distortion**, the resulting payoff is (84, -84).
+  - And **Player2** counters with **signal jam cloud**, the resulting payoff is (66, -66).
+  - And **Player2** counters with **lost coordinate drift**, the resulting payoff is (-41, 41).
+
+- If **Player1** selects **pulsar align**:
+  - And **Player2** counters with **phase delay**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **magnetic field swing**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **asteroid scatter**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **cosmic ray distortion**, the resulting payoff is (2, -2).
+  - And **Player2** counters with **signal jam cloud**, the resulting payoff is (25, -25).
+  - And **Player2** counters with **lost coordinate drift**, the resulting payoff is (88, -88).
+
+- If **Player1** selects **wormhole echo**:
+  - And **Player2** counters with **phase delay**, the resulting payoff is (-6, 6).
+  - And **Player2** counters with **magnetic field swing**, the resulting payoff is (-84, 84).
+  - And **Player2** counters with **asteroid scatter**, the resulting payoff is (63, -63).
+  - And **Player2** counters with **cosmic ray distortion**, the resulting payoff is (-32, 32).
+  - And **Player2** counters with **signal jam cloud**, the resulting payoff is (-61, 61).
+  - And **Player2** counters with **lost coordinate drift**, the resulting payoff is (7, -7).
+
+- If **Player1** selects **black hole ping**:
+  - And **Player2** counters with **phase delay**, the resulting payoff is (-37, 37).
+  - And **Player2** counters with **magnetic field swing**, the resulting payoff is (54, -54).
+  - And **Player2** counters with **asteroid scatter**, the resulting payoff is (10, -10).
+  - And **Player2** counters with **cosmic ray distortion**, the resulting payoff is (-57, 57).
+  - And **Player2** counters with **signal jam cloud**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **lost coordinate drift**, the resulting payoff is (-59, 59).
+
+- If **Player1** selects **quantum pulse beacon**:
+  - And **Player2** counters with **phase delay**, the resulting payoff is (-47, 47).
+  - And **Player2** counters with **magnetic field swing**, the resulting payoff is (-43, 43).
+  - And **Player2** counters with **asteroid scatter**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **cosmic ray distortion**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **signal jam cloud**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **lost coordinate drift**, the resulting payoff is (-91, 91).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

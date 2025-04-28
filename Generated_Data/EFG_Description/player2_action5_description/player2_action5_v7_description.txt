@@ -1,83 +1,232 @@
-Story 1: An Ai-Powered Songwriting Battle
-In this unique scenario, the conflict unfolds in the context of an AI-powered songwriting battle.
-Player1 selects from:
-  A1: synth bass,
-  A2: folk lyrics,
-  A3: dynamic key shift,
-  A4: jazz bridge,
-  A5: rap collab.
-Player2 counters with:
-  B1: melody reroll,
-  B2: audience sync,
-  B3: echo effect,
-  B4: lo-fi overlay,
-  B5: auto-remix.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+Game Description 1: AI-Powered Songwriting Battle
 
-Story 2: A Courtroom Showdown
-In this unique scenario, the conflict unfolds in the context of a courtroom showdown.
-Player1 selects from:
-  A1: DNA twist,
-  A2: emotional close,
-  A3: expert contradiction,
-  A4: evidence misdirection,
-  A5: surprise witness.
-Player2 counters with:
-  B1: recess delay,
-  B2: jury appeal,
-  B3: photo blow-up,
-  B4: prior conviction,
-  B5: mistrial motion.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+In the heart of ai-powered songwriting battle, critical choices carve the path to triumph.
 
-Story 3: A Teen Spy Recruitment Trial
-In this unique scenario, the conflict unfolds in the context of a teen spy recruitment trial.
-Player1 selects from:
-  A1: wire tap,
-  A2: disguise test,
-  A3: chase diversion,
-  A4: puzzle lock,
-  A5: signal decode.
-Player2 counters with:
-  B1: surprise handler,
-  B2: trust twist,
-  B3: stealth cam,
-  B4: team split,
-  B5: drone tail.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+**Player1** evaluates the following strategies:
+- synth bass
+- folk lyrics
+- dynamic key shift
+- jazz bridge
+- rap collab
 
-Story 4: A Futuristic Theme Park Heist
-In this unique scenario, the conflict unfolds in the context of a futuristic theme park heist.
-Player1 selects from:
-  A1: staff badge clone,
-  A2: maintenance shaft,
-  A3: crowd mislead,
-  A4: hologram cover,
-  A5: cart escape.
-Player2 counters with:
-  B1: AI security reroute,
-  B2: animatronic block,
-  B3: guest disguise,
-  B4: parkwide alert,
-  B5: VR glitch.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+Meanwhile, **Player2** plots their countermoves:
+- melody reroll
+- audience sync
+- echo effect
+- lo-fi overlay
+- auto-remix
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=25, A2=30, A3=35, A4=40, A5=45],
-    "Player2": [B1=2, B2=3, B3=4, B4=5, B5=6]
-}
+When both players commit to their choices, these outcomes unfold:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- If **Player1** selects **synth bass**:
+  - And **Player2** counters with **melody reroll**, the resulting payoff is (71, -71).
+  - And **Player2** counters with **audience sync**, the resulting payoff is (37, -37).
+  - And **Player2** counters with **echo effect**, the resulting payoff is (-100, 100).
+  - And **Player2** counters with **lo-fi overlay**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **auto-remix**, the resulting payoff is (-81, 81).
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
-  Player1: 30, Player2: 5
-  Average = (30 + 5) / 2 = 17.5
-  Adjusted Payoffs = [Player1: 12.5, Player2: -12.5]
-This ensures the total payoff remains zero-sum.
+- If **Player1** selects **folk lyrics**:
+  - And **Player2** counters with **melody reroll**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **audience sync**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **echo effect**, the resulting payoff is (14, -14).
+  - And **Player2** counters with **lo-fi overlay**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **auto-remix**, the resulting payoff is (-31, 31).
+
+- If **Player1** selects **dynamic key shift**:
+  - And **Player2** counters with **melody reroll**, the resulting payoff is (-42, 42).
+  - And **Player2** counters with **audience sync**, the resulting payoff is (-70, 70).
+  - And **Player2** counters with **echo effect**, the resulting payoff is (-15, 15).
+  - And **Player2** counters with **lo-fi overlay**, the resulting payoff is (59, -59).
+  - And **Player2** counters with **auto-remix**, the resulting payoff is (40, -40).
+
+- If **Player1** selects **jazz bridge**:
+  - And **Player2** counters with **melody reroll**, the resulting payoff is (47, -47).
+  - And **Player2** counters with **audience sync**, the resulting payoff is (-27, 27).
+  - And **Player2** counters with **echo effect**, the resulting payoff is (-74, 74).
+  - And **Player2** counters with **lo-fi overlay**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **auto-remix**, the resulting payoff is (-6, 6).
+
+- If **Player1** selects **rap collab**:
+  - And **Player2** counters with **melody reroll**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **audience sync**, the resulting payoff is (64, -64).
+  - And **Player2** counters with **echo effect**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **lo-fi overlay**, the resulting payoff is (98, -98).
+  - And **Player2** counters with **auto-remix**, the resulting payoff is (-71, 71).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Courtroom Showdown
+
+In the heart of courtroom showdown, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- DNA twist
+- emotional close
+- expert contradiction
+- evidence misdirection
+- surprise witness
+
+Meanwhile, **Player2** plots their countermoves:
+- recess delay
+- jury appeal
+- photo blow-up
+- prior conviction
+- mistrial motion
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **DNA twist**:
+  - And **Player2** counters with **recess delay**, the resulting payoff is (71, -71).
+  - And **Player2** counters with **jury appeal**, the resulting payoff is (37, -37).
+  - And **Player2** counters with **photo blow-up**, the resulting payoff is (-100, 100).
+  - And **Player2** counters with **prior conviction**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **mistrial motion**, the resulting payoff is (-81, 81).
+
+- If **Player1** selects **emotional close**:
+  - And **Player2** counters with **recess delay**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **jury appeal**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **photo blow-up**, the resulting payoff is (14, -14).
+  - And **Player2** counters with **prior conviction**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **mistrial motion**, the resulting payoff is (-31, 31).
+
+- If **Player1** selects **expert contradiction**:
+  - And **Player2** counters with **recess delay**, the resulting payoff is (-42, 42).
+  - And **Player2** counters with **jury appeal**, the resulting payoff is (-70, 70).
+  - And **Player2** counters with **photo blow-up**, the resulting payoff is (-15, 15).
+  - And **Player2** counters with **prior conviction**, the resulting payoff is (59, -59).
+  - And **Player2** counters with **mistrial motion**, the resulting payoff is (40, -40).
+
+- If **Player1** selects **evidence misdirection**:
+  - And **Player2** counters with **recess delay**, the resulting payoff is (47, -47).
+  - And **Player2** counters with **jury appeal**, the resulting payoff is (-27, 27).
+  - And **Player2** counters with **photo blow-up**, the resulting payoff is (-74, 74).
+  - And **Player2** counters with **prior conviction**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **mistrial motion**, the resulting payoff is (-6, 6).
+
+- If **Player1** selects **surprise witness**:
+  - And **Player2** counters with **recess delay**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **jury appeal**, the resulting payoff is (64, -64).
+  - And **Player2** counters with **photo blow-up**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **prior conviction**, the resulting payoff is (98, -98).
+  - And **Player2** counters with **mistrial motion**, the resulting payoff is (-71, 71).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Teen Spy Recruitment Trial
+
+In the heart of teen spy recruitment trial, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- wire tap
+- disguise test
+- chase diversion
+- puzzle lock
+- signal decode
+
+Meanwhile, **Player2** plots their countermoves:
+- surprise handler
+- trust twist
+- stealth cam
+- team split
+- drone tail
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **wire tap**:
+  - And **Player2** counters with **surprise handler**, the resulting payoff is (71, -71).
+  - And **Player2** counters with **trust twist**, the resulting payoff is (37, -37).
+  - And **Player2** counters with **stealth cam**, the resulting payoff is (-100, 100).
+  - And **Player2** counters with **team split**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **drone tail**, the resulting payoff is (-81, 81).
+
+- If **Player1** selects **disguise test**:
+  - And **Player2** counters with **surprise handler**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **trust twist**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **stealth cam**, the resulting payoff is (14, -14).
+  - And **Player2** counters with **team split**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **drone tail**, the resulting payoff is (-31, 31).
+
+- If **Player1** selects **chase diversion**:
+  - And **Player2** counters with **surprise handler**, the resulting payoff is (-42, 42).
+  - And **Player2** counters with **trust twist**, the resulting payoff is (-70, 70).
+  - And **Player2** counters with **stealth cam**, the resulting payoff is (-15, 15).
+  - And **Player2** counters with **team split**, the resulting payoff is (59, -59).
+  - And **Player2** counters with **drone tail**, the resulting payoff is (40, -40).
+
+- If **Player1** selects **puzzle lock**:
+  - And **Player2** counters with **surprise handler**, the resulting payoff is (47, -47).
+  - And **Player2** counters with **trust twist**, the resulting payoff is (-27, 27).
+  - And **Player2** counters with **stealth cam**, the resulting payoff is (-74, 74).
+  - And **Player2** counters with **team split**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **drone tail**, the resulting payoff is (-6, 6).
+
+- If **Player1** selects **signal decode**:
+  - And **Player2** counters with **surprise handler**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **trust twist**, the resulting payoff is (64, -64).
+  - And **Player2** counters with **stealth cam**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **team split**, the resulting payoff is (98, -98).
+  - And **Player2** counters with **drone tail**, the resulting payoff is (-71, 71).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Futuristic Theme Park Heist
+
+In the heart of futuristic theme park heist, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- staff badge clone
+- maintenance shaft
+- crowd mislead
+- hologram cover
+- cart escape
+
+Meanwhile, **Player2** plots their countermoves:
+- AI security reroute
+- animatronic block
+- guest disguise
+- parkwide alert
+- VR glitch
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **staff badge clone**:
+  - And **Player2** counters with **AI security reroute**, the resulting payoff is (71, -71).
+  - And **Player2** counters with **animatronic block**, the resulting payoff is (37, -37).
+  - And **Player2** counters with **guest disguise**, the resulting payoff is (-100, 100).
+  - And **Player2** counters with **parkwide alert**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **VR glitch**, the resulting payoff is (-81, 81).
+
+- If **Player1** selects **maintenance shaft**:
+  - And **Player2** counters with **AI security reroute**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **animatronic block**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **guest disguise**, the resulting payoff is (14, -14).
+  - And **Player2** counters with **parkwide alert**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **VR glitch**, the resulting payoff is (-31, 31).
+
+- If **Player1** selects **crowd mislead**:
+  - And **Player2** counters with **AI security reroute**, the resulting payoff is (-42, 42).
+  - And **Player2** counters with **animatronic block**, the resulting payoff is (-70, 70).
+  - And **Player2** counters with **guest disguise**, the resulting payoff is (-15, 15).
+  - And **Player2** counters with **parkwide alert**, the resulting payoff is (59, -59).
+  - And **Player2** counters with **VR glitch**, the resulting payoff is (40, -40).
+
+- If **Player1** selects **hologram cover**:
+  - And **Player2** counters with **AI security reroute**, the resulting payoff is (47, -47).
+  - And **Player2** counters with **animatronic block**, the resulting payoff is (-27, 27).
+  - And **Player2** counters with **guest disguise**, the resulting payoff is (-74, 74).
+  - And **Player2** counters with **parkwide alert**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **VR glitch**, the resulting payoff is (-6, 6).
+
+- If **Player1** selects **cart escape**:
+  - And **Player2** counters with **AI security reroute**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **animatronic block**, the resulting payoff is (64, -64).
+  - And **Player2** counters with **guest disguise**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **parkwide alert**, the resulting payoff is (98, -98).
+  - And **Player2** counters with **VR glitch**, the resulting payoff is (-71, 71).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

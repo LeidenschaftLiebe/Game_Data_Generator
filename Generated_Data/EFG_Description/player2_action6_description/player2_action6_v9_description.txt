@@ -1,95 +1,292 @@
-Story 1: A Floating City Civil War
-This game takes place in a setting where a floating city civil war. Players engage through strategic decisions.
+Game Description 1: Floating City Civil War
 
-Player1 may choose from:
-  A1: power grid seize,
-  A2: wind turbine hack,
-  A3: drone strike bluff,
-  A4: bridge lock,
-  A5: food drop reroute,
-  A6: council message jam.
+In the heart of floating city civil war, critical choices carve the path to triumph.
 
-Player2 may counter with:
-  B1: dock gate breach,
-  B2: citizen revolt,
-  B3: rebel fake ID,
-  B4: speaker takeover,
-  B5: hover patrol,
-  B6: water cut trap.
+**Player1** evaluates the following strategies:
+- power grid seize
+- wind turbine hack
+- drone strike bluff
+- bridge lock
+- food drop reroute
+- council message jam
 
-Story 2: A Quantum Casino Heist
-This game takes place in a setting where a quantum casino heist. Players engage through strategic decisions.
+Meanwhile, **Player2** plots their countermoves:
+- dock gate breach
+- citizen revolt
+- rebel fake ID
+- speaker takeover
+- hover patrol
+- water cut trap
 
-Player1 may choose from:
-  A1: deck entanglement,
-  A2: chip mimic loop,
-  A3: card collapse scan,
-  A4: dice spin interference,
-  A5: AI blindspot hack,
-  A6: exit phase jump.
+When both players commit to their choices, these outcomes unfold:
 
-Player2 may counter with:
-  B1: randomizer fix,
-  B2: cheat detector cascade,
-  B3: time rewind alert,
-  B4: bluff camera AI,
-  B5: door trace,
-  B6: roulette bug.
+- If **Player1** selects **power grid seize**:
+  - And **Player2** counters with **dock gate breach**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **citizen revolt**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **rebel fake ID**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **speaker takeover**, the resulting payoff is (-25, 25).
+  - And **Player2** counters with **hover patrol**, the resulting payoff is (-27, 27).
+  - And **Player2** counters with **water cut trap**, the resulting payoff is (-47, 47).
 
-Story 3: An Underworld Political Smear Campaign
-This game takes place in a setting where an underworld political smear campaign. Players engage through strategic decisions.
+- If **Player1** selects **wind turbine hack**:
+  - And **Player2** counters with **dock gate breach**, the resulting payoff is (-43, 43).
+  - And **Player2** counters with **citizen revolt**, the resulting payoff is (2, -2).
+  - And **Player2** counters with **rebel fake ID**, the resulting payoff is (55, -55).
+  - And **Player2** counters with **speaker takeover**, the resulting payoff is (-52, 52).
+  - And **Player2** counters with **hover patrol**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **water cut trap**, the resulting payoff is (53, -53).
 
-Player1 may choose from:
-  A1: tabloid leak,
-  A2: fake charity tie,
-  A3: offshore twist,
-  A4: enemy photo plant,
-  A5: ex-employee interview,
-  A6: staged heckler.
+- If **Player1** selects **drone strike bluff**:
+  - And **Player2** counters with **dock gate breach**, the resulting payoff is (-28, 28).
+  - And **Player2** counters with **citizen revolt**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **rebel fake ID**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **speaker takeover**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **hover patrol**, the resulting payoff is (-60, 60).
+  - And **Player2** counters with **water cut trap**, the resulting payoff is (-51, 51).
 
-Player2 may counter with:
-  B1: integrity doc,
-  B2: voter rally,
-  B3: defamation suit,
-  B4: empathy pivot,
-  B5: moderator ambush,
-  B6: whistleblower leak.
+- If **Player1** selects **bridge lock**:
+  - And **Player2** counters with **dock gate breach**, the resulting payoff is (-100, 100).
+  - And **Player2** counters with **citizen revolt**, the resulting payoff is (-67, 67).
+  - And **Player2** counters with **rebel fake ID**, the resulting payoff is (75, -75).
+  - And **Player2** counters with **speaker takeover**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **hover patrol**, the resulting payoff is (40, -40).
+  - And **Player2** counters with **water cut trap**, the resulting payoff is (21, -21).
 
-Story 4: A Transdimensional Marketplace Barter
-This game takes place in a setting where a transdimensional marketplace barter. Players engage through strategic decisions.
+- If **Player1** selects **food drop reroute**:
+  - And **Player2** counters with **dock gate breach**, the resulting payoff is (-81, 81).
+  - And **Player2** counters with **citizen revolt**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **rebel fake ID**, the resulting payoff is (45, -45).
+  - And **Player2** counters with **speaker takeover**, the resulting payoff is (52, -52).
+  - And **Player2** counters with **hover patrol**, the resulting payoff is (60, -60).
+  - And **Player2** counters with **water cut trap**, the resulting payoff is (59, -59).
 
-Player1 may choose from:
-  A1: phase-warp fruit,
-  A2: cloudskin weave,
-  A3: telepathy mirror,
-  A4: empathy gem,
-  A5: anti-time plant,
-  A6: sonic ink scroll.
+- If **Player1** selects **council message jam**:
+  - And **Player2** counters with **dock gate breach**, the resulting payoff is (-69, 69).
+  - And **Player2** counters with **citizen revolt**, the resulting payoff is (34, -34).
+  - And **Player2** counters with **rebel fake ID**, the resulting payoff is (-23, 23).
+  - And **Player2** counters with **speaker takeover**, the resulting payoff is (-85, 85).
+  - And **Player2** counters with **hover patrol**, the resulting payoff is (-54, 54).
+  - And **Player2** counters with **water cut trap**, the resulting payoff is (72, -72).
 
-Player2 may counter with:
-  B1: currency void,
-  B2: value inversion,
-  B3: cultural mismatch,
-  B4: memory refund,
-  B5: barter illusion,
-  B6: dimensional glitch.
+In this dynamic contest, foresight and adaptation decide the victor.
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=10, A2=-10, A3=10, A4=-10, A5=10, A6=-10],
-    "Player2": [B1=-10, B2=10, B3=-10, B4=10, B5=-10, B6=10]
-}
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+Game Description 2: Quantum Casino Heist
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
-  Player1: -10, Player2: -10
-  Average = (-10 + -10) / 2 = -10.0
-  Adjusted Payoffs = [Player1: 0.0, Player2: 0.0]
-This ensures the outcome remains zero-sum.
+In the heart of quantum casino heist, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- deck entanglement
+- chip mimic loop
+- card collapse scan
+- dice spin interference
+- AI blindspot hack
+- exit phase jump
+
+Meanwhile, **Player2** plots their countermoves:
+- randomizer fix
+- cheat detector cascade
+- time rewind alert
+- bluff camera AI
+- door trace
+- roulette bug
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **deck entanglement**:
+  - And **Player2** counters with **randomizer fix**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **cheat detector cascade**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **time rewind alert**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **bluff camera AI**, the resulting payoff is (-25, 25).
+  - And **Player2** counters with **door trace**, the resulting payoff is (-27, 27).
+  - And **Player2** counters with **roulette bug**, the resulting payoff is (-47, 47).
+
+- If **Player1** selects **chip mimic loop**:
+  - And **Player2** counters with **randomizer fix**, the resulting payoff is (-43, 43).
+  - And **Player2** counters with **cheat detector cascade**, the resulting payoff is (2, -2).
+  - And **Player2** counters with **time rewind alert**, the resulting payoff is (55, -55).
+  - And **Player2** counters with **bluff camera AI**, the resulting payoff is (-52, 52).
+  - And **Player2** counters with **door trace**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **roulette bug**, the resulting payoff is (53, -53).
+
+- If **Player1** selects **card collapse scan**:
+  - And **Player2** counters with **randomizer fix**, the resulting payoff is (-28, 28).
+  - And **Player2** counters with **cheat detector cascade**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **time rewind alert**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **bluff camera AI**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **door trace**, the resulting payoff is (-60, 60).
+  - And **Player2** counters with **roulette bug**, the resulting payoff is (-51, 51).
+
+- If **Player1** selects **dice spin interference**:
+  - And **Player2** counters with **randomizer fix**, the resulting payoff is (-100, 100).
+  - And **Player2** counters with **cheat detector cascade**, the resulting payoff is (-67, 67).
+  - And **Player2** counters with **time rewind alert**, the resulting payoff is (75, -75).
+  - And **Player2** counters with **bluff camera AI**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **door trace**, the resulting payoff is (40, -40).
+  - And **Player2** counters with **roulette bug**, the resulting payoff is (21, -21).
+
+- If **Player1** selects **AI blindspot hack**:
+  - And **Player2** counters with **randomizer fix**, the resulting payoff is (-81, 81).
+  - And **Player2** counters with **cheat detector cascade**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **time rewind alert**, the resulting payoff is (45, -45).
+  - And **Player2** counters with **bluff camera AI**, the resulting payoff is (52, -52).
+  - And **Player2** counters with **door trace**, the resulting payoff is (60, -60).
+  - And **Player2** counters with **roulette bug**, the resulting payoff is (59, -59).
+
+- If **Player1** selects **exit phase jump**:
+  - And **Player2** counters with **randomizer fix**, the resulting payoff is (-69, 69).
+  - And **Player2** counters with **cheat detector cascade**, the resulting payoff is (34, -34).
+  - And **Player2** counters with **time rewind alert**, the resulting payoff is (-23, 23).
+  - And **Player2** counters with **bluff camera AI**, the resulting payoff is (-85, 85).
+  - And **Player2** counters with **door trace**, the resulting payoff is (-54, 54).
+  - And **Player2** counters with **roulette bug**, the resulting payoff is (72, -72).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Underworld Political Smear Campaign
+
+In the heart of underworld political smear campaign, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- tabloid leak
+- fake charity tie
+- offshore twist
+- enemy photo plant
+- ex-employee interview
+- staged heckler
+
+Meanwhile, **Player2** plots their countermoves:
+- integrity doc
+- voter rally
+- defamation suit
+- empathy pivot
+- moderator ambush
+- whistleblower leak
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **tabloid leak**:
+  - And **Player2** counters with **integrity doc**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **voter rally**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **defamation suit**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **empathy pivot**, the resulting payoff is (-25, 25).
+  - And **Player2** counters with **moderator ambush**, the resulting payoff is (-27, 27).
+  - And **Player2** counters with **whistleblower leak**, the resulting payoff is (-47, 47).
+
+- If **Player1** selects **fake charity tie**:
+  - And **Player2** counters with **integrity doc**, the resulting payoff is (-43, 43).
+  - And **Player2** counters with **voter rally**, the resulting payoff is (2, -2).
+  - And **Player2** counters with **defamation suit**, the resulting payoff is (55, -55).
+  - And **Player2** counters with **empathy pivot**, the resulting payoff is (-52, 52).
+  - And **Player2** counters with **moderator ambush**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **whistleblower leak**, the resulting payoff is (53, -53).
+
+- If **Player1** selects **offshore twist**:
+  - And **Player2** counters with **integrity doc**, the resulting payoff is (-28, 28).
+  - And **Player2** counters with **voter rally**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **defamation suit**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **empathy pivot**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **moderator ambush**, the resulting payoff is (-60, 60).
+  - And **Player2** counters with **whistleblower leak**, the resulting payoff is (-51, 51).
+
+- If **Player1** selects **enemy photo plant**:
+  - And **Player2** counters with **integrity doc**, the resulting payoff is (-100, 100).
+  - And **Player2** counters with **voter rally**, the resulting payoff is (-67, 67).
+  - And **Player2** counters with **defamation suit**, the resulting payoff is (75, -75).
+  - And **Player2** counters with **empathy pivot**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **moderator ambush**, the resulting payoff is (40, -40).
+  - And **Player2** counters with **whistleblower leak**, the resulting payoff is (21, -21).
+
+- If **Player1** selects **ex-employee interview**:
+  - And **Player2** counters with **integrity doc**, the resulting payoff is (-81, 81).
+  - And **Player2** counters with **voter rally**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **defamation suit**, the resulting payoff is (45, -45).
+  - And **Player2** counters with **empathy pivot**, the resulting payoff is (52, -52).
+  - And **Player2** counters with **moderator ambush**, the resulting payoff is (60, -60).
+  - And **Player2** counters with **whistleblower leak**, the resulting payoff is (59, -59).
+
+- If **Player1** selects **staged heckler**:
+  - And **Player2** counters with **integrity doc**, the resulting payoff is (-69, 69).
+  - And **Player2** counters with **voter rally**, the resulting payoff is (34, -34).
+  - And **Player2** counters with **defamation suit**, the resulting payoff is (-23, 23).
+  - And **Player2** counters with **empathy pivot**, the resulting payoff is (-85, 85).
+  - And **Player2** counters with **moderator ambush**, the resulting payoff is (-54, 54).
+  - And **Player2** counters with **whistleblower leak**, the resulting payoff is (72, -72).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Transdimensional Marketplace Barter
+
+In the heart of transdimensional marketplace barter, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- phase-warp fruit
+- cloudskin weave
+- telepathy mirror
+- empathy gem
+- anti-time plant
+- sonic ink scroll
+
+Meanwhile, **Player2** plots their countermoves:
+- currency void
+- value inversion
+- cultural mismatch
+- memory refund
+- barter illusion
+- dimensional glitch
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **phase-warp fruit**:
+  - And **Player2** counters with **currency void**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **value inversion**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **cultural mismatch**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **memory refund**, the resulting payoff is (-25, 25).
+  - And **Player2** counters with **barter illusion**, the resulting payoff is (-27, 27).
+  - And **Player2** counters with **dimensional glitch**, the resulting payoff is (-47, 47).
+
+- If **Player1** selects **cloudskin weave**:
+  - And **Player2** counters with **currency void**, the resulting payoff is (-43, 43).
+  - And **Player2** counters with **value inversion**, the resulting payoff is (2, -2).
+  - And **Player2** counters with **cultural mismatch**, the resulting payoff is (55, -55).
+  - And **Player2** counters with **memory refund**, the resulting payoff is (-52, 52).
+  - And **Player2** counters with **barter illusion**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **dimensional glitch**, the resulting payoff is (53, -53).
+
+- If **Player1** selects **telepathy mirror**:
+  - And **Player2** counters with **currency void**, the resulting payoff is (-28, 28).
+  - And **Player2** counters with **value inversion**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **cultural mismatch**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **memory refund**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **barter illusion**, the resulting payoff is (-60, 60).
+  - And **Player2** counters with **dimensional glitch**, the resulting payoff is (-51, 51).
+
+- If **Player1** selects **empathy gem**:
+  - And **Player2** counters with **currency void**, the resulting payoff is (-100, 100).
+  - And **Player2** counters with **value inversion**, the resulting payoff is (-67, 67).
+  - And **Player2** counters with **cultural mismatch**, the resulting payoff is (75, -75).
+  - And **Player2** counters with **memory refund**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **barter illusion**, the resulting payoff is (40, -40).
+  - And **Player2** counters with **dimensional glitch**, the resulting payoff is (21, -21).
+
+- If **Player1** selects **anti-time plant**:
+  - And **Player2** counters with **currency void**, the resulting payoff is (-81, 81).
+  - And **Player2** counters with **value inversion**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **cultural mismatch**, the resulting payoff is (45, -45).
+  - And **Player2** counters with **memory refund**, the resulting payoff is (52, -52).
+  - And **Player2** counters with **barter illusion**, the resulting payoff is (60, -60).
+  - And **Player2** counters with **dimensional glitch**, the resulting payoff is (59, -59).
+
+- If **Player1** selects **sonic ink scroll**:
+  - And **Player2** counters with **currency void**, the resulting payoff is (-69, 69).
+  - And **Player2** counters with **value inversion**, the resulting payoff is (34, -34).
+  - And **Player2** counters with **cultural mismatch**, the resulting payoff is (-23, 23).
+  - And **Player2** counters with **memory refund**, the resulting payoff is (-85, 85).
+  - And **Player2** counters with **barter illusion**, the resulting payoff is (-54, 54).
+  - And **Player2** counters with **dimensional glitch**, the resulting payoff is (72, -72).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

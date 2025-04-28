@@ -127,4 +127,4 @@ When the players commit to their strategies, the following outcomes unfold:
   - And Player2 counters with **shield deploy**, the resulting payoff is (3, -3).
   - And Player2 counters with **tractor pull**, the resulting payoff is (9, -9).
 
-Only the sharpest minds and quickest moves will determine who prevails.
+Only the sharpest minds and quickest moves will determine who prevails. 

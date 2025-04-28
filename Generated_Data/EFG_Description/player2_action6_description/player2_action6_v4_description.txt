@@ -1,95 +1,292 @@
-Story 1: A Fashion-Tech Innovation Gala
-This game takes place in a setting where a fashion-tech innovation gala. Players engage through strategic decisions.
+Game Description 1: Fashion-Tech Innovation Gala
 
-Player1 may choose from:
-  A1: mood-reactive jacket,
-  A2: solar dress,
-  A3: self-cleaning boots,
-  A4: hologram scarf,
-  A5: AI-tailored pants,
-  A6: kinetic heels.
+In the heart of fashion-tech innovation gala, critical choices carve the path to triumph.
 
-Player2 may counter with:
-  B1: influencer flop,
-  B2: seam split,
-  B3: flashback error,
-  B4: mood mismatch,
-  B5: price backlash,
-  B6: AI glitch feedback.
+**Player1** evaluates the following strategies:
+- mood-reactive jacket
+- solar dress
+- self-cleaning boots
+- hologram scarf
+- AI-tailored pants
+- kinetic heels
 
-Story 2: A Mythological Pantheon Trial
-This game takes place in a setting where a mythological pantheon trial. Players engage through strategic decisions.
+Meanwhile, **Player2** plots their countermoves:
+- influencer flop
+- seam split
+- flashback error
+- mood mismatch
+- price backlash
+- AI glitch feedback
 
-Player1 may choose from:
-  A1: thunder oath,
-  A2: river blood pact,
-  A3: golden feather token,
-  A4: truth mirror,
-  A5: fate weaving,
-  A6: divine trial by combat.
+When both players commit to their choices, these outcomes unfold:
 
-Player2 may counter with:
-  B1: oracle reversal,
-  B2: god-swap challenge,
-  B3: memory trap,
-  B4: ancestral binding,
-  B5: divine penalty,
-  B6: celestial veto.
+- If **Player1** selects **mood-reactive jacket**:
+  - And **Player2** counters with **influencer flop**, the resulting payoff is (42, -42).
+  - And **Player2** counters with **seam split**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **flashback error**, the resulting payoff is (-7, 7).
+  - And **Player2** counters with **mood mismatch**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **price backlash**, the resulting payoff is (83, -83).
+  - And **Player2** counters with **AI glitch feedback**, the resulting payoff is (-16, 16).
 
-Story 3: A Cyberpunk Rebellion Network
-This game takes place in a setting where a cyberpunk rebellion network. Players engage through strategic decisions.
+- If **Player1** selects **solar dress**:
+  - And **Player2** counters with **influencer flop**, the resulting payoff is (38, -38).
+  - And **Player2** counters with **seam split**, the resulting payoff is (-73, 73).
+  - And **Player2** counters with **flashback error**, the resulting payoff is (-94, 94).
+  - And **Player2** counters with **mood mismatch**, the resulting payoff is (78, -78).
+  - And **Player2** counters with **price backlash**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **AI glitch feedback**, the resulting payoff is (80, -80).
 
-Player1 may choose from:
-  A1: net split protocol,
-  A2: tunnel router,
-  A3: ghost drop,
-  A4: memory stack clone,
-  A5: power grid jolt,
-  A6: police ID mask.
+- If **Player1** selects **self-cleaning boots**:
+  - And **Player2** counters with **influencer flop**, the resulting payoff is (84, -84).
+  - And **Player2** counters with **seam split**, the resulting payoff is (-17, 17).
+  - And **Player2** counters with **flashback error**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **mood mismatch**, the resulting payoff is (8, -8).
+  - And **Player2** counters with **price backlash**, the resulting payoff is (-42, 42).
+  - And **Player2** counters with **AI glitch feedback**, the resulting payoff is (51, -51).
 
-Player2 may counter with:
-  B1: bio-chip scan,
-  B2: trace echo,
-  B3: loyalty test,
-  B4: rebel tracker,
-  B5: neural flash,
-  B6: broadcast block.
+- If **Player1** selects **hologram scarf**:
+  - And **Player2** counters with **influencer flop**, the resulting payoff is (30, -30).
+  - And **Player2** counters with **seam split**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **flashback error**, the resulting payoff is (86, -86).
+  - And **Player2** counters with **mood mismatch**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **price backlash**, the resulting payoff is (-61, 61).
+  - And **Player2** counters with **AI glitch feedback**, the resulting payoff is (39, -39).
 
-Story 4: An Ice-Age Survival Contest
-This game takes place in a setting where an ice-age survival contest. Players engage through strategic decisions.
+- If **Player1** selects **AI-tailored pants**:
+  - And **Player2** counters with **influencer flop**, the resulting payoff is (0, 0).
+  - And **Player2** counters with **seam split**, the resulting payoff is (-26, 26).
+  - And **Player2** counters with **flashback error**, the resulting payoff is (-29, 29).
+  - And **Player2** counters with **mood mismatch**, the resulting payoff is (62, -62).
+  - And **Player2** counters with **price backlash**, the resulting payoff is (-86, 86).
+  - And **Player2** counters with **AI glitch feedback**, the resulting payoff is (-50, 50).
 
-Player1 may choose from:
-  A1: thermal cave shelter,
-  A2: firestorm signal,
-  A3: mammoth lure,
-  A4: glacier crossing,
-  A5: herbal salve,
-  A6: tribe alliance.
+- If **Player1** selects **kinetic heels**:
+  - And **Player2** counters with **influencer flop**, the resulting payoff is (-53, 53).
+  - And **Player2** counters with **seam split**, the resulting payoff is (76, -76).
+  - And **Player2** counters with **flashback error**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **mood mismatch**, the resulting payoff is (16, -16).
+  - And **Player2** counters with **price backlash**, the resulting payoff is (-67, 67).
+  - And **Player2** counters with **AI glitch feedback**, the resulting payoff is (-35, 35).
 
-Player2 may counter with:
-  B1: frost bite trap,
-  B2: meat theft,
-  B3: blizzard bluff,
-  B4: broken sled,
-  B5: frost wolf call,
-  B6: group vote.
+In this dynamic contest, foresight and adaptation decide the victor.
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=5, A2=10, A3=7, A4=3, A5=8, A6=12],
-    "Player2": [B1=40, B2=50, B3=60, B4=70, B5=80, B6=90]
-}
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+Game Description 2: Mythological Pantheon Trial
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
-  Player1: 10, Player2: 80
-  Average = (10 + 80) / 2 = 45.0
-  Adjusted Payoffs = [Player1: -35.0, Player2: 35.0]
-This ensures the outcome remains zero-sum.
+In the heart of mythological pantheon trial, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- thunder oath
+- river blood pact
+- golden feather token
+- truth mirror
+- fate weaving
+- divine trial by combat
+
+Meanwhile, **Player2** plots their countermoves:
+- oracle reversal
+- god-swap challenge
+- memory trap
+- ancestral binding
+- divine penalty
+- celestial veto
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **thunder oath**:
+  - And **Player2** counters with **oracle reversal**, the resulting payoff is (42, -42).
+  - And **Player2** counters with **god-swap challenge**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **memory trap**, the resulting payoff is (-7, 7).
+  - And **Player2** counters with **ancestral binding**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **divine penalty**, the resulting payoff is (83, -83).
+  - And **Player2** counters with **celestial veto**, the resulting payoff is (-16, 16).
+
+- If **Player1** selects **river blood pact**:
+  - And **Player2** counters with **oracle reversal**, the resulting payoff is (38, -38).
+  - And **Player2** counters with **god-swap challenge**, the resulting payoff is (-73, 73).
+  - And **Player2** counters with **memory trap**, the resulting payoff is (-94, 94).
+  - And **Player2** counters with **ancestral binding**, the resulting payoff is (78, -78).
+  - And **Player2** counters with **divine penalty**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **celestial veto**, the resulting payoff is (80, -80).
+
+- If **Player1** selects **golden feather token**:
+  - And **Player2** counters with **oracle reversal**, the resulting payoff is (84, -84).
+  - And **Player2** counters with **god-swap challenge**, the resulting payoff is (-17, 17).
+  - And **Player2** counters with **memory trap**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **ancestral binding**, the resulting payoff is (8, -8).
+  - And **Player2** counters with **divine penalty**, the resulting payoff is (-42, 42).
+  - And **Player2** counters with **celestial veto**, the resulting payoff is (51, -51).
+
+- If **Player1** selects **truth mirror**:
+  - And **Player2** counters with **oracle reversal**, the resulting payoff is (30, -30).
+  - And **Player2** counters with **god-swap challenge**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **memory trap**, the resulting payoff is (86, -86).
+  - And **Player2** counters with **ancestral binding**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **divine penalty**, the resulting payoff is (-61, 61).
+  - And **Player2** counters with **celestial veto**, the resulting payoff is (39, -39).
+
+- If **Player1** selects **fate weaving**:
+  - And **Player2** counters with **oracle reversal**, the resulting payoff is (0, 0).
+  - And **Player2** counters with **god-swap challenge**, the resulting payoff is (-26, 26).
+  - And **Player2** counters with **memory trap**, the resulting payoff is (-29, 29).
+  - And **Player2** counters with **ancestral binding**, the resulting payoff is (62, -62).
+  - And **Player2** counters with **divine penalty**, the resulting payoff is (-86, 86).
+  - And **Player2** counters with **celestial veto**, the resulting payoff is (-50, 50).
+
+- If **Player1** selects **divine trial by combat**:
+  - And **Player2** counters with **oracle reversal**, the resulting payoff is (-53, 53).
+  - And **Player2** counters with **god-swap challenge**, the resulting payoff is (76, -76).
+  - And **Player2** counters with **memory trap**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **ancestral binding**, the resulting payoff is (16, -16).
+  - And **Player2** counters with **divine penalty**, the resulting payoff is (-67, 67).
+  - And **Player2** counters with **celestial veto**, the resulting payoff is (-35, 35).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Cyberpunk Rebellion Network
+
+In the heart of cyberpunk rebellion network, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- net split protocol
+- tunnel router
+- ghost drop
+- memory stack clone
+- power grid jolt
+- police ID mask
+
+Meanwhile, **Player2** plots their countermoves:
+- bio-chip scan
+- trace echo
+- loyalty test
+- rebel tracker
+- neural flash
+- broadcast block
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **net split protocol**:
+  - And **Player2** counters with **bio-chip scan**, the resulting payoff is (42, -42).
+  - And **Player2** counters with **trace echo**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **loyalty test**, the resulting payoff is (-7, 7).
+  - And **Player2** counters with **rebel tracker**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **neural flash**, the resulting payoff is (83, -83).
+  - And **Player2** counters with **broadcast block**, the resulting payoff is (-16, 16).
+
+- If **Player1** selects **tunnel router**:
+  - And **Player2** counters with **bio-chip scan**, the resulting payoff is (38, -38).
+  - And **Player2** counters with **trace echo**, the resulting payoff is (-73, 73).
+  - And **Player2** counters with **loyalty test**, the resulting payoff is (-94, 94).
+  - And **Player2** counters with **rebel tracker**, the resulting payoff is (78, -78).
+  - And **Player2** counters with **neural flash**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **broadcast block**, the resulting payoff is (80, -80).
+
+- If **Player1** selects **ghost drop**:
+  - And **Player2** counters with **bio-chip scan**, the resulting payoff is (84, -84).
+  - And **Player2** counters with **trace echo**, the resulting payoff is (-17, 17).
+  - And **Player2** counters with **loyalty test**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **rebel tracker**, the resulting payoff is (8, -8).
+  - And **Player2** counters with **neural flash**, the resulting payoff is (-42, 42).
+  - And **Player2** counters with **broadcast block**, the resulting payoff is (51, -51).
+
+- If **Player1** selects **memory stack clone**:
+  - And **Player2** counters with **bio-chip scan**, the resulting payoff is (30, -30).
+  - And **Player2** counters with **trace echo**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **loyalty test**, the resulting payoff is (86, -86).
+  - And **Player2** counters with **rebel tracker**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **neural flash**, the resulting payoff is (-61, 61).
+  - And **Player2** counters with **broadcast block**, the resulting payoff is (39, -39).
+
+- If **Player1** selects **power grid jolt**:
+  - And **Player2** counters with **bio-chip scan**, the resulting payoff is (0, 0).
+  - And **Player2** counters with **trace echo**, the resulting payoff is (-26, 26).
+  - And **Player2** counters with **loyalty test**, the resulting payoff is (-29, 29).
+  - And **Player2** counters with **rebel tracker**, the resulting payoff is (62, -62).
+  - And **Player2** counters with **neural flash**, the resulting payoff is (-86, 86).
+  - And **Player2** counters with **broadcast block**, the resulting payoff is (-50, 50).
+
+- If **Player1** selects **police ID mask**:
+  - And **Player2** counters with **bio-chip scan**, the resulting payoff is (-53, 53).
+  - And **Player2** counters with **trace echo**, the resulting payoff is (76, -76).
+  - And **Player2** counters with **loyalty test**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **rebel tracker**, the resulting payoff is (16, -16).
+  - And **Player2** counters with **neural flash**, the resulting payoff is (-67, 67).
+  - And **Player2** counters with **broadcast block**, the resulting payoff is (-35, 35).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Ice-Age Survival Contest
+
+In the heart of ice-age survival contest, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- thermal cave shelter
+- firestorm signal
+- mammoth lure
+- glacier crossing
+- herbal salve
+- tribe alliance
+
+Meanwhile, **Player2** plots their countermoves:
+- frost bite trap
+- meat theft
+- blizzard bluff
+- broken sled
+- frost wolf call
+- group vote
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **thermal cave shelter**:
+  - And **Player2** counters with **frost bite trap**, the resulting payoff is (42, -42).
+  - And **Player2** counters with **meat theft**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **blizzard bluff**, the resulting payoff is (-7, 7).
+  - And **Player2** counters with **broken sled**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **frost wolf call**, the resulting payoff is (83, -83).
+  - And **Player2** counters with **group vote**, the resulting payoff is (-16, 16).
+
+- If **Player1** selects **firestorm signal**:
+  - And **Player2** counters with **frost bite trap**, the resulting payoff is (38, -38).
+  - And **Player2** counters with **meat theft**, the resulting payoff is (-73, 73).
+  - And **Player2** counters with **blizzard bluff**, the resulting payoff is (-94, 94).
+  - And **Player2** counters with **broken sled**, the resulting payoff is (78, -78).
+  - And **Player2** counters with **frost wolf call**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **group vote**, the resulting payoff is (80, -80).
+
+- If **Player1** selects **mammoth lure**:
+  - And **Player2** counters with **frost bite trap**, the resulting payoff is (84, -84).
+  - And **Player2** counters with **meat theft**, the resulting payoff is (-17, 17).
+  - And **Player2** counters with **blizzard bluff**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **broken sled**, the resulting payoff is (8, -8).
+  - And **Player2** counters with **frost wolf call**, the resulting payoff is (-42, 42).
+  - And **Player2** counters with **group vote**, the resulting payoff is (51, -51).
+
+- If **Player1** selects **glacier crossing**:
+  - And **Player2** counters with **frost bite trap**, the resulting payoff is (30, -30).
+  - And **Player2** counters with **meat theft**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **blizzard bluff**, the resulting payoff is (86, -86).
+  - And **Player2** counters with **broken sled**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **frost wolf call**, the resulting payoff is (-61, 61).
+  - And **Player2** counters with **group vote**, the resulting payoff is (39, -39).
+
+- If **Player1** selects **herbal salve**:
+  - And **Player2** counters with **frost bite trap**, the resulting payoff is (0, 0).
+  - And **Player2** counters with **meat theft**, the resulting payoff is (-26, 26).
+  - And **Player2** counters with **blizzard bluff**, the resulting payoff is (-29, 29).
+  - And **Player2** counters with **broken sled**, the resulting payoff is (62, -62).
+  - And **Player2** counters with **frost wolf call**, the resulting payoff is (-86, 86).
+  - And **Player2** counters with **group vote**, the resulting payoff is (-50, 50).
+
+- If **Player1** selects **tribe alliance**:
+  - And **Player2** counters with **frost bite trap**, the resulting payoff is (-53, 53).
+  - And **Player2** counters with **meat theft**, the resulting payoff is (76, -76).
+  - And **Player2** counters with **blizzard bluff**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **broken sled**, the resulting payoff is (16, -16).
+  - And **Player2** counters with **frost wolf call**, the resulting payoff is (-67, 67).
+  - And **Player2** counters with **group vote**, the resulting payoff is (-35, 35).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

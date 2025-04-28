@@ -1,42 +1,180 @@
-Story 1: A Social Media Rebrand
-In this unique scenario, the competition unfolds in the context of a social media rebrand.
-Player1 must choose one of four tactics: A1: logo revamp, A2: influencer takeover, A3: algorithm tweak, or A4: surprise livestream.
-Meanwhile, Player2 must also decide among B1: push notifications, B2: viral dance, B3: fan competition, or B4: NFT drop.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+Game Description 1: Social Media Rebrand
 
-Story 2: A Mountaineering Survival Test
-In this unique scenario, the competition unfolds in the context of a mountaineering survival test.
-Player1 must choose one of four tactics: A1: cross glacier, A2: climb vertical face, A3: set base camp, or A4: wait for weather.
-Meanwhile, Player2 must also decide among B1: call rescue, B2: split team, B3: ration food, or B4: descend immediately.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+In the heart of social media rebrand, critical choices carve the path to triumph.
 
-Story 3: A Pirate Ship Skirmish
-In this unique scenario, the competition unfolds in the context of a pirate ship skirmish.
-Player1 must choose one of four tactics: A1: raise black sails, A2: broadside fire, A3: boarding party, or A4: cannon smoke screen.
-Meanwhile, Player2 must also decide among B1: evasive maneuver, B2: powder barrel drop, B3: hook defense, or B4: flee to fog.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+**Player1** evaluates the following strategies:
+- logo revamp
+- influencer takeover
+- algorithm tweak
+- surprise livestream
 
-Story 4: A Biotech Startup Demo
-In this unique scenario, the competition unfolds in the context of a biotech startup demo.
-Player1 must choose one of four tactics: A1: show lab-grown organ, A2: CRISPR gene edit, A3: AI diagnosis tool, or A4: nano-drug patch.
-Meanwhile, Player2 must also decide among B1: FDA fast track, B2: investor pitch, B3: press Q&A, or B4: patient trial.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+Meanwhile, **Player2** plots their countermoves:
+- push notifications
+- viral dance
+- fan competition
+- NFT drop
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=-2, A2=-4, A3=-5, A4=-3],
-    "Player2": [B1=-3, B2=-6, B3=-2, B4=-1]
-}
+When both players commit to their choices, these outcomes unfold:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- If **Player1** selects **logo revamp**:
+  - And **Player2** counters with **push notifications**, the resulting payoff is (44, -44).
+  - And **Player2** counters with **viral dance**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **fan competition**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **NFT drop**, the resulting payoff is (-60, 60).
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B3 (index 2):
-  Player1: -4, Player2: -2
-  Average = (-4 + -2) / 2 = -3.0
-  Adjusted Payoffs = [Player1: -1.0, Player2: 1.0]
+- If **Player1** selects **influencer takeover**:
+  - And **Player2** counters with **push notifications**, the resulting payoff is (89, -89).
+  - And **Player2** counters with **viral dance**, the resulting payoff is (-51, 51).
+  - And **Player2** counters with **fan competition**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **NFT drop**, the resulting payoff is (59, -59).
+
+- If **Player1** selects **algorithm tweak**:
+  - And **Player2** counters with **push notifications**, the resulting payoff is (-39, 39).
+  - And **Player2** counters with **viral dance**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **fan competition**, the resulting payoff is (-92, 92).
+  - And **Player2** counters with **NFT drop**, the resulting payoff is (1, -1).
+
+- If **Player1** selects **surprise livestream**:
+  - And **Player2** counters with **push notifications**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **viral dance**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **fan competition**, the resulting payoff is (-78, 78).
+  - And **Player2** counters with **NFT drop**, the resulting payoff is (45, -45).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Mountaineering Survival Test
+
+In the heart of mountaineering survival test, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- cross glacier
+- climb vertical face
+- set base camp
+- wait for weather
+
+Meanwhile, **Player2** plots their countermoves:
+- call rescue
+- split team
+- ration food
+- descend immediately
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **cross glacier**:
+  - And **Player2** counters with **call rescue**, the resulting payoff is (44, -44).
+  - And **Player2** counters with **split team**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **ration food**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **descend immediately**, the resulting payoff is (-60, 60).
+
+- If **Player1** selects **climb vertical face**:
+  - And **Player2** counters with **call rescue**, the resulting payoff is (89, -89).
+  - And **Player2** counters with **split team**, the resulting payoff is (-51, 51).
+  - And **Player2** counters with **ration food**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **descend immediately**, the resulting payoff is (59, -59).
+
+- If **Player1** selects **set base camp**:
+  - And **Player2** counters with **call rescue**, the resulting payoff is (-39, 39).
+  - And **Player2** counters with **split team**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **ration food**, the resulting payoff is (-92, 92).
+  - And **Player2** counters with **descend immediately**, the resulting payoff is (1, -1).
+
+- If **Player1** selects **wait for weather**:
+  - And **Player2** counters with **call rescue**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **split team**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **ration food**, the resulting payoff is (-78, 78).
+  - And **Player2** counters with **descend immediately**, the resulting payoff is (45, -45).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Pirate Ship Skirmish
+
+In the heart of pirate ship skirmish, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- raise black sails
+- broadside fire
+- boarding party
+- cannon smoke screen
+
+Meanwhile, **Player2** plots their countermoves:
+- evasive maneuver
+- powder barrel drop
+- hook defense
+- flee to fog
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **raise black sails**:
+  - And **Player2** counters with **evasive maneuver**, the resulting payoff is (44, -44).
+  - And **Player2** counters with **powder barrel drop**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **hook defense**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **flee to fog**, the resulting payoff is (-60, 60).
+
+- If **Player1** selects **broadside fire**:
+  - And **Player2** counters with **evasive maneuver**, the resulting payoff is (89, -89).
+  - And **Player2** counters with **powder barrel drop**, the resulting payoff is (-51, 51).
+  - And **Player2** counters with **hook defense**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **flee to fog**, the resulting payoff is (59, -59).
+
+- If **Player1** selects **boarding party**:
+  - And **Player2** counters with **evasive maneuver**, the resulting payoff is (-39, 39).
+  - And **Player2** counters with **powder barrel drop**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **hook defense**, the resulting payoff is (-92, 92).
+  - And **Player2** counters with **flee to fog**, the resulting payoff is (1, -1).
+
+- If **Player1** selects **cannon smoke screen**:
+  - And **Player2** counters with **evasive maneuver**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **powder barrel drop**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **hook defense**, the resulting payoff is (-78, 78).
+  - And **Player2** counters with **flee to fog**, the resulting payoff is (45, -45).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Biotech Startup Demo
+
+In the heart of biotech startup demo, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- show lab-grown organ
+- CRISPR gene edit
+- AI diagnosis tool
+- nano-drug patch
+
+Meanwhile, **Player2** plots their countermoves:
+- FDA fast track
+- investor pitch
+- press Q&A
+- patient trial
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **show lab-grown organ**:
+  - And **Player2** counters with **FDA fast track**, the resulting payoff is (44, -44).
+  - And **Player2** counters with **investor pitch**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **press Q&A**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **patient trial**, the resulting payoff is (-60, 60).
+
+- If **Player1** selects **CRISPR gene edit**:
+  - And **Player2** counters with **FDA fast track**, the resulting payoff is (89, -89).
+  - And **Player2** counters with **investor pitch**, the resulting payoff is (-51, 51).
+  - And **Player2** counters with **press Q&A**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **patient trial**, the resulting payoff is (59, -59).
+
+- If **Player1** selects **AI diagnosis tool**:
+  - And **Player2** counters with **FDA fast track**, the resulting payoff is (-39, 39).
+  - And **Player2** counters with **investor pitch**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **press Q&A**, the resulting payoff is (-92, 92).
+  - And **Player2** counters with **patient trial**, the resulting payoff is (1, -1).
+
+- If **Player1** selects **nano-drug patch**:
+  - And **Player2** counters with **FDA fast track**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **investor pitch**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **press Q&A**, the resulting payoff is (-78, 78).
+  - And **Player2** counters with **patient trial**, the resulting payoff is (45, -45).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

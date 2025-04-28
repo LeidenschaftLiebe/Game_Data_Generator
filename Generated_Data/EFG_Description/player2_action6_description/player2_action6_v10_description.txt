@@ -1,95 +1,292 @@
-Story 1: A Space Station Quarantine Breach
-This game takes place in a setting where a space station quarantine breach. Players engage through strategic decisions.
+Game Description 1: Space Station Quarantine Breach
 
-Player1 may choose from:
-  A1: airlock freeze,
-  A2: crew tracking,
-  A3: virus scent lure,
-  A4: code lock override,
-  A5: dock mislabel,
-  A6: decoy med suit.
+In the heart of space station quarantine breach, critical choices carve the path to triumph.
 
-Player2 may counter with:
-  B1: breach siren,
-  B2: lab report leak,
-  B3: capsule jettison,
-  B4: security override,
-  B5: injector scan,
-  B6: crowd protocol.
+**Player1** evaluates the following strategies:
+- airlock freeze
+- crew tracking
+- virus scent lure
+- code lock override
+- dock mislabel
+- decoy med suit
 
-Story 2: An Ai Art Copyright Trial
-This game takes place in a setting where an AI art copyright trial. Players engage through strategic decisions.
+Meanwhile, **Player2** plots their countermoves:
+- breach siren
+- lab report leak
+- capsule jettison
+- security override
+- injector scan
+- crowd protocol
 
-Player1 may choose from:
-  A1: dataset audit,
-  A2: creative intent argument,
-  A3: author signature prompt,
-  A4: training bias exposure,
-  A5: historical precedent,
-  A6: public domain loop.
+When both players commit to their choices, these outcomes unfold:
 
-Player2 may counter with:
-  B1: originality claim,
-  B2: fair use case,
-  B3: artist alliance,
-  B4: image leak,
-  B5: prompt transcript,
-  B6: emotional appeal.
+- If **Player1** selects **airlock freeze**:
+  - And **Player2** counters with **breach siren**, the resulting payoff is (-94, 94).
+  - And **Player2** counters with **lab report leak**, the resulting payoff is (37, -37).
+  - And **Player2** counters with **capsule jettison**, the resulting payoff is (46, -46).
+  - And **Player2** counters with **security override**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **injector scan**, the resulting payoff is (11, -11).
+  - And **Player2** counters with **crowd protocol**, the resulting payoff is (35, -35).
 
-Story 3: A Biotech Infiltration Thriller
-This game takes place in a setting where a biotech infiltration thriller. Players engage through strategic decisions.
+- If **Player1** selects **crew tracking**:
+  - And **Player2** counters with **breach siren**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **lab report leak**, the resulting payoff is (93, -93).
+  - And **Player2** counters with **capsule jettison**, the resulting payoff is (-100, 100).
+  - And **Player2** counters with **security override**, the resulting payoff is (54, -54).
+  - And **Player2** counters with **injector scan**, the resulting payoff is (-40, 40).
+  - And **Player2** counters with **crowd protocol**, the resulting payoff is (68, -68).
 
-Player1 may choose from:
-  A1: lab coat swipe,
-  A2: retinal spoof,
-  A3: genome map clone,
-  A4: vent sneak,
-  A5: vial swap,
-  A6: fake patient file.
+- If **Player1** selects **virus scent lure**:
+  - And **Player2** counters with **breach siren**, the resulting payoff is (48, -48).
+  - And **Player2** counters with **lab report leak**, the resulting payoff is (91, -91).
+  - And **Player2** counters with **capsule jettison**, the resulting payoff is (-3, 3).
+  - And **Player2** counters with **security override**, the resulting payoff is (69, -69).
+  - And **Player2** counters with **injector scan**, the resulting payoff is (-12, 12).
+  - And **Player2** counters with **crowd protocol**, the resulting payoff is (-36, 36).
 
-Player2 may counter with:
-  B1: cold vault scan,
-  B2: airlock log,
-  B3: syringe match,
-  B4: power flicker,
-  B5: name alert,
-  B6: breach pulse.
+- If **Player1** selects **code lock override**:
+  - And **Player2** counters with **breach siren**, the resulting payoff is (-25, 25).
+  - And **Player2** counters with **lab report leak**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **capsule jettison**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **security override**, the resulting payoff is (26, -26).
+  - And **Player2** counters with **injector scan**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **crowd protocol**, the resulting payoff is (-50, 50).
 
-Story 4: A Rival Ghost Hunting Tv Show
-This game takes place in a setting where a rival ghost hunting TV show. Players engage through strategic decisions.
+- If **Player1** selects **dock mislabel**:
+  - And **Player2** counters with **breach siren**, the resulting payoff is (-57, 57).
+  - And **Player2** counters with **lab report leak**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **capsule jettison**, the resulting payoff is (31, -31).
+  - And **Player2** counters with **security override**, the resulting payoff is (28, -28).
+  - And **Player2** counters with **injector scan**, the resulting payoff is (81, -81).
+  - And **Player2** counters with **crowd protocol**, the resulting payoff is (-98, 98).
 
-Player1 may choose from:
-  A1: thermal cam reveal,
-  A2: EMF reader,
-  A3: seance bluff,
-  A4: ghost actor,
-  A5: night vision duel,
-  A6: noise trap edit.
+- If **Player1** selects **decoy med suit**:
+  - And **Player2** counters with **breach siren**, the resulting payoff is (-64, 64).
+  - And **Player2** counters with **lab report leak**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **capsule jettison**, the resulting payoff is (-78, 78).
+  - And **Player2** counters with **security override**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **injector scan**, the resulting payoff is (-65, 65).
+  - And **Player2** counters with **crowd protocol**, the resulting payoff is (-58, 58).
 
-Player2 may counter with:
-  B1: spirit debunk,
-  B2: camera cross feed,
-  B3: fanbase revolt,
-  B4: haunted history record,
-  B5: prop expose,
-  B6: fake scream sync.
+In this dynamic contest, foresight and adaptation decide the victor.
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=1, A2=1, A3=1, A4=1, A5=1, A6=25],
-    "Player2": [B1=2, B2=2, B3=2, B4=2, B5=2, B6=30]
-}
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+Game Description 2: AI Art Copyright Trial
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
-  Player1: 1, Player2: 2
-  Average = (1 + 2) / 2 = 1.5
-  Adjusted Payoffs = [Player1: -0.5, Player2: 0.5]
-This ensures the outcome remains zero-sum.
+In the heart of ai art copyright trial, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- dataset audit
+- creative intent argument
+- author signature prompt
+- training bias exposure
+- historical precedent
+- public domain loop
+
+Meanwhile, **Player2** plots their countermoves:
+- originality claim
+- fair use case
+- artist alliance
+- image leak
+- prompt transcript
+- emotional appeal
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **dataset audit**:
+  - And **Player2** counters with **originality claim**, the resulting payoff is (-94, 94).
+  - And **Player2** counters with **fair use case**, the resulting payoff is (37, -37).
+  - And **Player2** counters with **artist alliance**, the resulting payoff is (46, -46).
+  - And **Player2** counters with **image leak**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **prompt transcript**, the resulting payoff is (11, -11).
+  - And **Player2** counters with **emotional appeal**, the resulting payoff is (35, -35).
+
+- If **Player1** selects **creative intent argument**:
+  - And **Player2** counters with **originality claim**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **fair use case**, the resulting payoff is (93, -93).
+  - And **Player2** counters with **artist alliance**, the resulting payoff is (-100, 100).
+  - And **Player2** counters with **image leak**, the resulting payoff is (54, -54).
+  - And **Player2** counters with **prompt transcript**, the resulting payoff is (-40, 40).
+  - And **Player2** counters with **emotional appeal**, the resulting payoff is (68, -68).
+
+- If **Player1** selects **author signature prompt**:
+  - And **Player2** counters with **originality claim**, the resulting payoff is (48, -48).
+  - And **Player2** counters with **fair use case**, the resulting payoff is (91, -91).
+  - And **Player2** counters with **artist alliance**, the resulting payoff is (-3, 3).
+  - And **Player2** counters with **image leak**, the resulting payoff is (69, -69).
+  - And **Player2** counters with **prompt transcript**, the resulting payoff is (-12, 12).
+  - And **Player2** counters with **emotional appeal**, the resulting payoff is (-36, 36).
+
+- If **Player1** selects **training bias exposure**:
+  - And **Player2** counters with **originality claim**, the resulting payoff is (-25, 25).
+  - And **Player2** counters with **fair use case**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **artist alliance**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **image leak**, the resulting payoff is (26, -26).
+  - And **Player2** counters with **prompt transcript**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **emotional appeal**, the resulting payoff is (-50, 50).
+
+- If **Player1** selects **historical precedent**:
+  - And **Player2** counters with **originality claim**, the resulting payoff is (-57, 57).
+  - And **Player2** counters with **fair use case**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **artist alliance**, the resulting payoff is (31, -31).
+  - And **Player2** counters with **image leak**, the resulting payoff is (28, -28).
+  - And **Player2** counters with **prompt transcript**, the resulting payoff is (81, -81).
+  - And **Player2** counters with **emotional appeal**, the resulting payoff is (-98, 98).
+
+- If **Player1** selects **public domain loop**:
+  - And **Player2** counters with **originality claim**, the resulting payoff is (-64, 64).
+  - And **Player2** counters with **fair use case**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **artist alliance**, the resulting payoff is (-78, 78).
+  - And **Player2** counters with **image leak**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **prompt transcript**, the resulting payoff is (-65, 65).
+  - And **Player2** counters with **emotional appeal**, the resulting payoff is (-58, 58).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Biotech Infiltration Thriller
+
+In the heart of biotech infiltration thriller, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- lab coat swipe
+- retinal spoof
+- genome map clone
+- vent sneak
+- vial swap
+- fake patient file
+
+Meanwhile, **Player2** plots their countermoves:
+- cold vault scan
+- airlock log
+- syringe match
+- power flicker
+- name alert
+- breach pulse
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **lab coat swipe**:
+  - And **Player2** counters with **cold vault scan**, the resulting payoff is (-94, 94).
+  - And **Player2** counters with **airlock log**, the resulting payoff is (37, -37).
+  - And **Player2** counters with **syringe match**, the resulting payoff is (46, -46).
+  - And **Player2** counters with **power flicker**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **name alert**, the resulting payoff is (11, -11).
+  - And **Player2** counters with **breach pulse**, the resulting payoff is (35, -35).
+
+- If **Player1** selects **retinal spoof**:
+  - And **Player2** counters with **cold vault scan**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **airlock log**, the resulting payoff is (93, -93).
+  - And **Player2** counters with **syringe match**, the resulting payoff is (-100, 100).
+  - And **Player2** counters with **power flicker**, the resulting payoff is (54, -54).
+  - And **Player2** counters with **name alert**, the resulting payoff is (-40, 40).
+  - And **Player2** counters with **breach pulse**, the resulting payoff is (68, -68).
+
+- If **Player1** selects **genome map clone**:
+  - And **Player2** counters with **cold vault scan**, the resulting payoff is (48, -48).
+  - And **Player2** counters with **airlock log**, the resulting payoff is (91, -91).
+  - And **Player2** counters with **syringe match**, the resulting payoff is (-3, 3).
+  - And **Player2** counters with **power flicker**, the resulting payoff is (69, -69).
+  - And **Player2** counters with **name alert**, the resulting payoff is (-12, 12).
+  - And **Player2** counters with **breach pulse**, the resulting payoff is (-36, 36).
+
+- If **Player1** selects **vent sneak**:
+  - And **Player2** counters with **cold vault scan**, the resulting payoff is (-25, 25).
+  - And **Player2** counters with **airlock log**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **syringe match**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **power flicker**, the resulting payoff is (26, -26).
+  - And **Player2** counters with **name alert**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **breach pulse**, the resulting payoff is (-50, 50).
+
+- If **Player1** selects **vial swap**:
+  - And **Player2** counters with **cold vault scan**, the resulting payoff is (-57, 57).
+  - And **Player2** counters with **airlock log**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **syringe match**, the resulting payoff is (31, -31).
+  - And **Player2** counters with **power flicker**, the resulting payoff is (28, -28).
+  - And **Player2** counters with **name alert**, the resulting payoff is (81, -81).
+  - And **Player2** counters with **breach pulse**, the resulting payoff is (-98, 98).
+
+- If **Player1** selects **fake patient file**:
+  - And **Player2** counters with **cold vault scan**, the resulting payoff is (-64, 64).
+  - And **Player2** counters with **airlock log**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **syringe match**, the resulting payoff is (-78, 78).
+  - And **Player2** counters with **power flicker**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **name alert**, the resulting payoff is (-65, 65).
+  - And **Player2** counters with **breach pulse**, the resulting payoff is (-58, 58).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Rival Ghost Hunting TV Show
+
+In the heart of rival ghost hunting tv show, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- thermal cam reveal
+- EMF reader
+- seance bluff
+- ghost actor
+- night vision duel
+- noise trap edit
+
+Meanwhile, **Player2** plots their countermoves:
+- spirit debunk
+- camera cross feed
+- fanbase revolt
+- haunted history record
+- prop expose
+- fake scream sync
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **thermal cam reveal**:
+  - And **Player2** counters with **spirit debunk**, the resulting payoff is (-94, 94).
+  - And **Player2** counters with **camera cross feed**, the resulting payoff is (37, -37).
+  - And **Player2** counters with **fanbase revolt**, the resulting payoff is (46, -46).
+  - And **Player2** counters with **haunted history record**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **prop expose**, the resulting payoff is (11, -11).
+  - And **Player2** counters with **fake scream sync**, the resulting payoff is (35, -35).
+
+- If **Player1** selects **EMF reader**:
+  - And **Player2** counters with **spirit debunk**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **camera cross feed**, the resulting payoff is (93, -93).
+  - And **Player2** counters with **fanbase revolt**, the resulting payoff is (-100, 100).
+  - And **Player2** counters with **haunted history record**, the resulting payoff is (54, -54).
+  - And **Player2** counters with **prop expose**, the resulting payoff is (-40, 40).
+  - And **Player2** counters with **fake scream sync**, the resulting payoff is (68, -68).
+
+- If **Player1** selects **seance bluff**:
+  - And **Player2** counters with **spirit debunk**, the resulting payoff is (48, -48).
+  - And **Player2** counters with **camera cross feed**, the resulting payoff is (91, -91).
+  - And **Player2** counters with **fanbase revolt**, the resulting payoff is (-3, 3).
+  - And **Player2** counters with **haunted history record**, the resulting payoff is (69, -69).
+  - And **Player2** counters with **prop expose**, the resulting payoff is (-12, 12).
+  - And **Player2** counters with **fake scream sync**, the resulting payoff is (-36, 36).
+
+- If **Player1** selects **ghost actor**:
+  - And **Player2** counters with **spirit debunk**, the resulting payoff is (-25, 25).
+  - And **Player2** counters with **camera cross feed**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **fanbase revolt**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **haunted history record**, the resulting payoff is (26, -26).
+  - And **Player2** counters with **prop expose**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **fake scream sync**, the resulting payoff is (-50, 50).
+
+- If **Player1** selects **night vision duel**:
+  - And **Player2** counters with **spirit debunk**, the resulting payoff is (-57, 57).
+  - And **Player2** counters with **camera cross feed**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **fanbase revolt**, the resulting payoff is (31, -31).
+  - And **Player2** counters with **haunted history record**, the resulting payoff is (28, -28).
+  - And **Player2** counters with **prop expose**, the resulting payoff is (81, -81).
+  - And **Player2** counters with **fake scream sync**, the resulting payoff is (-98, 98).
+
+- If **Player1** selects **noise trap edit**:
+  - And **Player2** counters with **spirit debunk**, the resulting payoff is (-64, 64).
+  - And **Player2** counters with **camera cross feed**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **fanbase revolt**, the resulting payoff is (-78, 78).
+  - And **Player2** counters with **haunted history record**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **prop expose**, the resulting payoff is (-65, 65).
+  - And **Player2** counters with **fake scream sync**, the resulting payoff is (-58, 58).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

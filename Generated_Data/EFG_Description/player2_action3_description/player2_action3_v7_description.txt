@@ -1,40 +1,134 @@
-Story 1: A Wild West Duel
-In a compelling contest set in a wild west duel, Player1 faces a trio of decisions: A1: draw fast, A2: aim steady, and A3: feint draw.
-Across the board, Player2 counters with their own tactical arsenal: B1: dive tumble, B2: shoot second, and B3: yell bluff.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+Game Description 1: Wild West Duel
 
-Story 2: A Stealth Infiltration Op
-In a compelling contest set in a stealth infiltration op, Player1 faces a trio of decisions: A1: night goggles, A2: zipline, and A3: silent takedown.
-Across the board, Player2 counters with their own tactical arsenal: B1: trip sensor, B2: thermal scan, and B3: motion decoy.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+In the midst of wild west duel, strategies and instincts collide in a dramatic showdown.
 
-Story 3: A Stuntman Faceoff
-In a compelling contest set in a stuntman faceoff, Player1 faces a trio of decisions: A1: car jump, A2: burning dive, and A3: glass smash.
-Across the board, Player2 counters with their own tactical arsenal: B1: rope pull, B2: mat flip, and B3: airbag combo.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+**Player1** evaluates their possibilities:
+- draw fast
+- aim steady
+- feint draw
 
-Story 4: A Magician Finals
-In a compelling contest set in a magician finals, Player1 faces a trio of decisions: A1: levitation, A2: fire vanish, and A3: card teleport.
-Across the board, Player2 counters with their own tactical arsenal: B1: stage misdirect, B2: audience shout, and B3: trapdoor exit.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+At the same time, **Player2** readies their countermoves:
+- dive tumble
+- shoot second
+- yell bluff
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=10, A2=15, A3=20],
-    "Player2": [B1=1, B2=2, B3=3]
-}
+As choices are made, the outcomes reveal themselves:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- Should **Player1** choose **draw fast**:
+  - If **Player2** responds with **dive tumble**, the resulting payoff is (5, -5).
+  - If **Player2** responds with **shoot second**, the resulting payoff is (-5, 5).
+  - If **Player2** responds with **yell bluff**, the resulting payoff is (10, -10).
 
-Example:
-If Player1 selects A1 (index 0) and Player2 selects B2 (index 1), we get:
-  base_payoffs['Player1'][0] = 10
-  base_payoffs['Player2'][1] = 2
-  Average = (10 + 2) / 2 = 6.0
-  Adjusted Payoffs = [Player1: 4.0, Player2: -4.0]
-This ensures the total payoff always sums to zero.
+- Should **Player1** choose **aim steady**:
+  - If **Player2** responds with **dive tumble**, the resulting payoff is (14, -14).
+  - If **Player2** responds with **shoot second**, the resulting payoff is (-10, 10).
+  - If **Player2** responds with **yell bluff**, the resulting payoff is (-15, 15).
 
+- Should **Player1** choose **feint draw**:
+  - If **Player2** responds with **dive tumble**, the resulting payoff is (6, -6).
+  - If **Player2** responds with **shoot second**, the resulting payoff is (9, -9).
+  - If **Player2** responds with **yell bluff**, the resulting payoff is (-8, 8).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 2: Stealth Infiltration Op
+
+In the midst of stealth infiltration op, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- night goggles
+- zipline
+- silent takedown
+
+At the same time, **Player2** readies their countermoves:
+- trip sensor
+- thermal scan
+- motion decoy
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **night goggles**:
+  - If **Player2** responds with **trip sensor**, the resulting payoff is (5, -5).
+  - If **Player2** responds with **thermal scan**, the resulting payoff is (-5, 5).
+  - If **Player2** responds with **motion decoy**, the resulting payoff is (10, -10).
+
+- Should **Player1** choose **zipline**:
+  - If **Player2** responds with **trip sensor**, the resulting payoff is (14, -14).
+  - If **Player2** responds with **thermal scan**, the resulting payoff is (-10, 10).
+  - If **Player2** responds with **motion decoy**, the resulting payoff is (-15, 15).
+
+- Should **Player1** choose **silent takedown**:
+  - If **Player2** responds with **trip sensor**, the resulting payoff is (6, -6).
+  - If **Player2** responds with **thermal scan**, the resulting payoff is (9, -9).
+  - If **Player2** responds with **motion decoy**, the resulting payoff is (-8, 8).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 3: Stuntman Faceoff
+
+In the midst of stuntman faceoff, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- car jump
+- burning dive
+- glass smash
+
+At the same time, **Player2** readies their countermoves:
+- rope pull
+- mat flip
+- airbag combo
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **car jump**:
+  - If **Player2** responds with **rope pull**, the resulting payoff is (5, -5).
+  - If **Player2** responds with **mat flip**, the resulting payoff is (-5, 5).
+  - If **Player2** responds with **airbag combo**, the resulting payoff is (10, -10).
+
+- Should **Player1** choose **burning dive**:
+  - If **Player2** responds with **rope pull**, the resulting payoff is (14, -14).
+  - If **Player2** responds with **mat flip**, the resulting payoff is (-10, 10).
+  - If **Player2** responds with **airbag combo**, the resulting payoff is (-15, 15).
+
+- Should **Player1** choose **glass smash**:
+  - If **Player2** responds with **rope pull**, the resulting payoff is (6, -6).
+  - If **Player2** responds with **mat flip**, the resulting payoff is (9, -9).
+  - If **Player2** responds with **airbag combo**, the resulting payoff is (-8, 8).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 4: Magician Finals
+
+In the midst of magician finals, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- levitation
+- fire vanish
+- card teleport
+
+At the same time, **Player2** readies their countermoves:
+- stage misdirect
+- audience shout
+- trapdoor exit
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **levitation**:
+  - If **Player2** responds with **stage misdirect**, the resulting payoff is (5, -5).
+  - If **Player2** responds with **audience shout**, the resulting payoff is (-5, 5).
+  - If **Player2** responds with **trapdoor exit**, the resulting payoff is (10, -10).
+
+- Should **Player1** choose **fire vanish**:
+  - If **Player2** responds with **stage misdirect**, the resulting payoff is (14, -14).
+  - If **Player2** responds with **audience shout**, the resulting payoff is (-10, 10).
+  - If **Player2** responds with **trapdoor exit**, the resulting payoff is (-15, 15).
+
+- Should **Player1** choose **card teleport**:
+  - If **Player2** responds with **stage misdirect**, the resulting payoff is (6, -6).
+  - If **Player2** responds with **audience shout**, the resulting payoff is (9, -9).
+  - If **Player2** responds with **trapdoor exit**, the resulting payoff is (-8, 8).
+
+In this contest, adaptability and foresight shape the path to victory.

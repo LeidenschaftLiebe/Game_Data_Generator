@@ -1,40 +1,134 @@
-Story 1: A Wilderness Survival Game
-In a compelling contest set in a wilderness survival game, Player1 faces a trio of decisions: A1: set snares, A2: climb tree, and A3: purify stream.
-Across the board, Player2 counters with their own tactical arsenal: B1: shelter build, B2: spark fire, and B3: track trail.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+Game Description 1: Wilderness Survival Game
 
-Story 2: A Live Talent Show
-In a compelling contest set in a live talent show, Player1 faces a trio of decisions: A1: power ballad, A2: freestyle rap, and A3: dance flip.
-Across the board, Player2 counters with their own tactical arsenal: B1: costume reveal, B2: pyrotechnics, and B3: confetti finish.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+In the midst of wilderness survival game, strategies and instincts collide in a dramatic showdown.
 
-Story 3: A Mountaintop Diplomacy
-In a compelling contest set in a mountaintop diplomacy, Player1 faces a trio of decisions: A1: declare ceasefire, A2: propose alliance, and A3: demand territory.
-Across the board, Player2 counters with their own tactical arsenal: B1: reject talks, B2: offer trade, and B3: escalate threats.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+**Player1** evaluates their possibilities:
+- set snares
+- climb tree
+- purify stream
 
-Story 4: A Courtroom Media Trial
-In a compelling contest set in a courtroom media trial, Player1 faces a trio of decisions: A1: show CCTV, A2: emotional witness, and A3: discredit expert.
-Across the board, Player2 counters with their own tactical arsenal: B1: admit guilt, B2: redirect blame, and B3: legal technicality.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+At the same time, **Player2** readies their countermoves:
+- shelter build
+- spark fire
+- track trail
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=-1, A2=-3, A3=-6],
-    "Player2": [B1=-4, B2=-2, B3=-5]
-}
+As choices are made, the outcomes reveal themselves:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- Should **Player1** choose **set snares**:
+  - If **Player2** responds with **shelter build**, the resulting payoff is (-14, 14).
+  - If **Player2** responds with **spark fire**, the resulting payoff is (-17, 17).
+  - If **Player2** responds with **track trail**, the resulting payoff is (16, -16).
 
-Example:
-If Player1 selects A1 (index 0) and Player2 selects B2 (index 1), we get:
-  base_payoffs['Player1'][0] = -1
-  base_payoffs['Player2'][1] = -2
-  Average = (-1 + -2) / 2 = -1.5
-  Adjusted Payoffs = [Player1: 0.5, Player2: -0.5]
-This ensures the total payoff always sums to zero.
+- Should **Player1** choose **climb tree**:
+  - If **Player2** responds with **shelter build**, the resulting payoff is (8, -8).
+  - If **Player2** responds with **spark fire**, the resulting payoff is (-12, 12).
+  - If **Player2** responds with **track trail**, the resulting payoff is (-6, 6).
 
+- Should **Player1** choose **purify stream**:
+  - If **Player2** responds with **shelter build**, the resulting payoff is (-15, 15).
+  - If **Player2** responds with **spark fire**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **track trail**, the resulting payoff is (9, -9).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 2: Live Talent Show
+
+In the midst of live talent show, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- power ballad
+- freestyle rap
+- dance flip
+
+At the same time, **Player2** readies their countermoves:
+- costume reveal
+- pyrotechnics
+- confetti finish
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **power ballad**:
+  - If **Player2** responds with **costume reveal**, the resulting payoff is (-14, 14).
+  - If **Player2** responds with **pyrotechnics**, the resulting payoff is (-17, 17).
+  - If **Player2** responds with **confetti finish**, the resulting payoff is (16, -16).
+
+- Should **Player1** choose **freestyle rap**:
+  - If **Player2** responds with **costume reveal**, the resulting payoff is (8, -8).
+  - If **Player2** responds with **pyrotechnics**, the resulting payoff is (-12, 12).
+  - If **Player2** responds with **confetti finish**, the resulting payoff is (-6, 6).
+
+- Should **Player1** choose **dance flip**:
+  - If **Player2** responds with **costume reveal**, the resulting payoff is (-15, 15).
+  - If **Player2** responds with **pyrotechnics**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **confetti finish**, the resulting payoff is (9, -9).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 3: Mountaintop Diplomacy
+
+In the midst of mountaintop diplomacy, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- declare ceasefire
+- propose alliance
+- demand territory
+
+At the same time, **Player2** readies their countermoves:
+- reject talks
+- offer trade
+- escalate threats
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **declare ceasefire**:
+  - If **Player2** responds with **reject talks**, the resulting payoff is (-14, 14).
+  - If **Player2** responds with **offer trade**, the resulting payoff is (-17, 17).
+  - If **Player2** responds with **escalate threats**, the resulting payoff is (16, -16).
+
+- Should **Player1** choose **propose alliance**:
+  - If **Player2** responds with **reject talks**, the resulting payoff is (8, -8).
+  - If **Player2** responds with **offer trade**, the resulting payoff is (-12, 12).
+  - If **Player2** responds with **escalate threats**, the resulting payoff is (-6, 6).
+
+- Should **Player1** choose **demand territory**:
+  - If **Player2** responds with **reject talks**, the resulting payoff is (-15, 15).
+  - If **Player2** responds with **offer trade**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **escalate threats**, the resulting payoff is (9, -9).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 4: Courtroom Media Trial
+
+In the midst of courtroom media trial, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- show CCTV
+- emotional witness
+- discredit expert
+
+At the same time, **Player2** readies their countermoves:
+- admit guilt
+- redirect blame
+- legal technicality
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **show CCTV**:
+  - If **Player2** responds with **admit guilt**, the resulting payoff is (-14, 14).
+  - If **Player2** responds with **redirect blame**, the resulting payoff is (-17, 17).
+  - If **Player2** responds with **legal technicality**, the resulting payoff is (16, -16).
+
+- Should **Player1** choose **emotional witness**:
+  - If **Player2** responds with **admit guilt**, the resulting payoff is (8, -8).
+  - If **Player2** responds with **redirect blame**, the resulting payoff is (-12, 12).
+  - If **Player2** responds with **legal technicality**, the resulting payoff is (-6, 6).
+
+- Should **Player1** choose **discredit expert**:
+  - If **Player2** responds with **admit guilt**, the resulting payoff is (-15, 15).
+  - If **Player2** responds with **redirect blame**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **legal technicality**, the resulting payoff is (9, -9).
+
+In this contest, adaptability and foresight shape the path to victory.

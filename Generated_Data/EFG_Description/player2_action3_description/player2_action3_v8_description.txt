@@ -1,40 +1,134 @@
-Story 1: A Farming Simulator Contest
-In a compelling contest set in a farming simulator contest, Player1 faces a trio of decisions: A1: sow crops, A2: water precision, and A3: tractor race.
-Across the board, Player2 counters with their own tactical arsenal: B1: market sell, B2: pest spray, and B3: fence build.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+Game Description 1: Farming Simulator Contest
 
-Story 2: A Cafe Startup Pitch
-In a compelling contest set in a cafe startup pitch, Player1 faces a trio of decisions: A1: artisan drinks, A2: loyalty app, and A3: barista charm.
-Across the board, Player2 counters with their own tactical arsenal: B1: franchise model, B2: customer reviews, and B3: cup design.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+In the midst of farming simulator contest, strategies and instincts collide in a dramatic showdown.
 
-Story 3: A Crypto Trading Duel
-In a compelling contest set in a crypto trading duel, Player1 faces a trio of decisions: A1: long ETH, A2: stablecoin hedge, and A3: NFT mint.
-Across the board, Player2 counters with their own tactical arsenal: B1: flash loan, B2: slippage bet, and B3: airdrop drop.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+**Player1** evaluates their possibilities:
+- sow crops
+- water precision
+- tractor race
 
-Story 4: A Pet Show Rivalry
-In a compelling contest set in a pet show rivalry, Player1 faces a trio of decisions: A1: dog costume, A2: parrot song, and A3: bunny hop.
-Across the board, Player2 counters with their own tactical arsenal: B1: toy toss, B2: obstacle jump, and B3: owner pose.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+At the same time, **Player2** readies their countermoves:
+- market sell
+- pest spray
+- fence build
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=9, A2=6, A3=3],
-    "Player2": [B1=2, B2=1, B3=0]
-}
+As choices are made, the outcomes reveal themselves:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- Should **Player1** choose **sow crops**:
+  - If **Player2** responds with **market sell**, the resulting payoff is (11, -11).
+  - If **Player2** responds with **pest spray**, the resulting payoff is (-2, 2).
+  - If **Player2** responds with **fence build**, the resulting payoff is (20, -20).
 
-Example:
-If Player1 selects A1 (index 0) and Player2 selects B2 (index 1), we get:
-  base_payoffs['Player1'][0] = 9
-  base_payoffs['Player2'][1] = 1
-  Average = (9 + 1) / 2 = 5.0
-  Adjusted Payoffs = [Player1: 4.0, Player2: -4.0]
-This ensures the total payoff always sums to zero.
+- Should **Player1** choose **water precision**:
+  - If **Player2** responds with **market sell**, the resulting payoff is (5, -5).
+  - If **Player2** responds with **pest spray**, the resulting payoff is (-4, 4).
+  - If **Player2** responds with **fence build**, the resulting payoff is (-13, 13).
 
+- Should **Player1** choose **tractor race**:
+  - If **Player2** responds with **market sell**, the resulting payoff is (8, -8).
+  - If **Player2** responds with **pest spray**, the resulting payoff is (-18, 18).
+  - If **Player2** responds with **fence build**, the resulting payoff is (17, -17).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 2: Cafe Startup Pitch
+
+In the midst of cafe startup pitch, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- artisan drinks
+- loyalty app
+- barista charm
+
+At the same time, **Player2** readies their countermoves:
+- franchise model
+- customer reviews
+- cup design
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **artisan drinks**:
+  - If **Player2** responds with **franchise model**, the resulting payoff is (11, -11).
+  - If **Player2** responds with **customer reviews**, the resulting payoff is (-2, 2).
+  - If **Player2** responds with **cup design**, the resulting payoff is (20, -20).
+
+- Should **Player1** choose **loyalty app**:
+  - If **Player2** responds with **franchise model**, the resulting payoff is (5, -5).
+  - If **Player2** responds with **customer reviews**, the resulting payoff is (-4, 4).
+  - If **Player2** responds with **cup design**, the resulting payoff is (-13, 13).
+
+- Should **Player1** choose **barista charm**:
+  - If **Player2** responds with **franchise model**, the resulting payoff is (8, -8).
+  - If **Player2** responds with **customer reviews**, the resulting payoff is (-18, 18).
+  - If **Player2** responds with **cup design**, the resulting payoff is (17, -17).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 3: Crypto Trading Duel
+
+In the midst of crypto trading duel, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- long ETH
+- stablecoin hedge
+- NFT mint
+
+At the same time, **Player2** readies their countermoves:
+- flash loan
+- slippage bet
+- airdrop drop
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **long ETH**:
+  - If **Player2** responds with **flash loan**, the resulting payoff is (11, -11).
+  - If **Player2** responds with **slippage bet**, the resulting payoff is (-2, 2).
+  - If **Player2** responds with **airdrop drop**, the resulting payoff is (20, -20).
+
+- Should **Player1** choose **stablecoin hedge**:
+  - If **Player2** responds with **flash loan**, the resulting payoff is (5, -5).
+  - If **Player2** responds with **slippage bet**, the resulting payoff is (-4, 4).
+  - If **Player2** responds with **airdrop drop**, the resulting payoff is (-13, 13).
+
+- Should **Player1** choose **NFT mint**:
+  - If **Player2** responds with **flash loan**, the resulting payoff is (8, -8).
+  - If **Player2** responds with **slippage bet**, the resulting payoff is (-18, 18).
+  - If **Player2** responds with **airdrop drop**, the resulting payoff is (17, -17).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 4: Pet Show Rivalry
+
+In the midst of pet show rivalry, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- dog costume
+- parrot song
+- bunny hop
+
+At the same time, **Player2** readies their countermoves:
+- toy toss
+- obstacle jump
+- owner pose
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **dog costume**:
+  - If **Player2** responds with **toy toss**, the resulting payoff is (11, -11).
+  - If **Player2** responds with **obstacle jump**, the resulting payoff is (-2, 2).
+  - If **Player2** responds with **owner pose**, the resulting payoff is (20, -20).
+
+- Should **Player1** choose **parrot song**:
+  - If **Player2** responds with **toy toss**, the resulting payoff is (5, -5).
+  - If **Player2** responds with **obstacle jump**, the resulting payoff is (-4, 4).
+  - If **Player2** responds with **owner pose**, the resulting payoff is (-13, 13).
+
+- Should **Player1** choose **bunny hop**:
+  - If **Player2** responds with **toy toss**, the resulting payoff is (8, -8).
+  - If **Player2** responds with **obstacle jump**, the resulting payoff is (-18, 18).
+  - If **Player2** responds with **owner pose**, the resulting payoff is (17, -17).
+
+In this contest, adaptability and foresight shape the path to victory.

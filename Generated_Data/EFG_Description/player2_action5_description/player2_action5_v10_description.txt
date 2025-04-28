@@ -1,83 +1,232 @@
-Story 1: A Time-Loop Detective Puzzle
-In this unique scenario, the conflict unfolds in the context of a time-loop detective puzzle.
-Player1 selects from:
-  A1: repeat breakfast,
-  A2: trash can photo,
-  A3: alley argument,
-  A4: old coin switch,
-  A5: shadow man spot.
-Player2 counters with:
-  B1: loop acceleration,
-  B2: suspect vanish,
-  B3: memory block,
-  B4: echo clue,
-  B5: time limit push.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+Game Description 1: Time-Loop Detective Puzzle
 
-Story 2: A Futuristic Job Interview
-In this unique scenario, the conflict unfolds in the context of a futuristic job interview.
-Player1 selects from:
-  A1: real-time pitch,
-  A2: resume simulation,
-  A3: VR team test,
-  A4: sentiment analysis,
-  A5: neural scan honesty.
-Player2 counters with:
-  B1: glitch test,
-  B2: HR whisper,
-  B3: panel bias,
-  B4: past data leak,
-  B5: public ranking drop.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+In the heart of time-loop detective puzzle, critical choices carve the path to triumph.
 
-Story 3: A Climate Catastrophe Drill
-In this unique scenario, the conflict unfolds in the context of a climate catastrophe drill.
-Player1 selects from:
-  A1: drone water drop,
-  A2: heat bubble shield,
-  A3: migration simulator,
-  A4: forest firewall,
-  A5: desal bot fleet.
-Player2 counters with:
-  B1: dust storm reroute,
-  B2: signal jam,
-  B3: riot override,
-  B4: emergency ration,
-  B5: satellite fog cover.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+**Player1** evaluates the following strategies:
+- repeat breakfast
+- trash can photo
+- alley argument
+- old coin switch
+- shadow man spot
 
-Story 4: A Post-Capitalist Barter Economy
-In this unique scenario, the conflict unfolds in the context of a post-capitalist barter economy.
-Player1 selects from:
-  A1: goat share,
-  A2: solar hour loan,
-  A3: bike co-op,
-  A4: seed vault access,
-  A5: knowledge pledge.
-Player2 counters with:
-  B1: offer revoke,
-  B2: trust breakdown,
-  B3: barter inflation,
-  B4: crypto contest,
-  B5: rainwater embargo.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+Meanwhile, **Player2** plots their countermoves:
+- loop acceleration
+- suspect vanish
+- memory block
+- echo clue
+- time limit push
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=1, A2=1, A3=1, A4=1, A5=25],
-    "Player2": [B1=2, B2=2, B3=2, B4=2, B5=30]
-}
+When both players commit to their choices, these outcomes unfold:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- If **Player1** selects **repeat breakfast**:
+  - And **Player2** counters with **loop acceleration**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **suspect vanish**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **memory block**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **echo clue**, the resulting payoff is (95, -95).
+  - And **Player2** counters with **time limit push**, the resulting payoff is (-64, 64).
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
-  Player1: 1, Player2: 2
-  Average = (1 + 2) / 2 = 1.5
-  Adjusted Payoffs = [Player1: -0.5, Player2: 0.5]
-This ensures the total payoff remains zero-sum.
+- If **Player1** selects **trash can photo**:
+  - And **Player2** counters with **loop acceleration**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **suspect vanish**, the resulting payoff is (29, -29).
+  - And **Player2** counters with **memory block**, the resulting payoff is (-31, 31).
+  - And **Player2** counters with **echo clue**, the resulting payoff is (-45, 45).
+  - And **Player2** counters with **time limit push**, the resulting payoff is (-12, 12).
+
+- If **Player1** selects **alley argument**:
+  - And **Player2** counters with **loop acceleration**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **suspect vanish**, the resulting payoff is (14, -14).
+  - And **Player2** counters with **memory block**, the resulting payoff is (-50, 50).
+  - And **Player2** counters with **echo clue**, the resulting payoff is (-63, 63).
+  - And **Player2** counters with **time limit push**, the resulting payoff is (-73, 73).
+
+- If **Player1** selects **old coin switch**:
+  - And **Player2** counters with **loop acceleration**, the resulting payoff is (44, -44).
+  - And **Player2** counters with **suspect vanish**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **memory block**, the resulting payoff is (74, -74).
+  - And **Player2** counters with **echo clue**, the resulting payoff is (64, -64).
+  - And **Player2** counters with **time limit push**, the resulting payoff is (-7, 7).
+
+- If **Player1** selects **shadow man spot**:
+  - And **Player2** counters with **loop acceleration**, the resulting payoff is (-55, 55).
+  - And **Player2** counters with **suspect vanish**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **memory block**, the resulting payoff is (86, -86).
+  - And **Player2** counters with **echo clue**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **time limit push**, the resulting payoff is (-53, 53).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Futuristic Job Interview
+
+In the heart of futuristic job interview, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- real-time pitch
+- resume simulation
+- VR team test
+- sentiment analysis
+- neural scan honesty
+
+Meanwhile, **Player2** plots their countermoves:
+- glitch test
+- HR whisper
+- panel bias
+- past data leak
+- public ranking drop
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **real-time pitch**:
+  - And **Player2** counters with **glitch test**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **HR whisper**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **panel bias**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **past data leak**, the resulting payoff is (95, -95).
+  - And **Player2** counters with **public ranking drop**, the resulting payoff is (-64, 64).
+
+- If **Player1** selects **resume simulation**:
+  - And **Player2** counters with **glitch test**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **HR whisper**, the resulting payoff is (29, -29).
+  - And **Player2** counters with **panel bias**, the resulting payoff is (-31, 31).
+  - And **Player2** counters with **past data leak**, the resulting payoff is (-45, 45).
+  - And **Player2** counters with **public ranking drop**, the resulting payoff is (-12, 12).
+
+- If **Player1** selects **VR team test**:
+  - And **Player2** counters with **glitch test**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **HR whisper**, the resulting payoff is (14, -14).
+  - And **Player2** counters with **panel bias**, the resulting payoff is (-50, 50).
+  - And **Player2** counters with **past data leak**, the resulting payoff is (-63, 63).
+  - And **Player2** counters with **public ranking drop**, the resulting payoff is (-73, 73).
+
+- If **Player1** selects **sentiment analysis**:
+  - And **Player2** counters with **glitch test**, the resulting payoff is (44, -44).
+  - And **Player2** counters with **HR whisper**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **panel bias**, the resulting payoff is (74, -74).
+  - And **Player2** counters with **past data leak**, the resulting payoff is (64, -64).
+  - And **Player2** counters with **public ranking drop**, the resulting payoff is (-7, 7).
+
+- If **Player1** selects **neural scan honesty**:
+  - And **Player2** counters with **glitch test**, the resulting payoff is (-55, 55).
+  - And **Player2** counters with **HR whisper**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **panel bias**, the resulting payoff is (86, -86).
+  - And **Player2** counters with **past data leak**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **public ranking drop**, the resulting payoff is (-53, 53).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Climate Catastrophe Drill
+
+In the heart of climate catastrophe drill, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- drone water drop
+- heat bubble shield
+- migration simulator
+- forest firewall
+- desal bot fleet
+
+Meanwhile, **Player2** plots their countermoves:
+- dust storm reroute
+- signal jam
+- riot override
+- emergency ration
+- satellite fog cover
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **drone water drop**:
+  - And **Player2** counters with **dust storm reroute**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **signal jam**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **riot override**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **emergency ration**, the resulting payoff is (95, -95).
+  - And **Player2** counters with **satellite fog cover**, the resulting payoff is (-64, 64).
+
+- If **Player1** selects **heat bubble shield**:
+  - And **Player2** counters with **dust storm reroute**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **signal jam**, the resulting payoff is (29, -29).
+  - And **Player2** counters with **riot override**, the resulting payoff is (-31, 31).
+  - And **Player2** counters with **emergency ration**, the resulting payoff is (-45, 45).
+  - And **Player2** counters with **satellite fog cover**, the resulting payoff is (-12, 12).
+
+- If **Player1** selects **migration simulator**:
+  - And **Player2** counters with **dust storm reroute**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **signal jam**, the resulting payoff is (14, -14).
+  - And **Player2** counters with **riot override**, the resulting payoff is (-50, 50).
+  - And **Player2** counters with **emergency ration**, the resulting payoff is (-63, 63).
+  - And **Player2** counters with **satellite fog cover**, the resulting payoff is (-73, 73).
+
+- If **Player1** selects **forest firewall**:
+  - And **Player2** counters with **dust storm reroute**, the resulting payoff is (44, -44).
+  - And **Player2** counters with **signal jam**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **riot override**, the resulting payoff is (74, -74).
+  - And **Player2** counters with **emergency ration**, the resulting payoff is (64, -64).
+  - And **Player2** counters with **satellite fog cover**, the resulting payoff is (-7, 7).
+
+- If **Player1** selects **desal bot fleet**:
+  - And **Player2** counters with **dust storm reroute**, the resulting payoff is (-55, 55).
+  - And **Player2** counters with **signal jam**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **riot override**, the resulting payoff is (86, -86).
+  - And **Player2** counters with **emergency ration**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **satellite fog cover**, the resulting payoff is (-53, 53).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Post-Capitalist Barter Economy
+
+In the heart of post-capitalist barter economy, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- goat share
+- solar hour loan
+- bike co-op
+- seed vault access
+- knowledge pledge
+
+Meanwhile, **Player2** plots their countermoves:
+- offer revoke
+- trust breakdown
+- barter inflation
+- crypto contest
+- rainwater embargo
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **goat share**:
+  - And **Player2** counters with **offer revoke**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **trust breakdown**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **barter inflation**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **crypto contest**, the resulting payoff is (95, -95).
+  - And **Player2** counters with **rainwater embargo**, the resulting payoff is (-64, 64).
+
+- If **Player1** selects **solar hour loan**:
+  - And **Player2** counters with **offer revoke**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **trust breakdown**, the resulting payoff is (29, -29).
+  - And **Player2** counters with **barter inflation**, the resulting payoff is (-31, 31).
+  - And **Player2** counters with **crypto contest**, the resulting payoff is (-45, 45).
+  - And **Player2** counters with **rainwater embargo**, the resulting payoff is (-12, 12).
+
+- If **Player1** selects **bike co-op**:
+  - And **Player2** counters with **offer revoke**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **trust breakdown**, the resulting payoff is (14, -14).
+  - And **Player2** counters with **barter inflation**, the resulting payoff is (-50, 50).
+  - And **Player2** counters with **crypto contest**, the resulting payoff is (-63, 63).
+  - And **Player2** counters with **rainwater embargo**, the resulting payoff is (-73, 73).
+
+- If **Player1** selects **seed vault access**:
+  - And **Player2** counters with **offer revoke**, the resulting payoff is (44, -44).
+  - And **Player2** counters with **trust breakdown**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **barter inflation**, the resulting payoff is (74, -74).
+  - And **Player2** counters with **crypto contest**, the resulting payoff is (64, -64).
+  - And **Player2** counters with **rainwater embargo**, the resulting payoff is (-7, 7).
+
+- If **Player1** selects **knowledge pledge**:
+  - And **Player2** counters with **offer revoke**, the resulting payoff is (-55, 55).
+  - And **Player2** counters with **trust breakdown**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **barter inflation**, the resulting payoff is (86, -86).
+  - And **Player2** counters with **crypto contest**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **rainwater embargo**, the resulting payoff is (-53, 53).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

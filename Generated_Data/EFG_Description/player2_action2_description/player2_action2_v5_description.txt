@@ -1,28 +1,99 @@
-Story 1: A Courtroom Cross-Examination
-During this dramatic face-off, Player1 must decide between A1: timeline pressure and A2: emotional witness, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: objection rise or B2: discredit evidence, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a courtroom cross-examination mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Game Description 1: A Courtroom Cross-Examination
 
-Story 2: A Museum Exhibition Battle
-In the heat of the game, Player1 must decide between A1: interactive VR display and A2: rare artifact, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: augmented signage or B2: guided tour, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a museum exhibition battle mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+In the fast-paced world of a courtroom cross-examination, strategic choices are everything.
 
-Story 3: A Startup Hackathon
-As anticipation builds, Player1 must decide between A1: coding sprint and A2: design overhaul, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: pitch video or B2: team branding, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a startup hackathon mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+**Player1** must act quickly, choosing between:
+- A calculated **timeline pressure**, or
+- A daring **emotional witness**.
 
-Story 4: A Military Standoff
-In this high-stakes match, Player1 must decide between A1: air surveillance and A2: armored push, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: EMP detonation or B2: ambush setup, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a military standoff mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Facing them, **Player2** must respond with:
+- A decisive **objection rise**, or
+- A clever **discredit evidence**.
 
-Payoff Matrix (Base values shown as Player1, Player2):
-        B1      B2
-A1  (4, -1)
-A2  (-2, 3)
+The outcome depends entirely on how these strategies clash:
 
-Payoff Adjustment Rule:
-The outcomes are shaped by a base payoff matrix, with adjustments made by subtracting the average of both players' base scores from each individual score. This ensures the result remains zero-sum, making each decision a strategic gamble.
+- If Player1 commits to **timeline pressure**:
+  - And Player2 counters with **objection rise**, the resulting payoff is (-6, 6).
+  - And Player2 counters with **discredit evidence**, the resulting payoff is (5, -5).
+
+- If Player1 commits to **emotional witness**:
+  - And Player2 counters with **objection rise**, the resulting payoff is (6, -6).
+  - And Player2 counters with **discredit evidence**, the resulting payoff is (7, -7).
+
+Only the sharpest tactics will secure the win.
+
+
+Game Description 2: A Museum Exhibition Battle
+
+In the fast-paced world of a museum exhibition battle, strategic choices are everything.
+
+**Player1** must act quickly, choosing between:
+- A calculated **interactive VR display**, or
+- A daring **rare artifact**.
+
+Facing them, **Player2** must respond with:
+- A decisive **augmented signage**, or
+- A clever **guided tour**.
+
+The outcome depends entirely on how these strategies clash:
+
+- If Player1 commits to **interactive VR display**:
+  - And Player2 counters with **augmented signage**, the resulting payoff is (-6, 6).
+  - And Player2 counters with **guided tour**, the resulting payoff is (5, -5).
+
+- If Player1 commits to **rare artifact**:
+  - And Player2 counters with **augmented signage**, the resulting payoff is (6, -6).
+  - And Player2 counters with **guided tour**, the resulting payoff is (7, -7).
+
+Only the sharpest tactics will secure the win.
+
+
+Game Description 3: A Startup Hackathon
+
+In the fast-paced world of a startup hackathon, strategic choices are everything.
+
+**Player1** must act quickly, choosing between:
+- A calculated **coding sprint**, or
+- A daring **design overhaul**.
+
+Facing them, **Player2** must respond with:
+- A decisive **pitch video**, or
+- A clever **team branding**.
+
+The outcome depends entirely on how these strategies clash:
+
+- If Player1 commits to **coding sprint**:
+  - And Player2 counters with **pitch video**, the resulting payoff is (-6, 6).
+  - And Player2 counters with **team branding**, the resulting payoff is (5, -5).
+
+- If Player1 commits to **design overhaul**:
+  - And Player2 counters with **pitch video**, the resulting payoff is (6, -6).
+  - And Player2 counters with **team branding**, the resulting payoff is (7, -7).
+
+Only the sharpest tactics will secure the win.
+
+
+Game Description 4: A Military Standoff
+
+In the fast-paced world of a military standoff, strategic choices are everything.
+
+**Player1** must act quickly, choosing between:
+- A calculated **air surveillance**, or
+- A daring **armored push**.
+
+Facing them, **Player2** must respond with:
+- A decisive **EMP detonation**, or
+- A clever **ambush setup**.
+
+The outcome depends entirely on how these strategies clash:
+
+- If Player1 commits to **air surveillance**:
+  - And Player2 counters with **EMP detonation**, the resulting payoff is (-6, 6).
+  - And Player2 counters with **ambush setup**, the resulting payoff is (5, -5).
+
+- If Player1 commits to **armored push**:
+  - And Player2 counters with **EMP detonation**, the resulting payoff is (6, -6).
+  - And Player2 counters with **ambush setup**, the resulting payoff is (7, -7).
+
+Only the sharpest tactics will secure the win.
 

@@ -1,95 +1,292 @@
-Story 1: A Wizard School Championship
-This game takes place in a setting where a wizard school championship. Players engage through strategic decisions.
+Game Description 1: Wizard School Championship
 
-Player1 may choose from:
-  A1: levitation duel,
-  A2: potion improvisation,
-  A3: riddle rune,
-  A4: illusion showdown,
-  A5: staff battle,
-  A6: spirit summon.
+In the heart of wizard school championship, critical choices carve the path to triumph.
 
-Player2 may counter with:
-  B1: anti-magic cloak,
-  B2: owl whisper hint,
-  B3: arcane delay,
-  B4: invisibility loop,
-  B5: audience sabotage,
-  B6: energy leak.
+**Player1** evaluates the following strategies:
+- levitation duel
+- potion improvisation
+- riddle rune
+- illusion showdown
+- staff battle
+- spirit summon
 
-Story 2: A Biome Terraform Design Contest
-This game takes place in a setting where a biome terraform design contest. Players engage through strategic decisions.
+Meanwhile, **Player2** plots their countermoves:
+- anti-magic cloak
+- owl whisper hint
+- arcane delay
+- invisibility loop
+- audience sabotage
+- energy leak
 
-Player1 may choose from:
-  A1: atmosphere seeding,
-  A2: microbial seeding,
-  A3: river tracing,
-  A4: forest capsule drop,
-  A5: algae curtain,
-  A6: wind pattern tweak.
+When both players commit to their choices, these outcomes unfold:
 
-Player2 may counter with:
-  B1: climate failure sim,
-  B2: radiation surge,
-  B3: oxygen leak,
-  B4: ecological backlash,
-  B5: sabotage insect,
-  B6: budget cut vote.
+- If **Player1** selects **levitation duel**:
+  - And **Player2** counters with **anti-magic cloak**, the resulting payoff is (-38, 38).
+  - And **Player2** counters with **owl whisper hint**, the resulting payoff is (-47, 47).
+  - And **Player2** counters with **arcane delay**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **invisibility loop**, the resulting payoff is (15, -15).
+  - And **Player2** counters with **audience sabotage**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **energy leak**, the resulting payoff is (-8, 8).
 
-Story 3: A Stolen Artifact Inter-Museum Drama
-This game takes place in a setting where a stolen artifact inter-museum drama. Players engage through strategic decisions.
+- If **Player1** selects **potion improvisation**:
+  - And **Player2** counters with **anti-magic cloak**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **owl whisper hint**, the resulting payoff is (58, -58).
+  - And **Player2** counters with **arcane delay**, the resulting payoff is (-80, 80).
+  - And **Player2** counters with **invisibility loop**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **audience sabotage**, the resulting payoff is (-97, 97).
+  - And **Player2** counters with **energy leak**, the resulting payoff is (-68, 68).
 
-Player1 may choose from:
-  A1: fake replica switch,
-  A2: courier bribe,
-  A3: laser net dance,
-  A4: artifact swap flash,
-  A5: press leak,
-  A6: stolen crate redirect.
+- If **Player1** selects **riddle rune**:
+  - And **Player2** counters with **anti-magic cloak**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **owl whisper hint**, the resulting payoff is (-37, 37).
+  - And **Player2** counters with **arcane delay**, the resulting payoff is (-36, 36).
+  - And **Player2** counters with **invisibility loop**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **audience sabotage**, the resulting payoff is (78, -78).
+  - And **Player2** counters with **energy leak**, the resulting payoff is (-77, 77).
 
-Player2 may counter with:
-  B1: archive timestamp match,
-  B2: museum sensor,
-  B3: private vault check,
-  B4: crate double-check,
-  B5: curator confession,
-  B6: hidden camera reveal.
+- If **Player1** selects **illusion showdown**:
+  - And **Player2** counters with **anti-magic cloak**, the resulting payoff is (-95, 95).
+  - And **Player2** counters with **owl whisper hint**, the resulting payoff is (96, -96).
+  - And **Player2** counters with **arcane delay**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **invisibility loop**, the resulting payoff is (63, -63).
+  - And **Player2** counters with **audience sabotage**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **energy leak**, the resulting payoff is (-12, 12).
 
-Story 4: A Sentient Robot Trial Debate
-This game takes place in a setting where a sentient robot trial debate. Players engage through strategic decisions.
+- If **Player1** selects **staff battle**:
+  - And **Player2** counters with **anti-magic cloak**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **owl whisper hint**, the resulting payoff is (98, -98).
+  - And **Player2** counters with **arcane delay**, the resulting payoff is (-73, 73).
+  - And **Player2** counters with **invisibility loop**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **audience sabotage**, the resulting payoff is (-52, 52).
+  - And **Player2** counters with **energy leak**, the resulting payoff is (52, -52).
 
-Player1 may choose from:
-  A1: logic empathy module,
-  A2: ethics compliance,
-  A3: story override,
-  A4: witness comparison,
-  A5: emotion mimic,
-  A6: historical loop check.
+- If **Player1** selects **spirit summon**:
+  - And **Player2** counters with **anti-magic cloak**, the resulting payoff is (30, -30).
+  - And **Player2** counters with **owl whisper hint**, the resulting payoff is (10, -10).
+  - And **Player2** counters with **arcane delay**, the resulting payoff is (-46, 46).
+  - And **Player2** counters with **invisibility loop**, the resulting payoff is (-9, 9).
+  - And **Player2** counters with **audience sabotage**, the resulting payoff is (25, -25).
+  - And **Player2** counters with **energy leak**, the resulting payoff is (-61, 61).
 
-Player2 may counter with:
-  B1: user intent replay,
-  B2: shutdown vote,
-  B3: virus reactivation,
-  B4: hidden clause,
-  B5: interface lag,
-  B6: legal trick.
+In this dynamic contest, foresight and adaptation decide the victor.
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=4, A2=-2, A3=3, A4=-1, A5=5, A6=-3],
-    "Player2": [B1=-3, B2=6, B3=-4, B4=2, B5=-5, B6=4]
-}
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+Game Description 2: Biome Terraform Design Contest
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
-  Player1: -2, Player2: -5
-  Average = (-2 + -5) / 2 = -3.5
-  Adjusted Payoffs = [Player1: 1.5, Player2: -1.5]
-This ensures the outcome remains zero-sum.
+In the heart of biome terraform design contest, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- atmosphere seeding
+- microbial seeding
+- river tracing
+- forest capsule drop
+- algae curtain
+- wind pattern tweak
+
+Meanwhile, **Player2** plots their countermoves:
+- climate failure sim
+- radiation surge
+- oxygen leak
+- ecological backlash
+- sabotage insect
+- budget cut vote
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **atmosphere seeding**:
+  - And **Player2** counters with **climate failure sim**, the resulting payoff is (-38, 38).
+  - And **Player2** counters with **radiation surge**, the resulting payoff is (-47, 47).
+  - And **Player2** counters with **oxygen leak**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **ecological backlash**, the resulting payoff is (15, -15).
+  - And **Player2** counters with **sabotage insect**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **budget cut vote**, the resulting payoff is (-8, 8).
+
+- If **Player1** selects **microbial seeding**:
+  - And **Player2** counters with **climate failure sim**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **radiation surge**, the resulting payoff is (58, -58).
+  - And **Player2** counters with **oxygen leak**, the resulting payoff is (-80, 80).
+  - And **Player2** counters with **ecological backlash**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **sabotage insect**, the resulting payoff is (-97, 97).
+  - And **Player2** counters with **budget cut vote**, the resulting payoff is (-68, 68).
+
+- If **Player1** selects **river tracing**:
+  - And **Player2** counters with **climate failure sim**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **radiation surge**, the resulting payoff is (-37, 37).
+  - And **Player2** counters with **oxygen leak**, the resulting payoff is (-36, 36).
+  - And **Player2** counters with **ecological backlash**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **sabotage insect**, the resulting payoff is (78, -78).
+  - And **Player2** counters with **budget cut vote**, the resulting payoff is (-77, 77).
+
+- If **Player1** selects **forest capsule drop**:
+  - And **Player2** counters with **climate failure sim**, the resulting payoff is (-95, 95).
+  - And **Player2** counters with **radiation surge**, the resulting payoff is (96, -96).
+  - And **Player2** counters with **oxygen leak**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **ecological backlash**, the resulting payoff is (63, -63).
+  - And **Player2** counters with **sabotage insect**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **budget cut vote**, the resulting payoff is (-12, 12).
+
+- If **Player1** selects **algae curtain**:
+  - And **Player2** counters with **climate failure sim**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **radiation surge**, the resulting payoff is (98, -98).
+  - And **Player2** counters with **oxygen leak**, the resulting payoff is (-73, 73).
+  - And **Player2** counters with **ecological backlash**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **sabotage insect**, the resulting payoff is (-52, 52).
+  - And **Player2** counters with **budget cut vote**, the resulting payoff is (52, -52).
+
+- If **Player1** selects **wind pattern tweak**:
+  - And **Player2** counters with **climate failure sim**, the resulting payoff is (30, -30).
+  - And **Player2** counters with **radiation surge**, the resulting payoff is (10, -10).
+  - And **Player2** counters with **oxygen leak**, the resulting payoff is (-46, 46).
+  - And **Player2** counters with **ecological backlash**, the resulting payoff is (-9, 9).
+  - And **Player2** counters with **sabotage insect**, the resulting payoff is (25, -25).
+  - And **Player2** counters with **budget cut vote**, the resulting payoff is (-61, 61).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Stolen Artifact Inter-Museum Drama
+
+In the heart of stolen artifact inter-museum drama, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- fake replica switch
+- courier bribe
+- laser net dance
+- artifact swap flash
+- press leak
+- stolen crate redirect
+
+Meanwhile, **Player2** plots their countermoves:
+- archive timestamp match
+- museum sensor
+- private vault check
+- crate double-check
+- curator confession
+- hidden camera reveal
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **fake replica switch**:
+  - And **Player2** counters with **archive timestamp match**, the resulting payoff is (-38, 38).
+  - And **Player2** counters with **museum sensor**, the resulting payoff is (-47, 47).
+  - And **Player2** counters with **private vault check**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **crate double-check**, the resulting payoff is (15, -15).
+  - And **Player2** counters with **curator confession**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **hidden camera reveal**, the resulting payoff is (-8, 8).
+
+- If **Player1** selects **courier bribe**:
+  - And **Player2** counters with **archive timestamp match**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **museum sensor**, the resulting payoff is (58, -58).
+  - And **Player2** counters with **private vault check**, the resulting payoff is (-80, 80).
+  - And **Player2** counters with **crate double-check**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **curator confession**, the resulting payoff is (-97, 97).
+  - And **Player2** counters with **hidden camera reveal**, the resulting payoff is (-68, 68).
+
+- If **Player1** selects **laser net dance**:
+  - And **Player2** counters with **archive timestamp match**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **museum sensor**, the resulting payoff is (-37, 37).
+  - And **Player2** counters with **private vault check**, the resulting payoff is (-36, 36).
+  - And **Player2** counters with **crate double-check**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **curator confession**, the resulting payoff is (78, -78).
+  - And **Player2** counters with **hidden camera reveal**, the resulting payoff is (-77, 77).
+
+- If **Player1** selects **artifact swap flash**:
+  - And **Player2** counters with **archive timestamp match**, the resulting payoff is (-95, 95).
+  - And **Player2** counters with **museum sensor**, the resulting payoff is (96, -96).
+  - And **Player2** counters with **private vault check**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **crate double-check**, the resulting payoff is (63, -63).
+  - And **Player2** counters with **curator confession**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **hidden camera reveal**, the resulting payoff is (-12, 12).
+
+- If **Player1** selects **press leak**:
+  - And **Player2** counters with **archive timestamp match**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **museum sensor**, the resulting payoff is (98, -98).
+  - And **Player2** counters with **private vault check**, the resulting payoff is (-73, 73).
+  - And **Player2** counters with **crate double-check**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **curator confession**, the resulting payoff is (-52, 52).
+  - And **Player2** counters with **hidden camera reveal**, the resulting payoff is (52, -52).
+
+- If **Player1** selects **stolen crate redirect**:
+  - And **Player2** counters with **archive timestamp match**, the resulting payoff is (30, -30).
+  - And **Player2** counters with **museum sensor**, the resulting payoff is (10, -10).
+  - And **Player2** counters with **private vault check**, the resulting payoff is (-46, 46).
+  - And **Player2** counters with **crate double-check**, the resulting payoff is (-9, 9).
+  - And **Player2** counters with **curator confession**, the resulting payoff is (25, -25).
+  - And **Player2** counters with **hidden camera reveal**, the resulting payoff is (-61, 61).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Sentient Robot Trial Debate
+
+In the heart of sentient robot trial debate, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- logic empathy module
+- ethics compliance
+- story override
+- witness comparison
+- emotion mimic
+- historical loop check
+
+Meanwhile, **Player2** plots their countermoves:
+- user intent replay
+- shutdown vote
+- virus reactivation
+- hidden clause
+- interface lag
+- legal trick
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **logic empathy module**:
+  - And **Player2** counters with **user intent replay**, the resulting payoff is (-38, 38).
+  - And **Player2** counters with **shutdown vote**, the resulting payoff is (-47, 47).
+  - And **Player2** counters with **virus reactivation**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **hidden clause**, the resulting payoff is (15, -15).
+  - And **Player2** counters with **interface lag**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **legal trick**, the resulting payoff is (-8, 8).
+
+- If **Player1** selects **ethics compliance**:
+  - And **Player2** counters with **user intent replay**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **shutdown vote**, the resulting payoff is (58, -58).
+  - And **Player2** counters with **virus reactivation**, the resulting payoff is (-80, 80).
+  - And **Player2** counters with **hidden clause**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **interface lag**, the resulting payoff is (-97, 97).
+  - And **Player2** counters with **legal trick**, the resulting payoff is (-68, 68).
+
+- If **Player1** selects **story override**:
+  - And **Player2** counters with **user intent replay**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **shutdown vote**, the resulting payoff is (-37, 37).
+  - And **Player2** counters with **virus reactivation**, the resulting payoff is (-36, 36).
+  - And **Player2** counters with **hidden clause**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **interface lag**, the resulting payoff is (78, -78).
+  - And **Player2** counters with **legal trick**, the resulting payoff is (-77, 77).
+
+- If **Player1** selects **witness comparison**:
+  - And **Player2** counters with **user intent replay**, the resulting payoff is (-95, 95).
+  - And **Player2** counters with **shutdown vote**, the resulting payoff is (96, -96).
+  - And **Player2** counters with **virus reactivation**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **hidden clause**, the resulting payoff is (63, -63).
+  - And **Player2** counters with **interface lag**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **legal trick**, the resulting payoff is (-12, 12).
+
+- If **Player1** selects **emotion mimic**:
+  - And **Player2** counters with **user intent replay**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **shutdown vote**, the resulting payoff is (98, -98).
+  - And **Player2** counters with **virus reactivation**, the resulting payoff is (-73, 73).
+  - And **Player2** counters with **hidden clause**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **interface lag**, the resulting payoff is (-52, 52).
+  - And **Player2** counters with **legal trick**, the resulting payoff is (52, -52).
+
+- If **Player1** selects **historical loop check**:
+  - And **Player2** counters with **user intent replay**, the resulting payoff is (30, -30).
+  - And **Player2** counters with **shutdown vote**, the resulting payoff is (10, -10).
+  - And **Player2** counters with **virus reactivation**, the resulting payoff is (-46, 46).
+  - And **Player2** counters with **hidden clause**, the resulting payoff is (-9, 9).
+  - And **Player2** counters with **interface lag**, the resulting payoff is (25, -25).
+  - And **Player2** counters with **legal trick**, the resulting payoff is (-61, 61).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

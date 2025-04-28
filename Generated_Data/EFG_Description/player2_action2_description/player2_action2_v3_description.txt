@@ -1,28 +1,99 @@
-Story 1: A Science Fair Faceoff
-During this dramatic face-off, Player1 must decide between A1: robotic arm demo and A2: AI-powered game, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: interactive board or B2: graphical simulation, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a science fair faceoff mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Game Description 1: A Science Fair Faceoff
 
-Story 2: A Street Racing Final
-In the heat of the game, Player1 must decide between A1: tight cornering and A2: nitro boost, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: drifting technique or B2: early acceleration, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a street racing final mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+The arena is set for a science fair faceoff, a stage where every move could spell triumph or defeat.
 
-Story 3: A Heist Simulation
-As anticipation builds, Player1 must decide between A1: hacking security and A2: stealth approach, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: disabling alarms or B2: bribing the guard, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a heist simulation mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+**Player1** must choose between:
+- A bold **robotic arm demo**, or
+- A cunning **AI-powered game**.
 
-Story 4: A Boardroom Negotiation
-In this high-stakes match, Player1 must decide between A1: revenue projections and A2: product vision, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: competitor rebuttal or B2: synergy proposal, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a boardroom negotiation mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Meanwhile, **Player2** prepares to answer with:
+- A swift **interactive board**, or
+- A sharp **graphical simulation**.
 
-Payoff Matrix (Base values shown as Player1, Player2):
-        B1      B2
-A1  (-1, -2)
-A2  (-5, -3)
+Their chosen paths collide in outcomes like:
 
-Payoff Adjustment Rule:
-The outcomes are shaped by a base payoff matrix, with adjustments made by subtracting the average of both players' base scores from each individual score. This ensures the result remains zero-sum, making each decision a strategic gamble.
+- If Player1 commits to **robotic arm demo**:
+  - And Player2 counters with **interactive board**, the resulting payoff is (8, -8).
+  - And Player2 counters with **graphical simulation**, the resulting payoff is (4, -4).
+
+- If Player1 commits to **AI-powered game**:
+  - And Player2 counters with **interactive board**, the resulting payoff is (0, 0).
+  - And Player2 counters with **graphical simulation**, the resulting payoff is (-1, 1).
+
+Only sharp minds and keen instincts will determine the winner.
+
+
+Game Description 2: A Street Racing Final
+
+The arena is set for a street racing final, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **tight cornering**, or
+- A cunning **nitro boost**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **drifting technique**, or
+- A sharp **early acceleration**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **tight cornering**:
+  - And Player2 counters with **drifting technique**, the resulting payoff is (8, -8).
+  - And Player2 counters with **early acceleration**, the resulting payoff is (4, -4).
+
+- If Player1 commits to **nitro boost**:
+  - And Player2 counters with **drifting technique**, the resulting payoff is (0, 0).
+  - And Player2 counters with **early acceleration**, the resulting payoff is (-1, 1).
+
+Only sharp minds and keen instincts will determine the winner.
+
+
+Game Description 3: A Heist Simulation
+
+The arena is set for a heist simulation, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **hacking security**, or
+- A cunning **stealth approach**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **disabling alarms**, or
+- A sharp **bribing the guard**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **hacking security**:
+  - And Player2 counters with **disabling alarms**, the resulting payoff is (8, -8).
+  - And Player2 counters with **bribing the guard**, the resulting payoff is (4, -4).
+
+- If Player1 commits to **stealth approach**:
+  - And Player2 counters with **disabling alarms**, the resulting payoff is (0, 0).
+  - And Player2 counters with **bribing the guard**, the resulting payoff is (-1, 1).
+
+Only sharp minds and keen instincts will determine the winner.
+
+
+Game Description 4: A Boardroom Negotiation
+
+The arena is set for a boardroom negotiation, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **revenue projections**, or
+- A cunning **product vision**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **competitor rebuttal**, or
+- A sharp **synergy proposal**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **revenue projections**:
+  - And Player2 counters with **competitor rebuttal**, the resulting payoff is (8, -8).
+  - And Player2 counters with **synergy proposal**, the resulting payoff is (4, -4).
+
+- If Player1 commits to **product vision**:
+  - And Player2 counters with **competitor rebuttal**, the resulting payoff is (0, 0).
+  - And Player2 counters with **synergy proposal**, the resulting payoff is (-1, 1).
+
+Only sharp minds and keen instincts will determine the winner.
 

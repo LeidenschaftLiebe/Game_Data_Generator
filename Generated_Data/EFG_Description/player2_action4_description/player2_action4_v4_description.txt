@@ -1,42 +1,180 @@
-Story 1: A Historical Treaty Negotiation
-In this unique scenario, the competition unfolds in the context of a historical treaty negotiation.
-Player1 must choose one of four tactics: A1: border concession, A2: economic aid, A3: ceasefire line, or A4: cultural exchange.
-Meanwhile, Player2 must also decide among B1: third-party mediation, B2: time limit demand, B3: troop withdrawal, or B4: alliance clause.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+Game Description 1: Historical Treaty Negotiation
 
-Story 2: A World Cuisine Cook-Off
-In this unique scenario, the competition unfolds in the context of a world cuisine cook-off.
-Player1 must choose one of four tactics: A1: Italian risotto, A2: Thai curry, A3: Mexican tacos, or A4: Japanese sushi.
-Meanwhile, Player2 must also decide among B1: spice level test, B2: plating artistry, B3: local ingredient use, or B4: fusion twist.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+In the heart of historical treaty negotiation, critical choices carve the path to triumph.
 
-Story 3: A Time Travel Experiment
-In this unique scenario, the competition unfolds in the context of a time travel experiment.
-Player1 must choose one of four tactics: A1: stabilize wormhole, A2: encrypt timeline, A3: anchor consciousness, or A4: quantum tether.
-Meanwhile, Player2 must also decide among B1: create paradox, B2: backup reality, B3: jump delay, or B4: AI override.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+**Player1** evaluates the following strategies:
+- border concession
+- economic aid
+- ceasefire line
+- cultural exchange
 
-Story 4: A Luxury Hotel Management Game
-In this unique scenario, the competition unfolds in the context of a luxury hotel management game.
-Player1 must choose one of four tactics: A1: upgrade spa, A2: celebrity chef, A3: VIP suite remodel, or A4: concierge AI.
-Meanwhile, Player2 must also decide among B1: raise prices, B2: hire influencer, B3: add rooftop lounge, or B4: launch app.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+Meanwhile, **Player2** plots their countermoves:
+- third-party mediation
+- time limit demand
+- troop withdrawal
+- alliance clause
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=4, A2=6, A3=5, A4=3],
-    "Player2": [B1=30, B2=50, B3=60, B4=70]
-}
+When both players commit to their choices, these outcomes unfold:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- If **Player1** selects **border concession**:
+  - And **Player2** counters with **third-party mediation**, the resulting payoff is (67, -67).
+  - And **Player2** counters with **time limit demand**, the resulting payoff is (70, -70).
+  - And **Player2** counters with **troop withdrawal**, the resulting payoff is (52, -52).
+  - And **Player2** counters with **alliance clause**, the resulting payoff is (-76, 76).
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B3 (index 2):
-  Player1: 6, Player2: 60
-  Average = (6 + 60) / 2 = 33.0
-  Adjusted Payoffs = [Player1: -27.0, Player2: 27.0]
+- If **Player1** selects **economic aid**:
+  - And **Player2** counters with **third-party mediation**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **time limit demand**, the resulting payoff is (74, -74).
+  - And **Player2** counters with **troop withdrawal**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **alliance clause**, the resulting payoff is (-75, 75).
+
+- If **Player1** selects **ceasefire line**:
+  - And **Player2** counters with **third-party mediation**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **time limit demand**, the resulting payoff is (-95, 95).
+  - And **Player2** counters with **troop withdrawal**, the resulting payoff is (-66, 66).
+  - And **Player2** counters with **alliance clause**, the resulting payoff is (1, -1).
+
+- If **Player1** selects **cultural exchange**:
+  - And **Player2** counters with **third-party mediation**, the resulting payoff is (22, -22).
+  - And **Player2** counters with **time limit demand**, the resulting payoff is (-78, 78).
+  - And **Player2** counters with **troop withdrawal**, the resulting payoff is (-15, 15).
+  - And **Player2** counters with **alliance clause**, the resulting payoff is (-100, 100).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: World Cuisine Cook-Off
+
+In the heart of world cuisine cook-off, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- Italian risotto
+- Thai curry
+- Mexican tacos
+- Japanese sushi
+
+Meanwhile, **Player2** plots their countermoves:
+- spice level test
+- plating artistry
+- local ingredient use
+- fusion twist
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **Italian risotto**:
+  - And **Player2** counters with **spice level test**, the resulting payoff is (67, -67).
+  - And **Player2** counters with **plating artistry**, the resulting payoff is (70, -70).
+  - And **Player2** counters with **local ingredient use**, the resulting payoff is (52, -52).
+  - And **Player2** counters with **fusion twist**, the resulting payoff is (-76, 76).
+
+- If **Player1** selects **Thai curry**:
+  - And **Player2** counters with **spice level test**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **plating artistry**, the resulting payoff is (74, -74).
+  - And **Player2** counters with **local ingredient use**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **fusion twist**, the resulting payoff is (-75, 75).
+
+- If **Player1** selects **Mexican tacos**:
+  - And **Player2** counters with **spice level test**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **plating artistry**, the resulting payoff is (-95, 95).
+  - And **Player2** counters with **local ingredient use**, the resulting payoff is (-66, 66).
+  - And **Player2** counters with **fusion twist**, the resulting payoff is (1, -1).
+
+- If **Player1** selects **Japanese sushi**:
+  - And **Player2** counters with **spice level test**, the resulting payoff is (22, -22).
+  - And **Player2** counters with **plating artistry**, the resulting payoff is (-78, 78).
+  - And **Player2** counters with **local ingredient use**, the resulting payoff is (-15, 15).
+  - And **Player2** counters with **fusion twist**, the resulting payoff is (-100, 100).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Time Travel Experiment
+
+In the heart of time travel experiment, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- stabilize wormhole
+- encrypt timeline
+- anchor consciousness
+- quantum tether
+
+Meanwhile, **Player2** plots their countermoves:
+- create paradox
+- backup reality
+- jump delay
+- AI override
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **stabilize wormhole**:
+  - And **Player2** counters with **create paradox**, the resulting payoff is (67, -67).
+  - And **Player2** counters with **backup reality**, the resulting payoff is (70, -70).
+  - And **Player2** counters with **jump delay**, the resulting payoff is (52, -52).
+  - And **Player2** counters with **AI override**, the resulting payoff is (-76, 76).
+
+- If **Player1** selects **encrypt timeline**:
+  - And **Player2** counters with **create paradox**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **backup reality**, the resulting payoff is (74, -74).
+  - And **Player2** counters with **jump delay**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **AI override**, the resulting payoff is (-75, 75).
+
+- If **Player1** selects **anchor consciousness**:
+  - And **Player2** counters with **create paradox**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **backup reality**, the resulting payoff is (-95, 95).
+  - And **Player2** counters with **jump delay**, the resulting payoff is (-66, 66).
+  - And **Player2** counters with **AI override**, the resulting payoff is (1, -1).
+
+- If **Player1** selects **quantum tether**:
+  - And **Player2** counters with **create paradox**, the resulting payoff is (22, -22).
+  - And **Player2** counters with **backup reality**, the resulting payoff is (-78, 78).
+  - And **Player2** counters with **jump delay**, the resulting payoff is (-15, 15).
+  - And **Player2** counters with **AI override**, the resulting payoff is (-100, 100).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Luxury Hotel Management Game
+
+In the heart of luxury hotel management game, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- upgrade spa
+- celebrity chef
+- VIP suite remodel
+- concierge AI
+
+Meanwhile, **Player2** plots their countermoves:
+- raise prices
+- hire influencer
+- add rooftop lounge
+- launch app
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **upgrade spa**:
+  - And **Player2** counters with **raise prices**, the resulting payoff is (67, -67).
+  - And **Player2** counters with **hire influencer**, the resulting payoff is (70, -70).
+  - And **Player2** counters with **add rooftop lounge**, the resulting payoff is (52, -52).
+  - And **Player2** counters with **launch app**, the resulting payoff is (-76, 76).
+
+- If **Player1** selects **celebrity chef**:
+  - And **Player2** counters with **raise prices**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **hire influencer**, the resulting payoff is (74, -74).
+  - And **Player2** counters with **add rooftop lounge**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **launch app**, the resulting payoff is (-75, 75).
+
+- If **Player1** selects **VIP suite remodel**:
+  - And **Player2** counters with **raise prices**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **hire influencer**, the resulting payoff is (-95, 95).
+  - And **Player2** counters with **add rooftop lounge**, the resulting payoff is (-66, 66).
+  - And **Player2** counters with **launch app**, the resulting payoff is (1, -1).
+
+- If **Player1** selects **concierge AI**:
+  - And **Player2** counters with **raise prices**, the resulting payoff is (22, -22).
+  - And **Player2** counters with **hire influencer**, the resulting payoff is (-78, 78).
+  - And **Player2** counters with **add rooftop lounge**, the resulting payoff is (-15, 15).
+  - And **Player2** counters with **launch app**, the resulting payoff is (-100, 100).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

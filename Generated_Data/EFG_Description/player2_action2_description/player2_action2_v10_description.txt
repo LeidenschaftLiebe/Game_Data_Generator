@@ -1,28 +1,99 @@
-Story 1: A Fantasy Duel
-During this dramatic face-off, Player1 must decide between A1: ice storm and A2: thunder strike, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: mana barrier or B2: healing chant, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a fantasy duel mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Game Description 1: A Fantasy Duel
 
-Story 2: A Coding Bootcamp Final
-In the heat of the game, Player1 must decide between A1: app UI polish and A2: backend optimization, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: API test coverage or B2: feature roadmap, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a coding bootcamp final mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Under the bright lights of a fantasy duel, every decision shapes the future.
 
-Story 3: A Treasure Island Puzzle
-As anticipation builds, Player1 must decide between A1: read ancient map and A2: dig near landmark, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: test riddle or B2: cross coordinates, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a treasure island puzzle mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+**Player1** stands ready to unleash either:
+- A masterful **ice storm**, or
+- A daring **thunder strike**.
 
-Story 4: A Pirate Ship Clash
-In this high-stakes match, Player1 must decide between A1: drop anchor and A2: raise sails, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: fire cannons or B2: swing aboard, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a pirate ship clash mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Meanwhile, **Player2** prepares their countermove:
+- A nimble **mana barrier**, or
+- A cunning **healing chant**.
 
-Payoff Matrix (Base values shown as Player1, Player2):
-        B1      B2
-A1  (10, -10)
-A2  (-10, 10)
+Every pairing of choices leads to different consequences:
 
-Payoff Adjustment Rule:
-The outcomes are shaped by a base payoff matrix, with adjustments made by subtracting the average of both players' base scores from each individual score. This ensures the result remains zero-sum, making each decision a strategic gamble.
+- If Player1 chooses **ice storm**:
+  - And Player2 responds with **mana barrier**, the resulting payoff is (10, -10).
+  - And Player2 responds with **healing chant**, the resulting payoff is (-10, 10).
+
+- If Player1 chooses **thunder strike**:
+  - And Player2 responds with **mana barrier**, the resulting payoff is (-20, 20).
+  - And Player2 responds with **healing chant**, the resulting payoff is (20, -20).
+
+The sharpest strategy and the boldest timing will claim victory.
+
+
+Game Description 2: A Coding Bootcamp Final
+
+Under the bright lights of a coding bootcamp final, every decision shapes the future.
+
+**Player1** stands ready to unleash either:
+- A masterful **app UI polish**, or
+- A daring **backend optimization**.
+
+Meanwhile, **Player2** prepares their countermove:
+- A nimble **API test coverage**, or
+- A cunning **feature roadmap**.
+
+Every pairing of choices leads to different consequences:
+
+- If Player1 chooses **app UI polish**:
+  - And Player2 responds with **API test coverage**, the resulting payoff is (10, -10).
+  - And Player2 responds with **feature roadmap**, the resulting payoff is (-10, 10).
+
+- If Player1 chooses **backend optimization**:
+  - And Player2 responds with **API test coverage**, the resulting payoff is (-20, 20).
+  - And Player2 responds with **feature roadmap**, the resulting payoff is (20, -20).
+
+The sharpest strategy and the boldest timing will claim victory.
+
+
+Game Description 3: A Treasure Island Puzzle
+
+Under the bright lights of a treasure island puzzle, every decision shapes the future.
+
+**Player1** stands ready to unleash either:
+- A masterful **read ancient map**, or
+- A daring **dig near landmark**.
+
+Meanwhile, **Player2** prepares their countermove:
+- A nimble **test riddle**, or
+- A cunning **cross coordinates**.
+
+Every pairing of choices leads to different consequences:
+
+- If Player1 chooses **read ancient map**:
+  - And Player2 responds with **test riddle**, the resulting payoff is (10, -10).
+  - And Player2 responds with **cross coordinates**, the resulting payoff is (-10, 10).
+
+- If Player1 chooses **dig near landmark**:
+  - And Player2 responds with **test riddle**, the resulting payoff is (-20, 20).
+  - And Player2 responds with **cross coordinates**, the resulting payoff is (20, -20).
+
+The sharpest strategy and the boldest timing will claim victory.
+
+
+Game Description 4: A Pirate Ship Clash
+
+Under the bright lights of a pirate ship clash, every decision shapes the future.
+
+**Player1** stands ready to unleash either:
+- A masterful **drop anchor**, or
+- A daring **raise sails**.
+
+Meanwhile, **Player2** prepares their countermove:
+- A nimble **fire cannons**, or
+- A cunning **swing aboard**.
+
+Every pairing of choices leads to different consequences:
+
+- If Player1 chooses **drop anchor**:
+  - And Player2 responds with **fire cannons**, the resulting payoff is (10, -10).
+  - And Player2 responds with **swing aboard**, the resulting payoff is (-10, 10).
+
+- If Player1 chooses **raise sails**:
+  - And Player2 responds with **fire cannons**, the resulting payoff is (-20, 20).
+  - And Player2 responds with **swing aboard**, the resulting payoff is (20, -20).
+
+The sharpest strategy and the boldest timing will claim victory.
 

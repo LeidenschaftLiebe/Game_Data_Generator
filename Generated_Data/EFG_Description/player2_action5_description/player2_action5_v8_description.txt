@@ -1,83 +1,232 @@
-Story 1: A Museum Exhibit Battle
-In this unique scenario, the conflict unfolds in the context of a museum exhibit battle.
-Player1 selects from:
-  A1: reframe caption,
-  A2: swap artifact,
-  A3: mirror theft,
-  A4: climate sabotage,
-  A5: fake QR code.
-Player2 counters with:
-  B1: motion sensor,
-  B2: curator reveal,
-  B3: projection alarm,
-  B4: press alert,
-  B5: time lock.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+Game Description 1: Museum Exhibit Battle
 
-Story 2: A Data Leak Blackmail Case
-In this unique scenario, the conflict unfolds in the context of a data leak blackmail case.
-Player1 selects from:
-  A1: encrypt archive,
-  A2: deepfake trap,
-  A3: public leak,
-  A4: whistleblower redirect,
-  A5: wipe trace.
-Player2 counters with:
-  B1: media leak,
-  B2: hostage dump,
-  B3: counter hack,
-  B4: bot smear,
-  B5: safe house trace.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+In the heart of museum exhibit battle, critical choices carve the path to triumph.
 
-Story 3: A Virtual Fashion Catwalk
-In this unique scenario, the conflict unfolds in the context of a virtual fashion catwalk.
-Player1 selects from:
-  A1: morphing dress,
-  A2: neon coat,
-  A3: body-reactive fabric,
-  A4: 3D heels,
-  A5: avatar mirror walk.
-Player2 counters with:
-  B1: catwalk glitch,
-  B2: sparkle overload,
-  B3: lag rewind,
-  B4: vote surge,
-  B5: social sim sabotage.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+**Player1** evaluates the following strategies:
+- reframe caption
+- swap artifact
+- mirror theft
+- climate sabotage
+- fake QR code
 
-Story 4: A Martian Science Fair
-In this unique scenario, the conflict unfolds in the context of a Martian science fair.
-Player1 selects from:
-  A1: soil bacteria chip,
-  A2: rover rebuild,
-  A3: crop dome hack,
-  A4: oxygen balloon,
-  A5: Martian weather sim.
-Player2 counters with:
-  B1: judge probe,
-  B2: radio jamming,
-  B3: lab sabotage,
-  B4: demo crash,
-  B5: team betrayal.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+Meanwhile, **Player2** plots their countermoves:
+- motion sensor
+- curator reveal
+- projection alarm
+- press alert
+- time lock
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=15, A2=12, A3=9, A4=6, A5=3],
-    "Player2": [B1=10, B2=8, B3=6, B4=4, B5=2]
-}
+When both players commit to their choices, these outcomes unfold:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- If **Player1** selects **reframe caption**:
+  - And **Player2** counters with **motion sensor**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **curator reveal**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **projection alarm**, the resulting payoff is (10, -10).
+  - And **Player2** counters with **press alert**, the resulting payoff is (27, -27).
+  - And **Player2** counters with **time lock**, the resulting payoff is (93, -93).
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
-  Player1: 12, Player2: 4
-  Average = (12 + 4) / 2 = 8.0
-  Adjusted Payoffs = [Player1: 4.0, Player2: -4.0]
-This ensures the total payoff remains zero-sum.
+- If **Player1** selects **swap artifact**:
+  - And **Player2** counters with **motion sensor**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **curator reveal**, the resulting payoff is (35, -35).
+  - And **Player2** counters with **projection alarm**, the resulting payoff is (-98, 98).
+  - And **Player2** counters with **press alert**, the resulting payoff is (80, -80).
+  - And **Player2** counters with **time lock**, the resulting payoff is (48, -48).
+
+- If **Player1** selects **mirror theft**:
+  - And **Player2** counters with **motion sensor**, the resulting payoff is (-80, 80).
+  - And **Player2** counters with **curator reveal**, the resulting payoff is (83, -83).
+  - And **Player2** counters with **projection alarm**, the resulting payoff is (-31, 31).
+  - And **Player2** counters with **press alert**, the resulting payoff is (63, -63).
+  - And **Player2** counters with **time lock**, the resulting payoff is (92, -92).
+
+- If **Player1** selects **climate sabotage**:
+  - And **Player2** counters with **motion sensor**, the resulting payoff is (-4, 4).
+  - And **Player2** counters with **curator reveal**, the resulting payoff is (-2, 2).
+  - And **Player2** counters with **projection alarm**, the resulting payoff is (86, -86).
+  - And **Player2** counters with **press alert**, the resulting payoff is (7, -7).
+  - And **Player2** counters with **time lock**, the resulting payoff is (13, -13).
+
+- If **Player1** selects **fake QR code**:
+  - And **Player2** counters with **motion sensor**, the resulting payoff is (85, -85).
+  - And **Player2** counters with **curator reveal**, the resulting payoff is (38, -38).
+  - And **Player2** counters with **projection alarm**, the resulting payoff is (-56, 56).
+  - And **Player2** counters with **press alert**, the resulting payoff is (-5, 5).
+  - And **Player2** counters with **time lock**, the resulting payoff is (0, 0).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Data Leak Blackmail Case
+
+In the heart of data leak blackmail case, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- encrypt archive
+- deepfake trap
+- public leak
+- whistleblower redirect
+- wipe trace
+
+Meanwhile, **Player2** plots their countermoves:
+- media leak
+- hostage dump
+- counter hack
+- bot smear
+- safe house trace
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **encrypt archive**:
+  - And **Player2** counters with **media leak**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **hostage dump**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **counter hack**, the resulting payoff is (10, -10).
+  - And **Player2** counters with **bot smear**, the resulting payoff is (27, -27).
+  - And **Player2** counters with **safe house trace**, the resulting payoff is (93, -93).
+
+- If **Player1** selects **deepfake trap**:
+  - And **Player2** counters with **media leak**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **hostage dump**, the resulting payoff is (35, -35).
+  - And **Player2** counters with **counter hack**, the resulting payoff is (-98, 98).
+  - And **Player2** counters with **bot smear**, the resulting payoff is (80, -80).
+  - And **Player2** counters with **safe house trace**, the resulting payoff is (48, -48).
+
+- If **Player1** selects **public leak**:
+  - And **Player2** counters with **media leak**, the resulting payoff is (-80, 80).
+  - And **Player2** counters with **hostage dump**, the resulting payoff is (83, -83).
+  - And **Player2** counters with **counter hack**, the resulting payoff is (-31, 31).
+  - And **Player2** counters with **bot smear**, the resulting payoff is (63, -63).
+  - And **Player2** counters with **safe house trace**, the resulting payoff is (92, -92).
+
+- If **Player1** selects **whistleblower redirect**:
+  - And **Player2** counters with **media leak**, the resulting payoff is (-4, 4).
+  - And **Player2** counters with **hostage dump**, the resulting payoff is (-2, 2).
+  - And **Player2** counters with **counter hack**, the resulting payoff is (86, -86).
+  - And **Player2** counters with **bot smear**, the resulting payoff is (7, -7).
+  - And **Player2** counters with **safe house trace**, the resulting payoff is (13, -13).
+
+- If **Player1** selects **wipe trace**:
+  - And **Player2** counters with **media leak**, the resulting payoff is (85, -85).
+  - And **Player2** counters with **hostage dump**, the resulting payoff is (38, -38).
+  - And **Player2** counters with **counter hack**, the resulting payoff is (-56, 56).
+  - And **Player2** counters with **bot smear**, the resulting payoff is (-5, 5).
+  - And **Player2** counters with **safe house trace**, the resulting payoff is (0, 0).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Virtual Fashion Catwalk
+
+In the heart of virtual fashion catwalk, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- morphing dress
+- neon coat
+- body-reactive fabric
+- 3D heels
+- avatar mirror walk
+
+Meanwhile, **Player2** plots their countermoves:
+- catwalk glitch
+- sparkle overload
+- lag rewind
+- vote surge
+- social sim sabotage
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **morphing dress**:
+  - And **Player2** counters with **catwalk glitch**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **sparkle overload**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **lag rewind**, the resulting payoff is (10, -10).
+  - And **Player2** counters with **vote surge**, the resulting payoff is (27, -27).
+  - And **Player2** counters with **social sim sabotage**, the resulting payoff is (93, -93).
+
+- If **Player1** selects **neon coat**:
+  - And **Player2** counters with **catwalk glitch**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **sparkle overload**, the resulting payoff is (35, -35).
+  - And **Player2** counters with **lag rewind**, the resulting payoff is (-98, 98).
+  - And **Player2** counters with **vote surge**, the resulting payoff is (80, -80).
+  - And **Player2** counters with **social sim sabotage**, the resulting payoff is (48, -48).
+
+- If **Player1** selects **body-reactive fabric**:
+  - And **Player2** counters with **catwalk glitch**, the resulting payoff is (-80, 80).
+  - And **Player2** counters with **sparkle overload**, the resulting payoff is (83, -83).
+  - And **Player2** counters with **lag rewind**, the resulting payoff is (-31, 31).
+  - And **Player2** counters with **vote surge**, the resulting payoff is (63, -63).
+  - And **Player2** counters with **social sim sabotage**, the resulting payoff is (92, -92).
+
+- If **Player1** selects **3D heels**:
+  - And **Player2** counters with **catwalk glitch**, the resulting payoff is (-4, 4).
+  - And **Player2** counters with **sparkle overload**, the resulting payoff is (-2, 2).
+  - And **Player2** counters with **lag rewind**, the resulting payoff is (86, -86).
+  - And **Player2** counters with **vote surge**, the resulting payoff is (7, -7).
+  - And **Player2** counters with **social sim sabotage**, the resulting payoff is (13, -13).
+
+- If **Player1** selects **avatar mirror walk**:
+  - And **Player2** counters with **catwalk glitch**, the resulting payoff is (85, -85).
+  - And **Player2** counters with **sparkle overload**, the resulting payoff is (38, -38).
+  - And **Player2** counters with **lag rewind**, the resulting payoff is (-56, 56).
+  - And **Player2** counters with **vote surge**, the resulting payoff is (-5, 5).
+  - And **Player2** counters with **social sim sabotage**, the resulting payoff is (0, 0).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Martian Science Fair
+
+In the heart of martian science fair, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- soil bacteria chip
+- rover rebuild
+- crop dome hack
+- oxygen balloon
+- Martian weather sim
+
+Meanwhile, **Player2** plots their countermoves:
+- judge probe
+- radio jamming
+- lab sabotage
+- demo crash
+- team betrayal
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **soil bacteria chip**:
+  - And **Player2** counters with **judge probe**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **radio jamming**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **lab sabotage**, the resulting payoff is (10, -10).
+  - And **Player2** counters with **demo crash**, the resulting payoff is (27, -27).
+  - And **Player2** counters with **team betrayal**, the resulting payoff is (93, -93).
+
+- If **Player1** selects **rover rebuild**:
+  - And **Player2** counters with **judge probe**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **radio jamming**, the resulting payoff is (35, -35).
+  - And **Player2** counters with **lab sabotage**, the resulting payoff is (-98, 98).
+  - And **Player2** counters with **demo crash**, the resulting payoff is (80, -80).
+  - And **Player2** counters with **team betrayal**, the resulting payoff is (48, -48).
+
+- If **Player1** selects **crop dome hack**:
+  - And **Player2** counters with **judge probe**, the resulting payoff is (-80, 80).
+  - And **Player2** counters with **radio jamming**, the resulting payoff is (83, -83).
+  - And **Player2** counters with **lab sabotage**, the resulting payoff is (-31, 31).
+  - And **Player2** counters with **demo crash**, the resulting payoff is (63, -63).
+  - And **Player2** counters with **team betrayal**, the resulting payoff is (92, -92).
+
+- If **Player1** selects **oxygen balloon**:
+  - And **Player2** counters with **judge probe**, the resulting payoff is (-4, 4).
+  - And **Player2** counters with **radio jamming**, the resulting payoff is (-2, 2).
+  - And **Player2** counters with **lab sabotage**, the resulting payoff is (86, -86).
+  - And **Player2** counters with **demo crash**, the resulting payoff is (7, -7).
+  - And **Player2** counters with **team betrayal**, the resulting payoff is (13, -13).
+
+- If **Player1** selects **Martian weather sim**:
+  - And **Player2** counters with **judge probe**, the resulting payoff is (85, -85).
+  - And **Player2** counters with **radio jamming**, the resulting payoff is (38, -38).
+  - And **Player2** counters with **lab sabotage**, the resulting payoff is (-56, 56).
+  - And **Player2** counters with **demo crash**, the resulting payoff is (-5, 5).
+  - And **Player2** counters with **team betrayal**, the resulting payoff is (0, 0).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

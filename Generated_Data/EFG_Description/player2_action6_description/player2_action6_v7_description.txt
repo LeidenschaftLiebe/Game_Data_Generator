@@ -1,95 +1,292 @@
-Story 1: A Global Hacker Puzzle Hunt
-This game takes place in a setting where a global hacker puzzle hunt. Players engage through strategic decisions.
+Game Description 1: Global Hacker Puzzle Hunt
 
-Player1 may choose from:
-  A1: server backdoor,
-  A2: DNS stealth,
-  A3: CAPTCHA deception,
-  A4: exploit riddle,
-  A5: dev Easter egg,
-  A6: blockchain proof trick.
+In the heart of global hacker puzzle hunt, critical choices carve the path to triumph.
 
-Player2 may counter with:
-  B1: decoy server,
-  B2: flag swap,
-  B3: judge delay,
-  B4: IP leak trap,
-  B5: peer ban report,
-  B6: syntax break.
+**Player1** evaluates the following strategies:
+- server backdoor
+- DNS stealth
+- CAPTCHA deception
+- exploit riddle
+- dev Easter egg
+- blockchain proof trick
 
-Story 2: A Music Genre Mashup Battle
-This game takes place in a setting where a music genre mashup battle. Players engage through strategic decisions.
+Meanwhile, **Player2** plots their countermoves:
+- decoy server
+- flag swap
+- judge delay
+- IP leak trap
+- peer ban report
+- syntax break
 
-Player1 may choose from:
-  A1: trap jazz blend,
-  A2: acoustic dubstep,
-  A3: orchestral EDM,
-  A4: bossa nova drill,
-  A5: opera glitch-hop,
-  A6: silence beat drop.
+When both players commit to their choices, these outcomes unfold:
 
-Player2 may counter with:
-  B1: crowd poll shift,
-  B2: tempo sabotage,
-  B3: genre randomizer,
-  B4: delay fade echo,
-  B5: ad-libs leak,
-  B6: disqualify remix.
+- If **Player1** selects **server backdoor**:
+  - And **Player2** counters with **decoy server**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **flag swap**, the resulting payoff is (38, -38).
+  - And **Player2** counters with **judge delay**, the resulting payoff is (-23, 23).
+  - And **Player2** counters with **IP leak trap**, the resulting payoff is (97, -97).
+  - And **Player2** counters with **peer ban report**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **syntax break**, the resulting payoff is (-50, 50).
 
-Story 3: A Biomech Evolution Strategy Game
-This game takes place in a setting where a biomech evolution strategy game. Players engage through strategic decisions.
+- If **Player1** selects **DNS stealth**:
+  - And **Player2** counters with **decoy server**, the resulting payoff is (28, -28).
+  - And **Player2** counters with **flag swap**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **judge delay**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **IP leak trap**, the resulting payoff is (-56, 56).
+  - And **Player2** counters with **peer ban report**, the resulting payoff is (42, -42).
+  - And **Player2** counters with **syntax break**, the resulting payoff is (62, -62).
 
-Player1 may choose from:
-  A1: neural reflex graft,
-  A2: reinforced exo-limbs,
-  A3: solar skin,
-  A4: emotion processor,
-  A5: hive sync node,
-  A6: organic regeneration.
+- If **Player1** selects **CAPTCHA deception**:
+  - And **Player2** counters with **decoy server**, the resulting payoff is (-84, 84).
+  - And **Player2** counters with **flag swap**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **judge delay**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **IP leak trap**, the resulting payoff is (-97, 97).
+  - And **Player2** counters with **peer ban report**, the resulting payoff is (-17, 17).
+  - And **Player2** counters with **syntax break**, the resulting payoff is (14, -14).
 
-Player2 may counter with:
-  B1: immune attack,
-  B2: mutation counter,
-  B3: sync desync,
-  B4: genetic reversion,
-  B5: data override,
-  B6: virus exploit.
+- If **Player1** selects **exploit riddle**:
+  - And **Player2** counters with **decoy server**, the resulting payoff is (-3, 3).
+  - And **Player2** counters with **flag swap**, the resulting payoff is (35, -35).
+  - And **Player2** counters with **judge delay**, the resulting payoff is (-43, 43).
+  - And **Player2** counters with **IP leak trap**, the resulting payoff is (-65, 65).
+  - And **Player2** counters with **peer ban report**, the resulting payoff is (-92, 92).
+  - And **Player2** counters with **syntax break**, the resulting payoff is (23, -23).
 
-Story 4: A War Propaganda Simulator
-This game takes place in a setting where a war propaganda simulator. Players engage through strategic decisions.
+- If **Player1** selects **dev Easter egg**:
+  - And **Player2** counters with **decoy server**, the resulting payoff is (-31, 31).
+  - And **Player2** counters with **flag swap**, the resulting payoff is (0, 0).
+  - And **Player2** counters with **judge delay**, the resulting payoff is (5, -5).
+  - And **Player2** counters with **IP leak trap**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **peer ban report**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **syntax break**, the resulting payoff is (27, -27).
 
-Player1 may choose from:
-  A1: rally footage,
-  A2: viral slogan,
-  A3: defector clip,
-  A4: enemy failure montage,
-  A5: legend story,
-  A6: children's cartoon.
+- If **Player1** selects **blockchain proof trick**:
+  - And **Player2** counters with **decoy server**, the resulting payoff is (-51, 51).
+  - And **Player2** counters with **flag swap**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **judge delay**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **IP leak trap**, the resulting payoff is (19, -19).
+  - And **Player2** counters with **peer ban report**, the resulting payoff is (7, -7).
+  - And **Player2** counters with **syntax break**, the resulting payoff is (81, -81).
 
-Player2 may counter with:
-  B1: counter-meme,
-  B2: fact-check leak,
-  B3: rival anthem,
-  B4: influencer shift,
-  B5: censorship strike,
-  B6: mascot satire.
+In this dynamic contest, foresight and adaptation decide the victor.
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=25, A2=30, A3=35, A4=40, A5=45, A6=50],
-    "Player2": [B1=2, B2=3, B3=4, B4=5, B5=6, B6=7]
-}
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+Game Description 2: Music Genre Mashup Battle
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
-  Player1: 30, Player2: 6
-  Average = (30 + 6) / 2 = 18.0
-  Adjusted Payoffs = [Player1: 12.0, Player2: -12.0]
-This ensures the outcome remains zero-sum.
+In the heart of music genre mashup battle, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- trap jazz blend
+- acoustic dubstep
+- orchestral EDM
+- bossa nova drill
+- opera glitch-hop
+- silence beat drop
+
+Meanwhile, **Player2** plots their countermoves:
+- crowd poll shift
+- tempo sabotage
+- genre randomizer
+- delay fade echo
+- ad-libs leak
+- disqualify remix
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **trap jazz blend**:
+  - And **Player2** counters with **crowd poll shift**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **tempo sabotage**, the resulting payoff is (38, -38).
+  - And **Player2** counters with **genre randomizer**, the resulting payoff is (-23, 23).
+  - And **Player2** counters with **delay fade echo**, the resulting payoff is (97, -97).
+  - And **Player2** counters with **ad-libs leak**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **disqualify remix**, the resulting payoff is (-50, 50).
+
+- If **Player1** selects **acoustic dubstep**:
+  - And **Player2** counters with **crowd poll shift**, the resulting payoff is (28, -28).
+  - And **Player2** counters with **tempo sabotage**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **genre randomizer**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **delay fade echo**, the resulting payoff is (-56, 56).
+  - And **Player2** counters with **ad-libs leak**, the resulting payoff is (42, -42).
+  - And **Player2** counters with **disqualify remix**, the resulting payoff is (62, -62).
+
+- If **Player1** selects **orchestral EDM**:
+  - And **Player2** counters with **crowd poll shift**, the resulting payoff is (-84, 84).
+  - And **Player2** counters with **tempo sabotage**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **genre randomizer**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **delay fade echo**, the resulting payoff is (-97, 97).
+  - And **Player2** counters with **ad-libs leak**, the resulting payoff is (-17, 17).
+  - And **Player2** counters with **disqualify remix**, the resulting payoff is (14, -14).
+
+- If **Player1** selects **bossa nova drill**:
+  - And **Player2** counters with **crowd poll shift**, the resulting payoff is (-3, 3).
+  - And **Player2** counters with **tempo sabotage**, the resulting payoff is (35, -35).
+  - And **Player2** counters with **genre randomizer**, the resulting payoff is (-43, 43).
+  - And **Player2** counters with **delay fade echo**, the resulting payoff is (-65, 65).
+  - And **Player2** counters with **ad-libs leak**, the resulting payoff is (-92, 92).
+  - And **Player2** counters with **disqualify remix**, the resulting payoff is (23, -23).
+
+- If **Player1** selects **opera glitch-hop**:
+  - And **Player2** counters with **crowd poll shift**, the resulting payoff is (-31, 31).
+  - And **Player2** counters with **tempo sabotage**, the resulting payoff is (0, 0).
+  - And **Player2** counters with **genre randomizer**, the resulting payoff is (5, -5).
+  - And **Player2** counters with **delay fade echo**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **ad-libs leak**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **disqualify remix**, the resulting payoff is (27, -27).
+
+- If **Player1** selects **silence beat drop**:
+  - And **Player2** counters with **crowd poll shift**, the resulting payoff is (-51, 51).
+  - And **Player2** counters with **tempo sabotage**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **genre randomizer**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **delay fade echo**, the resulting payoff is (19, -19).
+  - And **Player2** counters with **ad-libs leak**, the resulting payoff is (7, -7).
+  - And **Player2** counters with **disqualify remix**, the resulting payoff is (81, -81).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Biomech Evolution Strategy Game
+
+In the heart of biomech evolution strategy game, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- neural reflex graft
+- reinforced exo-limbs
+- solar skin
+- emotion processor
+- hive sync node
+- organic regeneration
+
+Meanwhile, **Player2** plots their countermoves:
+- immune attack
+- mutation counter
+- sync desync
+- genetic reversion
+- data override
+- virus exploit
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **neural reflex graft**:
+  - And **Player2** counters with **immune attack**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **mutation counter**, the resulting payoff is (38, -38).
+  - And **Player2** counters with **sync desync**, the resulting payoff is (-23, 23).
+  - And **Player2** counters with **genetic reversion**, the resulting payoff is (97, -97).
+  - And **Player2** counters with **data override**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **virus exploit**, the resulting payoff is (-50, 50).
+
+- If **Player1** selects **reinforced exo-limbs**:
+  - And **Player2** counters with **immune attack**, the resulting payoff is (28, -28).
+  - And **Player2** counters with **mutation counter**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **sync desync**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **genetic reversion**, the resulting payoff is (-56, 56).
+  - And **Player2** counters with **data override**, the resulting payoff is (42, -42).
+  - And **Player2** counters with **virus exploit**, the resulting payoff is (62, -62).
+
+- If **Player1** selects **solar skin**:
+  - And **Player2** counters with **immune attack**, the resulting payoff is (-84, 84).
+  - And **Player2** counters with **mutation counter**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **sync desync**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **genetic reversion**, the resulting payoff is (-97, 97).
+  - And **Player2** counters with **data override**, the resulting payoff is (-17, 17).
+  - And **Player2** counters with **virus exploit**, the resulting payoff is (14, -14).
+
+- If **Player1** selects **emotion processor**:
+  - And **Player2** counters with **immune attack**, the resulting payoff is (-3, 3).
+  - And **Player2** counters with **mutation counter**, the resulting payoff is (35, -35).
+  - And **Player2** counters with **sync desync**, the resulting payoff is (-43, 43).
+  - And **Player2** counters with **genetic reversion**, the resulting payoff is (-65, 65).
+  - And **Player2** counters with **data override**, the resulting payoff is (-92, 92).
+  - And **Player2** counters with **virus exploit**, the resulting payoff is (23, -23).
+
+- If **Player1** selects **hive sync node**:
+  - And **Player2** counters with **immune attack**, the resulting payoff is (-31, 31).
+  - And **Player2** counters with **mutation counter**, the resulting payoff is (0, 0).
+  - And **Player2** counters with **sync desync**, the resulting payoff is (5, -5).
+  - And **Player2** counters with **genetic reversion**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **data override**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **virus exploit**, the resulting payoff is (27, -27).
+
+- If **Player1** selects **organic regeneration**:
+  - And **Player2** counters with **immune attack**, the resulting payoff is (-51, 51).
+  - And **Player2** counters with **mutation counter**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **sync desync**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **genetic reversion**, the resulting payoff is (19, -19).
+  - And **Player2** counters with **data override**, the resulting payoff is (7, -7).
+  - And **Player2** counters with **virus exploit**, the resulting payoff is (81, -81).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: War Propaganda Simulator
+
+In the heart of war propaganda simulator, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- rally footage
+- viral slogan
+- defector clip
+- enemy failure montage
+- legend story
+- children's cartoon
+
+Meanwhile, **Player2** plots their countermoves:
+- counter-meme
+- fact-check leak
+- rival anthem
+- influencer shift
+- censorship strike
+- mascot satire
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **rally footage**:
+  - And **Player2** counters with **counter-meme**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **fact-check leak**, the resulting payoff is (38, -38).
+  - And **Player2** counters with **rival anthem**, the resulting payoff is (-23, 23).
+  - And **Player2** counters with **influencer shift**, the resulting payoff is (97, -97).
+  - And **Player2** counters with **censorship strike**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **mascot satire**, the resulting payoff is (-50, 50).
+
+- If **Player1** selects **viral slogan**:
+  - And **Player2** counters with **counter-meme**, the resulting payoff is (28, -28).
+  - And **Player2** counters with **fact-check leak**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **rival anthem**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **influencer shift**, the resulting payoff is (-56, 56).
+  - And **Player2** counters with **censorship strike**, the resulting payoff is (42, -42).
+  - And **Player2** counters with **mascot satire**, the resulting payoff is (62, -62).
+
+- If **Player1** selects **defector clip**:
+  - And **Player2** counters with **counter-meme**, the resulting payoff is (-84, 84).
+  - And **Player2** counters with **fact-check leak**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **rival anthem**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **influencer shift**, the resulting payoff is (-97, 97).
+  - And **Player2** counters with **censorship strike**, the resulting payoff is (-17, 17).
+  - And **Player2** counters with **mascot satire**, the resulting payoff is (14, -14).
+
+- If **Player1** selects **enemy failure montage**:
+  - And **Player2** counters with **counter-meme**, the resulting payoff is (-3, 3).
+  - And **Player2** counters with **fact-check leak**, the resulting payoff is (35, -35).
+  - And **Player2** counters with **rival anthem**, the resulting payoff is (-43, 43).
+  - And **Player2** counters with **influencer shift**, the resulting payoff is (-65, 65).
+  - And **Player2** counters with **censorship strike**, the resulting payoff is (-92, 92).
+  - And **Player2** counters with **mascot satire**, the resulting payoff is (23, -23).
+
+- If **Player1** selects **legend story**:
+  - And **Player2** counters with **counter-meme**, the resulting payoff is (-31, 31).
+  - And **Player2** counters with **fact-check leak**, the resulting payoff is (0, 0).
+  - And **Player2** counters with **rival anthem**, the resulting payoff is (5, -5).
+  - And **Player2** counters with **influencer shift**, the resulting payoff is (92, -92).
+  - And **Player2** counters with **censorship strike**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **mascot satire**, the resulting payoff is (27, -27).
+
+- If **Player1** selects **children's cartoon**:
+  - And **Player2** counters with **counter-meme**, the resulting payoff is (-51, 51).
+  - And **Player2** counters with **fact-check leak**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **rival anthem**, the resulting payoff is (32, -32).
+  - And **Player2** counters with **influencer shift**, the resulting payoff is (19, -19).
+  - And **Player2** counters with **censorship strike**, the resulting payoff is (7, -7).
+  - And **Player2** counters with **mascot satire**, the resulting payoff is (81, -81).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

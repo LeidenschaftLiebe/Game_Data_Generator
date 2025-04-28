@@ -1,28 +1,99 @@
-Story 1: A Penalty Shootout
-During this dramatic face-off, Player1 must decide between A1: aiming left corner and A2: blasting center, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: diving left or B2: standing ground, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a penalty shootout mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Game Description 1: A Penalty Shootout
 
-Story 2: A Wizard Duel
-In the heat of the game, Player1 must decide between A1: casting a fireball and A2: vanishing in smoke, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: raising a shield or B2: casting mirror spell, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a wizard duel mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+The arena is set for a penalty shootout, a stage where every move could spell triumph or defeat.
 
-Story 3: A Submarine Encounter
-As anticipation builds, Player1 must decide between A1: launching torpedoes and A2: running silent, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: using sonar ping or B2: deploying depth charges, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a submarine encounter mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+**Player1** must choose between:
+- A bold **aiming left corner**, or
+- A cunning **blasting center**.
 
-Story 4: A Trade Negotiation
-In this high-stakes match, Player1 must decide between A1: offering a price cut and A2: holding firm, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: accepting partial terms or B2: walking away, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a trade negotiation mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Meanwhile, **Player2** prepares to answer with:
+- A swift **diving left**, or
+- A sharp **standing ground**.
 
-Payoff Matrix (Base values shown as Player1, Player2):
-        B1      B2
-A1  (10, 20)
-A2  (80, 90)
+Their chosen paths collide in outcomes like:
 
-Payoff Adjustment Rule:
-The outcomes are shaped by a base payoff matrix, with adjustments made by subtracting the average of both players' base scores from each individual score. This ensures the result remains zero-sum, making each decision a strategic gamble.
+- If Player1 commits to **aiming left corner**:
+  - And Player2 counters with **diving left**, the resulting payoff is (-10, 10).
+  - And Player2 counters with **standing ground**, the resulting payoff is (6, -6).
+
+- If Player1 commits to **blasting center**:
+  - And Player2 counters with **diving left**, the resulting payoff is (2, -2).
+  - And Player2 counters with **standing ground**, the resulting payoff is (3, -3).
+
+Only sharp minds and keen instincts will determine the winner.
+
+
+Game Description 2: A Wizard Duel
+
+The arena is set for a wizard duel, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **casting a fireball**, or
+- A cunning **vanishing in smoke**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **raising a shield**, or
+- A sharp **casting mirror spell**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **casting a fireball**:
+  - And Player2 counters with **raising a shield**, the resulting payoff is (-10, 10).
+  - And Player2 counters with **casting mirror spell**, the resulting payoff is (6, -6).
+
+- If Player1 commits to **vanishing in smoke**:
+  - And Player2 counters with **raising a shield**, the resulting payoff is (2, -2).
+  - And Player2 counters with **casting mirror spell**, the resulting payoff is (3, -3).
+
+Only sharp minds and keen instincts will determine the winner.
+
+
+Game Description 3: A Submarine Encounter
+
+The arena is set for a submarine encounter, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **launching torpedoes**, or
+- A cunning **running silent**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **using sonar ping**, or
+- A sharp **deploying depth charges**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **launching torpedoes**:
+  - And Player2 counters with **using sonar ping**, the resulting payoff is (-10, 10).
+  - And Player2 counters with **deploying depth charges**, the resulting payoff is (6, -6).
+
+- If Player1 commits to **running silent**:
+  - And Player2 counters with **using sonar ping**, the resulting payoff is (2, -2).
+  - And Player2 counters with **deploying depth charges**, the resulting payoff is (3, -3).
+
+Only sharp minds and keen instincts will determine the winner.
+
+
+Game Description 4: A Trade Negotiation
+
+The arena is set for a trade negotiation, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **offering a price cut**, or
+- A cunning **holding firm**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **accepting partial terms**, or
+- A sharp **walking away**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **offering a price cut**:
+  - And Player2 counters with **accepting partial terms**, the resulting payoff is (-10, 10).
+  - And Player2 counters with **walking away**, the resulting payoff is (6, -6).
+
+- If Player1 commits to **holding firm**:
+  - And Player2 counters with **accepting partial terms**, the resulting payoff is (2, -2).
+  - And Player2 counters with **walking away**, the resulting payoff is (3, -3).
+
+Only sharp minds and keen instincts will determine the winner.
 

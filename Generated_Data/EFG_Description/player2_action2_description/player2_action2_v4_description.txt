@@ -1,28 +1,99 @@
-Story 1: A Fencing Match
-During this dramatic face-off, Player1 must decide between A1: feint thrust and A2: overhead lunge, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: parry high or B2: step back, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a fencing match mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Game Description 1: A Fencing Match
 
-Story 2: A Spy Encounter
-In the heat of the game, Player1 must decide between A1: coded message drop and A2: disguise entry, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: camera sweep or B2: tail the suspect, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a spy encounter mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+The arena is set for a fencing match, a stage where every move could spell triumph or defeat.
 
-Story 3: A University Debate
-As anticipation builds, Player1 must decide between A1: opening statement and A2: cross-examination attack, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: rebuttal case or B2: closing appeal, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a university debate mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+**Player1** must choose between:
+- A bold **feint thrust**, or
+- A cunning **overhead lunge**.
 
-Story 4: A Boxing Match
-In this high-stakes match, Player1 must decide between A1: jab combo and A2: uppercut, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: counterpunch or B2: clinch, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a boxing match mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Meanwhile, **Player2** prepares to answer with:
+- A swift **parry high**, or
+- A sharp **step back**.
 
-Payoff Matrix (Base values shown as Player1, Player2):
-        B1      B2
-A1  (2, 20)
-A2  (3, 30)
+Their chosen paths collide in outcomes like:
 
-Payoff Adjustment Rule:
-The outcomes are shaped by a base payoff matrix, with adjustments made by subtracting the average of both players' base scores from each individual score. This ensures the result remains zero-sum, making each decision a strategic gamble.
+- If Player1 commits to **feint thrust**:
+  - And Player2 counters with **parry high**, the resulting payoff is (-3, 3).
+  - And Player2 counters with **step back**, the resulting payoff is (-9, 9).
+
+- If Player1 commits to **overhead lunge**:
+  - And Player2 counters with **parry high**, the resulting payoff is (-9, 9).
+  - And Player2 counters with **step back**, the resulting payoff is (0, 0).
+
+Only sharp minds and keen instincts will determine the winner.
+
+
+Game Description 2: A Spy Encounter
+
+The arena is set for a spy encounter, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **coded message drop**, or
+- A cunning **disguise entry**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **camera sweep**, or
+- A sharp **tail the suspect**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **coded message drop**:
+  - And Player2 counters with **camera sweep**, the resulting payoff is (-3, 3).
+  - And Player2 counters with **tail the suspect**, the resulting payoff is (-9, 9).
+
+- If Player1 commits to **disguise entry**:
+  - And Player2 counters with **camera sweep**, the resulting payoff is (-9, 9).
+  - And Player2 counters with **tail the suspect**, the resulting payoff is (0, 0).
+
+Only sharp minds and keen instincts will determine the winner.
+
+
+Game Description 3: A University Debate
+
+The arena is set for a university debate, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **opening statement**, or
+- A cunning **cross-examination attack**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **rebuttal case**, or
+- A sharp **closing appeal**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **opening statement**:
+  - And Player2 counters with **rebuttal case**, the resulting payoff is (-3, 3).
+  - And Player2 counters with **closing appeal**, the resulting payoff is (-9, 9).
+
+- If Player1 commits to **cross-examination attack**:
+  - And Player2 counters with **rebuttal case**, the resulting payoff is (-9, 9).
+  - And Player2 counters with **closing appeal**, the resulting payoff is (0, 0).
+
+Only sharp minds and keen instincts will determine the winner.
+
+
+Game Description 4: A Boxing Match
+
+The arena is set for a boxing match, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **jab combo**, or
+- A cunning **uppercut**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **counterpunch**, or
+- A sharp **clinch**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **jab combo**:
+  - And Player2 counters with **counterpunch**, the resulting payoff is (-3, 3).
+  - And Player2 counters with **clinch**, the resulting payoff is (-9, 9).
+
+- If Player1 commits to **uppercut**:
+  - And Player2 counters with **counterpunch**, the resulting payoff is (-9, 9).
+  - And Player2 counters with **clinch**, the resulting payoff is (0, 0).
+
+Only sharp minds and keen instincts will determine the winner.
 

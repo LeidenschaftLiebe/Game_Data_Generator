@@ -1,42 +1,180 @@
-Story 1: A Student Council Election
-In this unique scenario, the competition unfolds in the context of a student council election.
-Player1 must choose one of four tactics: A1: free vending, A2: campus concerts, A3: mental health week, or A4: green fund.
-Meanwhile, Player2 must also decide among B1: poster blitz, B2: social media, B3: Q&A forum, or B4: alliance with club.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+Game Description 1: Student Council Election
 
-Story 2: An Ancient Ruins Expedition
-In this unique scenario, the competition unfolds in the context of an ancient ruins expedition.
-Player1 must choose one of four tactics: A1: translate glyphs, A2: trigger pressure plate, A3: descend chamber, or A4: bypass curse.
-Meanwhile, Player2 must also decide among B1: torch puzzle, B2: relic scan, B3: rope swing, or B4: decipher prophecy.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+In the heart of student council election, critical choices carve the path to triumph.
 
-Story 3: A Startup Tech Accelerator
-In this unique scenario, the competition unfolds in the context of a startup tech accelerator.
-Player1 must choose one of four tactics: A1: MVP launch, A2: seed funding, A3: demo day prep, or A4: growth hacking.
-Meanwhile, Player2 must also decide among B1: mentor session, B2: pitch bootcamp, B3: team shuffle, or B4: founder podcast.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+**Player1** evaluates the following strategies:
+- free vending
+- campus concerts
+- mental health week
+- green fund
 
-Story 4: A Competitive Birdwatching Game
-In this unique scenario, the competition unfolds in the context of a competitive birdwatching game.
-Player1 must choose one of four tactics: A1: rare call playback, A2: camouflage gear, A3: drone binoculars, or A4: dawn hike.
-Meanwhile, Player2 must also decide among B1: decoy bird, B2: flash photo, B3: species trivia, or B4: nest map.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+Meanwhile, **Player2** plots their countermoves:
+- poster blitz
+- social media
+- Q&A forum
+- alliance with club
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=4, A2=-3, A3=5, A4=-1],
-    "Player2": [B1=-2, B2=6, B3=-4, B4=3]
-}
+When both players commit to their choices, these outcomes unfold:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- If **Player1** selects **free vending**:
+  - And **Player2** counters with **poster blitz**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **social media**, the resulting payoff is (65, -65).
+  - And **Player2** counters with **Q&A forum**, the resulting payoff is (-11, 11).
+  - And **Player2** counters with **alliance with club**, the resulting payoff is (-14, 14).
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B3 (index 2):
-  Player1: -3, Player2: -4
-  Average = (-3 + -4) / 2 = -3.5
-  Adjusted Payoffs = [Player1: 0.5, Player2: -0.5]
+- If **Player1** selects **campus concerts**:
+  - And **Player2** counters with **poster blitz**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **social media**, the resulting payoff is (20, -20).
+  - And **Player2** counters with **Q&A forum**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **alliance with club**, the resulting payoff is (-62, 62).
+
+- If **Player1** selects **mental health week**:
+  - And **Player2** counters with **poster blitz**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **social media**, the resulting payoff is (51, -51).
+  - And **Player2** counters with **Q&A forum**, the resulting payoff is (-25, 25).
+  - And **Player2** counters with **alliance with club**, the resulting payoff is (36, -36).
+
+- If **Player1** selects **green fund**:
+  - And **Player2** counters with **poster blitz**, the resulting payoff is (79, -79).
+  - And **Player2** counters with **social media**, the resulting payoff is (56, -56).
+  - And **Player2** counters with **Q&A forum**, the resulting payoff is (-85, 85).
+  - And **Player2** counters with **alliance with club**, the resulting payoff is (-29, 29).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Ancient Ruins Expedition
+
+In the heart of ancient ruins expedition, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- translate glyphs
+- trigger pressure plate
+- descend chamber
+- bypass curse
+
+Meanwhile, **Player2** plots their countermoves:
+- torch puzzle
+- relic scan
+- rope swing
+- decipher prophecy
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **translate glyphs**:
+  - And **Player2** counters with **torch puzzle**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **relic scan**, the resulting payoff is (65, -65).
+  - And **Player2** counters with **rope swing**, the resulting payoff is (-11, 11).
+  - And **Player2** counters with **decipher prophecy**, the resulting payoff is (-14, 14).
+
+- If **Player1** selects **trigger pressure plate**:
+  - And **Player2** counters with **torch puzzle**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **relic scan**, the resulting payoff is (20, -20).
+  - And **Player2** counters with **rope swing**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **decipher prophecy**, the resulting payoff is (-62, 62).
+
+- If **Player1** selects **descend chamber**:
+  - And **Player2** counters with **torch puzzle**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **relic scan**, the resulting payoff is (51, -51).
+  - And **Player2** counters with **rope swing**, the resulting payoff is (-25, 25).
+  - And **Player2** counters with **decipher prophecy**, the resulting payoff is (36, -36).
+
+- If **Player1** selects **bypass curse**:
+  - And **Player2** counters with **torch puzzle**, the resulting payoff is (79, -79).
+  - And **Player2** counters with **relic scan**, the resulting payoff is (56, -56).
+  - And **Player2** counters with **rope swing**, the resulting payoff is (-85, 85).
+  - And **Player2** counters with **decipher prophecy**, the resulting payoff is (-29, 29).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Startup Tech Accelerator
+
+In the heart of startup tech accelerator, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- MVP launch
+- seed funding
+- demo day prep
+- growth hacking
+
+Meanwhile, **Player2** plots their countermoves:
+- mentor session
+- pitch bootcamp
+- team shuffle
+- founder podcast
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **MVP launch**:
+  - And **Player2** counters with **mentor session**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **pitch bootcamp**, the resulting payoff is (65, -65).
+  - And **Player2** counters with **team shuffle**, the resulting payoff is (-11, 11).
+  - And **Player2** counters with **founder podcast**, the resulting payoff is (-14, 14).
+
+- If **Player1** selects **seed funding**:
+  - And **Player2** counters with **mentor session**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **pitch bootcamp**, the resulting payoff is (20, -20).
+  - And **Player2** counters with **team shuffle**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **founder podcast**, the resulting payoff is (-62, 62).
+
+- If **Player1** selects **demo day prep**:
+  - And **Player2** counters with **mentor session**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **pitch bootcamp**, the resulting payoff is (51, -51).
+  - And **Player2** counters with **team shuffle**, the resulting payoff is (-25, 25).
+  - And **Player2** counters with **founder podcast**, the resulting payoff is (36, -36).
+
+- If **Player1** selects **growth hacking**:
+  - And **Player2** counters with **mentor session**, the resulting payoff is (79, -79).
+  - And **Player2** counters with **pitch bootcamp**, the resulting payoff is (56, -56).
+  - And **Player2** counters with **team shuffle**, the resulting payoff is (-85, 85).
+  - And **Player2** counters with **founder podcast**, the resulting payoff is (-29, 29).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Competitive Birdwatching Game
+
+In the heart of competitive birdwatching game, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- rare call playback
+- camouflage gear
+- drone binoculars
+- dawn hike
+
+Meanwhile, **Player2** plots their countermoves:
+- decoy bird
+- flash photo
+- species trivia
+- nest map
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **rare call playback**:
+  - And **Player2** counters with **decoy bird**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **flash photo**, the resulting payoff is (65, -65).
+  - And **Player2** counters with **species trivia**, the resulting payoff is (-11, 11).
+  - And **Player2** counters with **nest map**, the resulting payoff is (-14, 14).
+
+- If **Player1** selects **camouflage gear**:
+  - And **Player2** counters with **decoy bird**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **flash photo**, the resulting payoff is (20, -20).
+  - And **Player2** counters with **species trivia**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **nest map**, the resulting payoff is (-62, 62).
+
+- If **Player1** selects **drone binoculars**:
+  - And **Player2** counters with **decoy bird**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **flash photo**, the resulting payoff is (51, -51).
+  - And **Player2** counters with **species trivia**, the resulting payoff is (-25, 25).
+  - And **Player2** counters with **nest map**, the resulting payoff is (36, -36).
+
+- If **Player1** selects **dawn hike**:
+  - And **Player2** counters with **decoy bird**, the resulting payoff is (79, -79).
+  - And **Player2** counters with **flash photo**, the resulting payoff is (56, -56).
+  - And **Player2** counters with **species trivia**, the resulting payoff is (-85, 85).
+  - And **Player2** counters with **nest map**, the resulting payoff is (-29, 29).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

@@ -1,83 +1,232 @@
-Story 1: A Culinary Fusion Food War
-In this unique scenario, the conflict unfolds in the context of a culinary fusion food war.
-Player1 selects from:
-  A1: kimchi quesadilla,
-  A2: wasabi mac & cheese,
-  A3: mole ramen,
-  A4: jerk curry taco,
-  A5: sushi burger.
-Player2 counters with:
-  B1: plating obstacle,
-  B2: surprise vegan twist,
-  B3: ancestral origin judge,
-  B4: social vote,
-  B5: spice endurance.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+Game Description 1: Culinary Fusion Food War
 
-Story 2: A Psychological Thriller Simulation
-In this unique scenario, the conflict unfolds in the context of a psychological thriller simulation.
-Player1 selects from:
-  A1: secret alliance,
-  A2: fake alibi,
-  A3: delayed reaction,
-  A4: guilt trap,
-  A5: journal reveal.
-Player2 counters with:
-  B1: lie detector fail,
-  B2: empathy probe,
-  B3: hallucination twist,
-  B4: loop memory,
-  B5: shadow figure.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+In the heart of culinary fusion food war, critical choices carve the path to triumph.
 
-Story 3: A Cross-Cultural Wedding Planner Duel
-In this unique scenario, the conflict unfolds in the context of a cross-cultural wedding planner duel.
-Player1 selects from:
-  A1: food fusion menu,
-  A2: bilingual ceremony,
-  A3: mixed attire style,
-  A4: joint family dance,
-  A5: hybrid rituals.
-Player2 counters with:
-  B1: venue clash,
-  B2: grandma objection,
-  B3: dress code debate,
-  B4: officiant confusion,
-  B5: time zone mishap.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+**Player1** evaluates the following strategies:
+- kimchi quesadilla
+- wasabi mac & cheese
+- mole ramen
+- jerk curry taco
+- sushi burger
 
-Story 4: A Hacker Vs. Counter-Hacker Live Match
-In this unique scenario, the conflict unfolds in the context of a hacker vs. counter-hacker live match.
-Player1 selects from:
-  A1: DDOS spike,
-  A2: login brute,
-  A3: URL bait,
-  A4: database ransom,
-  A5: false zero-day.
-Player2 counters with:
-  B1: honeypot,
-  B2: trace route,
-  B3: logic bomb,
-  B4: patch bait,
-  B5: user lockout.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+Meanwhile, **Player2** plots their countermoves:
+- plating obstacle
+- surprise vegan twist
+- ancestral origin judge
+- social vote
+- spice endurance
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=-1, A2=-3, A3=-5, A4=-2, A5=-4],
-    "Player2": [B1=-4, B2=-2, B3=-6, B4=-1, B5=-3]
-}
+When both players commit to their choices, these outcomes unfold:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- If **Player1** selects **kimchi quesadilla**:
+  - And **Player2** counters with **plating obstacle**, the resulting payoff is (-2, 2).
+  - And **Player2** counters with **surprise vegan twist**, the resulting payoff is (-88, 88).
+  - And **Player2** counters with **ancestral origin judge**, the resulting payoff is (23, -23).
+  - And **Player2** counters with **social vote**, the resulting payoff is (-28, 28).
+  - And **Player2** counters with **spice endurance**, the resulting payoff is (-45, 45).
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
-  Player1: -3, Player2: -1
-  Average = (-3 + -1) / 2 = -2.0
-  Adjusted Payoffs = [Player1: -1.0, Player2: 1.0]
-This ensures the total payoff remains zero-sum.
+- If **Player1** selects **wasabi mac & cheese**:
+  - And **Player2** counters with **plating obstacle**, the resulting payoff is (9, -9).
+  - And **Player2** counters with **surprise vegan twist**, the resulting payoff is (-16, 16).
+  - And **Player2** counters with **ancestral origin judge**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **social vote**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **spice endurance**, the resulting payoff is (42, -42).
+
+- If **Player1** selects **mole ramen**:
+  - And **Player2** counters with **plating obstacle**, the resulting payoff is (-10, 10).
+  - And **Player2** counters with **surprise vegan twist**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **ancestral origin judge**, the resulting payoff is (7, -7).
+  - And **Player2** counters with **social vote**, the resulting payoff is (-36, 36).
+  - And **Player2** counters with **spice endurance**, the resulting payoff is (-14, 14).
+
+- If **Player1** selects **jerk curry taco**:
+  - And **Player2** counters with **plating obstacle**, the resulting payoff is (-37, 37).
+  - And **Player2** counters with **surprise vegan twist**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **ancestral origin judge**, the resulting payoff is (-13, 13).
+  - And **Player2** counters with **social vote**, the resulting payoff is (-11, 11).
+  - And **Player2** counters with **spice endurance**, the resulting payoff is (93, -93).
+
+- If **Player1** selects **sushi burger**:
+  - And **Player2** counters with **plating obstacle**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **surprise vegan twist**, the resulting payoff is (-39, 39).
+  - And **Player2** counters with **ancestral origin judge**, the resulting payoff is (37, -37).
+  - And **Player2** counters with **social vote**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **spice endurance**, the resulting payoff is (-34, 34).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Psychological Thriller Simulation
+
+In the heart of psychological thriller simulation, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- secret alliance
+- fake alibi
+- delayed reaction
+- guilt trap
+- journal reveal
+
+Meanwhile, **Player2** plots their countermoves:
+- lie detector fail
+- empathy probe
+- hallucination twist
+- loop memory
+- shadow figure
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **secret alliance**:
+  - And **Player2** counters with **lie detector fail**, the resulting payoff is (-2, 2).
+  - And **Player2** counters with **empathy probe**, the resulting payoff is (-88, 88).
+  - And **Player2** counters with **hallucination twist**, the resulting payoff is (23, -23).
+  - And **Player2** counters with **loop memory**, the resulting payoff is (-28, 28).
+  - And **Player2** counters with **shadow figure**, the resulting payoff is (-45, 45).
+
+- If **Player1** selects **fake alibi**:
+  - And **Player2** counters with **lie detector fail**, the resulting payoff is (9, -9).
+  - And **Player2** counters with **empathy probe**, the resulting payoff is (-16, 16).
+  - And **Player2** counters with **hallucination twist**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **loop memory**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **shadow figure**, the resulting payoff is (42, -42).
+
+- If **Player1** selects **delayed reaction**:
+  - And **Player2** counters with **lie detector fail**, the resulting payoff is (-10, 10).
+  - And **Player2** counters with **empathy probe**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **hallucination twist**, the resulting payoff is (7, -7).
+  - And **Player2** counters with **loop memory**, the resulting payoff is (-36, 36).
+  - And **Player2** counters with **shadow figure**, the resulting payoff is (-14, 14).
+
+- If **Player1** selects **guilt trap**:
+  - And **Player2** counters with **lie detector fail**, the resulting payoff is (-37, 37).
+  - And **Player2** counters with **empathy probe**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **hallucination twist**, the resulting payoff is (-13, 13).
+  - And **Player2** counters with **loop memory**, the resulting payoff is (-11, 11).
+  - And **Player2** counters with **shadow figure**, the resulting payoff is (93, -93).
+
+- If **Player1** selects **journal reveal**:
+  - And **Player2** counters with **lie detector fail**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **empathy probe**, the resulting payoff is (-39, 39).
+  - And **Player2** counters with **hallucination twist**, the resulting payoff is (37, -37).
+  - And **Player2** counters with **loop memory**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **shadow figure**, the resulting payoff is (-34, 34).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Cross-Cultural Wedding Planner Duel
+
+In the heart of cross-cultural wedding planner duel, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- food fusion menu
+- bilingual ceremony
+- mixed attire style
+- joint family dance
+- hybrid rituals
+
+Meanwhile, **Player2** plots their countermoves:
+- venue clash
+- grandma objection
+- dress code debate
+- officiant confusion
+- time zone mishap
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **food fusion menu**:
+  - And **Player2** counters with **venue clash**, the resulting payoff is (-2, 2).
+  - And **Player2** counters with **grandma objection**, the resulting payoff is (-88, 88).
+  - And **Player2** counters with **dress code debate**, the resulting payoff is (23, -23).
+  - And **Player2** counters with **officiant confusion**, the resulting payoff is (-28, 28).
+  - And **Player2** counters with **time zone mishap**, the resulting payoff is (-45, 45).
+
+- If **Player1** selects **bilingual ceremony**:
+  - And **Player2** counters with **venue clash**, the resulting payoff is (9, -9).
+  - And **Player2** counters with **grandma objection**, the resulting payoff is (-16, 16).
+  - And **Player2** counters with **dress code debate**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **officiant confusion**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **time zone mishap**, the resulting payoff is (42, -42).
+
+- If **Player1** selects **mixed attire style**:
+  - And **Player2** counters with **venue clash**, the resulting payoff is (-10, 10).
+  - And **Player2** counters with **grandma objection**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **dress code debate**, the resulting payoff is (7, -7).
+  - And **Player2** counters with **officiant confusion**, the resulting payoff is (-36, 36).
+  - And **Player2** counters with **time zone mishap**, the resulting payoff is (-14, 14).
+
+- If **Player1** selects **joint family dance**:
+  - And **Player2** counters with **venue clash**, the resulting payoff is (-37, 37).
+  - And **Player2** counters with **grandma objection**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **dress code debate**, the resulting payoff is (-13, 13).
+  - And **Player2** counters with **officiant confusion**, the resulting payoff is (-11, 11).
+  - And **Player2** counters with **time zone mishap**, the resulting payoff is (93, -93).
+
+- If **Player1** selects **hybrid rituals**:
+  - And **Player2** counters with **venue clash**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **grandma objection**, the resulting payoff is (-39, 39).
+  - And **Player2** counters with **dress code debate**, the resulting payoff is (37, -37).
+  - And **Player2** counters with **officiant confusion**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **time zone mishap**, the resulting payoff is (-34, 34).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Hacker vs. Counter-Hacker Live Match
+
+In the heart of hacker vs. counter-hacker live match, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- DDOS spike
+- login brute
+- URL bait
+- database ransom
+- false zero-day
+
+Meanwhile, **Player2** plots their countermoves:
+- honeypot
+- trace route
+- logic bomb
+- patch bait
+- user lockout
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **DDOS spike**:
+  - And **Player2** counters with **honeypot**, the resulting payoff is (-2, 2).
+  - And **Player2** counters with **trace route**, the resulting payoff is (-88, 88).
+  - And **Player2** counters with **logic bomb**, the resulting payoff is (23, -23).
+  - And **Player2** counters with **patch bait**, the resulting payoff is (-28, 28).
+  - And **Player2** counters with **user lockout**, the resulting payoff is (-45, 45).
+
+- If **Player1** selects **login brute**:
+  - And **Player2** counters with **honeypot**, the resulting payoff is (9, -9).
+  - And **Player2** counters with **trace route**, the resulting payoff is (-16, 16).
+  - And **Player2** counters with **logic bomb**, the resulting payoff is (3, -3).
+  - And **Player2** counters with **patch bait**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **user lockout**, the resulting payoff is (42, -42).
+
+- If **Player1** selects **URL bait**:
+  - And **Player2** counters with **honeypot**, the resulting payoff is (-10, 10).
+  - And **Player2** counters with **trace route**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **logic bomb**, the resulting payoff is (7, -7).
+  - And **Player2** counters with **patch bait**, the resulting payoff is (-36, 36).
+  - And **Player2** counters with **user lockout**, the resulting payoff is (-14, 14).
+
+- If **Player1** selects **database ransom**:
+  - And **Player2** counters with **honeypot**, the resulting payoff is (-37, 37).
+  - And **Player2** counters with **trace route**, the resulting payoff is (-79, 79).
+  - And **Player2** counters with **logic bomb**, the resulting payoff is (-13, 13).
+  - And **Player2** counters with **patch bait**, the resulting payoff is (-11, 11).
+  - And **Player2** counters with **user lockout**, the resulting payoff is (93, -93).
+
+- If **Player1** selects **false zero-day**:
+  - And **Player2** counters with **honeypot**, the resulting payoff is (-77, 77).
+  - And **Player2** counters with **trace route**, the resulting payoff is (-39, 39).
+  - And **Player2** counters with **logic bomb**, the resulting payoff is (37, -37).
+  - And **Player2** counters with **patch bait**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **user lockout**, the resulting payoff is (-34, 34).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

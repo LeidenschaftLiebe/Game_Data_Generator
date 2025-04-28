@@ -1,95 +1,292 @@
-Story 1: A Teleportation Tech Demo
-This game takes place in a setting where a teleportation tech demo. Players engage through strategic decisions.
+Game Description 1: Teleportation Tech Demo
 
-Player1 may choose from:
-  A1: phase tunnel jump,
-  A2: human cargo test,
-  A3: object cloning,
-  A4: memory coherence,
-  A5: time-sync pulse,
-  A6: doorless entry.
+In the heart of teleportation tech demo, critical choices carve the path to triumph.
 
-Player2 may counter with:
-  B1: energy loss distortion,
-  B2: bug report broadcast,
-  B3: ethics query,
-  B4: misroute warning,
-  B5: disintegration rumor,
-  B6: refund burst.
+**Player1** evaluates the following strategies:
+- phase tunnel jump
+- human cargo test
+- object cloning
+- memory coherence
+- time-sync pulse
+- doorless entry
 
-Story 2: A Climate Disaster Political Summit
-This game takes place in a setting where a climate disaster political summit. Players engage through strategic decisions.
+Meanwhile, **Player2** plots their countermoves:
+- energy loss distortion
+- bug report broadcast
+- ethics query
+- misroute warning
+- disintegration rumor
+- refund burst
 
-Player1 may choose from:
-  A1: climate reparation bill,
-  A2: carbon passport,
-  A3: fossil divestment,
-  A4: floodwall funding,
-  A5: solar geoengineering,
-  A6: climate war pact.
+When both players commit to their choices, these outcomes unfold:
 
-Player2 may counter with:
-  B1: veto threat,
-  B2: greenwash trap,
-  B3: border heat riot,
-  B4: timeline pushback,
-  B5: desertification projection,
-  B6: crisis leak.
+- If **Player1** selects **phase tunnel jump**:
+  - And **Player2** counters with **energy loss distortion**, the resulting payoff is (-17, 17).
+  - And **Player2** counters with **bug report broadcast**, the resulting payoff is (29, -29).
+  - And **Player2** counters with **ethics query**, the resulting payoff is (78, -78).
+  - And **Player2** counters with **misroute warning**, the resulting payoff is (47, -47).
+  - And **Player2** counters with **disintegration rumor**, the resulting payoff is (-33, 33).
+  - And **Player2** counters with **refund burst**, the resulting payoff is (94, -94).
 
-Story 3: A Magical Forest Border Patrol
-This game takes place in a setting where a magical forest border patrol. Players engage through strategic decisions.
+- If **Player1** selects **human cargo test**:
+  - And **Player2** counters with **energy loss distortion**, the resulting payoff is (-12, 12).
+  - And **Player2** counters with **bug report broadcast**, the resulting payoff is (-20, 20).
+  - And **Player2** counters with **ethics query**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **misroute warning**, the resulting payoff is (30, -30).
+  - And **Player2** counters with **disintegration rumor**, the resulting payoff is (60, -60).
+  - And **Player2** counters with **refund burst**, the resulting payoff is (97, -97).
 
-Player1 may choose from:
-  A1: root trap,
-  A2: owl spy,
-  A3: camouflage shroud,
-  A4: moonlit chant,
-  A5: scent mislead,
-  A6: barkskin decoy.
+- If **Player1** selects **object cloning**:
+  - And **Player2** counters with **energy loss distortion**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **bug report broadcast**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **ethics query**, the resulting payoff is (28, -28).
+  - And **Player2** counters with **misroute warning**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **disintegration rumor**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **refund burst**, the resulting payoff is (-80, 80).
 
-Player2 may counter with:
-  B1: fairy scout,
-  B2: druid call,
-  B3: whisper net,
-  B4: truth pollen,
-  B5: treetop sweep,
-  B6: illusion flare.
+- If **Player1** selects **memory coherence**:
+  - And **Player2** counters with **energy loss distortion**, the resulting payoff is (51, -51).
+  - And **Player2** counters with **bug report broadcast**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **ethics query**, the resulting payoff is (27, -27).
+  - And **Player2** counters with **misroute warning**, the resulting payoff is (-60, 60).
+  - And **Player2** counters with **disintegration rumor**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **refund burst**, the resulting payoff is (65, -65).
 
-Story 4: A Genetic Engineering Ethics Court
-This game takes place in a setting where a genetic engineering ethics court. Players engage through strategic decisions.
+- If **Player1** selects **time-sync pulse**:
+  - And **Player2** counters with **energy loss distortion**, the resulting payoff is (44, -44).
+  - And **Player2** counters with **bug report broadcast**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **ethics query**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **misroute warning**, the resulting payoff is (-19, 19).
+  - And **Player2** counters with **disintegration rumor**, the resulting payoff is (43, -43).
+  - And **Player2** counters with **refund burst**, the resulting payoff is (-66, 66).
 
-Player1 may choose from:
-  A1: embryo edit defense,
-  A2: cure-by-design case,
-  A3: eugenics denial,
-  A4: family consent clause,
-  A5: public good model,
-  A6: genetic justice principle.
+- If **Player1** selects **doorless entry**:
+  - And **Player2** counters with **energy loss distortion**, the resulting payoff is (-28, 28).
+  - And **Player2** counters with **bug report broadcast**, the resulting payoff is (-2, 2).
+  - And **Player2** counters with **ethics query**, the resulting payoff is (-10, 10).
+  - And **Player2** counters with **misroute warning**, the resulting payoff is (-26, 26).
+  - And **Player2** counters with **disintegration rumor**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **refund burst**, the resulting payoff is (-53, 53).
 
-Player2 may counter with:
-  B1: survivor testimony,
-  B2: gene class discrimination,
-  B3: test lab failure,
-  B4: truth archive,
-  B5: amendment clause,
-  B6: lawmaker testimony.
+In this dynamic contest, foresight and adaptation decide the victor.
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=18, A2=15, A3=12, A4=9, A5=6, A6=3],
-    "Player2": [B1=10, B2=8, B3=6, B4=4, B5=2, B6=0]
-}
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+Game Description 2: Climate Disaster Political Summit
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B5 (index 4):
-  Player1: 15, Player2: 2
-  Average = (15 + 2) / 2 = 8.5
-  Adjusted Payoffs = [Player1: 6.5, Player2: -6.5]
-This ensures the outcome remains zero-sum.
+In the heart of climate disaster political summit, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- climate reparation bill
+- carbon passport
+- fossil divestment
+- floodwall funding
+- solar geoengineering
+- climate war pact
+
+Meanwhile, **Player2** plots their countermoves:
+- veto threat
+- greenwash trap
+- border heat riot
+- timeline pushback
+- desertification projection
+- crisis leak
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **climate reparation bill**:
+  - And **Player2** counters with **veto threat**, the resulting payoff is (-17, 17).
+  - And **Player2** counters with **greenwash trap**, the resulting payoff is (29, -29).
+  - And **Player2** counters with **border heat riot**, the resulting payoff is (78, -78).
+  - And **Player2** counters with **timeline pushback**, the resulting payoff is (47, -47).
+  - And **Player2** counters with **desertification projection**, the resulting payoff is (-33, 33).
+  - And **Player2** counters with **crisis leak**, the resulting payoff is (94, -94).
+
+- If **Player1** selects **carbon passport**:
+  - And **Player2** counters with **veto threat**, the resulting payoff is (-12, 12).
+  - And **Player2** counters with **greenwash trap**, the resulting payoff is (-20, 20).
+  - And **Player2** counters with **border heat riot**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **timeline pushback**, the resulting payoff is (30, -30).
+  - And **Player2** counters with **desertification projection**, the resulting payoff is (60, -60).
+  - And **Player2** counters with **crisis leak**, the resulting payoff is (97, -97).
+
+- If **Player1** selects **fossil divestment**:
+  - And **Player2** counters with **veto threat**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **greenwash trap**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **border heat riot**, the resulting payoff is (28, -28).
+  - And **Player2** counters with **timeline pushback**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **desertification projection**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **crisis leak**, the resulting payoff is (-80, 80).
+
+- If **Player1** selects **floodwall funding**:
+  - And **Player2** counters with **veto threat**, the resulting payoff is (51, -51).
+  - And **Player2** counters with **greenwash trap**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **border heat riot**, the resulting payoff is (27, -27).
+  - And **Player2** counters with **timeline pushback**, the resulting payoff is (-60, 60).
+  - And **Player2** counters with **desertification projection**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **crisis leak**, the resulting payoff is (65, -65).
+
+- If **Player1** selects **solar geoengineering**:
+  - And **Player2** counters with **veto threat**, the resulting payoff is (44, -44).
+  - And **Player2** counters with **greenwash trap**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **border heat riot**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **timeline pushback**, the resulting payoff is (-19, 19).
+  - And **Player2** counters with **desertification projection**, the resulting payoff is (43, -43).
+  - And **Player2** counters with **crisis leak**, the resulting payoff is (-66, 66).
+
+- If **Player1** selects **climate war pact**:
+  - And **Player2** counters with **veto threat**, the resulting payoff is (-28, 28).
+  - And **Player2** counters with **greenwash trap**, the resulting payoff is (-2, 2).
+  - And **Player2** counters with **border heat riot**, the resulting payoff is (-10, 10).
+  - And **Player2** counters with **timeline pushback**, the resulting payoff is (-26, 26).
+  - And **Player2** counters with **desertification projection**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **crisis leak**, the resulting payoff is (-53, 53).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Magical Forest Border Patrol
+
+In the heart of magical forest border patrol, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- root trap
+- owl spy
+- camouflage shroud
+- moonlit chant
+- scent mislead
+- barkskin decoy
+
+Meanwhile, **Player2** plots their countermoves:
+- fairy scout
+- druid call
+- whisper net
+- truth pollen
+- treetop sweep
+- illusion flare
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **root trap**:
+  - And **Player2** counters with **fairy scout**, the resulting payoff is (-17, 17).
+  - And **Player2** counters with **druid call**, the resulting payoff is (29, -29).
+  - And **Player2** counters with **whisper net**, the resulting payoff is (78, -78).
+  - And **Player2** counters with **truth pollen**, the resulting payoff is (47, -47).
+  - And **Player2** counters with **treetop sweep**, the resulting payoff is (-33, 33).
+  - And **Player2** counters with **illusion flare**, the resulting payoff is (94, -94).
+
+- If **Player1** selects **owl spy**:
+  - And **Player2** counters with **fairy scout**, the resulting payoff is (-12, 12).
+  - And **Player2** counters with **druid call**, the resulting payoff is (-20, 20).
+  - And **Player2** counters with **whisper net**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **truth pollen**, the resulting payoff is (30, -30).
+  - And **Player2** counters with **treetop sweep**, the resulting payoff is (60, -60).
+  - And **Player2** counters with **illusion flare**, the resulting payoff is (97, -97).
+
+- If **Player1** selects **camouflage shroud**:
+  - And **Player2** counters with **fairy scout**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **druid call**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **whisper net**, the resulting payoff is (28, -28).
+  - And **Player2** counters with **truth pollen**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **treetop sweep**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **illusion flare**, the resulting payoff is (-80, 80).
+
+- If **Player1** selects **moonlit chant**:
+  - And **Player2** counters with **fairy scout**, the resulting payoff is (51, -51).
+  - And **Player2** counters with **druid call**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **whisper net**, the resulting payoff is (27, -27).
+  - And **Player2** counters with **truth pollen**, the resulting payoff is (-60, 60).
+  - And **Player2** counters with **treetop sweep**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **illusion flare**, the resulting payoff is (65, -65).
+
+- If **Player1** selects **scent mislead**:
+  - And **Player2** counters with **fairy scout**, the resulting payoff is (44, -44).
+  - And **Player2** counters with **druid call**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **whisper net**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **truth pollen**, the resulting payoff is (-19, 19).
+  - And **Player2** counters with **treetop sweep**, the resulting payoff is (43, -43).
+  - And **Player2** counters with **illusion flare**, the resulting payoff is (-66, 66).
+
+- If **Player1** selects **barkskin decoy**:
+  - And **Player2** counters with **fairy scout**, the resulting payoff is (-28, 28).
+  - And **Player2** counters with **druid call**, the resulting payoff is (-2, 2).
+  - And **Player2** counters with **whisper net**, the resulting payoff is (-10, 10).
+  - And **Player2** counters with **truth pollen**, the resulting payoff is (-26, 26).
+  - And **Player2** counters with **treetop sweep**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **illusion flare**, the resulting payoff is (-53, 53).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Genetic Engineering Ethics Court
+
+In the heart of genetic engineering ethics court, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- embryo edit defense
+- cure-by-design case
+- eugenics denial
+- family consent clause
+- public good model
+- genetic justice principle
+
+Meanwhile, **Player2** plots their countermoves:
+- survivor testimony
+- gene class discrimination
+- test lab failure
+- truth archive
+- amendment clause
+- lawmaker testimony
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **embryo edit defense**:
+  - And **Player2** counters with **survivor testimony**, the resulting payoff is (-17, 17).
+  - And **Player2** counters with **gene class discrimination**, the resulting payoff is (29, -29).
+  - And **Player2** counters with **test lab failure**, the resulting payoff is (78, -78).
+  - And **Player2** counters with **truth archive**, the resulting payoff is (47, -47).
+  - And **Player2** counters with **amendment clause**, the resulting payoff is (-33, 33).
+  - And **Player2** counters with **lawmaker testimony**, the resulting payoff is (94, -94).
+
+- If **Player1** selects **cure-by-design case**:
+  - And **Player2** counters with **survivor testimony**, the resulting payoff is (-12, 12).
+  - And **Player2** counters with **gene class discrimination**, the resulting payoff is (-20, 20).
+  - And **Player2** counters with **test lab failure**, the resulting payoff is (-14, 14).
+  - And **Player2** counters with **truth archive**, the resulting payoff is (30, -30).
+  - And **Player2** counters with **amendment clause**, the resulting payoff is (60, -60).
+  - And **Player2** counters with **lawmaker testimony**, the resulting payoff is (97, -97).
+
+- If **Player1** selects **eugenics denial**:
+  - And **Player2** counters with **survivor testimony**, the resulting payoff is (-83, 83).
+  - And **Player2** counters with **gene class discrimination**, the resulting payoff is (-34, 34).
+  - And **Player2** counters with **test lab failure**, the resulting payoff is (28, -28).
+  - And **Player2** counters with **truth archive**, the resulting payoff is (77, -77).
+  - And **Player2** counters with **amendment clause**, the resulting payoff is (21, -21).
+  - And **Player2** counters with **lawmaker testimony**, the resulting payoff is (-80, 80).
+
+- If **Player1** selects **family consent clause**:
+  - And **Player2** counters with **survivor testimony**, the resulting payoff is (51, -51).
+  - And **Player2** counters with **gene class discrimination**, the resulting payoff is (-24, 24).
+  - And **Player2** counters with **test lab failure**, the resulting payoff is (27, -27).
+  - And **Player2** counters with **truth archive**, the resulting payoff is (-60, 60).
+  - And **Player2** counters with **amendment clause**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **lawmaker testimony**, the resulting payoff is (65, -65).
+
+- If **Player1** selects **public good model**:
+  - And **Player2** counters with **survivor testimony**, the resulting payoff is (44, -44).
+  - And **Player2** counters with **gene class discrimination**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **test lab failure**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **truth archive**, the resulting payoff is (-19, 19).
+  - And **Player2** counters with **amendment clause**, the resulting payoff is (43, -43).
+  - And **Player2** counters with **lawmaker testimony**, the resulting payoff is (-66, 66).
+
+- If **Player1** selects **genetic justice principle**:
+  - And **Player2** counters with **survivor testimony**, the resulting payoff is (-28, 28).
+  - And **Player2** counters with **gene class discrimination**, the resulting payoff is (-2, 2).
+  - And **Player2** counters with **test lab failure**, the resulting payoff is (-10, 10).
+  - And **Player2** counters with **truth archive**, the resulting payoff is (-26, 26).
+  - And **Player2** counters with **amendment clause**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **lawmaker testimony**, the resulting payoff is (-53, 53).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

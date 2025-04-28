@@ -1,42 +1,180 @@
-Story 1: A Reality Tv Finale
-In this unique scenario, the competition unfolds in the context of a reality TV finale.
-Player1 must choose one of four tactics: A1: emotional montage, A2: shocking twist, A3: underdog win, or A4: confessional leak.
-Meanwhile, Player2 must also decide among B1: judge betrayal, B2: public vote, B3: time reveal, or B4: host interjection.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+Game Description 1: Reality TV Finale
 
-Story 2: A Ski Mountain Rescue
-In this unique scenario, the competition unfolds in the context of a ski mountain rescue.
-Player1 must choose one of four tactics: A1: flare signal, A2: snow cave, A3: avalanche probe, or A4: satellite ping.
-Meanwhile, Player2 must also decide among B1: airlift crew, B2: rope rappel, B3: snowmobile drop, or B4: med evac.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+In the heart of reality tv finale, critical choices carve the path to triumph.
 
-Story 3: A Haunted Carnival Game
-In this unique scenario, the competition unfolds in the context of a haunted carnival game.
-Player1 must choose one of four tactics: A1: mirror maze, A2: cursed ring toss, A3: ghost train ride, or A4: whisper booth.
-Meanwhile, Player2 must also decide among B1: flickering lights, B2: clown trap, B3: shadow trail, or B4: fake exit.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+**Player1** evaluates the following strategies:
+- emotional montage
+- shocking twist
+- underdog win
+- confessional leak
 
-Story 4: A Jungle Tribal Challenge
-In this unique scenario, the competition unfolds in the context of a jungle tribal challenge.
-Player1 must choose one of four tactics: A1: fire starter, A2: food gather, A3: rope bridge, or A4: water carry.
-Meanwhile, Player2 must also decide among B1: puzzle stone, B2: stealth watch, B3: trap set, or B4: story chant.
-Each player's strategy interacts with the other to produce an outcome that is adjusted to maintain a fair and zero-sum structure.
+Meanwhile, **Player2** plots their countermoves:
+- judge betrayal
+- public vote
+- time reveal
+- host interjection
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=25, A2=30, A3=35, A4=40],
-    "Player2": [B1=2, B2=3, B3=4, B4=5]
-}
+When both players commit to their choices, these outcomes unfold:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- If **Player1** selects **emotional montage**:
+  - And **Player2** counters with **judge betrayal**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **public vote**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **time reveal**, the resulting payoff is (69, -69).
+  - And **Player2** counters with **host interjection**, the resulting payoff is (-100, 100).
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B3 (index 2):
-  Player1: 30, Player2: 4
-  Average = (30 + 4) / 2 = 17.0
-  Adjusted Payoffs = [Player1: 13.0, Player2: -13.0]
+- If **Player1** selects **shocking twist**:
+  - And **Player2** counters with **judge betrayal**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **public vote**, the resulting payoff is (-15, 15).
+  - And **Player2** counters with **time reveal**, the resulting payoff is (91, -91).
+  - And **Player2** counters with **host interjection**, the resulting payoff is (42, -42).
+
+- If **Player1** selects **underdog win**:
+  - And **Player2** counters with **judge betrayal**, the resulting payoff is (35, -35).
+  - And **Player2** counters with **public vote**, the resulting payoff is (36, -36).
+  - And **Player2** counters with **time reveal**, the resulting payoff is (31, -31).
+  - And **Player2** counters with **host interjection**, the resulting payoff is (55, -55).
+
+- If **Player1** selects **confessional leak**:
+  - And **Player2** counters with **judge betrayal**, the resulting payoff is (29, -29).
+  - And **Player2** counters with **public vote**, the resulting payoff is (-96, 96).
+  - And **Player2** counters with **time reveal**, the resulting payoff is (18, -18).
+  - And **Player2** counters with **host interjection**, the resulting payoff is (-72, 72).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Ski Mountain Rescue
+
+In the heart of ski mountain rescue, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- flare signal
+- snow cave
+- avalanche probe
+- satellite ping
+
+Meanwhile, **Player2** plots their countermoves:
+- airlift crew
+- rope rappel
+- snowmobile drop
+- med evac
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **flare signal**:
+  - And **Player2** counters with **airlift crew**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **rope rappel**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **snowmobile drop**, the resulting payoff is (69, -69).
+  - And **Player2** counters with **med evac**, the resulting payoff is (-100, 100).
+
+- If **Player1** selects **snow cave**:
+  - And **Player2** counters with **airlift crew**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **rope rappel**, the resulting payoff is (-15, 15).
+  - And **Player2** counters with **snowmobile drop**, the resulting payoff is (91, -91).
+  - And **Player2** counters with **med evac**, the resulting payoff is (42, -42).
+
+- If **Player1** selects **avalanche probe**:
+  - And **Player2** counters with **airlift crew**, the resulting payoff is (35, -35).
+  - And **Player2** counters with **rope rappel**, the resulting payoff is (36, -36).
+  - And **Player2** counters with **snowmobile drop**, the resulting payoff is (31, -31).
+  - And **Player2** counters with **med evac**, the resulting payoff is (55, -55).
+
+- If **Player1** selects **satellite ping**:
+  - And **Player2** counters with **airlift crew**, the resulting payoff is (29, -29).
+  - And **Player2** counters with **rope rappel**, the resulting payoff is (-96, 96).
+  - And **Player2** counters with **snowmobile drop**, the resulting payoff is (18, -18).
+  - And **Player2** counters with **med evac**, the resulting payoff is (-72, 72).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Haunted Carnival Game
+
+In the heart of haunted carnival game, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- mirror maze
+- cursed ring toss
+- ghost train ride
+- whisper booth
+
+Meanwhile, **Player2** plots their countermoves:
+- flickering lights
+- clown trap
+- shadow trail
+- fake exit
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **mirror maze**:
+  - And **Player2** counters with **flickering lights**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **clown trap**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **shadow trail**, the resulting payoff is (69, -69).
+  - And **Player2** counters with **fake exit**, the resulting payoff is (-100, 100).
+
+- If **Player1** selects **cursed ring toss**:
+  - And **Player2** counters with **flickering lights**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **clown trap**, the resulting payoff is (-15, 15).
+  - And **Player2** counters with **shadow trail**, the resulting payoff is (91, -91).
+  - And **Player2** counters with **fake exit**, the resulting payoff is (42, -42).
+
+- If **Player1** selects **ghost train ride**:
+  - And **Player2** counters with **flickering lights**, the resulting payoff is (35, -35).
+  - And **Player2** counters with **clown trap**, the resulting payoff is (36, -36).
+  - And **Player2** counters with **shadow trail**, the resulting payoff is (31, -31).
+  - And **Player2** counters with **fake exit**, the resulting payoff is (55, -55).
+
+- If **Player1** selects **whisper booth**:
+  - And **Player2** counters with **flickering lights**, the resulting payoff is (29, -29).
+  - And **Player2** counters with **clown trap**, the resulting payoff is (-96, 96).
+  - And **Player2** counters with **shadow trail**, the resulting payoff is (18, -18).
+  - And **Player2** counters with **fake exit**, the resulting payoff is (-72, 72).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Jungle Tribal Challenge
+
+In the heart of jungle tribal challenge, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- fire starter
+- food gather
+- rope bridge
+- water carry
+
+Meanwhile, **Player2** plots their countermoves:
+- puzzle stone
+- stealth watch
+- trap set
+- story chant
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **fire starter**:
+  - And **Player2** counters with **puzzle stone**, the resulting payoff is (-22, 22).
+  - And **Player2** counters with **stealth watch**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **trap set**, the resulting payoff is (69, -69).
+  - And **Player2** counters with **story chant**, the resulting payoff is (-100, 100).
+
+- If **Player1** selects **food gather**:
+  - And **Player2** counters with **puzzle stone**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **stealth watch**, the resulting payoff is (-15, 15).
+  - And **Player2** counters with **trap set**, the resulting payoff is (91, -91).
+  - And **Player2** counters with **story chant**, the resulting payoff is (42, -42).
+
+- If **Player1** selects **rope bridge**:
+  - And **Player2** counters with **puzzle stone**, the resulting payoff is (35, -35).
+  - And **Player2** counters with **stealth watch**, the resulting payoff is (36, -36).
+  - And **Player2** counters with **trap set**, the resulting payoff is (31, -31).
+  - And **Player2** counters with **story chant**, the resulting payoff is (55, -55).
+
+- If **Player1** selects **water carry**:
+  - And **Player2** counters with **puzzle stone**, the resulting payoff is (29, -29).
+  - And **Player2** counters with **stealth watch**, the resulting payoff is (-96, 96).
+  - And **Player2** counters with **trap set**, the resulting payoff is (18, -18).
+  - And **Player2** counters with **story chant**, the resulting payoff is (-72, 72).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

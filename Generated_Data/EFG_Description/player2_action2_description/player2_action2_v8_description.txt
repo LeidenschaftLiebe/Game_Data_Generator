@@ -1,28 +1,99 @@
-Story 1: A Viral Meme Contest
-During this dramatic face-off, Player1 must decide between A1: cat template and A2: niche inside joke, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: perfect caption or B2: absurd remix, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a viral meme contest mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Game Description 1: A Viral Meme Contest
 
-Story 2: A Political Press Briefing
-In the heat of the game, Player1 must decide between A1: controlled messaging and A2: passionate outburst, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: fact check retort or B2: viral soundbite, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a political press briefing mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Under the bright lights of a viral meme contest, every decision shapes the future.
 
-Story 3: A Youth Robotics Contest
-As anticipation builds, Player1 must decide between A1: mechanical arm and A2: sensor bot, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: obstacle nav or B2: remote override, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a youth robotics contest mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+**Player1** stands ready to unleash either:
+- A masterful **cat template**, or
+- A daring **niche inside joke**.
 
-Story 4: A High School Debate
-In this high-stakes match, Player1 must decide between A1: social justice appeal and A2: economic focus, each reflecting a different tactical approach.
-On the other side, Player2 prepares to react with either B1: stats dump or B2: moral argument, knowing that their choice will intersect with Player1’s to determine the outcome.
-The tension in a high school debate mirrors the uncertainty of game theory itself—each participant hoping to outguess the other.
+Meanwhile, **Player2** prepares their countermove:
+- A nimble **perfect caption**, or
+- A cunning **absurd remix**.
 
-Payoff Matrix (Base values shown as Player1, Player2):
-        B1      B2
-A1  (10, 1)
-A2  (15, 2)
+Every pairing of choices leads to different consequences:
 
-Payoff Adjustment Rule:
-The outcomes are shaped by a base payoff matrix, with adjustments made by subtracting the average of both players' base scores from each individual score. This ensures the result remains zero-sum, making each decision a strategic gamble.
+- If Player1 chooses **cat template**:
+  - And Player2 responds with **perfect caption**, the resulting payoff is (15, -15).
+  - And Player2 responds with **absurd remix**, the resulting payoff is (30, -30).
+
+- If Player1 chooses **niche inside joke**:
+  - And Player2 responds with **perfect caption**, the resulting payoff is (-15, 15).
+  - And Player2 responds with **absurd remix**, the resulting payoff is (0, 0).
+
+The sharpest strategy and the boldest timing will claim victory.
+
+
+Game Description 2: A Political Press Briefing
+
+Under the bright lights of a political press briefing, every decision shapes the future.
+
+**Player1** stands ready to unleash either:
+- A masterful **controlled messaging**, or
+- A daring **passionate outburst**.
+
+Meanwhile, **Player2** prepares their countermove:
+- A nimble **fact check retort**, or
+- A cunning **viral soundbite**.
+
+Every pairing of choices leads to different consequences:
+
+- If Player1 chooses **controlled messaging**:
+  - And Player2 responds with **fact check retort**, the resulting payoff is (15, -15).
+  - And Player2 responds with **viral soundbite**, the resulting payoff is (30, -30).
+
+- If Player1 chooses **passionate outburst**:
+  - And Player2 responds with **fact check retort**, the resulting payoff is (-15, 15).
+  - And Player2 responds with **viral soundbite**, the resulting payoff is (0, 0).
+
+The sharpest strategy and the boldest timing will claim victory.
+
+
+Game Description 3: A Youth Robotics Contest
+
+Under the bright lights of a youth robotics contest, every decision shapes the future.
+
+**Player1** stands ready to unleash either:
+- A masterful **mechanical arm**, or
+- A daring **sensor bot**.
+
+Meanwhile, **Player2** prepares their countermove:
+- A nimble **obstacle nav**, or
+- A cunning **remote override**.
+
+Every pairing of choices leads to different consequences:
+
+- If Player1 chooses **mechanical arm**:
+  - And Player2 responds with **obstacle nav**, the resulting payoff is (15, -15).
+  - And Player2 responds with **remote override**, the resulting payoff is (30, -30).
+
+- If Player1 chooses **sensor bot**:
+  - And Player2 responds with **obstacle nav**, the resulting payoff is (-15, 15).
+  - And Player2 responds with **remote override**, the resulting payoff is (0, 0).
+
+The sharpest strategy and the boldest timing will claim victory.
+
+
+Game Description 4: A High School Debate
+
+Under the bright lights of a high school debate, every decision shapes the future.
+
+**Player1** stands ready to unleash either:
+- A masterful **social justice appeal**, or
+- A daring **economic focus**.
+
+Meanwhile, **Player2** prepares their countermove:
+- A nimble **stats dump**, or
+- A cunning **moral argument**.
+
+Every pairing of choices leads to different consequences:
+
+- If Player1 chooses **social justice appeal**:
+  - And Player2 responds with **stats dump**, the resulting payoff is (15, -15).
+  - And Player2 responds with **moral argument**, the resulting payoff is (30, -30).
+
+- If Player1 chooses **economic focus**:
+  - And Player2 responds with **stats dump**, the resulting payoff is (-15, 15).
+  - And Player2 responds with **moral argument**, the resulting payoff is (0, 0).
+
+The sharpest strategy and the boldest timing will claim victory.
 

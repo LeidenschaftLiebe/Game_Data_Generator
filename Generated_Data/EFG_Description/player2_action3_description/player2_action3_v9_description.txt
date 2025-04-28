@@ -1,40 +1,134 @@
-Story 1: A Weather Balloon Launch
-In a compelling contest set in a weather balloon launch, Player1 faces a trio of decisions: A1: altitude config, A2: gas choice, and A3: timer trigger.
-Across the board, Player2 counters with their own tactical arsenal: B1: burst sensor, B2: wind calc, and B3: photo cam.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+Game Description 1: Weather Balloon Launch
 
-Story 2: A Drone Coding Race
-In a compelling contest set in a drone coding race, Player1 faces a trio of decisions: A1: path find, A2: obstacle avoid, and A3: landing logic.
-Across the board, Player2 counters with their own tactical arsenal: B1: GPS spoof, B2: live stream, and B3: heat map.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+In the midst of weather balloon launch, strategies and instincts collide in a dramatic showdown.
 
-Story 3: A Superhero Training Exam
-In a compelling contest set in a superhero training exam, Player1 faces a trio of decisions: A1: laser beam, A2: invis cloak, and A3: sonic boom.
-Across the board, Player2 counters with their own tactical arsenal: B1: barrier field, B2: mirror dodge, and B3: time slow.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+**Player1** evaluates their possibilities:
+- altitude config
+- gas choice
+- timer trigger
 
-Story 4: A Virtual Museum Sim
-In a compelling contest set in a virtual museum sim, Player1 faces a trio of decisions: A1: gallery flow, A2: audio guide, and A3: avatar dress.
-Across the board, Player2 counters with their own tactical arsenal: B1: kiosk interact, B2: gift shop, and B3: live trivia.
-Each choice carries thematic weight, and the interaction of selections defines the fate of the match.
+At the same time, **Player2** readies their countermoves:
+- burst sensor
+- wind calc
+- photo cam
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=10, A2=-10, A3=10],
-    "Player2": [B1=-10, B2=10, B3=-10]
-}
+As choices are made, the outcomes reveal themselves:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- Should **Player1** choose **altitude config**:
+  - If **Player2** responds with **burst sensor**, the resulting payoff is (15, -15).
+  - If **Player2** responds with **wind calc**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **photo cam**, the resulting payoff is (-12, 12).
 
-Example:
-If Player1 selects A1 (index 0) and Player2 selects B2 (index 1), we get:
-  base_payoffs['Player1'][0] = 10
-  base_payoffs['Player2'][1] = 10
-  Average = (10 + 10) / 2 = 10.0
-  Adjusted Payoffs = [Player1: 0.0, Player2: 0.0]
-This ensures the total payoff always sums to zero.
+- Should **Player1** choose **gas choice**:
+  - If **Player2** responds with **burst sensor**, the resulting payoff is (-17, 17).
+  - If **Player2** responds with **wind calc**, the resulting payoff is (3, -3).
+  - If **Player2** responds with **photo cam**, the resulting payoff is (6, -6).
 
+- Should **Player1** choose **timer trigger**:
+  - If **Player2** responds with **burst sensor**, the resulting payoff is (13, -13).
+  - If **Player2** responds with **wind calc**, the resulting payoff is (17, -17).
+  - If **Player2** responds with **photo cam**, the resulting payoff is (20, -20).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 2: Drone Coding Race
+
+In the midst of drone coding race, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- path find
+- obstacle avoid
+- landing logic
+
+At the same time, **Player2** readies their countermoves:
+- GPS spoof
+- live stream
+- heat map
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **path find**:
+  - If **Player2** responds with **GPS spoof**, the resulting payoff is (15, -15).
+  - If **Player2** responds with **live stream**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **heat map**, the resulting payoff is (-12, 12).
+
+- Should **Player1** choose **obstacle avoid**:
+  - If **Player2** responds with **GPS spoof**, the resulting payoff is (-17, 17).
+  - If **Player2** responds with **live stream**, the resulting payoff is (3, -3).
+  - If **Player2** responds with **heat map**, the resulting payoff is (6, -6).
+
+- Should **Player1** choose **landing logic**:
+  - If **Player2** responds with **GPS spoof**, the resulting payoff is (13, -13).
+  - If **Player2** responds with **live stream**, the resulting payoff is (17, -17).
+  - If **Player2** responds with **heat map**, the resulting payoff is (20, -20).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 3: Superhero Training Exam
+
+In the midst of superhero training exam, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- laser beam
+- invis cloak
+- sonic boom
+
+At the same time, **Player2** readies their countermoves:
+- barrier field
+- mirror dodge
+- time slow
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **laser beam**:
+  - If **Player2** responds with **barrier field**, the resulting payoff is (15, -15).
+  - If **Player2** responds with **mirror dodge**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **time slow**, the resulting payoff is (-12, 12).
+
+- Should **Player1** choose **invis cloak**:
+  - If **Player2** responds with **barrier field**, the resulting payoff is (-17, 17).
+  - If **Player2** responds with **mirror dodge**, the resulting payoff is (3, -3).
+  - If **Player2** responds with **time slow**, the resulting payoff is (6, -6).
+
+- Should **Player1** choose **sonic boom**:
+  - If **Player2** responds with **barrier field**, the resulting payoff is (13, -13).
+  - If **Player2** responds with **mirror dodge**, the resulting payoff is (17, -17).
+  - If **Player2** responds with **time slow**, the resulting payoff is (20, -20).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 4: Virtual Museum Sim
+
+In the midst of virtual museum sim, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- gallery flow
+- audio guide
+- avatar dress
+
+At the same time, **Player2** readies their countermoves:
+- kiosk interact
+- gift shop
+- live trivia
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **gallery flow**:
+  - If **Player2** responds with **kiosk interact**, the resulting payoff is (15, -15).
+  - If **Player2** responds with **gift shop**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **live trivia**, the resulting payoff is (-12, 12).
+
+- Should **Player1** choose **audio guide**:
+  - If **Player2** responds with **kiosk interact**, the resulting payoff is (-17, 17).
+  - If **Player2** responds with **gift shop**, the resulting payoff is (3, -3).
+  - If **Player2** responds with **live trivia**, the resulting payoff is (6, -6).
+
+- Should **Player1** choose **avatar dress**:
+  - If **Player2** responds with **kiosk interact**, the resulting payoff is (13, -13).
+  - If **Player2** responds with **gift shop**, the resulting payoff is (17, -17).
+  - If **Player2** responds with **live trivia**, the resulting payoff is (20, -20).
+
+In this contest, adaptability and foresight shape the path to victory.

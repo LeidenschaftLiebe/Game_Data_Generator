@@ -1,83 +1,232 @@
-Story 1: A Billionaire Race To Space
-In this unique scenario, the conflict unfolds in the context of a billionaire race to space.
-Player1 selects from:
-  A1: rocket redesign,
-  A2: branding stunt,
-  A3: NFT orbit drop,
-  A4: crew celeb leak,
-  A5: launch countdown flip.
-Player2 counters with:
-  B1: wind cancel,
-  B2: oxygen tank fail,
-  B3: stream delay,
-  B4: troll protest,
-  B5: engine rumor.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+Game Description 1: Billionaire Race To Space
 
-Story 2: A Steampunk Invention Fair
-In this unique scenario, the conflict unfolds in the context of a steampunk invention fair.
-Player1 selects from:
-  A1: gear-powered drone,
-  A2: tea-based engine,
-  A3: monocle projector,
-  A4: hat turbine,
-  A5: steam walker.
-Player2 counters with:
-  B1: sabotage soot,
-  B2: vote trick,
-  B3: whistle leak,
-  B4: sabotage vial,
-  B5: gear lock.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+In the heart of billionaire race to space, critical choices carve the path to triumph.
 
-Story 3: A Coral Reef Protection Rally
-In this unique scenario, the conflict unfolds in the context of a coral reef protection rally.
-Player1 selects from:
-  A1: reef drone scan,
-  A2: underwater mural,
-  A3: coral cloning,
-  A4: plastic scoop net,
-  A5: fish lullaby sonar.
-Player2 counters with:
-  B1: oil spill scare,
-  B2: media spin,
-  B3: policy block,
-  B4: fish noise disrupt,
-  B5: beach riot.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+**Player1** evaluates the following strategies:
+- rocket redesign
+- branding stunt
+- NFT orbit drop
+- crew celeb leak
+- launch countdown flip
 
-Story 4: A Sky Castle Tournament
-In this unique scenario, the conflict unfolds in the context of a sky castle tournament.
-Player1 selects from:
-  A1: griffin dash,
-  A2: cloud bridge,
-  A3: wind sword,
-  A4: featherfall dive,
-  A5: gold flag snatch.
-Player2 counters with:
-  B1: storm summon,
-  B2: magic blink,
-  B3: barrier loop,
-  B4: wind prison,
-  B5: altitude flip.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+Meanwhile, **Player2** plots their countermoves:
+- wind cancel
+- oxygen tank fail
+- stream delay
+- troll protest
+- engine rumor
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=10, A2=-10, A3=10, A4=-10, A5=10],
-    "Player2": [B1=-10, B2=10, B3=-10, B4=10, B5=-10]
-}
+When both players commit to their choices, these outcomes unfold:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- If **Player1** selects **rocket redesign**:
+  - And **Player2** counters with **wind cancel**, the resulting payoff is (96, -96).
+  - And **Player2** counters with **oxygen tank fail**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **stream delay**, the resulting payoff is (46, -46).
+  - And **Player2** counters with **troll protest**, the resulting payoff is (-76, 76).
+  - And **Player2** counters with **engine rumor**, the resulting payoff is (64, -64).
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
-  Player1: -10, Player2: 10
-  Average = (-10 + 10) / 2 = 0.0
-  Adjusted Payoffs = [Player1: -10.0, Player2: 10.0]
-This ensures the total payoff remains zero-sum.
+- If **Player1** selects **branding stunt**:
+  - And **Player2** counters with **wind cancel**, the resulting payoff is (-36, 36).
+  - And **Player2** counters with **oxygen tank fail**, the resulting payoff is (45, -45).
+  - And **Player2** counters with **stream delay**, the resulting payoff is (-87, 87).
+  - And **Player2** counters with **troll protest**, the resulting payoff is (-42, 42).
+  - And **Player2** counters with **engine rumor**, the resulting payoff is (-52, 52).
+
+- If **Player1** selects **NFT orbit drop**:
+  - And **Player2** counters with **wind cancel**, the resulting payoff is (23, -23).
+  - And **Player2** counters with **oxygen tank fail**, the resulting payoff is (65, -65).
+  - And **Player2** counters with **stream delay**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **troll protest**, the resulting payoff is (73, -73).
+  - And **Player2** counters with **engine rumor**, the resulting payoff is (91, -91).
+
+- If **Player1** selects **crew celeb leak**:
+  - And **Player2** counters with **wind cancel**, the resulting payoff is (-33, 33).
+  - And **Player2** counters with **oxygen tank fail**, the resulting payoff is (-19, 19).
+  - And **Player2** counters with **stream delay**, the resulting payoff is (36, -36).
+  - And **Player2** counters with **troll protest**, the resulting payoff is (79, -79).
+  - And **Player2** counters with **engine rumor**, the resulting payoff is (-62, 62).
+
+- If **Player1** selects **launch countdown flip**:
+  - And **Player2** counters with **wind cancel**, the resulting payoff is (25, -25).
+  - And **Player2** counters with **oxygen tank fail**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **stream delay**, the resulting payoff is (-67, 67).
+  - And **Player2** counters with **troll protest**, the resulting payoff is (-80, 80).
+  - And **Player2** counters with **engine rumor**, the resulting payoff is (89, -89).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Steampunk Invention Fair
+
+In the heart of steampunk invention fair, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- gear-powered drone
+- tea-based engine
+- monocle projector
+- hat turbine
+- steam walker
+
+Meanwhile, **Player2** plots their countermoves:
+- sabotage soot
+- vote trick
+- whistle leak
+- sabotage vial
+- gear lock
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **gear-powered drone**:
+  - And **Player2** counters with **sabotage soot**, the resulting payoff is (96, -96).
+  - And **Player2** counters with **vote trick**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **whistle leak**, the resulting payoff is (46, -46).
+  - And **Player2** counters with **sabotage vial**, the resulting payoff is (-76, 76).
+  - And **Player2** counters with **gear lock**, the resulting payoff is (64, -64).
+
+- If **Player1** selects **tea-based engine**:
+  - And **Player2** counters with **sabotage soot**, the resulting payoff is (-36, 36).
+  - And **Player2** counters with **vote trick**, the resulting payoff is (45, -45).
+  - And **Player2** counters with **whistle leak**, the resulting payoff is (-87, 87).
+  - And **Player2** counters with **sabotage vial**, the resulting payoff is (-42, 42).
+  - And **Player2** counters with **gear lock**, the resulting payoff is (-52, 52).
+
+- If **Player1** selects **monocle projector**:
+  - And **Player2** counters with **sabotage soot**, the resulting payoff is (23, -23).
+  - And **Player2** counters with **vote trick**, the resulting payoff is (65, -65).
+  - And **Player2** counters with **whistle leak**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **sabotage vial**, the resulting payoff is (73, -73).
+  - And **Player2** counters with **gear lock**, the resulting payoff is (91, -91).
+
+- If **Player1** selects **hat turbine**:
+  - And **Player2** counters with **sabotage soot**, the resulting payoff is (-33, 33).
+  - And **Player2** counters with **vote trick**, the resulting payoff is (-19, 19).
+  - And **Player2** counters with **whistle leak**, the resulting payoff is (36, -36).
+  - And **Player2** counters with **sabotage vial**, the resulting payoff is (79, -79).
+  - And **Player2** counters with **gear lock**, the resulting payoff is (-62, 62).
+
+- If **Player1** selects **steam walker**:
+  - And **Player2** counters with **sabotage soot**, the resulting payoff is (25, -25).
+  - And **Player2** counters with **vote trick**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **whistle leak**, the resulting payoff is (-67, 67).
+  - And **Player2** counters with **sabotage vial**, the resulting payoff is (-80, 80).
+  - And **Player2** counters with **gear lock**, the resulting payoff is (89, -89).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Coral Reef Protection Rally
+
+In the heart of coral reef protection rally, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- reef drone scan
+- underwater mural
+- coral cloning
+- plastic scoop net
+- fish lullaby sonar
+
+Meanwhile, **Player2** plots their countermoves:
+- oil spill scare
+- media spin
+- policy block
+- fish noise disrupt
+- beach riot
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **reef drone scan**:
+  - And **Player2** counters with **oil spill scare**, the resulting payoff is (96, -96).
+  - And **Player2** counters with **media spin**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **policy block**, the resulting payoff is (46, -46).
+  - And **Player2** counters with **fish noise disrupt**, the resulting payoff is (-76, 76).
+  - And **Player2** counters with **beach riot**, the resulting payoff is (64, -64).
+
+- If **Player1** selects **underwater mural**:
+  - And **Player2** counters with **oil spill scare**, the resulting payoff is (-36, 36).
+  - And **Player2** counters with **media spin**, the resulting payoff is (45, -45).
+  - And **Player2** counters with **policy block**, the resulting payoff is (-87, 87).
+  - And **Player2** counters with **fish noise disrupt**, the resulting payoff is (-42, 42).
+  - And **Player2** counters with **beach riot**, the resulting payoff is (-52, 52).
+
+- If **Player1** selects **coral cloning**:
+  - And **Player2** counters with **oil spill scare**, the resulting payoff is (23, -23).
+  - And **Player2** counters with **media spin**, the resulting payoff is (65, -65).
+  - And **Player2** counters with **policy block**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **fish noise disrupt**, the resulting payoff is (73, -73).
+  - And **Player2** counters with **beach riot**, the resulting payoff is (91, -91).
+
+- If **Player1** selects **plastic scoop net**:
+  - And **Player2** counters with **oil spill scare**, the resulting payoff is (-33, 33).
+  - And **Player2** counters with **media spin**, the resulting payoff is (-19, 19).
+  - And **Player2** counters with **policy block**, the resulting payoff is (36, -36).
+  - And **Player2** counters with **fish noise disrupt**, the resulting payoff is (79, -79).
+  - And **Player2** counters with **beach riot**, the resulting payoff is (-62, 62).
+
+- If **Player1** selects **fish lullaby sonar**:
+  - And **Player2** counters with **oil spill scare**, the resulting payoff is (25, -25).
+  - And **Player2** counters with **media spin**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **policy block**, the resulting payoff is (-67, 67).
+  - And **Player2** counters with **fish noise disrupt**, the resulting payoff is (-80, 80).
+  - And **Player2** counters with **beach riot**, the resulting payoff is (89, -89).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Sky Castle Tournament
+
+In the heart of sky castle tournament, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- griffin dash
+- cloud bridge
+- wind sword
+- featherfall dive
+- gold flag snatch
+
+Meanwhile, **Player2** plots their countermoves:
+- storm summon
+- magic blink
+- barrier loop
+- wind prison
+- altitude flip
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **griffin dash**:
+  - And **Player2** counters with **storm summon**, the resulting payoff is (96, -96).
+  - And **Player2** counters with **magic blink**, the resulting payoff is (61, -61).
+  - And **Player2** counters with **barrier loop**, the resulting payoff is (46, -46).
+  - And **Player2** counters with **wind prison**, the resulting payoff is (-76, 76).
+  - And **Player2** counters with **altitude flip**, the resulting payoff is (64, -64).
+
+- If **Player1** selects **cloud bridge**:
+  - And **Player2** counters with **storm summon**, the resulting payoff is (-36, 36).
+  - And **Player2** counters with **magic blink**, the resulting payoff is (45, -45).
+  - And **Player2** counters with **barrier loop**, the resulting payoff is (-87, 87).
+  - And **Player2** counters with **wind prison**, the resulting payoff is (-42, 42).
+  - And **Player2** counters with **altitude flip**, the resulting payoff is (-52, 52).
+
+- If **Player1** selects **wind sword**:
+  - And **Player2** counters with **storm summon**, the resulting payoff is (23, -23).
+  - And **Player2** counters with **magic blink**, the resulting payoff is (65, -65).
+  - And **Player2** counters with **barrier loop**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **wind prison**, the resulting payoff is (73, -73).
+  - And **Player2** counters with **altitude flip**, the resulting payoff is (91, -91).
+
+- If **Player1** selects **featherfall dive**:
+  - And **Player2** counters with **storm summon**, the resulting payoff is (-33, 33).
+  - And **Player2** counters with **magic blink**, the resulting payoff is (-19, 19).
+  - And **Player2** counters with **barrier loop**, the resulting payoff is (36, -36).
+  - And **Player2** counters with **wind prison**, the resulting payoff is (79, -79).
+  - And **Player2** counters with **altitude flip**, the resulting payoff is (-62, 62).
+
+- If **Player1** selects **gold flag snatch**:
+  - And **Player2** counters with **storm summon**, the resulting payoff is (25, -25).
+  - And **Player2** counters with **magic blink**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **barrier loop**, the resulting payoff is (-67, 67).
+  - And **Player2** counters with **wind prison**, the resulting payoff is (-80, 80).
+  - And **Player2** counters with **altitude flip**, the resulting payoff is (89, -89).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

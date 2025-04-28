@@ -1,83 +1,232 @@
-Story 1: A Comic-Con Cosplay Deathmatch
-In this unique scenario, the conflict unfolds in the context of a comic-con cosplay deathmatch.
-Player1 selects from:
-  A1: LED wings,
-  A2: mechanical tail,
-  A3: 3D printed armor,
-  A4: foam weaponry,
-  A5: live voice mod.
-Player2 counters with:
-  B1: prop malfunction,
-  B2: fan vote boost,
-  B3: viral walk,
-  B4: meme attack,
-  B5: character quiz.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+Game Description 1: Comic-Con Cosplay Deathmatch
 
-Story 2: A Haunted Amusement Park Puzzle
-In this unique scenario, the conflict unfolds in the context of a haunted amusement park puzzle.
-Player1 selects from:
-  A1: haunted house logic,
-  A2: funhouse mirror cipher,
-  A3: ghost carousel clue,
-  A4: Ferris code wheel,
-  A5: ride scream pitch.
-Player2 counters with:
-  B1: fog blinder,
-  B2: scare skip,
-  B3: timer reverse,
-  B4: spooky voice hint,
-  B5: illusion loop.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+In the heart of comic-con cosplay deathmatch, critical choices carve the path to triumph.
 
-Story 3: A Renaissance Fair Duel
-In this unique scenario, the conflict unfolds in the context of a renaissance fair duel.
-Player1 selects from:
-  A1: saber parry,
-  A2: bow and chant,
-  A3: armored tackle,
-  A4: courtly insult,
-  A5: bear bait distraction.
-Player2 counters with:
-  B1: trumpet blast,
-  B2: crowd boo,
-  B3: jester trick,
-  B4: chicken escape,
-  B5: tent collapse.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+**Player1** evaluates the following strategies:
+- LED wings
+- mechanical tail
+- 3D printed armor
+- foam weaponry
+- live voice mod
 
-Story 4: A Surreal Dream Escape Room
-In this unique scenario, the conflict unfolds in the context of a surreal dream escape room.
-Player1 selects from:
-  A1: whisper password,
-  A2: walk backward,
-  A3: sing memory tune,
-  A4: mirror stare,
-  A5: fall up.
-Player2 counters with:
-  B1: clock run,
-  B2: maze echo,
-  B3: firefly code,
-  B4: infinite hallway,
-  B5: paradox loop.
-The outcome depends on how these choices intersect, adjusted by zero-sum rules.
+Meanwhile, **Player2** plots their countermoves:
+- prop malfunction
+- fan vote boost
+- viral walk
+- meme attack
+- character quiz
 
-Base Payoff Definitions:
-base_payoffs = {
-    "Player1": [A1=4, A2=-2, A3=3, A4=-1, A5=5],
-    "Player2": [B1=-3, B2=6, B3=-4, B4=2, B5=-5]
-}
+When both players commit to their choices, these outcomes unfold:
 
-Adjusted Payoff Calculation:
-def adjusted_payoffs(i, j):
-    raw = [base_payoffs['Player1'][i], base_payoffs['Player2'][j]]
-    avg = sum(raw) / 2
-    return [round(p - avg, 2) for p in raw]
+- If **Player1** selects **LED wings**:
+  - And **Player2** counters with **prop malfunction**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **fan vote boost**, the resulting payoff is (5, -5).
+  - And **Player2** counters with **viral walk**, the resulting payoff is (81, -81).
+  - And **Player2** counters with **meme attack**, the resulting payoff is (-61, 61).
+  - And **Player2** counters with **character quiz**, the resulting payoff is (-30, 30).
 
-Example:
-If Player1 selects A2 (index 1) and Player2 selects B4 (index 3):
-  Player1: -2, Player2: 2
-  Average = (-2 + 2) / 2 = 0.0
-  Adjusted Payoffs = [Player1: -2.0, Player2: 2.0]
-This ensures the total payoff remains zero-sum.
+- If **Player1** selects **mechanical tail**:
+  - And **Player2** counters with **prop malfunction**, the resulting payoff is (-73, 73).
+  - And **Player2** counters with **fan vote boost**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **viral walk**, the resulting payoff is (-96, 96).
+  - And **Player2** counters with **meme attack**, the resulting payoff is (15, -15).
+  - And **Player2** counters with **character quiz**, the resulting payoff is (24, -24).
+
+- If **Player1** selects **3D printed armor**:
+  - And **Player2** counters with **prop malfunction**, the resulting payoff is (-51, 51).
+  - And **Player2** counters with **fan vote boost**, the resulting payoff is (97, -97).
+  - And **Player2** counters with **viral walk**, the resulting payoff is (40, -40).
+  - And **Player2** counters with **meme attack**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **character quiz**, the resulting payoff is (83, -83).
+
+- If **Player1** selects **foam weaponry**:
+  - And **Player2** counters with **prop malfunction**, the resulting payoff is (73, -73).
+  - And **Player2** counters with **fan vote boost**, the resulting payoff is (43, -43).
+  - And **Player2** counters with **viral walk**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **meme attack**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **character quiz**, the resulting payoff is (-28, 28).
+
+- If **Player1** selects **live voice mod**:
+  - And **Player2** counters with **prop malfunction**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **fan vote boost**, the resulting payoff is (-92, 92).
+  - And **Player2** counters with **viral walk**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **meme attack**, the resulting payoff is (-59, 59).
+  - And **Player2** counters with **character quiz**, the resulting payoff is (-68, 68).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Haunted Amusement Park Puzzle
+
+In the heart of haunted amusement park puzzle, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- haunted house logic
+- funhouse mirror cipher
+- ghost carousel clue
+- Ferris code wheel
+- ride scream pitch
+
+Meanwhile, **Player2** plots their countermoves:
+- fog blinder
+- scare skip
+- timer reverse
+- spooky voice hint
+- illusion loop
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **haunted house logic**:
+  - And **Player2** counters with **fog blinder**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **scare skip**, the resulting payoff is (5, -5).
+  - And **Player2** counters with **timer reverse**, the resulting payoff is (81, -81).
+  - And **Player2** counters with **spooky voice hint**, the resulting payoff is (-61, 61).
+  - And **Player2** counters with **illusion loop**, the resulting payoff is (-30, 30).
+
+- If **Player1** selects **funhouse mirror cipher**:
+  - And **Player2** counters with **fog blinder**, the resulting payoff is (-73, 73).
+  - And **Player2** counters with **scare skip**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **timer reverse**, the resulting payoff is (-96, 96).
+  - And **Player2** counters with **spooky voice hint**, the resulting payoff is (15, -15).
+  - And **Player2** counters with **illusion loop**, the resulting payoff is (24, -24).
+
+- If **Player1** selects **ghost carousel clue**:
+  - And **Player2** counters with **fog blinder**, the resulting payoff is (-51, 51).
+  - And **Player2** counters with **scare skip**, the resulting payoff is (97, -97).
+  - And **Player2** counters with **timer reverse**, the resulting payoff is (40, -40).
+  - And **Player2** counters with **spooky voice hint**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **illusion loop**, the resulting payoff is (83, -83).
+
+- If **Player1** selects **Ferris code wheel**:
+  - And **Player2** counters with **fog blinder**, the resulting payoff is (73, -73).
+  - And **Player2** counters with **scare skip**, the resulting payoff is (43, -43).
+  - And **Player2** counters with **timer reverse**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **spooky voice hint**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **illusion loop**, the resulting payoff is (-28, 28).
+
+- If **Player1** selects **ride scream pitch**:
+  - And **Player2** counters with **fog blinder**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **scare skip**, the resulting payoff is (-92, 92).
+  - And **Player2** counters with **timer reverse**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **spooky voice hint**, the resulting payoff is (-59, 59).
+  - And **Player2** counters with **illusion loop**, the resulting payoff is (-68, 68).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Renaissance Fair Duel
+
+In the heart of renaissance fair duel, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- saber parry
+- bow and chant
+- armored tackle
+- courtly insult
+- bear bait distraction
+
+Meanwhile, **Player2** plots their countermoves:
+- trumpet blast
+- crowd boo
+- jester trick
+- chicken escape
+- tent collapse
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **saber parry**:
+  - And **Player2** counters with **trumpet blast**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **crowd boo**, the resulting payoff is (5, -5).
+  - And **Player2** counters with **jester trick**, the resulting payoff is (81, -81).
+  - And **Player2** counters with **chicken escape**, the resulting payoff is (-61, 61).
+  - And **Player2** counters with **tent collapse**, the resulting payoff is (-30, 30).
+
+- If **Player1** selects **bow and chant**:
+  - And **Player2** counters with **trumpet blast**, the resulting payoff is (-73, 73).
+  - And **Player2** counters with **crowd boo**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **jester trick**, the resulting payoff is (-96, 96).
+  - And **Player2** counters with **chicken escape**, the resulting payoff is (15, -15).
+  - And **Player2** counters with **tent collapse**, the resulting payoff is (24, -24).
+
+- If **Player1** selects **armored tackle**:
+  - And **Player2** counters with **trumpet blast**, the resulting payoff is (-51, 51).
+  - And **Player2** counters with **crowd boo**, the resulting payoff is (97, -97).
+  - And **Player2** counters with **jester trick**, the resulting payoff is (40, -40).
+  - And **Player2** counters with **chicken escape**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **tent collapse**, the resulting payoff is (83, -83).
+
+- If **Player1** selects **courtly insult**:
+  - And **Player2** counters with **trumpet blast**, the resulting payoff is (73, -73).
+  - And **Player2** counters with **crowd boo**, the resulting payoff is (43, -43).
+  - And **Player2** counters with **jester trick**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **chicken escape**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **tent collapse**, the resulting payoff is (-28, 28).
+
+- If **Player1** selects **bear bait distraction**:
+  - And **Player2** counters with **trumpet blast**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **crowd boo**, the resulting payoff is (-92, 92).
+  - And **Player2** counters with **jester trick**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **chicken escape**, the resulting payoff is (-59, 59).
+  - And **Player2** counters with **tent collapse**, the resulting payoff is (-68, 68).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Surreal Dream Escape Room
+
+In the heart of surreal dream escape room, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- whisper password
+- walk backward
+- sing memory tune
+- mirror stare
+- fall up
+
+Meanwhile, **Player2** plots their countermoves:
+- clock run
+- maze echo
+- firefly code
+- infinite hallway
+- paradox loop
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **whisper password**:
+  - And **Player2** counters with **clock run**, the resulting payoff is (53, -53).
+  - And **Player2** counters with **maze echo**, the resulting payoff is (5, -5).
+  - And **Player2** counters with **firefly code**, the resulting payoff is (81, -81).
+  - And **Player2** counters with **infinite hallway**, the resulting payoff is (-61, 61).
+  - And **Player2** counters with **paradox loop**, the resulting payoff is (-30, 30).
+
+- If **Player1** selects **walk backward**:
+  - And **Player2** counters with **clock run**, the resulting payoff is (-73, 73).
+  - And **Player2** counters with **maze echo**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **firefly code**, the resulting payoff is (-96, 96).
+  - And **Player2** counters with **infinite hallway**, the resulting payoff is (15, -15).
+  - And **Player2** counters with **paradox loop**, the resulting payoff is (24, -24).
+
+- If **Player1** selects **sing memory tune**:
+  - And **Player2** counters with **clock run**, the resulting payoff is (-51, 51).
+  - And **Player2** counters with **maze echo**, the resulting payoff is (97, -97).
+  - And **Player2** counters with **firefly code**, the resulting payoff is (40, -40).
+  - And **Player2** counters with **infinite hallway**, the resulting payoff is (49, -49).
+  - And **Player2** counters with **paradox loop**, the resulting payoff is (83, -83).
+
+- If **Player1** selects **mirror stare**:
+  - And **Player2** counters with **clock run**, the resulting payoff is (73, -73).
+  - And **Player2** counters with **maze echo**, the resulting payoff is (43, -43).
+  - And **Player2** counters with **firefly code**, the resulting payoff is (-90, 90).
+  - And **Player2** counters with **infinite hallway**, the resulting payoff is (-35, 35).
+  - And **Player2** counters with **paradox loop**, the resulting payoff is (-28, 28).
+
+- If **Player1** selects **fall up**:
+  - And **Player2** counters with **clock run**, the resulting payoff is (13, -13).
+  - And **Player2** counters with **maze echo**, the resulting payoff is (-92, 92).
+  - And **Player2** counters with **firefly code**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **infinite hallway**, the resulting payoff is (-59, 59).
+  - And **Player2** counters with **paradox loop**, the resulting payoff is (-68, 68).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
 

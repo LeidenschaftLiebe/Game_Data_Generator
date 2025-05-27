@@ -2,21 +2,21 @@ import os
 import time
 import json
 from pathlib import Path
-import pygambit as gbt  # use pygambit directly
+import pygambit.gambit as gbt  # use pygambit directly
 
 class EFGValidator:
     def __init__(self):
         # Config path and default root
-        self.config_path = Path(r"D:\Research Game Data Generator\Validation Report\validator_config.json")
+        self.config_path = Path(r"/Users/thomas/Research Paper/Game_Data_Generator/Validation_Report/validator_config.json")
         self._create_config()
         self.results = {}
 
     def _create_config(self):
         """Create or overwrite the config file each time"""
         default_config = {
-            "scan_root": r"D:\Research Game Data Generator\Generated_Data\EFG",
+            "scan_root": r"/Users/thomas/Research Paper/Game_Data_Generator/Generated_Data/EFG",
             "file_patterns": ["*.efg"],
-            "report_path": r"D:\Research Game Data Generator\Validation Report\validation_report.json"
+            "report_path": r"/Users/thomas/Research Paper/Game_Data_Generator/Validation_Report/validation_report.json"
         }
         with open(self.config_path, "w", encoding="utf-8") as f:
             json.dump(default_config, f, indent=2)
@@ -43,6 +43,8 @@ class EFGValidator:
 
         self._save_report(config["report_path"], start_time)
         print(f"\n✅ Validation complete. Report saved to: {config['report_path']}")
+        print(f"✅ Summary: {sum(1 for r in self.results.values() if r['valid'])}/{len(self.results)} valid")
+        print(f"✅ Summary: {len(self.results) - sum(1 for r in self.results.values() if r['valid'])} invalid")
 
     def _validate(self, file_path):
         result = {
@@ -51,7 +53,7 @@ class EFGValidator:
             "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
         }
         try:
-            gbt.Game.read_game(str(file_path))  # Validate file
+            gbt.read_efg(str(file_path))  # Validate file
             result["valid"] = True
         except IOError as e:
             result["error"] = f"File read error: {str(e)}"

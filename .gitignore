@@ -17,3 +17,6 @@ QUESTIONS.txt
 Validation_Report/*
 !Validation_Report/validation3.py
 !Validation_Report/validation_report.json
+
+# Ignore system files. 
+.DS_STORE

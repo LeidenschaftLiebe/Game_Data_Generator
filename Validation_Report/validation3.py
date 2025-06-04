@@ -7,16 +7,16 @@ import pygambit.gambit as gbt  # use pygambit directly
 class EFGValidator:
     def __init__(self):
         # Config path and default root
-        self.config_path = Path(r"/Users/thomas/Research Paper/Game_Data_Generator/Validation_Report/validator_config.json")
+        self.config_path = Path(__file__).parent / "validator_config.json"
         self._create_config()
         self.results = {}
 
     def _create_config(self):
         """Create or overwrite the config file each time"""
         default_config = {
-            "scan_root": r"/Users/thomas/Research Paper/Game_Data_Generator/Generated_Data/EFG",
+            "scan_root": str((Path(__file__).parent / "../Generated_Data/EFG").resolve()),
             "file_patterns": ["*.efg"],
-            "report_path": r"/Users/thomas/Research Paper/Game_Data_Generator/Validation_Report/validation_report.json"
+            "report_path": str((Path(__file__).parent / "validation_report.json").resolve())
         }
         with open(self.config_path, "w", encoding="utf-8") as f:
             json.dump(default_config, f, indent=2)

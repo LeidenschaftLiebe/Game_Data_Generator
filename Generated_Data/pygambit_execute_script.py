@@ -3,8 +3,8 @@ import importlib.util
 
 # -------- CONFIGURATION --------
 # Top-level source and destination root folders
-source_root = r"D:\Research Game Data Generator\Generated_Data\pygambit_src"
-dest_root = r"D:\Research Game Data Generator\Generated_Data\EFG"
+source_root = os.path.join(os.path.dirname(__file__), "pygambit_src")
+dest_root = os.path.join(os.path.dirname(__file__), "EFG")
 # --------------------------------
 
 # Scan all immediate subdirectories under source_root

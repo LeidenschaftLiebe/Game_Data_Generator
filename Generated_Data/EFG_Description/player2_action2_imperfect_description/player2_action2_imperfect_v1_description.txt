@@ -1,0 +1,53 @@
+Description 1 Spy Scenario:
+
+A spy chooses between two covert missions: infiltrating an enemy base or stealing intelligence files. 
+A military commander then responds by either deploying troops to Sector Alpha or setting up a surveillance network. 
+The commander does not know which mission was selected, since both response points fall within a single information set.
+
+If the spy infiltrates and the commander deploys troops, the spy gains 2 and the commander loses 2. 
+However, if surveillance is chosen instead, the spy loses 1 and the commander gains 1. 
+
+If the spy steals files and troops are deployed, both receive 0. 
+On the other hand, if surveillance is used instead, the spy gains 3 and the commander loses 3.
+
+---
+
+Description 2 Business Rivalry:
+
+A startup CEO decides between two strategic moves: launching a new product or acquiring a competitor's patent. 
+A rival firm’s executive must react by either investing heavily in marketing or shifting focus to legal defense. 
+The rival executive cannot see which strategy the startup chose, making both decision points part of the same information set.
+
+If the startup launches and the rival invests in marketing, the startup gains 2 and the rival loses 2. 
+However, if the rival shifts to legal defense, the startup loses 1 and the rival gains 1. 
+
+If the startup pursues the patent and the rival invests in marketing, the outcome is neutral. 
+But if the rival uses legal defense, the startup gains 3 and the rival loses 3.
+
+---
+
+Description 3 Election Strategy:
+
+A candidate selects one of two campaign strategies: focusing on rural outreach or urban digital media. 
+The opponent’s campaign manager must respond by reallocating resources to traditional canvassing or data-driven analytics. 
+The opponent does not know which strategy was chosen, as both reaction points are under one information set.
+
+If the candidate focuses on rural areas and the opponent uses canvassing, the candidate gains 2 and the opponent loses 2. 
+However, if analytics are used instead, the candidate loses 1 and the opponent gains 1. 
+
+If the candidate chooses digital media and the opponent canvasses, both sides break even. 
+On the other hand, if analytics are used instead, the candidate gains 3 and the opponent loses 3.
+
+---
+
+Description 4 Game Show Bluff:
+
+A contestant secretly selects between opening Door A or Door B. 
+The host must then decide to either add a cash bonus behind one door or introduce a penalty twist behind the other. 
+The host does not know which door the contestant chose, and both host decision points belong to the same information set.
+
+If the contestant picks Door A and the host adds a bonus, the contestant wins 2 and the host loses 2. 
+While if the host introduces a twist, the contestant loses 1 and the host gains 1. 
+
+If Door B is chosen and a bonus is added, the result is neutral. 
+On the other hand, if a twist is added instead, the contestant gains 3 and the host loses 3.

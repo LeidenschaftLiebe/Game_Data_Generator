@@ -14,7 +14,8 @@ class EFGValidator:
     def _create_config(self):
         """Create or overwrite the config file each time"""
         default_config = {
-            "scan_root": str((Path(__file__).parent / "../Generated_Data/EFG").resolve()),
+            #"scan_root": str((Path(__file__).parent / "../Generated_Data/EFG").resolve()),
+            "scan_root": str((Path(__file__).parent / "..").resolve()),
             "file_patterns": ["*.efg"],
             "report_path": str((Path(__file__).parent / "validation_report.json").resolve())
         }

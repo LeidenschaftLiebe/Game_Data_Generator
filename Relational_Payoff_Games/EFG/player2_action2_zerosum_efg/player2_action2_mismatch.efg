@@ -1,0 +1,10 @@
+EFG 2 R "V: mismatch wins for Player2" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "A1" "A2" } 0
+p "" 2 1 "" { "B1" "B2" } 0
+t "" 1 "Outcome_mismatch_00" { -0.0, 0.0 }
+t "" 2 "Outcome_mismatch_01" { -2.0, 2.0 }
+p "" 2 2 "" { "B1" "B2" } 0
+t "" 3 "Outcome_mismatch_10" { -2.0, 2.0 }
+t "" 4 "Outcome_mismatch_11" { -0.0, 0.0 }

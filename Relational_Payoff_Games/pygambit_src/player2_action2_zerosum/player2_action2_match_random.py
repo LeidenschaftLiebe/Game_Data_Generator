@@ -6,17 +6,18 @@ players = ["Player1", "Player2"]
 p1_actions = ["Action1", "Action2"]
 p2_actions = ["Action1", "Action2"]
 
-def _ordered_pair(lo=0, hi=123):
-    x, y = random.randint(lo, hi), random.randint(lo, hi)
-    while x == y:
-        y = random.randint(lo, hi)
-    return (x, y) if x < y else (y, x)
+def _ordered_pair_signed(lo=10, hi=123):
+    """Return a strictly ordered pair (low < 0 < high)."""
+    low = -random.randint(lo, hi)   # negative
+    high =  random.randint(lo, hi)  # positive
+    return low, high
+
 
 # Sample strictly ordered payoffs for Player 2 on each row:
 # Row 1 (P1=Action1): P2 prefers col1 > col2
-low1, high1 = _ordered_pair()
+low1, high1 = _ordered_pair_signed()
 # Row 2 (P1=Action2): P2 prefers col2 > col1
-low2, high2 = _ordered_pair()
+low2, high2 = _ordered_pair_signed()
 
 # Map (row, col) -> P2 payoff (strictly ordered as specified)
 # (0,0)=high1 > (0,1)=low1 ; (1,1)=high2 > (1,0)=low2

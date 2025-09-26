@@ -1,0 +1,148 @@
+Game descriptions for when player 1 = action 1, then player 2 loses with either action; 
+when player 1 chooses action 2, player 2 wins either way, but action 1 results in a bigger win.
+V21 - V30: 
+
+21. Manager vs. Team Lead
+
+A manager (Player 1) assigns focus to Budgeting or Execution. The team lead (Player 2) reacts.
+
+If Budgeting is chosen, the team lead always loses, whether responding with Cutting costs (loss for Team Lead) or Delaying tasks (loss for Team Lead).
+
+If Execution is chosen, the team lead always wins, though Streamlining processes (better win for Team Lead) is stronger than Reassigning staff (weaker win for Team Lead).
+
+Zero-sum: one side’s control over workflow is the other’s loss.
+
+
+
+
+
+
+22. Athlete vs. Rival
+
+An athlete (Player 1) decides to compete in the 100m sprint or the 1500m race. The rival (Player 2) chooses an event to specialize in.
+
+If the 100m sprint is chosen, the rival always loses, whether training in Starts (loss for Rival) or Speed (loss for Rival).
+
+If the 1500m race is chosen, the rival always wins, though focusing on Endurance (better win for Rival) is stronger than focusing on Pacing (weaker win for Rival).
+
+Zero-sum: athletic advantage lies entirely with one side.
+
+
+
+
+
+
+23. Teacher vs. Student
+
+A teacher (Player 1) tests on Geography or Mathematics. The student (Player 2) studies in advance.
+
+If the test is on Geography, the student always loses, whether preparing Maps (loss for Student) or Capitals (loss for Student).
+
+If the test is on Mathematics, the student always wins, though Practicing Algebra (better win for Student) is stronger than Practicing Geometry (weaker win for Student).
+
+Zero-sum: preparedness is decisive for one over the other.
+
+
+
+
+
+
+24. Candidate vs. Challenger
+
+A candidate (Player 1) campaigns on Environment or Economy. The challenger (Player 2) chooses a response theme.
+
+If the Environment is emphasized, the challenger always loses, whether responding with Regulation (loss for Challenger) or Innovation (loss for Challenger).
+
+If the Economy is emphasized, the challenger always wins, though Taxes (better win for Challenger) is stronger than Jobs (weaker win for Challenger).
+
+Zero-sum: momentum shifts entirely between the two.
+
+
+
+
+
+
+25. Director vs. Actor
+
+A director (Player 1) stresses Lighting or Dialogue. The actor (Player 2) adjusts.
+
+If Lighting is stressed, the actor always loses, whether adjusting with Blocking (loss for Actor) or Timing (loss for Actor).
+
+If Dialogue is stressed, the actor always wins, though Emotional delivery (better win for Actor) is stronger than Straightforward delivery (weaker win for Actor).
+
+Zero-sum: the scene’s power lies in one hand at a time.
+
+
+
+
+
+
+26. Negotiator vs. Counterparty
+
+A negotiator (Player 1) sets terms around Tariffs or Quotas. The counterparty (Player 2) counters.
+
+If Tariffs are set, the counterparty always loses, whether arguing Imports (loss for Counterparty) or Exports (loss for Counterparty).
+
+If Quotas are set, the counterparty always wins, though pushing Volume limits (better win for Counterparty) is stronger than pushing Seasonal caps (weaker win for Counterparty).
+
+Zero-sum: concessions fall entirely to one side.
+
+
+
+
+
+
+27. Lawyer vs. Opposing Counsel
+
+A lawyer (Player 1) frames arguments on Motive or Opportunity. Opposing counsel (Player 2) chooses a counter-strategy.
+
+If on Motive, opposing counsel always loses, whether countering with Alternative suspect (loss for Counsel) or Psychological profile (loss for Counsel).
+
+If on Opportunity, opposing counsel always wins, though stressing Timeline (better win for Counsel) is stronger than stressing Location (weaker win for Counsel).
+
+Zero-sum: courtroom control is total for one side.
+
+
+
+
+
+
+28. Journalist vs. Politician
+
+A journalist (Player 1) presses on Ethics or Policy details. The politician (Player 2) replies.
+
+If on Ethics, the politician always loses, whether replying with Excuses (loss for Politician) or Counterattacks (loss for Politician).
+
+If on Policy details, the politician always wins, though Highlighting Results (better win for Politician) is stronger than Blaming Opponents (weaker win for Politician).
+
+Zero-sum: narrative authority belongs fully to one.
+
+
+
+
+
+
+29. Coach vs. Athlete
+
+A coach (Player 1) demands focus on Defense or Offense. The athlete (Player 2) responds.
+
+If Defense is demanded, the athlete always loses, whether focusing on Blocking (loss for Athlete) or Positioning (loss for Athlete).
+
+If Offense is demanded, the athlete always wins, though working on Shooting (better win for Athlete) is stronger than Passing (weaker win for Athlete).
+
+Zero-sum: training victories move one way only.
+
+
+
+
+
+
+30. Professor vs. Student
+
+A professor (Player 1) bases the exam on Philosophy or Statistics. The student (Player 2) prepares.
+
+If Philosophy is tested, the student always loses, whether preparing Theories (loss for Student) or Arguments (loss for Student).
+
+If Statistics is tested, the student always wins, though Probability (better win for Student) is stronger than Regression (weaker win for Student).
+
+Zero-sum: academic advantage rests entirely on one side.

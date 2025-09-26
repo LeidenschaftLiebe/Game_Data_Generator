@@ -1,0 +1,148 @@
+Game descriptions for when player 1 = action 1, then player 2 loses with either action; 
+when player 1 chooses action 2, player 2 wins either way, but action 1 results in a bigger win.
+V1 - V10: 
+
+1. Debater vs. Opponent
+
+A debater (Player 1) chooses to argue Economics or Foreign policy. The opponent (Player 2) chooses their response line.
+
+If Economics is chosen, the opponent always loses, whether they counter with Taxes (loss for Opponent) or Jobs (loss for Opponent).
+
+If Foreign policy is chosen, the opponent always wins, though Countering with Diplomacy (better win for Opponent) is stronger than Countering with Defense (weaker win for Opponent).
+
+Zero-sum: the opponent’s gain is the debater’s loss.
+
+
+
+
+
+
+2. Lawyer vs. Prosecutor
+
+A defense lawyer (Player 1) frames the case around Character evidence or Alibi evidence. The prosecutor (Player 2) replies.
+
+If Character evidence is used, the prosecutor always fails, whether attacking with Past behavior (loss for Prosecutor) or Witness doubt (loss for Prosecutor).
+
+If Alibi evidence is used, the prosecutor always succeeds, though Attacking the Timeline (better win for Prosecutor) is stronger than Attacking the Witness (weaker win for Prosecutor).
+
+Zero-sum: courtroom victories swing one way or the other.
+
+
+
+
+
+
+3. Candidate vs. Rival
+
+A candidate (Player 1) campaigns on Education or Healthcare. The rival (Player 2) chooses their counter-issue.
+
+If Education is chosen, the rival always loses, whether pushing Funding (loss for Rival) or Curriculum (loss for Rival).
+
+If Healthcare is chosen, the rival always wins, though Pushing Costs (better win for Rival) is stronger than Pushing Access (weaker win for Rival).
+
+Zero-sum: campaign momentum is a direct contest.
+
+
+
+
+
+
+4. Chess Player vs. Opponent
+
+A chess player (Player 1) opens with Queen’s Gambit or King’s Pawn. The opponent (Player 2) replies.
+
+If Queen’s Gambit is played, the opponent always loses, whether defending with d5 (loss for Opponent) or e6 (loss for Opponent).
+
+If King’s Pawn is played, the opponent always wins, though c5 Sicilian (better win for Opponent) is stronger than e5 (weaker win for Opponent).
+
+Zero-sum: each move reshapes the balance.
+
+
+
+
+
+
+5. Student vs. Examiner
+
+A student (Player 1) chooses to answer Essay Question A or Essay Question B. The examiner (Player 2) selects grading focus.
+
+If Question A is answered, the examiner always loses, whether emphasizing Structure (loss for Examiner) or Content (loss for Examiner).
+
+If Question B is answered, the examiner always wins, though focusing on Critical thinking (better win for Examiner) beats focusing on Grammar (weaker win for Examiner).
+
+Zero-sum: grading strength flips with the student’s choice.
+
+
+
+
+
+
+6. Negotiator vs. Counterparty
+
+A negotiator (Player 1) anchors the deal with High price or Low price. The counterparty (Player 2) reacts.
+
+If High price is set, the counterparty always loses, whether they respond with Delay (loss for Counterparty) or Concede (loss for Counterparty).
+
+If Low price is set, the counterparty always wins, though Demanding Extras (better win for Counterparty) is stronger than Accepting Quickly (weaker win for Counterparty).
+
+Zero-sum: one side’s leverage erodes the other’s.
+
+
+
+
+
+
+7. Journalist vs. Politician
+
+A journalist (Player 1) asks about Corruption or Policy record. The politician (Player 2) answers.
+
+If asked about Corruption, the politician always loses, whether answering with Denial (loss for Politician) or Deflection (loss for Politician).
+
+If asked about Policy record, the politician always wins, though Highlighting Achievements (better win for Politician) is stronger than Shifting Blame (weaker win for Politician).
+
+Zero-sum: every gain in narrative control is the other’s loss.
+
+
+
+
+
+
+8. Teacher vs. Student
+
+A teacher (Player 1) quizzes on History or Math. The student (Player 2) responds.
+
+If the quiz is on History, the student always loses, whether answering with Dates (loss for Student) or Events (loss for Student).
+
+If the quiz is on Math, the student always wins, though Solving Algebra (better win for Student) is stronger than Solving Geometry (weaker win for Student).
+
+Zero-sum: knowledge advantage shifts directly between teacher and student.
+
+
+
+
+
+
+9. Manager vs. Employee
+
+A manager (Player 1) assigns tasks on Strategy or Execution. The employee (Player 2) reacts.
+
+If assigned Strategy, the employee always loses, whether responding with Plans (loss for Employee) or Reports (loss for Employee).
+
+If assigned Execution, the employee always wins, though Quick delivery (better win for Employee) is stronger than Minimal effort (weaker win for Employee).
+
+Zero-sum: productivity wins come at the other’s expense.
+
+
+
+
+
+
+10. Diplomat vs. Negotiator
+
+A diplomat (Player 1) emphasizes Trade or Security. The negotiator (Player 2) counters.
+
+If Trade is emphasized, the negotiator always loses, whether pushing Tariffs (loss for Negotiator) or Quotas (loss for Negotiator).
+
+If Security is emphasized, the negotiator always wins, though Arms control (better win for Negotiator) is stronger than Border patrol (weaker win for Negotiator).
+
+Zero-sum: diplomatic concessions move strictly one way.

@@ -1,0 +1,148 @@
+Game descriptions for when player 1 = action 1, then player 2 loses with either action; 
+when player 1 chooses action 2, player 2 wins either way, but action 1 results in a bigger win.
+V11 - V20: 
+
+11. Author vs. Critic
+
+An author (Player 1) publishes a Short story or a Novel. The critic (Player 2) writes a review.
+
+If the Short story is released, the critic always loses, whether reviewing Plot (loss for Critic) or Style (loss for Critic).
+
+If the Novel is released, the critic always wins, though focusing on Character depth (better win for Critic) is stronger than focusing on Pacing (weaker win for Critic).
+
+Zero-sum: the critic’s influence undercuts the author’s reception.
+
+
+
+
+
+
+12. Coach vs. Player
+
+A coach (Player 1) emphasizes Defense drills or Offense drills. The player (Player 2) adapts.
+
+If Defense drills are chosen, the player always loses, whether responding with Positioning (loss for Player) or Tackling (loss for Player).
+
+If Offense drills are chosen, the player always wins, though practicing Shooting (better win for Player) is stronger than Passing (weaker win for Player).
+
+Zero-sum: training advantage flips directly between them.
+
+
+
+
+
+
+13. Lawyer vs. Judge
+
+A lawyer (Player 1) bases the argument on Constitutional law or Case precedent. The judge (Player 2) reacts.
+
+If on Constitutional law, the judge always loses, whether responding with Dismissal (loss for Judge) or Objection (loss for Judge).
+
+If on Case precedent, the judge always wins, though citing Binding precedent (better win for Judge) is stronger than citing Similar case (weaker win for Judge).
+
+Zero-sum: rulings mirror who holds the stronger ground.
+
+
+
+
+
+
+14. Entrepreneur vs. Investor
+
+An entrepreneur (Player 1) pitches a Prototype or a Business plan. The investor (Player 2) decides how to respond.
+
+If pitching a Prototype, the investor always loses, whether challenging Feasibility (loss for Investor) or Scalability (loss for Investor).
+
+If pitching a Business plan, the investor always wins, though pushing Valuation (better win for Investor) is stronger than pushing Equity share (weaker win for Investor).
+
+Zero-sum: every deal favors one at the other’s cost.
+
+
+
+
+
+
+15. Journalist vs. Interviewee
+
+A journalist (Player 1) asks about Personal life or Policy stance. The interviewee (Player 2) answers.
+
+If asked about Personal life, the interviewee always loses, whether answering with Details (loss for Interviewee) or Privacy defense (loss for Interviewee).
+
+If asked about Policy stance, the interviewee always wins, though stressing Achievements (better win for Interviewee) is stronger than stressing Promises (weaker win for Interviewee).
+
+Zero-sum: narrative control shifts completely.
+
+
+
+
+
+
+16. Teacher vs. Examiner
+
+A teacher (Player 1) trains pupils for Writing or Mathematics. The examiner (Player 2) designs the test.
+
+If trained for Writing, the examiner always loses, whether testing Essays (loss for Examiner) or Grammar (loss for Examiner).
+
+If trained for Mathematics, the examiner always wins, though testing Algebra (better win for Examiner) is stronger than testing Geometry (weaker win for Examiner).
+
+Zero-sum: preparation advantage shifts one way or the other.
+
+
+
+
+
+
+17. Politician vs. Rival
+
+A politician (Player 1) frames debate on Jobs or Immigration. The rival (Player 2) counters.
+
+If on Jobs, the rival always loses, whether arguing Unemployment (loss for Rival) or Wages (loss for Rival).
+
+If on Immigration, the rival always wins, though Border policy (better win for Rival) is stronger than Integration (weaker win for Rival).
+
+Zero-sum: voter support shifts in lockstep.
+
+
+
+
+
+
+18. Debater vs. Challenger
+
+A debater (Player 1) opens with Freedom or Security. The challenger (Player 2) replies.
+
+If opening with Freedom, the challenger always loses, whether replying with Rights (loss for Challenger) or Responsibility (loss for Challenger).
+
+If opening with Security, the challenger always wins, though arguing Safety (better win for Challenger) is stronger than arguing Enforcement (weaker win for Challenger).
+
+Zero-sum: rhetorical control belongs fully to one side.
+
+
+
+
+
+
+19. Doctor vs. Patient
+
+A doctor (Player 1) prescribes Medication or Lifestyle change. The patient (Player 2) responds.
+
+If Medication is prescribed, the patient always loses, whether responding with Compliance (loss for Patient) or Refusal (loss for Patient).
+
+If Lifestyle change is prescribed, the patient always wins, though Exercise (better win for Patient) is stronger than Diet (weaker win for Patient).
+
+Zero-sum: health progress favors one at the other’s cost.
+
+
+
+
+
+
+20. Director vs. Actor
+
+A director (Player 1) emphasizes Blocking or Emotion in rehearsal. The actor (Player 2) adapts.
+
+If focusing on Blocking, the actor always loses, whether adapting with Movement (loss for Actor) or Timing (loss for Actor).
+
+If focusing on Emotion, the actor always wins, though Expressiveness (better win for Actor) is stronger than Subtlety (weaker win for Actor).
+
+Zero-sum: control of the scene flows to one at the other’s expense.

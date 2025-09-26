@@ -1,0 +1,148 @@
+Game descriptions for when player 1 = action 1, then player 2 loses with either action; 
+when player 1 chooses action 2, player 2 wins either way, but action 1 results in a bigger win.
+V31 - V40: 
+
+31. Candidate vs. Opponent
+
+A candidate (Player 1) stresses Foreign policy or Healthcare. The opponent (Player 2) crafts rebuttals.
+
+If on Foreign policy, the opponent always loses, whether rebutting with Military readiness (loss for Opponent) or Alliances (loss for Opponent).
+
+If on Healthcare, the opponent always wins, though Insurance costs (better win for Opponent) is stronger than Hospital access (weaker win for Opponent).
+
+Zero-sum: the campaign swing is absolute.
+
+
+
+
+
+
+32. Mentor vs. Apprentice
+
+A mentor (Player 1) teaches Crafting or Strategy. The apprentice (Player 2) responds.
+
+If Crafting is taught, the apprentice always loses, whether learning Tools (loss for Apprentice) or Materials (loss for Apprentice).
+
+If Strategy is taught, the apprentice always wins, though focusing on Planning (better win for Apprentice) is stronger than Tactics (weaker win for Apprentice).
+
+Zero-sum: learning gains are strictly opposed.
+
+
+
+
+
+
+33. Author vs. Editor
+
+An author (Player 1) drafts Poetry or Prose. The editor (Player 2) reacts.
+
+If Poetry is drafted, the editor always loses, whether critiquing Meter (loss for Editor) or Imagery (loss for Editor).
+
+If Prose is drafted, the editor always wins, though Grammar edits (better win for Editor) are stronger than Stylistic edits (weaker win for Editor).
+
+Zero-sum: the editor’s power grows as the author’s shrinks.
+
+
+
+
+
+
+34. Leader vs. Advisor
+
+A leader (Player 1) bases policy on Security or Economy. The advisor (Player 2) reacts.
+
+If on Security, the advisor always loses, whether suggesting Defense budget (loss for Advisor) or Border patrol (loss for Advisor).
+
+If on Economy, the advisor always wins, though stressing Tax reform (better win for Advisor) is stronger than stressing Jobs plan (weaker win for Advisor).
+
+Zero-sum: policy leverage belongs fully to one.
+
+
+
+
+
+
+35. Actor vs. Director
+
+An actor (Player 1) insists on Ad-libbing or Sticking to script. The director (Player 2) responds.
+
+If Ad-libbing is chosen, the director always loses, whether responding with Retakes (loss for Director) or Notes (loss for Director).
+
+If Sticking to script is chosen, the director always wins, though Blocking adjustments (better win for Director) are stronger than Tone suggestions (weaker win for Director).
+
+Zero-sum: creative control flows entirely to one.
+
+
+
+
+
+
+36. Lawyer vs. Jury
+
+A lawyer (Player 1) emphasizes Character defense or Timeline defense. The jury (Player 2) weighs evidence.
+
+If Character defense is used, the jury always loses, whether doubting Credibility (loss for Jury) or questioning Consistency (loss for Jury).
+
+If Timeline defense is used, the jury always wins, though Precise dates (better win for Jury) are stronger than Approximate times (weaker win for Jury).
+
+Zero-sum: verdict weight falls wholly to one side.
+
+
+
+
+
+
+37. Negotiator vs. Delegate
+
+A negotiator (Player 1) opens talks on Trade or Security. The delegate (Player 2) replies.
+
+If on Trade, the delegate always loses, whether countering with Tariffs (loss for Delegate) or Quotas (loss for Delegate).
+
+If on Security, the delegate always wins, though focusing on Alliances (better win for Delegate) is stronger than focusing on Arms (weaker win for Delegate).
+
+Zero-sum: bargaining advantage moves completely.
+
+
+
+
+
+
+38. Student vs. Examiner
+
+A student (Player 1) answers Theory question or Practical question. The examiner (Player 2) grades.
+
+If answering Theory, the examiner always loses, whether grading on Concepts (loss for Examiner) or Definitions (loss for Examiner).
+
+If answering Practical, the examiner always wins, though grading on Method (better win for Examiner) is stronger than grading on Result (weaker win for Examiner).
+
+Zero-sum: exam balance lies wholly with one.
+
+
+
+
+
+
+39. Politician vs. Interviewer
+
+A politician (Player 1) chooses to discuss Education or Foreign affairs. The interviewer (Player 2) probes.
+
+If on Education, the interviewer always loses, whether probing Funding (loss for Interviewer) or Standards (loss for Interviewer).
+
+If on Foreign affairs, the interviewer always wins, though asking about Allies (better win for Interviewer) is stronger than asking about Defense (weaker win for Interviewer).
+
+Zero-sum: questioning power shifts entirely.
+
+
+
+
+
+
+40. Author vs. Reviewer
+
+An author (Player 1) releases a Memoir or a Novel. The reviewer (Player 2) critiques.
+
+If the Memoir is released, the reviewer always loses, whether critiquing Tone (loss for Reviewer) or Detail (loss for Reviewer).
+
+If the Novel is released, the reviewer always wins, though Plot critique (better win for Reviewer) is stronger than Style critique (weaker win for Reviewer).
+
+Zero-sum: critical reception flips decisively.

@@ -1,0 +1,148 @@
+Game descriptions for matching actions (match is a win for player 2 and mismatch is a win for player 1). 
+
+V11 - V20: 
+
+11. Cat vs. Mouse
+
+A mouse (Player 1) darts into either the Pantry or the Cellar. A cat (Player 2) chooses where to pounce.
+
+If the mouse goes to the Pantry, pouncing into the Pantry (win for Cat) succeeds; pouncing into the Cellar (loss for Cat) fails.
+
+If the mouse goes to the Cellar, pouncing into the Cellar (win for Cat) succeeds; pouncing into the Pantry (loss for Cat) fails.
+
+This game is zero-sum: the cat’s meal is the mouse’s loss of life.
+
+
+
+
+
+
+12. Treasure Hunter vs. Pirate
+
+A treasure hunter (Player 1) sails to the Island or the Cove. A pirate (Player 2) chooses where to ambush.
+
+If the hunter sails to the Island, ambushing the Island (win for Pirate) captures the loot; ambushing the Cove (loss for Pirate) misses.
+
+If the hunter sails to the Cove, ambushing the Cove (win for Pirate) succeeds; ambushing the Island (loss for Pirate) fails.
+
+This contest is zero-sum: the pirate’s haul is the hunter’s ruin.
+
+
+
+
+
+
+13. Farmer vs. Crow
+
+A farmer (Player 1) plants seeds in the East field or the West field. A crow (Player 2) swoops down.
+
+If the farmer plants in the East, the crow eats in the East (win for Crow); eating in the West (loss for Crow) yields nothing.
+
+If the farmer plants in the West, the crow eats in the West (win for Crow); eating in the East (loss for Crow) fails.
+
+This is zero-sum: every seed eaten by the crow is one less for the farmer.
+
+
+
+
+
+
+14. Safecracker vs. Security Guard
+
+A thief (Player 1) tries to open either the Main vault or the Side vault. A guard (Player 2) chooses where to patrol.
+
+If the thief targets the Main vault, patrolling the Main vault (win for Guard) stops the theft; patrolling the Side vault (loss for Guard) misses.
+
+If the thief targets the Side vault, patrolling the Side vault (win for Guard) succeeds; patrolling the Main vault (loss for Guard) fails.
+
+This situation is zero-sum: protection for the guard is failure for the thief.
+
+
+
+
+
+
+15. Explorer vs. Tiger
+
+An explorer (Player 1) enters either the Cave or the Jungle. A tiger (Player 2) waits in ambush.
+
+If the explorer goes into the Cave, waiting in the Cave (win for Tiger) works; waiting in the Jungle (loss for Tiger) fails.
+
+If the explorer goes into the Jungle, waiting in the Jungle (win for Tiger) works; waiting in the Cave (loss for Tiger) fails.
+
+This encounter is zero-sum: the tiger’s meal is the explorer’s end.
+
+
+
+
+
+
+16. Diver vs. Shark
+
+A diver (Player 1) swims toward the Reef or the Trench. A shark (Player 2) decides where to strike.
+
+If the diver heads to the Reef, attacking the Reef (win for Shark) succeeds; attacking the Trench (loss for Shark) fails.
+
+If the diver heads to the Trench, attacking the Trench (win for Shark) succeeds; attacking the Reef (loss for Shark) fails.
+
+This game is zero-sum: survival for the diver means loss for the shark, and vice versa.
+
+
+
+
+
+
+17. Courier vs. Bandit
+
+A courier (Player 1) rides along the North road or the South road. A bandit (Player 2) sets up an ambush.
+
+If the courier takes the North road, ambushing the North road (win for Bandit) works; ambushing the South road (loss for Bandit) fails.
+
+If the courier takes the South road, ambushing the South road (win for Bandit) works; ambushing the North road (loss for Bandit) fails.
+
+This contest is zero-sum: the bandit’s gain is the courier’s loss.
+
+
+
+
+
+
+18. Student vs. Examiner
+
+A student (Player 1) chooses to prepare either Topic A or Topic B. The examiner (Player 2) decides which topic to emphasize in the test.
+
+If the student prepares Topic A, emphasizing Topic A (win for Examiner) trips the student; emphasizing Topic B (loss for Examiner) fails.
+
+If the student prepares Topic B, emphasizing Topic B (win for Examiner) works; emphasizing Topic A (loss for Examiner) fails.
+
+This exam is zero-sum: the examiner’s tough question is the student’s struggle.
+
+
+
+
+
+
+19. Knight vs. Dragon
+
+A knight (Player 1) charges into either the Castle gate or the Cave mouth. A dragon (Player 2) chooses where to defend.
+
+If the knight goes to the Castle gate, defending the Castle gate (win for Dragon) succeeds; defending the Cave mouth (loss for Dragon) fails.
+
+If the knight goes to the Cave mouth, defending the Cave mouth (win for Dragon) succeeds; defending the Castle gate (loss for Dragon) fails.
+
+This battle is zero-sum: the dragon’s success is the knight’s defeat.
+
+
+
+
+
+
+20. Soccer Striker vs. Goalkeeper
+
+A striker (Player 1) shoots either Left or Right. The goalkeeper (Player 2) dives to save.
+
+If the striker shoots Left, diving Left (win for Goalkeeper) saves; diving Right (loss for Goalkeeper) concedes a goal.
+
+If the striker shoots Right, diving Right (win for Goalkeeper) saves; diving Left (loss for Goalkeeper) concedes a goal.
+
+This match-up is zero-sum: every save for the keeper is a lost goal for the striker.

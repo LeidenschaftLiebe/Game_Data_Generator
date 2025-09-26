@@ -1,0 +1,148 @@
+Game descriptions for matching actions (match is a win for player 2 and mismatch is a win for player 1). 
+
+V1 - V10: 
+
+1. Spy vs. Agent
+
+A spy (Player 1) must exfiltrate through either the North gate or the South gate. The agent (Player 2) decides where to intercept.
+
+If the spy goes North, the agent intercepts by choosing North (win for Agent); choosing South (loss for Agent) lets the spy escape.
+
+If the spy goes South, the agent intercepts by choosing South (win for Agent); choosing North (loss for Agent) fails.
+
+This contest is zero-sum: whenever the agent wins, the spy loses by the same margin.
+
+
+
+
+
+
+2. Fisherman vs. Shark
+
+A fisherman (Player 1) rows to either the Lagoon or the Reef. A shark (Player 2) lurks nearby, deciding where to strike.
+
+If the fisherman heads to the Lagoon, the shark succeeds by waiting at the Lagoon (win for Shark); if it goes to the Reef (loss for Shark), the fisherman is safe.
+
+If the fisherman rows to the Reef, the shark succeeds by waiting at the Reef (win for Shark); choosing the Lagoon (loss for Shark) fails.
+
+This encounter is zero-sum: the shark’s gain is the fisherman’s loss.
+
+
+
+
+
+
+3. Smuggler vs. Customs Officer
+
+A smuggler (Player 1) chooses to pass through the Checkpoint or take the Back road. The customs officer (Player 2) sets up inspection.
+
+If the smuggler uses the Checkpoint, inspection at the Checkpoint (win for Officer) works; inspection at the Back road (loss for Officer) misses.
+
+If the smuggler uses the Back road, inspection at the Back road (win for Officer) works; inspection at the Checkpoint (loss for Officer) misses.
+
+This game is zero-sum: every seizure by the officer is an equal failure for the smuggler.
+
+
+
+
+
+
+4. Miner vs. Claim Jumper
+
+A miner (Player 1) digs at either the Gold seam or the Silver seam. A claim jumper (Player 2) decides where to stake a rival claim.
+
+If the miner digs Gold, staking on Gold (win for Claim Jumper) blocks the miner; staking on Silver (loss for Claim Jumper) fails.
+
+If the miner digs Silver, staking on Silver (win for Claim Jumper) blocks the miner; staking on Gold (loss for Claim Jumper) fails.
+
+The setup is zero-sum: the claim jumper’s profit mirrors the miner’s loss.
+
+
+
+
+
+
+5. Bird vs. Falcon
+
+A bird (Player 1) seeks food either in the Meadow or the Forest. A falcon (Player 2) prepares to swoop.
+
+If the bird goes to the Meadow, swooping into the Meadow (win for Falcon) catches it; swooping into the Forest (loss for Falcon) misses.
+
+If the bird goes to the Forest, swooping into the Forest (win for Falcon) catches it; swooping into the Meadow (loss for Falcon) misses.
+
+This chase is zero-sum: the falcon’s successful catch is exactly the bird’s failure.
+
+
+
+
+
+
+6. Guard vs. Intruder
+
+An intruder (Player 1) chooses between sneaking through the Left corridor or the Right corridor. The guard (Player 2) decides where to block.
+
+If the intruder goes Left, blocking Left (win for Guard) succeeds; blocking Right (loss for Guard) fails.
+
+If the intruder goes Right, blocking Right (win for Guard) succeeds; blocking Left (loss for Guard) fails.
+
+This game is zero-sum: every success for the guard is an equal failure for the intruder.
+
+
+
+
+
+
+7. Hacker vs. Security Analyst
+
+A hacker (Player 1) launches an attack using either Exploit A or Exploit B. The security analyst (Player 2) applies a defense patch.
+
+If the hacker uses Exploit A, applying Patch A (win for Analyst) blocks it; applying Patch B (loss for Analyst) fails.
+
+If the hacker uses Exploit B, applying Patch B (win for Analyst) blocks it; applying Patch A (loss for Analyst) fails.
+
+This contest is zero-sum: any protection by the analyst is matched by the hacker’s loss.
+
+
+
+
+
+
+8. Predator vs. Prey
+
+A rabbit (Player 1) chooses either the Burrow or the Field as an escape route. A fox (Player 2) chases.
+
+If the rabbit goes to the Burrow, chasing into the Burrow (win for Fox) catches it; chasing into the Field (loss for Fox) fails.
+
+If the rabbit goes to the Field, chasing into the Field (win for Fox) catches it; chasing into the Burrow (loss for Fox) fails.
+
+This chase is zero-sum: the fox’s capture is the rabbit’s downfall.
+
+
+
+
+
+
+9. Military Maneuver
+
+A commander (Player 1) advances troops through the Valley or the Hill. The opposing general (Player 2) deploys forces.
+
+If troops march through the Valley, deploying to the Valley (win for General) intercepts them; deploying to the Hill (loss for General) fails.
+
+If troops march through the Hill, deploying to the Hill (win for General) intercepts them; deploying to the Valley (loss for General) fails.
+
+This maneuver is zero-sum: one side’s gain is precisely the other’s loss.
+
+
+
+
+
+
+10. Political Campaign
+
+Candidate A (Player 1) focuses on either Urban voters or Rural voters. Candidate B (Player 2) decides where to counter-campaign.
+
+If Candidate A campaigns in Urban areas, countering in Urban (win for Candidate B) succeeds; countering in Rural (loss for Candidate B) fails.
+
+If Candidate A campaigns in Rural areas, countering in Rural (win for Candidate B) succeeds; countering in Urban (loss for Candidate B) fails.
+
+This contest is zero-sum: Candidate B’s gains directly reduce Candidate A’s support.

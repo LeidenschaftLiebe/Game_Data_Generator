@@ -1,0 +1,148 @@
+Game descriptions for matching actions (match is a win for player 2 and mismatch is a win for player 1). 
+
+V31 - V40: 
+
+31. Wizard vs. Witch
+
+A wizard (Player 1) hides in the Tower or the Crypt. A witch (Player 2) casts a revealing spell.
+
+If in the Tower, casting at the Tower (win for Witch) uncovers him; casting at the Crypt (loss for Witch) fails.
+
+If in the Crypt, casting at the Crypt (win for Witch) works; casting at the Tower (loss for Witch) fails.
+
+This duel is zero-sum: one’s magic gain is the other’s defeat.
+
+
+
+
+
+
+32. Merchant vs. Tax Collector
+
+A merchant (Player 1) transports goods through the Market gate or the Harbor gate. A tax collector (Player 2) waits.
+
+If through the Market gate, waiting at the Market gate (win for Collector) succeeds; waiting at the Harbor gate (loss for Collector) misses.
+
+If through the Harbor gate, waiting at the Harbor gate (win for Collector) succeeds; waiting at the Market gate (loss for Collector) fails.
+
+This encounter is zero-sum: the collector’s revenue is the merchant’s loss.
+
+
+
+
+
+
+33. Explorer vs. Guardian Spirit
+
+An explorer (Player 1) seeks treasure in the Temple or the Ruins. A guardian spirit (Player 2) blocks the way.
+
+If entering the Temple, blocking the Temple (win for Spirit) succeeds; blocking the Ruins (loss for Spirit) fails.
+
+If entering the Ruins, blocking the Ruins (win for Spirit) works; blocking the Temple (loss for Spirit) fails.
+
+This struggle is zero-sum: the spirit’s defense cancels the explorer’s gain.
+
+
+
+
+
+
+34. Chef vs. Critic
+
+A chef (Player 1) serves either Dish A or Dish B. A food critic (Player 2) prepares their review.
+
+If the chef serves Dish A, reviewing Dish A (win for Critic) succeeds; reviewing Dish B (loss for Critic) misses.
+
+If the chef serves Dish B, reviewing Dish B (win for Critic) succeeds; reviewing Dish A (loss for Critic) fails.
+
+This game is zero-sum: the critic’s sharp remark is the chef’s downfall.
+
+
+
+
+
+
+35. Athlete vs. Coach
+
+An athlete (Player 1) chooses Routine A or Routine B. The coach (Player 2) prepares feedback.
+
+If Routine A is chosen, feedback on A (win for Coach) exposes flaws; feedback on B (loss for Coach) misses.
+
+If Routine B is chosen, feedback on B (win for Coach) succeeds; feedback on A (loss for Coach) fails.
+
+This interaction is zero-sum: the coach’s critique is the athlete’s setback.
+
+
+
+
+
+
+36. Shepherd vs. Wolf
+
+A shepherd (Player 1) moves sheep to the Pasture or the Barn. A wolf (Player 2) hunts.
+
+If moved to the Pasture, hunting the Pasture (win for Wolf) succeeds; hunting the Barn (loss for Wolf) fails.
+
+If moved to the Barn, hunting the Barn (win for Wolf) succeeds; hunting the Pasture (loss for Wolf) fails.
+
+This chase is zero-sum: the wolf’s meal is the shepherd’s loss.
+
+
+
+
+
+
+37. Pilot vs. Missile System
+
+A pilot (Player 1) flies over the Mountains or the Valley. The missile system (Player 2) locks on.
+
+If over the Mountains, locking the Mountains (win for Missile) hits; locking the Valley (loss for Missile) fails.
+
+If over the Valley, locking the Valley (win for Missile) hits; locking the Mountains (loss for Missile) fails.
+
+This duel is zero-sum: one strike means the other’s failure.
+
+
+
+
+
+
+38. Diver vs. Octopus
+
+A diver (Player 1) explores the Shipwreck or the Coral reef. An octopus (Player 2) ambushes.
+
+If at the Shipwreck, ambushing there (win for Octopus) succeeds; at the Coral reef (loss for Octopus) fails.
+
+If at the Coral reef, ambushing there (win for Octopus) succeeds; at the Shipwreck (loss for Octopus) fails.
+
+This encounter is zero-sum: the octopus’s catch is the diver’s loss.
+
+
+
+
+
+
+39. Knight vs. Assassin
+
+A knight (Player 1) travels along the Stone path or the Forest trail. An assassin (Player 2) sets an ambush.
+
+If the knight takes the Stone path, ambushing there (win for Assassin) succeeds; ambushing the Forest trail (loss for Assassin) fails.
+
+If the knight takes the Forest trail, ambushing there (win for Assassin) succeeds; ambushing the Stone path (loss for Assassin) fails.
+
+This battle is zero-sum: the assassin’s success is the knight’s loss.
+
+
+
+
+
+
+40. Batsman vs. Bowler
+
+A batsman (Player 1) plays a shot to the Off side or the Leg side. The bowler (Player 2) sets the field.
+
+If the batsman plays to the Off side, fielding the Off side (win for Bowler) succeeds; fielding the Leg side (loss for Bowler) fails.
+
+If the batsman plays to the Leg side, fielding the Leg side (win for Bowler) succeeds; fielding the Off side (loss for Bowler) fails.
+
+This match-up is zero-sum: every fielding success is the batsman’s failure.

@@ -1,0 +1,148 @@
+Game descriptions for matching actions (match is a win for player 2 and mismatch is a win for player 1). 
+
+V21 - V30: 
+
+21. Detective vs. Thief
+
+A thief (Player 1) hides stolen goods in the Warehouse or the Basement. A detective (Player 2) decides where to search.
+
+If the thief hides in the Warehouse, searching the Warehouse (win for Detective) recovers the goods; searching the Basement (loss for Detective) fails.
+
+If the thief hides in the Basement, searching the Basement (win for Detective) works; searching the Warehouse (loss for Detective) misses.
+
+This pursuit is zero-sum: the detective’s recovery is the thief’s loss.
+
+
+
+
+
+
+22. Farmer vs. Locust
+
+A farmer (Player 1) plants crops in the North field or the South field. A locust swarm (Player 2) decides where to descend.
+
+If planting in the North field, descending on the North field (win for Locust) destroys the crop; descending on the South field (loss for Locust) fails.
+
+If planting in the South field, descending on the South field (win for Locust) succeeds; descending on the North field (loss for Locust) fails.
+
+This situation is zero-sum: every loss for the farmer is a gain for the locusts.
+
+
+
+
+
+
+23. Smuggler vs. Patrol Boat
+
+A smuggler (Player 1) chooses the River route or the Sea route. A patrol boat (Player 2) picks where to intercept.
+
+If the smuggler takes the River, patrolling the River (win for Patrol) intercepts; patrolling the Sea (loss for Patrol) fails.
+
+If the smuggler takes the Sea, patrolling the Sea (win for Patrol) intercepts; patrolling the River (loss for Patrol) fails.
+
+This encounter is zero-sum: patrol success is smuggler failure.
+
+
+
+
+
+
+24. Student vs. Teacher
+
+A student (Player 1) cheats using Phone or Notes. The teacher (Player 2) watches.
+
+If the student uses the Phone, watching the Phone (win for Teacher) catches them; watching the Notes (loss for Teacher) misses.
+
+If the student uses Notes, watching the Notes (win for Teacher) succeeds; watching the Phone (loss for Teacher) fails.
+
+This exam is zero-sum: catching the cheat is loss for the student.
+
+
+
+
+
+
+25. Deer vs. Hunter
+
+A deer (Player 1) runs into the Thicket or the Glade. The hunter (Player 2) takes aim.
+
+If the deer runs into the Thicket, aiming at the Thicket (win for Hunter) succeeds; aiming at the Glade (loss for Hunter) fails.
+
+If the deer runs into the Glade, aiming at the Glade (win for Hunter) works; aiming at the Thicket (loss for Hunter) fails.
+
+This hunt is zero-sum: the hunter’s gain is the deer’s loss.
+
+
+
+
+
+
+26. Courier vs. Spy
+
+A courier (Player 1) delivers documents by Train or by Carriage. A spy (Player 2) attempts interception.
+
+If by Train, intercepting the Train (win for Spy) succeeds; intercepting the Carriage (loss for Spy) fails.
+
+If by Carriage, intercepting the Carriage (win for Spy) works; intercepting the Train (loss for Spy) fails.
+
+This contest is zero-sum: the spy’s success is the courier’s failure.
+
+
+
+
+
+
+27. Soldier vs. Sniper
+
+A soldier (Player 1) crosses either the Bridge or the Tunnel. A sniper (Player 2) takes position.
+
+If the soldier crosses the Bridge, aiming at the Bridge (win for Sniper) succeeds; aiming at the Tunnel (loss for Sniper) fails.
+
+If the soldier crosses the Tunnel, aiming at the Tunnel (win for Sniper) works; aiming at the Bridge (loss for Sniper) fails.
+
+This standoff is zero-sum: the sniper’s hit is the soldier’s downfall.
+
+
+
+
+
+
+28. Pilot vs. Anti-Air Battery
+
+A pilot (Player 1) flies along the East route or the West route. An anti-air unit (Player 2) positions its guns.
+
+If flying East, firing at the East (win for Battery) succeeds; firing at the West (loss for Battery) fails.
+
+If flying West, firing at the West (win for Battery) succeeds; firing at the East (loss for Battery) fails.
+
+This battle is zero-sum: one side’s hit is the other’s failure.
+
+
+
+
+
+
+29. Fisher vs. Seal
+
+A fisher (Player 1) sets nets in the Shallow bay or the Deep inlet. A seal (Player 2) dives for fish.
+
+If nets are in the Shallow bay, diving there (win for Seal) steals fish; diving in the Deep inlet (loss for Seal) fails.
+
+If nets are in the Deep inlet, diving there (win for Seal) succeeds; diving in the Shallow bay (loss for Seal) fails.
+
+This struggle is zero-sum: seal’s feast is fisher’s loss.
+
+
+
+
+
+
+30. Spy vs. Border Guard
+
+A spy (Player 1) crosses via the Bridge or the Tunnel. The border guard (Player 2) patrols.
+
+If crossing the Bridge, patrolling the Bridge (win for Guard) catches them; patrolling the Tunnel (loss for Guard) misses.
+
+If crossing the Tunnel, patrolling the Tunnel (win for Guard) succeeds; patrolling the Bridge (loss for Guard) fails.
+
+This operation is zero-sum: the guard’s success equals the spy’s failure.

@@ -14,9 +14,9 @@ def _ordered_pair_signed(lo=10, hi=123):
 
 # Sample strictly ordered payoffs for Player 2 on each row:
 # Row 1 (P1=Action1): P2 prefers col2 > col1
-low1, high1 = _ordered_pair_signed
+low1, high1 = _ordered_pair_signed()
 # Row 2 (P1=Action2): P2 prefers col1 > col2
-low2, high2 = _ordered_pair_signed
+low2, high2 = _ordered_pair_signed()
 
 # Map (row, col) -> P2 payoff (strictly ordered as specified)
 # Row 1: (0,1)=high1 > (0,0)=low1

@@ -3,8 +3,8 @@ EFG 2 R "2x2 PI Zero-Sum (Row1 tie & win for P2; Row2 P2 loses, A1 > A2)" { "Pla
 
 p "" 1 1 "" { "Action1" "Action2" } 0
 p "" 2 1 "" { "Action1" "Action2" } 0
-t "" 1 "Outcome_00" { -7, 7 }
-t "" 2 "Outcome_01" { -7, 7 }
+t "" 1 "Outcome_00" { -59, 59 }
+t "" 2 "Outcome_01" { -59, 59 }
 p "" 2 2 "" { "Action1" "Action2" } 0
-t "" 3 "Outcome_10" { 30, -30 }
-t "" 4 "Outcome_11" { 45, -45 }
+t "" 3 "Outcome_10" { 33, -33 }
+t "" 4 "Outcome_11" { 69, -69 }

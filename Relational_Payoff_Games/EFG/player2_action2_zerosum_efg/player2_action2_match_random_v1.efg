@@ -3,8 +3,8 @@ EFG 2 R "2x2 PI Zero-Sum (row-match better for P2)" { "Player1" "Player2" }
 
 p "" 1 1 "" { "Action1" "Action2" } 0
 p "" 2 1 "" { "Action1" "Action2" } 0
-t "" 1 "Outcome_00" { -89.0, 89.0 }
-t "" 2 "Outcome_01" { -14.0, 14.0 }
+t "" 1 "Outcome_00" { -32.0, 32.0 }
+t "" 2 "Outcome_01" { -30.0, 30.0 }
 p "" 2 2 "" { "Action1" "Action2" } 0
-t "" 3 "Outcome_10" { -13.0, 13.0 }
-t "" 4 "Outcome_11" { -24.0, 24.0 }
+t "" 3 "Outcome_10" { -3.0, 3.0 }
+t "" 4 "Outcome_11" { -69.0, 69.0 }

@@ -3,7 +3,15 @@ import importlib.util
 
 # -------- CONFIGURATION --------
 # Top-level source and destination root folders
-source_root = os.path.join(os.path.dirname(__file__), "pygambit_src")
+#source_root = os.path.join(os.path.dirname(__file__), "pygambit_src/player2_action2_zerosum")
+
+# Directories that contain pygambit builder scripts
+source_dirs = [
+    os.path.join(os.path.dirname(__file__), "pygambit_src/player2_action2_zerosum"),
+    #os.path.join(os.path.dirname(__file__), "pygambit_src2"),
+    # add more directories here if needed
+]
+
 dest_root = os.path.join(os.path.dirname(__file__), "EFG")
 # --------------------------------
 
@@ -11,10 +19,11 @@ dest_root = os.path.join(os.path.dirname(__file__), "EFG")
 n = 5
 
 # Scan all immediate subdirectories under source_root
-source_dirs = [os.path.join(source_root, d) for d in os.listdir(source_root) if os.path.isdir(os.path.join(source_root, d))]
+#source_dirs = [os.path.join(source_root, d) for d in os.listdir(source_root) if os.path.isdir(os.path.join(source_root, d))]
 
 for src in source_dirs:
-    subfolder_name = os.path.basename(src)
+    #subfolder_name = os.path.basename(src)
+    subfolder_name = os.path.basename(src.rstrip(os.sep))
     dest = os.path.join(dest_root, subfolder_name + "_efg")
     os.makedirs(dest, exist_ok=True)
 

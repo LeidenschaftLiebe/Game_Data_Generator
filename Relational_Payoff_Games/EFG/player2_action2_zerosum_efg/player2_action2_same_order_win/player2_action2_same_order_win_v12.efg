@@ -1,0 +1,10 @@
+EFG 2 R "2x2 PI Zero-Sum (Row1 tie & win for P2; Row2 P2 loses, A1 > A2)" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "Action1" "Action2" } 0
+p "" 2 1 "" { "Action1" "Action2" } 0
+t "" 1 "Outcome_00" { -27, 27 }
+t "" 2 "Outcome_01" { -27, 27 }
+p "" 2 2 "" { "Action1" "Action2" } 0
+t "" 3 "Outcome_10" { 52, -52 }
+t "" 4 "Outcome_11" { 65, -65 }

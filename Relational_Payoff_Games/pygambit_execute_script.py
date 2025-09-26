@@ -16,7 +16,7 @@ dest_root = os.path.join(os.path.dirname(__file__), "EFG")
 # --------------------------------
 
 # Number of versions to generate for each builder script
-n = 5
+n = 40
 
 # Scan all immediate subdirectories under source_root
 #source_dirs = [os.path.join(source_root, d) for d in os.listdir(source_root) if os.path.isdir(os.path.join(source_root, d))]
@@ -35,8 +35,12 @@ for src in source_dirs:
             base_name = os.path.splitext(filename)[0]
             #export_path = os.path.join(dest, f"{base_name}.efg")
 
+            # create a subdir for this script’s runs
+            script_dest = os.path.join(dest, base_name)
+            os.makedirs(script_dest, exist_ok=True)
+
             for version in range(1, n + 1):
-                export_path = os.path.join(dest, f"{base_name}_v{version}.efg")
+                export_path = os.path.join(script_dest, f"{base_name}_v{version}.efg")
 
                 try:
                     spec = importlib.util.spec_from_file_location("game_module", script_path)

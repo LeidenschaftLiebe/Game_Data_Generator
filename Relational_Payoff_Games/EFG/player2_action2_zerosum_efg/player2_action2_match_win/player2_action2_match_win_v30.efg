@@ -1,0 +1,10 @@
+EFG 2 R "2x2 PI Zero-Sum (row-match better for P2)" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "Action1" "Action2" } 0
+p "" 2 1 "" { "Action1" "Action2" } 0
+t "" 1 "Outcome_00" { -95.0, 95.0 }
+t "" 2 "Outcome_01" { 13.0, -13.0 }
+p "" 2 2 "" { "Action1" "Action2" } 0
+t "" 3 "Outcome_10" { 30.0, -30.0 }
+t "" 4 "Outcome_11" { -10.0, 10.0 }

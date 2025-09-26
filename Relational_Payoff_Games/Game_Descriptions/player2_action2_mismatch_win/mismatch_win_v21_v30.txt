@@ -1,0 +1,148 @@
+Game descriptions for mismatching actions (mismatch is a win for player 2 and match is a win for player 1). 
+
+V21 - V30: 
+
+21. Drone vs. Radar Operator
+
+A drone (Player 1) flies over the Mountains or the Valley. A radar operator (Player 2) tunes sensors.
+
+If the drone takes the Mountains, tuning to the Valley (win for Operator) picks up its return signal; tuning to the Mountains (loss for Operator) misses.
+
+If the drone takes the Valley, tuning to the Mountains (win for Operator) catches it; tuning to the Valley (loss for Operator) fails.
+
+This game is zero-sum: detection for the operator is a loss for the drone.
+
+
+
+
+
+
+22. Explorer vs. Avalanche
+
+An explorer (Player 1) climbs the Ice ridge or the Snow slope. An avalanche (Player 2) threatens.
+
+If the explorer takes the Ice ridge, a slide on the Snow slope (win for Avalanche) cuts across and traps them; a slide on the Ice ridge (loss for Avalanche) misses.
+
+If the explorer takes the Snow slope, a slide on the Ice ridge (win for Avalanche) sweeps them; a slide on the Snow slope (loss for Avalanche) fails.
+
+This hazard is zero-sum: the avalanche’s strike is the explorer’s defeat.
+
+
+
+
+
+
+23. Treasure Hunter vs. Trapmaster
+
+A treasure hunter (Player 1) explores the Cavern or the Temple hall. A trapmaster (Player 2) sets snares.
+
+If the hunter goes to the Cavern, setting traps in the Temple hall (win for Trapmaster) causes collapse at the exit; setting in the Cavern (loss for Trapmaster) misses.
+
+If the hunter goes to the Temple hall, setting traps in the Cavern (win for Trapmaster) springs the choke; setting in the Temple hall (loss for Trapmaster) fails.
+
+This contest is zero-sum: the trapmaster’s success is the hunter’s ruin.
+
+
+
+
+
+
+24. Firefighter vs. Blaze
+
+A fire (Player 1) spreads into the Library or the Gallery. The firefighter (Player 2) directs suppression.
+
+If flames spread to the Library, spraying the Gallery (win for Firefighter) starves the fire’s path; spraying the Library (loss for Firefighter) wastes effort.
+
+If flames spread to the Gallery, spraying the Library (win for Firefighter) cuts it off; spraying the Gallery (loss for Firefighter) fails.
+
+This battle is zero-sum: suppression wins are fire’s losses.
+
+
+
+
+
+
+25. Pilot vs. Storm
+
+A pilot (Player 1) diverts through the North air lane or the South air lane. A storm front (Player 2) shifts.
+
+If the pilot flies North, shifting storms to the South (win for Storm) traps the plane in turbulence; shifting North (loss for Storm) misses.
+
+If the pilot flies South, shifting storms to the North (win for Storm) cuts across; shifting South (loss for Storm) fails.
+
+This is zero-sum: the storm’s turbulence is the pilot’s setback.
+
+
+
+
+
+
+26. Burglar vs. Alarm System
+
+A burglar (Player 1) enters by the Front door or the Back door. The alarm system (Player 2) is calibrated.
+
+If entry is through the Front, arming the Back sensor (win for Alarm) triggers the trap; arming the Front sensor (loss for Alarm) misses.
+
+If entry is through the Back, arming the Front sensor (win for Alarm) works; arming the Back sensor (loss for Alarm) fails.
+
+This is zero-sum: alarm success is burglar failure.
+
+
+
+
+
+
+27. Scientist vs. Rival Lab
+
+A scientist (Player 1) works on Project Alpha or Project Beta. A rival lab (Player 2) chooses which to publish against.
+
+If the scientist pursues Alpha, publishing on Beta (win for Rival Lab) steals attention; publishing on Alpha (loss for Rival Lab) validates their work.
+
+If the scientist pursues Beta, publishing on Alpha (win for Rival Lab) succeeds; publishing on Beta (loss for Rival Lab) fails.
+
+This race is zero-sum: one lab’s recognition is the other’s loss.
+
+
+
+
+
+
+28. Pirate vs. Navy
+
+A pirate (Player 1) sails toward the Island route or the Open sea. The navy (Player 2) deploys ships.
+
+If the pirate sails Island route, the navy at the Open sea (win for Navy) cuts them off; at the Island (loss for Navy) fails.
+
+If the pirate sails Open sea, the navy at the Island (win for Navy) intercepts; at the Open sea (loss for Navy) fails.
+
+This chase is zero-sum: capture for the navy is loss for the pirate.
+
+
+
+
+
+
+29. Farmer vs. Weeds
+
+A farmer (Player 1) sows in the East field or the West field. Weeds (Player 2) spread.
+
+If sown in the East, weeds in the West (win for Weeds) creep into irrigation; weeds in the East (loss for Weeds) miss.
+
+If sown in the West, weeds in the East (win for Weeds) infest; weeds in the West (loss for Weeds) fail.
+
+This is zero-sum: weed growth cuts into farmer yield.
+
+
+
+
+
+
+30. Actor vs. Critic
+
+An actor (Player 1) performs Drama or Comedy. A critic (Player 2) writes reviews.
+
+If the actor stages Drama, reviewing Comedy (win for Critic) shifts public taste; reviewing Drama (loss for Critic) reinforces success.
+
+If the actor stages Comedy, reviewing Drama (win for Critic) undercuts them; reviewing Comedy (loss for Critic) fails.
+
+This game is zero-sum: one’s acclaim is the other’s loss.

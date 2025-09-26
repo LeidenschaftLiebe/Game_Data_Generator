@@ -1,0 +1,148 @@
+Game descriptions for mismatching actions (mismatch is a win for player 2 and match is a win for player 1). 
+
+V11 - V20: 
+
+11. Miner vs. Earthquake
+
+A miner (Player 1) digs in the North shaft or the South shaft. An earthquake (Player 2) shakes the ground.
+
+If the miner is in the North, shaking the South (win for Earthquake) collapses tunnels and traps them; shaking the North (loss for Earthquake) misses.
+
+If the miner is in the South, shaking the North (win for Earthquake) collapses above them; shaking the South (loss for Earthquake) fails.
+
+This contest is zero-sum: the quake’s strike is the miner’s loss.
+
+
+
+
+
+
+12. Pilot vs. Missile System
+
+A pilot (Player 1) flies over the East ridge or the West ridge. A missile system (Player 2) sets a lock.
+
+If the pilot goes East, locking on the West (win for Missile) anticipates the maneuver; locking on the East (loss for Missile) fails.
+
+If the pilot goes West, locking on the East (win for Missile) hits; locking on the West (loss for Missile) misses.
+
+This duel is zero-sum: one’s gain is the other’s loss.
+
+
+
+
+
+
+13. Smuggler vs. Inspector
+
+A smuggler (Player 1) hides goods in the Crate or the Barrel. An inspector (Player 2) checks.
+
+If the goods are in the Crate, checking the Barrel (win for Inspector) exposes the ploy; checking the Crate (loss for Inspector) fails.
+
+If the goods are in the Barrel, checking the Crate (win for Inspector) reveals it; checking the Barrel (loss for Inspector) fails.
+
+This inspection is zero-sum: smuggler’s concealment is inspector’s failure.
+
+
+
+
+
+
+14. Wolf vs. Shepherd
+
+A shepherd (Player 1) leads sheep to the Pasture or the Barn. A wolf (Player 2) hunts.
+
+If the sheep are in the Pasture, hunting the Barn (win for Wolf) cuts them off at the return path; hunting the Pasture (loss for Wolf) misses.
+
+If the sheep are in the Barn, hunting the Pasture (win for Wolf) intercepts; hunting the Barn (loss for Wolf) fails.
+
+This is zero-sum: wolf’s gain equals shepherd’s loss.
+
+
+
+
+
+
+15. Scientist vs. Rival Publisher
+
+A scientist (Player 1) submits findings to Journal A or Journal B. A rival (Player 2) plants counter-research.
+
+If submitted to A, publishing in B (win for Rival) steals recognition; publishing in A (loss for Rival) backfires.
+
+If submitted to B, publishing in A (win for Rival) succeeds; publishing in B (loss for Rival) fails.
+
+This rivalry is zero-sum: one lab’s prestige is the other’s loss.
+
+
+
+
+
+
+16. Knight vs. Archer
+
+A knight (Player 1) charges along the Stone road or the Forest track. An archer (Player 2) lies in wait.
+
+If the knight takes the Stone road, aiming at the Forest (win for Archer) shoots across at the exit; aiming at the Stone road (loss for Archer) misses.
+
+If the knight takes the Forest track, aiming at the Stone road (win for Archer) intercepts; aiming at the Forest (loss for Archer) fails.
+
+This clash is zero-sum: the archer’s strike is the knight’s defeat.
+
+
+
+
+
+
+17. Diver vs. Current
+
+A diver (Player 1) swims toward the Reef or the Trench. A current (Player 2) shifts.
+
+If toward the Reef, pushing flow to the Trench (win for Current) sweeps the diver; pushing to the Reef (loss for Current) fails.
+
+If toward the Trench, shifting to the Reef (win for Current) drags them; shifting to the Trench (loss for Current) misses.
+
+This hazard is zero-sum: current’s pull is diver’s struggle.
+
+
+
+
+
+
+18. Merchant vs. Tax Enforcer
+
+A merchant (Player 1) smuggles goods through the Harbor or the Gate. A tax enforcer (Player 2) sets patrols.
+
+If through the Harbor, patrolling the Gate (win for Enforcer) intercepts; patrolling the Harbor (loss for Enforcer) fails.
+
+If through the Gate, patrolling the Harbor (win for Enforcer) works; patrolling the Gate (loss for Enforcer) fails.
+
+This encounter is zero-sum: enforcement gain equals merchant’s loss.
+
+
+
+
+
+
+19. Politician vs. Opposition
+
+A politician (Player 1) campaigns on Healthcare or Education. The opposition (Player 2) picks an issue.
+
+If on Healthcare, pushing Education (win for Opposition) changes debate; pushing Healthcare (loss for Opposition) fails.
+
+If on Education, pushing Healthcare (win for Opposition) works; pushing Education (loss for Opposition) fails.
+
+This contest is zero-sum: one side’s support is the other’s loss.
+
+
+
+
+
+
+20. Programmer vs. Hacker
+
+A programmer (Player 1) patches System X or System Y. A hacker (Player 2) attacks.
+
+If patching X, attacking Y (win for Hacker) succeeds; attacking X (loss for Hacker) fails.
+
+If patching Y, attacking X (win for Hacker) works; attacking Y (loss for Hacker) fails.
+
+This battle is zero-sum: hacker’s breach is programmer’s failure.

@@ -1,0 +1,148 @@
+Game descriptions for mismatching actions (mismatch is a win for player 2 and match is a win for player 1). 
+
+V31 - V40: 
+
+31. Fisherman vs. Gull
+
+A fisherman (Player 1) casts nets in the Lagoon or the Harbor. A gull (Player 2) swoops.
+
+If nets are in the Lagoon, swooping the Harbor (win for Gull) catches runoff; swooping the Lagoon (loss for Gull) fails.
+
+If nets are in the Harbor, swooping the Lagoon (win for Gull) succeeds; swooping the Harbor (loss for Gull) fails.
+
+This contest is zero-sum: the gull’s catch is the fisherman’s loss.
+
+
+
+
+
+
+32. Diplomat vs. Saboteur
+
+A diplomat (Player 1) attends the Summit or the Conference. A saboteur (Player 2) plans disruption.
+
+If the diplomat attends the Summit, disrupting the Conference (win for Saboteur) derails alliances; disrupting the Summit (loss for Saboteur) fails.
+
+If the diplomat attends the Conference, disrupting the Summit (win for Saboteur) works; disrupting the Conference (loss for Saboteur) fails.
+
+This situation is zero-sum: sabotage negates diplomacy.
+
+
+
+
+
+
+33. Captain vs. Mutineer
+
+A captain (Player 1) rallies crew on the Deck or in the Mess hall. A mutineer (Player 2) stirs dissent.
+
+If the captain gathers on the Deck, dissent in the Mess (win for Mutineer) undermines him; dissent on the Deck (loss for Mutineer) fails.
+
+If the captain gathers in the Mess, dissent on the Deck (win for Mutineer) prevails; dissent in the Mess (loss for Mutineer) fails.
+
+This struggle is zero-sum: mutiny wins equal captain’s losses.
+
+
+
+
+
+
+34. Gamer vs. Stream Sniper
+
+A gamer (Player 1) spawns at Location A or Location B. A stream sniper (Player 2) sets a trap.
+
+If spawning at A, trapping B (win for Sniper) catches rotation; trapping A (loss for Sniper) misses.
+
+If spawning at B, trapping A (win for Sniper) works; trapping B (loss for Sniper) fails.
+
+This encounter is zero-sum: the sniper’s ambush is the gamer’s loss.
+
+
+
+
+
+
+35. Inventor vs. Copycat
+
+An inventor (Player 1) develops Device X or Device Y. A copycat (Player 2) markets.
+
+If working on X, marketing Y (win for Copycat) distracts buyers; marketing X (loss for Copycat) confirms the inventor.
+
+If working on Y, marketing X (win for Copycat) succeeds; marketing Y (loss for Copycat) fails.
+
+This rivalry is zero-sum: copycat’s profit reduces inventor’s.
+
+
+
+
+
+
+36. Author vs. Critic
+
+An author (Player 1) writes Novel A or Novel B. A critic (Player 2) publishes.
+
+If the author writes A, reviewing B (win for Critic) shifts focus; reviewing A (loss for Critic) boosts them.
+
+If the author writes B, reviewing A (win for Critic) damages them; reviewing B (loss for Critic) fails.
+
+This duel is zero-sum: one’s acclaim is the other’s loss.
+
+
+
+
+
+
+37. Athlete vs. Rival Coach
+
+An athlete (Player 1) practices Sprint or Marathon. A rival coach (Player 2) scouts.
+
+If training for Sprint, focusing on Marathon (win for Rival Coach) undercuts; focusing on Sprint (loss for Rival Coach) fails.
+
+If training for Marathon, focusing on Sprint (win for Rival Coach) succeeds; focusing on Marathon (loss for Rival Coach) fails.
+
+This match is zero-sum: scouting gain is athlete’s setback.
+
+
+
+
+
+
+38. Journalist vs. Censor
+
+A journalist (Player 1) reports on Topic X or Topic Y. A censor (Player 2) blocks.
+
+If reporting X, blocking Y (win for Censor) redirects headlines; blocking X (loss for Censor) fails.
+
+If reporting Y, blocking X (win for Censor) succeeds; blocking Y (loss for Censor) fails.
+
+This contest is zero-sum: censorship undermines journalism.
+
+
+
+
+
+
+39. Diver vs. Octopus
+
+A diver (Player 1) explores the Cave or the Reef. An octopus (Player 2) ambushes.
+
+If at the Cave, ambushing the Reef (win for Octopus) intercepts; ambushing the Cave (loss for Octopus) fails.
+
+If at the Reef, ambushing the Cave (win for Octopus) works; ambushing the Reef (loss for Octopus) fails.
+
+This is zero-sum: catch for octopus is diver’s loss.
+
+
+
+
+
+
+40. Engineer vs. Hacker
+
+An engineer (Player 1) fixes System A or System B. A hacker (Player 2) launches attacks.
+
+If fixing A, attacking B (win for Hacker) succeeds; attacking A (loss for Hacker) fails.
+
+If fixing B, attacking A (win for Hacker) works; attacking B (loss for Hacker) fails.
+
+This game is zero-sum: hacker success is engineer failure.

@@ -1,0 +1,148 @@
+Game descriptions for when player 1 = action 1, then player 2 loses with either action and the losses are the same; 
+when player 1 chooses action 2, player 2 wins either way, and the rewards are the same.
+V11 - V20: 
+
+11. Author vs. Critic
+
+An author (Player 1) publishes a Short story or a Novel. The critic (Player 2) writes a review.
+
+If the Short story is released, the critic always loses. Reviewing Plot or Style makes no difference, since both lead to the same losing outcome.
+
+If the Novel is released, the critic always wins. Focusing on Character depth or Pacing both result in the same winning outcome.
+
+Zero-sum: the critic’s influence undercuts the author’s reception.
+
+
+
+
+
+
+12. Coach vs. Player
+
+A coach (Player 1) emphasizes Defense drills or Offense drills. The player (Player 2) reacts.
+
+If Defense drills are chosen, the player always loses. Practicing Positioning or Tackling both end in the same defeat.
+
+If Offense drills are chosen, the player always wins. Practicing Shooting or Passing both lead to the same success.
+
+Zero-sum: training advantage flips completely.
+
+
+
+
+
+
+13. Lawyer vs. Judge
+
+A lawyer (Player 1) builds the case on Constitutional law or Case precedent. The judge (Player 2) reacts.
+
+If Constitutional law is emphasized, the judge always loses. Responding with Dismissal or Objection makes no difference, since both result in loss.
+
+If Case precedent is emphasized, the judge always wins. Citing Binding precedent or Similar case both bring the same winning result.
+
+Zero-sum: legal footing rests entirely with one side.
+
+
+
+
+
+
+14. Entrepreneur vs. Investor
+
+An entrepreneur (Player 1) pitches a Prototype or a Business plan. The investor (Player 2) responds.
+
+If the Prototype is pitched, the investor always loses. Challenging Feasibility or Scalability both lead to the same failure.
+
+If the Business plan is pitched, the investor always wins. Questioning Valuation or Equity share both give the same winning outcome.
+
+Zero-sum: every deal favors one at the other’s expense.
+
+
+
+
+
+
+15. Journalist vs. Interviewee
+
+A journalist (Player 1) asks about Personal life or Policy stance. The interviewee (Player 2) answers.
+
+If the question is about Personal life, the interviewee always loses. Whether they offer Details or Privacy defense, both lead to the same loss.
+
+If the question is about Policy stance, the interviewee always wins. Stressing Achievements or Promises both deliver the same success.
+
+Zero-sum: narrative control shifts completely.
+
+
+
+
+
+
+16. Teacher vs. Examiner
+
+A teacher (Player 1) prepares pupils for Writing or Mathematics. The examiner (Player 2) sets the test.
+
+If pupils are trained in Writing, the examiner always loses. Testing Essays or Grammar both produce the same losing outcome.
+
+If pupils are trained in Mathematics, the examiner always wins. Testing Algebra or Geometry both lead to the same winning result.
+
+Zero-sum: preparation advantage lies fully with one.
+
+
+
+
+
+
+17. Politician vs. Rival
+
+A politician (Player 1) frames the debate on Jobs or Immigration. The rival (Player 2) counters.
+
+If the topic is Jobs, the rival always loses. Arguing Unemployment or Wages both end in the same defeat.
+
+If the topic is Immigration, the rival always wins. Stressing Border policy or Integration both yield the same success.
+
+Zero-sum: voter support swings entirely one way.
+
+
+
+
+
+
+18. Debater vs. Challenger
+
+A debater (Player 1) opens with Freedom or Security. The challenger (Player 2) responds.
+
+If Freedom is the opening, the challenger always loses. Rebutting with Rights or Responsibility makes no difference, since both fail.
+
+If Security is the opening, the challenger always wins. Arguing Safety or Enforcement both lead to the same winning outcome.
+
+Zero-sum: rhetorical control is absolute for one side.
+
+
+
+
+
+
+19. Doctor vs. Patient
+
+A doctor (Player 1) prescribes Medication or Lifestyle change. The patient (Player 2) responds.
+
+If Medication is prescribed, the patient always loses. Complying or refusing both bring the same losing result.
+
+If Lifestyle change is prescribed, the patient always wins. Choosing Exercise or Diet both produce the same winning payoff.
+
+Zero-sum: health progress benefits one at the other’s cost.
+
+
+
+
+
+
+20. Director vs. Actor
+
+A director (Player 1) focuses rehearsal on Blocking or Emotion. The actor (Player 2) adapts.
+
+If Blocking is emphasized, the actor always loses. Adjusting Movement or Timing both end in failure.
+
+If Emotion is emphasized, the actor always wins. Playing with Expressiveness or Subtlety both result in the same success.
+
+Zero-sum: control of the performance belongs wholly to one.

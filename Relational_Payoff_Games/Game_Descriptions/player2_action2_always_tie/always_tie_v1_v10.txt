@@ -1,0 +1,148 @@
+Game descriptions for when player 1 = action 1, then player 2 loses with either action and the losses are the same; 
+when player 1 chooses action 2, player 2 wins either way, and the rewards are the same.
+V1 - V10: 
+
+1. Prosecutor vs. Defense Attorney
+
+A prosecutor (Player 1) decides to pursue Fraud charges or Assault charges. The defense attorney (Player 2) chooses a defense tactic.
+
+If Fraud charges are filed, the defense attorney always loses. Choosing Lack of intent or Insufficient evidence makes no difference, since both lead to the same losing outcome.
+
+If Assault charges are filed, the defense attorney always wins. Whether using Self-defense or Mistaken identity, both result in the same winning outcome.
+
+Zero-sum: every courtroom gain by one is a loss for the other.
+
+
+
+
+
+
+2. Candidate vs. Rival
+
+A candidate (Player 1) runs on Education reform or Tax policy. The rival (Player 2) sets their counter-narrative.
+
+If Education reform is emphasized, the rival always loses. Whether they argue Curriculum or Funding, the outcome is the same loss.
+
+If Tax policy is emphasized, the rival always wins. Picking Corporate cuts or Family relief makes no difference, since both lead to the same win.
+
+Zero-sum: public opinion tips entirely to one side.
+
+
+
+
+
+
+3. Teacher vs. Student
+
+A teacher (Player 1) holds a test on History or Mathematics. The student (Player 2) prepares accordingly.
+
+If the exam is on History, the student always loses. Studying Dates or Events leads to the same losing result.
+
+If the exam is on Mathematics, the student always wins. Preparing Algebra or Geometry produces the same winning outcome.
+
+Zero-sum: mastery flows entirely one way.
+
+
+
+
+
+
+4. Negotiator vs. Counterparty
+
+A negotiator (Player 1) pushes talks on Tariffs or Security agreements. The counterparty (Player 2) responds.
+
+If Tariffs are the focus, the counterparty always loses. Whether they push Imports or Exports, both lead to the same losing result.
+
+If Security agreements are the focus, the counterparty always wins. Choosing Border patrol or Weapons limits yields the same winning payoff.
+
+Zero-sum: leverage swings completely.
+
+
+
+
+
+
+5. Journalist vs. Politician
+
+A journalist (Player 1) chooses to ask about Scandals or Policy details. The politician (Player 2) answers.
+
+If the question is about Scandals, the politician always loses. Deflecting or denying both lead to the same outcome of loss.
+
+If the question is about Policy details, the politician always wins. Highlighting successes or blaming rivals both deliver the same winning result.
+
+Zero-sum: control of the narrative rests entirely with one side.
+
+
+
+
+
+
+6. Coach vs. Player
+
+A coach (Player 1) emphasizes Defense drills or Offense drills. The player (Player 2) adjusts training.
+
+If Defense drills are chosen, the player always loses. Practicing Positioning or Tackling makes no difference, since both result in failure.
+
+If Offense drills are chosen, the player always wins. Whether they work on Shooting or Passing, the outcome is the same win.
+
+Zero-sum: practice outcomes are absolute.
+
+
+
+
+
+
+7. Manager vs. Employee
+
+A manager (Player 1) assigns work on Strategy or Execution. The employee (Player 2) reacts.
+
+If Strategy is assigned, the employee always loses. Producing Reports or Plans both lead to the same losing outcome.
+
+If Execution is assigned, the employee always wins. Delivering Quick results or Minimal effort both end in the same win.
+
+Zero-sum: authority in the workplace flows one way.
+
+
+
+
+
+
+8. Student vs. Examiner
+
+A student (Player 1) attempts Essay A or Essay B. The examiner (Player 2) grades.
+
+If Essay A is attempted, the examiner always loses. Focusing on Structure or Content makes no difference, since both lead to failure.
+
+If Essay B is attempted, the examiner always wins. Grading on Critical thinking or Grammar both give the same success.
+
+Zero-sum: assessment advantage rests with one.
+
+
+
+
+
+
+9. Debater vs. Challenger
+
+A debater (Player 1) speaks on Liberty or Security. The challenger (Player 2) rebuts.
+
+If Liberty is argued, the challenger always loses. Whether rebutting with Rights or Responsibility, the outcome is identical defeat.
+
+If Security is argued, the challenger always wins. Using Safety or Enforcement leads to the same winning result.
+
+Zero-sum: rhetorical advantage lies wholly with one.
+
+
+
+
+
+
+10. Director vs. Actor
+
+A director (Player 1) stresses Blocking or Emotion in rehearsal. The actor (Player 2) adapts.
+
+If Blocking is stressed, the actor always loses. Adjusting Movement or Timing both produce the same failure.
+
+If Emotion is stressed, the actor always wins. Emphasizing Expressiveness or Subtlety both lead to the same payoff of success.
+
+Zero-sum: creative control belongs fully to one.

@@ -1,0 +1,148 @@
+Game descriptions for when player 1 = action 1, then player 2 loses with either action and the losses are the same; 
+when player 1 chooses action 2, player 2 wins either way, and the rewards are the same.
+V31 - V40: 
+
+31. Candidate vs. Opponent
+
+A candidate (Player 1) stresses Foreign policy or Healthcare. The opponent (Player 2) crafts rebuttals.
+
+If the topic is Foreign policy, the opponent always loses. Rebutting with Military readiness or Alliances both lead to the same failure.
+
+If the topic is Healthcare, the opponent always wins. Focusing on Insurance costs or Hospital access both produce the same success.
+
+Zero-sum: the campaign swing is absolute.
+
+
+
+
+
+
+32. Mentor vs. Apprentice
+
+A mentor (Player 1) teaches Crafting or Strategy. The apprentice (Player 2) responds.
+
+If Crafting is taught, the apprentice always loses. Practicing Tools or Materials both end in the same failure.
+
+If Strategy is taught, the apprentice always wins. Studying Planning or Tactics both result in the same success.
+
+Zero-sum: learning gains are strictly opposed.
+
+
+
+
+
+
+33. Author vs. Editor
+
+An author (Player 1) drafts Poetry or Prose. The editor (Player 2) critiques.
+
+If Poetry is drafted, the editor always loses. Critiquing Meter or Imagery both result in the same losing outcome.
+
+If Prose is drafted, the editor always wins. Editing Grammar or Style both lead to the same winning result.
+
+Zero-sum: editorial power grows as author control shrinks.
+
+
+
+
+
+
+34. Leader vs. Advisor
+
+A leader (Player 1) bases policy on Security or Economy. The advisor (Player 2) reacts.
+
+If the focus is Security, the advisor always loses. Recommending Defense budget or Border patrol both result in the same defeat.
+
+If the focus is Economy, the advisor always wins. Suggesting Tax reform or Jobs plan both deliver the same win.
+
+Zero-sum: policy leverage lies wholly with one.
+
+
+
+
+
+
+35. Actor vs. Director
+
+An actor (Player 1) insists on Ad-libbing or Sticking to script. The director (Player 2) responds.
+
+If Ad-libbing is chosen, the director always loses. Responding with Retakes or Notes both bring the same losing result.
+
+If Sticking to script is chosen, the director always wins. Adjusting Blocking or Tone both lead to the same successful outcome.
+
+Zero-sum: creative control flows entirely to one.
+
+
+
+
+
+
+36. Lawyer vs. Jury
+
+A lawyer (Player 1) emphasizes Character defense or Timeline defense. The jury (Player 2) weighs evidence.
+
+If Character defense is used, the jury always loses. Questioning Credibility or Consistency both lead to the same failure.
+
+If Timeline defense is used, the jury always wins. Highlighting Precise dates or Approximate times both bring the same success.
+
+Zero-sum: verdict weight falls wholly to one side.
+
+
+
+
+
+
+37. Negotiator vs. Delegate
+
+A negotiator (Player 1) opens talks on Trade or Security. The delegate (Player 2) replies.
+
+If Trade is the subject, the delegate always loses. Countering with Tariffs or Quotas both produce the same loss.
+
+If Security is the subject, the delegate always wins. Stressing Alliances or Arms both yield the same winning outcome.
+
+Zero-sum: bargaining advantage moves completely.
+
+
+
+
+
+
+38. Student vs. Examiner
+
+A student (Player 1) answers a Theory question or a Practical question. The examiner (Player 2) grades.
+
+If the answer is on Theory, the examiner always loses. Grading Concepts or Definitions both end in the same defeat.
+
+If the answer is on Practical, the examiner always wins. Grading Method or Result both bring the same success.
+
+Zero-sum: exam advantage rests with one.
+
+
+
+
+
+
+39. Politician vs. Interviewer
+
+A politician (Player 1) discusses Education or Foreign affairs. The interviewer (Player 2) probes.
+
+If on Education, the interviewer always loses. Asking about Funding or Standards both produce the same failure.
+
+If on Foreign affairs, the interviewer always wins. Asking about Allies or Defense both lead to the same winning outcome.
+
+Zero-sum: questioning power shifts entirely.
+
+
+
+
+
+
+40. Author vs. Reviewer
+
+An author (Player 1) releases a Memoir or a Novel. The reviewer (Player 2) critiques.
+
+If the Memoir is published, the reviewer always loses. Criticizing Tone or Detail both result in the same loss.
+
+If the Novel is published, the reviewer always wins. Critiquing Plot or Style both produce the same success.
+
+Zero-sum: critical reception flips decisively.

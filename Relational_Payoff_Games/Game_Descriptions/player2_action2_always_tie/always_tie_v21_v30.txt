@@ -1,0 +1,148 @@
+Game descriptions for when player 1 = action 1, then player 2 loses with either action and the losses are the same; 
+when player 1 chooses action 2, player 2 wins either way, and the rewards are the same.
+V21 - V30: 
+
+21. Manager vs. Team Lead
+
+A manager (Player 1) assigns focus to Budgeting or Execution. The team lead (Player 2) reacts.
+
+If Budgeting is chosen, the team lead always loses. Choosing Cutting costs or Delaying tasks makes no difference, since both lead to the same loss.
+
+If Execution is chosen, the team lead always wins. Whether they Streamline processes or Reassign staff, both produce the same winning result.
+
+Zero-sum: one side’s control over workflow is the other’s loss.
+
+
+
+
+
+
+22. Athlete vs. Rival
+
+An athlete (Player 1) decides to compete in the 100m sprint or the 1500m race. The rival (Player 2) prepares.
+
+If the 100m sprint is chosen, the rival always loses. Training Starts or Speed both result in the same defeat.
+
+If the 1500m race is chosen, the rival always wins. Specializing in Endurance or Pacing both yield the same winning outcome.
+
+Zero-sum: athletic advantage lies entirely with one side.
+
+
+
+
+
+
+23. Teacher vs. Student
+
+A teacher (Player 1) tests on Geography or Mathematics. The student (Player 2) studies.
+
+If the test is on Geography, the student always loses. Studying Maps or Capitals both lead to the same failure.
+
+If the test is on Mathematics, the student always wins. Preparing Algebra or Geometry both produce the same success.
+
+Zero-sum: preparedness is decisive for one over the other.
+
+
+
+
+
+
+24. Candidate vs. Challenger
+
+A candidate (Player 1) campaigns on Environment or Economy. The challenger (Player 2) responds.
+
+If the Environment is emphasized, the challenger always loses. Countering with Regulation or Innovation both end in the same defeat.
+
+If the Economy is emphasized, the challenger always wins. Focusing on Taxes or Jobs both bring the same winning result.
+
+Zero-sum: campaign momentum swings entirely.
+
+
+
+
+
+
+25. Director vs. Actor
+
+A director (Player 1) stresses Lighting or Dialogue. The actor (Player 2) adapts.
+
+If Lighting is stressed, the actor always loses. Adjusting Blocking or Timing both lead to failure.
+
+If Dialogue is stressed, the actor always wins. Playing with Emotional delivery or Straightforward delivery both produce the same success.
+
+Zero-sum: the scene’s power lies with one side.
+
+
+
+
+
+
+26. Negotiator vs. Counterparty
+
+A negotiator (Player 1) sets terms around Tariffs or Quotas. The counterparty (Player 2) responds.
+
+If Tariffs are discussed, the counterparty always loses. Arguing Imports or Exports both lead to the same losing outcome.
+
+If Quotas are discussed, the counterparty always wins. Raising Volume limits or Seasonal caps both result in the same win.
+
+Zero-sum: concessions fall entirely to one side.
+
+
+
+
+
+
+27. Lawyer vs. Opposing Counsel
+
+A lawyer (Player 1) frames arguments on Motive or Opportunity. Opposing counsel (Player 2) replies.
+
+If on Motive, opposing counsel always loses. Using Alternative suspect or Psychological profile both result in the same failure.
+
+If on Opportunity, opposing counsel always wins. Stressing Timeline or Location both yield the same winning outcome.
+
+Zero-sum: courtroom control belongs wholly to one.
+
+
+
+
+
+
+28. Journalist vs. Politician
+
+A journalist (Player 1) presses on Ethics or Policy details. The politician (Player 2) answers.
+
+If asked about Ethics, the politician always loses. Choosing Excuses or Counterattacks both end in loss.
+
+If asked about Policy details, the politician always wins. Highlighting Results or Blaming opponents both give the same winning payoff.
+
+Zero-sum: narrative authority rests with one side.
+
+
+
+
+
+
+29. Coach vs. Athlete
+
+A coach (Player 1) demands focus on Defense or Offense. The athlete (Player 2) adjusts.
+
+If Defense is demanded, the athlete always loses. Practicing Blocking or Positioning both result in the same defeat.
+
+If Offense is demanded, the athlete always wins. Practicing Shooting or Passing both bring the same success.
+
+Zero-sum: training victories belong entirely to one.
+
+
+
+
+
+
+30. Professor vs. Student
+
+A professor (Player 1) bases the exam on Philosophy or Statistics. The student (Player 2) prepares.
+
+If the exam is on Philosophy, the student always loses. Studying Theories or Arguments both end in the same failure.
+
+If the exam is on Statistics, the student always wins. Preparing Probability or Regression both produce the same success.
+
+Zero-sum: academic advantage rests fully with one.

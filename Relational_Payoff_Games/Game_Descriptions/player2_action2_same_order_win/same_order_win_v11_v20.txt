@@ -1,0 +1,148 @@
+Game descriptions for when player 1 = action 1, then player 2 wins with either action; 
+when player 1 chooses action 2, player 2 loses either way, but action 1 results in a smaller loss.
+V11 - V20: 
+
+11. Librarian vs. Bookworm
+
+A bookworm (Player 1) sneaks into the Reading room or the Storage vault. The librarian (Player 2) patrols the Entrance or the Shelves.
+
+If the bookworm enters the Reading room, patrolling the Entrance (win for Librarian) or the Shelves (win for Librarian) always stops them.
+
+If the bookworm enters the Storage vault, the librarian always fails, though patrolling the Entrance (smaller loss for Librarian) slows them more than patrolling the Shelves (bigger loss for Librarian).
+
+This game is zero-sum: one’s access is the other’s loss.
+
+
+
+
+
+
+12. Farmer vs. Drought
+
+A farmer (Player 1) plants in the Low field or the High field. The drought (Player 2) dries the Irrigation canals or the Wells.
+
+If crops are in the Low field, drying the Canals (win for Drought) or the Wells (win for Drought) always destroys the harvest.
+
+If crops are in the High field, the drought always fails, though drying the Wells (smaller loss for Drought) is less costly than drying the Canals (bigger loss for Drought).
+
+This contest is zero-sum: water scarcity is the farmer’s misfortune.
+
+
+
+
+
+
+13. Sailor vs. Storm
+
+A sailor (Player 1) sails the Northern waters or the Southern waters. The storm (Player 2) brings High winds or Heavy rain.
+
+If sailing north, High winds (win for Storm) or Heavy rain (win for Storm) always disrupt the voyage.
+
+If sailing south, the storm always fails, though Heavy rain (smaller loss for Storm) does more harm than High winds (bigger loss for Storm).
+
+This struggle is zero-sum: the storm’s disruption equals the sailor’s peril.
+
+
+
+
+
+
+14. Actor vs. Audience
+
+An actor (Player 1) performs a Classic play or an Experimental script. The audience (Player 2) responds with Applause or Criticism.
+
+If the Classic play is staged, Applause (win for Audience) or Criticism (win for Audience) both validate the crowd’s power.
+
+If the Experimental script is staged, the audience always loses, though Applause (smaller loss for Audience) is less damaging than Criticism (bigger loss for Audience).
+
+This contest is zero-sum: audience sentiment shapes the actor’s fortunes.
+
+
+
+
+
+
+15. Soldier vs. Desert
+
+A soldier (Player 1) marches via the Main road or the Hidden path. The desert (Player 2) unleashes Sandstorms or Heat waves.
+
+If the Main road is chosen, Sandstorms (win for Desert) or Heat waves (win for Desert) always drain supplies.
+
+If the Hidden path is chosen, the desert always fails, though Sandstorms (smaller loss for Desert) do less harm than Heat waves (bigger loss for Desert).
+
+This game is zero-sum: desert’s grip is soldier’s hardship.
+
+
+
+
+
+
+16. Diver vs. Jellyfish
+
+A diver (Player 1) swims at the Surface or the Deep zone. Jellyfish (Player 2) gather in Shallow water or Near the reef.
+
+If at the Surface, Shallow swarms (win for Jellyfish) or Reef swarms (win for Jellyfish) always sting.
+
+If in the Deep zone, jellyfish always fail, though Reef swarms (smaller loss for Jellyfish) are less costly than Shallow swarms (bigger loss for Jellyfish).
+
+This encounter is zero-sum: jellyfish stings are diver’s losses.
+
+
+
+
+
+
+17. Politician vs. Press
+
+A politician (Player 1) speaks on the Budget or on Defense. The press (Player 2) headlines Scandals or Policy critiques.
+
+If the speech is on the Budget, Scandals (win for Press) or Policy critiques (win for Press) dominate the cycle.
+
+If the speech is on Defense, the press always loses, though Scandals (smaller loss for Press) do less harm than Policy critiques (bigger loss for Press).
+
+This contest is zero-sum: media framing erodes political gain.
+
+
+
+
+
+
+18. Trader vs. Market
+
+A trader (Player 1) sells Gold or Silver. The market (Player 2) shifts through Price drops or Shortages.
+
+If selling Gold, Price drops (win for Market) or Shortages (win for Market) always hurt the trader.
+
+If selling Silver, the market always fails, though Price drops (smaller loss for Market) sting less than Shortages (bigger loss for Market).
+
+This trade is zero-sum: market’s swings mirror trader’s loss.
+
+
+
+
+
+
+19. Teacher vs. Pupils
+
+A teacher (Player 1) assigns Homework or a Group project. Pupils (Player 2) react with Compliance or Resistance.
+
+If Homework is given, Compliance (win for Pupils) or Resistance (win for Pupils) both leave them in control.
+
+If a Group project is given, pupils always fail, though Compliance (smaller loss for Pupils) is less harmful than Resistance (bigger loss for Pupils).
+
+This is zero-sum: pupils’ success mirrors teacher’s setback.
+
+
+
+
+
+
+20. Detective vs. Mystery
+
+A detective (Player 1) follows the Main lead or the Cold trail. The mystery (Player 2) hides False clues or Witness silence.
+
+If on the Main lead, False clues (win for Mystery) or Witness silence (win for Mystery) always block the case.
+
+If on the Cold trail, the mystery always fails, though False clues (smaller loss for Mystery) do less harm than Witness silence (bigger loss for Mystery).
+
+This puzzle is zero-sum: concealment equals detective’s struggle.

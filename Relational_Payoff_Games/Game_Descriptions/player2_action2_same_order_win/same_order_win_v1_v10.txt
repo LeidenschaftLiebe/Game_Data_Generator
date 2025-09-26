@@ -1,0 +1,148 @@
+Game descriptions for when player 1 = action 1, then player 2 wins with either action; 
+when player 1 chooses action 2, player 2 loses either way, but action 1 results in a smaller loss.
+V1 - V10: 
+
+1. Archaeologist vs. Cave Collapse
+
+An archaeologist (Player 1) decides to enter through the Wide entrance or the Narrow shaft. The unstable cave (Player 2) collapses unpredictably.
+
+If the archaeologist enters the Wide entrance, the collapse succeeds either way (Rockfall A (win for Cave) or Rockfall B (win for Cave)).
+
+If the archaeologist enters the Narrow shaft, the collapse always fails, though Rockfall A (smaller loss for Cave) is less damaging than Rockfall B (bigger loss for Cave).
+
+This is zero-sum: the cave’s danger equals the archaeologist’s peril.
+
+
+
+
+
+
+2. Chef vs. Food Critic
+
+A chef (Player 1) decides to serve a Signature dish or an Experimental dish. A critic (Player 2) selects which part of the meal to spotlight.
+
+If the chef serves the Signature dish, the critic always wins with their review (Focus A (win for Critic) or Focus B (win for Critic)).
+
+If the chef serves the Experimental dish, the critic always loses, though choosing Focus A (smaller loss for Critic) softens the review compared to Focus B (bigger loss for Critic).
+
+This contest is zero-sum: the critic’s reputation gain comes at the chef’s expense.
+
+
+
+
+
+
+3. Explorer vs. River Rapids
+
+An explorer (Player 1) must cross via the Main crossing or the Hidden ford. The rapids (Player 2) shift currents.
+
+If the explorer uses the Main crossing, the rapids always prevail (Current A (win for Rapids) or Current B (win for Rapids)).
+
+If the explorer uses the Hidden ford, the rapids always fail, though pushing Current A (smaller loss for Rapids) is less disastrous than Current B (bigger loss for Rapids).
+
+This struggle is zero-sum: the river’s force is the explorer’s obstacle.
+
+
+
+
+
+
+4. Politician vs. Media Cycle
+
+A politician (Player 1) launches a campaign on Issue Alpha or Issue Beta. The media (Player 2) decides what to headline.
+
+If the campaign is on Alpha, the media always shapes the narrative (Headline A (win for Media) or Headline B (win for Media)).
+
+If the campaign is on Beta, the media always loses control, though choosing Headline A (smaller loss for Media) blunts the damage compared to Headline B (bigger loss for Media).
+
+This game is zero-sum: the media’s framing success erodes the politician’s gains.
+
+
+
+
+
+
+5. Pilot vs. Crosswinds
+
+A pilot (Player 1) chooses to land on Runway 1 or Runway 2. The crosswinds (Player 2) shift.
+
+If landing on Runway 1, the crosswinds always disrupt (Shift A (win for Crosswinds) or Shift B (win for Crosswinds)).
+
+If landing on Runway 2, the crosswinds always fail to interfere, though Shift A (smaller loss for Crosswinds) is less costly than Shift B (bigger loss for Crosswinds).
+
+This encounter is zero-sum: safe landings are failures for the crosswinds.
+
+
+
+
+
+
+6. Musician vs. Audience
+
+A musician (Player 1) chooses to perform a Classic piece or a New composition. The audience (Player 2) reacts.
+
+If the Classic piece is played, the audience always applauds (Reaction A (win for Audience) or Reaction B (win for Audience)).
+
+If the New composition is played, the audience always rejects it, though Reaction A (smaller loss for Audience) is milder than Reaction B (bigger loss for Audience).
+
+This contest is zero-sum: the audience’s satisfaction is the musician’s risk.
+
+
+
+
+
+
+7. Athlete vs. Weather
+
+An athlete (Player 1) schedules training on the Track or the Field. The weather (Player 2) shifts conditions.
+
+If the athlete trains on the Track, the weather always disrupts (Shift A (win for Weather) or Shift B (win for Weather)).
+
+If the athlete trains on the Field, the weather always fails, though Shift A (smaller loss for Weather) is less harmful than Shift B (bigger loss for Weather).
+
+This game is zero-sum: favorable weather is unfavorable to the athlete, and vice versa.
+
+
+
+
+
+
+8. Teacher vs. Student
+
+A student (Player 1) chooses to submit the Homework or the Project. The teacher (Player 2) decides grading focus.
+
+If the Homework is submitted, the teacher always prevails in evaluation (Focus A (win for Teacher) or Focus B (win for Teacher)).
+
+If the Project is submitted, the teacher always loses, though Focus A (smaller loss for Teacher) reduces damage compared to Focus B (bigger loss for Teacher).
+
+This setup is zero-sum: one side’s performance gain is the other’s loss.
+
+
+
+
+
+
+9. Diver vs. Tide
+
+A diver (Player 1) enters at the Harbor or the Cove. The tide (Player 2) surges.
+
+If entering at the Harbor, the tide always overwhelms (Surge A (win for Tide) or Surge B (win for Tide)).
+
+If entering at the Cove, the tide always fails, though Surge A (smaller loss for Tide) is less costly than Surge B (bigger loss for Tide).
+
+This encounter is zero-sum: tide’s strength equals diver’s hazard.
+
+
+
+
+
+
+10. Inventor vs. Market
+
+An inventor (Player 1) releases a Proven design or a Prototype. The market (Player 2) reacts.
+
+If releasing the Proven design, the market always rewards itself (Response A (win for Market) or Response B (win for Market)).
+
+If releasing the Prototype, the market always rejects, though Response A (smaller loss for Market) softens the effect compared to Response B (bigger loss for Market).
+
+This rivalry is zero-sum: the market’s acceptance mirrors the inventor’s struggle.

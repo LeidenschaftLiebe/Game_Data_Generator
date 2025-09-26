@@ -1,0 +1,148 @@
+Game descriptions for when player 1 = action 1, then player 2 wins with either action; 
+when player 1 chooses action 2, player 2 loses either way, but action 1 results in a smaller loss.
+V21 - V30: 
+
+21. Boxer vs. Crowd
+
+A boxer (Player 1) uses a Standard combo or an Unusual move. The crowd (Player 2) reacts with Cheers or Boos.
+
+If using the Standard combo, Cheers (win for Crowd) or Boos (win for Crowd) both reward the crowd’s power.
+
+If using the Unusual move, the crowd always loses, though Cheers (smaller loss for Crowd) hurt less than Boos (bigger loss for Crowd).
+
+Zero-sum: crowd satisfaction mirrors boxer’s struggle.
+
+
+
+
+
+
+22. Engineer vs. System
+
+An engineer (Player 1) powers up Circuit A or Circuit B. The system (Player 2) responds with Overload or Short circuit.
+
+If Circuit A is powered, Overload (win for System) or Short circuit (win for System) always cripple it.
+
+If Circuit B is powered, the system always fails, though Overload (smaller loss for System) is less severe than Short circuit (bigger loss for System).
+
+Zero-sum: system’s resistance equals engineer’s setback.
+
+
+
+
+
+
+23. Farmer vs. Flood
+
+A farmer (Player 1) irrigates the Upper field or the Lower field. The flood (Player 2) spreads through Overflow or Backflow.
+
+If in the Upper field, Overflow (win for Flood) or Backflow (win for Flood) always ruin crops.
+
+If in the Lower field, the flood always fails, though Overflow (smaller loss for Flood) is less than Backflow (bigger loss for Flood).
+
+Zero-sum: flood’s rise is farmer’s loss.
+
+
+
+
+
+
+24. Runner vs. Heat
+
+A runner (Player 1) trains in the Morning or the Afternoon. The heat (Player 2) strikes with Humidity or Scorching sun.
+
+If in the Morning, Humidity (win for Heat) or Scorching sun (win for Heat) always hinder.
+
+If in the Afternoon, the heat always fails, though Humidity (smaller loss for Heat) is less harsh than Scorching sun (bigger loss for Heat).
+
+Zero-sum: weather gains equal runner’s setbacks.
+
+
+
+
+
+
+25. Captain vs. Fog
+
+A captain (Player 1) sails via the Shore route or the Deep route. Fog (Player 2) rolls in as Thick mist or Low clouds.
+
+If the Shore route is chosen, Thick mist (win for Fog) or Low clouds (win for Fog) always obscure navigation.
+
+If the Deep route is chosen, fog always fails, though Low clouds (smaller loss for Fog) are less costly than Thick mist (bigger loss for Fog).
+
+Zero-sum: fog’s concealment equals captain’s difficulty.
+
+
+
+
+
+
+26. Athlete vs. Injury
+
+An athlete (Player 1) trains Technique or Strength. Injury (Player 2) strikes through Sprain or Fatigue.
+
+If focusing on Technique, Sprain (win for Injury) or Fatigue (win for Injury) always set them back.
+
+If focusing on Strength, injury always fails, though Sprain (smaller loss for Injury) is less harmful than Fatigue (bigger loss for Injury).
+
+Zero-sum: injury’s gain is athlete’s loss.
+
+
+
+
+
+
+27. Pilot vs. Crosswinds
+
+A pilot (Player 1) lands on Runway East or Runway West. Crosswinds (Player 2) shift Toward the nose or Toward the tail.
+
+If using Runway East, either shift Toward the nose (win for Crosswinds) or Toward the tail (win for Crosswinds) always destabilizes.
+
+If using Runway West, crosswinds always fail, though Toward the nose (smaller loss for Crosswinds) is less damaging than Toward the tail (bigger loss for Crosswinds).
+
+Zero-sum: crosswind strength equals pilot’s struggle.
+
+
+
+
+
+
+28. Performer vs. Stage Light
+
+A performer (Player 1) acts under the Main spotlight or the Side light. The lights (Player 2) flicker with Dimness or Color shifts.
+
+If under the Main spotlight, Dimness (win for Lights) or Color shifts (win for Lights) always spoil the scene.
+
+If under the Side light, the lights always fail, though Dimness (smaller loss for Lights) is milder than Color shifts (bigger loss for Lights).
+
+Zero-sum: lights’ disruption equals performer’s loss.
+
+
+
+
+
+
+29. Builder vs. Earthquake
+
+A builder (Player 1) constructs on the Plateau or the Valley. The quake (Player 2) shakes with Tremors or Aftershocks.
+
+If on the Plateau, Tremors (win for Quake) or Aftershocks (win for Quake) always damage.
+
+If on the Valley, the quake always fails, though Tremors (smaller loss for Quake) hurt less than Aftershocks (bigger loss for Quake).
+
+Zero-sum: quake’s strike equals builder’s failure.
+
+
+
+
+
+
+30. Fisher vs. Current
+
+A fisher (Player 1) casts in the Bay or the Harbor. The current (Player 2) moves with Tide rise or Undertow.
+
+If in the Bay, Tide rise (win for Current) or Undertow (win for Current) always spoil the catch.
+
+If in the Harbor, the current always fails, though Tide rise (smaller loss for Current) is less harmful than Undertow (bigger loss for Current).
+
+Zero-sum: current’s gain equals fisher’s loss.

@@ -1,0 +1,148 @@
+Game descriptions for when player 1 = action 1, then player 2 wins with either action; 
+when player 1 chooses action 2, player 2 loses either way, but action 1 results in a smaller loss.
+V31 - V40: 
+
+31. Worker vs. Machine
+
+A worker (Player 1) uses the Press or the Lathe. The machine (Player 2) fails through Overheating or Jammed gears.
+
+If using the Press, Overheating (win for Machine) or Jammed gears (win for Machine) always break production.
+
+If using the Lathe, the machine always fails, though Overheating (smaller loss for Machine) is less than Jammed gears (bigger loss for Machine).
+
+Zero-sum: malfunction’s gain is worker’s loss.
+
+
+
+
+
+
+32. Sailor vs. Whirlpool
+
+A sailor (Player 1) rows via the East channel or the West channel. A whirlpool (Player 2) pulls with Surface swirls or Deep suction.
+
+If via the East channel, Surface swirls (win for Whirlpool) or Deep suction (win for Whirlpool) always trap.
+
+If via the West channel, the whirlpool always fails, though Surface swirls (smaller loss for Whirlpool) do less than Deep suction (bigger loss for Whirlpool).
+
+Zero-sum: whirlpool’s pull equals sailor’s loss.
+
+
+
+
+
+
+33. Journalist vs. Leak
+
+A journalist (Player 1) pursues Story A or Story B. The leak (Player 2) distracts with Rumors or Fabricated documents.
+
+If covering Story A, Rumors (win for Leak) or Fabricated documents (win for Leak) always divert attention.
+
+If covering Story B, the leak always fails, though Rumors (smaller loss for Leak) are less damaging than Fabricated documents (bigger loss for Leak).
+
+Zero-sum: leak’s disruption equals journalist’s loss.
+
+
+
+
+
+
+34. Painter vs. Rain
+
+A painter (Player 1) works on the House or the Barn. Rain (Player 2) falls as Drizzle or Downpour.
+
+If painting the House, Drizzle (win for Rain) or Downpour (win for Rain) always ruin work.
+
+If painting the Barn, the rain always fails, though Drizzle (smaller loss for Rain) is less severe than Downpour (bigger loss for Rain).
+
+Zero-sum: rain’s gain equals painter’s loss.
+
+
+
+
+
+
+35. Student vs. Stress
+
+A student (Player 1) revises Math or History. Stress (Player 2) strikes with Distraction or Anxiety.
+
+If studying Math, Distraction (win for Stress) or Anxiety (win for Stress) always block focus.
+
+If studying History, stress always fails, though Distraction (smaller loss for Stress) is less harmful than Anxiety (bigger loss for Stress).
+
+Zero-sum: stress’s impact equals student’s setback.
+
+
+
+
+
+
+36. Doctor vs. Disease
+
+A doctor (Player 1) treats Flu or Pneumonia. The disease (Player 2) adapts by Mutating strain or Drug resistance.
+
+If treating Flu, Mutating strain (win for Disease) or Drug resistance (win for Disease) always overpower.
+
+If treating Pneumonia, the disease always fails, though Mutating strain (smaller loss for Disease) is less than Drug resistance (bigger loss for Disease).
+
+Zero-sum: disease’s adaptation is doctor’s failure.
+
+
+
+
+
+
+37. Farmer vs. Frost
+
+A farmer (Player 1) plants in the Orchard or the Vineyard. Frost (Player 2) strikes with Cold snap or Ice storm.
+
+If in the Orchard, Cold snap (win for Frost) or Ice storm (win for Frost) always damage.
+
+If in the Vineyard, frost always fails, though Cold snap (smaller loss for Frost) is less damaging than Ice storm (bigger loss for Frost).
+
+Zero-sum: frost’s gain equals farmer’s loss.
+
+
+
+
+
+
+38. Swimmer vs. Waves
+
+A swimmer (Player 1) heads for the Pier or the Buoy. Waves (Player 2) crash with Chop or Breaker.
+
+If toward the Pier, Chop (win for Waves) or Breaker (win for Waves) always overwhelm.
+
+If toward the Buoy, waves always fail, though Chop (smaller loss for Waves) is less dangerous than Breaker (bigger loss for Waves).
+
+Zero-sum: waves’ power equals swimmer’s struggle.
+
+
+
+
+
+
+39. Inventor vs. Rival Firm
+
+An inventor (Player 1) patents Design X or Design Y. A rival (Player 2) counters with Competing prototype or Aggressive marketing.
+
+If Design X is filed, Competing prototype (win for Rival) or Aggressive marketing (win for Rival) always undercut the inventor.
+
+If Design Y is filed, the rival always fails, though Competing prototype (smaller loss for Rival) is less damaging than Aggressive marketing (bigger loss for Rival).
+
+Zero-sum: rival’s gain is the inventor’s loss.
+
+
+
+
+
+
+40. Explorer vs. Sandstorm
+
+An explorer (Player 1) travels through the North dune or the South dune. The sandstorm (Player 2) strikes with Blinding gusts or Shifting sands.
+
+If the North dune is chosen, Blinding gusts (win for Sandstorm) or Shifting sands (win for Sandstorm) always overwhelm the explorer.
+
+If the South dune is chosen, the storm always fails, though Blinding gusts (smaller loss for Sandstorm) are less costly than Shifting sands (bigger loss for Sandstorm).
+
+Zero-sum: the storm’s fury is the explorer’s setback.

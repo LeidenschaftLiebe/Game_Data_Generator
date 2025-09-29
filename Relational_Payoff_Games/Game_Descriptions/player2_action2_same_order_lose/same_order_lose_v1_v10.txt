@@ -2,147 +2,159 @@ Game descriptions for when player 1 = action 1, then player 2 loses with either 
 when player 1 chooses action 2, player 2 wins either way, but action 1 results in a bigger win.
 V1 - V10: 
 
-1. Debater vs. Opponent
+1. Poacher vs. Park Ranger
 
-A debater (Player 1) chooses to argue Economics or Foreign policy. The opponent (Player 2) chooses their response line.
+Night falls over a protected reserve. A poacher prepares a hunt while a ranger decides how to respond.
 
-If Economics is chosen, the opponent always loses, whether they counter with Taxes (loss for Opponent) or Jobs (loss for Opponent).
+The poacher can operate with a silenced bow or a noisy truck spotlight.
+The ranger can launch a drone sweep or patrol on foot.
 
-If Foreign policy is chosen, the opponent always wins, though Countering with Diplomacy (better win for Opponent) is stronger than Countering with Defense (weaker win for Opponent).
+If the poacher uses the silenced bow, the ranger fails no matter what—both the drone sweep and the foot patrol come up empty.
 
-Zero-sum: the opponent’s gain is the debater’s loss.
+If the poacher uses the truck spotlight, the ranger succeeds either way; the drone sweep rolls up a larger success, while the foot patrol still succeeds but with fewer confiscations.
 
 
 
 
 
 
-2. Lawyer vs. Prosecutor
+2. Counterfeiter vs. Bank Teller
 
-A defense lawyer (Player 1) frames the case around Character evidence or Alibi evidence. The prosecutor (Player 2) replies.
+A counterfeiter tests a branch’s procedures; the head teller sets the screening approach.
 
-If Character evidence is used, the prosecutor always fails, whether attacking with Past behavior (loss for Prosecutor) or Witness doubt (loss for Prosecutor).
+The counterfeiter can pass notes via a distraction handoff or a front-counter deposit.
+The teller can run UV/pen checks on the spot or route bills to back-office verification.
 
-If Alibi evidence is used, the prosecutor always succeeds, though Attacking the Timeline (better win for Prosecutor) is stronger than Attacking the Witness (weaker win for Prosecutor).
+If the distraction handoff is used, the teller misses it regardless—both on-the-spot checks and back-office verification let it slip.
 
-Zero-sum: courtroom victories swing one way or the other.
+If the front-counter deposit is used, the teller catches it either way; on-the-spot checks make a bigger catch, while back-office verification still catches it but with less impact.
 
 
 
 
 
 
-3. Candidate vs. Rival
+3. Ticket Scalper vs. Event Security
 
-A candidate (Player 1) campaigns on Education or Healthcare. The rival (Player 2) chooses their counter-issue.
+Outside a sold-out arena, a scalper works the crowd while security chooses a tactic.
 
-If Education is chosen, the rival always loses, whether pushing Funding (loss for Rival) or Curriculum (loss for Rival).
+The scalper can move with roving whispers or set up a fixed corner post.
+Security can run targeted stings or do wide visible sweeps.
 
-If Healthcare is chosen, the rival always wins, though Pushing Costs (better win for Rival) is stronger than Pushing Access (weaker win for Rival).
+If the scalper roves with whispers, security comes up short either way—both stings and visible sweeps fail to land arrests.
 
-Zero-sum: campaign momentum is a direct contest.
+If the scalper sets a fixed post, security succeeds either way; targeted stings yield a bigger haul, while visible sweeps still work but net fewer.
 
 
 
 
 
 
-4. Chess Player vs. Opponent
+4. Data Leaker vs. Compliance Officer
 
-A chess player (Player 1) opens with Queen’s Gambit or King’s Pawn. The opponent (Player 2) replies.
+A staffer plans to exfiltrate files; compliance chooses how to monitor.
 
-If Queen’s Gambit is played, the opponent always loses, whether defending with d5 (loss for Opponent) or e6 (loss for Opponent).
+The leaker can use a zero-day exfil tool or a personal email forward.
+Compliance can enable deep packet inspection or audit email rules and headers.
 
-If King’s Pawn is played, the opponent always wins, though c5 Sicilian (better win for Opponent) is stronger than e5 (weaker win for Opponent).
+If the zero-day tool is used, compliance misses it regardless—both DPI and email audits fail to surface it.
 
-Zero-sum: each move reshapes the balance.
+If personal email is used, compliance stops it either way; DPI produces a stronger stop with richer forensics, while email audits still block it but with a thinner trail.
 
 
 
 
 
 
-5. Student vs. Examiner
+5. Graffiti Crew vs. Transit Inspector
 
-A student (Player 1) chooses to answer Essay Question A or Essay Question B. The examiner (Player 2) selects grading focus.
+A graffiti crew targets a rail yard at night; the inspector picks a deterrent.
 
-If Question A is answered, the examiner always loses, whether emphasizing Structure (loss for Examiner) or Content (loss for Examiner).
+The crew can strike with silent rollers or with a compressor sprayer.
+The inspector can deploy motion-sensor lights or increase guard walk-throughs.
 
-If Question B is answered, the examiner always wins, though focusing on Critical thinking (better win for Examiner) beats focusing on Grammar (weaker win for Examiner).
+If silent rollers are used, the inspector’s efforts fail either way—lights and walk-throughs both miss the taggers.
 
-Zero-sum: grading strength flips with the student’s choice.
+If the compressor sprayer is used, the inspector succeeds either way; motion-sensor lights produce a bigger deterrent, 
+while extra walk-throughs still disperse the crew but less decisively.
 
 
 
 
 
 
-6. Negotiator vs. Counterparty
+6. Pirate Vendor vs. Market Marshal
 
-A negotiator (Player 1) anchors the deal with High price or Low price. The counterparty (Player 2) reacts.
+A street seller moves bootleg goods; the marshal sets enforcement.
 
-If High price is set, the counterparty always loses, whether they respond with Delay (loss for Counterparty) or Concede (loss for Counterparty).
+The vendor can sell via coded handoffs or a front-table display.
+The marshal can run plainclothes buys or stage uniformed checkpoints.
 
-If Low price is set, the counterparty always wins, though Demanding Extras (better win for Counterparty) is stronger than Accepting Quickly (weaker win for Counterparty).
+If coded handoffs are used, enforcement fails regardless—both plainclothes buys and checkpoints come up empty.
 
-Zero-sum: one side’s leverage erodes the other’s.
+If a front-table display is used, enforcement succeeds either way; plainclothes buys deliver a larger bust, while checkpoints still work but with a smaller haul.
 
 
 
 
 
 
-7. Journalist vs. Politician
+7. Insider Tipster vs. Exchange Surveillance
 
-A journalist (Player 1) asks about Corruption or Policy record. The politician (Player 2) answers.
+A tipster plans trades; the exchange chooses a surveillance focus.
 
-If asked about Corruption, the politician always loses, whether answering with Denial (loss for Politician) or Deflection (loss for Politician).
+The tipster can act through a mule account network or a single retail account.
+Surveillance can tighten cross-account pattern detection or watch single-account anomalies.
 
-If asked about Policy record, the politician always wins, though Highlighting Achievements (better win for Politician) is stronger than Shifting Blame (weaker win for Politician).
+If the mule network is used, surveillance misses it either way—both cross-account and single-account watches fail this time.
 
-Zero-sum: every gain in narrative control is the other’s loss.
+If the single account is used, surveillance flags it either way; cross-account detection generates a stronger case, 
+while single-account monitoring still catches it but with a slimmer pattern.
 
 
 
 
 
 
-8. Teacher vs. Student
+8. Blackmailer vs. Cybercrime Detective
 
-A teacher (Player 1) quizzes on History or Math. The student (Player 2) responds.
+A blackmailer readies a drop; the detective chooses how to intercept.
 
-If the quiz is on History, the student always loses, whether answering with Dates (loss for Student) or Events (loss for Student).
+The blackmailer can demand payment via a privacy coin mixer or a mainstream wallet.
+The detective can trace mixers with chain analytics or monitor exchange KYC alerts.
 
-If the quiz is on Math, the student always wins, though Solving Algebra (better win for Student) is stronger than Solving Geometry (weaker win for Student).
+If the mixer route is used, the detective loses track either way—both analytics and KYC alerts fail to pin it down.
 
-Zero-sum: knowledge advantage shifts directly between teacher and student.
+If the mainstream wallet is used, the detective succeeds either way; chain analytics build a stronger case, while KYC alerts still secure a positive ID but with less detail.
 
 
 
 
 
 
-9. Manager vs. Employee
+9. Drone Trespasser vs. Stadium Security
 
-A manager (Player 1) assigns tasks on Strategy or Execution. The employee (Player 2) reacts.
+A drone operator seeks a stadium flyover; security picks a response.
 
-If assigned Strategy, the employee always loses, whether responding with Plans (loss for Employee) or Reports (loss for Employee).
+The operator can fly a low-signature microdrone or a standard quadcopter.
+Security can deploy RF takeover or dispatch a net-gun team.
 
-If assigned Execution, the employee always wins, though Quick delivery (better win for Employee) is stronger than Minimal effort (weaker win for Employee).
+If the microdrone is used, security fails regardless—both RF takeover and net-gun response come up short.
 
-Zero-sum: productivity wins come at the other’s expense.
+If the quadcopter is used, security succeeds either way; RF takeover produces a cleaner capture, while the net-gun team still brings it down but with more fuss.
 
 
 
 
 
 
-10. Diplomat vs. Negotiator
+10. Art Thief vs. Museum Chief of Security
 
-A diplomat (Player 1) emphasizes Trade or Security. The negotiator (Player 2) counters.
+A thief plans a lift from a gallery; the chief sets the counter.
 
-If Trade is emphasized, the negotiator always loses, whether pushing Tariffs (loss for Negotiator) or Quotas (loss for Negotiator).
+The thief can exploit a vent crawl or a crowd-blend exit.
+Security can pivot cameras to choke points or flood floors with guards.
 
-If Security is emphasized, the negotiator always wins, though Arms control (better win for Negotiator) is stronger than Border patrol (weaker win for Negotiator).
+If the vent crawl is used, security loses either way—camera pivots and extra guards both fail to intercept.
 
-Zero-sum: diplomatic concessions move strictly one way.
+If the crowd-blend exit is used, security succeeds either way; camera pivots secure a clearer stop, while added guards still catch the thief but with less precision.

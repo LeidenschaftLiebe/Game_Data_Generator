@@ -2,147 +2,158 @@ Game descriptions for when player 1 = action 1, then player 2 loses with either 
 when player 1 chooses action 2, player 2 wins either way, but action 1 results in a bigger win.
 V21 - V30: 
 
-21. Manager vs. Team Lead
+21. Archaeologist vs. Temple Traps
 
-A manager (Player 1) assigns focus to Budgeting or Execution. The team lead (Player 2) reacts.
+Deep in a buried complex, an archaeologist weighs two ways in, while ancient defenses still lurk.
 
-If Budgeting is chosen, the team lead always loses, whether responding with Cutting costs (loss for Team Lead) or Delaying tasks (loss for Team Lead).
+The archaeologist can enter via the collapsed stairway or the sealed door.
+The traps can trigger falling stones or poison darts.
 
-If Execution is chosen, the team lead always wins, though Streamlining processes (better win for Team Lead) is stronger than Reassigning staff (weaker win for Team Lead).
+If the archaeologist chooses the collapsed stairway, the traps fail either way; whether stones or darts are primed, the traps lose all the same.
 
-Zero-sum: one side’s control over workflow is the other’s loss.
+If the archaeologist chooses the sealed door, the traps succeed whichever is set, and falling stones produce a bigger win for the traps than poison darts.
 
 
 
 
 
 
-22. Athlete vs. Rival
+22. Journalist vs. Censorship Board
 
-An athlete (Player 1) decides to compete in the 100m sprint or the 1500m race. The rival (Player 2) chooses an event to specialize in.
+A reporter prepares a story while the board decides how to react.
 
-If the 100m sprint is chosen, the rival always loses, whether training in Starts (loss for Rival) or Speed (loss for Rival).
+The journalist can submit a controversial exposé or a mild feature.
+The board can block publication or delay review.
 
-If the 1500m race is chosen, the rival always wins, though focusing on Endurance (better win for Rival) is stronger than focusing on Pacing (weaker win for Rival).
+If the journalist submits the exposé, the board’s efforts fail either way; blocking or delaying both end in the same loss for the board.
 
-Zero-sum: athletic advantage lies entirely with one side.
+If the journalist submits the mild feature, the board succeeds regardless, and blocking yields a bigger win for the board than delaying.
 
 
 
 
 
 
-23. Teacher vs. Student
+23. Explorer vs. Jungle Hazard
 
-A teacher (Player 1) tests on Geography or Mathematics. The student (Player 2) studies in advance.
+An explorer plans the next leg; the jungle “chooses” which danger shows up.
 
-If the test is on Geography, the student always loses, whether preparing Maps (loss for Student) or Capitals (loss for Student).
+The explorer can take the swamp trail or the rocky slope.
+The hazard can be snakes or falling rocks.
 
-If the test is on Mathematics, the student always wins, though Practicing Algebra (better win for Student) is stronger than Practicing Geometry (weaker win for Student).
+If the explorer takes the swamp trail, the hazards come to nothing; snakes or rocks, the jungle loses in the same way.
 
-Zero-sum: preparedness is decisive for one over the other.
+If the explorer takes the rocky slope, the hazards prevail either way, and snakes give the jungle a bigger win than falling rocks.
 
 
 
 
 
 
-24. Candidate vs. Challenger
+24. Diver vs. Shipwreck Currents
 
-A candidate (Player 1) campaigns on Environment or Economy. The challenger (Player 2) chooses a response theme.
+A diver approaches a wreck while currents swirl unpredictably.
 
-If the Environment is emphasized, the challenger always loses, whether responding with Regulation (loss for Challenger) or Innovation (loss for Challenger).
+The diver can descend along the collapsed mast or the cargo hatch.
+The currents can surge near the mast or the hatch.
 
-If the Economy is emphasized, the challenger always wins, though Taxes (better win for Challenger) is stronger than Jobs (weaker win for Challenger).
+If the diver chooses the collapsed mast, the currents are beaten either way; surging at mast or hatch, the currents lose just the same.
 
-Zero-sum: momentum shifts entirely between the two.
+If the diver chooses the cargo hatch, the currents dominate regardless, and a surge at the mast gives the currents a bigger win than a surge at the hatch.
 
 
 
 
 
 
-25. Director vs. Actor
+25. Detective vs. Criminal Mastermind
 
-A director (Player 1) stresses Lighting or Dialogue. The actor (Player 2) adjusts.
+A detective tracks a mastermind who plants misdirections.
 
-If Lighting is stressed, the actor always loses, whether adjusting with Blocking (loss for Actor) or Timing (loss for Actor).
+The detective can pursue a dockside trail or a market trail.
+The mastermind can seed dockside false leads or market decoys.
 
-If Dialogue is stressed, the actor always wins, though Emotional delivery (better win for Actor) is stronger than Straightforward delivery (weaker win for Actor).
+If the detective follows the dockside trail, the mastermind’s ploys fail either way; dockside or market tricks both amount to the same loss for the mastermind.
 
-Zero-sum: the scene’s power lies in one hand at a time.
+If the detective follows the market trail, the mastermind’s misdirections succeed regardless, and dockside false leads hand the mastermind a bigger win than market decoys.
 
 
 
 
 
 
-26. Negotiator vs. Counterparty
+26. Farmer vs. Storm
 
-A negotiator (Player 1) sets terms around Tariffs or Quotas. The counterparty (Player 2) counters.
+A farmer picks where to work as a storm system builds.
 
-If Tariffs are set, the counterparty always loses, whether arguing Imports (loss for Counterparty) or Exports (loss for Counterparty).
+The farmer can tend the lowland field or the hillside field.
+The storm can bring hail or flooding rain.
 
-If Quotas are set, the counterparty always wins, though pushing Volume limits (better win for Counterparty) is stronger than pushing Seasonal caps (weaker win for Counterparty).
+If the farmer chooses the lowland field, the weather loses either way; hail or flood, the storm’s effect is the same loss for the storm.
 
-Zero-sum: concessions fall entirely to one side.
+If the farmer chooses the hillside field, the weather wins regardless, and hail yields a bigger win for the storm than flooding rain.
 
 
 
 
 
 
-27. Lawyer vs. Opposing Counsel
+27. Student vs. Teacher
 
-A lawyer (Player 1) frames arguments on Motive or Opportunity. Opposing counsel (Player 2) chooses a counter-strategy.
+An oral exam begins; the teacher must decide which angle to press.
 
-If on Motive, opposing counsel always loses, whether countering with Alternative suspect (loss for Counsel) or Psychological profile (loss for Counsel).
+The student can focus on ancient history or modern politics.
+The teacher can ask about dates and events or causes and debates.
 
-If on Opportunity, opposing counsel always wins, though stressing Timeline (better win for Counsel) is stronger than stressing Location (weaker win for Counsel).
+If the student chooses ancient history, the teacher’s questioning falls flat either way; dates or causes, it’s the same loss for the teacher.
 
-Zero-sum: courtroom control is total for one side.
+If the student chooses modern politics, the teacher’s approach works regardless, and dates and events deliver a bigger win for the teacher than causes and debates.
 
 
 
 
 
 
-28. Journalist vs. Politician
+28. Rebel vs. Governor’s Guard
 
-A journalist (Player 1) presses on Ethics or Policy details. The politician (Player 2) replies.
+A rebel eyes two targets, while the guard allocates defenses.
 
-If on Ethics, the politician always loses, whether replying with Excuses (loss for Politician) or Counterattacks (loss for Politician).
+The rebel can strike the palace gate or the supply depot.
+The guard can fortify the gate or guard the depot.
 
-If on Policy details, the politician always wins, though Highlighting Results (better win for Politician) is stronger than Blaming Opponents (weaker win for Politician).
+If the rebel strikes the palace gate, the guard fails either way; fortifying or guarding, it’s the same loss for the guard.
 
-Zero-sum: narrative authority belongs fully to one.
+If the rebel strikes the supply depot, the guard succeeds regardless, and fortifying the gate produces a bigger win for the guard than guarding the depot.
 
 
 
 
 
 
-29. Coach vs. Athlete
+29. Rider vs. Desert Winds
 
-A coach (Player 1) demands focus on Defense or Offense. The athlete (Player 2) responds.
+A long crossing lies ahead; the winds will decide where to bite.
 
-If Defense is demanded, the athlete always loses, whether focusing on Blocking (loss for Athlete) or Positioning (loss for Athlete).
+The rider can choose the dune ridge or the sand basin.
+The winds can whip up sandstorms or crosswinds.
 
-If Offense is demanded, the athlete always wins, though working on Shooting (better win for Athlete) is stronger than Passing (weaker win for Athlete).
+If the rider takes the dune ridge, the winds are beaten either way; sandstorms or crosswinds both mean the same loss for the winds.
 
-Zero-sum: training victories move one way only.
+If the rider takes the sand basin, the winds prevail regardless, and sandstorms give the winds a bigger win than crosswinds.
 
 
 
 
 
 
-30. Professor vs. Student
+30. Captain vs. Naval Blockade
 
-A professor (Player 1) bases the exam on Philosophy or Statistics. The student (Player 2) prepares.
+A captain seeks a breakthrough while the blockade lines reshuffle.
 
-If Philosophy is tested, the student always loses, whether preparing Theories (loss for Student) or Arguments (loss for Student).
+The captain can steer through the strait or the open waters.
+The blockade can deploy torpedo boats or minefields.
 
-If Statistics is tested, the student always wins, though Probability (better win for Student) is stronger than Regression (weaker win for Student).
+If the captain chooses the strait, the blockade’s posture fails either way; boats or mines, it’s the same loss for the blockade.
 
-Zero-sum: academic advantage rests entirely on one side.
+If the captain chooses the open waters, the blockade succeeds regardless, and torpedo boats secure a bigger win for the blockade than minefields.
+

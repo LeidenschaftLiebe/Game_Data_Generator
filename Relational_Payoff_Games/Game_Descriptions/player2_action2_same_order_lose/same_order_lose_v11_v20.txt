@@ -2,147 +2,158 @@ Game descriptions for when player 1 = action 1, then player 2 loses with either 
 when player 1 chooses action 2, player 2 wins either way, but action 1 results in a bigger win.
 V11 - V20: 
 
-11. Author vs. Critic
+11. Hacker vs. System Admin
 
-An author (Player 1) publishes a Short story or a Novel. The critic (Player 2) writes a review.
+A hacker launches an intrusion, while the admin prepares defenses.
 
-If the Short story is released, the critic always loses, whether reviewing Plot (loss for Critic) or Style (loss for Critic).
+The hacker can strike with a zero-day exploit or a stolen password.
+The admin can monitor live traffic or audit login patterns.
 
-If the Novel is released, the critic always wins, though focusing on Character depth (better win for Critic) is stronger than focusing on Pacing (weaker win for Critic).
+If the hacker uses the zero-day, the admin always fails, whichever defense is chosen.
 
-Zero-sum: the critic’s influence undercuts the author’s reception.
+If the hacker uses the stolen password, the admin always succeeds. Monitoring live traffic gives a stronger win, while auditing logins still works but with less impact.
 
 
 
 
 
 
-12. Coach vs. Player
+12. Smuggler vs. Border Guard
 
-A coach (Player 1) emphasizes Defense drills or Offense drills. The player (Player 2) adapts.
+A smuggler moves contraband toward a checkpoint, while the guard chooses how to intercept.
 
-If Defense drills are chosen, the player always loses, whether responding with Positioning (loss for Player) or Tackling (loss for Player).
+The smuggler can hide goods in the false floor of a truck or in a cargo container.
+The guard can scan vehicles or check container manifests.
 
-If Offense drills are chosen, the player always wins, though practicing Shooting (better win for Player) is stronger than Passing (weaker win for Player).
+If the false floor is used, the guard always misses it, no matter the method.
 
-Zero-sum: training advantage flips directly between them.
+If the cargo container is used, the guard always intercepts. Scanning vehicles delivers a bigger win, while checking manifests still catches the goods but less decisively.
 
 
 
 
 
 
-13. Lawyer vs. Judge
+13. Protester vs. Police
 
-A lawyer (Player 1) bases the argument on Constitutional law or Case precedent. The judge (Player 2) reacts.
+A protester plans to sneak banners into a rally, while police prepare crowd control.
 
-If on Constitutional law, the judge always loses, whether responding with Dismissal (loss for Judge) or Objection (loss for Judge).
+The protester can conceal them in a backpack or in a rolled jacket.
+The police can search bags at entry or patrol the seating area.
 
-If on Case precedent, the judge always wins, though citing Binding precedent (better win for Judge) is stronger than citing Similar case (weaker win for Judge).
+If the backpack is used, the police always fail to stop it, whichever action is taken.
 
-Zero-sum: rulings mirror who holds the stronger ground.
+If the rolled jacket is used, the police always succeed. Searching bags produces a stronger win, while patrolling seats still works but less effectively.
 
 
 
 
 
 
-14. Entrepreneur vs. Investor
+14. Thief vs. Watchman
 
-An entrepreneur (Player 1) pitches a Prototype or a Business plan. The investor (Player 2) decides how to respond.
+A thief targets a mansion, while the night watchman sets his patrols.
 
-If pitching a Prototype, the investor always loses, whether challenging Feasibility (loss for Investor) or Scalability (loss for Investor).
+The thief can sneak through the servant’s gate or the roof access.
+The watchman can cover the gates or check the upper floors.
 
-If pitching a Business plan, the investor always wins, though pushing Valuation (better win for Investor) is stronger than pushing Equity share (weaker win for Investor).
+If the servant’s gate is chosen, the watchman always loses track, whichever patrol he makes.
 
-Zero-sum: every deal favors one at the other’s cost.
+If the roof access is chosen, the watchman always succeeds. Covering gates produces a bigger catch, while checking upper floors secures a smaller one.
 
 
 
 
 
 
-15. Journalist vs. Interviewee
+15. Pirate vs. Convoy Escort
 
-A journalist (Player 1) asks about Personal life or Policy stance. The interviewee (Player 2) answers.
+A pirate attacks shipping lanes, while the escort fleet chooses protection tactics.
 
-If asked about Personal life, the interviewee always loses, whether answering with Details (loss for Interviewee) or Privacy defense (loss for Interviewee).
+The pirate can close in with small fast boats or a larger armed vessel.
+The escort can launch fast interceptors or deploy heavier cannons.
 
-If asked about Policy stance, the interviewee always wins, though stressing Achievements (better win for Interviewee) is stronger than stressing Promises (weaker win for Interviewee).
+If fast boats are used, the escort always loses, whichever response is chosen.
 
-Zero-sum: narrative control shifts completely.
+If the armed vessel is used, the escort always wins. Launching fast interceptors secures a bigger win, while using cannons still succeeds but with less advantage.
 
 
 
 
 
 
-16. Teacher vs. Examiner
+16. Graffiti Artist vs. Transit Security
 
-A teacher (Player 1) trains pupils for Writing or Mathematics. The examiner (Player 2) designs the test.
+A graffiti artist sneaks into a train yard, while security prepares deterrents.
 
-If trained for Writing, the examiner always loses, whether testing Essays (loss for Examiner) or Grammar (loss for Examiner).
+The artist can slip in with stealthy rollers or a loud spray compressor.
+Security can trigger motion lights or send patrols through the yard.
 
-If trained for Mathematics, the examiner always wins, though testing Algebra (better win for Examiner) is stronger than testing Geometry (weaker win for Examiner).
+If stealthy rollers are used, security always fails, whichever measure is taken.
 
-Zero-sum: preparation advantage shifts one way or the other.
+If the compressor is used, security always succeeds. Motion lights provide a bigger win, while patrols still succeed with less impact.
 
 
 
 
 
 
-17. Politician vs. Rival
+17. Spy vs. Counterintelligence
 
-A politician (Player 1) frames debate on Jobs or Immigration. The rival (Player 2) counters.
+A spy attempts to hand off secrets, while counterintelligence sets surveillance.
 
-If on Jobs, the rival always loses, whether arguing Unemployment (loss for Rival) or Wages (loss for Rival).
+The spy can pass documents through a park drop or a café meeting.
+Counterintelligence can watch public parks or monitor cafés.
 
-If on Immigration, the rival always wins, though Border policy (better win for Rival) is stronger than Integration (weaker win for Rival).
+If the park drop is used, counterintelligence always loses, whichever area is watched.
 
-Zero-sum: voter support shifts in lockstep.
+If the café meeting is used, counterintelligence always wins. Watching parks leads to a bigger success, while monitoring cafés delivers a smaller one.
 
 
 
 
 
 
-18. Debater vs. Challenger
+18. Rival Politicians
 
-A debater (Player 1) opens with Freedom or Security. The challenger (Player 2) replies.
+Two rivals prepare for a televised debate, one setting the topic, the other preparing a counter.
 
-If opening with Freedom, the challenger always loses, whether replying with Rights (loss for Challenger) or Responsibility (loss for Challenger).
+The first candidate can push economic reform or foreign policy.
+The rival can prepare an economic speech or prepare a foreign policy speech.
 
-If opening with Security, the challenger always wins, though arguing Safety (better win for Challenger) is stronger than arguing Enforcement (weaker win for Challenger).
+If economics is the topic, the rival always fails, no matter the preparation.
 
-Zero-sum: rhetorical control belongs fully to one side.
+If foreign policy is the topic, the rival always gains. Preparing economics gives a stronger performance, while preparing foreign policy still works but less powerfully.
 
 
 
 
 
 
-19. Doctor vs. Patient
+19. Fraudster vs. Investigator
 
-A doctor (Player 1) prescribes Medication or Lifestyle change. The patient (Player 2) responds.
+A fraudster attempts a scam, while an investigator chooses a method to catch it.
 
-If Medication is prescribed, the patient always loses, whether responding with Compliance (loss for Patient) or Refusal (loss for Patient).
+The fraudster can attempt a shell company setup or a fake charity drive.
+The investigator can analyze financial flows or review tax filings.
 
-If Lifestyle change is prescribed, the patient always wins, though Exercise (better win for Patient) is stronger than Diet (weaker win for Patient).
+If a shell company is used, the investigator always fails, whichever method is chosen.
 
-Zero-sum: health progress favors one at the other’s cost.
+If a fake charity is used, the investigator always succeeds. Reviewing financial flows produces a bigger catch, while tax filings provide a smaller one.
 
 
 
 
 
 
-20. Director vs. Actor
+20. Street Racer vs. Police Patrol
 
-A director (Player 1) emphasizes Blocking or Emotion in rehearsal. The actor (Player 2) adapts.
+A racer plans a night run, while police try to intercept.
 
-If focusing on Blocking, the actor always loses, whether adapting with Movement (loss for Actor) or Timing (loss for Actor).
+The racer can take the crowded downtown route or the empty bypass road.
+Police can station patrol cars or set up radar traps.
 
-If focusing on Emotion, the actor always wins, though Expressiveness (better win for Actor) is stronger than Subtlety (weaker win for Actor).
+If downtown is chosen, the police always fail, no matter the response.
 
-Zero-sum: control of the scene flows to one at the other’s expense.
+If the bypass is chosen, the police always succeed. Patrol cars secure a bigger win, while radar traps secure a smaller one.
+

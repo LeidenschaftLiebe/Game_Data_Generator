@@ -2,147 +2,158 @@ Game descriptions for when player 1 = action 1, then player 2 loses with either 
 when player 1 chooses action 2, player 2 wins either way, but action 1 results in a bigger win.
 V31 - V40: 
 
-31. Candidate vs. Opponent
+31. Smuggler vs. Coast Guard
 
-A candidate (Player 1) stresses Foreign policy or Healthcare. The opponent (Player 2) crafts rebuttals.
+A smuggler charts a route while the coast guard chooses how to intercept.
 
-If on Foreign policy, the opponent always loses, whether rebutting with Military readiness (loss for Opponent) or Alliances (loss for Opponent).
+The smuggler can sail by the reefs or through the open channel.
+The coast guard can patrol with cutters or set radar checkpoints.
 
-If on Healthcare, the opponent always wins, though Insurance costs (better win for Opponent) is stronger than Hospital access (weaker win for Opponent).
+If the reefs are chosen, the coast guard fails either way; cutters or radar, both end in the same loss for them.
 
-Zero-sum: the campaign swing is absolute.
+If the open channel is chosen, the coast guard succeeds regardless, with cutters yielding a bigger win than checkpoints.
 
 
 
 
 
 
-32. Mentor vs. Apprentice
+32. Hacker vs. Security Team
 
-A mentor (Player 1) teaches Crafting or Strategy. The apprentice (Player 2) responds.
+A hacker launches an intrusion while defenders react.
 
-If Crafting is taught, the apprentice always loses, whether learning Tools (loss for Apprentice) or Materials (loss for Apprentice).
+The hacker can probe with a new exploit or with a phishing campaign.
+The team can run intrusion detection or trace suspicious emails.
 
-If Strategy is taught, the apprentice always wins, though focusing on Planning (better win for Apprentice) is stronger than Tactics (weaker win for Apprentice).
+If the new exploit is used, the security team always fails, no matter which approach is taken.
 
-Zero-sum: learning gains are strictly opposed.
+If phishing is used, the team always succeeds, with detection yielding a bigger win than tracing.
 
 
 
 
 
 
-33. Author vs. Editor
+33. Thief vs. Police Detective
 
-An author (Player 1) drafts Poetry or Prose. The editor (Player 2) reacts.
+A thief eyes two heists while the detective considers tactics.
 
-If Poetry is drafted, the editor always loses, whether critiquing Meter (loss for Editor) or Imagery (loss for Editor).
+The thief can hit the abandoned mill or the city bank.
+The detective can follow informants or watch bank records.
 
-If Prose is drafted, the editor always wins, though Grammar edits (better win for Editor) are stronger than Stylistic edits (weaker win for Editor).
+If the abandoned mill is targeted, the detective loses either way; following or watching, the result is the same failure.
 
-Zero-sum: the editor’s power grows as the author’s shrinks.
+If the city bank is targeted, the detective always succeeds, and following informants produces a bigger win than checking records.
 
 
 
 
 
 
-34. Leader vs. Advisor
+34. Soldier vs. Enemy Artillery
 
-A leader (Player 1) bases policy on Security or Economy. The advisor (Player 2) reacts.
+A soldier advances as the enemy positions heavy guns.
 
-If on Security, the advisor always loses, whether suggesting Defense budget (loss for Advisor) or Border patrol (loss for Advisor).
+The soldier can march via the ravine or the ridge.
+The artillery can aim at the ravine or the ridge.
 
-If on Economy, the advisor always wins, though stressing Tax reform (better win for Advisor) is stronger than stressing Jobs plan (weaker win for Advisor).
+If the ravine is chosen, the artillery loses either way; fire at ravine or ridge, both come to nothing.
 
-Zero-sum: policy leverage belongs fully to one.
+If the ridge is chosen, the artillery prevails regardless, with firing at the ravine producing a bigger win than firing at the ridge.
 
 
 
 
 
 
-35. Actor vs. Director
+35. Rival Entrepreneur vs. Market Regulator
 
-An actor (Player 1) insists on Ad-libbing or Sticking to script. The director (Player 2) responds.
+An entrepreneur launches new goods while the regulator decides its move.
 
-If Ad-libbing is chosen, the director always loses, whether responding with Retakes (loss for Director) or Notes (loss for Director).
+The entrepreneur can introduce a cheap knock-off or a premium model.
+The regulator can audit imports or inspect pricing.
 
-If Sticking to script is chosen, the director always wins, though Blocking adjustments (better win for Director) are stronger than Tone suggestions (weaker win for Director).
+If the knock-off is launched, the regulator loses whichever path it takes.
 
-Zero-sum: creative control flows entirely to one.
+If the premium model is launched, the regulator wins either way, with audits producing a bigger win than inspections.
 
 
 
 
 
 
-36. Lawyer vs. Jury
+36. Saboteur vs. Engineer
 
-A lawyer (Player 1) emphasizes Character defense or Timeline defense. The jury (Player 2) weighs evidence.
+A saboteur infiltrates a factory while the engineer selects a safeguard.
 
-If Character defense is used, the jury always loses, whether doubting Credibility (loss for Jury) or questioning Consistency (loss for Jury).
+The saboteur can tamper with the power grid or the water supply.
+The engineer can monitor energy flow or check valves.
 
-If Timeline defense is used, the jury always wins, though Precise dates (better win for Jury) are stronger than Approximate times (weaker win for Jury).
+If the power grid is attacked, the engineer fails whichever precaution is used.
 
-Zero-sum: verdict weight falls wholly to one side.
+If the water supply is attacked, the engineer always prevails, with energy monitoring giving a bigger win than checking valves.
 
 
 
 
 
 
-37. Negotiator vs. Delegate
+37. Student vs. Examiner
 
-A negotiator (Player 1) opens talks on Trade or Security. The delegate (Player 2) replies.
+A student faces a timed oral test while the examiner decides which area to press.
 
-If on Trade, the delegate always loses, whether countering with Tariffs (loss for Delegate) or Quotas (loss for Delegate).
+The student can begin with ancient philosophy or with modern ethics.
+The examiner can question definitions or probe examples.
 
-If on Security, the delegate always wins, though focusing on Alliances (better win for Delegate) is stronger than focusing on Arms (weaker win for Delegate).
+If ancient philosophy is chosen, the examiner fails either way, whichever angle they press.
 
-Zero-sum: bargaining advantage moves completely.
+If modern ethics is chosen, the examiner always succeeds, with definitions yielding a bigger win than examples.
 
 
 
 
 
 
-38. Student vs. Examiner
+38. Rebel vs. Patrol
 
-A student (Player 1) answers Theory question or Practical question. The examiner (Player 2) grades.
+A rebel sneaks through the countryside while patrols search.
 
-If answering Theory, the examiner always loses, whether grading on Concepts (loss for Examiner) or Definitions (loss for Examiner).
+The rebel can take the forest path or the riverbank.
+The patrol can sweep forests or watch river crossings.
 
-If answering Practical, the examiner always wins, though grading on Method (better win for Examiner) is stronger than grading on Result (weaker win for Examiner).
+If the forest path is chosen, the patrol loses either way, sweep or watch.
 
-Zero-sum: exam balance lies wholly with one.
+If the riverbank is chosen, the patrol prevails regardless, and sweeping the forest secures a bigger win than watching the crossings.
 
 
 
 
 
 
-39. Politician vs. Interviewer
+39. Athlete vs. Referee
 
-A politician (Player 1) chooses to discuss Education or Foreign affairs. The interviewer (Player 2) probes.
+An athlete competes while the referee chooses how to judge.
 
-If on Education, the interviewer always loses, whether probing Funding (loss for Interviewer) or Standards (loss for Interviewer).
+The athlete can attempt the long jump or the high jump.
+The referee can scrutinize takeoffs or review landings.
 
-If on Foreign affairs, the interviewer always wins, though asking about Allies (better win for Interviewer) is stronger than asking about Defense (weaker win for Interviewer).
+If the long jump is attempted, the referee fails either way, takeoffs or landings.
 
-Zero-sum: questioning power shifts entirely.
+If the high jump is attempted, the referee succeeds no matter what, and watching takeoffs brings a bigger win than reviewing landings.
 
 
 
 
 
 
-40. Author vs. Reviewer
+40. Merchant vs. Customs Officer
 
-An author (Player 1) releases a Memoir or a Novel. The reviewer (Player 2) critiques.
+A merchant ships goods while customs prepares inspections.
 
-If the Memoir is released, the reviewer always loses, whether critiquing Tone (loss for Reviewer) or Detail (loss for Reviewer).
+The merchant can send by the old trade road or the new checkpoint.
+Customs can weigh cargo or inspect papers.
 
-If the Novel is released, the reviewer always wins, though Plot critique (better win for Reviewer) is stronger than Style critique (weaker win for Reviewer).
+If the old trade road is chosen, customs always fails, whichever inspection they apply.
 
-Zero-sum: critical reception flips decisively.
+If the new checkpoint is chosen, customs always succeeds, with weighing cargo producing a bigger win than inspecting papers.
+

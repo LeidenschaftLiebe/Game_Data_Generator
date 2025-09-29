@@ -2,147 +2,158 @@ Game descriptions for when player 1 = action 1, then player 2 loses with either 
 when player 1 chooses action 2, player 2 wins either way, and the rewards are the same.
 V21 - V30: 
 
-21. Manager vs. Team Lead
+21. Thief vs. Vault
 
-A manager (Player 1) assigns focus to Budgeting or Execution. The team lead (Player 2) reacts.
+A thief chooses how to crack a vault, while the vault’s security responds.
 
-If Budgeting is chosen, the team lead always loses. Choosing Cutting costs or Delaying tasks makes no difference, since both lead to the same loss.
+The thief can use the old lockpick or the digital codebreaker.
+The vault can resist with mechanical failsafes or alarm systems.
 
-If Execution is chosen, the team lead always wins. Whether they Streamline processes or Reassign staff, both produce the same winning result.
+If the old lockpick is used, the vault always resists, whichever defense is active.
 
-Zero-sum: one side’s control over workflow is the other’s loss.
+If the digital codebreaker is used, the thief always succeeds, no matter the defense.
 
 
 
 
 
 
-22. Athlete vs. Rival
+22. Soldier vs. Bridge
 
-An athlete (Player 1) decides to compete in the 100m sprint or the 1500m race. The rival (Player 2) prepares.
+A soldier advances, while bridges determine the crossing.
 
-If the 100m sprint is chosen, the rival always loses. Training Starts or Speed both result in the same defeat.
+The soldier can cross the broken bridge or the reinforced bridge.
+The hazard can be weak planks or collapsing ropes.
 
-If the 1500m race is chosen, the rival always wins. Specializing in Endurance or Pacing both yield the same winning outcome.
+If the broken bridge is chosen, the soldier always falls, regardless of the hazard.
 
-Zero-sum: athletic advantage lies entirely with one side.
+If the reinforced bridge is chosen, the soldier always crosses safely, whichever hazard is present.
 
 
 
 
 
 
-23. Teacher vs. Student
+23. Pilot vs. Fuel Shortage
 
-A teacher (Player 1) tests on Geography or Mathematics. The student (Player 2) studies.
+A pilot sets flight plans, while fuel shortages threaten.
 
-If the test is on Geography, the student always loses. Studying Maps or Capitals both lead to the same failure.
+The pilot can fly the long detour or the direct route.
+The shortage can strike as low reserves or engine drain.
 
-If the test is on Mathematics, the student always wins. Preparing Algebra or Geometry both produce the same success.
+If the long detour is chosen, the pilot always runs out of fuel, no matter the shortage.
 
-Zero-sum: preparedness is decisive for one over the other.
+If the direct route is chosen, the pilot always reaches the destination, whichever shortage exists.
 
 
 
 
 
 
-24. Candidate vs. Challenger
+24. Fisher vs. Ice Floes
 
-A candidate (Player 1) campaigns on Environment or Economy. The challenger (Player 2) responds.
+A fisher heads north, while ice blocks the sea lanes.
 
-If the Environment is emphasized, the challenger always loses. Countering with Regulation or Innovation both end in the same defeat.
+The fisher can sail through the frozen strait or the open channel.
+The ice can shift into the strait or the channel.
 
-If the Economy is emphasized, the challenger always wins. Focusing on Taxes or Jobs both bring the same winning result.
+If the frozen strait is chosen, the fisher always fails, whichever block occurs.
 
-Zero-sum: campaign momentum swings entirely.
+If the open channel is chosen, the fisher always succeeds, regardless of the block.
 
 
 
 
 
 
-25. Director vs. Actor
+25. Miner vs. Shaft Collapse
 
-A director (Player 1) stresses Lighting or Dialogue. The actor (Player 2) adapts.
+A miner picks a shaft to work, while collapses threaten.
 
-If Lighting is stressed, the actor always loses. Adjusting Blocking or Timing both lead to failure.
+The miner can dig the unstable shaft or the reinforced shaft.
+The collapse can happen in the unstable or the reinforced.
 
-If Dialogue is stressed, the actor always wins. Playing with Emotional delivery or Straightforward delivery both produce the same success.
+If the unstable shaft is chosen, the miner always loses, no matter the collapse.
 
-Zero-sum: the scene’s power lies with one side.
+If the reinforced shaft is chosen, the miner always wins, whichever collapse occurs.
 
 
 
 
 
 
-26. Negotiator vs. Counterparty
+26. Runner vs. Course Hazard
 
-A negotiator (Player 1) sets terms around Tariffs or Quotas. The counterparty (Player 2) responds.
+A runner lines up for a race, while the course holds dangers.
 
-If Tariffs are discussed, the counterparty always loses. Arguing Imports or Exports both lead to the same losing outcome.
+The runner can take the muddy lane or the paved lane.
+The hazard can be fallen branches or puddles.
 
-If Quotas are discussed, the counterparty always wins. Raising Volume limits or Seasonal caps both result in the same win.
+If the muddy lane is chosen, the runner always stumbles, no matter the hazard.
 
-Zero-sum: concessions fall entirely to one side.
+If the paved lane is chosen, the runner always finishes strong, whichever hazard appears.
 
 
 
 
 
 
-27. Lawyer vs. Opposing Counsel
+27. Captain vs. Storm Tide
 
-A lawyer (Player 1) frames arguments on Motive or Opportunity. Opposing counsel (Player 2) replies.
+A captain navigates the coast, while tides rise.
 
-If on Motive, opposing counsel always loses. Using Alternative suspect or Psychological profile both result in the same failure.
+The captain can steer through the shallows or the deep channel.
+The tide can rise in the shallows or the channel.
 
-If on Opportunity, opposing counsel always wins. Stressing Timeline or Location both yield the same winning outcome.
+If the shallows are chosen, the captain always grounds the ship, whichever tide rises.
 
-Zero-sum: courtroom control belongs wholly to one.
+If the deep channel is chosen, the captain always sails safely, regardless of the tide.
 
 
 
 
 
 
-28. Journalist vs. Politician
+28. Hunter vs. Pitfall
 
-A journalist (Player 1) presses on Ethics or Policy details. The politician (Player 2) answers.
+A hunter stalks prey, while pitfalls are hidden.
 
-If asked about Ethics, the politician always loses. Choosing Excuses or Counterattacks both end in loss.
+The hunter can move through the rocky ground or the grassy field.
+The pitfalls can open in the rocks or in the field.
 
-If asked about Policy details, the politician always wins. Highlighting Results or Blaming opponents both give the same winning payoff.
+If the rocky ground is chosen, the hunter always falls, no matter where the pitfalls are.
 
-Zero-sum: narrative authority rests with one side.
+If the grassy field is chosen, the hunter always succeeds, whichever pitfalls exist.
 
 
 
 
 
 
-29. Coach vs. Athlete
+29. Rider vs. Wild River
 
-A coach (Player 1) demands focus on Defense or Offense. The athlete (Player 2) adjusts.
+A rider must ford a river, while currents shift.
 
-If Defense is demanded, the athlete always loses. Practicing Blocking or Positioning both result in the same defeat.
+The rider can cross at the rapids or the ford.
+The river can surge at the rapids or at the ford.
 
-If Offense is demanded, the athlete always wins. Practicing Shooting or Passing both bring the same success.
+If the rapids are chosen, the rider always drowns, whichever surge occurs.
 
-Zero-sum: training victories belong entirely to one.
+If the ford is chosen, the rider always crosses safely, no matter the surge.
 
 
 
 
 
 
-30. Professor vs. Student
+30. Soldier vs. Siege Engine
 
-A professor (Player 1) bases the exam on Philosophy or Statistics. The student (Player 2) prepares.
+A soldier defends a city, while siege engines approach.
 
-If the exam is on Philosophy, the student always loses. Studying Theories or Arguments both end in the same failure.
+The soldier can stand at the collapsed wall or the reinforced gate.
+The attack can come from battering rams or catapults.
 
-If the exam is on Statistics, the student always wins. Preparing Probability or Regression both produce the same success.
+If the collapsed wall is chosen, the soldier always loses, regardless of the attack.
 
-Zero-sum: academic advantage rests fully with one.
+If the reinforced gate is chosen, the soldier always holds, whichever attack comes.
+

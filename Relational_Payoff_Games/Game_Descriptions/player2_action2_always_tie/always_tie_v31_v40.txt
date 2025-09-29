@@ -2,147 +2,158 @@ Game descriptions for when player 1 = action 1, then player 2 loses with either 
 when player 1 chooses action 2, player 2 wins either way, and the rewards are the same.
 V31 - V40: 
 
-31. Candidate vs. Opponent
+31. Spy vs. Safehouse
 
-A candidate (Player 1) stresses Foreign policy or Healthcare. The opponent (Player 2) crafts rebuttals.
+A spy seeks refuge, while the safehouse’s defenses determine survival.
 
-If the topic is Foreign policy, the opponent always loses. Rebutting with Military readiness or Alliances both lead to the same failure.
+The spy can enter the abandoned warehouse or the fortified embassy.
+The defenses can be locked doors or armed guards.
 
-If the topic is Healthcare, the opponent always wins. Focusing on Insurance costs or Hospital access both produce the same success.
+If the warehouse is chosen, the spy is always compromised, whichever defense appears.
 
-Zero-sum: the campaign swing is absolute.
+If the embassy is chosen, the spy is always safe, no matter the defense.
 
 
 
 
 
 
-32. Mentor vs. Apprentice
+32. Athlete vs. Stadium
 
-A mentor (Player 1) teaches Crafting or Strategy. The apprentice (Player 2) responds.
+An athlete competes in a tournament, while the stadium conditions shape performance.
 
-If Crafting is taught, the apprentice always loses. Practicing Tools or Materials both end in the same failure.
+The athlete can perform in the old arena or the modern stadium.
+The stadium can bring poor lighting or slippery floors.
 
-If Strategy is taught, the apprentice always wins. Studying Planning or Tactics both result in the same success.
+If the old arena is chosen, the athlete always performs badly, regardless of the condition.
 
-Zero-sum: learning gains are strictly opposed.
+If the modern stadium is chosen, the athlete always performs well, no matter the condition.
 
 
 
 
 
 
-33. Author vs. Editor
+33. Merchant vs. Famine
 
-An author (Player 1) drafts Poetry or Prose. The editor (Player 2) critiques.
+A merchant chooses what goods to bring, while famine spreads.
 
-If Poetry is drafted, the editor always loses. Critiquing Meter or Imagery both result in the same losing outcome.
+The merchant can carry luxuries or grain.
+The famine can demand bread or water.
 
-If Prose is drafted, the editor always wins. Editing Grammar or Style both lead to the same winning result.
+If luxuries are carried, the merchant always loses, no matter the demand.
 
-Zero-sum: editorial power grows as author control shrinks.
+If grain is carried, the merchant always prospers, whatever the famine requires.
 
 
 
 
 
 
-34. Leader vs. Advisor
+34. Soldier vs. Wall
 
-A leader (Player 1) bases policy on Security or Economy. The advisor (Player 2) reacts.
+A soldier attacks the enemy, while defenses hold.
 
-If the focus is Security, the advisor always loses. Recommending Defense budget or Border patrol both result in the same defeat.
+The soldier can assault the crumbling wall or the reinforced tower.
+The wall can resist with archers or oil.
 
-If the focus is Economy, the advisor always wins. Suggesting Tax reform or Jobs plan both deliver the same win.
+If the crumbling wall is attacked, the soldier always fails, no matter the defense.
 
-Zero-sum: policy leverage lies wholly with one.
+If the reinforced tower is attacked, the soldier always wins, whichever defense is used.
 
 
 
 
 
 
-35. Actor vs. Director
+35. Diver vs. Oxygen
 
-An actor (Player 1) insists on Ad-libbing or Sticking to script. The director (Player 2) responds.
+A diver plans the descent, while oxygen supplies run thin.
 
-If Ad-libbing is chosen, the director always loses. Responding with Retakes or Notes both bring the same losing result.
+The diver can dive into the deep trench or stay near the reef shelf.
+The oxygen loss can be slow leak or fast leak.
 
-If Sticking to script is chosen, the director always wins. Adjusting Blocking or Tone both lead to the same successful outcome.
+If the deep trench is chosen, the diver always suffocates, no matter the leak.
 
-Zero-sum: creative control flows entirely to one.
+If the reef shelf is chosen, the diver always survives, regardless of the leak.
 
 
 
 
 
 
-36. Lawyer vs. Jury
+36. Farmer vs. Frost
 
-A lawyer (Player 1) emphasizes Character defense or Timeline defense. The jury (Player 2) weighs evidence.
+A farmer tends crops, while frost threatens.
 
-If Character defense is used, the jury always loses. Questioning Credibility or Consistency both lead to the same failure.
+The farmer can sow in the frost hollow or the sunny slope.
+The frost can fall in the hollow or on the slope.
 
-If Timeline defense is used, the jury always wins. Highlighting Precise dates or Approximate times both bring the same success.
+If the frost hollow is chosen, the farmer always loses the crop, whichever way the frost comes.
 
-Zero-sum: verdict weight falls wholly to one side.
+If the sunny slope is chosen, the farmer always succeeds, no matter the frost.
 
 
 
 
 
 
-37. Negotiator vs. Delegate
+37. Captain vs. Whirlpool
 
-A negotiator (Player 1) opens talks on Trade or Security. The delegate (Player 2) replies.
+A captain steers a ship, while whirlpools churn.
 
-If Trade is the subject, the delegate always loses. Countering with Tariffs or Quotas both produce the same loss.
+The captain can pass through the danger strait or the safe channel.
+The whirlpool can pull in the strait or the channel.
 
-If Security is the subject, the delegate always wins. Stressing Alliances or Arms both yield the same winning outcome.
+If the danger strait is chosen, the captain always sinks, no matter the whirlpool.
 
-Zero-sum: bargaining advantage moves completely.
+If the safe channel is chosen, the captain always sails through, whichever whirlpool appears.
 
 
 
 
 
 
-38. Student vs. Examiner
+38. Hunter vs. Blizzard
 
-A student (Player 1) answers a Theory question or a Practical question. The examiner (Player 2) grades.
+A hunter goes out to track prey, while a blizzard threatens.
 
-If the answer is on Theory, the examiner always loses. Grading Concepts or Definitions both end in the same defeat.
+The hunter can head into the exposed ridge or the sheltered valley.
+The blizzard can strike the ridge or the valley.
 
-If the answer is on Practical, the examiner always wins. Grading Method or Result both bring the same success.
+If the exposed ridge is chosen, the hunter always fails, whichever way the blizzard strikes.
 
-Zero-sum: exam advantage rests with one.
+If the sheltered valley is chosen, the hunter always succeeds, no matter the strike.
 
 
 
 
 
 
-39. Politician vs. Interviewer
+39. Rider vs. Bridge
 
-A politician (Player 1) discusses Education or Foreign affairs. The interviewer (Player 2) probes.
+A rider chooses a crossing, while the bridge may give way.
 
-If on Education, the interviewer always loses. Asking about Funding or Standards both produce the same failure.
+The rider can cross the rotting bridge or the stone span.
+The failure can be collapsed planks or broken supports.
 
-If on Foreign affairs, the interviewer always wins. Asking about Allies or Defense both lead to the same winning outcome.
+If the rotting bridge is chosen, the rider always falls, regardless of the failure.
 
-Zero-sum: questioning power shifts entirely.
+If the stone span is chosen, the rider always passes, whichever failure occurs.
 
 
 
 
 
 
-40. Author vs. Reviewer
+40. Rebel vs. Patrol
 
-An author (Player 1) releases a Memoir or a Novel. The reviewer (Player 2) critiques.
+A rebel sneaks into the city, while patrols roam.
 
-If the Memoir is published, the reviewer always loses. Criticizing Tone or Detail both result in the same loss.
+The rebel can enter through the sewer grate or the city gate.
+The patrol can sweep the sewer or the gate.
 
-If the Novel is published, the reviewer always wins. Critiquing Plot or Style both produce the same success.
+If the sewer grate is used, the rebel is always caught, whichever patrol appears.
 
-Zero-sum: critical reception flips decisively.
+If the city gate is used, the rebel always slips through, no matter the patrol.
+

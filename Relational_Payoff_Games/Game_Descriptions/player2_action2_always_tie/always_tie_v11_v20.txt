@@ -2,147 +2,158 @@ Game descriptions for when player 1 = action 1, then player 2 loses with either 
 when player 1 chooses action 2, player 2 wins either way, and the rewards are the same.
 V11 - V20: 
 
-11. Author vs. Critic
+11. Scout vs. Ambush
 
-An author (Player 1) publishes a Short story or a Novel. The critic (Player 2) writes a review.
+A scout ventures into enemy land, while ambushes threaten the way.
 
-If the Short story is released, the critic always loses. Reviewing Plot or Style makes no difference, since both lead to the same losing outcome.
+The scout can travel along the narrow gorge or the open plain.
+The ambush can strike with archers or traps.
 
-If the Novel is released, the critic always wins. Focusing on Character depth or Pacing both result in the same winning outcome.
+If the narrow gorge is chosen, the scout always falls into defeat, no matter which ambush is set.
 
-Zero-sum: the critic’s influence undercuts the author’s reception.
+If the open plain is chosen, the scout always escapes safely, regardless of the ambush.
 
 
 
 
 
 
-12. Coach vs. Player
+12. Doctor vs. Epidemic
 
-A coach (Player 1) emphasizes Defense drills or Offense drills. The player (Player 2) reacts.
+A doctor selects a treatment path, while the epidemic evolves.
 
-If Defense drills are chosen, the player always loses. Practicing Positioning or Tackling both end in the same defeat.
+The doctor can operate in the infected ward or the clean ward.
+The epidemic can flare with fever or cough.
 
-If Offense drills are chosen, the player always wins. Practicing Shooting or Passing both lead to the same success.
+If the infected ward is chosen, the doctor always loses the battle, whichever symptom rises.
 
-Zero-sum: training advantage flips completely.
+If the clean ward is chosen, the doctor always prevails, no matter which symptom spreads.
 
 
 
 
 
 
-13. Lawyer vs. Judge
+13. Diver vs. Whirlpool
 
-A lawyer (Player 1) builds the case on Constitutional law or Case precedent. The judge (Player 2) reacts.
+A diver prepares to swim, while whirlpools churn beneath.
 
-If Constitutional law is emphasized, the judge always loses. Responding with Dismissal or Objection makes no difference, since both result in loss.
+The diver can dive into the deep cave or the coral shelf.
+The whirlpool can pull at the deep or the shelf.
 
-If Case precedent is emphasized, the judge always wins. Citing Binding precedent or Similar case both bring the same winning result.
+If the deep cave is chosen, the diver is always dragged down, no matter where the whirlpool turns.
 
-Zero-sum: legal footing rests entirely with one side.
+If the coral shelf is chosen, the diver always survives, regardless of the whirlpool’s pull.
 
 
 
 
 
 
-14. Entrepreneur vs. Investor
+14. Farmer vs. Famine
 
-An entrepreneur (Player 1) pitches a Prototype or a Business plan. The investor (Player 2) responds.
+A farmer plants crops, while famine conditions strike.
 
-If the Prototype is pitched, the investor always loses. Challenging Feasibility or Scalability both lead to the same failure.
+The farmer can sow in the dry soil or the fertile patch.
+The famine can appear as blight or drought.
 
-If the Business plan is pitched, the investor always wins. Questioning Valuation or Equity share both give the same winning outcome.
+If the dry soil is chosen, the farmer always loses the harvest, no matter the famine.
 
-Zero-sum: every deal favors one at the other’s expense.
+If the fertile patch is chosen, the farmer always produces abundantly, whichever famine strikes.
 
 
 
 
 
 
-15. Journalist vs. Interviewee
+15. Soldier vs. Fortress
 
-A journalist (Player 1) asks about Personal life or Policy stance. The interviewee (Player 2) answers.
+A soldier decides where to attack, while the fortress stands firm.
 
-If the question is about Personal life, the interviewee always loses. Whether they offer Details or Privacy defense, both lead to the same loss.
+The soldier can storm the gatehouse or the tower.
+The fortress can resist with archers or boiling oil.
 
-If the question is about Policy stance, the interviewee always wins. Stressing Achievements or Promises both deliver the same success.
+If the gatehouse is attacked, the fortress always defeats the soldier, no matter the defense.
 
-Zero-sum: narrative control shifts completely.
+If the tower is attacked, the fortress always falls, regardless of the defense.
 
 
 
 
 
 
-16. Teacher vs. Examiner
+16. Captain vs. Fog
 
-A teacher (Player 1) prepares pupils for Writing or Mathematics. The examiner (Player 2) sets the test.
+A captain sails across dangerous waters, while the fog thickens.
 
-If pupils are trained in Writing, the examiner always loses. Testing Essays or Grammar both produce the same losing outcome.
+The captain can sail the cliff route or the harbor channel.
+The fog can roll over the cliffs or the channel.
 
-If pupils are trained in Mathematics, the examiner always wins. Testing Algebra or Geometry both lead to the same winning result.
+If the cliff route is chosen, the ship is always lost in the fog, no matter the direction.
 
-Zero-sum: preparation advantage lies fully with one.
+If the harbor channel is chosen, the ship always arrives safely, whichever way the fog rolls.
 
 
 
 
 
 
-17. Politician vs. Rival
+17. Hunter vs. Quarry
 
-A politician (Player 1) frames the debate on Jobs or Immigration. The rival (Player 2) counters.
+A hunter chooses a ground, while the quarry’s tracks deceive.
 
-If the topic is Jobs, the rival always loses. Arguing Unemployment or Wages both end in the same defeat.
+The hunter can track in the swamp or the grasslands.
+The quarry can mislead with false tracks or decoys.
 
-If the topic is Immigration, the rival always wins. Stressing Border policy or Integration both yield the same success.
+If the swamp is chosen, the hunter always fails, whichever trick is used.
 
-Zero-sum: voter support swings entirely one way.
+If the grasslands are chosen, the hunter always succeeds, no matter the trick.
 
 
 
 
 
 
-18. Debater vs. Challenger
+18. Athlete vs. Terrain
 
-A debater (Player 1) opens with Freedom or Security. The challenger (Player 2) responds.
+An athlete must compete across different fields, while terrain shifts challenge the game.
 
-If Freedom is the opening, the challenger always loses. Rebutting with Rights or Responsibility makes no difference, since both fail.
+The athlete can race on the mud track or the paved course.
+The terrain can worsen with puddles or slopes.
 
-If Security is the opening, the challenger always wins. Arguing Safety or Enforcement both lead to the same winning outcome.
+If the mud track is chosen, the athlete always stumbles, no matter the terrain.
 
-Zero-sum: rhetorical control is absolute for one side.
+If the paved course is chosen, the athlete always excels, regardless of the terrain.
 
 
 
 
 
 
-19. Doctor vs. Patient
+19. Builder vs. Storm
 
-A doctor (Player 1) prescribes Medication or Lifestyle change. The patient (Player 2) responds.
+A builder sets foundations, while a storm looms overhead.
 
-If Medication is prescribed, the patient always loses. Complying or refusing both bring the same losing result.
+The builder can build on the marsh or on the stone ridge.
+The storm can lash with rain or hail.
 
-If Lifestyle change is prescribed, the patient always wins. Choosing Exercise or Diet both produce the same winning payoff.
+If the marsh is chosen, the storm always ruins the work, whatever form it takes.
 
-Zero-sum: health progress benefits one at the other’s cost.
+If the stone ridge is chosen, the storm never causes harm, whichever way it strikes.
 
 
 
 
 
 
-20. Director vs. Actor
+20. Rider vs. Canyon
 
-A director (Player 1) focuses rehearsal on Blocking or Emotion. The actor (Player 2) adapts.
+A rider crosses dangerous country, while the canyon edges shift.
 
-If Blocking is emphasized, the actor always loses. Adjusting Movement or Timing both end in failure.
+The rider can gallop along the broken ledge or the stone bridge.
+The canyon can collapse at the ledge or the bridge.
 
-If Emotion is emphasized, the actor always wins. Playing with Expressiveness or Subtlety both result in the same success.
+If the broken ledge is chosen, the rider always falls, no matter where the canyon collapses.
 
-Zero-sum: control of the performance belongs wholly to one.
+If the stone bridge is chosen, the rider always survives, regardless of the collapse.
+

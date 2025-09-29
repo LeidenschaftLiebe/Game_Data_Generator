@@ -2,15 +2,16 @@ Game descriptions for when player 1 = action 1, then player 2 wins with either a
 when player 1 chooses action 2, player 2 loses either way, but action 1 results in a smaller loss.
 V11 - V20: 
 
-11. Librarian vs. Bookworm
+11. Archer vs. Wind
 
-A bookworm (Player 1) sneaks into the Reading room or the Storage vault. The librarian (Player 2) patrols the Entrance or the Shelves.
+An archer prepares to shoot, while shifting winds determine the outcome.
 
-If the bookworm enters the Reading room, patrolling the Entrance (win for Librarian) or the Shelves (win for Librarian) always stops them.
+The archer can aim at the target’s left side or the target’s right side.
+The wind can blow from the left or from the right.
 
-If the bookworm enters the Storage vault, the librarian always fails, though patrolling the Entrance (smaller loss for Librarian) slows them more than patrolling the Shelves (bigger loss for Librarian).
+If the archer shoots at the left side, the wind always helps, no matter which way it blows.
 
-This game is zero-sum: one’s access is the other’s loss.
+If the archer shoots at the right side, the wind always harms. A leftward wind reduces the error, while a rightward wind makes the shot much worse.
 
 
 
@@ -19,130 +20,140 @@ This game is zero-sum: one’s access is the other’s loss.
 
 12. Farmer vs. Drought
 
-A farmer (Player 1) plants in the Low field or the High field. The drought (Player 2) dries the Irrigation canals or the Wells.
+A farmer selects a crop, while the weather brings drought conditions.
 
-If crops are in the Low field, drying the Canals (win for Drought) or the Wells (win for Drought) always destroys the harvest.
+The farmer can plant barley or rice.
+The drought can strike lightly or severely.
 
-If crops are in the High field, the drought always fails, though drying the Wells (smaller loss for Drought) is less costly than drying the Canals (bigger loss for Drought).
+If barley is planted, the farmer always succeeds, whether the drought is light or severe.
 
-This contest is zero-sum: water scarcity is the farmer’s misfortune.
+If rice is planted, the farmer always suffers. A light drought is less damaging, while a severe drought destroys the crop entirely.
 
 
 
 
 
 
-13. Sailor vs. Storm
+13. Sailor vs. Reef
 
-A sailor (Player 1) sails the Northern waters or the Southern waters. The storm (Player 2) brings High winds or Heavy rain.
+A sailor charts a course, while reefs lurk under the waves.
 
-If sailing north, High winds (win for Storm) or Heavy rain (win for Storm) always disrupt the voyage.
+The sailor can sail by the channel or near the shoals.
+The reef can be hidden in the channel or in the shoals.
 
-If sailing south, the storm always fails, though Heavy rain (smaller loss for Storm) does more harm than High winds (bigger loss for Storm).
+If the channel is chosen, the sailor always passes safely, no matter where the reef lies.
 
-This struggle is zero-sum: the storm’s disruption equals the sailor’s peril.
+If the shoals are chosen, the sailor always risks collision. A reef in the channel makes it less harmful, while a reef in the shoals makes it disastrous.
 
 
 
 
 
 
-14. Actor vs. Audience
+14. Soldier vs. Supply Shortage
 
-An actor (Player 1) performs a Classic play or an Experimental script. The audience (Player 2) responds with Applause or Criticism.
+A soldier must march with supplies, while scarcity sets in.
 
-If the Classic play is staged, Applause (win for Audience) or Criticism (win for Audience) both validate the crowd’s power.
+The soldier can march with rations or with ammunition.
+The shortage can affect food or bullets.
 
-If the Experimental script is staged, the audience always loses, though Applause (smaller loss for Audience) is less damaging than Criticism (bigger loss for Audience).
+If rations are carried, the soldier always stays prepared, regardless of which shortage strikes.
 
-This contest is zero-sum: audience sentiment shapes the actor’s fortunes.
+If ammunition is carried, the soldier always suffers. A shortage of food is less costly, while a shortage of bullets is far more costly.
 
 
 
 
 
 
-15. Soldier vs. Desert
+15. Explorer vs. Jungle
 
-A soldier (Player 1) marches via the Main road or the Hidden path. The desert (Player 2) unleashes Sandstorms or Heat waves.
+An explorer pushes forward, while the jungle reveals its hazards.
 
-If the Main road is chosen, Sandstorms (win for Desert) or Heat waves (win for Desert) always drain supplies.
+The explorer can take the river path or the dense trail.
+The jungle can bring snakes or leeches.
 
-If the Hidden path is chosen, the desert always fails, though Sandstorms (smaller loss for Desert) do less harm than Heat waves (bigger loss for Desert).
+If the river path is taken, the explorer always gets through, no matter the hazard.
 
-This game is zero-sum: desert’s grip is soldier’s hardship.
+If the dense trail is taken, the explorer always suffers. Snakes are less harmful, while leeches are much worse.
 
 
 
 
 
 
-16. Diver vs. Jellyfish
+16. Miner vs. Gas Leak
 
-A diver (Player 1) swims at the Surface or the Deep zone. Jellyfish (Player 2) gather in Shallow water or Near the reef.
+A miner digs into the earth, while hidden gases shift underground.
 
-If at the Surface, Shallow swarms (win for Jellyfish) or Reef swarms (win for Jellyfish) always sting.
+The miner can dig the upper shaft or the lower shaft.
+The gas can leak into the upper shaft or the lower shaft.
 
-If in the Deep zone, jellyfish always fail, though Reef swarms (smaller loss for Jellyfish) are less costly than Shallow swarms (bigger loss for Jellyfish).
+If the upper shaft is chosen, the miner always works safely, no matter where the leak occurs.
 
-This encounter is zero-sum: jellyfish stings are diver’s losses.
+If the lower shaft is chosen, the miner always faces danger. A leak in the upper shaft is less damaging, while a leak in the lower shaft is more deadly.
 
 
 
 
 
 
-17. Politician vs. Press
+17. Hunter vs. Weather
 
-A politician (Player 1) speaks on the Budget or on Defense. The press (Player 2) headlines Scandals or Policy critiques.
+A hunter sets out on the chase, while the weather turns.
 
-If the speech is on the Budget, Scandals (win for Press) or Policy critiques (win for Press) dominate the cycle.
+The hunter can head into the meadows or the forest.
+The weather can turn to fog or to storm.
 
-If the speech is on Defense, the press always loses, though Scandals (smaller loss for Press) do less harm than Policy critiques (bigger loss for Press).
+If the meadows are chosen, the hunter always succeeds, no matter the weather.
 
-This contest is zero-sum: media framing erodes political gain.
+If the forest is chosen, the hunter always struggles. Fog reduces visibility slightly, while storm conditions make the hunt impossible.
 
 
 
 
 
 
-18. Trader vs. Market
+18. Fisher vs. Sharks
 
-A trader (Player 1) sells Gold or Silver. The market (Player 2) shifts through Price drops or Shortages.
+A fisher decides where to cast nets, while sharks roam the waters.
 
-If selling Gold, Price drops (win for Market) or Shortages (win for Market) always hurt the trader.
+The fisher can cast in the lagoon or the deep waters.
+The sharks can move into the lagoon or the deeps.
 
-If selling Silver, the market always fails, though Price drops (smaller loss for Market) sting less than Shortages (bigger loss for Market).
+If the lagoon is chosen, the fisher always returns with a catch, regardless of where the sharks go.
 
-This trade is zero-sum: market’s swings mirror trader’s loss.
+If the deep waters are chosen, the fisher always faces danger. Sharks in the lagoon make it less risky, while sharks in the deeps make it far worse.
 
 
 
 
 
 
-19. Teacher vs. Pupils
+19. Rider vs. Avalanche
 
-A teacher (Player 1) assigns Homework or a Group project. Pupils (Player 2) react with Compliance or Resistance.
+A rider crosses the mountains, while avalanches threaten.
 
-If Homework is given, Compliance (win for Pupils) or Resistance (win for Pupils) both leave them in control.
+The rider can take the ridge path or the valley road.
+The avalanche can fall on the ridge or in the valley.
 
-If a Group project is given, pupils always fail, though Compliance (smaller loss for Pupils) is less harmful than Resistance (bigger loss for Pupils).
+If the ridge path is taken, the rider always crosses safely, no matter where the avalanche falls.
 
-This is zero-sum: pupils’ success mirrors teacher’s setback.
+If the valley road is taken, the rider always faces disaster. An avalanche on the ridge reduces the danger, while an avalanche in the valley makes it catastrophic.
 
 
 
 
 
 
-20. Detective vs. Mystery
+20. Merchant vs. Bandits
 
-A detective (Player 1) follows the Main lead or the Cold trail. The mystery (Player 2) hides False clues or Witness silence.
+A merchant travels with goods, while bandits wait along the roads.
 
-If on the Main lead, False clues (win for Mystery) or Witness silence (win for Mystery) always block the case.
+The merchant can go by the king’s road or the forest track.
+The bandits can set up on the king’s road or on the forest track.
 
-If on the Cold trail, the mystery always fails, though False clues (smaller loss for Mystery) do less harm than Witness silence (bigger loss for Mystery).
+If the king’s road is chosen, the merchant always avoids trouble, whichever road the bandits choose.
 
-This puzzle is zero-sum: concealment equals detective’s struggle.
+If the forest track is chosen, the merchant always suffers. Bandits on the king’s road make it a lighter loss, while bandits on the forest track make it a heavier one.
+

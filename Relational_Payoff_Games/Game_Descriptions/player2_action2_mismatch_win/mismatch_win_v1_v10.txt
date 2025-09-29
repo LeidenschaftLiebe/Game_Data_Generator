@@ -2,147 +2,158 @@ Game descriptions for mismatching actions (mismatch is a win for player 2 and ma
 
 V1 - V10: 
 
-1. Guard vs. Intruder (interception at a reconverging junction)
+1. Guard vs. Intruder
 
-An intruder (Player 1) sprints into the Left corridor or the Right corridor of a building where both corridors rejoin at a choke point. The guard (Player 2) can position at either corridor’s far exit.
+A guard protects a facility while an intruder attempts a breach.
 
-If the intruder takes Left, posting at Right (win for Guard) cuts them off at the rejoin; posting at Left (loss for Guard) trails behind and misses.
+The guard can watch the left corridor or the right corridor.
+The intruder can try to sneak in through the left corridor or the right corridor.
 
-If the intruder takes Right, posting at Left (win for Guard) intercepts at the choke; posting at Right (loss for Guard) arrives late.
+If both choose the same corridor, the guard intercepts and wins.
 
-This game is zero-sum: the guard’s interception is the intruder’s failure.
+If they choose different corridors, the intruder slips past and wins.
 
 
 
 
 
 
-2. Hacker vs. Security Analyst (honeypot strategy)
+2. Goalkeeper vs. Penalty Taker
 
-A hacker (Player 1) targets Service A or Service B. The analyst (Player 2) can harden one and arm a honeypot on the other.
+A striker steps up for a penalty, and the goalkeeper prepares to dive.
 
-If the hacker hits Service A, priming the honeypot on B (win for Analyst) lures the pivot and captures credentials; hardening A (loss for Analyst) only scares off the probe and yields little intel.
+The goalkeeper can dive left or right.
+The striker can kick left or right.
 
-If the hacker hits Service B, priming the honeypot on A (win for Analyst) traps the pivot; hardening B (loss for Analyst) just blocks without attribution.
+If they choose the same side, the goalkeeper makes the save.
 
-This contest is zero-sum: analyst gains (attribution/capture) are the hacker’s losses.
+If they choose different sides, the striker scores.
 
 
 
 
 
 
-3. Predator vs. Prey (cut-off at a fork that reconverges)
+3. Hunter vs. Prey
 
-A hare (Player 1) chooses the Ridge path or the Stream path; both meet at a narrow gap downstream. A fox (Player 2) chooses which exit to guard.
+A hunter stalks an animal in the forest.
 
-If the hare takes the Ridge, the fox waiting at the Stream exit (win for Fox) reaches the gap first and cuts off; waiting at the Ridge exit (loss for Fox) ends up behind.
+The hunter can wait at the waterhole or at the berry patch.
+The prey can approach the waterhole or the berry patch.
 
-If the hare takes the Stream, guarding the Ridge exit (win for Fox) cuts off; guarding the Stream exit (loss for Fox) trails.
+If both go to the same place, the hunter catches the prey.
 
-This chase is zero-sum: a successful cut-off is the hare’s loss.
+If they go to different places, the prey escapes.
 
 
 
 
 
 
-4. Military Maneuver (flanking into the opposite pass)
+4. Police Officer vs. Thief
 
-A column (Player 1) advances via the North pass or the South pass, which both open onto the same valley floor. The opposing general (Player 2) chooses which pass to block with a flanking force.
+A thief plans a getaway while police prepare to intercept.
 
-If the column takes the North pass, blocking the South pass (win for General) forces the enemy into the open where artillery already sights the gap; blocking North (loss for General) meets a head-on grind the column can slip past.
+The police can block the north road or the south road.
+The thief can flee by the north road or the south road.
 
-If the column takes the South pass, blocking the North pass (win for General) enables a cross-fire trap; blocking South (loss for General) engages on unfavorable ground.
+If they pick the same road, the thief is caught.
 
-This maneuver is zero-sum: one side’s tactical success is the other’s loss.
+If they pick different roads, the thief gets away.
 
 
 
 
 
 
-5. Political Campaign (contrast strategy)
+5. Cat vs. Mouse
 
-Candidate A (Player 1) chooses to headline Economy or Security. Candidate B (Player 2) picks which issue to spotlight in contrast, aiming to redefine the news cycle.
+A cat prowls the house, while a mouse searches for food.
 
-If A leads with Economy, B gains more by pushing Security (win for Candidate B) to reframe priorities; pushing Economy (loss for Candidate B) only repeats A’s frame.
+The cat can wait in the kitchen or the pantry.
+The mouse can scurry into the kitchen or the pantry.
 
-If A leads with Security, B gains more by pushing Economy (win for Candidate B); pushing Security (loss for Candidate B) reinforces A.
+If both choose the same spot, the cat pounces and wins.
 
-This contest is zero-sum: B’s narrative gains erode A’s.
+If they choose different spots, the mouse finds food safely.
 
 
 
 
 
 
-6. Smuggler vs. Patrol (diversion at the other route)
+6. Border Patrol vs. Smuggler
 
-A smuggler (Player 1) chooses the Coastal road or the Inland road to a harbor where both roads merge. The patrol (Player 2) can stage a diversion checkpoint to push traffic into a planned stop.
+Patrol agents guard a border while smugglers attempt a crossing.
 
-If the smuggler uses the Coastal road, setting the diversion on the Inland road (win for Patrol) reroutes flows into the main trap; setting it on Coastal (loss for Patrol) leaves the merge open.
+The patrol can cover the mountain pass or the river crossing.
+The smuggler can attempt the mountain pass or the river crossing.
 
-If the smuggler uses the Inland road, diverting the Coastal road (win for Patrol) channels them into the stop; diverting Inland (loss for Patrol) backfires.
+If they both choose the same route, the patrol intercepts.
 
-This is zero-sum: an interception for patrol is failure for the smuggler.
+If they choose different routes, the smuggler succeeds.
 
 
 
 
 
 
-7. Student vs. Examiner (counter-topic)
+7. Eagle vs. Rabbit
 
-A student (Player 1) prepares Topic A or Topic B. The examiner (Player 2) chooses which topic to emphasize.
+An eagle hunts across the fields while a rabbit runs for cover.
 
-If the student studies A, emphasizing B (win for Examiner) exposes the gap; emphasizing A (loss for Examiner) rewards preparation.
+The eagle can swoop over the hilltop or the meadow.
+The rabbit can dash to the hilltop or the meadow.
 
-If the student studies B, emphasizing A (win for Examiner) exposes the gap; emphasizing B (loss for Examiner) rewards preparation.
+If they meet in the same place, the eagle catches the rabbit.
 
-This exam setup is zero-sum: examiner difficulty equals student difficulty.
+If they end up in different places, the rabbit survives.
 
 
 
 
 
 
-8. Market Rivalry (counter-programming)
+8. Cybersecurity Analyst vs. Hacker
 
-Brand A (Player 1) launches a campaign around Feature X or Feature Y. Rival B (Player 2) decides what to advertise.
+A hacker tries to breach a system, while an analyst sets defenses.
 
-If A spotlights Feature X, B wins more by advertising Feature Y (win for Rival B) to capture dissatisfied shoppers; advertising X (loss for Rival B) just validates A.
+The analyst can guard the database or the email server.
+The hacker can attack the database or the email server.
 
-If A spotlights Feature Y, B gains by advertising Feature X (win for Rival B); advertising Y (loss for Rival B) cedes the frame.
+If both target the same asset, the analyst blocks the attack.
 
-This market fight is zero-sum: one brand’s lift is the other’s drop.
+If they target different assets, the hacker breaks in.
 
 
 
 
 
 
-9. Network Defender (isolation vs. pivot)
+9. Dog vs. Burglar
 
-An attacker (Player 1) breaches via Endpoint A or Endpoint B. The defender (Player 2) must choose which other segment to isolate to trap a likely pivot.
+A burglar sneaks into a yard, while a guard dog patrols.
 
-If the breach is on A, isolating B (win for Defender) strands the attacker’s escape path; isolating A (loss for Defender) tips them off and they exfiltrate.
+The dog can guard the front gate or the back door.
+The burglar can enter through the front gate or the back door.
 
-If the breach is on B, isolating A (win for Defender) traps the pivot; isolating B (loss for Defender) warns them.
+If they meet at the same entry point, the dog stops the burglar.
 
-This defense is zero-sum: containment for the defender is failure for the attacker.
+If they go to different points, the burglar succeeds.
 
 
 
 
 
 
-10. Logistics Race (cutting the alternate lane)
+10. Referee vs. Cheating Athlete
 
-A competitor (Player 1) moves cargo via Rail or Highway to a hub where both streams consolidate. The dispatcher (Player 2) can throttle the opposite lane to force a bottleneck at the merge they control.
+An athlete considers cheating in a competition, while the referee watches closely.
 
-If cargo comes by Rail, throttling the Highway (win for Dispatcher) forces a predictable merge window; throttling Rail (loss for Dispatcher) creates chaos they cannot exploit.
+The referee can focus on the starting line or the finishing line.
+The athlete can attempt to cheat at the starting line or the finishing line.
 
-If cargo comes by Highway, throttling the Rail (win for Dispatcher) sets up the trap; throttling Highway (loss for Dispatcher) misses the chance.
+If both focus on the same spot, the referee catches the athlete.
 
-This race is zero-sum: the dispatcher’s advantage is the competitor’s delay.
+If they focus on different spots, the athlete cheats successfully.
+

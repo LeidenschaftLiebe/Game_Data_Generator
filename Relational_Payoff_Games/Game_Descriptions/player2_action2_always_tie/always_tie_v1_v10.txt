@@ -2,147 +2,158 @@ Game descriptions for when player 1 = action 1, then player 2 loses with either 
 when player 1 chooses action 2, player 2 wins either way, and the rewards are the same.
 V1 - V10: 
 
-1. Prosecutor vs. Defense Attorney
+1. Explorer vs. Desert
 
-A prosecutor (Player 1) decides to pursue Fraud charges or Assault charges. The defense attorney (Player 2) chooses a defense tactic.
+An explorer must choose a path through the desert, while the desert reveals its dangers.
 
-If Fraud charges are filed, the defense attorney always loses. Choosing Lack of intent or Insufficient evidence makes no difference, since both lead to the same losing outcome.
+The explorer can march along the dune ridge or across the salt flats.
+The desert can shift with sandstorms or scorching sun.
 
-If Assault charges are filed, the defense attorney always wins. Whether using Self-defense or Mistaken identity, both result in the same winning outcome.
+If the dune ridge is chosen, the desert always defeats the explorer, whether it’s storms or sun.
 
-Zero-sum: every courtroom gain by one is a loss for the other.
+If the salt flats are chosen, the explorer always makes it through, no matter the condition.
 
 
 
 
 
 
-2. Candidate vs. Rival
+2. Farmer vs. Flood
 
-A candidate (Player 1) runs on Education reform or Tax policy. The rival (Player 2) sets their counter-narrative.
+A farmer plants crops while floods threaten.
 
-If Education reform is emphasized, the rival always loses. Whether they argue Curriculum or Funding, the outcome is the same loss.
+The farmer can plant in the lowland or the upland.
+The flood can strike the lowland or the upland.
 
-If Tax policy is emphasized, the rival always wins. Picking Corporate cuts or Family relief makes no difference, since both lead to the same win.
+If crops are in the lowland, the flood always destroys them, regardless of where it surges.
 
-Zero-sum: public opinion tips entirely to one side.
+If crops are in the upland, the farmer always prospers, no matter which field is hit.
 
 
 
 
 
 
-3. Teacher vs. Student
+3. Pilot vs. Weather
 
-A teacher (Player 1) holds a test on History or Mathematics. The student (Player 2) prepares accordingly.
+A pilot chooses a route, while the weather shifts violently.
 
-If the exam is on History, the student always loses. Studying Dates or Events leads to the same losing result.
+The pilot can fly across the storm belt or the clear skies.
+The weather can unleash lightning or turbulence.
 
-If the exam is on Mathematics, the student always wins. Preparing Algebra or Geometry produces the same winning outcome.
+If the storm belt is crossed, the pilot always struggles, whichever force of weather appears.
 
-Zero-sum: mastery flows entirely one way.
+If the clear skies are chosen, the pilot always succeeds, regardless of the disturbance.
 
 
 
 
 
 
-4. Negotiator vs. Counterparty
+4. Miner vs. Cave Hazard
 
-A negotiator (Player 1) pushes talks on Tariffs or Security agreements. The counterparty (Player 2) responds.
+A miner decides where to dig, while hidden hazards threaten.
 
-If Tariffs are the focus, the counterparty always loses. Whether they push Imports or Exports, both lead to the same losing result.
+The miner can work in the unstable shaft or the reinforced shaft.
+The hazard can take the form of gas or rockfall.
 
-If Security agreements are the focus, the counterparty always wins. Choosing Border patrol or Weapons limits yields the same winning payoff.
+If the unstable shaft is chosen, the miner always faces disaster, no matter the hazard.
 
-Zero-sum: leverage swings completely.
+If the reinforced shaft is chosen, the miner always remains safe, whichever hazard arises.
 
 
 
 
 
 
-5. Journalist vs. Politician
+5. General vs. Terrain
 
-A journalist (Player 1) chooses to ask about Scandals or Policy details. The politician (Player 2) answers.
+A general directs troops, while the terrain dictates success or failure.
 
-If the question is about Scandals, the politician always loses. Deflecting or denying both lead to the same outcome of loss.
+The general can move through the swamp or the fortified road.
+The terrain can hinder with mud or ambushes.
 
-If the question is about Policy details, the politician always wins. Highlighting successes or blaming rivals both deliver the same winning result.
+If the swamp is chosen, the general always loses ground, regardless of the obstacle.
 
-Zero-sum: control of the narrative rests entirely with one side.
+If the fortified road is chosen, the general always advances, no matter the hazard.
 
 
 
 
 
 
-6. Coach vs. Player
+6. Fisher vs. Storm
 
-A coach (Player 1) emphasizes Defense drills or Offense drills. The player (Player 2) adjusts training.
+A fisher sets sail, while storms build at sea.
 
-If Defense drills are chosen, the player always loses. Practicing Positioning or Tackling makes no difference, since both result in failure.
+The fisher can cast nets in the exposed bay or in the sheltered cove.
+The storm can strike with high waves or fierce winds.
 
-If Offense drills are chosen, the player always wins. Whether they work on Shooting or Passing, the outcome is the same win.
+If the exposed bay is chosen, the fisher always fails, no matter the storm.
 
-Zero-sum: practice outcomes are absolute.
+If the sheltered cove is chosen, the fisher always succeeds, whatever the storm brings.
 
 
 
 
 
 
-7. Manager vs. Employee
+7. Traveler vs. Mountain
 
-A manager (Player 1) assigns work on Strategy or Execution. The employee (Player 2) reacts.
+A traveler chooses a route through the mountains, while danger lurks.
 
-If Strategy is assigned, the employee always loses. Producing Reports or Plans both lead to the same losing outcome.
+The traveler can take the rockslide path or the paved road.
+The mountain can threaten with snow or stonefall.
 
-If Execution is assigned, the employee always wins. Delivering Quick results or Minimal effort both end in the same win.
+If the rockslide path is taken, the traveler always suffers, regardless of the threat.
 
-Zero-sum: authority in the workplace flows one way.
+If the paved road is taken, the traveler always makes it through, whichever hazard occurs.
 
 
 
 
 
 
-8. Student vs. Examiner
+8. Merchant vs. Pirates
 
-A student (Player 1) attempts Essay A or Essay B. The examiner (Player 2) grades.
+A merchant decides how to sail, while pirates lurk.
 
-If Essay A is attempted, the examiner always loses. Focusing on Structure or Content makes no difference, since both lead to failure.
+The merchant can pass through the pirate strait or the royal patrol zone.
+The pirates can attack with boarding or cannon fire.
 
-If Essay B is attempted, the examiner always wins. Grading on Critical thinking or Grammar both give the same success.
+If the pirate strait is chosen, the merchant always loses, no matter how the pirates attack.
 
-Zero-sum: assessment advantage rests with one.
+If the patrol zone is chosen, the merchant always wins, regardless of pirate tactics.
 
 
 
 
 
 
-9. Debater vs. Challenger
+9. Athlete vs. Conditions
 
-A debater (Player 1) speaks on Liberty or Security. The challenger (Player 2) rebuts.
+An athlete chooses an event, while conditions affect performance.
 
-If Liberty is argued, the challenger always loses. Whether rebutting with Rights or Responsibility, the outcome is identical defeat.
+The athlete can compete on the broken track or the new stadium.
+The conditions can bring rain or wind.
 
-If Security is argued, the challenger always wins. Using Safety or Enforcement leads to the same winning result.
+If the broken track is chosen, the athlete always loses, whatever the weather.
 
-Zero-sum: rhetorical advantage lies wholly with one.
+If the new stadium is chosen, the athlete always wins, no matter the weather.
 
 
 
 
 
 
-10. Director vs. Actor
+10. Builder vs. Earthquake
 
-A director (Player 1) stresses Blocking or Emotion in rehearsal. The actor (Player 2) adapts.
+A builder decides where to raise a structure, while quakes rumble beneath.
 
-If Blocking is stressed, the actor always loses. Adjusting Movement or Timing both produce the same failure.
+The builder can build on the fault line or the bedrock hill.
+The quake can shake with tremors or shocks.
 
-If Emotion is stressed, the actor always wins. Emphasizing Expressiveness or Subtlety both lead to the same payoff of success.
+If the fault line is chosen, the builder always fails, regardless of the quake.
 
-Zero-sum: creative control belongs fully to one.
+If the bedrock hill is chosen, the builder always succeeds, no matter the tremors.
+

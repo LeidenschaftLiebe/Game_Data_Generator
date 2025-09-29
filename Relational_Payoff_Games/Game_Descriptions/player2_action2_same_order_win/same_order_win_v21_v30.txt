@@ -2,147 +2,158 @@ Game descriptions for when player 1 = action 1, then player 2 wins with either a
 when player 1 chooses action 2, player 2 loses either way, but action 1 results in a smaller loss.
 V21 - V30: 
 
-21. Boxer vs. Crowd
+21. Firefighter vs. Blaze
 
-A boxer (Player 1) uses a Standard combo or an Unusual move. The crowd (Player 2) reacts with Cheers or Boos.
+A firefighter decides where to deploy hoses, while the blaze spreads unpredictably.
 
-If using the Standard combo, Cheers (win for Crowd) or Boos (win for Crowd) both reward the crowd’s power.
+The firefighter can focus on the warehouse or the office block.
+The blaze can surge in the warehouse or the offices.
 
-If using the Unusual move, the crowd always loses, though Cheers (smaller loss for Crowd) hurt less than Boos (bigger loss for Crowd).
+If the warehouse is chosen, the firefighter always contains the fire, no matter where it spreads.
 
-Zero-sum: crowd satisfaction mirrors boxer’s struggle.
+If the office block is chosen, the firefighter always loses ground. A surge in the warehouse makes the loss smaller, while a surge in the offices makes it far worse.
 
 
 
 
 
 
-22. Engineer vs. System
+22. Diver vs. Current
 
-An engineer (Player 1) powers up Circuit A or Circuit B. The system (Player 2) responds with Overload or Short circuit.
+A diver descends into the ocean, while currents shift below.
 
-If Circuit A is powered, Overload (win for System) or Short circuit (win for System) always cripple it.
+The diver can dive near the reef or into the trench.
+The current can sweep the reef or the trench.
 
-If Circuit B is powered, the system always fails, though Overload (smaller loss for System) is less severe than Short circuit (bigger loss for System).
+If the reef is chosen, the diver always has safe conditions, whichever way the current flows.
 
-Zero-sum: system’s resistance equals engineer’s setback.
+If the trench is chosen, the diver always struggles. A current at the reef makes it less severe, while a current in the trench makes it much more dangerous.
 
 
 
 
 
 
-23. Farmer vs. Flood
+23. Soldier vs. Trap
 
-A farmer (Player 1) irrigates the Upper field or the Lower field. The flood (Player 2) spreads through Overflow or Backflow.
+A soldier advances into enemy territory, while traps are hidden in the terrain.
 
-If in the Upper field, Overflow (win for Flood) or Backflow (win for Flood) always ruin crops.
+The soldier can take the main road or the side path.
+The traps can be placed on the main road or the side path.
 
-If in the Lower field, the flood always fails, though Overflow (smaller loss for Flood) is less than Backflow (bigger loss for Flood).
+If the main road is taken, the soldier always avoids the traps, no matter where they are.
 
-Zero-sum: flood’s rise is farmer’s loss.
+If the side path is taken, the soldier always triggers danger. Traps on the main road lessen the damage, while traps on the side path make it deadly.
 
 
 
 
 
 
-24. Runner vs. Heat
+24. Pilot vs. Flak
 
-A runner (Player 1) trains in the Morning or the Afternoon. The heat (Player 2) strikes with Humidity or Scorching sun.
+A pilot chooses a flight path, while anti-aircraft fire is set up.
 
-If in the Morning, Humidity (win for Heat) or Scorching sun (win for Heat) always hinder.
+The pilot can fly over the river valley or the mountain ridge.
+The flak can target the valley or the ridge.
 
-If in the Afternoon, the heat always fails, though Humidity (smaller loss for Heat) is less harsh than Scorching sun (bigger loss for Heat).
+If the river valley is chosen, the pilot always gets through safely, regardless of where the flak fires.
 
-Zero-sum: weather gains equal runner’s setbacks.
+If the mountain ridge is chosen, the pilot always takes damage. Fire aimed at the valley is less harmful, while fire aimed at the ridge is devastating.
 
 
 
 
 
 
-25. Captain vs. Fog
+25. Athlete vs. Injury
 
-A captain (Player 1) sails via the Shore route or the Deep route. Fog (Player 2) rolls in as Thick mist or Low clouds.
+An athlete picks a training method, while injuries lurk unseen.
 
-If the Shore route is chosen, Thick mist (win for Fog) or Low clouds (win for Fog) always obscure navigation.
+The athlete can train with endurance runs or with weightlifting.
+The injury can appear as muscle strain or joint pain.
 
-If the Deep route is chosen, fog always fails, though Low clouds (smaller loss for Fog) are less costly than Thick mist (bigger loss for Fog).
+If endurance runs are chosen, the athlete always stays healthy, whichever injury risk is present.
 
-Zero-sum: fog’s concealment equals captain’s difficulty.
+If weightlifting is chosen, the athlete always gets hurt. Muscle strain makes it lighter, while joint pain makes it worse.
 
 
 
 
 
 
-26. Athlete vs. Injury
+26. Commander vs. Weather
 
-An athlete (Player 1) trains Technique or Strength. Injury (Player 2) strikes through Sprain or Fatigue.
+A commander plans troop movement, while storms threaten.
 
-If focusing on Technique, Sprain (win for Injury) or Fatigue (win for Injury) always set them back.
+The commander can march across the plain or through the forest.
+The storm can break over the plain or the forest.
 
-If focusing on Strength, injury always fails, though Sprain (smaller loss for Injury) is less harmful than Fatigue (bigger loss for Injury).
+If the plain is chosen, the commander always succeeds, no matter where the storm strikes.
 
-Zero-sum: injury’s gain is athlete’s loss.
+If the forest is chosen, the commander always falters. A storm on the plain is less costly, while a storm in the forest is disastrous.
 
 
 
 
 
 
-27. Pilot vs. Crosswinds
+27. Logger vs. Forest Hazard
 
-A pilot (Player 1) lands on Runway East or Runway West. Crosswinds (Player 2) shift Toward the nose or Toward the tail.
+A logger chooses where to cut, while hidden hazards arise.
 
-If using Runway East, either shift Toward the nose (win for Crosswinds) or Toward the tail (win for Crosswinds) always destabilizes.
+The logger can cut the north grove or the south grove.
+The hazard can strike in the north or in the south.
 
-If using Runway West, crosswinds always fail, though Toward the nose (smaller loss for Crosswinds) is less damaging than Toward the tail (bigger loss for Crosswinds).
+If the north grove is chosen, the logger always works safely, no matter the hazard.
 
-Zero-sum: crosswind strength equals pilot’s struggle.
+If the south grove is chosen, the logger always suffers. A hazard in the north is less harmful, while a hazard in the south is much worse.
 
 
 
 
 
 
-28. Performer vs. Stage Light
+28. Rider vs. Sandstorm
 
-A performer (Player 1) acts under the Main spotlight or the Side light. The lights (Player 2) flicker with Dimness or Color shifts.
+A rider crosses the desert, while a sandstorm brews.
 
-If under the Main spotlight, Dimness (win for Lights) or Color shifts (win for Lights) always spoil the scene.
+The rider can ride along the ridge path or the dune flats.
+The sandstorm can sweep the ridge or the flats.
 
-If under the Side light, the lights always fail, though Dimness (smaller loss for Lights) is milder than Color shifts (bigger loss for Lights).
+If the ridge path is chosen, the rider always gets through safely, whichever area is hit.
 
-Zero-sum: lights’ disruption equals performer’s loss.
+If the dune flats are chosen, the rider always suffers. A storm at the ridge is less damaging, while a storm at the flats is crushing.
 
 
 
 
 
 
-29. Builder vs. Earthquake
+29. Farmer vs. Pest Infestation
 
-A builder (Player 1) constructs on the Plateau or the Valley. The quake (Player 2) shakes with Tremors or Aftershocks.
+A farmer prepares fields, while pests spread across the crops.
 
-If on the Plateau, Tremors (win for Quake) or Aftershocks (win for Quake) always damage.
+The farmer can plant in the north field or the south field.
+The pests can swarm the north or the south.
 
-If on the Valley, the quake always fails, though Tremors (smaller loss for Quake) hurt less than Aftershocks (bigger loss for Quake).
+If the north field is planted, the farmer always succeeds, no matter where pests attack.
 
-Zero-sum: quake’s strike equals builder’s failure.
+If the south field is planted, the farmer always fails. Pests in the north reduce the loss, while pests in the south destroy everything.
 
 
 
 
 
 
-30. Fisher vs. Current
+30. Explorer vs. Avalanche
 
-A fisher (Player 1) casts in the Bay or the Harbor. The current (Player 2) moves with Tide rise or Undertow.
+An explorer climbs in the mountains, while avalanches threaten.
 
-If in the Bay, Tide rise (win for Current) or Undertow (win for Current) always spoil the catch.
+The explorer can climb the ice slope or the snow pass.
+The avalanche can fall on the slope or the pass.
 
-If in the Harbor, the current always fails, though Tide rise (smaller loss for Current) is less harmful than Undertow (bigger loss for Current).
+If the ice slope is climbed, the explorer always avoids danger, regardless of where the avalanche falls.
 
-Zero-sum: current’s gain equals fisher’s loss.
+If the snow pass is climbed, the explorer always faces danger. An avalanche on the slope makes it lighter, while an avalanche on the pass makes it deadly.
+

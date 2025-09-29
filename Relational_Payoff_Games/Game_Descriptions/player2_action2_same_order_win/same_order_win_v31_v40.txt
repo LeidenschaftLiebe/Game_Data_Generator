@@ -2,147 +2,158 @@ Game descriptions for when player 1 = action 1, then player 2 wins with either a
 when player 1 chooses action 2, player 2 loses either way, but action 1 results in a smaller loss.
 V31 - V40: 
 
-31. Worker vs. Machine
+31. Prisoner vs. Guard
 
-A worker (Player 1) uses the Press or the Lathe. The machine (Player 2) fails through Overheating or Jammed gears.
+A prisoner plans an escape, while the guard chooses which exit to watch.
 
-If using the Press, Overheating (win for Machine) or Jammed gears (win for Machine) always break production.
+The prisoner can run to the north gate or the south tunnel.
+The guard can watch the north gate or watch the south tunnel.
 
-If using the Lathe, the machine always fails, though Overheating (smaller loss for Machine) is less than Jammed gears (bigger loss for Machine).
+If the north gate is chosen, the guard always catches the prisoner, no matter which exit is watched.
 
-Zero-sum: malfunction’s gain is worker’s loss.
+If the south tunnel is chosen, the guard always fails. Watching the north gate limits the damage, while watching the south tunnel makes the escape cleaner.
 
 
 
 
 
 
-32. Sailor vs. Whirlpool
+32. Scientist vs. Experiment Failure
 
-A sailor (Player 1) rows via the East channel or the West channel. A whirlpool (Player 2) pulls with Surface swirls or Deep suction.
+A scientist sets up an experiment, while hidden flaws may ruin it.
 
-If via the East channel, Surface swirls (win for Whirlpool) or Deep suction (win for Whirlpool) always trap.
+The scientist can test with the blue compound or the red compound.
+The failure can occur in the blue setup or the red setup.
 
-If via the West channel, the whirlpool always fails, though Surface swirls (smaller loss for Whirlpool) do less than Deep suction (bigger loss for Whirlpool).
+If the blue compound is used, the scientist always succeeds, no matter where the flaw lies.
 
-Zero-sum: whirlpool’s pull equals sailor’s loss.
+If the red compound is used, the scientist always fails. A flaw in the blue setup reduces the failure, while a flaw in the red setup makes it disastrous.
 
 
 
 
 
 
-33. Journalist vs. Leak
+33. Soldier vs. Minefield
 
-A journalist (Player 1) pursues Story A or Story B. The leak (Player 2) distracts with Rumors or Fabricated documents.
+A soldier advances into hostile terrain, while mines are buried.
 
-If covering Story A, Rumors (win for Leak) or Fabricated documents (win for Leak) always divert attention.
+The soldier can march through the clearing or the gully.
+The mines can be placed in the clearing or in the gully.
 
-If covering Story B, the leak always fails, though Rumors (smaller loss for Leak) are less damaging than Fabricated documents (bigger loss for Leak).
+If the clearing is chosen, the soldier always gets through safely, whichever spot is mined.
 
-Zero-sum: leak’s disruption equals journalist’s loss.
+If the gully is chosen, the soldier always suffers. Mines in the clearing cause less harm, while mines in the gully cause far greater harm.
 
 
 
 
 
 
-34. Painter vs. Rain
+34. Pilot vs. Storm
 
-A painter (Player 1) works on the House or the Barn. Rain (Player 2) falls as Drizzle or Downpour.
+A pilot chooses a flight route, while a storm shifts.
 
-If painting the House, Drizzle (win for Rain) or Downpour (win for Rain) always ruin work.
+The pilot can fly over the plains or across the mountains.
+The storm can hit the plains or the mountains.
 
-If painting the Barn, the rain always fails, though Drizzle (smaller loss for Rain) is less severe than Downpour (bigger loss for Rain).
+If the plains are chosen, the pilot always avoids trouble, no matter where the storm breaks.
 
-Zero-sum: rain’s gain equals painter’s loss.
+If the mountains are chosen, the pilot always struggles. A storm on the plains is less dangerous, while a storm in the mountains is devastating.
 
 
 
 
 
 
-35. Student vs. Stress
+35. Archer vs. Target Trick
 
-A student (Player 1) revises Math or History. Stress (Player 2) strikes with Distraction or Anxiety.
+An archer competes in a contest, while targets are rigged with tricks.
 
-If studying Math, Distraction (win for Stress) or Anxiety (win for Stress) always block focus.
+The archer can shoot at the inner circle or the outer ring.
+The trick can affect the inner circle or the outer ring.
 
-If studying History, stress always fails, though Distraction (smaller loss for Stress) is less harmful than Anxiety (bigger loss for Stress).
+If the inner circle is chosen, the archer always scores well, regardless of where the trick is placed.
 
-Zero-sum: stress’s impact equals student’s setback.
+If the outer ring is chosen, the archer always fails. A trick in the inner circle makes the loss smaller, while a trick in the outer ring makes it worse.
 
 
 
 
 
 
-36. Doctor vs. Disease
+36. Captain vs. Pirate
 
-A doctor (Player 1) treats Flu or Pneumonia. The disease (Player 2) adapts by Mutating strain or Drug resistance.
+A captain sails with treasure, while a pirate sets an ambush.
 
-If treating Flu, Mutating strain (win for Disease) or Drug resistance (win for Disease) always overpower.
+The captain can sail along the strait or the open sea.
+The pirate can ambush the strait or ambush the open sea.
 
-If treating Pneumonia, the disease always fails, though Mutating strain (smaller loss for Disease) is less than Drug resistance (bigger loss for Disease).
+If the strait is chosen, the pirate always seizes the treasure, no matter where he lies in wait.
 
-Zero-sum: disease’s adaptation is doctor’s failure.
+If the open sea is chosen, the pirate always misses. Ambushing the strait reduces his loss, while ambushing the open sea leaves him empty-handed.
 
 
 
 
 
 
-37. Farmer vs. Frost
+37. Athlete vs. Weather Judge
 
-A farmer (Player 1) plants in the Orchard or the Vineyard. Frost (Player 2) strikes with Cold snap or Ice storm.
+An outdoor athlete competes while judges decide how to score under changing weather.
 
-If in the Orchard, Cold snap (win for Frost) or Ice storm (win for Frost) always damage.
+The athlete can compete in long jump or high jump.
+The weather can favor the long jump or the high jump.
 
-If in the Vineyard, frost always fails, though Cold snap (smaller loss for Frost) is less damaging than Ice storm (bigger loss for Frost).
+If long jump is chosen, the athlete always does well, no matter the weather.
 
-Zero-sum: frost’s gain equals farmer’s loss.
+If high jump is chosen, the athlete always performs poorly. Favorable weather for long jump softens the failure, while favorable weather for high jump makes it harsher.
 
 
 
 
 
 
-38. Swimmer vs. Waves
+38. Commander vs. Saboteur
 
-A swimmer (Player 1) heads for the Pier or the Buoy. Waves (Player 2) crash with Chop or Breaker.
+A commander sends supplies, while a saboteur tries to strike.
 
-If toward the Pier, Chop (win for Waves) or Breaker (win for Waves) always overwhelm.
+The commander can send them by the railroad or the convoy.
+The saboteur can attack the railroad or attack the convoy.
 
-If toward the Buoy, waves always fail, though Chop (smaller loss for Waves) is less dangerous than Breaker (bigger loss for Waves).
+If the railroad is used, the saboteur always succeeds, regardless of which target he chooses.
 
-Zero-sum: waves’ power equals swimmer’s struggle.
+If the convoy is used, the saboteur always fails. Striking the railroad makes it a smaller failure, while striking the convoy makes it a bigger one.
 
 
 
 
 
 
-39. Inventor vs. Rival Firm
+39. Judge vs. Lawyer
 
-An inventor (Player 1) patents Design X or Design Y. A rival (Player 2) counters with Competing prototype or Aggressive marketing.
+A judge calls a case type, while the lawyer prepares arguments.
 
-If Design X is filed, Competing prototype (win for Rival) or Aggressive marketing (win for Rival) always undercut the inventor.
+The judge can open with civil law or criminal law.
+The lawyer can prepare civil law or prepare criminal law.
 
-If Design Y is filed, the rival always fails, though Competing prototype (smaller loss for Rival) is less damaging than Aggressive marketing (bigger loss for Rival).
+If civil law is called, the lawyer always shines, whichever arguments are chosen.
 
-Zero-sum: rival’s gain is the inventor’s loss.
+If criminal law is called, the lawyer always falters. Preparing civil law makes it less damaging, while preparing criminal law makes it worse.
 
 
 
 
 
 
-40. Explorer vs. Sandstorm
+40. Thief vs. Guard Dog
 
-An explorer (Player 1) travels through the North dune or the South dune. The sandstorm (Player 2) strikes with Blinding gusts or Shifting sands.
+A thief tries to sneak in, while the guard dog roams the yard.
 
-If the North dune is chosen, Blinding gusts (win for Sandstorm) or Shifting sands (win for Sandstorm) always overwhelm the explorer.
+The thief can slip by the front fence or the side gate.
+The dog can patrol the front fence or the side gate.
 
-If the South dune is chosen, the storm always fails, though Blinding gusts (smaller loss for Sandstorm) are less costly than Shifting sands (bigger loss for Sandstorm).
+If the front fence is chosen, the dog always stops the thief, whichever patrol is taken.
 
-Zero-sum: the storm’s fury is the explorer’s setback.
+If the side gate is chosen, the dog always fails. Patrolling the front fence limits the loss, while patrolling the side gate makes it worse.
+

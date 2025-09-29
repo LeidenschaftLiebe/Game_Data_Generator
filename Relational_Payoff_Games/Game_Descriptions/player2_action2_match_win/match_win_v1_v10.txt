@@ -2,147 +2,152 @@ Game descriptions for matching actions (match is a win for player 2 and mismatch
 
 V1 - V10: 
 
-1. Spy vs. Agent
+1. Guard vs. Intruder
 
-A spy (Player 1) must exfiltrate through either the North gate or the South gate. The agent (Player 2) decides where to intercept.
+A late-night break-in is underway at a facility with two corridors. The intruder decides which corridor to enter, and the guard chooses where to block.
 
-If the spy goes North, the agent intercepts by choosing North (win for Agent); choosing South (loss for Agent) lets the spy escape.
+The intruder can move through the left corridor or the right corridor.
+The guard can block the left corridor or block the right corridor.
 
-If the spy goes South, the agent intercepts by choosing South (win for Agent); choosing North (loss for Agent) fails.
+If the intruder enters the left corridor, the guard wins by blocking left, but loses if blocking right.
 
-This contest is zero-sum: whenever the agent wins, the spy loses by the same margin.
+If the intruder enters the right corridor, the guard wins by blocking right, but loses if blocking left.
 
 
 
 
 
 
-2. Fisherman vs. Shark
+2. Hacker vs. Security Analyst
 
-A fisherman (Player 1) rows to either the Lagoon or the Reef. A shark (Player 2) lurks nearby, deciding where to strike.
+A hacker launches an exploit against a company, while the analyst chooses which patch to apply.
 
-If the fisherman heads to the Lagoon, the shark succeeds by waiting at the Lagoon (win for Shark); if it goes to the Reef (loss for Shark), the fisherman is safe.
+The hacker can use Exploit A or Exploit B.
+The analyst can deploy Patch A or Patch B.
 
-If the fisherman rows to the Reef, the shark succeeds by waiting at the Reef (win for Shark); choosing the Lagoon (loss for Shark) fails.
+If the hacker uses Exploit A, the analyst wins by applying Patch A, but loses with Patch B.
 
-This encounter is zero-sum: the shark’s gain is the fisherman’s loss.
+If the hacker uses Exploit B, the analyst wins by applying Patch B, but loses with Patch A.
 
 
 
 
 
 
-3. Smuggler vs. Customs Officer
+3. Predator vs. Prey
 
-A smuggler (Player 1) chooses to pass through the Checkpoint or take the Back road. The customs officer (Player 2) sets up inspection.
+A rabbit tries to escape from a fox by heading toward one of two hiding places. The fox chooses where to pounce.
 
-If the smuggler uses the Checkpoint, inspection at the Checkpoint (win for Officer) works; inspection at the Back road (loss for Officer) misses.
+The rabbit can run to the burrow or the field.
+The fox can pounce at the burrow or pounce at the field.
 
-If the smuggler uses the Back road, inspection at the Back road (win for Officer) works; inspection at the Checkpoint (loss for Officer) misses.
+If the rabbit goes to the burrow, the fox wins by pouncing at the burrow, but loses if it pounces at the field.
 
-This game is zero-sum: every seizure by the officer is an equal failure for the smuggler.
+If the rabbit goes to the field, the fox wins by pouncing at the field, but loses if it pounces at the burrow.
 
 
 
 
 
 
-4. Miner vs. Claim Jumper
+4. Military Maneuver
 
-A miner (Player 1) digs at either the Gold seam or the Silver seam. A claim jumper (Player 2) decides where to stake a rival claim.
+Two generals face off. One moves troops along a route, while the other chooses where to intercept.
 
-If the miner digs Gold, staking on Gold (win for Claim Jumper) blocks the miner; staking on Silver (loss for Claim Jumper) fails.
+The advancing general can march through the valley or across the hill.
+The defending general can intercept in the valley or intercept on the hill.
 
-If the miner digs Silver, staking on Silver (win for Claim Jumper) blocks the miner; staking on Gold (loss for Claim Jumper) fails.
+If troops march through the valley, the defending general wins by intercepting there, but loses if intercepting on the hill.
 
-The setup is zero-sum: the claim jumper’s profit mirrors the miner’s loss.
+If troops march across the hill, the defending general wins by intercepting on the hill, but loses if intercepting in the valley.
 
 
 
 
 
 
-5. Bird vs. Falcon
+5. Political Campaign
 
-A bird (Player 1) seeks food either in the Meadow or the Forest. A falcon (Player 2) prepares to swoop.
+Two candidates compete for attention on the campaign trail. One sets the day’s focus, and the other chooses where to counter.
 
-If the bird goes to the Meadow, swooping into the Meadow (win for Falcon) catches it; swooping into the Forest (loss for Falcon) misses.
+The first candidate can appeal to urban voters or rural voters.
+The second candidate can counter in urban areas or counter in rural areas.
 
-If the bird goes to the Forest, swooping into the Forest (win for Falcon) catches it; swooping into the Meadow (loss for Falcon) misses.
+If urban voters are targeted, the counter-candidate wins by campaigning in urban areas, but loses if they focus on rural areas.
 
-This chase is zero-sum: the falcon’s successful catch is exactly the bird’s failure.
+If rural voters are targeted, the counter-candidate wins by campaigning in rural areas, but loses if they focus on urban areas.
 
 
 
 
 
 
-6. Guard vs. Intruder
+6. Courier vs. Bandit
 
-An intruder (Player 1) chooses between sneaking through the Left corridor or the Right corridor. The guard (Player 2) decides where to block.
+A courier sets out on horseback, carrying valuables. A bandit waits in ambush.
 
-If the intruder goes Left, blocking Left (win for Guard) succeeds; blocking Right (loss for Guard) fails.
+The courier can take the north road or the south road.
+The bandit can ambush the north road or ambush the south road.
 
-If the intruder goes Right, blocking Right (win for Guard) succeeds; blocking Left (loss for Guard) fails.
+If the courier takes the north road, the bandit wins by ambushing north, but loses if ambushing south.
 
-This game is zero-sum: every success for the guard is an equal failure for the intruder.
+If the courier takes the south road, the bandit wins by ambushing south, but loses if ambushing north.
 
 
 
 
 
 
-7. Hacker vs. Security Analyst
+7. Teacher vs. Cheater
 
-A hacker (Player 1) launches an attack using either Exploit A or Exploit B. The security analyst (Player 2) applies a defense patch.
+During an exam, a student plans how to cheat, while the teacher decides what to monitor closely.
 
-If the hacker uses Exploit A, applying Patch A (win for Analyst) blocks it; applying Patch B (loss for Analyst) fails.
+The student can cheat with a phone or with hidden notes.
+The teacher can watch for phone use or watch for notes.
 
-If the hacker uses Exploit B, applying Patch B (win for Analyst) blocks it; applying Patch A (loss for Analyst) fails.
+If the student cheats with a phone, the teacher wins by watching phones, but loses if watching notes.
 
-This contest is zero-sum: any protection by the analyst is matched by the hacker’s loss.
+If the student cheats with notes, the teacher wins by watching notes, but loses if watching phones.
 
 
 
 
 
 
-8. Predator vs. Prey
+8. Spy vs. Border Patrol
 
-A rabbit (Player 1) chooses either the Burrow or the Field as an escape route. A fox (Player 2) chases.
+A spy attempts to cross a guarded border. Patrol units are stationed selectively.
 
-If the rabbit goes to the Burrow, chasing into the Burrow (win for Fox) catches it; chasing into the Field (loss for Fox) fails.
+The spy can cross via the bridge or the tunnel.
+The border patrol can guard the bridge or guard the tunnel.
 
-If the rabbit goes to the Field, chasing into the Field (win for Fox) catches it; chasing into the Burrow (loss for Fox) fails.
+If the spy uses the bridge, the patrol wins by guarding the bridge, but loses if guarding the tunnel.
 
-This chase is zero-sum: the fox’s capture is the rabbit’s downfall.
+If the spy uses the tunnel, the patrol wins by guarding the tunnel, but loses if guarding the bridge.
 
+9. Smuggler vs. Harbor Police
 
+A smuggler brings in contraband by ship. Harbor police choose where to inspect.
 
+The smuggler can dock at Pier A or Pier B.
+The harbor police can inspect Pier A or inspect Pier B.
 
+If the smuggler docks at Pier A, the police win by inspecting Pier A, but lose if inspecting Pier B.
 
+If the smuggler docks at Pier B, the police win by inspecting Pier B, but lose if inspecting Pier A.
 
-9. Military Maneuver
 
-A commander (Player 1) advances troops through the Valley or the Hill. The opposing general (Player 2) deploys forces.
 
-If troops march through the Valley, deploying to the Valley (win for General) intercepts them; deploying to the Hill (loss for General) fails.
 
-If troops march through the Hill, deploying to the Hill (win for General) intercepts them; deploying to the Valley (loss for General) fails.
 
-This maneuver is zero-sum: one side’s gain is precisely the other’s loss.
 
+10. Striker vs. Goalkeeper
 
+In a penalty kick, a striker picks a side and the goalkeeper dives to defend.
 
+The striker can shoot left or right.
+The goalkeeper can dive left or dive right.
 
+If the striker shoots left, the goalkeeper wins by diving left, but loses if diving right.
 
-
-10. Political Campaign
-
-Candidate A (Player 1) focuses on either Urban voters or Rural voters. Candidate B (Player 2) decides where to counter-campaign.
-
-If Candidate A campaigns in Urban areas, countering in Urban (win for Candidate B) succeeds; countering in Rural (loss for Candidate B) fails.
-
-If Candidate A campaigns in Rural areas, countering in Rural (win for Candidate B) succeeds; countering in Urban (loss for Candidate B) fails.
-
-This contest is zero-sum: Candidate B’s gains directly reduce Candidate A’s support.
+If the striker shoots right, the goalkeeper wins by diving right, but loses if diving left.

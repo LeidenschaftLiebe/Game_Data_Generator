@@ -2,147 +2,158 @@ Game descriptions for when player 1 = action 1, then player 2 wins with either a
 when player 1 chooses action 2, player 2 loses either way, but action 1 results in a smaller loss.
 V1 - V10: 
 
-1. Archaeologist vs. Cave Collapse
+1. Sailor vs. Storm
 
-An archaeologist (Player 1) decides to enter through the Wide entrance or the Narrow shaft. The unstable cave (Player 2) collapses unpredictably.
+A sailor chooses a route, while the storm front determines the weather conditions.
 
-If the archaeologist enters the Wide entrance, the collapse succeeds either way (Rockfall A (win for Cave) or Rockfall B (win for Cave)).
+The sailor can steer toward the open sea or the coastline.
+The storm can bring calm winds or harsh winds.
 
-If the archaeologist enters the Narrow shaft, the collapse always fails, though Rockfall A (smaller loss for Cave) is less damaging than Rockfall B (bigger loss for Cave).
+If the sailor heads to the open sea, the storm always gives the sailor favorable conditions, no matter the winds.
 
-This is zero-sum: the cave’s danger equals the archaeologist’s peril.
+If the sailor hugs the coastline, the storm always punishes the sailor. Calm winds reduce the damage, while harsh winds worsen it.
 
 
 
 
 
 
-2. Chef vs. Food Critic
+2. Farmer vs. Locust Swarm
 
-A chef (Player 1) decides to serve a Signature dish or an Experimental dish. A critic (Player 2) selects which part of the meal to spotlight.
+A farmer plants crops, while locusts move across the fields.
 
-If the chef serves the Signature dish, the critic always wins with their review (Focus A (win for Critic) or Focus B (win for Critic)).
+The farmer can plant wheat or corn.
+The locusts can swarm wheat fields or corn fields.
 
-If the chef serves the Experimental dish, the critic always loses, though choosing Focus A (smaller loss for Critic) softens the review compared to Focus B (bigger loss for Critic).
+If wheat is planted, the locusts are always driven off, no matter which field they target.
 
-This contest is zero-sum: the critic’s reputation gain comes at the chef’s expense.
+If corn is planted, the locusts always cause harm. Swarming wheat fields is less damaging, while swarming corn fields devastates the harvest.
 
 
 
 
 
 
-3. Explorer vs. River Rapids
+3. Pilot vs. Crosswind
 
-An explorer (Player 1) must cross via the Main crossing or the Hidden ford. The rapids (Player 2) shift currents.
+A pilot selects an approach, while crosswinds shape the landing conditions.
 
-If the explorer uses the Main crossing, the rapids always prevail (Current A (win for Rapids) or Current B (win for Rapids)).
+The pilot can land on runway east or runway west.
+The crosswind can blow from the east or from the west.
 
-If the explorer uses the Hidden ford, the rapids always fail, though pushing Current A (smaller loss for Rapids) is less disastrous than Current B (bigger loss for Rapids).
+If the east runway is chosen, the pilot always lands safely, regardless of the wind direction.
 
-This struggle is zero-sum: the river’s force is the explorer’s obstacle.
+If the west runway is chosen, the pilot always struggles. An east wind causes less trouble, while a west wind makes the landing far more dangerous.
 
 
 
 
 
 
-4. Politician vs. Media Cycle
+4. Miner vs. Cave-in
 
-A politician (Player 1) launches a campaign on Issue Alpha or Issue Beta. The media (Player 2) decides what to headline.
+A miner chooses where to dig, while cave-in risks remain hidden.
 
-If the campaign is on Alpha, the media always shapes the narrative (Headline A (win for Media) or Headline B (win for Media)).
+The miner can dig the north shaft or the south shaft.
+The cave-in can occur in the north or the south.
 
-If the campaign is on Beta, the media always loses control, though choosing Headline A (smaller loss for Media) blunts the damage compared to Headline B (bigger loss for Media).
+If the north shaft is chosen, the miner always avoids disaster, whichever shaft collapses.
 
-This game is zero-sum: the media’s framing success erodes the politician’s gains.
+If the south shaft is chosen, the miner always suffers. A collapse in the north is less harmful, while a collapse in the south is much worse.
 
 
 
 
 
 
-5. Pilot vs. Crosswinds
+5. Explorer vs. Desert Heat
 
-A pilot (Player 1) chooses to land on Runway 1 or Runway 2. The crosswinds (Player 2) shift.
+An explorer picks a route through the desert, while the sun scorches one side harder.
 
-If landing on Runway 1, the crosswinds always disrupt (Shift A (win for Crosswinds) or Shift B (win for Crosswinds)).
+The explorer can travel along the dune ridge or the salt flats.
+The heat can strike hardest at the ridge or at the flats.
 
-If landing on Runway 2, the crosswinds always fail to interfere, though Shift A (smaller loss for Crosswinds) is less costly than Shift B (bigger loss for Crosswinds).
+If the ridge is chosen, the explorer always finds tolerable conditions, regardless of where the heat strikes.
 
-This encounter is zero-sum: safe landings are failures for the crosswinds.
+If the flats are chosen, the explorer always suffers. Heat on the ridge makes it less severe, while heat on the flats makes it unbearable.
 
 
 
 
 
 
-6. Musician vs. Audience
+6. Fisher vs. Storm Current
 
-A musician (Player 1) chooses to perform a Classic piece or a New composition. The audience (Player 2) reacts.
+A fisher sets out to sea, while unpredictable currents move through.
 
-If the Classic piece is played, the audience always applauds (Reaction A (win for Audience) or Reaction B (win for Audience)).
+The fisher can cast nets in the shallow waters or the deep waters.
+The current can shift toward the shallows or the deeps.
 
-If the New composition is played, the audience always rejects it, though Reaction A (smaller loss for Audience) is milder than Reaction B (bigger loss for Audience).
+If shallow waters are chosen, the fisher always returns safely, no matter where the currents go.
 
-This contest is zero-sum: the audience’s satisfaction is the musician’s risk.
+If deep waters are chosen, the fisher always faces trouble. A current in the shallows eases the burden, while a current in the deeps makes it worse.
 
 
 
 
 
 
-7. Athlete vs. Weather
+7. Runner vs. Weather
 
-An athlete (Player 1) schedules training on the Track or the Field. The weather (Player 2) shifts conditions.
+A marathon runner chooses a route, while the weather changes suddenly.
 
-If the athlete trains on the Track, the weather always disrupts (Shift A (win for Weather) or Shift B (win for Weather)).
+The runner can take the forest trail or the city streets.
+The weather can turn rainy or sunny.
 
-If the athlete trains on the Field, the weather always fails, though Shift A (smaller loss for Weather) is less harmful than Shift B (bigger loss for Weather).
+If the forest trail is taken, the runner always benefits, regardless of the weather.
 
-This game is zero-sum: favorable weather is unfavorable to the athlete, and vice versa.
+If the city streets are taken, the runner always struggles. Rain is less of a problem, while bright sun causes a much harsher setback.
 
 
 
 
 
 
-8. Teacher vs. Student
+8. Diver vs. Tide
 
-A student (Player 1) chooses to submit the Homework or the Project. The teacher (Player 2) decides grading focus.
+A diver decides where to descend, while the tide shifts.
 
-If the Homework is submitted, the teacher always prevails in evaluation (Focus A (win for Teacher) or Focus B (win for Teacher)).
+The diver can dive near the coral reef or the open trench.
+The tide can surge at the reef or the trench.
 
-If the Project is submitted, the teacher always loses, though Focus A (smaller loss for Teacher) reduces damage compared to Focus B (bigger loss for Teacher).
+If the coral reef is chosen, the diver always enjoys calm conditions, whichever surge happens.
 
-This setup is zero-sum: one side’s performance gain is the other’s loss.
+If the trench is chosen, the diver always risks trouble. A surge at the reef is less dangerous, while a surge at the trench is more threatening.
 
 
 
 
 
 
-9. Diver vs. Tide
+9. Shepherd vs. Wolves
 
-A diver (Player 1) enters at the Harbor or the Cove. The tide (Player 2) surges.
+A shepherd directs the flock, while wolves roam nearby.
 
-If entering at the Harbor, the tide always overwhelms (Surge A (win for Tide) or Surge B (win for Tide)).
+The shepherd can lead sheep to the valley or the hillside.
+The wolves can appear at the valley or the hillside.
 
-If entering at the Cove, the tide always fails, though Surge A (smaller loss for Tide) is less costly than Surge B (bigger loss for Tide).
+If the valley is chosen, the shepherd always keeps the flock safe, no matter where wolves appear.
 
-This encounter is zero-sum: tide’s strength equals diver’s hazard.
+If the hillside is chosen, the shepherd always suffers losses. Wolves in the valley reduce the damage, while wolves in the hillside cause devastation.
 
 
 
 
 
 
-10. Inventor vs. Market
+10. Merchant vs. Market Prices
 
-An inventor (Player 1) releases a Proven design or a Prototype. The market (Player 2) reacts.
+A merchant chooses what to sell, while the market shifts unpredictably.
 
-If releasing the Proven design, the market always rewards itself (Response A (win for Market) or Response B (win for Market)).
+The merchant can sell grain or wool.
+The market can rise in grain prices or in wool prices.
 
-If releasing the Prototype, the market always rejects, though Response A (smaller loss for Market) softens the effect compared to Response B (bigger loss for Market).
+If grain is sold, the merchant always profits, regardless of which price changes.
 
-This rivalry is zero-sum: the market’s acceptance mirrors the inventor’s struggle.
+If wool is sold, the merchant always loses. A rise in grain prices softens the loss, while a rise in wool prices makes it much worse.
+

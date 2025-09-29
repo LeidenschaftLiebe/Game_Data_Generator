@@ -2,147 +2,158 @@ Game descriptions for mismatching actions (mismatch is a win for player 2 and ma
 
 V21 - V30: 
 
-21. Drone vs. Radar Operator
+21. Miner vs. Cave Beast
 
-A drone (Player 1) flies over the Mountains or the Valley. A radar operator (Player 2) tunes sensors.
+A miner explores tunnels while a lurking beast waits to strike.
 
-If the drone takes the Mountains, tuning to the Valley (win for Operator) picks up its return signal; tuning to the Mountains (loss for Operator) misses.
+The miner can enter the north shaft or the south shaft.
+The beast can ambush the north shaft or the south shaft.
 
-If the drone takes the Valley, tuning to the Mountains (win for Operator) catches it; tuning to the Valley (loss for Operator) fails.
+If both choose the north shaft, or both choose the south shaft, the miner drives the beast away and wins with the same result.
 
-This game is zero-sum: detection for the operator is a loss for the drone.
+If the miner enters the north shaft while the beast waits in the south, or the other way around, the beast ambushes successfully and wins with the same result.
 
 
 
 
 
 
-22. Explorer vs. Avalanche
+22. Teacher vs. Cheating Student
 
-An explorer (Player 1) climbs the Ice ridge or the Snow slope. An avalanche (Player 2) threatens.
+A teacher watches during an exam while a student plans to cheat.
 
-If the explorer takes the Ice ridge, a slide on the Snow slope (win for Avalanche) cuts across and traps them; a slide on the Ice ridge (loss for Avalanche) misses.
+The teacher can focus on the front rows or the back rows.
+The student can attempt to cheat in the front rows or the back rows.
 
-If the explorer takes the Snow slope, a slide on the Ice ridge (win for Avalanche) sweeps them; a slide on the Snow slope (loss for Avalanche) fails.
+If both focus on the front, or both on the back, the teacher catches the cheating student and wins with the same outcome.
 
-This hazard is zero-sum: the avalanche’s strike is the explorer’s defeat.
+If the teacher watches the front while the student cheats in the back, or the other way around, the student succeeds and wins with the same outcome.
 
 
 
 
 
 
-23. Treasure Hunter vs. Trapmaster
+23. Pilot vs. Enemy Radar
 
-A treasure hunter (Player 1) explores the Cavern or the Temple hall. A trapmaster (Player 2) sets snares.
+A pilot flies a mission while enemy radar operators look for them.
 
-If the hunter goes to the Cavern, setting traps in the Temple hall (win for Trapmaster) causes collapse at the exit; setting in the Cavern (loss for Trapmaster) misses.
+The pilot can fly over the mountains or across the coastline.
+The radar can scan the mountains or the coastline.
 
-If the hunter goes to the Temple hall, setting traps in the Cavern (win for Trapmaster) springs the choke; setting in the Temple hall (loss for Trapmaster) fails.
+If both target the mountains, or both target the coastline, the radar detects the pilot and wins with the same outcome.
 
-This contest is zero-sum: the trapmaster’s success is the hunter’s ruin.
+If the pilot flies over the mountains while the radar scans the coast, or the other way around, the pilot slips through and wins with the same outcome.
 
 
 
 
 
 
-24. Firefighter vs. Blaze
+24. Wolf vs. Deer
 
-A fire (Player 1) spreads into the Library or the Gallery. The firefighter (Player 2) directs suppression.
+A wolf hunts while a deer runs for safety.
 
-If flames spread to the Library, spraying the Gallery (win for Firefighter) starves the fire’s path; spraying the Library (loss for Firefighter) wastes effort.
+The wolf can dash to the riverbank or the clearing.
+The deer can flee to the riverbank or the clearing.
 
-If flames spread to the Gallery, spraying the Library (win for Firefighter) cuts it off; spraying the Gallery (loss for Firefighter) fails.
+If both go to the riverbank, or both to the clearing, the wolf catches the deer and wins with the same result.
 
-This battle is zero-sum: suppression wins are fire’s losses.
+If the wolf runs to the riverbank while the deer flees to the clearing, or the other way around, the deer escapes and wins with the same result.
 
 
 
 
 
 
-25. Pilot vs. Storm
+25. Inspector vs. Counterfeiter
 
-A pilot (Player 1) diverts through the North air lane or the South air lane. A storm front (Player 2) shifts.
+An inspector checks goods while a counterfeiter tries to slip fakes through.
 
-If the pilot flies North, shifting storms to the South (win for Storm) traps the plane in turbulence; shifting North (loss for Storm) misses.
+The inspector can examine the north warehouse or the south warehouse.
+The counterfeiter can deliver fakes to the north warehouse or the south warehouse.
 
-If the pilot flies South, shifting storms to the North (win for Storm) cuts across; shifting South (loss for Storm) fails.
+If both pick the north, or both pick the south, the inspector seizes the counterfeits and wins with the same outcome.
 
-This is zero-sum: the storm’s turbulence is the pilot’s setback.
+If the inspector checks the north while the counterfeiter uses the south, or vice versa, the counterfeiter succeeds and wins with the same outcome.
 
 
 
 
 
 
-26. Burglar vs. Alarm System
+26. Ranger vs. Poacher
 
-A burglar (Player 1) enters by the Front door or the Back door. The alarm system (Player 2) is calibrated.
+A ranger patrols a reserve while a poacher sets traps.
 
-If entry is through the Front, arming the Back sensor (win for Alarm) triggers the trap; arming the Front sensor (loss for Alarm) misses.
+The ranger can patrol the watering hole or the forest edge.
+The poacher can lay traps at the watering hole or the forest edge.
 
-If entry is through the Back, arming the Front sensor (win for Alarm) works; arming the Back sensor (loss for Alarm) fails.
+If both choose the watering hole, or both choose the forest edge, the ranger catches the poacher and wins with the same result.
 
-This is zero-sum: alarm success is burglar failure.
+If the ranger patrols the watering hole while the poacher sets traps at the forest edge, or the other way around, the poacher succeeds and wins with the same result.
 
 
 
 
 
 
-27. Scientist vs. Rival Lab
+27. Engineer vs. Hacker
 
-A scientist (Player 1) works on Project Alpha or Project Beta. A rival lab (Player 2) chooses which to publish against.
+An engineer defends a network while a hacker launches attacks.
 
-If the scientist pursues Alpha, publishing on Beta (win for Rival Lab) steals attention; publishing on Alpha (loss for Rival Lab) validates their work.
+The engineer can secure the firewall or the database.
+The hacker can attack the firewall or the database.
 
-If the scientist pursues Beta, publishing on Alpha (win for Rival Lab) succeeds; publishing on Beta (loss for Rival Lab) fails.
+If both choose the firewall, or both choose the database, the engineer blocks the attack and wins with the same outcome.
 
-This race is zero-sum: one lab’s recognition is the other’s loss.
+If the engineer secures the firewall while the hacker targets the database, or vice versa, the hacker succeeds and wins with the same outcome.
 
 
 
 
 
 
-28. Pirate vs. Navy
+28. Gladiator vs. Gladiator
 
-A pirate (Player 1) sails toward the Island route or the Open sea. The navy (Player 2) deploys ships.
+Two gladiators prepare in the arena, each trying to anticipate the other.
 
-If the pirate sails Island route, the navy at the Open sea (win for Navy) cuts them off; at the Island (loss for Navy) fails.
+One gladiator can strike at the head or the torso.
+The other gladiator can block the head or the torso.
 
-If the pirate sails Open sea, the navy at the Island (win for Navy) intercepts; at the Open sea (loss for Navy) fails.
+If both focus on the head, or both on the torso, the defending gladiator blocks the strike and wins with the same outcome.
 
-This chase is zero-sum: capture for the navy is loss for the pirate.
+If one strikes at the head while the other blocks the torso, or the other way around, the attacker lands a hit and wins with the same outcome.
 
 
 
 
 
 
-29. Farmer vs. Weeds
+29. Guard vs. Prisoner
 
-A farmer (Player 1) sows in the East field or the West field. Weeds (Player 2) spread.
+A prisoner plots escape while the guard chooses a post.
 
-If sown in the East, weeds in the West (win for Weeds) creep into irrigation; weeds in the East (loss for Weeds) miss.
+The guard can cover the east gate or the west gate.
+The prisoner can attempt the east gate or the west gate.
 
-If sown in the West, weeds in the East (win for Weeds) infest; weeds in the West (loss for Weeds) fail.
+If both pick the east, or both pick the west, the guard intercepts the prisoner and wins with the same result.
 
-This is zero-sum: weed growth cuts into farmer yield.
+If the guard covers the east while the prisoner runs to the west, or vice versa, the prisoner escapes and wins with the same result.
 
 
 
 
 
 
-30. Actor vs. Critic
+30. Hawk vs. Squirrel
 
-An actor (Player 1) performs Drama or Comedy. A critic (Player 2) writes reviews.
+A hawk hunts while a squirrel scrambles for safety.
 
-If the actor stages Drama, reviewing Comedy (win for Critic) shifts public taste; reviewing Drama (loss for Critic) reinforces success.
+The hawk can dive into the oak tree or the pine grove.
+The squirrel can dash into the oak tree or the pine grove.
 
-If the actor stages Comedy, reviewing Drama (win for Critic) undercuts them; reviewing Comedy (loss for Critic) fails.
+If both go to the oak, or both to the pine, the hawk catches the squirrel and wins with the same outcome.
 
-This game is zero-sum: one’s acclaim is the other’s loss.
+If the hawk dives at the oak while the squirrel runs to the pine, or vice versa, the squirrel escapes and wins with the same outcome.
+

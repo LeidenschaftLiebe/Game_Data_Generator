@@ -9,9 +9,9 @@ A fisherman casts nets while fish search for food.
 The fisherman can set his nets at the river mouth or the shallow cove.
 The fish can swim to the river mouth or the shallow cove.
 
-If they both choose the river mouth, or both choose the shallow cove, the fisherman catches the fish.
+If they both choose the river mouth, or both choose the shallow cove, the fisherman catches the fish and wins with the same outcome.
 
-If the fisherman sets nets at the river mouth while the fish swim to the cove, or vice versa, the fish escape.
+If the fisherman sets nets at the river mouth while the fish swim to the cove, or vice versa, the fish escape and wins with the same outcome.
 
 
 
@@ -25,9 +25,9 @@ A guard patrols a store while a shoplifter looks for an exit.
 The guard can watch the front entrance or the side door.
 The shoplifter can try to sneak out through the front entrance or the side door.
 
-If both choose the front entrance, or both choose the side door, the guard intercepts the shoplifter.
+If both choose the front entrance, or both choose the side door, the guard intercepts the shoplifter and wins with the same outcome.
 
-If the guard watches the front entrance while the shoplifter runs to the side door, or the other way around, the shoplifter escapes.
+If the guard watches the front entrance while the shoplifter runs to the side door, or the other way around, the shoplifter escapes and wins with the same outcome.
 
 
 
@@ -41,9 +41,9 @@ A falcon hunts while a pigeon searches for safety.
 The falcon can dive at the grain field or the farmyard.
 The pigeon can fly to the grain field or the farmyard.
 
-If both go to the grain field, or both go to the farmyard, the falcon captures the pigeon.
+If both go to the grain field, or both go to the farmyard, the falcon captures the pigeon and wins with the same outcome.
 
-If the falcon dives at the grain field while the pigeon flies to the farmyard, or vice versa, the pigeon escapes.
+If the falcon dives at the grain field while the pigeon flies to the farmyard, or vice versa, the pigeon escapes and wins with the same outcome.
 
 
 
@@ -57,9 +57,9 @@ A smuggler tries to cross the border, while customs prepare an inspection.
 The officer can guard the checkpoint road or the mountain trail.
 The smuggler can attempt the checkpoint road or the mountain trail.
 
-If they both choose the checkpoint road, or both choose the mountain trail, the officer catches the smuggler.
+If they both choose the checkpoint road, or both choose the mountain trail, the officer catches the smuggler and wins with the same outcome.
 
-If the officer guards the road while the smuggler takes the trail, or the other way around, the smuggler gets through.
+If the officer guards the road while the smuggler takes the trail, or the other way around, the smuggler gets through and wins with the same outcome.
 
 
 
@@ -73,9 +73,9 @@ A cat waits to pounce while a bird looks for food.
 The cat can hide near the garden hedge or the birdbath.
 The bird can fly down to the garden hedge or the birdbath.
 
-If both choose the hedge, or both choose the birdbath, the cat catches the bird.
+If both choose the hedge, or both choose the birdbath, the cat catches the bird and wins with the same outcome.
 
-If the cat hides by the hedge while the bird lands at the birdbath, or vice versa, the bird escapes.
+If the cat hides by the hedge while the bird lands at the birdbath, or vice versa, the bird escapes and wins with the same outcome.
 
 
 
@@ -89,9 +89,9 @@ A getaway driver looks for a fast exit while police block roads.
 The policeman can set a trap on the highway or the back alley.
 The driver can flee by the highway or the back alley.
 
-If both choose the highway, or both choose the back alley, the policeman catches the driver.
+If both choose the highway, or both choose the back alley, the policeman catches the driver and wins with the same outcome.
 
-If the policeman blocks the highway while the driver takes the alley, or the other way around, the driver escapes.
+If the policeman blocks the highway while the driver takes the alley, or the other way around, the driver escapes and wins with the same outcome.
 
 
 
@@ -105,9 +105,9 @@ A farmer defends crops while a rabbit searches for a snack.
 The farmer can watch the carrot patch or the cabbage rows.
 The rabbit can hop to the carrot patch or the cabbage rows.
 
-If they both choose the carrot patch, or both choose the cabbage rows, the farmer catches the rabbit.
+If they both choose the carrot patch, or both choose the cabbage rows, the farmer catches the rabbit and wins with the same outcome.
 
-If the farmer guards the carrots while the rabbit goes to the cabbages, or vice versa, the rabbit eats safely.
+If the farmer guards the carrots while the rabbit goes to the cabbages, or vice versa, the rabbit eats safely and wins with the same outcome.
 
 
 
@@ -121,9 +121,9 @@ A lifeguard scans the beach while a swimmer struggles.
 The lifeguard can watch the deep waters or the shallow surf.
 The swimmer can drift into the deep waters or the shallow surf.
 
-If both focus on the deep waters, or both on the shallow surf, the lifeguard saves the swimmer.
+If both focus on the deep waters, or both on the shallow surf, the lifeguard saves the swimmer and wins with the same outcome.
 
-If the lifeguard watches the deep while the swimmer drifts to the surf, or the other way around, the swimmer goes unnoticed.
+If the lifeguard watches the deep while the swimmer drifts to the surf, or the other way around, the swimmer goes unnoticed and wins with the same outcome.
 
 
 
@@ -137,9 +137,9 @@ An outlaw plans an escape, while the sheriff tries to head him off.
 The sheriff can guard the rail station or the desert crossing.
 The outlaw can ride to the rail station or the desert crossing.
 
-If they both choose the rail station, or both choose the desert crossing, the sheriff captures the outlaw.
+If they both choose the rail station, or both choose the desert crossing, the sheriff captures the outlaw and wins with the same outcome.
 
-If the sheriff guards the station while the outlaw flees to the crossing, or vice versa, the outlaw escapes.
+If the sheriff guards the station while the outlaw flees to the crossing, or vice versa, the outlaw escapes and wins with the same outcome.
 
 
 
@@ -153,7 +153,7 @@ At a party, a bouncer protects the entrances while someone tries to sneak in.
 The bouncer can block the main door or the side gate.
 The gatecrasher can attempt entry at the main door or the side gate.
 
-If both choose the main door, or both choose the side gate, the bouncer stops the gatecrasher.
+If both choose the main door, or both choose the side gate, the bouncer stops the gatecrasher and wins with the same outcome.
 
-If the bouncer blocks the main door while the gatecrasher goes to the side, or the other way around, the gatecrasher gets inside.
+If the bouncer blocks the main door while the gatecrasher goes to the side, or the other way around, the gatecrasher gets inside and wins with the same outcome.
 

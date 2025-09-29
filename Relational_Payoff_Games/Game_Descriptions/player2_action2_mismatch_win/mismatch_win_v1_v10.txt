@@ -9,9 +9,9 @@ A guard protects a facility while an intruder attempts a breach.
 The guard can watch the left corridor or the right corridor.
 The intruder can try to sneak in through the left corridor or the right corridor.
 
-If both choose the same corridor, the guard intercepts and wins.
+If both choose the same corridor, the guard intercepts and wins with the same result.
 
-If they choose different corridors, the intruder slips past and wins.
+If they choose different corridors, the intruder slips past and wins with the same result.
 
 
 
@@ -25,9 +25,9 @@ A striker steps up for a penalty, and the goalkeeper prepares to dive.
 The goalkeeper can dive left or right.
 The striker can kick left or right.
 
-If they choose the same side, the goalkeeper makes the save.
+If they choose the same side, the goalkeeper makes the save with the same result.
 
-If they choose different sides, the striker scores.
+If they choose different sides, the striker scores with the same result.
 
 
 
@@ -41,9 +41,9 @@ A hunter stalks an animal in the forest.
 The hunter can wait at the waterhole or at the berry patch.
 The prey can approach the waterhole or the berry patch.
 
-If both go to the same place, the hunter catches the prey.
+If both go to the same place, the hunter catches the prey with the same result.
 
-If they go to different places, the prey escapes.
+If they go to different places, the prey escapes with the same result.
 
 
 
@@ -57,9 +57,9 @@ A thief plans a getaway while police prepare to intercept.
 The police can block the north road or the south road.
 The thief can flee by the north road or the south road.
 
-If they pick the same road, the thief is caught.
+If they pick the same road, the thief is caught with the same result.
 
-If they pick different roads, the thief gets away.
+If they pick different roads, the thief gets away with the same result.
 
 
 
@@ -73,9 +73,9 @@ A cat prowls the house, while a mouse searches for food.
 The cat can wait in the kitchen or the pantry.
 The mouse can scurry into the kitchen or the pantry.
 
-If both choose the same spot, the cat pounces and wins.
+If both choose the same spot, the cat pounces and wins with the same result.
 
-If they choose different spots, the mouse finds food safely.
+If they choose different spots, the mouse finds food safely with the same result.
 
 
 
@@ -89,9 +89,9 @@ Patrol agents guard a border while smugglers attempt a crossing.
 The patrol can cover the mountain pass or the river crossing.
 The smuggler can attempt the mountain pass or the river crossing.
 
-If they both choose the same route, the patrol intercepts.
+If they both choose the same route, the patrol intercepts with the same result.
 
-If they choose different routes, the smuggler succeeds.
+If they choose different routes, the smuggler succeeds with the same result.
 
 
 
@@ -105,9 +105,9 @@ An eagle hunts across the fields while a rabbit runs for cover.
 The eagle can swoop over the hilltop or the meadow.
 The rabbit can dash to the hilltop or the meadow.
 
-If they meet in the same place, the eagle catches the rabbit.
+If they meet in the same place, the eagle catches the rabbit with the same result.
 
-If they end up in different places, the rabbit survives.
+If they end up in different places, the rabbit survives with the same result.
 
 
 
@@ -121,9 +121,9 @@ A hacker tries to breach a system, while an analyst sets defenses.
 The analyst can guard the database or the email server.
 The hacker can attack the database or the email server.
 
-If both target the same asset, the analyst blocks the attack.
+If both target the same asset, the analyst blocks the attack with the same result.
 
-If they target different assets, the hacker breaks in.
+If they target different assets, the hacker breaks in with the same result.
 
 
 
@@ -137,9 +137,9 @@ A burglar sneaks into a yard, while a guard dog patrols.
 The dog can guard the front gate or the back door.
 The burglar can enter through the front gate or the back door.
 
-If they meet at the same entry point, the dog stops the burglar.
+If they meet at the same entry point, the dog stops the burglar with the same result.
 
-If they go to different points, the burglar succeeds.
+If they go to different points, the burglar succeeds with the same result.
 
 
 
@@ -153,7 +153,7 @@ An athlete considers cheating in a competition, while the referee watches closel
 The referee can focus on the starting line or the finishing line.
 The athlete can attempt to cheat at the starting line or the finishing line.
 
-If both focus on the same spot, the referee catches the athlete.
+If both focus on the same spot, the referee catches the athlete and wins with the same result.
 
-If they focus on different spots, the athlete cheats successfully.
+If they focus on different spots, the athlete cheats successfully and wins with the same result.
 

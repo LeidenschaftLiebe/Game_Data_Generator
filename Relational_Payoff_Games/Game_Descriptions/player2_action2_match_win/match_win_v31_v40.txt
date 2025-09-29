@@ -2,147 +2,158 @@ Game descriptions for matching actions (match is a win for player 2 and mismatch
 
 V31 - V40: 
 
-31. Wizard vs. Witch
+31. Soldier vs. Ambusher
 
-A wizard (Player 1) hides in the Tower or the Crypt. A witch (Player 2) casts a revealing spell.
+A soldier must march through contested territory, while an ambusher waits in hiding.
 
-If in the Tower, casting at the Tower (win for Witch) uncovers him; casting at the Crypt (loss for Witch) fails.
+The soldier can move along the riverbank or through the forest trail.
+The ambusher can lie in wait at the riverbank or lie in wait at the forest trail.
 
-If in the Crypt, casting at the Crypt (win for Witch) works; casting at the Tower (loss for Witch) fails.
+If the soldier takes the riverbank, the ambusher succeeds by waiting there, but fails if waiting in the forest.
 
-This duel is zero-sum: one’s magic gain is the other’s defeat.
+If the soldier takes the forest, the ambusher succeeds by waiting there, but fails if waiting at the riverbank.
 
 
 
 
 
 
-32. Merchant vs. Tax Collector
+32. Striker vs. Goalkeeper
 
-A merchant (Player 1) transports goods through the Market gate or the Harbor gate. A tax collector (Player 2) waits.
+In a crucial penalty, the striker takes a shot, and the goalkeeper dives.
 
-If through the Market gate, waiting at the Market gate (win for Collector) succeeds; waiting at the Harbor gate (loss for Collector) misses.
+The striker can shoot left or right.
+The goalkeeper can dive left or dive right.
 
-If through the Harbor gate, waiting at the Harbor gate (win for Collector) succeeds; waiting at the Market gate (loss for Collector) fails.
+If the striker shoots left, the goalkeeper succeeds by diving left, but fails if diving right.
 
-This encounter is zero-sum: the collector’s revenue is the merchant’s loss.
+If the striker shoots right, the goalkeeper succeeds by diving right, but fails if diving left.
 
 
 
 
 
 
-33. Explorer vs. Guardian Spirit
+33. Smuggler vs. Customs Officer
 
-An explorer (Player 1) seeks treasure in the Temple or the Ruins. A guardian spirit (Player 2) blocks the way.
+A smuggler approaches a checkpoint, while the officer chooses where to inspect.
 
-If entering the Temple, blocking the Temple (win for Spirit) succeeds; blocking the Ruins (loss for Spirit) fails.
+The smuggler can hide goods in the truck bed or the trailer.
+The officer can search the truck bed or search the trailer.
 
-If entering the Ruins, blocking the Ruins (win for Spirit) works; blocking the Temple (loss for Spirit) fails.
+If goods are hidden in the truck bed, the officer succeeds by searching the truck bed, but fails if searching the trailer.
 
-This struggle is zero-sum: the spirit’s defense cancels the explorer’s gain.
+If goods are hidden in the trailer, the officer succeeds by searching the trailer, but fails if searching the truck bed.
 
 
 
 
 
 
-34. Chef vs. Critic
+34. Spy vs. Security Agent
 
-A chef (Player 1) serves either Dish A or Dish B. A food critic (Player 2) prepares their review.
+A spy tries to pass information, while security decides where to intercept.
 
-If the chef serves Dish A, reviewing Dish A (win for Critic) succeeds; reviewing Dish B (loss for Critic) misses.
+The spy can deliver through the café or the park bench.
+The agent can watch the café or watch the park bench.
 
-If the chef serves Dish B, reviewing Dish B (win for Critic) succeeds; reviewing Dish A (loss for Critic) fails.
+If the spy uses the café, the agent succeeds by watching the café, but fails if watching the park.
 
-This game is zero-sum: the critic’s sharp remark is the chef’s downfall.
+If the spy uses the park bench, the agent succeeds by watching the park bench, but fails if watching the café.
 
 
 
 
 
 
-35. Athlete vs. Coach
+35. Hunter vs. Deer
 
-An athlete (Player 1) chooses Routine A or Routine B. The coach (Player 2) prepares feedback.
+A hunter waits to take aim, while a deer chooses where to run.
 
-If Routine A is chosen, feedback on A (win for Coach) exposes flaws; feedback on B (loss for Coach) misses.
+The deer can run into the meadow or toward the woods.
+The hunter can aim at the meadow or aim at the woods.
 
-If Routine B is chosen, feedback on B (win for Coach) succeeds; feedback on A (loss for Coach) fails.
+If the deer runs into the meadow, the hunter succeeds by aiming at the meadow, but fails if aiming at the woods.
 
-This interaction is zero-sum: the coach’s critique is the athlete’s setback.
+If the deer runs toward the woods, the hunter succeeds by aiming at the woods, but fails if aiming at the meadow.
 
 
 
 
 
 
-36. Shepherd vs. Wolf
+36. Boxer vs. Opponent
 
-A shepherd (Player 1) moves sheep to the Pasture or the Barn. A wolf (Player 2) hunts.
+Two boxers face off, with one throwing a punch and the other deciding how to block.
 
-If moved to the Pasture, hunting the Pasture (win for Wolf) succeeds; hunting the Barn (loss for Wolf) fails.
+The attacker can throw a left hook or a right hook.
+The defender can block left or block right.
 
-If moved to the Barn, hunting the Barn (win for Wolf) succeeds; hunting the Pasture (loss for Wolf) fails.
+If the punch is a left hook, the defender succeeds by blocking left, but fails if blocking right.
 
-This chase is zero-sum: the wolf’s meal is the shepherd’s loss.
+If the punch is a right hook, the defender succeeds by blocking right, but fails if blocking left.
 
 
 
 
 
 
-37. Pilot vs. Missile System
+37. Burglar vs. Police Officer
 
-A pilot (Player 1) flies over the Mountains or the Valley. The missile system (Player 2) locks on.
+A burglar breaks into a building, and the police must guess where to catch him.
 
-If over the Mountains, locking the Mountains (win for Missile) hits; locking the Valley (loss for Missile) fails.
+The burglar can enter through the front door or the back window.
+The police can cover the front door or cover the back window.
 
-If over the Valley, locking the Valley (win for Missile) hits; locking the Mountains (loss for Missile) fails.
+If the burglar uses the front door, the police succeed by covering the front, but fail if covering the back.
 
-This duel is zero-sum: one strike means the other’s failure.
+If the burglar uses the back window, the police succeed by covering the back, but fail if covering the front.
 
 
 
 
 
 
-38. Diver vs. Octopus
+38. Pilot vs. Enemy Radar
 
-A diver (Player 1) explores the Shipwreck or the Coral reef. An octopus (Player 2) ambushes.
+A pilot tries to evade detection, while enemy radar operators set their scans.
 
-If at the Shipwreck, ambushing there (win for Octopus) succeeds; at the Coral reef (loss for Octopus) fails.
+The pilot can fly through the low altitude path or the high altitude path.
+The radar can scan low or scan high.
 
-If at the Coral reef, ambushing there (win for Octopus) succeeds; at the Shipwreck (loss for Octopus) fails.
+If the pilot flies low, the radar succeeds by scanning low, but fails if scanning high.
 
-This encounter is zero-sum: the octopus’s catch is the diver’s loss.
+If the pilot flies high, the radar succeeds by scanning high, but fails if scanning low.
 
 
 
 
 
 
-39. Knight vs. Assassin
+39. Hacker vs. System Admin
 
-A knight (Player 1) travels along the Stone path or the Forest trail. An assassin (Player 2) sets an ambush.
+A hacker attempts to breach a system, and the admin monitors possible attack vectors.
 
-If the knight takes the Stone path, ambushing there (win for Assassin) succeeds; ambushing the Forest trail (loss for Assassin) fails.
+The hacker can target the login portal or the database.
+The admin can monitor the login portal or monitor the database.
 
-If the knight takes the Forest trail, ambushing there (win for Assassin) succeeds; ambushing the Stone path (loss for Assassin) fails.
+If the hacker targets the login portal, the admin succeeds by monitoring the portal, but fails if monitoring the database.
 
-This battle is zero-sum: the assassin’s success is the knight’s loss.
+If the hacker targets the database, the admin succeeds by monitoring the database, but fails if monitoring the portal.
 
 
 
 
 
 
-40. Batsman vs. Bowler
+40. Duelist vs. Duelist
 
-A batsman (Player 1) plays a shot to the Off side or the Leg side. The bowler (Player 2) sets the field.
+Two duelists face each other, each ready to strike. One lunges, and the other prepares to parry.
 
-If the batsman plays to the Off side, fielding the Off side (win for Bowler) succeeds; fielding the Leg side (loss for Bowler) fails.
+The attacker can lunge at the upper body or the lower body.
+The defender can parry high or parry low.
 
-If the batsman plays to the Leg side, fielding the Leg side (win for Bowler) succeeds; fielding the Off side (loss for Bowler) fails.
+If the attack is aimed at the upper body, the defender succeeds by parrying high, but fails if parrying low.
 
-This match-up is zero-sum: every fielding success is the batsman’s failure.
+If the attack is aimed at the lower body, the defender succeeds by parrying low, but fails if parrying high.
+

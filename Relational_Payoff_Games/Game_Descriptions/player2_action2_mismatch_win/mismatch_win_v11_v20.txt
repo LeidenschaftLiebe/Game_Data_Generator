@@ -2,147 +2,158 @@ Game descriptions for mismatching actions (mismatch is a win for player 2 and ma
 
 V11 - V20: 
 
-11. Miner vs. Earthquake
+11. Fisherman vs. Fish
 
-A miner (Player 1) digs in the North shaft or the South shaft. An earthquake (Player 2) shakes the ground.
+A fisherman casts nets while fish search for food.
 
-If the miner is in the North, shaking the South (win for Earthquake) collapses tunnels and traps them; shaking the North (loss for Earthquake) misses.
+The fisherman can set his nets at the river mouth or the shallow cove.
+The fish can swim to the river mouth or the shallow cove.
 
-If the miner is in the South, shaking the North (win for Earthquake) collapses above them; shaking the South (loss for Earthquake) fails.
+If they both choose the river mouth, or both choose the shallow cove, the fisherman catches the fish.
 
-This contest is zero-sum: the quake’s strike is the miner’s loss.
+If the fisherman sets nets at the river mouth while the fish swim to the cove, or vice versa, the fish escape.
 
 
 
 
 
 
-12. Pilot vs. Missile System
+12. Security Guard vs. Shoplifter
 
-A pilot (Player 1) flies over the East ridge or the West ridge. A missile system (Player 2) sets a lock.
+A guard patrols a store while a shoplifter looks for an exit.
 
-If the pilot goes East, locking on the West (win for Missile) anticipates the maneuver; locking on the East (loss for Missile) fails.
+The guard can watch the front entrance or the side door.
+The shoplifter can try to sneak out through the front entrance or the side door.
 
-If the pilot goes West, locking on the East (win for Missile) hits; locking on the West (loss for Missile) misses.
+If both choose the front entrance, or both choose the side door, the guard intercepts the shoplifter.
 
-This duel is zero-sum: one’s gain is the other’s loss.
+If the guard watches the front entrance while the shoplifter runs to the side door, or the other way around, the shoplifter escapes.
 
 
 
 
 
 
-13. Smuggler vs. Inspector
+13. Falcon vs. Pigeon
 
-A smuggler (Player 1) hides goods in the Crate or the Barrel. An inspector (Player 2) checks.
+A falcon hunts while a pigeon searches for safety.
 
-If the goods are in the Crate, checking the Barrel (win for Inspector) exposes the ploy; checking the Crate (loss for Inspector) fails.
+The falcon can dive at the grain field or the farmyard.
+The pigeon can fly to the grain field or the farmyard.
 
-If the goods are in the Barrel, checking the Crate (win for Inspector) reveals it; checking the Barrel (loss for Inspector) fails.
+If both go to the grain field, or both go to the farmyard, the falcon captures the pigeon.
 
-This inspection is zero-sum: smuggler’s concealment is inspector’s failure.
+If the falcon dives at the grain field while the pigeon flies to the farmyard, or vice versa, the pigeon escapes.
 
 
 
 
 
 
-14. Wolf vs. Shepherd
+14. Customs Officer vs. Smuggler
 
-A shepherd (Player 1) leads sheep to the Pasture or the Barn. A wolf (Player 2) hunts.
+A smuggler tries to cross the border, while customs prepare an inspection.
 
-If the sheep are in the Pasture, hunting the Barn (win for Wolf) cuts them off at the return path; hunting the Pasture (loss for Wolf) misses.
+The officer can guard the checkpoint road or the mountain trail.
+The smuggler can attempt the checkpoint road or the mountain trail.
 
-If the sheep are in the Barn, hunting the Pasture (win for Wolf) intercepts; hunting the Barn (loss for Wolf) fails.
+If they both choose the checkpoint road, or both choose the mountain trail, the officer catches the smuggler.
 
-This is zero-sum: wolf’s gain equals shepherd’s loss.
+If the officer guards the road while the smuggler takes the trail, or the other way around, the smuggler gets through.
 
 
 
 
 
 
-15. Scientist vs. Rival Publisher
+15. Cat vs. Bird
 
-A scientist (Player 1) submits findings to Journal A or Journal B. A rival (Player 2) plants counter-research.
+A cat waits to pounce while a bird looks for food.
 
-If submitted to A, publishing in B (win for Rival) steals recognition; publishing in A (loss for Rival) backfires.
+The cat can hide near the garden hedge or the birdbath.
+The bird can fly down to the garden hedge or the birdbath.
 
-If submitted to B, publishing in A (win for Rival) succeeds; publishing in B (loss for Rival) fails.
+If both choose the hedge, or both choose the birdbath, the cat catches the bird.
 
-This rivalry is zero-sum: one lab’s prestige is the other’s loss.
+If the cat hides by the hedge while the bird lands at the birdbath, or vice versa, the bird escapes.
 
 
 
 
 
 
-16. Knight vs. Archer
+16. Policeman vs. Getaway Driver
 
-A knight (Player 1) charges along the Stone road or the Forest track. An archer (Player 2) lies in wait.
+A getaway driver looks for a fast exit while police block roads.
 
-If the knight takes the Stone road, aiming at the Forest (win for Archer) shoots across at the exit; aiming at the Stone road (loss for Archer) misses.
+The policeman can set a trap on the highway or the back alley.
+The driver can flee by the highway or the back alley.
 
-If the knight takes the Forest track, aiming at the Stone road (win for Archer) intercepts; aiming at the Forest (loss for Archer) fails.
+If both choose the highway, or both choose the back alley, the policeman catches the driver.
 
-This clash is zero-sum: the archer’s strike is the knight’s defeat.
+If the policeman blocks the highway while the driver takes the alley, or the other way around, the driver escapes.
 
 
 
 
 
 
-17. Diver vs. Current
+17. Farmer vs. Rabbit
 
-A diver (Player 1) swims toward the Reef or the Trench. A current (Player 2) shifts.
+A farmer defends crops while a rabbit searches for a snack.
 
-If toward the Reef, pushing flow to the Trench (win for Current) sweeps the diver; pushing to the Reef (loss for Current) fails.
+The farmer can watch the carrot patch or the cabbage rows.
+The rabbit can hop to the carrot patch or the cabbage rows.
 
-If toward the Trench, shifting to the Reef (win for Current) drags them; shifting to the Trench (loss for Current) misses.
+If they both choose the carrot patch, or both choose the cabbage rows, the farmer catches the rabbit.
 
-This hazard is zero-sum: current’s pull is diver’s struggle.
+If the farmer guards the carrots while the rabbit goes to the cabbages, or vice versa, the rabbit eats safely.
 
 
 
 
 
 
-18. Merchant vs. Tax Enforcer
+18. Lifeguard vs. Swimmer in Trouble
 
-A merchant (Player 1) smuggles goods through the Harbor or the Gate. A tax enforcer (Player 2) sets patrols.
+A lifeguard scans the beach while a swimmer struggles.
 
-If through the Harbor, patrolling the Gate (win for Enforcer) intercepts; patrolling the Harbor (loss for Enforcer) fails.
+The lifeguard can watch the deep waters or the shallow surf.
+The swimmer can drift into the deep waters or the shallow surf.
 
-If through the Gate, patrolling the Harbor (win for Enforcer) works; patrolling the Gate (loss for Enforcer) fails.
+If both focus on the deep waters, or both on the shallow surf, the lifeguard saves the swimmer.
 
-This encounter is zero-sum: enforcement gain equals merchant’s loss.
+If the lifeguard watches the deep while the swimmer drifts to the surf, or the other way around, the swimmer goes unnoticed.
 
 
 
 
 
 
-19. Politician vs. Opposition
+19. Sheriff vs. Outlaw
 
-A politician (Player 1) campaigns on Healthcare or Education. The opposition (Player 2) picks an issue.
+An outlaw plans an escape, while the sheriff tries to head him off.
 
-If on Healthcare, pushing Education (win for Opposition) changes debate; pushing Healthcare (loss for Opposition) fails.
+The sheriff can guard the rail station or the desert crossing.
+The outlaw can ride to the rail station or the desert crossing.
 
-If on Education, pushing Healthcare (win for Opposition) works; pushing Education (loss for Opposition) fails.
+If they both choose the rail station, or both choose the desert crossing, the sheriff captures the outlaw.
 
-This contest is zero-sum: one side’s support is the other’s loss.
+If the sheriff guards the station while the outlaw flees to the crossing, or vice versa, the outlaw escapes.
 
 
 
 
 
 
-20. Programmer vs. Hacker
+20. Bouncer vs. Gatecrasher
 
-A programmer (Player 1) patches System X or System Y. A hacker (Player 2) attacks.
+At a party, a bouncer protects the entrances while someone tries to sneak in.
 
-If patching X, attacking Y (win for Hacker) succeeds; attacking X (loss for Hacker) fails.
+The bouncer can block the main door or the side gate.
+The gatecrasher can attempt entry at the main door or the side gate.
 
-If patching Y, attacking X (win for Hacker) works; attacking Y (loss for Hacker) fails.
+If both choose the main door, or both choose the side gate, the bouncer stops the gatecrasher.
 
-This battle is zero-sum: hacker’s breach is programmer’s failure.
+If the bouncer blocks the main door while the gatecrasher goes to the side, or the other way around, the gatecrasher gets inside.
+

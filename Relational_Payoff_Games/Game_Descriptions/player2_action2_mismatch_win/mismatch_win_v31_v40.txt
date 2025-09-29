@@ -2,147 +2,158 @@ Game descriptions for mismatching actions (mismatch is a win for player 2 and ma
 
 V31 - V40: 
 
-31. Fisherman vs. Gull
+31. Shepherd vs. Wolf
 
-A fisherman (Player 1) casts nets in the Lagoon or the Harbor. A gull (Player 2) swoops.
+A shepherd guards his flock while a wolf prowls nearby.
 
-If nets are in the Lagoon, swooping the Harbor (win for Gull) catches runoff; swooping the Lagoon (loss for Gull) fails.
+The shepherd can stay by the hill pasture or the river meadow.
+The wolf can prowl the hill pasture or the river meadow.
 
-If nets are in the Harbor, swooping the Lagoon (win for Gull) succeeds; swooping the Harbor (loss for Gull) fails.
+If both choose the hill pasture, or both choose the river meadow, the shepherd protects the sheep and wins with the same result.
 
-This contest is zero-sum: the gull’s catch is the fisherman’s loss.
+If the shepherd stays at the hill while the wolf prowls the meadow, or the other way around, the wolf seizes a sheep and wins with the same result.
 
 
 
 
 
 
-32. Diplomat vs. Saboteur
+32. Spy vs. Border Agent
 
-A diplomat (Player 1) attends the Summit or the Conference. A saboteur (Player 2) plans disruption.
+A spy attempts to cross into enemy territory, while an agent patrols.
 
-If the diplomat attends the Summit, disrupting the Conference (win for Saboteur) derails alliances; disrupting the Summit (loss for Saboteur) fails.
+The spy can slip through the checkpoint gate or the mountain pass.
+The agent can guard the checkpoint gate or the mountain pass.
 
-If the diplomat attends the Conference, disrupting the Summit (win for Saboteur) works; disrupting the Conference (loss for Saboteur) fails.
+If both choose the checkpoint gate, or both choose the mountain pass, the agent intercepts the spy and wins with the same outcome.
 
-This situation is zero-sum: sabotage negates diplomacy.
+If the spy goes to the gate while the agent watches the pass, or vice versa, the spy sneaks through and wins with the same outcome.
 
 
 
 
 
 
-33. Captain vs. Mutineer
+33. Boxer vs. Opponent
 
-A captain (Player 1) rallies crew on the Deck or in the Mess hall. A mutineer (Player 2) stirs dissent.
+Two boxers face each other in the ring.
 
-If the captain gathers on the Deck, dissent in the Mess (win for Mutineer) undermines him; dissent on the Deck (loss for Mutineer) fails.
+One boxer can aim a punch at the head or the body.
+The other can guard the head or the body.
 
-If the captain gathers in the Mess, dissent on the Deck (win for Mutineer) prevails; dissent in the Mess (loss for Mutineer) fails.
+If both focus on the head, or both on the body, the defender blocks successfully and wins with the same outcome.
 
-This struggle is zero-sum: mutiny wins equal captain’s losses.
+If one punches at the head while the other guards the body, or vice versa, the attacker lands cleanly and wins with the same outcome.
 
 
 
 
 
 
-34. Gamer vs. Stream Sniper
+34. Farmer vs. Crow
 
-A gamer (Player 1) spawns at Location A or Location B. A stream sniper (Player 2) sets a trap.
+A farmer tries to protect crops while a crow looks for food.
 
-If spawning at A, trapping B (win for Sniper) catches rotation; trapping A (loss for Sniper) misses.
+The farmer can watch the cornfield or the wheat patch.
+The crow can fly to the cornfield or the wheat patch.
 
-If spawning at B, trapping A (win for Sniper) works; trapping B (loss for Sniper) fails.
+If both pick the cornfield, or both pick the wheat patch, the farmer scares the crow away and wins with the same result.
 
-This encounter is zero-sum: the sniper’s ambush is the gamer’s loss.
+If the farmer guards the corn while the crow goes to the wheat, or the other way around, the crow feeds safely and wins with the same result.
 
 
 
 
 
 
-35. Inventor vs. Copycat
+35. Soldier vs. Sniper
 
-An inventor (Player 1) develops Device X or Device Y. A copycat (Player 2) markets.
+A soldier advances across dangerous ground, while a sniper waits.
 
-If working on X, marketing Y (win for Copycat) distracts buyers; marketing X (loss for Copycat) confirms the inventor.
+The soldier can move along the trench line or across the open ridge.
+The sniper can set aim at the trench line or the open ridge.
 
-If working on Y, marketing X (win for Copycat) succeeds; marketing Y (loss for Copycat) fails.
+If both choose the trench, or both choose the ridge, the sniper gets the shot and wins with the same outcome.
 
-This rivalry is zero-sum: copycat’s profit reduces inventor’s.
+If the soldier takes the trench while the sniper waits on the ridge, or vice versa, the soldier passes unharmed and wins with the same outcome.
 
 
 
 
 
 
-36. Author vs. Critic
+36. Police vs. Pickpocket
 
-An author (Player 1) writes Novel A or Novel B. A critic (Player 2) publishes.
+Police patrol a busy square, while a pickpocket chooses where to strike.
 
-If the author writes A, reviewing B (win for Critic) shifts focus; reviewing A (loss for Critic) boosts them.
+The police can patrol the market stalls or the train platform.
+The pickpocket can work at the market stalls or the train platform.
 
-If the author writes B, reviewing A (win for Critic) damages them; reviewing B (loss for Critic) fails.
+If both focus on the stalls, or both on the platform, the police catch the pickpocket and win with the same result.
 
-This duel is zero-sum: one’s acclaim is the other’s loss.
+If the police guard the stalls while the pickpocket works the platform, or the other way around, the pickpocket succeeds and wins with the same result.
 
 
 
 
 
 
-37. Athlete vs. Rival Coach
+37. Dog vs. Fox
 
-An athlete (Player 1) practices Sprint or Marathon. A rival coach (Player 2) scouts.
+A guard dog patrols a farmyard while a fox seeks chickens.
 
-If training for Sprint, focusing on Marathon (win for Rival Coach) undercuts; focusing on Sprint (loss for Rival Coach) fails.
+The dog can watch the henhouse or the barn.
+The fox can sneak into the henhouse or the barn.
 
-If training for Marathon, focusing on Sprint (win for Rival Coach) succeeds; focusing on Marathon (loss for Rival Coach) fails.
+If both choose the henhouse, or both choose the barn, the dog drives off the fox and wins with the same outcome.
 
-This match is zero-sum: scouting gain is athlete’s setback.
+If the dog guards the henhouse while the fox goes to the barn, or the other way around, the fox snatches a chicken and wins with the same outcome.
 
 
 
 
 
 
-38. Journalist vs. Censor
+38. Pilot vs. Submarine
 
-A journalist (Player 1) reports on Topic X or Topic Y. A censor (Player 2) blocks.
+A patrol pilot hunts while a submarine tries to evade.
 
-If reporting X, blocking Y (win for Censor) redirects headlines; blocking X (loss for Censor) fails.
+The pilot can drop sensors over the northern sector or the southern sector.
+The submarine can dive into the northern sector or the southern sector.
 
-If reporting Y, blocking X (win for Censor) succeeds; blocking Y (loss for Censor) fails.
+If both choose the northern sector, or both choose the southern sector, the pilot detects the submarine and wins with the same result.
 
-This contest is zero-sum: censorship undermines journalism.
+If the pilot sweeps the north while the submarine dives south, or vice versa, the submarine slips away and wins with the same result.
 
 
 
 
 
 
-39. Diver vs. Octopus
+39. Coach vs. Opponent Team
 
-A diver (Player 1) explores the Cave or the Reef. An octopus (Player 2) ambushes.
+A coach sets up defense while the rival team picks an attack.
 
-If at the Cave, ambushing the Reef (win for Octopus) intercepts; ambushing the Cave (loss for Octopus) fails.
+The coach can focus on the left wing or the right wing.
+The opponent can attack down the left wing or the right wing.
 
-If at the Reef, ambushing the Cave (win for Octopus) works; ambushing the Reef (loss for Octopus) fails.
+If both focus on the left, or both on the right, the coach’s defense holds and wins with the same outcome.
 
-This is zero-sum: catch for octopus is diver’s loss.
+If the coach defends the left while the attack comes down the right, or the other way around, the opponent scores and wins with the same outcome.
 
 
 
 
 
 
-40. Engineer vs. Hacker
+40. Scientist vs. Lab Rat
 
-An engineer (Player 1) fixes System A or System B. A hacker (Player 2) launches attacks.
+A scientist tests behavior while a rat searches for food in a maze.
 
-If fixing A, attacking B (win for Hacker) succeeds; attacking A (loss for Hacker) fails.
+The scientist can place food in the left chamber or the right chamber.
+The rat can run to the left chamber or the right chamber.
 
-If fixing B, attacking A (win for Hacker) works; attacking B (loss for Hacker) fails.
+If both choose the left chamber, or both choose the right chamber, the scientist predicts correctly and wins with the same outcome.
 
-This game is zero-sum: hacker success is engineer failure.
+If the scientist chooses left while the rat goes right, or vice versa, the rat surprises the scientist and wins with the same outcome.
+

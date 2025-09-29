@@ -10,6 +10,13 @@ If the master opens King’s Pawn, the challenger does best with Classical Defen
 If the master opens Queen’s Pawn, the challenger’s Aggressive Gambit is best (win); Flank Attack still loses but is less bad; Classical Defense is the worst loss.
 If the master opens Fianchetto, the challenger’s Flank Attack is best (win), Classical Defense still wins but less strongly, and Aggressive Gambit loses.
 
+Each success for one side comes at the expense of the other. 
+
+
+
+
+
+
 2) Heist Planner vs. Police Commander
 
 A heist crew selects an entry path; the police choose how to cover the museum.
@@ -21,6 +28,13 @@ Police coverage: Lobby posts, Gallery patrol, Roof sensors.
 If the crew goes Front lobby, Lobby posts work best (win), Gallery patrol still succeeds (smaller win), Roof sensors fail (lose).
 If the crew goes Side gallery, Gallery patrol is best (win); Roof sensors still miss but reduce damage; Lobby posts are the worst miss.
 If the crew goes Skylight, Roof sensors are best (win), Lobby posts still win but less strongly, and Gallery patrol loses.
+
+The more reward one gains, the more the other is forced to give up. 
+
+
+
+
+
 
 3) Prisoner vs. Guard
 
@@ -34,6 +48,13 @@ If the escape is via Laundry corridor, Laundry door is best (win), Tunnel gate s
 If the escape is via Service tunnel, Tunnel gate is best (win); Rooftop hatch still loses but is less bad; Laundry door is the worst loss.
 If the escape is via Roof line, Rooftop hatch is best (win), Laundry door still wins but weaker, and Tunnel gate loses.
 
+Every advantage for one becomes a disadvantage for the other. 
+
+
+
+
+
+
 4) Smuggler vs. Coast Guard
 
 A smuggler picks a sea lane; the coast guard decides how to intercept.
@@ -45,6 +66,13 @@ Interdiction: Cove patrols, Boom at the river, Radar net in the channel.
 If the run is via Cove A, Cove patrols are best (win), Boom at the river still works (smaller win), Radar net fails (lose).
 If the run is via River mouth, Boom at the river is best (win); Radar net still misses but less badly; Cove patrols are the worst loss.
 If the run is via Open channel, Radar net is best (win), Cove patrols still win but less strongly, and Boom at the river loses.
+
+The winner's reward is matched by the loser’s loss. 
+
+
+
+
+
 
 5) Field General vs. Defender
 
@@ -58,6 +86,13 @@ If the attack comes through North valley, Hold the valley is best (win), Meet on
 If the attack comes through Central plain, Meet on the plain is best (win); Screen the hills still loses but less badly; Hold the valley is the worst loss.
 If the attack comes through Southern hills, Screen the hills is best (win), Hold the valley still wins but weaker, and Meet on the plain loses.
 
+One’s triumph is measured by the other’s setback. 
+
+
+
+
+
+
 6) Campaign Lead vs. Opposition War Room
 
 A candidate sets the day’s focus; the opposition chooses a counter.
@@ -69,6 +104,13 @@ Countermoves: Attack ads, Policy debate, Grassroots rallies.
 If the focus is Economy, Attack ads bite hardest (win), Policy debate still lands (smaller win), Grassroots rallies flop (lose).
 If the focus is Foreign policy, Policy debate is best (win); Grassroots rallies still lose but less badly; Attack ads are the worst loss.
 If the focus is Social issues, Grassroots rallies are best (win), Attack ads still win but more weakly, and Policy debate loses.
+
+The outcome is a trade-off—whatever one player secures, the other pays for. 
+
+
+
+
+
 
 7) Malware Author vs. SOC Team
 
@@ -82,6 +124,13 @@ If the hit is Web injection, WAF rules are best (win), Mail filtering still work
 If the hit is Phishing, Mail filtering is best (win); Code-signing audits still lose but less badly; WAF rules are the worst loss.
 If the hit is Supply-chain dropper, Code-signing audits are best (win), WAF rules still win but weaker, and Mail filtering loses.
 
+As the winning scales tip toward one, they tip away from the other. 
+
+
+
+
+
+
 8) Counterfeiter vs. Bank Security
 
 A counterfeiter chooses a channel; the bank decides how to screen.
@@ -93,6 +142,13 @@ Screening: ATM image/ink checks, Teller training & pens, AML pattern monitors.
 If the move is ATM deposits, ATM image/ink checks are best (win), Teller training still works (smaller win), AML monitors fail (lose).
 If the move is Over-the-counter, Teller training is best (win); AML monitors still lose but less badly; ATM image/ink checks are the worst loss.
 If the move is Online transfer mule, AML monitors are best (win), ATM image/ink checks still win but weaker, and Teller training loses.
+
+One player’s reward reflects as the other’s punishment.
+
+
+
+
+
 
 9) Treasure Hunter vs. Temple Warden
 
@@ -106,6 +162,13 @@ If the approach is Stone gate, Lock the gate is best (win), Sand flood baffles s
 If the approach is Sun shaft, Sand flood baffles are best (win); Water surge grates still lose but less badly; Lock the gate is the worst loss.
 If the approach is Water tunnel, Water surge grates are best (win), Lock the gate still wins but weaker, and Sand flood baffles lose.
 
+The prize taken by one is the price paid by the other.
+
+
+
+
+
+
 10) Detective vs. Suspect
 
 An investigator chooses a pressure line; the suspect selects a response style.
@@ -117,3 +180,6 @@ Responses: Straight denials, Detailed alibis, Counter-accusations.
 If the push is Hard evidence, Straight denials hold up best (win), Detailed alibis still work (smaller win), Counter-accusations fail (lose).
 If the push is Timeline contradictions, Detailed alibis are best (win); Counter-accusations still lose but less badly; Straight denials are the worst loss.
 If the push is Emotional appeal, Counter-accusations are best (win), Straight denials still win but weaker, and Detailed alibis lose.
+
+The contest is balanced—whatever strength one claims, the other must surrender.
+

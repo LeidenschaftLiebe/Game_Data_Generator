@@ -8,9 +8,6 @@ If one betrays while the other stays silent, the betrayer goes free while the ot
 
 If both betray, they both receive medium sentences.
 
-Each gain for one comes at the expense of the other.
-
-
 
 
 
@@ -19,13 +16,11 @@ Each gain for one comes at the expense of the other.
 
 Two hunters head into the forest. They can either cooperate to hunt a stag or go alone after a hare.
 
-If both hunt stag, they succeed together and share a large reward.
+If both hunters go for the stag, each receives a high reward.
 
-If one hunts stag while the other goes for hare, the hare hunter earns a small catch while the stag hunter goes home empty-handed.
+If one hunts stag while the other hunts hare, the hare hunter earns a small reward, while the stag hunter ends up with nothing.
 
-If both hunt hare, each receives a modest but safe reward.
-
-The more reward one gains, the more the other is forced to give up. 
+If both hunt hares, each receives a moderate reward, better than nothing but less than the high reward from the stag.
 
 
 
@@ -36,13 +31,11 @@ The more reward one gains, the more the other is forced to give up.
 
 Two drivers race toward each other on a collision course. Each must decide whether to swerve or stay straight.
 
-If one swerves and the other stays straight, the one who stays straight “wins,” while the one who swerves “loses.”
+If one driver swerves while the other stays straight, the straight driver gains a reward, while the one who swerves receives a penalty.
 
-If both swerve, neither looks tough, but both avoid disaster.
+If both swerve, neither gains the upper hand, but each receives a smaller reward for avoiding disaster.
 
-If both stay straight, they crash and both suffer greatly.
-
-The outcome is a trade-off—whatever one secures, the other pays for.
+If both stay straight, they crash and each suffers the highest loss.
 
 
 
@@ -59,8 +52,6 @@ If both attend the football game, they again enjoy it together, though the footb
 
 If they split between events, neither is satisfied.
 
-The more one advances, the more the rival is pushed back.
-
 
 
 
@@ -74,7 +65,7 @@ If both choose the same side, the first player wins.
 
 If they choose differently, the second player wins.
 
-Every advantage for one becomes a disadvantage for the other. 
+Each success for one side comes at the expense of the other. 
 
 
 
@@ -94,4 +85,5 @@ Paper beats rock, but loses to scissors.
 If both choose the same, it ends in a draw.
 
 The winner's reward is matched exactly by the loser’s loss. 
+
 

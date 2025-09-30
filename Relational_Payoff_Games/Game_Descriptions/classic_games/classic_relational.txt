@@ -25,7 +25,7 @@ If one hunts stag while the other goes for hare, the hare hunter earns a small c
 
 If both hunt hare, each receives a modest but safe reward.
 
-Every victory for one carries an equal setback for the other.
+The more reward one gains, the more the other is forced to give up. 
 
 
 
@@ -43,6 +43,11 @@ If both swerve, neither looks tough, but both avoid disaster.
 If both stay straight, they crash and both suffer greatly.
 
 The outcome is a trade-off—whatever one secures, the other pays for.
+
+
+
+
+
 
 4. Battle of the Sexes
 
@@ -69,7 +74,7 @@ If both choose the same side, the first player wins.
 
 If they choose differently, the second player wins.
 
-Each triumph carved out by one leaves the other diminished.
+Every advantage for one becomes a disadvantage for the other. 
 
 
 
@@ -88,4 +93,5 @@ Paper beats rock, but loses to scissors.
 
 If both choose the same, it ends in a draw.
 
-As the winning scales tip toward one, they tip away from the other.
+The winner's reward is matched exactly by the loser’s loss. 
+

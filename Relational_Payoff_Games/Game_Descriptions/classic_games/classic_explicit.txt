@@ -1,0 +1,139 @@
+1. Prisoner’s Dilemma
+
+Two suspects must decide whether to stay silent or betray.
+
+If both stay silent, each gets –1.
+
+If one betrays while the other stays silent, the betrayer gets 0 and the silent one gets –10.
+
+If both betray, each gets –5.
+
+
+
+
+
+
+2. Stag Hunt
+
+Two hunters can cooperate to hunt a stag or go alone for a hare.
+
+If both hunt stag, each gets 4.
+
+If one hunts stag while the other hunts hare, the stag hunter gets 0 while the hare hunter gets 3.
+
+If both hunt hare, each gets 3.
+
+
+
+
+
+
+3. Chicken (Hawk–Dove)
+
+Two drivers face off, each deciding to swerve or stay straight.
+
+If one swerves while the other stays straight, the straight driver gets 2 and the swerver gets 0.
+
+If both swerve, each gets 1.
+
+If both stay straight, both crash and receive –10.
+
+
+
+
+
+
+4. Battle of the Sexes
+
+Two partners must choose between the opera and the football game.
+
+If both attend the opera, payoffs are (2,1).
+
+If both attend football, payoffs are (1,2).
+
+If they split, payoffs are (0,0).
+
+
+
+
+
+
+5. Matching Pennies (Alice vs. Bob)
+
+Two players (Alice and Bob) each pick heads or tails simultaneously.
+
+If both choose heads: Alice gets +1, Bob gets –1.
+
+If Alice: heads, Bob: tails: Alice –1, Bob +1.
+
+If Alice: tails, Bob: heads: Alice –1, Bob +1.
+
+If both choose tails: Alice +1, Bob –1.
+
+
+
+
+
+
+6. Rock–Paper–Scissors (Alice vs. Bob)
+
+Alice and Bob each choose rock, paper, or scissors at the same time.
+
+
+Ties: If they both choose the same action, Alice 0, Bob 0.
+
+
+Rock vs. Scissors:
+
+If Alice: rock, Bob: scissors → Alice +1, Bob –1.
+
+If Alice: scissors, Bob: rock → Alice –1, Bob +1.
+
+
+Scissors vs. Paper:
+
+If Alice: scissors, Bob: paper → Alice +1, Bob –1.
+
+If Alice: paper, Bob: scissors → Alice –1, Bob +1.
+
+
+Paper vs. Rock:
+
+If Alice: paper, Bob: rock → Alice +1, Bob –1.
+
+If Alice: rock, Bob: paper → Alice –1, Bob +1.
+
+
+
+
+
+6. Rock–Paper–Scissors (Alice vs. Bob)
+
+Alice and Bob each choose rock, paper, or scissors at the same time.
+
+When Alice chooses rock:
+
+If Bob also chooses rock → payoffs are (0, 0).
+
+If Bob chooses paper → Alice –1, Bob +1.
+
+If Bob chooses scissors → Alice +1, Bob –1.
+
+
+When Alice chooses paper:
+
+If Bob also chooses paper → payoffs are (0, 0).
+
+If Bob chooses rock → Alice +1, Bob –1.
+
+If Bob chooses scissors → Alice –1, Bob +1.
+
+
+When Alice chooses scissors:
+
+If Bob also chooses scissors → payoffs are (0, 0).
+
+If Bob chooses paper → Alice +1, Bob –1.
+
+If Bob chooses rock → Alice –1, Bob +1.
+

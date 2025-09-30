@@ -1,0 +1,91 @@
+1. Prisoner’s Dilemma
+
+Two suspects are held in separate cells, unable to communicate. Each must decide whether to stay silent or betray the other.
+
+If both stay silent, they each get a light sentence.
+
+If one betrays while the other stays silent, the betrayer goes free while the other receives a heavy sentence.
+
+If both betray, they both receive medium sentences.
+
+Each gain for one comes at the expense of the other.
+
+
+
+
+
+
+2. Stag Hunt
+
+Two hunters head into the forest. They can either cooperate to hunt a stag or go alone after a hare.
+
+If both hunt stag, they succeed together and share a large reward.
+
+If one hunts stag while the other goes for hare, the hare hunter earns a small catch while the stag hunter goes home empty-handed.
+
+If both hunt hare, each receives a modest but safe reward.
+
+Every victory for one carries an equal setback for the other.
+
+
+
+
+
+
+3. Chicken (Hawk–Dove)
+
+Two drivers race toward each other on a collision course. Each must decide whether to swerve or stay straight.
+
+If one swerves and the other stays straight, the one who stays straight “wins,” while the one who swerves “loses.”
+
+If both swerve, neither looks tough, but both avoid disaster.
+
+If both stay straight, they crash and both suffer greatly.
+
+The outcome is a trade-off—whatever one secures, the other pays for.
+
+4. Battle of the Sexes
+
+A couple wants to spend the evening together, but they disagree on what to do: one prefers the opera, the other the football game.
+
+If both attend the opera, they enjoy the evening together, though the opera lover is happier.
+
+If both attend the football game, they again enjoy it together, though the football fan is happier.
+
+If they split between events, neither is satisfied.
+
+The more one advances, the more the rival is pushed back.
+
+
+
+
+
+
+5. Matching Pennies
+
+Two players each secretly choose heads or tails and reveal simultaneously.
+
+If both choose the same side, the first player wins.
+
+If they choose differently, the second player wins.
+
+Each triumph carved out by one leaves the other diminished.
+
+
+
+
+
+
+6. Rock–Paper–Scissors
+
+Two players simultaneously choose between rock, paper, and scissors.
+
+Rock beats scissors, but loses to paper.
+
+Scissors beat paper, but lose to rock.
+
+Paper beats rock, but loses to scissors.
+
+If both choose the same, it ends in a draw.
+
+As the winning scales tip toward one, they tip away from the other.

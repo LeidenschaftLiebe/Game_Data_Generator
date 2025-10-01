@@ -1,0 +1,144 @@
+11. The Hiking Choice
+
+Two friends plan a weekend trip: forest trail or desert trek.
+
+If both hike the forest trail, the forest lover gains 9, while the desert fan gains 5.
+
+If both go on the desert trek, the desert fan gains 9, while the forest lover gains 5.
+
+If they split, both get 0.
+
+
+
+
+
+
+12. The Shopping Outing
+
+Two partners decide between a mall trip or a flea market.
+
+If both go to the mall, the mall enthusiast gains 7, while the flea-market fan gains 3.
+
+If both go to the flea market, the flea-market fan gains 7, while the mall lover gains 3.
+
+If they go separately, both get 0.
+
+
+
+
+
+
+13. The Pet Adoption
+
+Two roommates want a pet: dog or cat.
+
+If both adopt a dog, the dog lover gains 10, while the cat lover gains 6.
+
+If both adopt a cat, the cat lover gains 10, while the dog lover gains 6.
+
+If they adopt separately, both get 0.
+
+
+
+
+
+
+14. The Study Group
+
+Two students must choose between library study or coffee shop study.
+
+If both go to the library, the library fan gains 8, while the coffee-shop fan gains 4.
+
+If both go to the coffee shop, the coffee-shop fan gains 8, while the library lover gains 4.
+
+If they split, both get 0.
+
+
+
+
+
+
+15. The Travel Destination
+
+Two partners choose between Paris or Tokyo.
+
+If both go to Paris, the Paris fan gains 12, while the Tokyo fan gains 6.
+
+If both go to Tokyo, the Tokyo fan gains 12, while the Paris lover gains 6.
+
+If they travel separately, both get 0.
+
+
+
+
+
+
+16. The Evening Entertainment
+
+Two friends decide between theater play or comedy club.
+
+If both attend the play, the theater fan gains 9, while the comedy fan gains 5.
+
+If both go to the comedy club, the comedy fan gains 9, while the theater lover gains 5.
+
+If they split, both get 0.
+
+
+
+
+
+
+17. The Dinner Choice
+
+Two colleagues choose between Italian food or Indian food.
+
+If both eat Italian, the Italian fan gains 6, while the Indian fan gains 3.
+
+If both eat Indian, the Indian fan gains 6, while the Italian fan gains 3.
+
+If they eat separately, both get 0.
+
+
+
+
+
+
+18. The Tech Purchase
+
+Two gamers choose between a PlayStation or an Xbox.
+
+If both buy a PlayStation, the PlayStation fan gains 11, while the Xbox fan gains 7.
+
+If both buy an Xbox, the Xbox fan gains 11, while the PlayStation fan gains 7.
+
+If they split, both get 0.
+
+
+
+
+
+
+19. The Festival Trip
+
+Two travelers choose between Carnival in Brazil or Oktoberfest in Germany.
+
+If both go to Carnival, the Carnival fan gains 15, while the Oktoberfest fan gains 9.
+
+If both go to Oktoberfest, the Oktoberfest fan gains 15, while the Carnival fan gains 9.
+
+If they split destinations, both get 0.
+
+
+
+
+
+
+20. The Workout Choice
+
+Two gym buddies decide between yoga class or weightlifting session.
+
+If both attend yoga, the yoga fan gains 7, while the weightlifting fan gains 3.
+
+If both go weightlifting, the weightlifting fan gains 7, while the yoga fan gains 3.
+
+If they go separately, both get 0.

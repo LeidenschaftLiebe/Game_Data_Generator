@@ -1,0 +1,164 @@
+1. Rock–Paper–Scissors
+
+Two players simultaneously choose rock, paper, or scissors.
+
+If one plays rock and the other plays scissors, the rock player earns +2, while the scissors player receives –2.
+
+If one plays scissors and the other plays paper, the scissors player takes +2, while the paper player ends up with –2.
+
+If one plays paper and the other plays rock, the paper player secures +2, while the rock player is penalized –2.
+
+If both choose the same action, both receive 0.
+
+
+
+
+
+
+2. Elemental Duel
+
+Each chooses fire, water, or wood at the same time.
+
+Fire over wood: fire user gains +5, wood user suffers –5.
+
+Wood over water: wood user achieves +5, water user receives –5.
+
+Water over fire: water user takes +5, fire user ends up with –5.
+
+If both choose the same, both get 0.
+
+
+
+
+
+
+3. Gesture Clash
+
+Each raises a fist, palm, or two fingers.
+
+Fist beats two fingers: fist player secures +3, two-finger player receives –3.
+
+Two fingers beat palm: two-finger player earns +3, palm player suffers –3.
+
+Palm beats fist: palm player takes +3, fist player is penalized –3.
+
+Same gestures result in 0 each.
+
+
+
+
+
+
+4. Creature Battle
+
+They summon lion, snake, or eagle.
+
+Lion defeats snake: lion summoner takes +7, snake summoner receives –7.
+
+Snake defeats eagle: snake summoner earns +7, eagle summoner is penalized –7.
+
+Eagle defeats lion: eagle summoner gains +7, lion summoner ends up with –7.
+
+Same creatures mean 0 each.
+
+
+
+
+
+
+5. Martial Arts Forms
+
+Each chooses a stance: kick, block, or throw.
+
+Kick beats throw: kicker achieves +4, thrower receives –4.
+
+Throw beats block: thrower gains +4, blocker suffers –4.
+
+Block beats kick: blocker takes +4, kicker is penalized –4.
+
+Matching stances give 0 each.
+
+
+
+
+
+
+6. Battle of Spells
+
+Each casts lightning, earth, or wind.
+
+Lightning defeats wind: lightning caster earns +6, wind caster receives –6.
+
+Wind defeats earth: wind caster takes +6, earth caster is penalized –6.
+
+Earth defeats lightning: earth caster gains +6, lightning caster suffers –6.
+
+Same spells give 0 each.
+
+
+
+
+
+
+7. Animal Fight
+
+Each chooses dog, cat, or mouse.
+
+Dog beats cat: dog chooser takes +8, cat chooser receives –8.
+
+Cat beats mouse: cat chooser secures +8, mouse chooser suffers –8.
+
+Mouse beats dog: mouse chooser gains +8, dog chooser is penalized –8.
+
+Same animal gives 0 each.
+
+
+
+
+
+
+8. War Machines
+
+They deploy tank, infantry, or aircraft.
+
+Tank crushes infantry: tank user earns +10, infantry user receives –10.
+
+Infantry downs aircraft: infantry user takes +10, aircraft user is penalized –10.
+
+Aircraft strikes tank: aircraft user achieves +10, tank user suffers –10.
+
+Same unit choice gives 0 each.
+
+
+
+
+
+
+9. Mythic Clash
+
+They call upon giant, knight, or wizard.
+
+Giant beats knight: giant caller secures +9, knight caller receives –9.
+
+Knight beats wizard: knight caller earns +9, wizard caller is penalized –9.
+
+Wizard beats giant: wizard caller takes +9, giant caller suffers –9.
+
+Same being results in 0 each.
+
+
+
+
+
+
+10. Elements of Nature
+
+They invoke sun, rain, or cloud.
+
+Sun evaporates rain: sun user gains +12, rain user receives –12.
+
+Rain fills cloud: rain user achieves +12, cloud user is penalized –12.
+
+Cloud covers sun: cloud user takes +12, sun user suffers –12.
+
+Same choice leaves both with 0.

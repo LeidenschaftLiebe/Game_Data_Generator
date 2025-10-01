@@ -1,0 +1,144 @@
+1. The Deer Hunt
+
+Two hunters choose between hunting deer together or catching rabbits alone.
+
+If both hunt deer, each gets 6.
+
+If one hunts deer while the other catches rabbits, the deer hunter gets 0 while the rabbit catcher gets 4.
+
+If both catch rabbits, each gets 4.
+
+
+
+
+
+
+2. The Fishermen’s Choice
+
+Two fishermen decide whether to team up for a big tuna or fish small trout separately.
+
+If both go for tuna, each earns 10.
+
+If one tries tuna while the other fishes trout, the tuna fisher gets 0, while the trout fisher gets 6.
+
+If both fish trout, each earns 6.
+
+
+
+
+
+
+3. The Farmers’ Harvest
+
+Two farmers can either work together on a large wheat field or tend small vegetable patches alone.
+
+If both farm wheat together, each gets 8.
+
+If one farms wheat while the other tends vegetables, the wheat farmer gets 0, while the vegetable farmer gets 5.
+
+If both tend vegetables, each gets 5.
+
+
+
+
+
+
+4. The Climbers’ Expedition
+
+Two climbers decide whether to attempt the summit together or climb smaller hills separately.
+
+If both aim for the summit, each gains 12.
+
+If one aims for the summit while the other climbs a hill, the summit climber gets 0, while the hill climber gets 7.
+
+If both climb hills, each gains 7.
+
+
+
+
+
+
+5. The Sailors’ Catch
+
+Two sailors choose whether to sail far out for whales together or stay near shore for fish alone.
+
+If both sail for whales, each earns 15.
+
+If one sails for whales while the other fishes near shore, the whale hunter gets 0, while the near-shore fisher earns 9.
+
+If both fish near shore, each earns 9.
+
+
+
+
+
+
+6. The Researchers’ Project
+
+Two scientists can either collaborate on a big breakthrough or work on small projects alone.
+
+If both collaborate, each gets 20.
+
+If one works on the breakthrough while the other works alone, the collaborator gets 0, while the solo researcher gets 10.
+
+If both work alone, each gets 10.
+
+
+
+
+
+
+7. The Builders’ Task
+
+Two builders decide whether to construct a bridge together or work on sheds separately.
+
+If both build the bridge, each receives 14.
+
+If one builds the bridge while the other makes a shed, the bridge builder gets 0, while the shed builder gets 8.
+
+If both build sheds, each receives 8.
+
+
+
+
+
+
+8. The Knights’ Hunt
+
+Two knights choose whether to hunt a dragon together or hunt boars separately.
+
+If both hunt the dragon, each earns 25.
+
+If one hunts the dragon while the other hunts boars, the dragon hunter gets 0, while the boar hunter earns 12.
+
+If both hunt boars, each earns 12.
+
+
+
+
+
+
+9. The Entrepreneurs’ Startup
+
+Two entrepreneurs can either join forces for a big startup or run small businesses separately.
+
+If both start the big venture, each gets 30.
+
+If one tries the big venture while the other runs solo, the startup founder gets 0, while the solo owner gets 15.
+
+If both run solo, each gets 15.
+
+
+
+
+
+
+10. The Explorers’ Journey
+
+Two explorers can either travel deep into the jungle together or collect herbs near camp alone.
+
+If both go deep, each gains 18.
+
+If one goes deep while the other stays near, the deep explorer gets 0, while the herb collector gets 9.
+
+If both stay near, each gains 9.

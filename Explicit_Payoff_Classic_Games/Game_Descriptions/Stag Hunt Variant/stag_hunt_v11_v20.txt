@@ -1,0 +1,144 @@
+11. The Miners’ Dig
+
+Two miners must choose whether to dig deep for gold together or pan for silver separately.
+
+If both dig for gold, each earns 16.
+
+If one digs gold while the other pans silver, the gold digger gets 0, while the silver panner gets 7.
+
+If both pan silver, each earns 7.
+
+
+
+
+
+
+12. The Soldiers’ Mission
+
+Two soldiers can either coordinate an assault on the fortress or scavenge supplies alone.
+
+If both assault the fortress, each gains 22.
+
+If one assaults while the other scavenges, the assaulter gets 0, while the scavenger gets 10.
+
+If both scavenge, each gains 10.
+
+
+
+
+
+
+13. The Farmers’ Orchard
+
+Two farmers decide whether to cooperate on planting an orchard or plant small gardens separately.
+
+If both plant the orchard, each harvests 12.
+
+If one plants the orchard while the other tends a garden, the orchard farmer gets 0, while the gardener gets 5.
+
+If both plant gardens, each harvests 5.
+
+
+
+
+
+
+14. The Pirates’ Treasure
+
+Two pirates search for loot. They can either dig together for buried treasure or pickpocket villages separately.
+
+If both dig for treasure, each gets 40.
+
+If one digs while the other raids villages, the treasure digger gets 0, while the raider gets 15.
+
+If both raid, each gets 15.
+
+
+
+
+
+
+15. The Villagers’ Feast
+
+Two villagers plan a feast. They can either hunt a stag together or gather berries alone.
+
+If both hunt stag, each receives 8.
+
+If one hunts while the other gathers berries, the hunter gets 0, while the gatherer gets 4.
+
+If both gather berries, each receives 4.
+
+
+
+
+
+
+16. The Climbers’ Glacier
+
+Two climbers attempt a challenge. They can either scale the glacier together or collect herbs at base camp alone.
+
+If both scale the glacier, each gains 18.
+
+If one climbs while the other stays, the climber gets 0, while the one at camp gets 6.
+
+If both stay at camp, each gains 6.
+
+
+
+
+
+
+17. The Inventors’ Workshop
+
+Two inventors can either collaborate on a breakthrough machine or tinker with small gadgets separately.
+
+If both collaborate, each earns 25.
+
+If one collaborates while the other tinkers, the collaborator gets 0, while the tinkerer gets 10.
+
+If both tinker, each earns 10.
+
+
+
+
+
+
+18. The Traders’ Caravan
+
+Two traders prepare to travel. They can either organize a caravan together to a far city or sell goods in the local market separately.
+
+If both form the caravan, each profits 30.
+
+If one sets off while the other sells locally, the caravan trader gets 0, while the local seller gets 12.
+
+If both sell locally, each profits 12.
+
+
+
+
+
+
+19. The Fishermen’s Voyage
+
+Two fishermen can either sail far offshore for whales together or catch fish near shore alone.
+
+If both sail offshore, each earns 20.
+
+If one sails offshore while the other fishes near, the offshore sailor gets 0, while the nearshore fisher earns 9.
+
+If both fish near shore, each earns 9.
+
+
+
+
+
+
+20. The Students’ Research
+
+Two students must decide whether to coauthor a major paper or write small essays separately.
+
+If both coauthor, each receives 15.
+
+If one coauthors while the other writes alone, the coauthor gets 0, while the solo writer gets 6.
+
+If both write alone, each receives 6.

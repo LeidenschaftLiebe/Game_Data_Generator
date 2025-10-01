@@ -1,0 +1,124 @@
+1. The Prisoner's Dilemma
+
+Two suspects are held in separate cells, unable to communicate. Each must decide whether to stay silent or betray the other.
+
+If both stay silent, they each get a light sentence.
+If one betrays while the other stays silent, the betrayer goes free while the other receives a heavy sentence.
+If both betray, they both receive medium sentences.
+
+
+
+
+
+
+2. The Hacker's Pact
+
+Two hackers are caught during a cyberattack and interrogated separately. Each must decide whether to deny involvement or reveal the other's role.
+
+If both deny, they face a light penalty.
+If one reveals while the other denies, the revealer walks free while the denier faces a heavy penalty.
+If both reveal, each receives a medium penalty.
+
+
+
+
+
+
+3. The Athlete's Betrayal
+
+Two athletes on the same team are suspected of doping and questioned separately. Each must decide whether to admit nothing or accuse the other.
+
+If both admit nothing, they each face a light suspension.
+If one accuses while the other stays quiet, the accuser avoids punishment while the quiet one gets a heavy ban.
+If both accuse, each receives a medium suspension.
+
+
+
+
+
+
+4. The Businessman's Secret
+
+Two business partners are investigated for fraud and questioned separately. Each must decide whether to stay loyal or confess against the other.
+
+If both stay loyal, they face only a small fine.
+If one confesses while the other stays loyal, the confessor avoids punishment while the loyal one bears a heavy fine.
+If both confess, they share a medium penalty.
+
+
+
+
+
+
+5. The Student's Test
+
+Two students are caught cheating on an exam and questioned separately. Each must decide whether to deny or blame the other.
+
+If both deny, they each get a light penalty.
+If one blames while the other denies, the blamer goes unpunished while the denier receives a heavy penalty.
+If both blame, they each receive a medium penalty.
+
+
+
+
+
+
+6. The Soldier's Silence
+
+Two captured soldiers are interrogated separately. Each must decide whether to keep silent or give information about the other.
+
+If both keep silent, they face only a light punishment.
+If one gives information while the other stays silent, the informer avoids punishment while the silent one suffers harsh treatment.
+If both give information, each receives a medium punishment.
+
+
+
+
+
+
+7. The Scientist's Trial
+
+Two scientists are accused of falsifying data and questioned separately. Each must decide whether to defend each other or reveal the truth.
+
+If both defend each other, they receive only a small sanction.
+If one reveals while the other defends, the revealer avoids blame while the defender receives a severe sanction.
+If both reveal, they both face a medium sanction.
+
+
+
+
+
+
+8. The Pirate's Oath
+
+Two pirates are captured with stolen treasure and interrogated separately. Each must decide whether to stay silent or betray the other.
+
+If both stay silent, they face only a small punishment.
+If one betrays while the other stays silent, the betrayer avoids punishment while the silent one is severely punished.
+If both betray, they each face a medium punishment.
+
+
+
+
+
+
+9. The Spy's Interrogation
+
+Two spies are captured behind enemy lines and interrogated separately. Each must decide whether to keep quiet or expose the other.
+
+If both keep quiet, they endure a light punishment.
+If one exposes while the other keeps quiet, the exposer is released while the quiet one is harshly punished.
+If both expose, they receive medium punishment.
+
+
+
+
+
+
+10. The Politician's Scandal
+
+Two politicians are accused of corruption and questioned separately. Each must decide whether to deny everything or implicate the other.
+
+If both deny, they face minor consequences.
+If one implicates while the other denies, the implicator avoids punishment while the denier receives major consequences.
+If both implicate, they each face medium consequences.

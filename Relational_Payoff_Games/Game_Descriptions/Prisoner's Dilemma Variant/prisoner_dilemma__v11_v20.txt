@@ -1,0 +1,124 @@
+11. The Smuggler's Pact
+
+Two smugglers are caught at the border and questioned separately. Each must decide whether to deny everything or confess against the other.
+
+If both deny, they face a light penalty.
+If one confesses while the other denies, the confessor avoids punishment while the denier receives a heavy sentence.
+If both confess, they each face a medium penalty.
+
+
+
+
+
+
+12. The Banker's Secret
+
+Two bankers are accused of insider trading and interrogated separately. Each must decide whether to protect the other or expose them.
+
+If both protect each other, they receive only a light fine.
+If one exposes while the other protects, the exposer walks free while the other faces a heavy fine.
+If both expose, they each receive a medium fine.
+
+
+
+
+
+
+13. The Journalist's Choice
+
+Two journalists are detained for leaking sensitive information and questioned separately. Each must decide whether to stay silent or reveal the other's involvement.
+
+If both stay silent, they each face a minor consequence.
+If one reveals while the other stays silent, the revealer avoids punishment while the silent one suffers severe punishment.
+If both reveal, they each receive a moderate consequence.
+
+
+
+
+
+
+14. The Doctor's Oath
+
+Two doctors are accused of malpractice and questioned separately. Each must decide whether to defend the other or shift the blame.
+
+If both defend each other, they face only a minor sanction.
+If one shifts blame while the other defends, the one shifting blame avoids consequences while the other suffers harshly.
+If both shift blame, they each face medium sanctions.
+
+
+
+
+
+
+15. The Merchant's Gamble
+
+Two merchants are accused of tax evasion and interrogated separately. Each must decide whether to remain loyal or betray the other.
+
+If both remain loyal, they pay only a small fine.
+If one betrays while the other stays loyal, the betrayer avoids punishment while the loyal one pays a heavy fine.
+If both betray, they each pay a medium fine.
+
+
+
+
+
+
+16. The Athlete's Pact
+
+Two athletes are suspected of fixing a match and questioned separately. Each must decide whether to stay quiet or expose the other.
+
+If both stay quiet, they face a light suspension.
+If one exposes while the other stays quiet, the exposer avoids punishment while the quiet one is heavily punished.
+If both expose, they each face medium suspension.
+
+
+
+
+
+
+17. The Miner's Secret
+
+Two miners are accused of stealing ore from the company and interrogated separately. Each must decide whether to deny or confess against the other.
+
+If both deny, they get a small fine.
+If one confesses while the other denies, the confessor avoids punishment while the denier receives a heavy penalty.
+If both confess, they each get a medium penalty.
+
+
+
+
+
+
+18. The Farmer's Bargain
+
+Two farmers are suspected of breaking a cooperative agreement and questioned separately. Each must decide whether to keep quiet or blame the other.
+
+If both keep quiet, they face only a small penalty.
+If one blames while the other keeps quiet, the one blaming avoids punishment while the quiet one receives a severe penalty.
+If both blame, they each face medium penalties.
+
+
+
+
+
+
+19. The Pilot's Choice
+
+Two pilots are accused of violating safety rules and questioned separately. Each must decide whether to cover for each other or report the other.
+
+If both cover, they face only a light consequence.
+If one reports while the other covers, the reporter avoids punishment while the coverer suffers harshly.
+If both report, they each face a moderate consequence.
+
+
+
+
+
+
+20. The Banker's Betrayal
+
+Two bankers are suspected of laundering money and questioned separately. Each must decide whether to deny everything or turn on the other.
+
+If both deny, they each pay a small fine.
+If one turns while the other denies, the one who turns avoids punishment while the other receives a heavy penalty.
+If both turn, they each face medium penalties.

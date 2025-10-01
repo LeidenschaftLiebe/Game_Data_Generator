@@ -1,0 +1,124 @@
+11. The Market Stall
+
+Two merchants set prices by shouting either high or low at the same time.
+
+If they both shout the same, Merchant A earns +5, while Merchant B takes –5.
+
+If they shout differently, Merchant B earns +5, while Merchant A takes –5.
+
+
+
+
+
+
+12. The Street Game
+
+Two children call either left or right in their playground game.
+
+If both call the same direction, the first child gains +3, while the second is set back –3.
+
+If they call differently, the second child gains +3, while the first is set back –3.
+
+
+
+
+
+
+13. The Castle Guards
+
+Two guards signal either open gate or close gate simultaneously.
+
+If they give the same signal, Guard A secures +6, while Guard B receives –6.
+
+If they give different signals, Guard B secures +6, while Guard A receives –6.
+
+
+
+
+
+
+14. The Fishing Spots
+
+Two fishermen cast lines at either the north bank or the south bank.
+
+If both cast at the same bank, the first fisherman achieves +7, while the second suffers –7.
+
+If they cast at different banks, the second fisherman achieves +7, while the first suffers –7.
+
+
+
+
+
+
+15. The Space Pilots
+
+Two space pilots each choose to dock at either Port Alpha or Port Beta.
+
+If they choose the same port, Pilot A takes +10, while Pilot B ends up with –10.
+
+If they choose different ports, Pilot B takes +10, while Pilot A ends up with –10.
+
+
+
+
+
+
+16. The Dueling Magicians
+
+Two magicians cast either a fire spell or a water spell at once.
+
+If both cast the same spell, Magician A earns +8, while Magician B receives –8.
+
+If they cast differently, Magician B earns +8, while Magician A receives –8.
+
+
+
+
+
+
+17. The Train Conductors
+
+Two conductors signal either depart or hold.
+
+If they give the same signal, the first conductor gains +4, while the second suffers –4.
+
+If they give different signals, the second conductor gains +4, while the first suffers –4.
+
+
+
+
+
+
+18. The Jungle Scouts
+
+Two scouts wave flags for either river path or hill path.
+
+If both wave the same, Scout A achieves +9, while Scout B takes –9.
+
+If they wave differently, Scout B achieves +9, while Scout A takes –9.
+
+
+
+
+
+
+19. The Arena Fighters
+
+Two fighters raise either a shield or a sword at the same instant.
+
+If both raise the same, Fighter A secures +11, while Fighter B is penalized –11.
+
+If they raise differently, Fighter B secures +11, while Fighter A is penalized –11.
+
+
+
+
+
+
+20. The Code Breakers
+
+Two cryptographers guess the final digit of a lock, either 2 or 7.
+
+If they guess the same, the first cryptographer takes +15, while the second receives –15.
+
+If they guess differently, the second cryptographer takes +15, while the first receives –15.

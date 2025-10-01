@@ -1,0 +1,124 @@
+1. The Coin Guess
+
+Alice and Bob each secretly choose heads or tails.
+
+If both coins show the same side, Alice gains +2, while Bob gets –2.
+
+If the coins differ, Bob gains +2, while Alice gets –2.
+
+
+
+
+
+
+2. The Card Pick
+
+Two gamblers each pick either a red card or a black card.
+
+If both pick the same color, the first gambler earns +5, while the second ends up with –5.
+
+If they pick different colors, the second gambler earns +5, while the first ends up with –5.
+
+
+
+
+
+
+3. The Shadow Move
+
+Two ninjas hide in either the left shadow or the right shadow.
+
+If they choose the same shadow, Ninja A secures +3, while Ninja B suffers –3.
+
+If they choose different shadows, Ninja B secures +3, while Ninja A suffers –3.
+
+
+
+
+
+
+4. The Flag Signal
+
+Two soldiers each raise a red flag or a blue flag.
+
+If they raise the same flag, the first soldier takes +10, while the second gets –10.
+
+If they raise different flags, the second soldier takes +10, while the first gets –10.
+
+
+
+
+
+
+5. The Lock Code
+
+Two hackers each choose 0 or 1 for a system entry.
+
+If both enter the same number, Hacker A achieves +4, while Hacker B suffers –4.
+
+If they enter different numbers, Hacker B achieves +4, while Hacker A suffers –4.
+
+
+
+
+
+
+6. The Path Choice
+
+Two travelers choose the north path or the south path.
+
+If both choose the same path, Traveler A obtains +6, while Traveler B takes –6.
+
+If they choose different paths, Traveler B obtains +6, while Traveler A takes –6.
+
+
+
+
+
+
+7. The Dice Call
+
+Two players call odd or even before a roll.
+
+If they call the same, Player One earns +8, while Player Two is penalized –8.
+
+If they call differently, Player Two earns +8, while Player One is penalized –8.
+
+
+
+
+
+
+8. The Lantern Signal
+
+Two villagers each hold up either a green lantern or a yellow lantern.
+
+If both raise the same lantern, the first villager takes +7, while the second gets –7.
+
+If they raise different lanterns, the second villager takes +7, while the first gets –7.
+
+
+
+
+
+
+9. The Animal Call
+
+Two hunters each call out either wolf or bear.
+
+If they call the same animal, the first hunter gains +12, while the second suffers –12.
+
+If they call different animals, the second hunter gains +12, while the first suffers –12.
+
+
+
+
+
+
+10. The Switch Choice
+
+Two engineers flip a switch to on or off.
+
+If both flip the same way, Engineer A secures +9, while Engineer B ends up with –9.
+
+If they flip differently, Engineer B secures +9, while Engineer A ends up with –9.

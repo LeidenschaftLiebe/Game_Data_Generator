@@ -1,0 +1,144 @@
+11. The Duel of Cowboys
+
+Two cowboys face off in the street, deciding to draw first or hold back.
+
+If one holds back while the other draws, the drawer gains 9, while the one holding back gets 0.
+
+If both hold back, each gains 4.
+
+If both draw, shots are fired and each suffers –25.
+
+
+
+
+
+
+12. The CEOs’ Price War
+
+Two CEOs must decide whether to cut prices or hold steady.
+
+If one cuts while the other holds, the cutter gains 7, while the steady CEO gets 1.
+
+If both cut, each gains 3.
+
+If both hold, competition escalates and each loses –20.
+
+
+
+
+
+
+13. The Knights’ Tournament
+
+Two knights face off in a joust, deciding to tilt straight or veer aside.
+
+If one veers while the other tilts straight, the tilting knight gains 6, the one veering gets 0.
+
+If both veer, each gains 2.
+
+If both tilt straight, they collide violently and each suffers –30.
+
+
+
+
+
+
+14. The Hawks in the Sky
+
+Two hawks dive for prey, deciding to stay on course or pull away.
+
+If one pulls away while the other stays, the one staying gains 5, while the one pulling away gets 1.
+
+If both pull away, each gains 2.
+
+If both stay, they crash mid-air and each suffers –15.
+
+
+
+
+
+
+15. The Samurai Duel
+
+Two samurai meet on the road, deciding to draw blades or bow away.
+
+If one bows while the other draws, the one who draws gains 8, while the one who bows gets 0.
+
+If both bow, each earns 3 for respect.
+
+If both draw, they fight and each suffers –40.
+
+
+
+
+
+
+16. The Athletes’ Sprint
+
+Two sprinters approach the finish line, deciding to push at full speed or ease off.
+
+If one eases off while the other pushes, the one pushing gains 10, while the one easing off gets 2.
+
+If both ease off, each gains 5.
+
+If both push recklessly, they trip and each suffers –12.
+
+
+
+
+
+
+17. The Fishermen’s Claim
+
+Two fishermen row toward the same fishing spot, deciding to claim it or turn aside.
+
+If one turns aside while the other claims, the claimer gains 7, the one turning aside gets 1.
+
+If both turn aside, each gains 3.
+
+If both claim, they crash boats and each suffers –18.
+
+
+
+
+
+
+18. The Space Pilots
+
+Two space pilots head toward the same docking bay, deciding to hold course or yield.
+
+If one yields while the other holds course, the one holding gains 12, while the yielder gets 0.
+
+If both yield, each gains 4.
+
+If both hold course, they collide and each suffers –50.
+
+
+
+
+
+
+19. The Politicians’ Confrontation
+
+Two politicians face off in parliament, deciding to stand firm or step back.
+
+If one steps back while the other stands firm, the firm one gains 6, while the stepper gets 1.
+
+If both step back, each earns 2.
+
+If both stand firm, the crisis deepens and each suffers –20.
+
+
+
+
+
+
+20. The Lions’ Territory
+
+Two lions approach the same waterhole, deciding to roar forward or back off.
+
+If one backs off while the other roars forward, the roaring lion gains 15, while the one backing off gets 2.
+
+If both back off, each gains 6.
+
+If both roar forward, they fight and each suffers –30.

@@ -1,0 +1,144 @@
+1. The Drivers’ Showdown
+
+Two drivers barrel toward each other, deciding to swerve or stay straight.
+
+If one swerves while the other stays, the straight driver gets 5, the swerver gets 0.
+
+If both swerve, each gets 2.
+
+If both stay straight, they crash and each suffers –20.
+
+
+
+
+
+
+2. The Gladiators’ Arena
+
+Two gladiators run at each other, deciding whether to charge or sidestep.
+
+If one sidesteps while the other charges, the charger gains 4, while the sidestepper gets 0.
+
+If both sidestep, each gains 1.
+
+If both charge, they collide and each loses –15.
+
+
+
+
+
+
+3. The Fighter Jets
+
+Two fighter pilots fly head-on, deciding to dodge or stay course.
+
+If one dodges while the other stays, the pilot who stays gets 6, the dodger gets 1.
+
+If both dodge, each earns 3.
+
+If both stay course, they crash and each suffers –30.
+
+
+
+
+
+
+4. The Wrestlers’ Clash
+
+Two wrestlers face off, deciding to step back or push forward.
+
+If one steps back while the other pushes, the pusher gets 3, while the one stepping back gets 0.
+
+If both step back, each gains 2.
+
+If both push, they collide and each suffers –12.
+
+
+
+
+
+
+5. The Knights’ Charge
+
+Two knights gallop at each other, deciding whether to lower the lance or pull aside.
+
+If one pulls aside while the other lowers, the lancer earns 7, while the one pulling aside gets 1.
+
+If both pull aside, each earns 2.
+
+If both lower lances, they strike and each suffers –25.
+
+
+
+
+
+
+6. The Politicians’ Standoff
+
+Two politicians face off in debate, deciding to stand firm or concede.
+
+If one concedes while the other stands firm, the firm politician gains 8, while the one conceding gets 0.
+
+If both concede, each gains 3.
+
+If both stand firm, the debate collapses and each suffers –18.
+
+
+
+
+
+
+7. The Stags’ Battle
+
+Two stags lock eyes, deciding to charge or withdraw.
+
+If one withdraws while the other charges, the charger gains 6, the withdrawer gets 1.
+
+If both withdraw, each gains 2.
+
+If both charge, they clash and each suffers –20.
+
+
+
+
+
+
+8. The Pirates’ Bluff
+
+Two pirates contest treasure, deciding to draw swords or step back.
+
+If one steps back while the other draws, the one drawing swords gains 10, the stepper gets 0.
+
+If both step back, each takes 2.
+
+If both draw swords, they duel and each suffers –30.
+
+
+
+
+
+
+9. The Skaters’ Dare
+
+Two skaters rush toward each other, deciding to swerve or stay straight.
+
+If one swerves while the other stays, the straight skater gains 4, the swerver gets 1.
+
+If both swerve, each gets 2.
+
+If both stay straight, they crash and each suffers –16.
+
+
+
+
+
+
+10. The Generals’ March
+
+Two generals march armies toward the same bridge, deciding whether to yield or press on.
+
+If one yields while the other presses, the pressing general gains 12, the yielder gets 0.
+
+If both yield, each gains 5.
+
+If both press, the armies clash and each suffers –40.

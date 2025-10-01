@@ -1,0 +1,144 @@
+11. Open-Source Crossroads
+
+Two developers decide whether to share their library or keep it proprietary.
+
+If both share, each gets 4.
+
+If one keeps proprietary while the other shares, the keeper gets 7 and the sharer gets 0.
+
+If both keep proprietary, each gets 1.
+
+
+
+
+
+
+12. Neighborhood Watch Shift
+
+Two neighbors decide whether to patrol or stay home.
+
+If both patrol, each gets 6.
+
+If one stays home while the other patrols, the one at home gets 9 and the patroller gets 1.
+
+If both stay home, each gets 3.
+
+
+
+
+
+
+13. Research Lab Disclosure
+
+Two labs decide whether to publish interim results or hide them.
+
+If both publish, each gets 5.
+
+If one hides while the other publishes, the hider gets 8 and the publisher gets 0.
+
+If both hide, each gets 2.
+
+
+
+
+
+
+14. Group Project Effort
+
+Two classmates decide whether to contribute or slack.
+
+If both contribute, each gets 8.
+
+If one slacks while the other contributes, the slacker gets 12 and the contributor gets 1.
+
+If both slack, each gets 4.
+
+
+
+
+
+
+15. API Traffic Control
+
+Two partner apps decide whether to throttle requests or blast traffic.
+
+If both throttle, each gets 7.
+
+If one blasts while the other throttles, the blaster gets 10 and the throttler gets 0.
+
+If both blast, each gets 2.
+
+
+
+
+
+
+16. Wildlife Quota Pact
+
+Two fishing outfits decide whether to respect quotas or poach.
+
+If both respect quotas, each gets 9.
+
+If one poaches while the other respects, the poacher gets 13 and the respecter gets -1.
+
+If both poach, each gets 5.
+
+
+
+
+
+
+17. Ad Fatigue Choice
+
+Two apps decide whether to limit ads or spam users.
+
+If both limit ads, each gets 6.
+
+If one spams while the other limits, the spammer gets 9 and the limiter gets 1.
+
+If both spam, each gets 3.
+
+
+
+
+
+
+18. Traffic Merge Etiquette
+
+Two drivers decide whether to take turns or cut in.
+
+If both take turns, each gets 4.
+
+If one cuts in while the other yields, the cutter gets 7 and the yielder gets 0.
+
+If both cut in, each gets 1.
+
+
+
+
+
+
+19. Rover Power Share
+
+Two Mars rovers decide whether to share battery power or hoard it.
+
+If both share, each gets 10.
+
+If one hoards while the other shares, the hoarder gets 14 and the sharer gets -2.
+
+If both hoard, each gets 6.
+
+
+
+
+
+
+20. Review Deadline Tactics
+
+Two referees decide whether to submit early or delay for advantage.
+
+If both submit early, each gets 5.
+
+If one delays while the other submits early, the delayer gets 9 and the early submitter gets 0.
+
+If both delay, each gets 3.

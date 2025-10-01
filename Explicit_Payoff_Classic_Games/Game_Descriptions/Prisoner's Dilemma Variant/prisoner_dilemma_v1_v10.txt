@@ -1,0 +1,144 @@
+1. Interrogation Stand-Off
+
+Two hackers are detained and must decide whether to stay silent or confess.
+
+If both stay silent, each gets -2.
+
+If one confesses while the other stays silent, the confessor gets 0 and the silent one gets -12.
+
+If both confess, each gets -6.
+
+
+
+
+
+
+2. Price War Decision
+
+Two rival firms must decide whether to keep prices high or cut prices.
+
+If both keep prices high, each earns 3.
+
+If one cuts while the other keeps prices high, the cutter earns 6 and the other earns 0.
+
+If both cut prices, each earns 1.
+
+
+
+
+
+
+3. Smugglers’ Whisper
+
+Two smugglers are questioned separately and must decide whether to deny or admit.
+
+If both deny, each gets -1.
+
+If one admits while the other denies, the admitter gets 0 and the denier gets -8.
+
+If both admit, each gets -4.
+
+
+
+
+
+
+4. Clean Sport Pact
+
+Two athletes must decide whether to stay clean or use enhancers.
+
+If both stay clean, each gets 5.
+
+If one uses enhancers while the other stays clean, the user gets 9 and the clean athlete gets 0.
+
+If both use enhancers, each gets 2.
+
+
+
+
+
+
+5. Climate Accord Choice
+
+Two countries must decide whether to reduce emissions or pollute.
+
+If both reduce emissions, each gains 4.
+
+If one pollutes while the other reduces, the polluter gains 7 and the reducer gains -2.
+
+If both pollute, each gains 1.
+
+
+
+
+
+
+6. Hold-or-Retreat Line
+
+Two soldiers must decide whether to hold their position or retreat.
+
+If both hold, each gets 3.
+
+If one retreats while the other holds, the retreating one gets 5 and the holder gets 0.
+
+If both retreat, each gets 1.
+
+
+
+
+
+
+7. Startup R&D Pact
+
+Two startups must decide whether to share research or go solo.
+
+If both share, each gets 10.
+
+If one goes solo while the other shares, the solo firm gets 14 and the sharer gets 2.
+
+If both go solo, each gets 6.
+
+
+
+
+
+
+8. Kitchen Chore Agreement
+
+Two roommates must decide whether to clean the kitchen or skip.
+
+If both clean, each gets 8.
+
+If one skips while the other cleans, the skipper gets 12 and the cleaner gets 0.
+
+If both skip, each gets 2.
+
+
+
+
+
+
+9. Disarmament Pact
+
+Two rival states must decide whether to disarm or build weapons.
+
+If both disarm, each gains 6.
+
+If one builds while the other disarms, the builder gains 10 and the disarmer gets -2.
+
+If both build, each gains 2.
+
+
+
+
+
+
+10. Fishery Quota Choice
+
+Two fishing crews must decide whether to limit their catch or overfish.
+
+If both limit their catch, each earns 15.
+
+If one overfishes while the other limits, the overfisher earns 20 and the limiter earns 5.
+
+If both overfish, each earns 8.

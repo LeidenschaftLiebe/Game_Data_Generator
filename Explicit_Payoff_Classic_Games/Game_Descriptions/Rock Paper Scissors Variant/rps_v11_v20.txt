@@ -1,0 +1,135 @@
+11. Battle of Elements
+
+Two players simultaneously choose ice, flame, or tree.
+
+If one plays ice and the other plays tree, the ice player gains +5, while the tree player receives –5.
+If one plays tree and the other plays flame, the tree player secures +5, while the flame player is penalized –5.
+If one plays flame and the other plays ice, the flame player earns +5, while the ice player suffers –5.
+If both choose the same element, both receive 0.
+
+
+
+
+
+
+12. Pirate’s Contest
+
+Two players signal sword, pistol, or cannon.
+
+If one plays sword and the other plays pistol, the sword player achieves +6, while the pistol player receives –6.
+If one plays pistol and the other plays cannon, the pistol player takes +6, while the cannon player is set back –6.
+If one plays cannon and the other plays sword, the cannon player gains +6, while the sword player suffers –6.
+If both choose the same weapon, both receive 0.
+
+
+
+
+
+
+13. Farmyard Fight
+
+Two players choose rooster, fox, or grain.
+
+If one plays rooster and the other plays fox, the rooster player earns +7, while the fox player receives –7.
+If one plays fox and the other plays grain, the fox player secures +7, while the grain player is penalized –7.
+If one plays grain and the other plays rooster, the grain player gains +7, while the rooster player suffers –7.
+If both choose the same option, both receive 0.
+
+
+
+
+
+
+14. Urban Standoff
+
+Two players pick knife, chain, or brick.
+
+If one plays knife and the other plays chain, the knife player takes +4, while the chain player receives –4.
+If one plays chain and the other plays brick, the chain player earns +4, while the brick player is set back –4.
+If one plays brick and the other plays knife, the brick player secures +4, while the knife player suffers –4.
+If both choose the same object, both receive 0.
+
+
+
+
+
+
+15. Tribal Hunt
+
+Two hunters select spear, net, or bird.
+
+If one uses spear and the other bird, the spear hunter secures +8, while the bird hunter receives –8.
+If one uses bird and the other net, the bird hunter takes +8, while the net hunter is penalized –8.
+If one uses net and the other spear, the net hunter earns +8, while the spear hunter suffers –8.
+If both choose the same tool, both receive 0.
+
+
+
+
+
+
+16. Cyber Clash
+
+Two hackers deploy virus, firewall, or breach.
+
+If one plays virus and the other breach, the virus hacker achieves +10, while the breach hacker receives –10.
+If one plays breach and the other firewall, the breach hacker gains +10, while the firewall hacker is penalized –10.
+If one plays firewall and the other virus, the firewall hacker takes +10, while the virus hacker suffers –10.
+If both choose the same tool, both receive 0.
+
+
+
+
+
+
+17. Wild West
+
+Two players choose lasso, horse, or cactus.
+
+If one plays lasso and the other horse, the lasso player earns +9, while the horse player receives –9.
+If one plays horse and the other cactus, the horse player secures +9, while the cactus player is set back –9.
+If one plays cactus and the other lasso, the cactus player gains +9, while the lasso player suffers –9.
+If both choose the same option, both receive 0.
+
+
+
+
+
+
+18. Samurai Clash
+
+Two warriors strike with katana, bow, or armor.
+
+If one uses katana and the other bow, the katana fighter takes +12, while the bow fighter receives –12.
+If one uses bow and the other armor, the bow fighter achieves +12, while the armor fighter is penalized –12.
+If one uses armor and the other katana, the armor fighter earns +12, while the katana fighter suffers –12.
+If both choose the same stance, both receive 0.
+
+
+
+
+
+
+19. Futuristic Arena
+
+Two pilots command drone, mech, or turret.
+
+If one plays drone and the other turret, the drone pilot secures +15, while the turret pilot receives –15.
+If one plays turret and the other mech, the turret pilot gains +15, while the mech pilot is set back –15.
+If one plays mech and the other drone, the mech pilot takes +15, while the drone pilot suffers –15.
+If both choose the same machine, both receive 0.
+
+
+
+
+
+
+20. Ocean Battle
+
+Two players deploy shark, squid, or diver.
+
+If one plays shark and the other squid, the shark player earns +11, while the squid player receives –11.
+If one plays squid and the other diver, the squid player achieves +11, while the diver player is penalized –11.
+If one plays diver and the other shark, the diver player gains +11, while the shark player suffers –11.
+If both choose the same option, both receive 0.
+

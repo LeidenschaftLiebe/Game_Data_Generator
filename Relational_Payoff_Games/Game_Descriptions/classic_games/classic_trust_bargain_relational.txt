@@ -1,0 +1,54 @@
+1. Ultimatum Game – “The Found Treasure”
+
+Two treasure hunters discover a chest of gold coins. 
+One of them takes the lead and decides how to split the coins between them. 
+The other hunter can either accept the deal or refuse it. 
+If the deal is refused, neither of them keeps any coins.
+
+
+
+
+
+
+2. Dictator Game – “The Bakery Owner”
+
+A baker closes shop with a basket of leftover bread. 
+A hungry traveler asks for some. 
+The baker alone decides how many loaves to share and how many to keep. 
+The traveler has no say — they must take whatever is given.
+
+
+
+
+
+
+3. Trust (Investment) Game – “The Seed Exchange”
+
+A farmer receives a handful of seeds and may choose to give some to a neighbor for planting. 
+Whatever is given multiplies in the neighbor’s fields, yielding far more crops. 
+The neighbor then decides how many of the harvested crops to share back with the farmer, keeping the rest for themselves.
+
+
+
+
+
+
+4. Centipede Game – “The Growing Pot”
+
+Two gamblers sit at a table with a small pile of coins. 
+On each turn, the player can either grab the pile immediately or push it forward, letting it grow as more coins are added. 
+The longer they pass it back and forth, the larger the pot becomes — but at any moment, 
+one can seize it, leaving the other with less.
+
+
+
+
+
+
+5. Rubinstein Alternating-Offers – “The Orchard Bargain”
+
+Two villagers inherit an orchard full of ripe fruit. 
+They must agree on how to divide the harvest. 
+One makes an offer, and the other may accept or counter with their own split. 
+With each day they delay, fruit spoils, and the total harvest shrinks. 
+The longer they bargain, the less there is to divide.

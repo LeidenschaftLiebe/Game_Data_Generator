@@ -1,0 +1,124 @@
+11. The Sailors’ Passage
+
+Two sailors race toward a narrow strait. Each must decide whether to yield or hold course.
+
+If one yields while the other holds course, the one holding gains a prize, while the one yielding suffers a penalty.
+If both yield, neither gains the upper hand, but each earns a smaller prize for avoiding collision.
+If both hold course, they collide and each suffer the greatest ruin.
+
+
+
+
+
+
+12. The Knights’ Joust
+
+Two knights charge at each other in a joust. Each must decide whether to lower the lance or pull aside.
+
+If one pulls aside while the other lowers the lance, the lancer gains an advantage, while the one pulling aside suffers a setback.
+If both pull aside, neither gains the upper hand, but each secures a smaller advantage for restraint.
+If both lower the lance, they strike hard and each suffer the highest defeat.
+
+
+
+
+
+
+13. The Hunters’ Stand
+
+Two hunters aim at the same charging beast. Each must decide whether to stand firm or dodge aside.
+
+If one dodges while the other stands firm, the firm hunter gains a reward, while the dodger takes a penalty.
+If both dodge, neither gains the upper hand, but each earns a smaller reward for survival.
+If both stand firm, the beast tramples them and each suffer the greatest tragedy.
+
+
+
+
+
+
+14. The Rebels’ Revolt
+
+Two rebels face the city gates. Each must decide whether to advance or fall back.
+
+If one falls back while the other advances, the advancing rebel secures a gain, while the retreating one suffers a penalty.
+If both fall back, neither gains the upper hand, but each secures a smaller gain for safety.
+If both advance, the guards cut them down and each suffer the most severe downfall.
+
+
+
+
+
+
+15. The Skaters’ Dare
+
+Two skaters race toward each other on a frozen lake. Each must decide whether to swerve or stay straight.
+
+If one swerves while the other stays straight, the straight skater gains a prize, while the one swerving suffers a setback.
+If both swerve, neither gains the upper hand, but each earns a smaller prize for avoiding collision.
+If both stay straight, they crash and each suffer the greatest disaster.
+
+
+
+
+
+
+16. The Warriors’ Duel
+
+Two warriors face each other with swords drawn. Each must decide whether to strike or hold back.
+
+If one holds back while the other strikes, the striker secures an advantage, while the one holding back suffers a penalty.
+If both hold back, neither gains the upper hand, but each gains a smaller advantage for caution.
+If both strike, they wound each other and each suffer the highest catastrophe.
+
+
+
+
+
+
+17. The Cyclists’ Race
+
+Two cyclists sprint toward a narrow finish lane. Each must decide whether to yield or force through.
+
+If one yields while the other forces through, the one forcing secures a reward, while the yielder suffers a penalty.
+If both yield, neither gains the upper hand, but each earns a smaller reward for safety.
+If both force through, they crash and each suffer the greatest collapse.
+
+
+
+
+
+
+18. The Rivals’ Bargain
+
+Two merchants haggle fiercely over a rare gem. Each must decide whether to concede or stand firm.
+
+If one concedes while the other stands firm, the firm merchant gains a prize, while the one conceding suffers a setback.
+If both concede, neither gains the upper hand, but each secures a smaller prize for compromise.
+If both stand firm, the deal collapses and each suffer the highest defeat.
+
+
+
+
+
+
+19. The Soldiers’ Advance
+
+Two soldiers rush a bunker. Each must decide whether to hold back or charge.
+
+If one holds back while the other charges, the charger secures a gain, while the cautious one suffers a penalty.
+If both hold back, neither gains the upper hand, but each earns a smaller gain for safety.
+If both charge, they are cut down and each suffer the greatest destruction.
+
+
+
+
+
+
+20. The Actors’ Spotlight
+
+Two actors compete for the center stage. Each must decide whether to step forward or hold back.
+
+If one holds back while the other steps forward, the one stepping forward secures an advantage, while the one holding back suffers a penalty.
+If both hold back, neither gains the upper hand, but each secures a smaller advantage for restraint.
+If both step forward, they collide awkwardly and each suffer the most severe downfall.

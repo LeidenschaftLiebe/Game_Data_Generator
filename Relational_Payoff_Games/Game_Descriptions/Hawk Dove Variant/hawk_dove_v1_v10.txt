@@ -1,0 +1,124 @@
+1. The Duel at Dawn
+
+Two gunslingers face off in a duel. Each must decide whether to shoot or hold fire.
+
+If one holds fire while the other shoots, the shooter gains an advantage, while the one who held back suffers a penalty.
+If both hold fire, neither gains the upper hand, but each earns a smaller advantage for walking away unharmed.
+If both shoot, they are both struck and each suffer the greatest punishment.
+
+
+
+
+
+
+2. The Gladiators’ Standoff
+
+Two gladiators confront each other in the arena. Each must decide whether to charge or hold position.
+
+If one holds position while the other charges, the one holding claims a prize, while the charger suffers a setback.
+If both hold, neither gains the upper hand, but each secures a smaller prize for restraint.
+If both charge, they collide and each suffer the highest downfall.
+
+
+
+
+
+
+3. The Pilots’ Contest
+
+Two fighter pilots dive head-on. Each must decide whether to dodge or stay course.
+
+If one dodges while the other stays course, the one staying gains a victory, while the dodger takes a penalty.
+If both dodge, neither gains the upper hand, but each earns a smaller victory for survival.
+If both stay course, they crash and each suffer the greatest disaster.
+
+
+
+
+
+
+4. The Rival Generals
+
+Two generals march toward a narrow pass. Each must decide whether to yield or hold ground.
+
+If one yields while the other holds, the one holding gains an advantage, while the yielder suffers a loss.
+If both yield, neither gains the upper hand, but each earns a smaller advantage for avoiding bloodshed.
+If both hold, their armies clash and each suffer the highest punishment.
+
+
+
+
+
+
+5. The Wrestlers’ Faceoff
+
+Two wrestlers circle in the ring. Each must decide whether to attack or step back.
+
+If one steps back while the other attacks, the attacker claims a gain, while the one stepping back suffers a penalty.
+If both step back, neither gains the upper hand, but each secures a smaller gain for caution.
+If both attack, they collide and each suffer the greatest punishment.
+
+
+
+
+
+
+6. The Politicians’ Debate
+
+Two politicians face off on stage. Each must decide whether to stand firm or concede a point.
+
+If one concedes while the other stands firm, the firm politician secures an advantage, while the one conceding suffers a setback.
+If both concede, neither gains the upper hand, but each earns a smaller advantage for appearing cooperative.
+If both stand firm, the clash escalates and they each suffer the highest downfall.
+
+
+
+
+
+
+7. The Brothers’ Inheritance
+
+Two brothers dispute their inheritance. Each must decide whether to press their claim or back down.
+
+If one backs down while the other presses, the one pressing gains a prize, while the one backing down suffers a loss.
+If both back down, neither gains the upper hand, but each earns a smaller prize for compromise.
+If both press, the conflict drags on and they each suffer the greatest punishment.
+
+
+
+
+
+
+8. The Drivers’ Intersection
+
+Two drivers approach a one-lane bridge at speed. Each must decide whether to brake or accelerate.
+
+If one brakes while the other accelerates, the one accelerating secures a gain, while the braker suffers a penalty.
+If both brake, neither gains the upper hand, but each earns a smaller gain for avoiding collision.
+If both accelerate, they crash and each suffer the highest loss.
+
+
+
+
+
+
+9. The Stags’ Clash
+
+Two stags face off in the forest. Each must decide whether to charge or withdraw.
+
+If one withdraws while the other charges, the charger secures an advantage, while the one withdrawing suffers a penalty.
+If both withdraw, neither gains the upper hand, but each earns a smaller advantage for avoiding injury.
+If both charge, they clash and each suffer the greatest downfall.
+
+
+
+
+
+
+10. The Boxers’ Gamble
+
+Two boxers meet in the ring. Each must decide whether to strike first or hold back.
+
+If one holds back while the other strikes, the striker gains a reward, while the one holding back suffers a setback.
+If both hold back, neither gains the upper hand, but each earns a smaller reward for patience.
+If both strike, they exchange blows and each suffer the highest punishment.

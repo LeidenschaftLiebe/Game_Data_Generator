@@ -1,0 +1,144 @@
+1. The Date Night
+
+Two friends must decide between a romantic dinner or a rock concert.
+
+If both go to dinner, the dinner lover gains 6, while the concert fan gains 3.
+
+If both go to the concert, the concert fan gains 6, while the dinner lover gains 3.
+
+If they split and attend separately, both receive 0.
+
+
+
+
+
+
+2. The Weekend Plan
+
+A couple chooses between a museum visit or a soccer match.
+
+If both choose the museum, the museum enthusiast gains 8, while the soccer fan gains 4.
+
+If both choose the match, the soccer fan gains 8, while the museum lover gains 4.
+
+If they go separately, both get 0.
+
+
+
+
+
+
+3. The Vacation Decision
+
+Two partners must decide between a beach resort or mountain hiking.
+
+If both go to the beach, the beach lover gains 10, while the mountain fan gains 5.
+
+If both go hiking, the mountain fan gains 10, while the beach lover gains 5.
+
+If they split, each gets 0.
+
+
+
+
+
+
+4. The Game Night
+
+Two roommates must decide between playing board games or playing video games.
+
+If both play board games, the board-game fan gains 12, while the video-game fan gains 6.
+
+If both play video games, the video-game fan gains 12, while the board-game fan gains 6.
+
+If they choose differently, both get 0.
+
+
+
+
+
+
+5. The Restaurant Choice
+
+Two friends decide between sushi or barbecue.
+
+If both eat sushi, the sushi lover gains 7, while the barbecue fan gains 3.
+
+If both eat barbecue, the barbecue fan gains 7, while the sushi lover gains 3.
+
+If they split restaurants, both get 0.
+
+
+
+
+
+
+6. The Movie Outing
+
+Two partners choose between a romantic drama or an action blockbuster.
+
+If both watch the drama, the drama fan gains 9, while the action fan gains 4.
+
+If both watch the action film, the action fan gains 9, while the drama fan gains 4.
+
+If they go to separate theaters, both receive 0.
+
+
+
+
+
+
+7. The Festival Dilemma
+
+Two friends choose between a jazz festival or a rock festival.
+
+If both go to the jazz festival, the jazz lover gains 15, while the rock fan gains 8.
+
+If both go to the rock festival, the rock fan gains 15, while the jazz lover gains 8.
+
+If they split festivals, both get 0.
+
+
+
+
+
+
+8. The Holiday Dinner
+
+Two family members decide between grandma’s house or aunt’s house.
+
+If both go to grandma’s, the grandma’s-house fan gains 6, while the other gains 2.
+
+If both go to aunt’s, the aunt’s-house fan gains 6, while the other gains 2.
+
+If they go to different dinners, both receive 0.
+
+
+
+
+
+
+9. The Work Break
+
+Two colleagues must pick between a coffee shop or a juice bar.
+
+If both go for coffee, the coffee fan gains 5, while the juice lover gains 2.
+
+If both go for juice, the juice lover gains 5, while the coffee fan gains 2.
+
+If they go separately, both get 0.
+
+
+
+
+
+
+10. The Sports Outing
+
+Two siblings choose between watching basketball or baseball.
+
+If both go to basketball, the basketball fan gains 8, while the baseball fan gains 4.
+
+If both go to baseball, the baseball fan gains 8, while the basketball fan gains 4.
+
+If they split games, both receive 0.

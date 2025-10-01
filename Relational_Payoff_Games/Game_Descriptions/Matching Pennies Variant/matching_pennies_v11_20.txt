@@ -1,0 +1,124 @@
+11. The Lantern Signal
+
+Two scouts secretly choose to signal left or right with their lanterns.
+
+If both signal the same side, the first scout claims victory.
+If they signal differently, the second scout claims victory.
+One’s victory always mirrors the other’s defeat.
+
+
+
+
+
+
+12. The Dice Call
+
+Two gamblers each secretly call even or odd.
+
+If both call the same, the first gambler takes the round.
+If they call differently, the second gambler takes the round.
+Every gain for one means a loss for the other.
+
+
+
+
+
+
+13. The Secret Note
+
+Two classmates pass secret notes marked circle or square.
+
+If both marks match, the first classmate secures the point.
+If they differ, the second classmate secures the point.
+Any advantage for one side comes directly at the other’s cost.
+
+
+
+
+
+
+14. The Hidden Switch
+
+Two mechanics flip a hidden switch to up or down.
+
+If both flip the same way, the first mechanic earns success.
+If they flip differently, the second mechanic earns success.
+The triumph of one is matched by the setback of the other.
+
+
+
+
+
+
+15. The Treasure Map
+
+Two explorers secretly choose route A or route B.
+
+If both pick the same route, the first explorer captures the reward.
+If they pick different routes, the second explorer captures the reward.
+What reward one secures, the other must surrender.
+
+
+
+
+
+
+16. The Torch Game
+
+Two villagers secretly raise their torch to the east or the west.
+
+If both raise to the same direction, the first villager takes the round.
+If they raise differently, the second villager takes the round.
+Every gain for one means a loss for the other.
+
+
+
+
+
+
+17. The Archer’s Signal
+
+Two archers secretly choose to signal high or low with their bows.
+
+If both signal the same, the first archer claims victory.
+If they signal differently, the second archer claims victory.
+One’s victory always mirrors the other’s defeat.
+
+
+
+
+
+
+18. The Hidden Card
+
+Two magicians place down a hidden card, either spade or heart.
+
+If both choose the same suit, the first magician secures the point.
+If they differ, the second magician secures the point.
+Any advantage for one side comes directly at the other’s cost.
+
+
+
+
+
+
+19. The Signal Flags
+
+Two sailors secretly raise either the white flag or the blue flag.
+
+If both raise the same flag, the first sailor earns success.
+If they raise different flags, the second sailor earns success.
+The triumph of one is matched by the setback of the other.
+
+
+
+
+
+
+20. The Key Choice
+
+Two locksmiths each secretly choose a key, gold or silver.
+
+If both choose the same key, the first locksmith captures the reward.
+If they choose different keys, the second locksmith captures the reward.
+Any achievement one secures, the other must surrender.

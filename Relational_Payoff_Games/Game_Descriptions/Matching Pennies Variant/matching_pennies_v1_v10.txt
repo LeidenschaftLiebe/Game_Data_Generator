@@ -1,0 +1,124 @@
+1. The Coin Toss Contest
+
+Two friends each secretly pick heads or tails.
+
+If both choose the same side, the first friend claims victory.
+If they choose differently, the second friend claims victory.
+Every gain for one comes with a loss for the other.
+
+
+
+
+
+
+2. The Lock Combination
+
+Two spies each secretly set a dial to left or right.
+
+If both set it the same way, the first spy secures the point.
+If they set it differently, the second spy secures the point.
+One’s success always mirrors the other’s failure.
+
+
+
+
+
+
+3. The Card Flip
+
+Two gamblers each secretly pick red or black before the cards are revealed.
+
+If both pick the same color, the first gambler earns the win.
+If they pick differently, the second gambler earns the win.
+What one gains, the other must give up.
+
+
+
+
+
+
+4. The Secret Door
+
+Two adventurers each secretly choose door A or door B.
+
+If both choose the same door, the first adventurer captures the prize.
+If they choose differently, the second adventurer captures the prize.
+The fortune of one becomes the misfortune of the other.
+
+
+
+
+
+
+5. The Direction Guess
+
+Two children play a game by secretly pointing left or right.
+
+If both point the same way, the first child takes the round.
+If they point differently, the second child takes the round.
+Every success for one side means the other is set back.
+
+
+
+
+
+
+6. The Code Break
+
+Two hackers each secretly choose 0 or 1 for their guess.
+
+If both choose the same bit, the first hacker gains the reward.
+If they choose different bits, the second hacker gains the reward.
+Each victory is balanced by the other’s loss.
+
+
+
+
+
+
+7. The Shadow Step
+
+Two ninjas each secretly move to the left shadow or the right shadow.
+
+If both move to the same shadow, the first ninja earns success.
+If they move to different shadows, the second ninja earns success.
+The advantage of one always costs the other.
+
+
+
+
+
+
+8. The Flag Choice
+
+Two soldiers secretly raise either the red flag or the blue flag.
+
+If both raise the same flag, the first soldier takes the advantage.
+If they raise different flags, the second soldier takes the advantage.
+The triumph of one is matched by the setback of the other.
+
+
+
+
+
+
+9. The Path Crossing
+
+Two travelers each secretly choose the north path or the south path.
+
+If both choose the same path, the first traveler claims victory.
+If they choose different paths, the second traveler claims victory.
+Every outcome for one side directly reverses for the other.
+
+
+
+
+
+
+10. The Switch Game
+
+Two engineers secretly flip a switch to on or off.
+
+If both flip to the same state, the first engineer captures the win.
+If they flip to different states, the second engineer captures the win.
+Any step forward for one becomes a step back for the other.

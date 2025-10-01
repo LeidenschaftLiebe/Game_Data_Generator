@@ -1,0 +1,144 @@
+1. The Fishermen’s Choice
+
+Two fishermen set out to sea. They can either team up to catch a whale or fish alone for tuna.
+
+If both go for the whale, each receives a high catch.
+
+If one goes for the whale while the other fishes tuna, the tuna fisher earns a small haul, while the whale hunter comes back with nothing.
+
+If both fish for tuna, each secures a moderate catch.
+
+
+
+
+
+
+2. The Soldiers’ Strategy
+
+Two soldiers are on patrol. They can either coordinate to ambush a tank or individually target small patrols.
+
+If both ambush the tank, each earns a major victory.
+
+If one attempts the tank while the other attacks patrols, the patrol hunter gains a small success, while the tank ambusher ends with nothing.
+
+If both attack patrols, each gains a moderate success.
+
+
+
+
+
+
+3. The Farmers’ Harvest
+
+Two farmers are deciding how to use their land. They can either cooperate to grow rice or plant small gardens separately.
+
+If both grow rice, each secures a large yield.
+
+If one grows rice while the other plants a garden, the gardener gathers a small harvest, while the rice planter gains nothing.
+
+If both plant gardens, each receives a moderate yield.
+
+
+
+
+
+
+4. The Climbers’ Summit
+
+Two climbers prepare for an expedition. They can either team up for the mountain’s peak or climb smaller ridges alone.
+
+If both aim for the peak, each achieves a great success.
+
+If one aims for the peak while the other climbs ridges, the ridge climber gains a small success, while the peak climber returns with nothing.
+
+If both climb ridges, each secures a moderate success.
+
+
+
+
+
+
+5. The Knights’ Quest
+
+Two knights are sent on a quest. They can either join forces to slay a dragon or fight bandits separately.
+
+If both fight the dragon, each wins a great prize.
+
+If one fights the dragon while the other hunts bandits, the bandit hunter gains a small prize, while the dragon fighter comes back with nothing.
+
+If both hunt bandits, each gains a moderate prize.
+
+
+
+
+
+
+6. The Traders’ Voyage
+
+Two traders prepare to set sail. They can either combine ships to reach distant lands or sail alone to nearby ports.
+
+If both sail to distant lands, each earns a large profit.
+
+If one sails far while the other stays near, the nearby trader secures a small profit, while the distant one returns with nothing.
+
+If both stay near, each receives a moderate profit.
+
+
+
+
+
+
+7. The Wolves’ Hunt
+
+Two wolves stalk prey in the forest. They can either work together to bring down an elk or hunt rabbits separately.
+
+If both go for the elk, each enjoys a large meal.
+
+If one goes for the elk while the other hunts rabbits, the rabbit hunter gets a small meal, while the elk hunter is left with nothing.
+
+If both hunt rabbits, each gets a moderate meal.
+
+
+
+
+
+
+8. The Scientists’ Discovery
+
+Two scientists are chasing breakthroughs. They can either collaborate on a major project or pursue minor studies alone.
+
+If both work on the project, each makes a major discovery.
+
+If one works on the project while the other does minor studies, the independent researcher gains a small finding, while the collaborator earns nothing.
+
+If both do minor studies, each secures a moderate finding.
+
+
+
+
+
+
+9. The Diplomats’ Agreement
+
+Two diplomats are negotiating. They can either work together on a peace treaty or pursue small deals alone.
+
+If both negotiate the treaty, each gains a major benefit.
+
+If one negotiates the treaty while the other makes side deals, the side dealer gains a small benefit, while the treaty negotiator achieves nothing.
+
+If both make side deals, each secures a moderate benefit.
+
+
+
+
+
+
+10. The Gamblers’ Bet
+
+Two gamblers decide how to play their money. They can either pool funds for a big jackpot or play small games alone.
+
+If both go for the jackpot, each earns a large win.
+
+If one goes for the jackpot while the other plays small games, the small-game player gains a small win, while the jackpot player comes back with nothing.
+
+If both play small games, each secures a moderate win.

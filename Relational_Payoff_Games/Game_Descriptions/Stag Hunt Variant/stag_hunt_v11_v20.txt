@@ -1,0 +1,144 @@
+11. The Explorers’ Expedition
+
+Two explorers set out into uncharted lands. They can either cooperate to reach the hidden city or search for small villages alone.
+
+If both seek the hidden city, each gains a great treasure.
+
+If one goes for the city while the other searches villages, the village explorer gains a small bounty, while the city explorer returns with nothing.
+
+If both explore villages, each secures a moderate treasure.
+
+
+
+
+
+
+12. The Musicians’ Performance
+
+Two musicians are invited to play. They can either perform together in a grand concert or play solo at small venues.
+
+If both perform the concert, each enjoys a major success.
+
+If one performs solo while the other attempts the concert, the soloist gets a small success, while the concert attempt brings nothing.
+
+If both play solo, each earns a moderate success.
+
+
+
+
+
+
+13. The Astronauts’ Mission
+
+Two astronauts must decide their task in orbit. They can either cooperate to repair the main reactor or fix smaller modules separately.
+
+If both repair the reactor, each secures a major achievement.
+
+If one repairs the reactor while the other fixes modules, the module worker gains a small outcome, while the reactor worker gains nothing.
+
+If both fix modules, each gains a moderate outcome.
+
+
+
+
+
+
+14. The Rebels’ Plot
+
+Two rebels are planning against a tyrant. They can either join forces to strike the palace or cause small disturbances separately.
+
+If both strike the palace, each earns a major advantage.
+
+If one strikes the palace while the other stirs trouble, the agitator secures a small advantage, while the palace attacker is left with nothing.
+
+If both stir trouble, each receives a moderate advantage.
+
+
+
+
+
+
+15. The Treasure Hunters’ Quest
+
+Two treasure hunters enter a cave. They can either combine efforts to open the main vault or search side rooms separately.
+
+If both open the vault, each claims a great prize.
+
+If one opens the vault while the other searches side rooms, the side searcher finds a small prize, while the vault hunter ends with nothing.
+
+If both search side rooms, each secures a moderate prize.
+
+
+
+
+
+
+16. The Inventors’ Project
+
+Two inventors receive funding. They can either collaborate on a groundbreaking invention or work on small gadgets alone.
+
+If both create the invention, each gains a big return.
+
+If one works on the invention while the other makes gadgets, the gadget maker gets a small return, while the inventor gains nothing.
+
+If both make gadgets, each earns a moderate return.
+
+
+
+
+
+
+17. The Sailors’ Voyage
+
+Two sailors prepare for their journey. They can either sail together toward distant islands or fish the coastline separately.
+
+If both sail far, each secures a rich bounty.
+
+If one sails far while the other fishes near, the coastal fisher takes a small bounty, while the distant sailor gains nothing.
+
+If both fish near, each secures a moderate bounty.
+
+
+
+
+
+
+18. The Hunters’ Trial
+
+Two hunters enter the savanna. They can either team up to bring down a buffalo or hunt antelope alone.
+
+If both hunt the buffalo, each enjoys a big catch.
+
+If one hunts buffalo while the other chases antelope, the antelope hunter gains a small catch, while the buffalo hunter returns with nothing.
+
+If both chase antelope, each secures a moderate catch.
+
+
+
+
+
+
+19. The Diplomats’ Gamble
+
+Two diplomats attend peace talks. They can either negotiate a grand treaty together or secure small bilateral deals separately.
+
+If both sign the treaty, each secures a major benefit.
+
+If one signs while the other makes small deals, the dealmaker gains a small benefit, while the treaty negotiator gets nothing.
+
+If both make small deals, each receives a moderate benefit.
+
+
+
+
+
+
+20. The Engineers’ Build
+
+Two engineers are tasked with construction. They can either work together to build a bridge or make small repairs separately.
+
+If both build the bridge, each gains a great outcome.
+
+If one builds the bridge while the other makes repairs, the repairer earns a small outcome, while the bridge builder gains nothing.
+
+If both make repairs, each secures a moderate outcome.

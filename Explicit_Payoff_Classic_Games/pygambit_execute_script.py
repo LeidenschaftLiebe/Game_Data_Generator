@@ -7,7 +7,7 @@ import importlib.util
 
 # Directories that contain pygambit builder scripts
 source_dirs = [
-    os.path.join(os.path.dirname(__file__), "pygambit_src/classic_2player_variant"),
+    os.path.join(os.path.dirname(__file__), "pygambit_src/classic_2player_variant/Prisoner_Dilemma"),
     #os.path.join(os.path.dirname(__file__), "pygambit_src2"),
     # add more directories here if needed
 ]

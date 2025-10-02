@@ -1,10 +1,10 @@
 EFG 2 R "2x2 Prisoner's Dilemma Variant" { "Player1" "Player2" }
 ""
 
-p "" 1 1 "" { "Cooperate" "Betray" } 0
-p "" 2 1 "" { "Cooperate" "Betray" } 0
+p "" 1 1 "" { "Limit" "Overfish" } 0
+p "" 2 1 "" { "Limit" "Overfish" } 0
 t "" 1 "Outcome_00" { 15, 15 }
 t "" 2 "Outcome_01" { 5, 20 }
-p "" 2 2 "" { "Cooperate" "Betray" } 0
+p "" 2 2 "" { "Limit" "Overfish" } 0
 t "" 3 "Outcome_10" { 20, 5 }
 t "" 4 "Outcome_11" { 8, 8 }

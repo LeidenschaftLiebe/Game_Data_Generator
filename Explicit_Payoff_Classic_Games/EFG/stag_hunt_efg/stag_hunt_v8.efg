@@ -1,0 +1,10 @@
+EFG 2 R "2x2 Stag Hunt Variant" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "Stag" "Hare" } 0
+p "" 2 1 "" { "Stag" "Hare" } 0
+t "" 1 "Outcome_00" { 25, 25 }
+t "" 2 "Outcome_01" { 0, 12 }
+p "" 2 2 "" { "Stag" "Hare" } 0
+t "" 3 "Outcome_10" { 12, 0 }
+t "" 4 "Outcome_11" { 12, 12 }

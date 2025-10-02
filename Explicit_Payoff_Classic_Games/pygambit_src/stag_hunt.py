@@ -47,7 +47,7 @@ def _u_pair(i, j):
     return [int(u1), int(u2)]
 
 # Build the game tree (sequential, perfect information)
-title = f"2x2 Stag Hunt (a={a}, b={b}, d={d}, c={c})"
+title = f"2x2 Stag Hunt Variant"
 g = gbt.Game.new_tree(players=players, title=title)
 
 # Player 1 acts at the root

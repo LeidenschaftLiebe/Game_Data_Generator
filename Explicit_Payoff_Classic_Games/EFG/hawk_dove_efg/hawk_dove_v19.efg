@@ -1,10 +1,10 @@
 EFG 2 R "2x2 Hawk-Dove Variant" { "Player1" "Player2" }
 ""
 
-p "" 1 1 "" { "Hawk" "Dove" } 0
-p "" 2 1 "" { "Hawk" "Dove" } 0
+p "" 1 1 "" { "Stand Firm" "Step Back" } 0
+p "" 2 1 "" { "Stand Firm" "Step Back" } 0
 t "" 1 "Outcome_00" { -20, -20 }
 t "" 2 "Outcome_01" { 6, 1 }
-p "" 2 2 "" { "Hawk" "Dove" } 0
+p "" 2 2 "" { "Stand Firm" "Step Back" } 0
 t "" 3 "Outcome_10" { 1, 6 }
 t "" 4 "Outcome_11" { 2, 2 }

@@ -17,7 +17,7 @@ If both draw, shots are fired and each suffers –25.
 
 Two CEOs must decide whether to cut prices or hold steady.
 
-If one cuts while the other holds, the cutter gains 7, while the steady CEO gets 1.
+If one cuts while the other holds, the cutter gains 1, while the steady CEO gets 7.
 
 If both cut, each gains 3.
 

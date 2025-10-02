@@ -54,11 +54,11 @@ def _should_run(filename):
 
 def main():
     for src in source_dirs:
-        subfolder_name = os.path.basename(src.rstrip(os.sep))
-        dest = os.path.join(dest_root, subfolder_name + "_efg")
-        os.makedirs(dest, exist_ok=True)
+        # subfolder_name = os.path.basename(src.rstrip(os.sep))
+        # dest = os.path.join(dest_root, subfolder_name + "_efg")
+        # os.makedirs(dest, exist_ok=True)
 
-        print(f"\n🔄 Processing from {src} → {dest}")
+        print(f"\n🔄 Processing from {src} → {dest_root}")
 
         for filename in os.listdir(src):
             if not filename.endswith(".py"):
@@ -72,7 +72,7 @@ def main():
             base_name = os.path.splitext(filename)[0]
 
             # Create a subdir for this script’s runs so v1..vN live together
-            script_dest = os.path.join(dest, base_name)
+            script_dest = os.path.join(dest_root, f"{base_name}_efg")
             os.makedirs(script_dest, exist_ok=True)
 
             for version in range(1, max(1, int(N_VERSIONS)) + 1):

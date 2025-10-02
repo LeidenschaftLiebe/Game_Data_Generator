@@ -47,7 +47,7 @@ def _u_pair(i, j):
     return [int(u1), int(u2)]
 
 # Build the game tree (sequential, perfect information)
-title = f"2x2 Prisoner's Dilemma (T={T}, R={R}, P={P}, S={S})"
+title = f"2x2 Prisoner's Dilemma Variant"
 g = gbt.Game.new_tree(players=players, title=title)
 
 # Player 1 move at root

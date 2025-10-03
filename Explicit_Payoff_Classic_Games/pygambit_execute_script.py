@@ -19,7 +19,7 @@ N_VERSIONS = 20
 # Choose which builders to run (match against base name or filename).
 # Examples:
 # SELECT_BUILDERS = ["pd_builder", "builder_*", "*rps*"]
-SELECT_BUILDERS = ["matching_pennies"]
+SELECT_BUILDERS = ["rps"]
 
 # Builders to skip (applied after SELECT_BUILDERS).
 # Examples:

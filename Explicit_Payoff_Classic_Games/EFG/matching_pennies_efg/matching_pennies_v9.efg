@@ -1,0 +1,10 @@
+EFG 2 R "2x2 Matching Pennies Variant" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "wolf" "bear" } 0
+p "" 2 1 "" { "wolf" "bear" } 0
+t "" 1 "Outcome_00" { 12, -12 }
+t "" 2 "Outcome_01" { -12, 12 }
+p "" 2 2 "" { "wolf" "bear" } 0
+t "" 3 "Outcome_10" { -12, 12 }
+t "" 4 "Outcome_11" { 12, -12 }

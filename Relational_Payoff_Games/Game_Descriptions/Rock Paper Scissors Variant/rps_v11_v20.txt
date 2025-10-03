@@ -60,11 +60,11 @@ The glory of one warrior comes at the expense of the other.
 
 15. The Market Trade
 
-Two merchants offer gold, silk, or spice.
+Two merchants offer gold, silk, or diamond.
 
-Gold buys silk, but is traded away for spice.
-Silk outvalues spice, but is bought with gold.
-Spice is prized over gold, but is outvalued by silk.
+Gold buys silk, but is traded away for diamond.
+Silk outvalues diamond, but is bought with gold.
+Diamond is prized over gold, but is outvalued by silk.
 If both bring the same goods, the trade is neutral.
 One merchant's profit is the other's loss.
 

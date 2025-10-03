@@ -1,0 +1,92 @@
+1. Cournot Duopoly
+
+Two firms simultaneously choose how many units to produce of a homogeneous product. The market price falls when total supply is high.
+
+Suppose each firm must choose between producing low (q = 10) or high (q = 20) units. The market price is determined so that:
+
+If both produce low, each firm’s profit is $60.
+
+If one produces high and the other low, the high producer’s profit is $80 while the low producer’s is $40.
+
+If both produce high, price drops and each firm’s profit is $50.
+
+
+
+
+
+
+2. Bertrand (Homogeneous Goods)
+
+Two firms simultaneously set the price of an identical good. Consumers buy from the cheaper firm; if prices tie, they split the market.
+
+Imagine marginal cost is $10 for both. They can set price $15 or $12. The demand size such that:
+
+If both charge $15, they split demand and each earns $50.
+
+If one charges $12 while the other charges $15, the $12 firm captures the entire market and earns $90; the $15 firm sells nothing and earns $0.
+
+If both charge $12, they again split the market and each earns $45.
+
+
+
+
+
+
+3. Stackelberg Duopoly
+
+One firm (the leader) commits to a quantity first, then the follower chooses.
+
+Suppose the leader chooses between low (10 units) or high (20 units). 
+Then the follower, knowing the leader’s choice, picks low or high. Using the same demand and cost structure as above:
+
+If the leader picks low and follower picks low, leader gets $60, follower $60.
+
+If leader picks low and follower picks high, follower gets $80, leader gets $40.
+
+If leader picks high and follower picks low, leader gets $80, follower gets $40.
+
+If both pick high, they each get $50.
+
+
+
+
+
+
+4. Entry Deterrence (Capacity / Limit Pricing)
+
+An incumbent firm must decide whether to adopt an aggressive (low) price or a modest (high) price. 
+
+Then a potential entrant decides whether to enter.
+
+If the incumbent sets a high price and the entrant stays out, the incumbent earns $100 and the entrant gets $0.
+
+If incumbent sets high but entrant still enters, they compete and each ends up with $40.
+
+If incumbent sets a low price and the entrant stays out, the incumbent earns $70.
+
+If incumbent sets low and entrant enters, intense competition leads to incumbent earning $30, entrant earning $10.
+
+
+
+
+
+
+5. War of Attrition / All-Pay
+
+Two players are fighting over a single prize worth $50. 
+
+Each must secretly decide whether to put in a small effort of $10 or a large effort of $20. 
+
+Everyone pays their effort cost no matter what, and only one player walks away with the prize.
+
+If both put in small effort, they each spend $10. One of them is chosen to receive the prize. 
+
+The winner’s net is $40 (the $50 prize minus the $10 cost), and the loser is left at –$10.
+
+If one puts in small effort while the other puts in large effort, the larger effort guarantees the prize. 
+
+The winner spends $20 but gains the $50 prize, finishing with $30. The smaller effort loses, leaving that player at –$10.
+
+If both put in large effort, they each spend $20. One of them still wins the $50 prize, finishing with $30. 
+
+The loser, having spent $20 without reward, ends at –$20.

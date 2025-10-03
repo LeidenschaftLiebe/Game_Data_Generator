@@ -1,0 +1,69 @@
+1. Ultimatum Game
+
+Two players are dividing a pot of $20. Player 1 decides on the offer: either a 50/50 split or a 70/30 split in their own favour.
+
+If Player 1 proposes 50/50 and Player 2 accepts, both receive $10. If Player 2 rejects, neither receives anything.
+
+If Player 1 proposes 70/30 and Player 2 accepts, Player 1 gets $14 while Player 2 gets $6. If Player 2 rejects, both walk away with $0.
+
+
+
+
+
+
+2. Dictator Game
+
+A pot of $20 is to be divided. Player 1 has full control over how to split it, and Player 2 cannot respond.
+
+Player 1 may keep all $20, give $5 to Player 2 and keep $15, or split evenly at $10 each.
+
+The final allocation depends solely on Player 1’s choice.
+
+
+
+
+
+
+3. Trust (Investment) Game
+
+Player 1 begins with $10. They may either keep it all or send $5 to Player 2. Any amount sent is tripled before reaching Player 2.
+
+If Player 1 keeps everything, the outcome is $10 for Player 1 and $0 for Player 2.
+
+If Player 1 sends $5, Player 2 receives $15. Player 2 then decides how much to return. 
+If they return nothing, Player 1 ends with $5 and Player 2 with $15. 
+If they return $5, both end with $10 each. 
+If they return $8, Player 1 has $13 and Player 2 has $7.
+
+
+
+
+
+
+4. Centipede Game (two-stage version)
+
+The game begins with a growing pot. Player 1 chooses first, either to take or to pass.
+
+If Player 1 takes immediately, they get $3 and Player 2 gets $1.
+
+If Player 1 passes, the pot grows and Player 2 now decides. If Player 2 takes, then Player 1 receives $4 while Player 2 gets $5.
+
+If Player 2 also passes, the game ends with both receiving $6 each.
+
+
+
+
+
+
+5. Rubinstein Alternating-Offers (one-round version)
+
+Two players bargain over a $20 pie. 
+Player 1 makes the first offer: either an even 50/50 division or a 70/30 division in their own favour.
+
+If Player 2 accepts the 50/50 offer, each receives $10. 
+If they accept the 70/30 offer, Player 1 keeps $14 and Player 2 gets $6.
+
+If Player 2 rejects, bargaining is delayed, the pie shrinks to $15, and a default counter-split of 40/60 is imposed. 
+In that case Player 1 receives $6 and Player 2 receives $9.
+
+

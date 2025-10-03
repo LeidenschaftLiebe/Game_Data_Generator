@@ -1,0 +1,16 @@
+EFG 2 R "3x3 Rock Paper Scissors Variant" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "shark" "squid" "diver" } 0
+p "" 2 1 "" { "shark" "squid" "diver" } 0
+t "" 1 "Outcome_00" { 0, 0 }
+t "" 2 "Outcome_01" { -11, 11 }
+t "" 3 "Outcome_02" { 11, -11 }
+p "" 2 2 "" { "shark" "squid" "diver" } 0
+t "" 4 "Outcome_10" { 11, -11 }
+t "" 5 "Outcome_11" { 0, 0 }
+t "" 6 "Outcome_12" { -11, 11 }
+p "" 2 3 "" { "shark" "squid" "diver" } 0
+t "" 7 "Outcome_20" { -11, 11 }
+t "" 8 "Outcome_21" { 11, -11 }
+t "" 9 "Outcome_22" { 0, 0 }

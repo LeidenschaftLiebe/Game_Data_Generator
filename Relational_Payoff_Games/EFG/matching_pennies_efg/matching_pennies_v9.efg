@@ -1,0 +1,10 @@
+EFG 2 R "2x2 Matching Pennies Variant" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "north path" "south path" } 0
+p "" 2 1 "" { "north path" "south path" } 0
+t "" 1 "Outcome_00" { 5, -5 }
+t "" 2 "Outcome_01" { -5, 5 }
+p "" 2 2 "" { "north path" "south path" } 0
+t "" 3 "Outcome_10" { -5, 5 }
+t "" 4 "Outcome_11" { 5, -5 }

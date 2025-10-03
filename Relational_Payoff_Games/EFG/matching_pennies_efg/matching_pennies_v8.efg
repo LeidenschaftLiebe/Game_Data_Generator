@@ -1,0 +1,10 @@
+EFG 2 R "2x2 Matching Pennies Variant" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "red flag" "blue flag" } 0
+p "" 2 1 "" { "red flag" "blue flag" } 0
+t "" 1 "Outcome_00" { 6, -6 }
+t "" 2 "Outcome_01" { -6, 6 }
+p "" 2 2 "" { "red flag" "blue flag" } 0
+t "" 3 "Outcome_10" { -6, 6 }
+t "" 4 "Outcome_11" { 6, -6 }

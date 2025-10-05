@@ -1,0 +1,8 @@
+EFG 2 R "13. Centipede: Charity Drive" { "Organizer A" "Organizer B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Collect" "Pass" } 0
+t "" 1 "Collect" { 100 50 }
+p "" 2 1 "(B Decision)" { "Collect" "Pass" } 0
+t "" 2 "Collect" { 70 130 }
+p "" 1 1 "(A Decision 2)" { "Collect" "Pass" } 0
+t "" 3 "Collect" { 200 120 }
+t "" 4 "Shared Donation" { 250 250 }

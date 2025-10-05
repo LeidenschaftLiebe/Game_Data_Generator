@@ -1,0 +1,8 @@
+EFG 2 R "8. Centipede (Relational): Coalition Negotiation" { "Politician A" "Politician B" }
+p "ROOT" 1 1 "(A1)" { "Sign" "Pass" } 0
+t "" 1 "A signs at A1" { 4 2 }
+p "" 2 1 "(B1)" { "Sign" "Pass" } 0
+t "" 2 "B signs at B1" { 3 6 }
+p "" 1 1 "(A2)" { "Sign" "Pass" } 0
+t "" 3 "A signs at A2" { 8 5 }
+t "" 4 "Both pass to end" { 10 10 }

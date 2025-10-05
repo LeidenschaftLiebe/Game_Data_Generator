@@ -1,0 +1,8 @@
+EFG 2 R "16. Centipede: Film Deal" { "Filmmaker A" "Filmmaker B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Release" "Continue" } 0
+t "" 1 "Release" { 150 70 }
+p "" 2 1 "(B Decision)" { "Release" "Continue" } 0
+t "" 2 "Release" { 110 180 }
+p "" 1 1 "(A Decision 2)" { "Release" "Continue" } 0
+t "" 3 "Release" { 240 150 }
+t "" 4 "Final Premiere" { 280 280 }

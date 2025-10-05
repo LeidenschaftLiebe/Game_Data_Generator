@@ -1,0 +1,8 @@
+EFG 2 R "5. Centipede (Relational): Publishing Contract" { "Author A" "Author B" }
+p "ROOT" 1 1 "(A1)" { "Publish" "Pass" } 0
+t "" 1 "A publishes at A1" { 20 10 }
+p "" 2 1 "(B1)" { "Publish" "Pass" } 0
+t "" 2 "B publishes at B1" { 20 30 }
+p "" 1 1 "(A2)" { "Publish" "Pass" } 0
+t "" 3 "A publishes at A2" { 50 30 }
+t "" 4 "Both pass to end" { 60 60 }

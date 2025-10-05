@@ -1,0 +1,8 @@
+EFG 2 R "3. Centipede (Relational): Investment Partnership" { "Investor A" "Investor B" }
+p "ROOT" 1 1 "(A1)" { "Take" "Pass" } 0
+t "" 1 "A takes at A1" { 50 20 }
+p "" 2 1 "(B1)" { "Take" "Pass" } 0
+t "" 2 "B takes at B1" { 40 80 }
+p "" 1 1 "(A2)" { "Take" "Pass" } 0
+t "" 3 "A takes at A2" { 120 80 }
+t "" 4 "Both pass to end" { 150 150 }

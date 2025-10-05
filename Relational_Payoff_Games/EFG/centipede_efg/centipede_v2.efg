@@ -1,0 +1,8 @@
+EFG 2 R "2. Centipede (Relational): Academic Collaboration" { "Researcher A" "Researcher B" }
+p "ROOT" 1 1 "(A1)" { "Publish" "Pass" } 0
+t "" 1 "A publishes at A1" { 10 5 }
+p "" 2 1 "(B1)" { "Publish" "Pass" } 0
+t "" 2 "B publishes at B1" { 20 10 }
+p "" 1 1 "(A2)" { "Publish" "Pass" } 0
+t "" 3 "A publishes at A2" { 30 20 }
+t "" 4 "Both pass to end" { 40 40 }

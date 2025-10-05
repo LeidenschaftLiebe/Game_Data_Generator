@@ -1,0 +1,8 @@
+EFG 2 R "9. Centipede (Relational): Pharma Development" { "Partner A" "Partner B" }
+p "ROOT" 1 1 "(A1)" { "Sell" "Pass" } 0
+t "" 1 "A sells at A1" { 5 2 }
+p "" 2 1 "(B1)" { "Sell" "Pass" } 0
+t "" 2 "B sells at B1" { 3 7 }
+p "" 1 1 "(A2)" { "Sell" "Pass" } 0
+t "" 3 "A sells at A2" { 10 5 }
+t "" 4 "Both pass to end" { 12 12 }

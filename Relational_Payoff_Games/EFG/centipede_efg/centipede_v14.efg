@@ -1,0 +1,8 @@
+EFG 2 R "14. Centipede: Product Launch" { "Partner A" "Partner B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Launch" "Wait" } 0
+t "" 1 "Launch" { 180 90 }
+p "" 2 1 "(B Decision)" { "Launch" "Wait" } 0
+t "" 2 "Launch" { 150 200 }
+p "" 1 1 "(A Decision 2)" { "Launch" "Wait" } 0
+t "" 3 "Launch" { 300 220 }
+t "" 4 "Full Launch" { 350 350 }

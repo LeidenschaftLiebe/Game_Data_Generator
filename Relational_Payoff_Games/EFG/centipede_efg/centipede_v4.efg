@@ -1,0 +1,8 @@
+EFG 2 R "4. Centipede (Relational): Humanitarian Fund" { "Director A" "Director B" }
+p "ROOT" 1 1 "(A1)" { "Release" "Pass" } 0
+t "" 1 "A releases at A1" { 400 200 }
+p "" 2 1 "(B1)" { "Release" "Pass" } 0
+t "" 2 "B releases at B1" { 300 600 }
+p "" 1 1 "(A2)" { "Release" "Pass" } 0
+t "" 3 "A releases at A2" { 800 500 }
+t "" 4 "Both pass to end" { 1000 1000 }

@@ -1,0 +1,8 @@
+EFG 2 R "6. Centipede (Relational): Real Estate Venture" { "Developer A" "Developer B" }
+p "ROOT" 1 1 "(A1)" { "Sell" "Pass" } 0
+t "" 1 "A sells at A1" { 100 50 }
+p "" 2 1 "(B1)" { "Sell" "Pass" } 0
+t "" 2 "B sells at B1" { 100 150 }
+p "" 1 1 "(A2)" { "Sell" "Pass" } 0
+t "" 3 "A sells at A2" { 250 150 }
+t "" 4 "Both pass to end" { 300 300 }

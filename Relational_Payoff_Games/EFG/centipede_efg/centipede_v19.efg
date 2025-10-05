@@ -1,0 +1,8 @@
+EFG 2 R "19. Centipede: Corporate Merger" { "Executive A" "Executive B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Merge" "Pass" } 0
+t "" 1 "Merge" { 220 110 }
+p "" 2 1 "(B Decision)" { "Merge" "Pass" } 0
+t "" 2 "Merge" { 160 240 }
+p "" 1 1 "(A Decision 2)" { "Merge" "Pass" } 0
+t "" 3 "Merge" { 360 280 }
+t "" 4 "Final Merger" { 420 420 }

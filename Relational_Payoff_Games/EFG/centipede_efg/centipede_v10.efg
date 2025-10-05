@@ -1,0 +1,8 @@
+EFG 2 R "10. Centipede (Relational): Humanitarian Logistics" { "Coordinator A" "Coordinator B" }
+p "ROOT" 1 1 "(A1)" { "Stop" "Pass" } 0
+t "" 1 "A stops at A1" { 20 10 }
+p "" 2 1 "(B1)" { "Stop" "Pass" } 0
+t "" 2 "B stops at B1" { 15 30 }
+p "" 1 1 "(A2)" { "Stop" "Pass" } 0
+t "" 3 "A stops at A2" { 40 20 }
+t "" 4 "Both pass to end" { 50 50 }

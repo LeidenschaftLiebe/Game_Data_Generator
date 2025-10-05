@@ -1,0 +1,8 @@
+EFG 2 R "18. Centipede: Infrastructure Expansion" { "Contractor A" "Contractor B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Finalize" "Pass" } 0
+t "" 1 "Finalize" { 200 100 }
+p "" 2 1 "(B Decision)" { "Finalize" "Pass" } 0
+t "" 2 "Finalize" { 150 240 }
+p "" 1 1 "(A Decision 2)" { "Finalize" "Pass" } 0
+t "" 3 "Finalize" { 340 280 }
+t "" 4 "Joint Completion" { 400 400 }

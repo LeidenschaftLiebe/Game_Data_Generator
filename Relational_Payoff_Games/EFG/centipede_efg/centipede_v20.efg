@@ -1,0 +1,8 @@
+EFG 2 R "20. Centipede: Renewable Technology Collaboration" { "Scientist A" "Scientist B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Patent" "Pass" } 0
+t "" 1 "Patent" { 150 70 }
+p "" 2 1 "(B Decision)" { "Patent" "Pass" } 0
+t "" 2 "Patent" { 120 200 }
+p "" 1 1 "(A Decision 2)" { "Patent" "Pass" } 0
+t "" 3 "Patent" { 280 220 }
+t "" 4 "Joint Patent" { 320 320 }

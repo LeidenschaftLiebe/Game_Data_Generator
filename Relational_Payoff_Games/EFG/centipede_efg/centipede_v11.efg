@@ -1,0 +1,8 @@
+EFG 2 R "11. Centipede: Real Estate Negotiation" { "Developer A" "Developer B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Close" "Pass" } 0
+t "" 1 "Close" { 200 100 }
+p "" 2 1 "(B Decision)" { "Close" "Pass" } 0
+t "" 2 "Close" { 150 250 }
+p "" 1 1 "(A Decision 2)" { "Close" "Pass" } 0
+t "" 3 "Close" { 350 300 }
+t "" 4 "Joint Closing" { 400 400 }

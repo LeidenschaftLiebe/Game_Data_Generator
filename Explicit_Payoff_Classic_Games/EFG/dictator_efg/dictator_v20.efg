@@ -1,0 +1,5 @@
+EFG 2 R "20. Energy Rebate $60K (Dictator)" { "Building Manager" "Tenants' Green Fund" }
+p "ROOT" 1 1 "(Rebate Decision)" { "Keep All" "Give 15" "Split 30/30" } 0
+t "" 1 "Keep All" { 60 0 }
+t "" 2 "Give 15" { 45 15 }
+t "" 3 "Split 30/30" { 30 30 }

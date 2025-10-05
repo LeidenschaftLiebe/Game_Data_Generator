@@ -1,0 +1,5 @@
+EFG 2 R "Dictator: Endowment Bonus $300K" { "Dean" "Faculty Fund" }
+p "ROOT" 1 1 "(Bonus Allocation)" { "Keep All" "Give 100K" "Split 150K/150K" } 0
+t "" 1 "Keep All" { 300000 0 }
+t "" 2 "Give 100K" { 200000 100000 }
+t "" 3 "Split 150K/150K" { 150000 150000 }

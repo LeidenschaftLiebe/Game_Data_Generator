@@ -1,0 +1,5 @@
+EFG 2 R "14. Championship Bonus $80K (Dictator)" { "Team Captain" "Squad Fund" }
+p "ROOT" 1 1 "(Bonus Decision)" { "Keep All" "Give 20" "Split 40/40" } 0
+t "" 1 "Keep All" { 80 0 }
+t "" 2 "Give 20" { 60 20 }
+t "" 3 "Split 40/40" { 40 40 }

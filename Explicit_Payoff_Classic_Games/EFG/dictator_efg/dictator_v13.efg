@@ -1,0 +1,5 @@
+EFG 2 R "13. CSR Budget $1.2M (Dictator)" { "CSR Manager" "Neighborhood Fund" }
+p "ROOT" 1 1 "(Allocation Decision)" { "Keep All" "Give 0.3" "Split 0.6/0.6" } 0
+t "" 1 "Keep All" { 1.2 0 }
+t "" 2 "Give 0.3" { 0.9 0.3 }
+t "" 3 "Split 0.6/0.6" { 0.6 0.6 }

@@ -1,0 +1,5 @@
+EFG 2 R "12. Philanthropic Pledge $500K (Dictator)" { "Foundation Officer" "Grassroots Partner" }
+p "ROOT" 1 1 "(Allocation Decision)" { "Keep All" "Give 150" "Split 250/250" } 0
+t "" 1 "Keep All" { 500 0 }
+t "" 2 "Give 150" { 350 150 }
+t "" 3 "Split 250/250" { 250 250 }

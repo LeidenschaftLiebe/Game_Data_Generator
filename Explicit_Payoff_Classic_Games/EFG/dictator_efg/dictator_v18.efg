@@ -1,0 +1,5 @@
+EFG 2 R "18. Healthcare Grant $900K (Dictator)" { "Hospital Admin" "Community Clinic" }
+p "ROOT" 1 1 "(Grant Decision)" { "Keep All" "Give 300" "Split 450/450" } 0
+t "" 1 "Keep All" { 900 0 }
+t "" 2 "Give 300" { 600 300 }
+t "" 3 "Split 450/450" { 450 450 }

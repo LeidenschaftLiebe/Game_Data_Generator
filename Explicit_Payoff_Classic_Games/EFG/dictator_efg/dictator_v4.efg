@@ -1,0 +1,5 @@
+EFG 2 R "Dictator: Music Royalties $5K" { "Lead Singer" "Band Members" }
+p "ROOT" 1 1 "(Royalty Decision)" { "Keep All" "Give 1.5K" "Split 2.5K/2.5K" } 0
+t "" 1 "Keep All" { 5000 0 }
+t "" 2 "Give 1.5K" { 3500 1500 }
+t "" 3 "Split 2.5K/2.5K" { 2500 2500 }

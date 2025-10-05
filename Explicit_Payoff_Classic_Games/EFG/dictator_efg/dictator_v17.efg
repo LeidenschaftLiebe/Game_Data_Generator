@@ -1,0 +1,5 @@
+EFG 2 R "17. Publishing Advance $400K (Dictator)" { "Lead Author" "Coauthor" }
+p "ROOT" 1 1 "(Advance Decision)" { "Keep All" "Give 120" "Split 200/200" } 0
+t "" 1 "Keep All" { 400 0 }
+t "" 2 "Give 120" { 280 120 }
+t "" 3 "Split 200/200" { 200 200 }

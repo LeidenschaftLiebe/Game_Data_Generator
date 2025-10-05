@@ -1,0 +1,5 @@
+EFG 2 R "11. Disaster Relief Fund $2M (Dictator)" { "Agency Director" "Local Partner NGO" }
+p "ROOT" 1 1 "(Allocation Decision)" { "Keep All" "Give 0.6" "Split 1/1" } 0
+t "" 1 "Keep All" { 2 0 }
+t "" 2 "Give 0.6" { 1.4 0.6 }
+t "" 3 "Split 1/1" { 1 1 }

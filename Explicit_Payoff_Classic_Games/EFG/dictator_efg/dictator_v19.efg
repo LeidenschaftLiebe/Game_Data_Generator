@@ -1,0 +1,5 @@
+EFG 2 R "19. Agriculture Subsidy $1M (Dictator)" { "Ministry Official" "Smallholder Fund" }
+p "ROOT" 1 1 "(Subsidy Decision)" { "Keep All" "Give 0.2" "Split 0.5/0.5" } 0
+t "" 1 "Keep All" { 1 0 }
+t "" 2 "Give 0.2" { 0.8 0.2 }
+t "" 3 "Split 0.5/0.5" { 0.5 0.5 }

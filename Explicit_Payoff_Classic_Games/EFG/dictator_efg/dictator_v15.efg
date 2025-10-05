@@ -1,0 +1,5 @@
+EFG 2 R "15. Museum Endowment $3M (Dictator)" { "Museum Director" "Education Programs" }
+p "ROOT" 1 1 "(Disbursement Decision)" { "Keep All" "Give 1" "Split 1.5/1.5" } 0
+t "" 1 "Keep All" { 3 0 }
+t "" 2 "Give 1" { 2 1 }
+t "" 3 "Split 1.5/1.5" { 1.5 1.5 }

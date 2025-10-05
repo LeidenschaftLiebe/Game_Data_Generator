@@ -1,0 +1,5 @@
+EFG 2 R "Dictator: Startup Equity $1M" { "Founder" "Cofounder" }
+p "ROOT" 1 1 "(Equity Decision)" { "Keep All" "Give 300K" "Split 500K/500K" } 0
+t "" 1 "Keep All" { 1000000 0 }
+t "" 2 "Give 300K" { 700000 300000 }
+t "" 3 "Split 500K/500K" { 500000 500000 }

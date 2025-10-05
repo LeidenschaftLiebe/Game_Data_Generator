@@ -1,0 +1,5 @@
+EFG 2 R "16. Crypto Treasury $250K (Dictator)" { "DAO Treasurer" "Developer Grant" }
+p "ROOT" 1 1 "(Treasury Decision)" { "Keep All" "Give 50" "Split 125/125" } 0
+t "" 1 "Keep All" { 250 0 }
+t "" 2 "Give 50" { 200 50 }
+t "" 3 "Split 125/125" { 125 125 }

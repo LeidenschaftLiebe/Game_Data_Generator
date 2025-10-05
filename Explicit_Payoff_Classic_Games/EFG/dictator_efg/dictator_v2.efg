@@ -1,0 +1,5 @@
+EFG 2 R "Dictator: City Budget $200K" { "Council Member" "Community Group" }
+p "ROOT" 1 1 "(Fund Allocation)" { "Keep All" "Give 80K" "Split 100K/100K" } 0
+t "" 1 "Keep All" { 200000 0 }
+t "" 2 "Give 80K" { 120000 80000 }
+t "" 3 "Split 100K/100K" { 100000 100000 }

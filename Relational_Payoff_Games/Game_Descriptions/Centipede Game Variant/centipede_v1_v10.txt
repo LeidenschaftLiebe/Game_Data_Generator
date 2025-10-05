@@ -1,0 +1,125 @@
+1) Startup Collaboration
+
+Two founders alternate turns deciding whether to secure the current deal or pass to let the venture grow.
+The deal ends when the decision comes back to the first founder.
+If the first stops immediately, the first gets more and the second gets less.
+If the first passes and the second stops, the second gets more and the first gets less.
+If the second passes again and the first stops, the first now gets even more while the second gets a solid share.
+If both pass until the end, they share the largest return equally.
+
+
+
+
+
+2) Academic Collaboration
+
+Two researchers decide whether to publish now or pass and gather stronger evidence.
+The decision ends when the turn cycles back to the first researcher.
+Early stopping favors the stopper with a higher individual payout and a smaller one for the other.
+If the first passes and the second stops, the second’s reward is higher than the first’s.
+If the second passes again and the first stops, the first’s reward grows further.
+If both pass to the end, they split the best outcome equally.
+
+
+
+
+
+3) Investment Partnership
+
+Two investors alternate between cashing out and passing to let the fund grow.
+The investment ends when the first investor’s turn comes around again.
+Stopping early favors the stopper; 
+passing and then having the other stop favors the other; 
+passing twice and then stopping favors the original stopper; 
+passing all the way yields the largest equal split.
+
+
+
+
+
+4) Humanitarian Fund
+
+Two directors choose to release funds now or pass to grow the pool via matching support.
+The round ends when the decision returns to the first director.
+An early release benefits the releaser most; 
+If the first passes and the second releases, the second benefits most; 
+A further pass and then release favors the first; 
+Full cooperation of passing to the end yields the largest equal amount.
+
+
+
+
+
+5) Publishing Contract
+
+Two authors alternate between publishing now and passing to refine the manuscript.
+The contract finalises when the first author’s final turn arrives.
+Stopping early favors the stopper; 
+Passing once and having the other stop favors the other; 
+Passing twice and then stopping favors the first; 
+Passing through yields the best equal split.
+
+
+
+
+
+6) Real Estate Venture
+
+Two developers decide whether to sell now or pass and keep building.
+The sale ends when it comes back to the first developer.
+Early sale favors the seller; 
+If the first passes and the second sells, the second gets more; 
+One more pass and sale favors the first; 
+Passing to the end yields the largest equal outcome.
+
+
+
+
+
+7) Tech Patent Race
+
+Two firms alternate between patenting now and passing to improve the technology.
+The patent finalises when the first firm’s decision comes around again.
+An early patent favors the patenting firm; 
+A pass then the rival’s patent favors the rival; 
+Passing again and then patenting favors the original firm; 
+Passing to the end yields the highest equal outcome.
+
+
+
+
+
+8) Coalition Negotiation
+
+Two politicians take turns choosing to sign now or pass to expand support.
+The call ends when the decision returns to the first politician.
+An early signature favors the signer; 
+A pass followed by the other’s signature favors that other; 
+Passing again and then signing favors the first; 
+Passing all the way produces the largest equal coalition.
+
+
+
+
+
+9) Pharma Development
+
+Two biotech partners alternate between selling early and passing to run more trials.
+The sale ends when the decision cycles back to the first partner.
+An early sale favors the seller; 
+A pass followed by the other’s sale favors that other; 
+Waiting again and then selling favors the first; 
+Passing to the end yields the largest equal return.
+
+
+
+
+
+10) Humanitarian Logistics
+
+Two coordinators decide whether to stop and deliver now or pass and collect more aid.
+The round ends when the first coordinator’s turn returns.
+Stopping early favors the stopper; 
+A pass then the other stopping favors the other; 
+Passing again and then stopping favors the first; 
+Passing to the end yields the largest equal delivery.

@@ -1,0 +1,125 @@
+11) Real Estate Negotiation
+
+Two developers alternate turns deciding whether to close the property deal or pass to let its value rise.
+The negotiation concludes when the decision comes back to the first developer.
+If the first stops immediately, the first gets more and the second gets less.
+If the first passes and the second stops, the second gets more and the first gets less.
+If the second passes again and the first stops, the first now gets even more while the second gets a solid share.
+If both pass until the end, they share the largest return equally.
+
+
+
+
+
+12) Investment Pitch
+
+Two investors alternate turns deciding whether to lock in profits or pass to expand the fund.
+The funding round concludes when the decision comes back to the first investor.
+If the first takes profits immediately, the first gets more and the second gets less.
+If the first passes and the second takes, the second gets more and the first gets less.
+If the second passes again and the first takes, the first now gets even more while the second earns a fair share.
+If both pass until the end, they share the highest return equally.
+
+
+
+
+
+13) Charity Drive
+
+Two organizers alternate turns deciding whether to collect donations now or pass to attract more donors.
+The collection process concludes when the decision comes back to the first organizer.
+If the first collects immediately, the first keeps more and the second gets less.
+If the first passes and the second collects, the second keeps more and the first gets less.
+If the second passes again and the first collects, the first now receives more while the second still benefits.
+If both pass until the end, they share the total contributions equally.
+
+
+
+
+
+14) Product Launch
+
+Two company partners alternate turns deciding whether to launch the product or continue refining it.
+The launch phase ends when the decision comes back to the first partner.
+If the first launches immediately, the first gains more and the second gains less.
+If the first waits and the second launches, the second gains more and the first gains less.
+If the second waits again and the first launches later, the first earns more while the second still profits well.
+If both wait until the end, they share the full market success equally.
+
+
+
+
+
+15) Policy Agreement
+
+Two ministers alternate turns deciding whether to sign the deal or negotiate further.
+The negotiation concludes when it comes back to the first minister’s turn.
+If the first signs right away, the first gains more and the second gains less.
+If the first passes and the second signs, the second gains more and the first gains less.
+If the second passes again and the first signs later, the first receives more while the second gets a respectable portion.
+If both pass until the end, they share equal political credit.
+
+
+
+
+
+16) Film Deal
+
+Two filmmakers alternate turns deciding whether to release now or continue production.
+The project concludes when the decision comes back to the first filmmaker.
+If the first releases right away, the first takes more and the second takes less.
+If the first passes and the second releases, the second earns more and the first earns less.
+If the second passes again and the first releases later, the first receives greater profits while the second gains fairly.
+If both pass until the end, they share the final earnings equally.
+
+
+
+
+
+17) Start-Up Collaboration
+
+Two entrepreneurs alternate turns deciding whether to sell their shares or pass to grow the company further.
+The funding cycle ends when the decision comes back to the first entrepreneur.
+If the first sells immediately, the first gets more and the second gets less.
+If the first passes and the second sells, the second gains more and the first gains less.
+If the second passes again and the first sells later, the first now gains even more while the second earns reasonably.
+If both pass until the end, they share the success equally.
+
+
+
+
+
+18) Infrastructure Expansion
+
+Two contractors alternate turns deciding whether to finalize their work or pass to extend construction.
+The project closes when the choice returns to the first contractor.
+If the first finalizes early, the first gains more and the second gains less.
+If the first passes and the second finalizes, the second gets more and the first gets less.
+If the second passes again and the first finalizes later, the first collects even more while the second gains moderately.
+If both pass until the end, they share the largest completion bonus equally.
+
+
+
+
+
+19) Corporate Merger
+
+Two executives alternate turns deciding whether to merge immediately or pass to negotiate improved terms.
+The merger discussion concludes when the decision comes back to the first executive.
+If the first merges right away, the first earns more and the second earns less.
+If the first passes and the second merges, the second gains more and the first gains less.
+If the second passes again and the first merges later, the first secures a better deal while the second gains a fair portion.
+If both pass until the end, they share the total synergy equally.
+
+
+
+
+
+20) Renewable Technology Collaboration
+
+Two scientists alternate turns deciding whether to patent their design or pass to improve it further.
+The research process concludes when the decision comes back to the first scientist.
+If the first patents immediately, the first gets more and the second gets less.
+If the first passes and the second patents, the second gets more and the first gets less.
+If the second passes again and the first patents later, the first gains the most while the second gains a respectable share.
+If both pass until the end, they share equal credit and success.

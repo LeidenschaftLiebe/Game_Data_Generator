@@ -1,0 +1,144 @@
+1) Startup Collaboration
+
+Two entrepreneurs take turns deciding whether to take their share of profits or pass the opportunity to grow the business.
+Each time someone passes, the project value increases. The game ends once it returns to the first entrepreneur’s final decision.
+
+If the first stops immediately (take), they earn $200 K, and the other gets $100 K.
+If the first passes and the second stops, they earn $300 K and $200 K.
+If the second passes again and the first then stops, they earn $400 K and $300 K.
+If both keep passing until the end, they each earn $500 K.
+
+
+
+
+
+2) Academic Collaboration
+
+Two researchers decide whether to publish now or pass and collect more data.
+Each pass improves the quality of their results.
+The game ends when the decision returns to the first researcher for the final round.
+
+If the first publishes immediately, they earn $10 K, and the other earns $5 K.
+If the first passes and the second publishes, the payoffs are $20 K and $10 K.
+If the second passes again and the first publishes later, they get $30 K and $20 K.
+If both pass through to the end, they publish jointly and each earn $40 K.
+
+
+
+
+
+3) Investment Partnership
+
+Two investors can cash out or keep reinvesting in a growing portfolio.
+Each pass grows the total returns, but whoever takes first secures a higher share.
+The game ends when it comes back to the first investor’s final chance.
+
+If the first cashes out immediately, they receive $50 K, the other $20 K.
+If the first passes and the second takes, they receive $80 K and $40 K.
+If the second passes again and the first takes later, the payoffs are $120 K and $80 K.
+If both pass through the end, they each receive $150 K.
+
+
+
+
+
+4) Humanitarian Fund Allocation
+
+Two directors control a joint aid fund. Each can release now or pass to let it grow through matching grants.
+Every pass increases total resources, but whoever acts first secures the larger personal recognition and payout.
+The game ends when it returns to the first director’s final decision.
+
+If the first releases early, they receive $400 K, and the other $200 K.
+If the first passes and the second releases, the shares are $600 K and $300 K.
+If the second passes again and the first releases, they receive $800 K and $500 K.
+If both pass until the end, they each get $1 M.
+
+
+
+
+
+5) Publishing Contract
+
+Two authors take turns choosing whether to publish now or keep editing.
+Passing leads to a better book and higher sales, but whoever decides to publish first gets the bigger share of royalties.
+The game ends when it comes back to the first author’s final opportunity.
+
+If the first publishes early, they receive $20 K, and the coauthor gets $10 K.
+If the first passes and the second publishes, they receive $30 K and $20 K.
+If the second passes again and the first publishes later, they receive $50 K and $30 K.
+If both continue editing to the end, they share $60 K equally.
+
+
+
+
+
+6) Real Estate Joint Venture
+
+Two developers can sell early or keep building.
+Each time they pass, the project becomes more valuable, but the first to sell locks in the larger personal payout.
+The game ends once it returns to the first developer’s final decision.
+
+If the first sells immediately, they receive $100 K, the other $50 K.
+If the first passes and the second sells, they receive $150 K and $100 K.
+If the second passes again and the first sells later, the payoffs are $250 K and $150 K.
+If both keep building to the end, they each earn $300 K.
+
+
+
+
+
+7) Technology Patent Race
+
+Two companies take turns deciding whether to patent early or keep developing.
+Each pass improves the technology, but the first to patent captures the larger competitive edge.
+The game ends when it cycles back to the first company’s final choice.
+
+If the first patents immediately, they earn $2 M, and the second earns $1 M.
+If the first passes and the second patents, they earn $3 M and $1.5 M.
+If the second passes again and the first patents later, they earn $4 M and $2 M.
+If both complete development, each earns $5 M.
+
+
+
+
+
+8) Political Coalition Negotiation
+
+Two politicians alternate between signing early or passing to strengthen their coalition.
+Passing broadens support, but whoever signs first gains more control.
+The game ends after the decision comes back to the first politician.
+
+If the first signs early, they gain 4 seats, and the other 2.
+If the first passes and the second signs, they gain 6 and 3.
+If the second passes again and the first signs later, they gain 8 and 5.
+If both pass until the end, they share 10 seats each.
+
+
+
+
+
+9) Pharmaceutical Development
+
+Two biotech firms alternate deciding whether to sell the formula or keep testing.
+Each pass improves the drug’s efficacy and future profit potential.
+The game ends after it returns to the first firm’s final round.
+
+If the first sells early, they receive $5 M, the other $2 M.
+If the first passes and the second sells, they receive $7 M and $3 M.
+If the second passes again and the first sells later, they receive $10 M and $5 M.
+If both complete all testing, each earns $12 M.
+
+
+
+
+
+10) Humanitarian Logistics
+
+Two logistics coordinators decide whether to stop early and deliver what they have or continue to accumulate more aid.
+Passing increases total supplies, but the first to stop claims a larger share of recognition.
+The game ends once the decision returns to the first coordinator’s final chance.
+
+If the first stops early, they deliver 20 tons, and the other 10 tons.
+If the first passes and the second stops, they deliver 30 tons and 15 tons.
+If the second passes again and the first stops later, they deliver 40 tons and 20 tons.
+If both continue to the end, they deliver 50 tons each.

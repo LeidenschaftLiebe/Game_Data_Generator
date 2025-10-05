@@ -1,0 +1,145 @@
+11) Renewable Energy Investment
+
+Two environmental investors take turns deciding whether to cash out or pass to let the solar fund grow.
+Each pass increases the project’s total value, but whoever cashes out first secures the larger personal payout.
+The game ends when it comes back to the first investor’s final decision.
+
+If the first takes immediately, they earn $100 K, and the second earns $50 K.
+If the first passes and the second takes, they earn $150 K and $100 K.
+If the second passes again and the first takes later, they earn $250 K and $150 K.
+If both pass until the end, each receives $300 K.
+
+
+
+
+
+12) Charity Fund Drive
+
+Two charity coordinators alternate choosing to withdraw funds early for local use or pass to grow the pool through matching donors.
+Each pass increases the total pot.
+The game ends after the final decision returns to the first coordinator.
+
+If the first withdraws now, they receive $200 K, and the other $100 K.
+If the first passes and the second withdraws, the payoffs are $300 K and $200 K.
+If the second passes again and the first withdraws, they earn $400 K and $250 K.
+If both pass until the end, they share $500 K each.
+
+
+
+
+
+13) International Trade Deal
+
+Two nations take turns deciding whether to seal an early trade deal or pass to negotiate better terms.
+Every pass increases mutual gains, but whoever signs first secures the larger immediate benefit.
+The game ends when the decision returns to the first country.
+
+If the first signs immediately, they gain $2 B, and the other $1 B.
+If the first passes and the second signs, they gain $3 B and $2 B.
+If the second passes again and the first signs later, they gain $4 B and $2.5 B.
+If both pass until the end, they share $5 B each.
+
+
+
+
+
+14) Film Production Partnership
+
+Two film producers take turns deciding whether to release early or pass to extend filming.
+Passing increases the project’s value, but whoever releases first claims more credit and profit.
+The game ends when the choice comes back to the first producer.
+
+If the first releases now, they earn $500 K, the other $250 K.
+If the first passes and the second releases, they earn $700 K and $400 K.
+If the second passes again and the first releases later, they earn $1 M and $600 K.
+If both pass through to the end, they each receive $1.2 M.
+
+
+
+
+
+15) Urban Development Plan
+
+Two city planners alternate choosing to finalize now or wait for additional federal funding.
+Each pass increases the project’s total value, but the one who finalizes first secures the larger share of credit.
+The game ends when the first planner’s turn comes again.
+
+If the first finalizes now, they receive $300 K, and the second $150 K.
+If the first passes and the second finalizes, they receive $500 K and $250 K.
+If the second passes again and the first finalizes later, they receive $700 K and $400 K.
+If both wait until the end, they each earn $900 K.
+
+
+
+
+
+16) Startup Equity Growth
+
+Two founders must decide whether to sell early or keep scaling their company.
+Passing increases valuation, but the first to sell secures more immediate liquidity.
+The game ends when the decision returns to the first founder.
+
+If the first sells early, they gain $3 M, the other $1 M.
+If the first passes and the second sells, they earn $4 M and $2 M.
+If the second passes again and the first sells later, they earn $6 M and $3 M.
+If both keep scaling until the end, each receives $8 M.
+
+
+
+
+
+17) Tech Research Collaboration
+
+Two engineers alternate deciding whether to file a patent or continue R&D.
+Each pass improves the innovation, but the first patent yields greater control.
+The game ends when the first engineer’s turn returns.
+
+If the first patents now, they earn $500 K, and the other $250 K.
+If the first passes and the second patents, they earn $700 K and $400 K.
+If the second passes again and the first patents later, they earn $900 K and $600 K.
+If both pass through the end, they share $1 M equally.
+
+
+
+
+
+18) Music Album Collaboration
+
+Two artists can release early or keep refining their album.
+Each pass improves quality and revenue potential, but the one who releases first earns a larger personal cut.
+The game ends when the decision returns to the first artist.
+
+If the first releases early, they receive $50 K, and the second $20 K.
+If the first passes and the second releases, they earn $70 K and $40 K.
+If the second passes again and the first releases, they earn $90 K and $60 K.
+If both wait until the end, they share $100 K equally.
+
+
+
+
+
+19) Sports Endorsement Deal
+
+Two agents can sign early or hold out for a better offer.
+Passing increases the sponsorship value, but whoever signs first earns the higher commission.
+The game ends when it returns to the first agent’s turn.
+
+If the first signs early, they receive $200 K, and the second $100 K.
+If the first passes and the second signs, they earn $300 K and $150 K.
+If the second passes again and the first signs, they earn $400 K and $250 K.
+If both wait until the end, each receives $500 K.
+
+
+
+
+
+20) Construction Consortium
+
+Two contractors share a development project. They can claim profits now or pass to continue joint construction.
+Each pass increases the total value, but the one who claims first secures the larger personal payout.
+The game ends after the first contractor’s final decision.
+
+If the first claims now, they earn $600 K, and the other $300 K.
+If the first passes and the second claims, they earn $800 K and $400 K.
+If the second passes again and the first claims later, they earn $1 M and $600 K.
+If both pass through the end, they each receive $1.2 M.

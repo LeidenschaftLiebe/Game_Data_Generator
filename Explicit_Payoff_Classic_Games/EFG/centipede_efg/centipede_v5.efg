@@ -1,0 +1,8 @@
+EFG 2 R "5. Centipede: Publishing Contract" { "Author A" "Author B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Publish" "Pass" } 0
+t "" 1 "Publish" { 20 10 }
+p "" 2 1 "(B Decision)" { "Publish" "Pass" } 0
+t "" 2 "Publish" { 20 30 }
+p "" 1 1 "(A Decision 2)" { "Publish" "Pass" } 0
+t "" 3 "Publish" { 50 30 }
+t "" 4 "Final Joint Publication" { 60 60 }

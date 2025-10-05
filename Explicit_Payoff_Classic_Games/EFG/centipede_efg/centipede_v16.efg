@@ -1,0 +1,8 @@
+EFG 2 R "16. Centipede: Startup Equity" { "Founder A" "Founder B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Sell" "Pass" } 0
+t "" 1 "Sell" { 3 1 }
+p "" 2 1 "(B Decision)" { "Sell" "Pass" } 0
+t "" 2 "Sell" { 2 4 }
+p "" 1 1 "(A Decision 2)" { "Sell" "Pass" } 0
+t "" 3 "Sell" { 6 3 }
+t "" 4 "IPO Success" { 8 8 }

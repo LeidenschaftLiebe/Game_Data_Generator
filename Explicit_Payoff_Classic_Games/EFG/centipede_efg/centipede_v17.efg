@@ -1,0 +1,8 @@
+EFG 2 R "17. Centipede: Tech Collaboration" { "Engineer A" "Engineer B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Patent" "Pass" } 0
+t "" 1 "Patent" { 500 250 }
+p "" 2 1 "(B Decision)" { "Patent" "Pass" } 0
+t "" 2 "Patent" { 400 700 }
+p "" 1 1 "(A Decision 2)" { "Patent" "Pass" } 0
+t "" 3 "Patent" { 900 600 }
+t "" 4 "Final Joint Patent" { 1000 1000 }

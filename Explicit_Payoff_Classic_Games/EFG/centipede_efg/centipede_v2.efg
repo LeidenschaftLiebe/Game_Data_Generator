@@ -1,0 +1,8 @@
+EFG 2 R "2. Centipede: Academic Collaboration" { "Researcher A" "Researcher B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Publish" "Pass" } 0
+t "" 1 "Publish" { 10 5 }
+p "" 2 1 "(B Decision)" { "Publish" "Pass" } 0
+t "" 2 "Publish" { 20 10 }
+p "" 1 1 "(A Decision 2)" { "Publish" "Pass" } 0
+t "" 3 "Publish" { 30 20 }
+t "" 4 "Final Joint Publication" { 40 40 }

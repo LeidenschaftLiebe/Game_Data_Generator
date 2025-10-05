@@ -1,0 +1,8 @@
+EFG 2 R "19. Centipede: Sports Endorsement" { "Agent A" "Agent B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Sign" "Pass" } 0
+t "" 1 "Sign" { 200 100 }
+p "" 2 1 "(B Decision)" { "Sign" "Pass" } 0
+t "" 2 "Sign" { 150 300 }
+p "" 1 1 "(A Decision 2)" { "Sign" "Pass" } 0
+t "" 3 "Sign" { 400 250 }
+t "" 4 "Final Deal" { 500 500 }

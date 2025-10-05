@@ -1,0 +1,8 @@
+EFG 2 R "20. Centipede: Construction Consortium" { "Contractor A" "Contractor B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Claim" "Pass" } 0
+t "" 1 "Claim" { 600 300 }
+p "" 2 1 "(B Decision)" { "Claim" "Pass" } 0
+t "" 2 "Claim" { 400 800 }
+p "" 1 1 "(A Decision 2)" { "Claim" "Pass" } 0
+t "" 3 "Claim" { 1000 600 }
+t "" 4 "Final Shared Project" { 1200 1200 }

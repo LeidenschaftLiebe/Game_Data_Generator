@@ -1,0 +1,8 @@
+EFG 2 R "14. Centipede: Film Production" { "Producer A" "Producer B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Release" "Pass" } 0
+t "" 1 "Release" { 500 250 }
+p "" 2 1 "(B Decision)" { "Release" "Pass" } 0
+t "" 2 "Release" { 400 700 }
+p "" 1 1 "(A Decision 2)" { "Release" "Pass" } 0
+t "" 3 "Release" { 1000 600 }
+t "" 4 "Final Cut Release" { 1200 1200 }

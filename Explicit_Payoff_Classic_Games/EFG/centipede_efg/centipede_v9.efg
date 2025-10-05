@@ -1,0 +1,8 @@
+EFG 2 R "9. Centipede: Pharma Development" { "Firm A" "Firm B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Sell" "Pass" } 0
+t "" 1 "Sell" { 5 2 }
+p "" 2 1 "(B Decision)" { "Sell" "Pass" } 0
+t "" 2 "Sell" { 3 7 }
+p "" 1 1 "(A Decision 2)" { "Sell" "Pass" } 0
+t "" 3 "Sell" { 10 5 }
+t "" 4 "Final Drug Release" { 12 12 }

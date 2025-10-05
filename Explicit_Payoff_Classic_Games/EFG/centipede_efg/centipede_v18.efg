@@ -1,0 +1,8 @@
+EFG 2 R "18. Centipede: Music Album" { "Artist A" "Artist B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Release" "Pass" } 0
+t "" 1 "Release" { 50 20 }
+p "" 2 1 "(B Decision)" { "Release" "Pass" } 0
+t "" 2 "Release" { 40 70 }
+p "" 1 1 "(A Decision 2)" { "Release" "Pass" } 0
+t "" 3 "Release" { 90 60 }
+t "" 4 "Final Launch" { 100 100 }

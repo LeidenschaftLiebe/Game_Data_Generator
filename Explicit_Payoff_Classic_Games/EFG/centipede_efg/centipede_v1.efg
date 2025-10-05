@@ -1,0 +1,8 @@
+EFG 2 R "1. Centipede: Startup Collaboration" { "Entrepreneur A" "Entrepreneur B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Take" "Pass" } 0
+t "" 1 "Take" { 200 100 }
+p "" 2 1 "(B Decision)" { "Take" "Pass" } 0
+t "" 2 "Take" { 200 300 }
+p "" 1 1 "(A Decision 2)" { "Take" "Pass" } 0
+t "" 3 "Take" { 400 300 }
+t "" 4 "Final Pass" { 500 500 }

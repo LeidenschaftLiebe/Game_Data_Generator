@@ -1,0 +1,8 @@
+EFG 2 R "4. Centipede: Humanitarian Fund" { "Director A" "Director B" }
+p "ROOT" 1 1 "(A Decision 1)" { "Release" "Pass" } 0
+t "" 1 "Release" { 400 200 }
+p "" 2 1 "(B Decision)" { "Release" "Pass" } 0
+t "" 2 "Release" { 300 600 }
+p "" 1 1 "(A Decision 2)" { "Release" "Pass" } 0
+t "" 3 "Release" { 800 500 }
+t "" 4 "Final Joint Fund" { 1000 1000 }

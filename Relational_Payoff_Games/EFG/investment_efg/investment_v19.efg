@@ -1,0 +1,6 @@
+EFG 2 R "19. Trust Game: Humanitarian Food Project" { "Aid Organization" "Field Supplier" }
+p "ROOT" 1 1 "(Organization Decision)" { "Keep" "Transfer" } 0
+t "" 1 "Keep" { 150 0 }
+p "" 2 1 "(Supplier Decision if Transferred)" { "Share Portion" "Keep All" } 0
+t "" 2 "Share Portion" { 160 190 }
+t "" 3 "Keep All" { 0 350 }

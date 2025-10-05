@@ -1,0 +1,6 @@
+EFG 2 R "1. Trust Game: Community Seed Fund" { "Organizer" "Neighborhood Leader" }
+p "ROOT" 1 1 "(Organizer Decision)" { "Keep" "Trust Leader" } 0
+t "" 1 "Keep" { 100 0 }
+p "" 2 1 "(Leader Decision if Trusted)" { "Share Fairly" "Keep Everything" } 0
+t "" 2 "Share Fairly" { 120 130 }
+t "" 3 "Keep Everything" { 0 250 }

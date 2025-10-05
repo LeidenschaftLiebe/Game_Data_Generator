@@ -1,0 +1,6 @@
+EFG 2 R "17. Trust Game: Academic Collaboration Fund" { "Senior Professor" "Junior Collaborator" }
+p "ROOT" 1 1 "(Professor Decision)" { "Keep" "Transfer" } 0
+t "" 1 "Keep" { 100 0 }
+p "" 2 1 "(Collaborator Decision if Transferred)" { "Share Recognition" "Keep All" } 0
+t "" 2 "Share Recognition" { 130 120 }
+t "" 3 "Keep All" { 0 250 }

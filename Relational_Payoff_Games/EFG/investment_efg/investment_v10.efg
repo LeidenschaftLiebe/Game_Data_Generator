@@ -1,0 +1,6 @@
+EFG 2 R "10. Trust Game: Green Infrastructure" { "Funder" "Developer" }
+p "ROOT" 1 1 "(Funder Decision)" { "Keep" "Entrust" } 0
+t "" 1 "Keep" { 300 0 }
+p "" 2 1 "(Developer Decision if Entrusted)" { "Share Back" "Keep All" } 0
+t "" 2 "Share Back" { 450 450 }
+t "" 3 "Keep All" { 0 900 }

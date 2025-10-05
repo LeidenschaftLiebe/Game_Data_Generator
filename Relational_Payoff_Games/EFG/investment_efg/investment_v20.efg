@@ -1,0 +1,6 @@
+EFG 2 R "20. Trust Game: Construction Partnership" { "Developer" "Contractor" }
+p "ROOT" 1 1 "(Developer Decision)" { "Keep" "Trust Contractor" } 0
+t "" 1 "Keep" { 500 0 }
+p "" 2 1 "(Contractor Decision if Trusted)" { "Return Portion" "Keep All" } 0
+t "" 2 "Return Portion" { 450 550 }
+t "" 3 "Keep All" { 0 1000 }

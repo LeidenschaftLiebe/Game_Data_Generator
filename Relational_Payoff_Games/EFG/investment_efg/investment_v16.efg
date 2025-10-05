@@ -1,0 +1,6 @@
+EFG 2 R "16. Trust Game: Renewable Energy Initiative" { "Investor" "Energy Startup" }
+p "ROOT" 1 1 "(Investor Decision)" { "Keep" "Invest" } 0
+t "" 1 "Keep" { 250 0 }
+p "" 2 1 "(Startup Decision if Invested)" { "Share Gains" "Keep All" } 0
+t "" 2 "Share Gains" { 300 400 }
+t "" 3 "Keep All" { 0 700 }

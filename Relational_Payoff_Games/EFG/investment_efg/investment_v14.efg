@@ -1,0 +1,6 @@
+EFG 2 R "14. Trust Game: Environmental Research" { "Foundation" "Field Nonprofit" }
+p "ROOT" 1 1 "(Foundation Decision)" { "Keep" "Transfer" } 0
+t "" 1 "Keep" { 300 0 }
+p "" 2 1 "(Nonprofit Decision if Transferred)" { "Share Benefits" "Keep All" } 0
+t "" 2 "Share Benefits" { 350 450 }
+t "" 3 "Keep All" { 0 800 }

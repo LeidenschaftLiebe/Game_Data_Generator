@@ -1,0 +1,6 @@
+EFG 2 R "3. Trust Game: Local Startup Booster" { "Mentor" "Founder" }
+p "ROOT" 1 1 "(Mentor Decision)" { "Keep" "Invest" } 0
+t "" 1 "Keep" { 60 0 }
+p "" 2 1 "(Founder Decision if Invested)" { "Share Profits" "Keep All" } 0
+t "" 2 "Share Profits" { 50 70 }
+t "" 3 "Keep All" { 0 120 }

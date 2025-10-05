@@ -1,0 +1,6 @@
+EFG 2 R "5. Trust Game: Social Enterprise Incubator" { "Investor" "Social Enterprise" }
+p "ROOT" 1 1 "(Investor Decision)" { "Keep" "Invest" } 0
+t "" 1 "Keep" { 200 0 }
+p "" 2 1 "(Enterprise Decision if Invested)" { "Return Share" "Keep All" } 0
+t "" 2 "Return Share" { 240 360 }
+t "" 3 "Keep All" { 0 600 }

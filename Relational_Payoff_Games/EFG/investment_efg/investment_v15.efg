@@ -1,0 +1,6 @@
+EFG 2 R "15. Trust Game: Film Distribution Deal" { "Producer" "Distributor" }
+p "ROOT" 1 1 "(Producer Decision)" { "Keep" "Trust Distributor" } 0
+t "" 1 "Keep" { 400 0 }
+p "" 2 1 "(Distributor Decision if Trusted)" { "Return Share" "Keep All" } 0
+t "" 2 "Return Share" { 350 450 }
+t "" 3 "Keep All" { 0 800 }

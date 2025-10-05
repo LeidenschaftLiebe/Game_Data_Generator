@@ -1,0 +1,6 @@
+EFG 2 R "7. Trust Game: Athlete Sponsorship" { "Sponsor" "Athlete" }
+p "ROOT" 1 1 "(Sponsor Decision)" { "Keep" "Sponsor Athlete" } 0
+t "" 1 "Keep" { 90 0 }
+p "" 2 1 "(Athlete Decision if Sponsored)" { "Reward Sponsor" "Keep All" } 0
+t "" 2 "Reward Sponsor" { 135 135 }
+t "" 3 "Keep All" { 0 270 }

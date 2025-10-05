@@ -1,0 +1,6 @@
+EFG 2 R "12. Trust Game: Cultural Exchange" { "Cultural Agency" "Partner Institution" }
+p "ROOT" 1 1 "(Agency Decision)" { "Keep" "Send" } 0
+t "" 1 "Keep" { 200 0 }
+p "" 2 1 "(Partner Decision if Sent)" { "Return Generously" "Keep All" } 0
+t "" 2 "Return Generously" { 230 270 }
+t "" 3 "Keep All" { 0 500 }

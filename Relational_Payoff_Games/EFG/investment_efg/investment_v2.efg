@@ -1,0 +1,6 @@
+EFG 2 R "2. Trust Game: Gallery Patronage" { "Patron" "Gallery Director" }
+p "ROOT" 1 1 "(Patron Decision)" { "Keep" "Fund Gallery" } 0
+t "" 1 "Keep" { 80 0 }
+p "" 2 1 "(Director Decision if Funded)" { "Return Portion" "Keep All" } 0
+t "" 2 "Return Portion" { 90 150 }
+t "" 3 "Keep All" { 0 240 }

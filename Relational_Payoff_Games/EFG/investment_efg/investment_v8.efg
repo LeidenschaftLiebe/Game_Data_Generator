@@ -1,0 +1,6 @@
+EFG 2 R "8. Trust Game: City Pilot Program" { "City Office" "Community Partner" }
+p "ROOT" 1 1 "(City Decision)" { "Keep" "Transfer" } 0
+t "" 1 "Keep" { 400 0 }
+p "" 2 1 "(Partner Decision if Transferred)" { "Return Share" "Keep All" } 0
+t "" 2 "Return Share" { 320 480 }
+t "" 3 "Keep All" { 0 800 }

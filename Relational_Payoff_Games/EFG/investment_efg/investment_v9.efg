@@ -1,0 +1,6 @@
+EFG 2 R "9. Trust Game: Producer Prepayment" { "Studio" "Producer" }
+p "ROOT" 1 1 "(Studio Decision)" { "Keep" "Prepay" } 0
+t "" 1 "Keep" { 120 0 }
+p "" 2 1 "(Producer Decision if Prepaid)" { "Return Fair Cut" "Keep All" } 0
+t "" 2 "Return Fair Cut" { 100 200 }
+t "" 3 "Keep All" { 0 300 }

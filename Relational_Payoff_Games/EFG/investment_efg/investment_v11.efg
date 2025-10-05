@@ -1,0 +1,6 @@
+EFG 2 R "11. Trust Game: Agricultural Program" { "Regional Officer" "Local Cooperative" }
+p "ROOT" 1 1 "(Officer Decision)" { "Keep" "Trust Cooperative" } 0
+t "" 1 "Keep" { 120 0 }
+p "" 2 1 "(Cooperative Decision if Trusted)" { "Share Fairly" "Keep All" } 0
+t "" 2 "Share Fairly" { 140 160 }
+t "" 3 "Keep All" { 0 300 }

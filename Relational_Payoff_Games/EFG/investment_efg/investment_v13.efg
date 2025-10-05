@@ -1,0 +1,6 @@
+EFG 2 R "13. Trust Game: Health Equipment Donation" { "Hospital Manager" "Rural Clinic" }
+p "ROOT" 1 1 "(Manager Decision)" { "Keep" "Send" } 0
+t "" 1 "Keep" { 150 0 }
+p "" 2 1 "(Clinic Decision if Sent)" { "Share Reasonably" "Keep All" } 0
+t "" 2 "Share Reasonably" { 180 170 }
+t "" 3 "Keep All" { 0 350 }

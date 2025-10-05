@@ -1,0 +1,6 @@
+EFG 2 R "4. Trust Game: Research Accelerator" { "Sponsor" "Partner Institute" }
+p "ROOT" 1 1 "(Sponsor Decision)" { "Keep" "Transfer" } 0
+t "" 1 "Keep" { 150 0 }
+p "" 2 1 "(Partner Decision if Transferred)" { "Share Generously" "Keep All" } 0
+t "" 2 "Share Generously" { 180 120 }
+t "" 3 "Keep All" { 0 300 }

@@ -1,0 +1,6 @@
+EFG 2 R "18. Trust Game: Corporate Innovation Grant" { "Corporation" "Startup" }
+p "ROOT" 1 1 "(Corporation Decision)" { "Keep" "Assign" } 0
+t "" 1 "Keep" { 350 0 }
+p "" 2 1 "(Startup Decision if Assigned)" { "Reward Partnership" "Keep All" } 0
+t "" 2 "Reward Partnership" { 400 500 }
+t "" 3 "Keep All" { 0 900 }

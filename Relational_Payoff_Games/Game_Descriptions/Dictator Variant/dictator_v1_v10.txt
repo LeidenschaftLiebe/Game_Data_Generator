@@ -1,0 +1,104 @@
+1) Museum Exhibit Fund
+
+A curator controls a single exhibit fund. 
+They may keep everything for the flagship gallery, share a smaller portion with a community program, or split the fund evenly. 
+The community program cannot respond.
+
+
+
+
+
+
+2) City Street Beautification
+
+A mayor’s office controls a one-time beautification budget. 
+The office may retain the entire budget for central projects, pass a smaller portion to a neighborhood council, or divide the budget evenly. 
+The council has no say.
+
+
+
+
+
+
+3) Hospital Equipment Drive
+
+A hospital administrator controls a pooled drive. 
+They may keep the entire amount for central equipment, send a smaller share to a community clinic, or split evenly. 
+The clinic cannot object.
+
+
+
+
+
+
+4) Publishing Outreach Fund
+
+A publisher oversees a fund for author outreach. 
+They may keep the whole fund for marketing, pass a smaller share to a coauthor’s outreach, or split evenly. 
+The coauthor cannot respond.
+
+
+
+
+
+
+5) Startup Tooling Budget
+
+A founder controls a tooling budget. 
+They may keep everything for core development, pass a smaller part to a prototyping team, or split the budget evenly. 
+The prototyping team cannot influence the result.
+
+
+
+
+
+
+6) National Team Training Pool
+
+A team captain controls a one-time training pool. 
+They may keep the entire pool for elite camps, transfer a smaller portion to the general squad, or split evenly. 
+The squad fund cannot respond.
+
+
+
+
+
+
+7) University Lab Discretionary
+
+A department chair holds a discretionary pot. 
+They may keep everything for central lab upgrades, share a smaller amount with a student group, or split evenly. 
+The student group cannot intervene.
+
+
+
+
+
+
+8) Farmers’ Cooperative Surplus
+
+A co-op leader controls the season’s surplus. 
+They may keep all proceeds for central reserves, distribute a smaller share to member services, or split the surplus evenly. 
+Members cannot vote on this round.
+
+
+
+
+
+
+9) Festival Revenue Pot
+
+A festival organizer controls the revenue pot. 
+They may keep everything for next year’s headliners, transfer a smaller portion to volunteer programs, or split evenly. 
+Volunteers cannot respond.
+
+
+
+
+
+
+10) Climate Action Pool
+
+A climate fund manager controls a pooled contribution. 
+They may retain it fully for carbon accounting tools, route a smaller share to local projects, or divide the pool evenly. 
+Local projects cannot alter the decision.

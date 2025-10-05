@@ -1,0 +1,6 @@
+EFG 2 R "14. Trust Game: Humanitarian Logistics $800K" { "Relief Agency" "Logistics Company" }
+p "ROOT" 1 1 "(Agency Decision)" { "Keep 0.8" "Contract 0.8" } 0
+t "" 1 "Keep" { 0.8 0 }
+p "" 2 1 "(Company Decision if Contracted)" { "Return 1.2" "Keep 2.4" } 0
+t "" 2 "Return" { 1.2 1.2 }
+t "" 3 "Keep All" { 0 2.4 }

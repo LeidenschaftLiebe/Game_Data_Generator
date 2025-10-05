@@ -1,0 +1,6 @@
+EFG 2 R "16. Trust Game: Sports Sponsorship $2M" { "Brand Manager" "Athlete" }
+p "ROOT" 1 1 "(Manager Decision)" { "Keep 2" "Fund 2" } 0
+t "" 1 "Keep" { 2 0 }
+p "" 2 1 "(Athlete Decision if Funded)" { "Return 2" "Keep 4" } 0
+t "" 2 "Return" { 2 2 }
+t "" 3 "Keep All" { 0 4 }

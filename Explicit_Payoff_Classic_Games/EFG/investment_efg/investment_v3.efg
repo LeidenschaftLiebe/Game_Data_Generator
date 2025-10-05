@@ -1,0 +1,6 @@
+EFG 2 R "3. Trust Game: University Fund $500K" { "Committee" "Research Lab" }
+p "ROOT" 1 1 "(Committee Decision)" { "Keep 500" "Invest 500" } 0
+t "" 1 "Keep" { 500 0 }
+p "" 2 1 "(Lab Decision if Invested)" { "Return 750" "Keep 1500" } 0
+t "" 2 "Return" { 750 750 }
+t "" 3 "Keep All" { 0 1500 }

@@ -1,0 +1,6 @@
+EFG 2 R "7. Trust Game: Film Investment $2M" { "Investor" "Director" }
+p "ROOT" 1 1 "(Investor Decision)" { "Keep 2" "Fund 2" } 0
+t "" 1 "Keep" { 2 0 }
+p "" 2 1 "(Director Decision if Funded)" { "Return 3" "Keep 6" } 0
+t "" 2 "Return" { 3 3 }
+t "" 3 "Keep All" { 0 6 }

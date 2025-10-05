@@ -1,0 +1,6 @@
+EFG 2 R "18. Trust Game: Tech Grant $4M" { "Philanthropist" "Tech Startup" }
+p "ROOT" 1 1 "(Philanthropist Decision)" { "Keep 4" "Grant 4" } 0
+t "" 1 "Keep" { 4 0 }
+p "" 2 1 "(Startup Decision if Granted)" { "Return 6" "Keep 12" } 0
+t "" 2 "Return" { 6 6 }
+t "" 3 "Keep All" { 0 12 }

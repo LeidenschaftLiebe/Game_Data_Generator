@@ -1,0 +1,6 @@
+EFG 2 R "10. Trust Game: Tech Licensing $5M" { "Tech Firm" "Startup Partner" }
+p "ROOT" 1 1 "(Tech Firm Decision)" { "Keep 5" "License 5" } 0
+t "" 1 "Keep" { 5 0 }
+p "" 2 1 "(Partner Decision if Licensed)" { "Return 7.5" "Keep 15" } 0
+t "" 2 "Return" { 7.5 7.5 }
+t "" 3 "Keep All" { 0 15 }

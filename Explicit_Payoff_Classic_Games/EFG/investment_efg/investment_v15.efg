@@ -1,0 +1,6 @@
+EFG 2 R "15. Trust Game: Farming Loan $100K" { "Bank" "Cooperative" }
+p "ROOT" 1 1 "(Bank Decision)" { "Keep 100" "Lend 100" } 0
+t "" 1 "Keep" { 100 0 }
+p "" 2 1 "(Coop Decision if Lent)" { "Return 150" "Keep 300" } 0
+t "" 2 "Return" { 150 150 }
+t "" 3 "Keep All" { 0 300 }

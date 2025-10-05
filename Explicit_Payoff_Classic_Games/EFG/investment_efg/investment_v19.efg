@@ -1,0 +1,6 @@
+EFG 2 R "19. Trust Game: Hospital Research $900K" { "Administrator" "Research Team" }
+p "ROOT" 1 1 "(Administrator Decision)" { "Keep 0.9" "Invest 0.9" } 0
+t "" 1 "Keep" { 0.9 0 }
+p "" 2 1 "(Team Decision if Invested)" { "Return 0.9" "Keep 1.8" } 0
+t "" 2 "Return" { 0.9 0.9 }
+t "" 3 "Keep All" { 0 1.8 }

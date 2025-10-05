@@ -1,0 +1,6 @@
+EFG 2 R "17. Trust Game: Housing Project $600K" { "City Council" "Contractor" }
+p "ROOT" 1 1 "(Council Decision)" { "Keep 0.6" "Transfer 0.6" } 0
+t "" 1 "Keep" { 0.6 0 }
+p "" 2 1 "(Contractor Decision if Transferred)" { "Return 0.6" "Keep 1.2" } 0
+t "" 2 "Return" { 0.6 0.6 }
+t "" 3 "Keep All" { 0 1.2 }

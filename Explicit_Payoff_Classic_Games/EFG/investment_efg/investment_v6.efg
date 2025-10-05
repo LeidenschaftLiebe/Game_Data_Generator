@@ -1,0 +1,6 @@
+EFG 2 R "6. Trust Game: Microloan $20K" { "Lender" "Entrepreneur" }
+p "ROOT" 1 1 "(Lender Decision)" { "Keep 20" "Lend 20" } 0
+t "" 1 "Keep" { 20 0 }
+p "" 2 1 "(Entrepreneur Decision if Lent)" { "Return 30" "Keep 60" } 0
+t "" 2 "Return" { 30 30 }
+t "" 3 "Keep All" { 0 60 }

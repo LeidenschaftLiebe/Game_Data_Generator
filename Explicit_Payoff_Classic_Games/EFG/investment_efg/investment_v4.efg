@@ -1,0 +1,6 @@
+EFG 2 R "4. Trust Game: Humanitarian Aid $3M" { "Donor" "Local NGO" }
+p "ROOT" 1 1 "(Donor Decision)" { "Keep 3" "Transfer 3" } 0
+t "" 1 "Keep" { 3 0 }
+p "" 2 1 "(NGO Decision if Transferred)" { "Return 4.5" "Keep 9" } 0
+t "" 2 "Return" { 4.5 4.5 }
+t "" 3 "Keep All" { 0 9 }

@@ -1,0 +1,6 @@
+EFG 2 R "2. Trust Game: Family Business $1M" { "Parent" "Child" }
+p "ROOT" 1 1 "(Parent Decision)" { "Keep 1" "Invest 1" } 0
+t "" 1 "Keep" { 1 0 }
+p "" 2 1 "(Child Decision if Invested)" { "Return 1" "Keep 2" } 0
+t "" 2 "Return" { 1 1 }
+t "" 3 "Keep All" { 0 2 }

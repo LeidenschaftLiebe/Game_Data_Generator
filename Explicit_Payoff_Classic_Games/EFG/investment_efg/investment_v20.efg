@@ -1,0 +1,6 @@
+EFG 2 R "20. Trust Game: Real Estate Partnership $10M" { "Investor" "Developer" }
+p "ROOT" 1 1 "(Investor Decision)" { "Keep 10" "Invest 10" } 0
+t "" 1 "Keep" { 10 0 }
+p "" 2 1 "(Developer Decision if Invested)" { "Return 10" "Keep 20" } 0
+t "" 2 "Return" { 10 10 }
+t "" 3 "Keep All" { 0 20 }

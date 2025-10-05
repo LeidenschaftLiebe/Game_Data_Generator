@@ -1,0 +1,6 @@
+EFG 2 R "8. Trust Game: Field Grant $400K" { "Organization" "Field Partner" }
+p "ROOT" 1 1 "(Organization Decision)" { "Keep 400" "Send 400" } 0
+t "" 1 "Keep" { 400 0 }
+p "" 2 1 "(Field Partner Decision if Sent)" { "Return 400" "Keep 800" } 0
+t "" 2 "Return" { 400 400 }
+t "" 3 "Keep All" { 0 800 }

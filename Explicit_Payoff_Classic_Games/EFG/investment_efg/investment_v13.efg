@@ -1,0 +1,6 @@
+EFG 2 R "13. Trust Game: Renewable Energy $5M" { "Energy Investor" "Developer" }
+p "ROOT" 1 1 "(Investor Decision)" { "Keep 5" "Invest 5" } 0
+t "" 1 "Keep" { 5 0 }
+p "" 2 1 "(Developer Decision if Invested)" { "Return 5" "Keep 10" } 0
+t "" 2 "Return" { 5 5 }
+t "" 3 "Keep All" { 0 10 }

@@ -1,0 +1,6 @@
+EFG 2 R "9. Trust Game: Supplier Advance $500K" { "Corporation" "Supplier" }
+p "ROOT" 1 1 "(Corporation Decision)" { "Keep 500" "Advance 500" } 0
+t "" 1 "Keep" { 500 0 }
+p "" 2 1 "(Supplier Decision if Advanced)" { "Return 500" "Keep 1000" } 0
+t "" 2 "Return" { 500 500 }
+t "" 3 "Keep All" { 0 1000 }

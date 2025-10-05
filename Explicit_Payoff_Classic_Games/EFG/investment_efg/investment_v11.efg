@@ -1,0 +1,6 @@
+EFG 2 R "11. Trust Game: Climate Research $1M" { "Science Agency" "Research Firm" }
+p "ROOT" 1 1 "(Agency Decision)" { "Keep 1" "Fund 1" } 0
+t "" 1 "Keep" { 1 0 }
+p "" 2 1 "(Firm Decision if Funded)" { "Return 1.5" "Keep 3" } 0
+t "" 2 "Return" { 1.5 1.5 }
+t "" 3 "Keep All" { 0 3 }

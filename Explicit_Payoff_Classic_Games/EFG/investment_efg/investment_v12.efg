@@ -1,0 +1,6 @@
+EFG 2 R "12. Trust Game: Art Gallery $200K" { "Collector" "Gallery" }
+p "ROOT" 1 1 "(Collector Decision)" { "Keep 200" "Invest 200" } 0
+t "" 1 "Keep" { 200 0 }
+p "" 2 1 "(Gallery Decision if Invested)" { "Return 300" "Keep 600" } 0
+t "" 2 "Return" { 300 300 }
+t "" 3 "Keep All" { 0 600 }

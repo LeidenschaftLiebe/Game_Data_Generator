@@ -1,0 +1,8 @@
+EFG 2 R "Ultimatum: Shop Owner vs Supplier $50 (50/50 vs 90/10)" { "Shop Owner" "Supplier" }
+p "ROOT" 1 1 "(Offer)" { "Offer 50/50" "Offer 90/10" } 0
+p "" 2 1 "(After 50/50)" { "Accept" "Reject" } 0
+t "" 1 "50/50 Accept" { 25 25 }
+t "" 2 "50/50 Reject" { 0 0 }
+p "" 2 2 "(After 90/10)" { "Accept" "Reject" } 0
+t "" 3 "90/10 Accept" { 45 5 }
+t "" 4 "90/10 Reject" { 0 0 }

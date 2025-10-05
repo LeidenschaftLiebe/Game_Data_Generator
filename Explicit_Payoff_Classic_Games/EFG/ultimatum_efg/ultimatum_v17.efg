@@ -1,0 +1,8 @@
+EFG 2 R "Ultimatum: Sponsorship $120 (60/40 vs 85/15)" { "Captain" "Vice-Captain" }
+p "ROOT" 1 1 "(Offer)" { "Offer 60/40" "Offer 85/15" } 0
+p "" 2 1 "(After 60/40)" { "Accept" "Reject" } 0
+t "" 1 "60/40 Accept" { 72 48 }
+t "" 2 "60/40 Reject" { 0 0 }
+p "" 2 2 "(After 85/15)" { "Accept" "Reject" } 0
+t "" 3 "85/15 Accept" { 102 18 }
+t "" 4 "85/15 Reject" { 0 0 }

@@ -1,0 +1,8 @@
+EFG 2 R "Ultimatum: Bank vs Investor $40 (50/50 vs 80/20)" { "Bank" "Investor" }
+p "ROOT" 1 1 "(Offer)" { "Offer 50/50" "Offer 80/20" } 0
+p "" 2 1 "(After 50/50)" { "Accept" "Reject" } 0
+t "" 1 "50/50 Accept" { 20 20 }
+t "" 2 "50/50 Reject" { 0 0 }
+p "" 2 2 "(After 80/20)" { "Accept" "Reject" } 0
+t "" 3 "80/20 Accept" { 32 8 }
+t "" 4 "80/20 Reject" { 0 0 }

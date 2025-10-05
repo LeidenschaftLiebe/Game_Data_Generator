@@ -1,0 +1,8 @@
+EFG 2 R "Ultimatum: Coauthor Royalties $90 (60/40 vs 70/30)" { "Lead Author" "Coauthor" }
+p "ROOT" 1 1 "(Offer)" { "Offer 60/40" "Offer 70/30" } 0
+p "" 2 1 "(After 60/40)" { "Accept" "Reject" } 0
+t "" 1 "60/40 Accept" { 54 36 }
+t "" 2 "60/40 Reject" { 0 0 }
+p "" 2 2 "(After 70/30)" { "Accept" "Reject" } 0
+t "" 3 "70/30 Accept" { 63 27 }
+t "" 4 "70/30 Reject" { 0 0 }

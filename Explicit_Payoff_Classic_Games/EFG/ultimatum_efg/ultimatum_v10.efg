@@ -1,0 +1,8 @@
+EFG 2 R "Ultimatum: Construction Contract $24 (50/50 vs 75/25)" { "Builder" "Electrician" }
+p "ROOT" 1 1 "(Offer)" { "Offer 50/50" "Offer 75/25" } 0
+p "" 2 1 "(After 50/50)" { "Accept" "Reject" } 0
+t "" 1 "50/50 Accept" { 12 12 }
+t "" 2 "50/50 Reject" { 0 0 }
+p "" 2 2 "(After 75/25)" { "Accept" "Reject" } 0
+t "" 3 "75/25 Accept" { 18 6 }
+t "" 4 "75/25 Reject" { 0 0 }

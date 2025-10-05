@@ -1,0 +1,104 @@
+11. Restaurant Tip Split — $40
+
+A waiter and a busser are splitting a $40 tip left by a large table.
+The waiter decides whether to share it evenly or keep most with an 80/20 split.
+The busser may accept or reject. If they reject, the manager takes back the tip to the pool.
+
+
+
+
+
+
+12. Movie Revenue Share — $100
+
+A film director and a screenwriter are dividing $100 in royalties.
+The director can propose a balanced 60/40 split or a controlling 85/15 division.
+The writer may accept or reject. Rejection voids the payment from the studio.
+
+
+
+
+
+
+13. Farmer and Trader — $60
+
+A farmer sells produce to a trader for $60. The trader offers to share the profit.
+They can split it evenly or keep more with a 70/30 offer.
+The farmer can accept or reject. Rejection means the deal is cancelled.
+
+
+
+
+
+
+14. Lottery Winnings — $200
+
+Two coworkers jointly bought a lottery ticket and won $200.
+The one who bought the ticket controls the winnings and can offer a fair 50/50 split or a greedy 90/10 split.
+The coworker may accept or reject. A rejection sends the unclaimed prize back to the lottery office.
+
+
+
+
+
+
+15. Research Grant Distribution — $80
+
+A principal investigator and an assistant researcher must divide an $80 grant bonus.
+The PI can offer a modest 55/45 or claim more with an 85/15 division.
+The assistant can accept or reject. Rejection means the grant expires.
+
+
+
+
+
+
+16. Art Gallery Sale — $50
+
+An art gallery sells a painting for $50.
+The gallery owner can offer the artist either a fair 60/40 division or a low 80/20 share.
+The artist decides whether to accept or reject. Rejection voids the sale and both lose the payment.
+
+
+
+
+
+
+17. Sports Sponsorship — $120
+
+A sports team wins $120 from a sponsorship deal.
+The team captain proposes how to divide it with the vice-captain: either 60/40 or 85/15.
+The vice-captain may accept or reject. A rejection cancels the deal.
+
+
+
+
+
+
+18. Design Agency Project — $70
+
+A client pays $70 for a joint design project.
+The lead designer can propose an equal 50/50 split or a 75/25 share in their favour.
+The junior designer can accept or reject. A rejection means the client cancels the payment.
+
+
+
+
+
+
+19. Academic Coauthor Royalties — $90
+
+Two coauthors receive $90 in royalties from a book sale.
+The lead author can offer 60/40 or claim more with a 70/30 division.
+The coauthor can accept or reject. If rejected, the publisher keeps the funds.
+
+
+
+
+
+
+20. Fishing Cooperative — $100
+
+Two fishers caught $100 worth of fish.
+The one who owns the boat can offer either a fair 50/50 split or keep most with an 80/20 share.
+The crew member can accept or reject. If rejected, the fish are left to spoil and neither earns anything.

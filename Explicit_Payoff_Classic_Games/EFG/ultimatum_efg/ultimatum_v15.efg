@@ -1,0 +1,8 @@
+EFG 2 R "Ultimatum: Research Grant $80 (55/45 vs 85/15)" { "Principal Investigator" "Research Assistant" }
+p "ROOT" 1 1 "(Offer)" { "Offer 55/45" "Offer 85/15" } 0
+p "" 2 1 "(After 55/45)" { "Accept" "Reject" } 0
+t "" 1 "55/45 Accept" { 44 36 }
+t "" 2 "55/45 Reject" { 0 0 }
+p "" 2 2 "(After 85/15)" { "Accept" "Reject" } 0
+t "" 3 "85/15 Accept" { 68 12 }
+t "" 4 "85/15 Reject" { 0 0 }

@@ -1,0 +1,8 @@
+EFG 2 R "Ultimatum: Advertising Agency $120 (60/40 vs 90/10)" { "Creative Director" "Account Manager" }
+p "ROOT" 1 1 "(Offer)" { "Offer 60/40" "Offer 90/10" } 0
+p "" 2 1 "(After 60/40)" { "Accept" "Reject" } 0
+t "" 1 "60/40 Accept" { 72 48 }
+t "" 2 "60/40 Reject" { 0 0 }
+p "" 2 2 "(After 90/10)" { "Accept" "Reject" } 0
+t "" 3 "90/10 Accept" { 108 12 }
+t "" 4 "90/10 Reject" { 0 0 }

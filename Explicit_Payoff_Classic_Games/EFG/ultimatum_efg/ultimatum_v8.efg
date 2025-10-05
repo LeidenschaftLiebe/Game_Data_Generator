@@ -1,0 +1,8 @@
+EFG 2 R "Ultimatum: Engineering Team $80 (55/45 vs 75/25)" { "Project Manager" "Assistant Engineer" }
+p "ROOT" 1 1 "(Offer)" { "Offer 55/45" "Offer 75/25" } 0
+p "" 2 1 "(After 55/45)" { "Accept" "Reject" } 0
+t "" 1 "55/45 Accept" { 44 36 }
+t "" 2 "55/45 Reject" { 0 0 }
+p "" 2 2 "(After 75/25)" { "Accept" "Reject" } 0
+t "" 3 "75/25 Accept" { 60 20 }
+t "" 4 "75/25 Reject" { 0 0 }

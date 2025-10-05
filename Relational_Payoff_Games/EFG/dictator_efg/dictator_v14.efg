@@ -1,0 +1,5 @@
+EFG 2 R "14. Dictator: Cultural Exchange Fund" { "Diplomat" "Partner Delegation" }
+p "ROOT" 1 1 "(Decision)" { "Reserve All" "Offer Some" "Share Equally" } 0
+t "" 1 "Reserve All" { 90 0 }
+t "" 2 "Offer Some" { 60 30 }
+t "" 3 "Share Equally" { 45 45 }

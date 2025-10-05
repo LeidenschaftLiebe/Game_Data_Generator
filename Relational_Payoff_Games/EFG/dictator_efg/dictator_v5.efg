@@ -1,0 +1,5 @@
+EFG 2 R "5. Dictator: Startup Tooling Budget" { "Founder" "Prototyping Team" }
+p "ROOT" 1 1 "(Decision)" { "Keep All" "Give 20" "Split 35/35" } 0
+t "" 1 "Keep All" { 70 0 }
+t "" 2 "Give 20"  { 50 20 }
+t "" 3 "Split 35/35" { 35 35 }

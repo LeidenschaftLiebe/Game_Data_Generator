@@ -1,0 +1,5 @@
+EFG 2 R "8. Dictator: Farmers' Cooperative Surplus" { "Co-op Leader" "Member Services" }
+p "ROOT" 1 1 "(Decision)" { "Keep All" "Give 25" "Split 37.5/37.5" } 0
+t "" 1 "Keep All" { 75 0 }
+t "" 2 "Give 25"  { 50 25 }
+t "" 3 "Split 37.5/37.5" { 37.5 37.5 }

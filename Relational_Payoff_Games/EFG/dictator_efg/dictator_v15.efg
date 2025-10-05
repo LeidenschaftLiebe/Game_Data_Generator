@@ -1,0 +1,5 @@
+EFG 2 R "15. Dictator: Wildlife Conservation Grant" { "Conservation Director" "Rural Sanctuary" }
+p "ROOT" 1 1 "(Grant Allocation)" { "Keep Majority" "Give Portion" "Split Evenly" } 0
+t "" 1 "Keep Majority" { 100 0 }
+t "" 2 "Give Portion" { 75 25 }
+t "" 3 "Split Evenly" { 50 50 }

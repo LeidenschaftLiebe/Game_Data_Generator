@@ -1,0 +1,5 @@
+EFG 2 R "16. Dictator: Technology Development Bonus" { "Senior Engineer" "Junior Developer" }
+p "ROOT" 1 1 "(Bonus Decision)" { "Keep All" "Give Small Share" "Split Evenly" } 0
+t "" 1 "Keep All" { 70 0 }
+t "" 2 "Give Small Share" { 50 20 }
+t "" 3 "Split Evenly" { 35 35 }

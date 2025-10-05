@@ -1,0 +1,5 @@
+EFG 2 R "12. Dictator: University Partnership Award" { "Senior Professor" "Junior Collaborator" }
+p "ROOT" 1 1 "(Award Division)" { "Keep Most" "Give Some" "Split Evenly" } 0
+t "" 1 "Keep Most" { 90 10 }
+t "" 2 "Give Some" { 65 35 }
+t "" 3 "Split Evenly" { 50 50 }

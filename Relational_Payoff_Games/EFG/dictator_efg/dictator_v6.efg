@@ -1,0 +1,5 @@
+EFG 2 R "6. Dictator: Team Training Pool" { "Captain" "Squad Fund" }
+p "ROOT" 1 1 "(Decision)" { "Keep All" "Give 40" "Split 60/60" } 0
+t "" 1 "Keep All" { 120 0 }
+t "" 2 "Give 40"  { 80 40 }
+t "" 3 "Split 60/60" { 60 60 }

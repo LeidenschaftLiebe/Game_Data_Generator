@@ -1,0 +1,5 @@
+EFG 2 R "19. Dictator: Campaign Donation" { "Campaign Manager" "Regional Team" }
+p "ROOT" 1 1 "(Donation Allocation)" { "Keep All" "Give Share" "Split Equally" } 0
+t "" 1 "Keep All" { 100 0 }
+t "" 2 "Give Share" { 75 25 }
+t "" 3 "Split Equally" { 50 50 }

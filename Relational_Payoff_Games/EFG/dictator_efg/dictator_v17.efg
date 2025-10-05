@@ -1,0 +1,5 @@
+EFG 2 R "17. Dictator: Research Prize Distribution" { "Lead Scientist" "Research Assistant" }
+p "ROOT" 1 1 "(Prize Division)" { "Keep Most" "Give Some" "Share Equally" } 0
+t "" 1 "Keep Most" { 100 0 }
+t "" 2 "Give Some" { 70 30 }
+t "" 3 "Share Equally" { 50 50 }

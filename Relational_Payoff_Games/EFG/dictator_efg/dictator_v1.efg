@@ -1,0 +1,5 @@
+EFG 2 R "1. Dictator: Museum Exhibit Fund" { "Curator" "Community Program" }
+p "ROOT" 1 1 "(Allocation)" { "Keep All" "Give 30" "Split 50/50" } 0
+t "" 1 "Keep All" { 100 0 }
+t "" 2 "Give 30"  { 70 30 }
+t "" 3 "Split 50/50" { 50 50 }

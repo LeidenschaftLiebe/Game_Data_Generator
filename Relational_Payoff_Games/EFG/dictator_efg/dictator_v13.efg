@@ -1,0 +1,5 @@
+EFG 2 R "13. Dictator: Humanitarian Transport Budget" { "Coordinator" "Regional Partner" }
+p "ROOT" 1 1 "(Distribution Choice)" { "Keep All" "Send Small Part" "Divide Evenly" } 0
+t "" 1 "Keep All" { 80 0 }
+t "" 2 "Send Small Part" { 55 25 }
+t "" 3 "Divide Evenly" { 40 40 }

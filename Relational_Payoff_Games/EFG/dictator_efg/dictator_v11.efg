@@ -1,0 +1,5 @@
+EFG 2 R "11. Dictator: Renewable Energy Subsidy" { "Energy Officer" "Solar Cooperatives" }
+p "ROOT" 1 1 "(Funding Allocation)" { "Keep Majority" "Give Smaller Portion" "Share Equally" } 0
+t "" 1 "Keep Majority" { 100 0 }
+t "" 2 "Give Smaller Portion" { 70 30 }
+t "" 3 "Share Equally" { 50 50 }

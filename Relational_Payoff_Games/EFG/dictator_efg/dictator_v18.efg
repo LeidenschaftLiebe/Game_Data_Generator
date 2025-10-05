@@ -1,0 +1,5 @@
+EFG 2 R "18. Dictator: Refugee Shelter Funding" { "Coordinator" "Neighboring Camp" }
+p "ROOT" 1 1 "(Funding Decision)" { "Keep All" "Send Portion" "Share Evenly" } 0
+t "" 1 "Keep All" { 90 0 }
+t "" 2 "Send Portion" { 60 30 }
+t "" 3 "Share Evenly" { 45 45 }

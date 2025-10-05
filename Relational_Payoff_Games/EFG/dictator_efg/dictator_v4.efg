@@ -1,0 +1,5 @@
+EFG 2 R "4. Dictator: Publishing Outreach Fund" { "Publisher" "Coauthor" }
+p "ROOT" 1 1 "(Decision)" { "Keep All" "Give 30" "Split 45/45" } 0
+t "" 1 "Keep All" { 90 0 }
+t "" 2 "Give 30"  { 60 30 }
+t "" 3 "Split 45/45" { 45 45 }

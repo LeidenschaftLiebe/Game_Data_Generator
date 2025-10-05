@@ -1,0 +1,5 @@
+EFG 2 R "20. Dictator: Infrastructure Partnership" { "Main Firm" "Local Contractor" }
+p "ROOT" 1 1 "(Subsidy Decision)" { "Keep Entirely" "Give Some" "Share Evenly" } 0
+t "" 1 "Keep Entirely" { 120 0 }
+t "" 2 "Give Some" { 80 40 }
+t "" 3 "Share Evenly" { 60 60 }

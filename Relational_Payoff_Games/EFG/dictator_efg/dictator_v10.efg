@@ -1,0 +1,5 @@
+EFG 2 R "10. Dictator: Climate Action Pool" { "Fund Manager" "Local Projects" }
+p "ROOT" 1 1 "(Decision)" { "Keep All" "Give 15" "Split 25/25" } 0
+t "" 1 "Keep All" { 50 0 }
+t "" 2 "Give 15"  { 35 15 }
+t "" 3 "Split 25/25" { 25 25 }

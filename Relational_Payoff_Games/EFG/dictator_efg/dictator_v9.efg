@@ -1,0 +1,5 @@
+EFG 2 R "9. Dictator: Festival Revenue Pot" { "Organizer" "Volunteer Program" }
+p "ROOT" 1 1 "(Allocation)" { "Keep All" "Give 10" "Split 20/20" } 0
+t "" 1 "Keep All" { 40 0 }
+t "" 2 "Give 10"  { 30 10 }
+t "" 3 "Split 20/20" { 20 20 }

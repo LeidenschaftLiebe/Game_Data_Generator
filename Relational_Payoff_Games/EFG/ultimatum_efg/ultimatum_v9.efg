@@ -1,0 +1,8 @@
+EFG 2 R "9. Wedding Gift Split (Even vs Selfish)" { "Spouse A" "Spouse B" }
+p "ROOT" 1 1 "(Proposal)" { "Even Division" "Selfish Division" } 0
+p "" 2 1 "(After Even Division)" { "Accept" "Reject" } 0
+t "" 1 "Even Accept" { 50 50 }
+t "" 2 "Even Reject" { 0 0 }
+p "" 2 2 "(After Selfish Division)" { "Accept" "Reject" } 0
+t "" 3 "Selfish Accept" { 80 20 }
+t "" 4 "Selfish Reject" { 0 0 }

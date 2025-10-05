@@ -1,0 +1,8 @@
+EFG 2 R "13. Merger Severance Pool (Even vs Acquirer-Heavy)" { "Acquiring Firm" "Acquired Team Rep" }
+p "ROOT" 1 1 "(Proposal)" { "Even Arrangement" "Acquirer-Heavy Arrangement" } 0
+p "" 2 1 "(After Even Arrangement)" { "Accept" "Reject" } 0
+t "" 1 "Even Accept" { 50 50 }
+t "" 2 "Even Reject" { 0 0 }
+p "" 2 2 "(After Acquirer-Heavy Arrangement)" { "Accept" "Reject" } 0
+t "" 3 "Heavy Accept" { 70 30 }
+t "" 4 "Heavy Reject" { 0 0 }

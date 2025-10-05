@@ -1,0 +1,8 @@
+EFG 2 R "5. Neighborhood Renovation (Fair vs Advantageous)" { "Project Manager" "Neighbor" }
+p "ROOT" 1 1 "(Proposal)" { "Fair Division" "Advantageous Division" } 0
+p "" 2 1 "(After Fair Division)" { "Accept" "Reject" } 0
+t "" 1 "Fair Accept" { 50 50 }
+t "" 2 "Fair Reject" { 0 0 }
+p "" 2 2 "(After Advantageous Division)" { "Accept" "Reject" } 0
+t "" 3 "Advantageous Accept" { 75 25 }
+t "" 4 "Advantageous Reject" { 0 0 }

@@ -1,0 +1,8 @@
+EFG 2 R "8. Village Water Project (Equal vs Priority)" { "Leader A" "Leader B" }
+p "ROOT" 1 1 "(Proposal)" { "Equal Sharing" "Priority Plan" } 0
+p "" 2 1 "(After Equal Sharing)" { "Accept" "Reject" } 0
+t "" 1 "Equal Accept" { 45 45 }
+t "" 2 "Equal Reject" { 0 0 }
+p "" 2 2 "(After Priority Plan)" { "Accept" "Reject" } 0
+t "" 3 "Priority Accept" { 80 10 }
+t "" 4 "Priority Reject" { 0 0 }

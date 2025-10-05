@@ -1,0 +1,8 @@
+EFG 2 R "18. Tech Licensing Fee (Even vs Holder-First)" { "Patent Holder" "Licensee" }
+p "ROOT" 1 1 "(Proposal)" { "Even Split" "Holder-First Split" } 0
+p "" 2 1 "(After Even Split)" { "Accept" "Reject" } 0
+t "" 1 "Even Accept" { 50 50 }
+t "" 2 "Even Reject" { 0 0 }
+p "" 2 2 "(After Holder-First Split)" { "Accept" "Reject" } 0
+t "" 3 "Holder-First Accept" { 85 15 }
+t "" 4 "Holder-First Reject" { 0 0 }

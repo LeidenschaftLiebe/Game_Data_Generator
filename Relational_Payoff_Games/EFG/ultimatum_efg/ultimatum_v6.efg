@@ -1,0 +1,8 @@
+EFG 2 R "6. Campaign Budget Split (Even vs Uneven)" { "Manager" "Advisor" }
+p "ROOT" 1 1 "(Proposal)" { "Even Allocation" "Uneven Allocation" } 0
+p "" 2 1 "(After Even Allocation)" { "Accept" "Reject" } 0
+t "" 1 "Even Accept" { 60 60 }
+t "" 2 "Even Reject" { 0 0 }
+p "" 2 2 "(After Uneven Allocation)" { "Accept" "Reject" } 0
+t "" 3 "Uneven Accept" { 85 35 }
+t "" 4 "Uneven Reject" { 0 0 }

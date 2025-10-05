@@ -1,0 +1,8 @@
+EFG 2 R "2. Community Fund Allocation (Equitable vs Self-Favouring)" { "Chairperson" "Deputy Leader" }
+p "ROOT" 1 1 "(Proposal)" { "Equitable Plan" "Self-Favouring Plan" } 0
+p "" 2 1 "(After Equitable Plan)" { "Accept" "Reject" } 0
+t "" 1 "Equitable Accept" { 60 60 }
+t "" 2 "Equitable Reject" { 0 0 }
+p "" 2 2 "(After Self-Favouring Plan)" { "Accept" "Reject" } 0
+t "" 3 "Self-Favouring Accept" { 90 30 }
+t "" 4 "Self-Favouring Reject" { 0 0 }

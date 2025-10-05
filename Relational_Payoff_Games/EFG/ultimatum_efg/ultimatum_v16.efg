@@ -1,0 +1,8 @@
+EFG 2 R "16. Disaster Relief (Cooperative vs Agency-First)" { "International Agency" "Local NGO" }
+p "ROOT" 1 1 "(Proposal)" { "Cooperative Division" "Agency-First Division" } 0
+p "" 2 1 "(After Cooperative Division)" { "Accept" "Reject" } 0
+t "" 1 "Cooperative Accept" { 50 50 }
+t "" 2 "Cooperative Reject" { 0 0 }
+p "" 2 2 "(After Agency-First Division)" { "Accept" "Reject" } 0
+t "" 3 "Agency-First Accept" { 75 25 }
+t "" 4 "Agency-First Reject" { 0 0 }

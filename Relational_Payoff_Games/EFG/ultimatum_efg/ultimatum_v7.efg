@@ -1,0 +1,8 @@
+EFG 2 R "7. University Grant (Cooperative vs Self-Focused)" { "Lead Professor" "Co-Professor" }
+p "ROOT" 1 1 "(Proposal)" { "Cooperative Division" "Self-Focused Division" } 0
+p "" 2 1 "(After Cooperative Division)" { "Accept" "Reject" } 0
+t "" 1 "Cooperative Accept" { 70 70 }
+t "" 2 "Cooperative Reject" { 0 0 }
+p "" 2 2 "(After Self-Focused Division)" { "Accept" "Reject" } 0
+t "" 3 "Self-Focused Accept" { 100 40 }
+t "" 4 "Self-Focused Reject" { 0 0 }

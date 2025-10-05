@@ -1,0 +1,8 @@
+EFG 2 R "19. Peace Dividend (Balanced vs Defense-Heavy)" { "Defense Ministry" "Health Ministry" }
+p "ROOT" 1 1 "(Proposal)" { "Balanced Reallocation" "Defense-Heavy Plan" } 0
+p "" 2 1 "(After Balanced Reallocation)" { "Accept" "Reject" } 0
+t "" 1 "Balanced Accept" { 50 50 }
+t "" 2 "Balanced Reject" { 0 0 }
+p "" 2 2 "(After Defense-Heavy Plan)" { "Accept" "Reject" } 0
+t "" 3 "Defense-Heavy Accept" { 80 20 }
+t "" 4 "Defense-Heavy Reject" { 0 0 }

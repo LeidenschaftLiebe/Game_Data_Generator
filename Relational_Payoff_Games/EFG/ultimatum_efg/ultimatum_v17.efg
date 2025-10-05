@@ -1,0 +1,8 @@
+EFG 2 R "17. University Endowment (Balanced vs Chair-Heavy)" { "Board Chair" "Department Coalition" }
+p "ROOT" 1 1 "(Proposal)" { "Balanced Plan" "Chair-Heavy Plan" } 0
+p "" 2 1 "(After Balanced Plan)" { "Accept" "Reject" } 0
+t "" 1 "Balanced Accept" { 50 50 }
+t "" 2 "Balanced Reject" { 0 0 }
+p "" 2 2 "(After Chair-Heavy Plan)" { "Accept" "Reject" } 0
+t "" 3 "Chair-Heavy Accept" { 70 30 }
+t "" 4 "Chair-Heavy Reject" { 0 0 }

@@ -1,0 +1,128 @@
+1) Film Production Profit Division
+
+A film producer and a lead actor are dividing a box-office bonus.
+The producer speaks first and presents two options that are both better for the producer than for the actor.
+If the actor accepts, the agreement is settled immediately.
+If the actor rejects, time passes and the total pool becomes smaller before the actor proposes a response that is better for the actor.
+The producer then chooses to accept that response or decline it, in which case the reduced pool is split evenly.
+
+
+
+
+
+
+2) Real-Estate Developers’ Deal
+
+Two developers are sharing the proceeds from a joint project.
+The senior developer proposes first and lists two divisions that leave the senior developer ahead.
+If the junior developer accepts, the project closes immediately.
+If not, paperwork and marketing delays reduce the overall amount before the junior developer proposes a more favorable split for themselves.
+The senior developer then either accepts that split or declines and both take an even share of the smaller amount.
+
+
+
+
+
+
+3) Music Distribution Royalties
+
+A record label and an independent artist are sharing streaming income.
+The label goes first with two proposals that keep the label ahead of the artist.
+If the artist accepts, the royalties are divided at once.
+If the artist rejects, momentum cools and the total amount becomes smaller; then the artist proposes a more favorable division for the artist.
+The label either accepts that response or declines and both split the smaller total equally.
+
+
+
+
+
+
+4) Tech Patent Licensing
+
+A technology company and a university are allocating license revenue.
+The company starts and names two options that are better for the company than for the university.
+If the university accepts, the terms take effect immediately.
+If the university rejects, the opportunity narrows and the total becomes smaller; 
+The university then puts forward a response that gives the university the better share.
+The company either accepts that response or declines and both divide the smaller total evenly.
+
+
+
+
+
+
+5) Startup Acquisition
+
+Two founders are splitting an acquisition payout.
+The chief executive founder opens with two offers that lean toward the chief executive.
+If the other founder accepts, the division happens at once.
+If the other founder rejects, the closing is delayed and the total proceeds become smaller; 
+The other founder then answers with a split that leans toward the other founder.
+The chief executive founder then accepts that answer or rejects and both take an even share of the reduced amount.
+
+
+
+
+
+
+6) Sports Sponsorship Deal
+
+A sports team and a brand sponsor are dividing promotional revenue.
+The sponsor begins and proposes two splits that give the sponsor the advantage.
+If the team accepts, the campaign proceeds with that split.
+If the team rejects, the season calendar slips and the total becomes smaller before the team proposes a response that is better for the team.
+The sponsor accepts the response or declines and both take equal shares of the reduced total.
+
+
+
+
+
+
+7) Publishing Contract
+
+A publisher and an author are sharing royalty income.
+The publisher goes first with two proposals that are favorable to the publisher.
+If the author accepts, royalties are settled at once.
+If the author rejects, production delays reduce the total before the author proposes a more favorable division for the author.
+The publisher then either accepts or rejects and both divide the smaller pot evenly.
+
+
+
+
+
+
+8) Construction Joint Venture
+
+Two construction firms are dividing cost savings from a joint project.
+The first firm offers two splits that place the first firm ahead.
+If the second firm accepts, the savings are captured and shared right away.
+If the second firm rejects, scheduling delays reduce the total before the second firm proposes a split that puts the second firm ahead.
+The first firm accepts that split or rejects and both take an equal share of the smaller amount.
+
+
+
+
+
+
+9) Advertising Partnership
+
+A marketing firm and a media outlet are splitting campaign revenue.
+The marketing firm begins with two proposals that favor the marketing firm.
+If the media outlet accepts, the campaign proceeds under that division.
+If the media outlet rejects, the schedule slips and the total amount is smaller; 
+Then the media outlet proposes a more favorable division for the outlet.
+The marketing firm either accepts that division or rejects and both share the reduced amount equally.
+
+
+
+
+
+
+10) Energy Partnership
+
+A power utility and a renewables startup are dividing credits from a clean-energy program.
+The utility moves first and proposes two splits that give the utility the advantage.
+If the startup accepts, the credits are allocated immediately as proposed.
+If the startup rejects, review delays reduce the total; 
+The startup then proposes a split that gives the startup the advantage.
+The utility either accepts that split or rejects and both receive equal portions of the reduced credits.

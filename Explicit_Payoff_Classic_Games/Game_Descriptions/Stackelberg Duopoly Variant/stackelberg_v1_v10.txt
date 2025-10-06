@@ -1,0 +1,135 @@
+1) Bottled Water (Stackelberg)
+
+ClearSprings decides first whether to produce a large or small quantity of bottled water for the upcoming season.
+BluePeak observes that choice and then decides its own batch size.
+When both companies produce large quantities, competition pushes prices down and each earns $800 thousand.
+If ClearSprings expands production while BluePeak holds back, ClearSprings dominates the market and earns $1.6 million, while BluePeak makes $800 thousand.
+If ClearSprings stays conservative and BluePeak expands, BluePeak earns $1.6 million while ClearSprings makes $800 thousand.
+When both keep production small, prices remain stable and each earns $1.2 million.
+
+
+
+
+
+
+2) Cement Supply (Stackelberg)
+
+MetroCem, the larger cement producer, sets its output for the quarter before UrbanMix announces its own production plan.
+UrbanMix observes MetroCem’s decision and reacts accordingly.
+When both firms ramp up production, prices fall and each earns $6.4 million.
+If MetroCem produces aggressively while UrbanMix remains cautious, MetroCem captures more of the market and earns $12.8 million, while UrbanMix earns $6.4 million.
+If MetroCem limits production and UrbanMix expands, the roles reverse.
+If both remain conservative, the market price stays strong and each earns $9.6 million.
+
+
+
+
+
+
+3) Airline Routes (Stackelberg)
+
+SkyLift decides first whether to add many flights or keep a limited schedule on a popular regional route.
+AirNova observes this move and then sets its own frequency.
+When both add many flights, fares drop and both airlines end up with $15 million.
+If SkyLift expands while AirNova stays limited, SkyLift earns $28 million, and AirNova’s profit remains at $15 million.
+If SkyLift stays limited and AirNova expands, AirNova earns $28 million, while SkyLift earns $15 million.
+When both stay limited, they maintain high fares and each earns $22 million.
+
+
+
+
+
+
+4) Smartphone Production (Stackelberg)
+
+TechNova, known for early launches, chooses its production level before its competitor, SmartEdge, sets its output.
+SmartEdge observes TechNova’s scale and responds.
+If both produce heavily, market prices fall and each makes $30 million.
+If TechNova goes large while SmartEdge stays cautious, TechNova profits rise to $64 million, while SmartEdge earns $32 million.
+If TechNova stays small and SmartEdge expands, SmartEdge earns $64 million and TechNova $32 million.
+If both stay modest in production, they each earn $49 million.
+
+
+
+
+
+
+5) Ride-Hailing (Stackelberg)
+
+RideFast sets its driver availability before GoWheel makes its decision for the weekend rush.
+GoWheel observes RideFast’s capacity and adjusts its own deployment.
+When both companies send many drivers, fares drop and each earns $2 million.
+If RideFast expands while GoWheel limits its supply, RideFast earns $4 million and GoWheel $2 million.
+If RideFast limits supply while GoWheel expands, GoWheel earns $4 million and RideFast $2 million.
+When both limit supply, fares remain higher and each earns $3 million.
+
+
+
+
+
+
+6) Car Rentals (leader: CityDrive; follower: FlyRent)
+
+CityDrive sets its airport fleet size for the season before FlyRent locks in its own plan.
+FlyRent waits, watches CityDrive’s choice, and then scales up or down.
+When both push large fleets, price competition is intense and each finishes with $9.6 million.
+If CityDrive commits to a large fleet while FlyRent stays conservative, CityDrive pockets $16.8 million and FlyRent $8.4 million.
+If CityDrive keeps it small and FlyRent expands, FlyRent earns $16.8 million and CityDrive $8.4 million.
+If both keep fleets small, each secures $12 million.
+
+
+
+
+
+
+7) Laptop PCs (leader: SilverWave; follower: ProCore)
+
+SilverWave announces production scale ahead of ProCore’s scheduling window.
+ProCore then sees SilverWave’s plan and commits to its own.
+Heavy production by both brands squeezes margins and each ends with $30 million.
+If SilverWave ramps up while ProCore stays restrained, SilverWave brings in $63.75 million and ProCore $31.875 million.
+If SilverWave stays modest and ProCore expands, ProCore earns $63.75 million and SilverWave $31.875 million.
+If both keep output modest, each records $48.75 million.
+
+
+
+
+
+
+8) Organic Fertilizer (leader: GreenSoil; follower: AgriBloom)
+
+GreenSoil declares batch size for the spring planting rush before AgriBloom finalizes its runs.
+AgriBloom makes its move only after seeing GreenSoil’s commitment.
+When both release big batches, prices soften and each earns $1.8 million.
+If GreenSoil goes big while AgriBloom stays small, GreenSoil earns $4.5 million and AgriBloom $2.25 million.
+If GreenSoil stays small and AgriBloom goes big, AgriBloom earns $4.5 million and GreenSoil $2.25 million.
+If both keep batches small, each clears $3.6 million.
+
+
+
+
+
+
+9) Hotel Rooms (leader: MetroStay; follower: CityLodge)
+
+MetroStay decides how many rooms to release for peak weekends before CityLodge posts its inventory.
+CityLodge reacts after observing MetroStay’s release.
+When both put many rooms on the market, rates ease and each earns $18 million.
+If MetroStay releases more while CityLodge holds back, MetroStay earns $28 million and CityLodge $14 million.
+If MetroStay holds back and CityLodge releases more, CityLodge earns $28 million and MetroStay $14 million.
+If both keep releases small, each finishes with $19 million.
+
+
+
+
+
+
+10) EV Charging (leader: VoltHub; follower: ChargeGo)
+
+VoltHub announces station availability ahead of ChargeGo’s deployment decision.
+ChargeGo moves after seeing VoltHub’s commitment.
+A wide rollout by both networks keeps prices keen and each earns $9 million.
+If VoltHub expands while ChargeGo limits, VoltHub earns $13.5 million and ChargeGo $6.75 million.
+If VoltHub limits and ChargeGo expands, ChargeGo earns $13.5 million and VoltHub $6.75 million.
+If both keep availability low, each records $9 million.
+

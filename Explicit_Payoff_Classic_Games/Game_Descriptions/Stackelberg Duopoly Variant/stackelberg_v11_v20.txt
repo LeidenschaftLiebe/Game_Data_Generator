@@ -1,0 +1,135 @@
+11) Solar Panels (leader: SunPeak; follower: BrightVolt)
+
+SunPeak commits first to a large or small manufacturing run.
+BrightVolt sees the commitment and sets its own run.
+When both scale up, each finishes with $2.0 million.
+If SunPeak scales up while BrightVolt stays small, SunPeak earns $4.2 million and BrightVolt $2.1 million.
+If SunPeak stays small and BrightVolt scales up, BrightVolt earns $4.2 million and SunPeak $2.1 million.
+If both stay small, each records $3.2 million.
+
+
+
+
+
+
+12) Dairy Processing (leader: CreamValley; follower: FreshDale)
+
+CreamValley sets processing volume for the quarter before FreshDale finalizes its plan.
+FreshDale reacts after observing CreamValley’s move.
+Expanding together leaves each with $3.2 million.
+If CreamValley expands while FreshDale holds back, returns are $4.8 million and $2.4 million.
+If CreamValley holds back and FreshDale expands, those figures reverse.
+If both remain conservative, each earns $3.2 million.
+
+
+
+
+
+
+13) Enterprise Compute (leader: ComputeHub; follower: GridWorks)
+
+ComputeHub announces capacity tiers first.
+GridWorks watches the announcement and sets its own capacity.
+When both expand capacity, each clears $1.2 million.
+If ComputeHub expands while GridWorks stays lean, ComputeHub earns $2.4 million and GridWorks $1.1 million.
+If ComputeHub stays lean and GridWorks expands, GridWorks earns $2.4 million and ComputeHub $1.1 million.
+If both stay lean, each ends with $1.8 million.
+
+
+
+
+
+
+14) Streaming Subscriptions (leader: Streamly; follower: WatchBox)
+
+Streamly sets catalogue size and marketing push before WatchBox decides its bundle.
+WatchBox chooses after seeing Streamly’s stance.
+A full push by both leaves each with $1.5 million.
+If Streamly pushes while WatchBox stays modest, Streamly earns $3.0 million and WatchBox $1.5 million.
+If Streamly stays modest and WatchBox pushes, the outcomes reverse.
+If both stay modest, each earns $2.3 million.
+
+
+
+
+
+
+15) Construction Steel (leader: ForgeOne; follower: Riverton)
+
+ForgeOne commits first to rolling output for major projects.
+Riverton decides only after matching against ForgeOne’s commitment.
+When both roll aggressively, each earns $28.8 million.
+If ForgeOne rolls aggressively and Riverton stays light, payoffs are $53.1 million and $29.7 million.
+If ForgeOne stays light and Riverton rolls aggressively, those values swap.
+If both keep it light, each posts $38.7 million.
+
+
+
+
+
+
+16) Budget Airlines (leader: SkySaver; follower: JetEconomy)
+
+SkySaver sets weekend seat supply before JetEconomy publishes schedules.
+JetEconomy moves after observing SkySaver’s plan.
+Heavy supply from both leaves each with $9.6 million.
+If SkySaver expands while JetEconomy stays cautious, SkySaver earns $16.8 million and JetEconomy $8.4 million.
+If SkySaver stays cautious and JetEconomy expands, profits reverse.
+If both stay cautious, each makes $12 million.
+
+
+
+
+
+
+17) Luxury Handbags (leader: Maison Vert; follower: Atelier Noir)
+
+Maison Vert sets production targets before Atelier Noir finalizes its line.
+Atelier Noir sets volumes after seeing Maison Vert’s plan.
+Large releases by both yield $60.0 million each.
+If Maison Vert releases widely while Atelier Noir stays selective, returns are $285.0 million and $142.5 million.
+If Maison Vert stays selective and Atelier Noir releases widely, the numbers switch.
+If both stay selective, each records $255.0 million.
+
+
+
+
+
+
+18) Generic Pharma (leader: HealthCore; follower: MediPure)
+
+HealthCore sets batch sizes first for a key generic.
+MediPure responds after observing that choice.
+Parallel expansion leaves each with $4.8 million.
+If HealthCore expands while MediPure stays light, HealthCore earns $8.4 million and MediPure $4.2 million.
+If HealthCore stays light and MediPure expands, profits reverse.
+If both stay light, each finishes with $6.0 million.
+
+
+
+
+
+
+19) City Hotels (leader: MetroStay; follower: CityLodge)
+
+MetroStay decides room releases ahead of CityLodge.
+CityLodge follows after reviewing MetroStay’s posting.
+Large releases by both produce $18.0 million apiece.
+If MetroStay releases more while CityLodge limits, MetroStay earns $28.0 million and CityLodge $14.0 million.
+If MetroStay limits while CityLodge releases more, those figures swap.
+If both limit, each makes $19.0 million.
+
+
+
+
+
+
+20) EV Charging Networks (leader: VoltWay; follower: ChargeCity)
+
+VoltWay commits first to station availability across the metro area.
+ChargeCity responds after seeing VoltWay’s plan.
+Broad coverage by both leaves each with $9.0 million.
+If VoltWay broadens coverage while ChargeCity stays narrow, VoltWay earns $13.5 million and ChargeCity $6.75 million.
+If VoltWay stays narrow and ChargeCity broadens, the results reverse.
+If both stay narrow, each records $9.0 million.
+

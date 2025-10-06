@@ -1,0 +1,12 @@
+EFG 2 R "19. Rubinstein: Music Collaboration (600K to 480K)" { "Producer" "Singer" }
+p "ROOT" 1 1 "(Producer Offer)" { "Offer 400/200" "Offer 350/250" } 0
+p "" 2 1 "(Singer after 400/200)" { "Accept" "Counter 220/260" } 0
+t "" 1 "Accept 400/200" { 400 200 }
+p "" 1 2 "(Producer Response)" { "Accept" "Reject" } 0
+t "" 2 "Accept Counter 220/260 on 480K" { 220 260 }
+t "" 3 "Reject then Equal Split of 480K" { 240 240 }
+p "" 2 2 "(Singer after 350/250)" { "Accept" "Counter 220/260" } 0
+t "" 4 "Accept 350/250" { 350 250 }
+p "" 1 3 "(Producer Response)" { "Accept" "Reject" } 0
+t "" 5 "Accept Counter 220/260 on 480K" { 220 260 }
+t "" 6 "Reject then Equal Split of 480K" { 240 240 }

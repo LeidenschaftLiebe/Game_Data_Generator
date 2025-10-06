@@ -1,0 +1,12 @@
+EFG 2 R "16. Rubinstein: Inheritance (1M to 0.8M)" { "Older Sibling" "Younger Sibling" }
+p "ROOT" 1 1 "(Older Sibling Offer)" { "Offer 600/400" "Offer 550/450" } 0
+p "" 2 1 "(Younger after 600/400)" { "Accept" "Counter 380/420" } 0
+t "" 1 "Accept 600/400" { 600 400 }
+p "" 1 2 "(Older Response)" { "Accept" "Reject" } 0
+t "" 2 "Accept Counter 380/420 on 0.8M" { 380 420 }
+t "" 3 "Reject then Equal Split of 0.8M" { 400 400 }
+p "" 2 2 "(Younger after 550/450)" { "Accept" "Counter 380/420" } 0
+t "" 4 "Accept 550/450" { 550 450 }
+p "" 1 3 "(Older Response)" { "Accept" "Reject" } 0
+t "" 5 "Accept Counter 380/420 on 0.8M" { 380 420 }
+t "" 6 "Reject then Equal Split of 0.8M" { 400 400 }

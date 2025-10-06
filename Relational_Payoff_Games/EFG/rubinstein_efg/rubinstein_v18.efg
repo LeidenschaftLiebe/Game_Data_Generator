@@ -1,0 +1,12 @@
+EFG 2 R "18. Rubinstein: Nonprofit Partnership (1M to 0.8M)" { "Lead NGO" "Partner NGO" }
+p "ROOT" 1 1 "(Lead Offer)" { "Offer 600/400" "Offer 550/450" } 0
+p "" 2 1 "(Partner after 600/400)" { "Accept" "Counter 370/430" } 0
+t "" 1 "Accept 600/400" { 600 400 }
+p "" 1 2 "(Lead Response)" { "Accept" "Reject" } 0
+t "" 2 "Accept Counter 370/430 on 0.8M" { 370 430 }
+t "" 3 "Reject then Equal Split of 0.8M" { 400 400 }
+p "" 2 2 "(Partner after 550/450)" { "Accept" "Counter 370/430" } 0
+t "" 4 "Accept 550/450" { 550 450 }
+p "" 1 3 "(Lead Response)" { "Accept" "Reject" } 0
+t "" 5 "Accept Counter 370/430 on 0.8M" { 370 430 }
+t "" 6 "Reject then Equal Split of 0.8M" { 400 400 }

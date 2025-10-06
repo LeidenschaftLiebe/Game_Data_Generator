@@ -1,0 +1,12 @@
+EFG 2 R "17. Rubinstein: Tech Partnership (3M to 2.4M)" { "Software Firm" "Hardware Partner" }
+p "ROOT" 1 1 "(Software Offer)" { "Offer 1.9/1.1" "Offer 1.8/1.2" } 0
+p "" 2 1 "(Hardware after 1.9/1.1)" { "Accept" "Counter 1.1/1.3" } 0
+t "" 1 "Accept 1.9/1.1" { 1900 1100 }
+p "" 1 2 "(Software Response)" { "Accept" "Reject" } 0
+t "" 2 "Accept Counter 1.1/1.3 on 2.4M" { 1100 1300 }
+t "" 3 "Reject then Equal Split of 2.4M" { 1200 1200 }
+p "" 2 2 "(Hardware after 1.8/1.2)" { "Accept" "Counter 1.1/1.3" } 0
+t "" 4 "Accept 1.8/1.2" { 1800 1200 }
+p "" 1 3 "(Software Response)" { "Accept" "Reject" } 0
+t "" 5 "Accept Counter 1.1/1.3 on 2.4M" { 1100 1300 }
+t "" 6 "Reject then Equal Split of 2.4M" { 1200 1200 }

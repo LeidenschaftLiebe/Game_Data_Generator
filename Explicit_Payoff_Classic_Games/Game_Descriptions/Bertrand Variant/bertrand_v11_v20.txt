@@ -1,0 +1,144 @@
+11) Solar Panels (wholesale kits)
+
+Two companies, SunPeak and BrightVolt, sell identical panel kits to installers.
+High price is $600 and Low price is $520, with unit cost $400.
+Demand at $600 is 20 thousand kits.
+Demand at $520 is 28 thousand kits.
+If both set High, each sells 10 thousand kits and earns $2,000K.
+If one sets Low and the other High, the Low-price firm sells 28 thousand kits, while the High-price firm earns 0.
+If both set Low, each sells 14 thousand kits and earns $1,680K.
+
+
+
+
+
+
+12) Car Wash Chains
+
+Two chains, ShineMaster and AquaClean, offer identical full-service car washes.
+High price is $20 and Low price is $15, with unit cost $8.
+Demand at $20 is 60 thousand washes.
+Demand at $15 is 90 thousand washes.
+If both set High, each serves 30 thousand washes and earns $360K.
+If one sets Low and the other High, the Low-price chain serves 90 thousand washes, while the High-price chain earns 0.
+If both set Low, each serves 45 thousand washes and earns $315K.
+
+
+
+
+
+
+13) Music Streaming (ad-free plan)
+
+Two services, TuneBox and SoundFlow, sell identical ad-free subscriptions.
+High price is $12 and Low price is $8, with unit cost $2 per subscriber.
+Demand at $12 is 180 thousand subscribers.
+Demand at $8 is 260 thousand subscribers.
+If both set High, each serves 90 thousand subscribers and earns $900K.
+If one sets Low and the other High, the Low-price service serves 260 thousand, while the High-price service earns 0.
+If both set Low, each serves 130 thousand and earns $780K.
+
+
+
+
+
+
+14) Laptop Retail (single model)
+
+Two stores, ByteMart and CoreShop, sell the same laptop model.
+High price is $1,100 and Low price is $1,000, with unit cost $900.
+Demand at $1,100 is 6 thousand laptops.
+Demand at $1,000 is 9 thousand laptops.
+If both set High, each sells 3 thousand and earns $600K.
+If one sets Low and the other High, the Low-price store sells 9 thousand, while the High-price store earns 0.
+If both set Low, each sells 4.5 thousand and earns $450K.
+
+
+
+
+
+
+15) Home Insurance (standard package)
+
+Two insurers, ShieldSure and SafeGuard, offer identical home policies.
+High price is $600 and Low price is $450, with unit cost $300 per policy.
+Demand at $600 is 10 thousand policies.
+Demand at $450 is 16 thousand policies.
+If both set High, each sells 5 thousand policies and earns $1,500K.
+If one sets Low and the other High, the Low-price insurer sells 16 thousand, while the High-price insurer earns 0.
+If both set Low, each sells 8 thousand and earns $1,200K.
+
+
+
+
+
+
+16) Cloud Storage (enterprise tier)
+
+Two providers, DataHarbor and CloudGrid, sell identical enterprise storage bundles.
+High price is $18 and Low price is $13, with unit cost $5 per account.
+Demand at $18 is 120 thousand accounts.
+Demand at $13 is 180 thousand accounts.
+If both set High, each serves 60 thousand accounts and earns $780K.
+If one sets Low and the other High, the Low-price provider serves 180 thousand, while the High-price provider earns 0.
+If both set Low, each serves 90 thousand and earns $720K.
+
+
+
+
+
+
+17) Grocery Delivery Subscription
+
+Two services, FreshDoor and QuickCart, offer identical delivery memberships.
+High price is $15 and Low price is $10, with unit cost $4 per member.
+Demand at $15 is 100 thousand members.
+Demand at $10 is 160 thousand members.
+If both set High, each serves 50 thousand members and earns $550K.
+If one sets Low and the other High, the Low-price service serves 160 thousand, while the High-price service earns 0.
+If both set Low, each serves 80 thousand and earns $480K.
+
+
+
+
+
+
+18) Fitness Club Memberships
+
+Two gyms, FitNation and CorePlus, sell identical monthly memberships.
+High price is $50 and Low price is $35, with unit cost $20 per member.
+Demand at $50 is 40 thousand members.
+Demand at $35 is 60 thousand members.
+If both set High, each serves 20 thousand members and earns $600K.
+If one sets Low and the other High, the Low-price gym serves 60 thousand, while the High-price gym earns 0.
+If both set Low, each serves 30 thousand and earns $450K.
+
+
+
+
+
+
+19) Car Rentals (airport city pair)
+
+Two rental firms, CityDrive and FlyRent, offer identical compact cars.
+High price is $80 and Low price is $60, with unit cost $30 per rental.
+Demand at $80 is 50 thousand rentals.
+Demand at $60 is 75 thousand rentals.
+If both set High, each serves 25 thousand rentals and earns $1,250K.
+If one sets Low and the other High, the Low-price firm serves 75 thousand, while the High-price firm earns 0.
+If both set Low, each serves 37.5 thousand and earns $1,125K.
+
+
+
+
+
+
+20) Antivirus Subscriptions
+
+Two vendors, SecureShield and SafeByte, sell identical antivirus licenses.
+High price is $40 and Low price is $25, with unit cost $8 per license.
+Demand at $40 is 90 thousand licenses.
+Demand at $25 is 140 thousand licenses.
+If both set High, each serves 45 thousand licenses and earns $1,440K.
+If one sets Low and the other High, the Low-price vendor serves 140 thousand, while the High-price vendor earns 0.
+If both set Low, each serves 70 thousand and earns $1,190K.

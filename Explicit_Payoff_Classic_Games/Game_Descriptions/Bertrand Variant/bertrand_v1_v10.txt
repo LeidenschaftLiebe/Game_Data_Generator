@@ -1,0 +1,144 @@
+1) Airline Tickets (Domestic Route)
+
+Two airlines, AeroFly and SkyJet, sell identical economy tickets.
+High price is $200 and Low price is $150, with unit cost $100.
+Market demand at $200 is 20 thousand tickets.
+Market demand at $150 is 30 thousand tickets.
+If both set High, each sells 10 thousand tickets and earns $1,000 thousand.
+If one sets Low and the other High, the Low-price airline sells 30 thousand tickets, while the High-price airline earns nothing.
+If both set Low, each sells 15 thousand tickets and earns $750 thousand.
+
+
+
+
+
+
+2) Gasoline on Highway
+
+Two stations, FuelMax and RoadOil, sell identical gasoline.
+High price is $4.00 per gallon and Low price is $3.50, with unit cost $3.00.
+Demand at $4.00 is 1,000 thousand gallons.
+Demand at $3.50 is 1,400 thousand gallons.
+If both set High, each sells 500 thousand gallons and earns $500 thousand.
+If one sets Low and the other High, the Low-price station sells 1,400 thousand gallons, while the High-price station earns nothing.
+If both set Low, each sells 700 thousand gallons and earns $350 thousand.
+
+
+
+
+
+
+3) Mobile Data Plans
+
+Two telecoms, CellNet and ComWave, offer identical monthly data plans.
+High price is $30 and Low price is $20, with unit cost $8.
+Demand at $30 is 80 thousand plans.
+Demand at $20 is 140 thousand plans.
+If both set High, each sells 40 thousand plans and earns $880 thousand.
+If one sets Low and the other High, the Low-price firm sells 140 thousand plans, while the High-price firm earns $0.
+If both set Low, each sells 70 thousand plans and earns $840 thousand.
+
+
+
+
+
+
+4) Online Electronics Retail
+
+Two stores, TechZone and GigaStore, sell the same smartphone model.
+High price is $800 and Low price is $740, with unit cost $680.
+Demand at $800 is 5 thousand phones.
+Demand at $740 is 8 thousand phones.
+If both set High, each sells 2.5 thousand phones and earns $300 thousand.
+If one sets Low and the other High, the Low-price store sells 8 thousand phones, while the High-price store earns $0.
+If both set Low, each sells 4 thousand phones and earns $240 thousand.
+
+
+
+
+
+
+5) Hotel Rooms (City Center)
+
+Two hotels, MetroStay and UrbanInn, offer identical rooms.
+High price is $220 and Low price is $160, with unit cost $120 per occupied room.
+Demand at $220 is 40 thousand room-nights.
+Demand at $160 is 60 thousand room-nights.
+If both set High, each sells 20 thousand room-nights and earns $2,000 thousand.
+If one sets Low and the other High, the Low-price hotel sells 60 thousand room-nights, while the High-price hotel earns $0.
+If both set Low, each sells 30 thousand room-nights and earns $1,200 thousand.
+
+
+
+
+
+
+6) Pharmaceutical Generics
+
+Two wholesalers, HealthLine and MediCore, sell the same generic drug.
+High price is $12 per pack and Low price is $9, with unit cost $6.
+Demand at $12 is 300 thousand packs.
+Demand at $9 is 450 thousand packs.
+If both set High, each sells 150 thousand packs and earns $900 thousand.
+If one sets Low and the other High, the Low-price firm sells 450 thousand packs, while the High-price firm earns $0.
+If both set Low, each sells 225 thousand packs and earns $675 thousand.
+
+
+
+
+
+
+7) Taxi Apps (City Rides)
+
+Two platforms, QuickRide and GoCab, offer identical ride-hailing.
+High fare is $18 and Low fare is $12, with unit cost $7 per ride.
+Demand at $18 is 200 thousand rides.
+Demand at $12 is 320 thousand rides.
+If both set High, each serves 100 thousand rides and earns $1,100 thousand.
+If one sets Low and the other High, the Low-fare platform serves 320 thousand rides, while the High-fare platform earns $0.
+If both set Low, each serves 160 thousand rides and earns $800 thousand.
+
+
+
+
+
+
+8) Supermarket Bread
+
+Two chains, GreenMart and FreshStop, sell the same brand of bread.
+High price is $3.00 and Low price is $2.50, with unit cost $2.00.
+Demand at $3.00 is 500 thousand loaves.
+Demand at $2.50 is 700 thousand loaves.
+If both set High, each sells 250 thousand loaves and earns $250 thousand.
+If one sets Low and the other High, the Low-price chain sells 700 thousand loaves, while the High-price chain earns $0.
+If both set Low, each sells 350 thousand loaves and earns $175 thousand.
+
+
+
+
+
+
+9) Cloud Storage
+
+Two providers, CloudHub and DataVault, sell identical storage subscriptions.
+High price is $12 and Low price is $8, with unit cost $3.
+Demand at $12 is 150 thousand subscribers.
+Demand at $8 is 240 thousand subscribers.
+If both set High, each serves 75 thousand subscribers and earns $675 thousand.
+If one sets Low and the other High, the Low-price provider serves 240 thousand, while the High-price provider earns $0.
+If both set Low, each serves 120 thousand and earns $600 thousand.
+
+
+
+
+
+
+10) EV Charging Sessions
+
+Two networks, PumpPro and FuelPoint, offer identical fast-charging sessions.
+High price is $30 and Low price is $22, with unit cost $10 per session.
+Demand at $30 is 90 thousand sessions.
+Demand at $22 is 130 thousand sessions.
+If both set High, each serves 45 thousand sessions and earns $900 thousand.
+If one sets Low and the other High, the Low-price network serves 130 thousand sessions, while the High-price network earns $0.
+If both set Low, each serves 65 thousand sessions and earns $780 thousand.

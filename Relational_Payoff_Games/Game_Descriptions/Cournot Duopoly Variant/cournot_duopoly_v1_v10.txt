@@ -1,0 +1,126 @@
+1) Mineral Water Bottlers
+
+Two bottlers compete in a homogeneous water market.
+Each simultaneously chooses a High output plan or a Low output plan.
+When both choose High, total output is greatest and the market price is lowest.
+When one chooses High and the other chooses Low, total output is moderate and the price is in the middle; 
+The high-output bottler earns more than the low-output bottler.
+When both choose Low, total output is smallest and the price is highest, with both firms earning the same.
+
+
+
+
+
+
+2) Data Center Cooling Services
+
+Two providers sell identical cooling capacity to cloud campuses.
+Each simultaneously chooses High or Low capacity to deploy.
+Both High yields the lowest price and equal earnings.
+A mixed outcome yields a middle price; 
+The provider choosing High earns more than the one choosing Low.
+Both Low yields the highest price and equal earnings.
+
+
+
+
+
+
+3) Freight Rail on a Busy Corridor
+
+Two rail operators offer indistinguishable freight slots on the same corridor.
+Each simultaneously chooses High or Low frequency.
+Both High brings the lowest rate and equal earnings.
+One High and one Low sets a middle rate, and the operator with High frequency earns more.
+Both Low produces the highest rate and equal earnings.
+
+
+
+
+
+
+4) Textile Mills Supplying Fabric
+
+Two mills supply a standard fabric to apparel makers.
+Each simultaneously chooses a High or Low production run.
+With both High, the price is lowest and earnings are equal.
+With one High and one Low, the price is in the middle and the High producer earns more.
+With both Low, the price is highest and earnings are equal.
+
+
+
+
+
+
+5) Online News Subscriptions
+
+Two platforms sell the same news bundle to readers.
+Each simultaneously chooses a High or Low subscriber push.
+Both High lowers the subscription price the most and yields equal earnings.
+A mixed push yields a middle price and the platform pushing High earns more.
+Both Low maintains the highest price and yields equal earnings.
+
+
+
+
+
+
+6) Budget Airlines on a Weekend Route
+
+Two budget carriers sell indistinguishable seats on the same weekend route.
+Each simultaneously chooses a High or Low seat offer.
+Both High drives the fare to its lowest level and yields equal earnings.
+A mixed outcome sets a middle fare and the carrier offering High seats earns more.
+Both Low keeps the fare highest and yields equal earnings.
+
+
+
+
+
+
+7) Cloud Gaming Access
+
+Two providers offer the same cloud gaming access bundle.
+Each simultaneously chooses a High or Low capacity plan.
+Both High brings the lowest subscription price and equal earnings.
+With one High and one Low, the price is in the middle and the High provider earns more.
+Both Low keeps the price highest and earnings equal.
+
+
+
+
+
+
+8) EV Battery Cells
+
+Two manufacturers supply identical battery cells to automakers.
+Each simultaneously chooses a High or Low production batch.
+Both High results in the lowest cell price and equal earnings.
+A mixed outcome sets a middle price and the High producer earns more.
+Both Low leaves the price highest and earnings equal.
+
+
+
+
+
+
+9) Farm Equipment Leasing
+
+Two leasing companies offer the same tractor model to farmers.
+Each simultaneously chooses a High or Low fleet release.
+Both High produces the lowest lease price and equal earnings.
+A mixed release keeps a middle lease price and the High releaser earns more.
+Both Low maintains the highest lease price and equal earnings.
+
+
+
+
+
+
+10) Telecom Prepaid Plans
+
+Two carriers sell the same prepaid plan to price-sensitive customers.
+Each simultaneously chooses a High or Low activation target.
+Both High pushes the plan price lowest and yields equal earnings.
+A mixed target yields a middle price and the High target carrier earns more.
+Both Low sustains the highest price and equal earnings.

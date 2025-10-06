@@ -1,0 +1,124 @@
+11) Solar Panel Manufacturers
+
+Two renewable energy firms, SunPeak and BrightVolt, produce standardized solar panels for wholesale buyers.
+Each company decides whether to manufacture a High or Low number of panels.
+When both produce High quantities, the market price falls sharply, and both firms earn the same smaller profit.
+When one produces High and the other Low, the market price is moderate, and the High producer gains a higher profit than the Low producer.
+When both choose Low output, the market price stays high, and both firms earn equal and healthy profits.
+
+
+
+
+
+
+12) Airline Cargo on International Routes
+
+Two cargo airlines, AeroGlobal and SkyFreight, ship goods across the same international route.
+Each carrier decides whether to schedule a High or Low number of cargo flights.
+When both choose High frequency, cargo prices drop significantly and both earn smaller but equal profits.
+If one flies more and the other fewer, the price is in between, and the airline flying more makes higher revenue.
+When both keep Low frequency, the cargo rate stays strong, and both share equally larger profits.
+
+
+
+
+
+
+13) Wind Turbine Producers
+
+Two manufacturers, GreenSpire and EcoWind, supply turbines to energy firms.
+Each decides to produce a High or Low number of turbines for the coming quarter.
+When both expand production, prices drop and both make modest but equal profits.
+When one expands and the other restrains, the market price balances, rewarding the larger producer more.
+When both limit production, prices remain strong and both earn higher equal returns.
+
+
+
+
+
+
+14) Construction Cement Suppliers
+
+Two firms, BuildStone and MegaMix, supply cement for major construction projects.
+Each company simultaneously chooses whether to produce a High or Low volume.
+When both choose High, the cement price falls and each firm earns smaller but equal profits.
+When one firm produces more while the other produces less, the market price is moderate, and the high-output firm earns more.
+When both choose Low production, the price remains high and profits are strong and equal.
+
+
+
+
+
+
+15) Dairy Product Producers
+
+Two dairy processors, FarmFresh and PureCream, sell identical milk products in cartons.
+Each decides on a High or Low production plan.
+When both increase output, milk prices fall and both share smaller profits.
+If one increases and the other limits, the market price moderates, rewarding the higher producer.
+When both limit production, prices remain firm and profits are balanced and high.
+
+
+
+
+
+
+16) Cloud Storage Providers
+
+Two technology firms, ByteBox and DataKeep, rent identical cloud storage capacity to clients.
+Each firm decides whether to offer a High or Low capacity plan.
+If both offer High capacity, the rental price declines and profits are equal but low.
+If one expands while the other limits, the price is moderate and the expanded provider earns more.
+If both restrict capacity, the rental price is high and both share equal higher profits.
+
+
+
+
+
+
+17) Online Furniture Retailers
+
+Two online retailers, CozyLiving and UrbanCraft, sell the same style of wooden desks.
+Each retailer decides whether to stock a High or Low number of desks for sale.
+When both choose High stock, the desk price drops and profits are smaller but equal.
+When one chooses High and the other Low, the price is moderate, and the high-stock retailer earns more.
+When both choose Low, the price remains high and both firms earn equal profits.
+
+
+
+
+
+
+18) Hotel Rooms in Coastal City
+
+Two hotel chains, OceanView and SeaShore, operate similar resorts in a beach city.
+Each chain decides whether to release a High or Low number of rooms for booking.
+When both release many rooms, rates fall and both earn smaller but equal profits.
+If one releases more and the other fewer, the rate balances and the high-release hotel earns more.
+If both release fewer rooms, rates stay high and profits are equally large.
+
+
+
+
+
+
+19) Ride-Sharing Companies
+
+Two ride-sharing platforms, RoadWave and QuickLift, serve the same urban market.
+Each decides whether to activate a High or Low number of drivers.
+When both activate many drivers, fares drop and both earn equal but smaller profits.
+If one activates many and the other few, the price settles at an intermediate level, and the high-activation platform gains more.
+If both limit the number of drivers, fares stay high and profits are equal and strong.
+
+
+
+
+
+
+20) Semiconductor Foundries
+
+Two semiconductor foundries, ChipCore and NanoEdge, produce the same type of wafer.
+Each chooses whether to run a High or Low production cycle.
+When both operate at High capacity, chip prices fall and profits are modest but equal.
+When one runs High and the other Low, the price balances at a medium level, favoring the larger producer.
+When both operate at Low capacity, prices remain high and profits are evenly large.

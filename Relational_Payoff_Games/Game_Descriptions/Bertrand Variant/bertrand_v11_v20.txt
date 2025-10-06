@@ -1,0 +1,124 @@
+11) Solar Energy Providers
+
+Two companies, BrightSun and SolarNova, supply identical rooftop solar panels.
+Each firm sets a High or Low selling price.
+If both choose High prices, they divide the market evenly and each earns solid profit.
+If one lowers its price, that firm wins most customers and gains higher earnings, while the other earns little.
+If both lower prices, their profits shrink as margins collapse.
+
+
+
+
+
+
+12) Ride-Sharing Apps
+
+Two competing ride-sharing platforms, UrbanMove and GoRide, offer identical car-hailing services.
+Each chooses to set a High or Low fare for rides.
+When both charge High fares, they share riders evenly and each enjoys healthy profit.
+When one drops fares, it attracts most riders and earns more, leaving the rival with little.
+When both lower fares, prices fall and both see small returns.
+
+
+
+
+
+
+13) Streaming Platforms
+
+Two streaming services, CineFlix and ViewMax, provide identical movie content.
+Each sets a monthly subscription fee that can be High or Low.
+If both set High prices, they share subscribers equally and each earns strong profits.
+If one cuts price, that service attracts most viewers and earns more.
+If both cut prices, subscriber counts rise but revenue per user is small.
+
+
+
+
+
+
+14) Mobile Phone Retailers
+
+Two mobile stores, PhoneHub and TechLine, sell identical smartphone models.
+Each store sets either a High or Low retail price.
+If both keep High prices, they share customers evenly and each earns a decent margin.
+If one drops the price, that store attracts nearly all buyers and earns more, while the other earns very little.
+If both drop prices, competition squeezes margins for both.
+
+
+
+
+
+
+15) Shipping Companies
+
+Two freight carriers, OceanLink and TransWave, ship containers along the same route.
+Each company sets a High or Low price per container.
+When both charge High rates, they divide clients evenly and earn stable profits.
+When one reduces its rate, it wins most customers and gains more.
+When both lower rates, the shipping market becomes less profitable.
+
+
+
+
+
+
+16) Insurance Providers
+
+Two insurers, SafeSure and PrimeProtect, offer identical home insurance coverage.
+Each decides whether to charge a High or Low premium.
+When both charge High premiums, they share clients equally and enjoy solid earnings.
+When one lowers its premium, it captures most clients and gains a higher profit.
+When both lower premiums, the market becomes very competitive and profits are small.
+
+
+
+
+
+
+17) Online Course Platforms
+
+Two education sites, LearnPro and EduSmart, sell identical subscription packages.
+Each can choose a High or Low monthly price.
+If both price High, they split the market evenly and both do well.
+If one drops the price, that site attracts most learners and earns more.
+If both lower prices, subscriptions increase but margins fall for both.
+
+
+
+
+
+
+18) Clothing Retailers
+
+Two fashion chains, UrbanEdge and StyleCo, sell identical designer jeans.
+Each chooses to price them High or Low.
+If both choose High, they share shoppers equally and each earns fair profit.
+If one lowers price, it gains more sales and profit, while the rival earns less.
+If both lower prices, profits remain but are thin.
+
+
+
+
+
+
+19) Supermarket Chains (Groceries)
+
+Two grocery chains, FreshMart and EcoFoods, sell identical household staples.
+Each sets a High or Low price per item.
+If both set High prices, they share local customers equally and profit comfortably.
+If one sets Low, that chain draws in most shoppers and gains more profit.
+If both lower prices, the price war leaves both with small margins.
+
+
+
+
+
+
+20) Electric Vehicle Charging
+
+Two charging networks, VoltWay and ChargeCity, provide identical fast-charging stations.
+Each decides to charge a High or Low price per session.
+When both price High, they share customers equally and each earns solid profits.
+When one charges Low, it gains most drivers and earns more, while the rival earns less.
+When both price Low, competition reduces profits for both.

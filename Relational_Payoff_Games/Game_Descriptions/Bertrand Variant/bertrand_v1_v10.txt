@@ -1,0 +1,124 @@
+1) Airline Tickets (Domestic Route)
+
+Two airlines, AeroFly and SkyJet, sell identical economy tickets on the same route.
+Each sets either a High fare or a Low fare.
+If both set High fares, they share the passenger market evenly and each earns good profit.
+If one sets a Low fare, that airline captures most passengers and earns higher profit, while the other earns very little.
+If both set Low fares, they split the market but earn only minimal profits.
+
+
+
+
+
+
+2) Gas Stations (Highway)
+
+Two stations, FuelMax and RoadOil, sell identical gasoline on the same highway stretch.
+Each chooses whether to charge a High or Low price per liter.
+If both charge High, they share drivers equally with comfortable margins.
+If one cuts price while the other holds High, the cheaper one draws nearly all customers and earns more.
+If both lower prices, profits become slim for both.
+
+
+
+
+
+
+3) Mobile Data Plans
+
+Two telecom firms, CellNet and ComWave, offer identical mobile data packages.
+Each sets a High or Low price.
+If both set High prices, they share subscribers evenly and earn good profits.
+If one sets a Low price, that firm gains nearly all customers and higher profit, while the other loses market share.
+If both set Low prices, both remain in business but with thin profit margins.
+
+
+
+
+
+
+4) Online Electronics Retailers
+
+Two online retailers, TechZone and GigaStore, sell the same smartphone model.
+Each can charge a High or Low price.
+If both charge High, customers split evenly, giving each retailer solid profits.
+If one undercuts with a Low price, that retailer captures most buyers.
+If both cut prices, they both remain competitive but barely profitable.
+
+
+
+
+
+
+5) Hotel Rooms (City Center)
+
+Two hotels, MetroStay and UrbanInn, offer identical rooms near the same attractions.
+Each sets a High or Low nightly rate.
+If both charge High rates, travelers split between them evenly and both profit well.
+If one lowers its rate, it fills up rooms and earns more, while the other sees low occupancy.
+If both reduce prices, occupancy remains high but profits are small.
+
+
+
+
+
+
+6) Pharmaceutical Wholesalers
+
+Two wholesalers, HealthLine and MediCore, sell identical generic drugs to pharmacies.
+Each sets either a High or Low price.
+If both charge High, they share the market evenly with moderate profits.
+If one sets a Low price, that firm captures nearly all buyers and earns more.
+If both cut prices, they barely cover costs.
+
+
+
+
+
+
+7) Taxi Apps (City Rides)
+
+Two ride-hailing platforms, QuickRide and GoCab, operate the same routes in a city.
+Each chooses a High or Low fare rate.
+If both choose High, they share riders evenly and make decent profits.
+If one lowers fares, it captures more customers and earns more.
+If both lower fares, profits shrink considerably.
+
+
+
+
+
+
+8) Supermarket Chains (Store Bread)
+
+Two supermarket chains, GreenMart and FreshStop, sell the same brand of bread.
+Each sets either a High or Low retail price.
+If both price High, shoppers split evenly and profits are comfortable.
+If one lowers price, that chain sells almost all the bread and earns higher profit.
+If both lower prices, profit margins are minimal.
+
+
+
+
+
+
+9) Cloud Storage Providers
+
+Two firms, CloudHub and DataVault, offer identical storage services.
+Each chooses a High or Low monthly price.
+If both set High prices, they share customers evenly.
+If one drops to Low, that provider gains most subscribers and earns more.
+If both drop to Low, competition squeezes profits for both.
+
+
+
+
+
+
+10) Ride-Share Fuel Stations
+
+Two fuel stations, PumpPro and FuelPoint, serve the same ride-hailing drivers in a city center.
+Each decides whether to set a High or Low price per gallon.
+If both set High, drivers split between them evenly, yielding equal profits.
+If one sets Low, it attracts nearly all drivers and earns higher profit.
+If both set Low, profits remain small for both.

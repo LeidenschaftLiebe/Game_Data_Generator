@@ -1,0 +1,8 @@
+EFG 2 R "6. Pharmaceutical Wholesalers - Bertrand 2x2" { "HealthLine" "MediCore" }
+p "ROOT" 1 1 "(HealthLine sets price)" { "High" "Low" } 0
+p "" 2 1 "(MediCore after HealthLine=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1100 1100 }
+t "" 2 "High,Low" { 0 2000 }
+p "" 2 2 "(MediCore after HealthLine=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2000 0 }
+t "" 4 "Low,Low" { 300 300 }

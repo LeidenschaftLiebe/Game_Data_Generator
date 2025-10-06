@@ -1,0 +1,8 @@
+EFG 2 R "16. Insurance Providers - Bertrand 2x2" { "SafeSure" "PrimeProtect" }
+p "ROOT" 1 1 "(SafeSure sets premium)" { "High" "Low" } 0
+p "" 2 1 "(PrimeProtect after SafeSure=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1300 1300 }
+t "" 2 "High,Low" { 0 2100 }
+p "" 2 2 "(PrimeProtect after SafeSure=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2100 0 }
+t "" 4 "Low,Low" { 300 300 }

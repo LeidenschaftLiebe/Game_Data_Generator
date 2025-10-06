@@ -1,0 +1,8 @@
+EFG 2 R "17. Online Courses - Bertrand 2x2" { "LearnPro" "EduSmart" }
+p "ROOT" 1 1 "(LearnPro sets fee)" { "High" "Low" } 0
+p "" 2 1 "(EduSmart after LearnPro=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1000 1000 }
+t "" 2 "High,Low" { 0 1700 }
+p "" 2 2 "(EduSmart after LearnPro=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 1700 0 }
+t "" 4 "Low,Low" { 250 250 }

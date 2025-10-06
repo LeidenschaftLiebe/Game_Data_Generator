@@ -1,0 +1,8 @@
+EFG 2 R "3. Mobile Data Plans - Bertrand 2x2" { "CellNet" "ComWave" }
+p "ROOT" 1 1 "(CellNet sets price)" { "High" "Low" } 0
+p "" 2 1 "(ComWave after CellNet=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1200 1200 }
+t "" 2 "High,Low" { 0 2200 }
+p "" 2 2 "(ComWave after CellNet=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2200 0 }
+t "" 4 "Low,Low" { 400 400 }

@@ -1,0 +1,8 @@
+EFG 2 R "9. Cloud Storage - Bertrand 2x2" { "CloudHub" "DataVault" }
+p "ROOT" 1 1 "(CloudHub sets price)" { "High" "Low" } 0
+p "" 2 1 "(DataVault after CloudHub=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 900 900 }
+t "" 2 "High,Low" { 0 1500 }
+p "" 2 2 "(DataVault after CloudHub=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 1500 0 }
+t "" 4 "Low,Low" { 250 250 }

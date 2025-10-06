@@ -1,0 +1,8 @@
+EFG 2 R "20. EV Charging - Bertrand 2x2" { "VoltWay" "ChargeCity" }
+p "ROOT" 1 1 "(VoltWay sets price)" { "High" "Low" } 0
+p "" 2 1 "(ChargeCity after VoltWay=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1000 1000 }
+t "" 2 "High,Low" { 0 1800 }
+p "" 2 2 "(ChargeCity after VoltWay=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 1800 0 }
+t "" 4 "Low,Low" { 300 300 }

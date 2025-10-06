@@ -1,0 +1,8 @@
+EFG 2 R "15. Shipping Companies - Bertrand 2x2" { "OceanLink" "TransWave" }
+p "ROOT" 1 1 "(OceanLink sets rate)" { "High" "Low" } 0
+p "" 2 1 "(TransWave after OceanLink=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1400 1400 }
+t "" 2 "High,Low" { 0 2200 }
+p "" 2 2 "(TransWave after OceanLink=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2200 0 }
+t "" 4 "Low,Low" { 400 400 }

@@ -1,0 +1,8 @@
+EFG 2 R "13. Streaming Platforms - Bertrand 2x2" { "CineFlix" "ViewMax" }
+p "ROOT" 1 1 "(CineFlix sets fee)" { "High" "Low" } 0
+p "" 2 1 "(ViewMax after CineFlix=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1200 1200 }
+t "" 2 "High,Low" { 0 2000 }
+p "" 2 2 "(ViewMax after CineFlix=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2000 0 }
+t "" 4 "Low,Low" { 300 300 }

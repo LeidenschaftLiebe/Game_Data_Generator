@@ -1,0 +1,8 @@
+EFG 2 R "18. Clothing Retailers - Bertrand 2x2" { "UrbanEdge" "StyleCo" }
+p "ROOT" 1 1 "(UrbanEdge sets price)" { "High" "Low" } 0
+p "" 2 1 "(StyleCo after UrbanEdge=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 900 900 }
+t "" 2 "High,Low" { 0 1600 }
+p "" 2 2 "(StyleCo after UrbanEdge=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 1600 0 }
+t "" 4 "Low,Low" { 300 300 }

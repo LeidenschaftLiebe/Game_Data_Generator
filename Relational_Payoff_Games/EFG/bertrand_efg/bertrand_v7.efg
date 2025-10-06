@@ -1,0 +1,8 @@
+EFG 2 R "7. Taxi Apps - Bertrand 2x2" { "QuickRide" "GoCab" }
+p "ROOT" 1 1 "(QuickRide sets fare)" { "High" "Low" } 0
+p "" 2 1 "(GoCab after QuickRide=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 900 900 }
+t "" 2 "High,Low" { 0 1600 }
+p "" 2 2 "(GoCab after QuickRide=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 1600 0 }
+t "" 4 "Low,Low" { 200 200 }

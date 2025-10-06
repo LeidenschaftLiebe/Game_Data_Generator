@@ -1,0 +1,8 @@
+EFG 2 R "11. Solar Energy - Bertrand 2x2" { "BrightSun" "SolarNova" }
+p "ROOT" 1 1 "(BrightSun sets price)" { "High" "Low" } 0
+p "" 2 1 "(SolarNova after BrightSun=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1000 1000 }
+t "" 2 "High,Low" { 0 1800 }
+p "" 2 2 "(SolarNova after BrightSun=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 1800 0 }
+t "" 4 "Low,Low" { 300 300 }

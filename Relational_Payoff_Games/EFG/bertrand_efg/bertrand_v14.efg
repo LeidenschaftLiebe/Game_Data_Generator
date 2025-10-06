@@ -1,0 +1,8 @@
+EFG 2 R "14. Mobile Retailers - Bertrand 2x2" { "PhoneHub" "TechLine" }
+p "ROOT" 1 1 "(PhoneHub sets price)" { "High" "Low" } 0
+p "" 2 1 "(TechLine after PhoneHub=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1000 1000 }
+t "" 2 "High,Low" { 0 1800 }
+p "" 2 2 "(TechLine after PhoneHub=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 1800 0 }
+t "" 4 "Low,Low" { 250 250 }

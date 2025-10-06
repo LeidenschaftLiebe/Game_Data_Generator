@@ -1,0 +1,8 @@
+EFG 2 R "16. Cloud Storage - Bertrand 2x2" { "DataHarbor" "CloudGrid" }
+p "ROOT" 1 1 "(DataHarbor sets price)" { "High" "Low" } 0
+p "" 2 1 "(CloudGrid after DataHarbor=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 780 780 }
+t "" 2 "High,Low" { 0 1440 }
+p "" 2 2 "(CloudGrid after DataHarbor=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 1440 0 }
+t "" 4 "Low,Low" { 720 720 }

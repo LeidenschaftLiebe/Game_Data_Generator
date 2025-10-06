@@ -1,0 +1,8 @@
+EFG 2 R "20. Antivirus Subscriptions - Bertrand 2x2" { "SecureShield" "SafeByte" }
+p "ROOT" 1 1 "(SecureShield sets price)" { "High" "Low" } 0
+p "" 2 1 "(SafeByte after SecureShield=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1440 1440 }
+t "" 2 "High,Low" { 0 2380 }
+p "" 2 2 "(SafeByte after SecureShield=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2380 0 }
+t "" 4 "Low,Low" { 1190 1190 }

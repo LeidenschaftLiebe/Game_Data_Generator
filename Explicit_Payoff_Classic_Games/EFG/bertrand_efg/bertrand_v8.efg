@@ -1,0 +1,8 @@
+EFG 2 R "8. Supermarket Bread - Bertrand 2x2" { "GreenMart" "FreshStop" }
+p "ROOT" 1 1 "(GreenMart sets price)" { "High" "Low" } 0
+p "" 2 1 "(FreshStop after GreenMart=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 250 250 }
+t "" 2 "High,Low" { 0 350 }
+p "" 2 2 "(FreshStop after GreenMart=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 350 0 }
+t "" 4 "Low,Low" { 175 175 }

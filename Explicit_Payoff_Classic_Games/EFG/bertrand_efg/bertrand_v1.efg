@@ -1,0 +1,8 @@
+EFG 2 R "1. Airline Tickets - Bertrand 2x2" { "AeroFly" "SkyJet" }
+p "ROOT" 1 1 "(AeroFly sets price)" { "High" "Low" } 0
+p "" 2 1 "(SkyJet after AeroFly=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1000 1000 }
+t "" 2 "High,Low" { 0 1500 }
+p "" 2 2 "(SkyJet after AeroFly=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 1500 0 }
+t "" 4 "Low,Low" { 750 750 }

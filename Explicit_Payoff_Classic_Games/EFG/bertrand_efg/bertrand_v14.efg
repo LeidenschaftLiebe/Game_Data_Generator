@@ -1,0 +1,8 @@
+EFG 2 R "14. Laptop Retail - Bertrand 2x2" { "ByteMart" "CoreShop" }
+p "ROOT" 1 1 "(ByteMart sets price)" { "High" "Low" } 0
+p "" 2 1 "(CoreShop after ByteMart=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 600 600 }
+t "" 2 "High,Low" { 0 900 }
+p "" 2 2 "(CoreShop after ByteMart=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 900 0 }
+t "" 4 "Low,Low" { 450 450 }

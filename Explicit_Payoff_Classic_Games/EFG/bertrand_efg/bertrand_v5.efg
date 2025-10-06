@@ -1,0 +1,8 @@
+EFG 2 R "5. Hotel Rooms - Bertrand 2x2" { "MetroStay" "UrbanInn" }
+p "ROOT" 1 1 "(MetroStay sets price)" { "High" "Low" } 0
+p "" 2 1 "(UrbanInn after MetroStay=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 2000 2000 }
+t "" 2 "High,Low" { 0 2400 }
+p "" 2 2 "(UrbanInn after MetroStay=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2400 0 }
+t "" 4 "Low,Low" { 1200 1200 }

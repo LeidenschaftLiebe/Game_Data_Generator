@@ -1,0 +1,8 @@
+EFG 2 R "12. Car Wash - Bertrand 2x2" { "ShineMaster" "AquaClean" }
+p "ROOT" 1 1 "(ShineMaster sets price)" { "High" "Low" } 0
+p "" 2 1 "(AquaClean after ShineMaster=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 360 360 }
+t "" 2 "High,Low" { 0 630 }
+p "" 2 2 "(AquaClean after ShineMaster=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 630 0 }
+t "" 4 "Low,Low" { 315 315 }

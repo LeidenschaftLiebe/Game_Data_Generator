@@ -1,0 +1,8 @@
+EFG 2 R "18. Fitness Memberships - Bertrand 2x2" { "FitNation" "CorePlus" }
+p "ROOT" 1 1 "(FitNation sets price)" { "High" "Low" } 0
+p "" 2 1 "(CorePlus after FitNation=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 600 600 }
+t "" 2 "High,Low" { 0 900 }
+p "" 2 2 "(CorePlus after FitNation=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 900 0 }
+t "" 4 "Low,Low" { 450 450 }

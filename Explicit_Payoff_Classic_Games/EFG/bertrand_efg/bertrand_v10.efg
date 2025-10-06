@@ -1,0 +1,8 @@
+EFG 2 R "10. EV Charging - Bertrand 2x2" { "PumpPro" "FuelPoint" }
+p "ROOT" 1 1 "(PumpPro sets price)" { "High" "Low" } 0
+p "" 2 1 "(FuelPoint after PumpPro=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 900 900 }
+t "" 2 "High,Low" { 0 1560 }
+p "" 2 2 "(FuelPoint after PumpPro=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 1560 0 }
+t "" 4 "Low,Low" { 780 780 }

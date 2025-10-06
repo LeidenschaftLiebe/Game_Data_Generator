@@ -1,0 +1,8 @@
+EFG 2 R "19. Car Rentals - Bertrand 2x2" { "CityDrive" "FlyRent" }
+p "ROOT" 1 1 "(CityDrive sets price)" { "High" "Low" } 0
+p "" 2 1 "(FlyRent after CityDrive=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1250 1250 }
+t "" 2 "High,Low" { 0 2250 }
+p "" 2 2 "(FlyRent after CityDrive=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2250 0 }
+t "" 4 "Low,Low" { 1125 1125 }

@@ -1,0 +1,8 @@
+EFG 2 R "4. Online Electronics - Bertrand 2x2" { "TechZone" "GigaStore" }
+p "ROOT" 1 1 "(TechZone sets price)" { "High" "Low" } 0
+p "" 2 1 "(GigaStore after TechZone=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 300 300 }
+t "" 2 "High,Low" { 0 480 }
+p "" 2 2 "(GigaStore after TechZone=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 480 0 }
+t "" 4 "Low,Low" { 240 240 }

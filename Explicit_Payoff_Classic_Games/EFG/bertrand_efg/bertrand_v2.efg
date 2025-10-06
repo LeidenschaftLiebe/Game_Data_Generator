@@ -1,0 +1,8 @@
+EFG 2 R "2. Gasoline - Bertrand 2x2" { "FuelMax" "RoadOil" }
+p "ROOT" 1 1 "(FuelMax sets price)" { "High" "Low" } 0
+p "" 2 1 "(RoadOil after FuelMax=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 500 500 }
+t "" 2 "High,Low" { 0 700 }
+p "" 2 2 "(RoadOil after FuelMax=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 700 0 }
+t "" 4 "Low,Low" { 350 350 }

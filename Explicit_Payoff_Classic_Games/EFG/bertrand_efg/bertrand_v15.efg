@@ -1,0 +1,8 @@
+EFG 2 R "15. Home Insurance - Bertrand 2x2" { "ShieldSure" "SafeGuard" }
+p "ROOT" 1 1 "(ShieldSure sets premium)" { "High" "Low" } 0
+p "" 2 1 "(SafeGuard after ShieldSure=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1500 1500 }
+t "" 2 "High,Low" { 0 2400 }
+p "" 2 2 "(SafeGuard after ShieldSure=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2400 0 }
+t "" 4 "Low,Low" { 1200 1200 }

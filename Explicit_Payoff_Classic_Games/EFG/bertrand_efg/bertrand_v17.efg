@@ -1,0 +1,8 @@
+EFG 2 R "17. Grocery Delivery - Bertrand 2x2" { "FreshDoor" "QuickCart" }
+p "ROOT" 1 1 "(FreshDoor sets price)" { "High" "Low" } 0
+p "" 2 1 "(QuickCart after FreshDoor=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 550 550 }
+t "" 2 "High,Low" { 0 960 }
+p "" 2 2 "(QuickCart after FreshDoor=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 960 0 }
+t "" 4 "Low,Low" { 480 480 }

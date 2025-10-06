@@ -1,0 +1,124 @@
+11) Coffee Roasters (national wholesale)
+
+Two roasters, BeanCraft and RoastWorks, face inverse demand P = 120 − Q and unit cost c = 20.
+Each chooses High (40 thousand) or Low (20 thousand), simultaneously.
+If both choose High, total output is 80 thousand and the price is $40.
+If one chooses High and the other chooses Low, total output is 60 thousand and the price is $60.
+If both choose Low, total output is 40 thousand and the price is $80.
+
+
+
+
+
+
+12) Dairy Processors (regional milk)
+
+Two processors, CreamValley and FreshDale, face inverse demand P = 140 − 0.5Q and unit cost c = 20.
+Each chooses High (80 thousand) or Low (40 thousand), simultaneously.
+If both choose High, total output is 160 thousand and the price is $60.
+If one chooses High and the other chooses Low, total output is 120 thousand and the price is $80.
+If both choose Low, total output is 80 thousand and the price is $100.
+
+
+
+
+
+
+13) Cloud Storage (enterprise)
+
+Two providers, DataHarbor and CloudGrid, face inverse demand P = 200 − Q and unit cost c = 50.
+Each chooses High (70 thousand) or Low (35 thousand), simultaneously.
+If both choose High, total output is 140 thousand and the price is $60.
+If one chooses High and the other chooses Low, total output is 105 thousand and the price is $95.
+If both choose Low, total output is 70 thousand and the price is $130.
+
+
+
+
+
+
+14) Regional Breweries (lager)
+
+Two breweries, RiverBrew and TallPines, face inverse demand P = 220 − 2Q and unit cost c = 40.
+Each chooses High (40 thousand) or Low (20 thousand), simultaneously.
+If both choose High, total output is 80 thousand and the price is $60.
+If one chooses High and the other chooses Low, total output is 60 thousand and the price is $100.
+If both choose Low, total output is 40 thousand and the price is $140.
+
+
+
+
+
+
+15) Online Courses (subscription bundles)
+
+Two platforms, SkillForge and EduWave, face inverse demand P = 90 − 0.3Q and unit cost c = 15.
+Each chooses High (100 thousand) or Low (50 thousand), simultaneously.
+If both choose High, total output is 200 thousand and the price is $30.
+If one chooses High and the other chooses Low, total output is 150 thousand and the price is $45.
+If both choose Low, total output is 100 thousand and the price is $60.
+
+
+
+
+
+
+16) Car Rentals (airport city pair)
+
+Two firms, CityDrive and FlyRent, face inverse demand P = 400 − Q and unit cost c = 80.
+Each chooses High (120 thousand) or Low (60 thousand), simultaneously.
+If both choose High, total output is 240 thousand and the price is $160.
+If one chooses High and the other chooses Low, total output is 180 thousand and the price is $220.
+If both choose Low, total output is 120 thousand and the price is $280.
+
+
+
+
+
+
+17) Laptop PCs (mid high tier)
+
+Two manufacturers, SilverWave and ProCore, face inverse demand P = 1500 − 3Q and unit cost c = 400.
+Each chooses High (150 thousand) or Low (75 thousand), simultaneously.
+If both choose High, total output is 300 thousand and the price is $600.
+If one chooses High and the other chooses Low, total output is 225 thousand and the price is $825.
+If both choose Low, total output is 150 thousand and the price is $1050.
+
+
+
+
+
+
+18) Organic Fertilizer (agri supply)
+
+Two suppliers, GreenSoil and AgriBloom, face inverse demand P = 260 − 1.5Q and unit cost c = 50.
+Each chooses High (60 thousand) or Low (30 thousand), simultaneously.
+If both choose High, total output is 120 thousand and the price is $80.
+If one chooses High and the other chooses Low, total output is 90 thousand and the price is $125.
+If both choose Low, total output is 60 thousand and the price is $170.
+
+
+
+
+
+
+19) Hotel Rooms (urban weekends)
+
+Two chains, MetroStay and CityLodge, face inverse demand P = 700 − 2Q and unit cost c = 120.
+Each chooses High (100 thousand) or Low (50 thousand), simultaneously.
+If both choose High, total output is 200 thousand and the price is $300.
+If one chooses High and the other chooses Low, total output is 150 thousand and the price is $400.
+If both choose Low, total output is 100 thousand and the price is $500.
+
+
+
+
+
+
+20) EV Charging (city network)
+
+Two operators, VoltHub and ChargeGo, face inverse demand P = 200 − 0.4Q and unit cost c = 20.
+Each chooses High (150 thousand) or Low (75 thousand), simultaneously.
+If both choose High, total output is 300 thousand and the price is $80.
+If one chooses High and the other chooses Low, total output is 225 thousand and the price is $110.
+If both choose Low, total output is 150 thousand and the price is $140.

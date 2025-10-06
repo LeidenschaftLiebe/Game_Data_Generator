@@ -1,0 +1,124 @@
+1) Bottled Water (regional)
+
+Two producers, SpringPure and AquaBlue, face inverse demand P = 120 − Q and unit cost c = 20.
+Each chooses High (40 thousand) or Low (20 thousand), simultaneously.
+If both choose High, total output is 80 thousand and the price is 40 dollars.
+If one chooses High and the other chooses Low, total output is 60 thousand and the price is 60 dollars.
+If both choose Low, total output is 40 thousand and the price is 80 dollars.
+
+
+
+
+
+
+2) Cement (metro area)
+
+Two firms, MetroCem and UrbanMix, face inverse demand P = 500 − 2Q and unit cost c = 100.
+Each chooses High (80 thousand) or Low (40 thousand), simultaneously.
+If both choose High, total output is 160 thousand and the price is 180 dollars.
+If one chooses High and the other chooses Low, total output is 120 thousand and the price is 260 dollars.
+If both choose Low, total output is 80 thousand and the price is 340 dollars.
+
+
+
+
+
+
+3) Smartphones (mid-range)
+
+Two manufacturers, NimbleTech and OrbitMobile, face inverse demand P = 1300 − 3Q and unit cost c = 300.
+Each chooses High (150 thousand) or Low (80 thousand), simultaneously.
+If both choose High, total output is 300 thousand and the price is 400 dollars.
+If one chooses High and the other chooses Low, total output is 230 thousand and the price is 610 dollars.
+If both choose Low, total output is 160 thousand and the price is 820 dollars.
+
+
+
+
+
+
+4) Airline seats (trunk route)
+
+Two carriers, SkyJet and AeroLink, face inverse demand P = 800 − 2Q and unit cost c = 200.
+Each chooses High (120 thousand seats) or Low (60 thousand seats), simultaneously.
+If both choose High, total seats are 240 thousand and the price is 320 dollars.
+If one chooses High and the other chooses Low, total seats are 180 thousand and the price is 440 dollars.
+If both choose Low, total seats are 120 thousand and the price is 560 dollars.
+
+
+
+
+
+
+5) Ride hailing trips (single city)
+
+Two platforms, SwiftRide and GoCab, face inverse demand P = 50 − 0.2Q and unit cost c = 10.
+Each chooses High (90 thousand) or Low (45 thousand), simultaneously.
+If both choose High, total rides are 180 thousand and the price is 14 dollars.
+If one chooses High and the other chooses Low, total rides are 135 thousand and the price is 23 dollars.
+If both choose Low, total rides are 90 thousand and the price is 32 dollars.
+
+
+
+
+
+
+6) Steel coils (regional mills)
+
+Two mills, ForgeOne and Riverton Steel, face inverse demand P = 900 − 1.5Q and unit cost c = 200.
+Each chooses High (180 thousand) or Low (90 thousand), simultaneously.
+If both choose High, total output is 360 thousand and the price is 360 dollars.
+If one chooses High and the other chooses Low, total output is 270 thousand and the price is 495 dollars.
+If both choose Low, total output is 180 thousand and the price is 630 dollars.
+
+
+
+
+
+
+7) Streaming subscriptions (niche service)
+
+Two services, Streamly and WatchBox, face inverse demand P = 40 − 0.1Q and unit cost c = 5.
+Each chooses High (150 thousand) or Low (75 thousand), simultaneously.
+If both choose High, total subscribers are 300 thousand and the price is 10 dollars.
+If one chooses High and the other chooses Low, total subscribers are 225 thousand and the price is 17 dollars and 50 cents.
+If both choose Low, total subscribers are 150 thousand and the price is 25 dollars.
+
+
+
+
+
+
+8) Luxury handbags (global segment)
+
+Two houses, Maison Vert and Atelier Noir, face inverse demand P = 4000 − 5Q and unit cost c = 800.
+Each chooses High (300 thousand) or Low (150 thousand), simultaneously.
+If both choose High, total output is 600 thousand and the price is 1000 dollars.
+If one chooses High and the other chooses Low, total output is 450 thousand and the price is 1750 dollars.
+If both choose Low, total output is 300 thousand and the price is 2500 dollars.
+
+
+
+
+
+
+9) Generic pharmaceuticals (single molecule)
+
+Two manufacturers, HealthCore and MediPure, face inverse demand P = 200 − 0.5Q and unit cost c = 40.
+Each chooses High (120 thousand) or Low (60 thousand), simultaneously.
+If both choose High, total output is 240 thousand and the price is 80 dollars.
+If one chooses High and the other chooses Low, total output is 180 thousand and the price is 110 dollars.
+If both choose Low, total output is 120 thousand and the price is 140 dollars.
+
+
+
+
+
+
+10) Semiconductor wafers (foundry capacity)
+
+Two fabs, SiliconWorks and NanoFab, face inverse demand P = 3000 − 2Q and unit cost c = 700.
+Each chooses High (500 thousand) or Low (250 thousand), simultaneously.
+If both choose High, total wafers are 1000 thousand and the price is 1000 dollars.
+If one chooses High and the other chooses Low, total wafers are 750 thousand and the price is 1500 dollars.
+If both choose Low, total wafers are 500 thousand and the price is 2000 dollars.

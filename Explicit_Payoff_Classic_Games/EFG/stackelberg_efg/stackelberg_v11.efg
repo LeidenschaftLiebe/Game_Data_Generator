@@ -1,0 +1,8 @@
+EFG 2 R "11. Stackelberg Solar Panels" { "SunPeak" "BrightVolt" }
+p "ROOT" 1 1 "(SunPeak chooses run)" { "Large" "Small" } 0
+p "" 2 1 "(BrightVolt after Large)" { "Large" "Small" } 0
+t "" 1 "Large,Large" { 2000 2000 }
+t "" 2 "Large,Small" { 4200 2100 }
+p "" 2 2 "(BrightVolt after Small)" { "Large" "Small" } 0
+t "" 3 "Small,Large" { 2100 4200 }
+t "" 4 "Small,Small" { 3200 3200 }

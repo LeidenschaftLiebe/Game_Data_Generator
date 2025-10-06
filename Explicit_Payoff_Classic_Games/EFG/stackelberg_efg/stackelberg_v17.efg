@@ -1,0 +1,8 @@
+EFG 2 R "17. Stackelberg Luxury Handbags" { "Maison Vert" "Atelier Noir" }
+p "ROOT" 1 1 "(Maison Vert chooses release)" { "Wide" "Selective" } 0
+p "" 2 1 "(Atelier Noir after Wide)" { "Wide" "Selective" } 0
+t "" 1 "Wide,Wide" { 60000 60000 }
+t "" 2 "Wide,Selective" { 285000 142500 }
+p "" 2 2 "(Atelier Noir after Selective)" { "Wide" "Selective" } 0
+t "" 3 "Selective,Wide" { 142500 285000 }
+t "" 4 "Selective,Selective" { 255000 255000 }

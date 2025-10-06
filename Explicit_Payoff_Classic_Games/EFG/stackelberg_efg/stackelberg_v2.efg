@@ -1,0 +1,8 @@
+EFG 2 R "2. Stackelberg Cement" { "MetroCem" "UrbanMix" }
+p "ROOT" 1 1 "(MetroCem chooses output)" { "Aggressive" "Conservative" } 0
+p "" 2 1 "(UrbanMix after Aggressive)" { "Aggressive" "Conservative" } 0
+t "" 1 "Aggressive,Aggressive" { 6400 6400 }
+t "" 2 "Aggressive,Conservative" { 12800 6400 }
+p "" 2 2 "(UrbanMix after Conservative)" { "Aggressive" "Conservative" } 0
+t "" 3 "Conservative,Aggressive" { 6400 12800 }
+t "" 4 "Conservative,Conservative" { 9600 9600 }

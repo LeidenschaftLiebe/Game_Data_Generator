@@ -1,0 +1,8 @@
+EFG 2 R "18. Stackelberg Generic Pharma" { "HealthCore" "MediPure" }
+p "ROOT" 1 1 "(HealthCore chooses batches)" { "Large" "Small" } 0
+p "" 2 1 "(MediPure after Large)" { "Large" "Small" } 0
+t "" 1 "Large,Large" { 4800 4800 }
+t "" 2 "Large,Small" { 8400 4200 }
+p "" 2 2 "(MediPure after Small)" { "Large" "Small" } 0
+t "" 3 "Small,Large" { 4200 8400 }
+t "" 4 "Small,Small" { 6000 6000 }

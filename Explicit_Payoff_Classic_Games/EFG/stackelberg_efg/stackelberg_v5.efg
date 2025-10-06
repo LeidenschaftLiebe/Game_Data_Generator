@@ -1,0 +1,8 @@
+EFG 2 R "5. Stackelberg Ride-Hailing" { "RideFast" "GoWheel" }
+p "ROOT" 1 1 "(RideFast chooses capacity)" { "High" "Low" } 0
+p "" 2 1 "(GoWheel after High)" { "High" "Low" } 0
+t "" 1 "High,High" { 2000 2000 }
+t "" 2 "High,Low" { 4000 2000 }
+p "" 2 2 "(GoWheel after Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2000 4000 }
+t "" 4 "Low,Low" { 3000 3000 }

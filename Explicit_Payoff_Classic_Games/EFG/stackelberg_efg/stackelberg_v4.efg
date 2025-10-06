@@ -1,0 +1,8 @@
+EFG 2 R "4. Stackelberg Smartphone Production" { "TechNova" "SmartEdge" }
+p "ROOT" 1 1 "(TechNova chooses output)" { "High" "Low" } 0
+p "" 2 1 "(SmartEdge after High)" { "High" "Low" } 0
+t "" 1 "High,High" { 30000 30000 }
+t "" 2 "High,Low" { 64000 32000 }
+p "" 2 2 "(SmartEdge after Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 32000 64000 }
+t "" 4 "Low,Low" { 49000 49000 }

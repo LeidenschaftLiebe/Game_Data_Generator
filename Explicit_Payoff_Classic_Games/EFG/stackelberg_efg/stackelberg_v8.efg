@@ -1,0 +1,8 @@
+EFG 2 R "8. Stackelberg Organic Fertilizer" { "GreenSoil" "AgriBloom" }
+p "ROOT" 1 1 "(GreenSoil chooses batch)" { "Big" "Small" } 0
+p "" 2 1 "(AgriBloom after Big)" { "Big" "Small" } 0
+t "" 1 "Big,Big" { 1800 1800 }
+t "" 2 "Big,Small" { 4500 2250 }
+p "" 2 2 "(AgriBloom after Small)" { "Big" "Small" } 0
+t "" 3 "Small,Big" { 2250 4500 }
+t "" 4 "Small,Small" { 3600 3600 }

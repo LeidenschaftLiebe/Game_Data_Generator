@@ -1,0 +1,8 @@
+EFG 2 R "15. Stackelberg Construction Steel" { "ForgeOne" "Riverton" }
+p "ROOT" 1 1 "(ForgeOne chooses output)" { "Aggressive" "Light" } 0
+p "" 2 1 "(Riverton after Aggressive)" { "Aggressive" "Light" } 0
+t "" 1 "Aggressive,Aggressive" { 28800 28800 }
+t "" 2 "Aggressive,Light" { 53100 29700 }
+p "" 2 2 "(Riverton after Light)" { "Aggressive" "Light" } 0
+t "" 3 "Light,Aggressive" { 29700 53100 }
+t "" 4 "Light,Light" { 38700 38700 }

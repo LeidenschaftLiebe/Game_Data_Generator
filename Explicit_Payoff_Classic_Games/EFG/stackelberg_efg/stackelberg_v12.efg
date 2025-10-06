@@ -1,0 +1,8 @@
+EFG 2 R "12. Stackelberg Dairy Processing" { "CreamValley" "FreshDale" }
+p "ROOT" 1 1 "(CreamValley chooses volume)" { "Expand" "Conserve" } 0
+p "" 2 1 "(FreshDale after Expand)" { "Expand" "Conserve" } 0
+t "" 1 "Expand,Expand" { 3200 3200 }
+t "" 2 "Expand,Conserve" { 4800 2400 }
+p "" 2 2 "(FreshDale after Conserve)" { "Expand" "Conserve" } 0
+t "" 3 "Conserve,Expand" { 2400 4800 }
+t "" 4 "Conserve,Conserve" { 3200 3200 }

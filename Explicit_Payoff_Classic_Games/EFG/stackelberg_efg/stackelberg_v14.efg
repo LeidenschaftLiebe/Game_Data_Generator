@@ -1,0 +1,8 @@
+EFG 2 R "14. Stackelberg Streaming" { "Streamly" "WatchBox" }
+p "ROOT" 1 1 "(Streamly sets bundle)" { "Full" "Modest" } 0
+p "" 2 1 "(WatchBox after Full)" { "Full" "Modest" } 0
+t "" 1 "Full,Full" { 1500 1500 }
+t "" 2 "Full,Modest" { 3000 1500 }
+p "" 2 2 "(WatchBox after Modest)" { "Full" "Modest" } 0
+t "" 3 "Modest,Full" { 1500 3000 }
+t "" 4 "Modest,Modest" { 2300 2300 }

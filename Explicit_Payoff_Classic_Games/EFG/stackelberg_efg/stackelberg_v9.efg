@@ -1,0 +1,8 @@
+EFG 2 R "9. Stackelberg Hotel Rooms" { "MetroStay" "CityLodge" }
+p "ROOT" 1 1 "(MetroStay chooses release)" { "Large" "Small" } 0
+p "" 2 1 "(CityLodge after Large)" { "Large" "Small" } 0
+t "" 1 "Large,Large" { 18000 18000 }
+t "" 2 "Large,Small" { 28000 14000 }
+p "" 2 2 "(CityLodge after Small)" { "Large" "Small" } 0
+t "" 3 "Small,Large" { 14000 28000 }
+t "" 4 "Small,Small" { 19000 19000 }

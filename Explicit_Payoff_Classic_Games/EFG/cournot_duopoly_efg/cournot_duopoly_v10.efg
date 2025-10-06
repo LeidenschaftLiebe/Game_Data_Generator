@@ -1,0 +1,8 @@
+EFG 2 R "10. Semiconductor Wafers - Cournot 2x2" { "SiliconWorks" "NanoFab" }
+p "ROOT" 1 1 "(SiliconWorks chooses output)" { "High" "Low" } 0
+p "" 2 1 "(NanoFab after SiliconWorks=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 150000 150000 }
+t "" 2 "High,Low" { 400000 200000 }
+p "" 2 2 "(NanoFab after SiliconWorks=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 200000 400000 }
+t "" 4 "Low,Low" { 325000 325000 }

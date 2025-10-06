@@ -1,0 +1,8 @@
+EFG 2 R "7. Streaming Subscriptions - Cournot 2x2" { "Streamly" "WatchBox" }
+p "ROOT" 1 1 "(Streamly chooses output)" { "High" "Low" } 0
+p "" 2 1 "(WatchBox after Streamly=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 750 750 }
+t "" 2 "High,Low" { 1875 937 }
+p "" 2 2 "(WatchBox after Streamly=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 937 1875 }
+t "" 4 "Low,Low" { 1500 1500 }

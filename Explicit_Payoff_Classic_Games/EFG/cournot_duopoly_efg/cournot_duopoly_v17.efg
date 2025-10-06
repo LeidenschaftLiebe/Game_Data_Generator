@@ -1,0 +1,8 @@
+EFG 2 R "17. Laptop PCs - Cournot" { "SilverWave" "ProCore" }
+p "ROOT" 1 1 "(SilverWave chooses output)" { "High" "Low" } 0
+p "" 2 1 "(ProCore after SilverWave=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 30000 30000 }
+t "" 2 "High,Low" { 63750 31875 }
+p "" 2 2 "(ProCore after SilverWave=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 31875 63750 }
+t "" 4 "Low,Low" { 48750 48750 }

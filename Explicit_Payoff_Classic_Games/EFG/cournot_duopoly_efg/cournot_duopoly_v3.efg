@@ -1,0 +1,8 @@
+EFG 2 R "3. Smartphones - Cournot 2x2" { "NimbleTech" "OrbitMobile" }
+p "ROOT" 1 1 "(NimbleTech chooses output)" { "High" "Low" } 0
+p "" 2 1 "(OrbitMobile after NimbleTech=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 15000 15000 }
+t "" 2 "High,Low" { 46500 24800 }
+p "" 2 2 "(OrbitMobile after NimbleTech=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 24800 46500 }
+t "" 4 "Low,Low" { 41600 41600 }

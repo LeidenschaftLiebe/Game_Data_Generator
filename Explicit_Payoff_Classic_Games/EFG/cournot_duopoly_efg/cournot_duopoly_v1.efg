@@ -1,0 +1,8 @@
+EFG 2 R "1. Bottled Water - Cournot 2x2" { "SpringPure" "AquaBlue" }
+p "ROOT" 1 1 "(SpringPure chooses output)" { "High" "Low" } 0
+p "" 2 1 "(AquaBlue after SpringPure=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 800 800 }
+t "" 2 "High,Low" { 1600 800 }
+p "" 2 2 "(AquaBlue after SpringPure=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 800 1600 }
+t "" 4 "Low,Low" { 1200 1200 }

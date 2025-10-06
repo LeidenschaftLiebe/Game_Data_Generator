@@ -1,0 +1,8 @@
+EFG 2 R "5. Ride Hailing - Cournot 2x2" { "SwiftRide" "GoCab" }
+p "ROOT" 1 1 "(SwiftRide chooses output)" { "High" "Low" } 0
+p "" 2 1 "(GoCab after SwiftRide=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 360 360 }
+t "" 2 "High,Low" { 1170 585 }
+p "" 2 2 "(GoCab after SwiftRide=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 585 1170 }
+t "" 4 "Low,Low" { 990 990 }

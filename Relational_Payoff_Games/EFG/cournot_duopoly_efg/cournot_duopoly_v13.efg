@@ -1,0 +1,8 @@
+EFG 2 R "13. Wind Turbines - Cournot 2x2" { "GreenSpire" "EcoWind" }
+p "ROOT" 1 1 "(GreenSpire chooses output)" { "High" "Low" } 0
+p "" 2 1 "(EcoWind after GreenSpire=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 6000 6000 }
+t "" 2 "High,Low" { 12000 6000 }
+p "" 2 2 "(EcoWind after GreenSpire=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 6000 12000 }
+t "" 4 "Low,Low" { 9000 9000 }

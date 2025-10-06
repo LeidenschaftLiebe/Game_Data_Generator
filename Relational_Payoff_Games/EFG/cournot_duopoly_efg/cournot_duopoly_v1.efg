@@ -1,0 +1,8 @@
+EFG 2 R "1. Mineral Water Bottlers - Cournot 2x2" { "ClearSprings" "BluePeak" }
+p "ROOT" 1 1 "(ClearSprings chooses output)" { "High" "Low" } 0
+p "" 2 1 "(BluePeak after ClearSprings=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 800 800 }
+t "" 2 "High,Low" { 1600 800 }
+p "" 2 2 "(BluePeak after ClearSprings=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 800 1600 }
+t "" 4 "Low,Low" { 1200 1200 }

@@ -1,0 +1,8 @@
+EFG 2 R "8. EV Battery Cells - Cournot 2x2" { "VoltMatrix" "Lithionix" }
+p "ROOT" 1 1 "(VoltMatrix chooses output)" { "High" "Low" } 0
+p "" 2 1 "(Lithionix after VoltMatrix=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1800 1800 }
+t "" 2 "High,Low" { 4500 2250 }
+p "" 2 2 "(Lithionix after VoltMatrix=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2250 4500 }
+t "" 4 "Low,Low" { 3600 3600 }

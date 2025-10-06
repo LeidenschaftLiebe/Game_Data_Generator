@@ -1,0 +1,8 @@
+EFG 2 R "2. Data Center Cooling - Cournot 2x2" { "FrostCore" "ArcticFlow" }
+p "ROOT" 1 1 "(FrostCore chooses output)" { "High" "Low" } 0
+p "" 2 1 "(ArcticFlow after FrostCore=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 3200 3200 }
+t "" 2 "High,Low" { 4800 2400 }
+p "" 2 2 "(ArcticFlow after FrostCore=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2400 4800 }
+t "" 4 "Low,Low" { 3200 3200 }

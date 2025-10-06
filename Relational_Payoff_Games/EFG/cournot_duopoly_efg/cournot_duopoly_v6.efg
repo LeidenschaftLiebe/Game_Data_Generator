@@ -1,0 +1,8 @@
+EFG 2 R "6. Budget Airlines - Cournot 2x2" { "SkySaver" "JetEconomy" }
+p "ROOT" 1 1 "(SkySaver chooses output)" { "High" "Low" } 0
+p "" 2 1 "(JetEconomy after SkySaver=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 9600 9600 }
+t "" 2 "High,Low" { 16800 8400 }
+p "" 2 2 "(JetEconomy after SkySaver=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 8400 16800 }
+t "" 4 "Low,Low" { 12000 12000 }

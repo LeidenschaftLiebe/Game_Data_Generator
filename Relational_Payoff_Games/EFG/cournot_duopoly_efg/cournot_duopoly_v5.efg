@@ -1,0 +1,8 @@
+EFG 2 R "5. Online News - Cournot 2x2" { "DailyWireframe" "MetroLedger" }
+p "ROOT" 1 1 "(DailyWireframe chooses output)" { "High" "Low" } 0
+p "" 2 1 "(MetroLedger after DailyWireframe=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1500 1500 }
+t "" 2 "High,Low" { 3000 1500 }
+p "" 2 2 "(MetroLedger after DailyWireframe=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 1500 3000 }
+t "" 4 "Low,Low" { 2250 2250 }

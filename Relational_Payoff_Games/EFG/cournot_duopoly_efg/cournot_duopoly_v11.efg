@@ -1,0 +1,8 @@
+EFG 2 R "11. Solar Panels - Cournot 2x2" { "SunPeak" "BrightVolt" }
+p "ROOT" 1 1 "(SunPeak chooses output)" { "High" "Low" } 0
+p "" 2 1 "(BrightVolt after SunPeak=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 2000 2000 }
+t "" 2 "High,Low" { 4200 2100 }
+p "" 2 2 "(BrightVolt after SunPeak=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 2100 4200 }
+t "" 4 "Low,Low" { 3200 3200 }

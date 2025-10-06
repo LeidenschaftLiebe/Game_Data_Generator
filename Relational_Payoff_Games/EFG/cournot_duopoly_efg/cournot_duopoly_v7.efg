@@ -1,0 +1,8 @@
+EFG 2 R "7. Cloud Gaming - Cournot 2x2" { "PlayNimbus" "StreamArcade" }
+p "ROOT" 1 1 "(PlayNimbus chooses output)" { "High" "Low" } 0
+p "" 2 1 "(StreamArcade after PlayNimbus=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 30000 30000 }
+t "" 2 "High,Low" { 63750 31875 }
+p "" 2 2 "(StreamArcade after PlayNimbus=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 31875 63750 }
+t "" 4 "Low,Low" { 48750 48750 }

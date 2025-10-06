@@ -1,0 +1,8 @@
+EFG 2 R "16. Cloud Storage - Cournot 2x2" { "ByteBox" "DataKeep" }
+p "ROOT" 1 1 "(ByteBox chooses output)" { "High" "Low" } 0
+p "" 2 1 "(DataKeep after ByteBox=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 700 700 }
+t "" 2 "High,Low" { 1500 800 }
+p "" 2 2 "(DataKeep after ByteBox=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 800 1500 }
+t "" 4 "Low,Low" { 1200 1200 }

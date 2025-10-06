@@ -1,0 +1,8 @@
+EFG 2 R "18. Hotel Rooms - Cournot 2x2" { "OceanView" "SeaShore" }
+p "ROOT" 1 1 "(OceanView chooses output)" { "High" "Low" } 0
+p "" 2 1 "(SeaShore after OceanView=High)" { "High" "Low" } 0
+t "" 1 "High,High" { 9000 9000 }
+t "" 2 "High,Low" { 14000 7000 }
+p "" 2 2 "(SeaShore after OceanView=Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 7000 14000 }
+t "" 4 "Low,Low" { 11000 11000 }

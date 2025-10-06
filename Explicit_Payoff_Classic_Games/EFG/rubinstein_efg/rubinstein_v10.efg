@@ -1,0 +1,12 @@
+EFG 2 R "10. Rubinstein: Energy Partnership ($5M then $4M)" { "Utility" "Startup" }
+p "ROOT" 1 1 "(Utility Offer)" { "Offer 3.0/2.0" "Offer 3.5/1.5" } 0
+p "" 2 1 "(Startup after 3.0/2.0)" { "Accept" "Counter 1.8/2.2" } 0
+t "" 1 "Accept 3.0/2.0" { 3000 2000 }
+p "" 1 2 "(Utility Response)" { "Accept" "Reject" } 0
+t "" 2 "Accept Counter" { 1800 2200 }
+t "" 3 "Reject  then  Equal Split" { 2000 2000 }
+p "" 2 2 "(Startup after 3.5/1.5)" { "Accept" "Counter 1.8/2.2" } 0
+t "" 4 "Accept 3.5/1.5" { 3500 1500 }
+p "" 1 3 "(Utility Response)" { "Accept" "Reject" } 0
+t "" 5 "Accept Counter" { 1800 2200 }
+t "" 6 "Reject  then  Equal Split" { 2000 2000 }

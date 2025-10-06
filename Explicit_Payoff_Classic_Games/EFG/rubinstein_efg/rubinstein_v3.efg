@@ -1,0 +1,12 @@
+EFG 2 R "3. Rubinstein: Music Royalties ($800K then $600K)" { "Label" "Artist" }
+p "ROOT" 1 1 "(Label Offer)" { "Offer 500/300" "Offer 550/250" } 0
+p "" 2 1 "(Artist after 500/300)" { "Accept" "Counter 260/340" } 0
+t "" 1 "Accept 500/300" { 500 300 }
+p "" 1 2 "(Label Response)" { "Accept" "Reject" } 0
+t "" 2 "Accept Counter" { 260 340 }
+t "" 3 "Reject  then  Equal Split" { 300 300 }
+p "" 2 2 "(Artist after 550/250)" { "Accept" "Counter 260/340" } 0
+t "" 4 "Accept 550/250" { 550 250 }
+p "" 1 3 "(Label Response)" { "Accept" "Reject" } 0
+t "" 5 "Accept Counter" { 260 340 }
+t "" 6 "Reject  then  Equal Split" { 300 300 }

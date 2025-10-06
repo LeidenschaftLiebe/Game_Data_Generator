@@ -1,0 +1,12 @@
+EFG 2 R "1. Rubinstein: Film Production ($2M then $1.5M)" { "Producer" "Lead Actor" }
+p "ROOT" 1 1 "(Producer Offer)" { "Offer 70/30" "Offer 60/40" } 0
+p "" 2 1 "(Actor after 70/30)" { "Accept" "Counter 40/60" } 0
+t "" 1 "Accept 70/30" { 1400 600 }
+p "" 1 2 "(Producer response)" { "Accept" "Reject" } 0
+t "" 2 "Accept 40/60" { 600 900 }
+t "" 3 "Reject  then  Equal Split" { 750 750 }
+p "" 2 2 "(Actor after 60/40)" { "Accept" "Counter 40/60" } 0
+t "" 4 "Accept 60/40" { 1200 800 }
+p "" 1 3 "(Producer response)" { "Accept" "Reject" } 0
+t "" 5 "Accept 40/60" { 600 900 }
+t "" 6 "Reject  then  Equal Split" { 750 750 }

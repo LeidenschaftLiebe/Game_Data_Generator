@@ -1,0 +1,12 @@
+EFG 2 R "20. Rubinstein: Real Estate Commission ($400K then $320K)" { "Senior Agent" "Junior Agent" }
+p "ROOT" 1 1 "(Senior Offer)" { "Offer 250/150" "Offer 280/120" } 0
+p "" 2 1 "(Junior after 250/150)" { "Accept" "Counter 140/180" } 0
+t "" 1 "Accept 250/150" { 250 150 }
+p "" 1 2 "(Senior Response)" { "Accept" "Reject" } 0
+t "" 2 "Accept Counter" { 140 180 }
+t "" 3 "Reject  then  Equal Split" { 160 160 }
+p "" 2 2 "(Junior after 280/120)" { "Accept" "Counter 140/180" } 0
+t "" 4 "Accept 280/120" { 280 120 }
+p "" 1 3 "(Senior Response)" { "Accept" "Reject" } 0
+t "" 5 "Accept Counter" { 140 180 }
+t "" 6 "Reject  then  Equal Split" { 160 160 }

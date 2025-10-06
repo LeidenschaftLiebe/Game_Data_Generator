@@ -1,0 +1,12 @@
+EFG 2 R "12. Rubinstein: Trade Agreement ($5B then $4B)" { "Exporting Country" "Importing Country" }
+p "ROOT" 1 1 "(Exporting Offer)" { "Offer 3.5/1.5" "Offer 3.2/1.8" } 0
+p "" 2 1 "(Importing after 3.5/1.5)" { "Accept" "Counter 1.8/2.2" } 0
+t "" 1 "Accept 3.5/1.5" { 3500 1500 }
+p "" 1 2 "(Exporting Response)" { "Accept" "Reject" } 0
+t "" 2 "Accept Counter" { 1800 2200 }
+t "" 3 "Reject  then  Equal Split" { 2000 2000 }
+p "" 2 2 "(Importing after 3.2/1.8)" { "Accept" "Counter 1.8/2.2" } 0
+t "" 4 "Accept 3.2/1.8" { 3200 1800 }
+p "" 1 3 "(Exporting Response)" { "Accept" "Reject" } 0
+t "" 5 "Accept Counter" { 1800 2200 }
+t "" 6 "Reject  then  Equal Split" { 2000 2000 }

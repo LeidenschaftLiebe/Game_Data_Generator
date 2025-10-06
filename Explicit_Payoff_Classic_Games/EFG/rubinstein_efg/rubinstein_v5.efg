@@ -1,0 +1,12 @@
+EFG 2 R "5. Rubinstein: Startup Acquisition ($900K then $720K)" { "CEO Founder" "Co-founder" }
+p "ROOT" 1 1 "(CEO Offer)" { "Offer 600/300" "Offer 550/350" } 0
+p "" 2 1 "(Co-founder after 600/300)" { "Accept" "Counter 320/400" } 0
+t "" 1 "Accept 600/300" { 600 300 }
+p "" 1 2 "(CEO Response)" { "Accept" "Reject" } 0
+t "" 2 "Accept Counter" { 320 400 }
+t "" 3 "Reject  then  Equal Split" { 360 360 }
+p "" 2 2 "(Co-founder after 550/350)" { "Accept" "Counter 320/400" } 0
+t "" 4 "Accept 550/350" { 550 350 }
+p "" 1 3 "(CEO Response)" { "Accept" "Reject" } 0
+t "" 5 "Accept Counter" { 320 400 }
+t "" 6 "Reject  then  Equal Split" { 360 360 }

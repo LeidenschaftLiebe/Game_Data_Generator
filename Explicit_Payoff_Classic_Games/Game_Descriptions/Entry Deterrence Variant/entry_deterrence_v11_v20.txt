@@ -1,0 +1,144 @@
+11) Solar Power (SunPeak vs BrightVolt)
+
+SunPeak, a long-established solar manufacturer, decides first whether to invest in large capacity or keep a small plant for the year ahead.
+BrightVolt, a new entrant, observes this commitment and decides whether to enter the market or stay out.
+
+If SunPeak builds large capacity and BrightVolt enters, SunPeak dominates production and earns $10,000 thousand, while BrightVolt barely makes $1,000 thousand.
+If BrightVolt stays out, SunPeak secures the market with $12,000 thousand.
+If SunPeak keeps a small plant and BrightVolt enters, both share the demand: SunPeak ends with $6,000 thousand, BrightVolt earns $5,000 thousand.
+If BrightVolt stays out, SunPeak enjoys monopoly profit of $14,000 thousand.
+
+
+
+
+
+
+12) Streaming Services (ViewPrime vs WatchBox)
+
+ViewPrime, a popular streaming platform, chooses whether to slash subscription prices or keep them high.
+WatchBox, a new service, observes and then decides whether to enter the streaming market or stay out.
+
+If ViewPrime offers a low price, WatchBox finds entry difficult: ViewPrime earns $9,000 thousand, WatchBox $500 thousand.
+If WatchBox stays out, ViewPrime earns $11,000 thousand.
+If ViewPrime keeps a high price, WatchBox enters easily, and both share customers: ViewPrime gets $8,000 thousand, WatchBox $7,000 thousand.
+If WatchBox stays out, ViewPrime secures $13,000 thousand.
+
+
+
+
+
+
+13) Airline Services (SkyLift vs AeroJet)
+
+SkyLift, a major carrier, must decide whether to commit to a dense route network or maintain a limited service.
+AeroJet, a budget airline, observes this and decides whether to enter or stay out.
+
+If SkyLift runs a dense network and AeroJet enters, SkyLift still dominates, earning $14,000 thousand while AeroJet manages $2,000 thousand.
+If AeroJet stays out, SkyLift earns $16,000 thousand.
+If SkyLift keeps limited service, AeroJet finds room to compete and enters profitably: SkyLift earns $9,000 thousand, AeroJet $7,000 thousand.
+If AeroJet stays out, SkyLift enjoys $18,000 thousand.
+
+
+
+
+
+
+14) Supermarkets (FreshMart vs DailyGrocer)
+
+FreshMart decides first whether to cut grocery prices or keep regular pricing.
+DailyGrocer, a new chain, then decides whether to open stores or stay out.
+
+If FreshMart adopts low pricing, DailyGrocer struggles: FreshMart earns $11,000 thousand, DailyGrocer $1,000 thousand.
+If DailyGrocer stays out, FreshMart gets $13,000 thousand.
+If FreshMart keeps regular pricing, DailyGrocer enters comfortably, with FreshMart earning $9,000 thousand and DailyGrocer $8,000 thousand.
+If DailyGrocer stays out, FreshMart secures $15,000 thousand.
+
+
+
+
+
+
+15) Pharmaceutical Market (MedCore vs BioPure)
+
+MedCore, the incumbent, chooses whether to invest in high production or stay with limited output for its generic drug line.
+BioPure, a potential entrant, observes this move before deciding whether to enter or stay out.
+
+If MedCore goes high production, BioPure’s profits shrink: MedCore earns $13,000 thousand, BioPure $1,000 thousand.
+If BioPure stays out, MedCore earns $14,000 thousand.
+If MedCore stays limited, BioPure enters successfully: MedCore earns $8,000 thousand, BioPure $6,000 thousand.
+If BioPure stays out, MedCore makes $15,000 thousand.
+
+
+
+
+
+
+16) Construction Materials (BuildMax vs SteelLine)
+
+BuildMax chooses whether to expand production or maintain a controlled supply.
+SteelLine, a new producer, observes this and then decides whether to enter or stay out.
+
+If BuildMax expands, competition leaves little room: BuildMax earns $10,000 thousand, SteelLine $1,000 thousand.
+If SteelLine stays out, BuildMax gains $12,000 thousand.
+If BuildMax controls supply and SteelLine enters, profits split more evenly: BuildMax earns $7,000 thousand, SteelLine $5,000 thousand.
+If SteelLine stays out, BuildMax makes $13,000 thousand.
+
+
+
+
+
+
+17) Telecommunication (Connecta vs LineLink)
+
+Connecta decides whether to drop mobile prices or keep them steady.
+LineLink, a new provider, observes and then decides whether to enter the market or stay out.
+
+If Connecta drops prices, entry becomes unattractive: Connecta earns $9,000 thousand, LineLink $500 thousand.
+If LineLink stays out, Connecta earns $10,500 thousand.
+If Connecta keeps steady pricing, LineLink enters successfully: Connecta earns $7,000 thousand, LineLink $6,000 thousand.
+If LineLink stays out, Connecta gains $12,000 thousand.
+
+
+
+
+
+
+18) Apparel Industry (TrendCo vs NovaWear)
+
+TrendCo, a leading fashion retailer, decides whether to launch discount lines or keep premium-only.
+NovaWear, a startup label, observes and decides whether to enter or stay out.
+
+If TrendCo launches discount lines, entry becomes unprofitable: TrendCo earns $11,000 thousand, NovaWear $1,000 thousand.
+If NovaWear stays out, TrendCo takes $12,000 thousand.
+If TrendCo keeps premium-only, NovaWear enters easily: TrendCo earns $8,000 thousand, NovaWear $7,000 thousand.
+If NovaWear stays out, TrendCo gets $13,000 thousand.
+
+
+
+
+
+
+19) Battery Market (VoltEdge vs PowerOne)
+
+VoltEdge chooses whether to expand capacity or keep current levels.
+PowerOne, a potential rival, observes and then decides whether to enter or stay out.
+
+If VoltEdge expands capacity, PowerOne’s margins vanish: VoltEdge earns $10,000 thousand, PowerOne $1,000 thousand.
+If PowerOne stays out, VoltEdge gains $12,500 thousand.
+If VoltEdge keeps current levels, PowerOne enters profitably: VoltEdge earns $8,000 thousand, PowerOne $7,000 thousand.
+If PowerOne stays out, VoltEdge secures $13,500 thousand.
+
+
+
+
+
+
+20) Food Delivery (QuickEats vs DineGo)
+
+QuickEats decides whether to cut delivery fees or keep them standard.
+DineGo, a new delivery startup, observes and then decides whether to enter or stay out.
+
+If QuickEats cuts fees, DineGo finds entry unprofitable: QuickEats earns $9,500 thousand, DineGo $500 thousand.
+If DineGo stays out, QuickEats earns $11,000 thousand.
+If QuickEats keeps standard pricing, DineGo enters successfully: QuickEats earns $7,000 thousand, DineGo $6,000 thousand.
+If DineGo stays out, QuickEats secures $12,000 thousand.

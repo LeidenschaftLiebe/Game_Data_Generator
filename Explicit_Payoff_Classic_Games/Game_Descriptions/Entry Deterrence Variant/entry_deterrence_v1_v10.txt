@@ -1,0 +1,129 @@
+1) Airline Routes (IncumbentAir vs SkyStart)
+
+IncumbentAir chooses first between a full schedule and a limited schedule on a regional route; 
+SkyStart watches and decides whether to enter.
+A full schedule makes entry unattractive: 
+If SkyStart still enters, IncumbentAir ends around $9,000 and SkyStart near $500; 
+If SkyStart stays out, IncumbentAir gets $11,000.
+A limited schedule leaves room: 
+With entry, IncumbentAir earns $6,000 and SkyStart $4,000; 
+Without entry, IncumbentAir enjoys $12,000.
+
+
+
+
+
+
+2) Bottled Water (PureSpring vs FreshFlow)
+
+PureSpring decides capacity before FreshFlow moves.
+With high capacity, entry yields $8,000 for PureSpring and $500 for FreshFlow; 
+Without entry, PureSpring gets $10,000.
+With low capacity, entry leads to $5,000 for PureSpring and $4,000 for FreshFlow; 
+No entry gives PureSpring $12,000.
+
+
+
+
+
+
+3) Electric Vehicles (Voltura vs EcoMotion)
+
+Voltura picks production scale; EcoMotion moves after observing it.
+An expanded line discourages entry: 
+With entry, Voltura keeps $14,000 and EcoMotion $2,000; 
+No entry gives Voltura $15,000.
+A steady line invites entry: 
+With entry, Voltura takes $9,000 and EcoMotion $8,000; 
+Without entry, Voltura secures $17,000.
+
+
+
+
+
+
+4) Tech Gadgets (Nexon vs ByteRise)
+
+Nexon sets pricing before ByteRise decides on entry.
+A low price keeps control: 
+With entry, Nexon earns $10,000 and ByteRise $2,000; without entry, Nexon gets $12,000.
+A high price leaves space: 
+With entry, Nexon earns $8,000 and ByteRise $7,000; without entry, Nexon enjoys $14,000.
+
+
+
+
+
+
+5) Coffee Chains (BeanCraft vs UrbanRoast)
+
+BeanCraft chooses expansion pace; UrbanRoast decides after seeing it.
+A wide rollout deters entry: 
+If UrbanRoast still enters, BeanCraft ends at $7,000 and UrbanRoast $500; if not, BeanCraft gets $10,000.
+A limited rollout allows coexistence: 
+With entry, BeanCraft earns $6,000 and UrbanRoast $4,500; without entry, BeanCraft takes $12,000.
+
+
+
+
+
+
+6) Online Retail (ShopVerse vs QuickCart)
+
+ShopVerse commits to a pricing stance; QuickCart decides on entry.
+Low price squeezes the newcomer: 
+With entry, ShopVerse keeps $8,000 and QuickCart $500; without entry, ShopVerse gets $10,000.
+Steady price invites a competitor: 
+With entry, ShopVerse earns $6,000 and QuickCart $5,000; without entry, ShopVerse makes $12,000.
+
+
+
+
+
+
+7) Ride-Hailing (RideMax vs UrbanGo)
+
+RideMax sets driver incentives; UrbanGo chooses whether to launch.
+High incentives crowd the streets: 
+With launch, RideMax earns $9,000 and UrbanGo $1,000; without launch, RideMax gets $11,000.
+Normal incentives leave demand: 
+With launch, RideMax earns $7,000 and UrbanGo $6,000; without launch, RideMax makes $13,000.
+
+
+
+
+
+
+8) Energy Drinks (PowerBoost vs VitalRush)
+
+PowerBoost chooses output; VitalRush decides on entry.
+High output deters but is costly: 
+With entry, PowerBoost earns $10,000 and VitalRush $1,000; without entry, PowerBoost gets $12,000.
+Low output welcomes a rival: 
+With entry, PowerBoost earns $7,000 and VitalRush $6,000; without entry, PowerBoost keeps $13,000.
+
+
+
+
+
+
+9) Cloud Storage (DataHarbor vs CloudGrid)
+
+DataHarbor commits capacity; CloudGrid decides on entry.
+A large build-out keeps most customers in-house: 
+With entry, DataHarbor earns $7,500 and CloudGrid $800; no entry yields $9,000.
+A limited build-out leaves room: 
+With entry, DataHarbor gets $5,500 and CloudGrid $4,500; without entry, DataHarbor earns $10,500.
+
+
+
+
+
+
+10) Electric Utilities (GridMax vs VoltCity)
+
+GridMax selects capacity before VoltCity moves.
+Expanded capacity leaves little oxygen: 
+With entry, GridMax takes $11,000 and VoltCity $1,000; without entry, GridMax earns $12,500.
+Limited capacity makes entry viable: 
+With entry, GridMax earns $8,000 and VoltCity $7,000; without entry, GridMax secures $13,000.

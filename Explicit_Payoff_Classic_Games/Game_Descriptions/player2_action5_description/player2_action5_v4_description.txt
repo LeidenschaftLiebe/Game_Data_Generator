@@ -1,0 +1,232 @@
+Game Description 1: Space Prison Escape
+
+In the heart of space prison escape, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- EVA suit theft
+- gravity malfunction
+- guard AI hack
+- cryo chamber hide
+- vent drift
+
+Meanwhile, **Player2** plots their countermoves:
+- pressure seal alarm
+- drone patrol
+- light sensor lock
+- public comm leak
+- AI deception
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **EVA suit theft**:
+  - And **Player2** counters with **pressure seal alarm**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **drone patrol**, the resulting payoff is (26, -26).
+  - And **Player2** counters with **light sensor lock**, the resulting payoff is (-81, 81).
+  - And **Player2** counters with **public comm leak**, the resulting payoff is (97, -97).
+  - And **Player2** counters with **AI deception**, the resulting payoff is (-45, 45).
+
+- If **Player1** selects **gravity malfunction**:
+  - And **Player2** counters with **pressure seal alarm**, the resulting payoff is (31, -31).
+  - And **Player2** counters with **drone patrol**, the resulting payoff is (-97, 97).
+  - And **Player2** counters with **light sensor lock**, the resulting payoff is (62, -62).
+  - And **Player2** counters with **public comm leak**, the resulting payoff is (5, -5).
+  - And **Player2** counters with **AI deception**, the resulting payoff is (-23, 23).
+
+- If **Player1** selects **guard AI hack**:
+  - And **Player2** counters with **pressure seal alarm**, the resulting payoff is (-30, 30).
+  - And **Player2** counters with **drone patrol**, the resulting payoff is (-27, 27).
+  - And **Player2** counters with **light sensor lock**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **public comm leak**, the resulting payoff is (-99, 99).
+  - And **Player2** counters with **AI deception**, the resulting payoff is (-70, 70).
+
+- If **Player1** selects **cryo chamber hide**:
+  - And **Player2** counters with **pressure seal alarm**, the resulting payoff is (87, -87).
+  - And **Player2** counters with **drone patrol**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **light sensor lock**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **public comm leak**, the resulting payoff is (48, -48).
+  - And **Player2** counters with **AI deception**, the resulting payoff is (13, -13).
+
+- If **Player1** selects **vent drift**:
+  - And **Player2** counters with **pressure seal alarm**, the resulting payoff is (39, -39).
+  - And **Player2** counters with **drone patrol**, the resulting payoff is (-21, 21).
+  - And **Player2** counters with **light sensor lock**, the resulting payoff is (59, -59).
+  - And **Player2** counters with **public comm leak**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **AI deception**, the resulting payoff is (-69, 69).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Youth Activist Summit
+
+In the heart of youth activist summit, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- viral challenge
+- carbon pledge
+- interschool debate
+- crowd-sourced bill
+- policy game
+
+Meanwhile, **Player2** plots their countermoves:
+- online backlash
+- fact-check gauntlet
+- influencer infiltration
+- state TV rerun
+- generational callout
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **viral challenge**:
+  - And **Player2** counters with **online backlash**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **fact-check gauntlet**, the resulting payoff is (26, -26).
+  - And **Player2** counters with **influencer infiltration**, the resulting payoff is (-81, 81).
+  - And **Player2** counters with **state TV rerun**, the resulting payoff is (97, -97).
+  - And **Player2** counters with **generational callout**, the resulting payoff is (-45, 45).
+
+- If **Player1** selects **carbon pledge**:
+  - And **Player2** counters with **online backlash**, the resulting payoff is (31, -31).
+  - And **Player2** counters with **fact-check gauntlet**, the resulting payoff is (-97, 97).
+  - And **Player2** counters with **influencer infiltration**, the resulting payoff is (62, -62).
+  - And **Player2** counters with **state TV rerun**, the resulting payoff is (5, -5).
+  - And **Player2** counters with **generational callout**, the resulting payoff is (-23, 23).
+
+- If **Player1** selects **interschool debate**:
+  - And **Player2** counters with **online backlash**, the resulting payoff is (-30, 30).
+  - And **Player2** counters with **fact-check gauntlet**, the resulting payoff is (-27, 27).
+  - And **Player2** counters with **influencer infiltration**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **state TV rerun**, the resulting payoff is (-99, 99).
+  - And **Player2** counters with **generational callout**, the resulting payoff is (-70, 70).
+
+- If **Player1** selects **crowd-sourced bill**:
+  - And **Player2** counters with **online backlash**, the resulting payoff is (87, -87).
+  - And **Player2** counters with **fact-check gauntlet**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **influencer infiltration**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **state TV rerun**, the resulting payoff is (48, -48).
+  - And **Player2** counters with **generational callout**, the resulting payoff is (13, -13).
+
+- If **Player1** selects **policy game**:
+  - And **Player2** counters with **online backlash**, the resulting payoff is (39, -39).
+  - And **Player2** counters with **fact-check gauntlet**, the resulting payoff is (-21, 21).
+  - And **Player2** counters with **influencer infiltration**, the resulting payoff is (59, -59).
+  - And **Player2** counters with **state TV rerun**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **generational callout**, the resulting payoff is (-69, 69).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Historical Archive Hunt
+
+In the heart of historical archive hunt, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- map fragment match
+- diary decryption
+- mirror ink reveal
+- secret compartment
+- alternate translation
+
+Meanwhile, **Player2** plots their countermoves:
+- fake copy plant
+- sabotage scribble
+- light spectrum code
+- vault rotation
+- librarian double-cross
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **map fragment match**:
+  - And **Player2** counters with **fake copy plant**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **sabotage scribble**, the resulting payoff is (26, -26).
+  - And **Player2** counters with **light spectrum code**, the resulting payoff is (-81, 81).
+  - And **Player2** counters with **vault rotation**, the resulting payoff is (97, -97).
+  - And **Player2** counters with **librarian double-cross**, the resulting payoff is (-45, 45).
+
+- If **Player1** selects **diary decryption**:
+  - And **Player2** counters with **fake copy plant**, the resulting payoff is (31, -31).
+  - And **Player2** counters with **sabotage scribble**, the resulting payoff is (-97, 97).
+  - And **Player2** counters with **light spectrum code**, the resulting payoff is (62, -62).
+  - And **Player2** counters with **vault rotation**, the resulting payoff is (5, -5).
+  - And **Player2** counters with **librarian double-cross**, the resulting payoff is (-23, 23).
+
+- If **Player1** selects **mirror ink reveal**:
+  - And **Player2** counters with **fake copy plant**, the resulting payoff is (-30, 30).
+  - And **Player2** counters with **sabotage scribble**, the resulting payoff is (-27, 27).
+  - And **Player2** counters with **light spectrum code**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **vault rotation**, the resulting payoff is (-99, 99).
+  - And **Player2** counters with **librarian double-cross**, the resulting payoff is (-70, 70).
+
+- If **Player1** selects **secret compartment**:
+  - And **Player2** counters with **fake copy plant**, the resulting payoff is (87, -87).
+  - And **Player2** counters with **sabotage scribble**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **light spectrum code**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **vault rotation**, the resulting payoff is (48, -48).
+  - And **Player2** counters with **librarian double-cross**, the resulting payoff is (13, -13).
+
+- If **Player1** selects **alternate translation**:
+  - And **Player2** counters with **fake copy plant**, the resulting payoff is (39, -39).
+  - And **Player2** counters with **sabotage scribble**, the resulting payoff is (-21, 21).
+  - And **Player2** counters with **light spectrum code**, the resulting payoff is (59, -59).
+  - And **Player2** counters with **vault rotation**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **librarian double-cross**, the resulting payoff is (-69, 69).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Biotech Innovation Pitch
+
+In the heart of biotech innovation pitch, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- bio-sensor patch
+- protein folding fix
+- in-vitro meat
+- lung regenerator
+- smart microbes
+
+Meanwhile, **Player2** plots their countermoves:
+- ethical audit
+- cost attack
+- patient feedback
+- data breach
+- rival patent drop
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **bio-sensor patch**:
+  - And **Player2** counters with **ethical audit**, the resulting payoff is (90, -90).
+  - And **Player2** counters with **cost attack**, the resulting payoff is (26, -26).
+  - And **Player2** counters with **patient feedback**, the resulting payoff is (-81, 81).
+  - And **Player2** counters with **data breach**, the resulting payoff is (97, -97).
+  - And **Player2** counters with **rival patent drop**, the resulting payoff is (-45, 45).
+
+- If **Player1** selects **protein folding fix**:
+  - And **Player2** counters with **ethical audit**, the resulting payoff is (31, -31).
+  - And **Player2** counters with **cost attack**, the resulting payoff is (-97, 97).
+  - And **Player2** counters with **patient feedback**, the resulting payoff is (62, -62).
+  - And **Player2** counters with **data breach**, the resulting payoff is (5, -5).
+  - And **Player2** counters with **rival patent drop**, the resulting payoff is (-23, 23).
+
+- If **Player1** selects **in-vitro meat**:
+  - And **Player2** counters with **ethical audit**, the resulting payoff is (-30, 30).
+  - And **Player2** counters with **cost attack**, the resulting payoff is (-27, 27).
+  - And **Player2** counters with **patient feedback**, the resulting payoff is (100, -100).
+  - And **Player2** counters with **data breach**, the resulting payoff is (-99, 99).
+  - And **Player2** counters with **rival patent drop**, the resulting payoff is (-70, 70).
+
+- If **Player1** selects **lung regenerator**:
+  - And **Player2** counters with **ethical audit**, the resulting payoff is (87, -87).
+  - And **Player2** counters with **cost attack**, the resulting payoff is (68, -68).
+  - And **Player2** counters with **patient feedback**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **data breach**, the resulting payoff is (48, -48).
+  - And **Player2** counters with **rival patent drop**, the resulting payoff is (13, -13).
+
+- If **Player1** selects **smart microbes**:
+  - And **Player2** counters with **ethical audit**, the resulting payoff is (39, -39).
+  - And **Player2** counters with **cost attack**, the resulting payoff is (-21, 21).
+  - And **Player2** counters with **patient feedback**, the resulting payoff is (59, -59).
+  - And **Player2** counters with **data breach**, the resulting payoff is (-93, 93).
+  - And **Player2** counters with **rival patent drop**, the resulting payoff is (-69, 69).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+

@@ -20,3 +20,6 @@ Validation_Report/*
 
 # Ignore system files. 
 .DS_STORE
+
+# Merging old files
+Generated_Data/

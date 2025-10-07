@@ -1,0 +1,134 @@
+Game Description 1: Weather Balloon Launch
+
+In the midst of weather balloon launch, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- altitude config
+- gas choice
+- timer trigger
+
+At the same time, **Player2** readies their countermoves:
+- burst sensor
+- wind calc
+- photo cam
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **altitude config**:
+  - If **Player2** responds with **burst sensor**, the resulting payoff is (15, -15).
+  - If **Player2** responds with **wind calc**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **photo cam**, the resulting payoff is (-12, 12).
+
+- Should **Player1** choose **gas choice**:
+  - If **Player2** responds with **burst sensor**, the resulting payoff is (-17, 17).
+  - If **Player2** responds with **wind calc**, the resulting payoff is (3, -3).
+  - If **Player2** responds with **photo cam**, the resulting payoff is (6, -6).
+
+- Should **Player1** choose **timer trigger**:
+  - If **Player2** responds with **burst sensor**, the resulting payoff is (13, -13).
+  - If **Player2** responds with **wind calc**, the resulting payoff is (17, -17).
+  - If **Player2** responds with **photo cam**, the resulting payoff is (20, -20).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 2: Drone Coding Race
+
+In the midst of drone coding race, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- path find
+- obstacle avoid
+- landing logic
+
+At the same time, **Player2** readies their countermoves:
+- GPS spoof
+- live stream
+- heat map
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **path find**:
+  - If **Player2** responds with **GPS spoof**, the resulting payoff is (15, -15).
+  - If **Player2** responds with **live stream**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **heat map**, the resulting payoff is (-12, 12).
+
+- Should **Player1** choose **obstacle avoid**:
+  - If **Player2** responds with **GPS spoof**, the resulting payoff is (-17, 17).
+  - If **Player2** responds with **live stream**, the resulting payoff is (3, -3).
+  - If **Player2** responds with **heat map**, the resulting payoff is (6, -6).
+
+- Should **Player1** choose **landing logic**:
+  - If **Player2** responds with **GPS spoof**, the resulting payoff is (13, -13).
+  - If **Player2** responds with **live stream**, the resulting payoff is (17, -17).
+  - If **Player2** responds with **heat map**, the resulting payoff is (20, -20).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 3: Superhero Training Exam
+
+In the midst of superhero training exam, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- laser beam
+- invis cloak
+- sonic boom
+
+At the same time, **Player2** readies their countermoves:
+- barrier field
+- mirror dodge
+- time slow
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **laser beam**:
+  - If **Player2** responds with **barrier field**, the resulting payoff is (15, -15).
+  - If **Player2** responds with **mirror dodge**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **time slow**, the resulting payoff is (-12, 12).
+
+- Should **Player1** choose **invis cloak**:
+  - If **Player2** responds with **barrier field**, the resulting payoff is (-17, 17).
+  - If **Player2** responds with **mirror dodge**, the resulting payoff is (3, -3).
+  - If **Player2** responds with **time slow**, the resulting payoff is (6, -6).
+
+- Should **Player1** choose **sonic boom**:
+  - If **Player2** responds with **barrier field**, the resulting payoff is (13, -13).
+  - If **Player2** responds with **mirror dodge**, the resulting payoff is (17, -17).
+  - If **Player2** responds with **time slow**, the resulting payoff is (20, -20).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 4: Virtual Museum Sim
+
+In the midst of virtual museum sim, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- gallery flow
+- audio guide
+- avatar dress
+
+At the same time, **Player2** readies their countermoves:
+- kiosk interact
+- gift shop
+- live trivia
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **gallery flow**:
+  - If **Player2** responds with **kiosk interact**, the resulting payoff is (15, -15).
+  - If **Player2** responds with **gift shop**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **live trivia**, the resulting payoff is (-12, 12).
+
+- Should **Player1** choose **audio guide**:
+  - If **Player2** responds with **kiosk interact**, the resulting payoff is (-17, 17).
+  - If **Player2** responds with **gift shop**, the resulting payoff is (3, -3).
+  - If **Player2** responds with **live trivia**, the resulting payoff is (6, -6).
+
+- Should **Player1** choose **avatar dress**:
+  - If **Player2** responds with **kiosk interact**, the resulting payoff is (13, -13).
+  - If **Player2** responds with **gift shop**, the resulting payoff is (17, -17).
+  - If **Player2** responds with **live trivia**, the resulting payoff is (20, -20).
+
+In this contest, adaptability and foresight shape the path to victory.

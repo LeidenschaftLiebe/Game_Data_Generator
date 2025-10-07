@@ -1,0 +1,99 @@
+Game Description 1: Courtroom Trial
+
+In the high-pressure world of courtroom trial, split-second choices can tip the balance.
+
+**Player1** considers their approach:
+- Deploy a tactical **present legal documents**, or
+- Engage with a heartfelt **make emotional appeal**.
+
+Across the table, **Player2** strategizes their defense:
+- Spring a **call surprise witness**, or
+- Hold steady with a **challenge prosecution**.
+
+The resulting dynamics unfold as follows:
+
+- If Player1 commits to **present legal documents**:
+  - And Player2 responds with **call surprise witness**, the payoff is (6, -6).
+  - And Player2 responds with **challenge prosecution**, the payoff is (-6, 6).
+
+- If Player1 commits to **make emotional appeal**:
+  - And Player2 responds with **call surprise witness**, the payoff is (1, -1).
+  - And Player2 responds with **challenge prosecution**, the payoff is (4, -4).
+
+Victory belongs to the one who reads the situation — and their opponent — best.
+
+
+Game Description 2: Political Debate
+
+In the high-pressure world of political debate, split-second choices can tip the balance.
+
+**Player1** considers their approach:
+- Deploy a tactical **propose tax reform**, or
+- Engage with a heartfelt **advocate universal healthcare**.
+
+Across the table, **Player2** strategizes their defense:
+- Spring a **emphasize education**, or
+- Hold steady with a **promote green energy**.
+
+The resulting dynamics unfold as follows:
+
+- If Player1 commits to **propose tax reform**:
+  - And Player2 responds with **emphasize education**, the payoff is (6, -6).
+  - And Player2 responds with **promote green energy**, the payoff is (-6, 6).
+
+- If Player1 commits to **advocate universal healthcare**:
+  - And Player2 responds with **emphasize education**, the payoff is (1, -1).
+  - And Player2 responds with **promote green energy**, the payoff is (4, -4).
+
+Victory belongs to the one who reads the situation — and their opponent — best.
+
+
+Game Description 3: Cooking Contest
+
+In the high-pressure world of cooking contest, split-second choices can tip the balance.
+
+**Player1** considers their approach:
+- Deploy a tactical **prepare French entrée**, or
+- Engage with a heartfelt **present spicy fusion**.
+
+Across the table, **Player2** strategizes their defense:
+- Spring a **decorate for plating**, or
+- Hold steady with a **enhance with exotic spices**.
+
+The resulting dynamics unfold as follows:
+
+- If Player1 commits to **prepare French entrée**:
+  - And Player2 responds with **decorate for plating**, the payoff is (6, -6).
+  - And Player2 responds with **enhance with exotic spices**, the payoff is (-6, 6).
+
+- If Player1 commits to **present spicy fusion**:
+  - And Player2 responds with **decorate for plating**, the payoff is (1, -1).
+  - And Player2 responds with **enhance with exotic spices**, the payoff is (4, -4).
+
+Victory belongs to the one who reads the situation — and their opponent — best.
+
+
+Game Description 4: Tech Product Pitch
+
+In the high-pressure world of tech product pitch, split-second choices can tip the balance.
+
+**Player1** considers their approach:
+- Deploy a tactical **show hardware prototype**, or
+- Engage with a heartfelt **project market growth**.
+
+Across the table, **Player2** strategizes their defense:
+- Spring a **live demo**, or
+- Hold steady with a **competitor comparison**.
+
+The resulting dynamics unfold as follows:
+
+- If Player1 commits to **show hardware prototype**:
+  - And Player2 responds with **live demo**, the payoff is (6, -6).
+  - And Player2 responds with **competitor comparison**, the payoff is (-6, 6).
+
+- If Player1 commits to **project market growth**:
+  - And Player2 responds with **live demo**, the payoff is (1, -1).
+  - And Player2 responds with **competitor comparison**, the payoff is (4, -4).
+
+Victory belongs to the one who reads the situation — and their opponent — best.
+

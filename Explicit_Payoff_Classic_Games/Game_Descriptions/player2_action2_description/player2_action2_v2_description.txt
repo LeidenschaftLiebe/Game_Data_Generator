@@ -1,0 +1,99 @@
+Game Description 1: A Penalty Shootout
+
+The arena is set for a penalty shootout, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **aiming left corner**, or
+- A cunning **blasting center**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **diving left**, or
+- A sharp **standing ground**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **aiming left corner**:
+  - And Player2 counters with **diving left**, the resulting payoff is (-10, 10).
+  - And Player2 counters with **standing ground**, the resulting payoff is (6, -6).
+
+- If Player1 commits to **blasting center**:
+  - And Player2 counters with **diving left**, the resulting payoff is (2, -2).
+  - And Player2 counters with **standing ground**, the resulting payoff is (3, -3).
+
+Only sharp minds and keen instincts will determine the winner.
+
+
+Game Description 2: A Wizard Duel
+
+The arena is set for a wizard duel, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **casting a fireball**, or
+- A cunning **vanishing in smoke**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **raising a shield**, or
+- A sharp **casting mirror spell**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **casting a fireball**:
+  - And Player2 counters with **raising a shield**, the resulting payoff is (-10, 10).
+  - And Player2 counters with **casting mirror spell**, the resulting payoff is (6, -6).
+
+- If Player1 commits to **vanishing in smoke**:
+  - And Player2 counters with **raising a shield**, the resulting payoff is (2, -2).
+  - And Player2 counters with **casting mirror spell**, the resulting payoff is (3, -3).
+
+Only sharp minds and keen instincts will determine the winner.
+
+
+Game Description 3: A Submarine Encounter
+
+The arena is set for a submarine encounter, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **launching torpedoes**, or
+- A cunning **running silent**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **using sonar ping**, or
+- A sharp **deploying depth charges**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **launching torpedoes**:
+  - And Player2 counters with **using sonar ping**, the resulting payoff is (-10, 10).
+  - And Player2 counters with **deploying depth charges**, the resulting payoff is (6, -6).
+
+- If Player1 commits to **running silent**:
+  - And Player2 counters with **using sonar ping**, the resulting payoff is (2, -2).
+  - And Player2 counters with **deploying depth charges**, the resulting payoff is (3, -3).
+
+Only sharp minds and keen instincts will determine the winner.
+
+
+Game Description 4: A Trade Negotiation
+
+The arena is set for a trade negotiation, a stage where every move could spell triumph or defeat.
+
+**Player1** must choose between:
+- A bold **offering a price cut**, or
+- A cunning **holding firm**.
+
+Meanwhile, **Player2** prepares to answer with:
+- A swift **accepting partial terms**, or
+- A sharp **walking away**.
+
+Their chosen paths collide in outcomes like:
+
+- If Player1 commits to **offering a price cut**:
+  - And Player2 counters with **accepting partial terms**, the resulting payoff is (-10, 10).
+  - And Player2 counters with **walking away**, the resulting payoff is (6, -6).
+
+- If Player1 commits to **holding firm**:
+  - And Player2 counters with **accepting partial terms**, the resulting payoff is (2, -2).
+  - And Player2 counters with **walking away**, the resulting payoff is (3, -3).
+
+Only sharp minds and keen instincts will determine the winner.
+

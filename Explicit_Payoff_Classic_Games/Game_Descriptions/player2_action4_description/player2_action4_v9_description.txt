@@ -1,0 +1,180 @@
+Game Description 1: Robotics Soccer Match
+
+In the heart of robotics soccer match, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- goal snipe
+- flank pass
+- kick flip
+- mid-air block
+
+Meanwhile, **Player2** plots their countermoves:
+- goalie upgrade
+- obstacle ram
+- double bot
+- override AI
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **goal snipe**:
+  - And **Player2** counters with **goalie upgrade**, the resulting payoff is (-40, 40).
+  - And **Player2** counters with **obstacle ram**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **double bot**, the resulting payoff is (95, -95).
+  - And **Player2** counters with **override AI**, the resulting payoff is (-48, 48).
+
+- If **Player1** selects **flank pass**:
+  - And **Player2** counters with **goalie upgrade**, the resulting payoff is (-46, 46).
+  - And **Player2** counters with **obstacle ram**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **double bot**, the resulting payoff is (18, -18).
+  - And **Player2** counters with **override AI**, the resulting payoff is (66, -66).
+
+- If **Player1** selects **kick flip**:
+  - And **Player2** counters with **goalie upgrade**, the resulting payoff is (-98, 98).
+  - And **Player2** counters with **obstacle ram**, the resulting payoff is (-26, 26).
+  - And **Player2** counters with **double bot**, the resulting payoff is (-4, 4).
+  - And **Player2** counters with **override AI**, the resulting payoff is (69, -69).
+
+- If **Player1** selects **mid-air block**:
+  - And **Player2** counters with **goalie upgrade**, the resulting payoff is (59, -59).
+  - And **Player2** counters with **obstacle ram**, the resulting payoff is (72, -72).
+  - And **Player2** counters with **double bot**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **override AI**, the resulting payoff is (31, -31).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Philosophical Symposium
+
+In the heart of philosophical symposium, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- free will claim
+- moral realism
+- panpsychism
+- simulation argument
+
+Meanwhile, **Player2** plots their countermoves:
+- Socratic counter
+- citation overload
+- logical paradox
+- Kantian block
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **free will claim**:
+  - And **Player2** counters with **Socratic counter**, the resulting payoff is (-40, 40).
+  - And **Player2** counters with **citation overload**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **logical paradox**, the resulting payoff is (95, -95).
+  - And **Player2** counters with **Kantian block**, the resulting payoff is (-48, 48).
+
+- If **Player1** selects **moral realism**:
+  - And **Player2** counters with **Socratic counter**, the resulting payoff is (-46, 46).
+  - And **Player2** counters with **citation overload**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **logical paradox**, the resulting payoff is (18, -18).
+  - And **Player2** counters with **Kantian block**, the resulting payoff is (66, -66).
+
+- If **Player1** selects **panpsychism**:
+  - And **Player2** counters with **Socratic counter**, the resulting payoff is (-98, 98).
+  - And **Player2** counters with **citation overload**, the resulting payoff is (-26, 26).
+  - And **Player2** counters with **logical paradox**, the resulting payoff is (-4, 4).
+  - And **Player2** counters with **Kantian block**, the resulting payoff is (69, -69).
+
+- If **Player1** selects **simulation argument**:
+  - And **Player2** counters with **Socratic counter**, the resulting payoff is (59, -59).
+  - And **Player2** counters with **citation overload**, the resulting payoff is (72, -72).
+  - And **Player2** counters with **logical paradox**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **Kantian block**, the resulting payoff is (31, -31).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Zoo Enrichment Design
+
+In the heart of zoo enrichment design, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- bamboo puzzle
+- scent track
+- foraging box
+- climb net
+
+Meanwhile, **Player2** plots their countermoves:
+- mirror enrichment
+- timed feeder
+- moving log
+- cold treat
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **bamboo puzzle**:
+  - And **Player2** counters with **mirror enrichment**, the resulting payoff is (-40, 40).
+  - And **Player2** counters with **timed feeder**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **moving log**, the resulting payoff is (95, -95).
+  - And **Player2** counters with **cold treat**, the resulting payoff is (-48, 48).
+
+- If **Player1** selects **scent track**:
+  - And **Player2** counters with **mirror enrichment**, the resulting payoff is (-46, 46).
+  - And **Player2** counters with **timed feeder**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **moving log**, the resulting payoff is (18, -18).
+  - And **Player2** counters with **cold treat**, the resulting payoff is (66, -66).
+
+- If **Player1** selects **foraging box**:
+  - And **Player2** counters with **mirror enrichment**, the resulting payoff is (-98, 98).
+  - And **Player2** counters with **timed feeder**, the resulting payoff is (-26, 26).
+  - And **Player2** counters with **moving log**, the resulting payoff is (-4, 4).
+  - And **Player2** counters with **cold treat**, the resulting payoff is (69, -69).
+
+- If **Player1** selects **climb net**:
+  - And **Player2** counters with **mirror enrichment**, the resulting payoff is (59, -59).
+  - And **Player2** counters with **timed feeder**, the resulting payoff is (72, -72).
+  - And **Player2** counters with **moving log**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **cold treat**, the resulting payoff is (31, -31).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Mobile Game Launch
+
+In the heart of mobile game launch, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- loot box drop
+- teaser ad
+- PvP mode
+- event skins
+
+Meanwhile, **Player2** plots their countermoves:
+- Reddit AMA
+- streamer pack
+- patch notes
+- delay drop
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **loot box drop**:
+  - And **Player2** counters with **Reddit AMA**, the resulting payoff is (-40, 40).
+  - And **Player2** counters with **streamer pack**, the resulting payoff is (1, -1).
+  - And **Player2** counters with **patch notes**, the resulting payoff is (95, -95).
+  - And **Player2** counters with **delay drop**, the resulting payoff is (-48, 48).
+
+- If **Player1** selects **teaser ad**:
+  - And **Player2** counters with **Reddit AMA**, the resulting payoff is (-46, 46).
+  - And **Player2** counters with **streamer pack**, the resulting payoff is (24, -24).
+  - And **Player2** counters with **patch notes**, the resulting payoff is (18, -18).
+  - And **Player2** counters with **delay drop**, the resulting payoff is (66, -66).
+
+- If **Player1** selects **PvP mode**:
+  - And **Player2** counters with **Reddit AMA**, the resulting payoff is (-98, 98).
+  - And **Player2** counters with **streamer pack**, the resulting payoff is (-26, 26).
+  - And **Player2** counters with **patch notes**, the resulting payoff is (-4, 4).
+  - And **Player2** counters with **delay drop**, the resulting payoff is (69, -69).
+
+- If **Player1** selects **event skins**:
+  - And **Player2** counters with **Reddit AMA**, the resulting payoff is (59, -59).
+  - And **Player2** counters with **streamer pack**, the resulting payoff is (72, -72).
+  - And **Player2** counters with **patch notes**, the resulting payoff is (4, -4).
+  - And **Player2** counters with **delay drop**, the resulting payoff is (31, -31).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+

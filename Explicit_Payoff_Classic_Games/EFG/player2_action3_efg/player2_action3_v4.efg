@@ -1,0 +1,16 @@
+EFG 2 R "Two-player zero-sum V4 - Player2-dominant magnitudes" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "A1" "A2" "A3" } 0
+p "" 2 1 "" { "B1" "B2" "B3" } 0
+t "" 1 "Outcome_V4_00" { -13.5, 13.5 }
+t "" 2 "Outcome_V4_01" { -18.5, 18.5 }
+t "" 3 "Outcome_V4_02" { -23.5, 23.5 }
+p "" 2 2 "" { "B1" "B2" "B3" } 0
+t "" 4 "Outcome_V4_10" { -12.5, 12.5 }
+t "" 5 "Outcome_V4_11" { -17.5, 17.5 }
+t "" 6 "Outcome_V4_12" { -22.5, 22.5 }
+p "" 2 3 "" { "B1" "B2" "B3" } 0
+t "" 7 "Outcome_V4_20" { -14.0, 14.0 }
+t "" 8 "Outcome_V4_21" { -19.0, 19.0 }
+t "" 9 "Outcome_V4_22" { -24.0, 24.0 }

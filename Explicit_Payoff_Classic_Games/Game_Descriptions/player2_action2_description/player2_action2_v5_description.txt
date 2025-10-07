@@ -1,0 +1,99 @@
+Game Description 1: A Courtroom Cross-Examination
+
+In the fast-paced world of a courtroom cross-examination, strategic choices are everything.
+
+**Player1** must act quickly, choosing between:
+- A calculated **timeline pressure**, or
+- A daring **emotional witness**.
+
+Facing them, **Player2** must respond with:
+- A decisive **objection rise**, or
+- A clever **discredit evidence**.
+
+The outcome depends entirely on how these strategies clash:
+
+- If Player1 commits to **timeline pressure**:
+  - And Player2 counters with **objection rise**, the resulting payoff is (-6, 6).
+  - And Player2 counters with **discredit evidence**, the resulting payoff is (5, -5).
+
+- If Player1 commits to **emotional witness**:
+  - And Player2 counters with **objection rise**, the resulting payoff is (6, -6).
+  - And Player2 counters with **discredit evidence**, the resulting payoff is (7, -7).
+
+Only the sharpest tactics will secure the win.
+
+
+Game Description 2: A Museum Exhibition Battle
+
+In the fast-paced world of a museum exhibition battle, strategic choices are everything.
+
+**Player1** must act quickly, choosing between:
+- A calculated **interactive VR display**, or
+- A daring **rare artifact**.
+
+Facing them, **Player2** must respond with:
+- A decisive **augmented signage**, or
+- A clever **guided tour**.
+
+The outcome depends entirely on how these strategies clash:
+
+- If Player1 commits to **interactive VR display**:
+  - And Player2 counters with **augmented signage**, the resulting payoff is (-6, 6).
+  - And Player2 counters with **guided tour**, the resulting payoff is (5, -5).
+
+- If Player1 commits to **rare artifact**:
+  - And Player2 counters with **augmented signage**, the resulting payoff is (6, -6).
+  - And Player2 counters with **guided tour**, the resulting payoff is (7, -7).
+
+Only the sharpest tactics will secure the win.
+
+
+Game Description 3: A Startup Hackathon
+
+In the fast-paced world of a startup hackathon, strategic choices are everything.
+
+**Player1** must act quickly, choosing between:
+- A calculated **coding sprint**, or
+- A daring **design overhaul**.
+
+Facing them, **Player2** must respond with:
+- A decisive **pitch video**, or
+- A clever **team branding**.
+
+The outcome depends entirely on how these strategies clash:
+
+- If Player1 commits to **coding sprint**:
+  - And Player2 counters with **pitch video**, the resulting payoff is (-6, 6).
+  - And Player2 counters with **team branding**, the resulting payoff is (5, -5).
+
+- If Player1 commits to **design overhaul**:
+  - And Player2 counters with **pitch video**, the resulting payoff is (6, -6).
+  - And Player2 counters with **team branding**, the resulting payoff is (7, -7).
+
+Only the sharpest tactics will secure the win.
+
+
+Game Description 4: A Military Standoff
+
+In the fast-paced world of a military standoff, strategic choices are everything.
+
+**Player1** must act quickly, choosing between:
+- A calculated **air surveillance**, or
+- A daring **armored push**.
+
+Facing them, **Player2** must respond with:
+- A decisive **EMP detonation**, or
+- A clever **ambush setup**.
+
+The outcome depends entirely on how these strategies clash:
+
+- If Player1 commits to **air surveillance**:
+  - And Player2 counters with **EMP detonation**, the resulting payoff is (-6, 6).
+  - And Player2 counters with **ambush setup**, the resulting payoff is (5, -5).
+
+- If Player1 commits to **armored push**:
+  - And Player2 counters with **EMP detonation**, the resulting payoff is (6, -6).
+  - And Player2 counters with **ambush setup**, the resulting payoff is (7, -7).
+
+Only the sharpest tactics will secure the win.
+

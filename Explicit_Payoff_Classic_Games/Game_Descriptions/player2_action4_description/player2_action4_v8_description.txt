@@ -1,0 +1,180 @@
+Game Description 1: Startup Rival Hackathon
+
+In the heart of startup rival hackathon, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- login system
+- dashboard UI
+- cloud API
+- social share
+
+Meanwhile, **Player2** plots their countermoves:
+- reverse engineer
+- UI copy
+- vote inflation
+- PR stunt
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **login system**:
+  - And **Player2** counters with **reverse engineer**, the resulting payoff is (-40, 40).
+  - And **Player2** counters with **UI copy**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **vote inflation**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **PR stunt**, the resulting payoff is (-11, 11).
+
+- If **Player1** selects **dashboard UI**:
+  - And **Player2** counters with **reverse engineer**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **UI copy**, the resulting payoff is (66, -66).
+  - And **Player2** counters with **vote inflation**, the resulting payoff is (-38, 38).
+  - And **Player2** counters with **PR stunt**, the resulting payoff is (-28, 28).
+
+- If **Player1** selects **cloud API**:
+  - And **Player2** counters with **reverse engineer**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **UI copy**, the resulting payoff is (36, -36).
+  - And **Player2** counters with **vote inflation**, the resulting payoff is (60, -60).
+  - And **Player2** counters with **PR stunt**, the resulting payoff is (24, -24).
+
+- If **Player1** selects **social share**:
+  - And **Player2** counters with **reverse engineer**, the resulting payoff is (15, -15).
+  - And **Player2** counters with **UI copy**, the resulting payoff is (84, -84).
+  - And **Player2** counters with **vote inflation**, the resulting payoff is (-7, 7).
+  - And **Player2** counters with **PR stunt**, the resulting payoff is (-67, 67).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 2: Science Olympiad Challenge
+
+In the heart of science olympiad challenge, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- egg drop
+- molecule model
+- gravity race
+- bridge build
+
+Meanwhile, **Player2** plots their countermoves:
+- circuit tester
+- air cannon
+- vinegar volcano
+- balloon lift
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **egg drop**:
+  - And **Player2** counters with **circuit tester**, the resulting payoff is (-40, 40).
+  - And **Player2** counters with **air cannon**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **vinegar volcano**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **balloon lift**, the resulting payoff is (-11, 11).
+
+- If **Player1** selects **molecule model**:
+  - And **Player2** counters with **circuit tester**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **air cannon**, the resulting payoff is (66, -66).
+  - And **Player2** counters with **vinegar volcano**, the resulting payoff is (-38, 38).
+  - And **Player2** counters with **balloon lift**, the resulting payoff is (-28, 28).
+
+- If **Player1** selects **gravity race**:
+  - And **Player2** counters with **circuit tester**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **air cannon**, the resulting payoff is (36, -36).
+  - And **Player2** counters with **vinegar volcano**, the resulting payoff is (60, -60).
+  - And **Player2** counters with **balloon lift**, the resulting payoff is (24, -24).
+
+- If **Player1** selects **bridge build**:
+  - And **Player2** counters with **circuit tester**, the resulting payoff is (15, -15).
+  - And **Player2** counters with **air cannon**, the resulting payoff is (84, -84).
+  - And **Player2** counters with **vinegar volcano**, the resulting payoff is (-7, 7).
+  - And **Player2** counters with **balloon lift**, the resulting payoff is (-67, 67).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 3: Detective Board Game
+
+In the heart of detective board game, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- accuse spouse
+- search attic
+- check phone
+- test fingerprints
+
+Meanwhile, **Player2** plots their countermoves:
+- block motive
+- swap alibi
+- remove weapon
+- mislead timeline
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **accuse spouse**:
+  - And **Player2** counters with **block motive**, the resulting payoff is (-40, 40).
+  - And **Player2** counters with **swap alibi**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **remove weapon**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **mislead timeline**, the resulting payoff is (-11, 11).
+
+- If **Player1** selects **search attic**:
+  - And **Player2** counters with **block motive**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **swap alibi**, the resulting payoff is (66, -66).
+  - And **Player2** counters with **remove weapon**, the resulting payoff is (-38, 38).
+  - And **Player2** counters with **mislead timeline**, the resulting payoff is (-28, 28).
+
+- If **Player1** selects **check phone**:
+  - And **Player2** counters with **block motive**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **swap alibi**, the resulting payoff is (36, -36).
+  - And **Player2** counters with **remove weapon**, the resulting payoff is (60, -60).
+  - And **Player2** counters with **mislead timeline**, the resulting payoff is (24, -24).
+
+- If **Player1** selects **test fingerprints**:
+  - And **Player2** counters with **block motive**, the resulting payoff is (15, -15).
+  - And **Player2** counters with **swap alibi**, the resulting payoff is (84, -84).
+  - And **Player2** counters with **remove weapon**, the resulting payoff is (-7, 7).
+  - And **Player2** counters with **mislead timeline**, the resulting payoff is (-67, 67).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+
+Game Description 4: Meme Competition
+
+In the heart of meme competition, critical choices carve the path to triumph.
+
+**Player1** evaluates the following strategies:
+- surprise cat
+- typo drama
+- celebrity shade
+- politics joke
+
+Meanwhile, **Player2** plots their countermoves:
+- auto-caption
+- remix challenge
+- reaction face
+- viral remix
+
+When both players commit to their choices, these outcomes unfold:
+
+- If **Player1** selects **surprise cat**:
+  - And **Player2** counters with **auto-caption**, the resulting payoff is (-40, 40).
+  - And **Player2** counters with **remix challenge**, the resulting payoff is (94, -94).
+  - And **Player2** counters with **reaction face**, the resulting payoff is (-1, 1).
+  - And **Player2** counters with **viral remix**, the resulting payoff is (-11, 11).
+
+- If **Player1** selects **typo drama**:
+  - And **Player2** counters with **auto-caption**, the resulting payoff is (12, -12).
+  - And **Player2** counters with **remix challenge**, the resulting payoff is (66, -66).
+  - And **Player2** counters with **reaction face**, the resulting payoff is (-38, 38).
+  - And **Player2** counters with **viral remix**, the resulting payoff is (-28, 28).
+
+- If **Player1** selects **celebrity shade**:
+  - And **Player2** counters with **auto-caption**, the resulting payoff is (99, -99).
+  - And **Player2** counters with **remix challenge**, the resulting payoff is (36, -36).
+  - And **Player2** counters with **reaction face**, the resulting payoff is (60, -60).
+  - And **Player2** counters with **viral remix**, the resulting payoff is (24, -24).
+
+- If **Player1** selects **politics joke**:
+  - And **Player2** counters with **auto-caption**, the resulting payoff is (15, -15).
+  - And **Player2** counters with **remix challenge**, the resulting payoff is (84, -84).
+  - And **Player2** counters with **reaction face**, the resulting payoff is (-7, 7).
+  - And **Player2** counters with **viral remix**, the resulting payoff is (-67, 67).
+
+In this dynamic contest, foresight and adaptation decide the victor.
+
+

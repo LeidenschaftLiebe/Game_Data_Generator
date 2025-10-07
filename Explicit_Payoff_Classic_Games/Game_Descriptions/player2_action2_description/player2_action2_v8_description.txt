@@ -1,0 +1,99 @@
+Game Description 1: A Viral Meme Contest
+
+Under the bright lights of a viral meme contest, every decision shapes the future.
+
+**Player1** stands ready to unleash either:
+- A masterful **cat template**, or
+- A daring **niche inside joke**.
+
+Meanwhile, **Player2** prepares their countermove:
+- A nimble **perfect caption**, or
+- A cunning **absurd remix**.
+
+Every pairing of choices leads to different consequences:
+
+- If Player1 chooses **cat template**:
+  - And Player2 responds with **perfect caption**, the resulting payoff is (15, -15).
+  - And Player2 responds with **absurd remix**, the resulting payoff is (30, -30).
+
+- If Player1 chooses **niche inside joke**:
+  - And Player2 responds with **perfect caption**, the resulting payoff is (-15, 15).
+  - And Player2 responds with **absurd remix**, the resulting payoff is (0, 0).
+
+The sharpest strategy and the boldest timing will claim victory.
+
+
+Game Description 2: A Political Press Briefing
+
+Under the bright lights of a political press briefing, every decision shapes the future.
+
+**Player1** stands ready to unleash either:
+- A masterful **controlled messaging**, or
+- A daring **passionate outburst**.
+
+Meanwhile, **Player2** prepares their countermove:
+- A nimble **fact check retort**, or
+- A cunning **viral soundbite**.
+
+Every pairing of choices leads to different consequences:
+
+- If Player1 chooses **controlled messaging**:
+  - And Player2 responds with **fact check retort**, the resulting payoff is (15, -15).
+  - And Player2 responds with **viral soundbite**, the resulting payoff is (30, -30).
+
+- If Player1 chooses **passionate outburst**:
+  - And Player2 responds with **fact check retort**, the resulting payoff is (-15, 15).
+  - And Player2 responds with **viral soundbite**, the resulting payoff is (0, 0).
+
+The sharpest strategy and the boldest timing will claim victory.
+
+
+Game Description 3: A Youth Robotics Contest
+
+Under the bright lights of a youth robotics contest, every decision shapes the future.
+
+**Player1** stands ready to unleash either:
+- A masterful **mechanical arm**, or
+- A daring **sensor bot**.
+
+Meanwhile, **Player2** prepares their countermove:
+- A nimble **obstacle nav**, or
+- A cunning **remote override**.
+
+Every pairing of choices leads to different consequences:
+
+- If Player1 chooses **mechanical arm**:
+  - And Player2 responds with **obstacle nav**, the resulting payoff is (15, -15).
+  - And Player2 responds with **remote override**, the resulting payoff is (30, -30).
+
+- If Player1 chooses **sensor bot**:
+  - And Player2 responds with **obstacle nav**, the resulting payoff is (-15, 15).
+  - And Player2 responds with **remote override**, the resulting payoff is (0, 0).
+
+The sharpest strategy and the boldest timing will claim victory.
+
+
+Game Description 4: A High School Debate
+
+Under the bright lights of a high school debate, every decision shapes the future.
+
+**Player1** stands ready to unleash either:
+- A masterful **social justice appeal**, or
+- A daring **economic focus**.
+
+Meanwhile, **Player2** prepares their countermove:
+- A nimble **stats dump**, or
+- A cunning **moral argument**.
+
+Every pairing of choices leads to different consequences:
+
+- If Player1 chooses **social justice appeal**:
+  - And Player2 responds with **stats dump**, the resulting payoff is (15, -15).
+  - And Player2 responds with **moral argument**, the resulting payoff is (30, -30).
+
+- If Player1 chooses **economic focus**:
+  - And Player2 responds with **stats dump**, the resulting payoff is (-15, 15).
+  - And Player2 responds with **moral argument**, the resulting payoff is (0, 0).
+
+The sharpest strategy and the boldest timing will claim victory.
+

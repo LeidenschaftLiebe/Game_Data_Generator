@@ -1,0 +1,134 @@
+Game Description 1: Robotics Contest Final
+
+In the midst of robotics contest final, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- turbo leg bot
+- arm balance bot
+- sensor scout
+
+At the same time, **Player2** readies their countermoves:
+- reaction AI
+- heat sink
+- terrain adapt
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **turbo leg bot**:
+  - If **Player2** responds with **reaction AI**, the resulting payoff is (-8, 8).
+  - If **Player2** responds with **heat sink**, the resulting payoff is (-19, 19).
+  - If **Player2** responds with **terrain adapt**, the resulting payoff is (-6, 6).
+
+- Should **Player1** choose **arm balance bot**:
+  - If **Player2** responds with **reaction AI**, the resulting payoff is (9, -9).
+  - If **Player2** responds with **heat sink**, the resulting payoff is (11, -11).
+  - If **Player2** responds with **terrain adapt**, the resulting payoff is (12, -12).
+
+- Should **Player1** choose **sensor scout**:
+  - If **Player2** responds with **reaction AI**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **heat sink**, the resulting payoff is (19, -19).
+  - If **Player2** responds with **terrain adapt**, the resulting payoff is (7, -7).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 2: Halloween Costume Battle
+
+In the midst of halloween costume battle, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- zombie FX
+- LED alien
+- pirate cape
+
+At the same time, **Player2** readies their countermoves:
+- fog machine
+- scream box
+- dance routine
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **zombie FX**:
+  - If **Player2** responds with **fog machine**, the resulting payoff is (-8, 8).
+  - If **Player2** responds with **scream box**, the resulting payoff is (-19, 19).
+  - If **Player2** responds with **dance routine**, the resulting payoff is (-6, 6).
+
+- Should **Player1** choose **LED alien**:
+  - If **Player2** responds with **fog machine**, the resulting payoff is (9, -9).
+  - If **Player2** responds with **scream box**, the resulting payoff is (11, -11).
+  - If **Player2** responds with **dance routine**, the resulting payoff is (12, -12).
+
+- Should **Player1** choose **pirate cape**:
+  - If **Player2** responds with **fog machine**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **scream box**, the resulting payoff is (19, -19).
+  - If **Player2** responds with **dance routine**, the resulting payoff is (7, -7).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 3: Biotech Ethics Debate
+
+In the midst of biotech ethics debate, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- support CRISPR
+- outlaw cloning
+- limit AI diagnosis
+
+At the same time, **Player2** readies their countermoves:
+- promote open science
+- restrict genome sales
+- challenge patents
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **support CRISPR**:
+  - If **Player2** responds with **promote open science**, the resulting payoff is (-8, 8).
+  - If **Player2** responds with **restrict genome sales**, the resulting payoff is (-19, 19).
+  - If **Player2** responds with **challenge patents**, the resulting payoff is (-6, 6).
+
+- Should **Player1** choose **outlaw cloning**:
+  - If **Player2** responds with **promote open science**, the resulting payoff is (9, -9).
+  - If **Player2** responds with **restrict genome sales**, the resulting payoff is (11, -11).
+  - If **Player2** responds with **challenge patents**, the resulting payoff is (12, -12).
+
+- Should **Player1** choose **limit AI diagnosis**:
+  - If **Player2** responds with **promote open science**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **restrict genome sales**, the resulting payoff is (19, -19).
+  - If **Player2** responds with **challenge patents**, the resulting payoff is (7, -7).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 4: Software Pitch Hackathon
+
+In the midst of software pitch hackathon, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- clean UI
+- backend API
+- cloud storage
+
+At the same time, **Player2** readies their countermoves:
+- voice command
+- user login
+- demo vid
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **clean UI**:
+  - If **Player2** responds with **voice command**, the resulting payoff is (-8, 8).
+  - If **Player2** responds with **user login**, the resulting payoff is (-19, 19).
+  - If **Player2** responds with **demo vid**, the resulting payoff is (-6, 6).
+
+- Should **Player1** choose **backend API**:
+  - If **Player2** responds with **voice command**, the resulting payoff is (9, -9).
+  - If **Player2** responds with **user login**, the resulting payoff is (11, -11).
+  - If **Player2** responds with **demo vid**, the resulting payoff is (12, -12).
+
+- Should **Player1** choose **cloud storage**:
+  - If **Player2** responds with **voice command**, the resulting payoff is (1, -1).
+  - If **Player2** responds with **user login**, the resulting payoff is (19, -19).
+  - If **Player2** responds with **demo vid**, the resulting payoff is (7, -7).
+
+In this contest, adaptability and foresight shape the path to victory.

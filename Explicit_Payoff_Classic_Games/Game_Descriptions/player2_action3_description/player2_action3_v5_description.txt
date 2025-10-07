@@ -1,0 +1,134 @@
+Game Description 1: Pirate Treasure Map Game
+
+In the midst of pirate treasure map game, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- dig east
+- follow X
+- mark tree
+
+At the same time, **Player2** readies their countermoves:
+- check compass
+- read riddle
+- split loot
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **dig east**:
+  - If **Player2** responds with **check compass**, the resulting payoff is (-4, 4).
+  - If **Player2** responds with **read riddle**, the resulting payoff is (-7, 7).
+  - If **Player2** responds with **split loot**, the resulting payoff is (-12, 12).
+
+- Should **Player1** choose **follow X**:
+  - If **Player2** responds with **check compass**, the resulting payoff is (20, -20).
+  - If **Player2** responds with **read riddle**, the resulting payoff is (3, -3).
+  - If **Player2** responds with **split loot**, the resulting payoff is (12, -12).
+
+- Should **Player1** choose **mark tree**:
+  - If **Player2** responds with **check compass**, the resulting payoff is (13, -13).
+  - If **Player2** responds with **read riddle**, the resulting payoff is (5, -5).
+  - If **Player2** responds with **split loot**, the resulting payoff is (-15, 15).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 2: Hoverboard Showdown
+
+In the midst of hoverboard showdown, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- tail grab
+- speed burst
+- halfpipe spin
+
+At the same time, **Player2** readies their countermoves:
+- laser tag
+- shield boost
+- reverse turn
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **tail grab**:
+  - If **Player2** responds with **laser tag**, the resulting payoff is (-4, 4).
+  - If **Player2** responds with **shield boost**, the resulting payoff is (-7, 7).
+  - If **Player2** responds with **reverse turn**, the resulting payoff is (-12, 12).
+
+- Should **Player1** choose **speed burst**:
+  - If **Player2** responds with **laser tag**, the resulting payoff is (20, -20).
+  - If **Player2** responds with **shield boost**, the resulting payoff is (3, -3).
+  - If **Player2** responds with **reverse turn**, the resulting payoff is (12, -12).
+
+- Should **Player1** choose **halfpipe spin**:
+  - If **Player2** responds with **laser tag**, the resulting payoff is (13, -13).
+  - If **Player2** responds with **shield boost**, the resulting payoff is (5, -5).
+  - If **Player2** responds with **reverse turn**, the resulting payoff is (-15, 15).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 3: Music Festival Duel
+
+In the midst of music festival duel, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- EDM drop
+- acoustic break
+- light solo
+
+At the same time, **Player2** readies their countermoves:
+- crowd chant
+- beat switch
+- confetti rain
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **EDM drop**:
+  - If **Player2** responds with **crowd chant**, the resulting payoff is (-4, 4).
+  - If **Player2** responds with **beat switch**, the resulting payoff is (-7, 7).
+  - If **Player2** responds with **confetti rain**, the resulting payoff is (-12, 12).
+
+- Should **Player1** choose **acoustic break**:
+  - If **Player2** responds with **crowd chant**, the resulting payoff is (20, -20).
+  - If **Player2** responds with **beat switch**, the resulting payoff is (3, -3).
+  - If **Player2** responds with **confetti rain**, the resulting payoff is (12, -12).
+
+- Should **Player1** choose **light solo**:
+  - If **Player2** responds with **crowd chant**, the resulting payoff is (13, -13).
+  - If **Player2** responds with **beat switch**, the resulting payoff is (5, -5).
+  - If **Player2** responds with **confetti rain**, the resulting payoff is (-15, 15).
+
+In this contest, adaptability and foresight shape the path to victory.
+
+
+Game Description 4: Prison Escape Scenario
+
+In the midst of prison escape scenario, strategies and instincts collide in a dramatic showdown.
+
+**Player1** evaluates their possibilities:
+- tunnel dig
+- key swipe
+- guard distract
+
+At the same time, **Player2** readies their countermoves:
+- air vent
+- riot start
+- disguise guard
+
+As choices are made, the outcomes reveal themselves:
+
+- Should **Player1** choose **tunnel dig**:
+  - If **Player2** responds with **air vent**, the resulting payoff is (-4, 4).
+  - If **Player2** responds with **riot start**, the resulting payoff is (-7, 7).
+  - If **Player2** responds with **disguise guard**, the resulting payoff is (-12, 12).
+
+- Should **Player1** choose **key swipe**:
+  - If **Player2** responds with **air vent**, the resulting payoff is (20, -20).
+  - If **Player2** responds with **riot start**, the resulting payoff is (3, -3).
+  - If **Player2** responds with **disguise guard**, the resulting payoff is (12, -12).
+
+- Should **Player1** choose **guard distract**:
+  - If **Player2** responds with **air vent**, the resulting payoff is (13, -13).
+  - If **Player2** responds with **riot start**, the resulting payoff is (5, -5).
+  - If **Player2** responds with **disguise guard**, the resulting payoff is (-15, 15).
+
+In this contest, adaptability and foresight shape the path to victory.

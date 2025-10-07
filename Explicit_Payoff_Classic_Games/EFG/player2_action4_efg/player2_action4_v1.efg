@@ -1,0 +1,24 @@
+EFG 2 R "Two-player zero-sum V1 - Uniform integers (0 to 3)" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "A1" "A2" "A3" "A4" } 0
+p "" 2 1 "" { "B1" "B2" "B3" "B4" } 0
+t "" 1 "Outcome_V1_00" { -1.5, 1.5 }
+t "" 2 "Outcome_V1_01" { -1.0, 1.0 }
+t "" 3 "Outcome_V1_02" { -0.5, 0.5 }
+t "" 4 "Outcome_V1_03" { 0.0, 0.0 }
+p "" 2 2 "" { "B1" "B2" "B3" "B4" } 0
+t "" 5 "Outcome_V1_10" { -1.0, 1.0 }
+t "" 6 "Outcome_V1_11" { -0.5, 0.5 }
+t "" 7 "Outcome_V1_12" { 0.0, 0.0 }
+t "" 8 "Outcome_V1_13" { 0.5, -0.5 }
+p "" 2 3 "" { "B1" "B2" "B3" "B4" } 0
+t "" 9 "Outcome_V1_20" { -0.5, 0.5 }
+t "" 10 "Outcome_V1_21" { 0.0, 0.0 }
+t "" 11 "Outcome_V1_22" { 0.5, -0.5 }
+t "" 12 "Outcome_V1_23" { 1.0, -1.0 }
+p "" 2 4 "" { "B1" "B2" "B3" "B4" } 0
+t "" 13 "Outcome_V1_30" { 0.0, 0.0 }
+t "" 14 "Outcome_V1_31" { 0.5, -0.5 }
+t "" 15 "Outcome_V1_32" { 1.0, -1.0 }
+t "" 16 "Outcome_V1_33" { 1.5, -1.5 }

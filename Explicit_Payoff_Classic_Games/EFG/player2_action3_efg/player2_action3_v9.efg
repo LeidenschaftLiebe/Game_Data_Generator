@@ -1,0 +1,16 @@
+EFG 2 R "Two-player zero-sum V9 - Alternating highs and lows" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "A1" "A2" "A3" } 0
+p "" 2 1 "" { "B1" "B2" "B3" } 0
+t "" 1 "Outcome_V9_00" { 10.0, -10.0 }
+t "" 2 "Outcome_V9_01" { 0.0, 0.0 }
+t "" 3 "Outcome_V9_02" { 10.0, -10.0 }
+p "" 2 2 "" { "B1" "B2" "B3" } 0
+t "" 4 "Outcome_V9_10" { 0.0, 0.0 }
+t "" 5 "Outcome_V9_11" { -10.0, 10.0 }
+t "" 6 "Outcome_V9_12" { 0.0, 0.0 }
+p "" 2 3 "" { "B1" "B2" "B3" } 0
+t "" 7 "Outcome_V9_20" { 10.0, -10.0 }
+t "" 8 "Outcome_V9_21" { 0.0, 0.0 }
+t "" 9 "Outcome_V9_22" { 10.0, -10.0 }

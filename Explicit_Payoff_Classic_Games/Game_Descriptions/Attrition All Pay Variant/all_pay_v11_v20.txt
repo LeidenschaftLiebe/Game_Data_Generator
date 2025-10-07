@@ -1,0 +1,135 @@
+11) Construction Bidding (BuildTech vs UrbanRise)
+
+Two construction firms, BuildTech and UrbanRise, compete for a city contract worth $10 million.
+Each can submit a high-effort detailed proposal or a basic proposal.
+
+If both submit detailed proposals, they tie and overspend, losing $1 million each.
+If one submits high-effort and the other basic, the detailed firm wins $4 million, while the other loses $2 million.
+If both submit basic proposals, they share minor contracts and earn $2 million each.
+
+
+
+
+
+
+12) Charity Fundraising (HopeAid vs CareWorld)
+
+Two charities compete for a grant worth $6 million.
+Each can launch a major campaign or a small campaign.
+
+If both go big, they split attention but overspend, losing $1 million each.
+If one runs a major campaign while the other stays small, the large campaign wins $3 million, the other loses $1 million.
+If both run small campaigns, they each raise $2 million.
+
+
+
+
+
+
+13) Defense Contract (AeroCorp vs JetSystems)
+
+Two aerospace companies, AeroCorp and JetSystems, compete for a defense contract worth $20 million.
+Each can prepare a comprehensive proposal or a streamlined one.
+
+If both prepare comprehensive bids, they spend heavily and break even at $0.
+If one prepares comprehensively and the other doesn’t, the comprehensive bidder wins $5 million, and the other loses $2 million.
+If both prepare streamlined bids, they share secondary work, each earning $2 million.
+
+
+
+
+
+
+14) Pharmaceutical Trial (MedNova vs CureX)
+
+Two biotech firms, MedNova and CureX, compete to develop a vaccine valued at $15 million.
+Each must choose between intensive testing or limited testing.
+
+If both test intensively, they split recognition but overspend, losing $1 million each.
+If one tests intensively while the other limits trials, the intensive tester wins $4 million, the other loses $2 million.
+If both test modestly, they share partial research credit, each earning $3 million.
+
+
+
+
+
+
+15) Mining Rights (GeoMine vs TerraCore)
+
+Two mining firms vie for exploration rights worth $18 million.
+Each can make a large investment or a small investment.
+
+If both invest heavily, they exhaust funds and lose $2 million each.
+If one invests large and the other small, the major investor gains $6 million, and the other loses $2 million.
+If both invest small, they share minor deposits, each earning $2 million.
+
+
+
+
+
+
+16) University Grant (LabA vs LabB)
+
+Two university research teams compete for a national grant worth $8 million.
+Each can prepare a comprehensive proposal or a concise one.
+
+If both go comprehensive, they tie but overspend, losing $1 million each.
+If one goes comprehensive and the other concise, the thorough team wins $3 million, the other loses $1 million.
+If both go concise, they share recognition, earning $2 million each.
+
+
+
+
+
+
+17) Real Estate Development (SkyBuild vs MetroLand)
+
+Two developers compete for a downtown parcel worth $25 million.
+Each can submit an elaborate proposal or a simple plan.
+
+If both submit elaborate plans, they spend too much, losing $3 million each.
+If one submits elaborate and the other simple, the elaborate plan wins $7 million, the other loses $2 million.
+If both go simple, they share smaller projects, earning $2 million each.
+
+
+
+
+
+
+18) Advertising Rivalry (StreamNet vs VisionHub)
+
+Two media platforms, StreamNet and VisionHub, compete for ad viewers worth $10 million.
+Each can launch a major campaign or a modest one.
+
+If both run major campaigns, costs exceed returns, losing $1 million each.
+If one runs a major and the other a modest campaign, the larger campaign wins $4 million, while the other loses $2 million.
+If both run modest campaigns, they split the audience, earning $3 million each.
+
+
+
+
+
+
+19) Fashion Design Contest (Maison E vs Atelier C)
+
+Two fashion houses compete for a prize worth $6 million.
+Each can mount a grand showcase or a minimalist presentation.
+
+If both stage grand shows, expenses exceed rewards, losing $1 million each.
+If one stages a grand show and the other minimal, the grand show wins $3 million, the other loses $1 million.
+If both go minimalist, they share attention evenly, earning $2 million each.
+
+
+
+
+
+
+20) Energy Innovation Challenge (GreenCore vs SunVolt)
+
+Two renewable firms compete for a government prize worth $10 million.
+Each can pursue an ambitious prototype or a standard model.
+
+If both go ambitious, costs cancel profits, losing $1 million each.
+If one goes ambitious and the other standard, the ambitious one wins $4 million, the other loses $2 million.
+If both stay standard, they share smaller recognition, earning $2 million each.
+

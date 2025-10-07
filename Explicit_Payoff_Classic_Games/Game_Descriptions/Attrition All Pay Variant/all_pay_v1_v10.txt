@@ -1,0 +1,135 @@
+1) Patent Race (NovaLabs vs ApexDynamics)
+
+Two technology firms, NovaLabs and ApexDynamics, compete for a clean-energy patent worth $10 million.
+Each decides between a high-effort or low-effort research campaign.
+
+If both invest heavily, they split the result, earning $5 million each but paying $6 million, ending $1 million down.
+If one invests high and the other low, the high-effort firm wins the full patent, finishing $4 million ahead, while the other loses $2 million.
+If both choose low effort, they share a minor innovation, earning $3 million each.
+
+
+
+
+
+
+2) Political Campaign (Candidate A vs Candidate B)
+
+Two candidates compete for a governor’s seat valued at $12 million in future influence.
+Each chooses to spend either heavily or lightly on campaigning.
+
+If both spend heavily, they tie, each gaining $6 million worth of support but spending $8 million, losing $2 million overall.
+If one spends heavily and the other lightly, the big spender wins with $4 million net, while the other loses $2 million.
+If both spend lightly, they split the race evenly and each gains $3 million.
+
+
+
+
+
+
+3) Oil Drilling Rights (TerraEnergy vs PetroQuest)
+
+Two energy companies compete for a valuable drilling site worth $15 million.
+Each decides whether to make a large investment or a small investment in exploration.
+
+If both invest heavily, they share the rights but overspend, losing $1 million each.
+If one invests heavily and the other lightly, the large investor wins with $5 million, and the other loses $2 million.
+If both invest lightly, they share the field profitably, earning $3 million each.
+
+
+
+
+
+
+4) Military Standoff (Nation X vs Nation Y)
+
+Two nations face off over a disputed island valued at $8 million in strategic worth.
+Each can choose prolonged engagement or limited action.
+
+If both push hard, they waste resources, each ending $2 million down.
+If one commits fully while the other limits its actions, the strong nation wins $3 million, while the cautious side loses $2 million.
+If both hold back, they share a minor diplomatic gain, each earning $1 million.
+
+
+
+
+
+
+5) Startup Pitch Contest (Innovent vs BrightIdea)
+
+Two startups compete for a venture prize worth $5 million.
+Each can spend high effort or low effort on their pitch preparation.
+
+If both go all-in, they split investor funding, each earning $2.5 million but spending $3 million, ending $0.5 million down.
+If one goes all-in and the other holds back, the stronger pitch wins $2 million net, while the other loses $1 million.
+If both invest lightly, they share minor grants and each gain $1 million.
+
+
+
+
+
+
+6) Lobbying Effort (Union A vs Corporation B)
+
+A labor union and a corporation both lobby over a new wage law worth $9 million in benefits.
+Each can choose to lobby aggressively or lobby modestly.
+
+If both lobby aggressively, they tie, each spending heavily and losing $1 million.
+If one lobbies aggressively and the other modestly, the stronger side wins $3 million, the other loses $2 million.
+If both lobby modestly, the policy compromise gives each $2 million.
+
+
+
+
+
+
+7) Marketing War (BrandOne vs BrandTwo)
+
+Two competing brands battle over a lucrative new market worth $12 million.
+Each decides between a big advertising push or a small campaign.
+
+If both spend heavily, they split consumers but waste money, losing $1 million each.
+If one pushes big and the other stays small, the aggressive advertiser wins $4 million, and the other loses $2 million.
+If both stay small, they share the market quietly, earning $2 million each.
+
+
+
+
+
+
+8) Art Competition (Painter A vs Painter B)
+
+Two artists compete for a gallery prize worth $4 million.
+Each must choose between intensive preparation or casual effort.
+
+If both prepare intensively, they exhaust resources and break even.
+If one works intensively and the other casually, the dedicated artist wins $2 million, while the other loses $1 million.
+If both work casually, they share the audience evenly, earning $1 million each.
+
+
+
+
+
+
+9) Lawsuit Battle (Plaintiff vs Defendant)
+
+A plaintiff and a corporation contest a legal settlement worth $10 million.
+Each can choose a long legal battle or a quick settlement.
+
+If both fight long, legal fees drain them, leaving $1 million losses each.
+If one fights and the other settles, the fighter wins $4 million, while the other loses $2 million.
+If both settle quickly, they save costs and end with $2 million each.
+
+
+
+
+
+
+10) Corporate Acquisition (MegaCorp vs StarCom)
+
+Two corporations compete to acquire a smaller startup valued at $20 million.
+Each can bid aggressively or cautiously, paying their costs regardless of outcome.
+
+If both bid aggressively, they overpay and lose $2 million each.
+If one bids aggressively and the other cautiously, the bold bidder wins $6 million, and the cautious one loses $2 million.
+If both bid cautiously, they share partial rights and each gain $3 million.
+

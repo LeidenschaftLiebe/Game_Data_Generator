@@ -1,0 +1,8 @@
+EFG 2 R "4. Military Standoff - All-Pay" { "NationX" "NationY" }
+p "ROOT" 1 1 "(NationX chooses strategy)" { "Full Engagement" "Limited Action" } 0
+p "" 2 1 "(NationY chooses strategy)" { "Full Engagement" "Limited Action" } 0
+t "" 1 "Full,Full" { -2 -2 }
+t "" 2 "Full,Limited" { 3 -2 }
+p "" 2 1 "(NationY chooses strategy)" { "Full Engagement" "Limited Action" } 0
+t "" 3 "Limited,Full" { -2 3 }
+t "" 4 "Limited,Limited" { 1 1 }

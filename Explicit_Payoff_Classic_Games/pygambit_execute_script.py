@@ -19,7 +19,7 @@ N_VERSIONS = 20
 # Choose which builders to run (match against base name or filename).
 # Examples:
 # SELECT_BUILDERS = ["pd_builder", "builder_*", "*rps*"]
-SELECT_BUILDERS = ["entry_deterrence"]
+SELECT_BUILDERS = ["attrition_allpay"]
 
 # Builders to skip (applied after SELECT_BUILDERS).
 # Examples:

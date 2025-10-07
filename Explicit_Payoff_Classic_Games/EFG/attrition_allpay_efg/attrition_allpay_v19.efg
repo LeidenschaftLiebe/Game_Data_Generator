@@ -1,0 +1,8 @@
+EFG 2 R "19. Fashion Design Contest - All-Pay" { "MaisonE" "AtelierC" }
+p "ROOT" 1 1 "(MaisonE chooses presentation)" { "Grand" "Minimalist" } 0
+p "" 2 1 "(AtelierC chooses presentation)" { "Grand" "Minimalist" } 0
+t "" 1 "Grand,Grand" { -1 -1 }
+t "" 2 "Grand,Min" { 3 -1 }
+p "" 2 1 "(AtelierC chooses presentation)" { "Grand" "Minimalist" } 0
+t "" 3 "Min,Grand" { -1 3 }
+t "" 4 "Min,Min" { 2 2 }

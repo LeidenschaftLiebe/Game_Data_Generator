@@ -1,0 +1,8 @@
+EFG 2 R "14. Pharmaceutical Trial - All-Pay" { "MedNova" "CureX" }
+p "ROOT" 1 1 "(MedNova chooses testing level)" { "Intensive" "Limited" } 0
+p "" 2 1 "(CureX chooses testing level)" { "Intensive" "Limited" } 0
+t "" 1 "Int,Int" { -1 -1 }
+t "" 2 "Int,Lim" { 4 -2 }
+p "" 2 1 "(CureX chooses testing level)" { "Intensive" "Limited" } 0
+t "" 3 "Lim,Int" { -2 4 }
+t "" 4 "Lim,Lim" { 3 3 }

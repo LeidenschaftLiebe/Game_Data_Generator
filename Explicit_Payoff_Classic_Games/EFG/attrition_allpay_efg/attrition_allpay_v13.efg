@@ -1,0 +1,8 @@
+EFG 2 R "13. Defense Contract - All-Pay" { "AeroCorp" "JetSystems" }
+p "ROOT" 1 1 "(AeroCorp chooses bid plan)" { "Comprehensive" "Streamlined" } 0
+p "" 2 1 "(JetSystems chooses bid plan)" { "Comprehensive" "Streamlined" } 0
+t "" 1 "Comp,Comp" { 0 0 }
+t "" 2 "Comp,Stream" { 5 -2 }
+p "" 2 1 "(JetSystems chooses bid plan)" { "Comprehensive" "Streamlined" } 0
+t "" 3 "Stream,Comp" { -2 5 }
+t "" 4 "Stream,Stream" { 2 2 }

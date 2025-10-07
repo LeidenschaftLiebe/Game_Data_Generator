@@ -1,0 +1,8 @@
+EFG 2 R "10. Corporate Acquisition - All-Pay" { "MegaCorp" "StarCom" }
+p "ROOT" 1 1 "(MegaCorp chooses bid)" { "Aggressive" "Cautious" } 0
+p "" 2 1 "(StarCom chooses bid)" { "Aggressive" "Cautious" } 0
+t "" 1 "Agg,Agg" { -2 -2 }
+t "" 2 "Agg,Cau" { 6 -2 }
+p "" 2 1 "(StarCom chooses bid)" { "Aggressive" "Cautious" } 0
+t "" 3 "Cau,Agg" { -2 6 }
+t "" 4 "Cau,Cau" { 3 3 }

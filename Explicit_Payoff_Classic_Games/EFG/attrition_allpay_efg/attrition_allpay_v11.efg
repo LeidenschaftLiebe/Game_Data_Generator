@@ -1,0 +1,8 @@
+EFG 2 R "11. Construction Bidding - All-Pay" { "BuildTech" "UrbanRise" }
+p "ROOT" 1 1 "(BuildTech chooses bid type)" { "Detailed" "Basic" } 0
+p "" 2 1 "(UrbanRise chooses bid type)" { "Detailed" "Basic" } 0
+t "" 1 "Detailed,Detailed" { -1 -1 }
+t "" 2 "Detailed,Basic" { 4 -2 }
+p "" 2 1 "(UrbanRise chooses bid type)" { "Detailed" "Basic" } 0
+t "" 3 "Basic,Detailed" { -2 4 }
+t "" 4 "Basic,Basic" { 2 2 }

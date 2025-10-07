@@ -1,0 +1,8 @@
+EFG 2 R "17. Real Estate Development - All-Pay" { "SkyBuild" "MetroLand" }
+p "ROOT" 1 1 "(SkyBuild chooses plan type)" { "Elaborate" "Simple" } 0
+p "" 2 1 "(MetroLand chooses plan type)" { "Elaborate" "Simple" } 0
+t "" 1 "Elab,Elab" { -3 -3 }
+t "" 2 "Elab,Sim" { 7 -2 }
+p "" 2 1 "(MetroLand chooses plan type)" { "Elaborate" "Simple" } 0
+t "" 3 "Sim,Elab" { -2 7 }
+t "" 4 "Sim,Sim" { 2 2 }

@@ -1,0 +1,8 @@
+EFG 2 R "7. Marketing War - All-Pay" { "BrandOne" "BrandTwo" }
+p "ROOT" 1 1 "(BrandOne chooses ad budget)" { "Big Campaign" "Small Campaign" } 0
+p "" 2 1 "(BrandTwo chooses ad budget)" { "Big Campaign" "Small Campaign" } 0
+t "" 1 "Big,Big" { -1 -1 }
+t "" 2 "Big,Small" { 4 -2 }
+p "" 2 1 "(BrandTwo chooses ad budget)" { "Big Campaign" "Small Campaign" } 0
+t "" 3 "Small,Big" { -2 4 }
+t "" 4 "Small,Small" { 2 2 }

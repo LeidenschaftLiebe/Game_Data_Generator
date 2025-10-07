@@ -1,0 +1,8 @@
+EFG 2 R "5. Startup Pitch - All-Pay" { "Innovent" "BrightIdea" }
+p "ROOT" 1 1 "(Innovent chooses effort)" { "High Effort" "Low Effort" } 0
+p "" 2 1 "(BrightIdea chooses effort)" { "High Effort" "Low Effort" } 0
+t "" 1 "High,High" { -0.5 -0.5 }
+t "" 2 "High,Low"  { 2 -1 }
+p "" 2 1 "(BrightIdea chooses effort)" { "High Effort" "Low Effort" } 0
+t "" 3 "Low,High"  { -1 2 }
+t "" 4 "Low,Low"   { 1 1 }

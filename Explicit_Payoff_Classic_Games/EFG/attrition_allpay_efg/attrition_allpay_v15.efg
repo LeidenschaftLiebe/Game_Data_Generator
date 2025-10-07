@@ -1,0 +1,8 @@
+EFG 2 R "15. Mining Rights - All-Pay" { "GeoMine" "TerraCore" }
+p "ROOT" 1 1 "(GeoMine chooses investment)" { "Large" "Small" } 0
+p "" 2 1 "(TerraCore chooses investment)" { "Large" "Small" } 0
+t "" 1 "Large,Large" { -2 -2 }
+t "" 2 "Large,Small" { 6 -2 }
+p "" 2 1 "(TerraCore chooses investment)" { "Large" "Small" } 0
+t "" 3 "Small,Large" { -2 6 }
+t "" 4 "Small,Small" { 2 2 }

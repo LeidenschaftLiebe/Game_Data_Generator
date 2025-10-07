@@ -1,0 +1,8 @@
+EFG 2 R "6. Lobbying Effort - All-Pay" { "UnionA" "CorpB" }
+p "ROOT" 1 1 "(UnionA chooses lobbying)" { "Aggressive" "Modest" } 0
+p "" 2 1 "(CorpB chooses lobbying)" { "Aggressive" "Modest" } 0
+t "" 1 "Agg,Agg" { -1 -1 }
+t "" 2 "Agg,Mod" { 3 -2 }
+p "" 2 1 "(CorpB chooses lobbying)" { "Aggressive" "Modest" } 0
+t "" 3 "Mod,Agg" { -2 3 }
+t "" 4 "Mod,Mod" { 2 2 }

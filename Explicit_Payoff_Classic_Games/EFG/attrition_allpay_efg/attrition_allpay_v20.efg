@@ -1,0 +1,8 @@
+EFG 2 R "20. Energy Innovation Challenge - All-Pay" { "GreenCore" "SunVolt" }
+p "ROOT" 1 1 "(GreenCore chooses project)" { "Ambitious" "Standard" } 0
+p "" 2 1 "(SunVolt chooses project)" { "Ambitious" "Standard" } 0
+t "" 1 "Amb,Amb" { -1 -1 }
+t "" 2 "Amb,Std" { 4 -2 }
+p "" 2 1 "(SunVolt chooses project)" { "Ambitious" "Standard" } 0
+t "" 3 "Std,Amb" { -2 4 }
+t "" 4 "Std,Std" { 2 2 }

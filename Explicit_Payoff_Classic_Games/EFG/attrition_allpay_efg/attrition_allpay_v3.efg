@@ -1,0 +1,8 @@
+EFG 2 R "3. Oil Drilling Rights - All-Pay" { "TerraEnergy" "PetroQuest" }
+p "ROOT" 1 1 "(TerraEnergy chooses investment)" { "Large Investment" "Small Investment" } 0
+p "" 2 1 "(PetroQuest chooses investment)" { "Large Investment" "Small Investment" } 0
+t "" 1 "Large,Large" { -1 -1 }
+t "" 2 "Large,Small" { 5 -2 }
+p "" 2 1 "(PetroQuest chooses investment)" { "Large Investment" "Small Investment" } 0
+t "" 3 "Small,Large" { -2 5 }
+t "" 4 "Small,Small" { 3 3 }

@@ -1,0 +1,8 @@
+EFG 2 R "1. Patent Race - All-Pay" { "NovaLabs" "ApexDynamics" }
+p "ROOT" 1 1 "(NovaLabs chooses effort)" { "High Effort" "Low Effort" } 0
+p "" 2 1 "(ApexDynamics chooses effort)" { "High Effort" "Low Effort" } 0
+t "" 1 "High,High" { -1 -1 }
+t "" 2 "High,Low"  { 4 -2 }
+p "" 2 1 "(ApexDynamics chooses effort)" { "High Effort" "Low Effort" } 0
+t "" 3 "Low,High"  { -2 4 }
+t "" 4 "Low,Low"   { 3 3 }

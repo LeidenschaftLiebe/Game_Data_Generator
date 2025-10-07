@@ -1,0 +1,8 @@
+EFG 2 R "2. Political Campaign - All-Pay" { "CandidateA" "CandidateB" }
+p "ROOT" 1 1 "(CandidateA chooses spending)" { "Heavy Spending" "Light Spending" } 0
+p "" 2 1 "(CandidateB chooses spending)" { "Heavy Spending" "Light Spending" } 0
+t "" 1 "Heavy,Heavy" { -2 -2 }
+t "" 2 "Heavy,Light" { 4 -2 }
+p "" 2 1 "(CandidateB chooses spending)" { "Heavy Spending" "Light Spending" } 0
+t "" 3 "Light,Heavy" { -2 4 }
+t "" 4 "Light,Light" { 3 3 }

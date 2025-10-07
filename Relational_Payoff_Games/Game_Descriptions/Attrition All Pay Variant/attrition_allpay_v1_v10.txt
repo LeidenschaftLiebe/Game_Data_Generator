@@ -1,0 +1,135 @@
+1) Patent Competition (InnovaTech vs BioCore)
+
+Two research firms, InnovaTech and BioCore, decide whether to invest heavily or lightly in an R&D race for a single award, 
+and each pays what it invests regardless of the result.
+When both invest heavily, they split the prize, but the net result for each is a loss because costs are high.
+When both invest lightly, they still split the prize, and each comes out ahead because costs are low.
+When one invests heavily and the other lightly, the aggressive investor secures the entire prize and ends with the largest gain, 
+while the lighter investor pays its smaller cost yet gains nothing.
+
+
+
+
+
+
+2) Political Advertising (Candidate Aurora vs Candidate Beacon)
+
+Two candidates choose heavy or light ad blitzes for a single-seat election, 
+and advertising costs are sunk whether they win or lose.
+When both spend heavily, they split voter attention but each ends with a loss because the spending is large.
+When both spend lightly, they split attention and each finishes ahead thanks to lower costs.
+When one spends heavily and the other lightly, the heavy spender captures the whole prize and earns the largest gain, 
+while the light spender pays a small cost and gets nothing.
+
+
+
+
+
+
+3) Oil Lease Pursuit (TerraEnergy vs PetroQuest)
+
+Two energy companies decide whether to bid aggressively or modestly on surveys for a single oil lease, 
+paying survey costs no matter what.
+When both bid aggressively, they split access yet each ends up in the red because expenses are high.
+When both bid modestly, they share the opportunity and each finishes in positive territory due to lower costs.
+When one bids aggressively and the other modestly, the aggressive bidder takes the entire lease and earns the largest gain, 
+while the modest bidder pays and receives nothing.
+
+
+
+
+
+
+4) Startup Showcase (Innovent vs BrightIdea)
+
+Two startups decide whether to prepare intensively or lightly for a one-winner demo day, 
+and preparation costs are sunk.
+When both prepare intensively, they split recognition but each ends with a net loss because the prep is expensive.
+When both prepare lightly, they still split recognition and each ends up ahead thanks to lower effort costs.
+When one prepares intensively and the other lightly, the intensive team wins everything and posts the largest gain, 
+while the light preparer pays a small cost and gets nothing.
+
+
+
+
+
+
+5) Athlete Free-Agent Bidding (City FC vs United FC)
+
+Two clubs decide whether to bid high or low for a single free agent, 
+paying scouting and bid costs regardless.
+When both bid high, they split the edge in negotiations but each records a loss due to heavy costs.
+When both bid low, they still split leverage and each enjoys a small gain thanks to cheaper efforts.
+When one bids high and the other low, the high bidder secures the signing and earns the largest gain, 
+while the low bidder pays and gains nothing.
+
+
+
+
+
+
+6) University Mega-Grant (Lab Apex vs Lab Beacon)
+
+Two research labs decide whether to compile a comprehensive or concise application for 
+a single mega-grant, and proposal costs are sunk.
+When both go comprehensive, they split credit yet each ends with a loss because the effort is costly.
+When both go concise, they still split credit and each ends ahead thanks to lighter costs.
+When one goes comprehensive and the other concise, the comprehensive lab wins everything and gets the largest gain, 
+while the concise lab pays a small cost and receives nothing.
+
+
+
+
+
+
+7) Brand Advertising Blitz (BrandOne vs BrandTwo)
+
+Two brands choose big or small ad campaigns for a one-winner launch, 
+paying ad budgets regardless of outcome.
+When both go big, they split attention but both end up with a loss because spending is heavy.
+When both go small, they still split attention and both end up with a gain thanks to the lower spend.
+When one goes big and the other small, the big spender captures all the spotlight and gets the largest gain, 
+while the small spender pays and gets nothing.
+
+
+
+
+
+
+8) Legal Showdown (Plaintiff vs Defendant)
+
+Two sides decide whether to pursue a long fight or a quick approach in a one-winner settlement contest, 
+paying legal costs either way.
+When both choose a long fight, they split leverage but each suffers a loss due to heavy costs.
+When both choose a quick approach, they still split leverage and each ends with a gain because costs are low.
+When one chooses a long fight and the other a quick approach, the long-fight side secures the whole award and gets the largest gain, 
+while the quick side pays and gets nothing.
+
+
+
+
+
+
+9) Fashion Prize (Maison Vert vs Atelier Noir)
+
+Two fashion houses decide whether to stage a grand show or a minimal show for a single prestigious prize, 
+paying show costs regardless.
+When both stage grand shows, they split acclaim but each records a loss due to high staging costs.
+When both stage minimal shows, they still split acclaim and each posts a gain because costs are low.
+When one stages a grand show and the other a minimal show, the grand show wins everything and nets the largest gain, 
+while the minimal show pays and receives nothing.
+
+
+
+
+
+
+10) Green Tech Challenge (GreenCore vs SunVolt)
+
+Two clean-tech firms decide whether to build an ambitious prototype or a standard model for a single prize, 
+paying build costs either way.
+When both go ambitious, they split the result but each suffers a loss because the build is costly.
+When both go standard, they split the result and each enjoys a gain thanks to lower build costs.
+When one goes ambitious and the other standard, the ambitious builder wins the entire prize and records the largest gain, 
+while the standard builder pays and gains nothing.
+

@@ -1,0 +1,135 @@
+11) Construction Tender Battle (BuildTech vs UrbanRise)
+
+Two construction companies, BuildTech and UrbanRise, compete for a government contract.
+Each can prepare either a detailed proposal or a simple submission.
+When both submit detailed proposals, they split the recognition but their high preparation costs leave each worse off overall.
+When both submit simple proposals, they share minor projects and both gain slightly because expenses are low.
+When one submits a detailed proposal and the other a simple one, the detailed firm wins the entire contract and enjoys the highest gain, 
+while the simple firm spends little but gains nothing.
+
+
+
+
+
+
+12) Pharmaceutical Innovation Race (MedNova vs CureX)
+
+Two biotech firms, MedNova and CureX, are racing to develop a new vaccine.
+Each can choose between intensive testing or limited testing.
+When both test intensively, they share the scientific credit but lose money due to high costs.
+When both test on a limited scale, they share modest recognition and both profit slightly.
+When one tests intensively and the other limits testing, the intensive firm wins full approval and ends far ahead, 
+while the other covers minimal cost but earns nothing.
+
+
+
+
+
+
+13) Legal Lobby Contest (UnionA vs CorpB)
+
+A labor union and a corporation fight to influence new labor regulations.
+Each can fund either an aggressive campaign or a modest campaign.
+When both fund aggressive efforts, neither wins clear advantage and both lose due to overspending.
+When both fund modest efforts, they balance influence and end up ahead because costs are low.
+When one funds aggressively and the other modestly, the stronger lobby wins fully, 
+while the weaker one pays but earns nothing.
+
+
+
+
+
+
+14) Advertising Rivalry (StreamNet vs VisionHub)
+
+Two streaming platforms, StreamNet and VisionHub, battle for audience attention.
+Each can launch either a major campaign or a small one.
+When both spend heavily, they split the market but lose due to high ad costs.
+When both spend small, they still split the viewers and earn moderate profits.
+When one launches a major campaign and the other a small one, the major advertiser takes the whole market and earns the biggest gain, 
+while the other pays little but gains nothing.
+
+
+
+
+
+
+15) Mining Rights Auction (GeoMine vs TerraCore)
+
+Two mining firms, GeoMine and TerraCore, compete for drilling rights.
+Each can invest either heavily or lightly in exploration.
+When both invest heavily, they share the discovery but end up with losses due to cost overruns.
+When both invest lightly, they share smaller gains and finish ahead overall.
+When one invests heavily and the other lightly, the heavy investor wins the entire claim, 
+while the lighter firm spends less but earns nothing.
+
+
+
+
+
+
+16) Academic Grant Proposal (LabA vs LabB)
+
+Two research groups, LabA and LabB, compete for a single grant.
+Each must decide between writing a comprehensive or a brief proposal.
+When both submit comprehensive proposals, they share credit but overspend on time and research.
+When both submit brief proposals, they share attention and both gain modestly.
+When one submits a comprehensive proposal and the other brief, the comprehensive lab wins all funding and ends much better off, 
+while the brief one gains nothing.
+
+
+
+
+
+
+17) Film Festival Contest (StudioNorth vs VisionFilms)
+
+Two studios, StudioNorth and VisionFilms, vie for a top award at a film festival.
+Each can produce either a high-budget entry or a small production.
+When both make high-budget films, they split acclaim but end up with losses due to massive costs.
+When both make smaller films, they share recognition and each gains moderately.
+When one makes a high-budget film and the other small, the high-budget entry takes the prize and earns the biggest return, 
+while the smaller one gains nothing.
+
+
+
+
+
+
+18) Real Estate Pitch (SkyBuild vs MetroLand)
+
+Two real estate developers, SkyBuild and MetroLand, compete to win approval for a city project.
+Each can submit either an ambitious design or a simple layout.
+When both propose ambitious designs, they share recognition but lose from the high design cost.
+When both propose simple layouts, they gain modestly since expenses are low.
+When one proposes ambitious and the other simple, the ambitious design wins approval outright and earns much more, 
+while the other pays little but gains nothing.
+
+
+
+
+
+
+19) Startup Funding Pitch (BrightEdge vs AlphaLab)
+
+Two startups, BrightEdge and AlphaLab, pitch to the same investor.
+Each can choose either a major presentation or a short pitch.
+When both go major, they tie but each loses because of high preparation cost.
+When both go short, they share small investor interest and both gain slightly.
+When one goes major and the other short, the major presenter wins the entire investment and ends best off, 
+while the short presenter spends little but gains nothing.
+
+
+
+
+
+
+20) Renewable Energy Grant (EcoWave vs SolarGrid)
+
+Two renewable energy firms, EcoWave and SolarGrid, compete for a clean-energy prize.
+Each can pursue either a large-scale project or a modest plan.
+When both go large, they split recognition but lose due to high development cost.
+When both go modest, they share smaller results and both gain moderately.
+When one goes large and the other modest, the large project secures the full prize and earns the highest return, 
+while the modest one spends little but gains nothing.
+

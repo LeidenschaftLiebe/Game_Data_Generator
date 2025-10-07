@@ -1,0 +1,8 @@
+EFG 2 R "16. Entry Deterrence - Construction Materials" { "BuildMax" "SteelLine" }
+p "ROOT" 1 1 "(BuildMax chooses output)" { "Expand" "Control" } 0
+p "" 2 1 "(SteelLine after Expand)" { "Enter" "Stay Out" } 0
+t "" 1 "Expand,Enter" { 10000 1000 }
+t "" 2 "Expand,StayOut" { 12000 0 }
+p "" 2 2 "(SteelLine after Control)" { "Enter" "Stay Out" } 0
+t "" 3 "Control,Enter" { 7000 5000 }
+t "" 4 "Control,StayOut" { 13000 0 }

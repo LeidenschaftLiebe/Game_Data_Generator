@@ -1,0 +1,8 @@
+EFG 2 R "7. Entry Deterrence - Ride-Hailing" { "RideMax" "UrbanGo" }
+p "ROOT" 1 1 "(RideMax chooses incentives)" { "High Incentives" "Normal Incentives" } 0
+p "" 2 1 "(UrbanGo after High Incentives)" { "Enter" "Stay Out" } 0
+t "" 1 "High,Enter" { 9000 1000 }
+t "" 2 "High,StayOut" { 11000 0 }
+p "" 2 2 "(UrbanGo after Normal Incentives)" { "Enter" "Stay Out" } 0
+t "" 3 "Normal,Enter" { 7000 6000 }
+t "" 4 "Normal,StayOut" { 13000 0 }

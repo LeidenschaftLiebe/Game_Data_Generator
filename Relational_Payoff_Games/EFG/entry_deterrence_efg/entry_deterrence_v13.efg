@@ -1,0 +1,8 @@
+EFG 2 R "13. Entry Deterrence - Airline Services" { "SkyLift" "AeroJet" }
+p "ROOT" 1 1 "(SkyLift chooses network)" { "Dense Network" "Limited Service" } 0
+p "" 2 1 "(AeroJet after Dense Network)" { "Enter" "Stay Out" } 0
+t "" 1 "Dense,Enter" { 14000 2000 }
+t "" 2 "Dense,StayOut" { 16000 0 }
+p "" 2 2 "(AeroJet after Limited Service)" { "Enter" "Stay Out" } 0
+t "" 3 "Limited,Enter" { 9000 7000 }
+t "" 4 "Limited,StayOut" { 18000 0 }

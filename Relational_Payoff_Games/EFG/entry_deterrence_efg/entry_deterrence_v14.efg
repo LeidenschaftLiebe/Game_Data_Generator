@@ -1,0 +1,8 @@
+EFG 2 R "14. Entry Deterrence - Supermarkets" { "FreshMart" "DailyGrocer" }
+p "ROOT" 1 1 "(FreshMart chooses pricing)" { "Low Price" "Regular Price" } 0
+p "" 2 1 "(DailyGrocer after Low Price)" { "Enter" "Stay Out" } 0
+t "" 1 "Low,Enter" { 11000 1000 }
+t "" 2 "Low,StayOut" { 13000 0 }
+p "" 2 2 "(DailyGrocer after Regular Price)" { "Enter" "Stay Out" } 0
+t "" 3 "Regular,Enter" { 9000 8000 }
+t "" 4 "Regular,StayOut" { 15000 0 }

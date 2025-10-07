@@ -1,7 +1,6 @@
 # Ignore some old versions of validation script, test/example efg, pycache, etc.
 
-Generated_Data/test.efg
-Generated_Data/Template
+Generated_Data/
 
 __pycache__/
 

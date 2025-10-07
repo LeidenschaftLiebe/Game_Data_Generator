@@ -1,0 +1,8 @@
+EFG 2 R "7. All-Pay - Advertising Blitz" { "BrandOne" "BrandTwo" }
+p "ROOT" 1 1 "(BrandOne chooses campaign)" { "Big" "Small" } 0
+p "" 2 1 "(BrandTwo chooses campaign)" { "Big" "Small" } 0
+t "" 1 "Big,Big" { -1 -1 }
+t "" 2 "Big,Small" { 5 -2 }
+p "" 2 1 "(BrandTwo chooses campaign)" { "Big" "Small" } 0
+t "" 3 "Small,Big" { -2 5 }
+t "" 4 "Small,Small" { 2 2 }

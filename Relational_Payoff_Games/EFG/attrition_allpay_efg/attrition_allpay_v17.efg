@@ -1,0 +1,8 @@
+EFG 2 R "17. Film Festival Contest - All-Pay" { "StudioNorth" "VisionFilms" }
+p "ROOT" 1 1 "(StudioNorth chooses production)" { "High Budget" "Small" } 0
+p "" 2 1 "(VisionFilms chooses production)" { "High Budget" "Small" } 0
+t "" 1 "High,High" { -4 -4 }
+t "" 2 "High,Small" { 8 -2 }
+p "" 2 1 "(VisionFilms chooses production)" { "High Budget" "Small" } 0
+t "" 3 "Small,High" { -2 8 }
+t "" 4 "Small,Small" { 3 3 }

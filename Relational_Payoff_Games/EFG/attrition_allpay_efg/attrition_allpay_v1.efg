@@ -1,0 +1,8 @@
+EFG 2 R "1. All-Pay - Patent Competition" { "InnovaTech" "BioCore" }
+p "ROOT" 1 1 "(InnovaTech chooses investment)" { "High" "Low" } 0
+p "" 2 1 "(BioCore chooses investment)" { "High" "Low" } 0
+t "" 1 "High,High" { -2 -2 }
+t "" 2 "High,Low"  { 3 -1 }
+p "" 2 1 "(BioCore chooses investment)" { "High" "Low" } 0
+t "" 3 "Low,High"  { -1 3 }
+t "" 4 "Low,Low"   { 4 4 }

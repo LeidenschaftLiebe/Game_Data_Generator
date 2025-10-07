@@ -1,0 +1,8 @@
+EFG 2 R "13. Legal Lobby Contest - All-Pay" { "UnionA" "CorpB" }
+p "ROOT" 1 1 "(UnionA chooses campaign)" { "Aggressive" "Modest" } 0
+p "" 2 1 "(CorpB chooses campaign)" { "Aggressive" "Modest" } 0
+t "" 1 "Aggressive,Aggressive" { -1 -1 }
+t "" 2 "Aggressive,Modest" { 4 -2 }
+p "" 2 1 "(CorpB chooses campaign)" { "Aggressive" "Modest" } 0
+t "" 3 "Modest,Aggressive" { -2 4 }
+t "" 4 "Modest,Modest" { 3 3 }

@@ -1,0 +1,8 @@
+EFG 2 R "2. All-Pay - Political Advertising" { "Aurora" "Beacon" }
+p "ROOT" 1 1 "(Aurora chooses spending)" { "Heavy" "Light" } 0
+p "" 2 1 "(Beacon chooses spending)" { "Heavy" "Light" } 0
+t "" 1 "Heavy,Heavy" { -2 -2 }
+t "" 2 "Heavy,Light" { 4 -2 }
+p "" 2 1 "(Beacon chooses spending)" { "Heavy" "Light" } 0
+t "" 3 "Light,Heavy" { -2 4 }
+t "" 4 "Light,Light" { 3 3 }

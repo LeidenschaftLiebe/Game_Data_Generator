@@ -1,0 +1,8 @@
+EFG 2 R "8. All-Pay - Legal Showdown" { "Plaintiff" "Defendant" }
+p "ROOT" 1 1 "(Plaintiff chooses approach)" { "Long Fight" "Quick Approach" } 0
+p "" 2 1 "(Defendant chooses approach)" { "Long Fight" "Quick Approach" } 0
+t "" 1 "Long,Long" { -2 -2 }
+t "" 2 "Long,Quick" { 6 -3 }
+p "" 2 1 "(Defendant chooses approach)" { "Long Fight" "Quick Approach" } 0
+t "" 3 "Quick,Long" { -3 6 }
+t "" 4 "Quick,Quick" { 1 1 }

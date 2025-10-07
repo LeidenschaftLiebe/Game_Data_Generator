@@ -1,0 +1,8 @@
+EFG 2 R "15. Mining Rights Auction - All-Pay" { "GeoMine" "TerraCore" }
+p "ROOT" 1 1 "(GeoMine chooses investment)" { "Heavy" "Light" } 0
+p "" 2 1 "(TerraCore chooses investment)" { "Heavy" "Light" } 0
+t "" 1 "Heavy,Heavy" { -3 -3 }
+t "" 2 "Heavy,Light" { 7 -2 }
+p "" 2 1 "(TerraCore chooses investment)" { "Heavy" "Light" } 0
+t "" 3 "Light,Heavy" { -2 7 }
+t "" 4 "Light,Light" { 2 2 }

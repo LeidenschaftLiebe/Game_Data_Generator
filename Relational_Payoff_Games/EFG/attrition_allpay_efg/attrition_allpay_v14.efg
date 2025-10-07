@@ -1,0 +1,8 @@
+EFG 2 R "14. Advertising Rivalry - All-Pay" { "StreamNet" "VisionHub" }
+p "ROOT" 1 1 "(StreamNet chooses campaign)" { "Major" "Small" } 0
+p "" 2 1 "(VisionHub chooses campaign)" { "Major" "Small" } 0
+t "" 1 "Major,Major" { -2 -2 }
+t "" 2 "Major,Small" { 6 -3 }
+p "" 2 1 "(VisionHub chooses campaign)" { "Major" "Small" } 0
+t "" 3 "Small,Major" { -3 6 }
+t "" 4 "Small,Small" { 3 3 }

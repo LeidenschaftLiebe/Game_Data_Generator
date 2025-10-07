@@ -1,0 +1,8 @@
+EFG 2 R "19. Startup Funding Pitch - All-Pay" { "BrightEdge" "AlphaLab" }
+p "ROOT" 1 1 "(BrightEdge chooses presentation)" { "Major" "Short" } 0
+p "" 2 1 "(AlphaLab chooses presentation)" { "Major" "Short" } 0
+t "" 1 "Major,Major" { -1 -1 }
+t "" 2 "Major,Short" { 4 -2 }
+p "" 2 1 "(AlphaLab chooses presentation)" { "Major" "Short" } 0
+t "" 3 "Short,Major" { -2 4 }
+t "" 4 "Short,Short" { 2 2 }

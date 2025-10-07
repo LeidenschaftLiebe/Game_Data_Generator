@@ -1,0 +1,8 @@
+EFG 2 R "11. Construction Tender - All-Pay" { "BuildTech" "UrbanRise" }
+p "ROOT" 1 1 "(BuildTech chooses proposal)" { "Detailed" "Simple" } 0
+p "" 2 1 "(UrbanRise chooses proposal)" { "Detailed" "Simple" } 0
+t "" 1 "Detailed,Detailed" { -2 -2 }
+t "" 2 "Detailed,Simple" { 5 -3 }
+p "" 2 1 "(UrbanRise chooses proposal)" { "Detailed" "Simple" } 0
+t "" 3 "Simple,Detailed" { -3 5 }
+t "" 4 "Simple,Simple" { 2 2 }

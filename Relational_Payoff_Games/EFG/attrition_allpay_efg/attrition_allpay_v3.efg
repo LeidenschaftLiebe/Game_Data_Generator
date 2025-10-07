@@ -1,0 +1,8 @@
+EFG 2 R "3. All-Pay - Oil Lease" { "TerraEnergy" "PetroQuest" }
+p "ROOT" 1 1 "(TerraEnergy chooses bid)" { "Aggressive" "Modest" } 0
+p "" 2 1 "(PetroQuest chooses bid)" { "Aggressive" "Modest" } 0
+t "" 1 "Aggressive,Aggressive" { -2 -2 }
+t "" 2 "Aggressive,Modest" { 5 -3 }
+p "" 2 1 "(PetroQuest chooses bid)" { "Aggressive" "Modest" } 0
+t "" 3 "Modest,Aggressive" { -3 5 }
+t "" 4 "Modest,Modest" { 4 4 }

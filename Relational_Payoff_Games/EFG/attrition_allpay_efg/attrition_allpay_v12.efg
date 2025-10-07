@@ -1,0 +1,8 @@
+EFG 2 R "12. Pharma Innovation - All-Pay" { "MedNova" "CureX" }
+p "ROOT" 1 1 "(MedNova chooses testing)" { "Intensive" "Limited" } 0
+p "" 2 1 "(CureX chooses testing)" { "Intensive" "Limited" } 0
+t "" 1 "Intensive,Intensive" { -3 -3 }
+t "" 2 "Intensive,Limited" { 7 -2 }
+p "" 2 1 "(CureX chooses testing)" { "Intensive" "Limited" } 0
+t "" 3 "Limited,Intensive" { -2 7 }
+t "" 4 "Limited,Limited" { 2 2 }

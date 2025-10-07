@@ -1,0 +1,8 @@
+EFG 2 R "5. All-Pay - Free Agent Bidding" { "CityFC" "UnitedFC" }
+p "ROOT" 1 1 "(CityFC chooses bid)" { "High" "Low" } 0
+p "" 2 1 "(UnitedFC chooses bid)" { "High" "Low" } 0
+t "" 1 "High,High" { -2 -2 }
+t "" 2 "High,Low"  { 5 -1 }
+p "" 2 1 "(UnitedFC chooses bid)" { "High" "Low" } 0
+t "" 3 "Low,High"  { -1 5 }
+t "" 4 "Low,Low"   { 2 2 }

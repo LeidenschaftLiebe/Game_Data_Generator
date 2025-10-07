@@ -1,0 +1,8 @@
+EFG 2 R "18. Real Estate Pitch - All-Pay" { "SkyBuild" "MetroLand" }
+p "ROOT" 1 1 "(SkyBuild chooses design)" { "Ambitious" "Simple" } 0
+p "" 2 1 "(MetroLand chooses design)" { "Ambitious" "Simple" } 0
+t "" 1 "Ambitious,Ambitious" { -3 -3 }
+t "" 2 "Ambitious,Simple" { 6 -2 }
+p "" 2 1 "(MetroLand chooses design)" { "Ambitious" "Simple" } 0
+t "" 3 "Simple,Ambitious" { -2 6 }
+t "" 4 "Simple,Simple" { 3 3 }

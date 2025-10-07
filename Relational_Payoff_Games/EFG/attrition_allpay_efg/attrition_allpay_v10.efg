@@ -1,0 +1,8 @@
+EFG 2 R "10. All-Pay - Green Tech Challenge" { "GreenCore" "SunVolt" }
+p "ROOT" 1 1 "(GreenCore chooses project)" { "Ambitious" "Standard" } 0
+p "" 2 1 "(SunVolt chooses project)" { "Ambitious" "Standard" } 0
+t "" 1 "Ambitious,Ambitious" { -2 -2 }
+t "" 2 "Ambitious,Standard" { 5 -2 }
+p "" 2 1 "(SunVolt chooses project)" { "Ambitious" "Standard" } 0
+t "" 3 "Standard,Ambitious" { -2 5 }
+t "" 4 "Standard,Standard" { 3 3 }

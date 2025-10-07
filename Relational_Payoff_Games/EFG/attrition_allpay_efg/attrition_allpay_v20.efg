@@ -1,0 +1,8 @@
+EFG 2 R "20. Renewable Energy Grant - All-Pay" { "EcoWave" "SolarGrid" }
+p "ROOT" 1 1 "(EcoWave chooses project)" { "Large" "Modest" } 0
+p "" 2 1 "(SolarGrid chooses project)" { "Large" "Modest" } 0
+t "" 1 "Large,Large" { -2 -2 }
+t "" 2 "Large,Modest" { 5 -3 }
+p "" 2 1 "(SolarGrid chooses project)" { "Large" "Modest" } 0
+t "" 3 "Modest,Large" { -3 5 }
+t "" 4 "Modest,Modest" { 2 2 }

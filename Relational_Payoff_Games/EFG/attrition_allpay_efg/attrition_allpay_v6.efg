@@ -1,0 +1,8 @@
+EFG 2 R "6. All-Pay - University Mega-Grant" { "LabApex" "LabBeacon" }
+p "ROOT" 1 1 "(LabApex chooses proposal)" { "Comprehensive" "Concise" } 0
+p "" 2 1 "(LabBeacon chooses proposal)" { "Comprehensive" "Concise" } 0
+t "" 1 "Comprehensive,Comprehensive" { -3 -3 }
+t "" 2 "Comprehensive,Concise" { 6 -2 }
+p "" 2 1 "(LabBeacon chooses proposal)" { "Comprehensive" "Concise" } 0
+t "" 3 "Concise,Comprehensive" { -2 6 }
+t "" 4 "Concise,Concise" { 1 1 }

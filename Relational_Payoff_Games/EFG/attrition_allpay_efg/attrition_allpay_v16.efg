@@ -1,0 +1,8 @@
+EFG 2 R "16. Academic Grant Proposal - All-Pay" { "LabA" "LabB" }
+p "ROOT" 1 1 "(LabA chooses proposal)" { "Comprehensive" "Brief" } 0
+p "" 2 1 "(LabB chooses proposal)" { "Comprehensive" "Brief" } 0
+t "" 1 "Comprehensive,Comprehensive" { -2 -2 }
+t "" 2 "Comprehensive,Brief" { 5 -1 }
+p "" 2 1 "(LabB chooses proposal)" { "Comprehensive" "Brief" } 0
+t "" 3 "Brief,Comprehensive" { -1 5 }
+t "" 4 "Brief,Brief" { 3 3 }

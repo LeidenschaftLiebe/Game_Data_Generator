@@ -1,0 +1,8 @@
+EFG 2 R "19. Stackelberg City Hotels" { "MetroStay" "CityLodge" }
+p "ROOT" 1 1 "(MetroStay chooses release)" { "More" "Less" } 0
+p "" 2 1 "(CityLodge after More)" { "More" "Less" } 0
+t "" 1 "More,More" { 18000 18000 }
+t "" 2 "More,Less" { 28000 14000 }
+p "" 2 2 "(CityLodge after Less)" { "More" "Less" } 0
+t "" 3 "Less,More" { 14000 28000 }
+t "" 4 "Less,Less" { 19000 19000 }

@@ -1,0 +1,8 @@
+EFG 2 R "16. Stackelberg Budget Airlines" { "SkySaver" "JetEconomy" }
+p "ROOT" 1 1 "(SkySaver chooses seats)" { "Many" "Few" } 0
+p "" 2 1 "(JetEconomy after Many)" { "Many" "Few" } 0
+t "" 1 "Many,Many" { 9600 9600 }
+t "" 2 "Many,Few" { 16800 8400 }
+p "" 2 2 "(JetEconomy after Few)" { "Many" "Few" } 0
+t "" 3 "Few,Many" { 8400 16800 }
+t "" 4 "Few,Few" { 12000 12000 }

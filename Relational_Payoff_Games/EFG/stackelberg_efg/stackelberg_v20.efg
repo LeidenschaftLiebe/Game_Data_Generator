@@ -1,0 +1,8 @@
+EFG 2 R "20. Stackelberg EV Networks" { "VoltWay" "ChargeCity" }
+p "ROOT" 1 1 "(VoltWay chooses coverage)" { "Broad" "Narrow" } 0
+p "" 2 1 "(ChargeCity after Broad)" { "Broad" "Narrow" } 0
+t "" 1 "Broad,Broad" { 9000 9000 }
+t "" 2 "Broad,Narrow" { 13500 6750 }
+p "" 2 2 "(ChargeCity after Narrow)" { "Broad" "Narrow" } 0
+t "" 3 "Narrow,Broad" { 6750 13500 }
+t "" 4 "Narrow,Narrow" { 9000 9000 }

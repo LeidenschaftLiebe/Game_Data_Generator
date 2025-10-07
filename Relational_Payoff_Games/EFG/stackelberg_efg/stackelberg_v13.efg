@@ -1,0 +1,8 @@
+EFG 2 R "13. Stackelberg Enterprise Cloud" { "ComputeHub" "GridWorks" }
+p "ROOT" 1 1 "(ComputeHub chooses capacity)" { "High" "Low" } 0
+p "" 2 1 "(GridWorks after High)" { "High" "Low" } 0
+t "" 1 "High,High" { 1200 1200 }
+t "" 2 "High,Low" { 2400 1100 }
+p "" 2 2 "(GridWorks after Low)" { "High" "Low" } 0
+t "" 3 "Low,High" { 1100 2400 }
+t "" 4 "Low,Low" { 1800 1800 }

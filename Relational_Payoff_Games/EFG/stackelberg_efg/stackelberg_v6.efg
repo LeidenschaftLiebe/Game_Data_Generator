@@ -1,0 +1,8 @@
+EFG 2 R "6. Stackelberg Car Rentals" { "CityDrive" "FlyRent" }
+p "ROOT" 1 1 "(CityDrive chooses fleet)" { "Large" "Small" } 0
+p "" 2 1 "(FlyRent after Large)" { "Large" "Small" } 0
+t "" 1 "Large,Large" { 9600 9600 }
+t "" 2 "Large,Small" { 16800 8400 }
+p "" 2 2 "(FlyRent after Small)" { "Large" "Small" } 0
+t "" 3 "Small,Large" { 8400 16800 }
+t "" 4 "Small,Small" { 12000 12000 }

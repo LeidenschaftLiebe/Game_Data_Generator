@@ -1,0 +1,135 @@
+1) Airline Routes (IncumbentAir vs SkyStart)
+
+IncumbentAir first decides whether to commit to a full schedule or operate a limited schedule on a new regional route.
+SkyStart observes this and chooses whether to enter the route or stay out.
+
+If IncumbentAir commits to a full schedule and SkyStart enters, the incumbent captures most passengers and does much better than the entrant.
+If IncumbentAir opts for a limited schedule and SkyStart enters, both airlines compete on more even terms, each securing a fair share of travelers.
+When SkyStart stays out, IncumbentAir enjoys complete dominance of the market, and a limited schedule reduces costs, allowing it to earn more.
+
+
+
+
+
+
+2) Bottled Water (PureSpring vs FreshFlow)
+
+PureSpring must decide whether to build high capacity or keep a smaller facility.
+FreshFlow then decides whether to enter the bottled water market or stay out.
+
+If PureSpring builds high capacity and FreshFlow enters, the incumbent floods the shelves and does far better than the new entrant.
+If PureSpring stays small and FreshFlow enters, both sell competitively and share customers more evenly.
+When FreshFlow stays out, PureSpring controls the entire market, with a smaller facility saving costs and improving its final position.
+
+
+
+
+
+
+3) Electric Vehicles (Voltura vs EcoMotion)
+
+Voltura decides whether to expand production or keep output steady for the next year.
+EcoMotion observes this and chooses whether to enter the electric car market or stay out.
+
+If Voltura expands and EcoMotion enters, the established brand dominates sales and does much better than the entrant.
+If Voltura keeps steady production and EcoMotion enters, both companies operate successfully, dividing the growing demand.
+When EcoMotion stays out, Voltura remains the sole supplier, and producing efficiently with steady output leaves it better off.
+
+
+
+
+
+
+4) Tech Gadgets (Nexon vs ByteRise)
+
+Nexon must decide whether to introduce a low-priced model or maintain its premium pricing.
+ByteRise observes the decision and then decides whether to enter the market or stay out.
+
+If Nexon adopts low pricing and ByteRise enters, Nexon dominates sales and does significantly better than the entrant.
+If Nexon maintains premium pricing and ByteRise enters, both share the midrange market on more balanced terms.
+When ByteRise stays out, Nexon holds full control of the market, and premium pricing yields a higher margin.
+
+
+
+
+
+
+5) Coffee Chains (BeanCraft vs UrbanRoast)
+
+BeanCraft first decides whether to open stores widely or expand selectively across the city.
+UrbanRoast then decides whether to enter or stay out.
+
+If BeanCraft rolls out a wide network and UrbanRoast enters, the incumbent crowds the market and performs much better.
+If BeanCraft keeps a limited expansion and UrbanRoast enters, both chains attract loyal customers and do reasonably well.
+When UrbanRoast stays out, BeanCraft dominates all local demand, and a limited rollout keeps operations more efficient.
+
+
+
+
+
+
+6) Online Retail (ShopVerse vs QuickCart)
+
+ShopVerse decides whether to cut prices or keep them stable before QuickCart acts.
+QuickCart observes this and decides whether to enter the market or stay out.
+
+If ShopVerse cuts prices and QuickCart enters, the incumbent keeps most buyers and does far better.
+If ShopVerse keeps prices steady and QuickCart enters, both firms coexist with moderate success.
+When QuickCart stays out, ShopVerse commands the market alone, and stable pricing improves profits.
+
+
+
+
+
+
+7) Ride-Hailing (RideMax vs UrbanGo)
+
+RideMax sets its driver incentives before UrbanGo decides whether to enter the city market.
+
+If RideMax offers high incentives and UrbanGo enters, RideMax attracts most drivers and riders, doing far better.
+If RideMax offers normal incentives and UrbanGo enters, both compete closely and maintain steady profits.
+When UrbanGo stays out, RideMax keeps the entire customer base, and moderate incentives improve margins.
+
+
+
+
+
+
+8) Energy Drinks (PowerBoost vs VitalRush)
+
+PowerBoost decides whether to increase production or stay moderate.
+VitalRush then decides whether to enter the market or stay out.
+
+If PowerBoost produces at high levels and VitalRush enters, PowerBoost sells more and does far better than the new entrant.
+If PowerBoost stays moderate and VitalRush enters, both firms do well and split consumer demand.
+When VitalRush stays out, PowerBoost enjoys full control, and keeping production moderate proves more efficient.
+
+
+
+
+
+
+9) Cloud Storage (DataHarbor vs CloudGrid)
+
+DataHarbor chooses whether to build large servers or keep limited capacity.
+CloudGrid then decides whether to enter the cloud market or stay out.
+
+If DataHarbor builds large capacity and CloudGrid enters, DataHarbor dominates corporate clients and performs much better.
+If DataHarbor keeps limited capacity and CloudGrid enters, both providers find their own users and compete evenly.
+When CloudGrid stays out, DataHarbor remains the sole provider, and smaller capacity lowers expenses, improving profits.
+
+
+
+
+
+
+10) Electric Utilities (GridMax vs VoltCity)
+
+GridMax chooses whether to expand its power network or limit expansion.
+VoltCity then decides whether to enter or stay out.
+
+If GridMax expands and VoltCity enters, the incumbent serves most customers and does much better.
+If GridMax limits expansion and VoltCity enters, both firms share the region more evenly.
+When VoltCity stays out, GridMax supplies all consumers, and the limited expansion keeps operations more efficient.
+
+

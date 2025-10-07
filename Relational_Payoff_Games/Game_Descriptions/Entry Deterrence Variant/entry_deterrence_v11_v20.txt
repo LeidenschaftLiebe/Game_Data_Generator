@@ -1,0 +1,135 @@
+11) Solar Power (SunPeak vs BrightVolt)
+
+SunPeak, an established solar manufacturer, decides whether to invest in large capacity or keep a smaller facility for the coming year.
+BrightVolt, a new entrant, observes that commitment and then chooses whether to enter the market or stay out.
+
+If SunPeak builds large capacity and BrightVolt enters, the incumbent captures most contracts and performs much better than the new player.
+If SunPeak keeps a small facility and BrightVolt enters, both firms share demand more evenly, each maintaining steady business.
+When BrightVolt stays out, SunPeak dominates the market entirely, and operating a smaller plant allows it to run more efficiently.
+
+
+
+
+
+
+12) Streaming Services (ViewPrime vs WatchBox)
+
+ViewPrime, a major streaming platform, decides whether to lower its subscription price or keep it high.
+WatchBox, a potential rival, observes this move and chooses whether to enter the streaming market or stay out.
+
+If ViewPrime sets a low price and WatchBox enters, ViewPrime keeps most subscribers and performs far better.
+If ViewPrime maintains a high price and WatchBox enters, both platforms compete on more balanced footing.
+When WatchBox stays out, ViewPrime controls the entire market, and keeping prices moderate proves more profitable.
+
+
+
+
+
+
+13) Airline Services (SkyLift vs AeroJet)
+
+SkyLift decides whether to commit to a dense route network or maintain limited service on domestic flights.
+AeroJet, a smaller carrier, observes the move and chooses whether to enter or stay out.
+
+If SkyLift operates a dense network and AeroJet enters, the incumbent captures most passengers and clearly outperforms the new rival.
+If SkyLift keeps limited service and AeroJet enters, the two airlines split routes more evenly, each doing reasonably well.
+When AeroJet stays out, SkyLift dominates the skies, and a limited operation saves resources while maintaining complete control.
+
+
+
+
+
+
+14) Supermarkets (FreshMart vs DailyGrocer)
+
+FreshMart decides whether to cut prices aggressively or keep regular pricing on groceries.
+DailyGrocer observes the decision and chooses whether to open new stores or stay out.
+
+If FreshMart adopts low pricing and DailyGrocer enters, the incumbent captures most shoppers and performs far better.
+If FreshMart keeps regular pricing and DailyGrocer enters, both chains compete closely and divide customers fairly.
+When DailyGrocer stays out, FreshMart holds the entire market, and keeping normal prices helps sustain higher earnings.
+
+
+
+
+
+
+15) Pharmaceutical Market (MedCore vs BioPure)
+
+MedCore, a leading drug producer, decides whether to expand production or stay limited.
+BioPure, a potential entrant, observes and decides whether to enter or stay out.
+
+If MedCore expands aggressively and BioPure enters, MedCore captures most buyers and does much better.
+If MedCore keeps limited output and BioPure enters, both companies find profitable niches and compete effectively.
+When BioPure stays out, MedCore dominates the pharmaceutical line, and staying limited preserves resources while keeping full control.
+
+
+
+
+
+
+16) Construction Materials (BuildMax vs SteelLine)
+
+BuildMax chooses whether to expand production or keep supply tight.
+SteelLine, a potential competitor, observes this and decides whether to enter or stay out.
+
+If BuildMax expands and SteelLine enters, the incumbent supplies most projects and performs far better.
+If BuildMax controls supply and SteelLine enters, the two firms compete on near-equal footing.
+When SteelLine stays out, BuildMax keeps every contract, and limiting supply increases efficiency and profits.
+
+
+
+
+
+
+17) Telecommunication (Connecta vs LineLink)
+
+Connecta decides whether to drop prices or maintain standard rates.
+LineLink, a potential mobile provider, observes and decides whether to enter or stay out.
+
+If Connecta cuts prices sharply and LineLink enters, Connecta gains most users and performs much better.
+If Connecta keeps standard pricing and LineLink enters, both firms compete in balance across different regions.
+When LineLink stays out, Connecta dominates coverage, and steady pricing preserves profitability.
+
+
+
+
+
+
+18) Apparel Industry (TrendCo vs NovaWear)
+
+TrendCo, a large fashion retailer, chooses whether to introduce a discount line or stay premium-only.
+NovaWear, a startup brand, observes and decides whether to enter or stay out.
+
+If TrendCo launches a discount line and NovaWear enters, TrendCo holds most sales and performs much better.
+If TrendCo stays premium-only and NovaWear enters, both brands capture their segments successfully.
+When NovaWear stays out, TrendCo controls the clothing market, and staying premium secures higher margins.
+
+
+
+
+
+
+19) Battery Market (VoltEdge vs PowerOne)
+
+VoltEdge decides whether to expand production or maintain current levels.
+PowerOne, a new competitor, observes and then decides whether to enter or stay out.
+
+If VoltEdge expands and PowerOne enters, the incumbent captures most contracts and performs much better.
+If VoltEdge maintains production and PowerOne enters, both firms compete closely, each doing respectably.
+When PowerOne stays out, VoltEdge supplies the entire market, and maintaining steady levels keeps operations lean and efficient.
+
+
+
+
+
+
+20) Food Delivery (QuickEats vs DineGo)
+
+QuickEats decides whether to cut delivery fees or keep them standard.
+DineGo, a new service, observes and then chooses whether to enter or stay out.
+
+If QuickEats cuts fees and DineGo enters, QuickEats attracts most customers and does far better.
+If QuickEats keeps standard fees and DineGo enters, both platforms compete closely and retain steady business.
+When DineGo stays out, QuickEats holds every delivery in the city, and keeping fees standard ensures higher profits.
+

@@ -1,0 +1,135 @@
+11) Solar Panels (leader: SunPeak; follower: BrightVolt)
+
+SunPeak decides first how many solar panels to produce for the season.
+BrightVolt observes that decision and sets its own output.
+When both expand heavily, competition reduces their returns equally.
+If SunPeak expands while BrightVolt stays conservative, SunPeak earns more while BrightVolt earns less.
+If SunPeak stays conservative and BrightVolt expands, BrightVolt earns more while SunPeak earns less.
+If both keep production conservative, each finishes with steady equal results.
+
+
+
+
+
+
+12) Dairy Processing (leader: CreamValley; follower: FreshDale)
+
+CreamValley commits first to how much milk to process.
+FreshDale then observes that choice before making its own decision.
+If both expand production, their profits are equally reduced.
+If CreamValley expands while FreshDale stays moderate, CreamValley gains the upper hand.
+If CreamValley stays moderate and FreshDale expands, FreshDale gains the upper hand.
+If both stay moderate, each enjoys equally balanced results.
+
+
+
+
+
+
+13) Enterprise Cloud (leader: ComputeHub; follower: GridWorks)
+
+ComputeHub decides first how much computing capacity to offer.
+GridWorks reviews that move and sets its own response.
+Large capacity from both providers leaves their margins equally slim.
+If ComputeHub expands capacity while GridWorks stays limited, ComputeHub earns more and GridWorks less.
+If ComputeHub stays limited and GridWorks expands, GridWorks earns more and ComputeHub less.
+Mutual restraint gives both a balanced and equal outcome.
+
+
+
+
+
+
+14) Streaming Media (leader: Streamly; follower: WatchBox)
+
+Streamly announces its content expansion before WatchBox makes its decision.
+WatchBox observes this announcement and decides whether to match or hold back.
+Expanding together leaves both platforms with similar modest results.
+If Streamly expands and WatchBox holds back, Streamly gains a clear advantage.
+If Streamly holds back and WatchBox expands, WatchBox gains the advantage.
+If both hold back, their results are evenly stable.
+
+
+
+
+
+
+15) Construction Steel (leader: ForgeOne; follower: Riverton)
+
+ForgeOne sets its steel output first for upcoming projects.
+Riverton reacts after seeing ForgeOne’s decision.
+If both push large output, they earn equally modest profits.
+If ForgeOne expands while Riverton remains restrained, ForgeOne gains more.
+If ForgeOne restrains output and Riverton expands, Riverton gains more.
+If both stay restrained, they earn identical, stronger outcomes.
+
+
+
+
+
+
+16) Budget Airlines (leader: SkySaver; follower: JetEconomy)
+
+SkySaver releases its seat schedule before JetEconomy finalizes its flights.
+JetEconomy makes its move after reviewing SkySaver’s plan.
+A heavy release by both keeps fares low and profits equal but thin.
+If SkySaver expands while JetEconomy limits seats, SkySaver performs better.
+If SkySaver limits while JetEconomy expands, JetEconomy performs better.
+When both limit, their results are equally steady.
+
+
+
+
+
+
+17) Luxury Fashion (leader: Maison Vert; follower: Atelier Noir)
+
+Maison Vert sets its seasonal release first.
+Atelier Noir waits for that announcement and then sets its own.
+If both release widely, their profits are equal but limited.
+If Maison Vert releases widely while Atelier Noir keeps limited, Maison Vert earns more.
+If Maison Vert limits and Atelier Noir releases widely, Atelier Noir earns more.
+If both limit, both receive the same higher result.
+
+
+
+
+
+
+18) Generic Pharma (leader: HealthCore; follower: MediPure)
+
+HealthCore announces its batch size before MediPure begins production.
+MediPure reacts after learning HealthCore’s scale.
+When both scale up, competition keeps returns equal but thinner.
+If HealthCore expands while MediPure stays small, HealthCore leads.
+If HealthCore stays small and MediPure expands, MediPure leads.
+When both keep runs small, both end with balanced results.
+
+
+
+
+
+
+19) City Hotels (leader: MetroStay; follower: CityLodge)
+
+MetroStay decides its weekend room release before CityLodge opens bookings.
+CityLodge observes MetroStay’s decision and reacts.
+When both offer many rooms, their results are equal but slimmer.
+If MetroStay releases more while CityLodge limits, MetroStay earns more.
+If MetroStay limits and CityLodge releases more, CityLodge earns more.
+When both limit, they earn equally solid results.
+
+
+
+
+
+
+20) EV Networks (leader: VoltWay; follower: ChargeCity)
+
+VoltWay commits to its station rollout before ChargeCity plans its expansion.
+ChargeCity observes VoltWay’s move and responds.
+Broad expansion from both yields equal but limited outcomes.
+If VoltWay broadens while ChargeCity stays narrow, VoltWay leads.
+If VoltWay stays narrow and ChargeCity broadens, ChargeCity leads.
+If both stay narrow, both earn balanced equal results.
+

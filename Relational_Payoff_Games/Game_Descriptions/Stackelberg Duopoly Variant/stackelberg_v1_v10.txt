@@ -1,0 +1,124 @@
+1) Bottled Water (leader: ClearSprings; follower: BluePeak)
+
+ClearSprings commits to a production scale before BluePeak decides.
+When both push large volumes, each finishes with the same modest result.
+If ClearSprings expands while BluePeak stays restrained, ClearSprings earns more and BluePeak earns less.
+If ClearSprings holds back and BluePeak expands, BluePeak earns more and ClearSprings earns less.
+If both keep output restrained, each ends with the same stable result.
+
+
+
+
+
+
+2) Cement Supply (leader: MetroCem; follower: UrbanMix)
+
+MetroCem announces its pour schedule first; UrbanMix reacts after seeing it.
+When both scale up, the two firms land on equal but thinner results.
+If MetroCem scales up while UrbanMix stays cautious, MetroCem finishes ahead.
+If MetroCem stays cautious and UrbanMix scales up, UrbanMix finishes ahead.
+If both stay cautious, both secure equal, stronger results than in a price war.
+
+
+
+
+
+
+3) Cloud Storage (leader: DataHarbor; follower: CloudGrid)
+
+DataHarbor sets capacity first; CloudGrid decides after observing that choice.
+Parallel expansion leaves both with equal, modest outcomes.
+If DataHarbor expands and CloudGrid limits, DataHarbor does better.
+If DataHarbor limits and CloudGrid expands, CloudGrid does better.
+Parallel restraint gives both the same steadier outcome.
+
+
+
+
+
+
+4) Regional Breweries (leader: RiverBrew; follower: TallPines)
+
+RiverBrew declares its brew volume first; TallPines adjusts after seeing it.
+Heavy output by both leaves them equal but squeezed.
+If RiverBrew runs big and TallPines stays small, RiverBrew comes out ahead.
+If RiverBrew stays small and TallPines runs big, TallPines comes out ahead.
+Mutual restraint treats them equally with a firmer result.
+
+
+
+
+
+
+5) Online Courses (leader: SkillForge; follower: EduWave)
+
+SkillForge announces availability first; EduWave responds after observing it.
+When both flood the catalog, both land on the same thinner return.
+If SkillForge pushes while EduWave holds back, SkillForge earns more.
+If SkillForge holds back and EduWave pushes, EduWave earns more.
+If both keep offerings limited, both share the same steadier return.
+
+
+
+
+
+
+6) Car Rentals (leader: CityDrive; follower: FlyRent)
+
+CityDrive commits its fleet first; FlyRent sets its fleet after watching CityDrive.
+Large fleets from both yield equal but tight results.
+If CityDrive expands while FlyRent stays small, CityDrive leads.
+If CityDrive stays small and FlyRent expands, FlyRent leads.
+Smaller fleets from both give matching, steadier outcomes.
+
+
+
+
+
+
+7) Laptop PCs (leader: SilverWave; follower: ProCore)
+
+SilverWave sets scale first; ProCore reacts after seeing the plan.
+If both scale up, their returns match at a lower level.
+If SilverWave scales up while ProCore stays modest, SilverWave comes out ahead.
+If SilverWave stays modest and ProCore scales up, ProCore comes out ahead.
+When both stay modest, both land on the same stronger result.
+
+
+
+
+
+
+8) Organic Fertilizer (leader: GreenSoil; follower: AgriBloom)
+
+GreenSoil picks batch size ahead of AgriBloom; AgriBloom responds after observing it.
+Big batches from both leave them equally pressed.
+If GreenSoil goes big while AgriBloom stays small, GreenSoil does better.
+If GreenSoil stays small and AgriBloom goes big, AgriBloom does better.
+Small batches from both give the same steadier performance.
+
+
+
+
+
+
+9) City Hotels (leader: MetroStay; follower: CityLodge)
+
+MetroStay decides releases first; CityLodge decides after seeing them.
+Heavy releases by both produce equal but thinner results.
+If MetroStay releases more while CityLodge limits, MetroStay takes the lead.
+If MetroStay limits while CityLodge releases more, CityLodge takes the lead.
+When both limit, both receive the same steadier outcome.
+
+
+
+
+
+
+10) EV Charging (leader: VoltHub; follower: ChargeGo)
+
+VoltHub announces station availability before ChargeGo makes its move.
+Wide availability from both leaves them equal at a thinner level.
+If VoltHub widens coverage while ChargeGo stays narrow, VoltHub does better.
+If VoltHub stays narrow and ChargeGo widens coverage, ChargeGo does better.
+Mutual restraint leaves both with the same steadier result.

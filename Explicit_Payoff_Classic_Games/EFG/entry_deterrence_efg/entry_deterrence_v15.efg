@@ -1,0 +1,8 @@
+EFG 2 R "15. Entry Deterrence - Pharmaceutical Market" { "MedCore" "BioPure" }
+p "ROOT" 1 1 "(MedCore chooses output)" { "High Output" "Limited Output" } 0
+p "" 2 1 "(BioPure after High Output)" { "Enter" "Stay Out" } 0
+t "" 1 "High,Enter" { 13000 1000 }
+t "" 2 "High,StayOut" { 14000 0 }
+p "" 2 2 "(BioPure after Limited Output)" { "Enter" "Stay Out" } 0
+t "" 3 "Limited,Enter" { 8000 6000 }
+t "" 4 "Limited,StayOut" { 15000 0 }

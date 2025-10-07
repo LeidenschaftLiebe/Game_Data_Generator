@@ -1,0 +1,8 @@
+EFG 2 R "10. Entry Deterrence - Electric Utilities" { "GridMax" "VoltCity" }
+p "ROOT" 1 1 "(GridMax chooses capacity)" { "Expand" "Limit" } 0
+p "" 2 1 "(VoltCity after Expand)" { "Enter" "Stay Out" } 0
+t "" 1 "Expand,Enter" { 11000 1000 }
+t "" 2 "Expand,StayOut" { 12500 0 }
+p "" 2 2 "(VoltCity after Limit)" { "Enter" "Stay Out" } 0
+t "" 3 "Limit,Enter" { 8000 7000 }
+t "" 4 "Limit,StayOut" { 13000 0 }

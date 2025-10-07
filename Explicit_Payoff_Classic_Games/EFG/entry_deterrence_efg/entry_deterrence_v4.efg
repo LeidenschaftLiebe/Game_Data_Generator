@@ -1,0 +1,8 @@
+EFG 2 R "4. Entry Deterrence - Tech Gadgets" { "Nexon" "ByteRise" }
+p "ROOT" 1 1 "(Nexon chooses pricing)" { "Low Price" "High Price" } 0
+p "" 2 1 "(ByteRise after Low Price)" { "Enter" "Stay Out" } 0
+t "" 1 "Low,Enter" { 10000 2000 }
+t "" 2 "Low,StayOut" { 12000 0 }
+p "" 2 2 "(ByteRise after High Price)" { "Enter" "Stay Out" } 0
+t "" 3 "High,Enter" { 8000 7000 }
+t "" 4 "High,StayOut" { 14000 0 }

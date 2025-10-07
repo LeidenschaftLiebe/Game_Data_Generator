@@ -1,0 +1,8 @@
+EFG 2 R "20. Entry Deterrence - Food Delivery" { "QuickEats" "DineGo" }
+p "ROOT" 1 1 "(QuickEats chooses pricing)" { "Low Fee" "Standard Fee" } 0
+p "" 2 1 "(DineGo after Low Fee)" { "Enter" "Stay Out" } 0
+t "" 1 "Low,Enter" { 9500 500 }
+t "" 2 "Low,StayOut" { 11000 0 }
+p "" 2 2 "(DineGo after Standard Fee)" { "Enter" "Stay Out" } 0
+t "" 3 "Standard,Enter" { 7000 6000 }
+t "" 4 "Standard,StayOut" { 12000 0 }

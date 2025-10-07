@@ -1,0 +1,8 @@
+EFG 2 R "11. Entry Deterrence - Solar Power" { "SunPeak" "BrightVolt" }
+p "ROOT" 1 1 "(SunPeak chooses capacity)" { "Large Capacity" "Small Capacity" } 0
+p "" 2 1 "(BrightVolt after Large Capacity)" { "Enter" "Stay Out" } 0
+t "" 1 "Large,Enter" { 10000 1000 }
+t "" 2 "Large,StayOut" { 12000 0 }
+p "" 2 2 "(BrightVolt after Small Capacity)" { "Enter" "Stay Out" } 0
+t "" 3 "Small,Enter" { 6000 5000 }
+t "" 4 "Small,StayOut" { 14000 0 }

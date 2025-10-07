@@ -1,0 +1,8 @@
+EFG 2 R "19. Entry Deterrence - Battery Market" { "VoltEdge" "PowerOne" }
+p "ROOT" 1 1 "(VoltEdge chooses capacity)" { "Expand" "Maintain" } 0
+p "" 2 1 "(PowerOne after Expand)" { "Enter" "Stay Out" } 0
+t "" 1 "Expand,Enter" { 10000 1000 }
+t "" 2 "Expand,StayOut" { 12500 0 }
+p "" 2 2 "(PowerOne after Maintain)" { "Enter" "Stay Out" } 0
+t "" 3 "Maintain,Enter" { 8000 7000 }
+t "" 4 "Maintain,StayOut" { 13500 0 }

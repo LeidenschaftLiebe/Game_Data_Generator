@@ -1,0 +1,8 @@
+EFG 2 R "2. Entry Deterrence - Bottled Water" { "PureSpring" "FreshFlow" }
+p "ROOT" 1 1 "(PureSpring chooses capacity)" { "High Capacity" "Low Capacity" } 0
+p "" 2 1 "(FreshFlow after High Capacity)" { "Enter" "Stay Out" } 0
+t "" 1 "High,Enter" { 8000 500 }
+t "" 2 "High,StayOut" { 10000 0 }
+p "" 2 2 "(FreshFlow after Low Capacity)" { "Enter" "Stay Out" } 0
+t "" 3 "Low,Enter" { 5000 4000 }
+t "" 4 "Low,StayOut" { 12000 0 }

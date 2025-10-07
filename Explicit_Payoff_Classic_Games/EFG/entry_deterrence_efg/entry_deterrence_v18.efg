@@ -1,0 +1,8 @@
+EFG 2 R "18. Entry Deterrence - Apparel Industry" { "TrendCo" "NovaWear" }
+p "ROOT" 1 1 "(TrendCo chooses strategy)" { "Discount Line" "Premium Only" } 0
+p "" 2 1 "(NovaWear after Discount Line)" { "Enter" "Stay Out" } 0
+t "" 1 "Discount,Enter" { 11000 1000 }
+t "" 2 "Discount,StayOut" { 12000 0 }
+p "" 2 2 "(NovaWear after Premium Only)" { "Enter" "Stay Out" } 0
+t "" 3 "Premium,Enter" { 8000 7000 }
+t "" 4 "Premium,StayOut" { 13000 0 }

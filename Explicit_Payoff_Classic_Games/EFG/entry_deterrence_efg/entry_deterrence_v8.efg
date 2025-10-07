@@ -1,0 +1,8 @@
+EFG 2 R "8. Entry Deterrence - Energy Drinks" { "PowerBoost" "VitalRush" }
+p "ROOT" 1 1 "(PowerBoost chooses output)" { "High Output" "Low Output" } 0
+p "" 2 1 "(VitalRush after High Output)" { "Enter" "Stay Out" } 0
+t "" 1 "High,Enter" { 10000 1000 }
+t "" 2 "High,StayOut" { 12000 0 }
+p "" 2 2 "(VitalRush after Low Output)" { "Enter" "Stay Out" } 0
+t "" 3 "Low,Enter" { 7000 6000 }
+t "" 4 "Low,StayOut" { 13000 0 }

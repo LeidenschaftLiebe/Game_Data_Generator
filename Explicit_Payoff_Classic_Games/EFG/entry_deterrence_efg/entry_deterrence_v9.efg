@@ -1,0 +1,8 @@
+EFG 2 R "9. Entry Deterrence - Cloud Storage" { "DataHarbor" "CloudGrid" }
+p "ROOT" 1 1 "(DataHarbor chooses capacity)" { "Large Capacity" "Limited Capacity" } 0
+p "" 2 1 "(CloudGrid after Large Capacity)" { "Enter" "Stay Out" } 0
+t "" 1 "Large,Enter" { 7500 800 }
+t "" 2 "Large,StayOut" { 9000 0 }
+p "" 2 2 "(CloudGrid after Limited Capacity)" { "Enter" "Stay Out" } 0
+t "" 3 "Limited,Enter" { 5500 4500 }
+t "" 4 "Limited,StayOut" { 10500 0 }

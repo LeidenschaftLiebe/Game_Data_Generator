@@ -1,0 +1,8 @@
+EFG 2 R "12. Entry Deterrence - Streaming Services" { "ViewPrime" "WatchBox" }
+p "ROOT" 1 1 "(ViewPrime chooses pricing)" { "Low Price" "High Price" } 0
+p "" 2 1 "(WatchBox after Low Price)" { "Enter" "Stay Out" } 0
+t "" 1 "Low,Enter" { 9000 500 }
+t "" 2 "Low,StayOut" { 11000 0 }
+p "" 2 2 "(WatchBox after High Price)" { "Enter" "Stay Out" } 0
+t "" 3 "High,Enter" { 8000 7000 }
+t "" 4 "High,StayOut" { 13000 0 }

@@ -1,0 +1,8 @@
+EFG 2 R "3. Entry Deterrence - Electric Vehicles" { "Voltura" "EcoMotion" }
+p "ROOT" 1 1 "(Voltura chooses production)" { "Expand" "Hold Steady" } 0
+p "" 2 1 "(EcoMotion after Expand)" { "Enter" "Stay Out" } 0
+t "" 1 "Expand,Enter" { 14000 2000 }
+t "" 2 "Expand,StayOut" { 15000 0 }
+p "" 2 2 "(EcoMotion after Hold Steady)" { "Enter" "Stay Out" } 0
+t "" 3 "Hold,Enter" { 9000 8000 }
+t "" 4 "Hold,StayOut" { 17000 0 }

@@ -1,0 +1,8 @@
+EFG 2 R "6. Entry Deterrence - Online Retail" { "ShopVerse" "QuickCart" }
+p "ROOT" 1 1 "(ShopVerse chooses pricing)" { "Low Price" "Steady Price" } 0
+p "" 2 1 "(QuickCart after Low Price)" { "Enter" "Stay Out" } 0
+t "" 1 "Low,Enter" { 8000 500 }
+t "" 2 "Low,StayOut" { 10000 0 }
+p "" 2 2 "(QuickCart after Steady Price)" { "Enter" "Stay Out" } 0
+t "" 3 "Steady,Enter" { 6000 5000 }
+t "" 4 "Steady,StayOut" { 12000 0 }

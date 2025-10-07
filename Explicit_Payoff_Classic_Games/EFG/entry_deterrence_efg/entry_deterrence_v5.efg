@@ -1,0 +1,8 @@
+EFG 2 R "5. Entry Deterrence - Coffee Chains" { "BeanCraft" "UrbanRoast" }
+p "ROOT" 1 1 "(BeanCraft chooses expansion)" { "Wide Rollout" "Limited Rollout" } 0
+p "" 2 1 "(UrbanRoast after Wide Rollout)" { "Enter" "Stay Out" } 0
+t "" 1 "Wide,Enter" { 7000 500 }
+t "" 2 "Wide,StayOut" { 10000 0 }
+p "" 2 2 "(UrbanRoast after Limited Rollout)" { "Enter" "Stay Out" } 0
+t "" 3 "Limited,Enter" { 6000 4500 }
+t "" 4 "Limited,StayOut" { 12000 0 }

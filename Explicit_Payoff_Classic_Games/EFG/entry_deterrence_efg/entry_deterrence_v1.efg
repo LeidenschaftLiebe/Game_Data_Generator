@@ -1,0 +1,8 @@
+EFG 2 R "1. Entry Deterrence - Airline Routes" { "IncumbentAir" "SkyStart" }
+p "ROOT" 1 1 "(IncumbentAir chooses schedule)" { "Full Schedule" "Limited Schedule" } 0
+p "" 2 1 "(SkyStart after Full Schedule)" { "Enter" "Stay Out" } 0
+t "" 1 "Full,Enter" { 9000 500 }
+t "" 2 "Full,StayOut" { 11000 0 }
+p "" 2 2 "(SkyStart after Limited Schedule)" { "Enter" "Stay Out" } 0
+t "" 3 "Limited,Enter" { 6000 4000 }
+t "" 4 "Limited,StayOut" { 12000 0 }

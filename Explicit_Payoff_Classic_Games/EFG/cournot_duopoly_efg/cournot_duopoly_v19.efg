@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(MetroStay chooses output)" { "High" "Low" } 0
 p "" 2 1 "(CityLodge after MetroStay=High)" { "High" "Low" } 0
 t "" 1 "High,High" { 18000 18000 }
 t "" 2 "High,Low" { 28000 14000 }
-p "" 2 2 "(CityLodge after MetroStay=Low)" { "High" "Low" } 0
+p "" 2 1 "(CityLodge after MetroStay=Low)" { "High" "Low" } 0
 t "" 3 "Low,High" { 14000 28000 }
 t "" 4 "Low,Low" { 19000 19000 }

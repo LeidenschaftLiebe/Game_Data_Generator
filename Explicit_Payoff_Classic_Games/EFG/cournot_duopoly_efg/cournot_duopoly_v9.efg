@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(HealthCore chooses output)" { "High" "Low" } 0
 p "" 2 1 "(MediPure after HealthCore=High)" { "High" "Low" } 0
 t "" 1 "High,High" { 4800 4800 }
 t "" 2 "High,Low" { 8400 4200 }
-p "" 2 2 "(MediPure after HealthCore=Low)" { "High" "Low" } 0
+p "" 2 1 "(MediPure after HealthCore=Low)" { "High" "Low" } 0
 t "" 3 "Low,High" { 4200 8400 }
 t "" 4 "Low,Low" { 6000 6000 }

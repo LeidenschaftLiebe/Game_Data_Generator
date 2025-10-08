@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(SkyJet chooses output)" { "High" "Low" } 0
 p "" 2 1 "(AeroLink after SkyJet=High)" { "High" "Low" } 0
 t "" 1 "High,High" { 14400 14400 }
 t "" 2 "High,Low" { 28800 14400 }
-p "" 2 2 "(AeroLink after SkyJet=Low)" { "High" "Low" } 0
+p "" 2 1 "(AeroLink after SkyJet=Low)" { "High" "Low" } 0
 t "" 3 "Low,High" { 14400 28800 }
 t "" 4 "Low,Low" { 21600 21600 }

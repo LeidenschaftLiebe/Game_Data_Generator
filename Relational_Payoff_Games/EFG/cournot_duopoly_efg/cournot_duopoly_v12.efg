@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(AeroGlobal chooses output)" { "High" "Low" } 0
 p "" 2 1 "(SkyFreight after AeroGlobal=High)" { "High" "Low" } 0
 t "" 1 "High,High" { 12000 12000 }
 t "" 2 "High,Low" { 20000 10000 }
-p "" 2 2 "(SkyFreight after AeroGlobal=Low)" { "High" "Low" } 0
+p "" 2 1 "(SkyFreight after AeroGlobal=Low)" { "High" "Low" } 0
 t "" 3 "Low,High" { 10000 20000 }
 t "" 4 "Low,Low" { 16000 16000 }

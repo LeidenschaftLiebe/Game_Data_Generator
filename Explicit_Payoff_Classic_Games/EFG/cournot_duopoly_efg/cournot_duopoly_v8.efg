@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(Maison Vert chooses output)" { "High" "Low" } 0
 p "" 2 1 "(Atelier Noir after Maison Vert=High)" { "High" "Low" } 0
 t "" 1 "High,High" { 60000 60000 }
 t "" 2 "High,Low" { 285000 142500 }
-p "" 2 2 "(Atelier Noir after Maison Vert=Low)" { "High" "Low" } 0
+p "" 2 1 "(Atelier Noir after Maison Vert=Low)" { "High" "Low" } 0
 t "" 3 "Low,High" { 142500 285000 }
 t "" 4 "Low,Low" { 255000 255000 }

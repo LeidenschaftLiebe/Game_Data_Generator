@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(ChipCore chooses output)" { "High" "Low" } 0
 p "" 2 1 "(NanoEdge after ChipCore=High)" { "High" "Low" } 0
 t "" 1 "High,High" { 8000 8000 }
 t "" 2 "High,Low" { 16000 8000 }
-p "" 2 2 "(NanoEdge after ChipCore=Low)" { "High" "Low" } 0
+p "" 2 1 "(NanoEdge after ChipCore=Low)" { "High" "Low" } 0
 t "" 3 "Low,High" { 8000 16000 }
 t "" 4 "Low,Low" { 12000 12000 }

@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(IronTrail chooses output)" { "High" "Low" } 0
 p "" 2 1 "(CargoLine after IronTrail=High)" { "High" "Low" } 0
 t "" 1 "High,High" { 700 700 }
 t "" 2 "High,Low" { 3150 1575 }
-p "" 2 2 "(CargoLine after IronTrail=Low)" { "High" "Low" } 0
+p "" 2 1 "(CargoLine after IronTrail=Low)" { "High" "Low" } 0
 t "" 3 "Low,High" { 1575 3150 }
 t "" 4 "Low,Low" { 2800 2800 }

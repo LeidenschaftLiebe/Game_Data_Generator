@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(MetroCem chooses output)" { "High" "Low" } 0
 p "" 2 1 "(UrbanMix after MetroCem=High)" { "High" "Low" } 0
 t "" 1 "High,High" { 6400 6400 }
 t "" 2 "High,Low" { 12800 6400 }
-p "" 2 2 "(UrbanMix after MetroCem=Low)" { "High" "Low" } 0
+p "" 2 1 "(UrbanMix after MetroCem=Low)" { "High" "Low" } 0
 t "" 3 "Low,High" { 6400 12800 }
 t "" 4 "Low,Low" { 9600 9600 }

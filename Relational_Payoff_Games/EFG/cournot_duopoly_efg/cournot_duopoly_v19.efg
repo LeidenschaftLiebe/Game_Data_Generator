@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(RoadWave chooses output)" { "High" "Low" } 0
 p "" 2 1 "(QuickLift after RoadWave=High)" { "High" "Low" } 0
 t "" 1 "High,High" { 1000 1000 }
 t "" 2 "High,Low" { 2500 1200 }
-p "" 2 2 "(QuickLift after RoadWave=Low)" { "High" "Low" } 0
+p "" 2 1 "(QuickLift after RoadWave=Low)" { "High" "Low" } 0
 t "" 3 "Low,High" { 1200 2500 }
 t "" 4 "Low,Low" { 1900 1900 }

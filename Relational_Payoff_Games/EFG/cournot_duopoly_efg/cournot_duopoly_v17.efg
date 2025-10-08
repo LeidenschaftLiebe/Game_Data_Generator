@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(CozyLiving chooses output)" { "High" "Low" } 0
 p "" 2 1 "(UrbanCraft after CozyLiving=High)" { "High" "Low" } 0
 t "" 1 "High,High" { 1800 1800 }
 t "" 2 "High,Low" { 3600 1800 }
-p "" 2 2 "(UrbanCraft after CozyLiving=Low)" { "High" "Low" } 0
+p "" 2 1 "(UrbanCraft after CozyLiving=Low)" { "High" "Low" } 0
 t "" 3 "Low,High" { 1800 3600 }
 t "" 4 "Low,Low" { 2700 2700 }

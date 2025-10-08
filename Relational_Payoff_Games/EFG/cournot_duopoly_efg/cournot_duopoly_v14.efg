@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(BuildStone chooses output)" { "High" "Low" } 0
 p "" 2 1 "(MegaMix after BuildStone=High)" { "High" "Low" } 0
 t "" 1 "High,High" { 4000 4000 }
 t "" 2 "High,Low" { 8000 4000 }
-p "" 2 2 "(MegaMix after BuildStone=Low)" { "High" "Low" } 0
+p "" 2 1 "(MegaMix after BuildStone=Low)" { "High" "Low" } 0
 t "" 3 "Low,High" { 4000 8000 }
 t "" 4 "Low,Low" { 6000 6000 }

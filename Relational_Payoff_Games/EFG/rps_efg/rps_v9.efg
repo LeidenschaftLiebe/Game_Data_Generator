@@ -6,11 +6,11 @@ p "" 2 1 "" { "Strike" "Feint" "Parry" } 0
 t "" 1 "Outcome_00" { 0, 0 }
 t "" 2 "Outcome_01" { -2, 2 }
 t "" 3 "Outcome_02" { 2, -2 }
-p "" 2 2 "" { "Strike" "Feint" "Parry" } 0
+p "" 2 1 "" { "Strike" "Feint" "Parry" } 0
 t "" 4 "Outcome_10" { 2, -2 }
 t "" 5 "Outcome_11" { 0, 0 }
 t "" 6 "Outcome_12" { -2, 2 }
-p "" 2 3 "" { "Strike" "Feint" "Parry" } 0
+p "" 2 1 "" { "Strike" "Feint" "Parry" } 0
 t "" 7 "Outcome_20" { -2, 2 }
 t "" 8 "Outcome_21" { 2, -2 }
 t "" 9 "Outcome_22" { 0, 0 }

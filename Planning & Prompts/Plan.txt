@@ -1,0 +1,215 @@
+还记得之前提到的提示词Prompt用来生成Extensive-Form Game吗？现在请分两部分进行以提高EFG文件的合格率：
+1. 第一步先设计提示词(General Description About the Game)交给LLM模型，让LLM生成包含imperfect information 
+的 Extensive-Form Game（可以是自然语言描述的博弈树或EFG）
+2.第二步再将前一步生成的EFG返回给LLM，让LLM将其转化成符合Gambit EFG格式的文件
+
+为这两步分别设计一套提示词，最好带有几个example（如第一步中的game/tree example和第二步中的转化Gambit EFG example)，
+以此来提高生成数据的良品率
+
+
+STAGE 1 PROMPT: General Game Description => LLM => Specific Games 
+Role: 高级博弈设计师
+Task: 用以下模板描述包含不完全信息的扩展式博弈
+
+# 模板规范
+[Game ID]: 唯一标识符（如SA-02）
+[Players]: 玩家名称及角色
+[Information Sets]:
+- 玩家1: {信息集描述}
+- 玩家2: {信息集描述}  
+[Game Structure]:
+1. 自然行动: {选择项及概率}
+2. 玩家1决策: {动作选项}（信息集关联）
+3. 玩家2决策: {动作选项}（信息集关联）
+[Complete Payoff Matrix]: 所有路径的收益
+
+# 完整示例
+[Game ID]: SA-02
+[Players]: 投标人A (BidderA), 投标人B (BidderB)
+[Information Sets]:
+- BidderA: 信息集1（无法区分自然状态High/Low）
+- BidderB: 信息集2（仅知对手出价类型）  
+[Game Structure]:
+1. 自然行动 → High(0.6)/Low(0.4)
+2. BidderA → HighBid/LowBid
+3. BidderB → Match/Pass
+[Complete Payoff Matrix]:
+| 路径                  | 收益(A,B) | 逻辑说明               |
+|-----------------------|-----------|-----------------------|
+| High → HighBid → Match| (50,-50)  | A正确估值并匹配        |
+| High → HighBid → Pass | (-20,30)  | A高估，B放弃           |
+| High → LowBid → Match | (40,-40)  | A低估，B匹配           |
+| High → LowBid → Pass  | (-10,20)  | A低估，B放弃           |
+| Low → HighBid → Match | (-30,15)  | A高估，B匹配（陷阱）    |
+| Low → HighBid → Pass  | (-50,10)  | A严重高估，B放弃        |
+| Low → LowBid → Match  | (30,-20)  | A正确估值并匹配         |
+| Low → LowBid → Pass   | (-10,10)  | A保守策略，B放弃        |
+
+
+Stage 2 PROMPT: Specific Games => Gambit EFG Files 
+Role: EFG格式专家
+Task: 将博弈描述转换为严格合规的Gambit文件
+
+# 转换规范（基于SA-02示例）
+1. 结构要求：
+   - 自然节点必须为首个决策点
+   - 同一信息集的节点共享决策结构
+   - 收益顺序严格对应[Players]列表
+
+2. 错误检查表：
+   ✅ 每个信息集包含≥2节点
+   ✅ 自然概率和=1.0±0.001
+   ✅ 终端节点数=2^(决策阶段数)
+
+# 完整EFG示例
+输入：上述SA-02描述
+
+输出：
+EFG 2 R "Sealed-Bid Auction with Imperfect Information" { "BidderA" "BidderB" }
+
+c "Root" 0 0 "Nature" { "High" 0.6 "Low" 0.4 } 0
+p "A_High" 1 1 "BidderA" { "HighBid" "LowBid" } 0
+  p "B_High_H" 2 1 "BidderB" { "Match" "Pass" } 0
+    t "T1" 50, -50
+    t "T2" -20, 30
+  p "B_High_L" 2 1 "BidderB" { "Match" "Pass" } 0
+    t "T3" 40, -40
+    t "T4" -10, 20
+p "A_Low" 1 1 "BidderA" { "HighBid" "LowBid" } 0
+  p "B_Low_H" 2 2 "BidderB" { "Match" "Pass" } 0
+    t "T5" -30, 15
+    t "T6" -50, 10
+  p "B_Low_L" 2 2 "BidderB" { "Match" "Pass" } 0
+    t "T7" 30, -20
+    t "T8" -10, 10
+
+# 错误修正案例
+错误输入：B_Low_H和B_Low_L未关联同一信息集
+错误代码：
+  p "B_Low_H" 2 3 ...
+  p "B_Low_L" 2 4 ...  // 错误的信息集编号
+修正方案：
+  // 应共享信息集3
+  ISET "B_Set_Low" { "B_Low_H" "B_Low_L" }
+  p "B_Low_H" 2 3 ...
+  p "B_Low_L" 2 3 ... 
+
+
+
+
+STAGE 1 PROMPT: Game Specification Generation
+Role: Senior Game Theorist
+Task: Describe an extensive-form game with imperfect information using the template below
+
+Template Specifications
+[Game ID]: Unique identifier (e.g., SA-02)
+[Players]: Player names & roles
+[Information Sets]:
+- Player1: {Set description with information limitations}
+- Player2: {Set description with observable signals}  
+[Game Structure]:
+1. Nature Move: {Choices with exact probabilities}
+2. Player1 Actions: {Available moves} (linked to information sets)
+3. Player2 Actions: {Responses} (conditional on observations)
+[Complete Payoff Matrix]:
+| Path                | Payoffs  | Strategic Context          |
+|---------------------|----------|---------------------------|
+| State→Action1→Resp1 | (x,y)    | Rationale for outcome      | 
+
+Perfect Example Output 
+[Game ID]: SA-02
+[Players]: BidderA, BidderB
+[Information Sets]:
+- BidderA: InfoSet1 (cannot distinguish Nature's High/Low state)
+- BidderB: InfoSet2 (observes opponent's bid type)  
+[Game Structure]:
+1. Nature → High(0.6)/Low(0.4)
+2. BidderA → HighBid/LowBid
+3. BidderB → Match/Pass
+[Complete Payoff Matrix]:
+| Path                  | Payoffs | Context                   |
+|-----------------------|---------|---------------------------|
+| High→HighBid→Match    | (50,-50)| Accurate valuation match  |
+| High→HighBid→Pass     | (-20,30)| Overpricing avoidance     |
+| High→LowBid→Match     | (40,-40)| Underpricing exploitation |
+| High→LowBid→Pass      | (-10,20)| Conservative withdrawal   |
+| Low→HighBid→Match     | (-30,15)| Overbid trap activation   |
+| Low→HighBid→Pass      | (-50,10)| Risk mitigation           |
+| Low→LowBid→Match      | (30,-20)| Fair value settlement     |
+| Low→LowBid→Pass       | (-10,10)| Market exit               |
+
+
+
+STAGE 2 PROMPT: EFG Conversion
+Role: Gambit Format Specialist
+Task: Convert game description to Gambit-compliant .efg file
+
+Conversion Protocol
+Structural Requirements:
+
+Node ordering: Nature → Player1 → Player2 (prefix traversal)
+
+Information set numbering: <player_number>_<unique_id>
+
+Terminal payoffs: t "" <outcome_id> "" { <exact_6dec_payoffs> } 
+
+Example: 
+Input: SA-02 description above 
+Output: 
+EFG 2 R "Sealed-Bid Auction" { "BidderA" "BidderB" }
+
+c "ROOT" 1 "" { "High" 0.600000 "Low" 0.400000 } 0
+p "" 1 1_1 "" { "HighBid" "LowBid" } 0
+  p "" 2 2_1 "" { "Match" "Pass" } 0
+    t "" 1 "" { 50.000000 -50.000000 }
+    t "" 2 "" { -20.000000 30.000000 }
+  p "" 2 2_1 "" { "Match" "Pass" } 0
+    t "" 3 "" { 40.000000 -40.000000 }
+    t "" 4 "" { -10.000000 20.000000 }
+p "" 1 1_2 "" { "HighBid" "LowBid" } 0
+  p "" 2 2_2 "" { "Match" "Pass" } 0
+    t "" 5 "" { -30.000000 15.000000 }
+    t "" 6 "" { -50.000000 10.000000 }
+  p "" 2 2_2 "" { "Match" "Pass" } 0
+    t "" 7 "" { 30.000000 -20.000000 }
+    t "" 8 "" { -10.000000 10.000000 }
+
+
+
+
+
+
+
+
+
+
+
+
+Now I need to write the framework section of my paper. I need to introduce the workflow of the framework: 
+
+"Firstly, Stage 1 Prompt is fed to LLM, which includes a general extensive-form game description and a template with 
+potential game features (number of players, simultaneous/sequential moves, discrete/continuous actions, game tree depth, 
+pay offs ... ). This template is similar to the one we discussed above (Stage 1 Template). Alongside the description and 
+template, a specific example of a "filled-in template" and its corresponding game description/specific background story 
+is fed to LLM as well to improve the performance on LLM's output. 
+
+Then the LLM should produce a specific extensive-form game in the "filled-in template" style. Now we have two options: 
+The first method is to ask LLM to output the newly created game's corresponding description (background story) together 
+with the filled-in template. Or, we can give the filled-in template back to LLM, and ask it to produce a corresponding 
+game description. Creating the filled-in template and the description either in one-shot or separate steps will be 
+subject to the performance experiment results. 
+
+In stage 2, the filled-in template and its corresponding game description in the previous stage will be given to LLM, 
+which will then generate a Gambit efg file that matches the filled-in template and the game description. In terms of 
+converting to Gambit efg, the LLM will be asked to use pygambit API and python code (functions like append_move, 
+append_infoset, add_player, add_infoset, set_outcome... ) to generate the Gambit efg file, instead of converting 
+directly from template/description to Gambit efg. 
+
+After these two stages, we have a (almost) complete framework to generate game data for a type of game. When we want 
+to change the game type or change some specific game features (mentioned above), we can just reuse the template and 
+change the corresponding sections, then put the template and example into the framework to generate new types of 
+games."
+
+
+The above is the general idea of the framework. Please improve it and use academic vocabulary + grammar, 
+since I want to use this section in my paper.

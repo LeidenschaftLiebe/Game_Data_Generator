@@ -1,0 +1,112 @@
+Game Type,#Players,Tree Depth,Branching Factor,Move Type,Imperfect Info,Incomplete Info,Imperfect Recall,Zero-Sum,Cooperative,Potential Game,Repeated (finite T),Symmetric,Signaling,Chance Nodes,Bargaining,Voting Game,Domain Tag,Notes
+Matching Pennies,2,2,2,Simultaneous,Yes,No,No,Yes,No,No,No,Yes,No,None,No,No,Contest/Zero-sum,2x2 zero-sum.
+Rock–Paper–Scissors,2,2,3,Simultaneous,Yes,No,No,Yes,No,No,No,Yes,No,None,No,No,Contest/Zero-sum,3 actions each.
+Prisoner’s Dilemma,2,2,2,Simultaneous,Yes,No,No,No,No,No,No,Yes,No,None,No,No,Coordination/Conflict,Dominant defection.
+Stag Hunt,2,2,2,Simultaneous,Yes,No,No,No,No,Yes,No,Yes,No,None,No,No,Coordination,Potential structure.
+Hawk–Dove (Chicken),2,2,2,Simultaneous,Yes,No,No,No,No,No,No,Yes,No,None,No,No,Anti-Coordination,Risk-dominance tradeoff.
+Battle of the Sexes,2,2,2,Simultaneous,Yes,No,No,No,No,No,No,Yes,No,None,No,No,Coordination (asymmetric),Distinct focal points.
+Coordination (3-Player),3,2,2,Simultaneous,Yes,No,No,No,No,Yes,No,Yes,No,None,No,No,Coordination,Multi-player potential.
+Anti-Coordination (3-Player),3,2,2,Simultaneous,Yes,No,No,No,No,No,No,Yes,No,None,No,No,Anti-Coordination,Minority-style preferences.
+Traveler’s Dilemma (discretized),2,2,10,Simultaneous,Yes,No,No,No,No,No,No,Yes,Yes,None,No,No,Paradox/Competition,Simultaneous claims with bonus/penalty.
+Centipede (finite),2,5,2,Sequential,No,No,No,No,No,No,No,Yes,No,None,No,No,Dynamic/Sequential,Increasing stakes; pass/take.
+Ultimatum Game,2,3,2,Sequential,No,No,No,No,No,No,No,Yes,No,None,Yes,No,Bargaining,Offer => accept/reject.
+Trust Game,2,3,2,Sequential,No,No,No,No,No,No,No,Yes,No,None,No,No,Trust/Reciprocity,Invest => return.
+Hold-Up Problem (discrete),2,3,2,Sequential,No,No,No,No,No,No,No,Yes,No,None,No,No,Contracts/Investment,Relationship-specific investment then bargaining.
+Inspection Game (sequential),2,3,2,Sequential,No,No,No,No,No,No,No,Yes,No,None,No,No,Enforcement,Inspect vs. shirk timing.
+Stackelberg Duopoly (discrete),2,3,3,Sequential,No,No,No,No,No,No,No,Yes,No,None,No,No,Market/Competition,"Leader chooses, follower responds."
+Entry Deterrence (complete info),2,3,2,Sequential,No,No,No,No,No,No,No,Yes,No,None,No,No,Market/Entry,Fight vs. accommodate.
+Kuhn Poker,2,4,2,Sequential,Yes,Yes,No,Yes,No,No,No,Yes,No,Early,No,No,Poker/Zero-sum,Chance deals; infosets.
+Leduc Poker (small),2,6,2,Sequential,Yes,Yes,No,Yes,No,No,No,Yes,No,Early/Mid,No,No,Poker/Zero-sum,Public card stage.
+Simplified Texas Hold’em (toy),2,7,2,Sequential,Yes,Yes,No,Yes,No,No,No,Yes,No,Early/Mid,No,No,Poker/Zero-sum,Discretized bet sizes.
+Spence Job-Market Signaling,2,4,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early,No,No,Signaling/Screening,Type drawn; costly signal; wage setting.
+Cheap Talk (Crawford–Sobel),2,4,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early,No,No,Communication,Costless pre-play messages.
+Principal–Agent Screening (adverse selection),2,4,3,Sequential,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Contract/Screening,Menu of contracts; type chooses.
+Moral Hazard (hidden action),2,4,2,Sequential,Yes,No,No,No,No,No,No,Yes,No,Late,No,No,Contract/Agency,Effort unobserved; outcome noisy.
+Disclosure Game (verifiable information),2,4,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early,No,No,Signaling/Disclosure,Sender discloses verifiable info or stays silent.
+Bayesian Persuasion (finite signals),2,4,3,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early,No,No,Communication/Persuasion,Sender commits to signal structure.
+First-Price Sealed-Bid Auction (private values),2,3,3,Simultaneous,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Auction,Independent private values; sealed bids.
+Second-Price (Vickrey) Auction,2,3,3,Simultaneous,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Auction,Truthful bidding equilibrium in IPV.
+All-Pay Auction (private values),2,3,3,Simultaneous,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Contest/Auction,Pay bids regardless of win.
+Common-Value Auction (discrete signals),2,4,3,Simultaneous,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Auction,Winner’s curse; correlated signals.
+English Ascending Auction (discrete),2,6,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Auction,Ascending bids; drop-out decisions.
+Dutch Descending Auction (discrete clock),2,4,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Auction,Price clock descends; accept/stop.
+Double Auction (buyer–seller bids),2,3,3,Simultaneous,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Market Mechanism,Simultaneous asks and bids; trade rule clears.
+Procurement Auction (reverse),2,3,3,Simultaneous,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Auction/Procurement,Seller competition to supply.
+Combinatorial Auction (toy),2,4,3,Sequential,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Auction,Bundles with simplified allocation.
+Tullock Contest (discrete effort),2,3,3,Simultaneous,Yes,No,No,No,No,No,No,Yes,No,Late,No,No,Contest,Probabilistic success by effort share.
+War of Attrition (finite rounds),2,6,2,Mixed,Yes,No,No,No,No,No,T=4,Yes,No,None,No,No,Contest,Continue/quit dynamic.
+All-Pay Tournament (two-stage),2,4,3,Mixed,Yes,No,No,No,No,No,No,Yes,No,Late,No,No,Contest/Tournament,Effort then chance selection each stage.
+Colonel Blotto (discretized),2,2,4,Simultaneous,Yes,No,No,Yes,No,No,No,Yes,No,None,No,No,Contest/Zero-sum,Budget allocation over fronts.
+Hide-and-Seek (zero-sum),2,2,3,Simultaneous,Yes,No,No,Yes,No,No,No,Yes,Yes,None,No,No,Security/Zero-sum,Hider chooses location; seeker chooses search.
+Repeated Prisoner’s Dilemma (T=5),2,6,2,Mixed,Yes,No,No,No,No,No,T=5,Yes,No,None,No,No,Repeated,Stage PD with finite horizon.
+Repeated Stag Hunt (T=5),2,6,2,Mixed,Yes,No,No,No,No,Yes,T=5,Yes,No,None,No,No,Repeated/Coordination,Potential across rounds.
+Repeated Hawk–Dove (T=5),2,6,2,Mixed,Yes,No,No,No,No,No,T=5,Yes,No,None,No,No,Repeated/Anti-Coordination,Stage Chicken repeated.
+Repeated Trust (finite),2,6,2,Sequential,No,No,No,No,No,No,T=3,Yes,No,None,No,No,Repeated/Trust,History-dependent reciprocity.
+Repeated Bargaining (Rubinstein finite),2,6,2,Sequential,No,No,No,No,No,No,T=6,Yes,No,None,Yes,No,Bargaining,Alternating offers finite horizon.
+Reputation with Incomplete Information (finite),2,6,2,Sequential,Yes,Yes,No,No,No,No,T=6,Yes,Yes,Early,No,No,Reputation/Dynamic,Long-run player may be commitment type.
+"Public Goods (threshold, 3-Player)",3,2,3,Simultaneous,Yes,No,No,No,Yes,Yes,No,Yes,No,None,No,No,Public Goods,Binary contributions toward threshold.
+Volunteer's Dilemma (3-Player),3,2,2,Simultaneous,Yes,No,No,No,Yes,Yes,No,Yes,No,None,No,No,Public Goods,At least one volunteer needed.
+Public Goods with Peer Punishment,3,3,3,Sequential,Yes,No,No,No,No,Yes,No,Yes,No,None,No,No,Public Goods/Enforcement,Contribution stage then costly punishment.
+Public Goods with Rewards,3,3,3,Sequential,Yes,No,No,No,No,Yes,No,Yes,No,None,No,No,Public Goods/Incentives,Contribution then reward stage.
+Congestion Routing (3-Player),3,3,3,Simultaneous,Yes,No,No,No,No,Yes,No,Yes,No,None,No,No,Congestion/Potential,Costs increase with load.
+Common-Pool Resource Extraction (3-Player),3,3,3,Simultaneous,Yes,No,No,No,No,No,No,Yes,No,Late,No,No,Public Goods/Extraction,Overuse reduces returns; shocks late.
+Public Goods with Noise (3-Player),3,3,3,Simultaneous,Yes,No,No,No,Yes,Yes,No,Yes,No,Late,No,No,Public Goods,Stochastic provision success.
+Provision Point Mechanism (3-Player),3,3,3,Sequential,Yes,No,No,No,No,Yes,No,Yes,No,None,No,No,Public Goods/Mechanism,Refund if threshold not met.
+"Majority Voting (3-Player, 2 options)",3,2,2,Simultaneous,Yes,No,No,No,No,No,No,Yes,No,None,No,Yes,Voting,Plurality/majority rule.
+"Approval Voting (3-Player, 3 options)",3,2,3,Simultaneous,Yes,No,No,No,No,No,No,Yes,No,None,No,Yes,Voting,Vote approve any subset.
+Veto Player with Agenda Setter (3-Player),3,3,2,Sequential,No,No,No,No,No,No,No,Yes,No,None,Yes,Yes,Voting/Bargaining,Proposal => vote; veto power.
+Jury Game with Noisy Signals (3-Player),3,3,2,Simultaneous,Yes,Yes,No,No,Yes,No,No,Yes,No,Early,No,Yes,Voting/Team,Nature draws state; signals to jurors.
+"Condorcet Cycle (3-Player, 3 options)",3,2,3,Simultaneous,Yes,No,No,No,No,No,No,Yes,No,None,No,Yes,Voting,Cyclic majorities under preferences.
+Amendment Agenda Voting (3-Player),3,4,2,Sequential,No,No,No,No,No,No,No,Yes,No,None,Yes,Yes,Voting/Agenda,Pairwise amendments then final vote.
+Median Voter with Proposal Power (3-Player),3,3,3,Sequential,No,No,No,No,No,No,No,Yes,No,None,Yes,Yes,Voting/Bargaining,Proposal => accept/reject; 1D policy.
+Entry Deterrence (incomplete info about incumbent),2,4,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early,No,No,Market/Signaling,Incumbent type tough/soft drawn.
+Stackelberg Security Game (attacker–defender),2,3,3,Sequential,Yes,No,No,Yes,No,No,No,Yes,No,None,No,No,Security/Zero-sum,Leader commits defense; attacker responds.
+Inspection with Hidden Action (stochastic success),2,4,2,Sequential,Yes,No,No,No,No,No,No,Yes,No,Late,No,No,Enforcement,Monitoring noisy outcomes.
+Deterrence Signaling with Alarm System,2,4,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early/Mid,No,No,Security/Signaling,Alarm false positives via chance.
+"Currency Attack (global game, discretized)",2,3,3,Simultaneous,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Coordination/Incomplete Info,Noisy signals of fundamentals.
+"Bank Run (3-Player, discretized)",3,3,2,Simultaneous,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Coordination/Incomplete Info,Withdraw vs. stay decisions.
+Team Coordination with Asymmetric Information,2,3,2,Sequential,Yes,No,No,No,Yes,Yes,No,Yes,No,Early,No,No,Team/Cooperation,One player informed; align actions.
+Joint Search under Uncertainty (2-Player),2,3,2,Sequential,Yes,No,No,No,Yes,Yes,No,Yes,No,Late,No,No,Search/Cooperation,Chance determines success.
+Distributed Sensing with Reporting Costs,2,4,2,Sequential,Yes,No,No,No,Yes,Yes,No,Yes,Yes,Early,No,No,Team/Communication,Costly signal/report before act.
+Cooperative Task with Role Assignment,2,3,2,Sequential,Yes,No,No,No,Yes,Yes,No,Yes,No,Early,No,No,Team/Coordination,Assign roles after chance draw.
+"Absent-Minded Driver (variant, single agent + Nature)",1,3,2,Sequential,Yes,Yes,Yes,No,No,No,No,Yes,No,Mid,No,No,Decision Theory,Single agent with imperfect recall via infosets.
+Two-Stage Forgetful Agent,2,4,2,Sequential,Yes,No,Yes,No,No,No,No,Yes,No,None,No,No,Cognitive Limits,One player forgets earlier move.
+Information Overwrite in Multi-Stage Choice,2,4,2,Sequential,Yes,No,Yes,No,No,No,No,Yes,No,None,No,No,Cognitive Limits,Later observation replaces memory of earlier action.
+Cournot Duopoly (discretized quantities),2,2,4,Simultaneous,Yes,No,No,No,No,Yes,No,Yes,No,None,No,No,Market/Competition,Quantities chosen; inverse demand discrete.
+Bertrand Price Competition (discretized),2,2,4,Simultaneous,Yes,No,No,No,No,No,No,Yes,No,None,No,No,Market/Competition,Prices chosen simultaneously.
+Capacity then Price (two-stage competition),2,4,3,Sequential,Yes,No,No,No,No,No,No,Yes,No,None,No,No,Market/Competition,Capacity commitment then pricing.
+Exclusive Dealing with Entry,2,4,2,Sequential,Yes,No,No,No,No,No,No,Yes,No,None,No,No,Market/Contracts,Contract to exclude entrant; legalistic timing.
+Option Contract for Procurement,2,4,2,Sequential,Yes,No,No,No,No,Yes,No,Yes,No,Early,No,No,Contracts/Potential,Buyback/option for demand risk.
+Patroller–Intruder (discretized routes),2,3,3,Simultaneous,Yes,No,No,Yes,No,No,No,Yes,No,None,No,No,Security/Zero-sum,Simultaneous route choice.
+Inspection with Pre-commitment (Stackelberg),2,3,2,Sequential,Yes,No,No,Yes,No,No,No,Yes,No,None,No,No,Security/Zero-sum,Leader commits to audit intensity.
+Coalition Formation with Sequential Offers (3-Player),3,4,3,Sequential,No,No,No,No,No,No,No,Yes,Yes,None,Yes,Yes,Voting/Bargaining,Proposals to form minimal winning coalitions.
+Budget Allocation with Agenda Setter (3-Player),3,3,3,Sequential,No,No,No,No,No,No,No,Yes,Yes,None,No,Yes,Voting,Propose division; majority vote.
+Approval Voting with Pre-Vote Signaling (3-Player),3,3,3,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early,No,Yes,Voting/Signaling,Types/preferences drawn; signals before vote.
+Trust with Incomplete Information (borrower type),2,4,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Credit/Trust,Lender decides based on type signal.
+Gift-Exchange (reciprocity in labor),2,3,3,Sequential,No,No,No,No,No,No,No,Yes,No,None,No,No,Labor/Reciprocity,Wage then effort with reciprocity.
+Deception and Detection (cheap talk with verification),2,4,3,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early/Mid,No,No,Security/Communication,Sender may deceive; verification chance.
+Signaling Deterrence with Costly Disclosure,2,4,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early,No,No,Security/Signaling,Costly disclosure to deter entry/attack.
+Posted-Price Mechanism (buyer choice),2,3,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Mechanism/Trading,Seller posts price; buyer accepts/rejects.
+Take-It-or-Leave-It Offer with Noisy Value,2,3,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Mechanism/Trading,Buyer value drawn then offer observed.
+Sequential Search with Recall (buyer–seller),2,4,2,Sequential,Yes,No,No,No,No,No,No,Yes,No,Early,No,No,Search/Market,Chance reveals offers across time; accept/continue.
+"Explore–Exploit Bandit (two-armed, discretized)",1,4,2,Sequential,Yes,No,No,No,No,No,No,Yes,No,Early,No,No,Decision Theory,Single agent with learning; chance outcomes.
+Auction with Entry Costs (IPV),2,4,3,Sequential,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Auction,Entry decision before bidding.
+Reserve Price Auction (second-price),2,3,3,Simultaneous,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Auction,Reserve sets participation threshold.
+Procurement with Quality Signaling,2,4,3,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early,No,No,Procurement/Signaling,Supplier signals quality before bid.
+Multi-Message Cheap Talk with Bias,2,4,3,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early,No,No,Communication,Partition equilibria testbed.
+Public Disclosure with Cost (verifiable),2,4,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early,No,No,Disclosure,Endogenous disclosure before act.
+Battle of the Sexes with Pre-Play Communication,2,3,2,Sequential,Yes,No,No,No,No,No,No,Yes,Yes,None,No,No,Coordination/Communication,Cheap talk before simultaneous choice.
+Traffic Light Coordination (2-Player),2,2,3,Simultaneous,Yes,No,No,No,No,Yes,No,Yes,No,None,No,No,Coordination/Potential,Choose sides to avoid collision.
+Meeting-in-New-York (Schelling),2,2,3,Simultaneous,Yes,No,No,No,No,Yes,No,Yes,Yes,None,No,No,Coordination/Focal Points,"Multiple focal locations, payoffs aligned."
+Capacity Investment then Entry Game,2,4,3,Sequential,Yes,No,No,No,No,No,No,Yes,No,None,No,No,Market/Dynamics,Incumbent invests then entrant decides.
+R&D Race (discretized success),2,4,2,Mixed,Yes,No,No,No,No,No,T=3,Yes,No,Late,No,No,Innovation/Contest,Compete to be first; chance success.
+Sequential Social Learning (Bayesian herding),2,4,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Information/Belief Dynamics,Agents observe predecessors' actions; private signals.
+Information Cascade with Signals,2,4,2,Sequential,Yes,Yes,No,No,No,No,No,Yes,No,Early,No,No,Information/Belief Dynamics,Cascade formation testbed.
+"Team vs. Adversary (2+1, zero-sum)",3,3,2,Simultaneous,Yes,No,No,Yes,Yes,No,No,Yes,No,None,No,No,Team/Zero-sum,Team coordinates against adversary.
+Cooperative Search with Signaling,2,4,2,Sequential,Yes,No,No,No,Yes,Yes,No,Yes,Yes,Early,No,No,Team/Search,Signals to coordinate exploration.
+Adversarial Search with Deception,2,4,2,Sequential,Yes,Yes,No,Yes,No,No,No,Yes,Yes,Early/Mid,No,No,Security/Deception,Misleading cues; detection chance.
+Nash Demand Game (simultaneous offers),2,2,3,Simultaneous,Yes,No,No,No,No,No,No,Yes,No,None,Yes,No,Bargaining,Simultaneous claims; conflict payoff if incompatible.
+Alternating-Offers Bargaining with Outside Option,2,6,2,Sequential,No,No,No,No,No,No,T=6,Yes,No,None,Yes,No,Bargaining,Proposer can take outside option.
+Divide-the-Dollar with Recognition Probabilities (3-Player),3,4,3,Sequential,No,No,No,No,No,No,No,Yes,Yes,None,Yes,Yes,Bargaining/Voting,"Random recognition, proposals to majority."
+Signaling in Entry with Capacity Commitment,2,5,3,Sequential,Yes,Yes,No,No,No,No,No,Yes,Yes,Early,No,No,Market/Signaling,Capacity conveys type; entrant responds.
+Reputation-Based Deterrence,2,6,2,Sequential,Yes,Yes,No,No,No,No,T=6,Yes,Yes,Early,No,No,Market/Security,Incumbent may be tough; repeated interaction.

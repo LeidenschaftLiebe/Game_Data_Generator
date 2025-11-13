@@ -10,6 +10,8 @@ renaming_script.py
 
 QUESTIONS.txt
 
+Papers/
+
 # Ignore everything in Validation_Report, except two specific files
 Validation_Report/*
 !Validation_Report/validation3.py

@@ -1,7 +1,16 @@
 V5 (fashion brand product launch)
 
-A star designer is deciding whether to remain at a major fashion house or leave to start a competing label. If the designer stays, the rivalry never begins, and the outcome is that the designer gets 35 while the fashion house director gets 100. If the designer leaves, the director must decide whether the fashion house will go ahead with its new flagship collection.
+A star designer is deciding whether to remain at a major fashion house or leave to start a competing label. 
+If the designer stays, the rivalry never begins, and the outcome is that the designer gets 35 while the fashion house director gets 100. 
+If the designer leaves, the director must decide whether the fashion house will go ahead with its new flagship collection.
 
-At the same time, the departing designer is considering whether the new label should produce its own competing collection. The key tension is that the designer has to commit to that collection before being able to tell whether the director chose to move forward with the fashion house’s launch. So when the designer decides whether to produce the new collection, the designer knows they have left, but does not yet know what the old fashion house has done.
+At the same time, the departing designer is considering whether the new label should produce its own competing collection. 
+The key tension is that the designer has to commit to that collection before being able to tell whether the director chose to move forward with the fashion house’s launch. 
+So when the designer decides whether to produce the new collection, the designer knows they have left, but does not yet know what the old fashion house has done.
 
-If the fashion house does not launch its collection, then the new label’s choice settles the outcome directly: producing the competing collection gives the departing designer 80 and the fashion house 0, while not producing it leaves both at 0. If the fashion house does launch its collection and the new label chooses not to compete, then the departing designer gets 0 and the fashion house gets 140. If both sides launch collections, the departing designer faces one final timing decision: the new label can rush its collection to market early, which gives the designer 40 and the fashion house 110, or it can keep the regular launch schedule and end with 13 while the fashion house gets 120.
+If the fashion house does not launch its collection, then the new label’s choice settles the outcome directly: 
+producing the competing collection gives the departing designer 80 and the fashion house 0, while not producing it leaves both at 0. 
+If the fashion house does launch its collection and the new label chooses not to compete, then the departing designer gets 0 and the fashion house gets 140. 
+If both sides launch collections, the departing designer faces one final timing decision: 
+the new label can rush its collection to market early, which gives the designer 40 and the fashion house 110, 
+or it can keep the regular launch schedule and end with 13 while the fashion house gets 120.

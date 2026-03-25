@@ -1,0 +1,14 @@
+EFG 2 R "Katzenberg Bug Movies Game" { "K" "E" }
+""
+
+p "" 1 1 "" { "Leave" "Stay" } 0
+p "" 2 1 "" { "Produce A Bug's Life" "Not" } 0
+p "" 1 2 "" { "Produce Antz" "Not" } 0
+p "" 1 3 "" { "Release early" "Not" } 0
+t "" 5 "Both, release early" { 40, 110 }
+t "" 6 "Both, no early release" { 13, 120 }
+t "" 2 "Only A Bug's Life" { 0, 140 }
+p "" 1 2 "" { "Produce Antz" "Not" } 0
+t "" 3 "Only Antz" { 80, 0 }
+t "" 4 "Neither" { 0, 0 }
+t "" 1 "Stay" { 35, 100 }

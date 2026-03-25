@@ -1,0 +1,13 @@
+V1 (tech product launch rivalry)
+
+A high-profile product leader decides whether to remain at a major tech company or resign to build a competing startup. 
+Staying keeps everything calm: the departing leader ends up with 35 and the incumbent CEO ends up with 100. 
+If the leader resigns, the incumbent CEO decides whether to green-light a major product launch. 
+The catch is that the departing leader must decide whether to build and ship the rival product before knowing whether 
+the incumbent has chosen to launch, because internal planning and public announcements don’t line up.
+
+If the incumbent does not launch and the startup ships, the startup leader gets 80 while the incumbent CEO gets 0; 
+If the startup does not ship, both end up with 0. If the incumbent does launch and the startup backs off, the startup leader gets 0 while the incumbent CEO gets 140. 
+If both commit to launching, the startup leader faces one more decision about timing: 
+rushing an early release leads to 40 for the startup leader and 110 for the incumbent, 
+while keeping a normal release schedule leads to 13 for the startup leader and 120 for the incumbent.

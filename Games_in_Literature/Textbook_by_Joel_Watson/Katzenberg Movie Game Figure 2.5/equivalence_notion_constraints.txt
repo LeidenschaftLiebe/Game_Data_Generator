@@ -1,0 +1,5 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that Eisner is the second mover. 
+Check that if Katzenberg chooses Stay initially, the outcome is 35 for Katzenberg and 100 for Eisner. 

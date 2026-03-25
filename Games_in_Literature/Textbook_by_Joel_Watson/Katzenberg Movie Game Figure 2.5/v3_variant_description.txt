@@ -1,0 +1,7 @@
+V3 (pharmaceutical race)
+
+A senior research executive is deciding whether to remain at a major pharmaceutical company or leave to join a rival biotech startup. If he stays, the competitive race never begins, and the outcome is that he gets 35 while the incumbent CEO gets 100. If he leaves, the CEO must decide whether the company will move forward with its in-house drug program.
+
+At the same time, the departing executive is considering whether the startup should launch its own competing drug project. The key tension is that he must commit to that project before he can tell whether the incumbent CEO chose to move ahead with the company’s program. So when he decides whether to start the rival project, he knows he has left, but he does not yet know what the incumbent has done.
+
+If the incumbent does not launch its drug program, then the startup’s choice settles the outcome directly: launching the rival project gives the departing executive 80 and the incumbent 0, while not launching leaves both at 0. If the incumbent does launch its program and the startup chooses not to compete, then the departing executive gets 0 and the incumbent gets 140. If both sides launch competing drug programs, the departing executive faces one final timing choice: he can rush the startup’s trial results and go to market early, which gives him 40 and the incumbent 110, or he can stick to the normal timeline and end with 13 while the incumbent gets 120.

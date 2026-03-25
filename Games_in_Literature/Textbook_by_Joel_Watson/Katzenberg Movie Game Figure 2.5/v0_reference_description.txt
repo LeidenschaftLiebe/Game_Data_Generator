@@ -1,0 +1,17 @@
+V0 Reference (Katzenberg movies game, closest to the textbook) 
+
+Katzenberg is deciding what to do after leaving Disney. 
+
+If he decides to stay at Disney, the rivalry never begins and the outcome is that Katzenberg gets 35 while Eisner gets 100. 
+If he leaves, Eisner must decide whether Disney will go ahead with A Bug’s Life.
+
+At the same time, Katzenberg is considering whether his new studio should make Antz. 
+The key tension is that Katzenberg has to make that production decision before he can tell whether Eisner chose to produce A Bug’s Life. 
+So when Katzenberg chooses whether to make Antz, he knows he has left Disney, but he does not yet know what Eisner has done.
+
+If Eisner does not produce A Bug’s Life, then Katzenberg’s choice about Antz determines the outcome directly: 
+producing Antz gives Katzenberg 80 and Eisner 0, while not producing it leaves both at 0. 
+If Eisner does produce A Bug’s Life and Katzenberg decides not to produce Antz, then Katzenberg gets 0 and Eisner gets 140. 
+
+If both films are produced, Katzenberg faces one final timing decision: 
+he can rush Antz into theaters early, which gives him 40 and Eisner 110, or he can avoid the early release and end with 13 while Eisner gets 120.

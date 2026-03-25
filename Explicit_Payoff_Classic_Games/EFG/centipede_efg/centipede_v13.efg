@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(A Decision 1)" { "Sign" "Pass" } 0
 t "" 1 "Sign" { 2 1 }
 p "" 2 1 "(B Decision)" { "Sign" "Pass" } 0
 t "" 2 "Sign" { 2 3 }
-p "" 1 1 "(A Decision 2)" { "Sign" "Pass" } 0
+p "" 1 2 "(A Decision 2)" { "Sign" "Pass" } 0
 t "" 3 "Sign" { 4 2.5 }
 t "" 4 "Final Agreement" { 5 5 }

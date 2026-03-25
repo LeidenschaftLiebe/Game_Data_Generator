@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(A Decision 1)" { "Sell" "Pass" } 0
 t "" 1 "Sell" { 100 50 }
 p "" 2 1 "(B Decision)" { "Sell" "Pass" } 0
 t "" 2 "Sell" { 100 150 }
-p "" 1 1 "(A Decision 2)" { "Sell" "Pass" } 0
+p "" 1 2 "(A Decision 2)" { "Sell" "Pass" } 0
 t "" 3 "Sell" { 250 150 }
 t "" 4 "Final Sale" { 300 300 }

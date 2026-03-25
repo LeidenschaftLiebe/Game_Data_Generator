@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(A Decision 1)" { "Stop" "Pass" } 0
 t "" 1 "Stop" { 20 10 }
 p "" 2 1 "(B Decision)" { "Stop" "Pass" } 0
 t "" 2 "Stop" { 15 30 }
-p "" 1 1 "(A Decision 2)" { "Stop" "Pass" } 0
+p "" 1 2 "(A Decision 2)" { "Stop" "Pass" } 0
 t "" 3 "Stop" { 40 20 }
 t "" 4 "Final Delivery" { 50 50 }

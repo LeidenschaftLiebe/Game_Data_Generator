@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(A Decision 1)" { "Withdraw" "Pass" } 0
 t "" 1 "Withdraw" { 200 100 }
 p "" 2 1 "(B Decision)" { "Withdraw" "Pass" } 0
 t "" 2 "Withdraw" { 200 300 }
-p "" 1 1 "(A Decision 2)" { "Withdraw" "Pass" } 0
+p "" 1 2 "(A Decision 2)" { "Withdraw" "Pass" } 0
 t "" 3 "Withdraw" { 400 250 }
 t "" 4 "Final Shared Funds" { 500 500 }

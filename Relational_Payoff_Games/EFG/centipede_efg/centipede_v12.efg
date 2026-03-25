@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(A Decision 1)" { "Take" "Pass" } 0
 t "" 1 "Take" { 120 60 }
 p "" 2 1 "(B Decision)" { "Take" "Pass" } 0
 t "" 2 "Take" { 90 150 }
-p "" 1 1 "(A Decision 2)" { "Take" "Pass" } 0
+p "" 1 2 "(A Decision 2)" { "Take" "Pass" } 0
 t "" 3 "Take" { 220 180 }
 t "" 4 "Final Split" { 250 250 }

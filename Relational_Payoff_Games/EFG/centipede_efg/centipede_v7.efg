@@ -3,6 +3,6 @@ p "ROOT" 1 1 "(A1)" { "Patent" "Pass" } 0
 t "" 1 "A patents at A1" { 2 1 }
 p "" 2 1 "(B1)" { "Patent" "Pass" } 0
 t "" 2 "B patents at B1" { 1.5 3 }
-p "" 1 1 "(A2)" { "Patent" "Pass" } 0
+p "" 1 2 "(A2)" { "Patent" "Pass" } 0
 t "" 3 "A patents at A2" { 4 2 }
 t "" 4 "Both pass to end" { 5 5 }

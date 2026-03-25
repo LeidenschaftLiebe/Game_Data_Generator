@@ -1,0 +1,10 @@
+V1 (ride-hailing apps)
+
+Two ride-hailing apps are deciding how aggressively to price rides during a busy weekend. 
+App 1 announces its pricing first, choosing either a high surge or a low surge. 
+App 2 then watches that decision and sets its own price.
+
+If both apps keep surge high, each makes 1 million. 
+If App 1 keeps surge high but App 2 undercuts with a low surge, App 1 loses riders and ends up with nothing while App 2 makes 2 million. 
+If App 1 goes with a low surge and App 2 keeps prices high, App 1 captures the volume and makes 2 million while App 2 gets nothing. 
+If both keep surge low, they split demand and each ends up with 0.5 million.

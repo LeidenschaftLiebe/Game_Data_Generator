@@ -1,0 +1,10 @@
+V2 (online course platforms)
+
+Two online course platforms are competing for the same group of students. 
+Platform 1 posts its tuition first, choosing either a premium tuition or a discount tuition. 
+Platform 2 observes that choice and then sets its own tuition.
+
+If both platforms post premium tuition, each earns 1 million. 
+If Platform 1 posts premium tuition but Platform 2 discounts, Platform 1 gets nothing and Platform 2 earns 2 million. 
+If Platform 1 discounts and Platform 2 stays premium, Platform 1 earns 2 million while Platform 2 gets nothing. 
+If both platforms discount, they split the market and each earns 0.5 million.

@@ -1,0 +1,10 @@
+V3 (coffee chains)
+
+Two coffee chains are opening nearby stores and competing for the same morning customers. 
+Chain 1 posts its menu prices first, choosing either a high-price menu or a low-price menu. 
+Chain 2 sees that choice and then sets its own prices.
+
+If both chains go with high prices, they each earn 1 million. 
+If Chain 1 goes high but Chain 2 undercuts with low prices, Chain 1 earns nothing and Chain 2 earns 2 million. 
+If Chain 1 goes low and Chain 2 stays high, Chain 1 earns 2 million while Chain 2 earns nothing. 
+If both chains go low, neither stands out much and they split the business more evenly, with 0.5 million each.

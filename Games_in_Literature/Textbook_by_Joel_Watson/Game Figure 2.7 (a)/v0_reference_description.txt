@@ -1,0 +1,10 @@
+V0 (closest to the book)
+
+Two firms sell the same product and compete through pricing. 
+Firm 1 moves first and chooses whether to set a high price or a low price. 
+Firm 2 observes that choice and then sets its own price.
+
+If Firm 1 sets a high price and Firm 2 follows with a high price, the two firms do equally well and each earns 1 million. 
+If Firm 1 sets a high price but Firm 2 cuts price instead, Firm 1 earns nothing and Firm 2 earns 2 million. 
+If Firm 1 sets a low price and Firm 2 responds with a high price, Firm 1 captures the advantage and earns 2 million while Firm 2 earns nothing. 
+If both firms set low prices, competition is tougher and they split the market more evenly, so each earns 0.5 million.

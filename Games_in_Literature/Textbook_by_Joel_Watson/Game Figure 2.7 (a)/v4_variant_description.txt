@@ -1,0 +1,10 @@
+V4 (airline fare competition)
+
+Two airlines are competing on the same route. 
+Airline 1 posts its fare first, choosing either a high fare or a low fare. 
+Airline 2 sees that fare and then decides how to price its own tickets.
+
+If both airlines keep fares high, each earns 1 million. 
+If Airline 1 keeps a high fare but Airline 2 cuts fares, Airline 1 earns nothing and Airline 2 earns 2 million. 
+If Airline 1 cuts fares and Airline 2 stays high, Airline 1 earns 2 million while Airline 2 earns nothing. 
+If both cut fares, the route becomes less profitable and each airline earns 0.5 million.

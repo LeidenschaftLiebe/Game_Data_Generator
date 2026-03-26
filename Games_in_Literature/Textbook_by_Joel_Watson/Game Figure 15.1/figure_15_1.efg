@@ -1,0 +1,8 @@
+EFG 2 R "Watson Figure 15.1 - Entry and Predation" { "1" "2" }
+""
+
+p "" 1 1 "" { "Out" "In" } 0
+t "" 1 "Out" { 0, 4 }
+p "" 2 1 "" { "Accommodate" "Price war" } 0
+t "" 2 "Accommodate" { 2, 2 }
+t "" 3 "Price war" { -1, -1 }

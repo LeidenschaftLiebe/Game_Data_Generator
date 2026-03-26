@@ -1,0 +1,8 @@
+V3 (airline route entry)
+
+A smaller airline first decides whether to start flying a route already dominated by a larger airline.
+If the smaller airline stays out, the interaction ends immediately and the final reward is 0 for the entrant and 4 for the incumbent airline.
+
+If the smaller airline enters the route, the incumbent airline then decides whether to accept the competition or start a fare war.
+If the incumbent accepts the competition, the final reward is 2 for the entrant and 2 for the incumbent.
+If the incumbent starts a fare war, the final reward is -1 for the entrant and -1 for the incumbent.

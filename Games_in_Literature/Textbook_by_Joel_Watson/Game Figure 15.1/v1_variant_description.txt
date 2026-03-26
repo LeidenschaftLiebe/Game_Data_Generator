@@ -1,0 +1,8 @@
+V1 (new coffee shop vs local café)
+
+A new coffee shop first decides whether to stay out of a neighborhood or open there.
+If the new shop stays out, the story ends immediately and the final reward is 0 for the newcomer and 4 for the local café.
+
+If the new shop opens, the local café then decides whether to share the market peacefully or slash prices aggressively.
+If the local café shares the market, the final reward is 2 for the newcomer and 2 for the local café.
+If the local café slashes prices and starts a price war, the final reward is -1 for the newcomer and -1 for the local café.

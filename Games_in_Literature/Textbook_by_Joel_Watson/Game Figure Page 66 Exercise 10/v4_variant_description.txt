@@ -1,0 +1,16 @@
+V4 (inheritance division)
+
+Two siblings are deciding how to divide a small inheritance.
+Sibling 1 moves first and proposes either giving all of it to Sibling 2, splitting it evenly, or keeping all of it.
+
+If Sibling 1 proposes giving all of it to Sibling 2, Sibling 2 then chooses whether to accept or reject.
+If Sibling 2 accepts, the final reward is 0 for Sibling 1 and 2 for Sibling 2.
+If Sibling 2 rejects, both siblings end up with 0.
+
+If Sibling 1 proposes an even split, Sibling 2 again chooses whether to accept or reject.
+If Sibling 2 accepts, the final reward is 1 for each sibling.
+If Sibling 2 rejects, both siblings end up with 0.
+
+If Sibling 1 proposes keeping all of it, Sibling 2 again chooses whether to accept or reject.
+If Sibling 2 accepts, the final reward is 2 for Sibling 1 and 0 for Sibling 2.
+If Sibling 2 rejects, both siblings end up with 0.

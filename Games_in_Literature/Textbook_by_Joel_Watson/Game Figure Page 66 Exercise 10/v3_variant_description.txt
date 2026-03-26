@@ -1,0 +1,16 @@
+V3 (bonus allocation)
+
+A manager and an employee are negotiating over a two-unit bonus.
+The manager moves first and chooses whether to give the whole bonus to the employee, split it evenly, or keep all of it.
+
+If the manager offers the whole bonus to the employee, the employee then decides whether to accept or reject.
+If the employee accepts, the final amount is 0 for the manager and 2 for the employee.
+If the employee rejects, both sides end up with 0.
+
+If the manager offers an even split, the employee again decides whether to accept or reject.
+If the employee accepts, the final amount is 1 for the manager and 1 for the employee.
+If the employee rejects, both sides end up with 0.
+
+If the manager offers nothing to the employee, the employee again decides whether to accept or reject.
+If the employee accepts, the final amount is 2 for the manager and 0 for the employee.
+If the employee rejects, both sides end up with 0.

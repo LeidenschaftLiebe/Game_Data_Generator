@@ -1,0 +1,16 @@
+V2 (movie revenue split)
+
+Two producers are negotiating how to divide a small pool of movie revenue.
+Producer 1 moves first and chooses whether to offer all of the money to Producer 2, split it equally, or keep all of it.
+
+If Producer 1 offers all of it, Producer 2 then decides whether to accept or reject.
+If Producer 2 accepts, the final return is 0 for Producer 1 and 2 for Producer 2.
+If Producer 2 rejects, both producers end up with 0.
+
+If Producer 1 offers an equal split, Producer 2 again chooses whether to accept or reject.
+If Producer 2 accepts, the final return is 1 for each producer.
+If Producer 2 rejects, both producers end up with 0.
+
+If Producer 1 offers none of it to Producer 2, Producer 2 again chooses whether to accept or reject.
+If Producer 2 accepts, the final return is 2 for Producer 1 and 0 for Producer 2.
+If Producer 2 rejects, both producers end up with 0.

@@ -1,0 +1,16 @@
+V1 (startup equity split)
+
+Two founders are negotiating how to divide a small startup stake.
+Founder 1 moves first and chooses whether to offer all of the stake to Founder 2, split it evenly, or keep all of it.
+
+If Founder 1 offers all of it, Founder 2 then decides whether to accept or reject.
+If Founder 2 accepts, the final reward is 0 for Founder 1 and 2 for Founder 2.
+If Founder 2 rejects, both founders end up with 0.
+
+If Founder 1 offers an even split, Founder 2 again decides whether to accept or reject.
+If Founder 2 accepts, the final reward is 1 for each founder.
+If Founder 2 rejects, both founders end up with 0.
+
+If Founder 1 offers none of it to Founder 2, Founder 2 again decides whether to accept or reject.
+If Founder 2 accepts, the final reward is 2 for Founder 1 and 0 for Founder 2.
+If Founder 2 rejects, both founders end up with 0.

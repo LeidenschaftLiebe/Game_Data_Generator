@@ -1,0 +1,17 @@
+V0 (closest to the book)
+
+Two players are negotiating over how to divide two dollars.
+Player 1 moves first and chooses whether to offer all of the money to Player 2, half of the money, or none of the money.
+These three choices are labeled Offer H, M, and L.
+
+If Player 1 makes offer H, then Player 2 chooses whether to accept or reject that offer.
+If Player 2 accepts offer H, the final reward is 0 for Player 1 and 2 for Player 2.
+If Player 2 rejects offer H, the final reward is 0 for Player 1 and 0 for Player 2.
+
+If Player 1 makes offer M, then Player 2 chooses whether to accept or reject that offer.
+If Player 2 accepts offer M, the final reward is 1 for Player 1 and 1 for Player 2.
+If Player 2 rejects offer M, the final reward is 0 for Player 1 and 0 for Player 2.
+
+If Player 1 makes offer L, then Player 2 chooses whether to accept or reject that offer.
+If Player 2 accepts offer L, the final reward is 2 for Player 1 and 0 for Player 2.
+If Player 2 rejects offer L, the final reward is 0 for Player 1 and 0 for Player 2.

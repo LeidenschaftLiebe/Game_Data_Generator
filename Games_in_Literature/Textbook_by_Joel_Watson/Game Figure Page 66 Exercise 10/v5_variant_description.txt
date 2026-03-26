@@ -1,0 +1,16 @@
+V5 (scholarship allocation)
+
+Two students are deciding how to split a small scholarship fund.
+Student 1 moves first and chooses whether to give all of it to Student 2, split it equally, or keep all of it.
+
+If Student 1 offers all of it to Student 2, Student 2 then chooses whether to accept or reject.
+If Student 2 accepts, the final return is 0 for Student 1 and 2 for Student 2.
+If Student 2 rejects, both students end up with 0.
+
+If Student 1 offers an equal split, Student 2 again chooses whether to accept or reject.
+If Student 2 accepts, the final return is 1 for each student.
+If Student 2 rejects, both students end up with 0.
+
+If Student 1 offers nothing to Student 2, Student 2 again chooses whether to accept or reject.
+If Student 2 accepts, the final return is 2 for Student 1 and 0 for Student 2.
+If Student 2 rejects, both students end up with 0.

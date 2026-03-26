@@ -1,0 +1,13 @@
+EFG 2 R "Exercise 10" { "1" "2" }
+""
+
+p "" 1 1 "" { "Offer H" "M" "L" } 0
+p "" 2 1 "" { "A^H" "R^H" } 0
+t "" 1 "Accept H" { 0, 2 }
+t "" 2 "Reject H" { 0, 0 }
+p "" 2 2 "" { "A^M" "R^M" } 0
+t "" 3 "Accept M" { 1, 1 }
+t "" 4 "Reject M" { 0, 0 }
+p "" 2 3 "" { "A^L" "R^L" } 0
+t "" 5 "Accept L" { 2, 0 }
+t "" 6 "Reject L" { 0, 0 }

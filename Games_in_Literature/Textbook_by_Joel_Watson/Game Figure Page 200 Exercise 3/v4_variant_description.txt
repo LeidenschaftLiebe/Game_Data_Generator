@@ -1,0 +1,21 @@
+V4 (theme park development)
+
+A park director first chooses between development plan A and development plan B.
+If the director chooses development plan B, the project ends immediately with a final reward of 5 for the director and 4 for the finance chief.
+
+If the director chooses development plan A, the finance chief then chooses between package C and package D.
+If the finance chief chooses package D, the director then chooses between attraction plan I and attraction plan J.
+Attraction plan I gives a final reward of 9 to the director and 2 to the finance chief.
+Attraction plan J gives a final reward of 4 to the director and 5 to the finance chief.
+
+If the finance chief chooses package C, the director then chooses between attraction path G and attraction path H.
+Attraction path H gives a final reward of 7 to the director and 3 to the finance chief.
+Attraction path G leads to one more choice by the finance chief between investment option E and investment option F.
+
+If the finance chief chooses investment option E, the director then chooses between design K and design L.
+Design K gives a final reward of 2 to the director and 4 to the finance chief.
+Design L gives a final reward of 3 to the director and 6 to the finance chief.
+
+If the finance chief chooses investment option F, the director then chooses between design M and design N.
+Design M gives a final reward of 6 to the director and 7 to the finance chief.
+Design N gives a final reward of 8 to the director and 1 to the finance chief.

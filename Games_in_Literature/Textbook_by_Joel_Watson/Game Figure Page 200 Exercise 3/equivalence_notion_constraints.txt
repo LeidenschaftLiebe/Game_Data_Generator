@@ -1,0 +1,5 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that Player 1 moves first.
+Check that if Player 1 chooses action B, the final reward is 5 for Player 1 and 4 for Player 2.

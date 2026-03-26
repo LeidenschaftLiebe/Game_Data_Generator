@@ -1,0 +1,21 @@
+V2 (fashion house expansion)
+
+A creative director first chooses between expansion plan A and expansion plan B.
+If the director chooses expansion plan B, the season ends immediately with a final reward of 5 for the director and 4 for the production chief.
+
+If the director chooses expansion plan A, the production chief then chooses between runway concept C and runway concept D.
+If the production chief chooses runway concept D, the director then chooses between collection I and collection J.
+Collection I gives a final reward of 9 to the director and 2 to the production chief.
+Collection J gives a final reward of 4 to the director and 5 to the production chief.
+
+If the production chief chooses runway concept C, the director then chooses between styling plan G and styling plan H.
+Styling plan H gives a final reward of 7 to the director and 3 to the production chief.
+Styling plan G leads to one more choice by the production chief between venue option E and venue option F.
+
+If the production chief chooses venue option E, the director then chooses between finale K and finale L.
+Finale K gives a final reward of 2 to the director and 4 to the production chief.
+Finale L gives a final reward of 3 to the director and 6 to the production chief.
+
+If the production chief chooses venue option F, the director then chooses between finale M and finale N.
+Finale M gives a final reward of 6 to the director and 7 to the production chief.
+Finale N gives a final reward of 8 to the director and 1 to the production chief.

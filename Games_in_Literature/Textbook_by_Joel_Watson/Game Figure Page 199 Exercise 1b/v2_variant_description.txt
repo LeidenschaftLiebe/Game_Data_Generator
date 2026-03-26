@@ -1,0 +1,21 @@
+V2 (book publishing deal)
+
+An author first chooses between publishing route A and publishing route B.
+
+If the author chooses publishing route A, the publisher then chooses between contract C and contract D.
+If the publisher chooses contract C, the author then chooses between revision plan G and revision plan H.
+Revision plan G gives a final return of 3 to the author and 8 to the publisher.
+Revision plan H gives a final return of 7 to the author and 9 to the publisher.
+
+If the publisher chooses contract D, the author then chooses between revision plan I and revision plan J.
+Revision plan I gives a final return of 1 to the author and 2 to the publisher.
+Revision plan J gives a final return of 2 to the author and 1 to the publisher.
+
+If the author chooses publishing route B, the publisher then chooses between contract E and contract F.
+If the publisher chooses contract E, the author then chooses between revision plan K and revision plan L.
+Revision plan K gives a final return of 10 to the author and 4 to the publisher.
+Revision plan L gives a final return of 0 to the author and 5 to the publisher.
+
+If the publisher chooses contract F, the author then chooses between revision plan M and revision plan N.
+Revision plan M gives a final return of 4 to the author and 0 to the publisher.
+Revision plan N gives a final return of 8 to the author and 3 to the publisher.

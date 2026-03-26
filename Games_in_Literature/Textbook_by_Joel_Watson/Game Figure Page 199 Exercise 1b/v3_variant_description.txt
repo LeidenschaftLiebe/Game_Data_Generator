@@ -1,0 +1,21 @@
+V3 (space mission contract)
+
+A mission commander first chooses between proposal A and proposal B.
+
+If the commander chooses proposal A, the contractor then chooses between package C and package D.
+If the contractor chooses package C, the commander then chooses between operating mode G and operating mode H.
+Operating mode G gives a final reward of 3 to the commander and 8 to the contractor.
+Operating mode H gives a final reward of 7 to the commander and 9 to the contractor.
+
+If the contractor chooses package D, the commander then chooses between operating mode I and operating mode J.
+Operating mode I gives a final reward of 1 to the commander and 2 to the contractor.
+Operating mode J gives a final reward of 2 to the commander and 1 to the contractor.
+
+If the commander chooses proposal B, the contractor then chooses between package E and package F.
+If the contractor chooses package E, the commander then chooses between operating mode K and operating mode L.
+Operating mode K gives a final reward of 10 to the commander and 4 to the contractor.
+Operating mode L gives a final reward of 0 to the commander and 5 to the contractor.
+
+If the contractor chooses package F, the commander then chooses between operating mode M and operating mode N.
+Operating mode M gives a final reward of 4 to the commander and 0 to the contractor.
+Operating mode N gives a final reward of 8 to the commander and 3 to the contractor.

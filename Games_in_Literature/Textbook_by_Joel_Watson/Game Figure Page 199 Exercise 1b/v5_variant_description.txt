@@ -1,0 +1,21 @@
+V5 (wildlife documentary production)
+
+A producer first chooses between filming plan A and filming plan B.
+
+If the producer chooses filming plan A, the distributor then chooses between release option C and release option D.
+If the distributor chooses release option C, the producer then chooses between edit G and edit H.
+Edit G gives a final reward of 3 to the producer and 8 to the distributor.
+Edit H gives a final reward of 7 to the producer and 9 to the distributor.
+
+If the distributor chooses release option D, the producer then chooses between edit I and edit J.
+Edit I gives a final reward of 1 to the producer and 2 to the distributor.
+Edit J gives a final reward of 2 to the producer and 1 to the distributor.
+
+If the producer chooses filming plan B, the distributor then chooses between release option E and release option F.
+If the distributor chooses release option E, the producer then chooses between edit K and edit L.
+Edit K gives a final reward of 10 to the producer and 4 to the distributor.
+Edit L gives a final reward of 0 to the producer and 5 to the distributor.
+
+If the distributor chooses release option F, the producer then chooses between edit M and edit N.
+Edit M gives a final reward of 4 to the producer and 0 to the distributor.
+Edit N gives a final reward of 8 to the producer and 3 to the distributor.

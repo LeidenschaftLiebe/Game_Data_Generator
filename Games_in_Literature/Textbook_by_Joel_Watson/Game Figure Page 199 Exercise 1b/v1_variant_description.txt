@@ -1,0 +1,21 @@
+V1 (music tour planning)
+
+A tour manager first chooses between expansion plan A and expansion plan B.
+
+If the manager chooses expansion plan A, the promoter then chooses between venue package C and venue package D.
+If the promoter chooses venue package C, the manager then chooses between schedule G and schedule H.
+Schedule G gives a final reward of 3 to the manager and 8 to the promoter.
+Schedule H gives a final reward of 7 to the manager and 9 to the promoter.
+
+If the promoter chooses venue package D, the manager then chooses between schedule I and schedule J.
+Schedule I gives a final reward of 1 to the manager and 2 to the promoter.
+Schedule J gives a final reward of 2 to the manager and 1 to the promoter.
+
+If the manager chooses expansion plan B, the promoter then chooses between venue package E and venue package F.
+If the promoter chooses venue package E, the manager then chooses between schedule K and schedule L.
+Schedule K gives a final reward of 10 to the manager and 4 to the promoter.
+Schedule L gives a final reward of 0 to the manager and 5 to the promoter.
+
+If the promoter chooses venue package F, the manager then chooses between schedule M and schedule N.
+Schedule M gives a final reward of 4 to the manager and 0 to the promoter.
+Schedule N gives a final reward of 8 to the manager and 3 to the promoter.

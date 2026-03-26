@@ -1,0 +1,21 @@
+V4 (museum exhibition partnership)
+
+A museum director first chooses between exhibition plan A and exhibition plan B.
+
+If the director chooses exhibition plan A, the donor partner then chooses between funding option C and funding option D.
+If the donor partner chooses funding option C, the director then chooses between display format G and display format H.
+Display format G gives a final reward of 3 to the director and 8 to the donor partner.
+Display format H gives a final reward of 7 to the director and 9 to the donor partner.
+
+If the donor partner chooses funding option D, the director then chooses between display format I and display format J.
+Display format I gives a final reward of 1 to the director and 2 to the donor partner.
+Display format J gives a final reward of 2 to the director and 1 to the donor partner.
+
+If the director chooses exhibition plan B, the donor partner then chooses between funding option E and funding option F.
+If the donor partner chooses funding option E, the director then chooses between display format K and display format L.
+Display format K gives a final reward of 10 to the director and 4 to the donor partner.
+Display format L gives a final reward of 0 to the director and 5 to the donor partner.
+
+If the donor partner chooses funding option F, the director then chooses between display format M and display format N.
+Display format M gives a final reward of 4 to the director and 0 to the donor partner.
+Display format N gives a final reward of 8 to the director and 3 to the donor partner.

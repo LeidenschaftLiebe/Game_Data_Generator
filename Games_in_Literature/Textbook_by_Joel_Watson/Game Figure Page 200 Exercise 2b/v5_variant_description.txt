@@ -1,0 +1,13 @@
+V5 (wildlife documentary production)
+
+A producer first chooses between the uplands filming plan and the delta filming plan.
+
+If the producer chooses the uplands filming plan, the field coordinator then chooses between logistics package A and logistics package B.
+If the field coordinator chooses logistics package A, the final reward is 2 for the producer and 3 for the field coordinator.
+If the field coordinator chooses logistics package B, the final reward is 5 for the producer and 4 for the field coordinator.
+
+If the producer chooses the delta filming plan, the field coordinator then chooses between route C and route D.
+If the field coordinator chooses route D, the final reward is 0 for the producer and 2 for the field coordinator.
+If the field coordinator chooses route C, the producer then chooses between editing plan E and editing plan F.
+Editing plan E gives a final reward of 6 to the producer and 2 to the field coordinator.
+Editing plan F gives a final reward of 2 to the producer and 6 to the field coordinator.

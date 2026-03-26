@@ -1,0 +1,13 @@
+V1 (deep-sea expedition)
+
+An expedition leader first chooses between the upper-ocean route and the deep-trench route.
+
+If the leader chooses the upper-ocean route, the navigation chief then chooses between survey plan A and survey plan B.
+If the navigation chief chooses survey plan A, the final reward is 2 for the expedition leader and 3 for the navigation chief.
+If the navigation chief chooses survey plan B, the final reward is 5 for the expedition leader and 4 for the navigation chief.
+
+If the leader chooses the deep-trench route, the navigation chief then chooses between support plan C and support plan D.
+If the navigation chief chooses support plan D, the final reward is 0 for the expedition leader and 2 for the navigation chief.
+If the navigation chief chooses support plan C, the expedition leader then chooses between equipment package E and equipment package F.
+Equipment package E gives a final reward of 6 to the expedition leader and 2 to the navigation chief.
+Equipment package F gives a final reward of 2 to the expedition leader and 6 to the navigation chief.

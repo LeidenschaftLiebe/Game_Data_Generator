@@ -1,0 +1,13 @@
+V1 (music festival partnership)
+
+An organizer first chooses between partnership plan A, partnership plan B, and partnership plan C.
+If the organizer chooses partnership plan C, the process ends immediately and each side gets a final reward of 5.
+
+If the organizer chooses partnership plan A, a sponsor then chooses between response X and response Y.
+If the sponsor chooses response X after partnership plan A, both sides receive a final reward of 8.
+If the sponsor chooses response Y after partnership plan A, both sides receive 0.
+
+If the organizer chooses partnership plan B, the sponsor again chooses between response X and response Y.
+At that point, the sponsor cannot tell whether the organizer previously chose partnership plan A or partnership plan B.
+If the sponsor chooses response X after partnership plan B, both sides receive a final reward of 2.
+If the sponsor chooses response Y after partnership plan B, both sides receive a final reward of 6.

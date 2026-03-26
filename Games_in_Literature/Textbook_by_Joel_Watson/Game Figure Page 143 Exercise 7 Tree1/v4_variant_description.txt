@@ -1,0 +1,13 @@
+V4 (pharmaceutical launch)
+
+A pharmaceutical company first chooses between launch strategy A, launch strategy B, and launch strategy C.
+If the company chooses launch strategy C, the process ends immediately and each side gets a final return of 5.
+
+If the company chooses launch strategy A, a partner firm then chooses between reaction X and reaction Y.
+If the partner chooses reaction X after launch strategy A, each side gets a final return of 8.
+If the partner chooses reaction Y after launch strategy A, each side gets 0.
+
+If the company chooses launch strategy B, the partner again chooses between reaction X and reaction Y.
+The partner cannot tell whether the earlier decision was launch strategy A or launch strategy B.
+If the partner chooses reaction X after launch strategy B, each side gets a final return of 2.
+If the partner chooses reaction Y after launch strategy B, each side gets a final return of 6.

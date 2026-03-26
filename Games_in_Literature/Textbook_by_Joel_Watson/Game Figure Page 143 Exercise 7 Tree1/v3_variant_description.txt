@@ -1,0 +1,13 @@
+V3 (film distribution deal)
+
+A studio first chooses between distribution plan A, distribution plan B, and distribution plan C.
+If the studio chooses distribution plan C, the matter ends immediately and each side gets a final reward of 5.
+
+If the studio chooses distribution plan A, a distribution partner then chooses between option X and option Y.
+If the partner chooses option X after distribution plan A, each side gets a final reward of 8.
+If the partner chooses option Y after distribution plan A, each side gets 0.
+
+If the studio chooses distribution plan B, the partner again chooses between option X and option Y.
+At that point, the partner cannot tell whether the studio previously chose distribution plan A or distribution plan B.
+If the partner chooses option X after distribution plan B, each side gets a final reward of 2.
+If the partner chooses option Y after distribution plan B, each side gets a final reward of 6.

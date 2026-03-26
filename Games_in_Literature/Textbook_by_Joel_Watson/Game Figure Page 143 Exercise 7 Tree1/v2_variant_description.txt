@@ -1,0 +1,13 @@
+V2 (cybersecurity contract)
+
+A company first chooses between contract option A, contract option B, and contract option C.
+If the company chooses contract option C, the negotiation ends immediately and each side gets a final return of 5.
+
+If the company chooses contract option A, an outside contractor then chooses between action X and action Y.
+If the contractor chooses action X after contract option A, each side gets a final return of 8.
+If the contractor chooses action Y after contract option A, each side gets 0.
+
+If the company chooses contract option B, the contractor again chooses between action X and action Y.
+When making that choice, the contractor cannot tell whether the earlier decision was contract option A or contract option B.
+If the contractor chooses action X after contract option B, each side gets a final return of 2.
+If the contractor chooses action Y after contract option B, each side gets a final return of 6.

@@ -1,0 +1,16 @@
+V5 (theme park expansion)
+
+A park director first decides whether to keep expansion plans on hold or move forward with a full development push.
+If the director keeps expansion on hold, the project ends immediately and the final reward is 2 for the director, 2 for the finance chief, and 2 for the attractions designer.
+
+If the director moves forward with the full push, the finance chief then chooses among package A, package B, and package C.
+If the finance chief chooses package C, the project ends immediately with a final reward of 4 for the director, 3 for the finance chief, and 1 for the attractions designer.
+
+If the finance chief chooses package A, the attractions designer then chooses between concept X and concept Y.
+Concept X after package A gives a final reward of 3 for the director, 2 for the finance chief, and 1 for the attractions designer.
+Concept Y after package A gives a final reward of 5 for the director, 0 for the finance chief, and 0 for the attractions designer.
+
+If the finance chief chooses package B, the attractions designer again chooses between concept X and concept Y.
+At that point, the attractions designer cannot tell whether the project reached this stage after package A or package B.
+Concept X after package B gives a final reward of 1 for the director, 2 for the finance chief, and 6 for the attractions designer.
+Concept Y after package B gives a final reward of 7 for the director, 5 for the finance chief, and 5 for the attractions designer.

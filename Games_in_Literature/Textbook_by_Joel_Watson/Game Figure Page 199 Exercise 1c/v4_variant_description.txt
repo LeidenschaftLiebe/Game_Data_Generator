@@ -1,0 +1,16 @@
+V4 (wildlife rescue operation)
+
+A rescue coordinator first decides whether to keep an operation at its ordinary level or escalate it into a full emergency deployment.
+If the coordinator keeps the ordinary level, the operation ends immediately and the final reward is 2 for the coordinator, 2 for the logistics officer, and 2 for the veterinary specialist.
+
+If the coordinator escalates the operation, the logistics officer then chooses among deployment A, deployment B, and deployment C.
+If the logistics officer chooses deployment C, the operation ends immediately with a final reward of 4 for the coordinator, 3 for the logistics officer, and 1 for the veterinary specialist.
+
+If the logistics officer chooses deployment A, the veterinary specialist then chooses between treatment X and treatment Y.
+Treatment X after deployment A leads to a final reward of 3 for the coordinator, 2 for the logistics officer, and 1 for the veterinary specialist.
+Treatment Y after deployment A leads to a final reward of 5 for the coordinator, 0 for the logistics officer, and 0 for the veterinary specialist.
+
+If the logistics officer chooses deployment B, the veterinary specialist again chooses between treatment X and treatment Y.
+At that point, the veterinary specialist cannot tell whether the operation reached this stage after deployment A or deployment B.
+Treatment X after deployment B leads to a final reward of 1 for the coordinator, 2 for the logistics officer, and 6 for the veterinary specialist.
+Treatment Y after deployment B leads to a final reward of 7 for the coordinator, 5 for the logistics officer, and 5 for the veterinary specialist.

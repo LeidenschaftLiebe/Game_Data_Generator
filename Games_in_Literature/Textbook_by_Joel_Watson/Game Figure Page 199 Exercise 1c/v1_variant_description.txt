@@ -1,0 +1,16 @@
+V1 (international research expedition)
+
+A lead scientist first decides whether to keep a project on its original path or shift it into an intensive field phase.
+If the scientist keeps the original path, the project ends immediately and the final reward is 2 for the scientist, 2 for the logistics director, and 2 for the field specialist.
+
+If the scientist shifts into the field phase, the logistics director then chooses among route A, route B, and route C.
+If the logistics director chooses route C, the project ends immediately with a final reward of 4 for the scientist, 3 for the logistics director, and 1 for the field specialist.
+
+If the logistics director chooses route A, the field specialist then chooses between protocol X and protocol Y.
+Protocol X after route A leads to a final reward of 3 for the scientist, 2 for the logistics director, and 1 for the field specialist.
+Protocol Y after route A leads to a final reward of 5 for the scientist, 0 for the logistics director, and 0 for the field specialist.
+
+If the logistics director chooses route B, the field specialist again chooses between protocol X and protocol Y.
+At that point, the field specialist cannot tell whether the project reached this stage after route A or route B.
+Protocol X after route B leads to a final reward of 1 for the scientist, 2 for the logistics director, and 6 for the field specialist.
+Protocol Y after route B leads to a final reward of 7 for the scientist, 5 for the logistics director, and 5 for the field specialist.

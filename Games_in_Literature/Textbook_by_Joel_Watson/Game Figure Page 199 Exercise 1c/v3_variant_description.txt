@@ -1,0 +1,16 @@
+V3 (fashion week production)
+
+A creative director first decides whether to keep a fashion season modest or push it into a major production cycle.
+If the director keeps the modest plan, the season ends immediately and the final reward is 2 for the creative director, 2 for the production manager, and 2 for the show stylist.
+
+If the director pushes for the major cycle, the production manager then chooses among setup A, setup B, and setup C.
+If the production manager chooses setup C, the season ends immediately with a final reward of 4 for the creative director, 3 for the production manager, and 1 for the show stylist.
+
+If the production manager chooses setup A, the stylist then chooses between presentation X and presentation Y.
+Presentation X after setup A leads to a final reward of 3 for the creative director, 2 for the production manager, and 1 for the stylist.
+Presentation Y after setup A leads to a final reward of 5 for the creative director, 0 for the production manager, and 0 for the stylist.
+
+If the production manager chooses setup B, the stylist again chooses between presentation X and presentation Y.
+At that point, the stylist cannot tell whether the season reached this stage after setup A or setup B.
+Presentation X after setup B leads to a final reward of 1 for the creative director, 2 for the production manager, and 6 for the stylist.
+Presentation Y after setup B leads to a final reward of 7 for the creative director, 5 for the production manager, and 5 for the stylist.

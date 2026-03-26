@@ -1,0 +1,16 @@
+V2 (space colony planning)
+
+A mission architect first decides whether to keep the colony on the original deployment plan or move to an intensive settlement phase.
+If the architect keeps the original plan, the mission ends immediately and the final return is 2 for the architect, 2 for the operations chief, and 2 for the habitat engineer.
+
+If the architect moves to the intensive phase, the operations chief then chooses among design A, design B, and design C.
+If the operations chief chooses design C, the mission ends immediately with a final return of 4 for the architect, 3 for the operations chief, and 1 for the habitat engineer.
+
+If the operations chief chooses design A, the habitat engineer then chooses between build option X and build option Y.
+Build option X after design A gives a final return of 3 for the architect, 2 for the operations chief, and 1 for the habitat engineer.
+Build option Y after design A gives a final return of 5 for the architect, 0 for the operations chief, and 0 for the habitat engineer.
+
+If the operations chief chooses design B, the habitat engineer again chooses between build option X and build option Y.
+At that point, the habitat engineer cannot tell whether the mission reached this stage after design A or design B.
+Build option X after design B gives a final return of 1 for the architect, 2 for the operations chief, and 6 for the habitat engineer.
+Build option Y after design B gives a final return of 7 for the architect, 5 for the operations chief, and 5 for the habitat engineer.

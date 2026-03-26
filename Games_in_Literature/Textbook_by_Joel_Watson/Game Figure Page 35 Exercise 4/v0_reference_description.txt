@@ -1,0 +1,13 @@
+V0 (use original labels)
+
+Player 1 moves first and chooses between action a and action b.
+After that, Player 2 chooses between action c and action d.
+When Player 2 makes that choice, Player 2 cannot tell whether Player 1 chose a or b.
+
+If Player 2 chooses action c after a, then Player 2 moves again and chooses between action f and action g.
+If Player 2 chooses action f there, the final reward is 4 for Player 1 and 1 for Player 2.
+If Player 2 chooses action g there, the final reward is 1 for Player 1 and 2 for Player 2.
+
+If Player 2 chooses action d after a, the game ends immediately with 0 for Player 1 and 3 for Player 2.
+If Player 2 chooses action c after b, the game ends immediately with 8 for Player 1 and 0 for Player 2.
+If Player 2 chooses action d after b, the game ends immediately with 0 for Player 1 and 2 for Player 2.

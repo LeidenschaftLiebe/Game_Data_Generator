@@ -1,0 +1,12 @@
+V1 (market entry)
+
+A firm first chooses between strategy a and strategy b.
+The rival firm then chooses between response c and response d without knowing which strategy the first firm selected.
+
+If the rival chooses response c after strategy a, the rival then makes one more choice between follow-up move f and follow-up move g.
+Follow-up move f gives a final reward of 4 to the first firm and 1 to the rival.
+Follow-up move g gives a final reward of 1 to the first firm and 2 to the rival.
+
+If the rival chooses response d after strategy a, the game ends with 0 for the first firm and 3 for the rival.
+If the rival chooses response c after strategy b, the game ends with 8 for the first firm and 0 for the rival.
+If the rival chooses response d after strategy b, the game ends with 0 for the first firm and 2 for the rival.

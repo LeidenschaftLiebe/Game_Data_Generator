@@ -1,0 +1,12 @@
+V3 (software launch)
+
+A software company first chooses between launch path a and launch path b.
+The competitor then chooses between response c and response d without knowing which launch path the first company selected.
+
+If the competitor chooses response c after launch path a, the competitor then chooses between follow-up option f and follow-up option g.
+Follow-up option f produces a final reward of 4 for the first company and 1 for the competitor.
+Follow-up option g produces a final reward of 1 for the first company and 2 for the competitor.
+
+If the competitor chooses response d after launch path a, the interaction ends with 0 for the first company and 3 for the competitor.
+If the competitor chooses response c after launch path b, the interaction ends with 8 for the first company and 0 for the competitor.
+If the competitor chooses response d after launch path b, the interaction ends with 0 for the first company and 2 for the competitor.

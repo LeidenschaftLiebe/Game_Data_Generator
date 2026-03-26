@@ -1,0 +1,12 @@
+V2 (restaurant expansion)
+
+A restaurant owner first chooses between expansion option a and expansion option b.
+The rival restaurant then chooses between reaction c and reaction d without knowing which option the owner selected.
+
+If the rival chooses reaction c after option a, the rival then chooses between follow-up move f and follow-up move g.
+Follow-up move f leaves the owner with a final return of 4 and the rival with 1.
+Follow-up move g leaves the owner with a final return of 1 and the rival with 2.
+
+If the rival chooses reaction d after option a, the game ends with 0 for the owner and 3 for the rival.
+If the rival chooses reaction c after option b, the game ends with 8 for the owner and 0 for the rival.
+If the rival chooses reaction d after option b, the game ends with 0 for the owner and 2 for the rival.

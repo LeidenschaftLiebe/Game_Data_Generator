@@ -1,0 +1,12 @@
+V5 (fashion brand expansion)
+
+A fashion brand first chooses between strategy a and strategy b.
+The competing brand then chooses between response c and response d without knowing which strategy the first brand selected.
+
+If the competing brand chooses response c after strategy a, the competing brand then chooses between follow-up option f and follow-up option g.
+Follow-up option f gives a final reward of 4 to the first brand and 1 to the competitor.
+Follow-up option g gives a final reward of 1 to the first brand and 2 to the competitor.
+
+If the competing brand chooses response d after strategy a, the game ends with 0 for the first brand and 3 for the competitor.
+If the competing brand chooses response c after strategy b, the game ends with 8 for the first brand and 0 for the competitor.
+If the competing brand chooses response d after strategy b, the game ends with 0 for the first brand and 2 for the competitor.

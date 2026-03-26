@@ -1,0 +1,12 @@
+V4 (movie release)
+
+A studio first chooses between release plan a and release plan b.
+The rival studio then chooses between move c and move d without knowing which release plan the first studio selected.
+
+If the rival chooses move c after release plan a, the rival then chooses between follow-up move f and follow-up move g.
+Follow-up move f brings a final reward of 4 to the first studio and 1 to the rival.
+Follow-up move g brings a final reward of 1 to the first studio and 2 to the rival.
+
+If the rival chooses move d after release plan a, the story ends with 0 for the first studio and 3 for the rival.
+If the rival chooses move c after release plan b, the story ends with 8 for the first studio and 0 for the rival.
+If the rival chooses move d after release plan b, the story ends with 0 for the first studio and 2 for the rival.

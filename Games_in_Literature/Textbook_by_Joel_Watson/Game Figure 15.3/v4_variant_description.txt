@@ -1,0 +1,19 @@
+V4 (esports tournament design)
+
+A league organizer moves first and chooses between the Upper-bracket format and the Double-elimination format.
+
+If the organizer chooses the Upper-bracket format, a team owner then chooses between Arena setup A and Arena setup B.
+If the team owner chooses Arena setup A, the organizer then chooses between an Evening final and a Fan-event final.
+The Evening final gives a final reward of 3 for the organizer, 3 for the team owner, and 6 for the sponsor.
+The Fan-event final gives a final reward of 1 for the organizer, 5 for the team owner, and 7 for the sponsor.
+
+If the team owner chooses Arena setup B under the Upper-bracket format, the sponsor then chooses between a Global package and a Highlight package.
+The Global package gives a final reward of 2 for the organizer, 0 for the team owner, and 3 for the sponsor.
+The Highlight package gives a final reward of 7 for the organizer, 7 for the team owner, and 2 for the sponsor.
+
+If the organizer chooses the Double-elimination format, the team owner then chooses between Arena setup C and Arena setup D.
+If the team owner chooses Arena setup D, the final reward is 6 for the organizer, 2 for the team owner, and 4 for the sponsor.
+If the team owner chooses Arena setup C, the sponsor again chooses between the Global package and the Highlight package.
+At that point, the sponsor cannot tell whether it is responding after Arena setup B or Arena setup C.
+If the sponsor chooses the Global package after Arena setup C, the final reward is 0 for the organizer, 6 for the team owner, and 1 for the sponsor.
+If the sponsor chooses the Highlight package after Arena setup C, the final reward is 8 for the organizer, 6 for the team owner, and 0 for the sponsor.

@@ -1,0 +1,19 @@
+V1 (music festival planning)
+
+A festival director moves first and chooses between the Uptown festival plan and the Downtown festival plan.
+
+If the director chooses the Uptown plan, a booking manager then chooses between signing Headliner A and signing Headliner B.
+If the booking manager signs Headliner A, the festival director then chooses between an Early slot and a Final slot.
+The Early slot leads to a final reward of 3 for the director, 3 for the booking manager, and 6 for the sponsor.
+The Final slot leads to a final reward of 1 for the director, 5 for the booking manager, and 7 for the sponsor.
+
+If the booking manager signs Headliner B under the Uptown plan, the sponsor then chooses between a Gold package and a Hospitality package.
+The Gold package leads to a final reward of 2 for the director, 0 for the booking manager, and 3 for the sponsor.
+The Hospitality package leads to a final reward of 7 for the director, 7 for the booking manager, and 2 for the sponsor.
+
+If the director chooses the Downtown plan, the booking manager then chooses between signing Artist C and signing Artist D.
+If the booking manager signs Artist D, the final reward is 6 for the director, 2 for the booking manager, and 4 for the sponsor.
+If the booking manager signs Artist C, the sponsor again chooses between the Gold package and the Hospitality package.
+At that point, the sponsor cannot tell whether this choice came after Headliner B or Artist C.
+If the sponsor picks the Gold package after Artist C, the final reward is 0 for the director, 6 for the booking manager, and 1 for the sponsor.
+If the sponsor picks the Hospitality package after Artist C, the final reward is 8 for the director, 6 for the booking manager, and 0 for the sponsor.

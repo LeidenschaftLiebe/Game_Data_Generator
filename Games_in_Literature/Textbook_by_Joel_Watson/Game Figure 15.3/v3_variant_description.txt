@@ -1,0 +1,19 @@
+V3 (museum exhibition alliance)
+
+A museum director moves first and chooses between the Urban exhibition plan and the Discovery exhibition plan.
+
+If the director chooses the Urban plan, a curator then chooses between Gallery A and Gallery B.
+If the curator chooses Gallery A, the museum director then chooses between an Evening opening and a Family opening.
+The Evening opening gives a final reward of 3 for the director, 3 for the curator, and 6 for the donor.
+The Family opening gives a final reward of 1 for the director, 5 for the curator, and 7 for the donor.
+
+If the curator chooses Gallery B under the Urban plan, the donor then chooses between a Grant upgrade and a Heritage package.
+The Grant upgrade gives a final reward of 2 for the director, 0 for the curator, and 3 for the donor.
+The Heritage package gives a final reward of 7 for the director, 7 for the curator, and 2 for the donor.
+
+If the director chooses the Discovery plan, the curator then chooses between Gallery C and Gallery D.
+If the curator chooses Gallery D, the final reward is 6 for the director, 2 for the curator, and 4 for the donor.
+If the curator chooses Gallery C, the donor again chooses between the Grant upgrade and the Heritage package.
+At that point, the donor cannot tell whether this choice came after Gallery B or Gallery C.
+If the donor chooses the Grant upgrade after Gallery C, the final reward is 0 for the director, 6 for the curator, and 1 for the donor.
+If the donor chooses the Heritage package after Gallery C, the final reward is 8 for the director, 6 for the curator, and 0 for the donor.

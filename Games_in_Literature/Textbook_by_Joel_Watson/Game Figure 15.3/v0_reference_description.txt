@@ -1,0 +1,19 @@
+V0 (use original labels)
+
+Player 1 moves first and chooses between action U and action D.
+
+If Player 1 chooses action U, then Player 2 chooses between action A and action B.
+If Player 2 chooses action A, then Player 1 chooses between action E and action F.
+If Player 1 chooses action E, the final reward is 3 for Player 1, 3 for Player 2, and 6 for Player 3.
+If Player 1 chooses action F, the final reward is 1 for Player 1, 5 for Player 2, and 7 for Player 3.
+
+If Player 2 chooses action B after U, then Player 3 chooses between action G and action H.
+If Player 3 chooses action G there, the final reward is 2 for Player 1, 0 for Player 2, and 3 for Player 3.
+If Player 3 chooses action H there, the final reward is 7 for Player 1, 7 for Player 2, and 2 for Player 3.
+
+If Player 1 chooses action D, then Player 2 chooses between action C and action D.
+If Player 2 chooses action D there, the final reward is 6 for Player 1, 2 for Player 2, and 4 for Player 3.
+If Player 2 chooses action C, then Player 3 chooses between action G and action H.
+When Player 3 makes that choice, Player 3 cannot tell whether the game reached this point after action B or after action C.
+If Player 3 chooses action G after C, the final reward is 0 for Player 1, 6 for Player 2, and 1 for Player 3.
+If Player 3 chooses action H after C, the final reward is 8 for Player 1, 6 for Player 2, and 0 for Player 3.

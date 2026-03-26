@@ -1,0 +1,19 @@
+V2 (space mission partnership)
+
+A mission commander moves first and chooses between an Orbital mission plan and a Deep-space mission plan.
+
+If the commander chooses the Orbital plan, a contractor then chooses between Module A and Module B.
+If the contractor chooses Module A, the commander then chooses between an Early launch window and a Flexible launch window.
+The Early window gives a final reward of 3 for the commander, 3 for the contractor, and 6 for the science agency.
+The Flexible window gives a final reward of 1 for the commander, 5 for the contractor, and 7 for the science agency.
+
+If the contractor chooses Module B under the Orbital plan, the science agency then chooses between a Grant expansion and a Resource cap.
+The Grant expansion gives a final reward of 2 for the commander, 0 for the contractor, and 3 for the agency.
+The Resource cap gives a final reward of 7 for the commander, 7 for the contractor, and 2 for the agency.
+
+If the commander chooses the Deep-space plan, the contractor then chooses between Module C and Module D.
+If the contractor chooses Module D, the final reward is 6 for the commander, 2 for the contractor, and 4 for the agency.
+If the contractor chooses Module C, the agency again chooses between a Grant expansion and a Resource cap.
+At that point, the agency cannot tell whether it is responding after Module B or Module C.
+If the agency chooses the Grant expansion after Module C, the final reward is 0 for the commander, 6 for the contractor, and 1 for the agency.
+If the agency chooses the Resource cap after Module C, the final reward is 8 for the commander, 6 for the contractor, and 0 for the agency.

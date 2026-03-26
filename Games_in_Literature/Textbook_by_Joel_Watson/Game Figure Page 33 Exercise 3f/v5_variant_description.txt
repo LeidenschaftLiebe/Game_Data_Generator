@@ -1,0 +1,19 @@
+V5 (fashion brand expansion)
+
+A fashion brand first chooses between strategy U and strategy D.
+The competing brand then chooses between response A and response B without knowing which strategy the first brand selected.
+
+If the competing brand chooses response A after strategy U, the first brand then chooses between follow-up option X and follow-up option Y.
+At that point, the first brand cannot tell whether the competitor had chosen response A or response B on the upper branch.
+Follow-up option X after U and A gives a final reward of 3 to the first brand and 8 to the competitor.
+Follow-up option Y after U and A gives a final reward of 8 to the first brand and 1 to the competitor.
+
+If the competing brand chooses response B after strategy U, the first brand again chooses between follow-up option X 
+and follow-up option Y at the same hidden-information point.
+Follow-up option X after U and B gives a final reward of 1 to the first brand and 2 to the competitor.
+Follow-up option Y after U and B gives a final reward of 2 to the first brand and 1 to the competitor.
+
+If the competing brand chooses response A after strategy D, the game ends with 6 for each side.
+If the competing brand chooses response B after strategy D, the first brand then chooses between closing option P and closing option Q.
+Closing option P gives a final reward of 5 to each side.
+Closing option Q gives a final reward of 0 to each side.

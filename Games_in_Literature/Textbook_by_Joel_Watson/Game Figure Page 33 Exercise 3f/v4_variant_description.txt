@@ -1,0 +1,19 @@
+V4 (movie release)
+
+A studio first chooses between release plan U and release plan D.
+The rival studio then chooses between move A and move B without knowing which release plan the first studio selected.
+
+If the rival chooses move A after release plan U, the first studio then chooses between follow-up release X and follow-up release Y.
+At that point, the first studio cannot tell whether the rival had chosen move A or move B on the upper branch.
+Follow-up release X after U and A brings a final reward of 3 to the first studio and 8 to the rival.
+Follow-up release Y after U and A brings a final reward of 8 to the first studio and 1 to the rival.
+
+If the rival chooses move B after release plan U, the first studio again chooses between follow-up release X 
+and follow-up release Y at the same hidden-information point.
+Follow-up release X after U and B brings a final reward of 1 to the first studio and 2 to the rival.
+Follow-up release Y after U and B brings a final reward of 2 to the first studio and 1 to the rival.
+
+If the rival chooses move A after release plan D, the story ends with 6 for each studio.
+If the rival chooses move B after release plan D, the first studio then chooses between closing move P and closing move Q.
+Closing move P brings a final reward of 5 to each studio.
+Closing move Q brings a final reward of 0 to each studio.

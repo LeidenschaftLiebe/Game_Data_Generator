@@ -1,0 +1,18 @@
+V3 (software launch)
+
+A software company first chooses between launch path U and launch path D.
+The competitor then chooses between response A and response B without knowing which launch path the first company selected.
+
+If the competitor chooses response A after launch path U, the first company then chooses between rollout X and rollout Y.
+At that point, the first company cannot tell whether the competitor had chosen response A or response B on the upper branch.
+Rollout X after U and A produces a final reward of 3 for the first company and 8 for the competitor.
+Rollout Y after U and A produces a final reward of 8 for the first company and 1 for the competitor.
+
+If the competitor chooses response B after launch path U, the first company again chooses between rollout X and rollout Y at the same hidden-information point.
+Rollout X after U and B produces a final reward of 1 for the first company and 2 for the competitor.
+Rollout Y after U and B produces a final reward of 2 for the first company and 1 for the competitor.
+
+If the competitor chooses response A after launch path D, the interaction ends with 6 for each side.
+If the competitor chooses response B after launch path D, the first company then chooses between closing option P and closing option Q.
+Closing option P gives a final reward of 5 to each side.
+Closing option Q gives a final reward of 0 to each side.

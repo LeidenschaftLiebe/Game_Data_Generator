@@ -1,0 +1,18 @@
+V2 (restaurant expansion)
+
+A restaurant owner first chooses between expansion option U and expansion option D.
+The rival restaurant then chooses between reaction A and reaction B without knowing which option the owner selected.
+
+If the rival chooses reaction A after option U, the owner then chooses between operating plan X and operating plan Y.
+At that stage, the owner cannot tell whether the rival had chosen reaction A or reaction B on the upper branch.
+Operating plan X after U and A leaves the owner with a final return of 3 and the rival with 8.
+Operating plan Y after U and A leaves the owner with a final return of 8 and the rival with 1.
+
+If the rival chooses reaction B after option U, the owner again chooses between operating plan X and operating plan Y at that same hidden-information point.
+Operating plan X after U and B leaves the owner with 1 and the rival with 2.
+Operating plan Y after U and B leaves the owner with 2 and the rival with 1.
+
+If the rival chooses reaction A after option D, the game ends with 6 for the owner and 6 for the rival.
+If the rival chooses reaction B after option D, the owner then chooses between closing plan P and closing plan Q.
+Closing plan P leaves both sides with 5.
+Closing plan Q leaves both sides with 0.

@@ -1,0 +1,19 @@
+V0 (use original labels)
+
+Player 1 moves first and chooses between action U and action D.
+After that, Player 2 chooses between action A and action B.
+When Player 2 makes that choice, Player 2 cannot tell whether Player 1 chose U or D.
+
+If Player 2 chooses action A after U, then Player 1 chooses between action X and action Y.
+At that later choice, Player 1 cannot tell whether Player 2 previously chose action A or action B on the upper branch.
+If Player 1 chooses action X after U and A, the final reward is 3 for Player 1 and 8 for Player 2.
+If Player 1 chooses action Y after U and A, the final reward is 8 for Player 1 and 1 for Player 2.
+
+If Player 2 chooses action B after U, then Player 1 again chooses between action X and action Y at the same information set as above.
+If Player 1 chooses action X after U and B, the final reward is 1 for Player 1 and 2 for Player 2.
+If Player 1 chooses action Y after U and B, the final reward is 2 for Player 1 and 1 for Player 2.
+
+If Player 2 chooses action A after D, the game ends immediately with 6 for Player 1 and 6 for Player 2.
+If Player 2 chooses action B after D, then Player 1 chooses between action P and action Q.
+If Player 1 chooses action P there, the final reward is 5 for Player 1 and 5 for Player 2.
+If Player 1 chooses action Q there, the final reward is 0 for Player 1 and 0 for Player 2.

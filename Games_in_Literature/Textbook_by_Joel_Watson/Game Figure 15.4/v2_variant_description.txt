@@ -1,0 +1,13 @@
+V2 (space mission design)
+
+A mission commander first chooses between the Upper-orbit mission plan and the Direct-return plan.
+If the commander chooses the Direct-return plan, the mission ends immediately and the final reward is 2 for the commander and 6 for the contractor.
+
+If the commander chooses the Upper-orbit mission plan, the commander then chooses between module design A and module design B.
+After that, the contractor chooses between support package X and support package Y.
+When the contractor makes that choice, the contractor cannot tell whether the commander previously selected module design A or module design B.
+
+If the commander chose module design A and the contractor chooses support package X, the final reward is 3 for the commander and 4 for the contractor.
+If the commander chose module design A and the contractor chooses support package Y, the final reward is 1 for the commander and 4 for the contractor.
+If the commander chose module design B and the contractor chooses support package X, the final reward is 2 for the commander and 1 for the contractor.
+If the commander chose module design B and the contractor chooses support package Y, the final reward is 2 for the commander and 0 for the contractor.

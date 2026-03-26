@@ -1,0 +1,13 @@
+V5 (wildlife documentary production)
+
+A producer first chooses between the Uplands filming plan and the Direct-sale plan.
+If the producer chooses the Direct-sale plan, the project ends immediately and the final reward is 2 for the producer and 6 for the distributor.
+
+If the producer chooses the Uplands filming plan, the producer then chooses between story cut A and story cut B.
+After that, the distributor chooses between release option X and release option Y.
+When the distributor makes that choice, the distributor cannot tell whether the producer previously selected story cut A or story cut B.
+
+If the producer chose story cut A and the distributor chooses release option X, the final reward is 3 for the producer and 4 for the distributor.
+If the producer chose story cut A and the distributor chooses release option Y, the final reward is 1 for the producer and 4 for the distributor.
+If the producer chose story cut B and the distributor chooses release option X, the final reward is 2 for the producer and 1 for the distributor.
+If the producer chose story cut B and the distributor chooses release option Y, the final reward is 2 for the producer and 0 for the distributor.

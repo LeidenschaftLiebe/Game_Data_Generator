@@ -1,0 +1,13 @@
+V3 (museum exhibition design)
+
+A museum director first chooses between the Urban-exhibit plan and the Donor-safe plan.
+If the director chooses the Donor-safe plan, the project ends immediately and the final reward is 2 for the director and 6 for the donor.
+
+If the director chooses the Urban-exhibit plan, the director then chooses between gallery design A and gallery design B.
+After that, the donor chooses between funding option X and funding option Y.
+When the donor makes that choice, the donor cannot tell whether the director previously selected gallery design A or gallery design B.
+
+If the director chose gallery design A and the donor chooses funding option X, the final reward is 3 for the director and 4 for the donor.
+If the director chose gallery design A and the donor chooses funding option Y, the final reward is 1 for the director and 4 for the donor.
+If the director chose gallery design B and the donor chooses funding option X, the final reward is 2 for the director and 1 for the donor.
+If the director chose gallery design B and the donor chooses funding option Y, the final reward is 2 for the director and 0 for the donor.

@@ -1,0 +1,13 @@
+V4 (esports tournament format)
+
+A league organizer first chooses between the Upper-bracket format and the Default format.
+If the organizer chooses the Default format, the event ends immediately and the final reward is 2 for the organizer and 6 for the sponsor.
+
+If the organizer chooses the Upper-bracket format, the organizer then chooses between arena setup A and arena setup B.
+After that, the sponsor chooses between package X and package Y.
+When the sponsor makes that choice, the sponsor cannot tell whether the organizer previously selected arena setup A or arena setup B.
+
+If the organizer chose arena setup A and the sponsor chooses package X, the final reward is 3 for the organizer and 4 for the sponsor.
+If the organizer chose arena setup A and the sponsor chooses package Y, the final reward is 1 for the organizer and 4 for the sponsor.
+If the organizer chose arena setup B and the sponsor chooses package X, the final reward is 2 for the organizer and 1 for the sponsor.
+If the organizer chose arena setup B and the sponsor chooses package Y, the final reward is 2 for the organizer and 0 for the sponsor.

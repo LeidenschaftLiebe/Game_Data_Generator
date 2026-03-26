@@ -1,0 +1,13 @@
+V1 (music festival planning)
+
+A festival director first chooses between the Uptown plan and the Downtown fallback plan.
+If the director chooses the Downtown fallback plan, the process ends immediately and the final reward is 2 for the director and 6 for the sponsor.
+
+If the director chooses the Uptown plan, the director then makes a second choice between lineup A and lineup B.
+After that, the sponsor chooses between package X and package Y.
+When the sponsor makes that choice, the sponsor cannot tell whether the director previously selected lineup A or lineup B.
+
+If the director chose lineup A and the sponsor chooses package X, the final reward is 3 for the director and 4 for the sponsor.
+If the director chose lineup A and the sponsor chooses package Y, the final reward is 1 for the director and 4 for the sponsor.
+If the director chose lineup B and the sponsor chooses package X, the final reward is 2 for the director and 1 for the sponsor.
+If the director chose lineup B and the sponsor chooses package Y, the final reward is 2 for the director and 0 for the sponsor.

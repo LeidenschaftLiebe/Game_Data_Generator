@@ -1,0 +1,21 @@
+V1 (luxury hotel expansion)
+
+A hotel owner first chooses between expansion plan A and expansion plan B.
+
+If the owner chooses expansion plan A, the operating partner then chooses between development option C and development option D.
+If the partner chooses development option C, the owner then chooses between design G and design H.
+Design G gives a final reward of 3 to the owner and 4 to the partner.
+Design H gives a final reward of 4 to the owner and 3 to the partner.
+
+If the partner chooses development option D, the owner then chooses between design I and design J.
+Design I gives a final reward of 1 to the owner and 2 to the partner.
+Design J gives a final reward of 5 to the owner and 7 to the partner.
+
+If the owner chooses expansion plan B, the operating partner then chooses between development option E and development option F.
+If the partner chooses development option E, the owner then chooses between design K and design L.
+Design K gives a final reward of 6 to the owner and 5 to the partner.
+Design L gives a final reward of 2 to the owner and 8 to the partner.
+
+If the partner chooses development option F, the owner then chooses between design M and design N.
+Design M gives a final reward of 9 to the owner and 1 to the partner.
+Design N gives a final reward of 3 to the owner and 6 to the partner.

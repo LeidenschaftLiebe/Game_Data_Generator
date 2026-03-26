@@ -1,0 +1,21 @@
+V2 (record label strategy)
+
+A record label executive first chooses between artist plan A and artist plan B.
+
+If the executive chooses artist plan A, the talent manager then chooses between contract C and contract D.
+If the manager chooses contract C, the executive then chooses between release strategy G and release strategy H.
+Release strategy G gives a final return of 3 to the executive and 4 to the manager.
+Release strategy H gives a final return of 4 to the executive and 3 to the manager.
+
+If the manager chooses contract D, the executive then chooses between release strategy I and release strategy J.
+Release strategy I gives a final return of 1 to the executive and 2 to the manager.
+Release strategy J gives a final return of 5 to the executive and 7 to the manager.
+
+If the executive chooses artist plan B, the talent manager then chooses between contract E and contract F.
+If the manager chooses contract E, the executive then chooses between release strategy K and release strategy L.
+Release strategy K gives a final return of 6 to the executive and 5 to the manager.
+Release strategy L gives a final return of 2 to the executive and 8 to the manager.
+
+If the manager chooses contract F, the executive then chooses between release strategy M and release strategy N.
+Release strategy M gives a final return of 9 to the executive and 1 to the manager.
+Release strategy N gives a final return of 3 to the executive and 6 to the manager.

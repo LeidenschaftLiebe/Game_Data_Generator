@@ -1,0 +1,21 @@
+V4 (major charity campaign)
+
+A campaign director first chooses between fundraising plan A and fundraising plan B.
+
+If the director chooses fundraising plan A, the donor-relations chief then chooses between outreach model C and outreach model D.
+If the donor-relations chief chooses outreach model C, the director then chooses between message G and message H.
+Message G gives a final reward of 3 to the director and 4 to the donor-relations chief.
+Message H gives a final reward of 4 to the director and 3 to the donor-relations chief.
+
+If the donor-relations chief chooses outreach model D, the director then chooses between message I and message J.
+Message I gives a final reward of 1 to the director and 2 to the donor-relations chief.
+Message J gives a final reward of 5 to the director and 7 to the donor-relations chief.
+
+If the director chooses fundraising plan B, the donor-relations chief then chooses between outreach model E and outreach model F.
+If the donor-relations chief chooses outreach model E, the director then chooses between message K and message L.
+Message K gives a final reward of 6 to the director and 5 to the donor-relations chief.
+Message L gives a final reward of 2 to the director and 8 to the donor-relations chief.
+
+If the donor-relations chief chooses outreach model F, the director then chooses between message M and message N.
+Message M gives a final reward of 9 to the director and 1 to the donor-relations chief.
+Message N gives a final reward of 3 to the director and 6 to the donor-relations chief.

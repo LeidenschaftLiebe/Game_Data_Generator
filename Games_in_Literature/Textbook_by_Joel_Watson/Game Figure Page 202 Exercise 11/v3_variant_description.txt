@@ -1,0 +1,21 @@
+V3 (archaeological expedition)
+
+An expedition leader first chooses between field plan A and field plan B.
+
+If the leader chooses field plan A, the logistics chief then chooses between route C and route D.
+If the logistics chief chooses route C, the leader then chooses between camp option G and camp option H.
+Camp option G gives a final reward of 3 to the leader and 4 to the logistics chief.
+Camp option H gives a final reward of 4 to the leader and 3 to the logistics chief.
+
+If the logistics chief chooses route D, the leader then chooses between camp option I and camp option J.
+Camp option I gives a final reward of 1 to the leader and 2 to the logistics chief.
+Camp option J gives a final reward of 5 to the leader and 7 to the logistics chief.
+
+If the leader chooses field plan B, the logistics chief then chooses between route E and route F.
+If the logistics chief chooses route E, the leader then chooses between camp option K and camp option L.
+Camp option K gives a final reward of 6 to the leader and 5 to the logistics chief.
+Camp option L gives a final reward of 2 to the leader and 8 to the logistics chief.
+
+If the logistics chief chooses route F, the leader then chooses between camp option M and camp option N.
+Camp option M gives a final reward of 9 to the leader and 1 to the logistics chief.
+Camp option N gives a final reward of 3 to the leader and 6 to the logistics chief.

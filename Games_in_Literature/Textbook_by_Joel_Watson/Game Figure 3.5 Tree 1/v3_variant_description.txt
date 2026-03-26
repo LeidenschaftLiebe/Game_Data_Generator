@@ -1,0 +1,7 @@
+V3 (software release)
+
+A software company first decides whether to follow launch path A or launch path B.
+If it follows launch path A, the process ends immediately and the final reward is 1 for the company and 2 for the competitor.
+If it follows launch path B, the competitor then chooses between reaction C and reaction D.
+Reaction C leads to 3 for the company and 1 for the competitor.
+Reaction D leads to 2 for the company and 4 for the competitor.

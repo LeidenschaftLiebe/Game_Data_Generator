@@ -1,0 +1,7 @@
+V0 (closest to the textbook)
+
+Player 1 moves first and chooses between action A and action B.
+If Player 1 chooses action A, the interaction ends immediately and the result is 1 for Player 1 and 2 for Player 2.
+If Player 1 chooses action B, then Player 2 chooses between action C and action D.
+If Player 2 chooses action C, the result is 3 for Player 1 and 1 for Player 2.
+If Player 2 chooses action D, the result is 2 for Player 1 and 4 for Player 2.

@@ -1,0 +1,7 @@
+V2 (restaurant expansion)
+
+A restaurant owner first decides whether to choose expansion option A or expansion option B.
+If the owner chooses option A, the matter ends immediately and the final return is 1 for the owner and 2 for the rival.
+If the owner chooses option B, the rival then chooses between response C and response D.
+Response C gives 3 to the owner and 1 to the rival.
+Response D gives 2 to the owner and 4 to the rival.

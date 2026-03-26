@@ -1,0 +1,7 @@
+V1 (project approval)
+
+A team lead first decides whether to take plan A or plan B.
+If the lead takes plan A, the process ends right away and the final reward is 1 for the lead and 2 for the reviewer.
+If the lead takes plan B, the reviewer then chooses between response C and response D.
+Response C leads to 3 for the lead and 1 for the reviewer.
+Response D leads to 2 for the lead and 4 for the reviewer.

@@ -1,0 +1,7 @@
+V4 (movie production)
+
+A studio first decides whether to go forward with option A or option B.
+If the studio chooses option A, everything ends there and the final result is 1 for the studio and 2 for the rival studio.
+If the studio chooses option B, the rival studio then chooses between move C and move D.
+Move C brings 3 to the first studio and 1 to the rival.
+Move D brings 2 to the first studio and 4 to the rival.

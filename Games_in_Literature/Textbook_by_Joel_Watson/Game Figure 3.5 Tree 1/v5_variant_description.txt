@@ -1,0 +1,7 @@
+V5 (fashion brand strategy)
+
+A fashion brand first decides whether to take strategy A or strategy B.
+If it takes strategy A, the situation ends immediately and the final return is 1 for the brand and 2 for its competitor.
+If it takes strategy B, the competitor then chooses between response C and response D.
+Response C leaves the first brand with 3 and the competitor with 1.
+Response D leaves the first brand with 2 and the competitor with 4.

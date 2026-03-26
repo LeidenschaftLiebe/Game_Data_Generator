@@ -1,0 +1,15 @@
+V1 (restaurant chain planning)
+
+A restaurant chain first chooses between expansion plan A, expansion plan B, and expansion plan C.
+If it chooses expansion plan A, a rival then chooses between response X and response Y.
+If the rival chooses X after A, the outcome is 2 for the first chain and 5 for the rival.
+If the rival chooses Y after A, the outcome is 5 for the first chain and 2 for the rival.
+
+If the first chain chooses expansion plan B, the rival again chooses between response X and response Y.
+At that point, the rival cannot tell whether it is responding after expansion plan A or expansion plan B.
+If the rival chooses X after B, the outcome is 5 for the first chain and 2 for the rival.
+If the rival chooses Y after B, the outcome is 2 for the first chain and 5 for the rival.
+
+If the first chain chooses expansion plan C, it then makes one more internal choice between operating plan W and operating plan Z.
+Operating plan W gives 2 to each side.
+Operating plan Z gives 3 to each side.

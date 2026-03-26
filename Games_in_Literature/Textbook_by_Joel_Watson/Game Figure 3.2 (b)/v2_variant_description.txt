@@ -1,0 +1,15 @@
+V2 (streaming platform strategy)
+
+A streaming platform first chooses between content strategy A, content strategy B, and content strategy C.
+If it chooses content strategy A, the rival platform then chooses between response X and response Y.
+If the rival chooses X after A, the outcome is 2 for the first platform and 5 for the rival.
+If the rival chooses Y after A, the outcome is 5 for the first platform and 2 for the rival.
+
+If the first platform chooses content strategy B, the rival again chooses between response X and response Y.
+The rival cannot tell whether the first platform chose content strategy A or content strategy B when making that choice.
+If the rival chooses X after B, the outcome is 5 for the first platform and 2 for the rival.
+If the rival chooses Y after B, the outcome is 2 for the first platform and 5 for the rival.
+
+If the first platform chooses content strategy C, it then chooses between follow-up plan W and follow-up plan Z.
+Follow-up plan W gives 2 to each side.
+Follow-up plan Z gives 3 to each side.

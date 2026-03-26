@@ -1,0 +1,15 @@
+V5 (fashion brand expansion)
+
+A fashion brand first chooses between strategy A, strategy B, and strategy C.
+If it chooses strategy A, the rival brand then chooses between response X and response Y.
+If the rival chooses X after A, the outcome is 2 for the first brand and 5 for the rival.
+If the rival chooses Y after A, the outcome is 5 for the first brand and 2 for the rival.
+
+If the first brand chooses strategy B, the rival again chooses between response X and response Y.
+The rival cannot tell whether the first brand chose strategy A or strategy B when making that choice.
+If the rival chooses X after B, the outcome is 5 for the first brand and 2 for the rival.
+If the rival chooses Y after B, the outcome is 2 for the first brand and 5 for the rival.
+
+If the first brand chooses strategy C, it then chooses between follow-up option W and follow-up option Z.
+Follow-up option W gives 2 to each side.
+Follow-up option Z gives 3 to each side.

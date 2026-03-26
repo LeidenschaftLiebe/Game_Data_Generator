@@ -1,0 +1,15 @@
+V3 (software product launch)
+
+A software company first chooses between launch path A, launch path B, and launch path C.
+If it chooses launch path A, the rival company then chooses between response X and response Y.
+If the rival chooses X after A, the outcome is 2 for the first company and 5 for the rival.
+If the rival chooses Y after A, the outcome is 5 for the first company and 2 for the rival.
+
+If the first company chooses launch path B, the rival again chooses between response X and response Y.
+The rival cannot tell whether the first company used launch path A or launch path B when making that choice.
+If the rival chooses X after B, the outcome is 5 for the first company and 2 for the rival.
+If the rival chooses Y after B, the outcome is 2 for the first company and 5 for the rival.
+
+If the first company chooses launch path C, it then chooses between support plan W and support plan Z.
+Support plan W gives 2 to each side.
+Support plan Z gives 3 to each side.

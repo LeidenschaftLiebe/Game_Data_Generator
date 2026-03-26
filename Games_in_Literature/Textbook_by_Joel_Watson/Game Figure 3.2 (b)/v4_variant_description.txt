@@ -1,0 +1,15 @@
+V4 (airline route strategy)
+
+An airline first chooses between route strategy A, route strategy B, and route strategy C.
+If it chooses route strategy A, the rival airline then chooses between response X and response Y.
+If the rival chooses X after A, the outcome is 2 for the first airline and 5 for the rival.
+If the rival chooses Y after A, the outcome is 5 for the first airline and 2 for the rival.
+
+If the first airline chooses route strategy B, the rival again chooses between response X and response Y.
+The rival cannot tell whether the first airline chose route strategy A or route strategy B when making that choice.
+If the rival chooses X after B, the outcome is 5 for the first airline and 2 for the rival.
+If the rival chooses Y after B, the outcome is 2 for the first airline and 5 for the rival.
+
+If the first airline chooses route strategy C, it then chooses between schedule plan W and schedule plan Z.
+Schedule plan W gives 2 to each side.
+Schedule plan Z gives 3 to each side.

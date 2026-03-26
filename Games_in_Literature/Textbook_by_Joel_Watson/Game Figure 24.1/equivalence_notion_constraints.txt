@@ -1,0 +1,6 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that Nature moves first and assigns Player 1 to be Friend with probability 0.5 and Enemy with probability 0.5.
+Check that Player 2’s two decision nodes after a gift are in the same information set.
+Check that if no gift is offered, the final reward is 0 for both players.

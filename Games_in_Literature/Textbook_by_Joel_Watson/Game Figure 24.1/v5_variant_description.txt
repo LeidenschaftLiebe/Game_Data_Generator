@@ -1,0 +1,17 @@
+V5 (scholarship welcome package)
+
+A student host is randomly assigned to be either supportive or mean-spirited, with probability 0.5 for each type.
+The student host knows his own type.
+
+If the host is supportive, he chooses whether to offer no welcome package or to hand over a wrapped package to a new student.
+If he offers nothing, the final reward is 0 for the host and 0 for the new student.
+If he offers the package, the new student then chooses whether to accept it or reject it.
+If the new student accepts a package from a supportive host, the final reward is 1 for the host and 1 for the new student.
+If the new student rejects a package from a supportive host, the final reward is -1 for the host and 0 for the new student.
+
+If the host is mean-spirited, he also chooses whether to offer no welcome package or to hand over a wrapped package.
+If he offers nothing, the final reward is 0 for the host and 0 for the new student.
+If he offers the package, the new student again chooses whether to accept it or reject it.
+The new student cannot tell whether the package comes from a supportive host or a mean-spirited host.
+If the new student accepts a package from a mean-spirited host, the final reward is 1 for the host and -1 for the new student.
+If the new student rejects a package from a mean-spirited host, the final reward is -1 for the host and 0 for the new student.

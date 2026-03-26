@@ -1,0 +1,17 @@
+V4 (museum mystery parcel)
+
+A museum staff member is randomly one of two types, helpful or disruptive, with probability 0.5 for each.
+The staff member knows which type he is.
+
+If the staff member is helpful, he chooses whether to hand over no parcel or to offer a wrapped parcel to a curator.
+If he hands over no parcel, the final reward is 0 for the staff member and 0 for the curator.
+If he offers the parcel, the curator then chooses whether to open it or refuse it.
+If the curator opens a parcel from a helpful staff member, the final reward is 1 for the staff member and 1 for the curator.
+If the curator refuses a parcel from a helpful staff member, the final reward is -1 for the staff member and 0 for the curator.
+
+If the staff member is disruptive, he also chooses whether to hand over no parcel or to offer a wrapped parcel.
+If he hands over no parcel, the final reward is 0 for the staff member and 0 for the curator.
+If he offers the parcel, the curator again chooses whether to open it or refuse it.
+The curator cannot tell whether the parcel comes from a helpful staff member or a disruptive staff member.
+If the curator opens a parcel from a disruptive staff member, the final reward is 1 for the staff member and -1 for the curator.
+If the curator refuses a parcel from a disruptive staff member, the final reward is -1 for the staff member and 0 for the curator.

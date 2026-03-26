@@ -1,0 +1,17 @@
+V1 (mystery snack box)
+
+A company randomly assigns a host to greet a guest, and with probability 0.5 the host is kind and with probability 0.5 the host is mischievous.
+The host knows which type he is.
+
+If the host is kind, he chooses whether to offer no snack box or to hand over a wrapped snack box.
+If he offers nothing, the final reward is 0 for the host and 0 for the guest.
+If he offers the snack box, the guest then chooses whether to open it or decline it.
+If the guest opens a box from a kind host, the final reward is 1 for the host and 1 for the guest.
+If the guest declines a box from a kind host, the final reward is -1 for the host and 0 for the guest.
+
+If the host is mischievous, he also chooses whether to offer no snack box or to hand over a wrapped snack box.
+If he offers nothing, the final reward is 0 for the host and 0 for the guest.
+If he offers the snack box, the guest again chooses whether to open it or decline it.
+The guest cannot tell whether the box comes from a kind host or a mischievous host.
+If the guest opens a box from a mischievous host, the final reward is 1 for the host and -1 for the guest.
+If the guest declines a box from a mischievous host, the final reward is -1 for the host and 0 for the guest.

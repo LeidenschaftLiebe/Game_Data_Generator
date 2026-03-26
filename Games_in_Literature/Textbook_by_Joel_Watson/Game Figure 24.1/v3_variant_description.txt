@@ -1,0 +1,17 @@
+V3 (space mission sample case)
+
+A mission control system randomly assigns an astronaut to be either cooperative or hostile, with probability 0.5 for each type.
+The astronaut knows his own type.
+
+If the astronaut is cooperative, he chooses whether to pass no sample case or to hand over a sealed sample case to a scientist.
+If he passes nothing, the final reward is 0 for the astronaut and 0 for the scientist.
+If he hands over the sealed case, the scientist then chooses whether to open it or refuse it.
+If the scientist opens a case from a cooperative astronaut, the final reward is 1 for the astronaut and 1 for the scientist.
+If the scientist refuses a case from a cooperative astronaut, the final reward is -1 for the astronaut and 0 for the scientist.
+
+If the astronaut is hostile, he also chooses whether to pass no sample case or to hand over a sealed sample case.
+If he passes nothing, the final reward is 0 for the astronaut and 0 for the scientist.
+If he hands over the case, the scientist again chooses whether to open it or refuse it.
+The scientist cannot tell whether the case comes from a cooperative astronaut or a hostile astronaut.
+If the scientist opens a case from a hostile astronaut, the final reward is 1 for the astronaut and -1 for the scientist.
+If the scientist refuses a case from a hostile astronaut, the final reward is -1 for the astronaut and 0 for the scientist.

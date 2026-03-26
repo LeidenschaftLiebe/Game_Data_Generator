@@ -1,0 +1,17 @@
+V2 (festival souvenir bag)
+
+A festival organizer is randomly assigned one of two moods, generous or prankish, with probability 0.5 for each.
+The organizer knows which mood applies.
+
+If the organizer is generous, he chooses whether to give no souvenir bag or to hand over a sealed souvenir bag to a visitor.
+If he gives no bag, the final reward is 0 for the organizer and 0 for the visitor.
+If he gives the bag, the visitor then chooses whether to accept it or turn it down.
+If the visitor accepts a bag from a generous organizer, the final reward is 1 for the organizer and 1 for the visitor.
+If the visitor turns down a bag from a generous organizer, the final reward is -1 for the organizer and 0 for the visitor.
+
+If the organizer is prankish, he chooses whether to give no souvenir bag or to hand over a sealed souvenir bag.
+If he gives no bag, the final reward is 0 for the organizer and 0 for the visitor.
+If he gives the bag, the visitor again chooses whether to accept it or turn it down.
+The visitor cannot tell whether the sealed bag comes from a generous organizer or a prankish organizer.
+If the visitor accepts a bag from a prankish organizer, the final reward is 1 for the organizer and -1 for the visitor.
+If the visitor turns down a bag from a prankish organizer, the final reward is -1 for the organizer and 0 for the visitor.

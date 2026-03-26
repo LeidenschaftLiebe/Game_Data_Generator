@@ -1,0 +1,17 @@
+V0 (closest to the book)
+
+Nature first determines whether Player 1 is a Friend or an Enemy, with probability 0.5 for each type.
+Player 1 observes this and therefore knows his own type.
+
+If Player 1 is a Friend, he chooses whether to give no gift or to offer a wrapped gift to Player 2.
+If he gives no gift, the final reward is 0 for Player 1 and 0 for Player 2.
+If he offers a gift, Player 2 then chooses whether to accept it or reject it.
+If Player 2 accepts a gift from a Friend, the final reward is 1 for Player 1 and 1 for Player 2.
+If Player 2 rejects a gift from a Friend, the final reward is -1 for Player 1 and 0 for Player 2.
+
+If Player 1 is an Enemy, he also chooses whether to give no gift or to offer a wrapped gift.
+If he gives no gift, the final reward is 0 for Player 1 and 0 for Player 2.
+If he offers a gift, Player 2 again chooses whether to accept it or reject it.
+Player 2 cannot tell whether the offer came from a Friend or an Enemy.
+If Player 2 accepts a gift from an Enemy, the final reward is 1 for Player 1 and -1 for Player 2.
+If Player 2 rejects a gift from an Enemy, the final reward is -1 for Player 1 and 0 for Player 2.

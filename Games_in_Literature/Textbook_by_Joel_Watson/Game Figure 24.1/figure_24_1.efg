@@ -1,0 +1,14 @@
+EFG 2 R "Watson Figure 24.1 - Gift Game" { "1" "2" }
+""
+
+c "" 1 "" { "Friend" 0.5 "Enemy" 0.5 } 0
+p "" 1 1 "" { "No gift" "Gift" } 0
+t "" 1 "No gift" { 0, 0 }
+p "" 2 1 "" { "Accept" "Reject" } 0
+t "" 2 "Friend gift accepted" { 1, 1 }
+t "" 3 "Friend gift rejected" { -1, 0 }
+p "" 1 2 "" { "No gift" "Gift" } 0
+t "" 1 "No gift" { 0, 0 }
+p "" 2 1 "" { "Accept" "Reject" } 0
+t "" 4 "Enemy gift accepted" { 1, -1 }
+t "" 5 "Enemy gift rejected" { -1, 0 }

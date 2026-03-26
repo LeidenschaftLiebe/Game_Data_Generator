@@ -1,0 +1,11 @@
+V1 (music tour planning)
+
+A band manager first chooses between tour plan A and tour plan B.
+
+If the manager chooses tour plan A, the concert promoter then chooses between response a and response b.
+If the promoter chooses response a, the final reward is 3 for the manager and 3 for the promoter.
+If the promoter chooses response b, the final reward is also 3 for the manager and 3 for the promoter.
+
+If the manager chooses tour plan B, the promoter then chooses between response c and response d.
+If the promoter chooses response c, the final reward is 0 for the manager and 4 for the promoter.
+If the promoter chooses response d, the final reward is 0 for the manager and 3.5 for the promoter.

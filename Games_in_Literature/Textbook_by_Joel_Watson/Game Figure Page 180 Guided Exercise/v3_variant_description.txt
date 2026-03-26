@@ -1,0 +1,11 @@
+V3 (space mission partnership)
+
+A private aerospace company first chooses between mission plan A and mission plan B.
+
+If the company chooses mission plan A, the launch partner then chooses between response a and response b.
+If the launch partner chooses response a, the final reward is 3 for the company and 3 for the launch partner.
+If the launch partner chooses response b, the final reward is also 3 for the company and 3 for the launch partner.
+
+If the company chooses mission plan B, the launch partner then chooses between response c and response d.
+If the launch partner chooses response c, the final reward is 0 for the company and 4 for the launch partner.
+If the launch partner chooses response d, the final reward is 0 for the company and 3.5 for the launch partner.

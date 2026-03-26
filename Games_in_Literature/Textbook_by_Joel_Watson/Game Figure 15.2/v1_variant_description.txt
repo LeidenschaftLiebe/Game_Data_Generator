@@ -1,0 +1,13 @@
+V1 (restaurant expansion)
+
+A restaurant owner first chooses between expansion plan U and expansion plan D.
+
+If the owner chooses expansion plan U, the rival restaurant then chooses between response A and response B.
+If the rival chooses response A, the final reward is 1 for the owner and 4 for the rival.
+If the rival chooses response B, the final reward is 5 for the owner and 2 for the rival.
+
+If the owner chooses expansion plan D, the rival then chooses between response C and response D.
+If the rival chooses response D, the final reward is 6 for the owner and 2 for the rival.
+If the rival chooses response C, the owner then chooses between follow-up move E and follow-up move F.
+Follow-up move E gives a final reward of 3 to the owner and 3 to the rival.
+Follow-up move F gives a final reward of 2 to the owner and 0 to the rival.

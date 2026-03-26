@@ -1,0 +1,13 @@
+V2 (software launch)
+
+A software company first chooses between launch path U and launch path D.
+
+If the company chooses launch path U, the competitor then chooses between response A and response B.
+If the competitor chooses response A, the final reward is 1 for the company and 4 for the competitor.
+If the competitor chooses response B, the final reward is 5 for the company and 2 for the competitor.
+
+If the company chooses launch path D, the competitor then chooses between response C and response D.
+If the competitor chooses response D, the final reward is 6 for the company and 2 for the competitor.
+If the competitor chooses response C, the company then chooses between follow-up option E and follow-up option F.
+Follow-up option E gives a final reward of 3 to the company and 3 to the competitor.
+Follow-up option F gives a final reward of 2 to the company and 0 to the competitor.

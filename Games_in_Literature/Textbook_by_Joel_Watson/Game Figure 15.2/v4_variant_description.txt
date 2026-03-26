@@ -1,0 +1,13 @@
+V4 (pharmaceutical launch)
+
+A pharmaceutical company first chooses between launch strategy U and launch strategy D.
+
+If the company chooses launch strategy U, a rival firm then chooses between reaction A and reaction B.
+If the rival chooses reaction A, the final reward is 1 for the company and 4 for the rival.
+If the rival chooses reaction B, the final reward is 5 for the company and 2 for the rival.
+
+If the company chooses launch strategy D, the rival then chooses between reaction C and reaction D.
+If the rival chooses reaction D, the final reward is 6 for the company and 2 for the rival.
+If the rival chooses reaction C, the company then chooses between follow-up move E and follow-up move F.
+Follow-up move E gives a final reward of 3 to the company and 3 to the rival.
+Follow-up move F gives a final reward of 2 to the company and 0 to the rival.

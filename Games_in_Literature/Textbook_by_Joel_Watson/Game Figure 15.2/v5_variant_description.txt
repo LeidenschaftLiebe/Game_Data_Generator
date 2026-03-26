@@ -1,0 +1,13 @@
+V5 (sports media rights)
+
+A sports network first chooses between bid strategy U and bid strategy D.
+
+If the network chooses bid strategy U, a competing broadcaster then chooses between move A and move B.
+If the broadcaster chooses move A, the final reward is 1 for the network and 4 for the broadcaster.
+If the broadcaster chooses move B, the final reward is 5 for the network and 2 for the broadcaster.
+
+If the network chooses bid strategy D, the broadcaster then chooses between move C and move D.
+If the broadcaster chooses move D, the final reward is 6 for the network and 2 for the broadcaster.
+If the broadcaster chooses move C, the network then chooses between follow-up option E and follow-up option F.
+Follow-up option E gives a final reward of 3 to the network and 3 to the broadcaster.
+Follow-up option F gives a final reward of 2 to the network and 0 to the broadcaster.

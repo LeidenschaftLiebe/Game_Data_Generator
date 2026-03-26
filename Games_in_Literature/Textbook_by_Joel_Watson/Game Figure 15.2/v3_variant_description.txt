@@ -1,0 +1,13 @@
+V3 (movie release)
+
+A studio first chooses between release plan U and release plan D.
+
+If the studio chooses release plan U, the rival studio then chooses between move A and move B.
+If the rival chooses move A, the final reward is 1 for the first studio and 4 for the rival.
+If the rival chooses move B, the final reward is 5 for the first studio and 2 for the rival.
+
+If the studio chooses release plan D, the rival then chooses between move C and move D.
+If the rival chooses move D, the final reward is 6 for the first studio and 2 for the rival.
+If the rival chooses move C, the first studio then chooses between follow-up release E and follow-up release F.
+Follow-up release E gives a final reward of 3 to the first studio and 3 to the rival.
+Follow-up release F gives a final reward of 2 to the first studio and 0 to the rival.

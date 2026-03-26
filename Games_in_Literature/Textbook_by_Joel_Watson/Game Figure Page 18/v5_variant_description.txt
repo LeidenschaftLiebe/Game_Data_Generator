@@ -1,0 +1,13 @@
+V5 (software firm entry)
+
+A software company is deciding whether to enter a market already occupied by another software firm.
+The incumbent firm observes that decision.
+If the entrant stays out, the incumbent alone decides whether to advertise its product.
+If the incumbent advertises while alone, the entrant gets 0 and the incumbent gets 4.
+If the incumbent does not advertise while alone, the entrant gets 0 and the incumbent gets 3.5.
+If the entrant does enter, then both firms decide whether to advertise their products.
+The entrant must choose without knowing whether the incumbent chose to advertise.
+If both advertise, each firm gets 3.
+If only the incumbent advertises, the entrant gets 1 and the incumbent gets 6.
+If only the entrant advertises, the entrant gets 6 and the incumbent gets 1.
+If neither advertises, each firm gets 5.

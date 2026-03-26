@@ -1,0 +1,13 @@
+V0 (closest to the book)
+
+Firm A decides whether to enter Firm B’s industry.
+Firm B observes that decision.
+If Firm A does not enter, then Firm B alone decides whether to advertise.
+If Firm B advertises while alone, Firm A gets 0 and Firm B gets 4.
+If Firm B does not advertise while alone, Firm A gets 0 and Firm B gets 3.5.
+If Firm A does enter, then the two firms choose whether to advertise.
+These advertising choices are made without Firm A knowing whether Firm B chose to advertise or not at the moment Firm A makes its own advertising decision.
+If both firms advertise, each firm gets 3.
+If Firm B advertises and Firm A does not, Firm A gets 1 and Firm B gets 6.
+If Firm A advertises and Firm B does not, Firm A gets 6 and Firm B gets 1.
+If neither firm advertises, each firm gets 5.

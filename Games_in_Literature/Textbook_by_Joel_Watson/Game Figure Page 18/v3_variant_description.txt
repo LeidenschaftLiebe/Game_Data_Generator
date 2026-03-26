@@ -1,0 +1,13 @@
+V3 (mobile app market entry)
+
+A startup is deciding whether to launch a competing app in a category dominated by an incumbent app company.
+The incumbent observes whether the startup enters.
+If the startup stays out, the incumbent alone decides whether to promote its app aggressively.
+If the incumbent advertises while alone, the startup gets 0 and the incumbent gets 4.
+If the incumbent does not advertise while alone, the startup gets 0 and the incumbent gets 3.5.
+If the startup enters, then both companies decide whether to run ad campaigns.
+The startup chooses its campaign without knowing whether the incumbent chose to advertise.
+If both advertise, each company gets 3.
+If only the incumbent advertises, the startup gets 1 and the incumbent gets 6.
+If only the startup advertises, the startup gets 6 and the incumbent gets 1.
+If neither advertises, each company gets 5.

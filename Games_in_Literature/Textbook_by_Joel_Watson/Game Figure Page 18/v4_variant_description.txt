@@ -1,0 +1,13 @@
+V4 (restaurant market entry)
+
+A restaurant group is deciding whether to open a new location in an area already served by an established restaurant.
+The established restaurant sees whether the new group enters.
+If the new group stays out, the established restaurant decides whether to advertise by itself.
+If it advertises while alone, the entrant gets 0 and the established restaurant gets 4.
+If it does not advertise while alone, the entrant gets 0 and the established restaurant gets 3.5.
+If the new group enters, then both restaurants decide whether to advertise.
+The entrant chooses whether to advertise without knowing whether the established restaurant chose to advertise.
+If both advertise, each restaurant gets 3.
+If only the established restaurant advertises, the entrant gets 1 and the established restaurant gets 6.
+If only the entrant advertises, the entrant gets 6 and the established restaurant gets 1.
+If neither advertises, each restaurant gets 5.

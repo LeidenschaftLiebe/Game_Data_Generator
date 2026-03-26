@@ -1,0 +1,13 @@
+V1 (streaming platform entry)
+
+A new streaming platform is deciding whether to enter a market already served by an established platform.
+The established platform observes that decision.
+If the new platform stays out, the established platform alone decides whether to run a major advertising campaign.
+If it advertises while alone, the new platform gets 0 and the established platform gets 4.
+If it does not advertise while alone, the new platform gets 0 and the established platform gets 3.5.
+If the new platform enters, then both platforms decide whether to launch big marketing campaigns.
+The new entrant must choose its campaign without knowing whether the established platform chose to advertise.
+If both advertise, each platform gets 3.
+If only the established platform advertises, the entrant gets 1 and the established platform gets 6.
+If only the entrant advertises, the entrant gets 6 and the established platform gets 1.
+If neither advertises, each platform gets 5.

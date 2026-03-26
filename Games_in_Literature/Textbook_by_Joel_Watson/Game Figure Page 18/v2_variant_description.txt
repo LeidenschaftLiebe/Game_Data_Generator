@@ -1,0 +1,13 @@
+V2 (coffee shop entry)
+
+A new coffee chain is deciding whether to open in a neighborhood where a local coffee shop already operates.
+The local shop sees whether the chain enters.
+If the chain stays out, the local shop decides on its own whether to advertise heavily.
+If it advertises while alone, the chain gets 0 and the local shop gets 4.
+If it does not advertise while alone, the chain gets 0 and the local shop gets 3.5.
+If the chain does open, then both coffee businesses decide whether to advertise.
+The chain must make that choice without knowing whether the local shop decided to advertise.
+If both advertise, each gets 3.
+If only the local shop advertises, the chain gets 1 and the local shop gets 6.
+If only the chain advertises, the chain gets 6 and the local shop gets 1.
+If neither advertises, each gets 5.

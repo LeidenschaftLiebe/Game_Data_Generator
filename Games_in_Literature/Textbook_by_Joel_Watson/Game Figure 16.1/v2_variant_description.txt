@@ -1,0 +1,19 @@
+V2 (space launch market entry)
+
+Two private space companies are deciding whether and how to enter a new launch-services market.
+Company 1 moves first and chooses among not entering, building a small launch site, and building a large launch site.
+
+If Company 1 does not enter, Company 2 then chooses among not entering, building a small launch site, and building a large launch site.
+If Company 2 also stays out, the final reward is 0 for Company 1 and 0 for Company 2.
+If Company 2 builds a small launch site after Company 1 stays out, the final reward is 0 for Company 1 and 30 for Company 2.
+If Company 2 builds a large launch site after Company 1 stays out, the final reward is 0 for Company 1 and 27.5 for Company 2.
+
+If Company 1 builds a small launch site, Company 2 again chooses among staying out, building a small site, and building a large site.
+If Company 2 stays out, the final reward is 30 for Company 1 and 0 for Company 2.
+If Company 2 also builds a small site, the final reward is 20 for Company 1 and 20 for Company 2.
+If Company 2 builds a large site, the final reward is -10 for Company 1 and -15 for Company 2.
+
+If Company 1 builds a large launch site, Company 2 again chooses among staying out, building a small site, and building a large site.
+If Company 2 stays out, the final reward is 27.5 for Company 1 and 0 for Company 2.
+If Company 2 builds a small site, the final reward is -15 for Company 1 and -10 for Company 2.
+If Company 2 also builds a large site, the final reward is -85 for Company 1 and -85 for Company 2.

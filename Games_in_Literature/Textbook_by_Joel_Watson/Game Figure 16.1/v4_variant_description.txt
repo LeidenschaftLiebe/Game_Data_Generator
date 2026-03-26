@@ -1,0 +1,19 @@
+V4 (pharmaceutical manufacturing capacity)
+
+Two drug manufacturers are deciding whether and how to enter a new treatment market.
+Firm 1 moves first and chooses among not entering, building a small plant, and building a large plant.
+
+If Firm 1 does not enter, Firm 2 then chooses among not entering, building a small plant, and building a large plant.
+If Firm 2 also stays out, the final reward is 0 for Firm 1 and 0 for Firm 2.
+If Firm 2 builds a small plant after Firm 1 stays out, the final reward is 0 for Firm 1 and 30 for Firm 2.
+If Firm 2 builds a large plant after Firm 1 stays out, the final reward is 0 for Firm 1 and 27.5 for Firm 2.
+
+If Firm 1 builds a small plant, Firm 2 again chooses among staying out, building a small plant, and building a large plant.
+If Firm 2 stays out, the final reward is 30 for Firm 1 and 0 for Firm 2.
+If Firm 2 also builds a small plant, the final reward is 20 for Firm 1 and 20 for Firm 2.
+If Firm 2 builds a large plant, the final reward is -10 for Firm 1 and -15 for Firm 2.
+
+If Firm 1 builds a large plant, Firm 2 again chooses among staying out, building a small plant, and building a large plant.
+If Firm 2 stays out, the final reward is 27.5 for Firm 1 and 0 for Firm 2.
+If Firm 2 builds a small plant, the final reward is -15 for Firm 1 and -10 for Firm 2.
+If Firm 2 also builds a large plant, the final reward is -85 for Firm 1 and -85 for Firm 2.

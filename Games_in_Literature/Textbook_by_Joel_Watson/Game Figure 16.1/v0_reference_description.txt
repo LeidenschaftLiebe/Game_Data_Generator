@@ -1,0 +1,20 @@
+V0 (closest to the book)
+
+Two firms are considering whether and how to enter a new industry.
+Firm 1 moves first and chooses among not entering, building a small production facility, and building a large production facility.
+These actions are labeled N, S, and L.
+
+If Firm 1 chooses N, then Firm 2 chooses among the same three options.
+If Firm 2 also chooses N, the final reward is 0 for Firm 1 and 0 for Firm 2.
+If Firm 2 chooses S after Firm 1 chose N, the final reward is 0 for Firm 1 and 30 for Firm 2.
+If Firm 2 chooses L after Firm 1 chose N, the final reward is 0 for Firm 1 and 27.5 for Firm 2.
+
+If Firm 1 chooses S, then Firm 2 again chooses among not entering, building a small facility, and building a large facility.
+If Firm 2 chooses N after Firm 1 chose S, the final reward is 30 for Firm 1 and 0 for Firm 2.
+If Firm 2 chooses S after Firm 1 chose S, the final reward is 20 for Firm 1 and 20 for Firm 2.
+If Firm 2 chooses L after Firm 1 chose S, the final reward is -10 for Firm 1 and -15 for Firm 2.
+
+If Firm 1 chooses L, then Firm 2 again chooses among not entering, building a small facility, and building a large facility.
+If Firm 2 chooses N after Firm 1 chose L, the final reward is 27.5 for Firm 1 and 0 for Firm 2.
+If Firm 2 chooses S after Firm 1 chose L, the final reward is -15 for Firm 1 and -10 for Firm 2.
+If Firm 2 chooses L after Firm 1 chose L, the final reward is -85 for Firm 1 and -85 for Firm 2.

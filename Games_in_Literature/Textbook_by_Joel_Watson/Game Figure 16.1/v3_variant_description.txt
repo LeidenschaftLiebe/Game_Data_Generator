@@ -1,0 +1,19 @@
+V3 (theme park resort expansion)
+
+Two entertainment groups are deciding whether and how to enter a new tourism market.
+Group 1 moves first and chooses among staying out, building a small resort, and building a large resort.
+
+If Group 1 stays out, Group 2 then chooses among staying out, building a small resort, and building a large resort.
+If Group 2 also stays out, the final reward is 0 for Group 1 and 0 for Group 2.
+If Group 2 builds a small resort after Group 1 stays out, the final reward is 0 for Group 1 and 30 for Group 2.
+If Group 2 builds a large resort after Group 1 stays out, the final reward is 0 for Group 1 and 27.5 for Group 2.
+
+If Group 1 builds a small resort, Group 2 again chooses among staying out, building a small resort, and building a large resort.
+If Group 2 stays out, the final reward is 30 for Group 1 and 0 for Group 2.
+If Group 2 also builds a small resort, the final reward is 20 for Group 1 and 20 for Group 2.
+If Group 2 builds a large resort, the final reward is -10 for Group 1 and -15 for Group 2.
+
+If Group 1 builds a large resort, Group 2 again chooses among staying out, building a small resort, and building a large resort.
+If Group 2 stays out, the final reward is 27.5 for Group 1 and 0 for Group 2.
+If Group 2 builds a small resort, the final reward is -15 for Group 1 and -10 for Group 2.
+If Group 2 also builds a large resort, the final reward is -85 for Group 1 and -85 for Group 2.

@@ -1,0 +1,19 @@
+V5 (data center capacity race)
+
+Two cloud providers are deciding whether and how to enter a new enterprise region.
+Provider 1 moves first and chooses among staying out, building a small data center, and building a large data center.
+
+If Provider 1 stays out, Provider 2 then chooses among staying out, building a small data center, and building a large data center.
+If Provider 2 also stays out, the final reward is 0 for Provider 1 and 0 for Provider 2.
+If Provider 2 builds a small data center after Provider 1 stays out, the final reward is 0 for Provider 1 and 30 for Provider 2.
+If Provider 2 builds a large data center after Provider 1 stays out, the final reward is 0 for Provider 1 and 27.5 for Provider 2.
+
+If Provider 1 builds a small data center, Provider 2 again chooses among staying out, building a small data center, and building a large data center.
+If Provider 2 stays out, the final reward is 30 for Provider 1 and 0 for Provider 2.
+If Provider 2 also builds a small data center, the final reward is 20 for Provider 1 and 20 for Provider 2.
+If Provider 2 builds a large data center, the final reward is -10 for Provider 1 and -15 for Provider 2.
+
+If Provider 1 builds a large data center, Provider 2 again chooses among staying out, building a small data center, and building a large data center.
+If Provider 2 stays out, the final reward is 27.5 for Provider 1 and 0 for Provider 2.
+If Provider 2 builds a small data center, the final reward is -15 for Provider 1 and -10 for Provider 2.
+If Provider 2 also builds a large data center, the final reward is -85 for Provider 1 and -85 for Provider 2.

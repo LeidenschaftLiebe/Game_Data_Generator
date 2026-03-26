@@ -1,0 +1,19 @@
+V1 (streaming platform infrastructure race)
+
+Two streaming companies are deciding whether and how to expand into a new regional market.
+Company 1 moves first and chooses among staying out, building a small server cluster, and building a large server cluster.
+
+If Company 1 stays out, Company 2 then chooses among staying out, building a small cluster, and building a large cluster.
+If Company 2 also stays out, the final reward is 0 for Company 1 and 0 for Company 2.
+If Company 2 builds a small cluster after Company 1 stays out, the final reward is 0 for Company 1 and 30 for Company 2.
+If Company 2 builds a large cluster after Company 1 stays out, the final reward is 0 for Company 1 and 27.5 for Company 2.
+
+If Company 1 builds a small cluster, Company 2 again chooses among staying out, building a small cluster, and building a large cluster.
+If Company 2 stays out, the final reward is 30 for Company 1 and 0 for Company 2.
+If Company 2 also builds a small cluster, the final reward is 20 for Company 1 and 20 for Company 2.
+If Company 2 builds a large cluster, the final reward is -10 for Company 1 and -15 for Company 2.
+
+If Company 1 builds a large cluster, Company 2 again chooses among staying out, building a small cluster, and building a large cluster.
+If Company 2 stays out, the final reward is 27.5 for Company 1 and 0 for Company 2.
+If Company 2 builds a small cluster, the final reward is -15 for Company 1 and -10 for Company 2.
+If Company 2 also builds a large cluster, the final reward is -85 for Company 1 and -85 for Company 2.

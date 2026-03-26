@@ -1,0 +1,12 @@
+V1 (market entry)
+
+A firm first decides between expansion plan U and expansion plan D.
+If it chooses expansion plan U, the rival firm then chooses between response A and response B.
+If the rival chooses response A, the final reward is 3 for the first firm and 3 for the rival.
+If the rival chooses response B, the final reward is 5 for the first firm and 4 for the rival.
+
+If the first firm chooses expansion plan D, the rival then chooses between response C and response D.
+If the rival chooses response D, the final return is 2 for the first firm and 2 for the rival.
+If the rival chooses response C, the first firm then chooses between follow-up move E and follow-up move F.
+Follow-up move E leads to 6 for the first firm and 2 for the rival.
+Follow-up move F leads to 2 for the first firm and 6 for the rival.

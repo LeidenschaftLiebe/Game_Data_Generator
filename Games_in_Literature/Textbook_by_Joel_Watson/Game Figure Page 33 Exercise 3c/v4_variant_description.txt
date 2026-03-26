@@ -1,0 +1,12 @@
+V4 (movie release)
+
+A studio first decides between release plan U and release plan D.
+If it chooses release plan U, the rival studio then chooses between reaction A and reaction B.
+If the rival chooses reaction A, the final return is 3 for the first studio and 3 for the rival.
+If the rival chooses reaction B, the final return is 5 for the first studio and 4 for the rival.
+
+If the first studio chooses release plan D, the rival then chooses between reaction C and reaction D.
+If the rival chooses reaction D, the final result is 2 for the first studio and 2 for the rival.
+If the rival chooses reaction C, the first studio then chooses between follow-up move E and follow-up move F.
+Follow-up move E leads to 6 for the first studio and 2 for the rival.
+Follow-up move F leads to 2 for the first studio and 6 for the rival.

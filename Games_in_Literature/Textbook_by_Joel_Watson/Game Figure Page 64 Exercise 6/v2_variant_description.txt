@@ -1,0 +1,13 @@
+V2 (cybersecurity response)
+
+A security lead first chooses between response plan A, response plan B, and response plan C.
+If the security lead chooses response plan C, the situation ends immediately and each side gets a final reward of 1.
+
+If the security lead chooses response plan A, an outside contractor then chooses between action X and action Y.
+If the contractor chooses action X after response plan A, the security lead gets 3 and the contractor gets 0.
+If the contractor chooses action Y after response plan A, the security lead gets 0 and the contractor gets 3.
+
+If the security lead chooses response plan B, the contractor again chooses between action X and action Y.
+When making that choice, the contractor cannot tell whether the earlier decision was response plan A or response plan B.
+If the contractor chooses action X after response plan B, the security lead gets 0 and the contractor gets 3.
+If the contractor chooses action Y after response plan B, the security lead gets 3 and the contractor gets 0.

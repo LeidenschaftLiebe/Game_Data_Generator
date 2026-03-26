@@ -1,0 +1,13 @@
+V5 (sports media rights)
+
+A sports network first chooses between bid strategy A, bid strategy B, and bid strategy C.
+If the network chooses bid strategy C, the contest ends immediately and each side gets a final reward of 1.
+
+If the network chooses bid strategy A, a competing broadcaster then chooses between move X and move Y.
+If the broadcaster chooses move X after bid strategy A, the first network gets 3 and the broadcaster gets 0.
+If the broadcaster chooses move Y after bid strategy A, the first network gets 0 and the broadcaster gets 3.
+
+If the network chooses bid strategy B, the broadcaster again chooses between move X and move Y.
+At that point, the broadcaster cannot tell whether the first network previously chose bid strategy A or bid strategy B.
+If the broadcaster chooses move X after bid strategy B, the first network gets 0 and the broadcaster gets 3.
+If the broadcaster chooses move Y after bid strategy B, the first network gets 3 and the broadcaster gets 0.

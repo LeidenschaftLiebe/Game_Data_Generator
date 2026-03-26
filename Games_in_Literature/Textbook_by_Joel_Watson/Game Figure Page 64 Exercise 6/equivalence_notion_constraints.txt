@@ -1,0 +1,5 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that Player 2’s two decision nodes after action A and action B are in the same information set.
+Check that if Player 1 chooses action C, the final reward is 1 for Player 1 and 1 for Player 2.

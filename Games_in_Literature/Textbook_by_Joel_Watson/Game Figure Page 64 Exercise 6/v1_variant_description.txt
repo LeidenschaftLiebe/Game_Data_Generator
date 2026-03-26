@@ -1,0 +1,13 @@
+V1 (music festival planning)
+
+A festival organizer first chooses between lineup plan A, lineup plan B, and lineup plan C.
+If the organizer chooses lineup plan C, the planning process ends immediately and each side gets a final reward of 1.
+
+If the organizer chooses lineup plan A, a headline sponsor then chooses between response X and response Y.
+If the sponsor chooses response X after lineup plan A, the organizer gets 3 and the sponsor gets 0.
+If the sponsor chooses response Y after lineup plan A, the organizer gets 0 and the sponsor gets 3.
+
+If the organizer chooses lineup plan B, the sponsor again chooses between response X and response Y.
+At that point, the sponsor cannot tell whether the organizer had selected lineup plan A or lineup plan B.
+If the sponsor chooses response X after lineup plan B, the organizer gets 0 and the sponsor gets 3.
+If the sponsor chooses response Y after lineup plan B, the organizer gets 3 and the sponsor gets 0.

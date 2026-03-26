@@ -1,0 +1,8 @@
+V2 (online course platforms)
+
+Two online course platforms are competing for the same group of learners.
+Each platform must decide on its tuition level without seeing the other platform’s decision in advance.
+If both platforms charge a premium tuition, each earns 1 million.
+If Platform 1 charges premium tuition while Platform 2 discounts, Platform 1 earns nothing and Platform 2 earns 2 million.
+If Platform 1 discounts while Platform 2 stays premium, Platform 1 earns 2 million and Platform 2 earns nothing.
+If both discount, they divide the market more evenly and each earns 0.5 million.

@@ -1,0 +1,8 @@
+V0 (closest to the book)
+
+Two firms sell the same product and compete by choosing either a high price or a low price.
+The choices are made at the same time, so neither firm gets to see the other’s price before making its own decision.
+If both firms choose a high price, they do equally well and each earns 1 million.
+If Firm 1 chooses a high price while Firm 2 chooses a low price, Firm 1 earns nothing and Firm 2 earns 2 million.
+If Firm 1 chooses a low price while Firm 2 chooses a high price, Firm 1 earns 2 million and Firm 2 earns nothing.
+If both firms choose low prices, competition is tougher and they split the market more evenly, so each earns 0.5 million.

@@ -1,0 +1,8 @@
+V1 (ride-hailing apps)
+
+Two ride-hailing apps are setting prices for a busy weekend.
+Each app must lock in its pricing policy without knowing what the other app will do.
+If both apps choose high surge pricing, each earns 1 million.
+If App 1 keeps prices high while App 2 goes with a low surge, App 1 loses riders and earns nothing while App 2 earns 2 million.
+If App 1 uses a low surge while App 2 keeps prices high, App 1 captures more demand and earns 2 million while App 2 earns nothing.
+If both apps keep prices low, they split the market and each makes 0.5 million.

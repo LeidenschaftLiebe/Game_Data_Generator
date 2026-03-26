@@ -1,0 +1,8 @@
+V5 (hotel booking platforms)
+
+Two hotel-booking platforms are competing for the same travelers.
+Each platform chooses whether to keep booking fees high or low, and each does so without seeing the other platform’s choice first.
+If both platforms keep fees high, each earns 1 million.
+If Platform 1 keeps fees high while Platform 2 lowers its fees, Platform 1 earns nothing and Platform 2 earns 2 million.
+If Platform 1 lowers its fees while Platform 2 keeps them high, Platform 1 earns 2 million and Platform 2 earns nothing.
+If both platforms lower fees, neither gains a strong advantage and each earns 0.5 million.

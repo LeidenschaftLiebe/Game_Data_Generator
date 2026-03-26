@@ -1,0 +1,8 @@
+V4 (airlines on the same route)
+
+Two airlines are pricing tickets on the same route.
+Each airline must choose its fare without observing the other airline’s fare in advance.
+If both airlines keep fares high, each earns 1 million.
+If Airline 1 keeps a high fare while Airline 2 cuts fares, Airline 1 earns nothing and Airline 2 earns 2 million.
+If Airline 1 cuts fares while Airline 2 stays high, Airline 1 earns 2 million and Airline 2 earns nothing.
+If both cut fares, profits are squeezed and each airline earns 0.5 million.

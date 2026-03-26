@@ -1,0 +1,8 @@
+V3 (coffee chains)
+
+Two coffee chains are competing for the same morning customers.
+Each chain sets its prices before knowing what the other chain has decided.
+If both chains go with high prices, each earns 1 million.
+If Chain 1 keeps prices high while Chain 2 undercuts with low prices, Chain 1 earns nothing and Chain 2 earns 2 million.
+If Chain 1 goes low while Chain 2 stays high, Chain 1 earns 2 million and Chain 2 earns nothing.
+If both chains go low, they split the customer base more evenly and each ends up with 0.5 million.

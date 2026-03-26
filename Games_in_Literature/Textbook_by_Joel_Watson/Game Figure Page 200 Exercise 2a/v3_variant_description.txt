@@ -1,0 +1,17 @@
+V3 (theme park attraction design)
+
+A park director first chooses between the waterfront expansion and the central-park expansion.
+
+If the director chooses the waterfront expansion, the operations chief then chooses between design branch Alpha and design branch Beta.
+If the operations chief chooses design branch Alpha, the director then chooses between ride concept X and ride concept Y.
+When making that choice, the director cannot tell whether the operations chief previously selected branch Alpha or branch Beta.
+Ride concept X after branch Alpha gives a final reward of 3 to the director and 0 to the operations chief.
+Ride concept Y after branch Alpha gives a final reward of 8 to the director and 5 to the operations chief.
+
+If the operations chief chooses design branch Beta, the director again chooses between ride concept X and ride concept Y at that same hidden-information point.
+Ride concept X after branch Beta gives a final reward of 4 to the director and 6 to the operations chief.
+Ride concept Y after branch Beta gives a final reward of 2 to the director and 1 to the operations chief.
+
+If the director chooses the central-park expansion, the operations chief then chooses between construction option C and construction option D.
+Construction option C gives a final reward of 6 to the director and 4 to the operations chief.
+Construction option D gives a final reward of 3 to the director and 2 to the operations chief.

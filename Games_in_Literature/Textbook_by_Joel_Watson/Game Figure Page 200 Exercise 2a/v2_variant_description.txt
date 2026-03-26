@@ -1,0 +1,17 @@
+V2 (museum acquisition campaign)
+
+A museum director first chooses between the world-tour campaign and the focused-gallery campaign.
+
+If the director chooses the world-tour campaign, the acquisitions head then chooses between collector network Alpha and collector network Beta.
+If the acquisitions head chooses collector network Alpha, the director then chooses between exhibit format X and exhibit format Y.
+When making that choice, the director cannot tell whether the acquisitions head previously selected network Alpha or network Beta.
+Exhibit format X after network Alpha gives a final reward of 3 to the director and 0 to the acquisitions head.
+Exhibit format Y after network Alpha gives a final reward of 8 to the director and 5 to the acquisitions head.
+
+If the acquisitions head chooses collector network Beta, the director again chooses between exhibit format X and exhibit format Y at that same hidden-information point.
+Exhibit format X after network Beta gives a final reward of 4 to the director and 6 to the acquisitions head.
+Exhibit format Y after network Beta gives a final reward of 2 to the director and 1 to the acquisitions head.
+
+If the director chooses the focused-gallery campaign, the acquisitions head then chooses between package C and package D.
+Package C gives a final reward of 6 to the director and 4 to the acquisitions head.
+Package D gives a final reward of 3 to the director and 2 to the acquisitions head.

@@ -1,0 +1,17 @@
+V1 (ocean exploration mission)
+
+A mission leader first chooses between the wide-search plan and the zone-search plan.
+
+If the leader chooses the wide-search plan, the navigation chief then chooses between route Alpha and route Beta.
+If the navigation chief chooses route Alpha, the mission leader then chooses between instrument package X and instrument package Y.
+When making that choice, the mission leader cannot tell whether the navigation chief previously selected route Alpha or route Beta.
+Instrument package X after route Alpha gives a final reward of 3 to the mission leader and 0 to the navigation chief.
+Instrument package Y after route Alpha gives a final reward of 8 to the mission leader and 5 to the navigation chief.
+
+If the navigation chief chooses route Beta, the mission leader again chooses between instrument package X and instrument package Y at that same hidden-information point.
+Instrument package X after route Beta gives a final reward of 4 to the mission leader and 6 to the navigation chief.
+Instrument package Y after route Beta gives a final reward of 2 to the mission leader and 1 to the navigation chief.
+
+If the leader chooses the zone-search plan, the navigation chief then chooses between sector C and sector D.
+Sector C gives a final reward of 6 to the mission leader and 4 to the navigation chief.
+Sector D gives a final reward of 3 to the mission leader and 2 to the navigation chief.

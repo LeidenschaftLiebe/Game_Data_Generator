@@ -1,0 +1,17 @@
+V5 (high-end travel planning)
+
+A travel designer first chooses between the world-journey package and the zone-journey package.
+
+If the designer chooses the world-journey package, the local coordinator then chooses between itinerary Alpha and itinerary Beta.
+If the coordinator chooses itinerary Alpha, the designer then chooses between service tier X and service tier Y.
+When making that choice, the designer cannot tell whether the coordinator previously selected itinerary Alpha or itinerary Beta.
+Service tier X after itinerary Alpha gives a final reward of 3 to the designer and 0 to the coordinator.
+Service tier Y after itinerary Alpha gives a final reward of 8 to the designer and 5 to the coordinator.
+
+If the coordinator chooses itinerary Beta, the designer again chooses between service tier X and service tier Y at that same hidden-information point.
+Service tier X after itinerary Beta gives a final reward of 4 to the designer and 6 to the coordinator.
+Service tier Y after itinerary Beta gives a final reward of 2 to the designer and 1 to the coordinator.
+
+If the designer chooses the zone-journey package, the coordinator then chooses between lodging set C and lodging set D.
+Lodging set C gives a final reward of 6 to the designer and 4 to the coordinator.
+Lodging set D gives a final reward of 3 to the designer and 2 to the coordinator.

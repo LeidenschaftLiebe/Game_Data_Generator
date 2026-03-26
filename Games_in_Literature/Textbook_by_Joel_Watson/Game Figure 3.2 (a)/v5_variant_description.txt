@@ -1,0 +1,18 @@
+V5 (cybersecurity response)
+
+A security lead moves first and chooses between response plan U and response plan D.
+If the security lead chooses response plan U, an operations manager then chooses between procedure A and procedure B.
+If the operations manager chooses procedure A, an incident specialist then chooses between action R and action T.
+Action R leads to 9 for the security lead, 2 for the operations manager, and 5 for the incident specialist.
+Action T leads to 2 for the security lead, 4 for the operations manager, and 4 for the incident specialist.
+If the operations manager chooses procedure B, the incident specialist chooses between action P and action Q.
+
+Action P leads to 0 for the security lead, 5 for the operations manager, and 4 for the incident specialist.
+Action Q leads to 3 for the security lead, 0 for the operations manager, and 0 for the incident specialist.
+If the security lead chooses response plan D, the operations manager chooses between procedure C and procedure E.
+Procedure E ends immediately with 6 for the security lead, 3 for the operations manager, and 2 for the incident specialist.
+If the operations manager chooses procedure C, the incident specialist again chooses between action P and action Q.
+
+The incident specialist cannot tell whether this final choice comes after procedure B or procedure C.
+If the incident specialist chooses P after procedure C, the outcome is 2 for the security lead, 2 for the operations manager, and 2 for the incident specialist.
+If the incident specialist chooses Q after procedure C, the outcome is 1 for the security lead, 2 for the operations manager, and 2 for the incident specialist.

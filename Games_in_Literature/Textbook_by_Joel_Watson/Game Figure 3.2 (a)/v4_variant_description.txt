@@ -1,0 +1,18 @@
+V4 (research collaboration)
+
+A lead researcher moves first and chooses between research path U and research path D.
+If the lead researcher chooses research path U, a collaborator then chooses between design A and design B.
+If the collaborator chooses design A, a third researcher then chooses between method R and method T.
+Method R leads to 9 for the lead researcher, 2 for the collaborator, and 5 for the third researcher.
+Method T leads to 2 for the lead researcher, 4 for the collaborator, and 4 for the third researcher.
+If the collaborator chooses design B, the third researcher chooses between method P and method Q.
+
+Method P leads to 0 for the lead researcher, 5 for the collaborator, and 4 for the third researcher.
+Method Q leads to 3 for the lead researcher, 0 for the collaborator, and 0 for the third researcher.
+If the lead researcher chooses research path D, the collaborator chooses between design C and design E.
+Design E ends immediately with 6 for the lead researcher, 3 for the collaborator, and 2 for the third researcher.
+If the collaborator chooses design C, the third researcher again chooses between method P and method Q.
+
+The third researcher cannot tell whether this final choice comes after design B or design C.
+If the third researcher chooses P after design C, the outcome is 2 for the lead researcher, 2 for the collaborator, and 2 for the third researcher.
+If the third researcher chooses Q after design C, the outcome is 1 for the lead researcher, 2 for the collaborator, and 2 for the third researcher.

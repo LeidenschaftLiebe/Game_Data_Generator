@@ -1,0 +1,18 @@
+V2 (movie studio negotiation)
+
+A studio head moves first and chooses between production plan U and production plan D.
+If the studio head chooses production plan U, a producer then chooses between deal A and deal B.
+If the producer chooses deal A, a distributor then chooses between release option R and release option T.
+Release option R leads to 9 for the studio head, 2 for the producer, and 5 for the distributor.
+Release option T leads to 2 for the studio head, 4 for the producer, and 4 for the distributor.
+If the producer chooses deal B, the distributor chooses between release option P and release option Q.
+
+Release option P leads to 0 for the studio head, 5 for the producer, and 4 for the distributor.
+Release option Q leads to 3 for the studio head, 0 for the producer, and 0 for the distributor.
+If the studio head chooses production plan D, the producer chooses between deal C and deal E.
+Deal E ends immediately with 6 for the studio head, 3 for the producer, and 2 for the distributor.
+If the producer chooses deal C, the distributor again chooses between release option P and release option Q.
+
+At that point, the distributor cannot tell whether it is responding after deal B or after deal C.
+If the distributor chooses P after deal C, the outcome is 2 for the studio head, 2 for the producer, and 2 for the distributor.
+If the distributor chooses Q after deal C, the outcome is 1 for the studio head, 2 for the producer, and 2 for the distributor.

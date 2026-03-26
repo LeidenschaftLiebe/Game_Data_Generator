@@ -1,0 +1,18 @@
+V1 (venture funding and partnerships)
+
+A founder moves first and chooses between expansion path U and contraction path D.
+If the founder chooses expansion path U, an investor then chooses between proposal A and proposal B.
+If the investor chooses proposal A, an outside partner then chooses between response R and response T.
+Response R leads to 9 for the founder, 2 for the investor, and 5 for the outside partner.
+Response T leads to 2 for the founder, 4 for the investor, and 4 for the outside partner.
+If the investor chooses proposal B, the outside partner chooses between response P and response Q.
+
+Response P leads to 0 for the founder, 5 for the investor, and 4 for the outside partner.
+Response Q leads to 3 for the founder, 0 for the investor, and 0 for the outside partner.
+If the founder chooses contraction path D instead, the investor chooses between proposal C and proposal E.
+Proposal E ends the game immediately with 6 for the founder, 3 for the investor, and 2 for the outside partner.
+If the investor chooses proposal C, the outside partner again chooses between response P and response Q.
+
+The outside partner does not know whether this P-or-Q decision came after proposal B or proposal C.
+If the outside partner chooses P after proposal C, the outcome is 2 for the founder, 2 for the investor, and 2 for the outside partner.
+If the outside partner chooses Q after proposal C, the outcome is 1 for the founder, 2 for the investor, and 2 for the outside partner.

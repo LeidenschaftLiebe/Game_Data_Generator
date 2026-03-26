@@ -1,0 +1,10 @@
+V2 (law firms)
+
+A law firm first decides whether to pursue a case aggressively, handle it passively, or leave the market segment entirely.
+If it leaves, the game ends immediately and that firm gets 0 while the rival firm gets 4.
+If it stays, the rival firm then chooses whether to take an aggressive legal posture or a passive one.
+The rival knows that the first firm remained in the market, but does not know whether the first firm chose the aggressive or passive posture.
+If both firms are aggressive, each gets 3.
+If Firm 1 is aggressive and Firm 2 is passive, Firm 1 gets 4 and Firm 2 gets 2.
+If Firm 1 is passive and Firm 2 is aggressive, Firm 1 gets 2 and Firm 2 gets 4.
+If both firms are passive, each gets 2.

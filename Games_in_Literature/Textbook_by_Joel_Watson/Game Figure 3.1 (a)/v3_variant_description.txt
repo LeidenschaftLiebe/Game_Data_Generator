@@ -1,0 +1,10 @@
+V3 (restaurant chains)
+
+A restaurant chain first decides whether to compete aggressively in a neighborhood, take a quieter approach, or stay out entirely.
+If it stays out, the game ends immediately and that chain gets 0 while the existing rival gets 4.
+If it enters, the rival restaurant then decides whether to be aggressive or passive.
+The rival knows that entry happened, but does not know whether the entrant came in aggressively or passively.
+If both chains compete aggressively, each gets 3.
+If Chain 1 is aggressive and Chain 2 is passive, Chain 1 gets 4 and Chain 2 gets 2.
+If Chain 1 is passive and Chain 2 is aggressive, Chain 1 gets 2 and Chain 2 gets 4.
+If both chains stay passive, each gets 2.

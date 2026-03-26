@@ -1,0 +1,10 @@
+V1 (smartphone brands)
+
+A smartphone brand first decides whether to fight aggressively for a market, compete more softly, or withdraw from that market altogether.
+If it withdraws, the game ends immediately and the withdrawing brand gets 0 while the rival gets 4.
+If it stays in, the rival brand then chooses whether to take an aggressive stance or a passive stance.
+The rival knows that the first brand stayed in, but does not know whether it chose the aggressive or passive approach.
+If both brands fight aggressively, each gets 3.
+If Brand 1 is aggressive and Brand 2 is passive, Brand 1 gets 4 and Brand 2 gets 2.
+If Brand 1 is passive and Brand 2 is aggressive, Brand 1 gets 2 and Brand 2 gets 4.
+If both brands stay passive, each gets 2.

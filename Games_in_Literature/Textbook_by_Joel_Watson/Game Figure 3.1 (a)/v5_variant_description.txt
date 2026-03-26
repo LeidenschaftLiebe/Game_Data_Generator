@@ -1,0 +1,10 @@
+V5 (coffee chains)
+
+A coffee chain first decides whether to compete aggressively, compete passively, or leave a local market to its rival.
+If it leaves, the game ends immediately and that chain gets 0 while the rival chain gets 4.
+If it stays, the rival chain then chooses whether to be aggressive or passive.
+The rival knows the first chain stayed in the market, but does not know whether it chose the aggressive or passive stance.
+If both chains are aggressive, each gets 3.
+If Chain 1 is aggressive and Chain 2 is passive, Chain 1 gets 4 and Chain 2 gets 2.
+If Chain 1 is passive and Chain 2 is aggressive, Chain 1 gets 2 and Chain 2 gets 4.
+If both chains are passive, each gets 2.

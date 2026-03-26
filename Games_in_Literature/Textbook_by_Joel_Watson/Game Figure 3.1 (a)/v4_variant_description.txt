@@ -1,0 +1,10 @@
+V4 (streaming platforms)
+
+A streaming platform first decides whether to compete aggressively, compete passively, or leave a content category to its rival.
+If it leaves, the game ends immediately and the leaving platform gets 0 while the rival gets 4.
+If it stays, the rival platform then chooses whether to behave aggressively or passively.
+The rival knows the first platform stayed in the category, but does not know whether it chose the aggressive or passive approach.
+If both platforms are aggressive, each gets 3.
+If Platform 1 is aggressive and Platform 2 is passive, Platform 1 gets 4 and Platform 2 gets 2.
+If Platform 1 is passive and Platform 2 is aggressive, Platform 1 gets 2 and Platform 2 gets 4.
+If both platforms are passive, each gets 2.

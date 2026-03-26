@@ -1,0 +1,10 @@
+V0 (closest to the book)
+
+Firm 1 first decides whether to be aggressive in the market, passive in the market, or leave the market.
+If Firm 1 leaves, the game ends immediately and Firm 1 gets 0 while Firm 2 gets 4.
+If Firm 1 stays in, Firm 2 then chooses whether to be aggressive or passive.
+Firm 2 knows that Firm 1 stayed in, but does not know whether Firm 1 chose aggressive or passive when making its own choice.
+If both firms are aggressive, each gets 3.
+If Firm 1 is aggressive and Firm 2 is passive, Firm 1 gets 4 and Firm 2 gets 2.
+If Firm 1 is passive and Firm 2 is aggressive, Firm 1 gets 2 and Firm 2 gets 4.
+If both firms are passive, each gets 2.

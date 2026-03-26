@@ -1,0 +1,16 @@
+V1 (market entry)
+
+A firm first chooses between expansion path U and expansion path D.
+The rival firm then chooses between response A and response B, without knowing which path the first firm selected.
+
+If the rival chooses response A after expansion path U, the game ends with 3 for the first firm and 3 for the rival.
+
+If the rival chooses response B after expansion path U, the first firm then chooses between follow-up move X and follow-up move Y.
+Follow-up move X gives a final reward of 5 to the first firm and 1 to the rival.
+Follow-up move Y gives a final reward of 3 to the first firm and 6 to the rival.
+
+If the rival chooses response A after expansion path D, the first firm then chooses between follow-up move W and follow-up move Z.
+Follow-up move W gives a final reward of 4 to the first firm and 2 to the rival.
+Follow-up move Z gives a final reward of 9 to the first firm and 0 to the rival.
+
+If the rival chooses response B after expansion path D, the game ends with 2 for the first firm and 2 for the rival.

@@ -1,0 +1,16 @@
+V3 (software launch)
+
+A software company first chooses between launch path U and launch path D.
+The competitor then chooses between response A and response B, without knowing which launch path the first company selected.
+
+If the competitor chooses response A after launch path U, the interaction ends with 3 for the first company and 3 for the competitor.
+
+If the competitor chooses response B after launch path U, the first company then chooses between rollout X and rollout Y.
+Rollout X produces a final reward of 5 for the first company and 1 for the competitor.
+Rollout Y produces a final reward of 3 for the first company and 6 for the competitor.
+
+If the competitor chooses response A after launch path D, the first company then chooses between rollout W and rollout Z.
+Rollout W gives 4 to the first company and 2 to the competitor.
+Rollout Z gives 9 to the first company and 0 to the competitor.
+
+If the competitor chooses response B after launch path D, the interaction ends with 2 for the first company and 2 for the competitor.

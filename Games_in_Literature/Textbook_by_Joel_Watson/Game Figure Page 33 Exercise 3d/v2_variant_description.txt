@@ -1,0 +1,16 @@
+V2 (restaurant expansion)
+
+A restaurant owner first chooses between expansion option U and expansion option D.
+The rival restaurant then chooses between reaction A and reaction B without knowing which expansion option was chosen.
+
+If the rival chooses reaction A after option U, the game ends with 3 for the owner and 3 for the rival.
+
+If the rival chooses reaction B after option U, the owner then chooses between operating plan X and operating plan Y.
+Operating plan X leaves the owner with a final return of 5 and the rival with 1.
+Operating plan Y leaves the owner with a final return of 3 and the rival with 6.
+
+If the rival chooses reaction A after option D, the owner then chooses between operating plan W and operating plan Z.
+Operating plan W leaves the owner with 4 and the rival with 2.
+Operating plan Z leaves the owner with 9 and the rival with 0.
+
+If the rival chooses reaction B after option D, the game ends with 2 for the owner and 2 for the rival.

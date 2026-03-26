@@ -1,0 +1,10 @@
+V0 (use original labels)
+
+Player 1 moves first and chooses between action I and action O.
+If Player 1 chooses action O, the game ends immediately with 1 for Player 1 and 1 for Player 2.
+
+If Player 1 chooses action I, then Player 2 chooses between action I and action O.
+If Player 2 chooses action O, the game ends with -1 for Player 1 and -1 for Player 2.
+If Player 2 chooses action I, then Player 1 moves again and chooses between action U and action D.
+If Player 1 chooses action U, the final result is 4 for Player 1 and 0 for Player 2.
+If Player 1 chooses action D, the final result is 3 for Player 1 and 2 for Player 2.

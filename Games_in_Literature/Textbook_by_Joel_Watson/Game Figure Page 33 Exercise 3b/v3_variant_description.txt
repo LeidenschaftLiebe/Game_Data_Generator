@@ -1,0 +1,10 @@
+V3 (software launch)
+
+A software company first decides whether to launch a product or hold back.
+If it holds back, the interaction ends immediately with 1 for the company and 1 for the rival.
+
+If it launches, the rival company then decides whether to launch too or hold back.
+If the rival holds back, both companies end up at -1.
+If the rival also launches, the first company then chooses between a more aggressive rollout and a more cooperative one.
+The aggressive rollout gives 4 to the first company and 0 to the rival.
+The cooperative rollout gives 3 to the first company and 2 to the rival.

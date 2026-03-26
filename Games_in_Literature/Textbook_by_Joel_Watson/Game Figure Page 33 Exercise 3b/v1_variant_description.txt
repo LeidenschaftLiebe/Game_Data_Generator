@@ -1,0 +1,10 @@
+V1 (market entry)
+
+A firm first decides whether to go into a market or stay out.
+If it stays out, the interaction ends immediately and each side gets 1.
+
+If it goes in, the rival firm then decides whether to go in as well or stay out.
+If the rival stays out, both sides end up worse off, with -1 for the first firm and -1 for the rival.
+If the rival also goes in, the first firm then chooses between a hard competitive move and a softer one.
+The hard move gives 4 to the first firm and 0 to the rival.
+The softer move gives 3 to the first firm and 2 to the rival.

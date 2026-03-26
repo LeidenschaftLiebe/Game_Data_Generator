@@ -1,0 +1,10 @@
+V4 (movie release)
+
+A studio first decides whether to go forward with a release or stay out.
+If it stays out, the process ends immediately and each studio gets 1.
+
+If it goes forward, the rival studio then decides whether to release as well or stay out.
+If the rival stays out, both studios end up with -1.
+If the rival also releases, the first studio then chooses between a bold release strategy and a gentler one.
+The bold strategy gives 4 to the first studio and 0 to the rival.
+The gentler strategy gives 3 to the first studio and 2 to the rival.

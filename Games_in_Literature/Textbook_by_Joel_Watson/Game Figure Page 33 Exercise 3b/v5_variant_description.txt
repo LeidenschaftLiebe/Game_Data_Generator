@@ -1,0 +1,10 @@
+V5 (fashion brand expansion)
+
+A fashion brand first decides whether to enter a new segment or stay out.
+If it stays out, the interaction ends immediately and each brand gets 1.
+
+If it enters, the competing brand then decides whether to enter too or stay out.
+If the competing brand stays out, both sides end up with -1.
+If the competing brand also enters, the first brand then chooses between an aggressive move and a more balanced move.
+The aggressive move gives 4 to the first brand and 0 to the competitor.
+The balanced move gives 3 to the first brand and 2 to the competitor.

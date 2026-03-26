@@ -1,0 +1,11 @@
+V5 (wildlife documentary production)
+
+A producer first chooses between filming plan A and filming plan B.
+If the producer chooses filming plan A, the project ends immediately and the final reward is 2 for the producer and 6 for the distributor.
+
+If the producer chooses filming plan B, the distributor then chooses between release option C and release option D.
+If the distributor chooses release option C, the project ends with a final reward of 1 for the producer and 4 for the distributor.
+
+If the distributor chooses release option D, the producer then chooses between edit E and edit F.
+If the producer chooses edit E, the final reward is 1 for the producer and 5 for the distributor.
+If the producer chooses edit F, the final reward is 2 for the producer and 3 for the distributor.

@@ -1,0 +1,11 @@
+V2 (book publishing deal)
+
+An author first chooses between release route A and release route B.
+If the author chooses release route A, the deal ends immediately and the final return is 2 for the author and 6 for the publisher.
+
+If the author chooses release route B, the publisher then chooses between contract C and contract D.
+If the publisher chooses contract C, the deal ends with a final return of 1 for the author and 4 for the publisher.
+
+If the publisher chooses contract D, the author then chooses between revision plan E and revision plan F.
+If the author chooses revision plan E, the final return is 1 for the author and 5 for the publisher.
+If the author chooses revision plan F, the final return is 2 for the author and 3 for the publisher.

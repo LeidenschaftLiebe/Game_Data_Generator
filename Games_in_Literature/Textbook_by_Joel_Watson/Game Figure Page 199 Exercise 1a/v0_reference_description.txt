@@ -1,0 +1,11 @@
+V0 (use original labels)
+
+Player 1 moves first and chooses between action A and action B.
+If Player 1 chooses action A, the game ends immediately with a final reward of 2 for Player 1 and 6 for Player 2.
+
+If Player 1 chooses action B, then Player 2 chooses between action C and action D.
+If Player 2 chooses action C, the game ends with a final reward of 1 for Player 1 and 4 for Player 2.
+
+If Player 2 chooses action D, then Player 1 moves again and chooses between action E and action F.
+If Player 1 chooses action E, the game ends with a final reward of 1 for Player 1 and 5 for Player 2.
+If Player 1 chooses action F, the game ends with a final reward of 2 for Player 1 and 3 for Player 2.

@@ -1,0 +1,11 @@
+V3 (space mission contract)
+
+A mission commander first chooses between proposal A and proposal B.
+If the commander chooses proposal A, the negotiation ends immediately and the final reward is 2 for the commander and 6 for the contractor.
+
+If the commander chooses proposal B, the contractor then chooses between package C and package D.
+If the contractor chooses package C, the negotiation ends with a final reward of 1 for the commander and 4 for the contractor.
+
+If the contractor chooses package D, the commander then chooses between operating mode E and operating mode F.
+If the commander chooses operating mode E, the final reward is 1 for the commander and 5 for the contractor.
+If the commander chooses operating mode F, the final reward is 2 for the commander and 3 for the contractor.

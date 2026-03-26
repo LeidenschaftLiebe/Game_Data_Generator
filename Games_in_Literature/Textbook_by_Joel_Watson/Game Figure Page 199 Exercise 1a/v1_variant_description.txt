@@ -1,0 +1,11 @@
+V1 (concert tour planning)
+
+A tour manager first chooses between local plan A and national plan B.
+If the manager chooses local plan A, the process ends immediately and the final reward is 2 for the manager and 6 for the promoter.
+
+If the manager chooses national plan B, the promoter then chooses between venue option C and venue option D.
+If the promoter chooses venue option C, the process ends with a final reward of 1 for the manager and 4 for the promoter.
+
+If the promoter chooses venue option D, the manager then chooses between schedule E and schedule F.
+If the manager chooses schedule E, the final reward is 1 for the manager and 5 for the promoter.
+If the manager chooses schedule F, the final reward is 2 for the manager and 3 for the promoter.

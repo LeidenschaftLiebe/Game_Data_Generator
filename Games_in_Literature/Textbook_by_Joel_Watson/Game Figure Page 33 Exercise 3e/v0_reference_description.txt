@@ -1,0 +1,14 @@
+V0 (use original labels)
+
+Player 1 moves first and chooses between action A, action B, and action C.
+After that, Player 2 chooses between action U and action D.
+When Player 2 makes that choice, Player 2 cannot tell whether Player 1 chose A, B, or C.
+
+If Player 1 chose action A and Player 2 chooses action U, the final reward is 2 for Player 1 and 1 for Player 2.
+If Player 1 chose action A and Player 2 chooses action D, the final reward is 1 for Player 1 and 2 for Player 2.
+
+If Player 1 chose action B and Player 2 chooses action U, the final reward is 6 for Player 1 and 8 for Player 2.
+If Player 1 chose action B and Player 2 chooses action D, the final reward is 4 for Player 1 and 3 for Player 2.
+
+If Player 1 chose action C and Player 2 chooses action U, the final reward is 2 for Player 1 and 1 for Player 2.
+If Player 1 chose action C and Player 2 chooses action D, the final reward is 8 for Player 1 and 7 for Player 2.

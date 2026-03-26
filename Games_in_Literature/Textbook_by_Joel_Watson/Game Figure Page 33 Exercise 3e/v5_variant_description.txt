@@ -1,0 +1,13 @@
+V5 (fashion brand expansion)
+
+A fashion brand first chooses among strategy A, strategy B, and strategy C.
+The competing brand then chooses between response U and response D without knowing which strategy the first brand selected.
+
+If the first brand chose strategy A and the competitor chooses response U, the final reward is 2 for the first brand and 1 for the competitor.
+If the first brand chose strategy A and the competitor chooses response D, the final reward is 1 for the first brand and 2 for the competitor.
+
+If the first brand chose strategy B and the competitor chooses response U, the final reward is 6 for the first brand and 8 for the competitor.
+If the first brand chose strategy B and the competitor chooses response D, the final reward is 4 for the first brand and 3 for the competitor.
+
+If the first brand chose strategy C and the competitor chooses response U, the final reward is 2 for the first brand and 1 for the competitor.
+If the first brand chose strategy C and the competitor chooses response D, the final reward is 8 for the first brand and 7 for the competitor.

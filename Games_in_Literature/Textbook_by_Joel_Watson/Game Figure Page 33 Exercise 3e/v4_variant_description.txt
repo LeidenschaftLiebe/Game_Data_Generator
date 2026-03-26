@@ -1,0 +1,13 @@
+V4 (movie release)
+
+A studio first chooses among release plan A, release plan B, and release plan C.
+The rival studio then chooses between move U and move D without knowing which release plan the first studio selected.
+
+If the first studio chose release plan A and the rival chooses move U, the final reward is 2 for the first studio and 1 for the rival.
+If the first studio chose release plan A and the rival chooses move D, the final reward is 1 for the first studio and 2 for the rival.
+
+If the first studio chose release plan B and the rival chooses move U, the final reward is 6 for the first studio and 8 for the rival.
+If the first studio chose release plan B and the rival chooses move D, the final reward is 4 for the first studio and 3 for the rival.
+
+If the first studio chose release plan C and the rival chooses move U, the final reward is 2 for the first studio and 1 for the rival.
+If the first studio chose release plan C and the rival chooses move D, the final reward is 8 for the first studio and 7 for the rival.

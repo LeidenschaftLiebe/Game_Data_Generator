@@ -1,0 +1,13 @@
+V3 (software launch)
+
+A software company first chooses among launch path A, launch path B, and launch path C.
+The competitor then chooses between response U and response D without knowing which launch path the first company selected.
+
+If the first company chose launch path A and the competitor chooses response U, the final reward is 2 for the first company and 1 for the competitor.
+If the first company chose launch path A and the competitor chooses response D, the final reward is 1 for the first company and 2 for the competitor.
+
+If the first company chose launch path B and the competitor chooses response U, the final reward is 6 for the first company and 8 for the competitor.
+If the first company chose launch path B and the competitor chooses response D, the final reward is 4 for the first company and 3 for the competitor.
+
+If the first company chose launch path C and the competitor chooses response U, the final reward is 2 for the first company and 1 for the competitor.
+If the first company chose launch path C and the competitor chooses response D, the final reward is 8 for the first company and 7 for the competitor.

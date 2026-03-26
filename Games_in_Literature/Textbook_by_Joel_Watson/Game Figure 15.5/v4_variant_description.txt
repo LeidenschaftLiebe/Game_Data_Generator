@@ -1,0 +1,13 @@
+V4 (esports event design)
+
+A league organizer first chooses between the Wildcard format and the Standard format.
+If the organizer chooses the Standard format, the event ends immediately and each side gets a final reward of 4.
+
+If the organizer chooses the Wildcard format, the sponsor then chooses between package A and package B.
+After that, the organizer chooses between feature set X and feature set Y.
+When making that final choice, the organizer cannot tell whether the sponsor previously selected package A or package B.
+
+If the sponsor chose package A and the organizer chooses feature set X, the final reward is 3 for the organizer and 3 for the sponsor.
+If the sponsor chose package A and the organizer chooses feature set Y, the final reward is 0 for the organizer and 0 for the sponsor.
+If the sponsor chose package B and the organizer chooses feature set X, the final reward is 0 for the organizer and 0 for the sponsor.
+If the sponsor chose package B and the organizer chooses feature set Y, the final reward is 6 for the organizer and 2 for the sponsor.

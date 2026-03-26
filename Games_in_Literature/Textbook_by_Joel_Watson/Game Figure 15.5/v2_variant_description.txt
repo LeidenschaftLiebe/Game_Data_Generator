@@ -1,0 +1,13 @@
+V2 (space mission planning)
+
+A mission commander first chooses between the Windowed mission plan and the Safe-return plan.
+If the commander chooses the Safe-return plan, the mission ends immediately and each side gets a final return of 4.
+
+If the commander chooses the Windowed mission plan, the contractor then chooses between module A and module B.
+After that, the commander chooses between launch profile X and launch profile Y.
+When making that final choice, the commander cannot tell whether the contractor previously selected module A or module B.
+
+If the contractor chose module A and the commander chooses launch profile X, the final return is 3 for the commander and 3 for the contractor.
+If the contractor chose module A and the commander chooses launch profile Y, the final return is 0 for the commander and 0 for the contractor.
+If the contractor chose module B and the commander chooses launch profile X, the final return is 0 for the commander and 0 for the contractor.
+If the contractor chose module B and the commander chooses launch profile Y, the final return is 6 for the commander and 2 for the contractor.

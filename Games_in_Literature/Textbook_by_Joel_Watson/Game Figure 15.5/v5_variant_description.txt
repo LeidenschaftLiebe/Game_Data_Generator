@@ -1,0 +1,13 @@
+V5 (wildlife documentary production)
+
+A producer first chooses between the Wetlands filming plan and the Safe-sale plan.
+If the producer chooses the Safe-sale plan, the project ends immediately and each side gets a final reward of 4.
+
+If the producer chooses the Wetlands filming plan, the distributor then chooses between release track A and release track B.
+After that, the producer chooses between edit X and edit Y.
+When making that final choice, the producer cannot tell whether the distributor previously selected release track A or release track B.
+
+If the distributor chose release track A and the producer chooses edit X, the final reward is 3 for the producer and 3 for the distributor.
+If the distributor chose release track A and the producer chooses edit Y, the final reward is 0 for the producer and 0 for the distributor.
+If the distributor chose release track B and the producer chooses edit X, the final reward is 0 for the producer and 0 for the distributor.
+If the distributor chose release track B and the producer chooses edit Y, the final reward is 6 for the producer and 2 for the distributor.

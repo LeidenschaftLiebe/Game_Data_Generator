@@ -1,0 +1,13 @@
+V0 (use original labels)
+
+Player 1 moves first and chooses between action W and action Z.
+If Player 1 chooses action Z, the game ends immediately with a final reward of 4 for Player 1 and 4 for Player 2.
+
+If Player 1 chooses action W, then Player 2 chooses between action A and action B.
+After that, Player 1 chooses between action X and action Y.
+When Player 1 makes that final choice, Player 1 cannot tell whether Player 2 previously chose action A or action B.
+
+If Player 2 chose action A and Player 1 chooses action X, the final reward is 3 for Player 1 and 3 for Player 2.
+If Player 2 chose action A and Player 1 chooses action Y, the final reward is 0 for Player 1 and 0 for Player 2.
+If Player 2 chose action B and Player 1 chooses action X, the final reward is 0 for Player 1 and 0 for Player 2.
+If Player 2 chose action B and Player 1 chooses action Y, the final reward is 6 for Player 1 and 2 for Player 2.

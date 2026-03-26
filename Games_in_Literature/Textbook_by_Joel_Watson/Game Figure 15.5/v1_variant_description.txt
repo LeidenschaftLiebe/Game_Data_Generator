@@ -1,0 +1,13 @@
+V1 (music festival sponsorship)
+
+A festival director first chooses between the Weekend plan and the Zero-risk plan.
+If the director chooses the Zero-risk plan, the planning process ends immediately and each side gets a final reward of 4.
+
+If the director chooses the Weekend plan, the sponsor then chooses between package A and package B.
+After that, the director chooses between promotion plan X and promotion plan Y.
+When making that final choice, the director cannot tell whether the sponsor previously selected package A or package B.
+
+If the sponsor chose package A and the director chooses promotion plan X, the final reward is 3 for the director and 3 for the sponsor.
+If the sponsor chose package A and the director chooses promotion plan Y, the final reward is 0 for the director and 0 for the sponsor.
+If the sponsor chose package B and the director chooses promotion plan X, the final reward is 0 for the director and 0 for the sponsor.
+If the sponsor chose package B and the director chooses promotion plan Y, the final reward is 6 for the director and 2 for the sponsor.

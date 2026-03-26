@@ -1,0 +1,13 @@
+V3 (museum exhibition design)
+
+A museum director first chooses between the Winged exhibition plan and the Stable exhibition plan.
+If the director chooses the Stable exhibition plan, the project ends immediately and each side gets a final reward of 4.
+
+If the director chooses the Winged exhibition plan, the donor then chooses between funding option A and funding option B.
+After that, the director chooses between layout X and layout Y.
+When making that final choice, the director cannot tell whether the donor previously selected funding option A or funding option B.
+
+If the donor chose funding option A and the director chooses layout X, the final reward is 3 for the director and 3 for the donor.
+If the donor chose funding option A and the director chooses layout Y, the final reward is 0 for the director and 0 for the donor.
+If the donor chose funding option B and the director chooses layout X, the final reward is 0 for the director and 0 for the donor.
+If the donor chose funding option B and the director chooses layout Y, the final reward is 6 for the director and 2 for the donor.

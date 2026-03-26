@@ -1,0 +1,9 @@
+V2 (restaurant expansion)
+
+A restaurant group first decides whether to open in a new neighborhood or stay out.
+If it stays out, the game ends with 2 for the first group and 2 for the local rival.
+If it opens, the rival then decides whether to stay out of that contest or expand too.
+If the rival stays out, the outcome is 1 for the first group and 3 for the rival.
+If the rival also expands, the first group then chooses between two business approaches.
+The more aggressive follow-up gives 4 to the first group and 2 to the rival.
+The softer follow-up gives 3 to the first group and 4 to the rival.

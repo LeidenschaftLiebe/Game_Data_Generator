@@ -1,0 +1,9 @@
+V0 (closest to the book)
+
+Player 1 first decides whether to stay out or go in.
+If Player 1 stays out, the game ends immediately with 2 for Player 1 and 2 for Player 2.
+If Player 1 goes in, Player 2 then decides whether to stay out or go in.
+If Player 2 stays out, the game ends with 1 for Player 1 and 3 for Player 2.
+If Player 2 also goes in, Player 1 makes one more choice between A and B.
+Choosing A leads to 4 for Player 1 and 2 for Player 2.
+Choosing B leads to 3 for Player 1 and 4 for Player 2.

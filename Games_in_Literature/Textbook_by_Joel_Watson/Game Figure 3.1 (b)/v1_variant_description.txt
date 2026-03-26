@@ -1,0 +1,9 @@
+V1 (market entry)
+
+A firm first decides whether to stay out of a market or enter it.
+If it stays out, the game ends immediately with 2 for the first firm and 2 for the rival firm.
+If it enters, the rival firm then decides whether to stay out or enter as well.
+If the rival stays out, the outcome is 1 for the first firm and 3 for the rival.
+If the rival also enters, the first firm then chooses between two follow-up strategies.
+If it chooses the first strategy, the outcome is 4 for the first firm and 2 for the rival.
+If it chooses the second strategy, the outcome is 3 for the first firm and 4 for the rival.

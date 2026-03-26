@@ -1,0 +1,9 @@
+V4 (software product entry)
+
+A software company first decides whether to enter a new product niche or stay out.
+If it stays out, the game ends immediately with 2 for the first company and 2 for the incumbent.
+If it enters, the incumbent then decides whether to stay out of direct competition or enter the niche as well.
+If the incumbent stays out, the outcome is 1 for the entrant and 3 for the incumbent.
+If the incumbent also enters, the entrant then chooses between two competitive responses.
+The first response gives 4 to the entrant and 2 to the incumbent.
+The second response gives 3 to the entrant and 4 to the incumbent.

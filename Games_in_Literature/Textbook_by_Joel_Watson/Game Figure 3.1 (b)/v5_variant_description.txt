@@ -1,0 +1,9 @@
+V5 (coffee shop expansion)
+
+A coffee chain first decides whether to open in a neighborhood or stay out.
+If it stays out, the game ends with 2 for the first chain and 2 for the existing chain.
+If it opens, the existing chain then decides whether to stay out of the local fight or compete directly.
+If the existing chain stays out, the outcome is 1 for the entrant and 3 for the existing chain.
+If the existing chain also competes, the entrant then chooses between two ways of operating.
+One choice leads to 4 for the entrant and 2 for the existing chain.
+The other leads to 3 for the entrant and 4 for the existing chain.

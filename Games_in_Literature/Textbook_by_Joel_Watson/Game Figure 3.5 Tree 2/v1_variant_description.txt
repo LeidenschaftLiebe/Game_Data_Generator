@@ -1,0 +1,9 @@
+V1 (project approval)
+
+A team lead first chooses between plan A and plan B.
+A reviewer then chooses between response C and response D.
+The reviewer has to make that choice without knowing whether the lead selected plan A or plan B.
+
+If the hidden earlier choice was plan A, then either reviewer response leads to the same final reward: 1 for the lead and 2 for the reviewer.
+If the hidden earlier choice was plan B and the reviewer chooses response C, the final return is 3 for the lead and 1 for the reviewer.
+If the hidden earlier choice was plan B and the reviewer chooses response D, the final return is 2 for the lead and 4 for the reviewer.

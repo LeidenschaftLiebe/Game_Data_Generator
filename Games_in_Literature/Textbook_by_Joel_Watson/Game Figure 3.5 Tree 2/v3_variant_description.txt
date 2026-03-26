@@ -1,0 +1,9 @@
+V3 (software release)
+
+A software company first chooses between launch path A and launch path B.
+A competitor then chooses between response C and response D.
+The competitor must act without knowing whether the company chose launch path A or launch path B.
+
+If the earlier choice was launch path A, then both competitor responses lead to the same outcome: 1 for the company and 2 for the competitor.
+If the earlier choice was launch path B and the competitor chooses response C, the final result is 3 for the company and 1 for the competitor.
+If the earlier choice was launch path B and the competitor chooses response D, the final result is 2 for the company and 4 for the competitor.

@@ -1,0 +1,9 @@
+V2 (restaurant expansion)
+
+A restaurant owner first chooses between expansion option A and expansion option B.
+The rival then chooses between reaction C and reaction D.
+The rival must choose without knowing which expansion option the owner selected.
+
+If the owner had chosen option A, then either rival reaction leads to the same payoff: 1 for the owner and 2 for the rival.
+If the owner had chosen option B and the rival takes reaction C, the final reward is 3 for the owner and 1 for the rival.
+If the owner had chosen option B and the rival takes reaction D, the final reward is 2 for the owner and 4 for the rival.

@@ -1,0 +1,9 @@
+V4 (movie production)
+
+A studio first chooses between production option A and production option B.
+A rival studio then chooses between move C and move D.
+The rival studio makes that choice without knowing whether the first studio selected option A or option B.
+
+If the first studio had chosen option A, then either rival move leads to the same final reward: 1 for the first studio and 2 for the rival.
+If the first studio had chosen option B and the rival picks move C, the final return is 3 for the first studio and 1 for the rival.
+If the first studio had chosen option B and the rival picks move D, the final return is 2 for the first studio and 4 for the rival.

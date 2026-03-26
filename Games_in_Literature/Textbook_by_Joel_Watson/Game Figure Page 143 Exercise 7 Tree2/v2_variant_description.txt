@@ -1,0 +1,11 @@
+V2 (restaurant expansion)
+
+A restaurant owner first chooses whether to open in a neighborhood or stay out.
+If the owner stays out, the matter ends immediately and each side gets a final return of 1.
+
+If the owner opens, the rival restaurant then chooses whether to enter the competition or stay out.
+If the rival stays out, the final return is -1 for the owner and 0 for the rival.
+
+If the rival also enters, the owner then chooses between an aggressive operating plan and a more balanced one.
+The aggressive plan gives a final return of 4 to the owner and -1 to the rival.
+The balanced plan gives a final return of 3 to the owner and 2 to the rival.

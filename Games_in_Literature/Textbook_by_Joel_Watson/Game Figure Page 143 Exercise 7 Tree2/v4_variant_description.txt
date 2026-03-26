@@ -1,0 +1,11 @@
+V4 (movie release)
+
+A studio first chooses whether to release a film or stay out.
+If it stays out, the story ends immediately and each side gets a final reward of 1.
+
+If it releases, the rival studio then chooses whether to release too or stay out.
+If the rival stays out, the final reward is -1 for the first studio and 0 for the rival.
+
+If the rival also releases, the first studio then chooses between a harder push and a softer release strategy.
+The harder push gives a final reward of 4 to the first studio and -1 to the rival.
+The softer release strategy gives a final reward of 3 to the first studio and 2 to the rival.

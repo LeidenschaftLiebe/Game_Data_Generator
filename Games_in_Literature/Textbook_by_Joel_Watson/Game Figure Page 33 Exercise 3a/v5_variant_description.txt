@@ -1,0 +1,10 @@
+V5 (fashion brand decision)
+
+A fashion brand first chooses between strategy A and strategy B.
+If the brand chooses strategy A, the competing brand then chooses between response C and response D.
+If the competing brand chooses response C, the final result is 0 for the first brand and 0 for the competitor.
+If the competing brand chooses response D, the final result is 1 for the first brand and 1 for the competitor.
+
+If the brand chooses strategy B, the competing brand then chooses between response E and response F.
+If the competing brand chooses response E, the final result is 2 for the first brand and 2 for the competitor.
+If the competing brand chooses response F, the final result is 3 for the first brand and 4 for the competitor.

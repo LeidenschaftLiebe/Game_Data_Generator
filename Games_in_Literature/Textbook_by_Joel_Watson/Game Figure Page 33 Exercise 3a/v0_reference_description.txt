@@ -1,0 +1,10 @@
+V0 (use original labels)
+
+Player 1 moves first and chooses between action A and action B.
+If Player 1 chooses action A, then Player 2 chooses between action C and action D.
+If Player 2 chooses action C, the final result is 0 for Player 1 and 0 for Player 2.
+If Player 2 chooses action D, the final result is 1 for Player 1 and 1 for Player 2.
+
+If Player 1 chooses action B, then Player 2 chooses between action E and action F.
+If Player 2 chooses action E, the final result is 2 for Player 1 and 2 for Player 2.
+If Player 2 chooses action F, the final result is 3 for Player 1 and 4 for Player 2.

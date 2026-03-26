@@ -1,0 +1,10 @@
+V4 (movie release choice)
+
+A studio first chooses between release plan A and release plan B.
+If the studio chooses release plan A, the rival studio then chooses between response C and response D.
+If the rival chooses response C, the final outcome is 0 for the first studio and 0 for the rival.
+If the rival chooses response D, the final outcome is 1 for the first studio and 1 for the rival.
+
+If the studio chooses release plan B, the rival studio then chooses between response E and response F.
+If the rival chooses response E, the final outcome is 2 for the first studio and 2 for the rival.
+If the rival chooses response F, the final outcome is 3 for the first studio and 4 for the rival.

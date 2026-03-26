@@ -1,0 +1,10 @@
+V1 (project proposal)
+
+A project lead first chooses between proposal A and proposal B.
+If the lead chooses proposal A, the reviewer then chooses between response C and response D.
+If the reviewer chooses response C, the final reward is 0 for the lead and 0 for the reviewer.
+If the reviewer chooses response D, the final reward is 1 for the lead and 1 for the reviewer.
+
+If the lead chooses proposal B, the reviewer then chooses between response E and response F.
+If the reviewer chooses response E, the final reward is 2 for the lead and 2 for the reviewer.
+If the reviewer chooses response F, the final reward is 3 for the lead and 4 for the reviewer.

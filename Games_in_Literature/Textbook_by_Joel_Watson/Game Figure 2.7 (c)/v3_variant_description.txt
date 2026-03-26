@@ -1,0 +1,9 @@
+V3 (hotel booking platforms)
+
+Two hotel-booking platforms are competing for the same travel demand.
+Platform 1 sets its booking fee first, choosing either a high fee or a low fee.
+Platform 2 observes that choice and then sets its own fee.
+If both platforms keep fees high, Platform 1 earns 10 million while Platform 2 earns 1 million.
+If Platform 1 keeps fees high and Platform 2 lowers its fee, Platform 1 earns 8 million while Platform 2 earns 2 million.
+If Platform 1 lowers its fee and Platform 2 keeps its fee high, Platform 1 earns 11 million while Platform 2 earns nothing.
+If both platforms lower fees, Platform 1 earns 9 million while Platform 2 earns 0.5 million.

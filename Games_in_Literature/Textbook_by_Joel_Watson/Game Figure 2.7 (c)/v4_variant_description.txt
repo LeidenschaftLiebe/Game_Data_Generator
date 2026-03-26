@@ -1,0 +1,9 @@
+V4 (video streaming subscriptions)
+
+Two streaming services are competing for the same group of subscribers.
+Service 1 sets its monthly subscription price first, choosing either a high price or a low price.
+Service 2 sees that choice and then chooses its own subscription price.
+If both services choose high prices, Service 1 earns 10 million while Service 2 earns 1 million.
+If Service 1 keeps a high price and Service 2 discounts, Service 1 earns 8 million while Service 2 earns 2 million.
+If Service 1 discounts and Service 2 keeps a high price, Service 1 earns 11 million while Service 2 earns nothing.
+If both services discount, Service 1 earns 9 million while Service 2 earns 0.5 million.

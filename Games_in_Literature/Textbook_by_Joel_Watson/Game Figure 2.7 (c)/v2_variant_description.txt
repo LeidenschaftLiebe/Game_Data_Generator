@@ -1,0 +1,9 @@
+V2 (coffee chain pricing)
+
+Two coffee chains are competing for the same customers in a busy downtown area.
+Chain 1 sets its prices first, choosing either a high-price menu or a low-price menu.
+Chain 2 sees that choice and then sets its own prices.
+If both chains choose high prices, Chain 1 earns 10 million while Chain 2 earns 1 million.
+If Chain 1 keeps prices high and Chain 2 undercuts with low prices, Chain 1 earns 8 million while Chain 2 earns 2 million.
+If Chain 1 chooses low prices and Chain 2 stays high, Chain 1 earns 11 million while Chain 2 earns nothing.
+If both chains choose low prices, Chain 1 earns 9 million while Chain 2 earns 0.5 million.

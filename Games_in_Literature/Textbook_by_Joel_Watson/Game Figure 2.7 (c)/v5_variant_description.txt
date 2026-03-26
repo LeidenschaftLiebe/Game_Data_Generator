@@ -1,0 +1,9 @@
+V5 (fashion brands)
+
+Two fashion brands are competing to sell similar products to the same customers.
+Brand 1 sets its price first, choosing either a premium price or a discount price.
+Brand 2 observes that choice and then sets its own price.
+If both brands keep premium prices, Brand 1 earns 10 million while Brand 2 earns 1 million.
+If Brand 1 keeps a premium price and Brand 2 discounts, Brand 1 earns 8 million while Brand 2 earns 2 million.
+If Brand 1 discounts and Brand 2 keeps a premium price, Brand 1 earns 11 million while Brand 2 earns nothing.
+If both brands discount, Brand 1 earns 9 million while Brand 2 earns 0.5 million.

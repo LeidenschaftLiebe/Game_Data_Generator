@@ -1,0 +1,8 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that the incumbent is high-cost with probability 0.5 and low-cost with probability 0.5.
+Check that the entrant’s two decision nodes after price option 1 are in the same information set.
+Check that the entrant’s two decision nodes after price option 2 are in the same information set.
+Check that if the high-cost incumbent chooses price option 1 and the entrant stays out, the final reward is 0 for the incumbent and 0 for the entrant.
+Check that if the low-cost incumbent chooses price option 2 and the entrant stays out, the final reward is 4 for the incumbent and 0 for the entrant.

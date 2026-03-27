@@ -1,0 +1,18 @@
+EFG 2 R "Guided Exercise - Incumbent and Entrant" { "1" "2" }
+""
+
+c "" 1 "" { "HighCost" 0.5 "LowCost" 0.5 } 0
+p "" 1 1 "" { "Price1_H" "Price2_H" } 0
+p "" 2 1 "" { "Enter" "StayOut" } 0
+t "" 1 "HighCost_Price1_Enter" { 0, 1 }
+t "" 2 "HighCost_Price1_StayOut" { 0, 0 }
+p "" 2 2 "" { "Enter" "StayOut" } 0
+t "" 3 "HighCost_Price2_Enter" { 0, 1 }
+t "" 4 "HighCost_Price2_StayOut" { 2, 0 }
+p "" 1 2 "" { "Price1_L" "Price2_L" } 0
+p "" 2 1 "" { "Enter" "StayOut" } 0
+t "" 5 "LowCost_Price1_Enter" { 0, -1 }
+t "" 6 "LowCost_Price1_StayOut" { 2, 0 }
+p "" 2 2 "" { "Enter" "StayOut" } 0
+t "" 7 "LowCost_Price2_Enter" { 0, -1 }
+t "" 8 "LowCost_Price2_StayOut" { 4, 0 }

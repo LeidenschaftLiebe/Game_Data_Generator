@@ -1,0 +1,24 @@
+V0 (closest to the tree and context)
+
+At the outset, the incumbent may be a high-cost firm or a low-cost firm, with probability 0.5 for each case.
+The incumbent learns its own cost type before choosing a price.
+The entrant does not know the incumbent’s type.
+The entrant only sees which of the two price options was posted.
+
+If the incumbent is the high-cost type, it chooses between price option 1 and price option 2.
+If the high-cost incumbent chooses price option 1, the entrant then decides whether to enter or stay out.
+If the entrant enters after seeing price option 1 from the high-cost incumbent, the final reward is 0 for the incumbent and 1 for the entrant.
+If the entrant stays out after seeing price option 1 from the high-cost incumbent, the final reward is 0 for the incumbent and 0 for the entrant.
+
+If the high-cost incumbent chooses price option 2, the entrant again decides whether to enter or stay out.
+If the entrant enters after seeing price option 2 from the high-cost incumbent, the final reward is 0 for the incumbent and 1 for the entrant.
+If the entrant stays out after seeing price option 2 from the high-cost incumbent, the final reward is 2 for the incumbent and 0 for the entrant.
+
+If the incumbent is the low-cost type, it also chooses between price option 1 and price option 2.
+If the low-cost incumbent chooses price option 1, the entrant then decides whether to enter or stay out.
+If the entrant enters after seeing price option 1 from the low-cost incumbent, the final reward is 0 for the incumbent and -1 for the entrant.
+If the entrant stays out after seeing price option 1 from the low-cost incumbent, the final reward is 2 for the incumbent and 0 for the entrant.
+
+If the low-cost incumbent chooses price option 2, the entrant again decides whether to enter or stay out.
+If the entrant enters after seeing price option 2 from the low-cost incumbent, the final reward is 0 for the incumbent and -1 for the entrant.
+If the entrant stays out after seeing price option 2 from the low-cost incumbent, the final reward is 4 for the incumbent and 0 for the entrant.

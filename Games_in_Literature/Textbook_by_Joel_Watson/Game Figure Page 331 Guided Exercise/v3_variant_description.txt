@@ -1,0 +1,24 @@
+V3 (museum admissions)
+
+An established museum may be facing either a high-cost season or a low-cost season, with probability 0.5 for each case.
+The museum learns that condition before setting its admission charge.
+A pop-up exhibition organizer does not know the museum’s cost condition.
+The pop-up organizer only sees which of the two admission-price options was posted.
+
+If the museum is high-cost, it chooses between admission option 1 and admission option 2.
+If the high-cost museum chooses admission option 1, the pop-up organizer then decides whether to enter the market or stay out.
+If the pop-up enters after seeing admission option 1 from the high-cost museum, the final reward is 0 for the museum and 1 for the pop-up organizer.
+If the pop-up stays out, the final reward is 0 for the museum and 0 for the pop-up organizer.
+
+If the high-cost museum chooses admission option 2, the pop-up organizer again decides whether to enter or stay out.
+If the pop-up enters after seeing admission option 2 from the high-cost museum, the final reward is 0 for the museum and 1 for the pop-up organizer.
+If the pop-up stays out, the final reward is 2 for the museum and 0 for the pop-up organizer.
+
+If the museum is low-cost, it also chooses between admission option 1 and admission option 2.
+If the low-cost museum chooses admission option 1, the pop-up organizer then decides whether to enter or stay out.
+If the pop-up enters after seeing admission option 1 from the low-cost museum, the final reward is 0 for the museum and -1 for the pop-up organizer.
+If the pop-up stays out, the final reward is 2 for the museum and 0 for the pop-up organizer.
+
+If the low-cost museum chooses admission option 2, the pop-up organizer again decides whether to enter or stay out.
+If the pop-up enters after seeing admission option 2 from the low-cost museum, the final reward is 0 for the museum and -1 for the pop-up organizer.
+If the pop-up stays out, the final reward is 4 for the museum and 0 for the pop-up organizer.

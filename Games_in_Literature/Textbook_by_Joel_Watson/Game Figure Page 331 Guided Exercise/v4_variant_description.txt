@@ -1,0 +1,24 @@
+V4 (sports media rights)
+
+An incumbent sports network may be operating with either high costs or low costs, with probability 0.5 for each case.
+The network learns its own cost condition before setting a rights price.
+A rival network does not know that cost condition.
+The rival only sees which of the two price options was posted.
+
+If the incumbent is high-cost, it chooses between rights-price option 1 and rights-price option 2.
+If the high-cost incumbent chooses rights-price option 1, the rival then decides whether to enter the market or stay out.
+If the rival enters after seeing rights-price option 1 from the high-cost incumbent, the final reward is 0 for the incumbent and 1 for the rival.
+If the rival stays out, the final reward is 0 for the incumbent and 0 for the rival.
+
+If the high-cost incumbent chooses rights-price option 2, the rival again decides whether to enter or stay out.
+If the rival enters after seeing rights-price option 2 from the high-cost incumbent, the final reward is 0 for the incumbent and 1 for the rival.
+If the rival stays out, the final reward is 2 for the incumbent and 0 for the rival.
+
+If the incumbent is low-cost, it also chooses between rights-price option 1 and rights-price option 2.
+If the low-cost incumbent chooses rights-price option 1, the rival then decides whether to enter or stay out.
+If the rival enters after seeing rights-price option 1 from the low-cost incumbent, the final reward is 0 for the incumbent and -1 for the rival.
+If the rival stays out, the final reward is 2 for the incumbent and 0 for the rival.
+
+If the low-cost incumbent chooses rights-price option 2, the rival again decides whether to enter or stay out.
+If the rival enters after seeing rights-price option 2 from the low-cost incumbent, the final reward is 0 for the incumbent and -1 for the rival.
+If the rival stays out, the final reward is 4 for the incumbent and 0 for the rival.

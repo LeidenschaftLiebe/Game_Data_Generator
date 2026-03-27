@@ -1,0 +1,17 @@
+V3 (film archive restoration)
+
+It is unknown that whether a newly found film reel contains a major lost masterpiece or almost no usable footage.
+With probability 2/3, the reel’s restoration value is 12.
+With probability 1/3, the value is 0.
+The restoration director learns this hidden value before choosing a restoration plan.
+The studio executive does not observe the reel’s value and does not observe the chosen restoration plan before deciding on the release strategy.
+
+If the hidden value is 12 and the restoration director chooses plan A while the studio executive chooses strategy C, the final reward is 12 for the restoration director and 9 for the studio executive.
+If the hidden value is 12 and the restoration director chooses plan A while the studio executive chooses strategy D, the final reward is 3 for the restoration director and 6 for the studio executive.
+If the hidden value is 12 and the restoration director chooses plan B while the studio executive chooses strategy C, the final reward is 6 for the restoration director and 0 for the studio executive.
+If the hidden value is 12 and the restoration director chooses plan B while the studio executive chooses strategy D, the final reward is 6 for the restoration director and 9 for the studio executive.
+
+If the hidden value is 0 and the restoration director chooses plan A while the studio executive chooses strategy C, the final reward is 0 for the restoration director and 9 for the studio executive.
+If the hidden value is 0 and the restoration director chooses plan A while the studio executive chooses strategy D, the final reward is 3 for the restoration director and 6 for the studio executive.
+If the hidden value is 0 and the restoration director chooses plan B while the studio executive chooses strategy C, the final reward is 6 for the restoration director and 0 for the studio executive.
+If the hidden value is 0 and the restoration director chooses plan B while the studio executive chooses strategy D, the final reward is 6 for the restoration director and 9 for the studio executive.

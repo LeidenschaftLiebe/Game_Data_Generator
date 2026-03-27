@@ -1,0 +1,17 @@
+V1 (rare mineral survey)
+
+There are some randomness in the quality of a mineral site.
+With probability 2/3, the site is rich and the hidden value is 12.
+With probability 1/3, the site is poor and the hidden value is 0.
+The survey leader learns the site quality before choosing a drilling plan.
+The investor does not observe the site quality and does not observe which drilling plan was chosen before deciding whether to fund aggressively or cautiously.
+
+If the site is rich and the survey leader chooses plan A while the investor chooses option C, the final reward is 12 for the survey leader and 9 for the investor.
+If the site is rich and the survey leader chooses plan A while the investor chooses option D, the final reward is 3 for the survey leader and 6 for the investor.
+If the site is rich and the survey leader chooses plan B while the investor chooses option C, the final reward is 6 for the survey leader and 0 for the investor.
+If the site is rich and the survey leader chooses plan B while the investor chooses option D, the final reward is 6 for the survey leader and 9 for the investor.
+
+If the site is poor and the survey leader chooses plan A while the investor chooses option C, the final reward is 0 for the survey leader and 9 for the investor.
+If the site is poor and the survey leader chooses plan A while the investor chooses option D, the final reward is 3 for the survey leader and 6 for the investor.
+If the site is poor and the survey leader chooses plan B while the investor chooses option C, the final reward is 6 for the survey leader and 0 for the investor.
+If the site is poor and the survey leader chooses plan B while the investor chooses option D, the final reward is 6 for the survey leader and 9 for the investor.

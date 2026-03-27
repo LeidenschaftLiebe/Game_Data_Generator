@@ -1,0 +1,6 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that Nature moves first and chooses x = 12 with probability 2/3 and x = 0 with probability 1/3.
+Check that Player 2’s four decision nodes are in the same information set.
+Check that if x = 12, Player 1 chooses A, and Player 2 chooses C, the final reward is 12 for Player 1 and 9 for Player 2.

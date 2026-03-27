@@ -1,0 +1,17 @@
+V5 (championship free-agent signing)
+
+It is unknown that whether a star athlete is actually elite or badly overrated.
+With probability 2/3, the athlete’s true value is 12.
+With probability 1/3, the value is 0.
+The general manager learns this hidden value before choosing a contract approach.
+The club owner does not observe the athlete’s true value and does not observe the chosen contract approach before deciding how much support to provide.
+
+If the athlete’s true value is 12 and the general manager chooses approach A while the owner chooses support level C, the final reward is 12 for the general manager and 9 for the owner.
+If the athlete’s true value is 12 and the general manager chooses approach A while the owner chooses support level D, the final reward is 3 for the general manager and 6 for the owner.
+If the athlete’s true value is 12 and the general manager chooses approach B while the owner chooses support level C, the final reward is 6 for the general manager and 0 for the owner.
+If the athlete’s true value is 12 and the general manager chooses approach B while the owner chooses support level D, the final reward is 6 for the general manager and 9 for the owner.
+
+If the athlete’s true value is 0 and the general manager chooses approach A while the owner chooses support level C, the final reward is 0 for the general manager and 9 for the owner.
+If the athlete’s true value is 0 and the general manager chooses approach A while the owner chooses support level D, the final reward is 3 for the general manager and 6 for the owner.
+If the athlete’s true value is 0 and the general manager chooses approach B while the owner chooses support level C, the final reward is 6 for the general manager and 0 for the owner.
+If the athlete’s true value is 0 and the general manager chooses approach B while the owner chooses support level D, the final reward is 6 for the general manager and 9 for the owner.

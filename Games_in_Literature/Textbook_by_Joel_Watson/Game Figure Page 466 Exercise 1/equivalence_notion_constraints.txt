@@ -1,0 +1,8 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that Player 1 receives the Ace with probability 0.5 and the King with probability 0.5.
+Check that Player 2’s two decision nodes after Player 1 bids are in the same information set.
+Check that if Player 1 folds, the final reward is -1 for Player 1 and 1 for Player 2.
+Check that if Player 1 bids with the Ace and Player 2 bids, the final reward is 2 for Player 1 and -2 for Player 2.
+Check that if Player 1 bids with the King and Player 2 bids, the final reward is -2 for Player 1 and 2 for Player 2.

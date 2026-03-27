@@ -1,0 +1,14 @@
+EFG 2 R "Page 466 Exercise 1" { "1" "2" }
+""
+
+c "" 1 "" { "Ace" 0.5 "King" 0.5 } 0
+p "" 1 1 "" { "Bid_A" "Fold_A" } 0
+p "" 2 1 "" { "Bid" "Fold" } 0
+t "" 3 "Ace_Bid_Bid" { 2, -2 }
+t "" 4 "Ace_Bid_Fold" { 1, -1 }
+t "" 1 "Ace_Fold" { -1, 1 }
+p "" 1 2 "" { "Bid_K" "Fold_K" } 0
+p "" 2 1 "" { "Bid" "Fold" } 0
+t "" 5 "King_Bid_Bid" { -2, 2 }
+t "" 6 "King_Bid_Fold" { 1, -1 }
+t "" 2 "King_Fold" { -1, 1 }

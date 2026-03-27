@@ -1,0 +1,19 @@
+V2 (festival pass bluff)
+
+There are two passes in circulation, a VIP pass and a regular pass.
+At the start, Player 1 randomly receives one of them.
+The VIP pass appears with probability 0.5 and the regular pass with probability 0.5.
+Player 1 sees which pass he holds.
+Player 2 does not.
+
+Player 1 then decides whether to make a bold claim or quietly step away.
+If Player 1 steps away, the interaction ends immediately with a final reward of -1 for Player 1 and 1 for Player 2.
+
+If Player 1 makes the claim, Player 2 must decide whether to call it out or back off.
+Player 2 knows that Player 1 made the claim, but not whether the pass is VIP or regular.
+
+If Player 2 backs off, the final reward is 1 for Player 1 and -1 for Player 2.
+
+If Player 2 calls it out, the result depends on Player 1’s pass.
+With the VIP pass, the final reward is 2 for Player 1 and -2 for Player 2.
+With the regular pass, the final reward is -2 for Player 1 and 2 for Player 2.

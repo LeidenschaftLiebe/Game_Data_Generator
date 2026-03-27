@@ -1,0 +1,19 @@
+V5 (cybersecurity access token game)
+
+There are two access tokens, one master token and one limited token.
+At the start, Player 1 is randomly assigned one of them.
+The master token appears with probability 0.5 and the limited token with probability 0.5.
+Player 1 sees which token he holds.
+Player 2 does not.
+
+Player 1 then decides whether to push access or back away.
+If Player 1 backs away, the interaction ends immediately with a final reward of -1 for Player 1 and 1 for Player 2.
+
+If Player 1 pushes access, Player 2 must decide whether to challenge or concede.
+Player 2 knows that Player 1 pushed access, but does not know which token Player 1 has.
+
+If Player 2 concedes, the final reward is 1 for Player 1 and -1 for Player 2.
+
+If Player 2 challenges, the outcome depends on Player 1’s token.
+With the master token, the final reward is 2 for Player 1 and -2 for Player 2.
+With the limited token, the final reward is -2 for Player 1 and 2 for Player 2.

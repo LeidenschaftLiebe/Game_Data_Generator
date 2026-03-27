@@ -1,0 +1,19 @@
+V1 (spaceport inspection game)
+
+There are two inspection badges, one premium badge and one standard badge.
+At the start, Player 1 is randomly assigned one of them.
+The premium badge appears with probability 0.5 and the standard badge with probability 0.5.
+Player 1 sees which badge he received.
+Player 2 does not.
+
+Player 1 then decides whether to press the issue or back down.
+If Player 1 backs down, the exchange ends immediately with a final reward of -1 for Player 1 and 1 for Player 2.
+
+If Player 1 presses the issue, Player 2 must decide whether to challenge or yield.
+Player 2 knows only that Player 1 pressed the issue, not which badge Player 1 holds.
+
+If Player 2 yields, the final reward is 1 for Player 1 and -1 for Player 2.
+
+If Player 2 challenges, the outcome depends on Player 1’s badge.
+With the premium badge, the final reward is 2 for Player 1 and -2 for Player 2.
+With the standard badge, the final reward is -2 for Player 1 and 2 for Player 2.

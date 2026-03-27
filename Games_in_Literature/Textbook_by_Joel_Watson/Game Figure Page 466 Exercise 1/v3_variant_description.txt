@@ -1,0 +1,19 @@
+V3 (museum authentication challenge)
+
+There are two certificates, one genuine and one weak copy.
+At the start, Player 1 is randomly handed one of them.
+The genuine certificate appears with probability 0.5 and the weak copy with probability 0.5.
+Player 1 sees what he has.
+Player 2 does not.
+
+Player 1 then decides whether to stand by the certificate or withdraw.
+If Player 1 withdraws, the matter ends immediately with a final reward of -1 for Player 1 and 1 for Player 2.
+
+If Player 1 stands by it, Player 2 must decide whether to contest it or let it pass.
+Player 2 knows only that Player 1 stood by the certificate, not whether it is genuine or weak.
+
+If Player 2 lets it pass, the final reward is 1 for Player 1 and -1 for Player 2.
+
+If Player 2 contests it, the outcome depends on the certificate.
+With the genuine certificate, the final reward is 2 for Player 1 and -2 for Player 2.
+With the weak copy, the final reward is -2 for Player 1 and 2 for Player 2.

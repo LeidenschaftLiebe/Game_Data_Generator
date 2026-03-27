@@ -1,0 +1,19 @@
+V4 (sports captaincy challenge)
+
+There are two status cards, one captain card and one reserve card.
+At the start, Player 1 is randomly dealt one of them.
+The captain card appears with probability 0.5 and the reserve card with probability 0.5.
+Player 1 sees which card he holds.
+Player 2 does not.
+
+Player 1 then decides whether to assert authority or step aside.
+If Player 1 steps aside, the exchange ends immediately with a final reward of -1 for Player 1 and 1 for Player 2.
+
+If Player 1 asserts authority, Player 2 must decide whether to challenge or back off.
+Player 2 knows that Player 1 asserted authority, but does not know which card Player 1 holds.
+
+If Player 2 backs off, the final reward is 1 for Player 1 and -1 for Player 2.
+
+If Player 2 challenges, the result depends on Player 1’s card.
+With the captain card, the final reward is 2 for Player 1 and -2 for Player 2.
+With the reserve card, the final reward is -2 for Player 1 and 2 for Player 2.

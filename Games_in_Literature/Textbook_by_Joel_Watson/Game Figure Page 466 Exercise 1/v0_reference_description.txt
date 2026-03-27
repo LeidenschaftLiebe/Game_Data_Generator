@@ -1,0 +1,37 @@
+Textbook Original Description: 
+
+Here is a description of the simplest poker game. There are two players and only two cards in the deck, an Ace (A) and a King (K). 
+First, the deck is shuffled and one of the two cards is dealt to player 1. That is, nature chooses the card for player 1. 
+It is the Ace with probability 1/2 and the King with probability 1/2. Player 2 does not receive a card. 
+
+Player 1 observes his card and then chooses whether to bid (B) or fold (F). 
+If he folds, then the game ends with player 1 getting a payoff of −1 and 
+player 2 getting a payoff of 1 (that is, player 1 loses his ante to player 2). 
+If player 1 bids, then player 2 must decide whether to bid or fold. 
+
+When player 2 makes this decision, she knows that player 1 bid, but she has not observed player 1’s card. 
+The game ends after player 2’s action. 
+If player 2 folds, then the payoff vector is (1, −1), meaning player 1 gets 1 and player 2 gets −1. 
+If player 2 bids, then the payoff depends on player 1’s card; 
+if player 1 holds the Ace, then the payoff vector is (2, −2); 
+if player 1 holds the King, then the payoff vector is (−2, 2).
+
+V0 (closest to the textbook)
+
+There are two players and only two cards in the deck: an Ace and a King.
+At the start, one of those two cards is dealt to Player 1.
+The card is an Ace with probability 0.5 and a King with probability 0.5.
+Player 1 sees the card.
+Player 2 does not.
+
+Player 1 then chooses whether to bid or fold.
+If Player 1 folds, the game ends immediately with a final reward of -1 for Player 1 and 1 for Player 2.
+
+If Player 1 bids, Player 2 must respond by either bidding or folding.
+Player 2 knows that Player 1 bid, but does not know whether Player 1 holds the Ace or the King.
+
+If Player 2 folds after Player 1 bids, the final reward is 1 for Player 1 and -1 for Player 2.
+
+If Player 2 bids after Player 1 bids, the result depends on Player 1’s card.
+If Player 1 holds the Ace, the final reward is 2 for Player 1 and -2 for Player 2.
+If Player 1 holds the King, the final reward is -2 for Player 1 and 2 for Player 2.

@@ -1,0 +1,25 @@
+V3 (museum restoration wing)
+
+At the outset, the museum director may be either an ordinary director or a cooperative director.
+The ordinary director occurs with probability 3/4.
+The cooperative director occurs with probability 1/4.
+The director learns which type applies.
+The donor partner does not observe the director’s type.
+
+If the director is ordinary, the director first chooses whether to invest in the restoration project or not.
+If the ordinary director does not invest, the game ends with a final reward of 0 for the director and 0 for the donor partner.
+If the ordinary director invests, the donor partner then chooses whether to invest as well or not.
+The donor partner does not know whether the investor is the ordinary director or the cooperative director.
+If the donor partner does not invest after the ordinary director invests, the final reward is -2 for the director and 0 for the donor partner.
+If the donor partner invests after the ordinary director invests, the director then chooses whether to keep the restored wing mainly for private prestige or share the benefits.
+If the ordinary director keeps the benefits selfishly, the final reward is 6 for the director and -2 for the donor partner.
+If the ordinary director shares the benefits, the final reward is 2 for the director and 2 for the donor partner.
+
+If the director is cooperative, the director first chooses whether to invest in the restoration project or not.
+If the cooperative director does not invest, the game ends with a final reward of 0 for the director and 0 for the donor partner.
+If the cooperative director invests, the donor partner then chooses whether to invest as well or not.
+The donor partner again does not know whether the investor is ordinary or cooperative.
+If the donor partner does not invest after the cooperative director invests, the final reward is 1 for the director and 0 for the donor partner.
+If the donor partner invests after the cooperative director invests, the director then chooses whether to keep the restored wing selfishly or share it.
+If the cooperative director keeps it selfishly, the final reward is 1 for the director and -2 for the donor partner.
+If the cooperative director shares it, the final reward is 2 for the director and 2 for the donor partner.

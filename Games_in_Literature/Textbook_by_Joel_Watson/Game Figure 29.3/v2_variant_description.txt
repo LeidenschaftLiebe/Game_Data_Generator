@@ -1,0 +1,25 @@
+V2 (space rover repair)
+
+At the outset, the rover commander may be either an ordinary type or a cooperative type.
+The ordinary type occurs with probability 3/4.
+The cooperative type occurs with probability 1/4.
+The commander learns which type applies.
+The engineer does not observe the commander’s type.
+
+If the commander is ordinary, the commander first chooses whether to invest effort in the rover repair or not.
+If the ordinary commander does not invest, the game ends with a final reward of 0 for the commander and 0 for the engineer.
+If the ordinary commander invests, the engineer then chooses whether to invest effort as well or not.
+The engineer does not know whether the investor is the ordinary commander or the cooperative commander.
+If the engineer does not invest after the ordinary commander invests, the final reward is -2 for the commander and 0 for the engineer.
+If the engineer invests after the ordinary commander invests, the commander then chooses whether to use the rover selfishly or share it.
+If the ordinary commander uses it selfishly, the final reward is 6 for the commander and -2 for the engineer.
+If the ordinary commander shares it, the final reward is 2 for the commander and 2 for the engineer.
+
+If the commander is cooperative, the commander first chooses whether to invest effort in the rover repair or not.
+If the cooperative commander does not invest, the game ends with a final reward of 0 for the commander and 0 for the engineer.
+If the cooperative commander invests, the engineer then chooses whether to invest effort as well or not.
+The engineer again does not know whether the investor is ordinary or cooperative.
+If the engineer does not invest after the cooperative commander invests, the final reward is 1 for the commander and 0 for the engineer.
+If the engineer invests after the cooperative commander invests, the commander then chooses whether to use the rover selfishly or share it.
+If the cooperative commander uses it selfishly, the final reward is 1 for the commander and -2 for the engineer.
+If the cooperative commander shares it, the final reward is 2 for the commander and 2 for the engineer.

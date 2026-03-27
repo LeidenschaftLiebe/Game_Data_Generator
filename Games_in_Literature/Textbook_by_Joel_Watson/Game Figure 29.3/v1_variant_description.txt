@@ -1,0 +1,25 @@
+V1 (wildlife rescue truck)
+
+At the outset, the owner of a rescue truck may be either an ordinary owner or a cooperative owner.
+The ordinary owner occurs with probability 3/4.
+The cooperative owner occurs with probability 1/4.
+The owner learns which type applies.
+The mechanic does not observe the owner’s type.
+
+If the owner is ordinary, the owner first chooses whether to invest in repairing the truck or not.
+If the ordinary owner does not invest, the game ends with a final reward of 0 for the owner and 0 for the mechanic.
+If the ordinary owner invests, the mechanic then chooses whether to invest as well or not.
+The mechanic does not know whether the investor is the ordinary owner or the cooperative owner.
+If the mechanic does not invest after the ordinary owner invests, the final reward is -2 for the owner and 0 for the mechanic.
+If the mechanic invests after the ordinary owner invests, the owner then chooses whether to keep the truck selfishly or share it.
+If the ordinary owner keeps it selfishly, the final reward is 6 for the owner and -2 for the mechanic.
+If the ordinary owner shares it, the final reward is 2 for the owner and 2 for the mechanic.
+
+If the owner is cooperative, the owner first chooses whether to invest in repairing the truck or not.
+If the cooperative owner does not invest, the game ends with a final reward of 0 for the owner and 0 for the mechanic.
+If the cooperative owner invests, the mechanic then chooses whether to invest as well or not.
+The mechanic again does not know whether the investor is ordinary or cooperative.
+If the mechanic does not invest after the cooperative owner invests, the final reward is 1 for the owner and 0 for the mechanic.
+If the mechanic invests after the cooperative owner invests, the owner then chooses whether to keep the truck selfishly or share it.
+If the cooperative owner keeps it selfishly, the final reward is 1 for the owner and -2 for the mechanic.
+If the cooperative owner shares it, the final reward is 2 for the owner and 2 for the mechanic.

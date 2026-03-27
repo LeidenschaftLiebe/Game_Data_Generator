@@ -1,0 +1,7 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that Player 1 is the ordinary type with probability 3/4 and the cooperative type with probability 1/4.
+Check that Player 2’s two decision nodes after Player 1 invests are in the same information set.
+Check that if Player 1 is the ordinary type, both players invest, and Player 1 chooses the selfish option, the final reward is 6 for Player 1 and -2 for Player 2.
+Check that if Player 1 is the cooperative type and Player 2 does not invest after Player 1 invests, the final reward is 1 for Player 1 and 0 for Player 2.

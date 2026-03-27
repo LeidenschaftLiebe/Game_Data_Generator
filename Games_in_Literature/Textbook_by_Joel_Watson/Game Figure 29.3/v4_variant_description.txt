@@ -1,0 +1,25 @@
+V4 (team training facility)
+
+At the outset, the team captain may be either an ordinary captain or a cooperative captain.
+The ordinary captain occurs with probability 3/4.
+The cooperative captain occurs with probability 1/4.
+The captain learns which type applies.
+The assistant coach does not observe the captain’s type.
+
+If the captain is ordinary, the captain first chooses whether to invest in fixing the training facility or not.
+If the ordinary captain does not invest, the game ends with a final reward of 0 for the captain and 0 for the assistant coach.
+If the ordinary captain invests, the assistant coach then chooses whether to invest as well or not.
+The assistant coach does not know whether the investor is the ordinary captain or the cooperative captain.
+If the assistant coach does not invest after the ordinary captain invests, the final reward is -2 for the captain and 0 for the assistant coach.
+If the assistant coach invests after the ordinary captain invests, the captain then chooses whether to reserve the facility selfishly or share it.
+If the ordinary captain reserves it selfishly, the final reward is 6 for the captain and -2 for the assistant coach.
+If the ordinary captain shares it, the final reward is 2 for the captain and 2 for the assistant coach.
+
+If the captain is cooperative, the captain first chooses whether to invest in fixing the training facility or not.
+If the cooperative captain does not invest, the game ends with a final reward of 0 for the captain and 0 for the assistant coach.
+If the cooperative captain invests, the assistant coach then chooses whether to invest as well or not.
+The assistant coach again does not know whether the investor is ordinary or cooperative.
+If the assistant coach does not invest after the cooperative captain invests, the final reward is 1 for the captain and 0 for the assistant coach.
+If the assistant coach invests after the cooperative captain invests, the captain then chooses whether to reserve the facility selfishly or share it.
+If the cooperative captain reserves it selfishly, the final reward is 1 for the captain and -2 for the assistant coach.
+If the cooperative captain shares it, the final reward is 2 for the captain and 2 for the assistant coach.

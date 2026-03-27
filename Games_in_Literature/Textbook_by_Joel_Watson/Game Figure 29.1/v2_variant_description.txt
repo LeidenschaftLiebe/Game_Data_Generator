@@ -1,0 +1,29 @@
+V2 (music industry hiring)
+
+At the outset, an applicant may be either a high-talent performer or a low-talent performer.
+The high-talent type occurs with probability 1/3.
+The low-talent type occurs with probability 2/3.
+The applicant learns her own type.
+The record label does not observe the applicant’s type.
+
+The applicant then chooses whether to earn a costly elite conservatory credential or not.
+The label observes whether the applicant earned the credential, but it does not observe her true talent.
+After that, the label chooses between placing her in a headline artist role or a back-office music support role.
+
+If the applicant is high-talent and does not earn the credential, the label chooses between the headline artist role and the support role.
+If the label gives the headline artist role there, the final reward is 10 for the applicant and 10 for the label.
+If the label gives the support role there, the final reward is 4 for the applicant and 4 for the label.
+
+If the applicant is low-talent and does not earn the credential, the label again chooses between the headline artist role and the support role.
+The label cannot tell whether the no-credential signal came from the high-talent or low-talent applicant.
+If the label gives the headline artist role there, the final reward is 10 for the applicant and 0 for the label.
+If the label gives the support role there, the final reward is 4 for the applicant and 4 for the label.
+
+If the applicant is high-talent and earns the credential, the label chooses between the headline artist role and the support role.
+If the label gives the headline artist role there, the final reward is 6 for the applicant and 10 for the label.
+If the label gives the support role there, the final reward is 0 for the applicant and 4 for the label.
+
+If the applicant is low-talent and earns the credential, the label again chooses between the headline artist role and the support role.
+The label cannot tell whether the credential signal came from the high-talent or low-talent applicant.
+If the label gives the headline artist role there, the final reward is 3 for the applicant and 0 for the label.
+If the label gives the support role there, the final reward is -3 for the applicant and 4 for the label.

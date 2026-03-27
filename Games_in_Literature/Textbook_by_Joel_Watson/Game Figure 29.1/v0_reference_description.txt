@@ -1,0 +1,29 @@
+V0 (closest to the textbook)
+
+At the outset, the worker may be either a high-ability type or a low-ability type.
+The high-ability type occurs with probability 1/3.
+The low-ability type occurs with probability 2/3.
+The worker learns her own type.
+The firm does not observe the worker’s type.
+
+The worker then chooses whether to get an education or not.
+The firm observes whether the worker got an education, but it does not observe the worker’s type.
+After that, the firm chooses between assigning the worker to the managerial job or the clerical job.
+
+If the worker is high-ability and does not get an education, the firm chooses between the managerial job and the clerical job.
+If the firm assigns the managerial job there, the final reward is 10 for the worker and 10 for the firm.
+If the firm assigns the clerical job there, the final reward is 4 for the worker and 4 for the firm.
+
+If the worker is low-ability and does not get an education, the firm again chooses between the managerial job and the clerical job.
+The firm cannot tell whether the no-education signal came from the high-ability worker or the low-ability worker.
+If the firm assigns the managerial job there, the final reward is 10 for the worker and 0 for the firm.
+If the firm assigns the clerical job there, the final reward is 4 for the worker and 4 for the firm.
+
+If the worker is high-ability and gets an education, the firm chooses between the managerial job and the clerical job.
+If the firm assigns the managerial job there, the final reward is 6 for the worker and 10 for the firm.
+If the firm assigns the clerical job there, the final reward is 0 for the worker and 4 for the firm.
+
+If the worker is low-ability and gets an education, the firm again chooses between the managerial job and the clerical job.
+The firm cannot tell whether the education signal came from the high-ability worker or the low-ability worker.
+If the firm assigns the managerial job there, the final reward is 3 for the worker and 0 for the firm.
+If the firm assigns the clerical job there, the final reward is -3 for the worker and 4 for the firm.

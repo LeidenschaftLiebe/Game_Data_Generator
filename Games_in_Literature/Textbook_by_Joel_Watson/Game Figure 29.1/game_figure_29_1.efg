@@ -1,0 +1,18 @@
+EFG 2 R "Watson Figure 29.1 - Job Market Signaling" { "Worker" "Firm" }
+""
+
+c "" 1 "" { "High" 1/3 "Low" 2/3 } 0
+p "" 1 1 "" { "NoEdu_H" "Edu_H" } 0
+p "" 2 1 "" { "Manager" "Clerical" } 0
+t "" 1 "High_NoEdu_Manager" { 10, 10 }
+t "" 2 "High_NoEdu_Clerical" { 4, 4 }
+p "" 2 2 "" { "Manager" "Clerical" } 0
+t "" 5 "High_Edu_Manager" { 6, 10 }
+t "" 6 "High_Edu_Clerical" { 0, 4 }
+p "" 1 2 "" { "NoEdu_L" "Edu_L" } 0
+p "" 2 1 "" { "Manager" "Clerical" } 0
+t "" 3 "Low_NoEdu_Manager" { 10, 0 }
+t "" 4 "Low_NoEdu_Clerical" { 4, 4 }
+p "" 2 2 "" { "Manager" "Clerical" } 0
+t "" 7 "Low_Edu_Manager" { 3, 0 }
+t "" 8 "Low_Edu_Clerical" { -3, 4 }

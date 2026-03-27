@@ -1,0 +1,29 @@
+V3 (museum curator hiring)
+
+At the outset, a candidate may be either a high-skill curator or a low-skill curator.
+The high-skill type occurs with probability 1/3.
+The low-skill type occurs with probability 2/3.
+The candidate learns her own type.
+The museum does not observe the candidate’s type.
+
+The candidate then chooses whether to complete a costly advanced heritage fellowship or not.
+The museum observes whether the candidate completed the fellowship, but it does not observe her true skill.
+After that, the museum chooses between assigning her to a flagship curatorial role or a clerical archive role.
+
+If the candidate is high-skill and does not complete the fellowship, the museum chooses between the flagship curatorial role and the clerical archive role.
+If the museum assigns the flagship curatorial role there, the final reward is 10 for the candidate and 10 for the museum.
+If the museum assigns the clerical archive role there, the final reward is 4 for the candidate and 4 for the museum.
+
+If the candidate is low-skill and does not complete the fellowship, the museum again chooses between the flagship curatorial role and the clerical archive role.
+The museum cannot tell whether the no-fellowship signal came from the high-skill or low-skill candidate.
+If the museum assigns the flagship curatorial role there, the final reward is 10 for the candidate and 0 for the museum.
+If the museum assigns the clerical archive role there, the final reward is 4 for the candidate and 4 for the museum.
+
+If the candidate is high-skill and completes the fellowship, the museum chooses between the flagship curatorial role and the clerical archive role.
+If the museum assigns the flagship curatorial role there, the final reward is 6 for the candidate and 10 for the museum.
+If the museum assigns the clerical archive role there, the final reward is 0 for the candidate and 4 for the museum.
+
+If the candidate is low-skill and completes the fellowship, the museum again chooses between the flagship curatorial role and the clerical archive role.
+The museum cannot tell whether the fellowship signal came from the high-skill or low-skill candidate.
+If the museum assigns the flagship curatorial role there, the final reward is 3 for the candidate and 0 for the museum.
+If the museum assigns the clerical archive role there, the final reward is -3 for the candidate and 4 for the museum.

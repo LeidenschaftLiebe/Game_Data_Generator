@@ -1,0 +1,15 @@
+V4 (sports play-calling)
+
+A coach first learns whether the team is in game state A or game state B.
+That state is determined randomly, with each one happening half the time.
+The coach sees the state, but the opposing captain does not.
+
+If the team is in game state A, the coach chooses between call U and call D.
+The opposing captain then chooses between response L and response R without knowing whether the state is A or B.
+In state A with call U, response L gives a final reward of 2 for the coach and 2 for the captain, while response R gives 0 for both.
+In state A with call D, response L gives 0 for both, while response R gives 4 for the coach and 4 for the captain.
+
+If the team is in game state B, the coach chooses between call u and call d.
+The opposing captain again chooses between L and R without knowing which state applies.
+In state B with call u, response L gives 0 for the coach and 2 for the captain, while response R gives 2 for the coach and 0 for the captain.
+In state B with call d, response L gives 4 for the coach and 0 for the captain, while response R gives 0 for the coach and 4 for the captain.

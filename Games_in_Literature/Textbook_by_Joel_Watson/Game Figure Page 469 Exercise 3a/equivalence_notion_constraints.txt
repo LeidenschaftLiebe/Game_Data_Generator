@@ -1,0 +1,7 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that nature selects A with probability 0.5 and B with probability 0.5.
+Check that Player 2’s four decision nodes are in the same information set.
+Check that if A is selected and Player 1 chooses U, then L gives a final reward of 2 for Player 1 and 2 for Player 2.
+Check that if B is selected and Player 1 chooses d, then R gives a final reward of 0 for Player 1 and 4 for Player 2.

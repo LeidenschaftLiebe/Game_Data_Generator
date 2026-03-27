@@ -1,0 +1,15 @@
+V3 (museum exhibit rollout)
+
+A museum director first learns whether the exhibit is in setup A or setup B.
+That setup is determined randomly, and each one is equally likely.
+The director sees which setup applies, but the publicity partner does not.
+
+If the exhibit is in setup A, the director chooses between rollout U and rollout D.
+The publicity partner then chooses between option L and option R without knowing whether the exhibit is in setup A or setup B.
+In setup A with rollout U, option L gives a final reward of 2 for the director and 2 for the publicity partner, while option R gives 0 for both.
+In setup A with rollout D, option L gives 0 for both, while option R gives 4 for the director and 4 for the publicity partner.
+
+If the exhibit is in setup B, the director chooses between rollout u and rollout d.
+The publicity partner again chooses between L and R without knowing which setup was drawn.
+In setup B with rollout u, option L gives 0 for the director and 2 for the publicity partner, while option R gives 2 for the director and 0 for the publicity partner.
+In setup B with rollout d, option L gives 4 for the director and 0 for the publicity partner, while option R gives 0 for the director and 4 for the publicity partner.

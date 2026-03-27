@@ -1,0 +1,15 @@
+V1 (music festival booking)
+
+A festival organizer first learns whether the event is running under schedule A or schedule B.
+That schedule is determined randomly, with each case happening half the time.
+The organizer sees the schedule, but the headliner does not.
+
+If the event is in schedule A, the organizer chooses between plan U and plan D.
+The headliner then chooses between option L and option R without knowing which schedule was drawn.
+Under schedule A with plan U, option L gives a final reward of 2 for the organizer and 2 for the headliner, while option R gives 0 for both.
+Under schedule A with plan D, option L gives 0 for both, while option R gives 4 for the organizer and 4 for the headliner.
+
+If the event is in schedule B, the organizer chooses between plan u and plan d.
+The headliner again chooses between L and R without knowing whether the event is in schedule A or schedule B.
+Under schedule B with plan u, option L gives 0 for the organizer and 2 for the headliner, while option R gives 2 for the organizer and 0 for the headliner.
+Under schedule B with plan d, option L gives 4 for the organizer and 0 for the headliner, while option R gives 0 for the organizer and 4 for the headliner.

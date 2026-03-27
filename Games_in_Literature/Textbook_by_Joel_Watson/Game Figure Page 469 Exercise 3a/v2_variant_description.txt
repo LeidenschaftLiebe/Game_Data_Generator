@@ -1,0 +1,15 @@
+V2 (space mission routing)
+
+A mission controller first learns whether the mission is in mode A or mode B.
+That mode is chosen randomly, with each case occurring with probability 0.5.
+The controller sees the mode, but the pilot does not.
+
+If the mission is in mode A, the controller chooses between route U and route D.
+The pilot then chooses between response L and response R without knowing whether the mission is in mode A or mode B.
+In mode A with route U, response L gives a final reward of 2 for the controller and 2 for the pilot, while response R gives 0 for both.
+In mode A with route D, response L gives 0 for both, while response R gives 4 for the controller and 4 for the pilot.
+
+If the mission is in mode B, the controller chooses between route u and route d.
+The pilot again chooses between L and R without knowing which mode was selected.
+In mode B with route u, response L gives 0 for the controller and 2 for the pilot, while response R gives 2 for the controller and 0 for the pilot.
+In mode B with route d, response L gives 4 for the controller and 0 for the pilot, while response R gives 0 for the controller and 4 for the pilot.

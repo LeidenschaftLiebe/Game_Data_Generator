@@ -1,0 +1,15 @@
+V5 (cybersecurity response mode)
+
+A security lead first learns whether the system is in alert mode A or alert mode B.
+That mode is selected randomly, with equal probability.
+The lead sees the mode, but the outside responder does not.
+
+If the system is in alert mode A, the lead chooses between action U and action D.
+The outside responder then chooses between option L and option R without knowing whether the system is in alert mode A or B.
+In mode A with action U, option L gives a final reward of 2 for the lead and 2 for the responder, while option R gives 0 for both.
+In mode A with action D, option L gives 0 for both, while option R gives 4 for the lead and 4 for the responder.
+
+If the system is in alert mode B, the lead chooses between action u and action d.
+The outside responder again chooses between L and R without knowing which mode was selected.
+In mode B with action u, option L gives 0 for the lead and 2 for the responder, while option R gives 2 for the lead and 0 for the responder.
+In mode B with action d, option L gives 4 for the lead and 0 for the responder, while option R gives 0 for the lead and 4 for the responder.

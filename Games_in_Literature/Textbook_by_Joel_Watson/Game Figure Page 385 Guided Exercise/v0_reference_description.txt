@@ -1,0 +1,24 @@
+V0 (closest to the textbook)
+
+At the outset, the shoes may either be on sale or not on sale, with probability 0.5 for each case.
+Amy learns whether the shoes are on sale.
+Brenda does not observe this directly.
+
+If the shoes are on sale, Amy chooses whether to take the newspaper to Brenda or not.
+If Amy takes the newspaper when the shoes are on sale, Brenda then chooses whether to drive Amy to the mall or not.
+If Brenda drives Amy after seeing the newspaper in the sale case, the final reward is 1 for Amy and 1 for Brenda.
+If Brenda refuses after seeing the newspaper in the sale case, the final reward is -2 for Amy and 0 for Brenda.
+
+If Amy does not take the newspaper when the shoes are on sale, Brenda still chooses whether to drive Amy to the mall or not.
+If Brenda drives Amy after Amy does not take the newspaper in the sale case, the final reward is 3 for Amy and 1 for Brenda.
+If Brenda refuses after Amy does not take the newspaper in the sale case, the final reward is 0 for Amy and 0 for Brenda.
+
+If the shoes are not on sale, Amy again chooses whether to take the newspaper to Brenda or not.
+If Amy takes the newspaper when the shoes are not on sale, Brenda then chooses whether to drive Amy to the mall or not.
+If Brenda drives Amy after seeing the newspaper in the no-sale case, the final reward is -1 for Amy and -1 for Brenda.
+If Brenda refuses after seeing the newspaper in the no-sale case, the final reward is -2 for Amy and 0 for Brenda.
+
+If Amy does not take the newspaper when the shoes are not on sale, Brenda still chooses whether to drive Amy to the mall or not.
+Brenda cannot tell from Amy’s refusal to show the paper whether the shoes are on sale or not.
+If Brenda drives Amy after Amy does not take the newspaper in the no-sale case, the final reward is 1 for Amy and -1 for Brenda.
+If Brenda refuses after Amy does not take the newspaper in the no-sale case, the final reward is 0 for Amy and 0 for Brenda.

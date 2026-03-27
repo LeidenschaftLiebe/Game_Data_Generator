@@ -1,0 +1,18 @@
+EFG 2 R "Amy and Brenda Mall Game" { "Amy" "Brenda" }
+""
+
+c "" 1 "" { "Sale" 0.5 "NoSale" 0.5 } 0
+p "" 1 1 "" { "TakePaper_sale" "NoPaper_sale" } 0
+p "" 2 1 "" { "Go" "Refuse" } 0
+t "" 1 "Sale_Take_Go" { 1, 1 }
+t "" 2 "Sale_Take_Refuse" { -2, 0 }
+p "" 2 3 "" { "Go" "Refuse" } 0
+t "" 5 "Sale_NoTake_Go" { 3, 1 }
+t "" 6 "Sale_NoTake_Refuse" { 0, 0 }
+p "" 1 2 "" { "TakePaper_nosale" "NoPaper_nosale" } 0
+p "" 2 2 "" { "Go" "Refuse" } 0
+t "" 3 "NoSale_Take_Go" { -1, -1 }
+t "" 4 "NoSale_Take_Refuse" { -2, 0 }
+p "" 2 3 "" { "Go" "Refuse" } 0
+t "" 7 "NoSale_NoTake_Go" { 1, -1 }
+t "" 8 "NoSale_NoTake_Refuse" { 0, 0 }

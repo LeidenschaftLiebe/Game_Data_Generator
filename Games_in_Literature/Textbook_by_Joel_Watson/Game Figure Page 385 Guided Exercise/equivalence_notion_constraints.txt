@@ -1,0 +1,8 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that the shoes are on sale with probability 0.5 and not on sale with probability 0.5.
+Check that Brenda’s two decision nodes after Amy does not take the newspaper are in the same information set.
+Check that Brenda’s decision nodes after Amy takes the newspaper are in different information sets, because the newspaper reveals whether the shoes are on sale.
+Check that if the shoes are on sale, Amy does not take the newspaper, and Brenda goes to the mall, the final reward is 3 for Amy and 1 for Brenda.
+Check that if the shoes are not on sale, Amy takes the newspaper, and Brenda goes to the mall, the final reward is -1 for Amy and -1 for Brenda.

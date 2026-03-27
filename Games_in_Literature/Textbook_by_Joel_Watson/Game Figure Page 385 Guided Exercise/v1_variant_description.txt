@@ -1,0 +1,24 @@
+V1 (festival concert flyer)
+
+At the outset, a headline band may either be offering a surprise performance or not, with probability 0.5 for each case.
+Alex learns whether the surprise performance is happening.
+Bailey does not observe this directly.
+
+If the surprise performance is happening, Alex chooses whether to bring the official festival flyer to Bailey or not.
+If Alex brings the flyer in the performance case, Bailey then chooses whether to go to the festival or stay home.
+If Bailey goes after seeing the flyer in the performance case, the final reward is 1 for Alex and 1 for Bailey.
+If Bailey stays home after seeing the flyer in the performance case, the final reward is -2 for Alex and 0 for Bailey.
+
+If Alex does not bring the flyer in the performance case, Bailey still chooses whether to go to the festival or stay home.
+If Bailey goes after Alex does not bring the flyer in the performance case, the final reward is 3 for Alex and 1 for Bailey.
+If Bailey stays home after Alex does not bring the flyer in the performance case, the final reward is 0 for Alex and 0 for Bailey.
+
+If the surprise performance is not happening, Alex again chooses whether to bring the flyer or not.
+If Alex brings the flyer in the no-performance case, Bailey then chooses whether to go to the festival or stay home.
+If Bailey goes after seeing the flyer in the no-performance case, the final reward is -1 for Alex and -1 for Bailey.
+If Bailey stays home after seeing the flyer in the no-performance case, the final reward is -2 for Alex and 0 for Bailey.
+
+If Alex does not bring the flyer in the no-performance case, Bailey still chooses whether to go to the festival or stay home.
+Bailey cannot tell from the missing flyer whether the surprise performance is happening or not.
+If Bailey goes after Alex does not bring the flyer in the no-performance case, the final reward is 1 for Alex and -1 for Bailey.
+If Bailey stays home after Alex does not bring the flyer in the no-performance case, the final reward is 0 for Alex and 0 for Bailey.

@@ -1,0 +1,24 @@
+V3 (museum exhibit preview)
+
+At the outset, a special exhibit may either be open for preview that day or not, with probability 0.5 for each case.
+Jordan learns whether the preview is open.
+Casey does not observe this directly.
+
+If the preview is open, Jordan chooses whether to bring the museum bulletin to Casey or not.
+If Jordan brings the bulletin in the preview-open case, Casey then chooses whether to go to the museum or not.
+If Casey goes after seeing the bulletin in the preview-open case, the final reward is 1 for Jordan and 1 for Casey.
+If Casey refuses after seeing the bulletin in the preview-open case, the final reward is -2 for Jordan and 0 for Casey.
+
+If Jordan does not bring the bulletin in the preview-open case, Casey still chooses whether to go to the museum or not.
+If Casey goes after Jordan does not bring the bulletin in the preview-open case, the final reward is 3 for Jordan and 1 for Casey.
+If Casey refuses after Jordan does not bring the bulletin in the preview-open case, the final reward is 0 for Jordan and 0 for Casey.
+
+If the preview is not open, Jordan again chooses whether to bring the bulletin or not.
+If Jordan brings the bulletin in the preview-closed case, Casey then chooses whether to go to the museum or not.
+If Casey goes after seeing the bulletin in the preview-closed case, the final reward is -1 for Jordan and -1 for Casey.
+If Casey refuses after seeing the bulletin in the preview-closed case, the final reward is -2 for Jordan and 0 for Casey.
+
+If Jordan does not bring the bulletin in the preview-closed case, Casey still chooses whether to go to the museum or not.
+Casey cannot tell from the missing bulletin whether the preview is open or not.
+If Casey goes after Jordan does not bring the bulletin in the preview-closed case, the final reward is 1 for Jordan and -1 for Casey.
+If Casey refuses after Jordan does not bring the bulletin in the preview-closed case, the final reward is 0 for Jordan and 0 for Casey.

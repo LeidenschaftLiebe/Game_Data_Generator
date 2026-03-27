@@ -1,0 +1,7 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that the game begins on branch A with probability 0.5 and on branch B with probability 0.5.
+Check that Player 2’s four decision nodes are in the same information set.
+Check that if branch A occurs and Player 1A chooses U, then L gives a final reward of 2 for Player 1A, 0 for Player 1B, and 2 for Player 2.
+Check that if branch B occurs and Player 1B chooses d, then L gives a final reward of 0 for Player 1A, 4 for Player 1B, and 0 for Player 2.

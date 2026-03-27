@@ -1,0 +1,20 @@
+V0 (closest to the textbook)
+
+At the start, the game moves down branch A with probability 0.5 and down branch B with probability 0.5.
+If branch A occurs, Player 1A becomes the active first mover.
+If branch B occurs, Player 1B becomes the active first mover.
+Player 2 does not observe whether the game came through A or B.
+
+If branch A occurs, Player 1A chooses between U and D.
+Player 2 then chooses between L and R without knowing whether the earlier branch was A or B.
+If A and U are followed by L, the final reward is 2 for Player 1A, 0 for Player 1B, and 2 for Player 2.
+If A and U are followed by R, the final reward is 0 for Player 1A, 0 for Player 1B, and 0 for Player 2.
+If A and D are followed by L, the final reward is 0 for Player 1A, 0 for Player 1B, and 0 for Player 2.
+If A and D are followed by R, the final reward is 4 for Player 1A, 0 for Player 1B, and 4 for Player 2.
+
+If branch B occurs, Player 1B chooses between u and d.
+Player 2 again chooses between L and R without knowing whether the earlier branch was A or B.
+If B and u are followed by L, the final reward is 0 for Player 1A, 0 for Player 1B, and 2 for Player 2.
+If B and u are followed by R, the final reward is 0 for Player 1A, 2 for Player 1B, and 0 for Player 2.
+If B and d are followed by L, the final reward is 0 for Player 1A, 4 for Player 1B, and 0 for Player 2.
+If B and d are followed by R, the final reward is 0 for Player 1A, 0 for Player 1B, and 4 for Player 2.

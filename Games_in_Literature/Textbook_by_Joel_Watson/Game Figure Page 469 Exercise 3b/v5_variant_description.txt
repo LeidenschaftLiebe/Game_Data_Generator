@@ -1,0 +1,20 @@
+V5 (cybersecurity dual-lead scenario)
+
+At the start, the system is equally likely to fall under Lead A’s protocol or Lead B’s protocol.
+If Lead A’s protocol is active, Lead A makes the first move.
+If Lead B’s protocol is active, Lead B makes the first move.
+The external responder does not know which lead is actually in control when choosing the final response.
+
+Under Lead A’s protocol, Lead A chooses between an upper response and a lower response.
+The external responder then chooses between L and R without knowing whether Lead A or Lead B is active.
+If Lead A’s protocol and the upper response are followed by L, the final reward is 2 for Lead A, 0 for Lead B, and 2 for the responder.
+If Lead A’s protocol and the upper response are followed by R, all three get 0.
+If Lead A’s protocol and the lower response are followed by L, all three get 0.
+If Lead A’s protocol and the lower response are followed by R, the final reward is 4 for Lead A, 0 for Lead B, and 4 for the responder.
+
+Under Lead B’s protocol, Lead B chooses between an upper response and a lower response.
+The external responder again chooses between L and R without knowing which lead is active.
+If Lead B’s protocol and the upper response are followed by L, the final reward is 0 for Lead A, 0 for Lead B, and 2 for the responder.
+If Lead B’s protocol and the upper response are followed by R, the final reward is 0 for Lead A, 2 for Lead B, and 0 for the responder.
+If Lead B’s protocol and the lower response are followed by L, the final reward is 0 for Lead A, 4 for Lead B, and 0 for the responder.
+If Lead B’s protocol and the lower response are followed by R, the final reward is 0 for Lead A, 0 for Lead B, and 4 for the responder.

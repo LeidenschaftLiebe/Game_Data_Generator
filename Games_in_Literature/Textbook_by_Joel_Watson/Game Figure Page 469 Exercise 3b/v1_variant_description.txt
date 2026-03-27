@@ -1,0 +1,20 @@
+V1 (festival production team)
+
+At the start, the event is equally likely to run under Plan A or Plan B.
+If Plan A is the one in effect, Producer A becomes the active decision maker.
+If Plan B is the one in effect, Producer B becomes the active decision maker.
+The performer only sees the later move, not which production plan was chosen.
+
+Under Plan A, Producer A chooses between an upbeat setup and a darker setup.
+The performer then chooses between response L and response R without knowing whether the show is running under Plan A or Plan B.
+If Plan A and the upbeat setup are followed by L, the final reward is 2 for Producer A, 0 for Producer B, and 2 for the performer.
+If Plan A and the upbeat setup are followed by R, all three get 0.
+If Plan A and the darker setup are followed by L, all three get 0.
+If Plan A and the darker setup are followed by R, the final reward is 4 for Producer A, 0 for Producer B, and 4 for the performer.
+
+Under Plan B, Producer B chooses between a lighter setup and a heavier setup.
+The performer again chooses between L and R without knowing which plan is in effect.
+If Plan B and the lighter setup are followed by L, the final reward is 0 for Producer A, 0 for Producer B, and 2 for the performer.
+If Plan B and the lighter setup are followed by R, the final reward is 0 for Producer A, 2 for Producer B, and 0 for the performer.
+If Plan B and the heavier setup are followed by L, the final reward is 0 for Producer A, 4 for Producer B, and 0 for the performer.
+If Plan B and the heavier setup are followed by R, the final reward is 0 for Producer A, 0 for Producer B, and 4 for the performer.

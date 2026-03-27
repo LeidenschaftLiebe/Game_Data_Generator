@@ -1,0 +1,20 @@
+V4 (sports playbook split)
+
+At the start, the team is equally likely to use Playbook A or Playbook B.
+If Playbook A is in use, Coach A makes the first move.
+If Playbook B is in use, Coach B makes the first move.
+The opposing captain does not know which playbook is active when making the response.
+
+With Playbook A, Coach A chooses between an aggressive call and a cautious call.
+The opposing captain then chooses between L and R without knowing whether the team is using Playbook A or Playbook B.
+If Playbook A and the aggressive call are followed by L, the final reward is 2 for Coach A, 0 for Coach B, and 2 for the captain.
+If Playbook A and the aggressive call are followed by R, all three get 0.
+If Playbook A and the cautious call are followed by L, all three get 0.
+If Playbook A and the cautious call are followed by R, the final reward is 4 for Coach A, 0 for Coach B, and 4 for the captain.
+
+With Playbook B, Coach B chooses between an aggressive call and a cautious call.
+The opposing captain again chooses between L and R without knowing which playbook is active.
+If Playbook B and the aggressive call are followed by L, the final reward is 0 for Coach A, 0 for Coach B, and 2 for the captain.
+If Playbook B and the aggressive call are followed by R, the final reward is 0 for Coach A, 2 for Coach B, and 0 for the captain.
+If Playbook B and the cautious call are followed by L, the final reward is 0 for Coach A, 4 for Coach B, and 0 for the captain.
+If Playbook B and the cautious call are followed by R, the final reward is 0 for Coach A, 0 for Coach B, and 4 for the captain.

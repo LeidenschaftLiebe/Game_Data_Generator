@@ -1,0 +1,20 @@
+V3 (museum exhibit split)
+
+At the start, the museum is equally likely to use Gallery A or Gallery B.
+If Gallery A is the active setting, Curator A makes the first move.
+If Gallery B is the active setting, Curator B makes the first move.
+The visitor advisor does not know which gallery is active when responding.
+
+In Gallery A, Curator A chooses between an upper presentation and a lower presentation.
+The visitor advisor then chooses between L and R without knowing whether the exhibit is in Gallery A or Gallery B.
+If Gallery A and the upper presentation are followed by L, the final reward is 2 for Curator A, 0 for Curator B, and 2 for the advisor.
+If Gallery A and the upper presentation are followed by R, all three get 0.
+If Gallery A and the lower presentation are followed by L, all three get 0.
+If Gallery A and the lower presentation are followed by R, the final reward is 4 for Curator A, 0 for Curator B, and 4 for the advisor.
+
+In Gallery B, Curator B chooses between an upper presentation and a lower presentation.
+The visitor advisor again chooses between L and R without knowing which gallery is active.
+If Gallery B and the upper presentation are followed by L, the final reward is 0 for Curator A, 0 for Curator B, and 2 for the advisor.
+If Gallery B and the upper presentation are followed by R, the final reward is 0 for Curator A, 2 for Curator B, and 0 for the advisor.
+If Gallery B and the lower presentation are followed by L, the final reward is 0 for Curator A, 4 for Curator B, and 0 for the advisor.
+If Gallery B and the lower presentation are followed by R, the final reward is 0 for Curator A, 0 for Curator B, and 4 for the advisor.

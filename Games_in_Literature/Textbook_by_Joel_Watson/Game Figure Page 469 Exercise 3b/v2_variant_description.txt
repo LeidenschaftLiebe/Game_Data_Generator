@@ -1,0 +1,20 @@
+V2 (space mission command)
+
+At the start, the mission is equally likely to be routed through Module A or Module B.
+If Module A is active, Commander A makes the first real decision.
+If Module B is active, Commander B makes the first real decision.
+The response officer cannot tell which module is active when making the final choice.
+
+In Module A, Commander A chooses between the upper route and the lower route.
+The response officer then chooses between L and R without knowing whether the mission came through Module A or Module B.
+If Module A and the upper route are followed by L, the final reward is 2 for Commander A, 0 for Commander B, and 2 for the response officer.
+If Module A and the upper route are followed by R, all three get 0.
+If Module A and the lower route are followed by L, all three get 0.
+If Module A and the lower route are followed by R, the final reward is 4 for Commander A, 0 for Commander B, and 4 for the response officer.
+
+In Module B, Commander B chooses between the upper route and the lower route.
+The response officer again chooses between L and R without knowing which module is active.
+If Module B and the upper route are followed by L, the final reward is 0 for Commander A, 0 for Commander B, and 2 for the response officer.
+If Module B and the upper route are followed by R, the final reward is 0 for Commander A, 2 for Commander B, and 0 for the response officer.
+If Module B and the lower route are followed by L, the final reward is 0 for Commander A, 4 for Commander B, and 0 for the response officer.
+If Module B and the lower route are followed by R, the final reward is 0 for Commander A, 0 for Commander B, and 4 for the response officer.

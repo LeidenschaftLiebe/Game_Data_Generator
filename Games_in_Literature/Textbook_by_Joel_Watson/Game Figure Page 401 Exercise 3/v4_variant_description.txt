@@ -1,0 +1,18 @@
+V4 (sports club recruitment)
+
+At the outset, a club may be either well run or badly run.
+The well-run case occurs with probability 0.5, and the badly-run case occurs with probability 0.5.
+The club knows which type it is.
+The player does not observe that directly.
+
+The club then decides whether to make the player an offer.
+If no offer is made, the interaction ends and both sides get 0.
+
+If a well-run club makes an offer, the player chooses whether to accept or reject it.
+If the player accepts, the final reward is 2 for the club and 2 for the player.
+If the player rejects, the final reward is -1 for the club and 0 for the player.
+
+If a badly-run club makes an offer, the player again chooses whether to accept or reject it.
+The player cannot tell whether the offer came from a well-run club or a badly-run one.
+If the player accepts, the final reward is 2 for the club and -1 for the player.
+If the player rejects, the final reward is -1 for the club and 0 for the player.

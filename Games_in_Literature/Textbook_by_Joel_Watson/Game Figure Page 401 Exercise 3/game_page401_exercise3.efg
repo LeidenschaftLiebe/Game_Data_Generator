@@ -1,0 +1,14 @@
+EFG 2 R "Page 401 Exercise 3" { "Firm" "Worker" }
+""
+
+c "" 1 "" { "High" 1/2 "Low" 1/2 } 0
+p "" 1 1 "" { "NoOffer_H" "Offer_H" } 0
+t "" 1 "High_NoOffer" { 0, 0 }
+p "" 2 1 "" { "Accept" "Reject" } 0
+t "" 3 "High_Offer_Accept" { 2, 2 }
+t "" 4 "High_Offer_Reject" { -1, 0 }
+p "" 1 2 "" { "NoOffer_L" "Offer_L" } 0
+t "" 2 "Low_NoOffer" { 0, 0 }
+p "" 2 1 "" { "Accept" "Reject" } 0
+t "" 5 "Low_Offer_Accept" { 2, -1 }
+t "" 6 "Low_Offer_Reject" { -1, 0 }

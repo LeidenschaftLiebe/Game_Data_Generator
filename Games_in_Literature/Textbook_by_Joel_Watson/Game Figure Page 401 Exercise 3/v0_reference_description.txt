@@ -1,0 +1,18 @@
+V0 (closest to the textbook)
+
+At the outset, the firm may be either high quality or low quality.
+The high-quality case occurs with probability 0.5, and the low-quality case occurs with probability 0.5.
+The firm learns its own quality.
+The worker does not observe the firm’s quality directly.
+
+The firm then decides whether to make a job offer.
+If no offer is made, the interaction ends and both sides get 0.
+
+If the firm is high quality and makes an offer, the worker chooses whether to accept or reject it.
+If the worker accepts, the final reward is 2 for the firm and 2 for the worker.
+If the worker rejects, the final reward is -1 for the firm and 0 for the worker.
+
+If the firm is low quality and makes an offer, the worker again chooses whether to accept or reject it.
+The worker cannot tell whether the offer came from a high-quality firm or a low-quality firm.
+If the worker accepts, the final reward is 2 for the firm and -1 for the worker.
+If the worker rejects, the final reward is -1 for the firm and 0 for the worker.

@@ -1,0 +1,18 @@
+V5 (cybersecurity firm offer)
+
+At the outset, a security company may be either a strong employer or a weak employer.
+The strong-employer case occurs with probability 0.5, and the weak-employer case occurs with probability 0.5.
+The company knows which kind it is.
+The analyst does not observe that directly.
+
+The company then decides whether to make the analyst an offer.
+If no offer is made, the interaction ends and both sides get 0.
+
+If a strong employer makes an offer, the analyst chooses whether to accept or reject it.
+If the analyst accepts, the final reward is 2 for the company and 2 for the analyst.
+If the analyst rejects, the final reward is -1 for the company and 0 for the analyst.
+
+If a weak employer makes an offer, the analyst again chooses whether to accept or reject it.
+The analyst cannot tell whether the offer came from a strong employer or a weak one.
+If the analyst accepts, the final reward is 2 for the company and -1 for the analyst.
+If the analyst rejects, the final reward is -1 for the company and 0 for the analyst.

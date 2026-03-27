@@ -1,0 +1,18 @@
+V2 (museum internship offer)
+
+At the outset, a museum may be either a high-quality employer or a low-quality employer.
+The high-quality case occurs with probability 0.5, and the low-quality case occurs with probability 0.5.
+The museum knows which kind it is.
+The applicant does not.
+
+The museum then decides whether to offer an internship.
+If it makes no offer, the interaction ends and both sides get 0.
+
+If a high-quality museum makes an offer, the applicant chooses whether to accept or reject it.
+If the applicant accepts, the final reward is 2 for the museum and 2 for the applicant.
+If the applicant rejects, the final reward is -1 for the museum and 0 for the applicant.
+
+If a low-quality museum makes an offer, the applicant again chooses whether to accept or reject it.
+The applicant cannot tell whether the offer came from a high-quality museum or a low-quality one.
+If the applicant accepts, the final reward is 2 for the museum and -1 for the applicant.
+If the applicant rejects, the final reward is -1 for the museum and 0 for the applicant.

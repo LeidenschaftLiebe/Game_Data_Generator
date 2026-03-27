@@ -1,0 +1,7 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that the firm is high quality with probability 0.5 and low quality with probability 0.5.
+Check that the worker’s two decision nodes after an offer are in the same information set.
+Check that if no offer is made, both sides get 0.
+Check that if a high-quality firm makes an offer and the worker accepts, the final reward is 2 for the firm and 2 for the worker.

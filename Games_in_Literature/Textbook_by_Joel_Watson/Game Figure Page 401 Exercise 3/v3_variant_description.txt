@@ -1,0 +1,18 @@
+V3 (space mission contractor)
+
+At the outset, a contractor may be either highly reliable or poorly reliable.
+The highly reliable case occurs with probability 0.5, and the poorly reliable case occurs with probability 0.5.
+The contractor knows its own quality.
+The engineer considering the job does not.
+
+The contractor then decides whether to make a hiring offer.
+If no offer is made, the interaction ends and both sides get 0.
+
+If a highly reliable contractor makes an offer, the engineer chooses whether to accept or reject it.
+If the engineer accepts, the final reward is 2 for the contractor and 2 for the engineer.
+If the engineer rejects, the final reward is -1 for the contractor and 0 for the engineer.
+
+If a poorly reliable contractor makes an offer, the engineer again chooses whether to accept or reject it.
+The engineer cannot tell whether the offer came from a highly reliable contractor or a poorly reliable one.
+If the engineer accepts, the final reward is 2 for the contractor and -1 for the engineer.
+If the engineer rejects, the final reward is -1 for the contractor and 0 for the engineer.

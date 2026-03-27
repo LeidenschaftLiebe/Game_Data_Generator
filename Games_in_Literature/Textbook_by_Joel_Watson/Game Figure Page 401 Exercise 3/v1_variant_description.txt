@@ -1,0 +1,18 @@
+V1 (record label offer)
+
+At the outset, a record label may be either a strong label or a weak label.
+The strong-label case occurs with probability 0.5, and the weak-label case occurs with probability 0.5.
+The label knows which kind it is.
+The musician does not observe that directly.
+
+The label then decides whether to offer the musician a contract.
+If no contract is offered, the story ends there and both sides get 0.
+
+If a strong label offers a contract, the musician decides whether to accept or walk away.
+Accepting gives a final reward of 2 to the label and 2 to the musician.
+Rejecting gives a final reward of -1 to the label and 0 to the musician.
+
+If a weak label offers a contract, the musician again decides whether to accept or walk away.
+The musician cannot tell whether the offer came from a strong label or a weak one.
+Accepting gives a final reward of 2 to the label and -1 to the musician.
+Rejecting gives a final reward of -1 to the label and 0 to the musician.

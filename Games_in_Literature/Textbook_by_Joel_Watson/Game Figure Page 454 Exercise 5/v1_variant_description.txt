@@ -1,0 +1,27 @@
+V1 (battery-sharing rover game)
+
+Two rover teams each start with 1 battery pack.
+On a turn, a team may stop the process or continue it.
+Continuing means giving up 1 of its own battery packs while sending 2 packs to the other team.
+If someone stops, the teams keep whatever battery packs they currently hold.
+If nobody stops by the fifth move, both sides end up with nothing.
+
+Team 1 moves first.
+Stopping right away gives final rewards of 1 and 1.
+If Team 1 continues, the battery counts become 0 for Team 1 and 3 for Team 2.
+
+Team 2 then chooses whether to stop or continue.
+Stopping there gives final rewards of 0 and 3.
+Continuing shifts the counts to 2 for Team 1 and 2 for Team 2.
+
+Team 1 then moves again.
+Stopping there gives final rewards of 2 and 2.
+Continuing changes the counts to 1 for Team 1 and 4 for Team 2.
+
+Team 2 then moves again.
+Stopping there gives final rewards of 1 and 4.
+Continuing changes the counts to 3 for Team 1 and 3 for Team 2.
+
+Team 1 then makes the final move.
+Stopping there gives final rewards of 3 and 3.
+Continuing pushes the process past the fifth move, so both teams get 0.

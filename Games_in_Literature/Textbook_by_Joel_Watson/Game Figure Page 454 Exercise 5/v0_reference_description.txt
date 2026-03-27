@@ -1,0 +1,45 @@
+Textbook Original Description: 
+
+In the envelope game, there are two players and two envelopes. 
+One of the envelopes is marked “player 1,” and the other is marked “player 2.” 
+At the beginning of the game, each envelope contains one dollar. 
+Player 1 is given the choice between stopping the game and continuing. 
+If he chooses to stop, then each player receives the money in his own envelope and the game ends. 
+If player 1 chooses to continue, then a dollar is removed from his envelope and two dollars are added to player 2’s envelope. 
+
+Then player 2 must choose between stopping the game and continuing. 
+If he stops, then the game ends and each player keeps the money in his own envelope. 
+If player 2 elects to continue, then a dollar is removed from his envelope and two dollars are added to player 1’s envelope. 
+
+Play continues like this, alternating between the players, until either one of them decides to stop or 5 rounds of play have elapsed. 
+If neither player chooses to stop by the end of the 5th round, then both players obtain zero. 
+Assume players want to maximize the amount of money they earn.
+
+V0 (closest to the textbook)
+
+There are two players and two envelopes.
+At the beginning, each envelope contains 1 dollar.
+Whenever a player chooses to continue, 1 dollar is removed from that player’s own envelope and 2 dollars are added to the other player’s envelope.
+The players move in turn, and each move is a choice between stopping and continuing.
+If someone stops, the game ends immediately and each player keeps the money then in that player’s own envelope.
+If nobody stops by the end of the fifth move, both players get 0.
+
+Player 1 moves first.
+If Player 1 stops immediately, the final reward is 1 for Player 1 and 1 for Player 2.
+If Player 1 continues, the envelopes become 0 for Player 1 and 3 for Player 2.
+
+Player 2 then chooses.
+If Player 2 stops there, the final reward is 0 for Player 1 and 3 for Player 2.
+If Player 2 continues, the envelopes become 2 for Player 1 and 2 for Player 2.
+
+Player 1 then chooses again.
+If Player 1 stops there, the final reward is 2 for Player 1 and 2 for Player 2.
+If Player 1 continues, the envelopes become 1 for Player 1 and 4 for Player 2.
+
+Player 2 then chooses again.
+If Player 2 stops there, the final reward is 1 for Player 1 and 4 for Player 2.
+If Player 2 continues, the envelopes become 3 for Player 1 and 3 for Player 2.
+
+Player 1 then makes the fifth and last move.
+If Player 1 stops there, the final reward is 3 for Player 1 and 3 for Player 2.
+If Player 1 continues, the five rounds are exhausted and the final reward is 0 for both players.

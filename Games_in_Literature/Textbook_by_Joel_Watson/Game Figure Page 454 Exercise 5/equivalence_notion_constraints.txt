@@ -1,0 +1,7 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that Player 1 moves first, Player 2 moves second, Player 1 moves third, Player 2 moves fourth, and Player 1 moves fifth.
+Check that if the first player stops immediately, the final reward is 1 for Player 1 and 1 for Player 2.
+Check that if the first two rounds continue and Player 1 then stops in the third round, the final reward is 2 for Player 1 and 2 for Player 2.
+Check that if nobody stops by the end of the fifth move, the final reward is 0 for both players.

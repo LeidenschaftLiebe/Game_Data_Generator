@@ -1,0 +1,27 @@
+V2 (backstage pass chain)
+
+Two performers each begin with 1 backstage pass.
+On a turn, the active performer may end the chain or keep it going.
+Keeping it going means handing over 1 of their own passes while the other performer receives 2 passes.
+If someone ends the chain, both keep the number of passes currently in hand.
+If nobody ends it by the fifth move, both lose everything.
+
+Performer 1 moves first.
+Ending the chain immediately gives final rewards of 1 and 1.
+If Performer 1 keeps it going, the pass counts become 0 for Performer 1 and 3 for Performer 2.
+
+Performer 2 then chooses.
+Ending the chain there gives final rewards of 0 and 3.
+Keeping it going changes the counts to 2 and 2.
+
+Performer 1 then chooses again.
+Ending the chain there gives final rewards of 2 and 2.
+Keeping it going changes the counts to 1 and 4.
+
+Performer 2 then chooses again.
+Ending the chain there gives final rewards of 1 and 4.
+Keeping it going changes the counts to 3 and 3.
+
+Performer 1 then has the last move.
+Ending the chain there gives final rewards of 3 and 3.
+Keeping it going means nobody stopped within five moves, so both get 0.

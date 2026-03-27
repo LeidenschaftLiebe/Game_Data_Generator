@@ -1,0 +1,27 @@
+V5 (cloud credit handoff)
+
+Two teams each start with 1 cloud credit.
+On each turn, the active team may stop the handoff or continue it.
+Continuing means losing 1 of its own credits while the other team gains 2 credits.
+If a team stops, both keep the credits currently shown on their side.
+If nobody stops within five moves, both teams get 0.
+
+Team 1 moves first.
+Stopping immediately gives final rewards of 1 and 1.
+Continuing changes the credits to 0 for Team 1 and 3 for Team 2.
+
+Team 2 then chooses.
+Stopping there gives final rewards of 0 and 3.
+Continuing changes the credits to 2 and 2.
+
+Team 1 then chooses again.
+Stopping there gives final rewards of 2 and 2.
+Continuing changes the credits to 1 and 4.
+
+Team 2 then chooses again.
+Stopping there gives final rewards of 1 and 4.
+Continuing changes the credits to 3 and 3.
+
+Team 1 then makes the final move.
+Stopping there gives final rewards of 3 and 3.
+Continuing means the five-move limit is reached without a stop, so both teams get 0.

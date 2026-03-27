@@ -1,0 +1,27 @@
+V4 (training credit relay)
+
+Two athletes each begin with 1 training credit.
+On a turn, the active athlete can cash out or pass the relay onward.
+Passing onward costs that athlete 1 credit and increases the other athlete’s total by 2 credits.
+If someone cashes out, the game ends and both keep their current credits.
+If no one cashes out by the end of the fifth move, both finish with 0.
+
+Athlete 1 moves first.
+Cashing out immediately gives final rewards of 1 and 1.
+Passing onward changes the totals to 0 for Athlete 1 and 3 for Athlete 2.
+
+Athlete 2 then chooses.
+Cashing out there gives final rewards of 0 and 3.
+Passing onward changes the totals to 2 and 2.
+
+Athlete 1 then chooses again.
+Cashing out there gives final rewards of 2 and 2.
+Passing onward changes the totals to 1 and 4.
+
+Athlete 2 then chooses again.
+Cashing out there gives final rewards of 1 and 4.
+Passing onward changes the totals to 3 and 3.
+
+Athlete 1 then has the last move.
+Cashing out there gives final rewards of 3 and 3.
+Passing onward means the relay went the full five moves without a stop, so both get 0.

@@ -1,0 +1,27 @@
+V3 (museum token exchange)
+
+Two curators each start with 1 exhibit token.
+On each turn, the curator whose turn it is may stop or continue.
+Continuing means giving up 1 of their own tokens while adding 2 tokens to the other curator’s side.
+If either curator stops, the process ends and both keep the tokens they currently hold.
+If the fifth move passes without anyone stopping, both curators get 0.
+
+Curator 1 moves first.
+Stopping immediately gives final rewards of 1 and 1.
+Continuing changes the token counts to 0 for Curator 1 and 3 for Curator 2.
+
+Curator 2 then chooses.
+Stopping there gives final rewards of 0 and 3.
+Continuing changes the counts to 2 and 2.
+
+Curator 1 then chooses again.
+Stopping there gives final rewards of 2 and 2.
+Continuing changes the counts to 1 and 4.
+
+Curator 2 then chooses again.
+Stopping there gives final rewards of 1 and 4.
+Continuing changes the counts to 3 and 3.
+
+Curator 1 then makes the final move.
+Stopping there gives final rewards of 3 and 3.
+Continuing means the five-move limit is reached with no stop, so both get 0.

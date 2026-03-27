@@ -1,0 +1,13 @@
+V0 (closest to the textbook)
+
+Player 1 owns an asset that becomes productive only if both players invest in it.
+At the beginning, Player 1 chooses whether to invest or not.
+If Player 1 does not invest, the game ends immediately and the final reward is 0 for Player 1 and 0 for Player 2.
+
+If Player 1 invests, then Player 2 chooses whether to invest or not.
+If Player 2 does not invest, the game ends and the final reward is -2 for Player 1 and 0 for Player 2.
+
+If Player 2 also invests, then Player 1 decides how to use the now-productive asset.
+Player 1 can be selfish and keep it or benevolent and share it.
+If Player 1 keeps it selfishly, the final reward is 6 for Player 1 and -2 for Player 2.
+If Player 1 shares it benevolently, the final reward is 2 for Player 1 and 2 for Player 2.

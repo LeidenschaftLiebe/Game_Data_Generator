@@ -1,0 +1,13 @@
+V4 (sports training facility)
+
+Player 1 controls a training facility that becomes useful only if both players contribute to fixing it.
+At the beginning, Player 1 chooses whether to invest in the repairs or not.
+If Player 1 does not invest, the process ends immediately and the final reward is 0 for Player 1 and 0 for Player 2.
+
+If Player 1 invests, then Player 2 chooses whether to invest too.
+If Player 2 does not invest, the process ends and the final reward is -2 for Player 1 and 0 for Player 2.
+
+If Player 2 also invests, then Player 1 decides how to use the repaired facility.
+Player 1 can reserve it selfishly or share time with Player 2.
+If Player 1 reserves it selfishly, the final reward is 6 for Player 1 and -2 for Player 2.
+If Player 1 shares time, the final reward is 2 for Player 1 and 2 for Player 2.

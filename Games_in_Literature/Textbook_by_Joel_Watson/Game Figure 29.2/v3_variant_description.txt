@@ -1,0 +1,13 @@
+V3 (museum restoration project)
+
+Player 1 owns an old exhibit piece that becomes valuable only if both players help restore it.
+At the beginning, Player 1 chooses whether to invest in the restoration or not.
+If Player 1 does not invest, the project ends immediately and the final reward is 0 for Player 1 and 0 for Player 2.
+
+If Player 1 invests, then Player 2 chooses whether to invest as well.
+If Player 2 does not invest, the project ends and the final reward is -2 for Player 1 and 0 for Player 2.
+
+If Player 2 also invests, then Player 1 decides how to use the restored exhibit.
+Player 1 can keep the exhibition credit and access mainly for personal advantage or share the benefits with Player 2.
+If Player 1 keeps the benefits mainly for personal advantage, the final reward is 6 for Player 1 and -2 for Player 2.
+If Player 1 shares the benefits, the final reward is 2 for Player 1 and 2 for Player 2.

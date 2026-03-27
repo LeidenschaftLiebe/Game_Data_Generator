@@ -1,0 +1,13 @@
+V2 (space rover repair)
+
+Player 1 controls a damaged rover that becomes valuable only if both players help repair it.
+At the beginning, Player 1 chooses whether to invest effort in the repair or not.
+If Player 1 does not invest, the mission branch ends immediately and the final reward is 0 for Player 1 and 0 for Player 2.
+
+If Player 1 invests, then Player 2 chooses whether to invest as well.
+If Player 2 does not invest, the mission branch ends and the final reward is -2 for Player 1 and 0 for Player 2.
+
+If Player 2 also invests, then Player 1 decides how to use the repaired rover.
+Player 1 can keep the rover for exclusive use or allow Player 2 to share it.
+If Player 1 keeps the rover for exclusive use, the final reward is 6 for Player 1 and -2 for Player 2.
+If Player 1 allows shared use, the final reward is 2 for Player 1 and 2 for Player 2.

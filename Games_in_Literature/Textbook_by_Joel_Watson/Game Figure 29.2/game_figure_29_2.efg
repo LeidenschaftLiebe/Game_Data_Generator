@@ -1,0 +1,10 @@
+EFG 2 R "Watson Figure 29.2 - Investment Game" { "1" "2" }
+""
+
+p "" 1 1 "" { "N" "I" } 0
+t "" 1 "P1_NoInvest" { 0, 0 }
+p "" 2 1 "" { "N" "I" } 0
+t "" 2 "P1_Invest_P2_NoInvest" { -2, 0 }
+p "" 1 2 "" { "S" "B" } 0
+t "" 3 "BothInvest_Selfish" { 6, -2 }
+t "" 4 "BothInvest_Benevolent" { 2, 2 }

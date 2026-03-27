@@ -1,0 +1,5 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that Player 1 moves first.
+Check that if Player 1 does not invest, the final reward is 0 for both players.

@@ -1,0 +1,13 @@
+V1 (wildlife rescue vehicle)
+
+Player 1 owns a rescue vehicle that becomes useful only if both players contribute to repairing it.
+At the beginning, Player 1 chooses whether to contribute to the repair or not.
+If Player 1 does not contribute, the process ends immediately and the final reward is 0 for Player 1 and 0 for Player 2.
+
+If Player 1 contributes, then Player 2 chooses whether to contribute as well.
+If Player 2 does not contribute, the process ends and the final reward is -2 for Player 1 and 0 for Player 2.
+
+If Player 2 also contributes, then Player 1 decides how to use the repaired vehicle.
+Player 1 can keep it mainly for personal use or share access with Player 2.
+If Player 1 keeps it mainly for personal use, the final reward is 6 for Player 1 and -2 for Player 2.
+If Player 1 shares access, the final reward is 2 for Player 1 and 2 for Player 2.

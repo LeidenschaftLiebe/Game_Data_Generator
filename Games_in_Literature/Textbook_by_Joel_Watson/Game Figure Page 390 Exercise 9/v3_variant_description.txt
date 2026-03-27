@@ -1,0 +1,18 @@
+V3 (museum event planning)
+
+At the outset, the museum may face a high-demand day with probability 2/3 or a low-demand day with probability 1/3.
+The director learns which day has occurred.
+The events partner does not observe whether demand is high or low.
+
+If it is a high-demand day, the director chooses between the local plan and the expanded plan.
+If the director chooses the local plan in the high-demand day, the final reward is 3 for the director and 0 for the partner.
+If the director chooses the expanded plan in the high-demand day, the partner then chooses between option L and option M.
+If the partner chooses option L there, the final reward is 0 for the director and 6 for the partner.
+If the partner chooses option M there, the final reward is 6 for the director and 0 for the partner.
+
+If it is a low-demand day, the director chooses between the local plan and the expanded plan.
+If the director chooses the local plan in the low-demand day, the final reward is 0 for the director and 0 for the partner.
+If the director chooses the expanded plan in the low-demand day, the partner then chooses between option L and option M.
+The partner cannot tell whether this choice follows the expanded plan in the high-demand day or in the low-demand day.
+If the partner chooses option L there, the final reward is 3 for the director and 0 for the partner.
+If the partner chooses option M there, the final reward is 3 for the director and 6 for the partner.

@@ -1,0 +1,18 @@
+V5 (cybersecurity incident response)
+
+At the outset, a company may be in a high-alert state with probability 2/3 or a low-alert state with probability 1/3.
+The internal security lead learns which state applies.
+The outside response team does not observe whether alert status is high or low.
+
+If the company is in the high-alert state, the security lead chooses between action X and action Y.
+If the security lead chooses action X in the high-alert state, the final reward is 3 for the security lead and 0 for the outside team.
+If the security lead chooses action Y in the high-alert state, the outside team then chooses between option L and option M.
+If the outside team chooses option L there, the final reward is 0 for the security lead and 6 for the outside team.
+If the outside team chooses option M there, the final reward is 6 for the security lead and 0 for the outside team.
+
+If the company is in the low-alert state, the security lead chooses between action X and action Y.
+If the security lead chooses action X in the low-alert state, the final reward is 0 for the security lead and 0 for the outside team.
+If the security lead chooses action Y in the low-alert state, the outside team then chooses between option L and option M.
+The outside team cannot tell whether this choice follows action Y in the high-alert state or in the low-alert state.
+If the outside team chooses option L there, the final reward is 3 for the security lead and 0 for the outside team.
+If the outside team chooses option M there, the final reward is 3 for the security lead and 6 for the outside team.

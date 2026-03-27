@@ -1,0 +1,18 @@
+V2 (space cargo routing)
+
+At the outset, a station may be in a high-capacity state with probability 2/3 or a low-capacity state with probability 1/3.
+The mission planner learns which state applies.
+The docking supervisor does not observe whether capacity is high or low.
+
+If the station is in the high-capacity state, the mission planner chooses between route X and route Y.
+If the planner chooses route X in the high-capacity state, the final reward is 3 for the planner and 0 for the supervisor.
+If the planner chooses route Y in the high-capacity state, the supervisor then chooses between loading plan L and loading plan M.
+If the supervisor chooses loading plan L there, the final reward is 0 for the planner and 6 for the supervisor.
+If the supervisor chooses loading plan M there, the final reward is 6 for the planner and 0 for the supervisor.
+
+If the station is in the low-capacity state, the mission planner chooses between route X and route Y.
+If the planner chooses route X in the low-capacity state, the final reward is 0 for the planner and 0 for the supervisor.
+If the planner chooses route Y in the low-capacity state, the supervisor then chooses between loading plan L and loading plan M.
+The supervisor cannot tell whether this choice follows route Y in the high-capacity state or in the low-capacity state.
+If the supervisor chooses loading plan L there, the final reward is 3 for the planner and 0 for the supervisor.
+If the supervisor chooses loading plan M there, the final reward is 3 for the planner and 6 for the supervisor.

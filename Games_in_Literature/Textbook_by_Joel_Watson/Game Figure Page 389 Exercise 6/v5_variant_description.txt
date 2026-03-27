@@ -1,0 +1,25 @@
+V5 (wildlife expedition encounter)
+
+At the outset, an expedition leader may be either strong and recovered or weak and injured, with probability 0.5 for each case.
+The expedition leader knows which condition applies.
+A hostile local rival does not observe the leader’s condition.
+
+If the leader is strong and recovered, the leader chooses whether to stay in camp or step out and confront the rival.
+If the leader stays in camp, the rival then chooses whether to withdraw or attack.
+If the rival withdraws after the leader stays in camp, the final reward is 1 for the leader and 0 for the rival.
+If the rival attacks after the leader stays in camp, the final reward is 0 for the leader and -2 for the rival.
+
+If the leader steps out while strong and recovered, the rival again chooses whether to withdraw or attack.
+The rival observes that the leader stepped out, but still does not know whether the leader is strong and recovered or weak and injured.
+If the rival withdraws after the leader steps out while strong and recovered, the final reward is 1 for the leader and 0 for the rival.
+If the rival attacks after the leader steps out while strong and recovered, the final reward is 0 for the leader and -2 for the rival.
+
+If the leader is weak and injured, the leader chooses whether to stay in camp or step out.
+If the leader stays in camp while weak and injured, the rival then chooses whether to withdraw or attack.
+If the rival withdraws there, the final reward is 1 for the leader and 0 for the rival.
+If the rival attacks there, the final reward is -1 for the leader and 1 for the rival.
+
+If the leader steps out while weak and injured, the rival again chooses whether to withdraw or attack.
+The rival observes the step out, but does not know the leader’s true condition.
+If the rival withdraws there, the final reward is 0.5 for the leader and 0 for the rival.
+If the rival attacks there, the final reward is -1.5 for the leader and 1 for the rival.

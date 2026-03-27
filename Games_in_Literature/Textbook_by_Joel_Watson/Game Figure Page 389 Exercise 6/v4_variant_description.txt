@@ -1,0 +1,25 @@
+V4 (cybersecurity breach response)
+
+At the outset, a security lead may be either fully prepared or overstretched, with probability 0.5 for each case.
+The security lead knows which condition applies.
+The attacker does not observe the security lead’s condition.
+
+If the security lead is fully prepared, the lead chooses whether to remain in the control room or step out publicly and confront the breach.
+If the lead remains in the control room, the attacker then chooses whether to back off or escalate.
+If the attacker backs off after the lead remains in the control room, the final reward is 1 for the security lead and 0 for the attacker.
+If the attacker escalates after the lead remains in the control room, the final reward is 0 for the security lead and -2 for the attacker.
+
+If the lead steps out publicly while fully prepared, the attacker again chooses whether to back off or escalate.
+The attacker observes that the lead stepped out, but still does not know whether the lead is fully prepared or overstretched.
+If the attacker backs off after the lead steps out while fully prepared, the final reward is 1 for the security lead and 0 for the attacker.
+If the attacker escalates after the lead steps out while fully prepared, the final reward is 0 for the security lead and -2 for the attacker.
+
+If the security lead is overstretched, the lead chooses whether to remain in the control room or step out publicly.
+If the lead remains in the control room while overstretched, the attacker then chooses whether to back off or escalate.
+If the attacker backs off there, the final reward is 1 for the security lead and 0 for the attacker.
+If the attacker escalates there, the final reward is -1 for the security lead and 1 for the attacker.
+
+If the lead steps out publicly while overstretched, the attacker again chooses whether to back off or escalate.
+The attacker observes the public step out, but does not know the lead’s true condition.
+If the attacker backs off there, the final reward is 0.5 for the security lead and 0 for the attacker.
+If the attacker escalates there, the final reward is -1.5 for the security lead and 1 for the attacker.

@@ -1,0 +1,25 @@
+V0 (Princess Bride context, closest to the prompt)
+
+At the outset, Wesley may be either strong or weak, with probability 0.5 for each case.
+Wesley knows whether he is strong or weak.
+Prince Humperdinck does not observe Wesley’s type.
+
+If Wesley is strong, he chooses whether to stay in bed or get out of bed.
+If strong Wesley stays in bed, the prince then chooses whether to surrender or fight.
+If the prince surrenders after strong Wesley stays in bed, the final reward is 1 for Wesley and 0 for the prince.
+If the prince fights after strong Wesley stays in bed, the final reward is 0 for Wesley and -2 for the prince.
+
+If strong Wesley gets out of bed, the prince again chooses whether to surrender or fight.
+The prince observes that Wesley got out of bed, but still does not observe Wesley’s type.
+If the prince surrenders after strong Wesley gets out of bed, the final reward is 1 for Wesley and 0 for the prince.
+If the prince fights after strong Wesley gets out of bed, the final reward is 0 for Wesley and -2 for the prince.
+
+If Wesley is weak, he chooses whether to stay in bed or get out of bed.
+If weak Wesley stays in bed, the prince then chooses whether to surrender or fight.
+If the prince surrenders after weak Wesley stays in bed, the final reward is 1 for Wesley and 0 for the prince.
+If the prince fights after weak Wesley stays in bed, the final reward is -1 for Wesley and 1 for the prince.
+
+If weak Wesley gets out of bed, the prince again chooses whether to surrender or fight.
+The prince observes that Wesley got out of bed, but still does not observe Wesley’s type.
+If the prince surrenders after weak Wesley gets out of bed, the final reward is 0.5 for Wesley and 0 for the prince.
+If the prince fights after weak Wesley gets out of bed, the final reward is -1.5 for Wesley and 1 for the prince.

@@ -1,0 +1,18 @@
+EFG 2 R "Wesley and Humperdinck" { "Wesley" "Prince" }
+""
+
+c "" 1 "" { "Strong" 0.5 "Weak" 0.5 } 0
+p "" 1 1 "" { "Bed_strong" "Out_strong" } 0
+p "" 2 1 "" { "Surrender" "Fight" } 0
+t "" 1 "Strong_Bed_Surrender" { 1, 0 }
+t "" 2 "Strong_Bed_Fight" { 0, -2 }
+p "" 2 2 "" { "Surrender" "Fight" } 0
+t "" 5 "Strong_Out_Surrender" { 1, 0 }
+t "" 6 "Strong_Out_Fight" { 0, -2 }
+p "" 1 2 "" { "Bed_weak" "Out_weak" } 0
+p "" 2 1 "" { "Surrender" "Fight" } 0
+t "" 3 "Weak_Bed_Surrender" { 1, 0 }
+t "" 4 "Weak_Bed_Fight" { -1, 1 }
+p "" 2 2 "" { "Surrender" "Fight" } 0
+t "" 7 "Weak_Out_Surrender" { 0.5, 0 }
+t "" 8 "Weak_Out_Fight" { -1.5, 1 }

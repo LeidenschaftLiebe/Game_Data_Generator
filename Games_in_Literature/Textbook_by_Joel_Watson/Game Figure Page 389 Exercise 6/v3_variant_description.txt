@@ -1,0 +1,25 @@
+V3 (museum security incident)
+
+At the outset, a museum guard may be either fully ready or exhausted, with probability 0.5 for each case.
+The guard knows which condition applies.
+The intruder does not observe the guard’s condition.
+
+If the guard is fully ready, the guard chooses whether to stay behind the desk or step out into the gallery.
+If the guard stays behind the desk, the intruder then chooses whether to back off or press forward.
+If the intruder backs off after the guard stays behind the desk, the final reward is 1 for the guard and 0 for the intruder.
+If the intruder presses forward after the guard stays behind the desk, the final reward is 0 for the guard and -2 for the intruder.
+
+If the guard steps out while fully ready, the intruder again chooses whether to back off or press forward.
+The intruder observes that the guard stepped out, but still does not know whether the guard is fully ready or exhausted.
+If the intruder backs off after the guard steps out while fully ready, the final reward is 1 for the guard and 0 for the intruder.
+If the intruder presses forward after the guard steps out while fully ready, the final reward is 0 for the guard and -2 for the intruder.
+
+If the guard is exhausted, the guard chooses whether to stay behind the desk or step out.
+If the guard stays behind the desk while exhausted, the intruder then chooses whether to back off or press forward.
+If the intruder backs off there, the final reward is 1 for the guard and 0 for the intruder.
+If the intruder presses forward there, the final reward is -1 for the guard and 1 for the intruder.
+
+If the guard steps out while exhausted, the intruder again chooses whether to back off or press forward.
+The intruder observes the step out, but does not know the guard’s true condition.
+If the intruder backs off there, the final reward is 0.5 for the guard and 0 for the intruder.
+If the intruder presses forward there, the final reward is -1.5 for the guard and 1 for the intruder.

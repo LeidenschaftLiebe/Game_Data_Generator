@@ -1,0 +1,25 @@
+V1 (space captain confrontation)
+
+At the outset, a rebel captain may be either fully recovered or badly injured, with probability 0.5 for each case.
+The captain knows which condition applies.
+The governor does not observe the captain’s condition.
+
+If the captain is fully recovered, the captain chooses whether to remain in the recovery pod or step out to confront the governor.
+If the captain remains in the pod, the governor then chooses whether to back down or attack.
+If the governor backs down after the captain remains in the pod, the final reward is 1 for the captain and 0 for the governor.
+If the governor attacks after the captain remains in the pod, the final reward is 0 for the captain and -2 for the governor.
+
+If the captain steps out while fully recovered, the governor again chooses whether to back down or attack.
+The governor observes that the captain stepped out, but still does not know whether the captain is fully recovered or badly injured.
+If the governor backs down after the captain steps out while fully recovered, the final reward is 1 for the captain and 0 for the governor.
+If the governor attacks after the captain steps out while fully recovered, the final reward is 0 for the captain and -2 for the governor.
+
+If the captain is badly injured, the captain chooses whether to remain in the recovery pod or step out.
+If the captain remains in the pod while injured, the governor then chooses whether to back down or attack.
+If the governor backs down there, the final reward is 1 for the captain and 0 for the governor.
+If the governor attacks there, the final reward is -1 for the captain and 1 for the governor.
+
+If the captain steps out while badly injured, the governor again chooses whether to back down or attack.
+The governor observes the step out, but does not know the captain’s true condition.
+If the governor backs down there, the final reward is 0.5 for the captain and 0 for the governor.
+If the governor attacks there, the final reward is -1.5 for the captain and 1 for the governor.

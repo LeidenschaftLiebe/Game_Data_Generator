@@ -1,0 +1,8 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that Wesley is Strong with probability 0.5 and Weak with probability 0.5.
+Check that the prince’s two decision nodes after Wesley stays in bed are in the same information set.
+Check that the prince’s two decision nodes after Wesley gets out of bed are in the same information set.
+Check that if Wesley is Weak, stays in bed, and the prince fights, the final reward is -1 for Wesley and 1 for the prince.
+Check that if Wesley is Weak, gets out of bed, and the prince surrenders, the final reward is 0.5 for Wesley and 0 for the prince.

@@ -1,0 +1,25 @@
+V2 (sports locker room standoff)
+
+At the outset, an injured star player may be either fully fit again or still weak, with probability 0.5 for each case.
+The player knows which condition applies.
+The opposing coach does not observe the player’s condition.
+
+If the player is fully fit, the player chooses whether to stay on the bench or stand up and walk onto the court.
+If the player stays on the bench, the opposing coach then chooses whether to concede the matchup or challenge aggressively.
+If the coach concedes after the player stays on the bench, the final reward is 1 for the player and 0 for the coach.
+If the coach challenges aggressively after the player stays on the bench, the final reward is 0 for the player and -2 for the coach.
+
+If the player stands up while fully fit, the coach again chooses whether to concede or challenge aggressively.
+The coach observes that the player stood up, but still does not know whether the player is fully fit or still weak.
+If the coach concedes after the player stands up while fully fit, the final reward is 1 for the player and 0 for the coach.
+If the coach challenges aggressively after the player stands up while fully fit, the final reward is 0 for the player and -2 for the coach.
+
+If the player is still weak, the player chooses whether to stay on the bench or stand up.
+If the player stays on the bench while weak, the coach then chooses whether to concede or challenge aggressively.
+If the coach concedes there, the final reward is 1 for the player and 0 for the coach.
+If the coach challenges aggressively there, the final reward is -1 for the player and 1 for the coach.
+
+If the player stands up while weak, the coach again chooses whether to concede or challenge aggressively.
+The coach observes the player standing up, but does not know the player’s true condition.
+If the coach concedes there, the final reward is 0.5 for the player and 0 for the coach.
+If the coach challenges aggressively there, the final reward is -1.5 for the player and 1 for the coach.

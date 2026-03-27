@@ -1,0 +1,8 @@
+V3 (space mission reward choice)
+
+You are offered two reward plans for completing a task.
+If you choose plan A, you receive 950 for sure.
+
+If you choose plan B, a random draw decides the reward.
+With probability 0.5, you receive 2000.
+With probability 0.5, you receive 0.

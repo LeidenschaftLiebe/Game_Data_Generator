@@ -1,0 +1,8 @@
+V0 (closest to the book)
+
+You choose between option A and option B.
+If you choose option A, you receive 950 for certain.
+
+If you choose option B, a coin is flipped.
+With probability 0.5, the coin lands heads and you receive 2000.
+With probability 0.5, the coin lands tails and you receive 0.

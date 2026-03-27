@@ -1,0 +1,6 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that there is one strategic player, You, and one chance move after option B.
+Check that if You choose option A, the final reward is 950.
+Check that if You choose option B, the chance move gives 2000 with probability 0.5 and 0 with probability 0.5.

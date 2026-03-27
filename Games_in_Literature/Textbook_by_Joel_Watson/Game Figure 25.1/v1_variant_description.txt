@@ -1,0 +1,8 @@
+V1 (signing bonus choice)
+
+You are offered a choice between two compensation packages.
+If you choose package A, you receive a guaranteed signing bonus of 950.
+
+If you choose package B, your bonus depends on a coin flip.
+With probability 0.5, you receive 2000.
+With probability 0.5, you receive 0.

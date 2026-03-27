@@ -1,0 +1,8 @@
+V2 (festival prize choice)
+
+At a festival, you are allowed to choose between two prize options.
+If you choose option A, you receive 950 immediately.
+
+If you choose option B, the prize is determined by a coin flip.
+With probability 0.5, you receive 2000.
+With probability 0.5, you receive 0.

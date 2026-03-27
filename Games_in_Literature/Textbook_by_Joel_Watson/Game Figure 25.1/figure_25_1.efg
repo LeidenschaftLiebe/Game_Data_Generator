@@ -1,0 +1,8 @@
+EFG 2 R "Watson Figure 25.1 - Lottery or Sure Thing" { "You" }
+""
+
+p "" 1 1 "" { "A" "B" } 0
+t "" 1 "Sure_950" { 950 }
+c "" 1 "" { "Heads" 0.5 "Tails" 0.5 } 0
+t "" 2 "Lottery_2000" { 2000 }
+t "" 3 "Lottery_0" { 0 }

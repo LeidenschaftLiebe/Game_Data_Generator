@@ -1,0 +1,8 @@
+V4 (museum raffle choice)
+
+At a museum fundraiser, you choose between a sure cash voucher and a raffle ticket.
+If you choose the sure voucher, you receive 950.
+
+If you choose the raffle ticket, the outcome is determined by a coin flip.
+With probability 0.5, you receive 2000.
+With probability 0.5, you receive 0.

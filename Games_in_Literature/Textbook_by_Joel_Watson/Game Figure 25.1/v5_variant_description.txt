@@ -1,0 +1,8 @@
+V5 (sports performance incentive)
+
+You are given a choice between two incentive plans.
+If you choose plan A, you receive 950 with certainty.
+
+If you choose plan B, the payment is tied to a coin flip.
+With probability 0.5, you receive 2000.
+With probability 0.5, you receive 0.

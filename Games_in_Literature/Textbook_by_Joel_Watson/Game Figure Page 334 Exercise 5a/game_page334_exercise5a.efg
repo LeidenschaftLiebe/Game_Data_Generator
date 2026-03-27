@@ -1,0 +1,18 @@
+EFG 2 R "Joint Venture with Hidden Type" { "1" "2" }
+""
+
+c "" 1 "" { "Enemy" 0.5 "Friend" 0.5 } 0
+p "" 1 1 "" { "Invest_E" "Sabotage_E" } 0
+p "" 2 1 "" { "Reveal" "Hide" } 0
+t "" 1 "Enemy_Invest_Reveal" { 5, 1 }
+t "" 2 "Enemy_Invest_Hide" { 0, 3 }
+p "" 2 1 "" { "Reveal" "Hide" } 0
+t "" 3 "Enemy_Sabotage_Reveal" { 8, -1 }
+t "" 4 "Enemy_Sabotage_Hide" { 7, 0 }
+p "" 1 2 "" { "Invest_F" "Sabotage_F" } 0
+p "" 2 1 "" { "Reveal" "Hide" } 0
+t "" 5 "Friend_Invest_Reveal" { 9, 9 }
+t "" 6 "Friend_Invest_Hide" { 0, 0 }
+p "" 2 1 "" { "Reveal" "Hide" } 0
+t "" 7 "Friend_Sabotage_Reveal" { 2, 0 }
+t "" 8 "Friend_Sabotage_Hide" { 0, 4 }

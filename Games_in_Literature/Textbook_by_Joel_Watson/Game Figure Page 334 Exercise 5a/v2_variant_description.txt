@@ -1,0 +1,21 @@
+V2 (space technology alliance)
+
+At the outset, a major aerospace contractor may be either an honest partner or a hostile partner, with probability 0.5 for each.
+The contractor knows its own type.
+The smaller propulsion lab knows only that the two types are equally likely.
+
+After learning its type, the contractor chooses whether to Support the joint mission or Disrupt it.
+The propulsion lab then chooses whether to Disclose its engine design notes or Seal them.
+When the lab makes that choice, it does not know the contractor’s type and does not observe whether the contractor chose Support or Disrupt.
+
+If the contractor is hostile and chooses Support, then Disclose leads to a final reward of 5 for the contractor and 1 for the lab.
+If the contractor is hostile and chooses Support, then Seal leads to a final reward of 0 for the contractor and 3 for the lab.
+
+If the contractor is hostile and chooses Disrupt, then Disclose leads to a final reward of 8 for the contractor and -1 for the lab.
+If the contractor is hostile and chooses Disrupt, then Seal leads to a final reward of 7 for the contractor and 0 for the lab.
+
+If the contractor is honest and chooses Support, then Disclose leads to a final reward of 9 for the contractor and 9 for the lab.
+If the contractor is honest and chooses Support, then Seal leads to a final reward of 0 for the contractor and 0 for the lab.
+
+If the contractor is honest and chooses Disrupt, then Disclose leads to a final reward of 2 for the contractor and 0 for the lab.
+If the contractor is honest and chooses Disrupt, then Seal leads to a final reward of 0 for the contractor and 4 for the lab.

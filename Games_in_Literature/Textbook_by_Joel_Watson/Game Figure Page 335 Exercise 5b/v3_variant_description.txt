@@ -1,0 +1,24 @@
+V3 (museum digitization deal)
+
+At the outset, a technology vendor may be either a trustworthy partner or an opportunistic partner, with probability 0.5 for each.
+The vendor knows which type it is.
+The museum knows only that the two types are equally likely.
+
+If the vendor is trustworthy, it chooses whether to Buy a larger stake in the digitization project or Sell part of its existing stake.
+The museum observes whether the vendor chose Buy or Sell, but it does not observe whether the vendor is trustworthy or opportunistic.
+If the trustworthy vendor chooses Buy, the museum then chooses whether to Reveal or Hide its archive data and restoration methods.
+If the museum reveals after seeing Buy from a trustworthy vendor, the final reward is 15 for the vendor and 12 for the museum.
+If the museum hides after seeing Buy from a trustworthy vendor, the final reward is -1 for the vendor and 1 for the museum.
+
+If the trustworthy vendor chooses Sell, the museum again chooses whether to Reveal or Hide.
+If the museum reveals after seeing Sell from a trustworthy vendor, the final reward is 5 for the vendor and 6 for the museum.
+If the museum hides after seeing Sell from a trustworthy vendor, the final reward is 5 for the vendor and -1 for the museum.
+
+If the vendor is opportunistic, it also chooses whether to Buy a larger stake or Sell part of its existing stake.
+If the opportunistic vendor chooses Buy, the museum then chooses whether to Reveal or Hide.
+If the museum reveals after seeing Buy from an opportunistic vendor, the final reward is 5 for the vendor and -6 for the museum.
+If the museum hides after seeing Buy from an opportunistic vendor, the final reward is 5 for the vendor and 1 for the museum.
+
+If the opportunistic vendor chooses Sell, the museum again chooses whether to Reveal or Hide.
+If the museum reveals after seeing Sell from an opportunistic vendor, the final reward is 15 for the vendor and -14 for the museum.
+If the museum hides after seeing Sell from an opportunistic vendor, the final reward is 0 for the vendor and -1 for the museum.

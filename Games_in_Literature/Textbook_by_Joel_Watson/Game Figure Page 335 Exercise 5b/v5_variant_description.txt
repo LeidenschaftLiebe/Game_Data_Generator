@@ -1,0 +1,24 @@
+V5 (cybersecurity alliance)
+
+At the outset, a large cybersecurity firm may be either a genuine ally or an opportunistic infiltrator, with probability 0.5 for each.
+The large firm knows which type it is.
+The smaller security lab knows only that the two types are equally likely.
+
+If the large firm is a genuine ally, it chooses whether to Buy a larger stake in the alliance or Sell some of its current holdings.
+The smaller lab observes whether the large firm chose Buy or Sell, but it does not observe whether the large firm is a genuine ally or an opportunistic infiltrator.
+If the genuine ally chooses Buy, the smaller lab then chooses whether to Reveal or Hide its detection models and internal defenses.
+If the smaller lab reveals after seeing Buy from a genuine ally, the final reward is 15 for the large firm and 12 for the smaller lab.
+If the smaller lab hides after seeing Buy from a genuine ally, the final reward is -1 for the large firm and 1 for the smaller lab.
+
+If the genuine ally chooses Sell, the smaller lab again chooses whether to Reveal or Hide.
+If the smaller lab reveals after seeing Sell from a genuine ally, the final reward is 5 for the large firm and 6 for the smaller lab.
+If the smaller lab hides after seeing Sell from a genuine ally, the final reward is 5 for the large firm and -1 for the smaller lab.
+
+If the large firm is an opportunistic infiltrator, it also chooses whether to Buy a larger stake or Sell some of its current holdings.
+If the opportunistic infiltrator chooses Buy, the smaller lab then chooses whether to Reveal or Hide.
+If the smaller lab reveals after seeing Buy from an opportunistic infiltrator, the final reward is 5 for the large firm and -6 for the smaller lab.
+If the smaller lab hides after seeing Buy from an opportunistic infiltrator, the final reward is 5 for the large firm and 1 for the smaller lab.
+
+If the opportunistic infiltrator chooses Sell, the smaller lab again chooses whether to Reveal or Hide.
+If the smaller lab reveals after seeing Sell from an opportunistic infiltrator, the final reward is 15 for the large firm and -14 for the smaller lab.
+If the smaller lab hides after seeing Sell from an opportunistic infiltrator, the final reward is 0 for the large firm and -1 for the smaller lab.

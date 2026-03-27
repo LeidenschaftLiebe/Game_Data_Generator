@@ -1,0 +1,24 @@
+V1 (pharmaceutical alliance)
+
+At the outset, a large pharmaceutical company may be either a cooperative partner or a predatory partner, with probability 0.5 for each.
+The pharmaceutical company knows which type it is.
+The biotech startup knows only that the two types are equally likely.
+
+If the large firm is cooperative, it chooses whether to Buy a larger equity stake or Sell part of its current stake.
+The startup observes whether the large firm chose Buy or Sell, but it does not observe whether the large firm is cooperative or predatory.
+If the cooperative firm chooses Buy, the startup then chooses whether to Reveal or Hide its proprietary research.
+If the startup reveals after seeing Buy from a cooperative firm, the final reward is 15 for the large firm and 12 for the startup.
+If the startup hides after seeing Buy from a cooperative firm, the final reward is -1 for the large firm and 1 for the startup.
+
+If the cooperative firm chooses Sell, the startup again chooses whether to Reveal or Hide.
+If the startup reveals after seeing Sell from a cooperative firm, the final reward is 5 for the large firm and 6 for the startup.
+If the startup hides after seeing Sell from a cooperative firm, the final reward is 5 for the large firm and -1 for the startup.
+
+If the large firm is predatory, it also chooses whether to Buy a larger stake or Sell part of its current stake.
+If the predatory firm chooses Buy, the startup then chooses whether to Reveal or Hide.
+If the startup reveals after seeing Buy from a predatory firm, the final reward is 5 for the large firm and -6 for the startup.
+If the startup hides after seeing Buy from a predatory firm, the final reward is 5 for the large firm and 1 for the startup.
+
+If the predatory firm chooses Sell, the startup again chooses whether to Reveal or Hide.
+If the startup reveals after seeing Sell from a predatory firm, the final reward is 15 for the large firm and -14 for the startup.
+If the startup hides after seeing Sell from a predatory firm, the final reward is 0 for the large firm and -1 for the startup.

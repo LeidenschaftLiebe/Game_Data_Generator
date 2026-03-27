@@ -1,0 +1,24 @@
+V0 (Microsoft and Celera, closest to the prompt)
+
+At the outset, Microsoft may be one of two types, Friend or Enemy, with probability 0.5 for each.
+Microsoft knows its own type.
+Celera knows only that the two types are equally likely.
+
+If Microsoft is Friend, it chooses whether to Buy more Celera stock or Sell what it is holding.
+Celera observes whether Microsoft chose Buy or Sell, but Celera does not observe whether Microsoft is Friend or Enemy.
+If Microsoft is Friend and chooses Buy, then Celera chooses whether to Reveal or Hide its trade secrets.
+If Celera reveals after seeing Buy from a Friend, the final reward is 15 for Microsoft and 12 for Celera.
+If Celera hides after seeing Buy from a Friend, the final reward is -1 for Microsoft and 1 for Celera.
+
+If Microsoft is Friend and chooses Sell, then Celera again chooses whether to Reveal or Hide.
+If Celera reveals after seeing Sell from a Friend, the final reward is 5 for Microsoft and 6 for Celera.
+If Celera hides after seeing Sell from a Friend, the final reward is 5 for Microsoft and -1 for Celera.
+
+If Microsoft is Enemy, it also chooses whether to Buy more stock or Sell what it is holding.
+If Microsoft is Enemy and chooses Buy, then Celera chooses whether to Reveal or Hide.
+If Celera reveals after seeing Buy from an Enemy, the final reward is 5 for Microsoft and -6 for Celera.
+If Celera hides after seeing Buy from an Enemy, the final reward is 5 for Microsoft and 1 for Celera.
+
+If Microsoft is Enemy and chooses Sell, then Celera again chooses whether to Reveal or Hide.
+If Celera reveals after seeing Sell from an Enemy, the final reward is 15 for Microsoft and -14 for Celera.
+If Celera hides after seeing Sell from an Enemy, the final reward is 0 for Microsoft and -1 for Celera.

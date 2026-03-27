@@ -1,0 +1,24 @@
+V4 (record label collaboration)
+
+At the outset, a major record label may be either a loyal partner or a predatory partner, with probability 0.5 for each.
+The label knows which type it is.
+The independent studio knows only that the two types are equally likely.
+
+If the label is loyal, it chooses whether to Buy a larger stake in the joint release or Sell some of its current stake.
+The studio observes whether the label chose Buy or Sell, but it does not observe whether the label is loyal or predatory.
+If the loyal label chooses Buy, the studio then chooses whether to Reveal or Hide its master recordings and production notes.
+If the studio reveals after seeing Buy from a loyal label, the final reward is 15 for the label and 12 for the studio.
+If the studio hides after seeing Buy from a loyal label, the final reward is -1 for the label and 1 for the studio.
+
+If the loyal label chooses Sell, the studio again chooses whether to Reveal or Hide.
+If the studio reveals after seeing Sell from a loyal label, the final reward is 5 for the label and 6 for the studio.
+If the studio hides after seeing Sell from a loyal label, the final reward is 5 for the label and -1 for the studio.
+
+If the label is predatory, it also chooses whether to Buy a larger stake or Sell some of its current stake.
+If the predatory label chooses Buy, the studio then chooses whether to Reveal or Hide.
+If the studio reveals after seeing Buy from a predatory label, the final reward is 5 for the label and -6 for the studio.
+If the studio hides after seeing Buy from a predatory label, the final reward is 5 for the label and 1 for the studio.
+
+If the predatory label chooses Sell, the studio again chooses whether to Reveal or Hide.
+If the studio reveals after seeing Sell from a predatory label, the final reward is 15 for the label and -14 for the studio.
+If the studio hides after seeing Sell from a predatory label, the final reward is 0 for the label and -1 for the studio.

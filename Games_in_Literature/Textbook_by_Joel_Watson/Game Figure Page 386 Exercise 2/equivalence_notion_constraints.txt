@@ -1,0 +1,7 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that case H and case L each occur with probability 0.5.
+Check that Player 2’s two decision nodes after B and B' are in the same information set.
+Check that if the game is in case H and Player 1 chooses A, the final reward is 4 for Player 1 and 4 for Player 2.
+Check that if the game is in case L, Player 1 chooses B', and Player 2 chooses Y, the final reward is 0 for Player 1 and 6 for Player 2.

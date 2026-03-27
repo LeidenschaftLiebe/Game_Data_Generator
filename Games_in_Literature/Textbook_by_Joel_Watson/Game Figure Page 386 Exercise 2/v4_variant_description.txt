@@ -1,0 +1,18 @@
+V4 (museum fundraising drive)
+
+At the outset, a museum director may face either a strong-donor season or a weak-donor season, with probability 0.5 for each case.
+The director learns which season has arrived.
+The fundraising partner does not observe whether donor conditions are strong or weak.
+
+If it is a strong-donor season, the director chooses between the regular campaign and the premium campaign.
+If the director chooses the regular campaign in the strong-donor season, the final reward is 4 for the director and 4 for the fundraising partner.
+If the director chooses the premium campaign in the strong-donor season, the fundraising partner then chooses between plan X and plan Y.
+If the fundraising partner chooses plan X there, the final reward is 6 for the director and 4 for the fundraising partner.
+If the fundraising partner chooses plan Y there, the final reward is 0 for the director and 0 for the fundraising partner.
+
+If it is a weak-donor season, the director chooses between the regular campaign and the premium campaign.
+If the director chooses the regular campaign in the weak-donor season, the final reward is 4 for the director and 2 for the fundraising partner.
+If the director chooses the premium campaign in the weak-donor season, the fundraising partner then chooses between plan X and plan Y.
+The fundraising partner cannot tell whether this decision follows the premium campaign in the strong-donor season or in the weak-donor season.
+If the fundraising partner chooses plan X there, the final reward is 6 for the director and 0 for the fundraising partner.
+If the fundraising partner chooses plan Y there, the final reward is 0 for the director and 6 for the fundraising partner.

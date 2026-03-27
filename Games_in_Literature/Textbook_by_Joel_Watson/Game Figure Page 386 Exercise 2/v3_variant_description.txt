@@ -1,0 +1,18 @@
+V3 (sports contract negotiation)
+
+At the outset, an agent may know that a player is in either a peak-performance state or a recovery state, with probability 0.5 for each case.
+The agent learns which state applies.
+The club does not observe whether the player is in peak form or recovery.
+
+If the player is in the peak-performance state, the agent chooses between a standard contract push and an aggressive contract push.
+If the agent chooses the standard contract push in the peak-performance state, the final reward is 4 for the agent and 4 for the club.
+If the agent chooses the aggressive contract push in the peak-performance state, the club then chooses between response X and response Y.
+If the club chooses response X there, the final reward is 6 for the agent and 4 for the club.
+If the club chooses response Y there, the final reward is 0 for the agent and 0 for the club.
+
+If the player is in the recovery state, the agent chooses between a standard contract push and an aggressive contract push.
+If the agent chooses the standard contract push in the recovery state, the final reward is 4 for the agent and 2 for the club.
+If the agent chooses the aggressive contract push in the recovery state, the club then chooses between response X and response Y.
+The club cannot tell whether this decision follows the aggressive push in the peak-performance state or in the recovery state.
+If the club chooses response X there, the final reward is 6 for the agent and 0 for the club.
+If the club chooses response Y there, the final reward is 0 for the agent and 6 for the club.

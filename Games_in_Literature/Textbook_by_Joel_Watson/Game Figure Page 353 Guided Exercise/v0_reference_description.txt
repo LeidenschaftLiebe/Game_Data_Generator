@@ -1,0 +1,20 @@
+V0 (use original labels)
+
+Player 1 moves first and chooses between action L and action D.
+
+If Player 1 chooses action L, then Player 2 chooses between action A and action B.
+If Player 2 chooses action A after L, the final reward is 0 for Player 1 and 4 for Player 2.
+If Player 2 chooses action B after L, the final reward is 4 for Player 1 and 0 for Player 2.
+
+If Player 1 chooses action D, a random event occurs.
+With probability 0.5, the random event leads to branch P.
+With probability 0.5, the random event leads to branch Q.
+
+If branch P occurs, then Player 2 chooses between action A and action B.
+Player 2 cannot tell whether this decision point came after Player 1 chose L or after branch P occurred.
+If Player 2 chooses action A after branch P, the final reward is 4 for Player 1 and 0 for Player 2.
+If Player 2 chooses action B after branch P, the final reward is 0 for Player 1 and 4 for Player 2.
+
+If branch Q occurs, then Player 2 chooses between action X and action Y.
+If Player 2 chooses action X after branch Q, the final reward is 2 for Player 1 and 2 for Player 2.
+If Player 2 chooses action Y after branch Q, the final reward is 0 for Player 1 and 0 for Player 2.

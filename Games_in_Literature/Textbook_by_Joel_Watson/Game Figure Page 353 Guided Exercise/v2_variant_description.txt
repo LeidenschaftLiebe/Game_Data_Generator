@@ -1,0 +1,20 @@
+V2 (space mission operations)
+
+A mission commander moves first and chooses between the live-adjustment plan and the deferred-adjustment plan.
+
+If the commander chooses the live-adjustment plan, mission control then chooses between response A and response B.
+If mission control chooses response A after the live-adjustment plan, the final reward is 0 for the commander and 4 for mission control.
+If mission control chooses response B after the live-adjustment plan, the final reward is 4 for the commander and 0 for mission control.
+
+If the commander chooses the deferred-adjustment plan, an onboard random event occurs.
+With probability 0.5, the mission moves to branch P.
+With probability 0.5, the mission moves to branch Q.
+
+If branch P occurs, mission control chooses between response A and response B.
+Mission control cannot tell whether this choice comes after the live-adjustment plan or after branch P.
+If mission control chooses response A after branch P, the final reward is 4 for the commander and 0 for mission control.
+If mission control chooses response B after branch P, the final reward is 0 for the commander and 4 for mission control.
+
+If branch Q occurs, mission control chooses between response X and response Y.
+If mission control chooses response X after branch Q, the final reward is 2 for the commander and 2 for mission control.
+If mission control chooses response Y after branch Q, the final reward is 0 for the commander and 0 for mission control.

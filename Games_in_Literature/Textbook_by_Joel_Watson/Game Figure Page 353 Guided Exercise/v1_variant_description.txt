@@ -1,0 +1,20 @@
+V1 (wildlife rescue planning)
+
+A rescue leader moves first and chooses between the local-response plan and the delayed-response plan.
+
+If the leader chooses the local-response plan, the operations chief then chooses between option A and option B.
+If the operations chief chooses option A after the local-response plan, the final reward is 0 for the rescue leader and 4 for the operations chief.
+If the operations chief chooses option B after the local-response plan, the final reward is 4 for the rescue leader and 0 for the operations chief.
+
+If the leader chooses the delayed-response plan, an outside condition is resolved randomly.
+With probability 0.5, the situation moves to branch P.
+With probability 0.5, the situation moves to branch Q.
+
+If branch P occurs, the operations chief chooses between option A and option B.
+The operations chief cannot tell whether this choice comes after the local-response plan or after branch P.
+If the operations chief chooses option A after branch P, the final reward is 4 for the rescue leader and 0 for the operations chief.
+If the operations chief chooses option B after branch P, the final reward is 0 for the rescue leader and 4 for the operations chief.
+
+If branch Q occurs, the operations chief chooses between option X and option Y.
+If the operations chief chooses option X after branch Q, the final reward is 2 for the rescue leader and 2 for the operations chief.
+If the operations chief chooses option Y after branch Q, the final reward is 0 for the rescue leader and 0 for the operations chief.

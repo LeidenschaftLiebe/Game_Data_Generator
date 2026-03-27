@@ -1,0 +1,20 @@
+V5 (cybersecurity response)
+
+A security lead moves first and chooses between the local-fix plan and the delayed-escalation plan.
+
+If the lead chooses the local-fix plan, the outside response team then chooses between action A and action B.
+If the outside team chooses action A after the local-fix plan, the final reward is 0 for the security lead and 4 for the outside team.
+If the outside team chooses action B after the local-fix plan, the final reward is 4 for the security lead and 0 for the outside team.
+
+If the lead chooses the delayed-escalation plan, an uncertain system event occurs.
+With probability 0.5, the situation moves to branch P.
+With probability 0.5, the situation moves to branch Q.
+
+If branch P occurs, the outside response team chooses between action A and action B.
+The outside response team cannot tell whether this choice comes after the local-fix plan or after branch P.
+If the outside response team chooses action A after branch P, the final reward is 4 for the security lead and 0 for the outside team.
+If the outside response team chooses action B after branch P, the final reward is 0 for the security lead and 4 for the outside team.
+
+If branch Q occurs, the outside response team chooses between action X and action Y.
+If the outside response team chooses action X after branch Q, the final reward is 2 for the security lead and 2 for the outside team.
+If the outside response team chooses action Y after branch Q, the final reward is 0 for the security lead and 0 for the outside team.

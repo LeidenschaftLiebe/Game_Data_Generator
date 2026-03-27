@@ -1,0 +1,14 @@
+EFG 2 R "Hidden Chance and Imperfect Information Game" { "1" "2" }
+""
+
+p "" 1 1 "" { "L" "D" } 0
+p "" 2 1 "" { "A" "B" } 0
+t "" 1 "L_A" { 0, 4 }
+t "" 2 "L_B" { 4, 0 }
+c "" 1 "" { "P" 0.5 "Q" 0.5 } 0
+p "" 2 1 "" { "A" "B" } 0
+t "" 3 "D_P_A" { 4, 0 }
+t "" 4 "D_P_B" { 0, 4 }
+p "" 2 2 "" { "X" "Y" } 0
+t "" 5 "D_Q_X" { 2, 2 }
+t "" 6 "D_Q_Y" { 0, 0 }

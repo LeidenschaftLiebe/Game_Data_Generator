@@ -1,0 +1,7 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that after Player 1 chooses D, branch P occurs with probability 0.5 and branch Q occurs with probability 0.5.
+Check that Player 2’s decision node after L and Player 2’s decision node after branch P are in the same information set.
+Check that if Player 1 chooses L and Player 2 chooses A, the final reward is 0 for Player 1 and 4 for Player 2.
+Check that if Player 1 chooses D, branch Q occurs, and Player 2 chooses X, the final reward is 2 for Player 1 and 2 for Player 2.

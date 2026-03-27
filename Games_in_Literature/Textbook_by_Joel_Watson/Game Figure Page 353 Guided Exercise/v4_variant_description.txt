@@ -1,0 +1,20 @@
+V4 (sports recovery decision)
+
+An athlete moves first and chooses between the light-training plan and the delayed-treatment plan.
+
+If the athlete chooses the light-training plan, the medical staff then chooses between treatment A and treatment B.
+If the medical staff chooses treatment A after the light-training plan, the final reward is 0 for the athlete and 4 for the medical staff.
+If the medical staff chooses treatment B after the light-training plan, the final reward is 4 for the athlete and 0 for the medical staff.
+
+If the athlete chooses the delayed-treatment plan, a random medical development occurs.
+With probability 0.5, the situation moves to branch P.
+With probability 0.5, the situation moves to branch Q.
+
+If branch P occurs, the medical staff chooses between treatment A and treatment B.
+The medical staff cannot tell whether this choice comes after the light-training plan or after branch P.
+If the medical staff chooses treatment A after branch P, the final reward is 4 for the athlete and 0 for the medical staff.
+If the medical staff chooses treatment B after branch P, the final reward is 0 for the athlete and 4 for the medical staff.
+
+If branch Q occurs, the medical staff chooses between treatment X and treatment Y.
+If the medical staff chooses treatment X after branch Q, the final reward is 2 for the athlete and 2 for the medical staff.
+If the medical staff chooses treatment Y after branch Q, the final reward is 0 for the athlete and 0 for the medical staff.

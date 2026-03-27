@@ -1,0 +1,20 @@
+V3 (museum exhibit launch)
+
+A museum director moves first and chooses between the live-opening plan and the delayed-opening plan.
+
+If the director chooses the live-opening plan, the publicity chief then chooses between campaign A and campaign B.
+If the publicity chief chooses campaign A after the live-opening plan, the final reward is 0 for the director and 4 for the publicity chief.
+If the publicity chief chooses campaign B after the live-opening plan, the final reward is 4 for the director and 0 for the publicity chief.
+
+If the director chooses the delayed-opening plan, an uncertain outside event occurs.
+With probability 0.5, the situation moves to branch P.
+With probability 0.5, the situation moves to branch Q.
+
+If branch P occurs, the publicity chief chooses between campaign A and campaign B.
+The publicity chief cannot tell whether this choice comes after the live-opening plan or after branch P.
+If the publicity chief chooses campaign A after branch P, the final reward is 4 for the director and 0 for the publicity chief.
+If the publicity chief chooses campaign B after branch P, the final reward is 0 for the director and 4 for the publicity chief.
+
+If branch Q occurs, the publicity chief chooses between campaign X and campaign Y.
+If the publicity chief chooses campaign X after branch Q, the final reward is 2 for the director and 2 for the publicity chief.
+If the publicity chief chooses campaign Y after branch Q, the final reward is 0 for the director and 0 for the publicity chief.

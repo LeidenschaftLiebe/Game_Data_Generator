@@ -1,0 +1,18 @@
+V1 (wildlife rescue mission)
+
+A rescue team may face either an upper-field situation or a lower-field situation, with probability 0.5 for each case.
+The field leader knows which situation the team is in.
+The air-support coordinator does not know which situation has occurred when making a response.
+
+If the team is in the upper-field situation, the field leader chooses between staying local and requesting remote support.
+If the leader stays local, the final reward is 2 for the field leader and 0 for the air-support coordinator.
+If the leader requests remote support, the air-support coordinator then chooses between urgent deployment and delayed deployment.
+If the coordinator chooses urgent deployment after the upper remote-support branch, the final reward is 0 for the field leader and 4 for the coordinator.
+If the coordinator chooses delayed deployment after the upper remote-support branch, the final reward is 4 for the field leader and 0 for the coordinator.
+
+If the team is in the lower-field situation, the field leader chooses between staying local and requesting remote support.
+If the leader stays local, the final reward is 2 for the field leader and 0 for the air-support coordinator.
+If the leader requests remote support, the air-support coordinator again chooses between urgent deployment and delayed deployment.
+The coordinator cannot tell whether the request came from the upper situation or the lower situation.
+If the coordinator chooses urgent deployment after the lower remote-support branch, the final reward is 0 for the field leader and 0 for the coordinator.
+If the coordinator chooses delayed deployment after the lower remote-support branch, the final reward is 4 for the field leader and 2 for the coordinator.

@@ -1,0 +1,18 @@
+V0 (use original labels)
+
+Player 1 may be in the upper situation or the lower situation, with probability 0.5 for each case.
+Player 1 knows which situation has been reached.
+Player 2 does not know whether the game is at the upper node or the lower node when making a choice.
+
+If the game is at the upper Player 1 node, Player 1 chooses between action L and action R.
+If Player 1 chooses action L there, the final reward is 2 for Player 1 and 0 for Player 2.
+If Player 1 chooses action R there, Player 2 then chooses between action U and action D.
+If Player 2 chooses action U after the upper R branch, the final reward is 0 for Player 1 and 4 for Player 2.
+If Player 2 chooses action D after the upper R branch, the final reward is 4 for Player 1 and 0 for Player 2.
+
+If the game is at the lower Player 1 node, Player 1 chooses between action L' and action R'.
+If Player 1 chooses action L' there, the final reward is 2 for Player 1 and 0 for Player 2.
+If Player 1 chooses action R' there, Player 2 then chooses between action U and action D.
+Player 2 cannot tell whether the observed decision point came after R or after R'.
+If Player 2 chooses action U after the lower R' branch, the final reward is 0 for Player 1 and 0 for Player 2.
+If Player 2 chooses action D after the lower R' branch, the final reward is 4 for Player 1 and 2 for Player 2.

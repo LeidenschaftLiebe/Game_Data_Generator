@@ -1,0 +1,18 @@
+V5 (cybersecurity response)
+
+A company may be in either an upper security state or a lower security state, with probability 0.5 for each case.
+The internal security lead knows which state has occurred.
+The outside incident-response firm does not know which state the company is in when making its response.
+
+If the company is in the upper security state, the security lead chooses between handling the issue internally and escalating it to the outside firm.
+If the lead handles it internally, the final reward is 2 for the security lead and 0 for the outside firm.
+If the lead escalates it, the outside firm then chooses between an urgent intervention and a delayed intervention.
+If the outside firm chooses an urgent intervention after the upper escalation branch, the final reward is 0 for the security lead and 4 for the outside firm.
+If the outside firm chooses a delayed intervention after the upper escalation branch, the final reward is 4 for the security lead and 0 for the outside firm.
+
+If the company is in the lower security state, the security lead chooses between handling the issue internally and escalating it to the outside firm.
+If the lead handles it internally, the final reward is 2 for the security lead and 0 for the outside firm.
+If the lead escalates it, the outside firm again chooses between an urgent intervention and a delayed intervention.
+The outside firm cannot tell whether the escalation came from the upper security state or the lower security state.
+If the outside firm chooses an urgent intervention after the lower escalation branch, the final reward is 0 for the security lead and 0 for the outside firm.
+If the outside firm chooses a delayed intervention after the lower escalation branch, the final reward is 4 for the security lead and 2 for the outside firm.

@@ -1,0 +1,18 @@
+V3 (museum exhibit launch)
+
+A museum may face either a high-interest launch situation or a low-interest launch situation, with probability 0.5 for each case.
+The museum director knows which situation has occurred.
+The publicity partner does not know whether the situation is high-interest or low-interest when deciding how to respond.
+
+If the museum is in the high-interest launch situation, the director chooses between a local opening and a major publicity push.
+If the director chooses a local opening, the final reward is 2 for the director and 0 for the publicity partner.
+If the director chooses a major publicity push, the publicity partner then chooses between an urgent campaign and a delayed campaign.
+If the publicity partner chooses an urgent campaign after the upper publicity branch, the final reward is 0 for the director and 4 for the publicity partner.
+If the publicity partner chooses a delayed campaign after the upper publicity branch, the final reward is 4 for the director and 0 for the publicity partner.
+
+If the museum is in the low-interest launch situation, the director chooses between a local opening and a major publicity push.
+If the director chooses a local opening, the final reward is 2 for the director and 0 for the publicity partner.
+If the director chooses a major publicity push, the publicity partner again chooses between an urgent campaign and a delayed campaign.
+The publicity partner cannot tell whether the request came from the high-interest situation or the low-interest situation.
+If the publicity partner chooses an urgent campaign after the lower publicity branch, the final reward is 0 for the director and 0 for the publicity partner.
+If the publicity partner chooses a delayed campaign after the lower publicity branch, the final reward is 4 for the director and 2 for the publicity partner.

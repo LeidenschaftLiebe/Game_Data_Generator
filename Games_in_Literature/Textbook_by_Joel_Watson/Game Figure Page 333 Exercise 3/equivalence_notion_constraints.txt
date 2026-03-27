@@ -1,0 +1,7 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that the upper state and the lower state occur with probability 0.5 each.
+Check that Player 2’s two decision nodes after the upper R branch and the lower R' branch are in the same information set.
+Check that if the game is in the upper state and Player 1 chooses L, the final reward is 2 for Player 1 and 0 for Player 2.
+Check that if the game is in the lower state, Player 1 chooses R', and Player 2 chooses D, the final reward is 4 for Player 1 and 2 for Player 2.

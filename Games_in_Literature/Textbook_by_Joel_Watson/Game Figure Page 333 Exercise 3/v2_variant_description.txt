@@ -1,0 +1,18 @@
+V2 (space mission repair)
+
+A spacecraft may encounter either an upper repair state or a lower repair state, with probability 0.5 for each case.
+The onboard commander knows which state the craft is in.
+Mission control does not know which state has occurred when it makes its response.
+
+If the craft is in the upper repair state, the commander chooses between a local patch and a remote repair request.
+If the commander uses a local patch, the final reward is 2 for the commander and 0 for mission control.
+If the commander makes a remote repair request, mission control then chooses between an urgent intervention and a delayed intervention.
+If mission control chooses an urgent intervention after the upper remote-repair branch, the final reward is 0 for the commander and 4 for mission control.
+If mission control chooses a delayed intervention after the upper remote-repair branch, the final reward is 4 for the commander and 0 for mission control.
+
+If the craft is in the lower repair state, the commander chooses between a local patch and a remote repair request.
+If the commander uses a local patch, the final reward is 2 for the commander and 0 for mission control.
+If the commander makes a remote repair request, mission control again chooses between an urgent intervention and a delayed intervention.
+Mission control cannot tell whether the request came from the upper repair state or the lower repair state.
+If mission control chooses an urgent intervention after the lower remote-repair branch, the final reward is 0 for the commander and 0 for mission control.
+If mission control chooses a delayed intervention after the lower remote-repair branch, the final reward is 4 for the commander and 2 for mission control.

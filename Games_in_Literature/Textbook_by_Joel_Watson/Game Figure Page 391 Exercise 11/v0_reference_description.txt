@@ -1,0 +1,21 @@
+V0 (use original labels)
+
+At the outset, a random event selects branch L with probability 0.5 or branch H with probability 0.5.
+Player 1 does not control that first split.
+
+If branch L is selected, Player 1 chooses between action A and action B.
+If Player 1 chooses action A, the final reward is 2 for Player 1 and 10 for Player 2.
+If Player 1 chooses action B, Player 2 then chooses between action F and action G.
+If Player 2 chooses action F after B, the final reward is 0 for Player 1 and 10 for Player 2.
+If Player 2 chooses action G after B, the final reward is -10 for Player 1 and 2 for Player 2.
+
+If branch H is selected, Player 1 chooses among action C, action D, and action E.
+If Player 1 chooses action E, the final reward is 2 for Player 1 and 10 for Player 2.
+If Player 1 chooses action C, Player 2 then chooses between action F and action G.
+If Player 2 chooses action F after C, the final reward is 6 for Player 1 and 0 for Player 2.
+If Player 2 chooses action G after C, the final reward is -10 for Player 1 and 7 for Player 2.
+
+If Player 1 chooses action D, Player 2 also chooses between action F and action G.
+Player 2 cannot tell whether the current decision point came after B, after C, or after D.
+If Player 2 chooses action F after D, the final reward is 3 for Player 1 and 5 for Player 2.
+If Player 2 chooses action G after D, the final reward is 3 for Player 1 and 5 for Player 2.

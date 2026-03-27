@@ -1,0 +1,21 @@
+V4 (sports franchise strategy)
+
+At the outset, league conditions place the franchise in either a lower-pressure season or a higher-pressure season, with probability 0.5 for each.
+The general manager does not control that first split.
+
+If the lower-pressure season is selected, the general manager chooses between strategy A and strategy B.
+If the general manager chooses strategy A, the final reward is 2 for the general manager and 10 for the owner.
+If the general manager chooses strategy B, the owner then chooses between response F and response G.
+If the owner chooses response F after strategy B, the final reward is 0 for the general manager and 10 for the owner.
+If the owner chooses response G after strategy B, the final reward is -10 for the general manager and 2 for the owner.
+
+If the higher-pressure season is selected, the general manager chooses among strategy C, strategy D, and strategy E.
+If the general manager chooses strategy E, the final reward is 2 for the general manager and 10 for the owner.
+If the general manager chooses strategy C, the owner then chooses between response F and response G.
+If the owner chooses response F after strategy C, the final reward is 6 for the general manager and 0 for the owner.
+If the owner chooses response G after strategy C, the final reward is -10 for the general manager and 7 for the owner.
+
+If the general manager chooses strategy D, the owner again chooses between response F and response G.
+The owner cannot tell whether the current choice comes after strategy B, strategy C, or strategy D.
+If the owner chooses response F after strategy D, the final reward is 3 for the general manager and 5 for the owner.
+If the owner chooses response G after strategy D, the final reward is 3 for the general manager and 5 for the owner.

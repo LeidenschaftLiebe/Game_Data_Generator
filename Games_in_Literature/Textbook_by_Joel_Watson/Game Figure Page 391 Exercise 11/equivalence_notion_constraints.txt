@@ -1,0 +1,8 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that the first random split selects the left state with probability 0.5 and the right state with probability 0.5.
+Check that Player 2’s three decision nodes reached after B, C, and D are in the same information set.
+Check that if the left state occurs and Player 1 chooses A, the final reward is 2 for Player 1 and 10 for Player 2.
+Check that if the right state occurs, Player 1 chooses C, and Player 2 chooses F, the final reward is 6 for Player 1 and 0 for Player 2.
+Check that if the right state occurs and Player 1 chooses E, the final reward is 2 for Player 1 and 10 for Player 2.

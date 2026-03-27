@@ -1,0 +1,21 @@
+V5 (cybersecurity operations)
+
+At the outset, outside system conditions place the company in either a lower-risk state or a higher-risk state, with probability 0.5 for each.
+The security lead does not control that first split.
+
+If the lower-risk state is selected, the security lead chooses between plan A and plan B.
+If the security lead chooses plan A, the final reward is 2 for the security lead and 10 for the response partner.
+If the security lead chooses plan B, the response partner then chooses between action F and action G.
+If the response partner chooses action F after plan B, the final reward is 0 for the security lead and 10 for the response partner.
+If the response partner chooses action G after plan B, the final reward is -10 for the security lead and 2 for the response partner.
+
+If the higher-risk state is selected, the security lead chooses among plan C, plan D, and plan E.
+If the security lead chooses plan E, the final reward is 2 for the security lead and 10 for the response partner.
+If the security lead chooses plan C, the response partner then chooses between action F and action G.
+If the response partner chooses action F after plan C, the final reward is 6 for the security lead and 0 for the response partner.
+If the response partner chooses action G after plan C, the final reward is -10 for the security lead and 7 for the response partner.
+
+If the security lead chooses plan D, the response partner again chooses between action F and action G.
+The response partner cannot tell whether the current choice comes after plan B, plan C, or plan D.
+If the response partner chooses action F after plan D, the final reward is 3 for the security lead and 5 for the response partner.
+If the response partner chooses action G after plan D, the final reward is 3 for the security lead and 5 for the response partner.

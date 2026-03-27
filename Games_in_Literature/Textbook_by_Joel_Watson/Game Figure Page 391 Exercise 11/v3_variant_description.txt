@@ -1,0 +1,21 @@
+V3 (museum expansion planning)
+
+At the outset, outside funding conditions push the museum toward either a limited expansion path or a major expansion path, with probability 0.5 for each.
+The museum director does not control that first split.
+
+If the limited expansion path is selected, the director chooses between option A and option B.
+If the director chooses option A, the final reward is 2 for the director and 10 for the donor board.
+If the director chooses option B, the donor board then chooses between package F and package G.
+If the donor board chooses package F after option B, the final reward is 0 for the director and 10 for the donor board.
+If the donor board chooses package G after option B, the final reward is -10 for the director and 2 for the donor board.
+
+If the major expansion path is selected, the director chooses among option C, option D, and option E.
+If the director chooses option E, the final reward is 2 for the director and 10 for the donor board.
+If the director chooses option C, the donor board then chooses between package F and package G.
+If the donor board chooses package F after option C, the final reward is 6 for the director and 0 for the donor board.
+If the donor board chooses package G after option C, the final reward is -10 for the director and 7 for the donor board.
+
+If the director chooses option D, the donor board again chooses between package F and package G.
+The donor board cannot tell whether the current choice comes after option B, option C, or option D.
+If the donor board chooses package F after option D, the final reward is 3 for the director and 5 for the donor board.
+If the donor board chooses package G after option D, the final reward is 3 for the director and 5 for the donor board.

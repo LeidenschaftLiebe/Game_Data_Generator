@@ -1,0 +1,21 @@
+V1 (wildlife expedition planning)
+
+At the outset, outside conditions send the expedition onto either the lowland route or the highland route, with probability 0.5 for each.
+The expedition leader does not control that initial split.
+
+If the lowland route is selected, the leader chooses between plan A and plan B.
+If the leader chooses plan A, the final reward is 2 for the leader and 10 for the logistics chief.
+If the leader chooses plan B, the logistics chief then chooses between support option F and support option G.
+If the logistics chief chooses support option F after plan B, the final reward is 0 for the leader and 10 for the logistics chief.
+If the logistics chief chooses support option G after plan B, the final reward is -10 for the leader and 2 for the logistics chief.
+
+If the highland route is selected, the leader chooses among plan C, plan D, and plan E.
+If the leader chooses plan E, the final reward is 2 for the leader and 10 for the logistics chief.
+If the leader chooses plan C, the logistics chief then chooses between support option F and support option G.
+If the logistics chief chooses support option F after plan C, the final reward is 6 for the leader and 0 for the logistics chief.
+If the logistics chief chooses support option G after plan C, the final reward is -10 for the leader and 7 for the logistics chief.
+
+If the leader chooses plan D, the logistics chief again chooses between support option F and support option G.
+The logistics chief cannot tell whether the current choice comes after plan B, plan C, or plan D.
+If the logistics chief chooses support option F after plan D, the final reward is 3 for the leader and 5 for the logistics chief.
+If the logistics chief chooses support option G after plan D, the final reward is 3 for the leader and 5 for the logistics chief.

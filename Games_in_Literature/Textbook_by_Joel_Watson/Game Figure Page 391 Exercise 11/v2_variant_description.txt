@@ -1,0 +1,21 @@
+V2 (space mission routing)
+
+At the outset, mission conditions send the crew toward either the low-orbit track or the high-orbit track, with probability 0.5 for each.
+The commander does not control that first split.
+
+If the low-orbit track is selected, the commander chooses between route A and route B.
+If the commander chooses route A, the final reward is 2 for the commander and 10 for mission control.
+If the commander chooses route B, mission control then chooses between response F and response G.
+If mission control chooses response F after route B, the final reward is 0 for the commander and 10 for mission control.
+If mission control chooses response G after route B, the final reward is -10 for the commander and 2 for mission control.
+
+If the high-orbit track is selected, the commander chooses among route C, route D, and route E.
+If the commander chooses route E, the final reward is 2 for the commander and 10 for mission control.
+If the commander chooses route C, mission control then chooses between response F and response G.
+If mission control chooses response F after route C, the final reward is 6 for the commander and 0 for mission control.
+If mission control chooses response G after route C, the final reward is -10 for the commander and 7 for mission control.
+
+If the commander chooses route D, mission control again chooses between response F and response G.
+Mission control cannot tell whether the current choice comes after route B, route C, or route D.
+If mission control chooses response F after route D, the final reward is 3 for the commander and 5 for mission control.
+If mission control chooses response G after route D, the final reward is 3 for the commander and 5 for mission control.

@@ -1,0 +1,26 @@
+V1 (museum gallery game)
+
+A museum is running a live puzzle show for visitors.
+Mia quietly hides a prize in Gallery A or Gallery B before the audience enters.
+The host sees where the prize is hidden.
+Then Jordan comes in, and the host says either “North” or “South.”
+After hearing that cue, Jordan picks one of the two galleries.
+If Jordan picks the correct gallery, Jordan gets 100 and Mia gets 0.
+If Jordan picks the wrong gallery, Mia gets 100 and Jordan gets 0.
+The host gets 10 whenever Jordan picks Gallery A and 0 whenever Jordan picks Gallery B.
+
+If Mia hides the prize in Gallery A and the host says North, Jordan’s choice settles the result.
+Picking Gallery A gives final rewards of 0 for Mia, 10 for the host, and 100 for Jordan.
+Picking Gallery B gives final rewards of 100 for Mia, 0 for the host, and 0 for Jordan.
+
+If Mia hides the prize in Gallery A and the host says South, the same two gallery choices remain.
+Picking Gallery A gives final rewards of 0 for Mia, 10 for the host, and 100 for Jordan.
+Picking Gallery B gives final rewards of 100 for Mia, 0 for the host, and 0 for Jordan.
+
+If Mia hides the prize in Gallery B and the host says North, Jordan chooses between the two galleries.
+Picking Gallery A gives final rewards of 100 for Mia, 10 for the host, and 0 for Jordan.
+Picking Gallery B gives final rewards of 0 for Mia, 0 for the host, and 100 for Jordan.
+
+If Mia hides the prize in Gallery B and the host says South, Jordan again chooses between the two galleries.
+Picking Gallery A gives final rewards of 100 for Mia, 10 for the host, and 0 for Jordan.
+Picking Gallery B gives final rewards of 0 for Mia, 0 for the host, and 100 for Jordan.

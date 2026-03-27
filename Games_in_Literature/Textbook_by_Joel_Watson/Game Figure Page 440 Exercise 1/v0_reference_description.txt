@@ -1,0 +1,43 @@
+Textbook Original Description: 
+
+Represent the following strategic situation as an extensive-form game. ­ Janet
+is a contestant on a popular game show, and her task is to guess behind
+which door Liz, another contestant, is standing. With Janet out of the room,
+Liz chooses a door behind which to stand—either door A or door B. The
+host, Monty, observes this choice. Janet, not having observed Liz’s choice,
+then enters the room. Monty says to Janet either “Red” or “Green” (which
+sounds silly, of course, but it is a silly game show). After hearing Monty’s
+statement, Janet picks a door (she says either “A” or “B”). If she picks the
+correct door, then she wins $100. If she picks the wrong door, then she wins
+nothing. Liz wins $100 if Janet picks the wrong door and nothing if she
+picks the correct door. (Thus, Liz would like to hide from Janet, and Janet
+would like to find Liz.) Monty likes the letter A. If Janet selects door A, then
+this selection makes Monty happy to the tune of 10 units of utility. If she
+selects door B, then Monty receives 0 utility units.
+
+V0 (closest to the textbook)
+
+Liz chooses first, while Janet is out of the room.
+She hides behind either door A or door B.
+Monty sees where Liz is standing.
+Janet then comes in, and Monty says either “Red” or “Green.”
+After hearing that message, Janet picks a door.
+If Janet picks the correct door, Janet wins 100 and Liz gets 0.
+If Janet picks the wrong door, Liz wins 100 and Janet gets 0.
+Monty gets 10 if Janet picks door A and 0 if Janet picks door B.
+
+If Liz hides behind door A and Monty says Red, then Janet’s choice decides the result.
+If Janet picks A, the final reward is 0 for Liz, 10 for Monty, and 100 for Janet.
+If Janet picks B, the final reward is 100 for Liz, 0 for Monty, and 0 for Janet.
+
+If Liz hides behind door A and Monty says Green, Janet again chooses between A and B.
+If Janet picks A, the final reward is 0 for Liz, 10 for Monty, and 100 for Janet.
+If Janet picks B, the final reward is 100 for Liz, 0 for Monty, and 0 for Janet.
+
+If Liz hides behind door B and Monty says Red, Janet chooses between A and B.
+If Janet picks A, the final reward is 100 for Liz, 10 for Monty, and 0 for Janet.
+If Janet picks B, the final reward is 0 for Liz, 0 for Monty, and 100 for Janet.
+
+If Liz hides behind door B and Monty says Green, Janet again chooses between A and B.
+If Janet picks A, the final reward is 100 for Liz, 10 for Monty, and 0 for Janet.
+If Janet picks B, the final reward is 0 for Liz, 0 for Monty, and 100 for Janet.

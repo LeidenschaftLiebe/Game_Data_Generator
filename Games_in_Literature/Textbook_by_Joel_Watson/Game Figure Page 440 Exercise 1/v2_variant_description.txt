@@ -1,0 +1,25 @@
+V2 (space bay guessing game)
+
+In a training exercise on a space station, Lee hides inside Bay A or Bay B before Nova enters.
+Marshal sees where Lee goes.
+Nova then walks in, and Marshal announces either “Signal Red” or “Signal Green.”
+After hearing that announcement, Nova chooses one of the two bays.
+If Nova chooses the correct bay, Nova gets 100 and Lee gets 0.
+If Nova chooses the wrong bay, Lee gets 100 and Nova gets 0.
+Marshal gets 10 if Nova chooses Bay A and 0 if Nova chooses Bay B.
+
+If Lee hides in Bay A and Marshal says Signal Red, Nova’s choice determines the result.
+Choosing Bay A gives final rewards of 0 for Lee, 10 for Marshal, and 100 for Nova.
+Choosing Bay B gives final rewards of 100 for Lee, 0 for Marshal, and 0 for Nova.
+
+If Lee hides in Bay A and Marshal says Signal Green, Nova again chooses between Bay A and Bay B.
+Choosing Bay A gives final rewards of 0 for Lee, 10 for Marshal, and 100 for Nova.
+Choosing Bay B gives final rewards of 100 for Lee, 0 for Marshal, and 0 for Nova.
+
+If Lee hides in Bay B and Marshal says Signal Red, Nova chooses between the two bays.
+Choosing Bay A gives final rewards of 100 for Lee, 10 for Marshal, and 0 for Nova.
+Choosing Bay B gives final rewards of 0 for Lee, 0 for Marshal, and 100 for Nova.
+
+If Lee hides in Bay B and Marshal says Signal Green, Nova again chooses between the two bays.
+Choosing Bay A gives final rewards of 100 for Lee, 10 for Marshal, and 0 for Nova.
+Choosing Bay B gives final rewards of 0 for Lee, 0 for Marshal, and 100 for Nova.

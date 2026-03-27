@@ -1,0 +1,25 @@
+V4 (wildlife reserve trail game)
+
+At a wildlife reserve, one ranger hides at Trail A or Trail B before the visitor arrives.
+The guide sees which trail the ranger chose.
+Then the visitor enters, and the guide says either “Red trail” or “Green trail.”
+After hearing that, the visitor picks one of the two trails.
+If the visitor picks the correct trail, the visitor gets 100 and the ranger gets 0.
+If the visitor picks the wrong trail, the ranger gets 100 and the visitor gets 0.
+The guide gets 10 whenever Trail A is chosen and 0 whenever Trail B is chosen.
+
+If the ranger hides at Trail A and the guide says Red trail, the visitor’s choice determines the result.
+Choosing Trail A gives final rewards of 0 for the ranger, 10 for the guide, and 100 for the visitor.
+Choosing Trail B gives final rewards of 100 for the ranger, 0 for the guide, and 0 for the visitor.
+
+If the ranger hides at Trail A and the guide says Green trail, the visitor again chooses between Trail A and Trail B.
+Choosing Trail A gives final rewards of 0 for the ranger, 10 for the guide, and 100 for the visitor.
+Choosing Trail B gives final rewards of 100 for the ranger, 0 for the guide, and 0 for the visitor.
+
+If the ranger hides at Trail B and the guide says Red trail, the visitor chooses between the two trails.
+Choosing Trail A gives final rewards of 100 for the ranger, 10 for the guide, and 0 for the visitor.
+Choosing Trail B gives final rewards of 0 for the ranger, 0 for the guide, and 100 for the visitor.
+
+If the ranger hides at Trail B and the guide says Green trail, the visitor again chooses between the two trails.
+Choosing Trail A gives final rewards of 100 for the ranger, 10 for the guide, and 0 for the visitor.
+Choosing Trail B gives final rewards of 0 for the ranger, 0 for the guide, and 100 for the visitor.

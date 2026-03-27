@@ -1,0 +1,25 @@
+V3 (sports locker challenge)
+
+Before a locker-room game begins, one player hides a golden ticket in Locker A or Locker B.
+The referee sees where it is placed.
+Another player then enters, and the referee says either “Red” or “Green.”
+After hearing that, the player picks one locker.
+If the player opens the correct locker, the player gets 100 and the hider gets 0.
+If the player opens the wrong locker, the hider gets 100 and the player gets 0.
+The referee gets 10 whenever Locker A is chosen and 0 whenever Locker B is chosen.
+
+If the ticket is hidden in Locker A and the referee says Red, the player’s choice settles the outcome.
+Choosing Locker A gives final rewards of 0 for the hider, 10 for the referee, and 100 for the chooser.
+Choosing Locker B gives final rewards of 100 for the hider, 0 for the referee, and 0 for the chooser.
+
+If the ticket is hidden in Locker A and the referee says Green, the same two locker choices remain.
+Choosing Locker A gives final rewards of 0 for the hider, 10 for the referee, and 100 for the chooser.
+Choosing Locker B gives final rewards of 100 for the hider, 0 for the referee, and 0 for the chooser.
+
+If the ticket is hidden in Locker B and the referee says Red, the player chooses between Locker A and Locker B.
+Choosing Locker A gives final rewards of 100 for the hider, 10 for the referee, and 0 for the chooser.
+Choosing Locker B gives final rewards of 0 for the hider, 0 for the referee, and 100 for the chooser.
+
+If the ticket is hidden in Locker B and the referee says Green, the player again chooses between the two lockers.
+Choosing Locker A gives final rewards of 100 for the hider, 10 for the referee, and 0 for the chooser.
+Choosing Locker B gives final rewards of 0 for the hider, 0 for the referee, and 100 for the chooser.

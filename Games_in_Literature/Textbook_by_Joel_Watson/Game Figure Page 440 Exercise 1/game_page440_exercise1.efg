@@ -1,0 +1,18 @@
+EFG 2 R "Page 440 Exercise 1" { "Liz" "Monty" "Janet" }
+""
+
+p "" 1 1 "" { "A" "B" } 0
+p "" 2 1 "" { "Red_after_A" "Green_after_A" } 0
+p "" 3 1 "" { "ChooseA" "ChooseB" } 0
+t "" 1 "LizA_Red_JanetA" { 0, 10, 100 }
+t "" 2 "LizA_Red_JanetB" { 100, 0, 0 }
+p "" 3 2 "" { "ChooseA" "ChooseB" } 0
+t "" 3 "LizA_Green_JanetA" { 0, 10, 100 }
+t "" 4 "LizA_Green_JanetB" { 100, 0, 0 }
+p "" 2 2 "" { "Red_after_B" "Green_after_B" } 0
+p "" 3 1 "" { "ChooseA" "ChooseB" } 0
+t "" 5 "LizB_Red_JanetA" { 100, 10, 0 }
+t "" 6 "LizB_Red_JanetB" { 0, 0, 100 }
+p "" 3 2 "" { "ChooseA" "ChooseB" } 0
+t "" 7 "LizB_Green_JanetA" { 100, 10, 0 }
+t "" 8 "LizB_Green_JanetB" { 0, 0, 100 }

@@ -1,0 +1,7 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that Liz (Player 1) moves first, Monty (Player 2) moves second after observing Liz’s door, and Janet (Player 3) moves third after hearing whether Monty said Red or Green.
+Check that Janet’s two decision nodes after Red are in the same information set.
+Check that Janet’s two decision nodes after Green are in the same information set.
+Check that if Liz chooses door A, Monty says Red, and Janet picks door A, the final reward is 0 for Liz, 10 for Monty, and 100 for Janet.

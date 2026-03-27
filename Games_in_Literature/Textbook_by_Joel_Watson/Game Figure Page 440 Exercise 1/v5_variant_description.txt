@@ -1,0 +1,25 @@
+V5 (cybersecurity server guess)
+
+In a cybersecurity simulation, one analyst hides the target file on Server A or Server B before the response lead enters the room.
+The moderator sees which server holds the file.
+The response lead then comes in, and the moderator says either “Red” or “Green.”
+After hearing that message, the response lead chooses one server.
+If the lead chooses the correct server, the lead gets 100 and the hiding analyst gets 0.
+If the lead chooses the wrong server, the hiding analyst gets 100 and the lead gets 0.
+The moderator gets 10 whenever Server A is chosen and 0 whenever Server B is chosen.
+
+If the file is hidden on Server A and the moderator says Red, the lead’s choice settles the result.
+Choosing Server A gives final rewards of 0 for the hiding analyst, 10 for the moderator, and 100 for the lead.
+Choosing Server B gives final rewards of 100 for the hiding analyst, 0 for the moderator, and 0 for the lead.
+
+If the file is hidden on Server A and the moderator says Green, the lead again chooses between Server A and Server B.
+Choosing Server A gives final rewards of 0 for the hiding analyst, 10 for the moderator, and 100 for the lead.
+Choosing Server B gives final rewards of 100 for the hiding analyst, 0 for the moderator, and 0 for the lead.
+
+If the file is hidden on Server B and the moderator says Red, the lead chooses between the two servers.
+Choosing Server A gives final rewards of 100 for the hiding analyst, 10 for the moderator, and 0 for the lead.
+Choosing Server B gives final rewards of 0 for the hiding analyst, 0 for the moderator, and 100 for the lead.
+
+If the file is hidden on Server B and the moderator says Green, the lead again chooses between the two servers.
+Choosing Server A gives final rewards of 100 for the hiding analyst, 10 for the moderator, and 0 for the lead.
+Choosing Server B gives final rewards of 0 for the hiding analyst, 0 for the moderator, and 100 for the lead.

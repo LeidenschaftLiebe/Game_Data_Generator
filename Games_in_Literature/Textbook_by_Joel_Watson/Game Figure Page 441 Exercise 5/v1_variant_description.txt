@@ -1,0 +1,22 @@
+V1 (museum signal game)
+
+A museum curator first decides whether to place a marker on the top shelf or on the floor.
+An assistant sees that choice.
+Then the assistant decides whether to hang his own marker up high or leave it on the floor.
+
+If the assistant hangs his marker up high, the activity ends and all three people get 0.
+If the assistant leaves it on the floor, an observer must guess whether the curator’s marker is up high.
+The observer says yes or no.
+The observer can see what the assistant did, but not what the curator did.
+
+That means the observer cannot tell which earlier situation led to this guessing point.
+
+If the curator put the marker up high and the observer says yes, the guess is correct.
+The final reward is -1 for the curator, 0 for the assistant, and 1 for the observer.
+If the curator put the marker up high and the observer says no, the guess is wrong.
+The final reward is 1 for the curator, 0 for the assistant, and -1 for the observer.
+
+If the curator put the marker on the floor and the observer says yes, the guess is wrong.
+The final reward is 1 for the curator, 0 for the assistant, and -1 for the observer.
+If the curator put the marker on the floor and the observer says no, the guess is correct.
+The final reward is -1 for the curator, 0 for the assistant, and 1 for the observer.

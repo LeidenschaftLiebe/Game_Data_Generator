@@ -1,0 +1,33 @@
+Textbook Original Description: 
+
+There are three people: Amy, Bart,and Chris. Amy and Bart have hats. 
+These three people are arranged in a room so that Bart can see everything that Amy does, 
+Chris can see everything that Bart does, but the players can see nothing else. 
+In particular, Chris cannot see what Amy does. 
+
+First, Amy chooses either to put her hat on her head (abbreviated by H) or on the floor (F). 
+After observing Amy’s move, Bart chooses between putting his hat on his head or on the floor. 
+If Bart puts his hat on his head, the game ends and everyone gets a payoff of 0. 
+If Bart puts his hat on the floor, then Chris must guess whether Amy’s hat is on her head by saying either “yes” or “no.” 
+This ends the game. 
+If Chris guesses correctly, then he gets a payoff of 1 and Amy gets a payoff of − 1.
+If he guesses incorrectly, then these payoffs are reversed. Bart’s payoff is 0, regardless of what happens.
+
+V0 (closest to the textbook)
+
+Amy moves first and decides whether to put her hat on her head or on the floor.
+Bart sees what Amy does. After that, Bart decides whether to put his own hat on his head or on the floor.
+
+If Bart puts his hat on his head, the game ends immediately and everyone gets 0.
+If Bart puts his hat on the floor, then Chris has to guess whether Amy’s hat is on her head.
+Chris can say yes or no. Chris sees what Bart did, but he does not see what Amy did.
+
+If Amy put her hat on her head and Chris says yes, then Chris is correct.
+The final reward is -1 for Amy, 0 for Bart, and 1 for Chris.
+If Amy put her hat on her head and Chris says no, then Chris is wrong.
+The final reward is 1 for Amy, 0 for Bart, and -1 for Chris.
+
+If Amy put her hat on the floor and Chris says yes, then Chris is wrong.
+The final reward is 1 for Amy, 0 for Bart, and -1 for Chris.
+If Amy put her hat on the floor and Chris says no, then Chris is correct.
+The final reward is -1 for Amy, 0 for Bart, and 1 for Chris.

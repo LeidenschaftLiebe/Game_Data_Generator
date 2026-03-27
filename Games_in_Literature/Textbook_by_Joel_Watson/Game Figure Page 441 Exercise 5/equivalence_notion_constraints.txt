@@ -1,0 +1,7 @@
+Strategic Equivalence Notion: Better-response equivalence
+
+Constraints:
+Check that Amy moves first, Bart moves second after observing Amy, and Chris moves only if Bart puts his hat on the floor.
+Check that Chris’s two decision nodes are in the same information set.
+Check that if Bart puts his hat on his head, the game ends immediately with reward 0 for all three players.
+Check that if Amy puts her hat on her head, Bart puts his hat on the floor, and Chris says yes, the final reward is -1 for Amy, 0 for Bart, and 1 for Chris.

@@ -1,0 +1,22 @@
+V5 (cybersecurity token game)
+
+An analyst first decides whether to place a token on the terminal or on the desk.
+A second analyst sees that choice.
+Then the second analyst decides whether to place his own token on the terminal or on the desk.
+
+If the second analyst places his token on the terminal, the exercise ends and all three people get 0.
+If he places it on the desk, a supervisor must guess whether the first token is on the terminal.
+The supervisor says yes or no.
+The supervisor sees the second analyst’s move, but not the first analyst’s move.
+
+So the supervisor must make the same guess at an information point that hides what happened earlier.
+
+If the first token is on the terminal and the supervisor says yes, the guess is correct.
+The final reward is -1 for the first analyst, 0 for the second analyst, and 1 for the supervisor.
+If the first token is on the terminal and the supervisor says no, the guess is wrong.
+The final reward is 1 for the first analyst, 0 for the second analyst, and -1 for the supervisor.
+
+If the first token is on the desk and the supervisor says yes, the guess is wrong.
+The final reward is 1 for the first analyst, 0 for the second analyst, and -1 for the supervisor.
+If the first token is on the desk and the supervisor says no, the guess is correct.
+The final reward is -1 for the first analyst, 0 for the second analyst, and 1 for the supervisor.

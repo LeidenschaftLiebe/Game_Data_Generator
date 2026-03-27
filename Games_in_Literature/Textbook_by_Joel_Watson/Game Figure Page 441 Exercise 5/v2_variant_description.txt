@@ -1,0 +1,22 @@
+V2 (space station storage game)
+
+A crew member first decides whether to place a tool on the upper rack or on the deck.
+A second crew member sees that choice.
+Then the second crew member decides whether to place his own tool on the upper rack or on the deck.
+
+If the second crew member places his tool on the upper rack, the round ends and all three people get 0.
+If he places it on the deck, a third crew member has to guess whether the first tool is on the upper rack.
+The third crew member answers yes or no.
+That third crew member can observe the second move, but not the first one.
+
+So when the guess is made, the third crew member does not know which earlier placement by the first crew member actually happened.
+
+If the first tool is on the upper rack and the guess is yes, the guess is correct.
+The final reward is -1 for the first crew member, 0 for the second, and 1 for the third.
+If the first tool is on the upper rack and the guess is no, the guess is wrong.
+The final reward is 1 for the first crew member, 0 for the second, and -1 for the third.
+
+If the first tool is on the deck and the guess is yes, the guess is wrong.
+The final reward is 1 for the first crew member, 0 for the second, and -1 for the third.
+If the first tool is on the deck and the guess is no, the guess is correct.
+The final reward is -1 for the first crew member, 0 for the second, and 1 for the third.

@@ -1,0 +1,14 @@
+EFG 2 R "Page 441 Exercise 5" { "Amy" "Bart" "Chris" }
+""
+
+p "" 1 1 "" { "H" "F" } 0
+p "" 2 1 "" { "H" "F" } 0
+t "" 1 "AmyH_BartH" { 0, 0, 0 }
+p "" 3 1 "" { "Y" "N" } 0
+t "" 3 "AmyH_ChrisYes" { -1, 0, 1 }
+t "" 4 "AmyH_ChrisNo" { 1, 0, -1 }
+p "" 2 2 "" { "H_prime" "F_prime" } 0
+t "" 2 "AmyF_BartH" { 0, 0, 0 }
+p "" 3 1 "" { "Y" "N" } 0
+t "" 5 "AmyF_ChrisYes" { 1, 0, -1 }
+t "" 6 "AmyF_ChrisNo" { -1, 0, 1 }

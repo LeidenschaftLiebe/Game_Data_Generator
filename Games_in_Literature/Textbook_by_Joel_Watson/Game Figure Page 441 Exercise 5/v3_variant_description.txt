@@ -1,0 +1,22 @@
+V3 (festival prop game)
+
+One performer first decides whether to place a prop on her head or on the stage floor.
+A second performer sees that choice.
+Then the second performer decides whether to wear his own prop or set it on the floor.
+
+If the second performer wears his prop, the scene ends and all three people get 0.
+If he sets it on the floor, a third performer must guess whether the first prop is on the first performer’s head.
+The third performer says yes or no.
+The third performer sees what the second performer did, but not what the first performer did.
+
+So the third performer faces the same guessing problem across two different hidden situations.
+
+If the first performer put the prop on her head and the third performer says yes, the guess is correct.
+The final reward is -1 for the first performer, 0 for the second, and 1 for the third.
+If the first performer put the prop on her head and the third performer says no, the guess is wrong.
+The final reward is 1 for the first performer, 0 for the second, and -1 for the third.
+
+If the first performer put the prop on the floor and the third performer says yes, the guess is wrong.
+The final reward is 1 for the first performer, 0 for the second, and -1 for the third.
+If the first performer put the prop on the floor and the third performer says no, the guess is correct.
+The final reward is -1 for the first performer, 0 for the second, and 1 for the third.

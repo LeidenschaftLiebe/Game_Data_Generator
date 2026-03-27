@@ -1,0 +1,22 @@
+V4 (sports training marker game)
+
+A player first decides whether to place a training marker on the rack or on the ground.
+A teammate sees that choice.
+Then the teammate decides whether to place his own marker on the rack or on the ground.
+
+If the teammate places his marker on the rack, the drill ends and everyone gets 0.
+If he places it on the ground, a coach must guess whether the first player’s marker is on the rack.
+The coach answers yes or no.
+The coach sees the teammate’s move, but not the first player’s move.
+
+So the coach cannot distinguish between the two hidden histories that lead to that guessing point.
+
+If the first marker is on the rack and the coach says yes, the guess is correct.
+The final reward is -1 for the first player, 0 for the teammate, and 1 for the coach.
+If the first marker is on the rack and the coach says no, the guess is wrong.
+The final reward is 1 for the first player, 0 for the teammate, and -1 for the coach.
+
+If the first marker is on the ground and the coach says yes, the guess is wrong.
+The final reward is 1 for the first player, 0 for the teammate, and -1 for the coach.
+If the first marker is on the ground and the coach says no, the guess is correct.
+The final reward is -1 for the first player, 0 for the teammate, and 1 for the coach.

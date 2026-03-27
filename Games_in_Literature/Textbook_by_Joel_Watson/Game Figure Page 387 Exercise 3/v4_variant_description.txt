@@ -1,0 +1,18 @@
+V4 (sports recovery planning)
+
+At the outset, an athlete may be in either a strong-recovery condition or a weak-recovery condition, with probability 0.5 for each case.
+The athlete learns which condition applies.
+The medical staff does not observe whether recovery is strong or weak.
+
+If the athlete is in the strong-recovery condition, the athlete chooses between the local training plan and the supervised training plan.
+If the athlete chooses the local training plan in the strong-recovery condition, the final reward is 2 for the athlete and 0 for the medical staff.
+If the athlete chooses the supervised training plan in the strong-recovery condition, the medical staff then chooses between an aggressive program and a conservative program.
+If the medical staff chooses an aggressive program there, the final reward is 3 for the athlete and 2 for the medical staff.
+If the medical staff chooses a conservative program there, the final reward is 1 for the athlete and 0 for the medical staff.
+
+If the athlete is in the weak-recovery condition, the athlete chooses between the local training plan and the supervised training plan.
+If the athlete chooses the local training plan in the weak-recovery condition, the final reward is 2 for the athlete and 0 for the medical staff.
+If the athlete chooses the supervised training plan in the weak-recovery condition, the medical staff then chooses between an aggressive program and a conservative program.
+The medical staff cannot tell whether this decision follows the supervised plan in the strong-recovery condition or in the weak-recovery condition.
+If the medical staff chooses an aggressive program there, the final reward is 1 for the athlete and 0 for the medical staff.
+If the medical staff chooses a conservative program there, the final reward is 1 for the athlete and 1 for the medical staff.

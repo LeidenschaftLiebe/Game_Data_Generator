@@ -1,0 +1,18 @@
+V3 (museum exhibit launch)
+
+At the outset, a museum may be in either a strong-interest period or a weak-interest period, with probability 0.5 for each case.
+The museum director learns which period applies.
+The publicity partner does not observe whether interest is strong or weak.
+
+If the museum is in the strong-interest period, the director chooses between the local launch plan and the media launch plan.
+If the director chooses the local launch plan in the strong-interest period, the final reward is 2 for the director and 0 for the publicity partner.
+If the director chooses the media launch plan in the strong-interest period, the publicity partner then chooses between an urgent campaign and a delayed campaign.
+If the publicity partner chooses an urgent campaign there, the final reward is 3 for the director and 2 for the publicity partner.
+If the publicity partner chooses a delayed campaign there, the final reward is 1 for the director and 0 for the publicity partner.
+
+If the museum is in the weak-interest period, the director chooses between the local launch plan and the media launch plan.
+If the director chooses the local launch plan in the weak-interest period, the final reward is 2 for the director and 0 for the publicity partner.
+If the director chooses the media launch plan in the weak-interest period, the publicity partner then chooses between an urgent campaign and a delayed campaign.
+The publicity partner cannot tell whether this decision follows the media launch plan in the strong-interest period or in the weak-interest period.
+If the publicity partner chooses an urgent campaign there, the final reward is 1 for the director and 0 for the publicity partner.
+If the publicity partner chooses a delayed campaign there, the final reward is 1 for the director and 1 for the publicity partner.

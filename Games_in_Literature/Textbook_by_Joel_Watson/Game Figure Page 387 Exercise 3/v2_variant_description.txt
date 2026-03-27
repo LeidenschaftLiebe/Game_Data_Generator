@@ -1,0 +1,18 @@
+V2 (space mission communication)
+
+At the outset, a spacecraft may be in either a strong-signal state or a weak-signal state, with probability 0.5 for each case.
+The onboard commander learns which state applies.
+Mission control does not observe whether the signal is strong or weak.
+
+If the spacecraft is in the strong-signal state, the commander chooses between the local protocol and the relay protocol.
+If the commander chooses the local protocol in the strong-signal state, the final reward is 2 for the commander and 0 for mission control.
+If the commander chooses the relay protocol in the strong-signal state, mission control then chooses between an urgent response and a delayed response.
+If mission control chooses an urgent response there, the final reward is 3 for the commander and 2 for mission control.
+If mission control chooses a delayed response there, the final reward is 1 for the commander and 0 for mission control.
+
+If the spacecraft is in the weak-signal state, the commander chooses between the local protocol and the relay protocol.
+If the commander chooses the local protocol in the weak-signal state, the final reward is 2 for the commander and 0 for mission control.
+If the commander chooses the relay protocol in the weak-signal state, mission control then chooses between an urgent response and a delayed response.
+Mission control cannot tell whether this decision follows the relay protocol in the strong-signal state or in the weak-signal state.
+If mission control chooses an urgent response there, the final reward is 1 for the commander and 0 for mission control.
+If mission control chooses a delayed response there, the final reward is 1 for the commander and 1 for mission control.

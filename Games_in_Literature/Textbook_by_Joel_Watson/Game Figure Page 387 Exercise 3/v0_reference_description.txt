@@ -1,0 +1,18 @@
+V0 (use original labels)
+
+At the outset, the game may be in the upper case H or the lower case L, with probability 0.5 for each case.
+Player 1 learns which case has occurred.
+Player 2 does not observe whether the game is in case H or case L.
+
+If the game is in case H, Player 1 chooses between action L and action R.
+If Player 1 chooses action L in case H, the final reward is 2 for Player 1 and 0 for Player 2.
+If Player 1 chooses action R in case H, Player 2 then chooses between action U and action D.
+If Player 2 chooses action U after R in case H, the final reward is 3 for Player 1 and 2 for Player 2.
+If Player 2 chooses action D after R in case H, the final reward is 1 for Player 1 and 0 for Player 2.
+
+If the game is in case L, Player 1 chooses between action L' and action R'.
+If Player 1 chooses action L' in case L, the final reward is 2 for Player 1 and 0 for Player 2.
+If Player 1 chooses action R' in case L, Player 2 then chooses between action U and action D.
+Player 2 cannot tell whether the current decision point came after R in case H or after R' in case L.
+If Player 2 chooses action U after R' in case L, the final reward is 1 for Player 1 and 0 for Player 2.
+If Player 2 chooses action D after R' in case L, the final reward is 1 for Player 1 and 1 for Player 2.

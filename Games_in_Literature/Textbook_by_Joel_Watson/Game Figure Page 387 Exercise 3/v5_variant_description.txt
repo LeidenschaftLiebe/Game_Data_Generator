@@ -1,0 +1,18 @@
+V5 (cybersecurity response)
+
+At the outset, a company may be in either a high-risk state or a low-risk state, with probability 0.5 for each case.
+The security lead learns which state applies.
+The outside response firm does not observe whether risk is high or low.
+
+If the company is in the high-risk state, the security lead chooses between the local fix and the escalation route.
+If the security lead chooses the local fix in the high-risk state, the final reward is 2 for the security lead and 0 for the outside firm.
+If the security lead chooses the escalation route in the high-risk state, the outside firm then chooses between an urgent intervention and a delayed intervention.
+If the outside firm chooses an urgent intervention there, the final reward is 3 for the security lead and 2 for the outside firm.
+If the outside firm chooses a delayed intervention there, the final reward is 1 for the security lead and 0 for the outside firm.
+
+If the company is in the low-risk state, the security lead chooses between the local fix and the escalation route.
+If the security lead chooses the local fix in the low-risk state, the final reward is 2 for the security lead and 0 for the outside firm.
+If the security lead chooses the escalation route in the low-risk state, the outside firm then chooses between an urgent intervention and a delayed intervention.
+The outside firm cannot tell whether this decision follows the escalation route in the high-risk state or in the low-risk state.
+If the outside firm chooses an urgent intervention there, the final reward is 1 for the security lead and 0 for the outside firm.
+If the outside firm chooses a delayed intervention there, the final reward is 1 for the security lead and 1 for the outside firm.

@@ -1,0 +1,18 @@
+V1 (wildlife rescue routing)
+
+At the outset, a rescue mission may face either a high-visibility field condition or a low-visibility field condition, with probability 0.5 for each case.
+The field leader learns which condition has occurred.
+The support coordinator does not observe whether visibility is high or low.
+
+If the mission is in the high-visibility condition, the field leader chooses between the local route and the relay route.
+If the leader chooses the local route in the high-visibility condition, the final reward is 2 for the leader and 0 for the coordinator.
+If the leader chooses the relay route in the high-visibility condition, the coordinator then chooses between urgent support and delayed support.
+If the coordinator chooses urgent support there, the final reward is 3 for the leader and 2 for the coordinator.
+If the coordinator chooses delayed support there, the final reward is 1 for the leader and 0 for the coordinator.
+
+If the mission is in the low-visibility condition, the field leader chooses between the local route and the relay route.
+If the leader chooses the local route in the low-visibility condition, the final reward is 2 for the leader and 0 for the coordinator.
+If the leader chooses the relay route in the low-visibility condition, the coordinator then chooses between urgent support and delayed support.
+The coordinator cannot tell whether this decision follows the relay route in the high-visibility condition or in the low-visibility condition.
+If the coordinator chooses urgent support there, the final reward is 1 for the leader and 0 for the coordinator.
+If the coordinator chooses delayed support there, the final reward is 1 for the leader and 1 for the coordinator.

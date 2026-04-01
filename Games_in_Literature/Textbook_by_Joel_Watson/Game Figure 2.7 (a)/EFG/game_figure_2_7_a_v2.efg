@@ -1,0 +1,10 @@
+EFG 2 R "Online Course Platforms Tuition Competition" { "Platform 1" "Platform 2" }
+""
+
+p "" 1 1 "" { "Premium tuition" "Discount tuition" } 0
+p "" 2 1 "" { "Premium tuition" "Discount tuition" } 0
+t "" 1 "Premium tuition, Premium tuition" { 1, 1 }
+t "" 2 "Premium tuition, Discount tuition" { 0, 2 }
+p "" 2 2 "" { "Premium tuition" "Discount tuition" } 0
+t "" 3 "Discount tuition, Premium tuition" { 2, 0 }
+t "" 4 "Discount tuition, Discount tuition" { 0.5, 0.5 }

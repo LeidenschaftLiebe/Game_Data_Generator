@@ -1,0 +1,10 @@
+EFG 2 R "Coffee Chains Menu Price Competition" { "Chain 1" "Chain 2" }
+""
+
+p "" 1 1 "" { "High-price menu" "Low-price menu" } 0
+p "" 2 1 "" { "High-price menu" "Low-price menu" } 0
+t "" 1 "High-price menu, High-price menu" { 1, 1 }
+t "" 2 "High-price menu, Low-price menu" { 0, 2 }
+p "" 2 2 "" { "High-price menu" "Low-price menu" } 0
+t "" 3 "Low-price menu, High-price menu" { 2, 0 }
+t "" 4 "Low-price menu, Low-price menu" { 0.5, 0.5 }

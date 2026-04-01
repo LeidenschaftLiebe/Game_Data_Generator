@@ -1,0 +1,10 @@
+EFG 2 R "Hotel-Booking Platforms Fee Competition" { "Platform 1" "Platform 2" }
+""
+
+p "" 1 1 "" { "High fees" "Low fees" } 0
+p "" 2 1 "" { "High fees" "Low fees" } 0
+t "" 1 "High fees, High fees" { 1, 1 }
+t "" 2 "High fees, Low fees" { 0, 2 }
+p "" 2 1 "" { "High fees" "Low fees" } 0
+t "" 3 "Low fees, High fees" { 2, 0 }
+t "" 4 "Low fees, Low fees" { 0.5, 0.5 }

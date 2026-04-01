@@ -4,13 +4,13 @@ A top campaign strategist is deciding whether to remain with a major party organ
 If he stays, the rivalry never begins, and the outcome is that he gets 35 while the party leader gets 100. 
 If he leaves, the party leader must decide whether to launch a full-scale campaign around the same issue platform.
 
-At the same time, the departing strategist is considering whether his new campaign should enter the race. 
+At the same time, the breakaway strategist is considering whether his new campaign should enter the race. 
 The key tension is that he must commit to entering before he can tell whether the party leader chose to mount the party’s own campaign. 
 So when he decides whether to run, he knows he has left, but he does not yet know what the party leader has done.
 
 If the party leader does not launch the campaign, then the breakaway campaign’s choice settles the outcome directly: 
-entering the race gives the departing strategist 80 and the party leader 0, while staying out leaves both at 0. 
-If the party leader does launch the campaign and the breakaway side chooses not to run, then the departing strategist gets 0 and the party leader gets 140. 
-If both campaigns enter the race, the departing strategist faces one final timing choice: 
+entering the race gives the breakaway strategist 80 and the party leader 0, while staying out leaves both at 0. 
+If the party leader does launch the campaign and the breakaway side chooses not to run, then the breakaway strategist gets 0 and the party leader gets 140. 
+If both campaigns enter the race, the breakaway strategist faces one final timing choice: 
 he can launch his campaign early and seize the narrative first, which gives him 40 and the party leader 110, 
 or he can wait for the regular launch and end with 13 while the party leader gets 120.

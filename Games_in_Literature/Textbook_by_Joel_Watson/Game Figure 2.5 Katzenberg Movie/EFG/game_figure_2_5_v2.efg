@@ -1,0 +1,14 @@
+EFG 2 R "Political Campaign Escalation" { "Breakaway strategist" "Party leader" }
+""
+
+p "" 1 1 "" { "Leave to run breakaway campaign" "Stay with party organization" } 0
+p "" 2 1 "" { "Launch party campaign" "Do not launch" } 0
+p "" 1 2 "" { "Enter the race" "Stay out" } 0
+p "" 1 3 "" { "Launch early" "Wait for regular launch" } 0
+t "" 5 "Both campaigns enter, early launch" { 40, 110 }
+t "" 6 "Both campaigns enter, regular launch" { 13, 120 }
+t "" 2 "Only party campaign launches" { 0, 140 }
+p "" 1 2 "" { "Enter the race" "Stay out" } 0
+t "" 3 "Only breakaway campaign enters" { 80, 0 }
+t "" 4 "Neither campaign enters" { 0, 0 }
+t "" 1 "Stay with party organization" { 35, 100 }

@@ -1,0 +1,14 @@
+EFG 2 R "Tech Product Launch Rivalry" { "Startup leader" "Incumbent CEO" }
+""
+
+p "" 1 1 "" { "Resign and build startup" "Stay at the company" } 0
+p "" 2 1 "" { "Launch flagship product" "Do not launch" } 0
+p "" 1 2 "" { "Ship rival product" "Do not ship" } 0
+p "" 1 3 "" { "Rush early release" "Keep normal schedule" } 0
+t "" 5 "Both launch, early release" { 40, 110 }
+t "" 6 "Both launch, normal schedule" { 13, 120 }
+t "" 2 "Only incumbent launches" { 0, 140 }
+p "" 1 2 "" { "Ship rival product" "Do not ship" } 0
+t "" 3 "Only startup ships" { 80, 0 }
+t "" 4 "Neither launches" { 0, 0 }
+t "" 1 "Stay at the company" { 35, 100 }

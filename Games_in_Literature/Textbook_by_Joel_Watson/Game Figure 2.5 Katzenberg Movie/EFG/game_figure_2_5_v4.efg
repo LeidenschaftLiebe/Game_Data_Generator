@@ -1,0 +1,14 @@
+EFG 2 R "Video Game Studio Rivalry" { "departing director" "Publisher head" }
+""
+
+p "" 1 1 "" { "Leave to found indie studio" "Stay at the major studio" } 0
+p "" 2 1 "" { "Greenlight bug-themed game" "Do not greenlight" } 0
+p "" 1 2 "" { "Develop competing game" "Do not develop" } 0
+p "" 1 3 "" { "Push for early launch" "Release on regular schedule" } 0
+t "" 5 "Both games launch, early release" { 40, 110 }
+t "" 6 "Both games launch, regular release" { 13, 120 }
+t "" 2 "Only publisher game launches" { 0, 140 }
+p "" 1 2 "" { "Develop competing game" "Do not develop" } 0
+t "" 3 "Only indie game launches" { 80, 0 }
+t "" 4 "Neither game is developed" { 0, 0 }
+t "" 1 "Stay at the major studio" { 35, 100 }

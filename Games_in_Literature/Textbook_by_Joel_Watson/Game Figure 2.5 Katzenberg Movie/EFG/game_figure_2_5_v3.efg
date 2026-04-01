@@ -1,0 +1,14 @@
+EFG 2 R "Pharmaceutical Race" { "Departing executive" "Incumbent CEO" }
+""
+
+p "" 1 1 "" { "Leave for biotech startup" "Stay at the pharmaceutical company" } 0
+p "" 2 1 "" { "Launch in-house drug program" "Do not launch" } 0
+p "" 1 2 "" { "Launch rival drug project" "Do not launch" } 0
+p "" 1 3 "" { "Rush trial results and go early" "Keep normal timeline" } 0
+t "" 5 "Both drug programs launch, early move" { 40, 110 }
+t "" 6 "Both drug programs launch, normal timeline" { 13, 120 }
+t "" 2 "Only incumbent program launches" { 0, 140 }
+p "" 1 2 "" { "Launch rival drug project" "Do not launch" } 0
+t "" 3 "Only startup project launches" { 80, 0 }
+t "" 4 "Neither side launches" { 0, 0 }
+t "" 1 "Stay at the pharmaceutical company" { 35, 100 }

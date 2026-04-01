@@ -1,0 +1,14 @@
+EFG 2 R "Streaming Platform Entry Game" { "Entrant Platform" "Established Platform" }
+""
+
+p "" 1 1 "" { "Enter market" "Stay out" } 0
+p "" 2 1 "" { "Advertise" "Do not advertise" } 0
+p "" 1 2 "" { "Advertise" "Do not advertise" } 0
+t "" 1 "Both advertise" { 3, 3 }
+t "" 2 "Only established platform advertises" { 1, 6 }
+p "" 1 2 "" { "Advertise" "Do not advertise" } 0
+t "" 3 "Only entrant advertises" { 6, 1 }
+t "" 4 "Neither advertises" { 5, 5 }
+p "" 2 2 "" { "Advertise alone" "Do not advertise alone" } 0
+t "" 5 "Established platform advertises alone" { 0, 4 }
+t "" 6 "Established platform does not advertise alone" { 0, 3.5 }

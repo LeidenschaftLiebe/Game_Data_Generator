@@ -1,0 +1,14 @@
+EFG 2 R "Restaurant Market Entry Game" { "New Restaurant Group" "Established Restaurant" }
+""
+
+p "" 1 1 "" { "Open new location" "Stay out" } 0
+p "" 2 1 "" { "Advertise" "Do not advertise" } 0
+p "" 1 2 "" { "Advertise" "Do not advertise" } 0
+t "" 1 "Both advertise" { 3, 3 }
+t "" 2 "Only established restaurant advertises" { 1, 6 }
+p "" 1 2 "" { "Advertise" "Do not advertise" } 0
+t "" 3 "Only entrant advertises" { 6, 1 }
+t "" 4 "Neither advertises" { 5, 5 }
+p "" 2 2 "" { "Advertise alone" "Do not advertise alone" } 0
+t "" 5 "Established restaurant advertises alone" { 0, 4 }
+t "" 6 "Established restaurant does not advertise alone" { 0, 3.5 }

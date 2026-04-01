@@ -1,0 +1,14 @@
+EFG 2 R "Mobile App Market Entry Game" { "Startup" "Incumbent App Company" }
+""
+
+p "" 1 1 "" { "Launch app" "Stay out" } 0
+p "" 2 1 "" { "Run ad campaign" "Do not run ad campaign" } 0
+p "" 1 2 "" { "Run ad campaign" "Do not run ad campaign" } 0
+t "" 1 "Both advertise" { 3, 3 }
+t "" 2 "Only incumbent advertises" { 1, 6 }
+p "" 1 2 "" { "Run ad campaign" "Do not run ad campaign" } 0
+t "" 3 "Only startup advertises" { 6, 1 }
+t "" 4 "Neither advertises" { 5, 5 }
+p "" 2 2 "" { "Promote app aggressively" "Do not promote app aggressively" } 0
+t "" 5 "Incumbent advertises alone" { 0, 4 }
+t "" 6 "Incumbent does not advertise alone" { 0, 3.5 }

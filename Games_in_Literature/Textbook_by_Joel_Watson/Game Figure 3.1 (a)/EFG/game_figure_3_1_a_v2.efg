@@ -1,0 +1,11 @@
+EFG 2 R "Law Firms Market Segment Competition" { "Firm 1" "Firm 2" }
+""
+
+p "" 1 1 "" { "Aggressive posture" "Passive posture" "Leave segment" } 0
+p "" 2 1 "" { "Aggressive posture" "Passive posture" } 0
+t "" 2 "Aggressive posture, Aggressive posture" { 3, 3 }
+t "" 3 "Aggressive posture, Passive posture" { 4, 2 }
+p "" 2 1 "" { "Aggressive posture" "Passive posture" } 0
+t "" 4 "Passive posture, Aggressive posture" { 2, 4 }
+t "" 5 "Passive posture, Passive posture" { 2, 2 }
+t "" 1 "Leave segment" { 0, 4 }

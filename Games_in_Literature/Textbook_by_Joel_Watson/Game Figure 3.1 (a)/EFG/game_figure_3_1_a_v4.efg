@@ -1,0 +1,11 @@
+EFG 2 R "Streaming Platforms Content Category Competition" { "Platform 1" "Platform 2" }
+""
+
+p "" 1 1 "" { "Aggressive approach" "Passive approach" "Leave category" } 0
+p "" 2 1 "" { "Aggressive" "Passive" } 0
+t "" 2 "Aggressive approach, Aggressive" { 3, 3 }
+t "" 3 "Aggressive approach, Passive" { 4, 2 }
+p "" 2 1 "" { "Aggressive" "Passive" } 0
+t "" 4 "Passive approach, Aggressive" { 2, 4 }
+t "" 5 "Passive approach, Passive" { 2, 2 }
+t "" 1 "Leave category" { 0, 4 }

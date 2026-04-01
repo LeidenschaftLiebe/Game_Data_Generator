@@ -1,0 +1,11 @@
+EFG 2 R "Coffee Chains Local Market Competition" { "Chain 1" "Chain 2" }
+""
+
+p "" 1 1 "" { "Aggressive" "Passive" "Leave market" } 0
+p "" 2 1 "" { "Aggressive" "Passive" } 0
+t "" 2 "Aggressive, Aggressive" { 3, 3 }
+t "" 3 "Aggressive, Passive" { 4, 2 }
+p "" 2 1 "" { "Aggressive" "Passive" } 0
+t "" 4 "Passive, Aggressive" { 2, 4 }
+t "" 5 "Passive, Passive" { 2, 2 }
+t "" 1 "Leave market" { 0, 4 }

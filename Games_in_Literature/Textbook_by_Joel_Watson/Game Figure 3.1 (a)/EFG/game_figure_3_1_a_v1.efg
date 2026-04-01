@@ -1,0 +1,11 @@
+EFG 2 R "Smartphone Brands Market Competition" { "Brand 1" "Brand 2" }
+""
+
+p "" 1 1 "" { "Aggressive" "Passive" "Withdraw" } 0
+p "" 2 1 "" { "Aggressive" "Passive" } 0
+t "" 2 "Aggressive, Aggressive" { 3, 3 }
+t "" 3 "Aggressive, Passive" { 4, 2 }
+p "" 2 1 "" { "Aggressive" "Passive" } 0
+t "" 4 "Passive, Aggressive" { 2, 4 }
+t "" 5 "Passive, Passive" { 2, 2 }
+t "" 1 "Withdraw" { 0, 4 }

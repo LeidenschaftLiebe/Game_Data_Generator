@@ -1,0 +1,11 @@
+EFG 2 R "Restaurant Chains Neighborhood Competition" { "Chain 1" "Chain 2" }
+""
+
+p "" 1 1 "" { "Aggressive entry" "Quiet entry" "Stay out" } 0
+p "" 2 1 "" { "Aggressive" "Passive" } 0
+t "" 2 "Aggressive entry, Aggressive" { 3, 3 }
+t "" 3 "Aggressive entry, Passive" { 4, 2 }
+p "" 2 1 "" { "Aggressive" "Passive" } 0
+t "" 4 "Quiet entry, Aggressive" { 2, 4 }
+t "" 5 "Quiet entry, Passive" { 2, 2 }
+t "" 1 "Stay out" { 0, 4 }

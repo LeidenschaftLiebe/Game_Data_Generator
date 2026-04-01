@@ -1,0 +1,10 @@
+EFG 2 R "Video Streaming Subscription Competition" { "Service 1" "Service 2" }
+""
+
+p "" 1 1 "" { "High price" "Low price" } 0
+p "" 2 1 "" { "High price" "Low price" } 0
+t "" 1 "High price, High price" { 10, 1 }
+t "" 2 "High price, Low price" { 8, 2 }
+p "" 2 2 "" { "High price'" "Low price'" } 0
+t "" 3 "Low price, High price'" { 11, 0 }
+t "" 4 "Low price, Low price'" { 9, 0.5 }

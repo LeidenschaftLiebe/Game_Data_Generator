@@ -1,0 +1,10 @@
+EFG 2 R "Fashion Brand Pricing Competition" { "Brand 1" "Brand 2" }
+""
+
+p "" 1 1 "" { "Premium price" "Discount price" } 0
+p "" 2 1 "" { "Premium price" "Discount price" } 0
+t "" 1 "Premium price, Premium price" { 10, 1 }
+t "" 2 "Premium price, Discount price" { 8, 2 }
+p "" 2 2 "" { "Premium price'" "Discount price'" } 0
+t "" 3 "Discount price, Premium price'" { 11, 0 }
+t "" 4 "Discount price, Discount price'" { 9, 0.5 }

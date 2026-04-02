@@ -1,0 +1,10 @@
+EFG 2 R "Movie Production" { "Studio" "Rival Studio" }
+""
+
+p "" 1 1 "" { "Production option A" "Production option B" } 0
+p "" 2 1 "" { "Move C" "Move D" } 0
+t "" 1 "Production option A, Move C" { 1, 2 }
+t "" 2 "Production option A, Move D" { 1, 2 }
+p "" 2 1 "" { "Move C" "Move D" } 0
+t "" 3 "Production option B, Move C" { 3, 1 }
+t "" 4 "Production option B, Move D" { 2, 4 }

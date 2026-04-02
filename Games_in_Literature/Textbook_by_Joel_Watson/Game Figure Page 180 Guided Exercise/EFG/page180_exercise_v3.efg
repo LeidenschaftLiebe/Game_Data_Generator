@@ -1,0 +1,10 @@
+EFG 2 R "Space Mission Partnership" { "1" "2" }
+""
+
+p "" 1 1 "" { "Mission plan A" "Mission plan B" } 0
+p "" 2 1 "" { "Response a" "Response b" } 0
+t "" 1 "Mission plan A, Response a" { 3, 3 }
+t "" 2 "Mission plan A, Response b" { 3, 3 }
+p "" 2 2 "" { "Response c" "Response d" } 0
+t "" 3 "Mission plan B, Response c" { 0, 4 }
+t "" 4 "Mission plan B, Response d" { 0, 3.5 }

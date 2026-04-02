@@ -1,0 +1,10 @@
+EFG 2 R "Museum Exhibition Partnership" { "1" "2" }
+""
+
+p "" 1 1 "" { "Exhibition plan A" "Exhibition plan B" } 0
+p "" 2 1 "" { "Response a" "Response b" } 0
+t "" 1 "Exhibition plan A, Response a" { 3, 3 }
+t "" 2 "Exhibition plan A, Response b" { 3, 3 }
+p "" 2 2 "" { "Response c" "Response d" } 0
+t "" 3 "Exhibition plan B, Response c" { 0, 4 }
+t "" 4 "Exhibition plan B, Response d" { 0, 3.5 }

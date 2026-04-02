@@ -1,0 +1,10 @@
+EFG 2 R "Esports Tournament Deal" { "1" "2" }
+""
+
+p "" 1 1 "" { "Tournament plan A" "Tournament plan B" } 0
+p "" 2 1 "" { "Move a" "Move b" } 0
+t "" 1 "Tournament plan A, Move a" { 3, 3 }
+t "" 2 "Tournament plan A, Move b" { 3, 3 }
+p "" 2 2 "" { "Move c" "Move d" } 0
+t "" 3 "Tournament plan B, Move c" { 0, 4 }
+t "" 4 "Tournament plan B, Move d" { 0, 3.5 }

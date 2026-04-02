@@ -1,0 +1,14 @@
+EFG 2 R "Scholarship Welcome Package" { "Student Host" "New Student" }
+""
+
+c "" 1 "" { "Supportive host" 0.5 "Mean-spirited host" 0.5 } 0
+p "" 1 1 "" { "No welcome package" "Wrapped package" } 0
+t "" 1 "No welcome package" { 0, 0 }
+p "" 2 1 "" { "Accept" "Reject" } 0
+t "" 2 "Supportive package accepted" { 1, 1 }
+t "" 3 "Supportive package rejected" { -1, 0 }
+p "" 1 2 "" { "No welcome package" "Wrapped package" } 0
+t "" 1 "No welcome package" { 0, 0 }
+p "" 2 1 "" { "Accept" "Reject" } 0
+t "" 4 "Mean-spirited package accepted" { 1, -1 }
+t "" 5 "Mean-spirited package rejected" { -1, 0 }

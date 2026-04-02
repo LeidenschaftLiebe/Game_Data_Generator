@@ -1,0 +1,14 @@
+EFG 2 R "Mystery Snack Box" { "Host" "Guest" }
+""
+
+c "" 1 "" { "Kind host" 0.5 "Mischievous host" 0.5 } 0
+p "" 1 1 "" { "No snack box" "Wrapped snack box" } 0
+t "" 1 "No snack box" { 0, 0 }
+p "" 2 1 "" { "Open" "Decline" } 0
+t "" 2 "Kind host box opened" { 1, 1 }
+t "" 3 "Kind host box declined" { -1, 0 }
+p "" 1 2 "" { "No snack box" "Wrapped snack box" } 0
+t "" 1 "No snack box" { 0, 0 }
+p "" 2 1 "" { "Open" "Decline" } 0
+t "" 4 "Mischievous host box opened" { 1, -1 }
+t "" 5 "Mischievous host box declined" { -1, 0 }

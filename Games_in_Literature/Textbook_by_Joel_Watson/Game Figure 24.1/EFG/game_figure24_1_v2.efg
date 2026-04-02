@@ -1,0 +1,14 @@
+EFG 2 R "Festival Souvenir Bag" { "Organizer" "Visitor" }
+""
+
+c "" 1 "" { "Generous organizer" 0.5 "Prankish organizer" 0.5 } 0
+p "" 1 1 "" { "No souvenir bag" "Sealed souvenir bag" } 0
+t "" 1 "No souvenir bag" { 0, 0 }
+p "" 2 1 "" { "Accept" "Turn down" } 0
+t "" 2 "Generous bag accepted" { 1, 1 }
+t "" 3 "Generous bag turned down" { -1, 0 }
+p "" 1 2 "" { "No souvenir bag" "Sealed souvenir bag" } 0
+t "" 1 "No souvenir bag" { 0, 0 }
+p "" 2 1 "" { "Accept" "Turn down" } 0
+t "" 4 "Prankish bag accepted" { 1, -1 }
+t "" 5 "Prankish bag turned down" { -1, 0 }

@@ -1,0 +1,14 @@
+EFG 2 R "Museum Mystery Parcel" { "Staff Member" "Curator" }
+""
+
+c "" 1 "" { "Helpful staff member" 0.5 "Disruptive staff member" 0.5 } 0
+p "" 1 1 "" { "No parcel" "Wrapped parcel" } 0
+t "" 1 "No parcel" { 0, 0 }
+p "" 2 1 "" { "Open" "Refuse" } 0
+t "" 2 "Helpful parcel opened" { 1, 1 }
+t "" 3 "Helpful parcel refused" { -1, 0 }
+p "" 1 2 "" { "No parcel" "Wrapped parcel" } 0
+t "" 1 "No parcel" { 0, 0 }
+p "" 2 1 "" { "Open" "Refuse" } 0
+t "" 4 "Disruptive parcel opened" { 1, -1 }
+t "" 5 "Disruptive parcel refused" { -1, 0 }

@@ -1,0 +1,13 @@
+EFG 2 R "Inheritance Division" { "1" "2" }
+""
+
+p "" 1 1 "" { "Give all to Sibling 2" "Even split" "Keep all" } 0
+p "" 2 1 "" { "Accept all-to-Sibling-2 proposal" "Reject all-to-Sibling-2 proposal" } 0
+t "" 1 "Accept all" { 0, 2 }
+t "" 2 "Reject all" { 0, 0 }
+p "" 2 2 "" { "Accept even split" "Reject even split" } 0
+t "" 3 "Accept even split" { 1, 1 }
+t "" 4 "Reject even split" { 0, 0 }
+p "" 2 3 "" { "Accept keep-all proposal" "Reject keep-all proposal" } 0
+t "" 5 "Accept keep all" { 2, 0 }
+t "" 6 "Reject keep all" { 0, 0 }

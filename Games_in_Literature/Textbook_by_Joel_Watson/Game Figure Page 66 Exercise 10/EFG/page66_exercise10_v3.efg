@@ -1,0 +1,13 @@
+EFG 2 R "Bonus Allocation" { "1" "2" }
+""
+
+p "" 1 1 "" { "Give whole bonus to employee" "Even split" "Give nothing to employee" } 0
+p "" 2 1 "" { "Accept full-bonus offer" "Reject full-bonus offer" } 0
+t "" 1 "Accept full bonus" { 0, 2 }
+t "" 2 "Reject full bonus" { 0, 0 }
+p "" 2 2 "" { "Accept even split" "Reject even split" } 0
+t "" 3 "Accept even split" { 1, 1 }
+t "" 4 "Reject even split" { 0, 0 }
+p "" 2 3 "" { "Accept zero-to-employee offer" "Reject zero-to-employee offer" } 0
+t "" 5 "Accept zero offer" { 2, 0 }
+t "" 6 "Reject zero offer" { 0, 0 }

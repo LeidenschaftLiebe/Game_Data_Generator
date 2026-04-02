@@ -1,0 +1,13 @@
+EFG 2 R "Scholarship Allocation" { "1" "2" }
+""
+
+p "" 1 1 "" { "Give all to Student 2" "Equal split" "Give nothing to Student 2" } 0
+p "" 2 1 "" { "Accept all-to-Student-2 offer" "Reject all-to-Student-2 offer" } 0
+t "" 1 "Accept all" { 0, 2 }
+t "" 2 "Reject all" { 0, 0 }
+p "" 2 2 "" { "Accept equal split" "Reject equal split" } 0
+t "" 3 "Accept equal split" { 1, 1 }
+t "" 4 "Reject equal split" { 0, 0 }
+p "" 2 3 "" { "Accept zero-to-Student-2 offer" "Reject zero-to-Student-2 offer" } 0
+t "" 5 "Accept zero offer" { 2, 0 }
+t "" 6 "Reject zero offer" { 0, 0 }

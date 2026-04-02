@@ -1,0 +1,12 @@
+EFG 2 R "Movie Release" { "1" "2" }
+""
+
+p "" 1 1 "" { "Release plan a" "Release plan b" } 0
+p "" 2 1 "" { "Move c" "Move d" } 0
+p "" 2 2 "" { "Follow-up move f" "Follow-up move g" } 0
+t "" 1 "Release plan a, Move c, Follow-up move f" { 4, 1 }
+t "" 2 "Release plan a, Move c, Follow-up move g" { 1, 2 }
+t "" 3 "Release plan a, Move d" { 0, 3 }
+p "" 2 1 "" { "Move c" "Move d" } 0
+t "" 4 "Release plan b, Move c" { 8, 0 }
+t "" 5 "Release plan b, Move d" { 0, 2 }

@@ -1,0 +1,16 @@
+EFG 2 R "Museum Exhibition Alliance" { "1" "2" "3" }
+""
+
+p "" 1 1 "" { "Urban exhibition plan" "Discovery exhibition plan" } 0
+p "" 2 1 "" { "Gallery A" "Gallery B" } 0
+p "" 1 2 "" { "Evening opening" "Family opening" } 0
+t "" 1 "Urban exhibition plan, Gallery A, Evening opening" { 3, 3, 6 }
+t "" 2 "Urban exhibition plan, Gallery A, Family opening" { 1, 5, 7 }
+p "" 3 1 "" { "Grant upgrade" "Heritage package" } 0
+t "" 3 "Urban exhibition plan, Gallery B, Grant upgrade" { 2, 0, 3 }
+t "" 4 "Urban exhibition plan, Gallery B, Heritage package" { 7, 7, 2 }
+p "" 2 2 "" { "Gallery C" "Gallery D" } 0
+p "" 3 1 "" { "Grant upgrade" "Heritage package" } 0
+t "" 5 "Discovery exhibition plan, Gallery C, Grant upgrade" { 0, 6, 1 }
+t "" 6 "Discovery exhibition plan, Gallery C, Heritage package" { 8, 6, 0 }
+t "" 7 "Discovery exhibition plan, Gallery D" { 6, 2, 4 }

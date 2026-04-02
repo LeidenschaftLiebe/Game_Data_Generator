@@ -1,0 +1,16 @@
+EFG 2 R "Esports Tournament Design" { "1" "2" "3" }
+""
+
+p "" 1 1 "" { "Upper-bracket format" "Double-elimination format" } 0
+p "" 2 1 "" { "Arena setup A" "Arena setup B" } 0
+p "" 1 2 "" { "Evening final" "Fan-event final" } 0
+t "" 1 "Upper-bracket format, Arena setup A, Evening final" { 3, 3, 6 }
+t "" 2 "Upper-bracket format, Arena setup A, Fan-event final" { 1, 5, 7 }
+p "" 3 1 "" { "Global package" "Highlight package" } 0
+t "" 3 "Upper-bracket format, Arena setup B, Global package" { 2, 0, 3 }
+t "" 4 "Upper-bracket format, Arena setup B, Highlight package" { 7, 7, 2 }
+p "" 2 2 "" { "Arena setup C" "Arena setup D" } 0
+p "" 3 1 "" { "Global package" "Highlight package" } 0
+t "" 5 "Double-elimination format, Arena setup C, Global package" { 0, 6, 1 }
+t "" 6 "Double-elimination format, Arena setup C, Highlight package" { 8, 6, 0 }
+t "" 7 "Double-elimination format, Arena setup D" { 6, 2, 4 }

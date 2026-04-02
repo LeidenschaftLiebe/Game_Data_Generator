@@ -1,0 +1,16 @@
+EFG 2 R "Wildlife Documentary Production" { "1" "2" "3" }
+""
+
+p "" 1 1 "" { "Uplands filming plan" "Delta filming plan" } 0
+p "" 2 1 "" { "Crew A" "Crew B" } 0
+p "" 1 2 "" { "Expedition cut" "Family cut" } 0
+t "" 1 "Uplands filming plan, Crew A, Expedition cut" { 3, 3, 6 }
+t "" 2 "Uplands filming plan, Crew A, Family cut" { 1, 5, 7 }
+p "" 3 1 "" { "Global release" "Heritage release" } 0
+t "" 3 "Uplands filming plan, Crew B, Global release" { 2, 0, 3 }
+t "" 4 "Uplands filming plan, Crew B, Heritage release" { 7, 7, 2 }
+p "" 2 2 "" { "Crew C" "Crew D" } 0
+p "" 3 1 "" { "Global release" "Heritage release" } 0
+t "" 5 "Delta filming plan, Crew C, Global release" { 0, 6, 1 }
+t "" 6 "Delta filming plan, Crew C, Heritage release" { 8, 6, 0 }
+t "" 7 "Delta filming plan, Crew D" { 6, 2, 4 }

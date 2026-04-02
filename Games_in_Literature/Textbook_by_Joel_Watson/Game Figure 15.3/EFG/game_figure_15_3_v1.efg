@@ -1,0 +1,16 @@
+EFG 2 R "Music Festival Planning" { "1" "2" "3" }
+""
+
+p "" 1 1 "" { "Uptown festival plan" "Downtown festival plan" } 0
+p "" 2 1 "" { "Sign Headliner A" "Sign Headliner B" } 0
+p "" 1 2 "" { "Early slot" "Final slot" } 0
+t "" 1 "Uptown festival plan, Sign Headliner A, Early slot" { 3, 3, 6 }
+t "" 2 "Uptown festival plan, Sign Headliner A, Final slot" { 1, 5, 7 }
+p "" 3 1 "" { "Gold package" "Hospitality package" } 0
+t "" 3 "Uptown festival plan, Sign Headliner B, Gold package" { 2, 0, 3 }
+t "" 4 "Uptown festival plan, Sign Headliner B, Hospitality package" { 7, 7, 2 }
+p "" 2 2 "" { "Sign Artist C" "Sign Artist D" } 0
+p "" 3 1 "" { "Gold package" "Hospitality package" } 0
+t "" 5 "Downtown festival plan, Sign Artist C, Gold package" { 0, 6, 1 }
+t "" 6 "Downtown festival plan, Sign Artist C, Hospitality package" { 8, 6, 0 }
+t "" 7 "Downtown festival plan, Sign Artist D" { 6, 2, 4 }

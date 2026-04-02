@@ -1,0 +1,16 @@
+EFG 2 R "Space Mission Partnership" { "1" "2" "3" }
+""
+
+p "" 1 1 "" { "Orbital mission plan" "Deep-space mission plan" } 0
+p "" 2 1 "" { "Module A" "Module B" } 0
+p "" 1 2 "" { "Early launch window" "Flexible launch window" } 0
+t "" 1 "Orbital mission plan, Module A, Early launch window" { 3, 3, 6 }
+t "" 2 "Orbital mission plan, Module A, Flexible launch window" { 1, 5, 7 }
+p "" 3 1 "" { "Grant expansion" "Resource cap" } 0
+t "" 3 "Orbital mission plan, Module B, Grant expansion" { 2, 0, 3 }
+t "" 4 "Orbital mission plan, Module B, Resource cap" { 7, 7, 2 }
+p "" 2 2 "" { "Module C" "Module D" } 0
+p "" 3 1 "" { "Grant expansion" "Resource cap" } 0
+t "" 5 "Deep-space mission plan, Module C, Grant expansion" { 0, 6, 1 }
+t "" 6 "Deep-space mission plan, Module C, Resource cap" { 8, 6, 0 }
+t "" 7 "Deep-space mission plan, Module D" { 6, 2, 4 }

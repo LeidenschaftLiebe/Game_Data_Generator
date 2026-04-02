@@ -1,0 +1,8 @@
+EFG 2 R "Pharmaceutical Market Entry" { "1" "2" }
+""
+
+p "" 1 1 "" { "Stay out" "Launch competing drug" } 0
+t "" 1 "Stay out" { 0, 4 }
+p "" 2 1 "" { "Accommodate rival" "Price-cutting campaign" } 0
+t "" 2 "Accommodate rival" { 2, 2 }
+t "" 3 "Price-cutting campaign" { -1, -1 }

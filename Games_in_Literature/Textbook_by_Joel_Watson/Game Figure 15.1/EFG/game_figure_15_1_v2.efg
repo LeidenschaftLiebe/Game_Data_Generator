@@ -1,0 +1,8 @@
+EFG 2 R "Streaming Entrant vs Established Platform" { "1" "2" }
+""
+
+p "" 1 1 "" { "Stay out" "Launch" } 0
+t "" 1 "Stay out" { 0, 4 }
+p "" 2 1 "" { "Coexist" "Fight" } 0
+t "" 2 "Coexist" { 2, 2 }
+t "" 3 "Fight" { -1, -1 }

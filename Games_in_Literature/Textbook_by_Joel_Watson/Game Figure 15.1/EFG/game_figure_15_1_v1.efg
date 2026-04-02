@@ -1,0 +1,8 @@
+EFG 2 R "New Coffee Shop vs Local Café" { "1" "2" }
+""
+
+p "" 1 1 "" { "Stay out" "Open" } 0
+t "" 1 "Stay out" { 0, 4 }
+p "" 2 1 "" { "Share market peacefully" "Start price war" } 0
+t "" 2 "Share market peacefully" { 2, 2 }
+t "" 3 "Start price war" { -1, -1 }

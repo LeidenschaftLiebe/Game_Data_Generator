@@ -1,0 +1,8 @@
+EFG 2 R "Airline Route Entry" { "1" "2" }
+""
+
+p "" 1 1 "" { "Stay out" "Enter route" } 0
+t "" 1 "Stay out" { 0, 4 }
+p "" 2 1 "" { "Accept competition" "Start fare war" } 0
+t "" 2 "Accept competition" { 2, 2 }
+t "" 3 "Start fare war" { -1, -1 }

@@ -1,0 +1,8 @@
+EFG 2 R "Food Delivery App Entry" { "1" "2" }
+""
+
+p "" 1 1 "" { "Stay out" "Launch" } 0
+t "" 1 "Stay out" { 0, 4 }
+p "" 2 1 "" { "Tolerate entry" "Start coupon war" } 0
+t "" 2 "Tolerate entry" { 2, 2 }
+t "" 3 "Start coupon war" { -1, -1 }

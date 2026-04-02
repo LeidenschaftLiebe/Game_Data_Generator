@@ -1,0 +1,10 @@
+EFG 2 R "Software Launch" { "Software Company" "Competitor" }
+""
+
+p "" 1 1 "" { "Launch path A" "Launch path B" } 0
+p "" 2 1 "" { "Response C" "Response D" } 0
+t "" 1 "Launch path A, Response C" { 0, 0 }
+t "" 2 "Launch path A, Response D" { 1, 1 }
+p "" 2 2 "" { "Response E" "Response F" } 0
+t "" 3 "Launch path B, Response E" { 2, 2 }
+t "" 4 "Launch path B, Response F" { 3, 4 }

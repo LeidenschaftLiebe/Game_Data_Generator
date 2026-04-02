@@ -1,0 +1,10 @@
+EFG 2 R "Fashion Brand Decision" { "Fashion Brand" "Competing Brand" }
+""
+
+p "" 1 1 "" { "Strategy A" "Strategy B" } 0
+p "" 2 1 "" { "Response C" "Response D" } 0
+t "" 1 "Strategy A, Response C" { 0, 0 }
+t "" 2 "Strategy A, Response D" { 1, 1 }
+p "" 2 2 "" { "Response E" "Response F" } 0
+t "" 3 "Strategy B, Response E" { 2, 2 }
+t "" 4 "Strategy B, Response F" { 3, 4 }

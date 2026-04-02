@@ -1,0 +1,10 @@
+EFG 2 R "Project Proposal" { "Project Lead" "Reviewer" }
+""
+
+p "" 1 1 "" { "Proposal A" "Proposal B" } 0
+p "" 2 1 "" { "Response C" "Response D" } 0
+t "" 1 "Proposal A, Response C" { 0, 0 }
+t "" 2 "Proposal A, Response D" { 1, 1 }
+p "" 2 2 "" { "Response E" "Response F" } 0
+t "" 3 "Proposal B, Response E" { 2, 2 }
+t "" 4 "Proposal B, Response F" { 3, 4 }

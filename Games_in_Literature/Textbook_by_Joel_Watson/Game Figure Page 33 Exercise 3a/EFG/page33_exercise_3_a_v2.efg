@@ -1,0 +1,10 @@
+EFG 2 R "Restaurant Expansion" { "Owner" "Rival" }
+""
+
+p "" 1 1 "" { "Expansion plan A" "Expansion plan B" } 0
+p "" 2 1 "" { "Reaction C" "Reaction D" } 0
+t "" 1 "Expansion plan A, Reaction C" { 0, 0 }
+t "" 2 "Expansion plan A, Reaction D" { 1, 1 }
+p "" 2 2 "" { "Reaction E" "Reaction F" } 0
+t "" 3 "Expansion plan B, Reaction E" { 2, 2 }
+t "" 4 "Expansion plan B, Reaction F" { 3, 4 }

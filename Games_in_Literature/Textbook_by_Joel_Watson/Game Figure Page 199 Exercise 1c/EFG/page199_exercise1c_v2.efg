@@ -1,0 +1,13 @@
+EFG 2 R "Space Colony Planning" { "1" "2" "3" }
+""
+
+p "" 1 1 "" { "Keep original deployment plan" "Move to intensive settlement phase" } 0
+t "" 1 "Keep original deployment plan" { 2, 2, 2 }
+p "" 2 1 "" { "Design A" "Design B" "Design C" } 0
+p "" 3 1 "" { "Build option X" "Build option Y" } 0
+t "" 3 "Move to intensive settlement phase, Design A, Build option X" { 3, 2, 1 }
+t "" 4 "Move to intensive settlement phase, Design A, Build option Y" { 5, 0, 0 }
+p "" 3 1 "" { "Build option X" "Build option Y" } 0
+t "" 5 "Move to intensive settlement phase, Design B, Build option X" { 1, 2, 6 }
+t "" 6 "Move to intensive settlement phase, Design B, Build option Y" { 7, 5, 5 }
+t "" 2 "Move to intensive settlement phase, Design C" { 4, 3, 1 }

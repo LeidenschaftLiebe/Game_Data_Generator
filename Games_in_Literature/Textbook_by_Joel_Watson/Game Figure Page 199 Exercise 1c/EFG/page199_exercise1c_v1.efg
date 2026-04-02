@@ -1,0 +1,13 @@
+EFG 2 R "International Research Expedition" { "1" "2" "3" }
+""
+
+p "" 1 1 "" { "Keep original path" "Shift to intensive field phase" } 0
+t "" 1 "Keep original path" { 2, 2, 2 }
+p "" 2 1 "" { "Route A" "Route B" "Route C" } 0
+p "" 3 1 "" { "Protocol X" "Protocol Y" } 0
+t "" 3 "Shift to intensive field phase, Route A, Protocol X" { 3, 2, 1 }
+t "" 4 "Shift to intensive field phase, Route A, Protocol Y" { 5, 0, 0 }
+p "" 3 1 "" { "Protocol X" "Protocol Y" } 0
+t "" 5 "Shift to intensive field phase, Route B, Protocol X" { 1, 2, 6 }
+t "" 6 "Shift to intensive field phase, Route B, Protocol Y" { 7, 5, 5 }
+t "" 2 "Shift to intensive field phase, Route C" { 4, 3, 1 }

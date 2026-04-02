@@ -1,0 +1,13 @@
+EFG 2 R "Theme Park Expansion" { "1" "2" "3" }
+""
+
+p "" 1 1 "" { "Keep expansion on hold" "Move forward with full development push" } 0
+t "" 1 "Keep expansion on hold" { 2, 2, 2 }
+p "" 2 1 "" { "Package A" "Package B" "Package C" } 0
+p "" 3 1 "" { "Concept X" "Concept Y" } 0
+t "" 3 "Move forward with full development push, Package A, Concept X" { 3, 2, 1 }
+t "" 4 "Move forward with full development push, Package A, Concept Y" { 5, 0, 0 }
+p "" 3 1 "" { "Concept X" "Concept Y" } 0
+t "" 5 "Move forward with full development push, Package B, Concept X" { 1, 2, 6 }
+t "" 6 "Move forward with full development push, Package B, Concept Y" { 7, 5, 5 }
+t "" 2 "Move forward with full development push, Package C" { 4, 3, 1 }

@@ -1,0 +1,13 @@
+EFG 2 R "Wildlife Rescue Operation" { "1" "2" "3" }
+""
+
+p "" 1 1 "" { "Keep ordinary level" "Escalate to emergency deployment" } 0
+t "" 1 "Keep ordinary level" { 2, 2, 2 }
+p "" 2 1 "" { "Deployment A" "Deployment B" "Deployment C" } 0
+p "" 3 1 "" { "Treatment X" "Treatment Y" } 0
+t "" 3 "Escalate to emergency deployment, Deployment A, Treatment X" { 3, 2, 1 }
+t "" 4 "Escalate to emergency deployment, Deployment A, Treatment Y" { 5, 0, 0 }
+p "" 3 1 "" { "Treatment X" "Treatment Y" } 0
+t "" 5 "Escalate to emergency deployment, Deployment B, Treatment X" { 1, 2, 6 }
+t "" 6 "Escalate to emergency deployment, Deployment B, Treatment Y" { 7, 5, 5 }
+t "" 2 "Escalate to emergency deployment, Deployment C" { 4, 3, 1 }

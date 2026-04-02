@@ -1,0 +1,13 @@
+EFG 2 R "Fashion Week Production" { "1" "2" "3" }
+""
+
+p "" 1 1 "" { "Keep modest plan" "Push major production cycle" } 0
+t "" 1 "Keep modest plan" { 2, 2, 2 }
+p "" 2 1 "" { "Setup A" "Setup B" "Setup C" } 0
+p "" 3 1 "" { "Presentation X" "Presentation Y" } 0
+t "" 3 "Push major production cycle, Setup A, Presentation X" { 3, 2, 1 }
+t "" 4 "Push major production cycle, Setup A, Presentation Y" { 5, 0, 0 }
+p "" 3 1 "" { "Presentation X" "Presentation Y" } 0
+t "" 5 "Push major production cycle, Setup B, Presentation X" { 1, 2, 6 }
+t "" 6 "Push major production cycle, Setup B, Presentation Y" { 7, 5, 5 }
+t "" 2 "Push major production cycle, Setup C" { 4, 3, 1 }

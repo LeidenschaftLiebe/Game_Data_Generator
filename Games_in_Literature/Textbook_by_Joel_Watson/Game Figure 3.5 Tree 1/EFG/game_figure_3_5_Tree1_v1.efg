@@ -1,0 +1,8 @@
+EFG 2 R "Project Approval" { "Team Lead" "Reviewer" }
+""
+
+p "" 1 1 "" { "Plan A" "Plan B" } 0
+t "" 1 "Plan A" { 1, 2 }
+p "" 2 1 "" { "Response C" "Response D" } 0
+t "" 2 "Plan B, Response C" { 3, 1 }
+t "" 3 "Plan B, Response D" { 2, 4 }

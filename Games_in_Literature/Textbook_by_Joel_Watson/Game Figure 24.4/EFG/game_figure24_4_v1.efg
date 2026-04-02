@@ -1,0 +1,18 @@
+EFG 2 R "Rare Mineral Survey" { "Survey Leader" "Investor" }
+""
+
+c "" 1 "" { "Rich site" 0.66667 "Poor site" 0.33333 } 0
+p "" 1 1 "" { "Plan A" "Plan B" } 0
+p "" 2 1 "" { "Option C" "Option D" } 0
+t "" 1 "Rich A C" { 12, 9 }
+t "" 2 "Rich A D" { 3, 6 }
+p "" 2 1 "" { "Option C" "Option D" } 0
+t "" 3 "Rich B C" { 6, 0 }
+t "" 4 "Rich B D" { 6, 9 }
+p "" 1 2 "" { "Plan A" "Plan B" } 0
+p "" 2 1 "" { "Option C" "Option D" } 0
+t "" 5 "Poor A C" { 0, 9 }
+t "" 6 "Poor A D" { 3, 6 }
+p "" 2 1 "" { "Option C" "Option D" } 0
+t "" 7 "Poor B C" { 6, 0 }
+t "" 8 "Poor B D" { 6, 9 }

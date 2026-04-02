@@ -1,0 +1,18 @@
+EFG 2 R "Sports Media Rights" { "Incumbent Sports Network" "Rival Network" }
+""
+
+c "" 1 "" { "HighCost" 0.5 "LowCost" 0.5 } 0
+p "" 1 1 "" { "RightsPrice1_H" "RightsPrice2_H" } 0
+p "" 2 1 "" { "Enter" "StayOut" } 0
+t "" 1 "HighCost_RightsPrice1_Enter" { 0, 1 }
+t "" 2 "HighCost_RightsPrice1_StayOut" { 0, 0 }
+p "" 2 2 "" { "Enter" "StayOut" } 0
+t "" 3 "HighCost_RightsPrice2_Enter" { 0, 1 }
+t "" 4 "HighCost_RightsPrice2_StayOut" { 2, 0 }
+p "" 1 2 "" { "RightsPrice1_L" "RightsPrice2_L" } 0
+p "" 2 1 "" { "Enter" "StayOut" } 0
+t "" 5 "LowCost_RightsPrice1_Enter" { 0, -1 }
+t "" 6 "LowCost_RightsPrice1_StayOut" { 2, 0 }
+p "" 2 2 "" { "Enter" "StayOut" } 0
+t "" 7 "LowCost_RightsPrice2_Enter" { 0, -1 }
+t "" 8 "LowCost_RightsPrice2_StayOut" { 4, 0 }

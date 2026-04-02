@@ -1,0 +1,18 @@
+EFG 2 R "Museum Admissions" { "Established Museum" "Pop-up Organizer" }
+""
+
+c "" 1 "" { "High-cost season" 0.5 "Low-cost season" 0.5 } 0
+p "" 1 1 "" { "Admission1_H" "Admission2_H" } 0
+p "" 2 1 "" { "Enter" "StayOut" } 0
+t "" 1 "HighCost_Admission1_Enter" { 0, 1 }
+t "" 2 "HighCost_Admission1_StayOut" { 0, 0 }
+p "" 2 2 "" { "Enter" "StayOut" } 0
+t "" 3 "HighCost_Admission2_Enter" { 0, 1 }
+t "" 4 "HighCost_Admission2_StayOut" { 2, 0 }
+p "" 1 2 "" { "Admission1_L" "Admission2_L" } 0
+p "" 2 1 "" { "Enter" "StayOut" } 0
+t "" 5 "LowCost_Admission1_Enter" { 0, -1 }
+t "" 6 "LowCost_Admission1_StayOut" { 2, 0 }
+p "" 2 2 "" { "Enter" "StayOut" } 0
+t "" 7 "LowCost_Admission2_Enter" { 0, -1 }
+t "" 8 "LowCost_Admission2_StayOut" { 4, 0 }

@@ -1,0 +1,18 @@
+EFG 2 R "Festival Ticket Pricing" { "Festival Organizer" "Rival Promoter" }
+""
+
+c "" 1 "" { "High-cost budget" 0.5 "Low-cost budget" 0.5 } 0
+p "" 1 1 "" { "Ticket1_H" "Ticket2_H" } 0
+p "" 2 1 "" { "Launch" "StayOut" } 0
+t "" 1 "HighCost_Ticket1_Launch" { 0, 1 }
+t "" 2 "HighCost_Ticket1_StayOut" { 0, 0 }
+p "" 2 2 "" { "Launch" "StayOut" } 0
+t "" 3 "HighCost_Ticket2_Launch" { 0, 1 }
+t "" 4 "HighCost_Ticket2_StayOut" { 2, 0 }
+p "" 1 2 "" { "Ticket1_L" "Ticket2_L" } 0
+p "" 2 1 "" { "Launch" "StayOut" } 0
+t "" 5 "LowCost_Ticket1_Launch" { 0, -1 }
+t "" 6 "LowCost_Ticket1_StayOut" { 2, 0 }
+p "" 2 2 "" { "Launch" "StayOut" } 0
+t "" 7 "LowCost_Ticket2_Launch" { 0, -1 }
+t "" 8 "LowCost_Ticket2_StayOut" { 4, 0 }

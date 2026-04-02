@@ -1,0 +1,12 @@
+EFG 2 R "Music Festival Sponsorship" { "1" "2" }
+""
+
+p "" 1 1 "" { "Weekend plan" "Zero-risk plan" } 0
+p "" 2 1 "" { "Package A" "Package B" } 0
+p "" 1 2 "" { "Promotion plan X" "Promotion plan Y" } 0
+t "" 2 "Weekend plan, Package A, Promotion plan X" { 3, 3 }
+t "" 3 "Weekend plan, Package A, Promotion plan Y" { 0, 0 }
+p "" 1 2 "" { "Promotion plan X" "Promotion plan Y" } 0
+t "" 4 "Weekend plan, Package B, Promotion plan X" { 0, 0 }
+t "" 5 "Weekend plan, Package B, Promotion plan Y" { 6, 2 }
+t "" 1 "Zero-risk plan" { 4, 4 }

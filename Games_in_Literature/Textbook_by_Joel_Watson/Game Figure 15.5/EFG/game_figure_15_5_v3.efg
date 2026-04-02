@@ -1,0 +1,12 @@
+EFG 2 R "Museum Exhibition Design" { "1" "2" }
+""
+
+p "" 1 1 "" { "Winged exhibition plan" "Stable exhibition plan" } 0
+p "" 2 1 "" { "Funding option A" "Funding option B" } 0
+p "" 1 2 "" { "Layout X" "Layout Y" } 0
+t "" 2 "Winged exhibition plan, Funding option A, Layout X" { 3, 3 }
+t "" 3 "Winged exhibition plan, Funding option A, Layout Y" { 0, 0 }
+p "" 1 2 "" { "Layout X" "Layout Y" } 0
+t "" 4 "Winged exhibition plan, Funding option B, Layout X" { 0, 0 }
+t "" 5 "Winged exhibition plan, Funding option B, Layout Y" { 6, 2 }
+t "" 1 "Stable exhibition plan" { 4, 4 }

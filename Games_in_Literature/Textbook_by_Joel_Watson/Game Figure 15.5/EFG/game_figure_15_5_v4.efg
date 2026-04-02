@@ -1,0 +1,12 @@
+EFG 2 R "Esports Event Design" { "1" "2" }
+""
+
+p "" 1 1 "" { "Wildcard format" "Standard format" } 0
+p "" 2 1 "" { "Package A" "Package B" } 0
+p "" 1 2 "" { "Feature set X" "Feature set Y" } 0
+t "" 2 "Wildcard format, Package A, Feature set X" { 3, 3 }
+t "" 3 "Wildcard format, Package A, Feature set Y" { 0, 0 }
+p "" 1 2 "" { "Feature set X" "Feature set Y" } 0
+t "" 4 "Wildcard format, Package B, Feature set X" { 0, 0 }
+t "" 5 "Wildcard format, Package B, Feature set Y" { 6, 2 }
+t "" 1 "Standard format" { 4, 4 }

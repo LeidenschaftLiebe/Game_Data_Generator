@@ -1,0 +1,12 @@
+EFG 2 R "Wildlife Documentary Production" { "1" "2" }
+""
+
+p "" 1 1 "" { "Wetlands filming plan" "Safe-sale plan" } 0
+p "" 2 1 "" { "Release track A" "Release track B" } 0
+p "" 1 2 "" { "Edit X" "Edit Y" } 0
+t "" 2 "Wetlands filming plan, Release track A, Edit X" { 3, 3 }
+t "" 3 "Wetlands filming plan, Release track A, Edit Y" { 0, 0 }
+p "" 1 2 "" { "Edit X" "Edit Y" } 0
+t "" 4 "Wetlands filming plan, Release track B, Edit X" { 0, 0 }
+t "" 5 "Wetlands filming plan, Release track B, Edit Y" { 6, 2 }
+t "" 1 "Safe-sale plan" { 4, 4 }

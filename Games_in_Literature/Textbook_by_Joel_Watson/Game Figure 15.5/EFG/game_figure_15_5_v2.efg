@@ -1,0 +1,12 @@
+EFG 2 R "Space Mission Planning" { "1" "2" }
+""
+
+p "" 1 1 "" { "Windowed mission plan" "Safe-return plan" } 0
+p "" 2 1 "" { "Module A" "Module B" } 0
+p "" 1 2 "" { "Launch profile X" "Launch profile Y" } 0
+t "" 2 "Windowed mission plan, Module A, Launch profile X" { 3, 3 }
+t "" 3 "Windowed mission plan, Module A, Launch profile Y" { 0, 0 }
+p "" 1 2 "" { "Launch profile X" "Launch profile Y" } 0
+t "" 4 "Windowed mission plan, Module B, Launch profile X" { 0, 0 }
+t "" 5 "Windowed mission plan, Module B, Launch profile Y" { 6, 2 }
+t "" 1 "Safe-return plan" { 4, 4 }

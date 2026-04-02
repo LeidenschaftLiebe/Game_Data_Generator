@@ -1,0 +1,16 @@
+EFG 2 R "Market Entry" { "Player1" "Player2" }
+""
+
+p "" 1 1 "" { "Expansion path U" "Expansion path D" } 0
+p "" 2 1 "" { "Response A" "Response B" } 0
+p "" 1 2 "" { "Follow-up move X" "Follow-up move Y" } 0
+t "" 2 "Expansion path U, Response A, Follow-up move X" { 3, 8 }
+t "" 3 "Expansion path U, Response A, Follow-up move Y" { 8, 1 }
+p "" 1 2 "" { "Follow-up move X" "Follow-up move Y" } 0
+t "" 4 "Expansion path U, Response B, Follow-up move X" { 1, 2 }
+t "" 5 "Expansion path U, Response B, Follow-up move Y" { 2, 1 }
+p "" 2 1 "" { "Response A" "Response B" } 0
+t "" 1 "Expansion path D, Response A" { 6, 6 }
+p "" 1 3 "" { "Closing move P" "Closing move Q" } 0
+t "" 6 "Expansion path D, Response B, Closing move P" { 5, 5 }
+t "" 7 "Expansion path D, Response B, Closing move Q" { 0, 0 }

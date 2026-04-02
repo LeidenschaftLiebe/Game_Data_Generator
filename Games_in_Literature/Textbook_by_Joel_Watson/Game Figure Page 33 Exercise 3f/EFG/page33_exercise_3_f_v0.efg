@@ -1,4 +1,4 @@
-EFG 2 R "Exercise 3(f)" { "1" "2" }
+EFG 2 R "Exercise 3(f)" { "Player1" "Player2" }
 ""
 
 p "" 1 1 "" { "U" "D" } 0

@@ -1,0 +1,12 @@
+EFG 2 R "Pharmaceutical Launch" { "1" "2" }
+""
+
+p "" 1 1 "" { "Launch strategy U" "Launch strategy D" } 0
+p "" 2 1 "" { "Reaction A" "Reaction B" } 0
+t "" 1 "Launch strategy U, Reaction A" { 1, 4 }
+t "" 2 "Launch strategy U, Reaction B" { 5, 2 }
+p "" 2 2 "" { "Reaction C" "Reaction D" } 0
+p "" 1 2 "" { "Follow-up move E" "Follow-up move F" } 0
+t "" 4 "Launch strategy D, Reaction C, Follow-up move E" { 3, 3 }
+t "" 5 "Launch strategy D, Reaction C, Follow-up move F" { 2, 0 }
+t "" 3 "Launch strategy D, Reaction D" { 6, 2 }

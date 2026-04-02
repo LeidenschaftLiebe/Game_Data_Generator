@@ -1,0 +1,12 @@
+EFG 2 R "Restaurant Expansion" { "1" "2" }
+""
+
+p "" 1 1 "" { "Expansion plan U" "Expansion plan D" } 0
+p "" 2 1 "" { "Response A" "Response B" } 0
+t "" 1 "Expansion plan U, Response A" { 1, 4 }
+t "" 2 "Expansion plan U, Response B" { 5, 2 }
+p "" 2 2 "" { "Response C" "Response D" } 0
+p "" 1 2 "" { "Follow-up move E" "Follow-up move F" } 0
+t "" 4 "Expansion plan D, Response C, Follow-up move E" { 3, 3 }
+t "" 5 "Expansion plan D, Response C, Follow-up move F" { 2, 0 }
+t "" 3 "Expansion plan D, Response D" { 6, 2 }

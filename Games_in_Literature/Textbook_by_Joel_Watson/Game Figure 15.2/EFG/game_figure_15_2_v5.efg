@@ -1,0 +1,12 @@
+EFG 2 R "Sports Media Rights" { "1" "2" }
+""
+
+p "" 1 1 "" { "Bid strategy U" "Bid strategy D" } 0
+p "" 2 1 "" { "Move A" "Move B" } 0
+t "" 1 "Bid strategy U, Move A" { 1, 4 }
+t "" 2 "Bid strategy U, Move B" { 5, 2 }
+p "" 2 2 "" { "Move C" "Move D" } 0
+p "" 1 2 "" { "Follow-up option E" "Follow-up option F" } 0
+t "" 4 "Bid strategy D, Move C, Follow-up option E" { 3, 3 }
+t "" 5 "Bid strategy D, Move C, Follow-up option F" { 2, 0 }
+t "" 3 "Bid strategy D, Move D" { 6, 2 }

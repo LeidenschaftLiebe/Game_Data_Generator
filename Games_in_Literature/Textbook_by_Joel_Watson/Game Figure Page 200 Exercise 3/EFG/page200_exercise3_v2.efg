@@ -1,0 +1,18 @@
+EFG 2 R "Fashion House Expansion" { "Creative Director" "Production Chief" }
+""
+
+p "" 1 1 "" { "Expansion plan A" "Expansion plan B" } 0
+p "" 2 1 "" { "Runway concept C" "Runway concept D" } 0
+p "" 1 3 "" { "Styling plan G" "Styling plan H" } 0
+p "" 2 2 "" { "Venue option E" "Venue option F" } 0
+p "" 1 4 "" { "Finale K" "Finale L" } 0
+t "" 5 "Expansion plan A, Runway concept C, Styling plan G, Venue option E, Finale K" { 2, 4 }
+t "" 6 "Expansion plan A, Runway concept C, Styling plan G, Venue option E, Finale L" { 3, 6 }
+p "" 1 5 "" { "Finale M" "Finale N" } 0
+t "" 7 "Expansion plan A, Runway concept C, Styling plan G, Venue option F, Finale M" { 6, 7 }
+t "" 8 "Expansion plan A, Runway concept C, Styling plan G, Venue option F, Finale N" { 8, 1 }
+t "" 2 "Expansion plan A, Runway concept C, Styling plan H" { 7, 3 }
+p "" 1 2 "" { "Collection I" "Collection J" } 0
+t "" 3 "Expansion plan A, Runway concept D, Collection I" { 9, 2 }
+t "" 4 "Expansion plan A, Runway concept D, Collection J" { 4, 5 }
+t "" 1 "Expansion plan B" { 5, 4 }

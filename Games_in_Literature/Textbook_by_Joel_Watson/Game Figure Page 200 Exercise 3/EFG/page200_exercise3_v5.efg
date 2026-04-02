@@ -1,0 +1,18 @@
+EFG 2 R "Wildlife Documentary Production" { "Producer" "Distribution Chief" }
+""
+
+p "" 1 1 "" { "Production plan A" "Production plan B" } 0
+p "" 2 1 "" { "Route C" "Route D" } 0
+p "" 1 3 "" { "Cut G" "Cut H" } 0
+p "" 2 2 "" { "Release option E" "Release option F" } 0
+p "" 1 4 "" { "Format K" "Format L" } 0
+t "" 5 "Production plan A, Route C, Cut G, Release option E, Format K" { 2, 4 }
+t "" 6 "Production plan A, Route C, Cut G, Release option E, Format L" { 3, 6 }
+p "" 1 5 "" { "Format M" "Format N" } 0
+t "" 7 "Production plan A, Route C, Cut G, Release option F, Format M" { 6, 7 }
+t "" 8 "Production plan A, Route C, Cut G, Release option F, Format N" { 8, 1 }
+t "" 2 "Production plan A, Route C, Cut H" { 7, 3 }
+p "" 1 2 "" { "Edit I" "Edit J" } 0
+t "" 3 "Production plan A, Route D, Edit I" { 9, 2 }
+t "" 4 "Production plan A, Route D, Edit J" { 4, 5 }
+t "" 1 "Production plan B" { 5, 4 }

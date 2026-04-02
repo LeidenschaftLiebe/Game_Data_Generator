@@ -1,0 +1,11 @@
+EFG 2 R "Cybersecurity Response" { "1" "2" }
+""
+
+p "" 1 1 "" { "Response plan A" "Response plan B" "Response plan C" } 0
+p "" 2 1 "" { "Action X" "Action Y" } 0
+t "" 2 "Response plan A, Action X" { 3, 0 }
+t "" 3 "Response plan A, Action Y" { 0, 3 }
+p "" 2 1 "" { "Action X" "Action Y" } 0
+t "" 4 "Response plan B, Action X" { 0, 3 }
+t "" 5 "Response plan B, Action Y" { 3, 0 }
+t "" 1 "Response plan C" { 1, 1 }

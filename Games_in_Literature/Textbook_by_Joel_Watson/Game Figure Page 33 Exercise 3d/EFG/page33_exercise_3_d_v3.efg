@@ -1,0 +1,14 @@
+EFG 2 R "Software Launch" { "Software Company" "Competitor" }
+""
+
+p "" 1 1 "" { "Launch path U" "Launch path D" } 0
+p "" 2 1 "" { "Response A" "Response B" } 0
+t "" 1 "Launch path U, Response A" { 3, 3 }
+p "" 1 2 "" { "Rollout X" "Rollout Y" } 0
+t "" 3 "Launch path U, Response B, Rollout X" { 5, 1 }
+t "" 4 "Launch path U, Response B, Rollout Y" { 3, 6 }
+p "" 2 1 "" { "Response A" "Response B" } 0
+p "" 1 3 "" { "Rollout W" "Rollout Z" } 0
+t "" 5 "Launch path D, Response A, Rollout W" { 4, 2 }
+t "" 6 "Launch path D, Response A, Rollout Z" { 9, 0 }
+t "" 2 "Launch path D, Response B" { 2, 2 }

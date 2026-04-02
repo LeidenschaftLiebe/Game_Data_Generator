@@ -1,0 +1,14 @@
+EFG 2 R "Market Entry" { "Firm 1" "Rival Firm" }
+""
+
+p "" 1 1 "" { "Expansion path U" "Expansion path D" } 0
+p "" 2 1 "" { "Response A" "Response B" } 0
+t "" 1 "Expansion path U, Response A" { 3, 3 }
+p "" 1 2 "" { "Follow-up move X" "Follow-up move Y" } 0
+t "" 3 "Expansion path U, Response B, Follow-up move X" { 5, 1 }
+t "" 4 "Expansion path U, Response B, Follow-up move Y" { 3, 6 }
+p "" 2 1 "" { "Response A" "Response B" } 0
+p "" 1 3 "" { "Follow-up move W" "Follow-up move Z" } 0
+t "" 5 "Expansion path D, Response A, Follow-up move W" { 4, 2 }
+t "" 6 "Expansion path D, Response A, Follow-up move Z" { 9, 0 }
+t "" 2 "Expansion path D, Response B" { 2, 2 }

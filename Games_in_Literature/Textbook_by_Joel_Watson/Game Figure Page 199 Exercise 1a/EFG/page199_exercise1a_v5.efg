@@ -1,0 +1,10 @@
+EFG 2 R "Wildlife Documentary Production" { "1" "2" }
+""
+
+p "" 1 1 "" { "Filming plan A" "Filming plan B" } 0
+t "" 1 "Filming plan A" { 2, 6 }
+p "" 2 1 "" { "Release option C" "Release option D" } 0
+t "" 2 "Filming plan B, Release option C" { 1, 4 }
+p "" 1 2 "" { "Edit E" "Edit F" } 0
+t "" 3 "Filming plan B, Release option D, Edit E" { 1, 5 }
+t "" 4 "Filming plan B, Release option D, Edit F" { 2, 3 }

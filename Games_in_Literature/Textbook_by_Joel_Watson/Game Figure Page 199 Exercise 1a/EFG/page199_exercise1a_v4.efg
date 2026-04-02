@@ -1,0 +1,10 @@
+EFG 2 R "Museum Exhibition Partnership" { "1" "2" }
+""
+
+p "" 1 1 "" { "Exhibition plan A" "Exhibition plan B" } 0
+t "" 1 "Exhibition plan A" { 2, 6 }
+p "" 2 1 "" { "Funding option C" "Funding option D" } 0
+t "" 2 "Exhibition plan B, Funding option C" { 1, 4 }
+p "" 1 2 "" { "Display format E" "Display format F" } 0
+t "" 3 "Exhibition plan B, Funding option D, Display format E" { 1, 5 }
+t "" 4 "Exhibition plan B, Funding option D, Display format F" { 2, 3 }

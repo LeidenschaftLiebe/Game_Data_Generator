@@ -1,0 +1,10 @@
+EFG 2 R "Book Publishing Deal" { "1" "2" }
+""
+
+p "" 1 1 "" { "Release route A" "Release route B" } 0
+t "" 1 "Release route A" { 2, 6 }
+p "" 2 1 "" { "Contract C" "Contract D" } 0
+t "" 2 "Release route B, Contract C" { 1, 4 }
+p "" 1 2 "" { "Revision plan E" "Revision plan F" } 0
+t "" 3 "Release route B, Contract D, Revision plan E" { 1, 5 }
+t "" 4 "Release route B, Contract D, Revision plan F" { 2, 3 }

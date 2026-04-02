@@ -1,0 +1,10 @@
+EFG 2 R "Concert Tour Planning" { "1" "2" }
+""
+
+p "" 1 1 "" { "Local plan A" "National plan B" } 0
+t "" 1 "Local plan A" { 2, 6 }
+p "" 2 1 "" { "Venue option C" "Venue option D" } 0
+t "" 2 "National plan B, Venue option C" { 1, 4 }
+p "" 1 2 "" { "Schedule E" "Schedule F" } 0
+t "" 3 "National plan B, Venue option D, Schedule E" { 1, 5 }
+t "" 4 "National plan B, Venue option D, Schedule F" { 2, 3 }

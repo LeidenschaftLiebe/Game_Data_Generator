@@ -1,0 +1,10 @@
+EFG 2 R "Space Mission Contract" { "1" "2" }
+""
+
+p "" 1 1 "" { "Proposal A" "Proposal B" } 0
+t "" 1 "Proposal A" { 2, 6 }
+p "" 2 1 "" { "Package C" "Package D" } 0
+t "" 2 "Proposal B, Package C" { 1, 4 }
+p "" 1 2 "" { "Operating mode E" "Operating mode F" } 0
+t "" 3 "Proposal B, Package D, Operating mode E" { 1, 5 }
+t "" 4 "Proposal B, Package D, Operating mode F" { 2, 3 }

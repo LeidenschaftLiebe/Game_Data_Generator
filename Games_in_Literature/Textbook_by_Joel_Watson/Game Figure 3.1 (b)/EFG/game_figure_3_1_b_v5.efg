@@ -1,0 +1,10 @@
+EFG 2 R "Coffee Shop Expansion" { "Entrant Chain" "Existing Chain" }
+""
+
+p "" 1 1 "" { "Stay out" "Open" } 0
+t "" 1 "Stay out" { 2, 2 }
+p "" 2 1 "" { "Stay out" "Compete directly" } 0
+t "" 2 "Open, Stay out" { 1, 3 }
+p "" 1 2 "" { "Operating mode 1" "Operating mode 2" } 0
+t "" 3 "Open, Compete directly, Mode 1" { 4, 2 }
+t "" 4 "Open, Compete directly, Mode 2" { 3, 4 }

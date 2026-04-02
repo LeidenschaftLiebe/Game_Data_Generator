@@ -1,0 +1,10 @@
+EFG 2 R "Streaming Platform Launch" { "First Platform" "Rival Platform" }
+""
+
+p "" 1 1 "" { "Stay out" "Launch" } 0
+t "" 1 "Stay out" { 2, 2 }
+p "" 2 1 "" { "Stay out" "Launch too" } 0
+t "" 2 "Launch, Stay out" { 1, 3 }
+p "" 1 2 "" { "Post-launch strategy 1" "Post-launch strategy 2" } 0
+t "" 3 "Launch, Launch too, Strategy 1" { 4, 2 }
+t "" 4 "Launch, Launch too, Strategy 2" { 3, 4 }

@@ -1,0 +1,10 @@
+EFG 2 R "Market Entry" { "Firm 1" "Firm 2" }
+""
+
+p "" 1 1 "" { "Stay out" "Enter" } 0
+t "" 1 "Stay out" { 2, 2 }
+p "" 2 1 "" { "Stay out" "Enter" } 0
+t "" 2 "Enter, Stay out" { 1, 3 }
+p "" 1 2 "" { "First strategy" "Second strategy" } 0
+t "" 3 "Enter, Enter, First strategy" { 4, 2 }
+t "" 4 "Enter, Enter, Second strategy" { 3, 4 }

@@ -1,0 +1,10 @@
+EFG 2 R "Restaurant Expansion" { "Restaurant Group" "Local Rival" }
+""
+
+p "" 1 1 "" { "Stay out" "Open" } 0
+t "" 1 "Stay out" { 2, 2 }
+p "" 2 1 "" { "Stay out" "Expand too" } 0
+t "" 2 "Open, Stay out" { 1, 3 }
+p "" 1 2 "" { "Aggressive follow-up" "Softer follow-up" } 0
+t "" 3 "Open, Expand too, Aggressive follow-up" { 4, 2 }
+t "" 4 "Open, Expand too, Softer follow-up" { 3, 4 }

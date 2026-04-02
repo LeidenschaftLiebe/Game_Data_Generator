@@ -1,0 +1,18 @@
+EFG 2 R "Professional Cycling Team Planning" { "Team Manager" "Race Director" }
+""
+
+p "" 1 1 "" { "Season plan A" "Season plan B" } 0
+p "" 2 1 "" { "Schedule C" "Schedule D" } 0
+p "" 1 2 "" { "Training block G" "Training block H" } 0
+t "" 1 "Season plan A, Schedule C, Training block G" { 3, 4 }
+t "" 2 "Season plan A, Schedule C, Training block H" { 4, 3 }
+p "" 1 3 "" { "Training block I" "Training block J" } 0
+t "" 3 "Season plan A, Schedule D, Training block I" { 1, 2 }
+t "" 4 "Season plan A, Schedule D, Training block J" { 5, 7 }
+p "" 2 2 "" { "Schedule E" "Schedule F" } 0
+p "" 1 4 "" { "Training block K" "Training block L" } 0
+t "" 5 "Season plan B, Schedule E, Training block K" { 6, 5 }
+t "" 6 "Season plan B, Schedule E, Training block L" { 2, 8 }
+p "" 1 5 "" { "Training block M" "Training block N" } 0
+t "" 7 "Season plan B, Schedule F, Training block M" { 9, 1 }
+t "" 8 "Season plan B, Schedule F, Training block N" { 3, 6 }

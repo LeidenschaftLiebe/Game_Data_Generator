@@ -1,0 +1,18 @@
+EFG 2 R "Major Charity Campaign" { "Campaign Director" "Donor-Relations Chief" }
+""
+
+p "" 1 1 "" { "Fundraising plan A" "Fundraising plan B" } 0
+p "" 2 1 "" { "Outreach model C" "Outreach model D" } 0
+p "" 1 2 "" { "Message G" "Message H" } 0
+t "" 1 "Fundraising plan A, Outreach model C, Message G" { 3, 4 }
+t "" 2 "Fundraising plan A, Outreach model C, Message H" { 4, 3 }
+p "" 1 3 "" { "Message I" "Message J" } 0
+t "" 3 "Fundraising plan A, Outreach model D, Message I" { 1, 2 }
+t "" 4 "Fundraising plan A, Outreach model D, Message J" { 5, 7 }
+p "" 2 2 "" { "Outreach model E" "Outreach model F" } 0
+p "" 1 4 "" { "Message K" "Message L" } 0
+t "" 5 "Fundraising plan B, Outreach model E, Message K" { 6, 5 }
+t "" 6 "Fundraising plan B, Outreach model E, Message L" { 2, 8 }
+p "" 1 5 "" { "Message M" "Message N" } 0
+t "" 7 "Fundraising plan B, Outreach model F, Message M" { 9, 1 }
+t "" 8 "Fundraising plan B, Outreach model F, Message N" { 3, 6 }

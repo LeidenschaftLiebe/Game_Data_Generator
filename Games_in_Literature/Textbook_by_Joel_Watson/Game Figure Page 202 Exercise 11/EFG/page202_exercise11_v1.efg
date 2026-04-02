@@ -1,0 +1,18 @@
+EFG 2 R "Luxury Hotel Expansion" { "Hotel Owner" "Operating Partner" }
+""
+
+p "" 1 1 "" { "Expansion plan A" "Expansion plan B" } 0
+p "" 2 1 "" { "Development option C" "Development option D" } 0
+p "" 1 2 "" { "Design G" "Design H" } 0
+t "" 1 "Expansion plan A, Development option C, Design G" { 3, 4 }
+t "" 2 "Expansion plan A, Development option C, Design H" { 4, 3 }
+p "" 1 3 "" { "Design I" "Design J" } 0
+t "" 3 "Expansion plan A, Development option D, Design I" { 1, 2 }
+t "" 4 "Expansion plan A, Development option D, Design J" { 5, 7 }
+p "" 2 2 "" { "Development option E" "Development option F" } 0
+p "" 1 4 "" { "Design K" "Design L" } 0
+t "" 5 "Expansion plan B, Development option E, Design K" { 6, 5 }
+t "" 6 "Expansion plan B, Development option E, Design L" { 2, 8 }
+p "" 1 5 "" { "Design M" "Design N" } 0
+t "" 7 "Expansion plan B, Development option F, Design M" { 9, 1 }
+t "" 8 "Expansion plan B, Development option F, Design N" { 3, 6 }

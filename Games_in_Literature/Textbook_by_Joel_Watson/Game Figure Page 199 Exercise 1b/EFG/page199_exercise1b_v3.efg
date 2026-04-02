@@ -1,0 +1,18 @@
+EFG 2 R "Space Mission Contract" { "1" "2" }
+""
+
+p "" 1 1 "" { "Proposal A" "Proposal B" } 0
+p "" 2 1 "" { "Package C" "Package D" } 0
+p "" 1 2 "" { "Operating mode G" "Operating mode H" } 0
+t "" 1 "Proposal A, Package C, Operating mode G" { 3, 8 }
+t "" 2 "Proposal A, Package C, Operating mode H" { 7, 9 }
+p "" 1 3 "" { "Operating mode I" "Operating mode J" } 0
+t "" 3 "Proposal A, Package D, Operating mode I" { 1, 2 }
+t "" 4 "Proposal A, Package D, Operating mode J" { 2, 1 }
+p "" 2 2 "" { "Package E" "Package F" } 0
+p "" 1 4 "" { "Operating mode K" "Operating mode L" } 0
+t "" 5 "Proposal B, Package E, Operating mode K" { 10, 4 }
+t "" 6 "Proposal B, Package E, Operating mode L" { 0, 5 }
+p "" 1 5 "" { "Operating mode M" "Operating mode N" } 0
+t "" 7 "Proposal B, Package F, Operating mode M" { 4, 0 }
+t "" 8 "Proposal B, Package F, Operating mode N" { 8, 3 }

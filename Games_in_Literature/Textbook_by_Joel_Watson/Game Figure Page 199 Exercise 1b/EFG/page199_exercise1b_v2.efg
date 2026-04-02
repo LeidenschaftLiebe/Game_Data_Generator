@@ -1,0 +1,18 @@
+EFG 2 R "Book Publishing Deal" { "1" "2" }
+""
+
+p "" 1 1 "" { "Publishing route A" "Publishing route B" } 0
+p "" 2 1 "" { "Contract C" "Contract D" } 0
+p "" 1 2 "" { "Revision plan G" "Revision plan H" } 0
+t "" 1 "Publishing route A, Contract C, Revision plan G" { 3, 8 }
+t "" 2 "Publishing route A, Contract C, Revision plan H" { 7, 9 }
+p "" 1 3 "" { "Revision plan I" "Revision plan J" } 0
+t "" 3 "Publishing route A, Contract D, Revision plan I" { 1, 2 }
+t "" 4 "Publishing route A, Contract D, Revision plan J" { 2, 1 }
+p "" 2 2 "" { "Contract E" "Contract F" } 0
+p "" 1 4 "" { "Revision plan K" "Revision plan L" } 0
+t "" 5 "Publishing route B, Contract E, Revision plan K" { 10, 4 }
+t "" 6 "Publishing route B, Contract E, Revision plan L" { 0, 5 }
+p "" 1 5 "" { "Revision plan M" "Revision plan N" } 0
+t "" 7 "Publishing route B, Contract F, Revision plan M" { 4, 0 }
+t "" 8 "Publishing route B, Contract F, Revision plan N" { 8, 3 }

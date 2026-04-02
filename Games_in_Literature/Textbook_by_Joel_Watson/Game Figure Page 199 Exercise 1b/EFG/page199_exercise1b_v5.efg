@@ -1,0 +1,18 @@
+EFG 2 R "Wildlife Documentary Production" { "1" "2" }
+""
+
+p "" 1 1 "" { "Filming plan A" "Filming plan B" } 0
+p "" 2 1 "" { "Release option C" "Release option D" } 0
+p "" 1 2 "" { "Edit G" "Edit H" } 0
+t "" 1 "Filming plan A, Release option C, Edit G" { 3, 8 }
+t "" 2 "Filming plan A, Release option C, Edit H" { 7, 9 }
+p "" 1 3 "" { "Edit I" "Edit J" } 0
+t "" 3 "Filming plan A, Release option D, Edit I" { 1, 2 }
+t "" 4 "Filming plan A, Release option D, Edit J" { 2, 1 }
+p "" 2 2 "" { "Release option E" "Release option F" } 0
+p "" 1 4 "" { "Edit K" "Edit L" } 0
+t "" 5 "Filming plan B, Release option E, Edit K" { 10, 4 }
+t "" 6 "Filming plan B, Release option E, Edit L" { 0, 5 }
+p "" 1 5 "" { "Edit M" "Edit N" } 0
+t "" 7 "Filming plan B, Release option F, Edit M" { 4, 0 }
+t "" 8 "Filming plan B, Release option F, Edit N" { 8, 3 }

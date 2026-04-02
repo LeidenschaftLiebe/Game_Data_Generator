@@ -1,0 +1,18 @@
+EFG 2 R "Museum Exhibition Partnership" { "1" "2" }
+""
+
+p "" 1 1 "" { "Exhibition plan A" "Exhibition plan B" } 0
+p "" 2 1 "" { "Funding option C" "Funding option D" } 0
+p "" 1 2 "" { "Display format G" "Display format H" } 0
+t "" 1 "Exhibition plan A, Funding option C, Display format G" { 3, 8 }
+t "" 2 "Exhibition plan A, Funding option C, Display format H" { 7, 9 }
+p "" 1 3 "" { "Display format I" "Display format J" } 0
+t "" 3 "Exhibition plan A, Funding option D, Display format I" { 1, 2 }
+t "" 4 "Exhibition plan A, Funding option D, Display format J" { 2, 1 }
+p "" 2 2 "" { "Funding option E" "Funding option F" } 0
+p "" 1 4 "" { "Display format K" "Display format L" } 0
+t "" 5 "Exhibition plan B, Funding option E, Display format K" { 10, 4 }
+t "" 6 "Exhibition plan B, Funding option E, Display format L" { 0, 5 }
+p "" 1 5 "" { "Display format M" "Display format N" } 0
+t "" 7 "Exhibition plan B, Funding option F, Display format M" { 4, 0 }
+t "" 8 "Exhibition plan B, Funding option F, Display format N" { 8, 3 }

@@ -1,0 +1,16 @@
+EFG 2 R "Space Launch Market Entry" { "Company 1" "Company 2" }
+""
+
+p "" 1 1 "" { "Not enter" "Build small launch site" "Build large launch site" } 0
+p "" 2 1 "" { "Not enter" "Build small launch site" "Build large launch site" } 0
+t "" 1 "Not enter, Not enter" { 0, 0 }
+t "" 2 "Not enter, Build small launch site" { 0, 30 }
+t "" 3 "Not enter, Build large launch site" { 0, 27.5 }
+p "" 2 2 "" { "Stay out" "Build small site" "Build large site" } 0
+t "" 4 "Build small launch site, Stay out" { 30, 0 }
+t "" 5 "Build small launch site, Build small site" { 20, 20 }
+t "" 6 "Build small launch site, Build large site" { -10, -15 }
+p "" 2 3 "" { "Stay out" "Build small site" "Build large site" } 0
+t "" 7 "Build large launch site, Stay out" { 27.5, 0 }
+t "" 8 "Build large launch site, Build small site" { -15, -10 }
+t "" 9 "Build large launch site, Build large site" { -85, -85 }

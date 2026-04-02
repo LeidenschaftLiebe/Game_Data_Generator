@@ -1,0 +1,16 @@
+EFG 2 R "Pharmaceutical Manufacturing Capacity" { "Firm 1" "Firm 2" }
+""
+
+p "" 1 1 "" { "Not enter" "Build small plant" "Build large plant" } 0
+p "" 2 1 "" { "Not enter" "Build small plant" "Build large plant" } 0
+t "" 1 "Not enter, Not enter" { 0, 0 }
+t "" 2 "Not enter, Build small plant" { 0, 30 }
+t "" 3 "Not enter, Build large plant" { 0, 27.5 }
+p "" 2 2 "" { "Stay out" "Build small plant" "Build large plant" } 0
+t "" 4 "Build small plant, Stay out" { 30, 0 }
+t "" 5 "Build small plant, Build small plant" { 20, 20 }
+t "" 6 "Build small plant, Build large plant" { -10, -15 }
+p "" 2 3 "" { "Stay out" "Build small plant" "Build large plant" } 0
+t "" 7 "Build large plant, Stay out" { 27.5, 0 }
+t "" 8 "Build large plant, Build small plant" { -15, -10 }
+t "" 9 "Build large plant, Build large plant" { -85, -85 }

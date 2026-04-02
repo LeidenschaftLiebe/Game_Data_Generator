@@ -1,0 +1,10 @@
+EFG 2 R "Software Launch" { "Software Company" "Rival Company" }
+""
+
+p "" 1 1 "" { "Launch product" "Hold back" } 0
+p "" 2 1 "" { "Launch too" "Hold back" } 0
+p "" 1 2 "" { "Aggressive rollout" "Cooperative rollout" } 0
+t "" 1 "Launch product, Launch too, Aggressive rollout" { 4, 0 }
+t "" 2 "Launch product, Launch too, Cooperative rollout" { 3, 2 }
+t "" 3 "Launch product, Hold back" { -1, -1 }
+t "" 4 "Hold back" { 1, 1 }

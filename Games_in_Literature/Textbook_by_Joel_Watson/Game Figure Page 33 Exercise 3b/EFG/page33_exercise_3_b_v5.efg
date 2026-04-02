@@ -1,0 +1,10 @@
+EFG 2 R "Fashion Brand Expansion" { "Fashion Brand" "Competing Brand" }
+""
+
+p "" 1 1 "" { "Enter new segment" "Stay out" } 0
+p "" 2 1 "" { "Enter too" "Stay out" } 0
+p "" 1 2 "" { "Aggressive move" "Balanced move" } 0
+t "" 1 "Enter new segment, Enter too, Aggressive move" { 4, 0 }
+t "" 2 "Enter new segment, Enter too, Balanced move" { 3, 2 }
+t "" 3 "Enter new segment, Stay out" { -1, -1 }
+t "" 4 "Stay out" { 1, 1 }

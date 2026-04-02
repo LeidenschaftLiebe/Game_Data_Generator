@@ -1,0 +1,12 @@
+EFG 2 R "Esports Tournament Format" { "1" "2" }
+""
+
+p "" 1 1 "" { "Upper-bracket format" "Default format" } 0
+p "" 1 2 "" { "Arena setup A" "Arena setup B" } 0
+p "" 2 1 "" { "Package X" "Package Y" } 0
+t "" 2 "Upper-bracket format, Arena setup A, Package X" { 3, 4 }
+t "" 3 "Upper-bracket format, Arena setup A, Package Y" { 1, 4 }
+p "" 2 1 "" { "Package X" "Package Y" } 0
+t "" 4 "Upper-bracket format, Arena setup B, Package X" { 2, 1 }
+t "" 5 "Upper-bracket format, Arena setup B, Package Y" { 2, 0 }
+t "" 1 "Default format" { 2, 6 }

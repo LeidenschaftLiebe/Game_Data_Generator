@@ -1,0 +1,12 @@
+EFG 2 R "Space Mission Design" { "1" "2" }
+""
+
+p "" 1 1 "" { "Upper-orbit mission plan" "Direct-return plan" } 0
+p "" 1 2 "" { "Module design A" "Module design B" } 0
+p "" 2 1 "" { "Support package X" "Support package Y" } 0
+t "" 2 "Upper-orbit mission plan, Module design A, Support package X" { 3, 4 }
+t "" 3 "Upper-orbit mission plan, Module design A, Support package Y" { 1, 4 }
+p "" 2 1 "" { "Support package X" "Support package Y" } 0
+t "" 4 "Upper-orbit mission plan, Module design B, Support package X" { 2, 1 }
+t "" 5 "Upper-orbit mission plan, Module design B, Support package Y" { 2, 0 }
+t "" 1 "Direct-return plan" { 2, 6 }

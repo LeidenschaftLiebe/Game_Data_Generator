@@ -1,0 +1,12 @@
+EFG 2 R "Music Festival Planning" { "1" "2" }
+""
+
+p "" 1 1 "" { "Uptown plan" "Downtown fallback plan" } 0
+p "" 1 2 "" { "Lineup A" "Lineup B" } 0
+p "" 2 1 "" { "Package X" "Package Y" } 0
+t "" 2 "Uptown plan, Lineup A, Package X" { 3, 4 }
+t "" 3 "Uptown plan, Lineup A, Package Y" { 1, 4 }
+p "" 2 1 "" { "Package X" "Package Y" } 0
+t "" 4 "Uptown plan, Lineup B, Package X" { 2, 1 }
+t "" 5 "Uptown plan, Lineup B, Package Y" { 2, 0 }
+t "" 1 "Downtown fallback plan" { 2, 6 }

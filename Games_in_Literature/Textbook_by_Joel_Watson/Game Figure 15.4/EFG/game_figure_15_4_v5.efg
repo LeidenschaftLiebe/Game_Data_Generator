@@ -1,0 +1,12 @@
+EFG 2 R "Wildlife Documentary Production" { "1" "2" }
+""
+
+p "" 1 1 "" { "Uplands filming plan" "Direct-sale plan" } 0
+p "" 1 2 "" { "Story cut A" "Story cut B" } 0
+p "" 2 1 "" { "Release option X" "Release option Y" } 0
+t "" 2 "Uplands filming plan, Story cut A, Release option X" { 3, 4 }
+t "" 3 "Uplands filming plan, Story cut A, Release option Y" { 1, 4 }
+p "" 2 1 "" { "Release option X" "Release option Y" } 0
+t "" 4 "Uplands filming plan, Story cut B, Release option X" { 2, 1 }
+t "" 5 "Uplands filming plan, Story cut B, Release option Y" { 2, 0 }
+t "" 1 "Direct-sale plan" { 2, 6 }

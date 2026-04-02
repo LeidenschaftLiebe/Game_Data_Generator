@@ -1,0 +1,12 @@
+EFG 2 R "Museum Exhibition Design" { "1" "2" }
+""
+
+p "" 1 1 "" { "Urban-exhibit plan" "Donor-safe plan" } 0
+p "" 1 2 "" { "Gallery design A" "Gallery design B" } 0
+p "" 2 1 "" { "Funding option X" "Funding option Y" } 0
+t "" 2 "Urban-exhibit plan, Gallery design A, Funding option X" { 3, 4 }
+t "" 3 "Urban-exhibit plan, Gallery design A, Funding option Y" { 1, 4 }
+p "" 2 1 "" { "Funding option X" "Funding option Y" } 0
+t "" 4 "Urban-exhibit plan, Gallery design B, Funding option X" { 2, 1 }
+t "" 5 "Urban-exhibit plan, Gallery design B, Funding option Y" { 2, 0 }
+t "" 1 "Donor-safe plan" { 2, 6 }

@@ -1,0 +1,10 @@
+EFG 2 R "Restaurant Expansion" { "1" "2" }
+""
+
+p "" 1 1 "" { "Open in neighborhood" "Stay out" } 0
+p "" 2 1 "" { "Enter competition" "Stay out" } 0
+p "" 1 2 "" { "Aggressive operating plan" "Balanced plan" } 0
+t "" 3 "Open in neighborhood, Enter competition, Aggressive operating plan" { 4, -1 }
+t "" 4 "Open in neighborhood, Enter competition, Balanced plan" { 3, 2 }
+t "" 2 "Open in neighborhood, Stay out" { -1, 0 }
+t "" 1 "Stay out" { 1, 1 }

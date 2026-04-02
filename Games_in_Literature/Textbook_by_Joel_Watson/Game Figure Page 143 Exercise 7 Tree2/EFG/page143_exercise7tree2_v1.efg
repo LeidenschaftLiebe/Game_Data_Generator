@@ -1,0 +1,10 @@
+EFG 2 R "Market Entry" { "1" "2" }
+""
+
+p "" 1 1 "" { "Go in" "Stay out" } 0
+p "" 2 1 "" { "Go in" "Stay out" } 0
+p "" 1 2 "" { "Tougher move" "Moderate move" } 0
+t "" 3 "Go in, Go in, Tougher move" { 4, -1 }
+t "" 4 "Go in, Go in, Moderate move" { 3, 2 }
+t "" 2 "Go in, Stay out" { -1, 0 }
+t "" 1 "Stay out" { 1, 1 }

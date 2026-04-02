@@ -1,0 +1,10 @@
+EFG 2 R "Software Launch" { "1" "2" }
+""
+
+p "" 1 1 "" { "Launch product" "Stay out" } 0
+p "" 2 1 "" { "Launch too" "Stay out" } 0
+p "" 1 2 "" { "Stronger rollout" "Safer rollout" } 0
+t "" 3 "Launch product, Launch too, Stronger rollout" { 4, -1 }
+t "" 4 "Launch product, Launch too, Safer rollout" { 3, 2 }
+t "" 2 "Launch product, Stay out" { -1, 0 }
+t "" 1 "Stay out" { 1, 1 }

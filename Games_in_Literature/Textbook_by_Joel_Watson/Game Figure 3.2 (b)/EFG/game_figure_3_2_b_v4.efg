@@ -1,0 +1,13 @@
+EFG 2 R "Airline Route Strategy" { "First Airline" "Rival Airline" }
+""
+
+p "" 1 1 "" { "Route strategy A" "Route strategy B" "Route strategy C" } 0
+p "" 2 1 "" { "Response X" "Response Y" } 0
+t "" 1 "Route strategy A, Response X" { 2, 5 }
+t "" 2 "Route strategy A, Response Y" { 5, 2 }
+p "" 2 1 "" { "Response X" "Response Y" } 0
+t "" 3 "Route strategy B, Response X" { 5, 2 }
+t "" 4 "Route strategy B, Response Y" { 2, 5 }
+p "" 1 2 "" { "Schedule plan W" "Schedule plan Z" } 0
+t "" 5 "Route strategy C, Schedule plan W" { 2, 2 }
+t "" 6 "Route strategy C, Schedule plan Z" { 3, 3 }

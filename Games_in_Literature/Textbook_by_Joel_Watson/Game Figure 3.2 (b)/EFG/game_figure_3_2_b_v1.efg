@@ -1,0 +1,13 @@
+EFG 2 R "Restaurant Chain Planning" { "Restaurant Chain" "Rival" }
+""
+
+p "" 1 1 "" { "Expansion plan A" "Expansion plan B" "Expansion plan C" } 0
+p "" 2 1 "" { "Response X" "Response Y" } 0
+t "" 1 "Expansion plan A, Response X" { 2, 5 }
+t "" 2 "Expansion plan A, Response Y" { 5, 2 }
+p "" 2 1 "" { "Response X" "Response Y" } 0
+t "" 3 "Expansion plan B, Response X" { 5, 2 }
+t "" 4 "Expansion plan B, Response Y" { 2, 5 }
+p "" 1 2 "" { "Operating plan W" "Operating plan Z" } 0
+t "" 5 "Expansion plan C, Operating plan W" { 2, 2 }
+t "" 6 "Expansion plan C, Operating plan Z" { 3, 3 }

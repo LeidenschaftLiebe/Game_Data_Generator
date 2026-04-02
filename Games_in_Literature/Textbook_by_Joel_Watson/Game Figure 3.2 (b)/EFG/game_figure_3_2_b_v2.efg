@@ -1,0 +1,13 @@
+EFG 2 R "Streaming Platform Strategy" { "Streaming Platform" "Rival Platform" }
+""
+
+p "" 1 1 "" { "Content strategy A" "Content strategy B" "Content strategy C" } 0
+p "" 2 1 "" { "Response X" "Response Y" } 0
+t "" 1 "Content strategy A, Response X" { 2, 5 }
+t "" 2 "Content strategy A, Response Y" { 5, 2 }
+p "" 2 1 "" { "Response X" "Response Y" } 0
+t "" 3 "Content strategy B, Response X" { 5, 2 }
+t "" 4 "Content strategy B, Response Y" { 2, 5 }
+p "" 1 2 "" { "Follow-up plan W" "Follow-up plan Z" } 0
+t "" 5 "Content strategy C, Follow-up plan W" { 2, 2 }
+t "" 6 "Content strategy C, Follow-up plan Z" { 3, 3 }

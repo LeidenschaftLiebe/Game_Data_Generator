@@ -1,0 +1,13 @@
+EFG 2 R "Software Launch" { "1" "2" }
+""
+
+p "" 1 1 "" { "Launch path A" "Launch path B" "Launch path C" } 0
+p "" 2 1 "" { "Response U" "Response D" } 0
+t "" 1 "Launch path A, Response U" { 2, 1 }
+t "" 2 "Launch path A, Response D" { 1, 2 }
+p "" 2 1 "" { "Response U" "Response D" } 0
+t "" 3 "Launch path B, Response U" { 6, 8 }
+t "" 4 "Launch path B, Response D" { 4, 3 }
+p "" 2 1 "" { "Response U" "Response D" } 0
+t "" 5 "Launch path C, Response U" { 2, 1 }
+t "" 6 "Launch path C, Response D" { 8, 7 }

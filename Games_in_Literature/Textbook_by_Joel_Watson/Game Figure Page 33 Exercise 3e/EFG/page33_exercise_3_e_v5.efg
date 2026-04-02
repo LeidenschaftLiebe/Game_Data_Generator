@@ -1,0 +1,13 @@
+EFG 2 R "Fashion Brand Expansion" { "1" "2" }
+""
+
+p "" 1 1 "" { "Strategy A" "Strategy B" "Strategy C" } 0
+p "" 2 1 "" { "Response U" "Response D" } 0
+t "" 1 "Strategy A, Response U" { 2, 1 }
+t "" 2 "Strategy A, Response D" { 1, 2 }
+p "" 2 1 "" { "Response U" "Response D" } 0
+t "" 3 "Strategy B, Response U" { 6, 8 }
+t "" 4 "Strategy B, Response D" { 4, 3 }
+p "" 2 1 "" { "Response U" "Response D" } 0
+t "" 5 "Strategy C, Response U" { 2, 1 }
+t "" 6 "Strategy C, Response D" { 8, 7 }

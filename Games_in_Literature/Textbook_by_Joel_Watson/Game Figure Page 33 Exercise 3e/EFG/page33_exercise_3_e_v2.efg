@@ -1,0 +1,13 @@
+EFG 2 R "Restaurant Expansion" { "1" "2" }
+""
+
+p "" 1 1 "" { "Expansion option A" "Expansion option B" "Expansion option C" } 0
+p "" 2 1 "" { "Reaction U" "Reaction D" } 0
+t "" 1 "Expansion option A, Reaction U" { 2, 1 }
+t "" 2 "Expansion option A, Reaction D" { 1, 2 }
+p "" 2 1 "" { "Reaction U" "Reaction D" } 0
+t "" 3 "Expansion option B, Reaction U" { 6, 8 }
+t "" 4 "Expansion option B, Reaction D" { 4, 3 }
+p "" 2 1 "" { "Reaction U" "Reaction D" } 0
+t "" 5 "Expansion option C, Reaction U" { 2, 1 }
+t "" 6 "Expansion option C, Reaction D" { 8, 7 }

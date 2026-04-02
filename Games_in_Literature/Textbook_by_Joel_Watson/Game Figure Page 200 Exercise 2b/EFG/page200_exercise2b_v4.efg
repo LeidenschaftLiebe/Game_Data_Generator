@@ -1,0 +1,12 @@
+EFG 2 R "Museum Expansion" { "1" "2" }
+""
+
+p "" 1 1 "" { "Urban-annex plan" "Digital-annex plan" } 0
+p "" 2 1 "" { "Funding model A" "Funding model B" } 0
+t "" 1 "Urban-annex plan, Funding model A" { 2, 3 }
+t "" 2 "Urban-annex plan, Funding model B" { 5, 4 }
+p "" 2 2 "" { "Staffing plan C" "Staffing plan D" } 0
+p "" 1 2 "" { "Exhibit format E" "Exhibit format F" } 0
+t "" 4 "Digital-annex plan, Staffing plan C, Exhibit format E" { 6, 2 }
+t "" 5 "Digital-annex plan, Staffing plan C, Exhibit format F" { 2, 6 }
+t "" 3 "Digital-annex plan, Staffing plan D" { 0, 2 }

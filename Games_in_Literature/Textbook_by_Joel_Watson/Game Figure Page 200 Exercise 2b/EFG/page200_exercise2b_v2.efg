@@ -1,0 +1,12 @@
+EFG 2 R "Fashion Show Production" { "1" "2" }
+""
+
+p "" 1 1 "" { "Runway-focused plan" "Designer-focused plan" } 0
+p "" 2 1 "" { "Lighting setup A" "Lighting setup B" } 0
+t "" 1 "Runway-focused plan, Lighting setup A" { 2, 3 }
+t "" 2 "Runway-focused plan, Lighting setup B" { 5, 4 }
+p "" 2 2 "" { "Schedule C" "Schedule D" } 0
+p "" 1 2 "" { "Finale format E" "Finale format F" } 0
+t "" 4 "Designer-focused plan, Schedule C, Finale format E" { 6, 2 }
+t "" 5 "Designer-focused plan, Schedule C, Finale format F" { 2, 6 }
+t "" 3 "Designer-focused plan, Schedule D" { 0, 2 }

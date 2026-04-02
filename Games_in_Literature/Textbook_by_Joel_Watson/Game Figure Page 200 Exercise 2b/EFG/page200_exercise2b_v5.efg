@@ -1,0 +1,12 @@
+EFG 2 R "Wildlife Documentary Production" { "1" "2" }
+""
+
+p "" 1 1 "" { "Uplands filming plan" "Delta filming plan" } 0
+p "" 2 1 "" { "Logistics package A" "Logistics package B" } 0
+t "" 1 "Uplands filming plan, Logistics package A" { 2, 3 }
+t "" 2 "Uplands filming plan, Logistics package B" { 5, 4 }
+p "" 2 2 "" { "Route C" "Route D" } 0
+p "" 1 2 "" { "Editing plan E" "Editing plan F" } 0
+t "" 4 "Delta filming plan, Route C, Editing plan E" { 6, 2 }
+t "" 5 "Delta filming plan, Route C, Editing plan F" { 2, 6 }
+t "" 3 "Delta filming plan, Route D" { 0, 2 }

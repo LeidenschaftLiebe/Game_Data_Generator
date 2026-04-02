@@ -1,0 +1,12 @@
+EFG 2 R "Deep-Sea Expedition" { "1" "2" }
+""
+
+p "" 1 1 "" { "Upper-ocean route" "Deep-trench route" } 0
+p "" 2 1 "" { "Survey plan A" "Survey plan B" } 0
+t "" 1 "Upper-ocean route, Survey plan A" { 2, 3 }
+t "" 2 "Upper-ocean route, Survey plan B" { 5, 4 }
+p "" 2 2 "" { "Support plan C" "Support plan D" } 0
+p "" 1 2 "" { "Equipment package E" "Equipment package F" } 0
+t "" 4 "Deep-trench route, Support plan C, Equipment package E" { 6, 2 }
+t "" 5 "Deep-trench route, Support plan C, Equipment package F" { 2, 6 }
+t "" 3 "Deep-trench route, Support plan D" { 0, 2 }

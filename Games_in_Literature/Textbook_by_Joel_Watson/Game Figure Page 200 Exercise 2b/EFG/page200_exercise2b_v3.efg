@@ -1,0 +1,12 @@
+EFG 2 R "Space Habitat Design" { "1" "2" }
+""
+
+p "" 1 1 "" { "Upper-orbit habitat plan" "Deep-space habitat plan" } 0
+p "" 2 1 "" { "Module layout A" "Module layout B" } 0
+t "" 1 "Upper-orbit habitat plan, Module layout A" { 2, 3 }
+t "" 2 "Upper-orbit habitat plan, Module layout B" { 5, 4 }
+p "" 2 2 "" { "Engineering path C" "Engineering path D" } 0
+p "" 1 2 "" { "Life-support design E" "Life-support design F" } 0
+t "" 4 "Deep-space habitat plan, Engineering path C, Life-support design E" { 6, 2 }
+t "" 5 "Deep-space habitat plan, Engineering path C, Life-support design F" { 2, 6 }
+t "" 3 "Deep-space habitat plan, Engineering path D" { 0, 2 }

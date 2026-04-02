@@ -1,0 +1,14 @@
+EFG 2 R "Wildlife Rescue Mission" { "Field Leader" "Air-Support Coordinator" }
+""
+
+c "" 1 "" { "Upper-field" 0.5 "Lower-field" 0.5 } 0
+p "" 1 1 "" { "Stay local" "Request remote support" } 0
+t "" 1 "Upper_StayLocal" { 2, 0 }
+p "" 2 1 "" { "Urgent deployment" "Delayed deployment" } 0
+t "" 2 "Upper_Remote_Urgent" { 0, 4 }
+t "" 3 "Upper_Remote_Delayed" { 4, 0 }
+p "" 1 2 "" { "Stay local" "Request remote support" } 0
+t "" 4 "Lower_StayLocal" { 2, 0 }
+p "" 2 1 "" { "Urgent deployment" "Delayed deployment" } 0
+t "" 5 "Lower_Remote_Urgent" { 0, 0 }
+t "" 6 "Lower_Remote_Delayed" { 4, 2 }

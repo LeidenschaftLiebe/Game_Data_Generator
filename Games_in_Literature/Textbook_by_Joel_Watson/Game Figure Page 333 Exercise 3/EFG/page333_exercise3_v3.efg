@@ -1,0 +1,14 @@
+EFG 2 R "Museum Exhibit Launch" { "Museum Director" "Publicity Partner" }
+""
+
+c "" 1 "" { "High-interest" 0.5 "Low-interest" 0.5 } 0
+p "" 1 1 "" { "Local opening" "Major publicity push" } 0
+t "" 1 "Upper_LocalOpening" { 2, 0 }
+p "" 2 1 "" { "Urgent campaign" "Delayed campaign" } 0
+t "" 2 "Upper_Publicity_Urgent" { 0, 4 }
+t "" 3 "Upper_Publicity_Delayed" { 4, 0 }
+p "" 1 2 "" { "Local opening" "Major publicity push" } 0
+t "" 4 "Lower_LocalOpening" { 2, 0 }
+p "" 2 1 "" { "Urgent campaign" "Delayed campaign" } 0
+t "" 5 "Lower_Publicity_Urgent" { 0, 0 }
+t "" 6 "Lower_Publicity_Delayed" { 4, 2 }

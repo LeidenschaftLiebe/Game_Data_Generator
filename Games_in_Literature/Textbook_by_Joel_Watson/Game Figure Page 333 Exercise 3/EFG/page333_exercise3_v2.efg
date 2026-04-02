@@ -1,0 +1,14 @@
+EFG 2 R "Space Mission Repair" { "Onboard Commander" "Mission Control" }
+""
+
+c "" 1 "" { "Upper repair state" 0.5 "Lower repair state" 0.5 } 0
+p "" 1 1 "" { "Local patch" "Remote repair request" } 0
+t "" 1 "Upper_LocalPatch" { 2, 0 }
+p "" 2 1 "" { "Urgent intervention" "Delayed intervention" } 0
+t "" 2 "Upper_Remote_Urgent" { 0, 4 }
+t "" 3 "Upper_Remote_Delayed" { 4, 0 }
+p "" 1 2 "" { "Local patch" "Remote repair request" } 0
+t "" 4 "Lower_LocalPatch" { 2, 0 }
+p "" 2 1 "" { "Urgent intervention" "Delayed intervention" } 0
+t "" 5 "Lower_Remote_Urgent" { 0, 0 }
+t "" 6 "Lower_Remote_Delayed" { 4, 2 }

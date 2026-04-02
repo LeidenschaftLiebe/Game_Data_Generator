@@ -1,0 +1,14 @@
+EFG 2 R "Sports Rehab Decision" { "Athlete" "Medical Staff" }
+""
+
+c "" 1 "" { "Upper recovery" 0.5 "Lower recovery" 0.5 } 0
+p "" 1 1 "" { "Light self-training" "Request supervised program" } 0
+t "" 1 "Upper_LightTraining" { 2, 0 }
+p "" 2 1 "" { "Intensive plan" "Conservative plan" } 0
+t "" 2 "Upper_Supervised_Intensive" { 0, 4 }
+t "" 3 "Upper_Supervised_Conservative" { 4, 0 }
+p "" 1 2 "" { "Light self-training" "Request supervised program" } 0
+t "" 4 "Lower_LightTraining" { 2, 0 }
+p "" 2 1 "" { "Intensive plan" "Conservative plan" } 0
+t "" 5 "Lower_Supervised_Intensive" { 0, 0 }
+t "" 6 "Lower_Supervised_Conservative" { 4, 2 }

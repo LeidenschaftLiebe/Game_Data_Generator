@@ -1,0 +1,14 @@
+EFG 2 R "Cybersecurity Response" { "Security Lead" "Incident-Response Firm" }
+""
+
+c "" 1 "" { "Upper security state" 0.5 "Lower security state" 0.5 } 0
+p "" 1 1 "" { "Handle internally" "Escalate" } 0
+t "" 1 "Upper_Internal" { 2, 0 }
+p "" 2 1 "" { "Urgent intervention" "Delayed intervention" } 0
+t "" 2 "Upper_Escalation_Urgent" { 0, 4 }
+t "" 3 "Upper_Escalation_Delayed" { 4, 0 }
+p "" 1 2 "" { "Handle internally" "Escalate" } 0
+t "" 4 "Lower_Internal" { 2, 0 }
+p "" 2 1 "" { "Urgent intervention" "Delayed intervention" } 0
+t "" 5 "Lower_Escalation_Urgent" { 0, 0 }
+t "" 6 "Lower_Escalation_Delayed" { 4, 2 }

@@ -1,0 +1,14 @@
+EFG 2 R "Sports Media Rights Strategy" { "1" "2" }
+""
+
+p "" 1 1 "" { "Worldwide rights push" "Regional rights push" } 0
+p "" 2 1 "" { "Package Alpha" "Package Beta" } 0
+p "" 1 2 "" { "Broadcast format X" "Broadcast format Y" } 0
+t "" 1 "Worldwide rights push, Package Alpha, Broadcast format X" { 3, 0 }
+t "" 2 "Worldwide rights push, Package Alpha, Broadcast format Y" { 8, 5 }
+p "" 1 2 "" { "Broadcast format X" "Broadcast format Y" } 0
+t "" 3 "Worldwide rights push, Package Beta, Broadcast format X" { 4, 6 }
+t "" 4 "Worldwide rights push, Package Beta, Broadcast format Y" { 2, 1 }
+p "" 2 2 "" { "Contract C" "Contract D" } 0
+t "" 5 "Regional rights push, Contract C" { 6, 4 }
+t "" 6 "Regional rights push, Contract D" { 3, 2 }

@@ -1,0 +1,14 @@
+EFG 2 R "Theme Park Attraction Design" { "1" "2" }
+""
+
+p "" 1 1 "" { "Waterfront expansion" "Central-park expansion" } 0
+p "" 2 1 "" { "Design branch Alpha" "Design branch Beta" } 0
+p "" 1 2 "" { "Ride concept X" "Ride concept Y" } 0
+t "" 1 "Waterfront expansion, Design branch Alpha, Ride concept X" { 3, 0 }
+t "" 2 "Waterfront expansion, Design branch Alpha, Ride concept Y" { 8, 5 }
+p "" 1 2 "" { "Ride concept X" "Ride concept Y" } 0
+t "" 3 "Waterfront expansion, Design branch Beta, Ride concept X" { 4, 6 }
+t "" 4 "Waterfront expansion, Design branch Beta, Ride concept Y" { 2, 1 }
+p "" 2 2 "" { "Construction option C" "Construction option D" } 0
+t "" 5 "Central-park expansion, Construction option C" { 6, 4 }
+t "" 6 "Central-park expansion, Construction option D" { 3, 2 }

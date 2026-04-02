@@ -1,0 +1,14 @@
+EFG 2 R "Ocean Exploration Mission" { "1" "2" }
+""
+
+p "" 1 1 "" { "Wide-search plan" "Zone-search plan" } 0
+p "" 2 1 "" { "Route Alpha" "Route Beta" } 0
+p "" 1 2 "" { "Instrument package X" "Instrument package Y" } 0
+t "" 1 "Wide-search plan, Route Alpha, Instrument package X" { 3, 0 }
+t "" 2 "Wide-search plan, Route Alpha, Instrument package Y" { 8, 5 }
+p "" 1 2 "" { "Instrument package X" "Instrument package Y" } 0
+t "" 3 "Wide-search plan, Route Beta, Instrument package X" { 4, 6 }
+t "" 4 "Wide-search plan, Route Beta, Instrument package Y" { 2, 1 }
+p "" 2 2 "" { "Sector C" "Sector D" } 0
+t "" 5 "Zone-search plan, Sector C" { 6, 4 }
+t "" 6 "Zone-search plan, Sector D" { 3, 2 }

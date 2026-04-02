@@ -1,0 +1,14 @@
+EFG 2 R "Museum Acquisition Campaign" { "1" "2" }
+""
+
+p "" 1 1 "" { "World-tour campaign" "Focused-gallery campaign" } 0
+p "" 2 1 "" { "Collector network Alpha" "Collector network Beta" } 0
+p "" 1 2 "" { "Exhibit format X" "Exhibit format Y" } 0
+t "" 1 "World-tour campaign, Collector network Alpha, Exhibit format X" { 3, 0 }
+t "" 2 "World-tour campaign, Collector network Alpha, Exhibit format Y" { 8, 5 }
+p "" 1 2 "" { "Exhibit format X" "Exhibit format Y" } 0
+t "" 3 "World-tour campaign, Collector network Beta, Exhibit format X" { 4, 6 }
+t "" 4 "World-tour campaign, Collector network Beta, Exhibit format Y" { 2, 1 }
+p "" 2 2 "" { "Package C" "Package D" } 0
+t "" 5 "Focused-gallery campaign, Package C" { 6, 4 }
+t "" 6 "Focused-gallery campaign, Package D" { 3, 2 }

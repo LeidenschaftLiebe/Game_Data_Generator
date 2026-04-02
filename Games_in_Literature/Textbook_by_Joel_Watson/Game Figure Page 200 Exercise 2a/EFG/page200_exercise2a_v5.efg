@@ -1,0 +1,14 @@
+EFG 2 R "High-End Travel Planning" { "1" "2" }
+""
+
+p "" 1 1 "" { "World-journey package" "Zone-journey package" } 0
+p "" 2 1 "" { "Itinerary Alpha" "Itinerary Beta" } 0
+p "" 1 2 "" { "Service tier X" "Service tier Y" } 0
+t "" 1 "World-journey package, Itinerary Alpha, Service tier X" { 3, 0 }
+t "" 2 "World-journey package, Itinerary Alpha, Service tier Y" { 8, 5 }
+p "" 1 2 "" { "Service tier X" "Service tier Y" } 0
+t "" 3 "World-journey package, Itinerary Beta, Service tier X" { 4, 6 }
+t "" 4 "World-journey package, Itinerary Beta, Service tier Y" { 2, 1 }
+p "" 2 2 "" { "Lodging set C" "Lodging set D" } 0
+t "" 5 "Zone-journey package, Lodging set C" { 6, 4 }
+t "" 6 "Zone-journey package, Lodging set D" { 3, 2 }

@@ -1,0 +1,11 @@
+EFG 2 R "Film Distribution Deal" { "1" "2" }
+""
+
+p "" 1 1 "" { "Distribution plan A" "Distribution plan B" "Distribution plan C" } 0
+p "" 2 1 "" { "Option X" "Option Y" } 0
+t "" 2 "Distribution plan A, Option X" { 8, 8 }
+t "" 3 "Distribution plan A, Option Y" { 0, 0 }
+p "" 2 1 "" { "Option X" "Option Y" } 0
+t "" 4 "Distribution plan B, Option X" { 2, 2 }
+t "" 5 "Distribution plan B, Option Y" { 6, 6 }
+t "" 1 "Distribution plan C" { 5, 5 }

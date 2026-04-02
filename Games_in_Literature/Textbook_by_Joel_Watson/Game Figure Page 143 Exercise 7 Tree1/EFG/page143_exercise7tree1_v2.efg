@@ -1,0 +1,11 @@
+EFG 2 R "Cybersecurity Contract" { "1" "2" }
+""
+
+p "" 1 1 "" { "Contract option A" "Contract option B" "Contract option C" } 0
+p "" 2 1 "" { "Action X" "Action Y" } 0
+t "" 2 "Contract option A, Action X" { 8, 8 }
+t "" 3 "Contract option A, Action Y" { 0, 0 }
+p "" 2 1 "" { "Action X" "Action Y" } 0
+t "" 4 "Contract option B, Action X" { 2, 2 }
+t "" 5 "Contract option B, Action Y" { 6, 6 }
+t "" 1 "Contract option C" { 5, 5 }

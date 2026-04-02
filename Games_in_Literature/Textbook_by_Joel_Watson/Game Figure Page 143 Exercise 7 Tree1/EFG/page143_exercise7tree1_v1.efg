@@ -1,0 +1,11 @@
+EFG 2 R "Music Festival Partnership" { "1" "2" }
+""
+
+p "" 1 1 "" { "Partnership plan A" "Partnership plan B" "Partnership plan C" } 0
+p "" 2 1 "" { "Response X" "Response Y" } 0
+t "" 2 "Partnership plan A, Response X" { 8, 8 }
+t "" 3 "Partnership plan A, Response Y" { 0, 0 }
+p "" 2 1 "" { "Response X" "Response Y" } 0
+t "" 4 "Partnership plan B, Response X" { 2, 2 }
+t "" 5 "Partnership plan B, Response Y" { 6, 6 }
+t "" 1 "Partnership plan C" { 5, 5 }

@@ -1,0 +1,16 @@
+EFG 2 R "Research Collaboration" { "Lead Researcher" "Collaborator" "Third Researcher" }
+""
+
+p "" 1 1 "" { "Research path U" "Research path D" } 0
+p "" 2 1 "" { "Design A" "Design B" } 0
+p "" 3 1 "" { "Method R" "Method T" } 0
+t "" 1 "Research path U, Design A, Method R" { 9, 2, 5 }
+t "" 2 "Research path U, Design A, Method T" { 2, 4, 4 }
+p "" 3 2 "" { "Method P" "Method Q" } 0
+t "" 3 "Research path U, Design B, Method P" { 0, 5, 4 }
+t "" 4 "Research path U, Design B, Method Q" { 3, 0, 0 }
+p "" 2 2 "" { "Design C" "Design E" } 0
+p "" 3 2 "" { "Method P" "Method Q" } 0
+t "" 5 "Research path D, Design C, Method P" { 2, 2, 2 }
+t "" 6 "Research path D, Design C, Method Q" { 1, 2, 2 }
+t "" 7 "Research path D, Design E" { 6, 3, 2 }

@@ -1,0 +1,16 @@
+EFG 2 R "Movie Studio Negotiation" { "Studio Head" "Producer" "Distributor" }
+""
+
+p "" 1 1 "" { "Production plan U" "Production plan D" } 0
+p "" 2 1 "" { "Deal A" "Deal B" } 0
+p "" 3 1 "" { "Release option R" "Release option T" } 0
+t "" 1 "Production plan U, Deal A, Release option R" { 9, 2, 5 }
+t "" 2 "Production plan U, Deal A, Release option T" { 2, 4, 4 }
+p "" 3 2 "" { "Release option P" "Release option Q" } 0
+t "" 3 "Production plan U, Deal B, Release option P" { 0, 5, 4 }
+t "" 4 "Production plan U, Deal B, Release option Q" { 3, 0, 0 }
+p "" 2 2 "" { "Deal C" "Deal E" } 0
+p "" 3 2 "" { "Release option P" "Release option Q" } 0
+t "" 5 "Production plan D, Deal C, Release option P" { 2, 2, 2 }
+t "" 6 "Production plan D, Deal C, Release option Q" { 1, 2, 2 }
+t "" 7 "Production plan D, Deal E" { 6, 3, 2 }

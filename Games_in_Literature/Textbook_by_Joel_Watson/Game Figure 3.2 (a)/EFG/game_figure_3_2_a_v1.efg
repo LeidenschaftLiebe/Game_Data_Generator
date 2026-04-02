@@ -1,0 +1,16 @@
+EFG 2 R "Venture Funding and Partnerships" { "Founder" "Investor" "Outside Partner" }
+""
+
+p "" 1 1 "" { "Expansion path U" "Contraction path D" } 0
+p "" 2 1 "" { "Proposal A" "Proposal B" } 0
+p "" 3 1 "" { "Response R" "Response T" } 0
+t "" 1 "Expansion path U, Proposal A, Response R" { 9, 2, 5 }
+t "" 2 "Expansion path U, Proposal A, Response T" { 2, 4, 4 }
+p "" 3 2 "" { "Response P" "Response Q" } 0
+t "" 3 "Expansion path U, Proposal B, Response P" { 0, 5, 4 }
+t "" 4 "Expansion path U, Proposal B, Response Q" { 3, 0, 0 }
+p "" 2 2 "" { "Proposal C" "Proposal E" } 0
+p "" 3 2 "" { "Response P" "Response Q" } 0
+t "" 5 "Contraction path D, Proposal C, Response P" { 2, 2, 2 }
+t "" 6 "Contraction path D, Proposal C, Response Q" { 1, 2, 2 }
+t "" 7 "Contraction path D, Proposal E" { 6, 3, 2 }

@@ -1,0 +1,16 @@
+EFG 2 R "Cybersecurity Response" { "Security Lead" "Operations Manager" "Incident Specialist" }
+""
+
+p "" 1 1 "" { "Response plan U" "Response plan D" } 0
+p "" 2 1 "" { "Procedure A" "Procedure B" } 0
+p "" 3 1 "" { "Action R" "Action T" } 0
+t "" 1 "Response plan U, Procedure A, Action R" { 9, 2, 5 }
+t "" 2 "Response plan U, Procedure A, Action T" { 2, 4, 4 }
+p "" 3 2 "" { "Action P" "Action Q" } 0
+t "" 3 "Response plan U, Procedure B, Action P" { 0, 5, 4 }
+t "" 4 "Response plan U, Procedure B, Action Q" { 3, 0, 0 }
+p "" 2 2 "" { "Procedure C" "Procedure E" } 0
+p "" 3 2 "" { "Action P" "Action Q" } 0
+t "" 5 "Response plan D, Procedure C, Action P" { 2, 2, 2 }
+t "" 6 "Response plan D, Procedure C, Action Q" { 1, 2, 2 }
+t "" 7 "Response plan D, Procedure E" { 6, 3, 2 }

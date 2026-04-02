@@ -1,0 +1,16 @@
+EFG 2 R "Supply Chain Decision" { "Manufacturer" "Wholesaler" "Retailer" }
+""
+
+p "" 1 1 "" { "Supply plan U" "Supply plan D" } 0
+p "" 2 1 "" { "Contract A" "Contract B" } 0
+p "" 3 1 "" { "Response R" "Response T" } 0
+t "" 1 "Supply plan U, Contract A, Response R" { 9, 2, 5 }
+t "" 2 "Supply plan U, Contract A, Response T" { 2, 4, 4 }
+p "" 3 2 "" { "Response P" "Response Q" } 0
+t "" 3 "Supply plan U, Contract B, Response P" { 0, 5, 4 }
+t "" 4 "Supply plan U, Contract B, Response Q" { 3, 0, 0 }
+p "" 2 2 "" { "Contract C" "Contract E" } 0
+p "" 3 2 "" { "Response P" "Response Q" } 0
+t "" 5 "Supply plan D, Contract C, Response P" { 2, 2, 2 }
+t "" 6 "Supply plan D, Contract C, Response Q" { 1, 2, 2 }
+t "" 7 "Supply plan D, Contract E" { 6, 3, 2 }

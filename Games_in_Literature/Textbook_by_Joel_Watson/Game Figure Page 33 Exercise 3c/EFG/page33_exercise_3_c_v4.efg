@@ -1,0 +1,12 @@
+EFG 2 R "Movie Release" { "Studio" "Rival Studio" }
+""
+
+p "" 1 1 "" { "Release plan U" "Release plan D" } 0
+p "" 2 1 "" { "Reaction A" "Reaction B" } 0
+t "" 1 "Release plan U, Reaction A" { 3, 3 }
+t "" 2 "Release plan U, Reaction B" { 5, 4 }
+p "" 2 2 "" { "Reaction C" "Reaction D" } 0
+p "" 1 2 "" { "Follow-up move E" "Follow-up move F" } 0
+t "" 4 "Release plan D, Reaction C, Follow-up move E" { 6, 2 }
+t "" 5 "Release plan D, Reaction C, Follow-up move F" { 2, 6 }
+t "" 3 "Release plan D, Reaction D" { 2, 2 }

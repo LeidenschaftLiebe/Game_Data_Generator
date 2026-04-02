@@ -1,0 +1,12 @@
+EFG 2 R "Market Entry" { "Firm 1" "Rival Firm" }
+""
+
+p "" 1 1 "" { "Expansion plan U" "Expansion plan D" } 0
+p "" 2 1 "" { "Response A" "Response B" } 0
+t "" 1 "Expansion plan U, Response A" { 3, 3 }
+t "" 2 "Expansion plan U, Response B" { 5, 4 }
+p "" 2 2 "" { "Response C" "Response D" } 0
+p "" 1 2 "" { "Follow-up move E" "Follow-up move F" } 0
+t "" 4 "Expansion plan D, Response C, Follow-up move E" { 6, 2 }
+t "" 5 "Expansion plan D, Response C, Follow-up move F" { 2, 6 }
+t "" 3 "Expansion plan D, Response D" { 2, 2 }

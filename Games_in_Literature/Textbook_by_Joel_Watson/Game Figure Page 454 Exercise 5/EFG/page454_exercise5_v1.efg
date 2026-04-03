@@ -1,0 +1,14 @@
+EFG 2 R "Battery-Sharing Rover Game" { "Team 1" "Team 2" }
+""
+
+p "" 1 1 "" { "Stop" "Continue" } 0
+t "" 1 "Move1_Stop" { 1, 1 }
+p "" 2 1 "" { "Stop" "Continue" } 0
+t "" 2 "Move2_Stop" { 0, 3 }
+p "" 1 2 "" { "Stop" "Continue" } 0
+t "" 3 "Move3_Stop" { 2, 2 }
+p "" 2 2 "" { "Stop" "Continue" } 0
+t "" 4 "Move4_Stop" { 1, 4 }
+p "" 1 3 "" { "Stop" "Continue" } 0
+t "" 5 "Move5_Stop" { 3, 3 }
+t "" 6 "Move5_Continue_Timeout" { 0, 0 }

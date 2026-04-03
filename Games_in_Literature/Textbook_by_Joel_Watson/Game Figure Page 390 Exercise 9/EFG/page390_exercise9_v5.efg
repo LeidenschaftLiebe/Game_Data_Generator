@@ -1,0 +1,14 @@
+EFG 2 R "Cybersecurity Incident Response" { "Security Lead" "Outside Response Team" }
+""
+
+c "" 1 "" { "HighAlert" 2/3 "LowAlert" 1/3 } 0
+p "" 1 1 "" { "ActionX" "ActionY" } 0
+t "" 1 "H_X" { 3, 0 }
+p "" 2 1 "" { "OptionL" "OptionM" } 0
+t "" 2 "H_Y_L" { 0, 6 }
+t "" 3 "H_Y_M" { 6, 0 }
+p "" 1 2 "" { "ActionX_prime" "ActionY_prime" } 0
+t "" 4 "L_Xprime" { 0, 0 }
+p "" 2 1 "" { "OptionL" "OptionM" } 0
+t "" 5 "L_Yprime_L" { 3, 0 }
+t "" 6 "L_Yprime_M" { 3, 6 }

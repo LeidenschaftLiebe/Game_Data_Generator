@@ -1,0 +1,14 @@
+EFG 2 R "Museum Event Planning" { "Director" "Events Partner" }
+""
+
+c "" 1 "" { "HighDemand" 2/3 "LowDemand" 1/3 } 0
+p "" 1 1 "" { "LocalPlan" "ExpandedPlan" } 0
+t "" 1 "H_X" { 3, 0 }
+p "" 2 1 "" { "OptionL" "OptionM" } 0
+t "" 2 "H_Y_L" { 0, 6 }
+t "" 3 "H_Y_M" { 6, 0 }
+p "" 1 2 "" { "LocalPlan_prime" "ExpandedPlan_prime" } 0
+t "" 4 "L_Xprime" { 0, 0 }
+p "" 2 1 "" { "OptionL" "OptionM" } 0
+t "" 5 "L_Yprime_L" { 3, 0 }
+t "" 6 "L_Yprime_M" { 3, 6 }

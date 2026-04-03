@@ -1,0 +1,18 @@
+EFG 2 R "Space Mission Routing" { "Controller" "Pilot" }
+""
+
+c "" 1 "" { "ModeA" 1/2 "ModeB" 1/2 } 0
+p "" 1 1 "" { "RouteU_A" "RouteD_A" } 0
+p "" 2 1 "" { "ResponseL" "ResponseR" } 0
+t "" 1 "A_U_L" { 2, 2 }
+t "" 2 "A_U_R" { 0, 0 }
+p "" 2 1 "" { "ResponseL" "ResponseR" } 0
+t "" 3 "A_D_L" { 0, 0 }
+t "" 4 "A_D_R" { 4, 4 }
+p "" 1 2 "" { "Routeu_B" "Routed_B" } 0
+p "" 2 1 "" { "ResponseL" "ResponseR" } 0
+t "" 5 "B_u_L" { 0, 2 }
+t "" 6 "B_u_R" { 2, 0 }
+p "" 2 1 "" { "ResponseL" "ResponseR" } 0
+t "" 7 "B_d_L" { 4, 0 }
+t "" 8 "B_d_R" { 0, 4 }

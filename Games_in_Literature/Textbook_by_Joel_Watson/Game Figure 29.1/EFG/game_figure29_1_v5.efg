@@ -1,0 +1,18 @@
+EFG 2 R "Cybersecurity Hiring" { "Candidate" "Firm" }
+""
+
+c "" 1 "" { "HighAbility" 1/3 "LowAbility" 2/3 } 0
+p "" 1 1 "" { "NoCert_H" "Cert_H" } 0
+p "" 2 1 "" { "IncidentResponse" "ClericalOperations" } 0
+t "" 1 "High_NoCert_IncidentResponse" { 10, 10 }
+t "" 2 "High_NoCert_ClericalOperations" { 4, 4 }
+p "" 2 2 "" { "IncidentResponse" "ClericalOperations" } 0
+t "" 5 "High_Cert_IncidentResponse" { 6, 10 }
+t "" 6 "High_Cert_ClericalOperations" { 0, 4 }
+p "" 1 2 "" { "NoCert_L" "Cert_L" } 0
+p "" 2 1 "" { "IncidentResponse" "ClericalOperations" } 0
+t "" 3 "Low_NoCert_IncidentResponse" { 10, 0 }
+t "" 4 "Low_NoCert_ClericalOperations" { 4, 4 }
+p "" 2 2 "" { "IncidentResponse" "ClericalOperations" } 0
+t "" 7 "Low_Cert_IncidentResponse" { 3, 0 }
+t "" 8 "Low_Cert_ClericalOperations" { -3, 4 }

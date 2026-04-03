@@ -1,0 +1,18 @@
+EFG 2 R "Space Agency Recruitment" { "Candidate" "Agency" }
+""
+
+c "" 1 "" { "HighAptitude" 1/3 "LowAptitude" 2/3 } 0
+p "" 1 1 "" { "NoCert_H" "Cert_H" } 0
+p "" 2 1 "" { "MissionCommand" "ClericalSupport" } 0
+t "" 1 "High_NoCert_MissionCommand" { 10, 10 }
+t "" 2 "High_NoCert_ClericalSupport" { 4, 4 }
+p "" 2 2 "" { "MissionCommand" "ClericalSupport" } 0
+t "" 5 "High_Cert_MissionCommand" { 6, 10 }
+t "" 6 "High_Cert_ClericalSupport" { 0, 4 }
+p "" 1 2 "" { "NoCert_L" "Cert_L" } 0
+p "" 2 1 "" { "MissionCommand" "ClericalSupport" } 0
+t "" 3 "Low_NoCert_MissionCommand" { 10, 0 }
+t "" 4 "Low_NoCert_ClericalSupport" { 4, 4 }
+p "" 2 2 "" { "MissionCommand" "ClericalSupport" } 0
+t "" 7 "Low_Cert_MissionCommand" { 3, 0 }
+t "" 8 "Low_Cert_ClericalSupport" { -3, 4 }

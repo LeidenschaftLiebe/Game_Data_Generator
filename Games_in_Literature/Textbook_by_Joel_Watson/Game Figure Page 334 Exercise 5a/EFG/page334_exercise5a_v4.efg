@@ -1,0 +1,18 @@
+EFG 2 R "Record Label Collaboration" { "Major Label" "Independent Studio" }
+""
+
+c "" 1 "" { "Predatory" 0.5 "Loyal" 0.5 } 0
+p "" 1 1 "" { "Back" "Hijack" } 0
+p "" 2 1 "" { "Reveal" "Keep private" } 0
+t "" 1 "Predatory_Back_Reveal" { 5, 1 }
+t "" 2 "Predatory_Back_KeepPrivate" { 0, 3 }
+p "" 2 1 "" { "Reveal" "Keep private" } 0
+t "" 3 "Predatory_Hijack_Reveal" { 8, -1 }
+t "" 4 "Predatory_Hijack_KeepPrivate" { 7, 0 }
+p "" 1 2 "" { "Back" "Hijack" } 0
+p "" 2 1 "" { "Reveal" "Keep private" } 0
+t "" 5 "Loyal_Back_Reveal" { 9, 9 }
+t "" 6 "Loyal_Back_KeepPrivate" { 0, 0 }
+p "" 2 1 "" { "Reveal" "Keep private" } 0
+t "" 7 "Loyal_Hijack_Reveal" { 2, 0 }
+t "" 8 "Loyal_Hijack_KeepPrivate" { 0, 4 }

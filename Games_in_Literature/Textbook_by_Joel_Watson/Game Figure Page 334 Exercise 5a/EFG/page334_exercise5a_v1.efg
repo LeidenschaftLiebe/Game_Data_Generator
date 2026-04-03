@@ -1,0 +1,18 @@
+EFG 2 R "Pharmaceutical Joint Research" { "Pharmaceutical Company" "Biotech Startup" }
+""
+
+c "" 1 "" { "Predatory" 0.5 "Cooperative" 0.5 } 0
+p "" 1 1 "" { "Fund" "Undermine" } 0
+p "" 2 1 "" { "Share" "Protect" } 0
+t "" 1 "Predatory_Fund_Share" { 5, 1 }
+t "" 2 "Predatory_Fund_Protect" { 0, 3 }
+p "" 2 1 "" { "Share" "Protect" } 0
+t "" 3 "Predatory_Undermine_Share" { 8, -1 }
+t "" 4 "Predatory_Undermine_Protect" { 7, 0 }
+p "" 1 2 "" { "Fund" "Undermine" } 0
+p "" 2 1 "" { "Share" "Protect" } 0
+t "" 5 "Cooperative_Fund_Share" { 9, 9 }
+t "" 6 "Cooperative_Fund_Protect" { 0, 0 }
+p "" 2 1 "" { "Share" "Protect" } 0
+t "" 7 "Cooperative_Undermine_Share" { 2, 0 }
+t "" 8 "Cooperative_Undermine_Protect" { 0, 4 }

@@ -1,0 +1,18 @@
+EFG 2 R "Cybersecurity Alliance" { "Large Cybersecurity Firm" "Smaller Security Lab" }
+""
+
+c "" 1 "" { "Opportunistic" 0.5 "Genuine ally" 0.5 } 0
+p "" 1 1 "" { "Defend" "Exploit" } 0
+p "" 2 1 "" { "Expose" "Conceal" } 0
+t "" 1 "Opportunistic_Defend_Expose" { 5, 1 }
+t "" 2 "Opportunistic_Defend_Conceal" { 0, 3 }
+p "" 2 1 "" { "Expose" "Conceal" } 0
+t "" 3 "Opportunistic_Exploit_Expose" { 8, -1 }
+t "" 4 "Opportunistic_Exploit_Conceal" { 7, 0 }
+p "" 1 2 "" { "Defend" "Exploit" } 0
+p "" 2 1 "" { "Expose" "Conceal" } 0
+t "" 5 "GenuineAlly_Defend_Expose" { 9, 9 }
+t "" 6 "GenuineAlly_Defend_Conceal" { 0, 0 }
+p "" 2 1 "" { "Expose" "Conceal" } 0
+t "" 7 "GenuineAlly_Exploit_Expose" { 2, 0 }
+t "" 8 "GenuineAlly_Exploit_Conceal" { 0, 4 }

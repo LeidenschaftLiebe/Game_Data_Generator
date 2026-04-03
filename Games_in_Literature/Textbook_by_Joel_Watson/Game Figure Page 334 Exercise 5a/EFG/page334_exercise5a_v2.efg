@@ -1,0 +1,18 @@
+EFG 2 R "Space Technology Alliance" { "Aerospace Contractor" "Propulsion Lab" }
+""
+
+c "" 1 "" { "Hostile" 0.5 "Honest" 0.5 } 0
+p "" 1 1 "" { "Support" "Disrupt" } 0
+p "" 2 1 "" { "Disclose" "Seal" } 0
+t "" 1 "Hostile_Support_Disclose" { 5, 1 }
+t "" 2 "Hostile_Support_Seal" { 0, 3 }
+p "" 2 1 "" { "Disclose" "Seal" } 0
+t "" 3 "Hostile_Disrupt_Disclose" { 8, -1 }
+t "" 4 "Hostile_Disrupt_Seal" { 7, 0 }
+p "" 1 2 "" { "Support" "Disrupt" } 0
+p "" 2 1 "" { "Disclose" "Seal" } 0
+t "" 5 "Honest_Support_Disclose" { 9, 9 }
+t "" 6 "Honest_Support_Seal" { 0, 0 }
+p "" 2 1 "" { "Disclose" "Seal" } 0
+t "" 7 "Honest_Disrupt_Disclose" { 2, 0 }
+t "" 8 "Honest_Disrupt_Seal" { 0, 4 }

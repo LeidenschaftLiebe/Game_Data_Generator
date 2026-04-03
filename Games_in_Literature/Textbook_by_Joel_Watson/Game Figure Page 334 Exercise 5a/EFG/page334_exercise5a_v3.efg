@@ -1,0 +1,18 @@
+EFG 2 R "Museum Digitization Partnership" { "Technology Vendor" "Museum" }
+""
+
+c "" 1 "" { "Exploitative" 0.5 "Trustworthy" 0.5 } 0
+p "" 1 1 "" { "Invest" "Strip value" } 0
+p "" 2 1 "" { "Open" "Restrict" } 0
+t "" 1 "Exploitative_Invest_Open" { 5, 1 }
+t "" 2 "Exploitative_Invest_Restrict" { 0, 3 }
+p "" 2 1 "" { "Open" "Restrict" } 0
+t "" 3 "Exploitative_StripValue_Open" { 8, -1 }
+t "" 4 "Exploitative_StripValue_Restrict" { 7, 0 }
+p "" 1 2 "" { "Invest" "Strip value" } 0
+p "" 2 1 "" { "Open" "Restrict" } 0
+t "" 5 "Trustworthy_Invest_Open" { 9, 9 }
+t "" 6 "Trustworthy_Invest_Restrict" { 0, 0 }
+p "" 2 1 "" { "Open" "Restrict" } 0
+t "" 7 "Trustworthy_StripValue_Open" { 2, 0 }
+t "" 8 "Trustworthy_StripValue_Restrict" { 0, 4 }

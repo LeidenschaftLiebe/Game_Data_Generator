@@ -1,0 +1,17 @@
+EFG 2 R "Museum Expansion Planning" { "Museum Director" "Donor Board" }
+""
+
+c "" 1 "" { "LimitedExpansion" 0.5 "MajorExpansion" 0.5 } 0
+p "" 1 1 "" { "Option A" "Option B" } 0
+t "" 1 "A" { 2, 10 }
+p "" 2 1 "" { "Package F" "Package G" } 0
+t "" 2 "B_F" { 0, 10 }
+t "" 3 "B_G" { -10, 2 }
+p "" 1 2 "" { "Option C" "Option D" "Option E" } 0
+p "" 2 1 "" { "Package F" "Package G" } 0
+t "" 4 "C_F" { 6, 0 }
+t "" 5 "C_G" { -10, 7 }
+p "" 2 1 "" { "Package F" "Package G" } 0
+t "" 6 "D_F" { 3, 5 }
+t "" 7 "D_G" { 3, 5 }
+t "" 8 "E" { 2, 10 }

@@ -1,0 +1,17 @@
+EFG 2 R "Sports Franchise Strategy" { "General Manager" "Owner" }
+""
+
+c "" 1 "" { "LowerPressureSeason" 0.5 "HigherPressureSeason" 0.5 } 0
+p "" 1 1 "" { "Strategy A" "Strategy B" } 0
+t "" 1 "A" { 2, 10 }
+p "" 2 1 "" { "Response F" "Response G" } 0
+t "" 2 "B_F" { 0, 10 }
+t "" 3 "B_G" { -10, 2 }
+p "" 1 2 "" { "Strategy C" "Strategy D" "Strategy E" } 0
+p "" 2 1 "" { "Response F" "Response G" } 0
+t "" 4 "C_F" { 6, 0 }
+t "" 5 "C_G" { -10, 7 }
+p "" 2 1 "" { "Response F" "Response G" } 0
+t "" 6 "D_F" { 3, 5 }
+t "" 7 "D_G" { 3, 5 }
+t "" 8 "E" { 2, 10 }

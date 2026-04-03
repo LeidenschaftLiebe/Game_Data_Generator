@@ -1,0 +1,18 @@
+EFG 2 R "Museum Restoration Wing" { "Museum Director" "Donor Partner" }
+""
+
+c "" 1 "" { "OrdinaryDirector" 3/4 "CooperativeDirector" 1/4 } 0
+p "" 1 1 "" { "NoRestoration_O" "Restoration_O" } 0
+t "" 1 "Ordinary_NoRestoration" { 0, 0 }
+p "" 2 1 "" { "N" "I" } 0
+t "" 3 "Ordinary_Restoration_P2_NoInvest" { -2, 0 }
+p "" 1 3 "" { "KeepWing" "ShareWing" } 0
+t "" 5 "Ordinary_BothInvest_Keep" { 6, -2 }
+t "" 6 "Ordinary_BothInvest_Share" { 2, 2 }
+p "" 1 2 "" { "NoRestoration_C" "Restoration_C" } 0
+t "" 2 "Cooperative_NoRestoration" { 0, 0 }
+p "" 2 1 "" { "N" "I" } 0
+t "" 4 "Cooperative_Restoration_P2_NoInvest" { 1, 0 }
+p "" 1 4 "" { "KeepWing_prime" "ShareWing_prime" } 0
+t "" 7 "Cooperative_BothInvest_Keep" { 1, -2 }
+t "" 8 "Cooperative_BothInvest_Share" { 2, 2 }

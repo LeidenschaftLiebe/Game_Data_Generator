@@ -1,0 +1,18 @@
+EFG 2 R "Team Training Facility" { "Team Captain" "Assistant Coach" }
+""
+
+c "" 1 "" { "OrdinaryCaptain" 3/4 "CooperativeCaptain" 1/4 } 0
+p "" 1 1 "" { "NoFacilityFix_O" "FacilityFix_O" } 0
+t "" 1 "Ordinary_NoFix" { 0, 0 }
+p "" 2 1 "" { "N" "I" } 0
+t "" 3 "Ordinary_Fix_P2_NoInvest" { -2, 0 }
+p "" 1 3 "" { "ReserveFacility" "ShareFacility" } 0
+t "" 5 "Ordinary_BothInvest_Reserve" { 6, -2 }
+t "" 6 "Ordinary_BothInvest_Share" { 2, 2 }
+p "" 1 2 "" { "NoFacilityFix_C" "FacilityFix_C" } 0
+t "" 2 "Cooperative_NoFix" { 0, 0 }
+p "" 2 1 "" { "N" "I" } 0
+t "" 4 "Cooperative_Fix_P2_NoInvest" { 1, 0 }
+p "" 1 4 "" { "ReserveFacility_prime" "ShareFacility_prime" } 0
+t "" 7 "Cooperative_BothInvest_Reserve" { 1, -2 }
+t "" 8 "Cooperative_BothInvest_Share" { 2, 2 }

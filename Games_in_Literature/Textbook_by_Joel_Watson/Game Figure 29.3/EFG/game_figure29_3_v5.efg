@@ -1,0 +1,18 @@
+EFG 2 R "Cybersecurity Platform Rollout" { "Platform Owner" "Outside Partner" }
+""
+
+c "" 1 "" { "OrdinaryOwner" 3/4 "CooperativeOwner" 1/4 } 0
+p "" 1 1 "" { "NoRollout_O" "Rollout_O" } 0
+t "" 1 "Ordinary_NoRollout" { 0, 0 }
+p "" 2 1 "" { "N" "I" } 0
+t "" 3 "Ordinary_Rollout_P2_NoInvest" { -2, 0 }
+p "" 1 3 "" { "KeepPlatform" "SharePlatform" } 0
+t "" 5 "Ordinary_BothInvest_Keep" { 6, -2 }
+t "" 6 "Ordinary_BothInvest_Share" { 2, 2 }
+p "" 1 2 "" { "NoRollout_C" "Rollout_C" } 0
+t "" 2 "Cooperative_NoRollout" { 0, 0 }
+p "" 2 1 "" { "N" "I" } 0
+t "" 4 "Cooperative_Rollout_P2_NoInvest" { 1, 0 }
+p "" 1 4 "" { "KeepPlatform_prime" "SharePlatform_prime" } 0
+t "" 7 "Cooperative_BothInvest_Keep" { 1, -2 }
+t "" 8 "Cooperative_BothInvest_Share" { 2, 2 }

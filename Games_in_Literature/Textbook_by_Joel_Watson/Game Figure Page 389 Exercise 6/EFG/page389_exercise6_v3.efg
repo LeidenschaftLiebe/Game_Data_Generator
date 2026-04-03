@@ -1,0 +1,18 @@
+EFG 2 R "Museum Security Incident" { "Guard" "Intruder" }
+""
+
+c "" 1 "" { "Ready" 0.5 "Exhausted" 0.5 } 0
+p "" 1 1 "" { "Desk_ready" "Gallery_ready" } 0
+p "" 2 1 "" { "BackOff" "PressForward" } 0
+t "" 1 "Ready_Desk_BackOff" { 1, 0 }
+t "" 2 "Ready_Desk_PressForward" { 0, -2 }
+p "" 2 2 "" { "BackOff" "PressForward" } 0
+t "" 5 "Ready_Gallery_BackOff" { 1, 0 }
+t "" 6 "Ready_Gallery_PressForward" { 0, -2 }
+p "" 1 2 "" { "Desk_exhausted" "Gallery_exhausted" } 0
+p "" 2 1 "" { "BackOff" "PressForward" } 0
+t "" 3 "Exhausted_Desk_BackOff" { 1, 0 }
+t "" 4 "Exhausted_Desk_PressForward" { -1, 1 }
+p "" 2 2 "" { "BackOff" "PressForward" } 0
+t "" 7 "Exhausted_Gallery_BackOff" { 0.5, 0 }
+t "" 8 "Exhausted_Gallery_PressForward" { -1.5, 1 }

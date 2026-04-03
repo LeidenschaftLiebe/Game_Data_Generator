@@ -1,0 +1,18 @@
+EFG 2 R "Space Captain Confrontation" { "Captain" "Governor" }
+""
+
+c "" 1 "" { "Recovered" 0.5 "Injured" 0.5 } 0
+p "" 1 1 "" { "Pod_recovered" "Out_recovered" } 0
+p "" 2 1 "" { "BackDown" "Attack" } 0
+t "" 1 "Recovered_Pod_BackDown" { 1, 0 }
+t "" 2 "Recovered_Pod_Attack" { 0, -2 }
+p "" 2 2 "" { "BackDown" "Attack" } 0
+t "" 5 "Recovered_Out_BackDown" { 1, 0 }
+t "" 6 "Recovered_Out_Attack" { 0, -2 }
+p "" 1 2 "" { "Pod_injured" "Out_injured" } 0
+p "" 2 1 "" { "BackDown" "Attack" } 0
+t "" 3 "Injured_Pod_BackDown" { 1, 0 }
+t "" 4 "Injured_Pod_Attack" { -1, 1 }
+p "" 2 2 "" { "BackDown" "Attack" } 0
+t "" 7 "Injured_Out_BackDown" { 0.5, 0 }
+t "" 8 "Injured_Out_Attack" { -1.5, 1 }

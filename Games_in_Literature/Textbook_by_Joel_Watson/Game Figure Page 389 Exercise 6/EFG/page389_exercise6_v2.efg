@@ -1,0 +1,18 @@
+EFG 2 R "Sports Locker Room Standoff" { "Star Player" "Opposing Coach" }
+""
+
+c "" 1 "" { "FullyFit" 0.5 "Weak" 0.5 } 0
+p "" 1 1 "" { "Bench_fit" "Court_fit" } 0
+p "" 2 1 "" { "Concede" "Challenge" } 0
+t "" 1 "FullyFit_Bench_Concede" { 1, 0 }
+t "" 2 "FullyFit_Bench_Challenge" { 0, -2 }
+p "" 2 2 "" { "Concede" "Challenge" } 0
+t "" 5 "FullyFit_Court_Concede" { 1, 0 }
+t "" 6 "FullyFit_Court_Challenge" { 0, -2 }
+p "" 1 2 "" { "Bench_weak" "Court_weak" } 0
+p "" 2 1 "" { "Concede" "Challenge" } 0
+t "" 3 "Weak_Bench_Concede" { 1, 0 }
+t "" 4 "Weak_Bench_Challenge" { -1, 1 }
+p "" 2 2 "" { "Concede" "Challenge" } 0
+t "" 7 "Weak_Court_Concede" { 0.5, 0 }
+t "" 8 "Weak_Court_Challenge" { -1.5, 1 }

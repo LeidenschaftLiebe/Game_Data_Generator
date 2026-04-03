@@ -1,0 +1,18 @@
+EFG 2 R "Record Label Collaboration" { "Major Record Label" "Independent Studio" }
+""
+
+c "" 1 "" { "Loyal" 0.5 "Predatory" 0.5 } 0
+p "" 1 1 "" { "Sell_L" "Buy_L" } 0
+p "" 2 1 "" { "Reveal" "Hide" } 0
+t "" 1 "Loyal_Sell_Reveal" { 5, 6 }
+t "" 2 "Loyal_Sell_Hide" { 5, -1 }
+p "" 2 2 "" { "Reveal" "Hide" } 0
+t "" 3 "Loyal_Buy_Reveal" { 15, 12 }
+t "" 4 "Loyal_Buy_Hide" { -1, 1 }
+p "" 1 2 "" { "Sell_P" "Buy_P" } 0
+p "" 2 1 "" { "Reveal" "Hide" } 0
+t "" 5 "Predatory_Sell_Reveal" { 15, -14 }
+t "" 6 "Predatory_Sell_Hide" { 0, -1 }
+p "" 2 2 "" { "Reveal" "Hide" } 0
+t "" 7 "Predatory_Buy_Reveal" { 5, -6 }
+t "" 8 "Predatory_Buy_Hide" { 5, 1 }

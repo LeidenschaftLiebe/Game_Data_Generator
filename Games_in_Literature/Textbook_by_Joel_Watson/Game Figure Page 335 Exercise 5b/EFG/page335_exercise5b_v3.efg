@@ -1,0 +1,18 @@
+EFG 2 R "Museum Digitization Deal" { "Technology Vendor" "Museum" }
+""
+
+c "" 1 "" { "Trustworthy" 0.5 "Opportunistic" 0.5 } 0
+p "" 1 1 "" { "Sell_T" "Buy_T" } 0
+p "" 2 1 "" { "Reveal" "Hide" } 0
+t "" 1 "Trustworthy_Sell_Reveal" { 5, 6 }
+t "" 2 "Trustworthy_Sell_Hide" { 5, -1 }
+p "" 2 2 "" { "Reveal" "Hide" } 0
+t "" 3 "Trustworthy_Buy_Reveal" { 15, 12 }
+t "" 4 "Trustworthy_Buy_Hide" { -1, 1 }
+p "" 1 2 "" { "Sell_O" "Buy_O" } 0
+p "" 2 1 "" { "Reveal" "Hide" } 0
+t "" 5 "Opportunistic_Sell_Reveal" { 15, -14 }
+t "" 6 "Opportunistic_Sell_Hide" { 0, -1 }
+p "" 2 2 "" { "Reveal" "Hide" } 0
+t "" 7 "Opportunistic_Buy_Reveal" { 5, -6 }
+t "" 8 "Opportunistic_Buy_Hide" { 5, 1 }

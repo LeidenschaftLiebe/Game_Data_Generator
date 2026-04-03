@@ -1,0 +1,18 @@
+EFG 2 R "Space Technology Partnership" { "Aerospace Contractor" "Propulsion Lab" }
+""
+
+c "" 1 "" { "Honest" 0.5 "Exploitative" 0.5 } 0
+p "" 1 1 "" { "Sell_H" "Buy_H" } 0
+p "" 2 1 "" { "Reveal" "Hide" } 0
+t "" 1 "Honest_Sell_Reveal" { 5, 6 }
+t "" 2 "Honest_Sell_Hide" { 5, -1 }
+p "" 2 2 "" { "Reveal" "Hide" } 0
+t "" 3 "Honest_Buy_Reveal" { 15, 12 }
+t "" 4 "Honest_Buy_Hide" { -1, 1 }
+p "" 1 2 "" { "Sell_E" "Buy_E" } 0
+p "" 2 1 "" { "Reveal" "Hide" } 0
+t "" 5 "Exploitative_Sell_Reveal" { 15, -14 }
+t "" 6 "Exploitative_Sell_Hide" { 0, -1 }
+p "" 2 2 "" { "Reveal" "Hide" } 0
+t "" 7 "Exploitative_Buy_Reveal" { 5, -6 }
+t "" 8 "Exploitative_Buy_Hide" { 5, 1 }

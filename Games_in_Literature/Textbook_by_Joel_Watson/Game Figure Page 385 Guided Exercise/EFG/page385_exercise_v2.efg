@@ -1,0 +1,18 @@
+EFG 2 R "Wildlife Sanctuary Trip" { "Morgan" "Taylor" }
+""
+
+c "" 1 "" { "Sighting" 0.5 "NoSighting" 0.5 } 0
+p "" 1 1 "" { "TakeBulletin_sighting" "NoBulletin_sighting" } 0
+p "" 2 1 "" { "Drive" "SkipTrip" } 0
+t "" 1 "Sighting_Take_Drive" { 1, 1 }
+t "" 2 "Sighting_Take_SkipTrip" { -2, 0 }
+p "" 2 3 "" { "Drive" "SkipTrip" } 0
+t "" 5 "Sighting_NoTake_Drive" { 3, 1 }
+t "" 6 "Sighting_NoTake_SkipTrip" { 0, 0 }
+p "" 1 2 "" { "TakeBulletin_nosighting" "NoBulletin_nosighting" } 0
+p "" 2 2 "" { "Drive" "SkipTrip" } 0
+t "" 3 "NoSighting_Take_Drive" { -1, -1 }
+t "" 4 "NoSighting_Take_SkipTrip" { -2, 0 }
+p "" 2 3 "" { "Drive" "SkipTrip" } 0
+t "" 7 "NoSighting_NoTake_Drive" { 1, -1 }
+t "" 8 "NoSighting_NoTake_SkipTrip" { 0, 0 }

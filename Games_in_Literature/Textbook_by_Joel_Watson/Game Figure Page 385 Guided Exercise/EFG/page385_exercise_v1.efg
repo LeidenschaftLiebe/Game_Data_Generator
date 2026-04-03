@@ -1,0 +1,18 @@
+EFG 2 R "Festival Concert Flyer" { "Alex" "Bailey" }
+""
+
+c "" 1 "" { "Performance" 0.5 "NoPerformance" 0.5 } 0
+p "" 1 1 "" { "TakeFlyer_performance" "NoFlyer_performance" } 0
+p "" 2 1 "" { "Go" "StayHome" } 0
+t "" 1 "Performance_Take_Go" { 1, 1 }
+t "" 2 "Performance_Take_StayHome" { -2, 0 }
+p "" 2 3 "" { "Go" "StayHome" } 0
+t "" 5 "Performance_NoTake_Go" { 3, 1 }
+t "" 6 "Performance_NoTake_StayHome" { 0, 0 }
+p "" 1 2 "" { "TakeFlyer_noperformance" "NoFlyer_noperformance" } 0
+p "" 2 2 "" { "Go" "StayHome" } 0
+t "" 3 "NoPerformance_Take_Go" { -1, -1 }
+t "" 4 "NoPerformance_Take_StayHome" { -2, 0 }
+p "" 2 3 "" { "Go" "StayHome" } 0
+t "" 7 "NoPerformance_NoTake_Go" { 1, -1 }
+t "" 8 "NoPerformance_NoTake_StayHome" { 0, 0 }

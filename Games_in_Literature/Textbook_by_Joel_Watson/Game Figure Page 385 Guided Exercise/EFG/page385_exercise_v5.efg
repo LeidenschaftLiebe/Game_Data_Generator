@@ -1,0 +1,18 @@
+EFG 2 R "Space Center Visitor Day" { "Sam" "Quinn" }
+""
+
+c "" 1 "" { "TourAvailable" 0.5 "NoTour" 0.5 } 0
+p "" 1 1 "" { "TakeNotice_available" "NoNotice_available" } 0
+p "" 2 1 "" { "Go" "Refuse" } 0
+t "" 1 "Available_Take_Go" { 1, 1 }
+t "" 2 "Available_Take_Refuse" { -2, 0 }
+p "" 2 3 "" { "Go" "Refuse" } 0
+t "" 5 "Available_NoTake_Go" { 3, 1 }
+t "" 6 "Available_NoTake_Refuse" { 0, 0 }
+p "" 1 2 "" { "TakeNotice_notour" "NoNotice_notour" } 0
+p "" 2 2 "" { "Go" "Refuse" } 0
+t "" 3 "NoTour_Take_Go" { -1, -1 }
+t "" 4 "NoTour_Take_Refuse" { -2, 0 }
+p "" 2 3 "" { "Go" "Refuse" } 0
+t "" 7 "NoTour_NoTake_Go" { 1, -1 }
+t "" 8 "NoTour_NoTake_Refuse" { 0, 0 }

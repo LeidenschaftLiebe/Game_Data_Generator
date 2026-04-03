@@ -1,0 +1,18 @@
+EFG 2 R "Sports Practice Session" { "Riley" "Parker" }
+""
+
+c "" 1 "" { "Attendance" 0.5 "NoAttendance" 0.5 } 0
+p "" 1 1 "" { "TakeSheet_attendance" "NoSheet_attendance" } 0
+p "" 2 1 "" { "Drive" "Refuse" } 0
+t "" 1 "Attendance_Take_Drive" { 1, 1 }
+t "" 2 "Attendance_Take_Refuse" { -2, 0 }
+p "" 2 3 "" { "Drive" "Refuse" } 0
+t "" 5 "Attendance_NoTake_Drive" { 3, 1 }
+t "" 6 "Attendance_NoTake_Refuse" { 0, 0 }
+p "" 1 2 "" { "TakeSheet_noattendance" "NoSheet_noattendance" } 0
+p "" 2 2 "" { "Drive" "Refuse" } 0
+t "" 3 "NoAttendance_Take_Drive" { -1, -1 }
+t "" 4 "NoAttendance_Take_Refuse" { -2, 0 }
+p "" 2 3 "" { "Drive" "Refuse" } 0
+t "" 7 "NoAttendance_NoTake_Drive" { 1, -1 }
+t "" 8 "NoAttendance_NoTake_Refuse" { 0, 0 }

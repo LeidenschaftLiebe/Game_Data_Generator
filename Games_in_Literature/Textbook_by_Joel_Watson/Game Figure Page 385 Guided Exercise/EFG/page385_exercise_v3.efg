@@ -1,0 +1,18 @@
+EFG 2 R "Museum Exhibit Preview" { "Jordan" "Casey" }
+""
+
+c "" 1 "" { "PreviewOpen" 0.5 "PreviewClosed" 0.5 } 0
+p "" 1 1 "" { "TakeBulletin_open" "NoBulletin_open" } 0
+p "" 2 1 "" { "Go" "Refuse" } 0
+t "" 1 "Open_Take_Go" { 1, 1 }
+t "" 2 "Open_Take_Refuse" { -2, 0 }
+p "" 2 3 "" { "Go" "Refuse" } 0
+t "" 5 "Open_NoTake_Go" { 3, 1 }
+t "" 6 "Open_NoTake_Refuse" { 0, 0 }
+p "" 1 2 "" { "TakeBulletin_closed" "NoBulletin_closed" } 0
+p "" 2 2 "" { "Go" "Refuse" } 0
+t "" 3 "Closed_Take_Go" { -1, -1 }
+t "" 4 "Closed_Take_Refuse" { -2, 0 }
+p "" 2 3 "" { "Go" "Refuse" } 0
+t "" 7 "Closed_NoTake_Go" { 1, -1 }
+t "" 8 "Closed_NoTake_Refuse" { 0, 0 }

@@ -1,0 +1,14 @@
+EFG 2 R "Sports Recovery Planning" { "Athlete" "Medical Staff" }
+""
+
+c "" 1 "" { "StrongRecovery" 0.5 "WeakRecovery" 0.5 } 0
+p "" 1 1 "" { "LocalTrainingPlan" "SupervisedTrainingPlan" } 0
+t "" 1 "H_Local" { 2, 0 }
+p "" 2 1 "" { "AggressiveProgram" "ConservativeProgram" } 0
+t "" 2 "H_Supervised_Aggressive" { 3, 2 }
+t "" 3 "H_Supervised_Conservative" { 1, 0 }
+p "" 1 2 "" { "LocalTrainingPlan_prime" "SupervisedTrainingPlan_prime" } 0
+t "" 4 "L_LocalPrime" { 2, 0 }
+p "" 2 1 "" { "AggressiveProgram" "ConservativeProgram" } 0
+t "" 5 "L_SupervisedPrime_Aggressive" { 1, 0 }
+t "" 6 "L_SupervisedPrime_Conservative" { 1, 1 }

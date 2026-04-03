@@ -1,0 +1,14 @@
+EFG 2 R "Museum Exhibit Launch" { "Museum Director" "Publicity Partner" }
+""
+
+c "" 1 "" { "StrongInterest" 0.5 "WeakInterest" 0.5 } 0
+p "" 1 1 "" { "LocalLaunchPlan" "MediaLaunchPlan" } 0
+t "" 1 "H_Local" { 2, 0 }
+p "" 2 1 "" { "UrgentCampaign" "DelayedCampaign" } 0
+t "" 2 "H_Media_Urgent" { 3, 2 }
+t "" 3 "H_Media_Delayed" { 1, 0 }
+p "" 1 2 "" { "LocalLaunchPlan_prime" "MediaLaunchPlan_prime" } 0
+t "" 4 "L_LocalPrime" { 2, 0 }
+p "" 2 1 "" { "UrgentCampaign" "DelayedCampaign" } 0
+t "" 5 "L_MediaPrime_Urgent" { 1, 0 }
+t "" 6 "L_MediaPrime_Delayed" { 1, 1 }

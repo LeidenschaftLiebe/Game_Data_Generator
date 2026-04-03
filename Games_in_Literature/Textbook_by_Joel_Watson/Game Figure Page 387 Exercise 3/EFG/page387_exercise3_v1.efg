@@ -1,0 +1,14 @@
+EFG 2 R "Wildlife Rescue Routing" { "Field Leader" "Support Coordinator" }
+""
+
+c "" 1 "" { "HighVisibility" 0.5 "LowVisibility" 0.5 } 0
+p "" 1 1 "" { "LocalRoute" "RelayRoute" } 0
+t "" 1 "H_Local" { 2, 0 }
+p "" 2 1 "" { "UrgentSupport" "DelayedSupport" } 0
+t "" 2 "H_Relay_Urgent" { 3, 2 }
+t "" 3 "H_Relay_Delayed" { 1, 0 }
+p "" 1 2 "" { "LocalRoute_prime" "RelayRoute_prime" } 0
+t "" 4 "L_LocalPrime" { 2, 0 }
+p "" 2 1 "" { "UrgentSupport" "DelayedSupport" } 0
+t "" 5 "L_RelayPrime_Urgent" { 1, 0 }
+t "" 6 "L_RelayPrime_Delayed" { 1, 1 }

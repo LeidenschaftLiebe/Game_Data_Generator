@@ -1,0 +1,14 @@
+EFG 2 R "Cybersecurity Response" { "Security Lead" "Outside Response Firm" }
+""
+
+c "" 1 "" { "HighRisk" 0.5 "LowRisk" 0.5 } 0
+p "" 1 1 "" { "LocalFix" "EscalationRoute" } 0
+t "" 1 "H_Local" { 2, 0 }
+p "" 2 1 "" { "UrgentIntervention" "DelayedIntervention" } 0
+t "" 2 "H_Escalation_Urgent" { 3, 2 }
+t "" 3 "H_Escalation_Delayed" { 1, 0 }
+p "" 1 2 "" { "LocalFix_prime" "EscalationRoute_prime" } 0
+t "" 4 "L_LocalPrime" { 2, 0 }
+p "" 2 1 "" { "UrgentIntervention" "DelayedIntervention" } 0
+t "" 5 "L_EscalationPrime_Urgent" { 1, 0 }
+t "" 6 "L_EscalationPrime_Delayed" { 1, 1 }

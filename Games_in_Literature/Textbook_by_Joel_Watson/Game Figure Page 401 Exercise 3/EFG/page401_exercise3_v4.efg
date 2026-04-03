@@ -1,0 +1,14 @@
+EFG 2 R "Sports Club Recruitment" { "Club" "Player" }
+""
+
+c "" 1 "" { "WellRun" 0.5 "BadlyRun" 0.5 } 0
+p "" 1 1 "" { "NoOffer_W" "Offer_W" } 0
+t "" 1 "WellRun_NoOffer" { 0, 0 }
+p "" 2 1 "" { "Accept" "Reject" } 0
+t "" 3 "WellRun_Offer_Accept" { 2, 2 }
+t "" 4 "WellRun_Offer_Reject" { -1, 0 }
+p "" 1 2 "" { "NoOffer_B" "Offer_B" } 0
+t "" 2 "BadlyRun_NoOffer" { 0, 0 }
+p "" 2 1 "" { "Accept" "Reject" } 0
+t "" 5 "BadlyRun_Offer_Accept" { 2, -1 }
+t "" 6 "BadlyRun_Offer_Reject" { -1, 0 }

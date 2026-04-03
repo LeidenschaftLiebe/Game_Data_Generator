@@ -1,0 +1,14 @@
+EFG 2 R "Cybersecurity Firm Offer" { "Security Company" "Analyst" }
+""
+
+c "" 1 "" { "StrongEmployer" 0.5 "WeakEmployer" 0.5 } 0
+p "" 1 1 "" { "NoOffer_S" "Offer_S" } 0
+t "" 1 "Strong_NoOffer" { 0, 0 }
+p "" 2 1 "" { "Accept" "Reject" } 0
+t "" 3 "Strong_Offer_Accept" { 2, 2 }
+t "" 4 "Strong_Offer_Reject" { -1, 0 }
+p "" 1 2 "" { "NoOffer_W" "Offer_W" } 0
+t "" 2 "Weak_NoOffer" { 0, 0 }
+p "" 2 1 "" { "Accept" "Reject" } 0
+t "" 5 "Weak_Offer_Accept" { 2, -1 }
+t "" 6 "Weak_Offer_Reject" { -1, 0 }

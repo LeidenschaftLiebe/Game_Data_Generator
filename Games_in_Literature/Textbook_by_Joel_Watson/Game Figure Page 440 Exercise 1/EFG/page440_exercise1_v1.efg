@@ -1,0 +1,18 @@
+EFG 2 R "Museum Gallery Game" { "Mia" "Host" "Jordan" }
+""
+
+p "" 1 1 "" { "GalleryA" "GalleryB" } 0
+p "" 2 1 "" { "North_after_A" "South_after_A" } 0
+p "" 3 1 "" { "ChooseA" "ChooseB" } 0
+t "" 1 "MiaA_North_JordanA" { 0, 10, 100 }
+t "" 2 "MiaA_North_JordanB" { 100, 0, 0 }
+p "" 3 2 "" { "ChooseA" "ChooseB" } 0
+t "" 3 "MiaA_South_JordanA" { 0, 10, 100 }
+t "" 4 "MiaA_South_JordanB" { 100, 0, 0 }
+p "" 2 2 "" { "North_after_B" "South_after_B" } 0
+p "" 3 1 "" { "ChooseA" "ChooseB" } 0
+t "" 5 "MiaB_North_JordanA" { 100, 10, 0 }
+t "" 6 "MiaB_North_JordanB" { 0, 0, 100 }
+p "" 3 2 "" { "ChooseA" "ChooseB" } 0
+t "" 7 "MiaB_South_JordanA" { 100, 10, 0 }
+t "" 8 "MiaB_South_JordanB" { 0, 0, 100 }

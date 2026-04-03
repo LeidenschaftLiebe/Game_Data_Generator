@@ -1,0 +1,18 @@
+EFG 2 R "Sports Locker Challenge" { "Hider" "Referee" "Chooser" }
+""
+
+p "" 1 1 "" { "LockerA" "LockerB" } 0
+p "" 2 1 "" { "Red_after_A" "Green_after_A" } 0
+p "" 3 1 "" { "ChooseA" "ChooseB" } 0
+t "" 1 "A_Red_A" { 0, 10, 100 }
+t "" 2 "A_Red_B" { 100, 0, 0 }
+p "" 3 2 "" { "ChooseA" "ChooseB" } 0
+t "" 3 "A_Green_A" { 0, 10, 100 }
+t "" 4 "A_Green_B" { 100, 0, 0 }
+p "" 2 2 "" { "Red_after_B" "Green_after_B" } 0
+p "" 3 1 "" { "ChooseA" "ChooseB" } 0
+t "" 5 "B_Red_A" { 100, 10, 0 }
+t "" 6 "B_Red_B" { 0, 0, 100 }
+p "" 3 2 "" { "ChooseA" "ChooseB" } 0
+t "" 7 "B_Green_A" { 100, 10, 0 }
+t "" 8 "B_Green_B" { 0, 0, 100 }

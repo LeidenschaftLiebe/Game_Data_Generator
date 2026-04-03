@@ -1,0 +1,18 @@
+EFG 2 R "Wildlife Reserve Trail Game" { "Ranger" "Guide" "Visitor" }
+""
+
+p "" 1 1 "" { "TrailA" "TrailB" } 0
+p "" 2 1 "" { "RedTrail_after_A" "GreenTrail_after_A" } 0
+p "" 3 1 "" { "ChooseA" "ChooseB" } 0
+t "" 1 "A_Red_A" { 0, 10, 100 }
+t "" 2 "A_Red_B" { 100, 0, 0 }
+p "" 3 2 "" { "ChooseA" "ChooseB" } 0
+t "" 3 "A_Green_A" { 0, 10, 100 }
+t "" 4 "A_Green_B" { 100, 0, 0 }
+p "" 2 2 "" { "RedTrail_after_B" "GreenTrail_after_B" } 0
+p "" 3 1 "" { "ChooseA" "ChooseB" } 0
+t "" 5 "B_Red_A" { 100, 10, 0 }
+t "" 6 "B_Red_B" { 0, 0, 100 }
+p "" 3 2 "" { "ChooseA" "ChooseB" } 0
+t "" 7 "B_Green_A" { 100, 10, 0 }
+t "" 8 "B_Green_B" { 0, 0, 100 }

@@ -1,0 +1,18 @@
+EFG 2 R "Space Bay Guessing Game" { "Lee" "Marshal" "Nova" }
+""
+
+p "" 1 1 "" { "BayA" "BayB" } 0
+p "" 2 1 "" { "SignalRed_after_A" "SignalGreen_after_A" } 0
+p "" 3 1 "" { "ChooseA" "ChooseB" } 0
+t "" 1 "LeeA_Red_NovaA" { 0, 10, 100 }
+t "" 2 "LeeA_Red_NovaB" { 100, 0, 0 }
+p "" 3 2 "" { "ChooseA" "ChooseB" } 0
+t "" 3 "LeeA_Green_NovaA" { 0, 10, 100 }
+t "" 4 "LeeA_Green_NovaB" { 100, 0, 0 }
+p "" 2 2 "" { "SignalRed_after_B" "SignalGreen_after_B" } 0
+p "" 3 1 "" { "ChooseA" "ChooseB" } 0
+t "" 5 "LeeB_Red_NovaA" { 100, 10, 0 }
+t "" 6 "LeeB_Red_NovaB" { 0, 0, 100 }
+p "" 3 2 "" { "ChooseA" "ChooseB" } 0
+t "" 7 "LeeB_Green_NovaA" { 100, 10, 0 }
+t "" 8 "LeeB_Green_NovaB" { 0, 0, 100 }

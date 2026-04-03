@@ -1,0 +1,8 @@
+EFG 2 R "Signing Bonus Choice" { "You" }
+""
+
+p "" 1 1 "" { "Package A" "Package B" } 0
+t "" 1 "Guaranteed_950" { 950 }
+c "" 1 "" { "Heads" 0.5 "Tails" 0.5 } 0
+t "" 2 "CoinFlip_2000" { 2000 }
+t "" 3 "CoinFlip_0" { 0 }

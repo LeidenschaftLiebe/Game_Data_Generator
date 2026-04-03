@@ -1,0 +1,8 @@
+EFG 2 R "Museum Raffle Choice" { "You" }
+""
+
+p "" 1 1 "" { "Sure voucher" "Raffle ticket" } 0
+t "" 1 "Voucher_950" { 950 }
+c "" 1 "" { "Heads" 0.5 "Tails" 0.5 } 0
+t "" 2 "Raffle_2000" { 2000 }
+t "" 3 "Raffle_0" { 0 }

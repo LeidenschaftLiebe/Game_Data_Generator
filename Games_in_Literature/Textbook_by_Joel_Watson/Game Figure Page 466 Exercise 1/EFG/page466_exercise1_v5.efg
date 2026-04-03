@@ -1,0 +1,14 @@
+EFG 2 R "Cybersecurity Access Token Game" { "Player 1" "Player 2" }
+""
+
+c "" 1 "" { "MasterToken" 0.5 "LimitedToken" 0.5 } 0
+p "" 1 1 "" { "Push_M" "BackAway_M" } 0
+p "" 2 1 "" { "Challenge" "Concede" } 0
+t "" 3 "Master_Push_Challenge" { 2, -2 }
+t "" 4 "Master_Push_Concede" { 1, -1 }
+t "" 1 "Master_BackAway" { -1, 1 }
+p "" 1 2 "" { "Push_L" "BackAway_L" } 0
+p "" 2 1 "" { "Challenge" "Concede" } 0
+t "" 5 "Limited_Push_Challenge" { -2, 2 }
+t "" 6 "Limited_Push_Concede" { 1, -1 }
+t "" 2 "Limited_BackAway" { -1, 1 }

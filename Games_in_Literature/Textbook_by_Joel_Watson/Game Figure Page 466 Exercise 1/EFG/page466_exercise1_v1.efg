@@ -1,0 +1,14 @@
+EFG 2 R "Spaceport Inspection Game" { "Player 1" "Player 2" }
+""
+
+c "" 1 "" { "PremiumBadge" 0.5 "StandardBadge" 0.5 } 0
+p "" 1 1 "" { "Press_P" "BackDown_P" } 0
+p "" 2 1 "" { "Challenge" "Yield" } 0
+t "" 3 "Premium_Press_Challenge" { 2, -2 }
+t "" 4 "Premium_Press_Yield" { 1, -1 }
+t "" 1 "Premium_BackDown" { -1, 1 }
+p "" 1 2 "" { "Press_S" "BackDown_S" } 0
+p "" 2 1 "" { "Challenge" "Yield" } 0
+t "" 5 "Standard_Press_Challenge" { -2, 2 }
+t "" 6 "Standard_Press_Yield" { 1, -1 }
+t "" 2 "Standard_BackDown" { -1, 1 }

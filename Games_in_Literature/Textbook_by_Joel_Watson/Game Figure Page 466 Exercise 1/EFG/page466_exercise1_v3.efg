@@ -1,0 +1,14 @@
+EFG 2 R "Museum Authentication Challenge" { "Player 1" "Player 2" }
+""
+
+c "" 1 "" { "Genuine" 0.5 "WeakCopy" 0.5 } 0
+p "" 1 1 "" { "StandBy_G" "Withdraw_G" } 0
+p "" 2 1 "" { "Contest" "LetPass" } 0
+t "" 3 "Genuine_StandBy_Contest" { 2, -2 }
+t "" 4 "Genuine_StandBy_LetPass" { 1, -1 }
+t "" 1 "Genuine_Withdraw" { -1, 1 }
+p "" 1 2 "" { "StandBy_W" "Withdraw_W" } 0
+p "" 2 1 "" { "Contest" "LetPass" } 0
+t "" 5 "Weak_StandBy_Contest" { -2, 2 }
+t "" 6 "Weak_StandBy_LetPass" { 1, -1 }
+t "" 2 "Weak_Withdraw" { -1, 1 }

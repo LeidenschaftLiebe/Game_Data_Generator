@@ -1,0 +1,14 @@
+EFG 2 R "Festival Pass Bluff" { "Player 1" "Player 2" }
+""
+
+c "" 1 "" { "VIPPass" 0.5 "RegularPass" 0.5 } 0
+p "" 1 1 "" { "Claim_V" "StepAway_V" } 0
+p "" 2 1 "" { "CallOut" "BackOff" } 0
+t "" 3 "VIP_Claim_CallOut" { 2, -2 }
+t "" 4 "VIP_Claim_BackOff" { 1, -1 }
+t "" 1 "VIP_StepAway" { -1, 1 }
+p "" 1 2 "" { "Claim_R" "StepAway_R" } 0
+p "" 2 1 "" { "CallOut" "BackOff" } 0
+t "" 5 "Regular_Claim_CallOut" { -2, 2 }
+t "" 6 "Regular_Claim_BackOff" { 1, -1 }
+t "" 2 "Regular_StepAway" { -1, 1 }

@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+Player 1 first chooses between a and b. If a is chosen, Player 1 then chooses between c and d. If b is chosen, the game ends immediately.
+Seed payoff constraint: after the action sequence a then c, Player 1 gets 1.

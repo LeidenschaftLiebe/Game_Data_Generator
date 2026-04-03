@@ -1,0 +1,8 @@
+EFG 2 R "GEB Fig. 1 Game 1 V1" { "Student" }
+""
+
+p "" 1 1 "" { "LongPlan" "SummaryReview" } 0
+p "" 1 2 "" { "StayFocused" "GetDistracted" } 0
+t "" 2 "LongPlan_StayFocused" { 1 }
+t "" 3 "LongPlan_GetDistracted" { 0 }
+t "" 1 "SummaryReview" { 1 }

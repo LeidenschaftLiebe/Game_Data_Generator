@@ -1,0 +1,8 @@
+EFG 2 R "GEB Fig. 1 Game 1 V5" { "Applicant" }
+""
+
+p "" 1 1 "" { "ReviseAgain" "SendNow" } 0
+p "" 1 2 "" { "SendCorrectVersion" "SendWrongAttachment" } 0
+t "" 2 "ReviseAgain_SendCorrectVersion" { 1 }
+t "" 3 "ReviseAgain_SendWrongAttachment" { 0 }
+t "" 1 "SendNow" { 1 }

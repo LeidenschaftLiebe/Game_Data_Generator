@@ -1,0 +1,9 @@
+V1
+
+A student is deciding how to prepare for an important quiz.
+At the start, the student chooses between review summary notes (b) and follow a longer study plan (a).
+If the student reviews the summary notes, the day ends with a solid award 1.
+If the student follows the longer study plan, there is one more choice later between stay focused (c) and get distracted (d).
+Staying focused leads to award 1.
+Getting distracted leads to award 0.
+The student knows the longer plan could work well, but also knows there is a chance of slipping later.

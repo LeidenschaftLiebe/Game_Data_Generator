@@ -1,0 +1,8 @@
+EFG 2 R "GEB Fig. 1 Game 1 V2" { "Traveler" }
+""
+
+p "" 1 1 "" { "CheapRoute" "DirectTrain" } 0
+p "" 1 2 "" { "MakeTransfer" "MissTransfer" } 0
+t "" 2 "CheapRoute_MakeTransfer" { 1 }
+t "" 3 "CheapRoute_MissTransfer" { 0 }
+t "" 1 "DirectTrain" { 1 }

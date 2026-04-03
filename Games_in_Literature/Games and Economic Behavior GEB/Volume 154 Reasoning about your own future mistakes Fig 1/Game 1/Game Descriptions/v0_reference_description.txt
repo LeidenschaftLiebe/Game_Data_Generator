@@ -1,0 +1,9 @@
+V0
+
+A single decision-maker is choosing a plan while thinking about the possibility of making a mistake later on.
+At the start, the person chooses between a and b.
+If b is chosen, the process ends immediately with award 1.
+If a is chosen, the person must make one more choice later between c and d.
+Choosing c leads to award 1.
+Choosing d leads to award 0.
+The key idea is that even if the person intends to choose c later, they may still worry that they could accidentally end up choosing d.

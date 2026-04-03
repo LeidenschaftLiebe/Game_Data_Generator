@@ -1,0 +1,9 @@
+V4
+
+A cook is deciding how to handle dinner service.
+At the beginning, the cook chooses between serve the prepared dish now (b) and try an extra finishing step (a).
+Serving now gives outcome 1.
+Trying the extra step leads to a later choice between finish it properly (c) and overcook it (d).
+Finishing it properly gives outcome 1.
+Overcooking it gives outcome 0.
+The cook may trust their skill, but still recognizes the risk of a future slip under pressure.

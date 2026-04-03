@@ -1,0 +1,8 @@
+EFG 2 R "GEB Fig. 1 Game 1 V3" { "Manager" }
+""
+
+p "" 1 1 "" { "EditMore" "SendNow" } 0
+p "" 1 2 "" { "SaveCorrectVersion" "OverwriteFile" } 0
+t "" 2 "EditMore_SaveCorrectVersion" { 1 }
+t "" 3 "EditMore_OverwriteFile" { 0 }
+t "" 1 "SendNow" { 1 }

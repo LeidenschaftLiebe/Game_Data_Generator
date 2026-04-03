@@ -1,0 +1,9 @@
+V5
+
+A job applicant is deciding how to respond to an employer.
+At the start, the applicant chooses between send the polished message now (b) and revise it one more time first (a).
+Sending it now leads directly to outcome 1.
+Revising it first creates a later choice between send the correct version (c) and send the wrong attachment (d).
+Sending the correct version leads to outcome 1.
+Sending the wrong attachment leads to outcome 0.
+The applicant understands that adding one more step also adds one more chance for an avoidable mistake.

@@ -1,0 +1,9 @@
+V3
+
+A manager is deciding how to submit an important report.
+At the start, the manager chooses between send the finished draft now (b) and do one more round of edits first (a).
+Sending it now ends the process with outcome 1.
+Doing one more round of edits leads to a later choice between save the correct version (c) and accidentally overwrite the file (d).
+Saving the correct version leads to outcome 1.
+Accidentally overwriting the file leads to outcome 0.
+The manager realizes that delaying submission creates one more point where something can go wrong.

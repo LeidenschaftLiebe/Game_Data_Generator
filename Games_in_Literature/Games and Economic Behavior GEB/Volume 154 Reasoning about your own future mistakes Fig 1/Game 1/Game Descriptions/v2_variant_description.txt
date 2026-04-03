@@ -1,0 +1,9 @@
+V2
+
+A traveler is deciding how to get to the airport.
+At the beginning, the traveler chooses between take the direct train (b) and take a cheaper two-step route (a).
+If the direct train is chosen, the traveler arrives safely with outcome 1.
+If the cheaper route is chosen, the traveler later faces another choice between make the transfer correctly (c) and miss the transfer (d).
+Making the transfer correctly leads to outcome 1.
+Missing the transfer leads to outcome 0.
+The traveler may prefer the longer route in principle, but worries about making a mistake during the transfer.

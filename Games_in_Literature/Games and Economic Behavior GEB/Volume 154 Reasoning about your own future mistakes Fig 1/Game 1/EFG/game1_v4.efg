@@ -1,0 +1,8 @@
+EFG 2 R "GEB Fig. 1 Game 1 V4" { "Cook" }
+""
+
+p "" 1 1 "" { "ExtraFinishingStep" "ServeNow" } 0
+p "" 1 2 "" { "FinishProperly" "Overcook" } 0
+t "" 2 "ExtraFinishingStep_FinishProperly" { 1 }
+t "" 3 "ExtraFinishingStep_Overcook" { 0 }
+t "" 1 "ServeNow" { 1 }

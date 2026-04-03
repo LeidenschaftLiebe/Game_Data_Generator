@@ -1,0 +1,10 @@
+EFG 2 R "Sports Training Facility" { "1" "2" }
+""
+
+p "" 1 1 "" { "No repair investment" "Invest in repairs" } 0
+t "" 1 "P1_NoInvest" { 0, 0 }
+p "" 2 1 "" { "No repair investment" "Invest in repairs" } 0
+t "" 2 "P1_Invest_P2_NoInvest" { -2, 0 }
+p "" 1 2 "" { "Reserve selfishly" "Share time" } 0
+t "" 3 "BothInvest_Reserve" { 6, -2 }
+t "" 4 "BothInvest_Share" { 2, 2 }

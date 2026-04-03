@@ -1,0 +1,10 @@
+EFG 2 R "Space Rover Repair" { "1" "2" }
+""
+
+p "" 1 1 "" { "No repair effort" "Invest repair effort" } 0
+t "" 1 "P1_NoInvest" { 0, 0 }
+p "" 2 1 "" { "No repair effort" "Invest repair effort" } 0
+t "" 2 "P1_Invest_P2_NoInvest" { -2, 0 }
+p "" 1 2 "" { "Exclusive use" "Shared use" } 0
+t "" 3 "BothInvest_Exclusive" { 6, -2 }
+t "" 4 "BothInvest_Shared" { 2, 2 }

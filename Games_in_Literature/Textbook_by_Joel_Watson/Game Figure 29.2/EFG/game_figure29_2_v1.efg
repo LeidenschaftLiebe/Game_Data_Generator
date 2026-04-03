@@ -1,0 +1,10 @@
+EFG 2 R "Wildlife Rescue Vehicle" { "1" "2" }
+""
+
+p "" 1 1 "" { "No contribute" "Contribute" } 0
+t "" 1 "P1_NoContribute" { 0, 0 }
+p "" 2 1 "" { "No contribute" "Contribute" } 0
+t "" 2 "P1_Contribute_P2_NoContribute" { -2, 0 }
+p "" 1 2 "" { "Keep for personal use" "Share access" } 0
+t "" 3 "BothContribute_Keep" { 6, -2 }
+t "" 4 "BothContribute_Share" { 2, 2 }

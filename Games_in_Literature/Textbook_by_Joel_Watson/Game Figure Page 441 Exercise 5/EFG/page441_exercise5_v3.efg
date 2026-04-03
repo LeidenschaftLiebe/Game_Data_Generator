@@ -1,0 +1,14 @@
+EFG 2 R "Festival Prop Game" { "First Performer" "Second Performer" "Third Performer" }
+""
+
+p "" 1 1 "" { "Head" "Floor" } 0
+p "" 2 1 "" { "Wear" "Floor" } 0
+t "" 1 "FirstHead_SecondWear" { 0, 0, 0 }
+p "" 3 1 "" { "Yes" "No" } 0
+t "" 3 "FirstHead_ThirdYes" { -1, 0, 1 }
+t "" 4 "FirstHead_ThirdNo" { 1, 0, -1 }
+p "" 2 2 "" { "Wear_prime" "Floor_prime" } 0
+t "" 2 "FirstFloor_SecondWear" { 0, 0, 0 }
+p "" 3 1 "" { "Yes" "No" } 0
+t "" 5 "FirstFloor_ThirdYes" { 1, 0, -1 }
+t "" 6 "FirstFloor_ThirdNo" { -1, 0, 1 }

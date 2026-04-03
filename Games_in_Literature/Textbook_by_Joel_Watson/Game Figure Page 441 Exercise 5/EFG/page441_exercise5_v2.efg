@@ -1,0 +1,14 @@
+EFG 2 R "Space Station Storage Game" { "First Crew Member" "Second Crew Member" "Third Crew Member" }
+""
+
+p "" 1 1 "" { "UpperRack" "Deck" } 0
+p "" 2 1 "" { "UpperRack" "Deck" } 0
+t "" 1 "FirstRack_SecondRack" { 0, 0, 0 }
+p "" 3 1 "" { "Yes" "No" } 0
+t "" 3 "FirstRack_ThirdYes" { -1, 0, 1 }
+t "" 4 "FirstRack_ThirdNo" { 1, 0, -1 }
+p "" 2 2 "" { "UpperRack_prime" "Deck_prime" } 0
+t "" 2 "FirstDeck_SecondRack" { 0, 0, 0 }
+p "" 3 1 "" { "Yes" "No" } 0
+t "" 5 "FirstDeck_ThirdYes" { 1, 0, -1 }
+t "" 6 "FirstDeck_ThirdNo" { -1, 0, 1 }

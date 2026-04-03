@@ -1,0 +1,14 @@
+EFG 2 R "Cybersecurity Token Game" { "First Analyst" "Second Analyst" "Supervisor" }
+""
+
+p "" 1 1 "" { "Terminal" "Desk" } 0
+p "" 2 1 "" { "Terminal" "Desk" } 0
+t "" 1 "FirstTerminal_SecondTerminal" { 0, 0, 0 }
+p "" 3 1 "" { "Yes" "No" } 0
+t "" 3 "FirstTerminal_SupervisorYes" { -1, 0, 1 }
+t "" 4 "FirstTerminal_SupervisorNo" { 1, 0, -1 }
+p "" 2 2 "" { "Terminal_prime" "Desk_prime" } 0
+t "" 2 "FirstDesk_SecondTerminal" { 0, 0, 0 }
+p "" 3 1 "" { "Yes" "No" } 0
+t "" 5 "FirstDesk_SupervisorYes" { 1, 0, -1 }
+t "" 6 "FirstDesk_SupervisorNo" { -1, 0, 1 }

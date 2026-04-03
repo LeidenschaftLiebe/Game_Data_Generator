@@ -1,0 +1,14 @@
+EFG 2 R "Sports Training Marker Game" { "First Player" "Teammate" "Coach" }
+""
+
+p "" 1 1 "" { "Rack" "Ground" } 0
+p "" 2 1 "" { "Rack" "Ground" } 0
+t "" 1 "FirstRack_TeammateRack" { 0, 0, 0 }
+p "" 3 1 "" { "Yes" "No" } 0
+t "" 3 "FirstRack_CoachYes" { -1, 0, 1 }
+t "" 4 "FirstRack_CoachNo" { 1, 0, -1 }
+p "" 2 2 "" { "Rack_prime" "Ground_prime" } 0
+t "" 2 "FirstGround_TeammateRack" { 0, 0, 0 }
+p "" 3 1 "" { "Yes" "No" } 0
+t "" 5 "FirstGround_CoachYes" { 1, 0, -1 }
+t "" 6 "FirstGround_CoachNo" { -1, 0, 1 }

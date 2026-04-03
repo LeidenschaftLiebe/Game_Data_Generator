@@ -1,0 +1,14 @@
+EFG 2 R "Museum Signal Game" { "Curator" "Assistant" "Observer" }
+""
+
+p "" 1 1 "" { "TopShelf" "Floor" } 0
+p "" 2 1 "" { "High" "Floor" } 0
+t "" 1 "CuratorTop_AssistantHigh" { 0, 0, 0 }
+p "" 3 1 "" { "Yes" "No" } 0
+t "" 3 "CuratorTop_ObserverYes" { -1, 0, 1 }
+t "" 4 "CuratorTop_ObserverNo" { 1, 0, -1 }
+p "" 2 2 "" { "High_prime" "Floor_prime" } 0
+t "" 2 "CuratorFloor_AssistantHigh" { 0, 0, 0 }
+p "" 3 1 "" { "Yes" "No" } 0
+t "" 5 "CuratorFloor_ObserverYes" { 1, 0, -1 }
+t "" 6 "CuratorFloor_ObserverNo" { -1, 0, 1 }

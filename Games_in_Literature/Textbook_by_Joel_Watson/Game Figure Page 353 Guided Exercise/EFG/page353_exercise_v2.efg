@@ -1,0 +1,14 @@
+EFG 2 R "Space Mission Operations" { "Mission Commander" "Mission Control" }
+""
+
+p "" 1 1 "" { "Live-adjustment plan" "Deferred-adjustment plan" } 0
+p "" 2 1 "" { "Response A" "Response B" } 0
+t "" 1 "LiveAdjustment_A" { 0, 4 }
+t "" 2 "LiveAdjustment_B" { 4, 0 }
+c "" 1 "" { "Branch P" 0.5 "Branch Q" 0.5 } 0
+p "" 2 1 "" { "Response A" "Response B" } 0
+t "" 3 "Deferred_P_A" { 4, 0 }
+t "" 4 "Deferred_P_B" { 0, 4 }
+p "" 2 2 "" { "Response X" "Response Y" } 0
+t "" 5 "Deferred_Q_X" { 2, 2 }
+t "" 6 "Deferred_Q_Y" { 0, 0 }

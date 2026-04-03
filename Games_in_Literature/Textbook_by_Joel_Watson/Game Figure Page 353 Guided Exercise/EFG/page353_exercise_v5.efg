@@ -1,0 +1,14 @@
+EFG 2 R "Cybersecurity Response" { "Security Lead" "Outside Incident-Response Firm" }
+""
+
+p "" 1 1 "" { "Handle internally" "Escalate" } 0
+p "" 2 1 "" { "Urgent intervention" "Delayed intervention" } 0
+t "" 1 "Internal_Urgent" { 0, 4 }
+t "" 2 "Internal_Delayed" { 4, 0 }
+c "" 1 "" { "Branch P" 0.5 "Branch Q" 0.5 } 0
+p "" 2 1 "" { "Urgent intervention" "Delayed intervention" } 0
+t "" 3 "Escalate_P_Urgent" { 4, 0 }
+t "" 4 "Escalate_P_Delayed" { 0, 4 }
+p "" 2 2 "" { "Action X" "Action Y" } 0
+t "" 5 "Escalate_Q_X" { 2, 2 }
+t "" 6 "Escalate_Q_Y" { 0, 0 }

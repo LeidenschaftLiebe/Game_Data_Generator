@@ -1,0 +1,14 @@
+EFG 2 R "Sports Recovery Decision" { "Athlete" "Medical Staff" }
+""
+
+p "" 1 1 "" { "Light-training plan" "Delayed-treatment plan" } 0
+p "" 2 1 "" { "Treatment A" "Treatment B" } 0
+t "" 1 "LightTraining_A" { 0, 4 }
+t "" 2 "LightTraining_B" { 4, 0 }
+c "" 1 "" { "Branch P" 0.5 "Branch Q" 0.5 } 0
+p "" 2 1 "" { "Treatment A" "Treatment B" } 0
+t "" 3 "Delayed_P_A" { 4, 0 }
+t "" 4 "Delayed_P_B" { 0, 4 }
+p "" 2 2 "" { "Treatment X" "Treatment Y" } 0
+t "" 5 "Delayed_Q_X" { 2, 2 }
+t "" 6 "Delayed_Q_Y" { 0, 0 }

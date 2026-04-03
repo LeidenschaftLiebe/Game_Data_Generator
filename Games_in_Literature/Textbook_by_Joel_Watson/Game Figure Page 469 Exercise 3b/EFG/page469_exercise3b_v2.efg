@@ -1,0 +1,18 @@
+EFG 2 R "Space Mission Command" { "Commander A" "Commander B" "Response Officer" }
+""
+
+c "" 1 "" { "ModuleA" 1/2 "ModuleB" 1/2 } 0
+p "" 1 1 "" { "UpperRoute" "LowerRoute" } 0
+p "" 3 1 "" { "L" "R" } 0
+t "" 1 "A_U_L" { 2, 0, 2 }
+t "" 2 "A_U_R" { 0, 0, 0 }
+p "" 3 1 "" { "L" "R" } 0
+t "" 3 "A_D_L" { 0, 0, 0 }
+t "" 4 "A_D_R" { 4, 0, 4 }
+p "" 2 1 "" { "UpperRoute" "LowerRoute" } 0
+p "" 3 1 "" { "L" "R" } 0
+t "" 5 "B_u_L" { 0, 0, 2 }
+t "" 6 "B_u_R" { 0, 2, 0 }
+p "" 3 1 "" { "L" "R" } 0
+t "" 7 "B_d_L" { 0, 4, 0 }
+t "" 8 "B_d_R" { 0, 0, 4 }

@@ -1,0 +1,14 @@
+EFG 2 R "Wildlife Documentary Release" { "Producer" "Distributor" }
+""
+
+c "" 1 "" { "StrongInterest" 0.5 "WeakInterest" 0.5 } 0
+p "" 1 1 "" { "OrdinaryRelease_H" "PremiumRelease_H" } 0
+t "" 1 "H_Ordinary" { 4, 4 }
+p "" 2 1 "" { "ReleaseOptionX" "ReleaseOptionY" } 0
+t "" 2 "H_Premium_X" { 6, 4 }
+t "" 3 "H_Premium_Y" { 0, 0 }
+p "" 1 2 "" { "OrdinaryRelease_L" "PremiumRelease_L" } 0
+t "" 4 "L_Ordinary" { 4, 2 }
+p "" 2 1 "" { "ReleaseOptionX" "ReleaseOptionY" } 0
+t "" 5 "L_Premium_X" { 6, 0 }
+t "" 6 "L_Premium_Y" { 0, 6 }

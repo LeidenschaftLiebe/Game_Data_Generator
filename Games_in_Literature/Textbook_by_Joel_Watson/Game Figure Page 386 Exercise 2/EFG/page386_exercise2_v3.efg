@@ -1,0 +1,14 @@
+EFG 2 R "Sports Contract Negotiation" { "Agent" "Club" }
+""
+
+c "" 1 "" { "PeakPerformance" 0.5 "Recovery" 0.5 } 0
+p "" 1 1 "" { "StandardPush_H" "AggressivePush_H" } 0
+t "" 1 "H_Standard" { 4, 4 }
+p "" 2 1 "" { "ResponseX" "ResponseY" } 0
+t "" 2 "H_Aggressive_X" { 6, 4 }
+t "" 3 "H_Aggressive_Y" { 0, 0 }
+p "" 1 2 "" { "StandardPush_L" "AggressivePush_L" } 0
+t "" 4 "L_Standard" { 4, 2 }
+p "" 2 1 "" { "ResponseX" "ResponseY" } 0
+t "" 5 "L_Aggressive_X" { 6, 0 }
+t "" 6 "L_Aggressive_Y" { 0, 6 }

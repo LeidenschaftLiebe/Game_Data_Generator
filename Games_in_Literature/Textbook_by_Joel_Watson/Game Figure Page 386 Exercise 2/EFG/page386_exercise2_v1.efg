@@ -1,0 +1,14 @@
+EFG 2 R "Theme Park VIP Day" { "Park Manager" "Operations Chief" }
+""
+
+c "" 1 "" { "HighDemand" 0.5 "LowDemand" 0.5 } 0
+p "" 1 1 "" { "StandardPlan_H" "PremiumPlan_H" } 0
+t "" 1 "H_Standard" { 4, 4 }
+p "" 2 1 "" { "StaffingOptionX" "StaffingOptionY" } 0
+t "" 2 "H_Premium_X" { 6, 4 }
+t "" 3 "H_Premium_Y" { 0, 0 }
+p "" 1 2 "" { "StandardPlan_L" "PremiumPlan_L" } 0
+t "" 4 "L_Standard" { 4, 2 }
+p "" 2 1 "" { "StaffingOptionX" "StaffingOptionY" } 0
+t "" 5 "L_Premium_X" { 6, 0 }
+t "" 6 "L_Premium_Y" { 0, 6 }

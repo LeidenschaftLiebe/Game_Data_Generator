@@ -1,0 +1,14 @@
+EFG 2 R "Space Habitat Supply Planning" { "Mission Planner" "Logistics Team" }
+""
+
+c "" 1 "" { "HighResourceWindow" 0.5 "LowResourceWindow" 0.5 } 0
+p "" 1 1 "" { "StandardSupply_H" "ExpandedSupply_H" } 0
+t "" 1 "H_Standard" { 4, 4 }
+p "" 2 1 "" { "OptionX" "OptionY" } 0
+t "" 2 "H_Expanded_X" { 6, 4 }
+t "" 3 "H_Expanded_Y" { 0, 0 }
+p "" 1 2 "" { "StandardSupply_L" "ExpandedSupply_L" } 0
+t "" 4 "L_Standard" { 4, 2 }
+p "" 2 1 "" { "OptionX" "OptionY" } 0
+t "" 5 "L_Expanded_X" { 6, 0 }
+t "" 6 "L_Expanded_Y" { 0, 6 }

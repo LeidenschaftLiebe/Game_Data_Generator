@@ -1,0 +1,14 @@
+EFG 2 R "Museum Fundraising Drive" { "Museum Director" "Fundraising Partner" }
+""
+
+c "" 1 "" { "StrongDonorSeason" 0.5 "WeakDonorSeason" 0.5 } 0
+p "" 1 1 "" { "RegularCampaign_H" "PremiumCampaign_H" } 0
+t "" 1 "H_Regular" { 4, 4 }
+p "" 2 1 "" { "PlanX" "PlanY" } 0
+t "" 2 "H_Premium_X" { 6, 4 }
+t "" 3 "H_Premium_Y" { 0, 0 }
+p "" 1 2 "" { "RegularCampaign_L" "PremiumCampaign_L" } 0
+t "" 4 "L_Regular" { 4, 2 }
+p "" 2 1 "" { "PlanX" "PlanY" } 0
+t "" 5 "L_Premium_X" { 6, 0 }
+t "" 6 "L_Premium_Y" { 0, 6 }

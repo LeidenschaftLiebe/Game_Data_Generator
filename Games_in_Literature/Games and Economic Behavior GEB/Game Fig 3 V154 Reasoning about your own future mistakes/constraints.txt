@@ -1,0 +1,8 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Check that Player 2's three decision nodes are in the same information set.
+Check one seeded payoff: after a, then c, then f, then g, the payoffs are 1 and 1.
+Check that Player 1 moves first. 

@@ -1,0 +1,18 @@
+V3 [Emergency response]
+
+A field commander and a control-room analyst are coordinating a response.
+The commander first chooses between the layered response and the direct dispatch.
+If the commander chooses the layered response, the commander next chooses between a containment branch and a bypass branch.
+If the commander chooses the containment branch, the commander then chooses between standing down and escalating to central review.
+If the commander stands down there, both sides get 0.
+
+If the commander escalates to central review, the analyst must act without knowing whether the case came from containment, bypass, or direct dispatch.
+If the commander chooses the bypass branch, the analyst faces that same blind choice.
+If the commander chooses direct dispatch at the start, the analyst again faces that same blind choice.
+
+At the analyst’s move, choosing green light gives both sides 1 after the containment-escalation path, 
+gives the commander 1 and the analyst 0 after the bypass path, and gives both sides 1 after direct dispatch.
+Choosing caution notice gives the commander 1 and the analyst 0 after the containment-escalation path, 
+gives both sides 1 after the bypass path, and gives the commander 1 and the analyst 0 after direct dispatch.
+Choosing full lockdown gives the commander 1 and the analyst -1 after the containment-escalation path, 
+gives the commander 1 and the analyst -1 after the bypass path, and gives the commander 0 and the analyst -1 after direct dispatch.

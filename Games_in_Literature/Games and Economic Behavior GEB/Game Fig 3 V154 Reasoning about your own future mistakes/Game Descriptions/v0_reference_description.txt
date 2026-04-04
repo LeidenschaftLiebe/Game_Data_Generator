@@ -1,0 +1,19 @@
+V0 [Original article context]
+
+Player 1 moves first and chooses between a and b.
+If Player 1 chooses a, Player 1 moves again and chooses between c and d.
+If Player 1 chooses c, Player 1 then chooses between e and f.
+If Player 1 chooses e, both players get 0.
+If Player 1 chooses f, the move passes to Player 2.
+If Player 1 chooses d instead, the move also passes to Player 2.
+If Player 1 chooses b at the start, the move again passes to Player 2.
+
+When Player 2 moves, Player 2 chooses between g, h, and i, but cannot tell which of those three situations has been reached.
+After the path a then c then f, Player 2 choosing g gives both players 1, choosing h gives 1 to Player 1 and 0 to Player 2, 
+and choosing i gives 1 to Player 1 and -1 to Player 2.
+After the path a then d, Player 2 choosing g gives 1 to Player 1 and 0 to Player 2, choosing h gives both players 1, 
+and choosing i gives 1 to Player 1 and -1 to Player 2.
+After the path b, Player 2 choosing g gives both players 1, choosing h gives 1 to Player 1 and 0 to Player 2, 
+and choosing i gives 0 to Player 1 and -1 to Player 2.
+
+The article uses this game to compare how different reasoning rules can lead Player 2 toward g in some cases but toward h in the stricter notion.

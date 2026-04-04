@@ -1,0 +1,19 @@
+V5 [Factory quality check]
+
+A production manager and a quality inspector are handling a batch of goods.
+The manager first chooses between the full process and the direct shipment route.
+If the manager chooses the full process, the manager next chooses between a careful station and a rushed station.
+If the manager chooses the careful station, the manager then chooses between scrapping the batch and sending it to final inspection.
+If the manager scraps the batch there, both sides get 0.
+
+If the manager sends it to final inspection, the inspector must decide without knowing whether the batch came from 
+the careful station, the rushed station, or the direct shipment route.
+If the manager chooses the rushed station, the inspector faces that same blind choice.
+If the manager chooses the direct shipment route at the start, the inspector again faces that same blind choice.
+
+At the inspector’s move, choosing pass gives both sides 1 after the careful-inspection path, 
+gives the manager 1 and the inspector 0 after the rushed path, and gives both sides 1 after the direct shipment route.
+Choosing recheck gives the manager 1 and the inspector 0 after the careful-inspection path, 
+gives both sides 1 after the rushed path, and gives the manager 1 and the inspector 0 after the direct shipment route.
+Choosing fail gives the manager 1 and the inspector -1 after the careful-inspection path, 
+gives the manager 1 and the inspector -1 after the rushed path, and gives the manager 0 and the inspector -1 after the direct shipment route.

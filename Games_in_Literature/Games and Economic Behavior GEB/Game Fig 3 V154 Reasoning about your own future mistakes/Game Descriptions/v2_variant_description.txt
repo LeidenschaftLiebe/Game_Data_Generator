@@ -1,0 +1,19 @@
+V2 [Airport security]
+
+A traveler and a security officer both want a trip to continue smoothly.
+The traveler first chooses between entering the normal screening route and going to a special counter directly.
+If the traveler enters the normal screening route, the traveler next chooses between a document-check lane and a rerouting lane.
+If the traveler takes the document-check lane, the traveler then chooses between abandoning the trip and stepping into final inspection.
+If the traveler abandons the trip there, both sides get 0.
+
+If the traveler steps into final inspection, the security officer must choose without knowing whether the traveler came from the document-check lane, 
+the rerouting lane, or the special counter.
+If the traveler takes the rerouting lane instead, the security officer faces that same blind choice.
+If the traveler goes to the special counter at the start, the security officer again faces that same blind choice.
+
+At the officer’s move, choosing clear gives both sides 1 after the document-check path, 
+gives the traveler 1 and the officer 0 after the rerouting path, and gives both sides 1 after the special-counter path.
+Choosing hold for review gives the traveler 1 and the officer 0 after the document-check path, 
+gives both sides 1 after the rerouting path, and gives the traveler 1 and the officer 0 after the special-counter path.
+Choosing deny boarding gives the traveler 1 and the officer -1 after the document-check path, 
+gives the traveler 1 and the officer -1 after the rerouting path, and gives the traveler 0 and the officer -1 after the special-counter path.

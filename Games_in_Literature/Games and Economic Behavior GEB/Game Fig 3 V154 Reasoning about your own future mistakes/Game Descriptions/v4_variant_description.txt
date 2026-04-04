@@ -1,0 +1,19 @@
+V4 [Publishing decision]
+
+An author and an editor are trying to get a manuscript through the final stage.
+The author first chooses between the long submission route and the direct submission route.
+If the author chooses the long submission route, the author next chooses between the revision branch and the clean branch.
+If the author chooses the revision branch, the author then chooses between withdrawing the draft and sending it to final editorial review.
+If the author withdraws it there, both sides get 0.
+
+If the author sends it to final editorial review, the editor must decide without knowing whether the manuscript came from 
+the revision branch, the clean branch, or the direct submission route.
+If the author chooses the clean branch, the editor faces that same blind choice.
+If the author chooses the direct submission route at the start, the editor again faces that same blind choice.
+
+At the editor’s move, choosing accept gives both sides 1 after the revision-review path, 
+gives the author 1 and the editor 0 after the clean branch, and gives both sides 1 after direct submission.
+Choosing revise gives the author 1 and the editor 0 after the revision-review path, 
+gives both sides 1 after the clean branch, and gives the author 1 and the editor 0 after direct submission.
+Choosing reject gives the author 1 and the editor -1 after the revision-review path, 
+gives the author 1 and the editor -1 after the clean branch, and gives the author 0 and the editor -1 after direct submission.

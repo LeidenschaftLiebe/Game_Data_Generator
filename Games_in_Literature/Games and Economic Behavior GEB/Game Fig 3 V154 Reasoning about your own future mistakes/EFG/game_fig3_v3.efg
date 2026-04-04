@@ -1,0 +1,19 @@
+EFG 2 R "GEB Fig. 3 V3" { "Field Commander" "Analyst" }
+""
+
+p "" 1 1 "" { "LayeredResponse" "DirectDispatch" } 0
+p "" 1 2 "" { "ContainmentBranch" "BypassBranch" } 0
+p "" 1 3 "" { "StandDown" "CentralReview" } 0
+t "" 1 "LayeredResponse_ContainmentBranch_StandDown" { 0, 0 }
+p "" 2 1 "" { "GreenLight" "CautionNotice" "FullLockdown" } 0
+t "" 2 "LayeredResponse_ContainmentBranch_CentralReview_GreenLight" { 1, 1 }
+t "" 3 "LayeredResponse_ContainmentBranch_CentralReview_CautionNotice" { 1, 0 }
+t "" 4 "LayeredResponse_ContainmentBranch_CentralReview_FullLockdown" { 1, -1 }
+p "" 2 1 "" { "GreenLight" "CautionNotice" "FullLockdown" } 0
+t "" 5 "LayeredResponse_BypassBranch_GreenLight" { 1, 0 }
+t "" 6 "LayeredResponse_BypassBranch_CautionNotice" { 1, 1 }
+t "" 7 "LayeredResponse_BypassBranch_FullLockdown" { 1, -1 }
+p "" 2 1 "" { "GreenLight" "CautionNotice" "FullLockdown" } 0
+t "" 8 "DirectDispatch_GreenLight" { 1, 1 }
+t "" 9 "DirectDispatch_CautionNotice" { 1, 0 }
+t "" 10 "DirectDispatch_FullLockdown" { 0, -1 }

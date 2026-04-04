@@ -1,0 +1,19 @@
+V1 [Project handoff]
+
+A project lead and a reviewer are trying to get a sensitive report approved.
+The lead first chooses between taking the internal route and sending it straight to final review.
+If the lead takes the internal route, the lead next chooses between a cautious branch and a shortcut branch.
+If the lead takes the cautious branch, the lead then chooses between stopping the process and forwarding the file onward.
+If the lead stops the process there, both sides get 0.
+
+If the lead forwards the file onward, the reviewer must decide without knowing whether the file came from the cautious branch, 
+the shortcut branch, or the direct route.
+If the lead takes the shortcut branch after the internal route, the reviewer faces that same blind choice.
+If the lead sends it straight to final review at the start, the reviewer again faces that same blind choice.
+
+At the reviewer’s move, choosing approve gives both sides 1 after the cautious-forward path, 
+gives the lead 1 and the reviewer 0 after the shortcut path, and gives both sides 1 after the direct route.
+Choosing request changes gives the lead 1 and the reviewer 0 after the cautious-forward path, 
+gives both sides 1 after the shortcut path, and gives the lead 1 and the reviewer 0 after the direct route.
+Choosing reject gives the lead 1 and the reviewer -1 after the cautious-forward path, 
+gives the lead 1 and the reviewer -1 after the shortcut path, and gives the lead 0 and the reviewer -1 after the direct route.

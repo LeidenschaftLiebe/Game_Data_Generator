@@ -1,0 +1,10 @@
+EFG 2 R "GEB Fig. 1 Game 2 V5" { "Applicant" "Recommender" }
+""
+
+p "" 1 1 "" { "SendPersonally" "AskRecommenderToSend" } 0
+p "" 1 2 "" { "SendCorrectVersion" "SendWrongVersion" } 0
+t "" 1 "SendPersonally_SendCorrectVersion" { 1, 1 }
+t "" 2 "SendPersonally_SendWrongVersion" { 0, 0 }
+p "" 2 1 "" { "SendProperly" "SendIncorrectly" } 0
+t "" 3 "AskRecommenderToSend_SendProperly" { 1, 1 }
+t "" 4 "AskRecommenderToSend_SendIncorrectly" { 0, 0 }

@@ -1,0 +1,10 @@
+V1 [Group assignment]
+
+Two students are trying to make sure a group assignment is submitted properly.
+Student 1 moves first and chooses between doing the final submission personally and handing the task off to Student 2.
+If Student 1 decides to do it personally, Student 1 later chooses between submitting the correct file and submitting the wrong file.
+If Student 1 submits the correct file, both students finish with 1.
+If Student 1 submits the wrong file, both students finish with 0.
+If Student 1 hands the task off instead, Student 2 chooses between submitting it properly and messing it up.
+If Student 2 submits it properly, both students finish with 1.
+If Student 2 messes it up, both students finish with 0.

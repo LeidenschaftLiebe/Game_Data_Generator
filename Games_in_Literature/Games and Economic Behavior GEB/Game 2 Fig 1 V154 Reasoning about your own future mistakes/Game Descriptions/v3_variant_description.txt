@@ -1,0 +1,10 @@
+V3 [Client file submission]
+
+A manager and an assistant both want an important client file to be sent correctly.
+The manager first chooses between sending the file personally and delegating the task to the assistant.
+If the manager sends it personally, the manager later chooses between attaching the correct file and attaching the wrong one.
+If the manager attaches the correct file, both sides end with 1.
+If the manager attaches the wrong file, both sides end with 0.
+If the manager delegates the task instead, the assistant chooses between sending the correct file and sending the wrong file.
+If the assistant sends the correct file, both sides end with 1.
+If the assistant sends the wrong file, both sides end with 0.

@@ -1,0 +1,10 @@
+EFG 2 R "GEB Fig. 1 Game 2 V4" { "Head Cook" "Junior Cook" }
+""
+
+p "" 1 1 "" { "FinishPersonally" "LeaveFinalStep" } 0
+p "" 1 2 "" { "PlateCorrectly" "MakeServingMistake" } 0
+t "" 1 "FinishPersonally_PlateCorrectly" { 1, 1 }
+t "" 2 "FinishPersonally_MakeServingMistake" { 0, 0 }
+p "" 2 1 "" { "FinishProperly" "MessItUp" } 0
+t "" 3 "LeaveFinalStep_FinishProperly" { 1, 1 }
+t "" 4 "LeaveFinalStep_MessItUp" { 0, 0 }

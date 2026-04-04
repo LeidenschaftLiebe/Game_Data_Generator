@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Check one seeded payoff: after a then c, the payoffs are 1 for both players.
+Check that player 1 moves first. 

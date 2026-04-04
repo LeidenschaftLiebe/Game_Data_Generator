@@ -1,0 +1,10 @@
+V4 [Catering order]
+
+A head cook and a junior cook both want a catering order to go out properly.
+The head cook first chooses between finishing the order personally and leaving the final step to the junior cook.
+If the head cook finishes it personally, the head cook later chooses between plating it correctly and making a serving mistake.
+If the head cook plates it correctly, both people end with 1.
+If the head cook makes a serving mistake, both people end with 0.
+If the head cook leaves the final step to the junior cook instead, the junior cook chooses between finishing it properly and messing it up.
+If the junior cook finishes it properly, both people end with 1.
+If the junior cook messes it up, both people end with 0.

@@ -1,0 +1,10 @@
+V2 [Airport trip]
+
+A traveler and a driver both want the traveler to arrive on time for an important meeting.
+The traveler first chooses between going personally and letting the driver handle the final leg.
+If the traveler chooses to go personally, the traveler later chooses between following the route correctly and making a wrong turn.
+If the traveler follows the route correctly, both sides end with 1.
+If the traveler makes a wrong turn, both sides end with 0.
+If the traveler lets the driver handle it instead, the driver chooses between taking the correct route and missing the turn.
+If the driver takes the correct route, both sides end with 1.
+If the driver misses the turn, both sides end with 0.

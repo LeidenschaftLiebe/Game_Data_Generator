@@ -1,0 +1,10 @@
+V5 [Application packet]
+
+An applicant and a recommender both want an application packet to reach the employer correctly.
+The applicant first chooses between sending the packet personally and asking the recommender to send it.
+If the applicant sends it personally, the applicant later chooses between sending the correct version and sending the wrong version.
+If the applicant sends the correct version, both sides end with 1.
+If the applicant sends the wrong version, both sides end with 0.
+If the applicant asks the recommender to send it instead, the recommender chooses between sending it properly and sending it incorrectly.
+If the recommender sends it properly, both sides end with 1.
+If the recommender sends it incorrectly, both sides end with 0.

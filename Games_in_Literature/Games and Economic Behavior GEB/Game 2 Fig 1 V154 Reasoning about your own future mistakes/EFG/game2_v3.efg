@@ -1,0 +1,10 @@
+EFG 2 R "GEB Fig. 1 Game 2 V3" { "Manager" "Assistant" }
+""
+
+p "" 1 1 "" { "SendPersonally" "DelegateTask" } 0
+p "" 1 2 "" { "AttachCorrectFile" "AttachWrongFile" } 0
+t "" 1 "SendPersonally_AttachCorrectFile" { 1, 1 }
+t "" 2 "SendPersonally_AttachWrongFile" { 0, 0 }
+p "" 2 1 "" { "SendCorrectFile" "SendWrongFile" } 0
+t "" 3 "DelegateTask_SendCorrectFile" { 1, 1 }
+t "" 4 "DelegateTask_SendWrongFile" { 0, 0 }

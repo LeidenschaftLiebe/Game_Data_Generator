@@ -1,0 +1,10 @@
+EFG 2 R "GEB Fig. 1 Game 2 V2" { "Traveler" "Driver" }
+""
+
+p "" 1 1 "" { "GoPersonally" "LetDriverHandleIt" } 0
+p "" 1 2 "" { "FollowRouteCorrectly" "MakeWrongTurn" } 0
+t "" 1 "GoPersonally_FollowRouteCorrectly" { 1, 1 }
+t "" 2 "GoPersonally_MakeWrongTurn" { 0, 0 }
+p "" 2 1 "" { "TakeCorrectRoute" "MissTurn" } 0
+t "" 3 "LetDriverHandleIt_TakeCorrectRoute" { 1, 1 }
+t "" 4 "LetDriverHandleIt_MissTurn" { 0, 0 }

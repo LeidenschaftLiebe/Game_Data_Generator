@@ -1,0 +1,12 @@
+V0 [Original article context]
+
+This game has two players, Player 1 and Player 2.
+Player 1 moves first and chooses between a and b.
+If Player 1 chooses a, Player 1 later chooses between c and d.
+If Player 1 then chooses c, both players end up with 1.
+If Player 1 then chooses d, both players end up with 0.
+If Player 1 chooses b instead, Player 2 chooses between e and f.
+If Player 2 chooses e, both players end up with 1.
+If Player 2 chooses f, both players end up with 0.
+The example is about how Player 1 reasons about the chance of making a future mistake personally, 
+compared with the chance that Player 2 may make a mistake later.

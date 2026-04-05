@@ -1,0 +1,17 @@
+V4 [Academic self-report]
+
+A student is deciding whether to enter a grading route that may later allow self-reporting after seeing the result.
+The student first chooses between VerifiedRoute (i = 0) and SelfReportRoute (i = 1).
+
+After VerifiedRoute (i = 0), chance leads to the self-report stage with probability 1/10 
+and to the fixed-result route with probability 9/10.
+After SelfReportRoute (i = 1), chance leads to the self-report stage with probability 3/5 
+and to another fixed-result route with probability 2/5.
+
+Chance then determines the true score category: LowerScore (j = 1) or HigherScore (j = 2), each with probability 1/2.
+If the student ends up on a fixed-result route, the final result matches the true score category: 
+0 after LowerScore (j = 1) and 2 after HigherScore (j = 2).
+
+If the student reaches the self-report stage, they choose between ReportLower (a = 1) and ReportHigher (a = 2).
+After LowerScore (j = 1), ReportLower (a = 1) gives 0 and ReportHigher (a = 2) gives 2.
+After HigherScore (j = 2), ReportLower (a = 1) gives 0 and ReportHigher (a = 2) gives 2.

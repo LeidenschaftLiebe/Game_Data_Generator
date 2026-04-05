@@ -1,0 +1,26 @@
+EFG 2 R "GEB Fig. 3 Selection Game V5" { "Worker" }
+""
+
+p "" 1 1 "" { "RoutineCheck" "FlexibleCheck" } 0
+c "" 1 "" { "ReportingStage" 1/10 "FixedRouteA" 9/10 } 0
+c "" 3 "" { "LowGrade" 1/2 "HighGrade" 1/2 } 0
+p "" 1 2 "" { "ReportLow" "ReportHigh" } 0
+t "" 5 "RoutineCheck_ReportingStage_LowGrade_ReportLow" { 0 }
+t "" 6 "RoutineCheck_ReportingStage_LowGrade_ReportHigh" { 2 }
+p "" 1 3 "" { "ReportLow" "ReportHigh" } 0
+t "" 7 "RoutineCheck_ReportingStage_HighGrade_ReportLow" { 0 }
+t "" 8 "RoutineCheck_ReportingStage_HighGrade_ReportHigh" { 2 }
+c "" 4 "" { "LowGrade" 1/2 "HighGrade" 1/2 } 0
+t "" 1 "RoutineCheck_FixedRouteA_LowGrade" { 0 }
+t "" 2 "RoutineCheck_FixedRouteA_HighGrade" { 2 }
+c "" 2 "" { "ReportingStage" 3/5 "FixedRouteB" 2/5 } 0
+c "" 5 "" { "LowGrade" 1/2 "HighGrade" 1/2 } 0
+p "" 1 4 "" { "ReportLow" "ReportHigh" } 0
+t "" 9 "FlexibleCheck_ReportingStage_LowGrade_ReportLow" { 0 }
+t "" 10 "FlexibleCheck_ReportingStage_LowGrade_ReportHigh" { 2 }
+p "" 1 5 "" { "ReportLow" "ReportHigh" } 0
+t "" 11 "FlexibleCheck_ReportingStage_HighGrade_ReportLow" { 0 }
+t "" 12 "FlexibleCheck_ReportingStage_HighGrade_ReportHigh" { 2 }
+c "" 6 "" { "LowGrade" 1/2 "HighGrade" 1/2 } 0
+t "" 3 "FlexibleCheck_FixedRouteB_LowGrade" { 0 }
+t "" 4 "FlexibleCheck_FixedRouteB_HighGrade" { 2 }

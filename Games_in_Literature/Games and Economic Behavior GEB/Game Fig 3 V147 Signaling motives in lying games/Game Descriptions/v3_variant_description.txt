@@ -1,0 +1,17 @@
+V3 [Insurance claim]
+
+A claimant is deciding whether to enter a path that may later allow a discretionary report.
+The claimant first chooses between RegularProcess (i = 0) and DiscretionaryProcess (i = 1).
+
+After RegularProcess (i = 0), chance leads to the discretionary reporting stage with probability 1/10 
+and to a fixed route with probability 9/10.
+After DiscretionaryProcess (i = 1), chance leads to the discretionary reporting stage with probability 3/5 
+and to another fixed route with probability 2/5.
+
+Chance then determines the true case level: MinorLoss (j = 1) or MajorLoss (j = 2), each with probability 1/2.
+If the claimant ends up on a fixed route, the outcome matches the true case level: 
+0 after MinorLoss (j = 1) and 2 after MajorLoss (j = 2).
+
+If the claimant reaches the discretionary reporting stage, they choose between ReportMinor (a = 1) and ReportMajor (a = 2).
+After MinorLoss (j = 1), ReportMinor (a = 1) gives 0 and ReportMajor (a = 2) gives 2.
+After MajorLoss (j = 2), ReportMinor (a = 1) gives 0 and ReportMajor (a = 2) gives 2.

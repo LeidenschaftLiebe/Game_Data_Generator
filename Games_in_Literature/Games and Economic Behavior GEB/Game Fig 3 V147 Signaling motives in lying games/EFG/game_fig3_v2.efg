@@ -1,0 +1,26 @@
+EFG 2 R "GEB Fig. 3 Selection Game V2" { "Employee" }
+""
+
+p "" 1 1 "" { "StandardRoute" "FlexibleRoute" } 0
+c "" 1 "" { "ReportingStage" 1/10 "AutomaticRouteA" 9/10 } 0
+c "" 3 "" { "SmallExpense" 1/2 "LargeExpense" 1/2 } 0
+p "" 1 2 "" { "ClaimSmall" "ClaimLarge" } 0
+t "" 5 "StandardRoute_ReportingStage_SmallExpense_ClaimSmall" { 0 }
+t "" 6 "StandardRoute_ReportingStage_SmallExpense_ClaimLarge" { 2 }
+p "" 1 3 "" { "ClaimSmall" "ClaimLarge" } 0
+t "" 7 "StandardRoute_ReportingStage_LargeExpense_ClaimSmall" { 0 }
+t "" 8 "StandardRoute_ReportingStage_LargeExpense_ClaimLarge" { 2 }
+c "" 4 "" { "SmallExpense" 1/2 "LargeExpense" 1/2 } 0
+t "" 1 "StandardRoute_AutomaticRouteA_SmallExpense" { 0 }
+t "" 2 "StandardRoute_AutomaticRouteA_LargeExpense" { 2 }
+c "" 2 "" { "ReportingStage" 3/5 "AutomaticRouteB" 2/5 } 0
+c "" 5 "" { "SmallExpense" 1/2 "LargeExpense" 1/2 } 0
+p "" 1 4 "" { "ClaimSmall" "ClaimLarge" } 0
+t "" 9 "FlexibleRoute_ReportingStage_SmallExpense_ClaimSmall" { 0 }
+t "" 10 "FlexibleRoute_ReportingStage_SmallExpense_ClaimLarge" { 2 }
+p "" 1 5 "" { "ClaimSmall" "ClaimLarge" } 0
+t "" 11 "FlexibleRoute_ReportingStage_LargeExpense_ClaimSmall" { 0 }
+t "" 12 "FlexibleRoute_ReportingStage_LargeExpense_ClaimLarge" { 2 }
+c "" 6 "" { "SmallExpense" 1/2 "LargeExpense" 1/2 } 0
+t "" 3 "FlexibleRoute_AutomaticRouteB_SmallExpense" { 0 }
+t "" 4 "FlexibleRoute_AutomaticRouteB_LargeExpense" { 2 }

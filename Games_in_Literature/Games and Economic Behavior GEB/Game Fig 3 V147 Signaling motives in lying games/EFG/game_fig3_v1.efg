@@ -1,0 +1,26 @@
+EFG 2 R "GEB Fig. 3 Selection Game V1" { "Participant" }
+""
+
+p "" 1 1 "" { "StaySafe" "SeekOpportunity" } 0
+c "" 1 "" { "ManipulableStage" 1/10 "FixedRouteA" 9/10 } 0
+c "" 3 "" { "LowState" 1/2 "HighState" 1/2 } 0
+p "" 1 2 "" { "ReportLow" "ReportHigh" } 0
+t "" 5 "StaySafe_ManipulableStage_LowState_ReportLow" { 0 }
+t "" 6 "StaySafe_ManipulableStage_LowState_ReportHigh" { 2 }
+p "" 1 3 "" { "ReportLow" "ReportHigh" } 0
+t "" 7 "StaySafe_ManipulableStage_HighState_ReportLow" { 0 }
+t "" 8 "StaySafe_ManipulableStage_HighState_ReportHigh" { 2 }
+c "" 4 "" { "LowState" 1/2 "HighState" 1/2 } 0
+t "" 1 "StaySafe_FixedRouteA_LowState" { 0 }
+t "" 2 "StaySafe_FixedRouteA_HighState" { 2 }
+c "" 2 "" { "ManipulableStage" 3/5 "FixedRouteB" 2/5 } 0
+c "" 5 "" { "LowState" 1/2 "HighState" 1/2 } 0
+p "" 1 4 "" { "ReportLow" "ReportHigh" } 0
+t "" 9 "SeekOpportunity_ManipulableStage_LowState_ReportLow" { 0 }
+t "" 10 "SeekOpportunity_ManipulableStage_LowState_ReportHigh" { 2 }
+p "" 1 5 "" { "ReportLow" "ReportHigh" } 0
+t "" 11 "SeekOpportunity_ManipulableStage_HighState_ReportLow" { 0 }
+t "" 12 "SeekOpportunity_ManipulableStage_HighState_ReportHigh" { 2 }
+c "" 6 "" { "LowState" 1/2 "HighState" 1/2 } 0
+t "" 3 "SeekOpportunity_FixedRouteB_LowState" { 0 }
+t "" 4 "SeekOpportunity_FixedRouteB_HighState" { 2 }

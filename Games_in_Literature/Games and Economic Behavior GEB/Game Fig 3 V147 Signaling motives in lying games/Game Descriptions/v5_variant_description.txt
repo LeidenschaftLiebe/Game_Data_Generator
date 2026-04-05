@@ -1,0 +1,17 @@
+V5 [Warehouse inspection]
+
+A worker is deciding whether to enter a route that may later allow flexible reporting of stock quality.
+The worker first chooses between RoutineCheck (i = 0) and FlexibleCheck (i = 1).
+
+After RoutineCheck (i = 0), chance leads to the flexible reporting stage with probability 1/10 
+and to the fixed route with probability 9/10.
+After FlexibleCheck (i = 1), chance leads to the flexible reporting stage with probability 3/5 
+and to another fixed route with probability 2/5.
+
+Chance then determines the true stock condition: LowGrade (j = 1) or HighGrade (j = 2), each with probability 1/2.
+If the worker ends up on a fixed route, the result follows the true condition: 
+0 after LowGrade (j = 1) and 2 after HighGrade (j = 2).
+
+If the worker reaches the flexible reporting stage, they choose between ReportLow (a = 1) and ReportHigh (a = 2).
+After LowGrade (j = 1), ReportLow (a = 1) gives 0 and ReportHigh (a = 2) gives 2.
+After HighGrade (j = 2), ReportLow (a = 1) gives 0 and ReportHigh (a = 2) gives 2.

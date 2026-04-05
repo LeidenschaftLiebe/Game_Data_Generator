@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+The agent moves first.
+Chance probabilities are: after i=0, z=1 with 1/10 and z=2 with 9/10; after i=1, z=1 with 3/5 and z=3 with 2/5; 
+after every z branch, j=1 and j=2 each occur with probability 1/2.
+Seed payoff constraint: after i=0, then z=1, then j=1, then a=2, the payoff is 2.

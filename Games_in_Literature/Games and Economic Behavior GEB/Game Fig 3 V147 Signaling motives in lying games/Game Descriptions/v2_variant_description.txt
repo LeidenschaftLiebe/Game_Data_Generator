@@ -1,0 +1,14 @@
+V2 [Expense reimbursement]
+
+An employee is deciding whether to use a reimbursement channel that may later allow flexible reporting.
+The employee first chooses between StandardRoute (i = 0) and FlexibleRoute (i = 1).
+
+After StandardRoute (i = 0), chance leads to the reporting stage with probability 1/10 and to the automatic route with probability 9/10.
+After FlexibleRoute (i = 1), chance leads to the reporting stage with probability 3/5 and to a different automatic route with probability 2/5.
+
+Chance then determines the true expense level: SmallExpense (j = 1) or LargeExpense (j = 2), each with probability 1/2.
+If the employee ends up on an automatic route, the result equals the true level: 0 after SmallExpense (j = 1) and 2 after LargeExpense (j = 2).
+
+If the employee reaches the reporting stage, they choose between ClaimSmall (a = 1) and ClaimLarge (a = 2).
+After SmallExpense (j = 1), ClaimSmall (a = 1) gives 0 and ClaimLarge (a = 2) gives 2.
+After LargeExpense (j = 2), ClaimSmall (a = 1) gives 0 and ClaimLarge (a = 2) gives 2.

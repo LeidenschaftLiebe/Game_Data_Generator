@@ -1,0 +1,26 @@
+EFG 2 R "GEB Fig. 3 Selection Game V4" { "Student" }
+""
+
+p "" 1 1 "" { "VerifiedRoute" "SelfReportRoute" } 0
+c "" 1 "" { "ReportingStage" 1/10 "FixedRouteA" 9/10 } 0
+c "" 3 "" { "LowerScore" 1/2 "HigherScore" 1/2 } 0
+p "" 1 2 "" { "ReportLower" "ReportHigher" } 0
+t "" 5 "VerifiedRoute_ReportingStage_LowerScore_ReportLower" { 0 }
+t "" 6 "VerifiedRoute_ReportingStage_LowerScore_ReportHigher" { 2 }
+p "" 1 3 "" { "ReportLower" "ReportHigher" } 0
+t "" 7 "VerifiedRoute_ReportingStage_HigherScore_ReportLower" { 0 }
+t "" 8 "VerifiedRoute_ReportingStage_HigherScore_ReportHigher" { 2 }
+c "" 4 "" { "LowerScore" 1/2 "HigherScore" 1/2 } 0
+t "" 1 "VerifiedRoute_FixedRouteA_LowerScore" { 0 }
+t "" 2 "VerifiedRoute_FixedRouteA_HigherScore" { 2 }
+c "" 2 "" { "ReportingStage" 3/5 "FixedRouteB" 2/5 } 0
+c "" 5 "" { "LowerScore" 1/2 "HigherScore" 1/2 } 0
+p "" 1 4 "" { "ReportLower" "ReportHigher" } 0
+t "" 9 "SelfReportRoute_ReportingStage_LowerScore_ReportLower" { 0 }
+t "" 10 "SelfReportRoute_ReportingStage_LowerScore_ReportHigher" { 2 }
+p "" 1 5 "" { "ReportLower" "ReportHigher" } 0
+t "" 11 "SelfReportRoute_ReportingStage_HigherScore_ReportLower" { 0 }
+t "" 12 "SelfReportRoute_ReportingStage_HigherScore_ReportHigher" { 2 }
+c "" 6 "" { "LowerScore" 1/2 "HigherScore" 1/2 } 0
+t "" 3 "SelfReportRoute_FixedRouteB_LowerScore" { 0 }
+t "" 4 "SelfReportRoute_FixedRouteB_HigherScore" { 2 }

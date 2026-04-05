@@ -1,0 +1,17 @@
+V1 [Lottery entry]
+
+A participant is deciding whether to enter a lottery version that can be manipulated after the number is seen.
+The participant first chooses between StaySafe (i = 0) and SeekOpportunity (i = 1).
+
+If the participant chooses StaySafe (i = 0), chance sends them to the manipulable stage with probability 1/10 
+and to the fixed-outcome route with probability 9/10.
+If the participant chooses SeekOpportunity (i = 1), chance sends them to the manipulable stage with probability 3/5 
+and to another fixed-outcome route with probability 2/5.
+
+Chance then draws a hidden number, either LowState (j = 1) or HighState (j = 2), each with probability 1/2.
+If the participant ends up on a fixed-outcome route, the result simply follows the hidden number: 
+0 after LowState (j = 1) and 2 after HighState (j = 2).
+
+If the participant reaches the manipulable stage, they choose between ReportLow (a = 1) and ReportHigh (a = 2).
+After LowState (j = 1), ReportLow (a = 1) gives 0 and ReportHigh (a = 2) gives 2.
+After HighState (j = 2), ReportLow (a = 1) gives 0 and ReportHigh (a = 2) gives 2.

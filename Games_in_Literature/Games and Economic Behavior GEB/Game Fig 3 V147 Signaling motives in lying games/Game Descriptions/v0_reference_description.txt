@@ -1,0 +1,25 @@
+V0 [Original article context]
+
+This is a selection game built from the article’s setup on signaling motives in lying.
+Set y(1) = 0, y(2) = 2, p = 1/2, q = 1/2, epsilon = 1/10 in the game tree.
+The agent first chooses whether to indicate interest in entering a manipulable reporting stage: i = 0 or i = 1.
+
+After that, chance determines whether the agent actually enters the reporting stage.
+If the agent chose i = 0, chance leads to z = 1 with probability 1/10 and to z = 2 with probability 9/10.
+If the agent chose i = 1, chance leads to z = 1 with probability 3/5 and to z = 3 with probability 2/5.
+
+Chance then draws a hidden state j = 1 or j = 2.
+Here we set p = 1/2, so j = 1 and j = 2 each occur with probability 1/2.
+
+If z = 2 or z = 3, the agent does not enter the manipulable reporting stage.
+In that case, the outcome simply matches the state drawn by chance.
+With y(1) = 0 and y(2) = 2, the result is 0 if j = 1 and 2 if j = 2.
+
+If z = 1, the agent enters the reporting stage after seeing the state.
+The agent then reports either a = 1 or a = 2.
+
+If the state is j = 1, reporting a = 1 gives 0 and reporting a = 2 gives 2.
+If the state is j = 2, reporting a = 1 gives 0 and reporting a = 2 gives 2.
+
+So the only way to benefit from dishonesty is when the state is 1 and the agent reports 2.
+The article uses this kind of tree to study how the option to enter a manipulable reporting situation can itself reveal something about the agent.

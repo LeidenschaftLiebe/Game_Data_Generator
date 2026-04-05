@@ -1,0 +1,12 @@
+V4 [Team snack budget]
+
+Two teammates are placed in a small snack-budget decision.
+At the start, chance selects who will decide: Teammate 1 Selected (Player 1) or Teammate 2 Selected (Player 2), each with probability 1/2.
+
+The selected teammate then chooses between KeepFullBudget (Don’t Roll) and UseSharedDraw (Roll).
+If Teammate 1 is selected and chooses KeepFullBudget (Don’t Roll), the result is 14 for Teammate 1 and 0 for Teammate 2.
+If Teammate 2 is selected and chooses KeepFullBudget (Don’t Roll), the result is 0 for Teammate 1 and 14 for Teammate 2.
+
+If the selected teammate chooses UseSharedDraw (Roll), chance determines the final transfer.
+With probability 1/6, the result is 10 for the selected teammate and 0 for the other teammate.
+With probability 5/6, the result is 10 for the selected teammate and 12 for the other teammate.

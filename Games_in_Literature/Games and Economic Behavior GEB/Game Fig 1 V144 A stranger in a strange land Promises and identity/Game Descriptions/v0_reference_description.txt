@@ -1,0 +1,15 @@
+V0 [Original article context]
+
+This game is a binary-choice random-dictator game from the article.
+At the start, chance selects who will make the decision: Player 1 with probability 1/2 or Player 2 with probability 1/2.
+
+The selected player then chooses between Don’t Roll and Roll.
+If Player 1 is selected and chooses Don’t Roll, the result is 14 for Player 1 and 0 for Player 2.
+If Player 2 is selected and chooses Don’t Roll, the result is 0 for Player 1 and 14 for Player 2.
+
+If the selected player chooses Roll, chance determines the final transfer.
+With probability 1/6, the result is 10 for the selected player and 0 for the other player.
+With probability 5/6, the result is 10 for the selected player and 12 for the other player.
+
+So choosing Don’t Roll gives the decision-maker a sure 14 and gives the other player nothing.
+Choosing Roll lowers the decision-maker’s own amount to 10, while giving the other player either 0 or 12.

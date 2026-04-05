@@ -1,0 +1,14 @@
+EFG 2 R "GEB Random Dictator Fig. 1 V2" { "Participant 1" "Participant 2" }
+""
+
+c "" 1 "" { "Participant1Selected" 1/2 "Participant2Selected" 1/2 } 0
+p "" 1 1 "" { "TakeSureAmount" "UseCharityTicket" } 0
+t "" 1 "P1_TakeSureAmount" { 14, 0 }
+c "" 2 "" { "LowTicket" 1/6 "HighTicket" 5/6 } 0
+t "" 2 "P1_UseCharityTicket_LowTicket" { 10, 0 }
+t "" 3 "P1_UseCharityTicket_HighTicket" { 10, 12 }
+p "" 2 1 "" { "TakeSureAmount" "UseCharityTicket" } 0
+t "" 4 "P2_TakeSureAmount" { 0, 14 }
+c "" 3 "" { "LowTicket" 1/6 "HighTicket" 5/6 } 0
+t "" 5 "P2_UseCharityTicket_LowTicket" { 0, 10 }
+t "" 6 "P2_UseCharityTicket_HighTicket" { 12, 10 }

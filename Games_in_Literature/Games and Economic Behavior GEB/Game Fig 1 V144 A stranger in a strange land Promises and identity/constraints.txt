@@ -1,0 +1,8 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Chance first selects the decision-maker, with Player 1 selected with probability 1/2 and Player 2 selected with probability 1/2.
+Seed payoff constraint: if Player 1 is selected and chooses Don't Roll, the payoffs are 14 and 0.
+If the selected player chooses Roll, chance gives the low outcome with probability 1/6 and the high outcome with probability 5/6.

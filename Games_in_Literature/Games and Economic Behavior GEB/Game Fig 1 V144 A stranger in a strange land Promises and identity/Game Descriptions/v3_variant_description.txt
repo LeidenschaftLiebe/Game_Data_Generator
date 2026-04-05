@@ -1,0 +1,12 @@
+V3 [Festival voucher]
+
+Two visitors are placed in a festival voucher decision.
+At the start, chance selects who will decide: Visitor 1 Selected (Player 1) or Visitor 2 Selected (Player 2), each with probability 1/2.
+
+The selected visitor then chooses between KeepVoucher (Don’t Roll) and TrySharingWheel (Roll).
+If Visitor 1 is selected and chooses KeepVoucher (Don’t Roll), the result is 14 for Visitor 1 and 0 for Visitor 2.
+If Visitor 2 is selected and chooses KeepVoucher (Don’t Roll), the result is 0 for Visitor 1 and 14 for Visitor 2.
+
+If the selected visitor chooses TrySharingWheel (Roll), chance determines the final transfer.
+With probability 1/6, the result is 10 for the selected visitor and 0 for the other visitor.
+With probability 5/6, the result is 10 for the selected visitor and 12 for the other visitor.

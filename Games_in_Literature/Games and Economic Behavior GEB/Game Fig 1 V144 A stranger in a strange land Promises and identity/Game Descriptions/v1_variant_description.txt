@@ -1,0 +1,12 @@
+V1 [Office bonus draw]
+
+Two coworkers are placed in a one-shot office bonus decision.
+At the start, chance selects who will decide: Worker 1 Selected (Player 1) or Worker 2 Selected (Player 2), each with probability 1/2.
+
+The selected worker then chooses between KeepSureBonus (Don’t Roll) and UseBonusDraw (Roll).
+If Worker 1 is selected and chooses KeepSureBonus (Don’t Roll), the result is 14 for Worker 1 and 0 for Worker 2.
+If Worker 2 is selected and chooses KeepSureBonus (Don’t Roll), the result is 0 for Worker 1 and 14 for Worker 2.
+
+If the selected worker chooses UseBonusDraw (Roll), chance determines the final transfer.
+With probability 1/6, the result is 10 for the selected worker and 0 for the other worker.
+With probability 5/6, the result is 10 for the selected worker and 12 for the other worker.

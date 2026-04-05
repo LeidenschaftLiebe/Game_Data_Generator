@@ -1,0 +1,14 @@
+EFG 2 R "GEB Random Dictator Fig. 1 V5" { "Traveler 1" "Traveler 2" }
+""
+
+c "" 1 "" { "Traveler1Selected" 1/2 "Traveler2Selected" 1/2 } 0
+p "" 1 1 "" { "KeepGuaranteedCredit" "UseCreditDraw" } 0
+t "" 1 "T1_KeepGuaranteedCredit" { 14, 0 }
+c "" 2 "" { "LowDraw" 1/6 "HighDraw" 5/6 } 0
+t "" 2 "T1_UseCreditDraw_LowDraw" { 10, 0 }
+t "" 3 "T1_UseCreditDraw_HighDraw" { 10, 12 }
+p "" 2 1 "" { "KeepGuaranteedCredit" "UseCreditDraw" } 0
+t "" 4 "T2_KeepGuaranteedCredit" { 0, 14 }
+c "" 3 "" { "LowDraw" 1/6 "HighDraw" 5/6 } 0
+t "" 5 "T2_UseCreditDraw_LowDraw" { 0, 10 }
+t "" 6 "T2_UseCreditDraw_HighDraw" { 12, 10 }

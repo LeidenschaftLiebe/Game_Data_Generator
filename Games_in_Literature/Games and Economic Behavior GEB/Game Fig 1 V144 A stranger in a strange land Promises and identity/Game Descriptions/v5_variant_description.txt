@@ -1,0 +1,12 @@
+V5 [Travel credit]
+
+Two travelers are placed in a simple travel-credit decision.
+At the start, chance selects who will decide: Traveler 1 Selected (Player 1) or Traveler 2 Selected (Player 2), each with probability 1/2.
+
+The selected traveler then chooses between KeepGuaranteedCredit (Don’t Roll) and UseCreditDraw (Roll).
+If Traveler 1 is selected and chooses KeepGuaranteedCredit (Don’t Roll), the result is 14 for Traveler 1 and 0 for Traveler 2.
+If Traveler 2 is selected and chooses KeepGuaranteedCredit (Don’t Roll), the result is 0 for Traveler 1 and 14 for Traveler 2.
+
+If the selected traveler chooses UseCreditDraw (Roll), chance determines the final transfer.
+With probability 1/6, the result is 10 for the selected traveler and 0 for the other traveler.
+With probability 5/6, the result is 10 for the selected traveler and 12 for the other traveler.

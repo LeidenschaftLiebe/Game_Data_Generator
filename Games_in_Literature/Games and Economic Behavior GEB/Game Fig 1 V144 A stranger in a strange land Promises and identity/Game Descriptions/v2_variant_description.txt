@@ -1,0 +1,12 @@
+V2 [Charity ticket]
+
+Two participants are placed in a simple charity-ticket decision.
+At the start, chance selects who will decide: Participant 1 Selected (Player 1) or Participant 2 Selected (Player 2), each with probability 1/2.
+
+The selected participant then chooses between TakeSureAmount (Don’t Roll) and UseCharityTicket (Roll).
+If Participant 1 is selected and chooses TakeSureAmount (Don’t Roll), the result is 14 for Participant 1 and 0 for Participant 2.
+If Participant 2 is selected and chooses TakeSureAmount (Don’t Roll), the result is 0 for Participant 1 and 14 for Participant 2.
+
+If the selected participant chooses UseCharityTicket (Roll), chance determines the final transfer.
+With probability 1/6, the result is 10 for the selected participant and 0 for the other participant.
+With probability 5/6, the result is 10 for the selected participant and 12 for the other participant.

@@ -1,0 +1,14 @@
+EFG 2 R "GEB Random Dictator Fig. 1 V3" { "Visitor 1" "Visitor 2" }
+""
+
+c "" 1 "" { "Visitor1Selected" 1/2 "Visitor2Selected" 1/2 } 0
+p "" 1 1 "" { "KeepVoucher" "TrySharingWheel" } 0
+t "" 1 "V1_KeepVoucher" { 14, 0 }
+c "" 2 "" { "LowWheel" 1/6 "HighWheel" 5/6 } 0
+t "" 2 "V1_TrySharingWheel_LowWheel" { 10, 0 }
+t "" 3 "V1_TrySharingWheel_HighWheel" { 10, 12 }
+p "" 2 1 "" { "KeepVoucher" "TrySharingWheel" } 0
+t "" 4 "V2_KeepVoucher" { 0, 14 }
+c "" 3 "" { "LowWheel" 1/6 "HighWheel" 5/6 } 0
+t "" 5 "V2_TrySharingWheel_LowWheel" { 0, 10 }
+t "" 6 "V2_TrySharingWheel_HighWheel" { 12, 10 }

@@ -1,0 +1,14 @@
+EFG 2 R "GEB Random Dictator Fig. 1 V1" { "Worker 1" "Worker 2" }
+""
+
+c "" 1 "" { "Worker1Selected" 1/2 "Worker2Selected" 1/2 } 0
+p "" 1 1 "" { "KeepSureBonus" "UseBonusDraw" } 0
+t "" 1 "W1_KeepSureBonus" { 14, 0 }
+c "" 2 "" { "LowDraw" 1/6 "HighDraw" 5/6 } 0
+t "" 2 "W1_UseBonusDraw_LowDraw" { 10, 0 }
+t "" 3 "W1_UseBonusDraw_HighDraw" { 10, 12 }
+p "" 2 1 "" { "KeepSureBonus" "UseBonusDraw" } 0
+t "" 4 "W2_KeepSureBonus" { 0, 14 }
+c "" 3 "" { "LowDraw" 1/6 "HighDraw" 5/6 } 0
+t "" 5 "W2_UseBonusDraw_LowDraw" { 0, 10 }
+t "" 6 "W2_UseBonusDraw_HighDraw" { 12, 10 }

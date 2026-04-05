@@ -1,0 +1,8 @@
+EFG 2 R "GEB Exploitation Game Fig. 2 V5" { "President" "Treasurer" "Member" }
+""
+
+p "" 1 1 "" { "DoNothing" "UseMemberFunds" } 0
+t "" 1 "DoNothing" { 170, 100, 30 }
+p "" 2 1 "" { "SmallReturn" "LargeReturn" } 0
+t "" 2 "UseMemberFunds_SmallReturn" { 180, 120, 5 }
+t "" 3 "UseMemberFunds_LargeReturn" { 220, 100, 5 }

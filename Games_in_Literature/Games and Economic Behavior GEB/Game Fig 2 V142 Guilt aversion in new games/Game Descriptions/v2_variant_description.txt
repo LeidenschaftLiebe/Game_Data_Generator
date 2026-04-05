@@ -1,0 +1,18 @@
+V2 [Research grant diversion]
+
+A principal investigator, an administrator, and a lab assistant are involved in a budget decision.
+The principal investigator first chooses between KeepPlan (Out) and UseAssistantBudget (In).
+
+If the principal investigator chooses KeepPlan (Out), the interaction ends immediately.
+The result is 170 for the principal investigator, 100 for the administrator, and 30 for the lab assistant.
+
+If the principal investigator chooses UseAssistantBudget (In), 25 units are taken from the lab assistant’s budget and handed to the administrator.
+The administrator then chooses between SmallTransfer (Left) and LargeTransfer (Right).
+
+If the administrator chooses SmallTransfer (Left), the administrator keeps 20 and sends 5 to the principal investigator.
+That transferred amount is doubled, so the principal investigator receives 10.
+The result is 180 for the principal investigator, 120 for the administrator, and 5 for the lab assistant.
+
+If the administrator chooses LargeTransfer (Right), the administrator sends the full 25 to the principal investigator.
+That amount is doubled, so the principal investigator receives 50.
+The result is 220 for the principal investigator, 100 for the administrator, and 5 for the lab assistant.

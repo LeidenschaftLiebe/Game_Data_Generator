@@ -1,0 +1,18 @@
+V4 [Platform chargeback case]
+
+A merchant, a platform officer, and a customer are involved in a payment dispute.
+The merchant first chooses between DropClaim (Out) and UseCustomerFunds (In).
+
+If the merchant chooses DropClaim (Out), the interaction ends immediately.
+The result is 170 for the merchant, 100 for the platform officer, and 30 for the customer.
+
+If the merchant chooses UseCustomerFunds (In), 25 units are taken from the customer’s balance and handed to the platform officer.
+The platform officer then chooses between PartialRelease (Left) and FullRelease (Right).
+
+If the platform officer chooses PartialRelease (Left), the platform officer keeps 20 and sends 5 to the merchant.
+That transferred amount is doubled, so the merchant receives 10.
+The result is 180 for the merchant, 120 for the platform officer, and 5 for the customer.
+
+If the platform officer chooses FullRelease (Right), the platform officer sends the full 25 to the merchant.
+That amount is doubled, so the merchant receives 50.
+The result is 220 for the merchant, 100 for the platform officer, and 5 for the customer.

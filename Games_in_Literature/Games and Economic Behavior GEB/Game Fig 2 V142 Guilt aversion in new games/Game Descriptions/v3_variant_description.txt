@@ -1,0 +1,18 @@
+V3 [Family asset decision]
+
+A family organizer, a relative handling the money, and another family member are involved in a transfer decision.
+The organizer first chooses between LeaveAsIs (Out) and UseRelativeFunds (In).
+
+If the organizer chooses LeaveAsIs (Out), the interaction ends immediately.
+The result is 170 for the organizer, 100 for the relative handling the money, and 30 for the other family member.
+
+If the organizer chooses UseRelativeFunds (In), 25 units are taken from the other family member’s money and handed to the relative handling the money.
+That relative then chooses between ReturnSmallPart (Left) and ReturnFullPart (Right).
+
+If the relative chooses ReturnSmallPart (Left), the relative keeps 20 and sends 5 to the organizer.
+That transferred amount is doubled, so the organizer receives 10.
+The result is 180 for the organizer, 120 for the relative, and 5 for the other family member.
+
+If the relative chooses ReturnFullPart (Right), the relative sends the full 25 to the organizer.
+That amount is doubled, so the organizer receives 50.
+The result is 220 for the organizer, 100 for the relative, and 5 for the other family member.

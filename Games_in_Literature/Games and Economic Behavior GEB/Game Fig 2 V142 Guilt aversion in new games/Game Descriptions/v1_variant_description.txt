@@ -1,0 +1,18 @@
+V1 [Startup misuse]
+
+A project lead, a finance officer, and a silent backer are involved in a funding decision.
+The project lead moves first and chooses between StayOut (Out) and UseBackerFunds (In).
+
+If the project lead chooses StayOut (Out), the interaction ends immediately.
+The result is 170 for the project lead, 100 for the finance officer, and 30 for the backer.
+
+If the project lead chooses UseBackerFunds (In), 25 units are taken from the backer’s resources and handed to the finance officer.
+The finance officer then chooses between PartialPassAlong (Left) and FullPassAlong (Right).
+
+If the finance officer chooses PartialPassAlong (Left), the finance officer keeps 20 and sends 5 to the project lead.
+That transferred amount is doubled, so the project lead receives 10.
+The result is 180 for the project lead, 120 for the finance officer, and 5 for the backer.
+
+If the finance officer chooses FullPassAlong (Right), the finance officer sends the full 25 to the project lead.
+That amount is doubled, so the project lead receives 50.
+The result is 220 for the project lead, 100 for the finance officer, and 5 for the backer.

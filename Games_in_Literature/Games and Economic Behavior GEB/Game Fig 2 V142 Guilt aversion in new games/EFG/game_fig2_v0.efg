@@ -1,0 +1,8 @@
+EFG 2 R "GEB Exploitation Game Fig. 2" { "A" "B" "C" }
+""
+
+p "" 1 1 "" { "Out" "In" } 0
+t "" 1 "Out" { 170, 100, 30 }
+p "" 2 1 "" { "Left" "Right" } 0
+t "" 2 "In_Left" { 180, 120, 5 }
+t "" 3 "In_Right" { 220, 100, 5 }

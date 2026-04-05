@@ -1,0 +1,8 @@
+EFG 2 R "GEB Exploitation Game Fig. 2 V2" { "Principal Investigator" "Administrator" "Lab Assistant" }
+""
+
+p "" 1 1 "" { "KeepPlan" "UseAssistantBudget" } 0
+t "" 1 "KeepPlan" { 170, 100, 30 }
+p "" 2 1 "" { "SmallTransfer" "LargeTransfer" } 0
+t "" 2 "UseAssistantBudget_SmallTransfer" { 180, 120, 5 }
+t "" 3 "UseAssistantBudget_LargeTransfer" { 220, 100, 5 }

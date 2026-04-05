@@ -1,0 +1,8 @@
+EFG 2 R "GEB Exploitation Game Fig. 2 V4" { "Merchant" "Platform Officer" "Customer" }
+""
+
+p "" 1 1 "" { "DropClaim" "UseCustomerFunds" } 0
+t "" 1 "DropClaim" { 170, 100, 30 }
+p "" 2 1 "" { "PartialRelease" "FullRelease" } 0
+t "" 2 "UseCustomerFunds_PartialRelease" { 180, 120, 5 }
+t "" 3 "UseCustomerFunds_FullRelease" { 220, 100, 5 }

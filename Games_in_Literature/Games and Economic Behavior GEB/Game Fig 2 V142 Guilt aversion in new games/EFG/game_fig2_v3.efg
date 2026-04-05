@@ -1,0 +1,8 @@
+EFG 2 R "GEB Exploitation Game Fig. 2 V3" { "Organizer" "Relative" "Family Member" }
+""
+
+p "" 1 1 "" { "LeaveAsIs" "UseRelativeFunds" } 0
+t "" 1 "LeaveAsIs" { 170, 100, 30 }
+p "" 2 1 "" { "ReturnSmallPart" "ReturnFullPart" } 0
+t "" 2 "UseRelativeFunds_ReturnSmallPart" { 180, 120, 5 }
+t "" 3 "UseRelativeFunds_ReturnFullPart" { 220, 100, 5 }

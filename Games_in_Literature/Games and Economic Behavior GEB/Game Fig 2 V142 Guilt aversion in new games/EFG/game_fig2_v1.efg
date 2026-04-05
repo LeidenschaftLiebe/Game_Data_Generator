@@ -1,0 +1,8 @@
+EFG 2 R "GEB Exploitation Game Fig. 2 V1" { "Project Lead" "Finance Officer" "Backer" }
+""
+
+p "" 1 1 "" { "StayOut" "UseBackerFunds" } 0
+t "" 1 "StayOut" { 170, 100, 30 }
+p "" 2 1 "" { "PartialPassAlong" "FullPassAlong" } 0
+t "" 2 "UseBackerFunds_PartialPassAlong" { 180, 120, 5 }
+t "" 3 "UseBackerFunds_FullPassAlong" { 220, 100, 5 }

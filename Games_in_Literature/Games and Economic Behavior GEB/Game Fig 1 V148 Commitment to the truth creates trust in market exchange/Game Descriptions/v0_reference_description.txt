@@ -1,0 +1,18 @@
+V0 [Original article context]
+
+This is a trust game with prior communication and dishonesty fines.
+Player B moves first and sends one of three messages: m(E), m(S), or m(K).
+
+After seeing the message, Player A chooses between I and N.
+If A chooses N, the interaction ends immediately and the result is 2 for A and 0 for B.
+
+If A chooses I, then B chooses between S and K.
+After m(E), choosing S gives 4 to A and 4 to B, while choosing K gives 0 to A and 8 to B.
+
+After m(S), choosing S gives 4 to A and 4 to B.
+If B instead chooses K, B is fined for dishonest communication.
+With f = 2, that result is 0 for A and 6 for B.
+
+After m(K), choosing K gives 0 to A and 8 to B.
+If B instead chooses S, B is fined for dishonest communication.
+With f = 2, that result is 4 for A and 2 for B.

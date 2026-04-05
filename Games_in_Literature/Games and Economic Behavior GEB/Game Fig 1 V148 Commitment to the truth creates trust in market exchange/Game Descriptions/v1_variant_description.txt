@@ -1,0 +1,19 @@
+V1 [Online marketplace]
+
+A seller and a buyer are considering a trade on an online marketplace.
+The seller moves first and sends one of three messages: NoPromise (m(E)), WillRefund (m(S)), or WillKeepFullPayment (m(K)).
+
+After seeing the message, the buyer chooses between Pay (I) and WalkAway (N).
+If the buyer chooses WalkAway (N), the interaction ends immediately and the result is 2 for the buyer and 0 for the seller.
+
+If the buyer chooses Pay (I), the seller then chooses between ShareFairly (S) and KeepAll (K).
+After NoPromise (m(E)), ShareFairly (S) gives 4 to the buyer and 4 to the seller, 
+while KeepAll (K) gives 0 to the buyer and 8 to the seller.
+
+After WillRefund (m(S)), ShareFairly (S) gives 4 to the buyer and 4 to the seller.
+If the seller instead chooses KeepAll (K), the seller is penalized for breaking the earlier message.
+With f = 2, that result is 0 for the buyer and 6 for the seller.
+
+After WillKeepFullPayment (m(K)), KeepAll (K) gives 0 to the buyer and 8 to the seller.
+If the seller instead chooses ShareFairly (S), the seller is penalized because the later action does not match the message.
+With f = 2, that result is 4 for the buyer and 2 for the seller.

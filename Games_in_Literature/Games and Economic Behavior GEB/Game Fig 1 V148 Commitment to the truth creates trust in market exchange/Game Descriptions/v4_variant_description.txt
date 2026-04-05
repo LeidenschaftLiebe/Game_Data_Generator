@@ -1,0 +1,19 @@
+V4 [Repair service]
+
+A homeowner and a repair technician are deciding whether to proceed with a paid service call.
+The technician moves first and sends one of three messages: NoClearPromise (m(E)), WillCompleteRepair (m(S)), or WillChargeWithoutFixing (m(K)).
+
+After reading the message, the homeowner chooses between BookVisit (I) and Decline (N).
+If the homeowner chooses Decline (N), the interaction ends immediately and the result is 2 for the homeowner and 0 for the technician.
+
+If the homeowner chooses BookVisit (I), the technician then chooses between CompleteRepair (S) and ChargeWithoutFixing (K).
+After NoClearPromise (m(E)), CompleteRepair (S) gives 4 to the homeowner and 4 to the technician, 
+while ChargeWithoutFixing (K) gives 0 to the homeowner and 8 to the technician.
+
+After WillCompleteRepair (m(S)), CompleteRepair (S) gives 4 to the homeowner and 4 to the technician.
+If the technician instead chooses ChargeWithoutFixing (K), the technician is fined for dishonest communication.
+With f = 2, that result is 0 for the homeowner and 6 for the technician.
+
+After WillChargeWithoutFixing (m(K)), ChargeWithoutFixing (K) gives 0 to the homeowner and 8 to the technician.
+If the technician instead chooses CompleteRepair (S), the technician is fined because the later action does not match the message.
+With f = 2, that result is 4 for the homeowner and 2 for the technician.

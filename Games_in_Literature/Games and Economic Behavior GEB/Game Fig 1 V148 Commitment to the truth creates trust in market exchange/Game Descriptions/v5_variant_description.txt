@@ -1,0 +1,19 @@
+V5 [Crowdfunding delivery]
+
+A backer and a project creator are deciding whether to proceed with a pledge.
+The creator moves first and sends one of three messages: NoPromise (m(E)), WillDeliverReward (m(S)), or WillKeepFunds (m(K)).
+
+After seeing the message, the backer chooses between Pledge (I) and KeepMoney (N).
+If the backer chooses KeepMoney (N), the process ends immediately and the result is 2 for the backer and 0 for the creator.
+
+If the backer chooses Pledge (I), the creator then chooses between DeliverReward (S) and KeepFunds (K).
+After NoPromise (m(E)), DeliverReward (S) gives 4 to the backer and 4 to the creator, 
+while KeepFunds (K) gives 0 to the backer and 8 to the creator.
+
+After WillDeliverReward (m(S)), DeliverReward (S) gives 4 to the backer and 4 to the creator.
+If the creator instead chooses KeepFunds (K), the creator is fined for dishonest communication.
+With f = 2, that result is 0 for the backer and 6 for the creator.
+
+After WillKeepFunds (m(K)), KeepFunds (K) gives 0 to the backer and 8 to the creator.
+If the creator instead chooses DeliverReward (S), the creator is fined because the later action does not match the message.
+With f = 2, that result is 4 for the backer and 2 for the creator.

@@ -1,0 +1,19 @@
+V2 [Freelance project]
+
+A client and a freelancer are deciding whether to start a small project.
+The freelancer moves first and sends one of three messages: Undecided (m(E)), WillDeliverFairly (m(S)), or WillTakeAdvanceOnly (m(K)).
+
+After reading the message, the client chooses between Hire (I) and DoNotHire (N).
+If the client chooses DoNotHire (N), the interaction ends immediately and the result is 2 for the client and 0 for the freelancer.
+
+If the client chooses Hire (I), the freelancer then chooses between DeliverProperly (S) and TakeMoneyAndRun (K).
+After Undecided (m(E)), DeliverProperly (S) gives 4 to the client and 4 to the freelancer, 
+while TakeMoneyAndRun (K) gives 0 to the client and 8 to the freelancer.
+
+After WillDeliverFairly (m(S)), DeliverProperly (S) gives 4 to the client and 4 to the freelancer.
+If the freelancer instead chooses TakeMoneyAndRun (K), the freelancer is fined for dishonest communication.
+With f = 2, that result is 0 for the client and 6 for the freelancer.
+
+After WillTakeAdvanceOnly (m(K)), TakeMoneyAndRun (K) gives 0 to the client and 8 to the freelancer.
+If the freelancer instead chooses DeliverProperly (S), the freelancer is fined because the later choice does not match the earlier message.
+With f = 2, that result is 4 for the client and 2 for the freelancer.

@@ -1,0 +1,19 @@
+EFG 2 R "GEB Trust Game Fig. 1 V1" { "Buyer" "Seller" }
+""
+
+p "" 2 1 "" { "NoPromise" "WillRefund" "WillKeepFullPayment" } 0
+p "" 1 1 "" { "Pay" "WalkAway" } 0
+p "" 2 2 "" { "ShareFairly" "KeepAll" } 0
+t "" 4 "NoPromise_Pay_ShareFairly" { 4, 4 }
+t "" 5 "NoPromise_Pay_KeepAll" { 0, 8 }
+t "" 1 "NoPromise_WalkAway" { 2, 0 }
+p "" 1 2 "" { "Pay" "WalkAway" } 0
+p "" 2 3 "" { "ShareFairly" "KeepAll" } 0
+t "" 6 "WillRefund_Pay_ShareFairly" { 4, 4 }
+t "" 7 "WillRefund_Pay_KeepAll" { 0, 6 }
+t "" 2 "WillRefund_WalkAway" { 2, 0 }
+p "" 1 3 "" { "Pay" "WalkAway" } 0
+p "" 2 4 "" { "ShareFairly" "KeepAll" } 0
+t "" 8 "WillKeepFullPayment_Pay_ShareFairly" { 4, 2 }
+t "" 9 "WillKeepFullPayment_Pay_KeepAll" { 0, 8 }
+t "" 3 "WillKeepFullPayment_WalkAway" { 2, 0 }

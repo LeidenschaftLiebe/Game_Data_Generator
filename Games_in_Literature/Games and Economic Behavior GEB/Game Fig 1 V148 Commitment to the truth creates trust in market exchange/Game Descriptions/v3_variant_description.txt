@@ -1,0 +1,19 @@
+V3 [Restaurant reservation]
+
+A customer and a restaurant manager are arranging a prepaid booking.
+The manager moves first and sends one of three messages: NoCommitment (m(E)), WillHonorBooking (m(S)), or WillKeepDeposit (m(K)).
+
+After seeing the message, the customer chooses between Reserve (I) and Leave (N).
+If the customer chooses Leave (N), the interaction ends immediately and the result is 2 for the customer and 0 for the manager.
+
+If the customer chooses Reserve (I), the manager then chooses between HonorBooking (S) and KeepDeposit (K).
+After NoCommitment (m(E)), HonorBooking (S) gives 4 to the customer and 4 to the manager, 
+while KeepDeposit (K) gives 0 to the customer and 8 to the manager.
+
+After WillHonorBooking (m(S)), HonorBooking (S) gives 4 to the customer and 4 to the manager.
+If the manager instead chooses KeepDeposit (K), the manager is fined for dishonest communication.
+With f = 2, that result is 0 for the customer and 6 for the manager.
+
+After WillKeepDeposit (m(K)), KeepDeposit (K) gives 0 to the customer and 8 to the manager.
+If the manager instead chooses HonorBooking (S), the manager is fined because the later action does not match the message.
+With f = 2, that result is 4 for the customer and 2 for the manager.

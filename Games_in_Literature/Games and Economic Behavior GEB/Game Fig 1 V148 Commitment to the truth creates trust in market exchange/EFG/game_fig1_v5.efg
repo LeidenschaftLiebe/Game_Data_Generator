@@ -1,0 +1,19 @@
+EFG 2 R "GEB Trust Game Fig. 1 V5" { "Backer" "Creator" }
+""
+
+p "" 2 1 "" { "NoPromise" "WillDeliverReward" "WillKeepFunds" } 0
+p "" 1 1 "" { "Pledge" "KeepMoney" } 0
+p "" 2 2 "" { "DeliverReward" "KeepFunds" } 0
+t "" 4 "NoPromise_Pledge_DeliverReward" { 4, 4 }
+t "" 5 "NoPromise_Pledge_KeepFunds" { 0, 8 }
+t "" 1 "NoPromise_KeepMoney" { 2, 0 }
+p "" 1 2 "" { "Pledge" "KeepMoney" } 0
+p "" 2 3 "" { "DeliverReward" "KeepFunds" } 0
+t "" 6 "WillDeliverReward_Pledge_DeliverReward" { 4, 4 }
+t "" 7 "WillDeliverReward_Pledge_KeepFunds" { 0, 6 }
+t "" 2 "WillDeliverReward_KeepMoney" { 2, 0 }
+p "" 1 3 "" { "Pledge" "KeepMoney" } 0
+p "" 2 4 "" { "DeliverReward" "KeepFunds" } 0
+t "" 8 "WillKeepFunds_Pledge_DeliverReward" { 4, 2 }
+t "" 9 "WillKeepFunds_Pledge_KeepFunds" { 0, 8 }
+t "" 3 "WillKeepFunds_KeepMoney" { 2, 0 }

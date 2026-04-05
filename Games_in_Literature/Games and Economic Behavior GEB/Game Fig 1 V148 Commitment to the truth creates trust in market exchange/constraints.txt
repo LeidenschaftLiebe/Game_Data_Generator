@@ -1,0 +1,8 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Player B moves first, then Player A moves after the message, and if A chooses the trust action, Player B moves again.
+Seed payoff constraint: after m(E), then I, then S, the payoffs are 4 and 4.
+The three outcomes after N all give the same payoffs, 2 and 0.

@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 1 No Disclosure V4" { "Student" "Professor" }
+""
+
+c "" 1 "" { "EasyTask" 1/2 "DifficultTask" 1/2 } 0
+p "" 1 1 "" { "JoinTask" "StayOut" } 0
+p "" 1 2 "" { "HighEffort" "LowEffort" } 0
+t "" 3 "Easy_JoinTask_HighEffort" { 20, 50 }
+t "" 4 "Easy_JoinTask_LowEffort" { 50, 35 }
+t "" 1 "Easy_StayOut" { 30, 25 }
+p "" 1 1 "" { "JoinTask" "StayOut" } 0
+p "" 1 2 "" { "HighEffort" "LowEffort" } 0
+t "" 5 "Difficult_JoinTask_HighEffort" { 20, 50 }
+t "" 6 "Difficult_JoinTask_LowEffort" { 0, 35 }
+t "" 2 "Difficult_StayOut" { 30, 25 }

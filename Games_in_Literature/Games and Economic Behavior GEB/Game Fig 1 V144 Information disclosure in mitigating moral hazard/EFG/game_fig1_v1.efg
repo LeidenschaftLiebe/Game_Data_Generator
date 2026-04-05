@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 1 No Disclosure V1" { "Worker" "Manager" }
+""
+
+c "" 1 "" { "EasyJob" 1/2 "DifficultJob" 1/2 } 0
+p "" 1 1 "" { "AcceptJob" "DeclineJob" } 0
+p "" 1 2 "" { "WorkHard" "WorkLight" } 0
+t "" 3 "Easy_AcceptJob_WorkHard" { 20, 50 }
+t "" 4 "Easy_AcceptJob_WorkLight" { 50, 35 }
+t "" 1 "Easy_DeclineJob" { 30, 25 }
+p "" 1 1 "" { "AcceptJob" "DeclineJob" } 0
+p "" 1 2 "" { "WorkHard" "WorkLight" } 0
+t "" 5 "Difficult_AcceptJob_WorkHard" { 20, 50 }
+t "" 6 "Difficult_AcceptJob_WorkLight" { 0, 35 }
+t "" 2 "Difficult_DeclineJob" { 30, 25 }

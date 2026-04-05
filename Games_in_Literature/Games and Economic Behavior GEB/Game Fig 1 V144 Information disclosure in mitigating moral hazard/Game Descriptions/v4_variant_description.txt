@@ -1,0 +1,19 @@
+V4 [Research assistance]
+
+A student is deciding whether to work for a professor on a task of uncertain difficulty.
+Chance first determines whether the task is EasyTask or DifficultTask, each with probability 0.50.
+
+The student does not know the task difficulty when making the first choice.
+So the student first chooses between JoinTask (IN) and StayOut (OUT).
+
+If the student chooses StayOut (OUT), the interaction ends immediately.
+The student gets 30 and the professor gets 25.
+
+If the student chooses JoinTask (IN), the student then chooses between HighEffort (HIGH) and LowEffort (LOW).
+The student still does not know whether the task is easy or difficult when making that second choice.
+
+If the task is easy and the student chooses HighEffort (HIGH), the result is 20 for the student and 50 for the professor.
+If the task is easy and the student chooses LowEffort (LOW), the result is 50 for the student and 35 for the professor.
+
+If the task is difficult and the student chooses HighEffort (HIGH), the result is 20 for the student and 50 for the professor.
+If the task is difficult and the student chooses LowEffort (LOW), the result is 0 for the student and 35 for the professor.

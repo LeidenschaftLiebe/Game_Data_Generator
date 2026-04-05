@@ -1,0 +1,19 @@
+V5 [Delivery assignment]
+
+A courier is deciding whether to accept a delivery assignment from a dispatcher.
+Chance first determines whether the assignment is EasyTask or DifficultTask, each with probability 0.50.
+
+The courier does not know the assignment difficulty when making the first decision.
+So the courier first chooses between AcceptAssignment (IN) and RejectAssignment (OUT).
+
+If the courier chooses RejectAssignment (OUT), the interaction ends immediately.
+The courier gets 30 and the dispatcher gets 25.
+
+If the courier chooses AcceptAssignment (IN), the courier then chooses between GoAllOut (HIGH) and TakeItEasy (LOW).
+The courier still does not know whether the assignment is easy or difficult at that point.
+
+If the assignment is easy and the courier chooses GoAllOut (HIGH), the result is 20 for the courier and 50 for the dispatcher.
+If the assignment is easy and the courier chooses TakeItEasy (LOW), the result is 50 for the courier and 35 for the dispatcher.
+
+If the assignment is difficult and the courier chooses GoAllOut (HIGH), the result is 20 for the courier and 50 for the dispatcher.
+If the assignment is difficult and the courier chooses TakeItEasy (LOW), the result is 0 for the courier and 35 for the dispatcher.

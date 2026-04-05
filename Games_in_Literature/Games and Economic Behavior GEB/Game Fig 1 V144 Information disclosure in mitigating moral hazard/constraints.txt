@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Chance first chooses between the easy task and the difficult task with equal probability.
+The agent chooses between entering and staying out without knowing the task difficulty, 
+and if the agent enters, the later effort choice also occurs without disclosure of task difficulty.
+Seed payoff constraint: after the easy task, then IN, then LOW, the payoffs are 50 and 35.

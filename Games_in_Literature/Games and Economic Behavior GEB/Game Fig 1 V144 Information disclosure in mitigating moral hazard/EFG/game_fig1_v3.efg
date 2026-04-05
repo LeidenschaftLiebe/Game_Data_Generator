@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 1 No Disclosure V3" { "Technician" "Homeowner" }
+""
+
+c "" 1 "" { "EasyRepair" 1/2 "DifficultRepair" 1/2 } 0
+p "" 1 1 "" { "TakeContract" "DeclineContract" } 0
+p "" 1 2 "" { "HighEffort" "LowEffort" } 0
+t "" 3 "Easy_TakeContract_HighEffort" { 20, 50 }
+t "" 4 "Easy_TakeContract_LowEffort" { 50, 35 }
+t "" 1 "Easy_DeclineContract" { 30, 25 }
+p "" 1 1 "" { "TakeContract" "DeclineContract" } 0
+p "" 1 2 "" { "HighEffort" "LowEffort" } 0
+t "" 5 "Difficult_TakeContract_HighEffort" { 20, 50 }
+t "" 6 "Difficult_TakeContract_LowEffort" { 0, 35 }
+t "" 2 "Difficult_DeclineContract" { 30, 25 }

@@ -1,0 +1,19 @@
+V2 [Freelance project]
+
+A freelancer is deciding whether to take on a project from a client.
+Chance first determines whether the project is EasyTask or DifficultTask, each with probability 0.50.
+
+The freelancer does not know the project difficulty when making the first decision.
+So the freelancer first chooses between TakeProject (IN) and PassProject (OUT).
+
+If the freelancer chooses PassProject (OUT), the interaction ends immediately.
+The freelancer gets 30 and the client gets 25.
+
+If the freelancer chooses TakeProject (IN), the freelancer then chooses between FullEffort (HIGH) and MinimalEffort (LOW).
+The freelancer still does not know whether the project is easy or difficult at that point.
+
+If the project is easy and the freelancer chooses FullEffort (HIGH), the result is 20 for the freelancer and 50 for the client.
+If the project is easy and the freelancer chooses MinimalEffort (LOW), the result is 50 for the freelancer and 35 for the client.
+
+If the project is difficult and the freelancer chooses FullEffort (HIGH), the result is 20 for the freelancer and 50 for the client.
+If the project is difficult and the freelancer chooses MinimalEffort (LOW), the result is 0 for the freelancer and 35 for the client.

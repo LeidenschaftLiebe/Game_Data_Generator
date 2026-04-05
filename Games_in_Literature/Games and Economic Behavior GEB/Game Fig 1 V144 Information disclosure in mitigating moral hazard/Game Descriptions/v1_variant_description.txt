@@ -1,0 +1,19 @@
+V1 [Job assignment]
+
+A worker is considering whether to accept a job for a manager.
+Chance first determines whether the job is EasyTask or DifficultTask, each with probability 0.50.
+
+The worker does not know which kind of job it is when making the first choice.
+So the worker first chooses between AcceptJob (IN) and DeclineJob (OUT).
+
+If the worker chooses DeclineJob (OUT), the interaction ends immediately.
+The worker gets 30 and the manager gets 25.
+
+If the worker chooses AcceptJob (IN), the worker then chooses between WorkHard (HIGH) and WorkLight (LOW).
+The worker still does not know whether the job is easy or difficult when making that second choice.
+
+If the job is easy and the worker chooses WorkHard (HIGH), the result is 20 for the worker and 50 for the manager.
+If the job is easy and the worker chooses WorkLight (LOW), the result is 50 for the worker and 35 for the manager.
+
+If the job is difficult and the worker chooses WorkHard (HIGH), the result is 20 for the worker and 50 for the manager.
+If the job is difficult and the worker chooses WorkLight (LOW), the result is 0 for the worker and 35 for the manager.

@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 1 No Disclosure" { "Agent" "Principal" }
+""
+
+c "" 1 "" { "EasyTask" 1/2 "DifficultTask" 1/2 } 0
+p "" 1 1 "" { "IN" "OUT" } 0
+p "" 1 2 "" { "HIGH" "LOW" } 0
+t "" 3 "Easy_IN_HIGH" { 20, 50 }
+t "" 4 "Easy_IN_LOW" { 50, 35 }
+t "" 1 "Easy_OUT" { 30, 25 }
+p "" 1 1 "" { "IN" "OUT" } 0
+p "" 1 2 "" { "HIGH" "LOW" } 0
+t "" 5 "Difficult_IN_HIGH" { 20, 50 }
+t "" 6 "Difficult_IN_LOW" { 0, 35 }
+t "" 2 "Difficult_OUT" { 30, 25 }

@@ -1,0 +1,21 @@
+V0 [Original article context]
+
+This game comes from the article’s no-disclosure setting in a dynamic moral hazard problem.
+A principal wants an agent to work on a task whose difficulty is uncertain.
+The task is easy with probability 0.50 and difficult with probability 0.50.
+
+The agent does not learn the task difficulty before deciding whether to enter.
+So the agent first chooses between IN and OUT without knowing whether the task is easy or difficult.
+
+If the agent chooses OUT, the interaction ends immediately.
+The agent gets 30 and the principal gets 25.
+
+If the agent chooses IN, the agent must then choose between HIGH and LOW.
+The agent still does not know whether the task is easy or difficult at that point.
+That is why the no-disclosure setting is represented with the two linked decision points in the figure.
+
+If the task is easy and the agent chooses HIGH, the result is 20 for the agent and 50 for the principal.
+If the task is easy and the agent chooses LOW, the result is 50 for the agent and 35 for the principal.
+
+If the task is difficult and the agent chooses HIGH, the result is 20 for the agent and 50 for the principal.
+If the task is difficult and the agent chooses LOW, the result is 0 for the agent and 35 for the principal.

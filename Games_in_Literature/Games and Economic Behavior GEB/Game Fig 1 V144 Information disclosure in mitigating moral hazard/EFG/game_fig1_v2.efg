@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 1 No Disclosure V2" { "Freelancer" "Client" }
+""
+
+c "" 1 "" { "EasyProject" 1/2 "DifficultProject" 1/2 } 0
+p "" 1 1 "" { "TakeProject" "PassProject" } 0
+p "" 1 2 "" { "FullEffort" "MinimalEffort" } 0
+t "" 3 "Easy_TakeProject_FullEffort" { 20, 50 }
+t "" 4 "Easy_TakeProject_MinimalEffort" { 50, 35 }
+t "" 1 "Easy_PassProject" { 30, 25 }
+p "" 1 1 "" { "TakeProject" "PassProject" } 0
+p "" 1 2 "" { "FullEffort" "MinimalEffort" } 0
+t "" 5 "Difficult_TakeProject_FullEffort" { 20, 50 }
+t "" 6 "Difficult_TakeProject_MinimalEffort" { 0, 35 }
+t "" 2 "Difficult_PassProject" { 30, 25 }

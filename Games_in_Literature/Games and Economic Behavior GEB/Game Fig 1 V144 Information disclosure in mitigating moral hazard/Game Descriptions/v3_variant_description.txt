@@ -1,0 +1,19 @@
+V3 [Repair contract]
+
+A technician is deciding whether to take a repair contract from a homeowner.
+Chance first determines whether the repair job is EasyTask or DifficultTask, each with probability 0.50.
+
+The technician does not know the true difficulty when making the first choice.
+So the technician first chooses between TakeContract (IN) and DeclineContract (OUT).
+
+If the technician chooses DeclineContract (OUT), the interaction ends immediately.
+The technician gets 30 and the homeowner gets 25.
+
+If the technician chooses TakeContract (IN), the technician then chooses between HighEffort (HIGH) and LowEffort (LOW).
+The technician still does not know whether the repair job is easy or difficult.
+
+If the repair job is easy and the technician chooses HighEffort (HIGH), the result is 20 for the technician and 50 for the homeowner.
+If the repair job is easy and the technician chooses LowEffort (LOW), the result is 50 for the technician and 35 for the homeowner.
+
+If the repair job is difficult and the technician chooses HighEffort (HIGH), the result is 20 for the technician and 50 for the homeowner.
+If the repair job is difficult and the technician chooses LowEffort (LOW), the result is 0 for the technician and 35 for the homeowner.

@@ -1,0 +1,8 @@
+EFG 2 R "GEB Investment Game Fig. 1 V2" { "Lead Researcher" "Lab Manager" "Colleague" }
+""
+
+p "" 1 1 "" { "KeepBudget" "TransferBudget" } 0
+t "" 1 "KeepBudget" { 170, 100, 30 }
+p "" 2 1 "" { "SmallReimbursement" "FullReimbursement" } 0
+t "" 2 "TransferBudget_SmallReimbursement" { 155, 120, 30 }
+t "" 3 "TransferBudget_FullReimbursement" { 195, 100, 30 }

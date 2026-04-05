@@ -1,0 +1,18 @@
+V4 [Online marketplace guarantee]
+
+A buyer, a platform seller, and a passive observer are involved in a guarantee decision.
+The buyer first chooses between KeepPayment (Out) and ReleasePayment (In).
+
+If the buyer chooses KeepPayment (Out), the interaction ends immediately.
+The result is 170 for the buyer, 100 for the seller, and 30 for the observer.
+
+If the buyer chooses ReleasePayment (In), 25 units from the buyer’s own funds are handed to the seller.
+The seller then chooses between RefundSmallPart (Left) and RefundFullAmount (Right).
+
+If the seller chooses RefundSmallPart (Left), the seller keeps 20 and returns 5 to the buyer.
+That returned amount is doubled, so the buyer receives 10.
+The result is 155 for the buyer, 120 for the seller, and 30 for the observer.
+
+If the seller chooses RefundFullAmount (Right), the seller returns the full 25 to the buyer.
+That amount is doubled, so the buyer receives 50.
+The result is 195 for the buyer, 100 for the seller, and 30 for the observer.

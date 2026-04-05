@@ -1,0 +1,18 @@
+V3 [Family loan]
+
+A family member, a relative handling the money, and a bystander are involved in a lending decision.
+The first family member chooses between KeepMoney (Out) and LendMoney (In).
+
+If the first family member chooses KeepMoney (Out), the interaction ends immediately.
+The result is 170 for the first family member, 100 for the relative, and 30 for the bystander.
+
+If the first family member chooses LendMoney (In), 25 units from the first family member’s own money are handed to the relative.
+The relative then chooses between ReturnSmallPart (Left) and ReturnEverything (Right).
+
+If the relative chooses ReturnSmallPart (Left), the relative keeps 20 and gives back 5.
+That returned amount is doubled, so the first family member receives 10.
+The result is 155 for the first family member, 120 for the relative, and 30 for the bystander.
+
+If the relative chooses ReturnEverything (Right), the relative gives back the full 25.
+That amount is doubled, so the first family member receives 50.
+The result is 195 for the first family member, 100 for the relative, and 30 for the bystander.

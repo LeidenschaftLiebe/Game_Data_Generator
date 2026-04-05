@@ -1,0 +1,27 @@
+V0 [Original article context]
+
+This figure is the article’s Investment game.
+It is one of the three-player quasi-trust mini-games used to study whether guilt depends on another player’s vulnerability.
+
+There are three players: A, B, and C.
+Player A moves first and chooses between Out and In.
+
+If A chooses Out, the game ends immediately.
+The result is 170 for A, 100 for B, and 30 for C.
+
+If A chooses In, A sends 25 ECU from A’s own endowment to B.
+Then B chooses between Left and Right.
+In the article’s wording, the flow after In is A -> B -> A.
+
+If B chooses Left, B keeps 20 ECU and transfers 5 ECU back to A.
+That transferred amount is doubled, so A receives 10.
+The result is 155 for A, 120 for B, and 30 for C.
+
+If B chooses Right, B transfers the full 25 ECU back to A.
+That amount is doubled, so A receives 50.
+The result is 195 for A, 100 for B, and 30 for C.
+
+In this game, the article says that A is vulnerable in two ways:
+A’s own endowment is put at risk by choosing In,
+and A’s final amount also depends on B’s later choice.
+Player C is not vulnerable here.

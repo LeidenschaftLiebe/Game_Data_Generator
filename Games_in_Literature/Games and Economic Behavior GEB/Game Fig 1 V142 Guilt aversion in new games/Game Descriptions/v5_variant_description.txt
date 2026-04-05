@@ -1,0 +1,18 @@
+V5 [Community project]
+
+A local organizer, a treasurer, and a passive resident are involved in a project decision.
+The organizer first chooses between KeepResources (Out) and EntrustResources (In).
+
+If the organizer chooses KeepResources (Out), the interaction ends immediately.
+The result is 170 for the organizer, 100 for the treasurer, and 30 for the resident.
+
+If the organizer chooses EntrustResources (In), 25 units from the organizer’s own resources are handed to the treasurer.
+The treasurer then chooses between ReturnSmallPart (Left) and ReturnFullPart (Right).
+
+If the treasurer chooses ReturnSmallPart (Left), the treasurer keeps 20 and sends back 5 to the organizer.
+That returned amount is doubled, so the organizer receives 10.
+The result is 155 for the organizer, 120 for the treasurer, and 30 for the resident.
+
+If the treasurer chooses ReturnFullPart (Right), the treasurer sends back the full 25 to the organizer.
+That amount is doubled, so the organizer receives 50.
+The result is 195 for the organizer, 100 for the treasurer, and 30 for the resident.

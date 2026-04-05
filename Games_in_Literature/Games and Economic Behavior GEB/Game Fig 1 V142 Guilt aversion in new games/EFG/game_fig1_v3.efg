@@ -1,0 +1,8 @@
+EFG 2 R "GEB Investment Game Fig. 1 V3" { "Lender" "Relative" "Bystander" }
+""
+
+p "" 1 1 "" { "KeepMoney" "LendMoney" } 0
+t "" 1 "KeepMoney" { 170, 100, 30 }
+p "" 2 1 "" { "ReturnSmallPart" "ReturnEverything" } 0
+t "" 2 "LendMoney_ReturnSmallPart" { 155, 120, 30 }
+t "" 3 "LendMoney_ReturnEverything" { 195, 100, 30 }

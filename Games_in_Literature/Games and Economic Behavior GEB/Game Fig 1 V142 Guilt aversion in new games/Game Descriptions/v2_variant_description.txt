@@ -1,0 +1,18 @@
+V2 [Research budget]
+
+A lead researcher, a lab manager, and a passive colleague are involved in a budget decision.
+The lead researcher first chooses between KeepBudget (Out) and TransferBudget (In).
+
+If the lead researcher chooses KeepBudget (Out), the interaction ends immediately.
+The result is 170 for the lead researcher, 100 for the lab manager, and 30 for the colleague.
+
+If the lead researcher chooses TransferBudget (In), 25 units from the lead researcher’s own budget are placed under the lab manager’s control.
+The lab manager then chooses between SmallReimbursement (Left) and FullReimbursement (Right).
+
+If the lab manager chooses SmallReimbursement (Left), the lab manager keeps 20 and sends back 5 to the lead researcher.
+That returned amount is doubled, so the lead researcher receives 10.
+The result is 155 for the lead researcher, 120 for the lab manager, and 30 for the colleague.
+
+If the lab manager chooses FullReimbursement (Right), the lab manager sends the full 25 back to the lead researcher.
+That amount is doubled, so the lead researcher receives 50.
+The result is 195 for the lead researcher, 100 for the lab manager, and 30 for the colleague.

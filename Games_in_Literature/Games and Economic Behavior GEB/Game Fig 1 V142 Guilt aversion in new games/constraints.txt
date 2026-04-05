@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+A moves first, and B moves only if A chooses In, Player C never moves.
+Seed payoff constraint: after Out, the payoffs are 170, 100, 30.

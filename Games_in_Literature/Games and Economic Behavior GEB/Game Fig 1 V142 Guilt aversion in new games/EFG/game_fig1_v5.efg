@@ -1,0 +1,8 @@
+EFG 2 R "GEB Investment Game Fig. 1 V5" { "Organizer" "Treasurer" "Resident" }
+""
+
+p "" 1 1 "" { "KeepResources" "EntrustResources" } 0
+t "" 1 "KeepResources" { 170, 100, 30 }
+p "" 2 1 "" { "ReturnSmallPart" "ReturnFullPart" } 0
+t "" 2 "EntrustResources_ReturnSmallPart" { 155, 120, 30 }
+t "" 3 "EntrustResources_ReturnFullPart" { 195, 100, 30 }

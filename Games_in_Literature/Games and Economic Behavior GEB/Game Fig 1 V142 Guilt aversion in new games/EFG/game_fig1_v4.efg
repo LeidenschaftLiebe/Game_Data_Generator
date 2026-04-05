@@ -1,0 +1,8 @@
+EFG 2 R "GEB Investment Game Fig. 1 V4" { "Buyer" "Seller" "Observer" }
+""
+
+p "" 1 1 "" { "KeepPayment" "ReleasePayment" } 0
+t "" 1 "KeepPayment" { 170, 100, 30 }
+p "" 2 1 "" { "RefundSmallPart" "RefundFullAmount" } 0
+t "" 2 "ReleasePayment_RefundSmallPart" { 155, 120, 30 }
+t "" 3 "ReleasePayment_RefundFullAmount" { 195, 100, 30 }

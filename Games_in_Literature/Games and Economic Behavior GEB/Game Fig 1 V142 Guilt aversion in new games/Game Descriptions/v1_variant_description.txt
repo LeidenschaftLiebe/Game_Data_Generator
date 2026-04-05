@@ -1,0 +1,18 @@
+V1 [Startup funding]
+
+A founder, an investor, and an outside observer are involved in a small funding decision.
+The founder moves first and chooses between KeepFunds (Out) and InvestFunds (In).
+
+If the founder chooses KeepFunds (Out), the interaction ends immediately.
+The result is 170 for the founder, 100 for the investor, and 30 for the observer.
+
+If the founder chooses InvestFunds (In), 25 units come out of the founder’s own resources and are handed to the investor.
+The investor then chooses between PartialReturn (Left) and FullReturn (Right).
+
+If the investor chooses PartialReturn (Left), the investor keeps 20 and sends back 5 to the founder.
+That returned amount is doubled, so the founder receives 10.
+The result is 155 for the founder, 120 for the investor, and 30 for the observer.
+
+If the investor chooses FullReturn (Right), the investor sends the full 25 back to the founder.
+That amount is doubled, so the founder receives 50.
+The result is 195 for the founder, 100 for the investor, and 30 for the observer.

@@ -1,0 +1,25 @@
+V0 [Original article context]
+
+This game comes from the article’s non-commitment setting.
+The principal learns whether the task is easy or difficult, and only then chooses whether to disclose that information right away or not.
+The task is easy with probability 0.50 and difficult with probability 0.50.
+
+If the principal chooses Immediate Disclosure, the agent learns the task difficulty before choosing whether to enter.
+If the principal chooses No Disclosure, the agent does not learn the task difficulty before choosing whether to enter.
+
+The article argues that when the task is difficult, the principal does not want to reveal that fact before the agent decides.
+When the task is easy, the principal does want to reveal it.
+So in this setting, the predicted behavior is to disclose immediately when the task is easy and not disclose when the task is difficult.
+
+After the agent’s choice, the outcomes follow the same payoff structure as before.
+If the agent chooses OUT, the agent gets 30 and the principal gets 25.
+
+If the agent chooses IN, the agent then chooses between HIGH and LOW.
+On the no-disclosure side, the agent still does not know whether the task is easy or difficult when choosing effort.
+On the immediate-disclosure side, the agent does know the realized difficulty when choosing effort.
+
+If the task is easy and the agent chooses HIGH, the result is 20 for the agent and 50 for the principal.
+If the task is easy and the agent chooses LOW, the result is 50 for the agent and 35 for the principal.
+
+If the task is difficult and the agent chooses HIGH, the result is 20 for the agent and 50 for the principal.
+If the task is difficult and the agent chooses LOW, the result is 0 for the agent and 35 for the principal.

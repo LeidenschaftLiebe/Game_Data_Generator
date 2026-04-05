@@ -1,0 +1,20 @@
+V5 [Delivery assignment]
+
+A dispatcher learns whether an assignment is EasyTask or DifficultTask, each with probability 0.50.
+After learning that, the dispatcher chooses between NoDisclosure and ImmediateDisclosure.
+
+If the dispatcher chooses ImmediateDisclosure, the courier learns the assignment difficulty before deciding whether to enter.
+If the dispatcher chooses NoDisclosure, the courier does not learn the assignment difficulty before deciding.
+
+The courier then chooses between AcceptAssignment (IN) and RejectAssignment (OUT).
+If the courier chooses RejectAssignment (OUT), the courier gets 30 and the dispatcher gets 25.
+
+If the courier chooses AcceptAssignment (IN), the courier then chooses between GoAllOut (HIGH) and TakeItEasy (LOW).
+On the NoDisclosure side, the courier still does not know whether the assignment is easy or difficult when choosing effort.
+On the ImmediateDisclosure side, the courier does know.
+
+If the assignment is easy and the courier chooses GoAllOut (HIGH), the result is 20 for the courier and 50 for the dispatcher.
+If the assignment is easy and the courier chooses TakeItEasy (LOW), the result is 50 for the courier and 35 for the dispatcher.
+
+If the assignment is difficult and the courier chooses GoAllOut (HIGH), the result is 20 for the courier and 50 for the dispatcher.
+If the courier chooses TakeItEasy (LOW), the result is 0 for the courier and 35 for the dispatcher.

@@ -1,0 +1,20 @@
+V1 [Job assignment]
+
+A manager learns whether a job is EasyTask or DifficultTask, each with probability 0.50.
+After learning that, the manager chooses between NoDisclosure and ImmediateDisclosure.
+
+If the manager chooses ImmediateDisclosure, the worker learns the job difficulty before deciding whether to enter.
+If the manager chooses NoDisclosure, the worker does not learn the job difficulty before deciding.
+
+The worker then chooses between AcceptJob (IN) and DeclineJob (OUT).
+If the worker chooses DeclineJob (OUT), the worker gets 30 and the manager gets 25.
+
+If the worker chooses AcceptJob (IN), the worker then chooses between WorkHard (HIGH) and WorkLight (LOW).
+On the NoDisclosure side, the worker still does not know whether the job is easy or difficult when choosing effort.
+On the ImmediateDisclosure side, the worker does know.
+
+If the job is easy and the worker chooses WorkHard (HIGH), the result is 20 for the worker and 50 for the manager.
+If the job is easy and the worker chooses WorkLight (LOW), the result is 50 for the worker and 35 for the manager.
+
+If the job is difficult and the worker chooses WorkHard (HIGH), the result is 20 for the worker and 50 for the manager.
+If the job is difficult and the worker chooses WorkLight (LOW), the result is 0 for the worker and 35 for the manager.

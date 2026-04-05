@@ -1,0 +1,26 @@
+EFG 2 R "GEB Fig. 4 Non-Commitment V4" { "Student" "Professor" }
+""
+
+c "" 1 "" { "EasyTask" 1/2 "DifficultTask" 1/2 } 0
+p "" 2 1 "" { "NoDisclosure" "ImmediateDisclosure" } 0
+p "" 1 1 "" { "JoinTask" "StayOut" } 0
+p "" 1 2 "" { "HighEffort" "LowEffort" } 0
+t "" 3 "Easy_NoDisclosure_JoinTask_HighEffort" { 20, 50 }
+t "" 4 "Easy_NoDisclosure_JoinTask_LowEffort" { 50, 35 }
+t "" 1 "Easy_NoDisclosure_StayOut" { 30, 25 }
+p "" 1 3 "" { "JoinTask" "StayOut" } 0
+p "" 1 5 "" { "HighEffort" "LowEffort" } 0
+t "" 9 "Easy_ImmediateDisclosure_JoinTask_HighEffort" { 20, 50 }
+t "" 10 "Easy_ImmediateDisclosure_JoinTask_LowEffort" { 50, 35 }
+t "" 7 "Easy_ImmediateDisclosure_StayOut" { 30, 25 }
+p "" 2 2 "" { "NoDisclosure" "ImmediateDisclosure" } 0
+p "" 1 1 "" { "JoinTask" "StayOut" } 0
+p "" 1 2 "" { "HighEffort" "LowEffort" } 0
+t "" 5 "Difficult_NoDisclosure_JoinTask_HighEffort" { 20, 50 }
+t "" 6 "Difficult_NoDisclosure_JoinTask_LowEffort" { 0, 35 }
+t "" 2 "Difficult_NoDisclosure_StayOut" { 30, 25 }
+p "" 1 4 "" { "JoinTask" "StayOut" } 0
+p "" 1 6 "" { "HighEffort" "LowEffort" } 0
+t "" 11 "Difficult_ImmediateDisclosure_JoinTask_HighEffort" { 20, 50 }
+t "" 12 "Difficult_ImmediateDisclosure_JoinTask_LowEffort" { 0, 35 }
+t "" 8 "Difficult_ImmediateDisclosure_StayOut" { 30, 25 }

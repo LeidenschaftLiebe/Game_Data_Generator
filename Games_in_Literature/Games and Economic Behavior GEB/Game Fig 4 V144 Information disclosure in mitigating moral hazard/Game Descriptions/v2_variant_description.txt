@@ -1,0 +1,20 @@
+V2 [Freelance project]
+
+A client learns whether a project is EasyTask or DifficultTask, each with probability 0.50.
+After learning that, the client chooses between NoDisclosure and ImmediateDisclosure.
+
+If the client chooses ImmediateDisclosure, the freelancer learns the project difficulty before deciding whether to enter.
+If the client chooses NoDisclosure, the freelancer does not learn the project difficulty before deciding.
+
+The freelancer then chooses between TakeProject (IN) and PassProject (OUT).
+If the freelancer chooses PassProject (OUT), the freelancer gets 30 and the client gets 25.
+
+If the freelancer chooses TakeProject (IN), the freelancer then chooses between FullEffort (HIGH) and MinimalEffort (LOW).
+On the NoDisclosure side, the freelancer still does not know whether the project is easy or difficult when choosing effort.
+On the ImmediateDisclosure side, the freelancer does know.
+
+If the project is easy and the freelancer chooses FullEffort (HIGH), the result is 20 for the freelancer and 50 for the client.
+If the project is easy and the freelancer chooses MinimalEffort (LOW), the result is 50 for the freelancer and 35 for the client.
+
+If the project is difficult and the freelancer chooses FullEffort (HIGH), the result is 20 for the freelancer and 50 for the client.
+If the project is difficult and the freelancer chooses MinimalEffort (LOW), the result is 0 for the freelancer and 35 for the client.

@@ -1,0 +1,26 @@
+EFG 2 R "GEB Fig. 4 Non-Commitment V2" { "Freelancer" "Client" }
+""
+
+c "" 1 "" { "EasyProject" 1/2 "DifficultProject" 1/2 } 0
+p "" 2 1 "" { "NoDisclosure" "ImmediateDisclosure" } 0
+p "" 1 1 "" { "TakeProject" "PassProject" } 0
+p "" 1 2 "" { "FullEffort" "MinimalEffort" } 0
+t "" 3 "Easy_NoDisclosure_TakeProject_FullEffort" { 20, 50 }
+t "" 4 "Easy_NoDisclosure_TakeProject_MinimalEffort" { 50, 35 }
+t "" 1 "Easy_NoDisclosure_PassProject" { 30, 25 }
+p "" 1 3 "" { "TakeProject" "PassProject" } 0
+p "" 1 5 "" { "FullEffort" "MinimalEffort" } 0
+t "" 9 "Easy_ImmediateDisclosure_TakeProject_FullEffort" { 20, 50 }
+t "" 10 "Easy_ImmediateDisclosure_TakeProject_MinimalEffort" { 50, 35 }
+t "" 7 "Easy_ImmediateDisclosure_PassProject" { 30, 25 }
+p "" 2 2 "" { "NoDisclosure" "ImmediateDisclosure" } 0
+p "" 1 1 "" { "TakeProject" "PassProject" } 0
+p "" 1 2 "" { "FullEffort" "MinimalEffort" } 0
+t "" 5 "Difficult_NoDisclosure_TakeProject_FullEffort" { 20, 50 }
+t "" 6 "Difficult_NoDisclosure_TakeProject_MinimalEffort" { 0, 35 }
+t "" 2 "Difficult_NoDisclosure_PassProject" { 30, 25 }
+p "" 1 4 "" { "TakeProject" "PassProject" } 0
+p "" 1 6 "" { "FullEffort" "MinimalEffort" } 0
+t "" 11 "Difficult_ImmediateDisclosure_TakeProject_FullEffort" { 20, 50 }
+t "" 12 "Difficult_ImmediateDisclosure_TakeProject_MinimalEffort" { 0, 35 }
+t "" 8 "Difficult_ImmediateDisclosure_PassProject" { 30, 25 }

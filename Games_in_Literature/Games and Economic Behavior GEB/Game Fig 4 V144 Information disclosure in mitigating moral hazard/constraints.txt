@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Chance first chooses between the easy task and the difficult task with equal probability.
+The principal moves after learning the task difficulty and chooses between no disclosure and immediate disclosure.
+Under no disclosure, the agent’s entry decision and later effort decision do not reveal that the agent has learned the task difficulty.
+Seed payoff constraint: after the easy task, then immediate disclosure, then IN, then LOW, the payoffs are 50 and 35.

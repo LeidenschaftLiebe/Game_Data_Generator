@@ -1,0 +1,20 @@
+V3 [Repair contract]
+
+A homeowner learns whether a repair job is EasyTask or DifficultTask, each with probability 0.50.
+After learning that, the homeowner chooses between NoDisclosure and ImmediateDisclosure.
+
+If the homeowner chooses ImmediateDisclosure, the technician learns the job difficulty before deciding whether to enter.
+If the homeowner chooses NoDisclosure, the technician does not learn the job difficulty before deciding.
+
+The technician then chooses between TakeContract (IN) and DeclineContract (OUT).
+If the technician chooses DeclineContract (OUT), the technician gets 30 and the homeowner gets 25.
+
+If the technician chooses TakeContract (IN), the technician then chooses between HighEffort (HIGH) and LowEffort (LOW).
+On the NoDisclosure side, the technician still does not know whether the repair job is easy or difficult when choosing effort.
+On the ImmediateDisclosure side, the technician does know.
+
+If the repair job is easy and the technician chooses HighEffort (HIGH), the result is 20 for the technician and 50 for the homeowner.
+If the repair job is easy and the technician chooses LowEffort (LOW), the result is 50 for the technician and 35 for the homeowner.
+
+If the repair job is difficult and the technician chooses HighEffort (HIGH), the result is 20 for the technician and 50 for the homeowner.
+If the technician chooses LowEffort (LOW), the result is 0 for the technician and 35 for the homeowner.

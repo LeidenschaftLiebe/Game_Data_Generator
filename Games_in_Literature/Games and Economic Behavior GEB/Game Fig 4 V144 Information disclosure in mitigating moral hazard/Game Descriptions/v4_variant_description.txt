@@ -1,0 +1,20 @@
+V4 [Research assistance]
+
+A professor learns whether a task is EasyTask or DifficultTask, each with probability 0.50.
+After learning that, the professor chooses between NoDisclosure and ImmediateDisclosure.
+
+If the professor chooses ImmediateDisclosure, the student learns the task difficulty before deciding whether to enter.
+If the professor chooses NoDisclosure, the student does not learn the task difficulty before deciding.
+
+The student then chooses between JoinTask (IN) and StayOut (OUT).
+If the student chooses StayOut (OUT), the student gets 30 and the professor gets 25.
+
+If the student chooses JoinTask (IN), the student then chooses between HighEffort (HIGH) and LowEffort (LOW).
+On the NoDisclosure side, the student still does not know whether the task is easy or difficult when choosing effort.
+On the ImmediateDisclosure side, the student does know.
+
+If the task is easy and the student chooses HighEffort (HIGH), the result is 20 for the student and 50 for the professor.
+If the task is easy and the student chooses LowEffort (LOW), the result is 50 for the student and 35 for the professor.
+
+If the task is difficult and the student chooses HighEffort (HIGH), the result is 20 for the student and 50 for the professor.
+If the student chooses LowEffort (LOW), the result is 0 for the student and 35 for the professor.

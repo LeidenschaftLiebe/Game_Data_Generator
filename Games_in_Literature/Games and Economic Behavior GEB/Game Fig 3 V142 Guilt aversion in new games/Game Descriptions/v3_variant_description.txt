@@ -1,0 +1,18 @@
+V3 [Family gift transfer]
+
+A family organizer, a relative handling the money, and another family member are involved in a transfer decision.
+The organizer first chooses between KeepMoney (Out) and HandOverMoney (In).
+
+If the organizer chooses KeepMoney (Out), the interaction ends immediately.
+The result is 170 for the organizer, 100 for the relative, and 30 for the other family member.
+
+If the organizer chooses HandOverMoney (In), 25 units from the organizer’s own money are handed to the relative.
+The relative then chooses between SmallGift (Left) and FullGift (Right).
+
+If the relative chooses SmallGift (Left), the relative keeps 20 and sends 5 to the other family member.
+That transferred amount is doubled, so the other family member receives 10.
+The result is 145 for the organizer, 120 for the relative, and 40 for the other family member.
+
+If the relative chooses FullGift (Right), the relative sends the full 25 to the other family member.
+That amount is doubled, so the other family member receives 50.
+The result is 145 for the organizer, 100 for the relative, and 80 for the other family member.

@@ -1,0 +1,8 @@
+EFG 2 R "GEB Donation Game Fig. 3 V5" { "Organizer" "Treasurer" "Resident" }
+""
+
+p "" 1 1 "" { "KeepResources" "EntrustResources" } 0
+t "" 1 "KeepResources" { 170, 100, 30 }
+p "" 2 1 "" { "SmallAid" "FullAid" } 0
+t "" 2 "EntrustResources_SmallAid" { 145, 120, 40 }
+t "" 3 "EntrustResources_FullAid" { 145, 100, 80 }

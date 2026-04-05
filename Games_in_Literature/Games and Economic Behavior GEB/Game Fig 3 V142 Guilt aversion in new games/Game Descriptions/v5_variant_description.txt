@@ -1,0 +1,18 @@
+V5 [Community aid fund]
+
+A local organizer, a treasurer, and a resident are involved in a support decision.
+The organizer first chooses between KeepResources (Out) and EntrustResources (In).
+
+If the organizer chooses KeepResources (Out), the interaction ends immediately.
+The result is 170 for the organizer, 100 for the treasurer, and 30 for the resident.
+
+If the organizer chooses EntrustResources (In), 25 units from the organizer’s own resources are handed to the treasurer.
+The treasurer then chooses between SmallAid (Left) and FullAid (Right).
+
+If the treasurer chooses SmallAid (Left), the treasurer keeps 20 and sends 5 to the resident.
+That transferred amount is doubled, so the resident receives 10.
+The result is 145 for the organizer, 120 for the treasurer, and 40 for the resident.
+
+If the treasurer chooses FullAid (Right), the treasurer sends the full 25 to the resident.
+That amount is doubled, so the resident receives 50.
+The result is 145 for the organizer, 100 for the treasurer, and 80 for the resident.

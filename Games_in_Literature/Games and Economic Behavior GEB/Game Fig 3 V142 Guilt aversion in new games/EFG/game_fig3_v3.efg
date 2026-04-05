@@ -1,0 +1,8 @@
+EFG 2 R "GEB Donation Game Fig. 3 V3" { "Organizer" "Relative" "FamilyMember" }
+""
+
+p "" 1 1 "" { "KeepMoney" "HandOverMoney" } 0
+t "" 1 "KeepMoney" { 170, 100, 30 }
+p "" 2 1 "" { "SmallGift" "FullGift" } 0
+t "" 2 "HandOverMoney_SmallGift" { 145, 120, 40 }
+t "" 3 "HandOverMoney_FullGift" { 145, 100, 80 }

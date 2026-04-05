@@ -1,0 +1,18 @@
+V2 [Research grant support]
+
+A lead researcher, a lab manager, and a junior researcher are involved in a funding decision.
+The lead researcher first chooses between KeepBudget (Out) and TransferBudget (In).
+
+If the lead researcher chooses KeepBudget (Out), the interaction ends immediately.
+The result is 170 for the lead researcher, 100 for the lab manager, and 30 for the junior researcher.
+
+If the lead researcher chooses TransferBudget (In), 25 units from the lead researcher’s own budget are placed under the lab manager’s control.
+The lab manager then chooses between SmallSupport (Left) and FullSupport (Right).
+
+If the lab manager chooses SmallSupport (Left), the lab manager keeps 20 and sends 5 to the junior researcher.
+That transferred amount is doubled, so the junior researcher receives 10.
+The result is 145 for the lead researcher, 120 for the lab manager, and 40 for the junior researcher.
+
+If the lab manager chooses FullSupport (Right), the lab manager sends the full 25 to the junior researcher.
+That amount is doubled, so the junior researcher receives 50.
+The result is 145 for the lead researcher, 100 for the lab manager, and 80 for the junior researcher.

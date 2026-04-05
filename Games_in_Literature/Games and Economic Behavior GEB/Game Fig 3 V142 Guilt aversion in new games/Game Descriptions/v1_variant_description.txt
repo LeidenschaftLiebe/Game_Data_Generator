@@ -1,0 +1,18 @@
+V1 [Startup donation redirect]
+
+A founder, an investor, and a beneficiary are involved in a transfer decision.
+The founder moves first and chooses between StayOut (Out) and ReleaseFunds (In).
+
+If the founder chooses StayOut (Out), the interaction ends immediately.
+The result is 170 for the founder, 100 for the investor, and 30 for the beneficiary.
+
+If the founder chooses ReleaseFunds (In), 25 units come out of the founder’s own resources and are handed to the investor.
+The investor then chooses between SmallDonation (Left) and FullDonation (Right).
+
+If the investor chooses SmallDonation (Left), the investor keeps 20 and sends 5 to the beneficiary.
+That transferred amount is doubled, so the beneficiary receives 10.
+The result is 145 for the founder, 120 for the investor, and 40 for the beneficiary.
+
+If the investor chooses FullDonation (Right), the investor sends the full 25 to the beneficiary.
+That amount is doubled, so the beneficiary receives 50.
+The result is 145 for the founder, 100 for the investor, and 80 for the beneficiary.

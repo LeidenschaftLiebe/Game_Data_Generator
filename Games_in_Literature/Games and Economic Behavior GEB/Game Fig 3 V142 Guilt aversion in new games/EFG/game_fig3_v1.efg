@@ -1,0 +1,8 @@
+EFG 2 R "GEB Donation Game Fig. 3 V1" { "Founder" "Investor" "Beneficiary" }
+""
+
+p "" 1 1 "" { "StayOut" "ReleaseFunds" } 0
+t "" 1 "StayOut" { 170, 100, 30 }
+p "" 2 1 "" { "SmallDonation" "FullDonation" } 0
+t "" 2 "ReleaseFunds_SmallDonation" { 145, 120, 40 }
+t "" 3 "ReleaseFunds_FullDonation" { 145, 100, 80 }

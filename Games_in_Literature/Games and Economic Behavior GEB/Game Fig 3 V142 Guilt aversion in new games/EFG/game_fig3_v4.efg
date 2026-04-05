@@ -1,0 +1,8 @@
+EFG 2 R "GEB Donation Game Fig. 3 V4" { "Merchant" "PlatformOfficer" "Customer" }
+""
+
+p "" 1 1 "" { "DropCase" "ReleaseCredit" } 0
+t "" 1 "DropCase" { 170, 100, 30 }
+p "" 2 1 "" { "SmallCredit" "FullCredit" } 0
+t "" 2 "ReleaseCredit_SmallCredit" { 145, 120, 40 }
+t "" 3 "ReleaseCredit_FullCredit" { 145, 100, 80 }

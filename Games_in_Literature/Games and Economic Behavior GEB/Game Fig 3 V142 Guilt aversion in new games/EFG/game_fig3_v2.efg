@@ -1,0 +1,8 @@
+EFG 2 R "GEB Donation Game Fig. 3 V2" { "Lead Researcher" "Lab Manager" "Junior Researcher" }
+""
+
+p "" 1 1 "" { "KeepBudget" "TransferBudget" } 0
+t "" 1 "KeepBudget" { 170, 100, 30 }
+p "" 2 1 "" { "SmallSupport" "FullSupport" } 0
+t "" 2 "TransferBudget_SmallSupport" { 145, 120, 40 }
+t "" 3 "TransferBudget_FullSupport" { 145, 100, 80 }

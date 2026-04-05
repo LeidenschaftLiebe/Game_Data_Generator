@@ -1,0 +1,8 @@
+EFG 2 R "GEB Reversed-Investment Game Fig. 4 V4" { "Merchant" "PlatformOfficer" "Customer" }
+""
+
+p "" 1 1 "" { "DropClaim" "UseCustomerFunds" } 0
+t "" 1 "DropClaim" { 170, 100, 30 }
+p "" 2 1 "" { "SmallRefund" "FullRefund" } 0
+t "" 2 "UseCustomerFunds_SmallRefund" { 170, 120, 15 }
+t "" 3 "UseCustomerFunds_FullRefund" { 170, 100, 55 }

@@ -1,0 +1,18 @@
+V3 [Family restitution]
+
+A family organizer, a relative handling the money, and another family member are involved in a transfer decision.
+The organizer first chooses between LeaveAsIs (Out) and UseFamilyFunds (In).
+
+If the organizer chooses LeaveAsIs (Out), the interaction ends immediately.
+The result is 170 for the organizer, 100 for the relative, and 30 for the other family member.
+
+If the organizer chooses UseFamilyFunds (In), 25 units are taken from the other family member’s own money and handed to the relative.
+The relative then chooses between ReturnSmallPart (Left) and ReturnFullPart (Right).
+
+If the relative chooses ReturnSmallPart (Left), the relative keeps 20 and sends 5 to the other family member.
+That transferred amount is doubled, so the other family member receives 10.
+The result is 170 for the organizer, 120 for the relative, and 15 for the other family member.
+
+If the relative chooses ReturnFullPart (Right), the relative sends the full 25 to the other family member.
+That amount is doubled, so the other family member receives 50.
+The result is 170 for the organizer, 100 for the relative, and 55 for the other family member.

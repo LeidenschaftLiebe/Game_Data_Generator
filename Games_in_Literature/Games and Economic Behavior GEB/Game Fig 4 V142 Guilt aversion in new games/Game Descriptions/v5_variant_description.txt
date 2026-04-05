@@ -1,0 +1,18 @@
+V5 [Club member repayment]
+
+A club president, a treasurer, and a member are involved in a resource decision.
+The president first chooses between DoNothing (Out) and UseMemberFunds (In).
+
+If the president chooses DoNothing (Out), the interaction ends immediately.
+The result is 170 for the president, 100 for the treasurer, and 30 for the member.
+
+If the president chooses UseMemberFunds (In), 25 units are taken from the member’s own funds and handed to the treasurer.
+The treasurer then chooses between SmallRepayment (Left) and FullRepayment (Right).
+
+If the treasurer chooses SmallRepayment (Left), the treasurer keeps 20 and sends 5 to the member.
+That transferred amount is doubled, so the member receives 10.
+The result is 170 for the president, 120 for the treasurer, and 15 for the member.
+
+If the treasurer chooses FullRepayment (Right), the treasurer sends the full 25 to the member.
+That amount is doubled, so the member receives 50.
+The result is 170 for the president, 100 for the treasurer, and 55 for the member.

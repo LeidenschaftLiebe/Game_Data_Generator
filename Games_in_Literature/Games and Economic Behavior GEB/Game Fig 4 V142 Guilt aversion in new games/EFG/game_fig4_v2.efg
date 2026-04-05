@@ -1,0 +1,8 @@
+EFG 2 R "GEB Reversed-Investment Game Fig. 4 V2" { "Principal Investigator" "Administrator" "Lab Assistant" }
+""
+
+p "" 1 1 "" { "KeepPlan" "UseAssistantBudget" } 0
+t "" 1 "KeepPlan" { 170, 100, 30 }
+p "" 2 1 "" { "SmallReimbursement" "FullReimbursement" } 0
+t "" 2 "UseAssistantBudget_SmallReimbursement" { 170, 120, 15 }
+t "" 3 "UseAssistantBudget_FullReimbursement" { 170, 100, 55 }

@@ -1,0 +1,8 @@
+EFG 2 R "GEB Reversed-Investment Game Fig. 4 V3" { "Organizer" "Relative" "FamilyMember" }
+""
+
+p "" 1 1 "" { "LeaveAsIs" "UseFamilyFunds" } 0
+t "" 1 "LeaveAsIs" { 170, 100, 30 }
+p "" 2 1 "" { "ReturnSmallPart" "ReturnFullPart" } 0
+t "" 2 "UseFamilyFunds_ReturnSmallPart" { 170, 120, 15 }
+t "" 3 "UseFamilyFunds_ReturnFullPart" { 170, 100, 55 }

@@ -1,0 +1,27 @@
+V2 [Journal submission]
+
+An author and an editor are handling a manuscript.
+The author first chooses between Track A, Track B, and Withdraw.
+If the author withdraws, the process ends immediately.
+The author gets 1 and the editor gets 0.
+
+If the author chooses Track A or Track B,
+the editor then chooses between Send to Board (d), Desk Accept (e), and Regular Review (f),
+without knowing which track was chosen.
+
+If the editor chooses Desk Accept (e), the process ends right away.
+After Track A then Desk Accept, the author gets 0 and the editor gets 5.
+After Track B then Desk Accept, the author gets 0 and the editor gets 4.
+
+If the editor chooses Regular Review (f), the process also ends right away.
+After Track A then Regular Review, the author gets 1 and the editor gets 4.
+After Track B then Regular Review, the author gets 1 and the editor gets 5.
+
+If the editor chooses Send to Board (d),
+the editor later chooses between Approve (g) and Reject (h),
+still without knowing whether the paper came from Track A or Track B.
+
+After Track A then Send to Board then Approve, the author gets 2 and the editor gets 1.
+After Track A then Send to Board then Reject, both get 0.
+After Track B then Send to Board then Approve, the author gets 2 and the editor gets 0.
+After Track B then Send to Board then Reject, the author gets 0 and the editor gets 3.

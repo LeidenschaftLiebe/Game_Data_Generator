@@ -1,0 +1,17 @@
+EFG 2 R "GEB Fig. 4 V1" { "Manager" "Inspector" }
+""
+
+p "" 1 1 "" { "RouteA" "RouteB" "Discard" } 0
+p "" 2 1 "" { "Escalate" "QuickPass" "StandardPass" } 0
+p "" 2 2 "" { "Approve" "Hold" } 0
+t "" 6 "RouteA_Escalate_Approve" { 2, 1 }
+t "" 7 "RouteA_Escalate_Hold" { 0, 0 }
+t "" 2 "RouteA_QuickPass" { 0, 5 }
+t "" 3 "RouteA_StandardPass" { 1, 4 }
+p "" 2 1 "" { "Escalate" "QuickPass" "StandardPass" } 0
+p "" 2 2 "" { "Approve" "Hold" } 0
+t "" 8 "RouteB_Escalate_Approve" { 2, 0 }
+t "" 9 "RouteB_Escalate_Hold" { 0, 3 }
+t "" 4 "RouteB_QuickPass" { 0, 4 }
+t "" 5 "RouteB_StandardPass" { 1, 5 }
+t "" 1 "Discard" { 1, 0 }

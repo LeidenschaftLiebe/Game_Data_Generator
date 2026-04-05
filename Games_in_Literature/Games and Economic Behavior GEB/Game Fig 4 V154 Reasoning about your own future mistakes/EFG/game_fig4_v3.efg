@@ -1,0 +1,17 @@
+EFG 2 R "GEB Fig. 4 V3" { "Traveler" "Officer" }
+""
+
+p "" 1 1 "" { "LaneA" "LaneB" "CancelTrip" } 0
+p "" 2 1 "" { "SecondaryScreening" "FastClearance" "NormalClearance" } 0
+p "" 2 2 "" { "Clear" "Stop" } 0
+t "" 6 "LaneA_SecondaryScreening_Clear" { 2, 1 }
+t "" 7 "LaneA_SecondaryScreening_Stop" { 0, 0 }
+t "" 2 "LaneA_FastClearance" { 0, 5 }
+t "" 3 "LaneA_NormalClearance" { 1, 4 }
+p "" 2 1 "" { "SecondaryScreening" "FastClearance" "NormalClearance" } 0
+p "" 2 2 "" { "Clear" "Stop" } 0
+t "" 8 "LaneB_SecondaryScreening_Clear" { 2, 0 }
+t "" 9 "LaneB_SecondaryScreening_Stop" { 0, 3 }
+t "" 4 "LaneB_FastClearance" { 0, 4 }
+t "" 5 "LaneB_NormalClearance" { 1, 5 }
+t "" 1 "CancelTrip" { 1, 0 }

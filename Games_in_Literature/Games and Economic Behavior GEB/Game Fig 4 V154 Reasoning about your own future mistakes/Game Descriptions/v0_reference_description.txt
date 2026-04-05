@@ -1,0 +1,24 @@
+V0 [Original article context]
+
+Player 1 moves first and chooses between a, b, and c.
+If Player 1 chooses c, the game ends right away.
+Player 1 gets 1, and Player 2 gets 0.
+
+If Player 1 chooses a or b, then Player 2 chooses between d, e, and f
+without knowing whether Player 1 chose a or b.
+
+If Player 2 chooses e, the game ends right away.
+After a then e, Player 1 gets 0 and Player 2 gets 5.
+After b then e, Player 1 gets 0 and Player 2 gets 4.
+
+If Player 2 chooses f, the game also ends right away.
+After a then f, Player 1 gets 1 and Player 2 gets 4.
+After b then f, Player 1 gets 1 and Player 2 gets 5.
+
+If Player 2 chooses d, Player 2 must choose again between g and h,
+still without knowing whether the earlier path started with a or b.
+
+After a then d then g, Player 1 gets 2 and Player 2 gets 1.
+After a then d then h, Player 1 gets 0 and Player 2 gets 0.
+After b then d then g, Player 1 gets 2 and Player 2 gets 0.
+After b then d then h, Player 1 gets 0 and Player 2 gets 3.

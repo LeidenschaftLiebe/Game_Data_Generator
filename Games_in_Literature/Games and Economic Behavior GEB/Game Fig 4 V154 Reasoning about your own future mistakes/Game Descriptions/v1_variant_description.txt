@@ -1,0 +1,27 @@
+V1 [Quality inspection]
+
+A factory manager and an inspector are handling a batch of goods.
+The manager first chooses between Route A, Route B, and Discard.
+If the manager chooses Discard, the process ends immediately.
+The manager gets 1 and the inspector gets 0.
+
+If the manager chooses Route A or Route B,
+the inspector then chooses between Escalate (d), Quick Pass (e), and Standard Pass (f),
+without knowing which route was used.
+
+If the inspector chooses Quick Pass (e), the batch leaves immediately.
+After Route A then Quick Pass, the manager gets 0 and the inspector gets 5.
+After Route B then Quick Pass, the manager gets 0 and the inspector gets 4.
+
+If the inspector chooses Standard Pass (f), the batch also leaves immediately.
+After Route A then Standard Pass, the manager gets 1 and the inspector gets 4.
+After Route B then Standard Pass, the manager gets 1 and the inspector gets 5.
+
+If the inspector chooses Escalate (d),
+the inspector must choose again between Approve (g) and Hold (h),
+still without knowing whether the batch came from Route A or Route B.
+
+After Route A then Escalate then Approve, the manager gets 2 and the inspector gets 1.
+After Route A then Escalate then Hold, both get 0.
+After Route B then Escalate then Approve, the manager gets 2 and the inspector gets 0.
+After Route B then Escalate then Hold, the manager gets 0 and the inspector gets 3.

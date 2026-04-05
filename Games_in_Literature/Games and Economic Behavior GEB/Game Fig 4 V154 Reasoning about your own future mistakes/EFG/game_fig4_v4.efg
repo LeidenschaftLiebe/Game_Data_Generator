@@ -1,0 +1,17 @@
+EFG 2 R "GEB Fig. 4 V4" { "Product Lead" "Reviewer" }
+""
+
+p "" 1 1 "" { "PipelineA" "PipelineB" "CancelRelease" } 0
+p "" 2 1 "" { "Escalate" "AutoApprove" "StandardApproval" } 0
+p "" 2 2 "" { "SignOff" "Block" } 0
+t "" 6 "PipelineA_Escalate_SignOff" { 2, 1 }
+t "" 7 "PipelineA_Escalate_Block" { 0, 0 }
+t "" 2 "PipelineA_AutoApprove" { 0, 5 }
+t "" 3 "PipelineA_StandardApproval" { 1, 4 }
+p "" 2 1 "" { "Escalate" "AutoApprove" "StandardApproval" } 0
+p "" 2 2 "" { "SignOff" "Block" } 0
+t "" 8 "PipelineB_Escalate_SignOff" { 2, 0 }
+t "" 9 "PipelineB_Escalate_Block" { 0, 3 }
+t "" 4 "PipelineB_AutoApprove" { 0, 4 }
+t "" 5 "PipelineB_StandardApproval" { 1, 5 }
+t "" 1 "CancelRelease" { 1, 0 }

@@ -1,0 +1,27 @@
+V4 [Software release]
+
+A product lead and a compliance reviewer are deciding how to release an update.
+The product lead first chooses between Pipeline A, Pipeline B, and Cancel Release.
+If the release is cancelled, the process ends immediately.
+The product lead gets 1 and the reviewer gets 0.
+
+If Pipeline A or Pipeline B is chosen,
+the reviewer then chooses between Escalate (d), Auto Approve (e), and Standard Approval (f),
+without knowing which pipeline was used.
+
+If the reviewer chooses Auto Approve (e), the process ends immediately.
+After Pipeline A then Auto Approve, the product lead gets 0 and the reviewer gets 5.
+After Pipeline B then Auto Approve, the product lead gets 0 and the reviewer gets 4.
+
+If the reviewer chooses Standard Approval (f), the process also ends immediately.
+After Pipeline A then Standard Approval, the product lead gets 1 and the reviewer gets 4.
+After Pipeline B then Standard Approval, the product lead gets 1 and the reviewer gets 5.
+
+If the reviewer chooses Escalate (d),
+the reviewer later chooses between Sign Off (g) and Block (h),
+still without knowing whether the case came from Pipeline A or Pipeline B.
+
+After Pipeline A then Escalate then Sign Off, the product lead gets 2 and the reviewer gets 1.
+After Pipeline A then Escalate then Block, both get 0.
+After Pipeline B then Escalate then Sign Off, the product lead gets 2 and the reviewer gets 0.
+After Pipeline B then Escalate then Block, the product lead gets 0 and the reviewer gets 3.

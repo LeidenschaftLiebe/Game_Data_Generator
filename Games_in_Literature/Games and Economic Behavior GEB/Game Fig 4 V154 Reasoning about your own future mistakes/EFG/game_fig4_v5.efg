@@ -1,0 +1,17 @@
+EFG 2 R "GEB Fig. 4 V5" { "Researcher" "Committee Member" }
+""
+
+p "" 1 1 "" { "RouteA" "RouteB" "DropOut" } 0
+p "" 2 1 "" { "FullPanel" "EarlyDecision" "StandardDecision" } 0
+p "" 2 2 "" { "Fund" "Decline" } 0
+t "" 6 "RouteA_FullPanel_Fund" { 2, 1 }
+t "" 7 "RouteA_FullPanel_Decline" { 0, 0 }
+t "" 2 "RouteA_EarlyDecision" { 0, 5 }
+t "" 3 "RouteA_StandardDecision" { 1, 4 }
+p "" 2 1 "" { "FullPanel" "EarlyDecision" "StandardDecision" } 0
+p "" 2 2 "" { "Fund" "Decline" } 0
+t "" 8 "RouteB_FullPanel_Fund" { 2, 0 }
+t "" 9 "RouteB_FullPanel_Decline" { 0, 3 }
+t "" 4 "RouteB_EarlyDecision" { 0, 4 }
+t "" 5 "RouteB_StandardDecision" { 1, 5 }
+t "" 1 "DropOut" { 1, 0 }

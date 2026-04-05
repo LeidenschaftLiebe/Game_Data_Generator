@@ -1,0 +1,27 @@
+V3 [Airport screening]
+
+A traveler and a screening officer are going through an airport procedure.
+The traveler first chooses between Lane A, Lane B, and Cancel Trip.
+If the traveler cancels the trip, the process ends there.
+The traveler gets 1 and the officer gets 0.
+
+If the traveler chooses Lane A or Lane B,
+the officer then chooses between Secondary Screening (d), Fast Clearance (e), and Normal Clearance (f),
+without knowing which lane was used.
+
+If the officer chooses Fast Clearance (e), the process ends immediately.
+After Lane A then Fast Clearance, the traveler gets 0 and the officer gets 5.
+After Lane B then Fast Clearance, the traveler gets 0 and the officer gets 4.
+
+If the officer chooses Normal Clearance (f), the process also ends immediately.
+After Lane A then Normal Clearance, the traveler gets 1 and the officer gets 4.
+After Lane B then Normal Clearance, the traveler gets 1 and the officer gets 5.
+
+If the officer chooses Secondary Screening (d),
+the officer later chooses between Clear (g) and Stop (h),
+still without knowing whether the traveler came from Lane A or Lane B.
+
+After Lane A then Secondary Screening then Clear, the traveler gets 2 and the officer gets 1.
+After Lane A then Secondary Screening then Stop, both get 0.
+After Lane B then Secondary Screening then Clear, the traveler gets 2 and the officer gets 0.
+After Lane B then Secondary Screening then Stop, the traveler gets 0 and the officer gets 3.

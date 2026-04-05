@@ -1,0 +1,27 @@
+V5 [Grant application]
+
+A researcher and a committee member are handling a grant application.
+The researcher first chooses between Route A, Route B, and Drop Out.
+If the researcher drops out, the process ends immediately.
+The researcher gets 1 and the committee member gets 0.
+
+If the researcher chooses Route A or Route B,
+the committee member then chooses between Full Panel (d), Early Decision (e), and Standard Decision (f),
+without knowing which route was taken.
+
+If the committee member chooses Early Decision (e), the process ends immediately.
+After Route A then Early Decision, the researcher gets 0 and the committee member gets 5.
+After Route B then Early Decision, the researcher gets 0 and the committee member gets 4.
+
+If the committee member chooses Standard Decision (f), the process also ends immediately.
+After Route A then Standard Decision, the researcher gets 1 and the committee member gets 4.
+After Route B then Standard Decision, the researcher gets 1 and the committee member gets 5.
+
+If the committee member chooses Full Panel (d),
+the committee member later chooses between Fund (g) and Decline (h),
+still without knowing whether the application came from Route A or Route B.
+
+After Route A then Full Panel then Fund, the researcher gets 2 and the committee member gets 1.
+After Route A then Full Panel then Decline, both get 0.
+After Route B then Full Panel then Fund, the researcher gets 2 and the committee member gets 0.
+After Route B then Full Panel then Decline, the researcher gets 0 and the committee member gets 3.

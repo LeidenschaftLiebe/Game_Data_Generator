@@ -1,0 +1,17 @@
+EFG 2 R "GEB Fig. 4 V2" { "Author" "Editor" }
+""
+
+p "" 1 1 "" { "TrackA" "TrackB" "Withdraw" } 0
+p "" 2 1 "" { "SendToBoard" "DeskAccept" "RegularReview" } 0
+p "" 2 2 "" { "Approve" "Reject" } 0
+t "" 6 "TrackA_SendToBoard_Approve" { 2, 1 }
+t "" 7 "TrackA_SendToBoard_Reject" { 0, 0 }
+t "" 2 "TrackA_DeskAccept" { 0, 5 }
+t "" 3 "TrackA_RegularReview" { 1, 4 }
+p "" 2 1 "" { "SendToBoard" "DeskAccept" "RegularReview" } 0
+p "" 2 2 "" { "Approve" "Reject" } 0
+t "" 8 "TrackB_SendToBoard_Approve" { 2, 0 }
+t "" 9 "TrackB_SendToBoard_Reject" { 0, 3 }
+t "" 4 "TrackB_DeskAccept" { 0, 4 }
+t "" 5 "TrackB_RegularReview" { 1, 5 }
+t "" 1 "Withdraw" { 1, 0 }

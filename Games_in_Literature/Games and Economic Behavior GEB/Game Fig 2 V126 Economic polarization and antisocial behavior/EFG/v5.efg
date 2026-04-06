@@ -1,0 +1,16 @@
+EFG 2 R "GEB Inequality Game Risky Exit Fig. 2a V5" { "StudioPartner" "Producer" }
+""
+
+p "" 1 1 "" { "GrabControl" "AbandonProject" "WorkTogether" } 0
+p "" 2 1 "" { "CancelFilm" "KeepProtection" "SplitFairly" } 0
+t "" 1 "GrabControl_CancelFilm" { 0, 0 }
+t "" 2 "GrabControl_KeepProtection" { 0, 10 }
+t "" 3 "GrabControl_SplitFairly" { 9, 1 }
+p "" 2 1 "" { "CancelFilm" "KeepProtection" "SplitFairly" } 0
+t "" 4 "AbandonProject_CancelFilm" { 0, 0 }
+t "" 5 "AbandonProject_KeepProtection" { 0, 0 }
+t "" 6 "AbandonProject_SplitFairly" { 0, 0 }
+p "" 2 1 "" { "CancelFilm" "KeepProtection" "SplitFairly" } 0
+t "" 7 "WorkTogether_CancelFilm" { 0, 0 }
+t "" 8 "WorkTogether_KeepProtection" { 1, 9 }
+t "" 9 "WorkTogether_SplitFairly" { 5, 5 }

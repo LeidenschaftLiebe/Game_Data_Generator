@@ -1,0 +1,18 @@
+V2 [Research collaboration]
+
+A lead researcher and a collaborator are deciding whether to work together on a project.
+
+The collaborator chooses between TakeCredit, LeaveProject, and ContributeHonestly.
+
+At the same time, the lead researcher chooses between ShutItDown, KeepControl, and ShareCredit.
+The lead researcher chooses without observing the collaborator’s move.
+
+If the collaborator chooses TakeCredit and the lead researcher chooses ShutItDown, both get 0, 0.
+If the collaborator chooses TakeCredit and the lead researcher chooses KeepControl, this gives the collaborator 0, and the lead researcher 10.
+If the collaborator chooses TakeCredit and the lead researcher chooses ShareCredit, this gives the collaborator 9, and the lead researcher 1.
+
+If the collaborator chooses LeaveProject, the result is always 0, 0.
+
+If the collaborator chooses ContributeHonestly and the lead researcher chooses ShutItDown, both get 0, 0.
+If the collaborator chooses ContributeHonestly and the lead researcher chooses KeepControl, this gives the collaborator 1, and the lead researcher 9.
+If the collaborator chooses ContributeHonestly and the lead researcher chooses ShareCredit, this gives the collaborator 5, and the lead researcher 5.

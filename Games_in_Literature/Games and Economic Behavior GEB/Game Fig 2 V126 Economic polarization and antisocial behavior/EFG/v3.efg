@@ -1,0 +1,16 @@
+EFG 2 R "GEB Inequality Game Risky Exit Fig. 2a V3" { "SmallerParty" "MajorParty" }
+""
+
+p "" 1 1 "" { "ExploitAlliance" "QuitTalks" "CooperateInGoodFaith" } 0
+p "" 2 1 "" { "EndTalks" "ProtectItsSide" "OfferFairSplit" } 0
+t "" 1 "ExploitAlliance_EndTalks" { 0, 0 }
+t "" 2 "ExploitAlliance_ProtectItsSide" { 0, 10 }
+t "" 3 "ExploitAlliance_OfferFairSplit" { 9, 1 }
+p "" 2 1 "" { "EndTalks" "ProtectItsSide" "OfferFairSplit" } 0
+t "" 4 "QuitTalks_EndTalks" { 0, 0 }
+t "" 5 "QuitTalks_ProtectItsSide" { 0, 0 }
+t "" 6 "QuitTalks_OfferFairSplit" { 0, 0 }
+p "" 2 1 "" { "EndTalks" "ProtectItsSide" "OfferFairSplit" } 0
+t "" 7 "CooperateInGoodFaith_EndTalks" { 0, 0 }
+t "" 8 "CooperateInGoodFaith_ProtectItsSide" { 1, 9 }
+t "" 9 "CooperateInGoodFaith_OfferFairSplit" { 5, 5 }

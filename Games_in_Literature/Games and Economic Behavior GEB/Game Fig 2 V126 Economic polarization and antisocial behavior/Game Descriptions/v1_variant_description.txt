@@ -1,0 +1,19 @@
+V1 [Startup partnership]
+
+A startup founder and a distribution partner are about to work together on a launch.
+
+The distribution partner moves in a way that represents the risky environment and chooses between 
+GrabAdvantage (Exploit), WalkAway (Exit), and Cooperate (Collaborate).
+
+At the same time, the founder chooses between CancelDeal (Exit), ProtectTerms (Defensive), and ShareUpside (Generous).
+The founder must choose without knowing which move the partner picked.
+
+If the partner chooses GrabAdvantage (Exploit) and the founder chooses CancelDeal (Exit), both get 0, 0.
+If the partner chooses GrabAdvantage (Exploit) and the founder chooses ProtectTerms (Defensive), this gives the partner 0, and the founder 10.
+If the partner chooses GrabAdvantage (Exploit) and the founder chooses ShareUpside (Generous), this gives the partner 9, and the founder 1.
+
+If the partner chooses WalkAway (Exit), the result is always 0, 0.
+
+If the partner chooses Cooperate (Collaborate) and the founder chooses CancelDeal (Exit), both get 0, 0.
+If the partner chooses Cooperate (Collaborate) and the founder chooses ProtectTerms (Defensive), this gives the partner 1, and the founder 9.
+If the partner chooses Cooperate (Collaborate) and the founder chooses ShareUpside (Generous), this gives the partner 5, and the founder 5.

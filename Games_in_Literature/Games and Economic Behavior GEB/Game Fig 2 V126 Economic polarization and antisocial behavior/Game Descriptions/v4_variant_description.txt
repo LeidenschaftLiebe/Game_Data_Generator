@@ -1,0 +1,18 @@
+V4 [Supplier negotiation]
+
+A retailer and a supplier are deciding whether to deepen a business relationship.
+
+The supplier chooses between TakeAdvantage (Exploit), DropOut (Exit), and HonorDeal (Collaborate).
+
+At the same time, the retailer chooses between CancelOrder (Exit), UseStrictTerms (Defensive), and OfferFairTerms (Generous).
+The retailer chooses without seeing the supplier’s action.
+
+If the supplier chooses TakeAdvantage (Exploit) and the retailer chooses CancelOrder (Exit), both get 0, 0.
+If the supplier chooses TakeAdvantage (Exploit) and the retailer chooses UseStrictTerms (Defensive), this gives the supplier 0, and the retailer 10.
+If the supplier chooses TakeAdvantage (Exploit) and the retailer chooses OfferFairTerms (Generous), this gives the supplier 9, and the retailer 1.
+
+If the supplier chooses DropOut (Exit), the result is always 0, 0.
+
+If the supplier chooses HonorDeal (Collaborate) and the retailer chooses CancelOrder (Exit), both get 0, 0.
+If the supplier chooses HonorDeal (Collaborate) and the retailer chooses UseStrictTerms (Defensive), this gives the supplier 1, and the retailer 9.
+If the supplier chooses HonorDeal (Collaborate) and the retailer chooses OfferFairTerms (Generous), this gives the supplier 5, and the retailer 5.

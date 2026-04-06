@@ -1,0 +1,18 @@
+V3 [Political alliance]
+
+A smaller party and a major party are deciding whether to cooperate.
+
+The smaller party chooses between ExploitAlliance, QuitTalks, and CooperateInGoodFaith.
+
+At the same time, the major party chooses between EndTalks, ProtectItsSide, and OfferFairSplit.
+The major party chooses without knowing which move the smaller party selected.
+
+If the smaller party chooses ExploitAlliance and the major party chooses EndTalks, both get 0, 0.
+If the smaller party chooses ExploitAlliance and the major party chooses ProtectItsSide, this gives the smaller party 0, and the major party 10.
+If the smaller party chooses ExploitAlliance and the major party chooses OfferFairSplit, this gives the smaller party 9, and the major party 1.
+
+If the smaller party chooses QuitTalks, the result is always 0, 0.
+
+If the smaller party chooses CooperateInGoodFaith and the major party chooses EndTalks, both get 0, 0.
+If the smaller party chooses CooperateInGoodFaith and the major party chooses ProtectItsSide, this gives the smaller party 1, and the major party 9.
+If the smaller party chooses CooperateInGoodFaith and the major party chooses OfferFairSplit, this gives the smaller party 5, and the major party 5.

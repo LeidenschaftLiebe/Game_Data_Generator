@@ -1,0 +1,16 @@
+EFG 2 R "GEB Inequality Game Risky Exit Fig. 2a" { "Weak" "Strong" }
+""
+
+p "" 1 1 "" { "Exploit" "Exit" "Collaborate" } 0
+p "" 2 1 "" { "Exit" "Defensive" "Generous" } 0
+t "" 1 "Exploit_StrongExit" { 0, 0 }
+t "" 2 "Exploit_Defensive" { 0, 10 }
+t "" 3 "Exploit_Generous" { 9, 1 }
+p "" 2 1 "" { "Exit" "Defensive" "Generous" } 0
+t "" 4 "WeakExit_StrongExit" { 0, 0 }
+t "" 5 "WeakExit_Defensive" { 0, 0 }
+t "" 6 "WeakExit_Generous" { 0, 0 }
+p "" 2 1 "" { "Exit" "Defensive" "Generous" } 0
+t "" 7 "Collaborate_StrongExit" { 0, 0 }
+t "" 8 "Collaborate_Defensive" { 1, 9 }
+t "" 9 "Collaborate_Generous" { 5, 5 }

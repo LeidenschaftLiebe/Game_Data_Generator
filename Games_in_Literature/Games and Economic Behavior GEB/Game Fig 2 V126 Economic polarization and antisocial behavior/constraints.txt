@@ -1,0 +1,8 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+There are 2 players. Player 1 moves first. 
+Player 2's decision nodes are in one infoset, so Player 2 does not observe whether the Player 1 chose Exploit, Exit, or Collaborate.
+Seed payoff constraint: Exploit -> Defensive gives 0, 10.

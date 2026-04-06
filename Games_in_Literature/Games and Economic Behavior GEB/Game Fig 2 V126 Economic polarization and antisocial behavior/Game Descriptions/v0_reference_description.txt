@@ -1,0 +1,25 @@
+V0 [Original article context]
+
+This is the Risky exit treatment from the paper’s Inequality Game.
+The two roles are a Strong player and a Weak player.
+In the risky version, their main choices are made at the same time, 
+and the paper adds an exit option that can be used before the encounter produces any surplus. 
+If at least one player exits, both earn 0, 0.
+
+The Weak player chooses between Exploit, Exit, and Collaborate.
+At the same time, the Strong player chooses between Exit, Defensive, and Generous.
+The three Strong decision nodes are linked because the Strong player does not know which of the three Weak actions was chosen when making that choice.
+
+If the Weak player chooses Exploit and the Strong player chooses Exit, both get 0, 0.
+If the Weak player chooses Exploit and the Strong player chooses Defensive, this gives the Weak player 0, and the Strong player 10.
+If the Weak player chooses Exploit and the Strong player chooses Generous, this gives the Weak player 9, and the Strong player 1.
+
+If the Weak player chooses Exit, the result is always 0, 0, no matter what the Strong player chose.
+So Exit destroys all the surplus for both sides.
+
+If the Weak player chooses Collaborate and the Strong player chooses Exit, both get 0, 0.
+If the Weak player chooses Collaborate and the Strong player chooses Defensive, this gives the Weak player 1, and the Strong player 9.
+If the Weak player chooses Collaborate and the Strong player chooses Generous, this gives the Weak player 5, and the Strong player 5.
+
+The paper uses this environment to compare what happens when generosity is risky for the Strong player versus when it is safe, 
+and studies whether disappointed expectations can trigger antisocial exit behavior.

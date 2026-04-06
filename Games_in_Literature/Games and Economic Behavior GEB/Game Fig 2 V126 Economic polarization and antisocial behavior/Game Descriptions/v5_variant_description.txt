@@ -1,0 +1,18 @@
+V5 [Film production]
+
+A producer and a studio partner are deciding whether to make a film together.
+
+The studio partner chooses between GrabControl, AbandonProject, and WorkTogether.
+
+At the same time, the producer chooses between CancelFilm, KeepProtection, and SplitFairly.
+The producer chooses without observing the studio partner’s move.
+
+If the studio partner chooses GrabControl and the producer chooses CancelFilm, both get 0, 0.
+If the studio partner chooses GrabControl and the producer chooses KeepProtection, this gives the studio partner 0, and the producer 10.
+If the studio partner chooses GrabControl and the producer chooses SplitFairly, this gives the studio partner 9, and the producer 1.
+
+If the studio partner chooses AbandonProject, the result is always 0, 0.
+
+If the studio partner chooses WorkTogether and the producer chooses CancelFilm, both get 0, 0.
+If the studio partner chooses WorkTogether and the producer chooses KeepProtection, this gives the studio partner 1, and the producer 9.
+If the studio partner chooses WorkTogether and the producer chooses SplitFairly, this gives the studio partner 5, and the producer 5.

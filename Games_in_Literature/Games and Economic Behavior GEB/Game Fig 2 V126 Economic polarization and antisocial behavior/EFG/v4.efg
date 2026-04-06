@@ -1,0 +1,16 @@
+EFG 2 R "GEB Inequality Game Risky Exit Fig. 2a V4" { "Supplier" "Retailer" }
+""
+
+p "" 1 1 "" { "TakeAdvantage" "DropOut" "HonorDeal" } 0
+p "" 2 1 "" { "CancelOrder" "UseStrictTerms" "OfferFairTerms" } 0
+t "" 1 "TakeAdvantage_CancelOrder" { 0, 0 }
+t "" 2 "TakeAdvantage_UseStrictTerms" { 0, 10 }
+t "" 3 "TakeAdvantage_OfferFairTerms" { 9, 1 }
+p "" 2 1 "" { "CancelOrder" "UseStrictTerms" "OfferFairTerms" } 0
+t "" 4 "DropOut_CancelOrder" { 0, 0 }
+t "" 5 "DropOut_UseStrictTerms" { 0, 0 }
+t "" 6 "DropOut_OfferFairTerms" { 0, 0 }
+p "" 2 1 "" { "CancelOrder" "UseStrictTerms" "OfferFairTerms" } 0
+t "" 7 "HonorDeal_CancelOrder" { 0, 0 }
+t "" 8 "HonorDeal_UseStrictTerms" { 1, 9 }
+t "" 9 "HonorDeal_OfferFairTerms" { 5, 5 }

@@ -1,0 +1,20 @@
+EFG 2 R "GEB Centipede Fig. 7 V5" { "Artist 1" "Artist 2" }
+""
+
+p "" 1 1 "" { "ReleaseNow_1" "KeepImproving_1" } 0
+t "" 1 "ReleaseNow_1" { 0, 0 }
+p "" 2 1 "" { "ReleaseNow_2" "KeepImproving_2" } 0
+t "" 2 "ReleaseNow_2" { -1, 3 }
+p "" 1 2 "" { "ReleaseNow_3" "KeepImproving_3" } 0
+t "" 3 "ReleaseNow_3" { 2, 2 }
+p "" 2 2 "" { "ReleaseNow_4" "KeepImproving_4" } 0
+t "" 4 "ReleaseNow_4" { 1, 5 }
+p "" 1 3 "" { "ReleaseNow_5" "KeepImproving_5" } 0
+t "" 5 "ReleaseNow_5" { 4, 4 }
+p "" 2 3 "" { "ReleaseNow_6" "KeepImproving_6" } 0
+t "" 6 "ReleaseNow_6" { 3, 7 }
+p "" 1 4 "" { "ReleaseNow_7" "KeepImproving_7" } 0
+t "" 7 "ReleaseNow_7" { 6, 6 }
+p "" 2 4 "" { "ReleaseNow_8" "KeepImproving_8" } 0
+t "" 8 "ReleaseNow_8" { 5, 9 }
+t "" 9 "KeepImproving_8" { 8, 8 }

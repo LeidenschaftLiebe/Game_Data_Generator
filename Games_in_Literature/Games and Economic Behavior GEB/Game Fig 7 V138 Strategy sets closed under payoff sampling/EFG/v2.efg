@@ -1,0 +1,20 @@
+EFG 2 R "GEB Centipede Fig. 7 V2" { "Researcher 1" "Researcher 2" }
+""
+
+p "" 1 1 "" { "PublishNow_1" "KeepCollaborating_1" } 0
+t "" 1 "PublishNow_1" { 0, 0 }
+p "" 2 1 "" { "PublishNow_2" "KeepCollaborating_2" } 0
+t "" 2 "PublishNow_2" { -1, 3 }
+p "" 1 2 "" { "PublishNow_3" "KeepCollaborating_3" } 0
+t "" 3 "PublishNow_3" { 2, 2 }
+p "" 2 2 "" { "PublishNow_4" "KeepCollaborating_4" } 0
+t "" 4 "PublishNow_4" { 1, 5 }
+p "" 1 3 "" { "PublishNow_5" "KeepCollaborating_5" } 0
+t "" 5 "PublishNow_5" { 4, 4 }
+p "" 2 3 "" { "PublishNow_6" "KeepCollaborating_6" } 0
+t "" 6 "PublishNow_6" { 3, 7 }
+p "" 1 4 "" { "PublishNow_7" "KeepCollaborating_7" } 0
+t "" 7 "PublishNow_7" { 6, 6 }
+p "" 2 4 "" { "PublishNow_8" "KeepCollaborating_8" } 0
+t "" 8 "PublishNow_8" { 5, 9 }
+t "" 9 "KeepCollaborating_8" { 8, 8 }

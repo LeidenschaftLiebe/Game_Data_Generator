@@ -1,0 +1,20 @@
+EFG 2 R "GEB Centipede Fig. 7 V1" { "Founder 1" "Founder 2" }
+""
+
+p "" 1 1 "" { "CashOut_1" "KeepBuilding_1" } 0
+t "" 1 "CashOut_1" { 0, 0 }
+p "" 2 1 "" { "CashOut_2" "KeepBuilding_2" } 0
+t "" 2 "CashOut_2" { -1, 3 }
+p "" 1 2 "" { "CashOut_3" "KeepBuilding_3" } 0
+t "" 3 "CashOut_3" { 2, 2 }
+p "" 2 2 "" { "CashOut_4" "KeepBuilding_4" } 0
+t "" 4 "CashOut_4" { 1, 5 }
+p "" 1 3 "" { "CashOut_5" "KeepBuilding_5" } 0
+t "" 5 "CashOut_5" { 4, 4 }
+p "" 2 3 "" { "CashOut_6" "KeepBuilding_6" } 0
+t "" 6 "CashOut_6" { 3, 7 }
+p "" 1 4 "" { "CashOut_7" "KeepBuilding_7" } 0
+t "" 7 "CashOut_7" { 6, 6 }
+p "" 2 4 "" { "CashOut_8" "KeepBuilding_8" } 0
+t "" 8 "CashOut_8" { 5, 9 }
+t "" 9 "KeepBuilding_8" { 8, 8 }

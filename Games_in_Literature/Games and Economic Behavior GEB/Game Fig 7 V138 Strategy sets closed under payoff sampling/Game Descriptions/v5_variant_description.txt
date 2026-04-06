@@ -1,0 +1,18 @@
+V5 [Creative project]
+
+Two artists are taking turns deciding whether to release the current version of a joint project or keep improving it.
+
+Artist 1 moves first, then Artist 2, and they alternate for eight decisions.
+At each turn, the current artist chooses either ReleaseNow (stop) or KeepImproving (continue).
+
+If Artist 1 chooses ReleaseNow (stop) at the first decision, the result is 0, 0.
+If Artist 2 chooses ReleaseNow (stop) at the second decision, the result is -1, 3.
+If Artist 1 chooses ReleaseNow (stop) at the third decision, the result is 2, 2.
+If Artist 2 chooses ReleaseNow (stop) at the fourth decision, the result is 1, 5.
+
+If Artist 1 chooses ReleaseNow (stop) at the fifth decision, the result is 4, 4.
+If Artist 2 chooses ReleaseNow (stop) at the sixth decision, the result is 3, 7.
+If Artist 1 chooses ReleaseNow (stop) at the seventh decision, the result is 6, 6.
+If Artist 2 chooses ReleaseNow (stop) at the eighth decision, the result is 5, 9.
+
+If both artists keep improving the project through the final stage, the result is 8, 8.

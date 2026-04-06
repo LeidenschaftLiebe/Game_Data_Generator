@@ -1,0 +1,28 @@
+V4 [Flood barrier repair]
+
+A city engineer and a river pilot are deciding how to secure a damaged flood barrier.
+
+The city engineer first chooses between SealNow (X), NorthBank (T), and SouthBank (B).
+
+If the city engineer chooses SealNow (X), the operation ends there.
+This gives 4 to the city engineer, and 4 to the river pilot.
+
+If the city engineer chooses NorthBank (T), the river pilot chooses between LeftChannel (L) and RightChannel (R).
+If the city engineer chooses SouthBank (B), the river pilot again chooses between LeftChannel (L) and RightChannel (R).
+
+When making that choice, the river pilot cannot tell whether the earlier bank choice was NorthBank (T) or SouthBank (B).
+
+After that, the city engineer chooses between UpperGate (U) and DeepGate (D).
+When making that later choice, the city engineer cannot tell which earlier pair of choices led there.
+
+After NorthBank (T) and LeftChannel (L), UpperGate (U) gives 5 to the city engineer, and 0 to the river pilot, 
+while DeepGate (D) gives 2 to the city engineer, and 1 to the river pilot.
+
+After NorthBank (T) and RightChannel (R), UpperGate (U) gives 2 to the city engineer, and 0 to the river pilot, 
+while DeepGate (D) gives 0 to the city engineer, and 1 to the river pilot.
+
+After SouthBank (B) and LeftChannel (L), UpperGate (U) gives 0 to the city engineer, and 1 to the river pilot, 
+while DeepGate (D) gives 2 to the city engineer, and 0 to the river pilot.
+
+After SouthBank (B) and RightChannel (R), UpperGate (U) gives 2 to the city engineer, and 1 to the river pilot, 
+while DeepGate (D) gives 5 to the city engineer, and 0 to the river pilot.

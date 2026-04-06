@@ -1,0 +1,19 @@
+EFG 2 R "GEB Need Beliefs About Strategies Fig. 5 V2" { "Security Chief" "Night Guard" }
+""
+
+p "" 1 1 "" { "LockDown" "FrontSweep" "RearSweep" } 0
+t "" 1 "LockDown" { 4, 4 }
+p "" 2 1 "" { "LeftHall" "RightHall" } 0
+p "" 1 2 "" { "UpperStairs" "BasementStairs" } 0
+t "" 2 "FrontSweep_LeftHall_UpperStairs" { 5, 0 }
+t "" 3 "FrontSweep_LeftHall_BasementStairs" { 2, 1 }
+p "" 1 2 "" { "UpperStairs" "BasementStairs" } 0
+t "" 4 "FrontSweep_RightHall_UpperStairs" { 2, 0 }
+t "" 5 "FrontSweep_RightHall_BasementStairs" { 0, 1 }
+p "" 2 1 "" { "LeftHall" "RightHall" } 0
+p "" 1 2 "" { "UpperStairs" "BasementStairs" } 0
+t "" 6 "RearSweep_LeftHall_UpperStairs" { 0, 1 }
+t "" 7 "RearSweep_LeftHall_BasementStairs" { 2, 0 }
+p "" 1 2 "" { "UpperStairs" "BasementStairs" } 0
+t "" 8 "RearSweep_RightHall_UpperStairs" { 2, 1 }
+t "" 9 "RearSweep_RightHall_BasementStairs" { 5, 0 }

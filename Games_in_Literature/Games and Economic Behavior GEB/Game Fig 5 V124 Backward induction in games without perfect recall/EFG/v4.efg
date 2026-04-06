@@ -1,0 +1,19 @@
+EFG 2 R "GEB Need Beliefs About Strategies Fig. 5 V4" { "City Engineer" "River Pilot" }
+""
+
+p "" 1 1 "" { "SealNow" "NorthBank" "SouthBank" } 0
+t "" 1 "SealNow" { 4, 4 }
+p "" 2 1 "" { "LeftChannel" "RightChannel" } 0
+p "" 1 2 "" { "UpperGate" "DeepGate" } 0
+t "" 2 "NorthBank_LeftChannel_UpperGate" { 5, 0 }
+t "" 3 "NorthBank_LeftChannel_DeepGate" { 2, 1 }
+p "" 1 2 "" { "UpperGate" "DeepGate" } 0
+t "" 4 "NorthBank_RightChannel_UpperGate" { 2, 0 }
+t "" 5 "NorthBank_RightChannel_DeepGate" { 0, 1 }
+p "" 2 1 "" { "LeftChannel" "RightChannel" } 0
+p "" 1 2 "" { "UpperGate" "DeepGate" } 0
+t "" 6 "SouthBank_LeftChannel_UpperGate" { 0, 1 }
+t "" 7 "SouthBank_LeftChannel_DeepGate" { 2, 0 }
+p "" 1 2 "" { "UpperGate" "DeepGate" } 0
+t "" 8 "SouthBank_RightChannel_UpperGate" { 2, 1 }
+t "" 9 "SouthBank_RightChannel_DeepGate" { 5, 0 }

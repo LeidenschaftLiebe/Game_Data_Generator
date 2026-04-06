@@ -1,0 +1,28 @@
+V5 [Coral reef rescue]
+
+A marine biologist and a dive navigator are deciding how to save a coral reef section.
+
+The marine biologist first chooses between AnchorBase (X), TopCurrent (T), and BottomCurrent (B).
+
+If the marine biologist chooses AnchorBase (X), the operation ends there.
+This gives 4 to the marine biologist, and 4 to the dive navigator.
+
+If the marine biologist chooses TopCurrent (T), the dive navigator chooses between LeftReef (L) and RightReef (R).
+If the marine biologist chooses BottomCurrent (B), the dive navigator again chooses between LeftReef (L) and RightReef (R).
+
+When making that choice, the dive navigator cannot tell whether the earlier current choice was TopCurrent (T) or BottomCurrent (B).
+
+After that, the marine biologist chooses between UpperLine (U) and DeepLine (D).
+When making that later choice, the marine biologist cannot tell which earlier pair of choices led there.
+
+After TopCurrent (T) and LeftReef (L), UpperLine (U) gives 5 to the marine biologist, and 0 to the dive navigator, 
+while DeepLine (D) gives 2 to the marine biologist, and 1 to the dive navigator.
+
+After TopCurrent (T) and RightReef (R), UpperLine (U) gives 2 to the marine biologist, and 0 to the dive navigator, 
+while DeepLine (D) gives 0 to the marine biologist, and 1 to the dive navigator.
+
+After BottomCurrent (B) and LeftReef (L), UpperLine (U) gives 0 to the marine biologist, and 1 to the dive navigator, 
+while DeepLine (D) gives 2 to the marine biologist, and 0 to the dive navigator.
+
+After BottomCurrent (B) and RightReef (R), UpperLine (U) gives 2 to the marine biologist, and 1 to the dive navigator, 
+while DeepLine (D) gives 5 to the marine biologist, and 0 to the dive navigator.

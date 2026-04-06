@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Player 1 moves first.
+When Player 2 chooses between L and R, they cannot tell whether Player 1 earlier chose T or B.
+When Player 1 chooses between U and D, they cannot tell which of the four earlier action combinations led to that moment.
+Seed payoff constraint: T_L_U gives 5, 0.

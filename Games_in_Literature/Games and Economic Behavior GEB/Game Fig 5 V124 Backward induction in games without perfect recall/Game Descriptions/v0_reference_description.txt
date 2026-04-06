@@ -1,0 +1,28 @@
+V0 [Original article context]
+
+This figure is the paper’s example for why a player may need beliefs about the other player’s full plan, not just about where they currently are in the game.
+The paper says all equilibria in this example have Player 1 choosing X at the start.
+
+Player 1 moves first and chooses between X, T, and B.
+
+If Player 1 chooses X, the game ends immediately.
+This gives 4 to Player 1, and 4 to Player 2.
+
+If Player 1 chooses T, then Player 2 chooses between L and R.
+If Player 1 chooses B, then Player 2 also chooses between L and R.
+
+When Player 2 makes that choice, Player 2 cannot tell whether Player 1 earlier chose T or B.
+
+After that, Player 1 chooses between U and D.
+When Player 1 makes that later choice, Player 1 cannot tell which of the four possible earlier action combinations led there.
+
+If the earlier choices were T and L, then U gives 5 to Player 1, and 0 to Player 2, while D gives 2 to Player 1, and 1 to Player 2.
+
+If the earlier choices were T and R, then U gives 2 to Player 1, and 0 to Player 2, while D gives 0 to Player 1, and 1 to Player 2.
+
+If the earlier choices were B and L, then U gives 0 to Player 1, and 1 to Player 2, while D gives 2 to Player 1, and 0 to Player 2.
+
+If the earlier choices were B and R, then U gives 2 to Player 1, and 1 to Player 2, while D gives 5 to Player 1, and 0 to Player 2.
+
+The paper’s point is that when Player 2 is making the middle choice, it is not enough to think only about whether the earlier move was T or B.
+Player 2 also needs a belief about what Player 1 would later do between U and D.

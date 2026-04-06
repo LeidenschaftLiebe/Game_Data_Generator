@@ -1,0 +1,28 @@
+V2 [Library heist prevention]
+
+A security chief and a night guard are deciding how to protect a rare manuscript room.
+
+The security chief first chooses between LockDown (X), FrontSweep (T), and RearSweep (B).
+
+If the security chief chooses LockDown (X), the night ends there.
+This gives 4 to the security chief, and 4 to the night guard.
+
+If the security chief chooses FrontSweep (T), the night guard chooses between LeftHall (L) and RightHall (R).
+If the security chief chooses RearSweep (B), the night guard again chooses between LeftHall (L) and RightHall (R).
+
+When making that choice, the night guard cannot tell whether the earlier sweep was FrontSweep (T) or RearSweep (B).
+
+After that, the security chief chooses between UpperStairs (U) and BasementStairs (D).
+When making that later choice, the security chief cannot tell which earlier pair of choices led there.
+
+After FrontSweep (T) and LeftHall (L), UpperStairs (U) gives 5 to the security chief, and 0 to the night guard, 
+while BasementStairs (D) gives 2 to the security chief, and 1 to the night guard.
+
+After FrontSweep (T) and RightHall (R), UpperStairs (U) gives 2 to the security chief, and 0 to the night guard, 
+while BasementStairs (D) gives 0 to the security chief, and 1 to the night guard.
+
+After RearSweep (B) and LeftHall (L), UpperStairs (U) gives 0 to the security chief, and 1 to the night guard, 
+while BasementStairs (D) gives 2 to the security chief, and 0 to the night guard.
+
+After RearSweep (B) and RightHall (R), UpperStairs (U) gives 2 to the security chief, and 1 to the night guard, 
+while BasementStairs (D) gives 5 to the security chief, and 0 to the night guard.

@@ -1,0 +1,28 @@
+V3 [Mars habitat repair]
+
+A mission commander and an engineer are deciding how to repair a damaged habitat section.
+
+The mission commander first chooses between SealSection (X), TopAccess (T), and BottomAccess (B).
+
+If the mission commander chooses SealSection (X), the job ends there.
+This gives 4 to the mission commander, and 4 to the engineer.
+
+If the mission commander chooses TopAccess (T), the engineer chooses between LeftDuct (L) and RightDuct (R).
+If the mission commander chooses BottomAccess (B), the engineer again chooses between LeftDuct (L) and RightDuct (R).
+
+When making that choice, the engineer cannot tell whether the earlier access plan was TopAccess (T) or BottomAccess (B).
+
+After that, the mission commander chooses between UpperToolset (U) and DeepToolset (D).
+When making that later choice, the mission commander cannot tell which earlier pair of choices led there.
+
+After TopAccess (T) and LeftDuct (L), UpperToolset (U) gives 5 to the mission commander, and 0 to the engineer, 
+while DeepToolset (D) gives 2 to the mission commander, and 1 to the engineer.
+
+After TopAccess (T) and RightDuct (R), UpperToolset (U) gives 2 to the mission commander, and 0 to the engineer, 
+while DeepToolset (D) gives 0 to the mission commander, and 1 to the engineer.
+
+After BottomAccess (B) and LeftDuct (L), UpperToolset (U) gives 0 to the mission commander, and 1 to the engineer, 
+while DeepToolset (D) gives 2 to the mission commander, and 0 to the engineer.
+
+After BottomAccess (B) and RightDuct (R), UpperToolset (U) gives 2 to the mission commander, and 1 to the engineer, 
+while DeepToolset (D) gives 5 to the mission commander, and 0 to the engineer.

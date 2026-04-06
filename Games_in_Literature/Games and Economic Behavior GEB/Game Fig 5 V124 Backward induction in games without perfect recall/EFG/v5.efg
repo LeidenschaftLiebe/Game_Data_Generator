@@ -1,0 +1,19 @@
+EFG 2 R "GEB Need Beliefs About Strategies Fig. 5 V5" { "Marine Biologist" "Dive Navigator" }
+""
+
+p "" 1 1 "" { "AnchorBase" "TopCurrent" "BottomCurrent" } 0
+t "" 1 "AnchorBase" { 4, 4 }
+p "" 2 1 "" { "LeftReef" "RightReef" } 0
+p "" 1 2 "" { "UpperLine" "DeepLine" } 0
+t "" 2 "TopCurrent_LeftReef_UpperLine" { 5, 0 }
+t "" 3 "TopCurrent_LeftReef_DeepLine" { 2, 1 }
+p "" 1 2 "" { "UpperLine" "DeepLine" } 0
+t "" 4 "TopCurrent_RightReef_UpperLine" { 2, 0 }
+t "" 5 "TopCurrent_RightReef_DeepLine" { 0, 1 }
+p "" 2 1 "" { "LeftReef" "RightReef" } 0
+p "" 1 2 "" { "UpperLine" "DeepLine" } 0
+t "" 6 "BottomCurrent_LeftReef_UpperLine" { 0, 1 }
+t "" 7 "BottomCurrent_LeftReef_DeepLine" { 2, 0 }
+p "" 1 2 "" { "UpperLine" "DeepLine" } 0
+t "" 8 "BottomCurrent_RightReef_UpperLine" { 2, 1 }
+t "" 9 "BottomCurrent_RightReef_DeepLine" { 5, 0 }

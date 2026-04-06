@@ -1,0 +1,28 @@
+V1 [Glacier crossing]
+
+A route leader and a guide are deciding how to cross a glacier.
+
+The route leader first chooses between CampHere (X), NorthApproach (T), and SouthApproach (B).
+
+If the route leader chooses CampHere (X), the trip ends there.
+This gives 4 to the route leader, and 4 to the guide.
+
+If the route leader chooses NorthApproach (T), the guide chooses between LeftCrevasse (L) and RightCrevasse (R).
+If the route leader chooses SouthApproach (B), the guide again chooses between LeftCrevasse (L) and RightCrevasse (R).
+
+At that point, the guide cannot tell whether the earlier route was NorthApproach (T) or SouthApproach (B).
+
+After that, the route leader chooses between UseUpperRope (U) and UseDeepRope (D).
+At that later moment, the route leader cannot tell which earlier combination of choices led there.
+
+After NorthApproach (T) and LeftCrevasse (L), UseUpperRope (U) gives 5 to the route leader, and 0 to the guide, 
+while UseDeepRope (D) gives 2 to the route leader, and 1 to the guide.
+
+After NorthApproach (T) and RightCrevasse (R), UseUpperRope (U) gives 2 to the route leader, and 0 to the guide, 
+while UseDeepRope (D) gives 0 to the route leader, and 1 to the guide.
+
+After SouthApproach (B) and LeftCrevasse (L), UseUpperRope (U) gives 0 to the route leader, and 1 to the guide, 
+while UseDeepRope (D) gives 2 to the route leader, and 0 to the guide.
+
+After SouthApproach (B) and RightCrevasse (R), UseUpperRope (U) gives 2 to the route leader, and 1 to the guide, 
+while UseDeepRope (D) gives 5 to the route leader, and 0 to the guide.

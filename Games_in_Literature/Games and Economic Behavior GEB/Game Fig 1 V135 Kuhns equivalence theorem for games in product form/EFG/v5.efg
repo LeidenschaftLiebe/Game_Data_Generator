@@ -1,0 +1,18 @@
+EFG 2 R "GEB Alice Bob Nature Example V5" { "Producer" "Director" }
+""
+
+c "" 1 "" { "SmoothShoot" 1/2 "TroubledShoot" 1/2 } 0
+p "" 1 1 "" { "LocationLeft" "LocationRight" } 0
+p "" 2 1 "" { "TenseCut" "BalancedCut" } 0
+t "" 1 "SmoothShoot_LocationLeft_TenseCut" { 3, 2 }
+t "" 2 "SmoothShoot_LocationLeft_BalancedCut" { 1, 4 }
+p "" 2 2 "" { "TenseCut" "BalancedCut" } 0
+t "" 3 "SmoothShoot_LocationRight_TenseCut" { 4, 1 }
+t "" 4 "SmoothShoot_LocationRight_BalancedCut" { 2, 3 }
+p "" 1 2 "" { "LocationLeft" "LocationRight" } 0
+p "" 2 3 "" { "TenseCut" "BalancedCut" } 0
+t "" 5 "TroubledShoot_LocationLeft_TenseCut" { 2, 3 }
+t "" 6 "TroubledShoot_LocationLeft_BalancedCut" { 4, 1 }
+p "" 2 4 "" { "TenseCut" "BalancedCut" } 0
+t "" 7 "TroubledShoot_LocationRight_TenseCut" { 1, 4 }
+t "" 8 "TroubledShoot_LocationRight_BalancedCut" { 3, 2 }

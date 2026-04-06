@@ -1,0 +1,20 @@
+V1 [Market signal and response]
+
+Market conditions first turn out to be either StrongDemand (omega+) or WeakDemand (omega-).
+
+The operations lead then observes that condition and chooses between LaunchLeft (L) and LaunchRight (R).
+
+The marketing lead then observes both the market condition and the operations choice,
+and chooses between TopPush (T) and BasePush (B).
+
+If the condition is StrongDemand (omega+), then:
+LaunchLeft (L), TopPush (T) gives 3, 2.
+LaunchLeft (L), BasePush (B) gives 1, 4.
+LaunchRight (R), TopPush (T) gives 4, 1.
+LaunchRight (R), BasePush (B) gives 2, 3.
+
+If the condition is WeakDemand (omega-), then:
+LaunchLeft (L), TopPush (T) gives 2, 3.
+LaunchLeft (L), BasePush (B) gives 4, 1.
+LaunchRight (R), TopPush (T) gives 1, 4.
+LaunchRight (R), BasePush (B) gives 3, 2.

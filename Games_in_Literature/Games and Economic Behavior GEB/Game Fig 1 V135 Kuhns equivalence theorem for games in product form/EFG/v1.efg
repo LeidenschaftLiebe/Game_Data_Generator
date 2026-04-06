@@ -1,0 +1,18 @@
+EFG 2 R "GEB Alice Bob Nature Example V1" { "Operations Lead" "Marketing Lead" }
+""
+
+c "" 1 "" { "StrongDemand" 1/2 "WeakDemand" 1/2 } 0
+p "" 1 1 "" { "LaunchLeft" "LaunchRight" } 0
+p "" 2 1 "" { "TopPush" "BasePush" } 0
+t "" 1 "StrongDemand_Left_TopPush" { 3, 2 }
+t "" 2 "StrongDemand_Left_BasePush" { 1, 4 }
+p "" 2 2 "" { "TopPush" "BasePush" } 0
+t "" 3 "StrongDemand_Right_TopPush" { 4, 1 }
+t "" 4 "StrongDemand_Right_BasePush" { 2, 3 }
+p "" 1 2 "" { "LaunchLeft" "LaunchRight" } 0
+p "" 2 3 "" { "TopPush" "BasePush" } 0
+t "" 5 "WeakDemand_Left_TopPush" { 2, 3 }
+t "" 6 "WeakDemand_Left_BasePush" { 4, 1 }
+p "" 2 4 "" { "TopPush" "BasePush" } 0
+t "" 7 "WeakDemand_Right_TopPush" { 1, 4 }
+t "" 8 "WeakDemand_Right_BasePush" { 3, 2 }

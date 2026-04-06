@@ -1,0 +1,20 @@
+V4 [Security operations]
+
+The threat environment first turns out to be either HighThreat (omega+) or LowThreat (omega-).
+
+The security chief observes that and chooses between LeftRoute (L) and RightRoute (R).
+
+The field coordinator then observes both the threat environment and the chosen route,
+and chooses between TightProtocol (T) and BroadProtocol (B).
+
+If the environment is HighThreat (omega+), then:
+LeftRoute (L), TightProtocol (T) gives 3, 2.
+LeftRoute (L), BroadProtocol (B) gives 1, 4.
+RightRoute (R), TightProtocol (T) gives 4, 1.
+RightRoute (R), BroadProtocol (B) gives 2, 3.
+
+If the environment is LowThreat (omega-), then:
+LeftRoute (L), TightProtocol (T) gives 2, 3.
+LeftRoute (L), BroadProtocol (B) gives 4, 1.
+RightRoute (R), TightProtocol (T) gives 1, 4.
+RightRoute (R), BroadProtocol (B) gives 3, 2.

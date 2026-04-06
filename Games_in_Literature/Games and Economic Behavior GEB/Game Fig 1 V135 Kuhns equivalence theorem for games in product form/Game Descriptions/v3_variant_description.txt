@@ -1,0 +1,20 @@
+V3 [Campaign strategy]
+
+The political climate first turns out to be either FriendlyClimate (omega+) or HostileClimate (omega-).
+
+The campaign manager observes that climate and chooses between RegionalFocus (L) and NationalFocus (R).
+
+The candidate then observes both the climate and the manager’s choice,
+and chooses between ToughSpeech (T) and BridgeSpeech (B).
+
+If the climate is FriendlyClimate (omega+), then:
+RegionalFocus (L), ToughSpeech (T) gives 3, 2.
+RegionalFocus (L), BridgeSpeech (B) gives 1, 4.
+NationalFocus (R), ToughSpeech (T) gives 4, 1.
+NationalFocus (R), BridgeSpeech (B) gives 2, 3.
+
+If the climate is HostileClimate (omega-), then:
+RegionalFocus (L), ToughSpeech (T) gives 2, 3.
+RegionalFocus (L), BridgeSpeech (B) gives 4, 1.
+NationalFocus (R), ToughSpeech (T) gives 1, 4.
+NationalFocus (R), BridgeSpeech (B) gives 3, 2.

@@ -1,0 +1,41 @@
+V0 [Original article context]
+
+This game follows the article’s Alice and Bob example with Nature moving first.
+The article uses this kind of tree to illustrate ordered agents with Nature:
+Nature moves first, Bob observes Nature’s move, and Alice then observes both Nature’s move and Bob’s action.
+
+The article labels the 8 terminal nodes as z_1 through z_8, but it does not attach numerical results to them in the figure.
+So for this dataset instance, set the terminal results explicitly as follows:
+
+z_1 = 3, 2
+z_2 = 1, 4
+z_3 = 4, 1
+z_4 = 2, 3
+z_5 = 2, 3
+z_6 = 4, 1
+z_7 = 1, 4
+z_8 = 3, 2
+
+Nature first chooses between omega+ and omega-.
+For this concrete instance, set both Nature probabilities to 1/2.
+
+After seeing Nature’s move, Bob chooses between L and R.
+
+Then Alice moves.
+If Bob chose L, Alice chooses between T and B.
+If Bob chose R, Alice also chooses between T and B.
+
+If Nature chose omega+, then:
+L, then T leads to z_1 = 3, 2.
+L, then B leads to z_2 = 1, 4.
+R, then T leads to z_3 = 4, 1.
+R, then B leads to z_4 = 2, 3.
+
+If Nature chose omega-, then:
+L, then T leads to z_5 = 2, 3.
+L, then B leads to z_6 = 4, 1.
+R, then T leads to z_7 = 1, 4.
+R, then B leads to z_8 = 3, 2.
+
+So in this version, Bob knows which state Nature selected before choosing L or R,
+and Alice knows both the state and Bob’s move before choosing T or B.

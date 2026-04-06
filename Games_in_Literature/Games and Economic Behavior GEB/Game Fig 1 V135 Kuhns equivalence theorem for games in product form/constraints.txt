@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Nature moves first and chooses between two states with probability 1/2 each.
+Bob moves after observing Nature’s move. Alice then moves after observing both Nature’s move and Bob’s action.
+Seed payoff constraint: under omega+, L, then T, the payoffs are 3, 2.
+The terminal outcomes are symmetric across the two Nature branches: z1 = z8, z2 = z7, z3 = z6, and z4 = z5.

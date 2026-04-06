@@ -1,0 +1,18 @@
+EFG 2 R "GEB Alice Bob Nature Example V4" { "Security Chief" "Field Coordinator" }
+""
+
+c "" 1 "" { "HighThreat" 1/2 "LowThreat" 1/2 } 0
+p "" 1 1 "" { "LeftRoute" "RightRoute" } 0
+p "" 2 1 "" { "TightProtocol" "BroadProtocol" } 0
+t "" 1 "HighThreat_LeftRoute_TightProtocol" { 3, 2 }
+t "" 2 "HighThreat_LeftRoute_BroadProtocol" { 1, 4 }
+p "" 2 2 "" { "TightProtocol" "BroadProtocol" } 0
+t "" 3 "HighThreat_RightRoute_TightProtocol" { 4, 1 }
+t "" 4 "HighThreat_RightRoute_BroadProtocol" { 2, 3 }
+p "" 1 2 "" { "LeftRoute" "RightRoute" } 0
+p "" 2 3 "" { "TightProtocol" "BroadProtocol" } 0
+t "" 5 "LowThreat_LeftRoute_TightProtocol" { 2, 3 }
+t "" 6 "LowThreat_LeftRoute_BroadProtocol" { 4, 1 }
+p "" 2 4 "" { "TightProtocol" "BroadProtocol" } 0
+t "" 7 "LowThreat_RightRoute_TightProtocol" { 1, 4 }
+t "" 8 "LowThreat_RightRoute_BroadProtocol" { 3, 2 }

@@ -1,0 +1,18 @@
+EFG 2 R "GEB Alice Bob Nature Example V3" { "Campaign Manager" "Candidate" }
+""
+
+c "" 1 "" { "FriendlyClimate" 1/2 "HostileClimate" 1/2 } 0
+p "" 1 1 "" { "RegionalFocus" "NationalFocus" } 0
+p "" 2 1 "" { "ToughSpeech" "BridgeSpeech" } 0
+t "" 1 "FriendlyClimate_RegionalFocus_ToughSpeech" { 3, 2 }
+t "" 2 "FriendlyClimate_RegionalFocus_BridgeSpeech" { 1, 4 }
+p "" 2 2 "" { "ToughSpeech" "BridgeSpeech" } 0
+t "" 3 "FriendlyClimate_NationalFocus_ToughSpeech" { 4, 1 }
+t "" 4 "FriendlyClimate_NationalFocus_BridgeSpeech" { 2, 3 }
+p "" 1 2 "" { "RegionalFocus" "NationalFocus" } 0
+p "" 2 3 "" { "ToughSpeech" "BridgeSpeech" } 0
+t "" 5 "HostileClimate_RegionalFocus_ToughSpeech" { 2, 3 }
+t "" 6 "HostileClimate_RegionalFocus_BridgeSpeech" { 4, 1 }
+p "" 2 4 "" { "ToughSpeech" "BridgeSpeech" } 0
+t "" 7 "HostileClimate_NationalFocus_ToughSpeech" { 1, 4 }
+t "" 8 "HostileClimate_NationalFocus_BridgeSpeech" { 3, 2 }

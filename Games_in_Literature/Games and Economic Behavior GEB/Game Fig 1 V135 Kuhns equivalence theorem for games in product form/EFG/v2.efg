@@ -1,0 +1,18 @@
+EFG 2 R "GEB Alice Bob Nature Example V2" { "Senior Researcher" "Junior Researcher" }
+""
+
+c "" 1 "" { "SupportiveReview" 1/2 "CriticalReview" 1/2 } 0
+p "" 1 1 "" { "MethodLeft" "MethodRight" } 0
+p "" 2 1 "" { "TheoryEmphasis" "BenchmarkEmphasis" } 0
+t "" 1 "SupportiveReview_Left_TheoryEmphasis" { 3, 2 }
+t "" 2 "SupportiveReview_Left_BenchmarkEmphasis" { 1, 4 }
+p "" 2 2 "" { "TheoryEmphasis" "BenchmarkEmphasis" } 0
+t "" 3 "SupportiveReview_Right_TheoryEmphasis" { 4, 1 }
+t "" 4 "SupportiveReview_Right_BenchmarkEmphasis" { 2, 3 }
+p "" 1 2 "" { "MethodLeft" "MethodRight" } 0
+p "" 2 3 "" { "TheoryEmphasis" "BenchmarkEmphasis" } 0
+t "" 5 "CriticalReview_Left_TheoryEmphasis" { 2, 3 }
+t "" 6 "CriticalReview_Left_BenchmarkEmphasis" { 4, 1 }
+p "" 2 4 "" { "TheoryEmphasis" "BenchmarkEmphasis" } 0
+t "" 7 "CriticalReview_Right_TheoryEmphasis" { 1, 4 }
+t "" 8 "CriticalReview_Right_BenchmarkEmphasis" { 3, 2 }

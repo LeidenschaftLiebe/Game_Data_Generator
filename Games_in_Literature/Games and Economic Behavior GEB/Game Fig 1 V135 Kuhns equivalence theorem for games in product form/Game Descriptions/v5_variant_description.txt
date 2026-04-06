@@ -1,0 +1,20 @@
+V5 [Film production]
+
+Production conditions first turn out to be either SmoothShoot (omega+) or TroubledShoot (omega-).
+
+The producer observes that and chooses between LocationLeft (L) and LocationRight (R).
+
+The director then observes both the production condition and the location choice,
+and chooses between TenseCut (T) and BalancedCut (B).
+
+If conditions are SmoothShoot (omega+), then:
+LocationLeft (L), TenseCut (T) gives 3, 2.
+LocationLeft (L), BalancedCut (B) gives 1, 4.
+LocationRight (R), TenseCut (T) gives 4, 1.
+LocationRight (R), BalancedCut (B) gives 2, 3.
+
+If conditions are TroubledShoot (omega-), then:
+LocationLeft (L), TenseCut (T) gives 2, 3.
+LocationLeft (L), BalancedCut (B) gives 4, 1.
+LocationRight (R), TenseCut (T) gives 1, 4.
+LocationRight (R), BalancedCut (B) gives 3, 2.

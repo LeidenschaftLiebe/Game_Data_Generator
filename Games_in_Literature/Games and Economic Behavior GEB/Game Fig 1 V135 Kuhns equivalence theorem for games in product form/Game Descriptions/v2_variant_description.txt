@@ -1,0 +1,20 @@
+V2 [Research path choice]
+
+The environment first turns out to be either SupportiveReview (omega+) or CriticalReview (omega-).
+
+The senior researcher observes that and chooses between MethodLeft (L) and MethodRight (R).
+
+The junior researcher then observes both the review environment and the method choice,
+and chooses between TheoryEmphasis (T) and BenchmarkEmphasis (B).
+
+If the environment is SupportiveReview (omega+), then:
+MethodLeft (L), TheoryEmphasis (T) gives 3, 2.
+MethodLeft (L), BenchmarkEmphasis (B) gives 1, 4.
+MethodRight (R), TheoryEmphasis (T) gives 4, 1.
+MethodRight (R), BenchmarkEmphasis (B) gives 2, 3.
+
+If the environment is CriticalReview (omega-), then:
+MethodLeft (L), TheoryEmphasis (T) gives 2, 3.
+MethodLeft (L), BenchmarkEmphasis (B) gives 4, 1.
+MethodRight (R), TheoryEmphasis (T) gives 1, 4.
+MethodRight (R), BenchmarkEmphasis (B) gives 3, 2.

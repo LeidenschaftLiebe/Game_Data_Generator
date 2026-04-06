@@ -1,0 +1,14 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Nature first chooses one of 6 type combinations. The probabilities are 1/30, 3/10, 1/30, 3/10, 1/30, and 3/10. 
+Player 1 has 3 infosets at the first move, one for each own type 01, 11, 21. 
+Within each of those infosets, Player 1 observes prior realized actions but does not know whether Player 2 is type 02 or 12.
+Player 2 has 2 infosets at the second move, one for own type 02 and one for 12. 
+Within each of those infosets, Player 2 observes whether Invest1 occurred, but does not know whether Player 1 is type 01, 11, or 21.
+Player 1 has 3 infosets again at the third move, one for each own type 01, 11, 21. 
+At those nodes, Player 1 observes the realized action history but still does not know Player 2’s type.
+Seed payoff constraint: any terminal history ending with the first-move outside action gives 5, 0.
+The action-history payoff pattern is identical across all 6 hidden type branches. 

@@ -1,0 +1,31 @@
+V1 [Startup funding]
+
+At the start, a hidden draw determines the planning type of the founder and the investor.
+The founder’s type is 01, 11, or 21, each with probability 1/3.
+The investor’s type is 02 with probability 1/10 and 12 with probability 9/10.
+
+So the 6 hidden type combinations have probabilities:
+(01,02) = 1/30, (01,12) = 3/10, (11,02) = 1/30, (11,12) = 3/10, (21,02) = 1/30, and (21,12) = 3/10.
+
+The founder does not know the investor’s type.
+The investor does not know the founder’s type.
+
+At the first move, the founder knows only the founder’s own type.
+The founder first chooses between SeekSeedRound (Invest1) and StopNow (Out1).
+
+If the founder chooses StopNow (Out1), the result is 5, 0.
+
+If the founder chooses SeekSeedRound (Invest1), the investor moves and chooses between JoinRound (Invest2) and PassNow (Out2).
+
+At that point, the investor observes that the founder chose SeekSeedRound (Invest1),
+and the investor knows the investor’s own type,
+but still does not know whether the founder is type 01, 11, or 21.
+
+If the investor chooses PassNow (Out2), the result is 0, 6.
+
+If the investor chooses JoinRound (Invest2), the founder moves again and chooses between ScaleFully (Invest3) and CashOutLate (Out3).
+
+At that point, the founder observes the earlier realized actions, knows the founder’s own type, 
+but still does not know whether the investor is type 02 or 12.
+
+ScaleFully (Invest3) gives 8, 8, and CashOutLate (Out3) gives 7, 0.

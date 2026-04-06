@@ -1,0 +1,30 @@
+V2 [Research project]
+
+At the start, a hidden draw determines the planning type of the lead researcher and the coauthor.
+The lead researcher’s type is 01, 11, or 21, each with probability 1/3.
+The coauthor’s type is 02 with probability 1/10 and 12 with probability 9/10.
+
+So the hidden type-combination probabilities are:
+(01,02) = 1/30, (01,12) = 3/10, (11,02) = 1/30, (11,12) = 3/10, (21,02) = 1/30, and (21,12) = 3/10.
+
+The lead researcher knows only the lead researcher’s own type, not the coauthor’s type.
+The coauthor knows only the coauthor’s own type, not the lead researcher’s type.
+
+The lead researcher first chooses between StartProject (Invest1) and DropIt (Out1).
+
+If the lead researcher chooses DropIt (Out1), the result is 5, 0.
+
+If the lead researcher chooses StartProject (Invest1), the coauthor chooses between CommitTime (Invest2) and StepAway (Out2).
+
+When making that choice, the coauthor has observed StartProject (Invest1),
+but still does not know whether the lead researcher is type 01, 11, or 21.
+
+If the coauthor chooses StepAway (Out2), the result is 0, 6.
+
+If the coauthor chooses CommitTime (Invest2), the lead researcher chooses between FinishTogether (Invest3) and ExitLate (Out3).
+
+When making that last choice, the lead researcher has observed both earlier realized actions,
+but still does not know whether the coauthor is type 02 or 12.
+
+At the last layer, every hidden type branch uses the same two final results.
+FinishTogether (Invest3) gives 8, 8, and ExitLate (Out3) gives 7, 0.

@@ -1,0 +1,25 @@
+V0 [Original article context]
+
+At the start, a hidden draw determines the two foresight types in the game.
+Player 1 may be 01, 11, or 21, and Player 2 may be 02 or 12.
+
+For this dataset instance, use:
+rho(01) = rho(11) = rho(21) = 1/3,
+rho(02) = 1/10, and rho(12) = 9/10.
+
+After that hidden draw, the action structure is the same in every branch.
+Player 1 moves first and chooses between Invest1 and Out1.
+
+If Player 1 chooses Out1, the game ends immediately with 5 for Player 1 and 0 for Player 2.
+
+If Player 1 chooses Invest1, then Player 2 moves and chooses between Invest2 and Out2.
+
+If Player 2 chooses Out2, the game ends with 0, 6.
+
+If Player 2 chooses Invest2, then Player 1 moves again and chooses between Invest3 and Out3.
+
+At this last layer, the same two outcomes appear everywhere.
+Invest3 leads to 8, 8; while Out3 leads to 7, 0.
+
+The type labels matter for what each player can foresee and for which opponent type they think they are facing,
+but the payoff attached to a given action history is the same across all type combinations.

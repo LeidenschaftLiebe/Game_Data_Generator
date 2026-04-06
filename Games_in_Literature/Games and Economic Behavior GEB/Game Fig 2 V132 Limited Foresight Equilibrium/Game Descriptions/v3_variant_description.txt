@@ -1,0 +1,31 @@
+V3 [Political coalition]
+
+At the start, a hidden draw determines the planning type of Party A and Party B.
+Party A’s type is 01, 11, or 21, each with probability 1/3.
+Party B’s type is 02 with probability 1/10 and 12 with probability 9/10.
+
+So the hidden type-combination probabilities are:
+(01,02) = 1/30, (01,12) = 3/10, (11,02) = 1/30, (11,12) = 3/10, (21,02) = 1/30, and (21,12) = 3/10.
+
+Party A knows only Party A’s own type.
+Party B knows only Party B’s own type.
+Neither side sees the opponent’s type.
+
+Party A first chooses between OpenTalks (Invest1) and WalkAway (Out1).
+
+If Party A chooses WalkAway (Out1), the result is 5, 0.
+
+If Party A chooses OpenTalks (Invest1), Party B chooses between JoinTalks (Invest2) and RefuseNow (Out2).
+
+At that moment, Party B has seen OpenTalks (Invest1),
+but still does not know whether Party A is type 01, 11, or 21.
+
+If Party B chooses RefuseNow (Out2), the result is 0, 6.
+
+If Party B chooses JoinTalks (Invest2), Party A chooses between SealDeal (Invest3) and LeaveLate (Out3).
+
+At that last move, Party A has seen the earlier realized actions,
+but still does not know whether Party B is type 02 or 12.
+
+The same final results appear in every hidden type branch.
+SealDeal (Invest3) gives 8, 8, and LeaveLate (Out3) gives 7, 0.

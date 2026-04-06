@@ -1,0 +1,31 @@
+V4 [Supply-chain partnership]
+
+At the start, a hidden draw determines the planning type of the manufacturer and the distributor.
+The manufacturer’s type is 01, 11, or 21, each with probability 1/3.
+The distributor’s type is 02 with probability 1/10 and 12 with probability 9/10.
+
+So the hidden type-combination probabilities are:
+(01,02) = 1/30, (01,12) = 3/10, (11,02) = 1/30, (11,12) = 3/10, (21,02) = 1/30, and (21,12) = 3/10.
+
+The manufacturer knows only the manufacturer’s own type.
+The distributor knows only the distributor’s own type.
+Neither side knows the opponent’s type.
+
+The manufacturer first chooses between BuildPartnership (Invest1) and StaySolo (Out1).
+
+If the manufacturer chooses StaySolo (Out1), the result is 5, 0.
+
+If the manufacturer chooses BuildPartnership (Invest1), the distributor chooses between CommitCapacity (Invest2) and DeclineNow (Out2).
+
+At that point, the distributor has observed BuildPartnership (Invest1),
+but still does not know whether the manufacturer is type 01, 11, or 21.
+
+If the distributor chooses DeclineNow (Out2), the result is 0, 6.
+
+If the distributor chooses CommitCapacity (Invest2), the manufacturer chooses between ExpandTogether (Invest3) and PullBackLate (Out3).
+
+At that last move, the manufacturer has observed both earlier realized actions,
+but still does not know whether the distributor is type 02 or 12.
+
+The same final payoffs appear in every hidden type branch.
+ExpandTogether (Invest3) gives 8, 8, and PullBackLate (Out3) gives 7, 0.

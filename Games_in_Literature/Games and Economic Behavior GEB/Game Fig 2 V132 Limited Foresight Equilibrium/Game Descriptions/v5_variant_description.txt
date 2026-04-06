@@ -1,0 +1,31 @@
+V5 [Film production]
+
+At the start, a hidden draw determines the planning type of the producer and the studio partner.
+The producer’s type is 01, 11, or 21, each with probability 1/3.
+The studio partner’s type is 02 with probability 1/10 and 12 with probability 9/10.
+
+So the hidden type-combination probabilities are:
+(01,02) = 1/30, (01,12) = 3/10, (11,02) = 1/30, (11,12) = 3/10, (21,02) = 1/30, and (21,12) = 3/10.
+
+The producer knows only the producer’s own type.
+The studio partner knows only the studio partner’s own type.
+Neither side knows the opponent’s type.
+
+The producer first chooses between StartProduction (Invest1) and CancelEarly (Out1).
+
+If the producer chooses CancelEarly (Out1), the result is 5, 0.
+
+If the producer chooses StartProduction (Invest1), the studio partner chooses between CoFinance (Invest2) and PassNow (Out2).
+
+At that point, the studio partner has observed StartProduction (Invest1),
+but still does not know whether the producer is type 01, 11, or 21.
+
+If the studio partner chooses PassNow (Out2), the result is 0, 6.
+
+If the studio partner chooses CoFinance (Invest2), the producer chooses between ReleaseWide (Invest3) and ExitLate (Out3).
+
+At that last move, the producer has observed both earlier realized actions,
+but still does not know whether the studio partner is type 02 or 12.
+
+Again, the same last-layer results appear in every hidden type branch.
+ReleaseWide (Invest3) gives 8, 8, and ExitLate (Out3) gives 7, 0.

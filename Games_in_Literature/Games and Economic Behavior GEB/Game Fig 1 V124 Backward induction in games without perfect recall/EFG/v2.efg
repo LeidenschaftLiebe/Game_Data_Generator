@@ -1,0 +1,14 @@
+EFG 2 R "GEB Game Without Perfect Recall Fig. 1 V2" { "Inspector" "Captain" }
+""
+
+c "" 1 "" { "InnerChannel" 1/2 "OuterChannel" 1/2 } 0
+p "" 2 1 "" { "AbortDock" "AttemptDock" } 0
+t "" 1 "InnerChannel_AbortDock" { 1, -1 }
+p "" 1 2 "" { "SecondaryBerth" "DeepChannel" } 0
+t "" 3 "InnerChannel_AttemptDock_SecondaryBerth" { -2, 2 }
+t "" 4 "InnerChannel_AttemptDock_DeepChannel" { 2, -2 }
+p "" 1 1 "" { "ClosePort" "OpenPort" } 0
+t "" 2 "OuterChannel_ClosePort" { -1, 1 }
+p "" 1 2 "" { "SecondaryBerth" "DeepChannel" } 0
+t "" 5 "OuterChannel_OpenPort_SecondaryBerth" { 2, -2 }
+t "" 6 "OuterChannel_OpenPort_DeepChannel" { -2, 2 }

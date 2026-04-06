@@ -1,0 +1,32 @@
+V0 [Original article context]
+
+This figure comes from the paper as a small example where one player later has to act again 
+without being able to tell exactly how that point was reached.
+The article uses it to show why standard backward-induction style reasoning becomes tricky in such settings.
+
+Nature first chooses which side of the tree is used, with probability 1/2 for each side.
+
+On the left side, Player 2 moves first.
+Player 2 chooses between OUT and IN.
+
+If Player 2 chooses OUT, the game ends there.
+This gives Player 1 1, and Player 2 -1.
+
+If Player 2 chooses IN, then Player 1 moves at the upper node and chooses between S and D.
+If Player 1 chooses S, this gives Player 1 -2, and Player 2 2.
+If Player 1 chooses D, this gives Player 1 2, and Player 2 -2.
+
+On the right side, Player 1 moves first.
+Player 1 chooses between Out and In.
+
+If Player 1 chooses Out, the game ends there.
+This gives Player 1 -1, and Player 2 1.
+
+If Player 1 chooses In, then Player 1 moves again at the upper node and chooses between S and D.
+If Player 1 chooses S, this gives Player 1 2, and Player 2 -2.
+If Player 1 chooses D, this gives Player 1 -2, and Player 2 2.
+
+The two upper Player 1 nodes are linked.
+So when Player 1 makes that upper choice between S and D, 
+Player 1 cannot tell whether the path came from the left side after Player 2 chose IN, 
+or from the right side after Player 1 earlier chose In.

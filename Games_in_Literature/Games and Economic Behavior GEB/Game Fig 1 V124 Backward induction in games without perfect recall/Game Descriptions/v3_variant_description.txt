@@ -1,0 +1,24 @@
+V3 [Wildfire response]
+
+A fire chief and a ranger are deciding how to respond to a fast-moving wildfire.
+
+Conditions first choose one of two sides, with probability 1/2 each.
+
+On the left side, the ranger moves first and chooses between PullBack (OUT) and MoveIn (IN).
+
+If the ranger chooses PullBack (OUT), this gives the chief 1, and the ranger -1.
+
+If the ranger chooses MoveIn (IN), then the chief chooses between SouthLine (S) and DirectLine (D).
+SouthLine (S) gives the chief -2, and the ranger 2.
+DirectLine (D) gives the chief 2, and the ranger -2.
+
+On the right side, the chief moves first and chooses between StandDown (Out) and Advance (In).
+
+If the chief chooses StandDown (Out), this gives the chief -1, and the ranger 1.
+
+If the chief chooses Advance (In), the chief later chooses between SouthLine (S) and DirectLine (D).
+SouthLine (S) gives the chief 2, and the ranger -2.
+DirectLine (D) gives the chief -2, and the ranger 2.
+
+At that later upper choice, the chief cannot tell whether it followed the ranger’s earlier MoveIn (IN) on the left side 
+or the chief’s own earlier Advance (In) on the right side.

@@ -1,0 +1,11 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Nature moves first and chooses between two branches with probability 1/2 each.
+On the left branch, Player 2 moves first and chooses between an outside action and an inside action.
+On the right branch, Player 1 moves first and chooses between an outside action and an inside action.
+Player 1 has one infoset joining the two upper nodes, so at the upper move Player 1 cannot tell 
+whether play came from the left branch after Player 2 chose IN, or from the right branch after Player 1 earlier chose In.
+Seed payoff constraint: left outside outcome gives 1, -1.

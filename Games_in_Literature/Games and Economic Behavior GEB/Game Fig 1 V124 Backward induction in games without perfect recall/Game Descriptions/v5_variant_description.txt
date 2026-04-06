@@ -1,0 +1,23 @@
+V5 [Space mission check]
+
+A mission controller and a pilot are deciding whether to continue a risky maneuver.
+
+A random condition first selects the left side or the right side, each with probability 1/2.
+
+On the left side, the pilot moves first and chooses between AbortBurn (OUT) and CommitBurn (IN).
+
+If the pilot chooses AbortBurn (OUT), this gives the controller 1, and the pilot -1.
+
+If the pilot chooses CommitBurn (IN), then the controller chooses between SafeArc (S) and DirectArc (D).
+SafeArc (S) gives the controller -2, and the pilot 2.
+DirectArc (D) gives the controller 2, and the pilot -2.
+
+On the right side, the controller moves first and chooses between HoldOrbit (Out) and InitiateBurn (In).
+
+If the controller chooses HoldOrbit (Out), this gives the controller -1, and the pilot 1.
+
+If the controller chooses InitiateBurn (In), the controller later chooses between SafeArc (S) and DirectArc (D).
+SafeArc (S) gives the controller 2, and the pilot -2.
+DirectArc (D) gives the controller -2, and the pilot 2.
+
+At that later upper choice, the controller cannot tell which earlier side led there.

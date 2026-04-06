@@ -1,0 +1,14 @@
+EFG 2 R "GEB Game Without Perfect Recall Fig. 1 V5" { "Controller" "Pilot" }
+""
+
+c "" 1 "" { "NearWindow" 1/2 "FarWindow" 1/2 } 0
+p "" 2 1 "" { "AbortBurn" "CommitBurn" } 0
+t "" 1 "NearWindow_AbortBurn" { 1, -1 }
+p "" 1 2 "" { "SafeArc" "DirectArc" } 0
+t "" 3 "NearWindow_CommitBurn_SafeArc" { -2, 2 }
+t "" 4 "NearWindow_CommitBurn_DirectArc" { 2, -2 }
+p "" 1 1 "" { "HoldOrbit" "InitiateBurn" } 0
+t "" 2 "FarWindow_HoldOrbit" { -1, 1 }
+p "" 1 2 "" { "SafeArc" "DirectArc" } 0
+t "" 5 "FarWindow_InitiateBurn_SafeArc" { 2, -2 }
+t "" 6 "FarWindow_InitiateBurn_DirectArc" { -2, 2 }

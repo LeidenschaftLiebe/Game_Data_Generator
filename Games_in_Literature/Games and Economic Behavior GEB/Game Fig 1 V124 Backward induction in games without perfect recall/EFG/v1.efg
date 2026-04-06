@@ -1,0 +1,14 @@
+EFG 2 R "GEB Game Without Perfect Recall Fig. 1 V1" { "Coordinator" "Field Guide" }
+""
+
+c "" 1 "" { "NorthSide" 1/2 "SouthSide" 1/2 } 0
+p "" 2 1 "" { "TurnBack" "EnterPass" } 0
+t "" 1 "NorthSide_TurnBack" { 1, -1 }
+p "" 1 2 "" { "SouthRidge" "DownValley" } 0
+t "" 3 "NorthSide_EnterPass_SouthRidge" { -2, 2 }
+t "" 4 "NorthSide_EnterPass_DownValley" { 2, -2 }
+p "" 1 1 "" { "HoldBase" "GoForward" } 0
+t "" 2 "SouthSide_HoldBase" { -1, 1 }
+p "" 1 2 "" { "SouthRidge" "DownValley" } 0
+t "" 5 "SouthSide_GoForward_SouthRidge" { 2, -2 }
+t "" 6 "SouthSide_GoForward_DownValley" { -2, 2 }

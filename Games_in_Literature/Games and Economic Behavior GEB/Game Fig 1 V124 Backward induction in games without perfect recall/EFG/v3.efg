@@ -1,0 +1,14 @@
+EFG 2 R "GEB Game Without Perfect Recall Fig. 1 V3" { "Fire Chief" "Ranger" }
+""
+
+c "" 1 "" { "WestFlank" 1/2 "EastFlank" 1/2 } 0
+p "" 2 1 "" { "PullBack" "MoveIn" } 0
+t "" 1 "WestFlank_PullBack" { 1, -1 }
+p "" 1 2 "" { "SouthLine" "DirectLine" } 0
+t "" 3 "WestFlank_MoveIn_SouthLine" { -2, 2 }
+t "" 4 "WestFlank_MoveIn_DirectLine" { 2, -2 }
+p "" 1 1 "" { "StandDown" "Advance" } 0
+t "" 2 "EastFlank_StandDown" { -1, 1 }
+p "" 1 2 "" { "SouthLine" "DirectLine" } 0
+t "" 5 "EastFlank_Advance_SouthLine" { 2, -2 }
+t "" 6 "EastFlank_Advance_DirectLine" { -2, 2 }

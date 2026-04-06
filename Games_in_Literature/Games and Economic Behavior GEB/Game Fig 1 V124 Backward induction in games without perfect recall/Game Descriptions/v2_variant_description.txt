@@ -1,0 +1,23 @@
+V2 [Harbor inspection]
+
+A harbor inspector and a ship captain are dealing with a risky docking decision.
+
+Conditions first choose the left side or the right side, each with probability 1/2.
+
+On the left side, the captain moves first and chooses between AbortDock (OUT) and AttemptDock (IN).
+
+If the captain chooses AbortDock (OUT), this gives the inspector 1, and the captain -1.
+
+If the captain chooses AttemptDock (IN), then the inspector chooses between SecondaryBerth (S) and DeepChannel (D).
+SecondaryBerth (S) gives the inspector -2, and the captain 2.
+DeepChannel (D) gives the inspector 2, and the captain -2.
+
+On the right side, the inspector moves first and chooses between ClosePort (Out) and OpenPort (In).
+
+If the inspector chooses ClosePort (Out), this gives the inspector -1, and the captain 1.
+
+If the inspector chooses OpenPort (In), the inspector later chooses between SecondaryBerth (S) and DeepChannel (D).
+SecondaryBerth (S) gives the inspector 2, and the captain -2.
+DeepChannel (D) gives the inspector -2, and the captain 2.
+
+At the upper choice, the inspector cannot tell which route led to that point.

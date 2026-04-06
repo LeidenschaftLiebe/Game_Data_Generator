@@ -1,0 +1,14 @@
+EFG 2 R "GEB Game Without Perfect Recall Fig. 1" { "Player 1" "Player 2" }
+""
+
+c "" 1 "" { "Left" 1/2 "Right" 1/2 } 0
+p "" 2 1 "" { "OUT" "IN" } 0
+t "" 1 "Left_OUT" { 1, -1 }
+p "" 1 2 "" { "S" "D" } 0
+t "" 3 "Left_IN_S" { -2, 2 }
+t "" 4 "Left_IN_D" { 2, -2 }
+p "" 1 1 "" { "Out" "In" } 0
+t "" 2 "Right_Out" { -1, 1 }
+p "" 1 2 "" { "S" "D" } 0
+t "" 5 "Right_In_S" { 2, -2 }
+t "" 6 "Right_In_D" { -2, 2 }

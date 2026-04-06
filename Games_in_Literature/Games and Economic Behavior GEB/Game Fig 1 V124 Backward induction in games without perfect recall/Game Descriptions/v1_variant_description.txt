@@ -1,0 +1,25 @@
+V1 [Mountain rescue route]
+
+A rescue coordinator and a field guide are trying to route a mountain team.
+
+Weather first determines which side of the situation they are in, with probability 1/2 for each side.
+
+On the left side, the field guide moves first and chooses between TurnBack (OUT) and EnterPass (IN).
+
+If the field guide chooses TurnBack (OUT), the day ends.
+This gives the coordinator 1, and the field guide -1.
+
+If the field guide chooses EnterPass (IN), then the coordinator chooses between SouthRidge (S) and DownValley (D).
+SouthRidge (S) gives the coordinator -2, and the field guide 2.
+DownValley (D) gives the coordinator 2, and the field guide -2.
+
+On the right side, the coordinator moves first and chooses between HoldBase (Out) and GoForward (In).
+
+If the coordinator chooses HoldBase (Out), the result is immediate.
+This gives the coordinator -1, and the field guide 1.
+
+If the coordinator chooses GoForward (In), the coordinator later chooses between SouthRidge (S) and DownValley (D) again.
+SouthRidge (S) gives the coordinator 2, and the field guide -2.
+DownValley (D) gives the coordinator -2, and the field guide 2.
+
+At that later upper choice, the coordinator cannot tell which side of the situation led there.

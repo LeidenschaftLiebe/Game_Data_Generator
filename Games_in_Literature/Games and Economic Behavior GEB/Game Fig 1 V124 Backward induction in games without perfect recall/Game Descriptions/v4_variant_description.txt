@@ -1,0 +1,23 @@
+V4 [Museum security]
+
+A museum curator and a security lead are deciding how to handle a fragile artifact transfer.
+
+A hidden circumstance first picks the left side or the right side, each with probability 1/2.
+
+On the left side, the security lead moves first and chooses between StopTransfer (OUT) and ProceedTransfer (IN).
+
+If the security lead chooses StopTransfer (OUT), this gives the curator 1, and the security lead -1.
+
+If the security lead chooses ProceedTransfer (IN), then the curator chooses between SideHall (S) and DirectHall (D).
+SideHall (S) gives the curator -2, and the security lead 2.
+DirectHall (D) gives the curator 2, and the security lead -2.
+
+On the right side, the curator moves first and chooses between CancelMove (Out) and StartMove (In).
+
+If the curator chooses CancelMove (Out), this gives the curator -1, and the security lead 1.
+
+If the curator chooses StartMove (In), the curator later chooses between SideHall (S) and DirectHall (D).
+SideHall (S) gives the curator 2, and the security lead -2.
+DirectHall (D) gives the curator -2, and the security lead 2.
+
+At the upper choice, the curator cannot tell which earlier path led there.

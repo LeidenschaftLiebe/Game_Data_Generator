@@ -1,0 +1,14 @@
+EFG 2 R "GEB Game Without Perfect Recall Fig. 1 V4" { "Curator" "Security Lead" }
+""
+
+c "" 1 "" { "FrontWing" 1/2 "RearWing" 1/2 } 0
+p "" 2 1 "" { "StopTransfer" "ProceedTransfer" } 0
+t "" 1 "FrontWing_StopTransfer" { 1, -1 }
+p "" 1 2 "" { "SideHall" "DirectHall" } 0
+t "" 3 "FrontWing_ProceedTransfer_SideHall" { -2, 2 }
+t "" 4 "FrontWing_ProceedTransfer_DirectHall" { 2, -2 }
+p "" 1 1 "" { "CancelMove" "StartMove" } 0
+t "" 2 "RearWing_CancelMove" { -1, 1 }
+p "" 1 2 "" { "SideHall" "DirectHall" } 0
+t "" 5 "RearWing_StartMove_SideHall" { 2, -2 }
+t "" 6 "RearWing_StartMove_DirectHall" { -2, 2 }

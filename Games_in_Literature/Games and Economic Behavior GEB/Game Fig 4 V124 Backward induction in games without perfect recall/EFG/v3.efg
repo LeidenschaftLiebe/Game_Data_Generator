@@ -1,0 +1,12 @@
+EFG 2 R "GEB Cannot Always Deviate at Multiple Information Sets Fig. 4 V3" { "Project Head" "Field Engineer" }
+""
+
+p "" 1 1 "" { "TemporaryFix" "FullRepair" } 0
+p "" 2 1 "" { "UpperSupport" "DeepSupport" } 0
+t "" 2 "TemporaryFix_UpperSupport" { 2, 2 }
+t "" 3 "TemporaryFix_DeepSupport" { 0, 0 }
+p "" 2 2 "" { "LeftSpan" "RightSpan" } 0
+p "" 2 1 "" { "UpperSupport" "DeepSupport" } 0
+t "" 4 "FullRepair_LeftSpan_UpperSupport" { 0, 0 }
+t "" 5 "FullRepair_LeftSpan_DeepSupport" { 3, 3 }
+t "" 1 "FullRepair_RightSpan" { 1, 1 }

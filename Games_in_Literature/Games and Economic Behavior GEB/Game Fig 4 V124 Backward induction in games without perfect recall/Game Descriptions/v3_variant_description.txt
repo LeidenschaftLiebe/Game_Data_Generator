@@ -1,0 +1,21 @@
+V3 [Jungle bridge repair]
+
+A project head and a field engineer are deciding how to repair a bridge in a jungle region.
+
+The project head moves first and chooses between TemporaryFix (T) and FullRepair (B).
+
+If the project head chooses TemporaryFix (T), then the field engineer chooses between UpperSupport (U) and DeepSupport (D).
+If the field engineer chooses UpperSupport (U), this gives 2 to the project head, and 2 to the field engineer.
+If the field engineer chooses DeepSupport (D), this gives 0 to the project head, and 0 to the field engineer.
+
+If the project head chooses FullRepair (B), then the field engineer chooses between LeftSpan (L) and RightSpan (R).
+
+If the field engineer chooses RightSpan (R), the result is immediate.
+This gives 1 to the project head, and 1 to the field engineer.
+
+If the field engineer chooses LeftSpan (L), the field engineer later chooses between UpperSupport (U) and DeepSupport (D).
+If the field engineer chooses UpperSupport (U), this gives 0 to the project head, and 0 to the field engineer.
+If the field engineer chooses DeepSupport (D), this gives 3 to the project head, and 3 to the field engineer.
+
+Those two later UpperSupport (U) or DeepSupport (D) nodes are linked, so the field engineer does not know whether 
+that later choice follows TemporaryFix (T) or follows FullRepair (B) and then LeftSpan (L).

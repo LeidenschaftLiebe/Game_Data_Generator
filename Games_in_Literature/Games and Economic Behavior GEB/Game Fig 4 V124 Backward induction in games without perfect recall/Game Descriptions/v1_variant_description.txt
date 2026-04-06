@@ -1,0 +1,22 @@
+V1 [Volcano evacuation]
+
+A mayor and an evacuation chief are deciding how to respond to a fast-moving volcano threat.
+
+The mayor moves first and chooses between TownShelter (T) and MountainRoute (B).
+
+If the mayor chooses TownShelter (T), then the evacuation chief chooses between UpperPass (U) and DeepPass (D).
+If the evacuation chief chooses UpperPass (U), this gives 2 to the mayor, and 2 to the evacuation chief.
+If the evacuation chief chooses DeepPass (D), this gives 0 to the mayor, and 0 to the evacuation chief.
+
+If the mayor chooses MountainRoute (B), then the evacuation chief chooses between LeftRoad (L) and RightRoad (R).
+
+If the evacuation chief chooses RightRoad (R), the operation ends there.
+This gives 1 to the mayor, and 1 to the evacuation chief.
+
+If the evacuation chief chooses LeftRoad (L), the evacuation chief later chooses between UpperPass (U) and DeepPass (D).
+If the evacuation chief chooses UpperPass (U), this gives 0 to the mayor, and 0 to the evacuation chief.
+If the evacuation chief chooses DeepPass (D), this gives 3 to the mayor, and 3 to the evacuation chief.
+
+The two later UpperPass (U) or DeepPass (D) decision nodes are linked.
+So at that later choice, the evacuation chief cannot tell whether the path came directly after TownShelter (T), 
+or after MountainRoute (B) and then LeftRoad (L).

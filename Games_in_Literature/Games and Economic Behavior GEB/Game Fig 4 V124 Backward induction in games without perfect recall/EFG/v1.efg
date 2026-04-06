@@ -1,0 +1,12 @@
+EFG 2 R "GEB Cannot Always Deviate at Multiple Information Sets Fig. 4 V1" { "Mayor" "Evacuation Chief" }
+""
+
+p "" 1 1 "" { "TownShelter" "MountainRoute" } 0
+p "" 2 1 "" { "UpperPass" "DeepPass" } 0
+t "" 2 "TownShelter_UpperPass" { 2, 2 }
+t "" 3 "TownShelter_DeepPass" { 0, 0 }
+p "" 2 2 "" { "LeftRoad" "RightRoad" } 0
+p "" 2 1 "" { "UpperPass" "DeepPass" } 0
+t "" 4 "MountainRoute_LeftRoad_UpperPass" { 0, 0 }
+t "" 5 "MountainRoute_LeftRoad_DeepPass" { 3, 3 }
+t "" 1 "MountainRoute_RightRoad" { 1, 1 }

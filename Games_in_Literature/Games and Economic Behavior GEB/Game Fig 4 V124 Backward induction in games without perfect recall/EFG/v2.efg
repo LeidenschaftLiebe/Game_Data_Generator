@@ -1,0 +1,12 @@
+EFG 2 R "GEB Cannot Always Deviate at Multiple Information Sets Fig. 4 V2" { "Station Commander" "Route Officer" }
+""
+
+p "" 1 1 "" { "BaseStorage" "IceCrossing" } 0
+p "" 2 1 "" { "UpperIce" "DeepIce" } 0
+t "" 2 "BaseStorage_UpperIce" { 2, 2 }
+t "" 3 "BaseStorage_DeepIce" { 0, 0 }
+p "" 2 2 "" { "LeftShelf" "RightShelf" } 0
+p "" 2 1 "" { "UpperIce" "DeepIce" } 0
+t "" 4 "IceCrossing_LeftShelf_UpperIce" { 0, 0 }
+t "" 5 "IceCrossing_LeftShelf_DeepIce" { 3, 3 }
+t "" 1 "IceCrossing_RightShelf" { 1, 1 }

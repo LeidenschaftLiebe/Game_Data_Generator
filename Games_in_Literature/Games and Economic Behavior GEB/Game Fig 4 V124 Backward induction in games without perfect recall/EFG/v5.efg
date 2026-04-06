@@ -1,0 +1,12 @@
+EFG 2 R "GEB Cannot Always Deviate at Multiple Information Sets Fig. 4 V5" { "Rescue Leader" "Rope Specialist" }
+""
+
+p "" 1 1 "" { "StaticCamp" "CableCrossing" } 0
+p "" 2 1 "" { "UpperLine" "DeepLine" } 0
+t "" 2 "StaticCamp_UpperLine" { 2, 2 }
+t "" 3 "StaticCamp_DeepLine" { 0, 0 }
+p "" 2 2 "" { "LeftAnchor" "RightAnchor" } 0
+p "" 2 1 "" { "UpperLine" "DeepLine" } 0
+t "" 4 "CableCrossing_LeftAnchor_UpperLine" { 0, 0 }
+t "" 5 "CableCrossing_LeftAnchor_DeepLine" { 3, 3 }
+t "" 1 "CableCrossing_RightAnchor" { 1, 1 }

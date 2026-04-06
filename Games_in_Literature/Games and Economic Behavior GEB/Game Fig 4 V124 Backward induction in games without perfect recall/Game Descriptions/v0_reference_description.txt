@@ -1,0 +1,25 @@
+V0 [Original article context]
+
+This figure is the paper’s example for the idea that, in games without perfect recall, 
+a player cannot always sensibly be allowed to revise choices at multiple information sets at once.
+The paper says the game has three pure-strategy equilibria, (T, LU), (T, RU), and (B, LD), 
+and argues that (T, RU) is still a reasonable outcome even though allowing Player 2 to change both later choices together would upset it.
+
+Player 1 moves first and chooses between T and B.
+
+If Player 1 chooses T, then Player 2 moves at the upper-left node and chooses between U and D.
+If Player 2 chooses U, this gives 2 to Player 1, and 2 to Player 2.
+If Player 2 chooses D, this gives 0 to Player 1, and 0 to Player 2.
+
+If Player 1 chooses B, then Player 2 moves at the lower node and chooses between L and R.
+
+If Player 2 chooses R, the game ends there.
+This gives 1 to Player 1, and 1 to Player 2.
+
+If Player 2 chooses L, then Player 2 moves again at the upper-right node and chooses between U and D.
+If Player 2 chooses U, this gives 0 to Player 1, and 0 to Player 2.
+If Player 2 chooses D, this gives 3 to Player 1, and 3 to Player 2.
+
+The two upper Player 2 nodes are linked in one infoset.
+So when Player 2 chooses between U and D, Player 2 cannot tell whether that choice came directly after T, or after B and then L.
+That is the feature the paper uses to explain why one cannot always let a player deviate at multiple information sets together.

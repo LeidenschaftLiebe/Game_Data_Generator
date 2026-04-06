@@ -1,0 +1,21 @@
+V5 [Canyon rescue cable]
+
+A rescue leader and a rope specialist are deciding how to cross a canyon during a rescue.
+
+The rescue leader moves first and chooses between StaticCamp (T) and CableCrossing (B).
+
+If the rescue leader chooses StaticCamp (T), then the rope specialist chooses between UpperLine (U) and DeepLine (D).
+If the rope specialist chooses UpperLine (U), this gives 2 to the rescue leader, and 2 to the rope specialist.
+If the rope specialist chooses DeepLine (D), this gives 0 to the rescue leader, and 0 to the rope specialist.
+
+If the rescue leader chooses CableCrossing (B), then the rope specialist chooses between LeftAnchor (L) and RightAnchor (R).
+
+If the rope specialist chooses RightAnchor (R), the operation ends there.
+This gives 1 to the rescue leader, and 1 to the rope specialist.
+
+If the rope specialist chooses LeftAnchor (L), the rope specialist later chooses between UpperLine (U) and DeepLine (D).
+If the rope specialist chooses UpperLine (U), this gives 0 to the rescue leader, and 0 to the rope specialist.
+If the rope specialist chooses DeepLine (D), this gives 3 to the rescue leader, and 3 to the rope specialist.
+
+The two UpperLine (U) or DeepLine (D) nodes are linked, so the rope specialist cannot tell whether 
+that later choice follows StaticCamp (T) or follows CableCrossing (B) and then LeftAnchor (L).

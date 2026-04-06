@@ -1,0 +1,12 @@
+EFG 2 R "GEB Cannot Always Deviate at Multiple Information Sets Fig. 4 V4" { "Mission Director" "Flight Planner" }
+""
+
+p "" 1 1 "" { "HoldMission" "ActiveSweep" } 0
+p "" 2 1 "" { "UpperArc" "DeepArc" } 0
+t "" 2 "HoldMission_UpperArc" { 2, 2 }
+t "" 3 "HoldMission_DeepArc" { 0, 0 }
+p "" 2 2 "" { "LeftOrbit" "RightOrbit" } 0
+p "" 2 1 "" { "UpperArc" "DeepArc" } 0
+t "" 4 "ActiveSweep_LeftOrbit_UpperArc" { 0, 0 }
+t "" 5 "ActiveSweep_LeftOrbit_DeepArc" { 3, 3 }
+t "" 1 "ActiveSweep_RightOrbit" { 1, 1 }

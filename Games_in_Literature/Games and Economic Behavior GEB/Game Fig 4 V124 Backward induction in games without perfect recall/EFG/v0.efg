@@ -1,0 +1,12 @@
+EFG 2 R "GEB Cannot Always Deviate at Multiple Information Sets Fig. 4" { "Player 1" "Player 2" }
+""
+
+p "" 1 1 "" { "T" "B" } 0
+p "" 2 1 "" { "U" "D" } 0
+t "" 2 "T_U" { 2, 2 }
+t "" 3 "T_D" { 0, 0 }
+p "" 2 2 "" { "L" "R" } 0
+p "" 2 1 "" { "U" "D" } 0
+t "" 4 "B_L_U" { 0, 0 }
+t "" 5 "B_L_D" { 3, 3 }
+t "" 1 "B_R" { 1, 1 }

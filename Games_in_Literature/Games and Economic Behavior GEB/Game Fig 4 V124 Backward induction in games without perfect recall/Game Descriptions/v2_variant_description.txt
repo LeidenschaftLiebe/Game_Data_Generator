@@ -1,0 +1,21 @@
+V2 [Antarctic supply run]
+
+A station commander and a route officer are deciding how to move supplies across Antarctic terrain.
+
+The station commander moves first and chooses between BaseStorage (T) and IceCrossing (B).
+
+If the station commander chooses BaseStorage (T), then the route officer chooses between UpperIce (U) and DeepIce (D).
+If the route officer chooses UpperIce (U), this gives 2 to the station commander, and 2 to the route officer.
+If the route officer chooses DeepIce (D), this gives 0 to the station commander, and 0 to the route officer.
+
+If the station commander chooses IceCrossing (B), then the route officer chooses between LeftShelf (L) and RightShelf (R).
+
+If the route officer chooses RightShelf (R), the mission ends there.
+This gives 1 to the station commander, and 1 to the route officer.
+
+If the route officer chooses LeftShelf (L), the route officer later chooses between UpperIce (U) and DeepIce (D).
+If the route officer chooses UpperIce (U), this gives 0 to the station commander, and 0 to the route officer.
+If the route officer chooses DeepIce (D), this gives 3 to the station commander, and 3 to the route officer.
+
+The two UpperIce (U) or DeepIce (D) nodes are linked, so the route officer cannot distinguish whether 
+that later choice follows BaseStorage (T) or follows IceCrossing (B) and then LeftShelf (L).

@@ -1,0 +1,21 @@
+V4 [Orbital debris mission]
+
+A mission director and a flight planner are deciding how to clear dangerous orbital debris.
+
+The mission director moves first and chooses between HoldMission (T) and ActiveSweep (B).
+
+If the mission director chooses HoldMission (T), then the flight planner chooses between UpperArc (U) and DeepArc (D).
+If the flight planner chooses UpperArc (U), this gives 2 to the mission director, and 2 to the flight planner.
+If the flight planner chooses DeepArc (D), this gives 0 to the mission director, and 0 to the flight planner.
+
+If the mission director chooses ActiveSweep (B), then the flight planner chooses between LeftOrbit (L) and RightOrbit (R).
+
+If the flight planner chooses RightOrbit (R), the result is immediate.
+This gives 1 to the mission director, and 1 to the flight planner.
+
+If the flight planner chooses LeftOrbit (L), the flight planner later chooses between UpperArc (U) and DeepArc (D).
+If the flight planner chooses UpperArc (U), this gives 0 to the mission director, and 0 to the flight planner.
+If the flight planner chooses DeepArc (D), this gives 3 to the mission director, and 3 to the flight planner.
+
+The two UpperArc (U) or DeepArc (D) nodes are linked, so the flight planner cannot tell whether 
+that later choice follows HoldMission (T) or follows ActiveSweep (B) and then LeftOrbit (L).

@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Player 1 moves first and chooses between T and B.
+The upper node after T and the upper node after B_L are in the same infoset, 
+so at that upper choice Player 2 cannot tell whether play came directly from T or from B followed by L.
+Seed payoff constraint: T_U gives 2, 2.

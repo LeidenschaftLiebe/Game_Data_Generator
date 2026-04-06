@@ -1,0 +1,24 @@
+V0 [Original article context]
+
+This figure is the paper’s example showing that, in games without perfect recall, 
+a backward-induction style requirement cannot rely only on checking one information set at a time.
+The paper uses it to illustrate the failure of the one-deviation property.
+
+Player 1 moves first and chooses between T and B.
+
+If Player 1 chooses T, the game ends immediately.
+This gives 2 to Player 1, and 6 to Player 2.
+
+If Player 1 chooses B, then Player 2 moves at the lower node and chooses between U and D.
+
+If Player 2 chooses U, Player 2 then moves again at the upper information set and chooses between L and R.
+If Player 2 chooses L, this gives 4 to Player 1, and 4 to Player 2.
+If Player 2 chooses R, this gives 0 to Player 1, and 0 to Player 2.
+
+If Player 2 chooses D, Player 2 again moves at that same upper information set and chooses between L and R.
+If Player 2 chooses L, this gives 0 to Player 1, and 0 to Player 2.
+If Player 2 chooses R, this gives 1 to Player 1, and 1 to Player 2.
+
+The two upper Player 2 nodes are linked in one infoset.
+So when Player 2 chooses between L and R, Player 2 cannot tell whether the earlier move at the lower node was U or D.
+That is exactly why this figure works as the paper’s example of “No One-Deviation Property.”

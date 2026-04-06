@@ -1,0 +1,12 @@
+EFG 2 R "GEB No One-Deviation Property Fig. 3 V2" { "Convoy Chief" "Scout" }
+""
+
+p "" 1 1 "" { "TurnBackNow" "PushForward" } 0
+t "" 1 "TurnBackNow" { 2, 6 }
+p "" 2 1 "" { "NorthernTrack" "SouthernTrack" } 0
+p "" 2 2 "" { "LeftRidge" "RightRidge" } 0
+t "" 2 "NorthernTrack_LeftRidge" { 4, 4 }
+t "" 3 "NorthernTrack_RightRidge" { 0, 0 }
+p "" 2 2 "" { "LeftRidge" "RightRidge" } 0
+t "" 4 "SouthernTrack_LeftRidge" { 0, 0 }
+t "" 5 "SouthernTrack_RightRidge" { 1, 1 }

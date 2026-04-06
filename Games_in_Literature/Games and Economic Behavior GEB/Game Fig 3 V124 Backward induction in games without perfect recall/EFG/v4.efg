@@ -1,0 +1,12 @@
+EFG 2 R "GEB No One-Deviation Property Fig. 3 V4" { "Base Commander" "Route Planner" }
+""
+
+p "" 1 1 "" { "StopTransfer" "AttemptTransfer" } 0
+t "" 1 "StopTransfer" { 2, 6 }
+p "" 2 1 "" { "UpperIceRoute" "DeepIceRoute" } 0
+p "" 2 2 "" { "LeftCorridor" "RightCorridor" } 0
+t "" 2 "UpperIceRoute_LeftCorridor" { 4, 4 }
+t "" 3 "UpperIceRoute_RightCorridor" { 0, 0 }
+p "" 2 2 "" { "LeftCorridor" "RightCorridor" } 0
+t "" 4 "DeepIceRoute_LeftCorridor" { 0, 0 }
+t "" 5 "DeepIceRoute_RightCorridor" { 1, 1 }

@@ -1,0 +1,19 @@
+V5 [Treasure salvage]
+
+A salvage chief and a dive specialist are deciding how to recover a treasure cache.
+
+The salvage chief moves first and chooses between AbortSearch (T) and ContinueSearch (B).
+
+If the salvage chief chooses AbortSearch (T), the operation ends there.
+This gives the salvage chief 2, and the dive specialist 6.
+
+If the salvage chief chooses ContinueSearch (B), the dive specialist chooses between UpperWreck (U) and DeepWreck (D).
+
+Later, the dive specialist chooses between LeftHold (L) and RightHold (R),
+but at that later point the dive specialist cannot tell whether the earlier wreck choice was UpperWreck (U) or DeepWreck (D).
+
+After UpperWreck (U), LeftHold (L) gives the salvage chief 4, and the dive specialist 4,
+while RightHold (R) gives the salvage chief 0, and the dive specialist 0.
+
+After DeepWreck (D), LeftHold (L) gives the salvage chief 0, and the dive specialist 0,
+while RightHold (R) gives the salvage chief 1, and the dive specialist 1.

@@ -1,0 +1,19 @@
+V2 [Desert convoy]
+
+A convoy chief and a scout are planning how to cross a desert route.
+
+The convoy chief moves first and chooses between TurnBackNow (T) and PushForward (B).
+
+If the convoy chief chooses TurnBackNow (T), the trip ends there.
+This gives the convoy chief 2, and the scout 6.
+
+If the convoy chief chooses PushForward (B), the scout chooses between NorthernTrack (U) and SouthernTrack (D).
+
+Later, the scout chooses between LeftRidge (L) and RightRidge (R),
+but at that point the scout cannot tell whether the earlier track choice was NorthernTrack (U) or SouthernTrack (D).
+
+After NorthernTrack (U), LeftRidge (L) gives the convoy chief 4, and the scout 4,
+while RightRidge (R) gives the convoy chief 0, and the scout 0.
+
+After SouthernTrack (D), LeftRidge (L) gives the convoy chief 0, and the scout 0,
+while RightRidge (R) gives the convoy chief 1, and the scout 1.

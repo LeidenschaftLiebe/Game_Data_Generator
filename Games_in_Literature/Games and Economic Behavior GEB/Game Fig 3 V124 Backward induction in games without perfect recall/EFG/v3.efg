@@ -1,0 +1,12 @@
+EFG 2 R "GEB No One-Deviation Property Fig. 3 V3" { "Captain" "Sonar Officer" }
+""
+
+p "" 1 1 "" { "SurfaceReturn" "ContinueDive" } 0
+t "" 1 "SurfaceReturn" { 2, 6 }
+p "" 2 1 "" { "UpperChannel" "DeepChannel" } 0
+p "" 2 2 "" { "LeftRoute" "RightRoute" } 0
+t "" 2 "UpperChannel_LeftRoute" { 4, 4 }
+t "" 3 "UpperChannel_RightRoute" { 0, 0 }
+p "" 2 2 "" { "LeftRoute" "RightRoute" } 0
+t "" 4 "DeepChannel_LeftRoute" { 0, 0 }
+t "" 5 "DeepChannel_RightRoute" { 1, 1 }

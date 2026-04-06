@@ -1,0 +1,8 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Player 1 moves first. 
+The two upper Player 2 nodes are in one infoset, so at that upper choice Player 2 cannot tell whether the earlier lower action was U or D.
+Seed payoff constraint: U_L gives 4, 4.

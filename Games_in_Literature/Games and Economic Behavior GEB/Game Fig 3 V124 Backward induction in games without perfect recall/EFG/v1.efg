@@ -1,0 +1,12 @@
+EFG 2 R "GEB No One-Deviation Property Fig. 3 V1" { "Team Leader" "Navigator" }
+""
+
+p "" 1 1 "" { "TakeShortcut" "GoDeeper" } 0
+t "" 1 "TakeShortcut" { 2, 6 }
+p "" 2 1 "" { "UpperTunnel" "LowerTunnel" } 0
+p "" 2 2 "" { "LeftPassage" "RightPassage" } 0
+t "" 2 "UpperTunnel_LeftPassage" { 4, 4 }
+t "" 3 "UpperTunnel_RightPassage" { 0, 0 }
+p "" 2 2 "" { "LeftPassage" "RightPassage" } 0
+t "" 4 "LowerTunnel_LeftPassage" { 0, 0 }
+t "" 5 "LowerTunnel_RightPassage" { 1, 1 }

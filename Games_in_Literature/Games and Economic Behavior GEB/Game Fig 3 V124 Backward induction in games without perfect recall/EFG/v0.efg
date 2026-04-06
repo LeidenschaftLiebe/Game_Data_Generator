@@ -1,0 +1,12 @@
+EFG 2 R "GEB No One-Deviation Property Fig. 3" { "Player 1" "Player 2" }
+""
+
+p "" 1 1 "" { "T" "B" } 0
+t "" 1 "T" { 2, 6 }
+p "" 2 1 "" { "U" "D" } 0
+p "" 2 2 "" { "L" "R" } 0
+t "" 2 "U_L" { 4, 4 }
+t "" 3 "U_R" { 0, 0 }
+p "" 2 2 "" { "L" "R" } 0
+t "" 4 "D_L" { 0, 0 }
+t "" 5 "D_R" { 1, 1 }

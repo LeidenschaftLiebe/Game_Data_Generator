@@ -1,0 +1,19 @@
+V4 [Arctic base transfer]
+
+A base commander and a route planner are deciding how to move supplies between Arctic stations.
+
+The base commander moves first and chooses between StopTransfer (T) and AttemptTransfer (B).
+
+If the base commander chooses StopTransfer (T), the operation ends there.
+This gives the base commander 2, and the route planner 6.
+
+If the base commander chooses AttemptTransfer (B), the route planner chooses between UpperIceRoute (U) and DeepIceRoute (D).
+
+Later, the route planner chooses between LeftCorridor (L) and RightCorridor (R),
+but at that later choice the route planner cannot tell whether the earlier route choice was UpperIceRoute (U) or DeepIceRoute (D).
+
+After UpperIceRoute (U), LeftCorridor (L) gives the base commander 4, and the route planner 4,
+while RightCorridor (R) gives the base commander 0, and the route planner 0.
+
+After DeepIceRoute (D), LeftCorridor (L) gives the base commander 0, and the route planner 0,
+while RightCorridor (R) gives the base commander 1, and the route planner 1.

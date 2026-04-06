@@ -1,0 +1,19 @@
+V3 [Submarine navigation]
+
+A captain and a sonar officer are deciding how to navigate a submarine passage.
+
+The captain moves first and chooses between SurfaceReturn (T) and ContinueDive (B).
+
+If the captain chooses SurfaceReturn (T), the mission ends there.
+This gives the captain 2, and the sonar officer 6.
+
+If the captain chooses ContinueDive (B), the sonar officer chooses between UpperChannel (U) and DeepChannel (D).
+
+Later, the sonar officer chooses between LeftRoute (L) and RightRoute (R),
+but at that later point the sonar officer cannot tell whether the earlier choice was UpperChannel (U) or DeepChannel (D).
+
+After UpperChannel (U), LeftRoute (L) gives the captain 4, and the sonar officer 4,
+while RightRoute (R) gives the captain 0, and the sonar officer 0.
+
+After DeepChannel (D), LeftRoute (L) gives the captain 0, and the sonar officer 0,
+while RightRoute (R) gives the captain 1, and the sonar officer 1.

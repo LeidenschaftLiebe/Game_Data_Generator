@@ -1,0 +1,19 @@
+V1 [Cave expedition]
+
+A team leader and a navigator are deciding how to handle a cave expedition.
+
+The team leader moves first and chooses between TakeShortcut (T) and GoDeeper (B).
+
+If the team leader chooses TakeShortcut (T), the expedition ends there.
+This gives the team leader 2, and the navigator 6.
+
+If the team leader chooses GoDeeper (B), the navigator chooses between UpperTunnel (U) and LowerTunnel (D).
+
+After that, the navigator later chooses between LeftPassage (L) and RightPassage (R),
+but at that later choice the navigator cannot tell whether the earlier tunnel choice was UpperTunnel (U) or LowerTunnel (D).
+
+If the earlier choice was UpperTunnel (U), then LeftPassage (L) gives the team leader 4, and the navigator 4,
+while RightPassage (R) gives the team leader 0, and the navigator 0.
+
+If the earlier choice was LowerTunnel (D), then LeftPassage (L) gives the team leader 0, and the navigator 0,
+while RightPassage (R) gives the team leader 1, and the navigator 1.

@@ -1,0 +1,12 @@
+EFG 2 R "GEB No One-Deviation Property Fig. 3 V5" { "Salvage Chief" "Dive Specialist" }
+""
+
+p "" 1 1 "" { "AbortSearch" "ContinueSearch" } 0
+t "" 1 "AbortSearch" { 2, 6 }
+p "" 2 1 "" { "UpperWreck" "DeepWreck" } 0
+p "" 2 2 "" { "LeftHold" "RightHold" } 0
+t "" 2 "UpperWreck_LeftHold" { 4, 4 }
+t "" 3 "UpperWreck_RightHold" { 0, 0 }
+p "" 2 2 "" { "LeftHold" "RightHold" } 0
+t "" 4 "DeepWreck_LeftHold" { 0, 0 }
+t "" 5 "DeepWreck_RightHold" { 1, 1 }

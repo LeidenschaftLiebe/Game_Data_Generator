@@ -1,0 +1,25 @@
+V3 [Medical consultation]
+
+A patient visits a specialist.
+The specialist first posts two prices: BasicTreatmentPrice (p_l) = 4 and AdvancedTreatmentPrice (p_h) = 8.
+
+The patient then chooses between DoNotProceed (out) and Proceed (in).
+If the patient chooses DoNotProceed (out), both sides get 1.6.
+
+If the patient chooses Proceed (in), the condition is either SevereCondition (high) or MildCondition (low), each with probability 0.5.
+The specialist learns which one it is.
+
+If the patient has a SevereCondition (high), only AdvancedTreatment (q_h) truly works.
+AdvancedTreatment (q_h) with AdvancedTreatmentPrice (p_h) gives 2 to the specialist and 2 to the patient.
+AdvancedTreatment (q_h) with BasicTreatmentPrice (p_l) gives -2 to the specialist and 6 to the patient.
+
+If the specialist instead provides BasicTreatment (q_l) on a severe condition, the problem remains.
+Charging AdvancedTreatmentPrice (p_h) gives 6 to the specialist and -8 to the patient.
+Charging BasicTreatmentPrice (p_l) gives 2 to the specialist and -4 to the patient.
+
+If the patient has a MildCondition (low), either treatment solves it.
+AdvancedTreatment (q_h) with AdvancedTreatmentPrice (p_h) gives 2 and 2.
+AdvancedTreatment (q_h) with BasicTreatmentPrice (p_l) gives -2 and 6.
+
+BasicTreatment (q_l) with AdvancedTreatmentPrice (p_h) gives 6 to the specialist and 2 to the patient.
+BasicTreatment (q_l) with BasicTreatmentPrice (p_l) gives 2 to the specialist and 6 to the patient.

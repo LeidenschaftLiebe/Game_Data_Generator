@@ -1,0 +1,25 @@
+V2 [Computer repair]
+
+A customer brings a laptop to a technician.
+The technician first posts two prices: SimpleFixPrice (p_l) = 4 and FullRepairPrice (p_h) = 8.
+
+The customer then chooses between Leave (out) and StayForService (in).
+If the customer chooses Leave (out), both sides get 1.6.
+
+If the customer chooses StayForService (in), the problem is either SeriousFault (high) or LightFault (low), each with probability 0.5.
+The technician learns which one it is.
+
+If the laptop has a SeriousFault (high), only FullRepair (q_h) solves it.
+FullRepair (q_h) with FullRepairPrice (p_h) gives 2 to the technician and 2 to the customer.
+FullRepair (q_h) with SimpleFixPrice (p_l) gives -2 to the technician and 6 to the customer.
+
+If the technician provides SimpleFix (q_l) instead, the serious fault remains.
+Charging FullRepairPrice (p_h) gives 6 to the technician and -8 to the customer.
+Charging SimpleFixPrice (p_l) gives 2 to the technician and -4 to the customer.
+
+If the laptop has a LightFault (low), either FullRepair (q_h) or SimpleFix (q_l) solves it.
+FullRepair (q_h) with FullRepairPrice (p_h) gives 2 and 2.
+FullRepair (q_h) with SimpleFixPrice (p_l) gives -2 and 6.
+
+SimpleFix (q_l) with FullRepairPrice (p_h) gives 6 to the technician and 2 to the customer.
+SimpleFix (q_l) with SimpleFixPrice (p_l) gives 2 to the technician and 6 to the customer.

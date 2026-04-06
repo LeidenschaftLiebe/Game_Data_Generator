@@ -1,0 +1,25 @@
+V1 [Car repair]
+
+A driver brings a car to a mechanic.
+The mechanic first posts two prices: MinorRepairPrice (p_l) = 4 and MajorRepairPrice (p_h) = 8.
+
+After seeing those prices, the driver chooses between WalkAway (out) and Proceed (in).
+If the driver chooses WalkAway (out), both sides get 1.6.
+
+If the driver chooses Proceed (in), the car problem is either MajorProblem (high) or MinorProblem (low), each with probability 0.5.
+The mechanic learns which one it is.
+
+If the car has a MajorProblem (high), only MajorRepair (q_h) truly fixes it.
+MajorRepair (q_h) with MajorRepairPrice (p_h) gives 2 to the mechanic and 2 to the driver.
+MajorRepair (q_h) with MinorRepairPrice (p_l) gives -2 to the mechanic and 6 to the driver.
+
+If the mechanic instead does MinorRepair (q_l) on a MajorProblem (high), the problem stays unsolved.
+Charging MajorRepairPrice (p_h) then gives 6 to the mechanic and -8 to the driver.
+Charging MinorRepairPrice (p_l) gives 2 to the mechanic and -4 to the driver.
+
+If the car has a MinorProblem (low), both MajorRepair (q_h) and MinorRepair (q_l) solve it.
+MajorRepair (q_h) with MajorRepairPrice (p_h) gives 2 and 2.
+MajorRepair (q_h) with MinorRepairPrice (p_l) gives -2 and 6.
+
+MinorRepair (q_l) with MajorRepairPrice (p_h) gives 6 to the mechanic and 2 to the driver.
+MinorRepair (q_l) with MinorRepairPrice (p_l) gives 2 to the mechanic and 6 to the driver.

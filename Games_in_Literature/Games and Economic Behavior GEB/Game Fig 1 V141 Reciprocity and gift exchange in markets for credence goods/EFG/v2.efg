@@ -1,0 +1,21 @@
+EFG 2 R "GEB Credence Goods BASE Fig. 1 V2" { "Technician" "Customer" }
+""
+
+p "" 1 1 "" { "PostServicePrices" } 0
+p "" 2 1 "" { "Leave" "StayForService" } 0
+t "" 1 "Leave" { 8/5, 8/5 }
+c "" 1 "" { "SeriousFault" 1/2 "LightFault" 1/2 } 0
+p "" 1 2 "" { "FullRepair" "SimpleFix" } 0
+p "" 1 4 "" { "FullRepairPrice" "SimpleFixPrice" } 0
+t "" 2 "SeriousFault_FullRepair_FullRepairPrice" { 2, 2 }
+t "" 3 "SeriousFault_FullRepair_SimpleFixPrice" { -2, 6 }
+p "" 1 5 "" { "FullRepairPrice" "SimpleFixPrice" } 0
+t "" 4 "SeriousFault_SimpleFix_FullRepairPrice" { 6, -8 }
+t "" 5 "SeriousFault_SimpleFix_SimpleFixPrice" { 2, -4 }
+p "" 1 3 "" { "FullRepair" "SimpleFix" } 0
+p "" 1 6 "" { "FullRepairPrice" "SimpleFixPrice" } 0
+t "" 6 "LightFault_FullRepair_FullRepairPrice" { 2, 2 }
+t "" 7 "LightFault_FullRepair_SimpleFixPrice" { -2, 6 }
+p "" 1 7 "" { "FullRepairPrice" "SimpleFixPrice" } 0
+t "" 8 "LightFault_SimpleFix_FullRepairPrice" { 6, 2 }
+t "" 9 "LightFault_SimpleFix_SimpleFixPrice" { 2, 6 }

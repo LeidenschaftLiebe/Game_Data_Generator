@@ -1,0 +1,21 @@
+EFG 2 R "GEB Credence Goods BASE Fig. 1 V4" { "RepairExpert" "Homeowner" }
+""
+
+p "" 1 1 "" { "PostVisitPrices" } 0
+p "" 2 1 "" { "CancelVisit" "BookVisit" } 0
+t "" 1 "CancelVisit" { 8/5, 8/5 }
+c "" 1 "" { "SevereIssue" 1/2 "MinorIssue" 1/2 } 0
+p "" 1 2 "" { "FullService" "SmallFix" } 0
+p "" 1 4 "" { "FullServicePrice" "SmallFixPrice" } 0
+t "" 2 "SevereIssue_FullService_FullServicePrice" { 2, 2 }
+t "" 3 "SevereIssue_FullService_SmallFixPrice" { -2, 6 }
+p "" 1 5 "" { "FullServicePrice" "SmallFixPrice" } 0
+t "" 4 "SevereIssue_SmallFix_FullServicePrice" { 6, -8 }
+t "" 5 "SevereIssue_SmallFix_SmallFixPrice" { 2, -4 }
+p "" 1 3 "" { "FullService" "SmallFix" } 0
+p "" 1 6 "" { "FullServicePrice" "SmallFixPrice" } 0
+t "" 6 "MinorIssue_FullService_FullServicePrice" { 2, 2 }
+t "" 7 "MinorIssue_FullService_SmallFixPrice" { -2, 6 }
+p "" 1 7 "" { "FullServicePrice" "SmallFixPrice" } 0
+t "" 8 "MinorIssue_SmallFix_FullServicePrice" { 6, 2 }
+t "" 9 "MinorIssue_SmallFix_SmallFixPrice" { 2, 6 }

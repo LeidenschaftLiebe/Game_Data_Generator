@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+The expert moves first by posting the fixed price pair, then the consumer chooses between out and in.
+If the consumer chooses in, chance selects high or low with probability 1/2 each, then the expert chooses the service and the charged price.
+Seed payoff constraint: after out, both players get 8/5.
+High-severity anchor: after high, then q_l, then p_h, the payoffs are 6, -8.
+Low-severity anchor: after low, then q_l, then p_l, the payoffs are 2, 6.

@@ -1,0 +1,25 @@
+V4 [Home appliance service]
+
+A homeowner calls a repair company.
+The repair expert first posts two prices: SmallFixPrice (p_l) = 4 and FullServicePrice (p_h) = 8.
+
+The homeowner then chooses between CancelVisit (out) and BookVisit (in).
+If the homeowner chooses CancelVisit (out), both sides get 1.6.
+
+If the homeowner chooses BookVisit (in), the issue is either SevereIssue (high) or MinorIssue (low), each with probability 0.5.
+The repair expert learns which one it is.
+
+If the appliance has a SevereIssue (high), only FullService (q_h) solves it.
+FullService (q_h) with FullServicePrice (p_h) gives 2 to the expert and 2 to the homeowner.
+FullService (q_h) with SmallFixPrice (p_l) gives -2 to the expert and 6 to the homeowner.
+
+If the expert instead provides SmallFix (q_l) for a severe issue, the issue remains.
+Charging FullServicePrice (p_h) gives 6 to the expert and -8 to the homeowner.
+Charging SmallFixPrice (p_l) gives 2 to the expert and -4 to the homeowner.
+
+If the appliance has a MinorIssue (low), either FullService (q_h) or SmallFix (q_l) solves it.
+FullService (q_h) with FullServicePrice (p_h) gives 2 and 2.
+FullService (q_h) with SmallFixPrice (p_l) gives -2 and 6.
+
+SmallFix (q_l) with FullServicePrice (p_h) gives 6 to the expert and 2 to the homeowner.
+SmallFix (q_l) with SmallFixPrice (p_l) gives 2 to the expert and 6 to the homeowner.

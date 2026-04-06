@@ -1,0 +1,34 @@
+V0 [Original article context]
+
+This game follows the article’s baseline setting for a market for credence goods.
+A consumer has a problem that may be severe or mild, while an expert knows more about what service is really needed.
+
+We set the parameter values as follows:
+h = 0.5, c_h = 6, c_l = 2, v = 10, outside option o = 1.6, p_h = 8, and p_l = 4.
+
+First, the expert posts two prices: p_l = 4 for the low-quality service and p_h = 8 for the high-quality service.
+After seeing these prices, the consumer chooses between out and in.
+
+If the consumer chooses out, the interaction ends immediately.
+Both sides get 1.6.
+
+If the consumer chooses in, nature determines whether the problem is high or low, each with probability 0.5.
+The expert then learns which one it is.
+
+If the problem is high, only the high-quality service can solve it.
+If the expert provides q_h and charges p_h, the result is 2 for the expert and 2 for the consumer.
+If the expert provides q_h and charges p_l, the result is -2 for the expert and 6 for the consumer.
+
+If the problem is high and the expert instead provides q_l, the problem remains unsolved.
+If the expert then charges p_h, the result is 6 for the expert and -8 for the consumer.
+If the expert charges p_l, the result is 2 for the expert and -4 for the consumer.
+
+If the problem is low, either service solves it.
+If the expert provides q_h and charges p_h, the result is 2 for the expert and 2 for the consumer.
+If the expert provides q_h and charges p_l, the result is -2 for the expert and 6 for the consumer.
+
+If the problem is low and the expert provides q_l, then charging p_h gives 6 for the expert and 2 for the consumer.
+Charging p_l gives 2 for the expert and 6 for the consumer.
+
+This matches the article’s basic setup in which the consumer cannot verify which service was actually provided, 
+even though the consumer can tell whether the problem has been solved.

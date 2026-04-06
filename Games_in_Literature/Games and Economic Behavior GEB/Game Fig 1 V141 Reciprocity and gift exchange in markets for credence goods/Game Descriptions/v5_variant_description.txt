@@ -1,0 +1,25 @@
+V5 [Energy-efficiency audit]
+
+A homeowner consults an energy-efficiency contractor.
+The contractor first posts two prices: BasicUpgradePrice (p_l) = 4 and ComprehensiveUpgradePrice (p_h) = 8.
+
+The homeowner then chooses between OptOut (out) and OptIn (in).
+If the homeowner chooses OptOut (out), both sides get 1.6.
+
+If the homeowner chooses OptIn (in), the home has either a HighNeed (high) problem or a LowNeed (low) problem, each with probability 0.5.
+The contractor learns which one it is.
+
+If the home has a HighNeed (high) problem, only ComprehensiveUpgrade (q_h) truly solves it.
+ComprehensiveUpgrade (q_h) with ComprehensiveUpgradePrice (p_h) gives 2 to the contractor and 2 to the homeowner.
+ComprehensiveUpgrade (q_h) with BasicUpgradePrice (p_l) gives -2 to the contractor and 6 to the homeowner.
+
+If the contractor instead does BasicUpgrade (q_l) on a high-need case, the problem remains.
+Charging ComprehensiveUpgradePrice (p_h) gives 6 to the contractor and -8 to the homeowner.
+Charging BasicUpgradePrice (p_l) gives 2 to the contractor and -4 to the homeowner.
+
+If the home has a LowNeed (low) problem, either upgrade solves it.
+ComprehensiveUpgrade (q_h) with ComprehensiveUpgradePrice (p_h) gives 2 and 2.
+ComprehensiveUpgrade (q_h) with BasicUpgradePrice (p_l) gives -2 and 6.
+
+BasicUpgrade (q_l) with ComprehensiveUpgradePrice (p_h) gives 6 to the contractor and 2 to the homeowner.
+BasicUpgrade (q_l) with BasicUpgradePrice (p_l) gives 2 to the contractor and 6 to the homeowner.

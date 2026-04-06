@@ -1,0 +1,33 @@
+V0 [Original article context]
+
+This figure is the paper’s simpler 2-player example inspired by Aryal and Stauber.
+Nature first chooses one of three states: L, R, or O.
+
+For this dataset instance, set epsilon = 1/10, x = 0, and y = 0.
+So Nature chooses L with probability 1/30, R with probability 14/15, and O with probability 1/30.
+
+After Nature moves, Player 1 can tell whether the state is O or not.
+If the state is not O, Player 1 chooses between M and N.
+
+If the state is L and Player 1 chooses M, the result is 0, 0.
+If the state is L and Player 1 chooses N, the result is 101, 0.
+
+If the state is R and Player 1 chooses M, the result is 101, 0.
+If the state is R and Player 1 chooses N, then Player 2 moves.
+
+If the state is O, then Player 2 also moves.
+At that point, Player 2 cannot tell whether the path came from R after N or directly from O.
+
+Player 2 chooses between S and T.
+If the hidden state is R, both S and T lead to 100, 0.
+If the hidden state is O, both S and T lead to -1, 0.
+
+So the terminal results are:
+
+L, M gives 0, 0
+L, N gives 101, 0
+R, M gives 101, 0
+R, N, S gives 100, 0
+R, N, T gives 100, 0
+O, S gives -1, 0
+O, T gives -1, 0

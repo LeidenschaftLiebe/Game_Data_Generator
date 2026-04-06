@@ -1,0 +1,15 @@
+EFG 2 R "GEB Aryal-Stauber Inspired Fig. 1 V1" { "Operations Lead" "Distribution Lead" }
+""
+
+c "" 1 "" { "LocalDemand" 1/30 "RegionalDemand" 14/15 "OutsideShock" 1/30 } 0
+p "" 1 1 "" { "MassLaunch" "NicheLaunch" } 0
+t "" 1 "LocalDemand_MassLaunch" { 0, 0 }
+t "" 2 "LocalDemand_NicheLaunch" { 101, 0 }
+p "" 1 1 "" { "MassLaunch" "NicheLaunch" } 0
+t "" 3 "RegionalDemand_MassLaunch" { 101, 0 }
+p "" 2 1 "" { "StorePush" "TargetedPush" } 0
+t "" 4 "RegionalDemand_NicheLaunch_StorePush" { 100, 0 }
+t "" 5 "RegionalDemand_NicheLaunch_TargetedPush" { 100, 0 }
+p "" 2 1 "" { "StorePush" "TargetedPush" } 0
+t "" 6 "OutsideShock_StorePush" { -1, 0 }
+t "" 7 "OutsideShock_TargetedPush" { -1, 0 }

@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Nature moves first and chooses among three states with probabilities 1/30, 14/15, and 1/30.
+Player 1 has one infoset covering the L and R nodes, so Player 1 can tell whether the state is O or not, but cannot distinguish L from R.
+Player 2 has one infoset covering the R_N node and the O node, so Player 2 cannot tell whether the path came from R after N or directly from O.
+Seed payoff constraint: L_M gives 0, 0.
+After R_N, Player 2’s two actions lead to the same result, and after O, Player 2’s two actions also lead to the same result.

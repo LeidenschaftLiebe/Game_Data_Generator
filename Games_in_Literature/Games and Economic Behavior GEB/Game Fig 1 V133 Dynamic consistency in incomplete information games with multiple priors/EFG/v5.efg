@@ -1,0 +1,15 @@
+EFG 2 R "GEB Aryal-Stauber Inspired Fig. 1 V5" { "Producer" "Studio Head" }
+""
+
+c "" 1 "" { "LimitedAudience" 1/30 "RealHit" 14/15 "OutsideDisruption" 1/30 } 0
+p "" 1 1 "" { "BigBudget" "NarrowRelease" } 0
+t "" 1 "LimitedAudience_BigBudget" { 0, 0 }
+t "" 2 "LimitedAudience_NarrowRelease" { 101, 0 }
+p "" 1 1 "" { "BigBudget" "NarrowRelease" } 0
+t "" 3 "RealHit_BigBudget" { 101, 0 }
+p "" 2 1 "" { "StreamingPush" "TheatricalPush" } 0
+t "" 4 "RealHit_NarrowRelease_StreamingPush" { 100, 0 }
+t "" 5 "RealHit_NarrowRelease_TheatricalPush" { 100, 0 }
+p "" 2 1 "" { "StreamingPush" "TheatricalPush" } 0
+t "" 6 "OutsideDisruption_StreamingPush" { -1, 0 }
+t "" 7 "OutsideDisruption_TheatricalPush" { -1, 0 }

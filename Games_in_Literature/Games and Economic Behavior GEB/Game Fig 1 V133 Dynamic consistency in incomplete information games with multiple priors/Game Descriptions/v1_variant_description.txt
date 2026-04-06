@@ -1,0 +1,19 @@
+V1 [Product launch under noisy signals]
+
+Market conditions first turn out to be LocalDemand (L), RegionalDemand (R), or OutsideShock (O).
+
+The operations lead can tell whether the situation is OutsideShock (O) or not.
+If it is not OutsideShock (O), the operations lead chooses between MassLaunch (M) and NicheLaunch (N).
+
+If the condition is LocalDemand (L) and the choice is MassLaunch (M), the result is 0, 0.
+If the condition is LocalDemand (L) and the choice is NicheLaunch (N), the result is 101, 0.
+
+If the condition is RegionalDemand (R) and the choice is MassLaunch (M), the result is 101, 0.
+If the condition is RegionalDemand (R) and the choice is NicheLaunch (N), then the distribution lead moves.
+
+If the condition is OutsideShock (O), the distribution lead also moves.
+The distribution lead chooses between StorePush (S) and TargetedPush (T) without knowing whether the hidden case 
+is RegionalDemand (R) after NicheLaunch (N) or directly OutsideShock (O).
+
+If the hidden case is RegionalDemand (R), both StorePush (S) and TargetedPush (T) give 100, 0.
+If the hidden case is OutsideShock (O), both StorePush (S) and TargetedPush (T) give -1, 0.

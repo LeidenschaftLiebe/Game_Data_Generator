@@ -1,0 +1,19 @@
+V3 [Political coalition talks]
+
+The political environment first turns out to be LeftShift (L), RightShift (R), or OutsideCrisis (O).
+
+The lead negotiator can tell whether the situation is OutsideCrisis (O) or not.
+If it is not OutsideCrisis (O), the negotiator chooses between MajorConcession (M) and NoConcession (N).
+
+If the environment is LeftShift (L) and the negotiator chooses MajorConcession (M), the result is 0, 0.
+If the environment is LeftShift (L) and the negotiator chooses NoConcession (N), the result is 101, 0.
+
+If the environment is RightShift (R) and the negotiator chooses MajorConcession (M), the result is 101, 0.
+If the environment is RightShift (R) and the negotiator chooses NoConcession (N), then the coalition partner moves.
+
+If the environment is OutsideCrisis (O), the coalition partner also moves.
+The coalition partner chooses between Support (S) and Stall (T) without knowing whether the hidden case 
+is RightShift (R) after NoConcession (N) or directly OutsideCrisis (O).
+
+If the hidden case is RightShift (R), both Support (S) and Stall (T) give 100, 0.
+If the hidden case is OutsideCrisis (O), both Support (S) and Stall (T) give -1, 0.

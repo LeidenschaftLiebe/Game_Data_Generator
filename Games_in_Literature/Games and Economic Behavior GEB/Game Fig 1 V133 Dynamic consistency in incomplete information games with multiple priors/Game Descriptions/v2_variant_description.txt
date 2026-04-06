@@ -1,0 +1,19 @@
+V2 [Cybersecurity monitoring]
+
+A system state first turns out to be LowRisk (L), RealAttack (R), or FalseAlarm (O).
+
+The security chief can tell whether the situation is FalseAlarm (O) or not.
+If it is not FalseAlarm (O), the chief chooses between ManualResponse (M) and NetworkResponse (N).
+
+If the state is LowRisk (L) and the chief chooses ManualResponse (M), the result is 0, 0.
+If the state is LowRisk (L) and the chief chooses NetworkResponse (N), the result is 101, 0.
+
+If the state is RealAttack (R) and the chief chooses ManualResponse (M), the result is 101, 0.
+If the state is RealAttack (R) and the chief chooses NetworkResponse (N), then the incident lead moves.
+
+If the state is FalseAlarm (O), the incident lead also moves.
+The incident lead chooses between ShutSegment (S) and TraceTraffic (T) without knowing whether the hidden case 
+is RealAttack (R) after NetworkResponse (N) or directly FalseAlarm (O).
+
+If the hidden case is RealAttack (R), both ShutSegment (S) and TraceTraffic (T) give 100, 0.
+If the hidden case is FalseAlarm (O), both ShutSegment (S) and TraceTraffic (T) give -1, 0.

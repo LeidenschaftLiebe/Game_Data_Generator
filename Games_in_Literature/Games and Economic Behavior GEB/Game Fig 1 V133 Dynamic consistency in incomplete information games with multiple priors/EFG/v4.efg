@@ -1,0 +1,15 @@
+EFG 2 R "GEB Aryal-Stauber Inspired Fig. 1 V4" { "Principal Investigator" "Committee Chair" }
+""
+
+c "" 1 "" { "LowNovelty" 1/30 "RealBreakthrough" 14/15 "OutsideNoise" 1/30 } 0
+p "" 1 1 "" { "MainTrack" "NewTrack" } 0
+t "" 1 "LowNovelty_MainTrack" { 0, 0 }
+t "" 2 "LowNovelty_NewTrack" { 101, 0 }
+p "" 1 1 "" { "MainTrack" "NewTrack" } 0
+t "" 3 "RealBreakthrough_MainTrack" { 101, 0 }
+p "" 2 1 "" { "SendForward" "TableIt" } 0
+t "" 4 "RealBreakthrough_NewTrack_SendForward" { 100, 0 }
+t "" 5 "RealBreakthrough_NewTrack_TableIt" { 100, 0 }
+p "" 2 1 "" { "SendForward" "TableIt" } 0
+t "" 6 "OutsideNoise_SendForward" { -1, 0 }
+t "" 7 "OutsideNoise_TableIt" { -1, 0 }

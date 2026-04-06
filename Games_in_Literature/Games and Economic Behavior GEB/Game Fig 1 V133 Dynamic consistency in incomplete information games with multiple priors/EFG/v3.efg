@@ -1,0 +1,15 @@
+EFG 2 R "GEB Aryal-Stauber Inspired Fig. 1 V3" { "Lead Negotiator" "Coalition Partner" }
+""
+
+c "" 1 "" { "LeftShift" 1/30 "RightShift" 14/15 "OutsideCrisis" 1/30 } 0
+p "" 1 1 "" { "MajorConcession" "NoConcession" } 0
+t "" 1 "LeftShift_MajorConcession" { 0, 0 }
+t "" 2 "LeftShift_NoConcession" { 101, 0 }
+p "" 1 1 "" { "MajorConcession" "NoConcession" } 0
+t "" 3 "RightShift_MajorConcession" { 101, 0 }
+p "" 2 1 "" { "Support" "Stall" } 0
+t "" 4 "RightShift_NoConcession_Support" { 100, 0 }
+t "" 5 "RightShift_NoConcession_Stall" { 100, 0 }
+p "" 2 1 "" { "Support" "Stall" } 0
+t "" 6 "OutsideCrisis_Support" { -1, 0 }
+t "" 7 "OutsideCrisis_Stall" { -1, 0 }

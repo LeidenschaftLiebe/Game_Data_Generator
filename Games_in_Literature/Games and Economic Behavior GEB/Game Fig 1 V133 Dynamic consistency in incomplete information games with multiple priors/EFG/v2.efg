@@ -1,0 +1,15 @@
+EFG 2 R "GEB Aryal-Stauber Inspired Fig. 1 V2" { "Security Chief" "Incident Lead" }
+""
+
+c "" 1 "" { "LowRisk" 1/30 "RealAttack" 14/15 "FalseAlarm" 1/30 } 0
+p "" 1 1 "" { "ManualResponse" "NetworkResponse" } 0
+t "" 1 "LowRisk_ManualResponse" { 0, 0 }
+t "" 2 "LowRisk_NetworkResponse" { 101, 0 }
+p "" 1 1 "" { "ManualResponse" "NetworkResponse" } 0
+t "" 3 "RealAttack_ManualResponse" { 101, 0 }
+p "" 2 1 "" { "ShutSegment" "TraceTraffic" } 0
+t "" 4 "RealAttack_NetworkResponse_ShutSegment" { 100, 0 }
+t "" 5 "RealAttack_NetworkResponse_TraceTraffic" { 100, 0 }
+p "" 2 1 "" { "ShutSegment" "TraceTraffic" } 0
+t "" 6 "FalseAlarm_ShutSegment" { -1, 0 }
+t "" 7 "FalseAlarm_TraceTraffic" { -1, 0 }

@@ -1,0 +1,19 @@
+V5 [Film greenlight process]
+
+Production conditions first turn out to be LimitedAudience (L), RealHit (R), or OutsideDisruption (O).
+
+The producer can tell whether the situation is OutsideDisruption (O) or not.
+If it is not OutsideDisruption (O), the producer chooses between BigBudget (M) and NarrowRelease (N).
+
+If conditions are LimitedAudience (L) and the producer chooses BigBudget (M), the result is 0, 0.
+If conditions are LimitedAudience (L) and the producer chooses NarrowRelease (N), the result is 101, 0.
+
+If conditions are RealHit (R) and the producer chooses BigBudget (M), the result is 101, 0.
+If conditions are RealHit (R) and the producer chooses NarrowRelease (N), then the studio head moves.
+
+If conditions are OutsideDisruption (O), the studio head also moves.
+The studio head chooses between StreamingPush (S) and TheatricalPush (T) without knowing whether the hidden case 
+is RealHit (R) after NarrowRelease (N) or directly OutsideDisruption (O).
+
+If the hidden case is RealHit (R), both StreamingPush (S) and TheatricalPush (T) give 100, 0.
+If the hidden case is OutsideDisruption (O), both StreamingPush (S) and TheatricalPush (T) give -1, 0.

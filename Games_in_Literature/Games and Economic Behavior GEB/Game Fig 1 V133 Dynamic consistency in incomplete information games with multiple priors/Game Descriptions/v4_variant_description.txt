@@ -1,0 +1,19 @@
+V4 [Research project screening]
+
+The research environment first turns out to be LowNovelty (L), RealBreakthrough (R), or OutsideNoise (O).
+
+The principal investigator can tell whether the situation is OutsideNoise (O) or not.
+If it is not OutsideNoise (O), the investigator chooses between MainTrack (M) and NewTrack (N).
+
+If the environment is LowNovelty (L) and the investigator chooses MainTrack (M), the result is 0, 0.
+If the environment is LowNovelty (L) and the investigator chooses NewTrack (N), the result is 101, 0.
+
+If the environment is RealBreakthrough (R) and the investigator chooses MainTrack (M), the result is 101, 0.
+If the environment is RealBreakthrough (R) and the investigator chooses NewTrack (N), then the committee chair moves.
+
+If the environment is OutsideNoise (O), the committee chair also moves.
+The committee chair chooses between SendForward (S) and TableIt (T) without knowing whether the hidden case 
+is RealBreakthrough (R) after NewTrack (N) or directly OutsideNoise (O).
+
+If the hidden case is RealBreakthrough (R), both SendForward (S) and TableIt (T) give 100, 0.
+If the hidden case is OutsideNoise (O), both SendForward (S) and TableIt (T) give -1, 0.

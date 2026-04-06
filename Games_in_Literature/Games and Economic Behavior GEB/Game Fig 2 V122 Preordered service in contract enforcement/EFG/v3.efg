@@ -1,0 +1,14 @@
+EFG 2 R "GEB Exogenous Breach Fig. 2 V3" { "Cargo Sponsor" "Launch Operator" }
+""
+
+p "" 1 1 "" { "DoNotSponsor" "SponsorLaunch" } 0
+t "" 1 "DoNotSponsor" { 1, 1 }
+c "" 1 "" { "SystemFailure" 1/4 "NormalOperation" 3/4 } 0
+c "" 2 "" { "EnforcesAgreement" 1/2 "DoesNotEnforceAgreement" 1/2 } 0
+t "" 3 "SystemFailure_EnforcesAgreement" { 2, 9/5 }
+t "" 4 "SystemFailure_DoesNotEnforceAgreement" { 0, 4 }
+p "" 2 1 "" { "HonorAgreement" "DivertCargoValue" } 0
+t "" 2 "HonorAgreement" { 2, 2 }
+c "" 3 "" { "EnforcesAgreement" 1/2 "DoesNotEnforceAgreement" 1/2 } 0
+t "" 5 "DivertCargoValue_EnforcesAgreement" { 2, 9/5 }
+t "" 6 "DivertCargoValue_DoesNotEnforceAgreement" { 0, 4 }

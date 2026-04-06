@@ -1,0 +1,14 @@
+EFG 2 R "GEB Exogenous Breach Fig. 2 V1" { "Backer" "Salvage Captain" }
+""
+
+p "" 1 1 "" { "StayOut" "FundExpedition" } 0
+t "" 1 "StayOut" { 1, 1 }
+c "" 1 "" { "ShockLoss" 1/4 "NoShock" 3/4 } 0
+c "" 2 "" { "OrdersPayment" 1/2 "FailsToOrderPayment" 1/2 } 0
+t "" 3 "ShockLoss_OrdersPayment" { 2, 9/5 }
+t "" 4 "ShockLoss_FailsToOrderPayment" { 0, 4 }
+p "" 2 1 "" { "ShareFinds" "KeepEverything" } 0
+t "" 2 "ShareFinds" { 2, 2 }
+c "" 3 "" { "OrdersPayment" 1/2 "FailsToOrderPayment" 1/2 } 0
+t "" 5 "KeepEverything_OrdersPayment" { 2, 9/5 }
+t "" 6 "KeepEverything_FailsToOrderPayment" { 0, 4 }

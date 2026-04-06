@@ -1,0 +1,18 @@
+V3 [Space cargo launch]
+
+A cargo sponsor first chooses between DoNotSponsor and SponsorLaunch.
+If the sponsor chooses DoNotSponsor, this gives 1 to the cargo sponsor, and 1 to the launch operator.
+
+If the sponsor chooses SponsorLaunch, a random event occurs.
+With probability 1/4, there is SystemFailure.
+With probability 3/4, there is NormalOperation.
+
+If there is NormalOperation, the launch operator chooses between HonorAgreement and DivertCargoValue.
+If the operator chooses HonorAgreement, this gives 2 to the cargo sponsor, and 2 to the launch operator.
+
+If the operator chooses DivertCargoValue, the space tribunal begins review.
+It EnforcesAgreement with probability 1/2, or DoesNotEnforceAgreement with probability 1/2.
+EnforcesAgreement gives 2 to the cargo sponsor, and 1.8 to the launch operator.
+DoesNotEnforceAgreement gives 0 to the cargo sponsor, and 4 to the launch operator.
+
+If there is SystemFailure, the tribunal review starts immediately and leads to those same two possible results.

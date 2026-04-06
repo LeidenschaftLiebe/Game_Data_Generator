@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+The first mover chooses between staying out and entering.
+Staying out ends the interaction immediately with 1, 1.
+If entry occurs, a random event happens next: exogenous breach with probability 1/4, and no exogenous breach with probability 3/4.
+If exogenous breach occurs, or if the second mover chooses not to honor, the judiciary acts.
+The judiciary enforces with probability 1/2 and does not enforce with probability 1/2.

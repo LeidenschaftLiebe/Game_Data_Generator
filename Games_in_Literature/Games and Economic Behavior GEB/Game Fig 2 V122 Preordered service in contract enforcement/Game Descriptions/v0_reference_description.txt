@@ -1,0 +1,36 @@
+V0 [Original article context]
+
+set a concrete V0 instance with:
+w = 2
+c = 0.2
+alpha = 3/4
+p = 1/2
+
+So the explicit outcomes become:
+Not Enter: 1, 1
+Honor: 2, 2
+Enforce: 2, 1.8
+Not Enforce: 0, 4
+
+An investor first decides whether to NotEnter or Enter.
+If the investor chooses NotEnter, the interaction ends there.
+This gives 1 to the investor, and 1 to the entrepreneur.
+
+If the investor chooses Enter, a random event occurs next.
+With probability 1/4, the contract is BreachedExogenously.
+With probability 3/4, it is NotBreached.
+
+If the contract is NotBreached, the entrepreneur chooses between Honor and NotHonor.
+If the entrepreneur chooses Honor, this gives 2 to the investor, and 2 to the entrepreneur.
+
+If the entrepreneur chooses NotHonor, the court process begins.
+The judiciary then Enforces with probability 1/2, or DoesNotEnforce with probability 1/2.
+If the judiciary Enforces, this gives 2 to the investor, and 1.8 to the entrepreneur.
+If the judiciary DoesNotEnforce, this gives 0 to the investor, and 4 to the entrepreneur.
+
+If the contract is BreachedExogenously, the entrepreneur gets no choice and the court process begins immediately.
+The judiciary then Enforces with probability 1/2, or DoesNotEnforce with probability 1/2.
+If the judiciary Enforces, this gives 2 to the investor, and 1.8 to the entrepreneur.
+If the judiciary DoesNotEnforce, this gives 0 to the investor, and 4 to the entrepreneur.
+
+The paper studies this kind of contract-enforcement setting and then extends it by allowing a random breach before the entrepreneur has a chance to decide.

@@ -1,0 +1,18 @@
+V2 [Wildfire equipment contract]
+
+A county buyer first chooses between BuyNothing and PlaceOrder.
+If the county buyer chooses BuyNothing, this gives 1 to the county buyer, and 1 to the supplier.
+
+If the county buyer chooses PlaceOrder, a random disruption may happen next.
+With probability 1/4, there is Disruption.
+With probability 3/4, there is NoDisruption.
+
+If there is NoDisruption, the supplier chooses between DeliverAsPromised and KeepTheMoney.
+If the supplier chooses DeliverAsPromised, this gives 2 to the county buyer, and 2 to the supplier.
+
+If the supplier chooses KeepTheMoney, a court review begins.
+The court OrdersCompliance with probability 1/2, or DoesNotOrderCompliance with probability 1/2.
+OrdersCompliance gives 2 to the county buyer, and 1.8 to the supplier.
+DoesNotOrderCompliance gives 0 to the county buyer, and 4 to the supplier.
+
+If there is Disruption, the court review begins immediately and leads to those same two possible results.

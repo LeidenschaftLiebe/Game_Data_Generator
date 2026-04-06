@@ -1,0 +1,18 @@
+V1 [Deep-sea salvage]
+
+A backer first chooses between StayOut and FundExpedition.
+If the backer chooses StayOut, this gives 1 to the backer, and 1 to the salvage captain.
+
+If the backer chooses FundExpedition, a random setback may occur.
+With probability 1/4, the expedition is hit by ShockLoss.
+With probability 3/4, it continues as NoShock.
+
+If there is NoShock, the salvage captain chooses between ShareFinds and KeepEverything.
+If the captain chooses ShareFinds, this gives 2 to the backer, and 2 to the salvage captain.
+
+If the captain chooses KeepEverything, the maritime court steps in.
+It OrdersPayment with probability 1/2, or FailsToOrderPayment with probability 1/2.
+OrdersPayment gives 2 to the backer, and 1.8 to the salvage captain.
+FailsToOrderPayment gives 0 to the backer, and 4 to the salvage captain.
+
+If there is ShockLoss, the court process starts right away with the same two possible results.

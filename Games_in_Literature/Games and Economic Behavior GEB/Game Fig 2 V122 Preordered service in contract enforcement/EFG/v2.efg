@@ -1,0 +1,14 @@
+EFG 2 R "GEB Exogenous Breach Fig. 2 V2" { "County Buyer" "Supplier" }
+""
+
+p "" 1 1 "" { "BuyNothing" "PlaceOrder" } 0
+t "" 1 "BuyNothing" { 1, 1 }
+c "" 1 "" { "Disruption" 1/4 "NoDisruption" 3/4 } 0
+c "" 2 "" { "OrdersCompliance" 1/2 "DoesNotOrderCompliance" 1/2 } 0
+t "" 3 "Disruption_OrdersCompliance" { 2, 9/5 }
+t "" 4 "Disruption_DoesNotOrderCompliance" { 0, 4 }
+p "" 2 1 "" { "DeliverAsPromised" "KeepTheMoney" } 0
+t "" 2 "DeliverAsPromised" { 2, 2 }
+c "" 3 "" { "OrdersCompliance" 1/2 "DoesNotOrderCompliance" 1/2 } 0
+t "" 5 "KeepTheMoney_OrdersCompliance" { 2, 9/5 }
+t "" 6 "KeepTheMoney_DoesNotOrderCompliance" { 0, 4 }

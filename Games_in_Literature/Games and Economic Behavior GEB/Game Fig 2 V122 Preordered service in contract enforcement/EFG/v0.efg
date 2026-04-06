@@ -1,0 +1,14 @@
+EFG 2 R "GEB Exogenous Breach Fig. 2" { "Investor" "Entrepreneur" }
+""
+
+p "" 1 1 "" { "NotEnter" "Enter" } 0
+t "" 1 "NotEnter" { 1, 1 }
+c "" 1 "" { "BreachedExogenously" 1/4 "NotBreached" 3/4 } 0
+c "" 2 "" { "Enforce" 1/2 "NotEnforce" 1/2 } 0
+t "" 3 "Breached_Enforce" { 2, 9/5 }
+t "" 4 "Breached_NotEnforce" { 0, 4 }
+p "" 2 1 "" { "Honor" "NotHonor" } 0
+t "" 2 "Honor" { 2, 2 }
+c "" 3 "" { "Enforce" 1/2 "NotEnforce" 1/2 } 0
+t "" 5 "NotHonor_Enforce" { 2, 9/5 }
+t "" 6 "NotHonor_NotEnforce" { 0, 4 }

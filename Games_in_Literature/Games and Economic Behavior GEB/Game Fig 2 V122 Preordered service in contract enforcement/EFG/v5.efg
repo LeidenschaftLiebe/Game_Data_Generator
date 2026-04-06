@@ -1,0 +1,14 @@
+EFG 2 R "GEB Exogenous Breach Fig. 2 V5" { "Relief Funder" "Flight Contractor" }
+""
+
+p "" 1 1 "" { "HoldFunds" "FundFlight" } 0
+t "" 1 "HoldFunds" { 1, 1 }
+c "" 1 "" { "WeatherBreakdown" 1/4 "ClearRun" 3/4 } 0
+c "" 2 "" { "CompelsPayment" 1/2 "DoesNotCompelPayment" 1/2 } 0
+t "" 3 "WeatherBreakdown_CompelsPayment" { 2, 9/5 }
+t "" 4 "WeatherBreakdown_DoesNotCompelPayment" { 0, 4 }
+p "" 2 1 "" { "DeliverSupplies" "KeepPayment" } 0
+t "" 2 "DeliverSupplies" { 2, 2 }
+c "" 3 "" { "CompelsPayment" 1/2 "DoesNotCompelPayment" 1/2 } 0
+t "" 5 "KeepPayment_CompelsPayment" { 2, 9/5 }
+t "" 6 "KeepPayment_DoesNotCompelPayment" { 0, 4 }

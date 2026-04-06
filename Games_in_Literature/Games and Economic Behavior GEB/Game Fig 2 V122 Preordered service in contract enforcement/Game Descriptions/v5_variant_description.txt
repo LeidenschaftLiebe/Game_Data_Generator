@@ -1,0 +1,18 @@
+V5 [Polar supply flight]
+
+A relief funder first chooses between HoldFunds and FundFlight.
+If the funder chooses HoldFunds, this gives 1 to the relief funder, and 1 to the flight contractor.
+
+If the funder chooses FundFlight, a random shock may occur.
+With probability 1/4, there is WeatherBreakdown.
+With probability 3/4, there is ClearRun.
+
+If there is ClearRun, the flight contractor chooses between DeliverSupplies and KeepPayment.
+If the contractor chooses DeliverSupplies, this gives 2 to the relief funder, and 2 to the flight contractor.
+
+If the contractor chooses KeepPayment, the aviation tribunal reviews the case.
+It CompelsPayment with probability 1/2, or DoesNotCompelPayment with probability 1/2.
+CompelsPayment gives 2 to the relief funder, and 1.8 to the flight contractor.
+DoesNotCompelPayment gives 0 to the relief funder, and 4 to the flight contractor.
+
+If there is WeatherBreakdown, the tribunal review begins immediately and leads to those same two possible results.

@@ -1,0 +1,14 @@
+EFG 2 R "GEB Exogenous Breach Fig. 2 V4" { "Museum Patron" "Restorer" }
+""
+
+p "" 1 1 "" { "DoNotFund" "FundRestoration" } 0
+t "" 1 "DoNotFund" { 1, 1 }
+c "" 1 "" { "UnexpectedDamage" 1/4 "NoDamage" 3/4 } 0
+c "" 2 "" { "EnforcesContract" 1/2 "DoesNotEnforceContract" 1/2 } 0
+t "" 3 "UnexpectedDamage_EnforcesContract" { 2, 9/5 }
+t "" 4 "UnexpectedDamage_DoesNotEnforceContract" { 0, 4 }
+p "" 2 1 "" { "CompleteHonestly" "PocketTheBudget" } 0
+t "" 2 "CompleteHonestly" { 2, 2 }
+c "" 3 "" { "EnforcesContract" 1/2 "DoesNotEnforceContract" 1/2 } 0
+t "" 5 "PocketTheBudget_EnforcesContract" { 2, 9/5 }
+t "" 6 "PocketTheBudget_DoesNotEnforceContract" { 0, 4 }

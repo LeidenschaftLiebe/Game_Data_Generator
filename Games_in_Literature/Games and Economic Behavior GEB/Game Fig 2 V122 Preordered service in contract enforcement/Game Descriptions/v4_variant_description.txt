@@ -1,0 +1,18 @@
+V4 [Historic artifact restoration]
+
+A museum patron first chooses between DoNotFund and FundRestoration.
+If the patron chooses DoNotFund, this gives 1 to the museum patron, and 1 to the restorer.
+
+If the patron chooses FundRestoration, a random complication may occur.
+With probability 1/4, there is UnexpectedDamage.
+With probability 3/4, there is NoDamage.
+
+If there is NoDamage, the restorer chooses between CompleteHonestly and PocketTheBudget.
+If the restorer chooses CompleteHonestly, this gives 2 to the museum patron, and 2 to the restorer.
+
+If the restorer chooses PocketTheBudget, the legal review begins.
+The court EnforcesContract with probability 1/2, or DoesNotEnforceContract with probability 1/2.
+EnforcesContract gives 2 to the museum patron, and 1.8 to the restorer.
+DoesNotEnforceContract gives 0 to the museum patron, and 4 to the restorer.
+
+If there is UnexpectedDamage, the legal review begins immediately and leads to those same two possible results.

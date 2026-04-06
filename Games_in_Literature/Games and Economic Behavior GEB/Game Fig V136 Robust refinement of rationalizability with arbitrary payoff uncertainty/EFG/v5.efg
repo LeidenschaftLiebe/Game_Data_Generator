@@ -1,0 +1,14 @@
+EFG 2 R "GEB Twins Example V5" { "Manager" "Candidate" }
+""
+
+p "" 1 1 "" { "FastTrack" "HoldBack" } 0
+p "" 2 1 "" { "AcceptNow" "WaitAndSee" "AskForRevision" } 0
+t "" 1 "FastTrack_AcceptNow" { 1, 3 }
+t "" 2 "FastTrack_WaitAndSee" { 0, 2 }
+t "" 3 "FastTrack_AskForRevision" { 1, 1 }
+p "" 2 1 "" { "AcceptNow" "WaitAndSee" "AskForRevision" } 0
+t "" 4 "HoldBack_AcceptNow" { 0, 2 }
+t "" 5 "HoldBack_WaitAndSee" { 1, 3 }
+p "" 1 2 "" { "ApproveRevision" "RejectRevision" } 0
+t "" 6 "HoldBack_AskForRevision_ApproveRevision" { 2, 1 }
+t "" 7 "HoldBack_AskForRevision_RejectRevision" { 0, 1 }

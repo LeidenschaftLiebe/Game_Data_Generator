@@ -1,0 +1,14 @@
+EFG 2 R "GEB Twins Example V3" { "Government" "Rival" }
+""
+
+p "" 1 1 "" { "ShowResolve" "StepBack" } 0
+p "" 2 1 "" { "OfferDeal" "Wait" "EscalatePressure" } 0
+t "" 1 "ShowResolve_OfferDeal" { 1, 3 }
+t "" 2 "ShowResolve_Wait" { 0, 2 }
+t "" 3 "ShowResolve_EscalatePressure" { 1, 1 }
+p "" 2 1 "" { "OfferDeal" "Wait" "EscalatePressure" } 0
+t "" 4 "StepBack_OfferDeal" { 0, 2 }
+t "" 5 "StepBack_Wait" { 1, 3 }
+p "" 1 2 "" { "PushBack" "Yield" } 0
+t "" 6 "StepBack_EscalatePressure_PushBack" { 2, 1 }
+t "" 7 "StepBack_EscalatePressure_Yield" { 0, 1 }

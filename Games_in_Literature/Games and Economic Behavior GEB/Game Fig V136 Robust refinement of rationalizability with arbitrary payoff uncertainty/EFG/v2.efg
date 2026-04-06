@@ -1,0 +1,14 @@
+EFG 2 R "GEB Twins Example V2" { "Lead Researcher" "Coauthor" }
+""
+
+p "" 1 1 "" { "UpgradePlan" "DoLess" } 0
+p "" 2 1 "" { "FullSupport" "LimitedSupport" "SuggestRedesign" } 0
+t "" 1 "UpgradePlan_FullSupport" { 1, 3 }
+t "" 2 "UpgradePlan_LimitedSupport" { 0, 2 }
+t "" 3 "UpgradePlan_SuggestRedesign" { 1, 1 }
+p "" 2 1 "" { "FullSupport" "LimitedSupport" "SuggestRedesign" } 0
+t "" 4 "DoLess_FullSupport" { 0, 2 }
+t "" 5 "DoLess_LimitedSupport" { 1, 3 }
+p "" 1 2 "" { "AdoptRedesign" "KeepOldPlan" } 0
+t "" 6 "DoLess_SuggestRedesign_AdoptRedesign" { 2, 1 }
+t "" 7 "DoLess_SuggestRedesign_KeepOldPlan" { 0, 1 }

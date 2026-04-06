@@ -1,0 +1,14 @@
+EFG 2 R "GEB Twins Example V1" { "Founder" "Investor" }
+""
+
+p "" 1 1 "" { "ScaleUp" "Delay" } 0
+p "" 2 1 "" { "LeadRound" "RemainPassive" "ProposePivot" } 0
+t "" 1 "ScaleUp_LeadRound" { 1, 3 }
+t "" 2 "ScaleUp_RemainPassive" { 0, 2 }
+t "" 3 "ScaleUp_ProposePivot" { 1, 1 }
+p "" 2 1 "" { "LeadRound" "RemainPassive" "ProposePivot" } 0
+t "" 4 "Delay_LeadRound" { 0, 2 }
+t "" 5 "Delay_RemainPassive" { 1, 3 }
+p "" 1 2 "" { "AcceptPivot" "RejectPivot" } 0
+t "" 6 "Delay_ProposePivot_AcceptPivot" { 2, 1 }
+t "" 7 "Delay_ProposePivot_RejectPivot" { 0, 1 }

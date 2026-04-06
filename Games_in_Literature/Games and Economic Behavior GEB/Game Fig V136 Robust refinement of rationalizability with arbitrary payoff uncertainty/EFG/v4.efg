@@ -1,0 +1,14 @@
+EFG 2 R "GEB Twins Example V4" { "Product Lead" "Marketing Lead" }
+""
+
+p "" 1 1 "" { "GoBig" "GoSlow" } 0
+p "" 2 1 "" { "MajorCampaign" "MinimalCampaign" "Reposition" } 0
+t "" 1 "GoBig_MajorCampaign" { 1, 3 }
+t "" 2 "GoBig_MinimalCampaign" { 0, 2 }
+t "" 3 "GoBig_Reposition" { 1, 1 }
+p "" 2 1 "" { "MajorCampaign" "MinimalCampaign" "Reposition" } 0
+t "" 4 "GoSlow_MajorCampaign" { 0, 2 }
+t "" 5 "GoSlow_MinimalCampaign" { 1, 3 }
+p "" 1 2 "" { "AcceptReposition" "RejectReposition" } 0
+t "" 6 "GoSlow_Reposition_AcceptReposition" { 2, 1 }
+t "" 7 "GoSlow_Reposition_RejectReposition" { 0, 1 }

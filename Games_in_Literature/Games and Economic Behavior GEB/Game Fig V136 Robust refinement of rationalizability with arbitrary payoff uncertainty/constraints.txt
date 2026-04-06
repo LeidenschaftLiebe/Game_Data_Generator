@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Player 1 moves first. Player 2 then moves without observing whether Player 1 chose U or D.
+Player 2’s two nodes are in the same infoset and have the same three actions: L, R, and X.
+Seed payoff constraint: U_L gives 1, 3.
+Only after D_X does Player 1 move again, choosing between u and d, with payoffs 2, 1 and 0, 1.

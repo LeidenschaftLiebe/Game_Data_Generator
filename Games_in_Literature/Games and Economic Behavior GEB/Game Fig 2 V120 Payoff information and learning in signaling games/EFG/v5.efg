@@ -1,0 +1,18 @@
+EFG 2 R "GEB Beer-Quiche Example V5" { "Leader" "Scout" }
+""
+
+c "" 1 "" { "ToughLeader" 9/10 "HesitantLeader" 1/10 } 0
+p "" 1 1 "" { "DustRoute" "StoneRoute" } 0
+p "" 2 1 "" { "Block" "StandAside" } 0
+t "" 1 "ToughLeader_DustRoute_Block" { 0, 0 }
+t "" 2 "ToughLeader_DustRoute_StandAside" { 2, 1 }
+p "" 2 2 "" { "Block" "StandAside" } 0
+t "" 3 "ToughLeader_StoneRoute_Block" { 1, 0 }
+t "" 4 "ToughLeader_StoneRoute_StandAside" { 3, 1 }
+p "" 1 2 "" { "DustRoute" "StoneRoute" } 0
+p "" 2 1 "" { "Block" "StandAside" } 0
+t "" 5 "HesitantLeader_DustRoute_Block" { 1, 1 }
+t "" 6 "HesitantLeader_DustRoute_StandAside" { 3, 0 }
+p "" 2 2 "" { "Block" "StandAside" } 0
+t "" 7 "HesitantLeader_StoneRoute_Block" { 0, 1 }
+t "" 8 "HesitantLeader_StoneRoute_StandAside" { 2, 0 }

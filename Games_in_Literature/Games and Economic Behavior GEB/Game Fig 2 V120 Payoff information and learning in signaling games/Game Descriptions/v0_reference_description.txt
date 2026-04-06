@@ -1,0 +1,26 @@
+V0 [Original article context]
+
+The paper uses a version of the classic beer–quiche setting as a running example with two possible sender types, one more likely than the other.
+On pages 6 to 8, it discusses a strong type and a weak type, with prior probabilities 9/10 and 1/10, 
+and explains how different refinements treat the pooling outcome on Beer.
+
+A random event first determines Player 1’s type.
+With probability 9/10, Player 1 is Strong.
+With probability 1/10, Player 1 is Weak.
+
+Player 1 then chooses between Quiche and Beer.
+
+After seeing that choice, Player 2 chooses between Fight and NotFight.
+Player 2 sees whether Player 1 chose Quiche or Beer, but does not know whether Player 1 is Strong or Weak.
+
+If Player 1 is Strong and chooses Quiche, then Fight gives 0 to Player 1, and 0 to Player 2.
+If Player 1 is Strong and chooses Quiche, then NotFight gives 2 to Player 1, and 1 to Player 2.
+
+If Player 1 is Strong and chooses Beer, then Fight gives 1 to Player 1, and 0 to Player 2.
+If Player 1 is Strong and chooses Beer, then NotFight gives 3 to Player 1, and 1 to Player 2.
+
+If Player 1 is Weak and chooses Quiche, then Fight gives 1 to Player 1, and 1 to Player 2.
+If Player 1 is Weak and chooses Quiche, then NotFight gives 3 to Player 1, and 0 to Player 2.
+
+If Player 1 is Weak and chooses Beer, then Fight gives 0 to Player 1, and 1 to Player 2.
+If Player 1 is Weak and chooses Beer, then NotFight gives 2 to Player 1, and 0 to Player 2.

@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+A random move first selects Player 1’s type, with probabilities 9/10 and 1/10.
+Player 1 then chooses between two visible actions.
+After observing that visible choice, Player 2 chooses between two responses.
+Player 2 sees which signal was chosen, but does not know whether Player 1 is the more likely type or the less likely type.
+Seed payoff constraint: for the more likely type after the first signal, the two Player 2 responses give 0, 0 and 2, 1.

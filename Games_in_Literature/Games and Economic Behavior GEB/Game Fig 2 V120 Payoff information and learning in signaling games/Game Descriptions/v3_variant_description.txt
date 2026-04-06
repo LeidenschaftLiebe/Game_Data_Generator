@@ -1,0 +1,20 @@
+V3 [Volcano evacuation]
+
+A hidden condition first determines whether the field commander is CalmCommander or UneasyCommander.
+CalmCommander happens with probability 9/10, and UneasyCommander happens with probability 1/10.
+
+The commander then chooses between NorthRoad and SouthRoad.
+
+After seeing that route call, the checkpoint officer chooses between Stop and LetPass.
+
+If the commander is CalmCommander and chooses NorthRoad, then Stop gives 0 to the commander, and 0 to the officer.
+If the commander is CalmCommander and chooses NorthRoad, then LetPass gives 2 to the commander, and 1 to the officer.
+
+If the commander is CalmCommander and chooses SouthRoad, then Stop gives 1 to the commander, and 0 to the officer.
+If the commander is CalmCommander and chooses SouthRoad, then LetPass gives 3 to the commander, and 1 to the officer.
+
+If the commander is UneasyCommander and chooses NorthRoad, then Stop gives 1 to the commander, and 1 to the officer.
+If the commander is UneasyCommander and chooses NorthRoad, then LetPass gives 3 to the commander, and 0 to the officer.
+
+If the commander is UneasyCommander and chooses SouthRoad, then Stop gives 0 to the commander, and 1 to the officer.
+If the commander is UneasyCommander and chooses SouthRoad, then LetPass gives 2 to the commander, and 0 to the officer.

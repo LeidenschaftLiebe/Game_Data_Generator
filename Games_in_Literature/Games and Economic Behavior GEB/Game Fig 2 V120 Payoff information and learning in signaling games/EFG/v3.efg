@@ -1,0 +1,18 @@
+EFG 2 R "GEB Beer-Quiche Example V3" { "Commander" "Officer" }
+""
+
+c "" 1 "" { "CalmCommander" 9/10 "UneasyCommander" 1/10 } 0
+p "" 1 1 "" { "NorthRoad" "SouthRoad" } 0
+p "" 2 1 "" { "Stop" "LetPass" } 0
+t "" 1 "CalmCommander_NorthRoad_Stop" { 0, 0 }
+t "" 2 "CalmCommander_NorthRoad_LetPass" { 2, 1 }
+p "" 2 2 "" { "Stop" "LetPass" } 0
+t "" 3 "CalmCommander_SouthRoad_Stop" { 1, 0 }
+t "" 4 "CalmCommander_SouthRoad_LetPass" { 3, 1 }
+p "" 1 2 "" { "NorthRoad" "SouthRoad" } 0
+p "" 2 1 "" { "Stop" "LetPass" } 0
+t "" 5 "UneasyCommander_NorthRoad_Stop" { 1, 1 }
+t "" 6 "UneasyCommander_NorthRoad_LetPass" { 3, 0 }
+p "" 2 2 "" { "Stop" "LetPass" } 0
+t "" 7 "UneasyCommander_SouthRoad_Stop" { 0, 1 }
+t "" 8 "UneasyCommander_SouthRoad_LetPass" { 2, 0 }

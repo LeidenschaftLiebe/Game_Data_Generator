@@ -1,0 +1,18 @@
+EFG 2 R "GEB Beer-Quiche Example V2" { "Captain" "Inspector" }
+""
+
+c "" 1 "" { "ReliableCaptain" 9/10 "ShakyCaptain" 1/10 } 0
+p "" 1 1 "" { "BlueFlag" "RedFlag" } 0
+p "" 2 1 "" { "Board" "WaveThrough" } 0
+t "" 1 "ReliableCaptain_BlueFlag_Board" { 0, 0 }
+t "" 2 "ReliableCaptain_BlueFlag_WaveThrough" { 2, 1 }
+p "" 2 2 "" { "Board" "WaveThrough" } 0
+t "" 3 "ReliableCaptain_RedFlag_Board" { 1, 0 }
+t "" 4 "ReliableCaptain_RedFlag_WaveThrough" { 3, 1 }
+p "" 1 2 "" { "BlueFlag" "RedFlag" } 0
+p "" 2 1 "" { "Board" "WaveThrough" } 0
+t "" 5 "ShakyCaptain_BlueFlag_Board" { 1, 1 }
+t "" 6 "ShakyCaptain_BlueFlag_WaveThrough" { 3, 0 }
+p "" 2 2 "" { "Board" "WaveThrough" } 0
+t "" 7 "ShakyCaptain_RedFlag_Board" { 0, 1 }
+t "" 8 "ShakyCaptain_RedFlag_WaveThrough" { 2, 0 }

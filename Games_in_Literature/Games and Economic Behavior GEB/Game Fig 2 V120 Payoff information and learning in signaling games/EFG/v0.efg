@@ -1,0 +1,18 @@
+EFG 2 R "GEB Beer-Quiche Example" { "Player 1" "Player 2" }
+""
+
+c "" 1 "" { "Strong" 9/10 "Weak" 1/10 } 0
+p "" 1 1 "" { "Quiche" "Beer" } 0
+p "" 2 1 "" { "Fight" "NotFight" } 0
+t "" 1 "Strong_Quiche_Fight" { 0, 0 }
+t "" 2 "Strong_Quiche_NotFight" { 2, 1 }
+p "" 2 2 "" { "Fight" "NotFight" } 0
+t "" 3 "Strong_Beer_Fight" { 1, 0 }
+t "" 4 "Strong_Beer_NotFight" { 3, 1 }
+p "" 1 2 "" { "Quiche" "Beer" } 0
+p "" 2 1 "" { "Fight" "NotFight" } 0
+t "" 5 "Weak_Quiche_Fight" { 1, 1 }
+t "" 6 "Weak_Quiche_NotFight" { 3, 0 }
+p "" 2 2 "" { "Fight" "NotFight" } 0
+t "" 7 "Weak_Beer_Fight" { 0, 1 }
+t "" 8 "Weak_Beer_NotFight" { 2, 0 }

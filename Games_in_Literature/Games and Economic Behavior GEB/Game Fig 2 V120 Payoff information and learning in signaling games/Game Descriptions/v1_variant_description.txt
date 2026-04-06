@@ -1,0 +1,20 @@
+V1 [Ancient tunnel expedition]
+
+A hidden assessment first determines whether the expedition leader is SteadyLeader or NervousLeader.
+SteadyLeader happens with probability 9/10, and NervousLeader happens with probability 1/10.
+
+The expedition leader then chooses between CampMeal and TrailMeal.
+
+After seeing that meal choice, the guard captain chooses between Challenge and StandDown.
+
+If the leader is SteadyLeader and chooses CampMeal, then Challenge gives 0 to the leader, and 0 to the captain.
+If the leader is SteadyLeader and chooses CampMeal, then StandDown gives 2 to the leader, and 1 to the captain.
+
+If the leader is SteadyLeader and chooses TrailMeal, then Challenge gives 1 to the leader, and 0 to the captain.
+If the leader is SteadyLeader and chooses TrailMeal, then StandDown gives 3 to the leader, and 1 to the captain.
+
+If the leader is NervousLeader and chooses CampMeal, then Challenge gives 1 to the leader, and 1 to the captain.
+If the leader is NervousLeader and chooses CampMeal, then StandDown gives 3 to the leader, and 0 to the captain.
+
+If the leader is NervousLeader and chooses TrailMeal, then Challenge gives 0 to the leader, and 1 to the captain.
+If the leader is NervousLeader and chooses TrailMeal, then StandDown gives 2 to the leader, and 0 to the captain.

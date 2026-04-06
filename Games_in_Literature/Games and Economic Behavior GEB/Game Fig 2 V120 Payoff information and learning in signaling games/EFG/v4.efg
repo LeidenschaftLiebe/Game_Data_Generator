@@ -1,0 +1,18 @@
+EFG 2 R "GEB Beer-Quiche Example V4" { "Chief" "Observer" }
+""
+
+c "" 1 "" { "PreparedChief" 9/10 "FragileChief" 1/10 } 0
+p "" 1 1 "" { "LowBeacon" "HighBeacon" } 0
+p "" 2 1 "" { "Confront" "Ignore" } 0
+t "" 1 "PreparedChief_LowBeacon_Confront" { 0, 0 }
+t "" 2 "PreparedChief_LowBeacon_Ignore" { 2, 1 }
+p "" 2 2 "" { "Confront" "Ignore" } 0
+t "" 3 "PreparedChief_HighBeacon_Confront" { 1, 0 }
+t "" 4 "PreparedChief_HighBeacon_Ignore" { 3, 1 }
+p "" 1 2 "" { "LowBeacon" "HighBeacon" } 0
+p "" 2 1 "" { "Confront" "Ignore" } 0
+t "" 5 "FragileChief_LowBeacon_Confront" { 1, 1 }
+t "" 6 "FragileChief_LowBeacon_Ignore" { 3, 0 }
+p "" 2 2 "" { "Confront" "Ignore" } 0
+t "" 7 "FragileChief_HighBeacon_Confront" { 0, 1 }
+t "" 8 "FragileChief_HighBeacon_Ignore" { 2, 0 }

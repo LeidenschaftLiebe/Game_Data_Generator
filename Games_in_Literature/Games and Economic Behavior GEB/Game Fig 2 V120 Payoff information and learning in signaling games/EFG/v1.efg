@@ -1,0 +1,18 @@
+EFG 2 R "GEB Beer-Quiche Example V1" { "Leader" "Captain" }
+""
+
+c "" 1 "" { "SteadyLeader" 9/10 "NervousLeader" 1/10 } 0
+p "" 1 1 "" { "CampMeal" "TrailMeal" } 0
+p "" 2 1 "" { "Challenge" "StandDown" } 0
+t "" 1 "SteadyLeader_CampMeal_Challenge" { 0, 0 }
+t "" 2 "SteadyLeader_CampMeal_StandDown" { 2, 1 }
+p "" 2 2 "" { "Challenge" "StandDown" } 0
+t "" 3 "SteadyLeader_TrailMeal_Challenge" { 1, 0 }
+t "" 4 "SteadyLeader_TrailMeal_StandDown" { 3, 1 }
+p "" 1 2 "" { "CampMeal" "TrailMeal" } 0
+p "" 2 1 "" { "Challenge" "StandDown" } 0
+t "" 5 "NervousLeader_CampMeal_Challenge" { 1, 1 }
+t "" 6 "NervousLeader_CampMeal_StandDown" { 3, 0 }
+p "" 2 2 "" { "Challenge" "StandDown" } 0
+t "" 7 "NervousLeader_TrailMeal_Challenge" { 0, 1 }
+t "" 8 "NervousLeader_TrailMeal_StandDown" { 2, 0 }

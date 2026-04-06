@@ -1,0 +1,20 @@
+V2 [Harbor inspection]
+
+A hidden report first determines whether the ship captain is ReliableCaptain or ShakyCaptain.
+ReliableCaptain happens with probability 9/10, and ShakyCaptain happens with probability 1/10.
+
+The captain then chooses between BlueFlag and RedFlag.
+
+After seeing the flag, the harbor inspector chooses between Board and WaveThrough.
+
+If the captain is ReliableCaptain and chooses BlueFlag, then Board gives 0 to the captain, and 0 to the inspector.
+If the captain is ReliableCaptain and chooses BlueFlag, then WaveThrough gives 2 to the captain, and 1 to the inspector.
+
+If the captain is ReliableCaptain and chooses RedFlag, then Board gives 1 to the captain, and 0 to the inspector.
+If the captain is ReliableCaptain and chooses RedFlag, then WaveThrough gives 3 to the captain, and 1 to the inspector.
+
+If the captain is ShakyCaptain and chooses BlueFlag, then Board gives 1 to the captain, and 1 to the inspector.
+If the captain is ShakyCaptain and chooses BlueFlag, then WaveThrough gives 3 to the captain, and 0 to the inspector.
+
+If the captain is ShakyCaptain and chooses RedFlag, then Board gives 0 to the captain, and 1 to the inspector.
+If the captain is ShakyCaptain and chooses RedFlag, then WaveThrough gives 2 to the captain, and 0 to the inspector.

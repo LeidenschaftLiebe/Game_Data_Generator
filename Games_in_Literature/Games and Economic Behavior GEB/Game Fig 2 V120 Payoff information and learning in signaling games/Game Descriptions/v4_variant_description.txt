@@ -1,0 +1,20 @@
+V4 [Mountain weather station]
+
+A hidden reading first determines whether the station chief is PreparedChief or FragileChief.
+PreparedChief happens with probability 9/10, and FragileChief happens with probability 1/10.
+
+The chief then chooses between LowBeacon and HighBeacon.
+
+After seeing the beacon, the patrol observer chooses between Confront and Ignore.
+
+If the chief is PreparedChief and chooses LowBeacon, then Confront gives 0 to the chief, and 0 to the observer.
+If the chief is PreparedChief and chooses LowBeacon, then Ignore gives 2 to the chief, and 1 to the observer.
+
+If the chief is PreparedChief and chooses HighBeacon, then Confront gives 1 to the chief, and 0 to the observer.
+If the chief is PreparedChief and chooses HighBeacon, then Ignore gives 3 to the chief, and 1 to the observer.
+
+If the chief is FragileChief and chooses LowBeacon, then Confront gives 1 to the chief, and 1 to the observer.
+If the chief is FragileChief and chooses LowBeacon, then Ignore gives 3 to the chief, and 0 to the observer.
+
+If the chief is FragileChief and chooses HighBeacon, then Confront gives 0 to the chief, and 1 to the observer.
+If the chief is FragileChief and chooses HighBeacon, then Ignore gives 2 to the chief, and 0 to the observer.

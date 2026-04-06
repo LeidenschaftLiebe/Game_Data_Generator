@@ -1,0 +1,20 @@
+V5 [Desert convoy]
+
+A hidden evaluation first determines whether the convoy leader is ToughLeader or HesitantLeader.
+ToughLeader happens with probability 9/10, and HesitantLeader happens with probability 1/10.
+
+The leader then chooses between DustRoute and StoneRoute.
+
+After seeing that choice, the border scout chooses between Block and StandAside.
+
+If the leader is ToughLeader and chooses DustRoute, then Block gives 0 to the leader, and 0 to the scout.
+If the leader is ToughLeader and chooses DustRoute, then StandAside gives 2 to the leader, and 1 to the scout.
+
+If the leader is ToughLeader and chooses StoneRoute, then Block gives 1 to the leader, and 0 to the scout.
+If the leader is ToughLeader and chooses StoneRoute, then StandAside gives 3 to the leader, and 1 to the scout.
+
+If the leader is HesitantLeader and chooses DustRoute, then Block gives 1 to the leader, and 1 to the scout.
+If the leader is HesitantLeader and chooses DustRoute, then StandAside gives 3 to the leader, and 0 to the scout.
+
+If the leader is HesitantLeader and chooses StoneRoute, then Block gives 0 to the leader, and 1 to the scout.
+If the leader is HesitantLeader and chooses StoneRoute, then StandAside gives 2 to the leader, and 0 to the scout.

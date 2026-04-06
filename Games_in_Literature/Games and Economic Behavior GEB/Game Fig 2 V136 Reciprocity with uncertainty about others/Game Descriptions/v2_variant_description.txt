@@ -1,0 +1,10 @@
+V2 [Research collaboration]
+
+A lead researcher moves first and chooses between ShareData (C) and KeepData (D).
+A second researcher then observes that choice and chooses between ShareMethods (c) and KeepMethods (d).
+
+If the lead researcher chooses ShareData (C) and the second researcher chooses ShareMethods (c), the result is 2, 2.
+If the lead researcher chooses ShareData (C) and the second researcher chooses KeepMethods (d), the result is 0, 3.
+
+If the lead researcher chooses KeepData (D) and the second researcher chooses ShareMethods (c), the result is 3, 0.
+If the lead researcher chooses KeepData (D) and the second researcher chooses KeepMethods (d), the result is 1, 1.

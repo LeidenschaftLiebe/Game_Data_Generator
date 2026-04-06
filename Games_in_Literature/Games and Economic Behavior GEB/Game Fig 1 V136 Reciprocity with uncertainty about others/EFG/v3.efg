@@ -1,0 +1,10 @@
+EFG 2 R "GEB Centipede Game Fig. 1 V3" { "Leader 1" "Leader 2" }
+""
+
+p "" 1 1 "" { "KeepNegotiating_1" "LockIn_1" } 0
+p "" 2 1 "" { "KeepNegotiating_2" "LockIn_2" } 0
+p "" 1 2 "" { "KeepNegotiating_3" "LockIn_3" } 0
+t "" 4 "KeepNegotiating_3" { 4, 4 }
+t "" 3 "LockIn_3" { 5, 2 }
+t "" 2 "LockIn_2" { 0, 3 }
+t "" 1 "LockIn_1" { 3, 0 }

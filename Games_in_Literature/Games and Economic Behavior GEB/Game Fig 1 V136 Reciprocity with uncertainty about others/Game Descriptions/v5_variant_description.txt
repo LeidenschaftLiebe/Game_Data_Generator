@@ -1,0 +1,13 @@
+V5 [Creative project]
+
+Two artists are deciding whether to keep sharing control of a project or stop and take the gains early.
+
+Artist 1 first chooses between KeepCreating_1 (y_1) and StopNow_1 (d_1).
+If Artist 1 chooses StopNow_1 (d_1), the result is 3, 0.
+
+If Artist 1 chooses KeepCreating_1 (y_1), then Artist 2 chooses between KeepCreating_2 (y_2) and StopNow_2 (d_2).
+If Artist 2 chooses StopNow_2 (d_2), the result is 0, 3.
+
+If Artist 2 chooses KeepCreating_2 (y_2), then Artist 1 chooses between KeepCreating_3 (y_3) and StopNow_3 (d_3).
+If Artist 1 chooses StopNow_3 (d_3), the result is 5, 2.
+If Artist 1 chooses KeepCreating_3 (y_3), the result is 4, 4.

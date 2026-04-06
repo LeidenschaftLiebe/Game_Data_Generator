@@ -1,0 +1,13 @@
+V2 [Research collaboration]
+
+Two researchers are deciding whether to keep a joint project going or to stop and claim the gains now.
+
+Researcher 1 first chooses between ContinueProject_1 (y_1) and PublishNow_1 (d_1).
+If Researcher 1 chooses PublishNow_1 (d_1), the result is 3, 0.
+
+If Researcher 1 chooses ContinueProject_1 (y_1), then Researcher 2 chooses between ContinueProject_2 (y_2) and PublishNow_2 (d_2).
+If Researcher 2 chooses PublishNow_2 (d_2), the result is 0, 3.
+
+If Researcher 2 chooses ContinueProject_2 (y_2), then Researcher 1 chooses between ContinueProject_3 (y_3) and PublishNow_3 (d_3).
+If Researcher 1 chooses PublishNow_3 (d_3), the result is 5, 2.
+If Researcher 1 chooses ContinueProject_3 (y_3), the result is 4, 4.

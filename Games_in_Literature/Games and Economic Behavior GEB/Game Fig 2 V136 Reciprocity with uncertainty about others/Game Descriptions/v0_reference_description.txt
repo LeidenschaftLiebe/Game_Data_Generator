@@ -1,0 +1,16 @@
+V0 [Original article context]
+
+This figure is the article’s Sequential Prisoners’ Dilemma.
+The paper uses it to study when reciprocal motives can support cooperation in a sequential setting.
+
+Player 1 moves first and chooses between C and D.
+After observing that choice, Player 2 moves and chooses between c and d.
+
+If Player 1 chooses C and Player 2 chooses c, the result is 2, 2.
+If Player 1 chooses C and Player 2 chooses d, the result is 0, 3.
+
+If Player 1 chooses D and Player 2 chooses c, the result is 3, 0.
+If Player 1 chooses D and Player 2 chooses d, the result is 1, 1.
+
+The article emphasizes that Player 2 can condition the second move on what Player 1 did first.
+That is why this game differs from the simultaneous version.

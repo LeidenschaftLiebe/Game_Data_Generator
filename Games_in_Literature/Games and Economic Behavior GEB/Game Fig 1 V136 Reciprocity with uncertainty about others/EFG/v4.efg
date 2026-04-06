@@ -1,0 +1,10 @@
+EFG 2 R "GEB Centipede Game Fig. 1 V4" { "Manufacturer" "Distributor" }
+""
+
+p "" 1 1 "" { "ContinueDeal_1" "EndDeal_1" } 0
+p "" 2 1 "" { "ContinueDeal_2" "EndDeal_2" } 0
+p "" 1 2 "" { "ContinueDeal_3" "EndDeal_3" } 0
+t "" 4 "ContinueDeal_3" { 4, 4 }
+t "" 3 "EndDeal_3" { 5, 2 }
+t "" 2 "EndDeal_2" { 0, 3 }
+t "" 1 "EndDeal_1" { 3, 0 }

@@ -1,0 +1,10 @@
+EFG 2 R "GEB Centipede Game Fig. 1 V5" { "Artist 1" "Artist 2" }
+""
+
+p "" 1 1 "" { "KeepCreating_1" "StopNow_1" } 0
+p "" 2 1 "" { "KeepCreating_2" "StopNow_2" } 0
+p "" 1 2 "" { "KeepCreating_3" "StopNow_3" } 0
+t "" 4 "KeepCreating_3" { 4, 4 }
+t "" 3 "StopNow_3" { 5, 2 }
+t "" 2 "StopNow_2" { 0, 3 }
+t "" 1 "StopNow_1" { 3, 0 }

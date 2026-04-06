@@ -1,0 +1,10 @@
+V1 [Startup partnership]
+
+A startup founder moves first and chooses between ShareTech (C) and KeepPrivate (D).
+Then an outside partner observes that choice and chooses between ShareDistribution (c) and HoldBack (d).
+
+If the founder chooses ShareTech (C) and the partner chooses ShareDistribution (c), the result is 2, 2.
+If the founder chooses ShareTech (C) and the partner chooses HoldBack (d), the result is 0, 3.
+
+If the founder chooses KeepPrivate (D) and the partner chooses ShareDistribution (c), the result is 3, 0.
+If the founder chooses KeepPrivate (D) and the partner chooses HoldBack (d), the result is 1, 1.

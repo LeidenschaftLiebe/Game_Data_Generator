@@ -1,0 +1,10 @@
+V5 [Creative collaboration]
+
+An artist moves first and chooses between ShareDraft (C) and KeepDraft (D).
+A second artist then observes that choice and chooses between ShareIdeas (c) and KeepIdeas (d).
+
+If the first artist chooses ShareDraft (C) and the second artist chooses ShareIdeas (c), the result is 2, 2.
+If the first artist chooses ShareDraft (C) and the second artist chooses KeepIdeas (d), the result is 0, 3.
+
+If the first artist chooses KeepDraft (D) and the second artist chooses ShareIdeas (c), the result is 3, 0.
+If the first artist chooses KeepDraft (D) and the second artist chooses KeepIdeas (d), the result is 1, 1.

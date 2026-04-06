@@ -1,0 +1,10 @@
+EFG 2 R "GEB Sequential Prisoners' Dilemma Fig. 2 V2" { "Lead Researcher" "Second Researcher" }
+""
+
+p "" 1 1 "" { "ShareData" "KeepData" } 0
+p "" 2 1 "" { "ShareMethods" "KeepMethods" } 0
+t "" 1 "ShareData_ShareMethods" { 2, 2 }
+t "" 2 "ShareData_KeepMethods" { 0, 3 }
+p "" 2 2 "" { "ShareMethods" "KeepMethods" } 0
+t "" 3 "KeepData_ShareMethods" { 3, 0 }
+t "" 4 "KeepData_KeepMethods" { 1, 1 }

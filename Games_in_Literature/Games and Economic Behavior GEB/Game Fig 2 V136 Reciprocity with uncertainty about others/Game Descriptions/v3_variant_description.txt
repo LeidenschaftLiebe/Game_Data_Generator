@@ -1,0 +1,10 @@
+V3 [Climate policy]
+
+One country moves first and chooses between CutEmissions (C) and DoNotCut (D).
+A second country then observes that choice and chooses between CutEmissions (c) and DoNotCut (d).
+
+If the first country chooses CutEmissions (C) and the second country chooses CutEmissions (c), the result is 2, 2.
+If the first country chooses CutEmissions (C) and the second country chooses DoNotCut (d), the result is 0, 3.
+
+If the first country chooses DoNotCut (D) and the second country chooses CutEmissions (c), the result is 3, 0.
+If the first country chooses DoNotCut (D) and the second country chooses DoNotCut (d), the result is 1, 1.

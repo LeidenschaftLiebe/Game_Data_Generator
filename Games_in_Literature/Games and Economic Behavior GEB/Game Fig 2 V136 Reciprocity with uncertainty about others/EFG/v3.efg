@@ -1,0 +1,10 @@
+EFG 2 R "GEB Sequential Prisoners' Dilemma Fig. 2 V3" { "Country 1" "Country 2" }
+""
+
+p "" 1 1 "" { "CutEmissions" "DoNotCut" } 0
+p "" 2 1 "" { "CutEmissions_2" "DoNotCut_2" } 0
+t "" 1 "CutEmissions_CutEmissions2" { 2, 2 }
+t "" 2 "CutEmissions_DoNotCut2" { 0, 3 }
+p "" 2 2 "" { "CutEmissions_2" "DoNotCut_2" } 0
+t "" 3 "DoNotCut_CutEmissions2" { 3, 0 }
+t "" 4 "DoNotCut_DoNotCut2" { 1, 1 }

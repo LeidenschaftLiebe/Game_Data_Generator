@@ -1,0 +1,10 @@
+EFG 2 R "GEB Centipede Game Fig. 1 V2" { "Researcher 1" "Researcher 2" }
+""
+
+p "" 1 1 "" { "ContinueProject_1" "PublishNow_1" } 0
+p "" 2 1 "" { "ContinueProject_2" "PublishNow_2" } 0
+p "" 1 2 "" { "ContinueProject_3" "PublishNow_3" } 0
+t "" 4 "ContinueProject_3" { 4, 4 }
+t "" 3 "PublishNow_3" { 5, 2 }
+t "" 2 "PublishNow_2" { 0, 3 }
+t "" 1 "PublishNow_1" { 3, 0 }

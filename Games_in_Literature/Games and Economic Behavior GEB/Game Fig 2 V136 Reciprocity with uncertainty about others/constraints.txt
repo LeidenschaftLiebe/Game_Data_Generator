@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+P1 moves first, and P2 moves second after observing whether P1 chose C or D.
+Seed payoff constraint: C_c gives 2, 2.

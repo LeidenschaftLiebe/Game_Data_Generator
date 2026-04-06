@@ -1,0 +1,13 @@
+V1 [Startup partnership]
+
+Two founders are deciding whether to keep sharing the upside of a startup project.
+
+Founder 1 moves first and chooses between KeepSharing_1 (y_1) and CashOut_1 (d_1).
+If Founder 1 chooses CashOut_1 (d_1), the result is 3, 0.
+
+If Founder 1 chooses KeepSharing_1 (y_1), then Founder 2 chooses between KeepSharing_2 (y_2) and CashOut_2 (d_2).
+If Founder 2 chooses CashOut_2 (d_2), the result is 0, 3.
+
+If Founder 2 chooses KeepSharing_2 (y_2), then Founder 1 chooses between KeepSharing_3 (y_3) and CashOut_3 (d_3).
+If Founder 1 chooses CashOut_3 (d_3), the result is 5, 2.
+If Founder 1 chooses KeepSharing_3 (y_3), the result is 4, 4.

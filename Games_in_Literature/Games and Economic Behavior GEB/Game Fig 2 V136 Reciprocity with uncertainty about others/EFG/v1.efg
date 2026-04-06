@@ -1,0 +1,10 @@
+EFG 2 R "GEB Sequential Prisoners' Dilemma Fig. 2 V1" { "Founder" "Partner" }
+""
+
+p "" 1 1 "" { "ShareTech" "KeepPrivate" } 0
+p "" 2 1 "" { "ShareDistribution" "HoldBack" } 0
+t "" 1 "ShareTech_ShareDistribution" { 2, 2 }
+t "" 2 "ShareTech_HoldBack" { 0, 3 }
+p "" 2 2 "" { "ShareDistribution" "HoldBack" } 0
+t "" 3 "KeepPrivate_ShareDistribution" { 3, 0 }
+t "" 4 "KeepPrivate_HoldBack" { 1, 1 }

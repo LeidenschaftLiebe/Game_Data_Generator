@@ -1,0 +1,13 @@
+V4 [Supply partnership]
+
+A manufacturer and a distributor are deciding whether to keep building a supply partnership or stop early.
+
+Manufacturer first chooses between ContinueDeal_1 (y_1) and EndDeal_1 (d_1).
+If Manufacturer chooses EndDeal_1 (d_1), the result is 3, 0.
+
+If Manufacturer chooses ContinueDeal_1 (y_1), then Distributor chooses between ContinueDeal_2 (y_2) and EndDeal_2 (d_2).
+If Distributor chooses EndDeal_2 (d_2), the result is 0, 3.
+
+If Distributor chooses ContinueDeal_2 (y_2), then Manufacturer chooses between ContinueDeal_3 (y_3) and EndDeal_3 (d_3).
+If Manufacturer chooses EndDeal_3 (d_3), the result is 5, 2.
+If Manufacturer chooses ContinueDeal_3 (y_3), the result is 4, 4.

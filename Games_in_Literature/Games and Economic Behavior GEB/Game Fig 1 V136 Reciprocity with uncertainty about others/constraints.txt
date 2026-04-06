@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+There are 3 decision nodes. Player 1 moves first, Player 2 moves second, and Player 1 moves again at the last node.
+Seed payoff constraint: if Player 1 ends immediately at node 1, the payoffs are 3, 0.

@@ -1,0 +1,13 @@
+V3 [Political negotiation]
+
+Two political leaders are deciding whether to keep cooperating in a negotiation or lock in gains early.
+
+Leader 1 first chooses between KeepNegotiating_1 (y_1) and LockIn_1 (d_1).
+If Leader 1 chooses LockIn_1 (d_1), the result is 3, 0.
+
+If Leader 1 chooses KeepNegotiating_1 (y_1), then Leader 2 chooses between KeepNegotiating_2 (y_2) and LockIn_2 (d_2).
+If Leader 2 chooses LockIn_2 (d_2), the result is 0, 3.
+
+If Leader 2 chooses KeepNegotiating_2 (y_2), then Leader 1 chooses between KeepNegotiating_3 (y_3) and LockIn_3 (d_3).
+If Leader 1 chooses LockIn_3 (d_3), the result is 5, 2.
+If Leader 1 chooses KeepNegotiating_3 (y_3), the result is 4, 4.

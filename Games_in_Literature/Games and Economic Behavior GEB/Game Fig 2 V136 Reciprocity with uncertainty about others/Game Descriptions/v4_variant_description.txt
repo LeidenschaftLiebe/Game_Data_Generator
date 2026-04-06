@@ -1,0 +1,10 @@
+V4 [Open-source software]
+
+A developer moves first and chooses between OpenCode (C) and CloseCode (D).
+A second developer then observes that choice and chooses between OpenPatch (c) and ClosePatch (d).
+
+If the first developer chooses OpenCode (C) and the second developer chooses OpenPatch (c), the result is 2, 2.
+If the first developer chooses OpenCode (C) and the second developer chooses ClosePatch (d), the result is 0, 3.
+
+If the first developer chooses CloseCode (D) and the second developer chooses OpenPatch (c), the result is 3, 0.
+If the first developer chooses CloseCode (D) and the second developer chooses ClosePatch (d), the result is 1, 1.

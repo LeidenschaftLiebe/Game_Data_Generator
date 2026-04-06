@@ -1,0 +1,10 @@
+EFG 2 R "GEB Centipede Game Fig. 1 V1" { "Founder 1" "Founder 2" }
+""
+
+p "" 1 1 "" { "KeepSharing_1" "CashOut_1" } 0
+p "" 2 1 "" { "KeepSharing_2" "CashOut_2" } 0
+p "" 1 2 "" { "KeepSharing_3" "CashOut_3" } 0
+t "" 4 "KeepSharing_3" { 4, 4 }
+t "" 3 "CashOut_3" { 5, 2 }
+t "" 2 "CashOut_2" { 0, 3 }
+t "" 1 "CashOut_1" { 3, 0 }

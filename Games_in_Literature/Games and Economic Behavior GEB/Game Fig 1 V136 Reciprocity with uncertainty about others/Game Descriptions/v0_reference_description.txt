@@ -1,0 +1,24 @@
+V0 [Original article context]
+
+This figure is the centipede game used in the article’s applications section.
+The paper uses it to show how uncertainty about reciprocal motives can strengthen the sharing outcome.
+
+There are 3 decision nodes.
+Player 1 moves at nodes 1 and 3, and Player 2 moves at node 2.
+At each node, the active player chooses either y_i to stay in the game or d_i to end the game.
+At node 3, choosing y_3 also ends the game.
+
+Player 1 moves first and chooses between y_1 and d_1.
+If Player 1 chooses d_1, the game ends with 3, 0.
+
+If Player 1 chooses y_1, then Player 2 moves and chooses between y_2 and d_2.
+If Player 2 chooses d_2, the game ends with 0, 3.
+
+If Player 2 chooses y_2, then Player 1 moves again and chooses between y_3 and d_3.
+If Player 1 chooses d_3, the game ends with 5, 2.
+If Player 1 chooses y_3, the game ends with 4, 4.
+
+The article notes two important features of this payoff structure.
+First, if players only care about the material results, 
+the unique subgame-perfect outcome is that each player ends the game whenever it is their turn.
+Second, Player 1 gets more from ending at node 3 than from ending at node 1.

@@ -1,0 +1,10 @@
+EFG 2 R "GEB Sequential Prisoners' Dilemma Fig. 2 V4" { "Developer 1" "Developer 2" }
+""
+
+p "" 1 1 "" { "OpenCode" "CloseCode" } 0
+p "" 2 1 "" { "OpenPatch" "ClosePatch" } 0
+t "" 1 "OpenCode_OpenPatch" { 2, 2 }
+t "" 2 "OpenCode_ClosePatch" { 0, 3 }
+p "" 2 2 "" { "OpenPatch" "ClosePatch" } 0
+t "" 3 "CloseCode_OpenPatch" { 3, 0 }
+t "" 4 "CloseCode_ClosePatch" { 1, 1 }

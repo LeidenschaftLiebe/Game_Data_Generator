@@ -1,0 +1,14 @@
+EFG 2 R "GEB Gradual Game Fig. 1 V3" { "Lead Researcher" "Collaborator" }
+""
+
+p "" 1 1 "" { "WorkAlone" "ShareSmallTask" "ShareLargeTask" "ShareCoreProject" } 0
+t "" 1 "WorkAlone" { 24, 15 }
+p "" 2 1 "" { "ContributeHonestly" "FreeRide" } 0
+t "" 2 "ShareSmallTask_ContributeHonestly" { 32, 22 }
+t "" 3 "ShareSmallTask_FreeRide" { 20, 42 }
+p "" 2 2 "" { "ContributeHonestly" "FreeRide" } 0
+t "" 4 "ShareLargeTask_ContributeHonestly" { 44, 36 }
+t "" 5 "ShareLargeTask_FreeRide" { 12, 72 }
+p "" 2 3 "" { "ContributeHonestly" "FreeRide" } 0
+t "" 6 "ShareCoreProject_ContributeHonestly" { 56, 42 }
+t "" 7 "ShareCoreProject_FreeRide" { 0, 80 }

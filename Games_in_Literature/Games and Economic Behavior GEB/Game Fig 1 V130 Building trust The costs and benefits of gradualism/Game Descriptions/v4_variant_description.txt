@@ -1,0 +1,20 @@
+V4 [Political alliance]
+
+A party leader is deciding how much influence to hand to a possible coalition partner.
+
+The party leader moves first and chooses one of four levels:
+StayIndependent (N), LimitedDeal (L), BroadDeal (M), or FullAlliance (H).
+
+If the party leader chooses StayIndependent (N), this gives the party leader 24, and the partner 15.
+
+If the party leader chooses LimitedDeal (L), the partner chooses between HonorDeal (R) and ExploitDeal (D).
+If the partner chooses HonorDeal (R), this gives the party leader 32, and the partner 22.
+If the partner chooses ExploitDeal (D), this gives the party leader 20, and the partner 42.
+
+If the party leader chooses BroadDeal (M), the partner again chooses between HonorDeal (R) and ExploitDeal (D).
+If the partner chooses HonorDeal (R), this gives the party leader 44, and the partner 36.
+If the partner chooses ExploitDeal (D), this gives the party leader 12, and the partner 72.
+
+If the party leader chooses FullAlliance (H), the partner again chooses between HonorDeal (R) and ExploitDeal (D).
+If the partner chooses HonorDeal (R), this gives the party leader 56, and the partner 42.
+If the partner chooses ExploitDeal (D), this gives the party leader 0, and the partner 80.

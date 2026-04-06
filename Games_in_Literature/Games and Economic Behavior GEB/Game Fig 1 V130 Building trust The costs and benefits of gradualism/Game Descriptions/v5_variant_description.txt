@@ -1,0 +1,20 @@
+V5 [Film production]
+
+A producer is deciding how much of a film budget to trust to a new studio partner.
+
+The producer moves first and chooses one of four levels:
+NoDeal (N), SmallProject (L), MidProject (M), or BlockbusterProject (H).
+
+If the producer chooses NoDeal (N), this gives the producer 24, and the studio partner 15.
+
+If the producer chooses SmallProject (L), the studio partner chooses between SupportRelease (R) and GrabValue (D).
+If the studio partner chooses SupportRelease (R), this gives the producer 32, and the studio partner 22.
+If the studio partner chooses GrabValue (D), this gives the producer 20, and the studio partner 42.
+
+If the producer chooses MidProject (M), the studio partner again chooses between SupportRelease (R) and GrabValue (D).
+If the studio partner chooses SupportRelease (R), this gives the producer 44, and the studio partner 36.
+If the studio partner chooses GrabValue (D), this gives the producer 12, and the studio partner 72.
+
+If the producer chooses BlockbusterProject (H), the studio partner again chooses between SupportRelease (R) and GrabValue (D).
+If the studio partner chooses SupportRelease (R), this gives the producer 56, and the studio partner 42.
+If the studio partner chooses GrabValue (D), this gives the producer 0, and the studio partner 80.

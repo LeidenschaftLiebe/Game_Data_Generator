@@ -1,0 +1,14 @@
+EFG 2 R "GEB Gradual Game Fig. 1 V4" { "Party Leader" "Coalition Partner" }
+""
+
+p "" 1 1 "" { "StayIndependent" "LimitedDeal" "BroadDeal" "FullAlliance" } 0
+t "" 1 "StayIndependent" { 24, 15 }
+p "" 2 1 "" { "HonorDeal" "ExploitDeal" } 0
+t "" 2 "LimitedDeal_HonorDeal" { 32, 22 }
+t "" 3 "LimitedDeal_ExploitDeal" { 20, 42 }
+p "" 2 2 "" { "HonorDeal" "ExploitDeal" } 0
+t "" 4 "BroadDeal_HonorDeal" { 44, 36 }
+t "" 5 "BroadDeal_ExploitDeal" { 12, 72 }
+p "" 2 3 "" { "HonorDeal" "ExploitDeal" } 0
+t "" 6 "FullAlliance_HonorDeal" { 56, 42 }
+t "" 7 "FullAlliance_ExploitDeal" { 0, 80 }

@@ -1,0 +1,14 @@
+EFG 2 R "GEB Gradual Game Fig. 1 V1" { "Founder" "Partner" }
+""
+
+p "" 1 1 "" { "NoPilot" "SmallPilot" "MediumPilot" "FullLaunch" } 0
+t "" 1 "NoPilot" { 24, 15 }
+p "" 2 1 "" { "Deliver" "Exploit" } 0
+t "" 2 "SmallPilot_Deliver" { 32, 22 }
+t "" 3 "SmallPilot_Exploit" { 20, 42 }
+p "" 2 2 "" { "Deliver" "Exploit" } 0
+t "" 4 "MediumPilot_Deliver" { 44, 36 }
+t "" 5 "MediumPilot_Exploit" { 12, 72 }
+p "" 2 3 "" { "Deliver" "Exploit" } 0
+t "" 6 "FullLaunch_Deliver" { 56, 42 }
+t "" 7 "FullLaunch_Exploit" { 0, 80 }

@@ -1,0 +1,14 @@
+EFG 2 R "GEB Gradual Game Fig. 1 V5" { "Producer" "Studio Partner" }
+""
+
+p "" 1 1 "" { "NoDeal" "SmallProject" "MidProject" "BlockbusterProject" } 0
+t "" 1 "NoDeal" { 24, 15 }
+p "" 2 1 "" { "SupportRelease" "GrabValue" } 0
+t "" 2 "SmallProject_SupportRelease" { 32, 22 }
+t "" 3 "SmallProject_GrabValue" { 20, 42 }
+p "" 2 2 "" { "SupportRelease" "GrabValue" } 0
+t "" 4 "MidProject_SupportRelease" { 44, 36 }
+t "" 5 "MidProject_GrabValue" { 12, 72 }
+p "" 2 3 "" { "SupportRelease" "GrabValue" } 0
+t "" 6 "BlockbusterProject_SupportRelease" { 56, 42 }
+t "" 7 "BlockbusterProject_GrabValue" { 0, 80 }

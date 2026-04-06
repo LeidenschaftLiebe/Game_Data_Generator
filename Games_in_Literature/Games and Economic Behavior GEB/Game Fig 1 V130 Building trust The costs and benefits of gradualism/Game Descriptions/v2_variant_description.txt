@@ -1,0 +1,20 @@
+V2 [Supplier relationship]
+
+A retailer is deciding how much business to entrust to a new supplier.
+
+The retailer moves first and chooses one of four levels:
+NoOrder (N), TrialOrder (L), RegularOrder (M), or MajorOrder (H).
+
+If the retailer chooses NoOrder (N), this gives the retailer 24, and the supplier 15.
+
+If the retailer chooses TrialOrder (L), the supplier chooses between Fulfill (R) and CutCorners (D).
+If the supplier chooses Fulfill (R), this gives the retailer 32, and the supplier 22.
+If the supplier chooses CutCorners (D), this gives the retailer 20, and the supplier 42.
+
+If the retailer chooses RegularOrder (M), the supplier again chooses between Fulfill (R) and CutCorners (D).
+If the supplier chooses Fulfill (R), this gives the retailer 44, and the supplier 36.
+If the supplier chooses CutCorners (D), this gives the retailer 12, and the supplier 72.
+
+If the retailer chooses MajorOrder (H), the supplier again chooses between Fulfill (R) and CutCorners (D).
+If the supplier chooses Fulfill (R), this gives the retailer 56, and the supplier 42.
+If the supplier chooses CutCorners (D), this gives the retailer 0, and the supplier 80.

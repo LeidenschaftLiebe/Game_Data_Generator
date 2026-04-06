@@ -1,0 +1,14 @@
+EFG 2 R "GEB Gradual Game Fig. 1 V2" { "Retailer" "Supplier" }
+""
+
+p "" 1 1 "" { "NoOrder" "TrialOrder" "RegularOrder" "MajorOrder" } 0
+t "" 1 "NoOrder" { 24, 15 }
+p "" 2 1 "" { "Fulfill" "CutCorners" } 0
+t "" 2 "TrialOrder_Fulfill" { 32, 22 }
+t "" 3 "TrialOrder_CutCorners" { 20, 42 }
+p "" 2 2 "" { "Fulfill" "CutCorners" } 0
+t "" 4 "RegularOrder_Fulfill" { 44, 36 }
+t "" 5 "RegularOrder_CutCorners" { 12, 72 }
+p "" 2 3 "" { "Fulfill" "CutCorners" } 0
+t "" 6 "MajorOrder_Fulfill" { 56, 42 }
+t "" 7 "MajorOrder_CutCorners" { 0, 80 }

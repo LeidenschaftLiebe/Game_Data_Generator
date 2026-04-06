@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+The game has 2 players. The sender moves first and chooses one of 4 actions.
+Seed payoff constraint: after the lowest positive trust level and R, the payoffs are 32, 22.

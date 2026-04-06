@@ -1,0 +1,20 @@
+V3 [Research collaboration]
+
+A lead researcher is deciding how much of a project to share with a new collaborator.
+
+The lead researcher moves first and chooses one of four levels:
+WorkAlone (N), ShareSmallTask (L), ShareLargeTask (M), or ShareCoreProject (H).
+
+If the lead researcher chooses WorkAlone (N), this gives the lead researcher 24, and the collaborator 15.
+
+If the lead researcher chooses ShareSmallTask (L), the collaborator chooses between ContributeHonestly (R) and FreeRide (D).
+If the collaborator chooses ContributeHonestly (R), this gives the lead researcher 32, and the collaborator 22.
+If the collaborator chooses FreeRide (D), this gives the lead researcher 20, and the collaborator 42.
+
+If the lead researcher chooses ShareLargeTask (M), the collaborator again chooses between ContributeHonestly (R) and FreeRide (D).
+If the collaborator chooses ContributeHonestly (R), this gives the lead researcher 44, and the collaborator 36.
+If the collaborator chooses FreeRide (D), this gives the lead researcher 12, and the collaborator 72.
+
+If the lead researcher chooses ShareCoreProject (H), the collaborator again chooses between ContributeHonestly (R) and FreeRide (D).
+If the collaborator chooses ContributeHonestly (R), this gives the lead researcher 56, and the collaborator 42.
+If the collaborator chooses FreeRide (D), this gives the lead researcher 0, and the collaborator 80.

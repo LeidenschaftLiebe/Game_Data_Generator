@@ -1,0 +1,22 @@
+V4 [Orbital debris cleanup]
+
+A mission director first chooses between WideSweep (A), NarrowSweep (B), and AbortLaunch (E).
+
+If the director chooses AbortLaunch (E), the mission ends there.
+This gives 3 to the mission director, and 0 to the flight operator.
+
+If the director chooses NarrowSweep (B), the flight operator chooses between LowBurn (a) and HighBurn (b).
+LowBurn (a) gives 0 to the mission director, and 0 to the flight operator.
+HighBurn (b) gives 1 to the mission director, and 1 to the flight operator.
+
+If the director chooses WideSweep (A), the director then chooses between InnerArc (C) and OuterArc (D).
+
+After InnerArc (C), the flight operator chooses between LowBurn (a) and HighBurn (b).
+LowBurn (a) gives 4 to the mission director, and 0 to the flight operator.
+HighBurn (b) gives 2 to the mission director, and 0 to the flight operator.
+
+After OuterArc (D), the flight operator chooses between LowBurn (a) and HighBurn (b).
+LowBurn (a) gives 1 to the mission director, and 1 to the flight operator.
+HighBurn (b) gives 0 to the mission director, and 0 to the flight operator.
+
+When choosing between LowBurn (a) and HighBurn (b), the flight operator cannot tell which earlier situation led there.

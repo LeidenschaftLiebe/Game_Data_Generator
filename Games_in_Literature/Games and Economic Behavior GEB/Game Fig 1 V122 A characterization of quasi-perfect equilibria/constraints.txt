@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Player 1 moves first. 
+When Player 2 chooses between a and b, they cannot tell which caction Player 1 took. 
+So Player 2's decision nodes are in the same information set. 
+Seed payoff constraint: If Player 1 chooses E at the beginning, then the result is (3, 0). 

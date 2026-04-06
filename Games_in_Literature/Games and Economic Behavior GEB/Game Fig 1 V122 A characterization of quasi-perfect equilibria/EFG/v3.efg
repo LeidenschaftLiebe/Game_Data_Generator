@@ -1,0 +1,15 @@
+EFG 2 R "GEB Quasi-Perfect Example Fig. 1 V3" { "Mayor" "Field Coordinator" }
+""
+
+p "" 1 1 "" { "MountainPlan" "ValleyPlan" "StopEvacuation" } 0
+p "" 1 2 "" { "NorthSlope" "SouthSlope" } 0
+p "" 2 1 "" { "RouteAlpha" "RouteBeta" } 0
+t "" 2 "MountainPlan_NorthSlope_RouteAlpha" { 4, 0 }
+t "" 3 "MountainPlan_NorthSlope_RouteBeta" { 2, 0 }
+p "" 2 1 "" { "RouteAlpha" "RouteBeta" } 0
+t "" 4 "MountainPlan_SouthSlope_RouteAlpha" { 1, 1 }
+t "" 5 "MountainPlan_SouthSlope_RouteBeta" { 0, 0 }
+p "" 2 1 "" { "RouteAlpha" "RouteBeta" } 0
+t "" 6 "ValleyPlan_RouteAlpha" { 0, 0 }
+t "" 7 "ValleyPlan_RouteBeta" { 1, 1 }
+t "" 1 "StopEvacuation" { 3, 0 }

@@ -1,0 +1,15 @@
+EFG 2 R "GEB Quasi-Perfect Example Fig. 1 V1" { "Mission Commander" "Ice Pilot" }
+""
+
+p "" 1 1 "" { "NorthernRoute" "DirectRoute" "AbortMission" } 0
+p "" 1 2 "" { "WestPass" "EastPass" } 0
+p "" 2 1 "" { "SafeSpeed" "FastSpeed" } 0
+t "" 2 "NorthernRoute_WestPass_SafeSpeed" { 4, 0 }
+t "" 3 "NorthernRoute_WestPass_FastSpeed" { 2, 0 }
+p "" 2 1 "" { "SafeSpeed" "FastSpeed" } 0
+t "" 4 "NorthernRoute_EastPass_SafeSpeed" { 1, 1 }
+t "" 5 "NorthernRoute_EastPass_FastSpeed" { 0, 0 }
+p "" 2 1 "" { "SafeSpeed" "FastSpeed" } 0
+t "" 6 "DirectRoute_SafeSpeed" { 0, 0 }
+t "" 7 "DirectRoute_FastSpeed" { 1, 1 }
+t "" 1 "AbortMission" { 3, 0 }

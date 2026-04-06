@@ -1,0 +1,15 @@
+EFG 2 R "GEB Quasi-Perfect Example Fig. 1 V4" { "Mission Director" "Flight Operator" }
+""
+
+p "" 1 1 "" { "WideSweep" "NarrowSweep" "AbortLaunch" } 0
+p "" 1 2 "" { "InnerArc" "OuterArc" } 0
+p "" 2 1 "" { "LowBurn" "HighBurn" } 0
+t "" 2 "WideSweep_InnerArc_LowBurn" { 4, 0 }
+t "" 3 "WideSweep_InnerArc_HighBurn" { 2, 0 }
+p "" 2 1 "" { "LowBurn" "HighBurn" } 0
+t "" 4 "WideSweep_OuterArc_LowBurn" { 1, 1 }
+t "" 5 "WideSweep_OuterArc_HighBurn" { 0, 0 }
+p "" 2 1 "" { "LowBurn" "HighBurn" } 0
+t "" 6 "NarrowSweep_LowBurn" { 0, 0 }
+t "" 7 "NarrowSweep_HighBurn" { 1, 1 }
+t "" 1 "AbortLaunch" { 3, 0 }

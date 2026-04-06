@@ -1,0 +1,22 @@
+V2 [Museum recovery operation]
+
+A museum director first chooses between FrontOperation (A), QuickMove (B), and CancelRecovery (E).
+
+If the director chooses CancelRecovery (E), the operation ends there.
+This gives 3 to the museum director, and 0 to the security chief.
+
+If the director chooses QuickMove (B), the security chief chooses between SecureQuietly (a) and MoveFast (b).
+SecureQuietly (a) gives 0 to the museum director, and 0 to the security chief.
+MoveFast (b) gives 1 to the museum director, and 1 to the security chief.
+
+If the director chooses FrontOperation (A), the director then chooses between LeftHall (C) and RightHall (D).
+
+After LeftHall (C), the security chief chooses between SecureQuietly (a) and MoveFast (b).
+SecureQuietly (a) gives 4 to the museum director, and 0 to the security chief.
+MoveFast (b) gives 2 to the museum director, and 0 to the security chief.
+
+After RightHall (D), the security chief chooses between SecureQuietly (a) and MoveFast (b).
+SecureQuietly (a) gives 1 to the museum director, and 1 to the security chief.
+MoveFast (b) gives 0 to the museum director, and 0 to the security chief.
+
+When choosing between SecureQuietly (a) and MoveFast (b), the security chief cannot tell which earlier situation led there.

@@ -1,0 +1,26 @@
+V0 [Original article context]
+
+This figure is used in the paper as a small two-player example showing that one well-known way of adding tiny mistakes 
+does not recover every quasi-perfect equilibrium, even in a two-player setting.
+
+Player 1 moves first and chooses between A, B, and E.
+
+If Player 1 chooses E, the game ends immediately.
+This gives 3 to Player 1, and 0 to Player 2.
+
+If Player 1 chooses B, then Player 2 chooses between a and b.
+If Player 2 chooses a, this gives 0 to Player 1, and 0 to Player 2.
+If Player 2 chooses b, this gives 1 to Player 1, and 1 to Player 2.
+
+If Player 1 chooses A, then Player 1 moves again and chooses between C and D.
+
+If Player 1 chooses C, then Player 2 chooses between a and b.
+If Player 2 chooses a, this gives 4 to Player 1, and 0 to Player 2.
+If Player 2 chooses b, this gives 2 to Player 1, and 0 to Player 2.
+
+If Player 1 chooses D, then Player 2 chooses between a and b.
+If Player 2 chooses a, this gives 1 to Player 1, and 1 to Player 2.
+If Player 2 chooses b, this gives 0 to Player 1, and 0 to Player 2.
+
+When Player 2 makes the choice between a and b, Player 2 cannot tell whether the situation came from A then C, from A then D, or directly from B.
+That hidden detail is exactly what matters in the paper’s discussion.

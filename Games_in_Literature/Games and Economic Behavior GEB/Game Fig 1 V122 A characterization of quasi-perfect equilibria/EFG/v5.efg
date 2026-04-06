@@ -1,0 +1,15 @@
+EFG 2 R "GEB Quasi-Perfect Example Fig. 1 V5" { "Rescue Chief" "Lead Climber" }
+""
+
+p "" 1 1 "" { "UpperEntry" "LowerEntry" "CallOffSearch" } 0
+p "" 1 2 "" { "LeftChamber" "RightChamber" } 0
+p "" 2 1 "" { "AnchorFirst" "DescendFast" } 0
+t "" 2 "UpperEntry_LeftChamber_AnchorFirst" { 4, 0 }
+t "" 3 "UpperEntry_LeftChamber_DescendFast" { 2, 0 }
+p "" 2 1 "" { "AnchorFirst" "DescendFast" } 0
+t "" 4 "UpperEntry_RightChamber_AnchorFirst" { 1, 1 }
+t "" 5 "UpperEntry_RightChamber_DescendFast" { 0, 0 }
+p "" 2 1 "" { "AnchorFirst" "DescendFast" } 0
+t "" 6 "LowerEntry_AnchorFirst" { 0, 0 }
+t "" 7 "LowerEntry_DescendFast" { 1, 1 }
+t "" 1 "CallOffSearch" { 3, 0 }

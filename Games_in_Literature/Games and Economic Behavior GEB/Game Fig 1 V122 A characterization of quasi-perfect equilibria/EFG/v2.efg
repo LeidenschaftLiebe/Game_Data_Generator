@@ -1,0 +1,15 @@
+EFG 2 R "GEB Quasi-Perfect Example Fig. 1 V2" { "Museum Director" "Security Chief" }
+""
+
+p "" 1 1 "" { "FrontOperation" "QuickMove" "CancelRecovery" } 0
+p "" 1 2 "" { "LeftHall" "RightHall" } 0
+p "" 2 1 "" { "SecureQuietly" "MoveFast" } 0
+t "" 2 "FrontOperation_LeftHall_SecureQuietly" { 4, 0 }
+t "" 3 "FrontOperation_LeftHall_MoveFast" { 2, 0 }
+p "" 2 1 "" { "SecureQuietly" "MoveFast" } 0
+t "" 4 "FrontOperation_RightHall_SecureQuietly" { 1, 1 }
+t "" 5 "FrontOperation_RightHall_MoveFast" { 0, 0 }
+p "" 2 1 "" { "SecureQuietly" "MoveFast" } 0
+t "" 6 "QuickMove_SecureQuietly" { 0, 0 }
+t "" 7 "QuickMove_MoveFast" { 1, 1 }
+t "" 1 "CancelRecovery" { 3, 0 }

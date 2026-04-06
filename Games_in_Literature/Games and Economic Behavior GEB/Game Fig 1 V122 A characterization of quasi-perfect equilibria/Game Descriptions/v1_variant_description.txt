@@ -1,0 +1,22 @@
+V1 [Arctic supply mission]
+
+A mission commander first chooses between NorthernRoute (A), DirectRoute (B), and AbortMission (E).
+
+If the commander chooses AbortMission (E), the trip ends there.
+This gives 3 to the mission commander, and 0 to the ice pilot.
+
+If the commander chooses DirectRoute (B), the ice pilot chooses between SafeSpeed (a) and FastSpeed (b).
+SafeSpeed (a) gives 0 to the mission commander, and 0 to the ice pilot.
+FastSpeed (b) gives 1 to the mission commander, and 1 to the ice pilot.
+
+If the commander chooses NorthernRoute (A), the commander then chooses between WestPass (C) and EastPass (D).
+
+After WestPass (C), the ice pilot again chooses between SafeSpeed (a) and FastSpeed (b).
+SafeSpeed (a) gives 4 to the mission commander, and 0 to the ice pilot.
+FastSpeed (b) gives 2 to the mission commander, and 0 to the ice pilot.
+
+After EastPass (D), the ice pilot again chooses between SafeSpeed (a) and FastSpeed (b).
+SafeSpeed (a) gives 1 to the mission commander, and 1 to the ice pilot.
+FastSpeed (b) gives 0 to the mission commander, and 0 to the ice pilot.
+
+When choosing between SafeSpeed (a) and FastSpeed (b), the ice pilot cannot tell which of those three situations led there.

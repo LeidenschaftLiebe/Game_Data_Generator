@@ -1,0 +1,22 @@
+V5 [Cave rescue]
+
+A rescue chief first chooses between UpperEntry (A), LowerEntry (B), and CallOffSearch (E).
+
+If the rescue chief chooses CallOffSearch (E), the operation ends there.
+This gives 3 to the rescue chief, and 0 to the lead climber.
+
+If the rescue chief chooses LowerEntry (B), the lead climber chooses between AnchorFirst (a) and DescendFast (b).
+AnchorFirst (a) gives 0 to the rescue chief, and 0 to the lead climber.
+DescendFast (b) gives 1 to the rescue chief, and 1 to the lead climber.
+
+If the rescue chief chooses UpperEntry (A), the rescue chief then chooses between LeftChamber (C) and RightChamber (D).
+
+After LeftChamber (C), the lead climber chooses between AnchorFirst (a) and DescendFast (b).
+AnchorFirst (a) gives 4 to the rescue chief, and 0 to the lead climber.
+DescendFast (b) gives 2 to the rescue chief, and 0 to the lead climber.
+
+After RightChamber (D), the lead climber chooses between AnchorFirst (a) and DescendFast (b).
+AnchorFirst (a) gives 1 to the rescue chief, and 1 to the lead climber.
+DescendFast (b) gives 0 to the rescue chief, and 0 to the lead climber.
+
+When choosing between AnchorFirst (a) and DescendFast (b), the lead climber cannot tell which earlier situation led there.

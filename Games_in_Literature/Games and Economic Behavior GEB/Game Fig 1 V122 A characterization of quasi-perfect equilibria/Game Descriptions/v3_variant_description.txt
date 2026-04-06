@@ -1,0 +1,22 @@
+V3 [Volcano evacuation]
+
+A mayor first chooses between MountainPlan (A), ValleyPlan (B), and StopEvacuation (E).
+
+If the mayor chooses StopEvacuation (E), the process ends there.
+This gives 3 to the mayor, and 0 to the field coordinator.
+
+If the mayor chooses ValleyPlan (B), the field coordinator chooses between RouteAlpha (a) and RouteBeta (b).
+RouteAlpha (a) gives 0 to the mayor, and 0 to the field coordinator.
+RouteBeta (b) gives 1 to the mayor, and 1 to the field coordinator.
+
+If the mayor chooses MountainPlan (A), the mayor then chooses between NorthSlope (C) and SouthSlope (D).
+
+After NorthSlope (C), the field coordinator chooses between RouteAlpha (a) and RouteBeta (b).
+RouteAlpha (a) gives 4 to the mayor, and 0 to the field coordinator.
+RouteBeta (b) gives 2 to the mayor, and 0 to the field coordinator.
+
+After SouthSlope (D), the field coordinator chooses between RouteAlpha (a) and RouteBeta (b).
+RouteAlpha (a) gives 1 to the mayor, and 1 to the field coordinator.
+RouteBeta (b) gives 0 to the mayor, and 0 to the field coordinator.
+
+When choosing between RouteAlpha (a) and RouteBeta (b), the field coordinator cannot tell which earlier situation led there.

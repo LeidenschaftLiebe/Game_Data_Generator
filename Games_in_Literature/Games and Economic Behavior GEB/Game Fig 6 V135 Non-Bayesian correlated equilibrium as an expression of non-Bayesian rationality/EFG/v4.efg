@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 6 Perfect Information V4" { "Firm" "Security Contractor" }
+""
+
+p "" 1 1 "" { "DisconnectSystems" "KeepSystemsLive" } 0
+t "" 1 "DisconnectSystems" { -1, 1 }
+p "" 1 2 "" { "HighAlert" "LowProfile" } 0
+p "" 2 1 "" { "MatchHighAlert" "MatchLowProfile" } 0
+t "" 2 "KeepSystemsLive_HighAlert_MatchHighAlert" { 4, -4 }
+t "" 3 "KeepSystemsLive_HighAlert_MatchLowProfile" { -4, 4 }
+p "" 2 2 "" { "MatchHighAlert" "MatchLowProfile" } 0
+t "" 4 "KeepSystemsLive_LowProfile_MatchHighAlert" { -4, 4 }
+t "" 5 "KeepSystemsLive_LowProfile_MatchLowProfile" { 4, -4 }

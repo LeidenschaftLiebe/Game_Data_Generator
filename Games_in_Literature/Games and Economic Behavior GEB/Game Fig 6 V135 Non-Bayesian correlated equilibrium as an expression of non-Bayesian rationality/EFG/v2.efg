@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 6 Perfect Information V2" { "Lead Researcher" "Coauthor" }
+""
+
+p "" 1 1 "" { "WithdrawPaper" "StayInReview" } 0
+t "" 1 "WithdrawPaper" { -1, 1 }
+p "" 1 2 "" { "BoldClaim" "CarefulClaim" } 0
+p "" 2 1 "" { "DefendBoldly" "DefendCarefully" } 0
+t "" 2 "StayInReview_BoldClaim_DefendBoldly" { 4, -4 }
+t "" 3 "StayInReview_BoldClaim_DefendCarefully" { -4, 4 }
+p "" 2 2 "" { "DefendBoldly" "DefendCarefully" } 0
+t "" 4 "StayInReview_CarefulClaim_DefendBoldly" { -4, 4 }
+t "" 5 "StayInReview_CarefulClaim_DefendCarefully" { 4, -4 }

@@ -1,0 +1,13 @@
+V1 [Startup shutdown option]
+
+A founder first chooses between ShutDown (B) and KeepGoing (not B).
+If the founder chooses ShutDown (B), the project ends immediately with -1, 1.
+
+If the founder chooses KeepGoing (not B), the founder then chooses between AggressivePlan (H) and CautiousPlan (T).
+After that, the investor chooses between BackAggressive (H) and BackCautious (T).
+
+If the path is KeepGoing (not B), then AggressivePlan (H), then BackAggressive (H), the result is 4, -4.
+If the path is KeepGoing (not B), then AggressivePlan (H), then BackCautious (T), the result is -4, 4.
+
+If the path is KeepGoing (not B), then CautiousPlan (T), then BackAggressive (H), the result is -4, 4.
+If the path is KeepGoing (not B), then CautiousPlan (T), then BackCautious (T), the result is 4, -4.

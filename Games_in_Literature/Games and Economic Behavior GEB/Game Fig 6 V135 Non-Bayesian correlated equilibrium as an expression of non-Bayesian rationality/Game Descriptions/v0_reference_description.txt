@@ -1,0 +1,22 @@
+V0 [Original article context]
+
+This figure is the article’s extensive-form example for domination by pure or mixed strategies in a game with perfect information.
+The paper uses it to show that even in the strategic form of a perfect-information game, 
+domination by mixed strategies can differ from domination by pure strategies.
+
+Player 1 moves first and chooses between B and not B.
+If Player 1 chooses B, the game ends immediately with -1, 1.
+
+If Player 1 chooses not B, then Player 1 moves again and chooses between H and T.
+After that, Player 2 moves and chooses between H and T.
+Player 2 observes Player 1’s earlier choice between B and not B, but moves after Player 1 has already chosen H or T.
+So the game has perfect information.
+
+If the path is not B, then H, then H, the result is 4, -4.
+If the path is not B, then H, then T, the result is -4, 4.
+
+If the path is not B, then T, then H, the result is -4, 4.
+If the path is not B, then T, then T, the result is 4, -4.
+
+The article contrasts this extensive-form game with its strategic form and uses it to illustrate that a set can be 
+a correlated-equilibrium-type object under pure-strategy dominance but fail under mixed-strategy dominance.

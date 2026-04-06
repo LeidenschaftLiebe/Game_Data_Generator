@@ -1,0 +1,13 @@
+V2 [Research publication]
+
+A lead researcher first chooses between WithdrawPaper (B) and StayInReview (not B).
+If the lead researcher chooses WithdrawPaper (B), the result is -1, 1.
+
+If the lead researcher chooses StayInReview (not B), the lead researcher then chooses between BoldClaim (H) and CarefulClaim (T).
+After that, the coauthor chooses between DefendBoldly (H) and DefendCarefully (T).
+
+If the path is StayInReview (not B), then BoldClaim (H), then DefendBoldly (H), the result is 4, -4.
+If the path is StayInReview (not B), then BoldClaim (H), then DefendCarefully (T), the result is -4, 4.
+
+If the path is StayInReview (not B), then CarefulClaim (T), then DefendBoldly (H), the result is -4, 4.
+If the path is StayInReview (not B), then CarefulClaim (T), then DefendCarefully (T), the result is 4, -4.

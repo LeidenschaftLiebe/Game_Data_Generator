@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 6 Perfect Information V5" { "Producer" "Director" }
+""
+
+p "" 1 1 "" { "CancelProject" "ContinueProject" } 0
+t "" 1 "CancelProject" { -1, 1 }
+p "" 1 2 "" { "BigVision" "SafeVersion" } 0
+p "" 2 1 "" { "MatchBigVision" "MatchSafeVersion" } 0
+t "" 2 "ContinueProject_BigVision_MatchBigVision" { 4, -4 }
+t "" 3 "ContinueProject_BigVision_MatchSafeVersion" { -4, 4 }
+p "" 2 2 "" { "MatchBigVision" "MatchSafeVersion" } 0
+t "" 4 "ContinueProject_SafeVersion_MatchBigVision" { -4, 4 }
+t "" 5 "ContinueProject_SafeVersion_MatchSafeVersion" { 4, -4 }

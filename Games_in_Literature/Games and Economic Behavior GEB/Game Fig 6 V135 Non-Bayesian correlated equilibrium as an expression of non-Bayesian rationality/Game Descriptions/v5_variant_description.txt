@@ -1,0 +1,13 @@
+V5 [Creative production]
+
+A producer first chooses between CancelProject (B) and ContinueProject (not B).
+If the producer chooses CancelProject (B), the result is -1, 1.
+
+If the producer chooses ContinueProject (not B), the producer then chooses between BigVision (H) and SafeVersion (T).
+After that, the director chooses between MatchBigVision (H) and MatchSafeVersion (T).
+
+If the path is ContinueProject (not B), then BigVision (H), then MatchBigVision (H), the result is 4, -4.
+If the path is ContinueProject (not B), then BigVision (H), then MatchSafeVersion (T), the result is -4, 4.
+
+If the path is ContinueProject (not B), then SafeVersion (T), then MatchBigVision (H), the result is -4, 4.
+If the path is ContinueProject (not B), then SafeVersion (T), then MatchSafeVersion (T), the result is 4, -4.

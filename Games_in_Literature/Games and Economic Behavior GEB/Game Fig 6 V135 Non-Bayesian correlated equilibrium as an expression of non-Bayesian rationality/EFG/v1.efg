@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 6 Perfect Information V1" { "Founder" "Investor" }
+""
+
+p "" 1 1 "" { "ShutDown" "KeepGoing" } 0
+t "" 1 "ShutDown" { -1, 1 }
+p "" 1 2 "" { "AggressivePlan" "CautiousPlan" } 0
+p "" 2 1 "" { "BackAggressive" "BackCautious" } 0
+t "" 2 "KeepGoing_AggressivePlan_BackAggressive" { 4, -4 }
+t "" 3 "KeepGoing_AggressivePlan_BackCautious" { -4, 4 }
+p "" 2 2 "" { "BackAggressive" "BackCautious" } 0
+t "" 4 "KeepGoing_CautiousPlan_BackAggressive" { -4, 4 }
+t "" 5 "KeepGoing_CautiousPlan_BackCautious" { 4, -4 }

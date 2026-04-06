@@ -1,0 +1,13 @@
+V3 [Political campaign]
+
+A candidate first chooses between DropOut (B) and StayInRace (not B).
+If the candidate chooses DropOut (B), the result is -1, 1.
+
+If the candidate chooses StayInRace (not B), the candidate then chooses between HardAttack (H) and SoftMessage (T).
+After that, the campaign manager chooses between ReinforceAttack (H) and ReinforceSoftLine (T).
+
+If the path is StayInRace (not B), then HardAttack (H), then ReinforceAttack (H), the result is 4, -4.
+If the path is StayInRace (not B), then HardAttack (H), then ReinforceSoftLine (T), the result is -4, 4.
+
+If the path is StayInRace (not B), then SoftMessage (T), then ReinforceAttack (H), the result is -4, 4.
+If the path is StayInRace (not B), then SoftMessage (T), then ReinforceSoftLine (T), the result is 4, -4.

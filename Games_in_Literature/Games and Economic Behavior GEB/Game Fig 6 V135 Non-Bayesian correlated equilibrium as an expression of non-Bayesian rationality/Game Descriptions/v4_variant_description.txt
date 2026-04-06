@@ -1,0 +1,13 @@
+V4 [Cybersecurity response]
+
+A firm first chooses between DisconnectSystems (B) and KeepSystemsLive (not B).
+If the firm chooses DisconnectSystems (B), the result is -1, 1.
+
+If the firm chooses KeepSystemsLive (not B), it then chooses between HighAlert (H) and LowProfile (T).
+After that, the security contractor chooses between MatchHighAlert (H) and MatchLowProfile (T).
+
+If the path is KeepSystemsLive (not B), then HighAlert (H), then MatchHighAlert (H), the result is 4, -4.
+If the path is KeepSystemsLive (not B), then HighAlert (H), then MatchLowProfile (T), the result is -4, 4.
+
+If the path is KeepSystemsLive (not B), then LowProfile (T), then MatchHighAlert (H), the result is -4, 4.
+If the path is KeepSystemsLive (not B), then LowProfile (T), then MatchLowProfile (T), the result is 4, -4.

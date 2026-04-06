@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 6 Perfect Information V3" { "Candidate" "Campaign Manager" }
+""
+
+p "" 1 1 "" { "DropOut" "StayInRace" } 0
+t "" 1 "DropOut" { -1, 1 }
+p "" 1 2 "" { "HardAttack" "SoftMessage" } 0
+p "" 2 1 "" { "ReinforceAttack" "ReinforceSoftLine" } 0
+t "" 2 "StayInRace_HardAttack_ReinforceAttack" { 4, -4 }
+t "" 3 "StayInRace_HardAttack_ReinforceSoftLine" { -4, 4 }
+p "" 2 2 "" { "ReinforceAttack" "ReinforceSoftLine" } 0
+t "" 4 "StayInRace_SoftMessage_ReinforceAttack" { -4, 4 }
+t "" 5 "StayInRace_SoftMessage_ReinforceSoftLine" { 4, -4 }

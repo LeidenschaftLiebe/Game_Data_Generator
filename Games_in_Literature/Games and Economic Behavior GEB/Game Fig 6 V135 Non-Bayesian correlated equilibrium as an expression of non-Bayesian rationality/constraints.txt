@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Player 1 moves first. 
+If Player 1 chooses B at the start, the game ends immediately with -1, 1.

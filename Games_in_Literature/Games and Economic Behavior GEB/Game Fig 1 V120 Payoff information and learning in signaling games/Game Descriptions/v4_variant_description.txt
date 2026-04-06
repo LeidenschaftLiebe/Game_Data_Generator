@@ -1,0 +1,20 @@
+V4 [Wildfire drone operation]
+
+A systems check first determines whether the drone team is HighBattery or LowBattery.
+HighBattery happens with probability 9/10, and LowBattery happens with probability 1/10.
+
+The drone operator then chooses between ReturnBase and EnterSmoke.
+
+If the drone operator chooses ReturnBase, the flight ends there.
+This gives 0 to the operator, and 0 to the analyst.
+
+If the drone operator chooses EnterSmoke, the analyst chooses between ClimbPath, DropPath, and FlankPath.
+The analyst cannot tell whether the drone team is HighBattery or LowBattery.
+
+If the drone team is HighBattery and the analyst chooses ClimbPath, this gives 2 to the operator, and 1 to the analyst.
+If the drone team is HighBattery and the analyst chooses DropPath, this gives -1 to the operator, and 0 to the analyst.
+If the drone team is HighBattery and the analyst chooses FlankPath, this gives 1 to the operator, and -1 to the analyst.
+
+If the drone team is LowBattery and the analyst chooses ClimbPath, this gives 1 to the operator, and 0 to the analyst.
+If the drone team is LowBattery and the analyst chooses DropPath, this gives -1 to the operator, and 1 to the analyst.
+If the drone team is LowBattery and the analyst chooses FlankPath, this gives 3 to the operator, and -1 to the analyst.

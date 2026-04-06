@@ -1,0 +1,16 @@
+EFG 2 R "GEB Payoff Information Example 2 V2" { "Rescue Leader" "Spotter" }
+""
+
+c "" 1 "" { "WellEquipped" 9/10 "UnderEquipped" 1/10 } 0
+p "" 1 1 "" { "HoldPosition" "PushForward" } 0
+t "" 1 "WellEquipped_HoldPosition" { 0, 0 }
+p "" 2 1 "" { "GuideUp" "GuideDown" "SideTraverse" } 0
+t "" 3 "WellEquipped_PushForward_GuideUp" { 2, 1 }
+t "" 4 "WellEquipped_PushForward_GuideDown" { -1, 0 }
+t "" 5 "WellEquipped_PushForward_SideTraverse" { 1, -1 }
+p "" 1 2 "" { "HoldPosition" "PushForward" } 0
+t "" 2 "UnderEquipped_HoldPosition" { 0, 0 }
+p "" 2 1 "" { "GuideUp" "GuideDown" "SideTraverse" } 0
+t "" 6 "UnderEquipped_PushForward_GuideUp" { 1, 0 }
+t "" 7 "UnderEquipped_PushForward_GuideDown" { -1, 1 }
+t "" 8 "UnderEquipped_PushForward_SideTraverse" { 3, -1 }

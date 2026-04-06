@@ -1,0 +1,27 @@
+V0 [Original article context]
+
+The paper studies signaling games where one side may know something private and the other side has to react.
+On pages 6 to 7, the article gives a simple example with a strong type and a weak type, a safe choice Out, a risky choice In, 
+and three possible responses Up, Down, and X. 
+It explains that X is never a best reaction for the receiver, and that the unique long-run outcome has both types 
+choosing In and the receiver answering with Up.
+
+A random event first determines Player 1’s type.
+With probability 9/10, Player 1 is Strong.
+With probability 1/10, Player 1 is Weak.
+
+Player 1 then chooses between Out and In.
+
+If Player 1 chooses Out, the interaction ends immediately.
+This gives 0 to Player 1, and 0 to Player 2.
+
+If Player 1 chooses In, then Player 2 chooses between Up, Down, and X.
+When Player 2 makes that choice, Player 2 cannot tell whether Player 1 is Strong or Weak.
+
+If Player 1 is Strong and Player 2 chooses Up, this gives 2 to Player 1, and 1 to Player 2.
+If Player 1 is Strong and Player 2 chooses Down, this gives -1 to Player 1, and 0 to Player 2.
+If Player 1 is Strong and Player 2 chooses X, this gives 1 to Player 1, and -1 to Player 2.
+
+If Player 1 is Weak and Player 2 chooses Up, this gives 1 to Player 1, and 0 to Player 2.
+If Player 1 is Weak and Player 2 chooses Down, this gives -1 to Player 1, and 1 to Player 2.
+If Player 1 is Weak and Player 2 chooses X, this gives 3 to Player 1, and -1 to Player 2.

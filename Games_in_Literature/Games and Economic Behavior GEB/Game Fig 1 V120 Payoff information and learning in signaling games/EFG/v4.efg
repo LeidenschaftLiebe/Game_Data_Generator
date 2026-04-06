@@ -1,0 +1,16 @@
+EFG 2 R "GEB Payoff Information Example 2 V4" { "Operator" "Analyst" }
+""
+
+c "" 1 "" { "HighBattery" 9/10 "LowBattery" 1/10 } 0
+p "" 1 1 "" { "ReturnBase" "EnterSmoke" } 0
+t "" 1 "HighBattery_ReturnBase" { 0, 0 }
+p "" 2 1 "" { "ClimbPath" "DropPath" "FlankPath" } 0
+t "" 3 "HighBattery_EnterSmoke_ClimbPath" { 2, 1 }
+t "" 4 "HighBattery_EnterSmoke_DropPath" { -1, 0 }
+t "" 5 "HighBattery_EnterSmoke_FlankPath" { 1, -1 }
+p "" 1 2 "" { "ReturnBase" "EnterSmoke" } 0
+t "" 2 "LowBattery_ReturnBase" { 0, 0 }
+p "" 2 1 "" { "ClimbPath" "DropPath" "FlankPath" } 0
+t "" 6 "LowBattery_EnterSmoke_ClimbPath" { 1, 0 }
+t "" 7 "LowBattery_EnterSmoke_DropPath" { -1, 1 }
+t "" 8 "LowBattery_EnterSmoke_FlankPath" { 3, -1 }

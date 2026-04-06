@@ -1,0 +1,16 @@
+EFG 2 R "GEB Payoff Information Example 2 V5" { "Chief" "Navigator" }
+""
+
+c "" 1 "" { "StableCrew" 9/10 "FragileCrew" 1/10 } 0
+p "" 1 1 "" { "Withdraw" "GoInside" } 0
+t "" 1 "StableCrew_Withdraw" { 0, 0 }
+p "" 2 1 "" { "UpPassage" "DownPassage" "CrossPassage" } 0
+t "" 3 "StableCrew_GoInside_UpPassage" { 2, 1 }
+t "" 4 "StableCrew_GoInside_DownPassage" { -1, 0 }
+t "" 5 "StableCrew_GoInside_CrossPassage" { 1, -1 }
+p "" 1 2 "" { "Withdraw" "GoInside" } 0
+t "" 2 "FragileCrew_Withdraw" { 0, 0 }
+p "" 2 1 "" { "UpPassage" "DownPassage" "CrossPassage" } 0
+t "" 6 "FragileCrew_GoInside_UpPassage" { 1, 0 }
+t "" 7 "FragileCrew_GoInside_DownPassage" { -1, 1 }
+t "" 8 "FragileCrew_GoInside_CrossPassage" { 3, -1 }

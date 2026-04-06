@@ -1,0 +1,20 @@
+V5 [Ancient tunnel expedition]
+
+A hidden assessment first determines whether the expedition crew is StableCrew or FragileCrew.
+StableCrew happens with probability 9/10, and FragileCrew happens with probability 1/10.
+
+The expedition chief then chooses between Withdraw and GoInside.
+
+If the expedition chief chooses Withdraw, the day ends there.
+This gives 0 to the chief, and 0 to the navigator.
+
+If the expedition chief chooses GoInside, the navigator chooses between UpPassage, DownPassage, and CrossPassage.
+The navigator cannot tell whether the crew is StableCrew or FragileCrew.
+
+If the crew is StableCrew and the navigator chooses UpPassage, this gives 2 to the chief, and 1 to the navigator.
+If the crew is StableCrew and the navigator chooses DownPassage, this gives -1 to the chief, and 0 to the navigator.
+If the crew is StableCrew and the navigator chooses CrossPassage, this gives 1 to the chief, and -1 to the navigator.
+
+If the crew is FragileCrew and the navigator chooses UpPassage, this gives 1 to the chief, and 0 to the navigator.
+If the crew is FragileCrew and the navigator chooses DownPassage, this gives -1 to the chief, and 1 to the navigator.
+If the crew is FragileCrew and the navigator chooses CrossPassage, this gives 3 to the chief, and -1 to the navigator.

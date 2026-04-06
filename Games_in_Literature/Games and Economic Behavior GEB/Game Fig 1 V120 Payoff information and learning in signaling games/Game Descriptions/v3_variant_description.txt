@@ -1,0 +1,20 @@
+V3 [Submarine mission]
+
+A secret systems check first determines whether the submarine is SilentMode or ExposedMode.
+SilentMode happens with probability 9/10, and ExposedMode happens with probability 1/10.
+
+The captain then chooses between AbortMission and Proceed.
+
+If the captain chooses AbortMission, the mission ends there.
+This gives 0 to the captain, and 0 to the sonar officer.
+
+If the captain chooses Proceed, the sonar officer chooses between Climb, Descend, and SweepSideways.
+The sonar officer cannot tell whether the submarine is in SilentMode or ExposedMode.
+
+If the submarine is in SilentMode and the sonar officer chooses Climb, this gives 2 to the captain, and 1 to the sonar officer.
+If the submarine is in SilentMode and the sonar officer chooses Descend, this gives -1 to the captain, and 0 to the sonar officer.
+If the submarine is in SilentMode and the sonar officer chooses SweepSideways, this gives 1 to the captain, and -1 to the sonar officer.
+
+If the submarine is in ExposedMode and the sonar officer chooses Climb, this gives 1 to the captain, and 0 to the sonar officer.
+If the submarine is in ExposedMode and the sonar officer chooses Descend, this gives -1 to the captain, and 1 to the sonar officer.
+If the submarine is in ExposedMode and the sonar officer chooses SweepSideways, this gives 3 to the captain, and -1 to the sonar officer.

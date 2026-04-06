@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+A random move first selects one of two Player 1 types, with probabilities 9/10 and 1/10.
+After learning the type, Player 1 chooses between a safe outside action and a risky inside action.
+The outside action always ends the interaction with 0, 0, regardless of type.
+If Player 1 chooses the inside action, Player 2 chooses among three responses.
+Player 2 does not know which type Player 1 is when choosing among those three responses.

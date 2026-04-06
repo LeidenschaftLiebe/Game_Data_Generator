@@ -1,0 +1,16 @@
+EFG 2 R "GEB Payoff Information Example 2 V3" { "Captain" "SonarOfficer" }
+""
+
+c "" 1 "" { "SilentMode" 9/10 "ExposedMode" 1/10 } 0
+p "" 1 1 "" { "AbortMission" "Proceed" } 0
+t "" 1 "SilentMode_AbortMission" { 0, 0 }
+p "" 2 1 "" { "Climb" "Descend" "SweepSideways" } 0
+t "" 3 "SilentMode_Proceed_Climb" { 2, 1 }
+t "" 4 "SilentMode_Proceed_Descend" { -1, 0 }
+t "" 5 "SilentMode_Proceed_SweepSideways" { 1, -1 }
+p "" 1 2 "" { "AbortMission" "Proceed" } 0
+t "" 2 "ExposedMode_AbortMission" { 0, 0 }
+p "" 2 1 "" { "Climb" "Descend" "SweepSideways" } 0
+t "" 6 "ExposedMode_Proceed_Climb" { 1, 0 }
+t "" 7 "ExposedMode_Proceed_Descend" { -1, 1 }
+t "" 8 "ExposedMode_Proceed_SweepSideways" { 3, -1 }

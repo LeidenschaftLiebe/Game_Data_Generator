@@ -1,0 +1,16 @@
+EFG 2 R "GEB Payoff Information Example 2" { "Player 1" "Player 2" }
+""
+
+c "" 1 "" { "Strong" 9/10 "Weak" 1/10 } 0
+p "" 1 1 "" { "Out" "In" } 0
+t "" 1 "Strong_Out" { 0, 0 }
+p "" 2 1 "" { "Up" "Down" "X" } 0
+t "" 3 "Strong_In_Up" { 2, 1 }
+t "" 4 "Strong_In_Down" { -1, 0 }
+t "" 5 "Strong_In_X" { 1, -1 }
+p "" 1 2 "" { "Out" "In" } 0
+t "" 2 "Weak_Out" { 0, 0 }
+p "" 2 1 "" { "Up" "Down" "X" } 0
+t "" 6 "Weak_In_Up" { 1, 0 }
+t "" 7 "Weak_In_Down" { -1, 1 }
+t "" 8 "Weak_In_X" { 3, -1 }

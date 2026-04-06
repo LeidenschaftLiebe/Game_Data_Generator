@@ -1,0 +1,16 @@
+EFG 2 R "GEB Payoff Information Example 2 V1" { "Commander" "Observer" }
+""
+
+c "" 1 "" { "HeavyArmor" 9/10 "LightArmor" 1/10 } 0
+p "" 1 1 "" { "StayBack" "Advance" } 0
+t "" 1 "HeavyArmor_StayBack" { 0, 0 }
+p "" 2 1 "" { "HighAlert" "LowAlert" "SideMove" } 0
+t "" 3 "HeavyArmor_Advance_HighAlert" { 2, 1 }
+t "" 4 "HeavyArmor_Advance_LowAlert" { -1, 0 }
+t "" 5 "HeavyArmor_Advance_SideMove" { 1, -1 }
+p "" 1 2 "" { "StayBack" "Advance" } 0
+t "" 2 "LightArmor_StayBack" { 0, 0 }
+p "" 2 1 "" { "HighAlert" "LowAlert" "SideMove" } 0
+t "" 6 "LightArmor_Advance_HighAlert" { 1, 0 }
+t "" 7 "LightArmor_Advance_LowAlert" { -1, 1 }
+t "" 8 "LightArmor_Advance_SideMove" { 3, -1 }

@@ -1,0 +1,20 @@
+V1 [Border patrol]
+
+A surveillance drone first reveals whether the patrol unit is HeavyArmor or LightArmor.
+HeavyArmor happens with probability 9/10, and LightArmor happens with probability 1/10.
+
+The patrol commander then chooses between StayBack and Advance.
+
+If the commander chooses StayBack, the shift ends there.
+This gives 0 to the commander, and 0 to the observer.
+
+If the commander chooses Advance, the observer chooses between HighAlert, LowAlert, and SideMove.
+The observer cannot tell whether the patrol unit is HeavyArmor or LightArmor.
+
+If the patrol unit is HeavyArmor and the observer chooses HighAlert, this gives 2 to the commander, and 1 to the observer.
+If the patrol unit is HeavyArmor and the observer chooses LowAlert, this gives -1 to the commander, and 0 to the observer.
+If the patrol unit is HeavyArmor and the observer chooses SideMove, this gives 1 to the commander, and -1 to the observer.
+
+If the patrol unit is LightArmor and the observer chooses HighAlert, this gives 1 to the commander, and 0 to the observer.
+If the patrol unit is LightArmor and the observer chooses LowAlert, this gives -1 to the commander, and 1 to the observer.
+If the patrol unit is LightArmor and the observer chooses SideMove, this gives 3 to the commander, and -1 to the observer.

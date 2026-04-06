@@ -1,0 +1,20 @@
+V2 [Mountain rescue]
+
+Weather conditions first determine whether the rescue team is WellEquipped or UnderEquipped.
+WellEquipped happens with probability 9/10, and UnderEquipped happens with probability 1/10.
+
+The rescue leader then chooses between HoldPosition and PushForward.
+
+If the rescue leader chooses HoldPosition, the effort ends there.
+This gives 0 to the rescue leader, and 0 to the spotter.
+
+If the rescue leader chooses PushForward, the spotter chooses between GuideUp, GuideDown, and SideTraverse.
+The spotter cannot tell whether the team is WellEquipped or UnderEquipped.
+
+If the team is WellEquipped and the spotter chooses GuideUp, this gives 2 to the rescue leader, and 1 to the spotter.
+If the team is WellEquipped and the spotter chooses GuideDown, this gives -1 to the rescue leader, and 0 to the spotter.
+If the team is WellEquipped and the spotter chooses SideTraverse, this gives 1 to the rescue leader, and -1 to the spotter.
+
+If the team is UnderEquipped and the spotter chooses GuideUp, this gives 1 to the rescue leader, and 0 to the spotter.
+If the team is UnderEquipped and the spotter chooses GuideDown, this gives -1 to the rescue leader, and 1 to the spotter.
+If the team is UnderEquipped and the spotter chooses SideTraverse, this gives 3 to the rescue leader, and -1 to the spotter.

@@ -1,0 +1,18 @@
+EFG 2 R "GEB Beer-and-Quiche Fig. 5 V2" { "Candidate" "Recruiter" }
+""
+
+c "" 1 "" { "StrongCandidate" 9/10 "WorriedCandidate" 1/10 } 0
+p "" 1 1 "" { "BoldPitch" "QuietPitch" } 0
+p "" 2 1 "" { "NoFollowup" "Followup" } 0
+t "" 1 "StrongCandidate_BoldPitch_NoFollowup" { 3, 1 }
+t "" 2 "StrongCandidate_BoldPitch_Followup" { 1, 0 }
+p "" 2 2 "" { "NoFollowup" "Followup" } 0
+t "" 5 "StrongCandidate_QuietPitch_NoFollowup" { 2, 1 }
+t "" 6 "StrongCandidate_QuietPitch_Followup" { 0, 0 }
+p "" 1 2 "" { "BoldPitch" "QuietPitch" } 0
+p "" 2 1 "" { "NoFollowup" "Followup" } 0
+t "" 3 "WorriedCandidate_BoldPitch_NoFollowup" { 2, 0 }
+t "" 4 "WorriedCandidate_BoldPitch_Followup" { 0, 1 }
+p "" 2 2 "" { "NoFollowup" "Followup" } 0
+t "" 7 "WorriedCandidate_QuietPitch_NoFollowup" { 3, 0 }
+t "" 8 "WorriedCandidate_QuietPitch_Followup" { 1, 1 }

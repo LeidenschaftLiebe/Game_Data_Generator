@@ -1,0 +1,18 @@
+EFG 2 R "GEB Beer-and-Quiche Fig. 5 V1" { "Owner" "Critic" }
+""
+
+c "" 1 "" { "StrongAppetite" 9/10 "WeakAppetite" 1/10 } 0
+p "" 1 1 "" { "Bagel" "Quiche" } 0
+p "" 2 1 "" { "NoFeature" "Feature" } 0
+t "" 1 "StrongAppetite_Bagel_NoFeature" { 3, 1 }
+t "" 2 "StrongAppetite_Bagel_Feature" { 1, 0 }
+p "" 2 2 "" { "NoFeature" "Feature" } 0
+t "" 5 "StrongAppetite_Quiche_NoFeature" { 2, 1 }
+t "" 6 "StrongAppetite_Quiche_Feature" { 0, 0 }
+p "" 1 2 "" { "Bagel" "Quiche" } 0
+p "" 2 1 "" { "NoFeature" "Feature" } 0
+t "" 3 "WeakAppetite_Bagel_NoFeature" { 2, 0 }
+t "" 4 "WeakAppetite_Bagel_Feature" { 0, 1 }
+p "" 2 2 "" { "NoFeature" "Feature" } 0
+t "" 7 "WeakAppetite_Quiche_NoFeature" { 3, 0 }
+t "" 8 "WeakAppetite_Quiche_Feature" { 1, 1 }

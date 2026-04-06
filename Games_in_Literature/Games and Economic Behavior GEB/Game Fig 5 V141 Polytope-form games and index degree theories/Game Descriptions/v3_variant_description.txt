@@ -1,0 +1,19 @@
+V3 [Political speech]
+
+A politician’s campaign strength is either Strong (s) with probability 0.9 or Weak (w) with probability 0.1.
+
+After learning that privately, the politician chooses between BoldSpeech (B) and QuietSpeech (Q).
+A journalist observes whether the speech was bold or quiet, but does not know the campaign strength.
+
+If the politician gives BoldSpeech (B) after Strong (s), the journalist chooses between NoChallenge (NF) and FactCheck (F).
+NoChallenge (NF) gives 3 to the politician and 1 to the journalist.
+FactCheck (F) gives 1 to the politician and 0 to the journalist.
+
+If the politician gives BoldSpeech (B) after Weak (w), NoChallenge (NF) gives 2 and 0,
+while FactCheck (F) gives 0 and 1.
+
+If the politician gives QuietSpeech (Q) after Strong (s), NoChallenge (NF) gives 2 and 1,
+while FactCheck (F) gives 0 and 0.
+
+If the politician gives QuietSpeech (Q) after Weak (w), NoChallenge (NF) gives 3 and 0,
+while FactCheck (F) gives 1 and 1.

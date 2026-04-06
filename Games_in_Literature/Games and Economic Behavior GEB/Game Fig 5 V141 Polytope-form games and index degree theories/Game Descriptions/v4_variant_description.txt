@@ -1,0 +1,19 @@
+V4 [Product launch messaging]
+
+A startup’s product readiness is either Strong (s) with probability 0.9 or Weak (w) with probability 0.1.
+
+After learning that privately, the founder chooses between BoldLaunch (B) and QuietLaunch (Q).
+A reviewer sees whether the launch message was bold or quiet, but does not know the real readiness level.
+
+If the founder chooses BoldLaunch (B) after Strong (s), the reviewer chooses between NoFlag (NF) and Flag (F).
+NoFlag (NF) gives 3 to the founder and 1 to the reviewer.
+Flag (F) gives 1 to the founder and 0 to the reviewer.
+
+If the founder chooses BoldLaunch (B) after Weak (w), NoFlag (NF) gives 2 and 0,
+while Flag (F) gives 0 and 1.
+
+If the founder chooses QuietLaunch (Q) after Strong (s), NoFlag (NF) gives 2 and 1,
+while Flag (F) gives 0 and 0.
+
+If the founder chooses QuietLaunch (Q) after Weak (w), NoFlag (NF) gives 3 and 0,
+while Flag (F) gives 1 and 1.

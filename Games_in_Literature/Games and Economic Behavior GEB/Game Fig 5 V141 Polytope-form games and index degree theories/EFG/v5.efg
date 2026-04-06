@@ -1,0 +1,18 @@
+EFG 2 R "GEB Beer-and-Quiche Fig. 5 V5" { "Researcher" "Evaluator" }
+""
+
+c "" 1 "" { "StrongPreparation" 9/10 "WeakPreparation" 1/10 } 0
+p "" 1 1 "" { "BoldPresentation" "QuietPresentation" } 0
+p "" 2 1 "" { "NoProbe" "Probe" } 0
+t "" 1 "StrongPreparation_BoldPresentation_NoProbe" { 3, 1 }
+t "" 2 "StrongPreparation_BoldPresentation_Probe" { 1, 0 }
+p "" 2 2 "" { "NoProbe" "Probe" } 0
+t "" 5 "StrongPreparation_QuietPresentation_NoProbe" { 2, 1 }
+t "" 6 "StrongPreparation_QuietPresentation_Probe" { 0, 0 }
+p "" 1 2 "" { "BoldPresentation" "QuietPresentation" } 0
+p "" 2 1 "" { "NoProbe" "Probe" } 0
+t "" 3 "WeakPreparation_BoldPresentation_NoProbe" { 2, 0 }
+t "" 4 "WeakPreparation_BoldPresentation_Probe" { 0, 1 }
+p "" 2 2 "" { "NoProbe" "Probe" } 0
+t "" 7 "WeakPreparation_QuietPresentation_NoProbe" { 3, 0 }
+t "" 8 "WeakPreparation_QuietPresentation_Probe" { 1, 1 }

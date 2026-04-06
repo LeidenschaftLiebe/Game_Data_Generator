@@ -1,0 +1,19 @@
+V1 [Breakfast café]
+
+A café owner’s appetite is either Strong (s) with probability 0.9 or Weak (w) with probability 0.1.
+
+After learning that appetite, the owner chooses between Bagel (B) and Quiche (Q).
+A food critic then sees whether the owner picked Bagel (B) or Quiche (Q), but does not know whether the appetite was strong or weak.
+
+If the owner picks Bagel (B) after Strong (s), the critic chooses between NoFeature (NF) and Feature (F).
+NoFeature (NF) gives 3 to the owner and 1 to the critic.
+Feature (F) gives 1 to the owner and 0 to the critic.
+
+If the owner picks Bagel (B) after Weak (w), NoFeature (NF) gives 2 and 0,
+while Feature (F) gives 0 and 1.
+
+If the owner picks Quiche (Q) after Strong (s), NoFeature (NF) gives 2 and 1,
+while Feature (F) gives 0 and 0.
+
+If the owner picks Quiche (Q) after Weak (w), NoFeature (NF) gives 3 and 0,
+while Feature (F) gives 1 and 1.

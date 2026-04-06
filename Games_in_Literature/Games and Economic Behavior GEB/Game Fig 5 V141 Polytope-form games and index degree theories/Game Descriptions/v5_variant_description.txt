@@ -1,0 +1,19 @@
+V5 [Academic presentation]
+
+A researcher’s preparation level is either Strong (s) with probability 0.9 or Weak (w) with probability 0.1.
+
+After learning that privately, the researcher chooses between BoldPresentation (B) and QuietPresentation (Q).
+An evaluator observes whether the presentation was bold or quiet, but does not know the true preparation level.
+
+If the researcher chooses BoldPresentation (B) after Strong (s), the evaluator chooses between NoProbe (NF) and Probe (F).
+NoProbe (NF) gives 3 to the researcher and 1 to the evaluator.
+Probe (F) gives 1 to the researcher and 0 to the evaluator.
+
+If the researcher chooses BoldPresentation (B) after Weak (w), NoProbe (NF) gives 2 and 0,
+while Probe (F) gives 0 and 1.
+
+If the researcher chooses QuietPresentation (Q) after Strong (s), NoProbe (NF) gives 2 and 1,
+while Probe (F) gives 0 and 0.
+
+If the researcher chooses QuietPresentation (Q) after Weak (w), NoProbe (NF) gives 3 and 0,
+while Probe (F) gives 1 and 1.

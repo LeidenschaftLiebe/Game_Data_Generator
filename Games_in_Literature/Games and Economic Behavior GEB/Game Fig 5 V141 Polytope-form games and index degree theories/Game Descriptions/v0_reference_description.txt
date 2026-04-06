@@ -1,0 +1,29 @@
+V0 [Original article context]
+
+This figure is the Beer-and-Quiche Game used in the article as an example when discussing equilibrium components and degree.
+
+Nature first determines the player’s type.
+With probability 0.9 the type is s, and with probability 0.1 the type is w.
+
+After learning the type, the first player chooses between B and Q.
+The second player sees whether B or Q was chosen, but does not observe whether the type is s or w.
+
+If the first player chooses B after type s, the second player chooses between NF and F.
+NF leads to 3 for the first player and 1 for the second player.
+F leads to 1 for the first player and 0 for the second player.
+
+If the first player chooses B after type w, the second player again chooses between NF and F.
+NF leads to 2 for the first player and 0 for the second player.
+F leads to 0 for the first player and 1 for the second player.
+
+If the first player chooses Q after type s, the second player chooses between NF and F.
+NF leads to 2 for the first player and 1 for the second player.
+F leads to 0 for the first player and 0 for the second player.
+
+If the first player chooses Q after type w, the second player chooses between NF and F.
+NF leads to 3 for the first player and 0 for the second player.
+F leads to 1 for the first player and 1 for the second player.
+
+So the second player has one later choice after observing B,
+and another later choice after observing Q,
+but in each case cannot tell whether the earlier type was s or w.

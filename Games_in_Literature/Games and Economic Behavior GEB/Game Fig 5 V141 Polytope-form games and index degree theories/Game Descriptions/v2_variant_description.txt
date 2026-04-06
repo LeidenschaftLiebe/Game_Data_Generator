@@ -1,0 +1,19 @@
+V2 [Job interview]
+
+A candidate’s confidence level is either Strong (s) with probability 0.9 or Worried (w) with probability 0.1.
+
+After learning that privately, the candidate chooses between BoldPitch (B) and QuietPitch (Q).
+The recruiter sees whether the candidate made the bold or quiet pitch, but does not know the confidence level.
+
+If the candidate makes BoldPitch (B) after Strong (s), the recruiter chooses between NoFollowup (NF) and Followup (F).
+NoFollowup (NF) gives 3 to the candidate and 1 to the recruiter.
+Followup (F) gives 1 to the candidate and 0 to the recruiter.
+
+If the candidate makes BoldPitch (B) after Worried (w), NoFollowup (NF) gives 2 and 0,
+while Followup (F) gives 0 and 1.
+
+If the candidate makes QuietPitch (Q) after Strong (s), NoFollowup (NF) gives 2 and 1,
+while Followup (F) gives 0 and 0.
+
+If the candidate makes QuietPitch (Q) after Worried (w), NoFollowup (NF) gives 3 and 0,
+while Followup (F) gives 1 and 1.

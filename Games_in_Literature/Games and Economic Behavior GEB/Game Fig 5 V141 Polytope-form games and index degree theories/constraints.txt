@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Chance moves first: s with probability 9/10 and w with probability 1/10.
+After learning the type, Player 1 chooses between B and Q.
+The receiver has one infoset after observing B and another infoset after observing Q. 
+Within each infoset, the receiver does not observe whether the type was s or w.
+Seed payoff constraint: s -> B -> NF gives 3, 1.

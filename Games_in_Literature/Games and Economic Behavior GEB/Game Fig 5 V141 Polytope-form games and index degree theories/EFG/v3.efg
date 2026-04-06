@@ -1,0 +1,18 @@
+EFG 2 R "GEB Beer-and-Quiche Fig. 5 V3" { "Politician" "Journalist" }
+""
+
+c "" 1 "" { "StrongCampaign" 9/10 "WeakCampaign" 1/10 } 0
+p "" 1 1 "" { "BoldSpeech" "QuietSpeech" } 0
+p "" 2 1 "" { "NoChallenge" "FactCheck" } 0
+t "" 1 "StrongCampaign_BoldSpeech_NoChallenge" { 3, 1 }
+t "" 2 "StrongCampaign_BoldSpeech_FactCheck" { 1, 0 }
+p "" 2 2 "" { "NoChallenge" "FactCheck" } 0
+t "" 5 "StrongCampaign_QuietSpeech_NoChallenge" { 2, 1 }
+t "" 6 "StrongCampaign_QuietSpeech_FactCheck" { 0, 0 }
+p "" 1 2 "" { "BoldSpeech" "QuietSpeech" } 0
+p "" 2 1 "" { "NoChallenge" "FactCheck" } 0
+t "" 3 "WeakCampaign_BoldSpeech_NoChallenge" { 2, 0 }
+t "" 4 "WeakCampaign_BoldSpeech_FactCheck" { 0, 1 }
+p "" 2 2 "" { "NoChallenge" "FactCheck" } 0
+t "" 7 "WeakCampaign_QuietSpeech_NoChallenge" { 3, 0 }
+t "" 8 "WeakCampaign_QuietSpeech_FactCheck" { 1, 1 }

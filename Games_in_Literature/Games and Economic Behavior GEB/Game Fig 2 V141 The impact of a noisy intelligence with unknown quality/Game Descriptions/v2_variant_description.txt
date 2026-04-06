@@ -1,0 +1,16 @@
+V2 [Secret missile site]
+
+A weaker state is deciding whether to prepare a hidden missile site.
+It first chooses between NoSite (NB) and BuildSite (B).
+
+An intelligence network then sends one of two signals.
+It sends MissileSignal (b) with probability 0.8 if a site was built, and with probability 0.2 if no site was built.
+It sends ClearSignal (nb) with probability 0.8 if no site was built, and with probability 0.2 if a site was built.
+
+After receiving the signal, the stronger state chooses between AttackSite (A) and DoNotAttack (NA).
+
+If the weaker state chose NoSite (NB) and the stronger state chooses AttackSite (A), the result is 0.2 for the weaker state and 0.3 for the stronger state.
+If the weaker state chose NoSite (NB) and the stronger state chooses DoNotAttack (NA), the result is 0.7 for the weaker state and 1 for the stronger state.
+
+If the weaker state chose BuildSite (B) and the stronger state chooses AttackSite (A), the result is 0 for the weaker state and 0.8 for the stronger state.
+If the weaker state chose BuildSite (B) and the stronger state chooses DoNotAttack (NA), the result is 1 for the weaker state and 0 for the stronger state.

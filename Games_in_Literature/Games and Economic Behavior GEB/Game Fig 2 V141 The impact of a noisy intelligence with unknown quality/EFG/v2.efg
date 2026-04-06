@@ -1,0 +1,18 @@
+EFG 2 R "GEB Complete Information Fig. 2 V2" { "Weaker State" "Stronger State" }
+""
+
+p "" 1 1 "" { "NoSite" "BuildSite" } 0
+c "" 1 "" { "MissileSignal" 1/5 "ClearSignal" 4/5 } 0
+p "" 2 1 "" { "AttackSite" "DoNotAttack" } 0
+t "" 1 "NoSite_MissileSignal_AttackSite" { 1/5, 3/10 }
+t "" 2 "NoSite_MissileSignal_DoNotAttack" { 7/10, 1 }
+p "" 2 2 "" { "AttackSite" "DoNotAttack" } 0
+t "" 5 "NoSite_ClearSignal_AttackSite" { 1/5, 3/10 }
+t "" 6 "NoSite_ClearSignal_DoNotAttack" { 7/10, 1 }
+c "" 2 "" { "MissileSignal" 4/5 "ClearSignal" 1/5 } 0
+p "" 2 1 "" { "AttackSite" "DoNotAttack" } 0
+t "" 3 "BuildSite_MissileSignal_AttackSite" { 0, 4/5 }
+t "" 4 "BuildSite_MissileSignal_DoNotAttack" { 1, 0 }
+p "" 2 2 "" { "AttackSite" "DoNotAttack" } 0
+t "" 7 "BuildSite_ClearSignal_AttackSite" { 0, 4/5 }
+t "" 8 "BuildSite_ClearSignal_DoNotAttack" { 1, 0 }

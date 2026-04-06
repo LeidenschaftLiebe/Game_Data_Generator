@@ -1,0 +1,16 @@
+V5 [Smuggling inspection]
+
+A firm decides whether to smuggle restricted goods.
+The firm first chooses between NoSmuggling (NB) and Smuggle (B).
+
+A border scanner then sends a noisy signal.
+It sends ContrabandSignal (b) with probability 0.8 if goods were smuggled, and with probability 0.2 if they were not.
+It sends CleanSignal (nb) with probability 0.8 if there was no smuggling, and with probability 0.2 if there was.
+
+After the signal, customs chooses between Seize (A) and Release (NA).
+
+If the firm chose NoSmuggling (NB) and customs chooses Seize (A), the result is 0.2 for the firm and 0.3 for customs.
+If the firm chose NoSmuggling (NB) and customs chooses Release (NA), the result is 0.7 for the firm and 1 for customs.
+
+If the firm chose Smuggle (B) and customs chooses Seize (A), the result is 0 for the firm and 0.8 for customs.
+If the firm chose Smuggle (B) and customs chooses Release (NA), the result is 1 for the firm and 0 for customs.

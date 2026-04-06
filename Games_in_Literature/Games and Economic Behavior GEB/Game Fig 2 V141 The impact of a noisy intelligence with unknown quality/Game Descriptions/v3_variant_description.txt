@@ -1,0 +1,16 @@
+V3 [Illegal lab inspection]
+
+A suspected organization decides whether to run a hidden lab.
+It first chooses between NoLab (NB) and BuildLab (B).
+
+A monitoring system then sends a noisy signal.
+It sends LabSignal (b) with probability 0.8 if the lab exists, and with probability 0.2 if it does not.
+It sends NoLabSignal (nb) with probability 0.8 if the lab does not exist, and with probability 0.2 if it does.
+
+After that, the authority chooses between Raid (A) and NoRaid (NA).
+
+If the organization chose NoLab (NB) and the authority chooses Raid (A), the result is 0.2 for the organization and 0.3 for the authority.
+If the organization chose NoLab (NB) and the authority chooses NoRaid (NA), the result is 0.7 for the organization and 1 for the authority.
+
+If the organization chose BuildLab (B) and the authority chooses Raid (A), the result is 0 for the organization and 0.8 for the authority.
+If the organization chose BuildLab (B) and the authority chooses NoRaid (NA), the result is 1 for the organization and 0 for the authority.

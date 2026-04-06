@@ -1,0 +1,16 @@
+V1 [Cyberweapon program]
+
+A smaller country is deciding whether to start a secret cyberweapon program.
+The stronger rival first faces the smaller country’s choice between NoProgram (NB) and BuildProgram (B).
+
+Then the rival’s monitoring system produces a signal.
+It sends ProgramDetected (b) with probability 0.8 if a program was built, and with probability 0.2 if no program was built.
+It sends NoProgramDetected (nb) with probability 0.8 if no program was built, and with probability 0.2 if a program was built.
+
+After seeing the signal, the rival chooses between StrikeServers (A) and HoldFire (NA).
+
+If the smaller country chose NoProgram (NB) and the rival chooses StrikeServers (A), the result is 0.2 for the smaller country and 0.3 for the rival.
+If the smaller country chose NoProgram (NB) and the rival chooses HoldFire (NA), the result is 0.7 for the smaller country and 1 for the rival.
+
+If the smaller country chose BuildProgram (B) and the rival chooses StrikeServers (A), the result is 0 for the smaller country and 0.8 for the rival.
+If the smaller country chose BuildProgram (B) and the rival chooses HoldFire (NA), the result is 1 for the smaller country and 0 for the rival.

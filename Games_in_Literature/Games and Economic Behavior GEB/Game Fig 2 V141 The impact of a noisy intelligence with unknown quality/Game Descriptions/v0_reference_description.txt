@@ -1,0 +1,32 @@
+V0 [Original article context]
+
+This game comes from the article’s complete-information version of a deterrence problem between two enemy countries.
+Player 1 is a weak country that decides whether to build a bomb, and Player 2 is a strong country that may attack 
+after receiving a signal from an intelligence system.
+
+Set the parameters to: alpha = 0.8, r1 = 0.2, r2 = 0.3, w1 = 0.7, and w2 = 0.8.
+
+These values satisfy the article’s restrictions:
+alpha is between 1/2 and 1, and 0 < r_i < w_i < 1 for i = 1, 2.
+
+Player 1 moves first and chooses between NB and B.
+NB means not building a bomb, and B means building a bomb.
+
+After that, the intelligence system sends a signal to Player 2.
+The two possible signals are b and nb.
+
+If Player 1 chose NB, the signal nb is sent with probability 0.8, and the signal b is sent with probability 0.2.
+If Player 1 chose B, the signal b is sent with probability 0.8, and the signal nb is sent with probability 0.2.
+
+After seeing the signal, Player 2 chooses between A and NA.
+A means attacking Player 1, and NA means not attacking.
+
+If Player 1 chose NB and Player 2 chooses A, the result is 0.2 for Player 1 and 0.3 for Player 2.
+If Player 1 chose NB and Player 2 chooses NA, the result is 0.7 for Player 1 and 1 for Player 2.
+
+If Player 1 chose B and Player 2 chooses A, the result is 0 for Player 1 and 0.8 for Player 2.
+If Player 1 chose B and Player 2 chooses NA, the result is 1 for Player 1 and 0 for Player 2.
+
+Player 2 sees the signal but does not directly observe whether Player 1 actually chose NB or B.
+So after signal b, Player 2 must use the same decision rule at both b nodes, 
+and after signal nb, Player 2 must use the same decision rule at both nb nodes.

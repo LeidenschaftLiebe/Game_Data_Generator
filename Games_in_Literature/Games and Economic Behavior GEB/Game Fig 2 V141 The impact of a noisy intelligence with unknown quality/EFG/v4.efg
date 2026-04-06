@@ -1,0 +1,18 @@
+EFG 2 R "GEB Complete Information Fig. 2 V4" { "Athlete" "Governing Body" }
+""
+
+p "" 1 1 "" { "NoBanUse" "BanUse" } 0
+c "" 1 "" { "PositiveSignal" 1/5 "NegativeSignal" 4/5 } 0
+p "" 2 1 "" { "Suspend" "NoSuspend" } 0
+t "" 1 "NoBanUse_PositiveSignal_Suspend" { 1/5, 3/10 }
+t "" 2 "NoBanUse_PositiveSignal_NoSuspend" { 7/10, 1 }
+p "" 2 2 "" { "Suspend" "NoSuspend" } 0
+t "" 5 "NoBanUse_NegativeSignal_Suspend" { 1/5, 3/10 }
+t "" 6 "NoBanUse_NegativeSignal_NoSuspend" { 7/10, 1 }
+c "" 2 "" { "PositiveSignal" 4/5 "NegativeSignal" 1/5 } 0
+p "" 2 1 "" { "Suspend" "NoSuspend" } 0
+t "" 3 "BanUse_PositiveSignal_Suspend" { 0, 4/5 }
+t "" 4 "BanUse_PositiveSignal_NoSuspend" { 1, 0 }
+p "" 2 2 "" { "Suspend" "NoSuspend" } 0
+t "" 7 "BanUse_NegativeSignal_Suspend" { 0, 4/5 }
+t "" 8 "BanUse_NegativeSignal_NoSuspend" { 1, 0 }

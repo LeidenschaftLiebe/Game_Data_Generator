@@ -1,0 +1,16 @@
+V4 [Doping control]
+
+An athlete decides whether to use a banned enhancement method.
+The athlete first chooses between NoBanUse (NB) and BanUse (B).
+
+A testing system then sends a signal.
+It sends PositiveSignal (b) with probability 0.8 if the athlete used the method, and with probability 0.2 if the athlete did not.
+It sends NegativeSignal (nb) with probability 0.8 if the athlete did not use the method, and with probability 0.2 if the athlete did.
+
+After seeing the signal, the governing body chooses between Suspend (A) and NoSuspend (NA).
+
+If the athlete chose NoBanUse (NB) and the governing body chooses Suspend (A), the result is 0.2 for the athlete and 0.3 for the governing body.
+If the athlete chose NoBanUse (NB) and the governing body chooses NoSuspend (NA), the result is 0.7 for the athlete and 1 for the governing body.
+
+If the athlete chose BanUse (B) and the governing body chooses Suspend (A), the result is 0 for the athlete and 0.8 for the governing body.
+If the athlete chose BanUse (B) and the governing body chooses NoSuspend (NA), the result is 1 for the athlete and 0 for the governing body.

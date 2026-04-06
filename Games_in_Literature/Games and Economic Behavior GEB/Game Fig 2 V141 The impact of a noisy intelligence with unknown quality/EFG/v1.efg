@@ -1,0 +1,18 @@
+EFG 2 R "GEB Complete Information Fig. 2 V1" { "Smaller Country" "Rival" }
+""
+
+p "" 1 1 "" { "NoProgram" "BuildProgram" } 0
+c "" 1 "" { "ProgramDetected" 1/5 "NoProgramDetected" 4/5 } 0
+p "" 2 1 "" { "StrikeServers" "HoldFire" } 0
+t "" 1 "NoProgram_ProgramDetected_StrikeServers" { 1/5, 3/10 }
+t "" 2 "NoProgram_ProgramDetected_HoldFire" { 7/10, 1 }
+p "" 2 2 "" { "StrikeServers" "HoldFire" } 0
+t "" 5 "NoProgram_NoProgramDetected_StrikeServers" { 1/5, 3/10 }
+t "" 6 "NoProgram_NoProgramDetected_HoldFire" { 7/10, 1 }
+c "" 2 "" { "ProgramDetected" 4/5 "NoProgramDetected" 1/5 } 0
+p "" 2 1 "" { "StrikeServers" "HoldFire" } 0
+t "" 3 "BuildProgram_ProgramDetected_StrikeServers" { 0, 4/5 }
+t "" 4 "BuildProgram_ProgramDetected_HoldFire" { 1, 0 }
+p "" 2 2 "" { "StrikeServers" "HoldFire" } 0
+t "" 7 "BuildProgram_NoProgramDetected_StrikeServers" { 0, 4/5 }
+t "" 8 "BuildProgram_NoProgramDetected_HoldFire" { 1, 0 }

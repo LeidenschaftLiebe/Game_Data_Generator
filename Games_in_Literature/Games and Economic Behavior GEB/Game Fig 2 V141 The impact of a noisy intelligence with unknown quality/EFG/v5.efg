@@ -1,0 +1,18 @@
+EFG 2 R "GEB Complete Information Fig. 2 V5" { "Firm" "Customs" }
+""
+
+p "" 1 1 "" { "NoSmuggling" "Smuggle" } 0
+c "" 1 "" { "ContrabandSignal" 1/5 "CleanSignal" 4/5 } 0
+p "" 2 1 "" { "Seize" "Release" } 0
+t "" 1 "NoSmuggling_ContrabandSignal_Seize" { 1/5, 3/10 }
+t "" 2 "NoSmuggling_ContrabandSignal_Release" { 7/10, 1 }
+p "" 2 2 "" { "Seize" "Release" } 0
+t "" 5 "NoSmuggling_CleanSignal_Seize" { 1/5, 3/10 }
+t "" 6 "NoSmuggling_CleanSignal_Release" { 7/10, 1 }
+c "" 2 "" { "ContrabandSignal" 4/5 "CleanSignal" 1/5 } 0
+p "" 2 1 "" { "Seize" "Release" } 0
+t "" 3 "Smuggle_ContrabandSignal_Seize" { 0, 4/5 }
+t "" 4 "Smuggle_ContrabandSignal_Release" { 1, 0 }
+p "" 2 2 "" { "Seize" "Release" } 0
+t "" 7 "Smuggle_CleanSignal_Seize" { 0, 4/5 }
+t "" 8 "Smuggle_CleanSignal_Release" { 1, 0 }

@@ -1,0 +1,18 @@
+EFG 2 R "GEB Complete Information Fig. 2 V3" { "Organization" "Authority" }
+""
+
+p "" 1 1 "" { "NoLab" "BuildLab" } 0
+c "" 1 "" { "LabSignal" 1/5 "NoLabSignal" 4/5 } 0
+p "" 2 1 "" { "Raid" "NoRaid" } 0
+t "" 1 "NoLab_LabSignal_Raid" { 1/5, 3/10 }
+t "" 2 "NoLab_LabSignal_NoRaid" { 7/10, 1 }
+p "" 2 2 "" { "Raid" "NoRaid" } 0
+t "" 5 "NoLab_NoLabSignal_Raid" { 1/5, 3/10 }
+t "" 6 "NoLab_NoLabSignal_NoRaid" { 7/10, 1 }
+c "" 2 "" { "LabSignal" 4/5 "NoLabSignal" 1/5 } 0
+p "" 2 1 "" { "Raid" "NoRaid" } 0
+t "" 3 "BuildLab_LabSignal_Raid" { 0, 4/5 }
+t "" 4 "BuildLab_LabSignal_NoRaid" { 1, 0 }
+p "" 2 2 "" { "Raid" "NoRaid" } 0
+t "" 7 "BuildLab_NoLabSignal_Raid" { 0, 4/5 }
+t "" 8 "BuildLab_NoLabSignal_NoRaid" { 1, 0 }

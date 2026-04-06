@@ -1,0 +1,11 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Player 1 moves first, then the intelligence system sends a signal, then Player 2 chooses whether to attack.
+The signal probabilities are fixed: after NB, signal b occurs with probability 1/5 and nb with probability 4/5; 
+after B, signal b occurs with probability 4/5 and nb with probability 1/5.
+Player 2 has one infoset after signal b and one infoset after signal nb. 
+At each of those later choices, Player 2 observes the signal but not whether Player 1 previously chose NB or B.
+Seed payoff constraint: after NB, then b, then A, the payoffs are 1/5, 3/10.

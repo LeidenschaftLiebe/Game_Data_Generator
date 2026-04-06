@@ -1,0 +1,30 @@
+EFG 2 R "GEB Peace Negotiation Fig. 2 V1" { "Startup A" "Startup B" "Platform" }
+""
+
+c "" 1 "" { "state_I" 1/2 "state_II" 1/2 } 0
+p "" 1 1 "" { "WalkAway" "ProposeMerger" } 0
+p "" 3 1 "" { "PressureA" "StayNeutral" "PressureB" } 0
+t "" 1 "I_Awalk_PressureA" { 0, 10, 1 }
+t "" 2 "I_Awalk_StayNeutral" { 6, 6, 0 }
+t "" 3 "I_Awalk_PressureB" { 10, 0, 0 }
+p "" 2 1 "" { "RejectMerger" "AcceptMerger" } 0
+p "" 3 1 "" { "PressureA" "StayNeutral" "PressureB" } 0
+t "" 4 "I_Breject_PressureA" { 0, 10, 0 }
+t "" 5 "I_Breject_StayNeutral" { 6, 6, 0 }
+t "" 6 "I_Breject_PressureB" { 10, 0, 1 }
+p "" 3 2 "" { "FavorA" "FavorB" } 0
+t "" 7 "I_merger_FavorA" { 5, 4, 4 }
+t "" 8 "I_merger_FavorB" { 4, 5, 4 }
+p "" 1 1 "" { "WalkAway" "ProposeMerger" } 0
+p "" 3 4 "" { "PressureB" "StayNeutral" "PressureA" } 0
+t "" 9 "II_Awalk_PressureB" { 10, 0, 0 }
+t "" 10 "II_Awalk_StayNeutral" { 6, 6, 0 }
+t "" 11 "II_Awalk_PressureA" { 0, 10, 1 }
+p "" 2 1 "" { "RejectMerger" "AcceptMerger" } 0
+p "" 3 4 "" { "PressureB" "StayNeutral" "PressureA" } 0
+t "" 12 "II_Breject_PressureB" { 10, 0, 1 }
+t "" 13 "II_Breject_StayNeutral" { 6, 6, 0 }
+t "" 14 "II_Breject_PressureA" { 0, 10, 0 }
+p "" 3 3 "" { "FavorB" "FavorA" } 0
+t "" 15 "II_merger_FavorB" { 4, 5, 4 }
+t "" 16 "II_merger_FavorA" { 5, 4, 4 }

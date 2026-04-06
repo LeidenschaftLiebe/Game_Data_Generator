@@ -1,0 +1,23 @@
+V5 [Film co-production]
+
+Two studios, A and B, are deciding whether to complete a co-production deal, and a distributor C reacts afterward.
+The market environment is either state I or state II, each with probability 1/2.
+
+Studio A first chooses between LeaveDeal (war) and StayInDeal (peace).
+A does not know the state.
+
+If A chooses LeaveDeal (war), then distributor C moves.
+
+In state I, BackA (p_A), StayNeutral (n), and BackB (p_B) give 0, 10, 1; 6, 6, 0; and 10, 0, 0.
+
+If A chooses StayInDeal (peace), then studio B chooses between LeaveLater (war) and CommitDeal (peace).
+
+In state I, after LeaveLater (war), BackA (p_A), StayNeutral (n), and BackB (p_B) give 0, 10, 0; 6, 6, 0; and 10, 0, 1.
+
+In state I, after CommitDeal (peace), FavorA (f_A) and FavorB (f_B) give 5, 4, 4 and 4, 5, 4.
+
+In state II, after LeaveDeal (war), BackB (p_B), StayNeutral (n), and BackA (p_A) give 10, 0, 0; 6, 6, 0; and 0, 10, 1.
+
+In state II, after LeaveLater (war), BackB (p_B), StayNeutral (n), and BackA (p_A) give 10, 0, 1; 6, 6, 0; and 0, 10, 0.
+
+In state II, after CommitDeal (peace), FavorB (f_B) and FavorA (f_A) give 4, 5, 4 and 5, 4, 4.

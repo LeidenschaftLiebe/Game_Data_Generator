@@ -1,0 +1,30 @@
+EFG 2 R "GEB Peace Negotiation Fig. 2 V4" { "Firm A" "Firm B" "Regulator" }
+""
+
+c "" 1 "" { "state_I" 1/2 "state_II" 1/2 } 0
+p "" 1 1 "" { "GoAlone" "JoinPact" } 0
+p "" 3 1 "" { "PenalizeA" "StayNeutral" "PenalizeB" } 0
+t "" 1 "I_Aalone_PenalizeA" { 0, 10, 1 }
+t "" 2 "I_Aalone_StayNeutral" { 6, 6, 0 }
+t "" 3 "I_Aalone_PenalizeB" { 10, 0, 0 }
+p "" 2 1 "" { "RefusePact" "JoinToo" } 0
+p "" 3 1 "" { "PenalizeA" "StayNeutral" "PenalizeB" } 0
+t "" 4 "I_Brefuse_PenalizeA" { 0, 10, 0 }
+t "" 5 "I_Brefuse_StayNeutral" { 6, 6, 0 }
+t "" 6 "I_Brefuse_PenalizeB" { 10, 0, 1 }
+p "" 3 2 "" { "FavorA" "FavorB" } 0
+t "" 7 "I_pact_FavorA" { 5, 4, 4 }
+t "" 8 "I_pact_FavorB" { 4, 5, 4 }
+p "" 1 1 "" { "GoAlone" "JoinPact" } 0
+p "" 3 4 "" { "PenalizeB" "StayNeutral" "PenalizeA" } 0
+t "" 9 "II_Aalone_PenalizeB" { 10, 0, 0 }
+t "" 10 "II_Aalone_StayNeutral" { 6, 6, 0 }
+t "" 11 "II_Aalone_PenalizeA" { 0, 10, 1 }
+p "" 2 1 "" { "RefusePact" "JoinToo" } 0
+p "" 3 4 "" { "PenalizeB" "StayNeutral" "PenalizeA" } 0
+t "" 12 "II_Brefuse_PenalizeB" { 10, 0, 1 }
+t "" 13 "II_Brefuse_StayNeutral" { 6, 6, 0 }
+t "" 14 "II_Brefuse_PenalizeA" { 0, 10, 0 }
+p "" 3 3 "" { "FavorB" "FavorA" } 0
+t "" 15 "II_pact_FavorB" { 4, 5, 4 }
+t "" 16 "II_pact_FavorA" { 5, 4, 4 }

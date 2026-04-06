@@ -1,0 +1,40 @@
+V0 [Original article context]
+
+This figure is the paper’s peace-negotiation example.
+Two small countries, A and B, are involved in peace negotiations, and country C reacts afterward.
+The paper uses the example to show how ambiguity can support peace and when that outcome is sequential.
+
+For this dataset instance, set mu = 1/2 and x = 0.
+
+Nature first chooses between state I and state II, each with probability 1/2.
+
+Country A moves first and does not know the state.
+A chooses between war and peace.
+
+If A chooses war, then C moves.
+
+In state I, C chooses between p_A, n, and p_B.
+These lead to 0, 10, 1; 6, 6, 0; and 10, 0, 0.
+
+If A chooses peace, then B moves and also does not know the state.
+B chooses between war and peace.
+
+In state I, if B chooses war, then C chooses between p_A, n, and p_B.
+These lead to 0, 10, 0; 6, 6, 0; and 10, 0, 1.
+
+In state I, if B chooses peace, then C chooses between f_A and f_B.
+These lead to 5, 4, 4 and 4, 5, 4.
+
+In state II, if A chooses war, then C chooses between p_B, n, and p_A.
+These lead to 10, 0, 0; 6, 6, 0; and 0, 10, 1.
+
+In state II, if B chooses war, then C chooses between p_B, n, and p_A.
+These lead to 10, 0, 1; 6, 6, 0; and 0, 10, 0.
+
+In state II, if B chooses peace, then C chooses between f_B and f_A.
+These lead to 4, 5, 4 and 5, 4, 4.
+
+So A does not know the state when moving first.
+B also does not know the state when deciding after A chose peace.
+C knows the state, but within a given state C cannot tell whether the failure came from 
+A choosing war first or from B choosing war later.

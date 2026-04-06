@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Nature moves first and chooses state_I or state_II with probability 1/2 each.
+A has one infoset across the two state nodes, so A does not know whether the state is I or II when choosing war or peace.
+After A chooses peace, B has one infoset across the two states, so B also does not know whether the state is I or II when choosing war or peace.
+In each state, C has one infoset across the two failed-negotiation nodes in that state: one after A chose war and one after B later chose war.
+Seed payoff constraint: in state_I, after A chooses war, then p_A, the payoffs are 0, 10, 1.

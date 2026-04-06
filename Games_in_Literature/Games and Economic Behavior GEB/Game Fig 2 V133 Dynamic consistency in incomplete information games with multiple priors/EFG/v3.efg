@@ -1,0 +1,30 @@
+EFG 2 R "GEB Peace Negotiation Fig. 2 V3" { "Party A" "Party B" "Bloc C" }
+""
+
+c "" 1 "" { "state_I" 1/2 "state_II" 1/2 } 0
+p "" 1 1 "" { "BreakTalks" "SupportCoalition" } 0
+p "" 3 1 "" { "PunishA" "StayNeutral" "PunishB" } 0
+t "" 1 "I_Abreak_PunishA" { 0, 10, 1 }
+t "" 2 "I_Abreak_StayNeutral" { 6, 6, 0 }
+t "" 3 "I_Abreak_PunishB" { 10, 0, 0 }
+p "" 2 1 "" { "RejectCoalition" "JoinCoalition" } 0
+p "" 3 1 "" { "PunishA" "StayNeutral" "PunishB" } 0
+t "" 4 "I_Breject_PunishA" { 0, 10, 0 }
+t "" 5 "I_Breject_StayNeutral" { 6, 6, 0 }
+t "" 6 "I_Breject_PunishB" { 10, 0, 1 }
+p "" 3 2 "" { "FavorA" "FavorB" } 0
+t "" 7 "I_coalition_FavorA" { 5, 4, 4 }
+t "" 8 "I_coalition_FavorB" { 4, 5, 4 }
+p "" 1 1 "" { "BreakTalks" "SupportCoalition" } 0
+p "" 3 4 "" { "PunishB" "StayNeutral" "PunishA" } 0
+t "" 9 "II_Abreak_PunishB" { 10, 0, 0 }
+t "" 10 "II_Abreak_StayNeutral" { 6, 6, 0 }
+t "" 11 "II_Abreak_PunishA" { 0, 10, 1 }
+p "" 2 1 "" { "RejectCoalition" "JoinCoalition" } 0
+p "" 3 4 "" { "PunishB" "StayNeutral" "PunishA" } 0
+t "" 12 "II_Breject_PunishB" { 10, 0, 1 }
+t "" 13 "II_Breject_StayNeutral" { 6, 6, 0 }
+t "" 14 "II_Breject_PunishA" { 0, 10, 0 }
+p "" 3 3 "" { "FavorB" "FavorA" } 0
+t "" 15 "II_coalition_FavorB" { 4, 5, 4 }
+t "" 16 "II_coalition_FavorA" { 5, 4, 4 }

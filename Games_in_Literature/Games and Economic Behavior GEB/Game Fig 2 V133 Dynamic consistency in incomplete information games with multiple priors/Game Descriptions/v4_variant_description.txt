@@ -1,0 +1,23 @@
+V4 [Cybersecurity pact]
+
+Two firms, A and B, are deciding whether to join a cybersecurity pact, and a regulator C reacts afterward.
+The environment is either state I or state II, each with probability 1/2.
+
+Firm A first chooses between GoAlone (war) and JoinPact (peace).
+A does not know the state.
+
+If A chooses GoAlone (war), then regulator C moves.
+
+In state I, PenalizeA (p_A), StayNeutral (n), and PenalizeB (p_B) give 0, 10, 1; 6, 6, 0; and 10, 0, 0.
+
+If A chooses JoinPact (peace), then firm B chooses between RefusePact (war) and JoinToo (peace).
+
+In state I, after RefusePact (war), PenalizeA (p_A), StayNeutral (n), and PenalizeB (p_B) give 0, 10, 0; 6, 6, 0; and 10, 0, 1.
+
+In state I, after JoinToo (peace), FavorA (f_A) and FavorB (f_B) give 5, 4, 4 and 4, 5, 4.
+
+In state II, after GoAlone (war), PenalizeB (p_B), StayNeutral (n), and PenalizeA (p_A) give 10, 0, 0; 6, 6, 0; and 0, 10, 1.
+
+In state II, after RefusePact (war), PenalizeB (p_B), StayNeutral (n), and PenalizeA (p_A) give 10, 0, 1; 6, 6, 0; and 0, 10, 0.
+
+In state II, after JoinToo (peace), FavorB (f_B) and FavorA (f_A) give 4, 5, 4 and 5, 4, 4.

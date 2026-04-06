@@ -1,0 +1,30 @@
+EFG 2 R "GEB Peace Negotiation Fig. 2 V2" { "Lab A" "Lab B" "Funding Agency" }
+""
+
+c "" 1 "" { "state_I" 1/2 "state_II" 1/2 } 0
+p "" 1 1 "" { "CompeteAlone" "Cooperate" } 0
+p "" 3 1 "" { "BackA" "StayNeutral" "BackB" } 0
+t "" 1 "I_Acompete_BackA" { 0, 10, 1 }
+t "" 2 "I_Acompete_StayNeutral" { 6, 6, 0 }
+t "" 3 "I_Acompete_BackB" { 10, 0, 0 }
+p "" 2 1 "" { "RefuseAlliance" "JoinAlliance" } 0
+p "" 3 1 "" { "BackA" "StayNeutral" "BackB" } 0
+t "" 4 "I_Brefuse_BackA" { 0, 10, 0 }
+t "" 5 "I_Brefuse_StayNeutral" { 6, 6, 0 }
+t "" 6 "I_Brefuse_BackB" { 10, 0, 1 }
+p "" 3 2 "" { "FavorA" "FavorB" } 0
+t "" 7 "I_alliance_FavorA" { 5, 4, 4 }
+t "" 8 "I_alliance_FavorB" { 4, 5, 4 }
+p "" 1 1 "" { "CompeteAlone" "Cooperate" } 0
+p "" 3 4 "" { "BackB" "StayNeutral" "BackA" } 0
+t "" 9 "II_Acompete_BackB" { 10, 0, 0 }
+t "" 10 "II_Acompete_StayNeutral" { 6, 6, 0 }
+t "" 11 "II_Acompete_BackA" { 0, 10, 1 }
+p "" 2 1 "" { "RefuseAlliance" "JoinAlliance" } 0
+p "" 3 4 "" { "BackB" "StayNeutral" "BackA" } 0
+t "" 12 "II_Brefuse_BackB" { 10, 0, 1 }
+t "" 13 "II_Brefuse_StayNeutral" { 6, 6, 0 }
+t "" 14 "II_Brefuse_BackA" { 0, 10, 0 }
+p "" 3 3 "" { "FavorB" "FavorA" } 0
+t "" 15 "II_alliance_FavorB" { 4, 5, 4 }
+t "" 16 "II_alliance_FavorA" { 5, 4, 4 }

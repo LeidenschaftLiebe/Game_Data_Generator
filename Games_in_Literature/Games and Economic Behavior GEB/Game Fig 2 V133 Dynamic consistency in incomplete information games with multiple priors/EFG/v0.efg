@@ -1,0 +1,30 @@
+EFG 2 R "GEB Peace Negotiation Fig. 2" { "A" "B" "C" }
+""
+
+c "" 1 "" { "state_I" 1/2 "state_II" 1/2 } 0
+p "" 1 1 "" { "war" "peace" } 0
+p "" 3 1 "" { "p_A" "n" "p_B" } 0
+t "" 1 "I_Awar_pA" { 0, 10, 1 }
+t "" 2 "I_Awar_n" { 6, 6, 0 }
+t "" 3 "I_Awar_pB" { 10, 0, 0 }
+p "" 2 1 "" { "war" "peace" } 0
+p "" 3 1 "" { "p_A" "n" "p_B" } 0
+t "" 4 "I_Bwar_pA" { 0, 10, 0 }
+t "" 5 "I_Bwar_n" { 6, 6, 0 }
+t "" 6 "I_Bwar_pB" { 10, 0, 1 }
+p "" 3 2 "" { "f_A" "f_B" } 0
+t "" 7 "I_peace_fA" { 5, 4, 4 }
+t "" 8 "I_peace_fB" { 4, 5, 4 }
+p "" 1 1 "" { "war" "peace" } 0
+p "" 3 4 "" { "p_B" "n" "p_A" } 0
+t "" 9 "II_Awar_pB" { 10, 0, 0 }
+t "" 10 "II_Awar_n" { 6, 6, 0 }
+t "" 11 "II_Awar_pA" { 0, 10, 1 }
+p "" 2 1 "" { "war" "peace" } 0
+p "" 3 4 "" { "p_B" "n" "p_A" } 0
+t "" 12 "II_Bwar_pB" { 10, 0, 1 }
+t "" 13 "II_Bwar_n" { 6, 6, 0 }
+t "" 14 "II_Bwar_pA" { 0, 10, 0 }
+p "" 3 3 "" { "f_B" "f_A" } 0
+t "" 15 "II_peace_fB" { 4, 5, 4 }
+t "" 16 "II_peace_fA" { 5, 4, 4 }

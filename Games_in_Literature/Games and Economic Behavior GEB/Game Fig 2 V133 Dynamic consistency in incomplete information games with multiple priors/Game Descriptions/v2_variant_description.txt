@@ -1,0 +1,23 @@
+V2 [Research alliance]
+
+Two labs, A and B, are deciding whether to form a research alliance, and a funding agency C reacts afterward.
+The environment is either state I or state II, each with probability 1/2.
+
+Lab A first chooses between CompeteAlone (war) and Cooperate (peace).
+A does not know the state.
+
+If A chooses CompeteAlone (war), then the funding agency C moves.
+
+In state I, BackA (p_A), StayNeutral (n), and BackB (p_B) give 0, 10, 1; 6, 6, 0; and 10, 0, 0.
+
+If A chooses Cooperate (peace), then lab B chooses between RefuseAlliance (war) and JoinAlliance (peace).
+
+In state I, after RefuseAlliance (war), BackA (p_A), StayNeutral (n), and BackB (p_B) give 0, 10, 0; 6, 6, 0; and 10, 0, 1.
+
+In state I, after JoinAlliance (peace), FavorA (f_A) and FavorB (f_B) give 5, 4, 4 and 4, 5, 4.
+
+In state II, after CompeteAlone (war), BackB (p_B), StayNeutral (n), and BackA (p_A) give 10, 0, 0; 6, 6, 0; and 0, 10, 1.
+
+In state II, after RefuseAlliance (war), BackB (p_B), StayNeutral (n), and BackA (p_A) give 10, 0, 1; 6, 6, 0; and 0, 10, 0.
+
+In state II, after JoinAlliance (peace), FavorB (f_B) and FavorA (f_A) give 4, 5, 4 and 5, 4, 4.

@@ -1,0 +1,23 @@
+V1 [Startup merger talks]
+
+Two startups, A and B, are considering a merger, and a large platform C reacts afterward.
+Market conditions are either state I or state II, each with probability 1/2.
+
+Startup A first chooses between WalkAway (war) and ProposeMerger (peace).
+A does not know the state.
+
+If A chooses WalkAway (war), then platform C moves.
+
+In state I, PressureA (p_A), StayNeutral (n), and PressureB (p_B) give 0, 10, 1; 6, 6, 0; and 10, 0, 0.
+
+If A chooses ProposeMerger (peace), then startup B chooses between RejectMerger (war) and AcceptMerger (peace).
+
+In state I, after RejectMerger (war), PressureA (p_A), StayNeutral (n), and PressureB (p_B) give 0, 10, 0; 6, 6, 0; and 10, 0, 1.
+
+In state I, after AcceptMerger (peace), FavorA (f_A) and FavorB (f_B) give 5, 4, 4 and 4, 5, 4.
+
+In state II, after WalkAway (war), PressureB (p_B), StayNeutral (n), and PressureA (p_A) give 10, 0, 0; 6, 6, 0; and 0, 10, 1.
+
+In state II, after RejectMerger (war), PressureB (p_B), StayNeutral (n), and PressureA (p_A) give 10, 0, 1; 6, 6, 0; and 0, 10, 0.
+
+In state II, after AcceptMerger (peace), FavorB (f_B) and FavorA (f_A) give 4, 5, 4 and 5, 4, 4.

@@ -1,0 +1,10 @@
+EFG 2 R "GEB Vanguard-Citizen Game Fig. 1" { "Vanguard" "Citizen" }
+""
+
+p "" 1 1 "" { "NoRevolt" "Revolt" } 0
+p "" 2 1 "" { "NoRevolt" "Revolt" } 0
+t "" 1 "NoRevolt_NoRevolt" { 1, 2 }
+t "" 2 "NoRevolt_Revolt" { 3, 0 }
+p "" 2 2 "" { "NoRevolt" "Revolt" } 0
+t "" 3 "Revolt_NoRevolt" { 0, 3 }
+t "" 4 "Revolt_Revolt" { 3, 2 }

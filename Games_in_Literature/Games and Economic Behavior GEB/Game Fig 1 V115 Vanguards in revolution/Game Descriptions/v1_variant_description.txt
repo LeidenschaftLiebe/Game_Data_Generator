@@ -1,0 +1,12 @@
+V1 [Ancient tunnel expedition]
+
+A lead explorer moves first and chooses between StayCamped and EnterRuins.
+A scout sees that choice and then chooses between StayCamped and EnterRuins.
+
+If both stay camped, this gives 1 to the lead explorer, and 2 to the scout.
+
+If the lead explorer stays camped but the scout enters alone, this gives 3 to the lead explorer, and 0 to the scout.
+
+If the lead explorer enters but the scout stays camped, this gives 0 to the lead explorer, and 3 to the scout.
+
+If both enter the ruins, this gives 3 to the lead explorer, and 2 to the scout.

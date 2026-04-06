@@ -1,0 +1,10 @@
+EFG 2 R "GEB Vanguard-Citizen Game Fig. 1 V1" { "LeadExplorer" "Scout" }
+""
+
+p "" 1 1 "" { "StayCamped" "EnterRuins" } 0
+p "" 2 1 "" { "StayCamped" "EnterRuins" } 0
+t "" 1 "StayCamped_StayCamped" { 1, 2 }
+t "" 2 "StayCamped_EnterRuins" { 3, 0 }
+p "" 2 2 "" { "StayCamped" "EnterRuins" } 0
+t "" 3 "EnterRuins_StayCamped" { 0, 3 }
+t "" 4 "EnterRuins_EnterRuins" { 3, 2 }

@@ -1,0 +1,18 @@
+V0 [Original article context]
+
+This is the article’s basic vanguard-citizen setup.
+A vanguard moves first and chooses between NoRevolt and Revolt.
+A citizen then sees that choice and chooses between NoRevolt and Revolt.
+
+The parameter values used here are: h1 = 1, h2 = 2, w1 = 3, l2 = 0, l1 = 0, w2 = 3, theta = 2, and z = 1.
+
+If the vanguard chooses NoRevolt and the citizen also chooses NoRevolt, this gives 1 to the vanguard, and 2 to the citizen.
+
+If the vanguard chooses NoRevolt and the citizen chooses Revolt, this gives 3 to the vanguard, and 0 to the citizen.
+
+If the vanguard chooses Revolt and the citizen chooses NoRevolt, this gives 0 to the vanguard, and 3 to the citizen.
+
+If the vanguard chooses Revolt and the citizen chooses Revolt, this gives 3 to the vanguard, and 2 to the citizen.
+
+The article uses this simple structure to capture a core Leninist idea: 
+the organized vanguard must move first, and the citizen then decides whether to follow.

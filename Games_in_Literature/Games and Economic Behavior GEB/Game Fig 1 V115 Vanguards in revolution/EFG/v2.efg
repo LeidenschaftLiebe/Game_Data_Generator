@@ -1,0 +1,10 @@
+EFG 2 R "GEB Vanguard-Citizen Game Fig. 1 V2" { "RidgeCaptain" "RopeSpecialist" }
+""
+
+p "" 1 1 "" { "HoldLine" "CrossCrevasse" } 0
+p "" 2 1 "" { "HoldLine" "CrossCrevasse" } 0
+t "" 1 "HoldLine_HoldLine" { 1, 2 }
+t "" 2 "HoldLine_CrossCrevasse" { 3, 0 }
+p "" 2 2 "" { "HoldLine" "CrossCrevasse" } 0
+t "" 3 "CrossCrevasse_HoldLine" { 0, 3 }
+t "" 4 "CrossCrevasse_CrossCrevasse" { 3, 2 }

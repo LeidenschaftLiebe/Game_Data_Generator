@@ -1,0 +1,12 @@
+V3 [Hidden archive recovery]
+
+A recovery leader moves first and chooses between LeaveArchive and BreakIn.
+An inside contact sees that choice and then chooses between LeaveArchive and BreakIn.
+
+If both leave the archive alone, this gives 1 to the recovery leader, and 2 to the inside contact.
+
+If the recovery leader leaves it alone but the inside contact breaks in alone, this gives 3 to the recovery leader, and 0 to the inside contact.
+
+If the recovery leader breaks in but the inside contact does not help, this gives 0 to the recovery leader, and 3 to the inside contact.
+
+If both break in, this gives 3 to the recovery leader, and 2 to the inside contact.

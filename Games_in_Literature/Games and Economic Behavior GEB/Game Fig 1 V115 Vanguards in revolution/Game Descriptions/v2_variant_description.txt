@@ -1,0 +1,12 @@
+V2 [Glacier breach mission]
+
+A ridge captain moves first and chooses between HoldLine and CrossCrevasse.
+A rope specialist sees that choice and then chooses between HoldLine and CrossCrevasse.
+
+If both hold the line, this gives 1 to the ridge captain, and 2 to the rope specialist.
+
+If the ridge captain holds the line but the rope specialist crosses alone, this gives 3 to the ridge captain, and 0 to the rope specialist.
+
+If the ridge captain crosses but the rope specialist refuses to follow, this gives 0 to the ridge captain, and 3 to the rope specialist.
+
+If both cross together, this gives 3 to the ridge captain, and 2 to the rope specialist.

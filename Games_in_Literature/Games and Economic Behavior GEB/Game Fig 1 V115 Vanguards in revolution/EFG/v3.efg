@@ -1,0 +1,10 @@
+EFG 2 R "GEB Vanguard-Citizen Game Fig. 1 V3" { "RecoveryLeader" "InsideContact" }
+""
+
+p "" 1 1 "" { "LeaveArchive" "BreakIn" } 0
+p "" 2 1 "" { "LeaveArchive" "BreakIn" } 0
+t "" 1 "LeaveArchive_LeaveArchive" { 1, 2 }
+t "" 2 "LeaveArchive_BreakIn" { 3, 0 }
+p "" 2 2 "" { "LeaveArchive" "BreakIn" } 0
+t "" 3 "BreakIn_LeaveArchive" { 0, 3 }
+t "" 4 "BreakIn_BreakIn" { 3, 2 }

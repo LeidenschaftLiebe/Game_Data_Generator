@@ -1,0 +1,10 @@
+EFG 2 R "GEB Vanguard-Citizen Game Fig. 1 V4" { "FirelineLeader" "TrailGuide" }
+""
+
+p "" 1 1 "" { "StaySheltered" "PushThrough" } 0
+p "" 2 1 "" { "StaySheltered" "PushThrough" } 0
+t "" 1 "StaySheltered_StaySheltered" { 1, 2 }
+t "" 2 "StaySheltered_PushThrough" { 3, 0 }
+p "" 2 2 "" { "StaySheltered" "PushThrough" } 0
+t "" 3 "PushThrough_StaySheltered" { 0, 3 }
+t "" 4 "PushThrough_PushThrough" { 3, 2 }

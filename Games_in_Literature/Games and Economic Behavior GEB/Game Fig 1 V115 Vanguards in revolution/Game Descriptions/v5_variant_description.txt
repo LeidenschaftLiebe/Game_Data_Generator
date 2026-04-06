@@ -1,0 +1,12 @@
+V5 [Coral reef rescue]
+
+A dive chief moves first and chooses between WaitOffshore and EnterReef.
+A navigation diver sees that choice and then chooses between WaitOffshore and EnterReef.
+
+If both wait offshore, this gives 1 to the dive chief, and 2 to the navigation diver.
+
+If the dive chief waits offshore but the navigation diver enters alone, this gives 3 to the dive chief, and 0 to the navigation diver.
+
+If the dive chief enters but the navigation diver does not follow, this gives 0 to the dive chief, and 3 to the navigation diver.
+
+If both enter together, this gives 3 to the dive chief, and 2 to the navigation diver.

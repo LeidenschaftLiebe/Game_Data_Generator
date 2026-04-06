@@ -1,0 +1,12 @@
+V4 [Wildfire breakout route]
+
+A fireline leader moves first and chooses between StaySheltered and PushThrough.
+A trail guide sees that choice and then chooses between StaySheltered and PushThrough.
+
+If both stay sheltered, this gives 1 to the fireline leader, and 2 to the trail guide.
+
+If the fireline leader stays sheltered but the trail guide pushes through alone, this gives 3 to the fireline leader, and 0 to the trail guide.
+
+If the fireline leader pushes through but the trail guide stays behind, this gives 0 to the fireline leader, and 3 to the trail guide.
+
+If both push through together, this gives 3 to the fireline leader, and 2 to the trail guide.

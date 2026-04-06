@@ -1,0 +1,14 @@
+EFG 2 R "GEB Extensive-form Game Fig. 1 V2" { "Candidate" "Employer" }
+""
+
+p "" 1 1 "" { "TakeOutsideOffer" "ContinueInterview" } 0
+p "" 2 1 "" { "StrongCounteroffer" "WeakCounteroffer" } 0
+t "" 1 "TakeOutsideOffer_StrongCounteroffer" { 7, 11 }
+t "" 2 "TakeOutsideOffer_WeakCounteroffer" { 0, 3 }
+p "" 2 2 "" { "PositiveReview" "MixedReview" } 0
+p "" 1 2 "" { "AcceptRole" "DeclineRole" } 0
+t "" 3 "ContinueInterview_PositiveReview_AcceptRole" { 10, 15 }
+t "" 4 "ContinueInterview_PositiveReview_DeclineRole" { 2, 1 }
+p "" 1 2 "" { "AcceptRole" "DeclineRole" } 0
+t "" 5 "ContinueInterview_MixedReview_AcceptRole" { 1, 2 }
+t "" 6 "ContinueInterview_MixedReview_DeclineRole" { 8, 6 }

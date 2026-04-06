@@ -1,0 +1,14 @@
+EFG 2 R "GEB Extensive-form Game Fig. 1 V3" { "Lead Researcher" "Collaborator" }
+""
+
+p "" 1 1 "" { "WorkAlone" "InviteCollaboration" } 0
+p "" 2 1 "" { "GenerousSupport" "LimitedSupport" } 0
+t "" 1 "WorkAlone_GenerousSupport" { 7, 11 }
+t "" 2 "WorkAlone_LimitedSupport" { 0, 3 }
+p "" 2 2 "" { "EncourageBoldPlan" "EncourageCaution" } 0
+p "" 1 2 "" { "PushForward" "ScaleBack" } 0
+t "" 3 "InviteCollaboration_EncourageBoldPlan_PushForward" { 10, 15 }
+t "" 4 "InviteCollaboration_EncourageBoldPlan_ScaleBack" { 2, 1 }
+p "" 1 2 "" { "PushForward" "ScaleBack" } 0
+t "" 5 "InviteCollaboration_EncourageCaution_PushForward" { 1, 2 }
+t "" 6 "InviteCollaboration_EncourageCaution_ScaleBack" { 8, 6 }

@@ -1,0 +1,20 @@
+V0 [Original article context]
+
+This figure is a stylized abstract game from the article.
+The article uses it as an example of an extensive-form game G when discussing reductions and alternative strategy representations.
+
+Player 1 moves first and chooses between L and R.
+
+If Player 1 chooses L, then Player 2 chooses between l_1 and r_1.
+If Player 2 chooses l_1, the result is 7 for Player 1 and 11 for Player 2.
+If Player 2 chooses r_1, the result is 0 for Player 1 and 3 for Player 2.
+
+If Player 1 chooses R, then Player 2 chooses between l and r.
+After that, Player 1 moves again and chooses between L_1 and R_1.
+At that last step, Player 1 does not know whether Player 2 chose l or r.
+
+If the path is R, then l, then L_1, the result is 10 for Player 1 and 15 for Player 2.
+If the path is R, then l, then R_1, the result is 2 for Player 1 and 1 for Player 2.
+
+If the path is R, then r, then L_1, the result is 1 for Player 1 and 2 for Player 2.
+If the path is R, then r, then R_1, the result is 8 for Player 1 and 6 for Player 2.

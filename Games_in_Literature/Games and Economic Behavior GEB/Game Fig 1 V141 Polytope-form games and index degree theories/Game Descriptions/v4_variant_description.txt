@@ -1,0 +1,17 @@
+V4 [Political campaign]
+
+A candidate moves first and chooses between RunLocal (L) and RunNational (R).
+
+If the candidate chooses RunLocal (L), the campaign manager chooses between FullSupport (l_1) and MinimalSupport (r_1).
+FullSupport (l_1) leads to 7 for the candidate and 11 for the manager.
+MinimalSupport (r_1) leads to 0 for the candidate and 3 for the manager.
+
+If the candidate chooses RunNational (R), the campaign manager chooses between OptimisticMessage (l) and CautiousMessage (r).
+The candidate then chooses between GoAggressive (L_1) and GoMeasured (R_1).
+At that point, the candidate does not know which message the manager chose.
+
+RunNational (R), OptimisticMessage (l), GoAggressive (L_1) leads to 10 for the candidate and 15 for the manager.
+RunNational (R), OptimisticMessage (l), GoMeasured (R_1) leads to 2 for the candidate and 1 for the manager.
+
+RunNational (R), CautiousMessage (r), GoAggressive (L_1) leads to 1 for the candidate and 2 for the manager.
+RunNational (R), CautiousMessage (r), GoMeasured (R_1) leads to 8 for the candidate and 6 for the manager.

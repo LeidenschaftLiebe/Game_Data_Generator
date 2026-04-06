@@ -1,0 +1,14 @@
+EFG 2 R "GEB Extensive-form Game Fig. 1 V5" { "Product Lead" "Marketing Head" }
+""
+
+p "" 1 1 "" { "QuietRelease" "BigLaunch" } 0
+p "" 2 1 "" { "HeavyPromotion" "LightPromotion" } 0
+t "" 1 "QuietRelease_HeavyPromotion" { 7, 11 }
+t "" 2 "QuietRelease_LightPromotion" { 0, 3 }
+p "" 2 2 "" { "PositiveSpin" "RiskWarning" } 0
+p "" 1 2 "" { "ShipFast" "RefineMore" } 0
+t "" 3 "BigLaunch_PositiveSpin_ShipFast" { 10, 15 }
+t "" 4 "BigLaunch_PositiveSpin_RefineMore" { 2, 1 }
+p "" 1 2 "" { "ShipFast" "RefineMore" } 0
+t "" 5 "BigLaunch_RiskWarning_ShipFast" { 1, 2 }
+t "" 6 "BigLaunch_RiskWarning_RefineMore" { 8, 6 }

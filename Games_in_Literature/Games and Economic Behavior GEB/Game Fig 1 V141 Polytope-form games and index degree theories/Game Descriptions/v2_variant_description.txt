@@ -1,0 +1,17 @@
+V2 [Job offer]
+
+A candidate moves first and chooses between TakeOutsideOffer (L) and ContinueInterview (R).
+
+If the candidate chooses TakeOutsideOffer (L), the employer chooses between StrongCounteroffer (l_1) and WeakCounteroffer (r_1).
+StrongCounteroffer (l_1) leads to 7 for the candidate and 11 for the employer.
+WeakCounteroffer (r_1) leads to 0 for the candidate and 3 for the employer.
+
+If the candidate chooses ContinueInterview (R), the employer chooses between PositiveReview (l) and MixedReview (r).
+The candidate then chooses between AcceptRole (L_1) and DeclineRole (R_1).
+At that point, the candidate does not know whether the employer gave the positive or mixed review.
+
+ContinueInterview (R), PositiveReview (l), AcceptRole (L_1) leads to 10 for the candidate and 15 for the employer.
+ContinueInterview (R), PositiveReview (l), DeclineRole (R_1) leads to 2 for the candidate and 1 for the employer.
+
+ContinueInterview (R), MixedReview (r), AcceptRole (L_1) leads to 1 for the candidate and 2 for the employer.
+ContinueInterview (R), MixedReview (r), DeclineRole (R_1) leads to 8 for the candidate and 6 for the employer.

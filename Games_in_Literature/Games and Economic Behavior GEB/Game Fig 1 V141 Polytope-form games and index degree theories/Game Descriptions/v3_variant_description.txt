@@ -1,0 +1,17 @@
+V3 [Research collaboration]
+
+A lead researcher moves first and chooses between WorkAlone (L) and InviteCollaboration (R).
+
+If the lead researcher chooses WorkAlone (L), the collaborator chooses between GenerousSupport (l_1) and LimitedSupport (r_1).
+GenerousSupport (l_1) leads to 7 for the lead researcher and 11 for the collaborator.
+LimitedSupport (r_1) leads to 0 for the lead researcher and 3 for the collaborator.
+
+If the lead researcher chooses InviteCollaboration (R), the collaborator chooses between EncourageBoldPlan (l) and EncourageCaution (r).
+The lead researcher then chooses between PushForward (L_1) and ScaleBack (R_1).
+At that point, the lead researcher does not know which encouragement was given.
+
+InviteCollaboration (R), EncourageBoldPlan (l), PushForward (L_1) leads to 10 for the lead researcher and 15 for the collaborator.
+InviteCollaboration (R), EncourageBoldPlan (l), ScaleBack (R_1) leads to 2 for the lead researcher and 1 for the collaborator.
+
+InviteCollaboration (R), EncourageCaution (r), PushForward (L_1) leads to 1 for the lead researcher and 2 for the collaborator.
+InviteCollaboration (R), EncourageCaution (r), ScaleBack (R_1) leads to 8 for the lead researcher and 6 for the collaborator.

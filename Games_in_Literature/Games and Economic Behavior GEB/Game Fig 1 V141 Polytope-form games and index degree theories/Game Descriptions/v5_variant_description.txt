@@ -1,0 +1,17 @@
+V5 [Product launch]
+
+A product team lead moves first and chooses between QuietRelease (L) and BigLaunch (R).
+
+If the lead chooses QuietRelease (L), the marketing head chooses between HeavyPromotion (l_1) and LightPromotion (r_1).
+HeavyPromotion (l_1) leads to 7 for the lead and 11 for the marketing head.
+LightPromotion (r_1) leads to 0 for the lead and 3 for the marketing head.
+
+If the lead chooses BigLaunch (R), the marketing head chooses between PositiveSpin (l) and RiskWarning (r).
+The lead then chooses between ShipFast (L_1) and RefineMore (R_1).
+At that point, the lead does not know whether the marketing head chose positive spin or risk warning.
+
+BigLaunch (R), PositiveSpin (l), ShipFast (L_1) leads to 10 for the lead and 15 for the marketing head.
+BigLaunch (R), PositiveSpin (l), RefineMore (R_1) leads to 2 for the lead and 1 for the marketing head.
+
+BigLaunch (R), RiskWarning (r), ShipFast (L_1) leads to 1 for the lead and 2 for the marketing head.
+BigLaunch (R), RiskWarning (r), RefineMore (R_1) leads to 8 for the lead and 6 for the marketing head.

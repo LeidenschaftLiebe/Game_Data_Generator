@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Player 1 moves first. If Player 1 chooses L, Player 2 then chooses between l_1 and r_1. 
+If Player 1 chooses R, Player 2 chooses between l and r, and then Player 1 moves again.
+The two final Player 1 decision nodes after R_l and R_r are in the same infoset.
+Seed payoff constraint: R_l_L1 gives 10, 15.

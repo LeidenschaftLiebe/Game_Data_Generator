@@ -1,0 +1,17 @@
+V1 [Market entry]
+
+A startup founder moves first and chooses between StaySmall (L) and Expand (R).
+
+If the founder chooses StaySmall (L), an investor then chooses between SafeFunding (l_1) and TightFunding (r_1).
+SafeFunding (l_1) leads to 7 for the founder and 11 for the investor.
+TightFunding (r_1) leads to 0 for the founder and 3 for the investor.
+
+If the founder chooses Expand (R), the investor chooses between SignalOptimism (l) and SignalCaution (r).
+The founder then makes one more choice between LaunchNow (L_1) and DelayLaunch (R_1).
+At that point, the founder does not know which signal the investor chose.
+
+Expand (R), SignalOptimism (l), LaunchNow (L_1) leads to 10 for the founder and 15 for the investor.
+Expand (R), SignalOptimism (l), DelayLaunch (R_1) leads to 2 for the founder and 1 for the investor.
+
+Expand (R), SignalCaution (r), LaunchNow (L_1) leads to 1 for the founder and 2 for the investor.
+Expand (R), SignalCaution (r), DelayLaunch (R_1) leads to 8 for the founder and 6 for the investor.

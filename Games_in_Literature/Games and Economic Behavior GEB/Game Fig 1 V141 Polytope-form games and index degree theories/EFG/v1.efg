@@ -1,0 +1,14 @@
+EFG 2 R "GEB Extensive-form Game Fig. 1 V1" { "Founder" "Investor" }
+""
+
+p "" 1 1 "" { "StaySmall" "Expand" } 0
+p "" 2 1 "" { "SafeFunding" "TightFunding" } 0
+t "" 1 "StaySmall_SafeFunding" { 7, 11 }
+t "" 2 "StaySmall_TightFunding" { 0, 3 }
+p "" 2 2 "" { "SignalOptimism" "SignalCaution" } 0
+p "" 1 2 "" { "LaunchNow" "DelayLaunch" } 0
+t "" 3 "Expand_SignalOptimism_LaunchNow" { 10, 15 }
+t "" 4 "Expand_SignalOptimism_DelayLaunch" { 2, 1 }
+p "" 1 2 "" { "LaunchNow" "DelayLaunch" } 0
+t "" 5 "Expand_SignalCaution_LaunchNow" { 1, 2 }
+t "" 6 "Expand_SignalCaution_DelayLaunch" { 8, 6 }

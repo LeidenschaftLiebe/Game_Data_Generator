@@ -1,0 +1,24 @@
+V0 — Broker, seller, and buyer
+
+There are three players: a broker, a seller, and a buyer.
+
+The broker moves first and chooses between Out₁ and In₁.
+
+If the broker chooses Out₁, the interaction ends immediately.
+The broker receives 2, while the seller and buyer each receive 0.
+
+If the broker chooses In₁, the seller moves next and chooses between U₂ and D₂.
+
+If the seller chooses U₂, the buyer gets the final move.
+
+If the seller chooses D₂, the buyer still gets the final move, but cannot tell which of the seller’s two choices led there.
+
+At the buyer’s decision point, the buyer chooses between U₃ and D₃.
+
+If the path is In₁, U₂, U₃, the outcome is reward 3 to each of the three players.
+
+If the path is In₁, U₂, D₃, the outcome is reward 0 to each player.
+
+If the path is In₁, D₂, U₃, the outcome is reward 0 to each player.
+
+If the path is In₁, D₂, D₃, the outcome is reward 1 to each player.

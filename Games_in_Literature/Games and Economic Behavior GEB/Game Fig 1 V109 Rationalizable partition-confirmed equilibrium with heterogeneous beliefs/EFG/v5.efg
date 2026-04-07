@@ -1,0 +1,12 @@
+EFG 2 R "Fig1 Game V5" { "Producer" "Studio" "Streaming Platform" }
+""
+
+p "" 1 1 "" { "KeepOffline" "BringToStudio" } 0
+t "" 1 "KeepOffline" { 2, 0, 0 }
+p "" 2 1 "" { "WidePush" "SoftPush" } 0
+p "" 3 1 "" { "FeatureRelease" "QuietRelease" } 0
+t "" 2 "BringToStudio_WidePush_FeatureRelease" { 3, 3, 3 }
+t "" 3 "BringToStudio_WidePush_QuietRelease" { 0, 0, 0 }
+p "" 3 1 "" { "FeatureRelease" "QuietRelease" } 0
+t "" 4 "BringToStudio_SoftPush_FeatureRelease" { 0, 0, 0 }
+t "" 5 "BringToStudio_SoftPush_QuietRelease" { 1, 1, 1 }

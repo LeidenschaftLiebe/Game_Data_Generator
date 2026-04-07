@@ -1,0 +1,6 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+1) Check that the two decision nodes of Player 3 are in the same information set.
+2) Check the anchor payoff: the outcome after In1 -> U2 -> U3 is (3, 3, 3).

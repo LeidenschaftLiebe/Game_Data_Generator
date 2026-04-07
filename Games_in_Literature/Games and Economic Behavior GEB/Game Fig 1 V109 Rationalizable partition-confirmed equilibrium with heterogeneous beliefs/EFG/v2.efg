@@ -1,0 +1,12 @@
+EFG 2 R "Fig1 Game V2" { "Curator" "Gallery" "Collector" }
+""
+
+p "" 1 1 "" { "WithdrawWork" "PresentWork" } 0
+t "" 1 "WithdrawWork" { 2, 0, 0 }
+p "" 2 1 "" { "PremiumPositioning" "LowKeyPositioning" } 0
+p "" 3 1 "" { "Buy" "WalkAway" } 0
+t "" 2 "PresentWork_PremiumPositioning_Buy" { 3, 3, 3 }
+t "" 3 "PresentWork_PremiumPositioning_WalkAway" { 0, 0, 0 }
+p "" 3 1 "" { "Buy" "WalkAway" } 0
+t "" 4 "PresentWork_LowKeyPositioning_Buy" { 0, 0, 0 }
+t "" 5 "PresentWork_LowKeyPositioning_WalkAway" { 1, 1, 1 }

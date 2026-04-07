@@ -1,0 +1,24 @@
+V2 — Curator, gallery, and collector
+
+There are three parties in an art sale: a curator, a gallery, and a collector.
+
+The curator moves first and chooses whether to Withdraw Work (Out₁) or Present Work (In₁).
+
+If the curator chooses Withdraw Work (Out₁), the sale process stops.
+The curator gets reward 2, and the gallery and collector each get 0.
+
+If the curator chooses Present Work (In₁), the gallery moves next.
+
+The gallery chooses between Premium Positioning (U₂) and Low-Key Positioning (D₂).
+
+The collector then makes the last choice, but cannot tell which of those two gallery approaches was taken.
+
+The collector chooses between Buy (U₃) and Walk Away (D₃).
+
+If the path is Present Work (In₁), Premium Positioning (U₂), Buy (U₃), each player gets reward 3.
+
+If the path is Present Work (In₁), Premium Positioning (U₂), Walk Away (D₃), each player gets reward 0.
+
+If the path is Present Work (In₁), Low-Key Positioning (D₂), Buy (U₃), each player gets reward 0.
+
+If the path is Present Work (In₁), Low-Key Positioning (D₂), Walk Away (D₃), each player gets reward 1.

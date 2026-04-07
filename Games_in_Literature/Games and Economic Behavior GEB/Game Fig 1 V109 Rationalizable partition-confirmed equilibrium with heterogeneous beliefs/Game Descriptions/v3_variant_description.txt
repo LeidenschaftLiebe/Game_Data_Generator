@@ -1,0 +1,24 @@
+V3 — Promoter, venue, and headline act
+
+There are three sides in a live event negotiation: a promoter, a venue, and a headline act.
+
+The promoter moves first and chooses whether to Drop Project (Out₁) or Push Ahead (In₁).
+
+If the promoter chooses Drop Project (Out₁), the deal ends there.
+The promoter gets reward 2, while the venue and headline act each get 0.
+
+If the promoter chooses Push Ahead (In₁), the venue moves next.
+
+The venue chooses between Prime Support (U₂) and Basic Support (D₂).
+
+The headline act then chooses last, but does not know which support package the venue selected.
+
+The headline act chooses between Commit (U₃) and Decline (D₃).
+
+If the path is Push Ahead (In₁), Prime Support (U₂), Commit (U₃), all three receive reward 3.
+
+If the path is Push Ahead (In₁), Prime Support (U₂), Decline (D₃), all three receive reward 0.
+
+If the path is Push Ahead (In₁), Basic Support (D₂), Commit (U₃), all three receive reward 0.
+
+If the path is Push Ahead (In₁), Basic Support (D₂), Decline (D₃), all three receive reward 1.

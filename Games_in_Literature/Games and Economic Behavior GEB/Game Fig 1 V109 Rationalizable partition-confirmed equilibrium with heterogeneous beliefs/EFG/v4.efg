@@ -1,0 +1,12 @@
+EFG 2 R "Fig1 Game V4" { "Scout" "Club" "Player" }
+""
+
+p "" 1 1 "" { "StepBack" "RecommendMove" } 0
+t "" 1 "StepBack" { 2, 0, 0 }
+p "" 2 1 "" { "TopPackage" "LowerPackage" } 0
+p "" 3 1 "" { "Sign" "HoldOff" } 0
+t "" 2 "RecommendMove_TopPackage_Sign" { 3, 3, 3 }
+t "" 3 "RecommendMove_TopPackage_HoldOff" { 0, 0, 0 }
+p "" 3 1 "" { "Sign" "HoldOff" } 0
+t "" 4 "RecommendMove_LowerPackage_Sign" { 0, 0, 0 }
+t "" 5 "RecommendMove_LowerPackage_HoldOff" { 1, 1, 1 }

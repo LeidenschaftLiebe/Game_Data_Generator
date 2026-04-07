@@ -1,0 +1,24 @@
+V5 — Producer, studio, and streaming platform
+
+There are three sides in a distribution deal: a producer, a studio, and a streaming platform.
+
+The producer moves first and chooses whether to Keep Offline (Out₁) or Bring to Studio (In₁).
+
+If the producer chooses Keep Offline (Out₁), the discussion ends there.
+The producer gets reward 2, and the studio and platform each get 0.
+
+If the producer chooses Bring to Studio (In₁), the studio moves next.
+
+The studio chooses between Wide Push (U₂) and Soft Push (D₂).
+
+The streaming platform then moves last, but cannot tell which studio choice was made.
+
+The platform chooses between Feature Release (U₃) and Quiet Release (D₃).
+
+If the path is Bring to Studio (In₁), Wide Push (U₂), Feature Release (U₃), each player gets reward 3.
+
+If the path is Bring to Studio (In₁), Wide Push (U₂), Quiet Release (D₃), each player gets reward 0.
+
+If the path is Bring to Studio (In₁), Soft Push (D₂), Feature Release (U₃), each player gets reward 0.
+
+If the path is Bring to Studio (In₁), Soft Push (D₂), Quiet Release (D₃), each player gets reward 1.

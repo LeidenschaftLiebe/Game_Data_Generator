@@ -1,0 +1,12 @@
+EFG 2 R "Fig1 Game V1" { "Recruiter" "Employer" "Candidate" }
+""
+
+p "" 1 1 "" { "Pass" "SendForward" } 0
+t "" 1 "Pass" { 2, 0, 0 }
+p "" 2 1 "" { "StrongOffer" "WeakOffer" } 0
+p "" 3 1 "" { "Accept" "Reject" } 0
+t "" 2 "SendForward_StrongOffer_Accept" { 3, 3, 3 }
+t "" 3 "SendForward_StrongOffer_Reject" { 0, 0, 0 }
+p "" 3 1 "" { "Accept" "Reject" } 0
+t "" 4 "SendForward_WeakOffer_Accept" { 0, 0, 0 }
+t "" 5 "SendForward_WeakOffer_Reject" { 1, 1, 1 }

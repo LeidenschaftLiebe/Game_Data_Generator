@@ -1,0 +1,12 @@
+EFG 2 R "Fig1 Game V3" { "Promoter" "Venue" "Headline Act" }
+""
+
+p "" 1 1 "" { "DropProject" "PushAhead" } 0
+t "" 1 "DropProject" { 2, 0, 0 }
+p "" 2 1 "" { "PrimeSupport" "BasicSupport" } 0
+p "" 3 1 "" { "Commit" "Decline" } 0
+t "" 2 "PushAhead_PrimeSupport_Commit" { 3, 3, 3 }
+t "" 3 "PushAhead_PrimeSupport_Decline" { 0, 0, 0 }
+p "" 3 1 "" { "Commit" "Decline" } 0
+t "" 4 "PushAhead_BasicSupport_Commit" { 0, 0, 0 }
+t "" 5 "PushAhead_BasicSupport_Decline" { 1, 1, 1 }

@@ -1,0 +1,24 @@
+V1 — Recruiter, employer, and candidate
+
+There are three people in this hiring process: a recruiter, an employer, and a candidate.
+
+The recruiter moves first and chooses whether to Pass (Out₁) or Send Forward (In₁).
+
+If the recruiter chooses Pass (Out₁), the process ends at once.
+The recruiter gets reward 2, while the employer and candidate each get 0.
+
+If the recruiter chooses Send Forward (In₁), the employer moves next.
+
+The employer then chooses between Strong Offer (U₂) and Weak Offer (D₂).
+
+After that, the candidate makes the last decision, but the candidate does not know which offer level the employer chose.
+
+The candidate chooses between Accept (U₃) and Reject (D₃).
+
+If the path is Send Forward (In₁), Strong Offer (U₂), Accept (U₃), all three end with reward 3.
+
+If the path is Send Forward (In₁), Strong Offer (U₂), Reject (D₃), all three end with reward 0.
+
+If the path is Send Forward (In₁), Weak Offer (D₂), Accept (U₃), all three end with reward 0.
+
+If the path is Send Forward (In₁), Weak Offer (D₂), Reject (D₃), all three end with reward 1.

@@ -1,0 +1,24 @@
+V4 — Scout, club, and player
+
+There are three people in this transfer process: a scout, a club, and a player.
+
+The scout moves first and chooses whether to Step Back (Out₁) or Recommend Move (In₁).
+
+If the scout chooses Step Back (Out₁), the process ends immediately.
+The scout gets reward 2, while the club and player each get 0.
+
+If the scout chooses Recommend Move (In₁), the club moves next.
+
+The club chooses between Top Package (U₂) and Lower Package (D₂).
+
+The player then makes the final decision, but cannot observe which package level the club actually selected.
+
+The player chooses between Sign (U₃) and Hold Off (D₃).
+
+If the path is Recommend Move (In₁), Top Package (U₂), Sign (U₃), all three receive reward 3.
+
+If the path is Recommend Move (In₁), Top Package (U₂), Hold Off (D₃), all three receive reward 0.
+
+If the path is Recommend Move (In₁), Lower Package (D₂), Sign (U₃), all three receive reward 0.
+
+If the path is Recommend Move (In₁), Lower Package (D₂), Hold Off (D₃), all three receive reward 1.

@@ -1,0 +1,11 @@
+EFG 2 R "GEB Fig. 10 Medical Decision V2" { "Doctor" "Hospital Administration" }
+""
+
+p "" 1 1 "" { "NoProcedure" "LimitedTreatment" "AggressiveTreatment" } 0
+t "" 1 "NoProcedure" { 2, 6 }
+p "" 2 1 "" { "RestrictResources" "ApproveResources" } 0
+t "" 2 "LimitedTreatment_RestrictResources" { 0, 1 }
+t "" 3 "LimitedTreatment_ApproveResources" { 3, 2 }
+p "" 2 1 "" { "RestrictResources" "ApproveResources" } 0
+t "" 4 "AggressiveTreatment_RestrictResources" { -1, 3 }
+t "" 5 "AggressiveTreatment_ApproveResources" { 1, 2 }

@@ -1,0 +1,11 @@
+EFG 2 R "GEB Fig. 10 Talent Recruitment V5" { "Hiring Manager" "HR Director" }
+""
+
+p "" 1 1 "" { "CloseSearch" "QuietSearch" "AggressiveSearch" } 0
+t "" 1 "CloseSearch" { 2, 6 }
+p "" 2 1 "" { "CautiousApproval" "FullApproval" } 0
+t "" 2 "QuietSearch_CautiousApproval" { 0, 1 }
+t "" 3 "QuietSearch_FullApproval" { 3, 2 }
+p "" 2 1 "" { "CautiousApproval" "FullApproval" } 0
+t "" 4 "AggressiveSearch_CautiousApproval" { -1, 3 }
+t "" 5 "AggressiveSearch_FullApproval" { 1, 2 }

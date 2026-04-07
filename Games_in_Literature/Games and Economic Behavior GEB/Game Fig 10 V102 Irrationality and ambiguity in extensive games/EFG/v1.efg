@@ -1,0 +1,11 @@
+EFG 2 R "GEB Fig. 10 Product Launch V1" { "Company" "Distributor" }
+""
+
+p "" 1 1 "" { "CancelLaunch" "SoftLaunch" "WideLaunch" } 0
+t "" 1 "CancelLaunch" { 2, 6 }
+p "" 2 1 "" { "ConservativeSupport" "FullSupport" } 0
+t "" 2 "SoftLaunch_ConservativeSupport" { 0, 1 }
+t "" 3 "SoftLaunch_FullSupport" { 3, 2 }
+p "" 2 1 "" { "ConservativeSupport" "FullSupport" } 0
+t "" 4 "WideLaunch_ConservativeSupport" { -1, 3 }
+t "" 5 "WideLaunch_FullSupport" { 1, 2 }

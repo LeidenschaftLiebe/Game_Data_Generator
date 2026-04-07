@@ -1,0 +1,11 @@
+EFG 2 R "GEB Fig. 10 Cybersecurity Response V4" { "Firm" "Outside Auditor" }
+""
+
+p "" 1 1 "" { "ShutSystemDown" "PatchInternally" "PublicRolloutFix" } 0
+t "" 1 "ShutSystemDown" { 2, 6 }
+p "" 2 1 "" { "CautiousReview" "CooperativeReview" } 0
+t "" 2 "PatchInternally_CautiousReview" { 0, 1 }
+t "" 3 "PatchInternally_CooperativeReview" { 3, 2 }
+p "" 2 1 "" { "CautiousReview" "CooperativeReview" } 0
+t "" 4 "PublicRolloutFix_CautiousReview" { -1, 3 }
+t "" 5 "PublicRolloutFix_CooperativeReview" { 1, 2 }

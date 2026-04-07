@@ -1,0 +1,30 @@
+V4 — Cybersecurity Response
+
+A firm is deciding how to respond to a security threat.
+
+The firm moves first and chooses between Shut System Down (O),
+Patch Internally (L), and Public Rollout Fix (R).
+
+If the firm chooses Shut System Down (O), the matter ends immediately.
+The firm gets reward 2 and the outside auditor gets reward 6.
+
+If the firm chooses Patch Internally (L) or Public Rollout Fix (R),
+the outside auditor moves next.
+
+The outside auditor cannot tell whether the firm chose
+Patch Internally (L) or Public Rollout Fix (R).
+
+The outside auditor then chooses between Cautious Review (A)
+and Cooperative Review (B).
+
+If the path is Patch Internally (L), Cautious Review (A),
+the outcome gives reward 0 to the firm and reward 1 to the auditor.
+
+If the path is Patch Internally (L), Cooperative Review (B),
+the outcome gives reward 3 to the firm and reward 2 to the auditor.
+
+If the path is Public Rollout Fix (R), Cautious Review (A),
+the outcome gives reward -1 to the firm and reward 3 to the auditor.
+
+If the path is Public Rollout Fix (R), Cooperative Review (B),
+the outcome gives reward 1 to the firm and reward 2 to the auditor.

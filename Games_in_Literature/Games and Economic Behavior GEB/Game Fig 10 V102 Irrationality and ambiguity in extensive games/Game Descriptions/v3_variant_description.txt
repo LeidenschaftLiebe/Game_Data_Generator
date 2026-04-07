@@ -1,0 +1,30 @@
+V3 — Stadium Booking
+
+An event promoter is deciding how to handle a concert booking.
+
+The promoter moves first and chooses between Drop Event (O),
+Small Venue (L), and Arena Booking (R).
+
+If the promoter chooses Drop Event (O), the game ends immediately.
+The promoter gets reward 2 and the venue partner gets reward 6.
+
+If the promoter chooses Small Venue (L) or Arena Booking (R),
+the venue partner moves next.
+
+The venue partner cannot tell whether the promoter chose
+Small Venue (L) or Arena Booking (R).
+
+The venue partner then chooses between Minimal Promotion (A)
+and Major Promotion (B).
+
+If the path is Small Venue (L), Minimal Promotion (A),
+the outcome gives reward 0 to the promoter and reward 1 to the venue partner.
+
+If the path is Small Venue (L), Major Promotion (B),
+the outcome gives reward 3 to the promoter and reward 2 to the venue partner.
+
+If the path is Arena Booking (R), Minimal Promotion (A),
+the outcome gives reward -1 to the promoter and reward 3 to the venue partner.
+
+If the path is Arena Booking (R), Major Promotion (B),
+the outcome gives reward 1 to the promoter and reward 2 to the venue partner.

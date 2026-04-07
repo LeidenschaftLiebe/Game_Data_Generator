@@ -1,0 +1,11 @@
+EFG 2 R "GEB Fig. 10 Stadium Booking V3" { "Promoter" "Venue Partner" }
+""
+
+p "" 1 1 "" { "DropEvent" "SmallVenue" "ArenaBooking" } 0
+t "" 1 "DropEvent" { 2, 6 }
+p "" 2 1 "" { "MinimalPromotion" "MajorPromotion" } 0
+t "" 2 "SmallVenue_MinimalPromotion" { 0, 1 }
+t "" 3 "SmallVenue_MajorPromotion" { 3, 2 }
+p "" 2 1 "" { "MinimalPromotion" "MajorPromotion" } 0
+t "" 4 "ArenaBooking_MinimalPromotion" { -1, 3 }
+t "" 5 "ArenaBooking_MajorPromotion" { 1, 2 }

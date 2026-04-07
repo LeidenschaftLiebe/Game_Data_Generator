@@ -1,0 +1,30 @@
+V1 — Product Launch
+
+A company is deciding how to release a new product.
+
+The company moves first and chooses between Cancel Launch (O),
+Soft Launch (L), and Wide Launch (R).
+
+If the company chooses Cancel Launch (O), the process ends immediately.
+The company gets reward 2 and the distributor gets reward 6.
+
+If the company chooses Soft Launch (L) or Wide Launch (R),
+the distributor moves next.
+
+The distributor cannot tell whether the company chose
+Soft Launch (L) or Wide Launch (R).
+
+The distributor then chooses between Conservative Support (A)
+and Full Support (B).
+
+If the path is Soft Launch (L), Conservative Support (A),
+the outcome gives reward 0 to the company and reward 1 to the distributor.
+
+If the path is Soft Launch (L), Full Support (B),
+the outcome gives reward 3 to the company and reward 2 to the distributor.
+
+If the path is Wide Launch (R), Conservative Support (A),
+the outcome gives reward -1 to the company and reward 3 to the distributor.
+
+If the path is Wide Launch (R), Full Support (B),
+the outcome gives reward 1 to the company and reward 2 to the distributor.

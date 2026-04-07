@@ -1,0 +1,30 @@
+V2 — Medical Decision
+
+A doctor is choosing among three treatment paths.
+
+The doctor moves first and chooses between No Procedure (O),
+Limited Treatment (L), and Aggressive Treatment (R).
+
+If the doctor chooses No Procedure (O), the case ends immediately.
+The doctor gets reward 2 and the hospital gets reward 6.
+
+If the doctor chooses Limited Treatment (L) or Aggressive Treatment (R),
+the hospital administration moves next.
+
+The administration cannot tell whether the doctor chose
+Limited Treatment (L) or Aggressive Treatment (R).
+
+The administration then chooses between Restrict Resources (A)
+and Approve Resources (B).
+
+If the path is Limited Treatment (L), Restrict Resources (A),
+the outcome gives reward 0 to the doctor and reward 1 to the hospital.
+
+If the path is Limited Treatment (L), Approve Resources (B),
+the outcome gives reward 3 to the doctor and reward 2 to the hospital.
+
+If the path is Aggressive Treatment (R), Restrict Resources (A),
+the outcome gives reward -1 to the doctor and reward 3 to the hospital.
+
+If the path is Aggressive Treatment (R), Approve Resources (B),
+the outcome gives reward 1 to the doctor and reward 2 to the hospital.

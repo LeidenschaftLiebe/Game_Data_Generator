@@ -1,0 +1,30 @@
+V5 — Talent Recruitment
+
+A hiring manager is deciding how to proceed with a recruitment plan.
+
+The hiring manager moves first and chooses between Close Search (O),
+Quiet Search (L), and Aggressive Search (R).
+
+If the hiring manager chooses Close Search (O), the process ends immediately.
+The hiring manager gets reward 2 and the HR director gets reward 6.
+
+If the hiring manager chooses Quiet Search (L) or Aggressive Search (R),
+the HR director moves next.
+
+The HR director cannot tell whether the hiring manager chose
+Quiet Search (L) or Aggressive Search (R).
+
+The HR director then chooses between Cautious Approval (A)
+and Full Approval (B).
+
+If the path is Quiet Search (L), Cautious Approval (A),
+the outcome gives reward 0 to the hiring manager and reward 1 to the HR director.
+
+If the path is Quiet Search (L), Full Approval (B),
+the outcome gives reward 3 to the hiring manager and reward 2 to the HR director.
+
+If the path is Aggressive Search (R), Cautious Approval (A),
+the outcome gives reward -1 to the hiring manager and reward 3 to the HR director.
+
+If the path is Aggressive Search (R), Full Approval (B),
+the outcome gives reward 1 to the hiring manager and reward 2 to the HR director.

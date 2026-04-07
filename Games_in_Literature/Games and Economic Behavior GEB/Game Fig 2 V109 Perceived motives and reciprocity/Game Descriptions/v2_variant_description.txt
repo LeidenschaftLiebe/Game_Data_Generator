@@ -1,0 +1,41 @@
+V2 — Book Release
+
+A publisher and an author are deciding how to handle a new release.
+
+The publisher moves first and chooses between Small Release and Heavy Promotion.
+
+If the publisher chooses Small Release, a later stage falls into one of three cases,
+with probabilities 0.01, 0.98, and 0.01.
+
+If case 1 happens after Small Release, the author chooses between
+Stay Quiet and Push Back.
+
+If the path is Small Release, 1, Stay Quiet, the outcome is
+Publisher: $4.50 and Author: $2.50.
+
+If the path is Small Release, 1, Push Back, the outcome is
+Publisher: $3.00 and Author: $2.00.
+
+If case 2 happens after Small Release, the outcome is
+Publisher: $4.50 and Author: $2.50.
+
+If case 3 happens after Small Release, the outcome is again
+Publisher: $4.50 and Author: $2.50.
+
+If the publisher chooses Heavy Promotion, the same three cases follow
+with probabilities 0.01, 0.98, and 0.01.
+
+If case 1 happens after Heavy Promotion, the outcome is
+Publisher: $4.00 and Author: $4.00.
+
+If case 2 happens after Heavy Promotion, the outcome is
+Publisher: $4.00 and Author: $4.00.
+
+If case 3 happens after Heavy Promotion, the author chooses between
+Keep Pace and Do Extra Publicity.
+
+If the path is Heavy Promotion, 3, Keep Pace, the outcome is
+Publisher: $4.00 and Author: $4.00.
+
+If the path is Heavy Promotion, 3, Do Extra Publicity, the outcome is
+Publisher: $5.50 and Author: $3.50.

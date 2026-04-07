@@ -1,0 +1,16 @@
+EFG 2 R "GEB Fig. 2 Hotel Upgrade V4" { "Host" "Guest" }
+""
+
+p "" 1 1 "" { "StandardRoom" "Upgrade" } 0
+c "" 1 "" { "1" 1/100 "2" 49/50 "3" 1/100 } 0
+p "" 2 1 "" { "DoNothing" "FileComplaint" } 0
+t "" 1 "StandardRoom_1_DoNothing" { 4.5, 2.5 }
+t "" 2 "StandardRoom_1_FileComplaint" { 3.0, 2.0 }
+t "" 3 "StandardRoom_2" { 4.5, 2.5 }
+t "" 4 "StandardRoom_3" { 4.5, 2.5 }
+c "" 2 "" { "1" 1/100 "2" 49/50 "3" 1/100 } 0
+t "" 5 "Upgrade_1" { 4.0, 4.0 }
+t "" 6 "Upgrade_2" { 4.0, 4.0 }
+p "" 2 2 "" { "BePolite" "LeaveGlowingReview" } 0
+t "" 7 "Upgrade_3_BePolite" { 4.0, 4.0 }
+t "" 8 "Upgrade_3_LeaveGlowingReview" { 5.5, 3.5 }

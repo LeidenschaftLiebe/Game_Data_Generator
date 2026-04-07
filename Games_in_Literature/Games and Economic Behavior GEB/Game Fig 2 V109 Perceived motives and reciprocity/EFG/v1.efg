@@ -1,0 +1,16 @@
+EFG 2 R "GEB Fig. 2 Workplace Bonus V1" { "Manager" "Employee" }
+""
+
+p "" 1 1 "" { "StandardBonus" "GenerousBonus" } 0
+c "" 1 "" { "1" 1/100 "2" 49/50 "3" 1/100 } 0
+p "" 2 1 "" { "LeaveItAlone" "Complain" } 0
+t "" 1 "StandardBonus_1_LeaveItAlone" { 4.5, 2.5 }
+t "" 2 "StandardBonus_1_Complain" { 3.0, 2.0 }
+t "" 3 "StandardBonus_2" { 4.5, 2.5 }
+t "" 4 "StandardBonus_3" { 4.5, 2.5 }
+c "" 2 "" { "1" 1/100 "2" 49/50 "3" 1/100 } 0
+t "" 5 "GenerousBonus_1" { 4.0, 4.0 }
+t "" 6 "GenerousBonus_2" { 4.0, 4.0 }
+p "" 2 2 "" { "SayThanks" "GoExtraMile" } 0
+t "" 7 "GenerousBonus_3_SayThanks" { 4.0, 4.0 }
+t "" 8 "GenerousBonus_3_GoExtraMile" { 5.5, 3.5 }

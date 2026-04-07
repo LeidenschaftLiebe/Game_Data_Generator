@@ -1,0 +1,41 @@
+V5 — Team Project
+
+A team lead and a teammate are deciding how much support to provide on a project.
+
+The team lead moves first and chooses between Basic Help and Strong Support.
+
+If the team lead chooses Basic Help, later events split into three cases,
+with probabilities 0.01, 0.98, and 0.01.
+
+If case 1 happens after Basic Help, the teammate chooses between
+Accept It and Raise Issue.
+
+If the path is Basic Help, 1, Accept It, the outcome is
+Lead: $4.50 and Teammate: $2.50.
+
+If the path is Basic Help, 1, Raise Issue, the outcome is
+Lead: $3.00 and Teammate: $2.00.
+
+If case 2 happens after Basic Help, the outcome is
+Lead: $4.50 and Teammate: $2.50.
+
+If case 3 happens after Basic Help, the outcome is again
+Lead: $4.50 and Teammate: $2.50.
+
+If the team lead chooses Strong Support, the same three cases follow
+with probabilities 0.01, 0.98, and 0.01.
+
+If case 1 happens after Strong Support, the outcome is
+Lead: $4.00 and Teammate: $4.00.
+
+If case 2 happens after Strong Support, the outcome is
+Lead: $4.00 and Teammate: $4.00.
+
+If case 3 happens after Strong Support, the teammate chooses between
+Keep It Even and Return the Favor.
+
+If the path is Strong Support, 3, Keep It Even, the outcome is
+Lead: $4.00 and Teammate: $4.00.
+
+If the path is Strong Support, 3, Return the Favor, the outcome is
+Lead: $5.50 and Teammate: $3.50.

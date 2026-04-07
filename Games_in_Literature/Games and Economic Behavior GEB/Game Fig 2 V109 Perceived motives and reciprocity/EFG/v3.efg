@@ -1,0 +1,16 @@
+EFG 2 R "GEB Fig. 2 Emergency Aid V3" { "Organizer" "Volunteer" }
+""
+
+p "" 1 1 "" { "LimitedAid" "FullAid" } 0
+c "" 1 "" { "1" 1/100 "2" 49/50 "3" 1/100 } 0
+p "" 2 1 "" { "AcceptQuietly" "Object" } 0
+t "" 1 "LimitedAid_1_AcceptQuietly" { 4.5, 2.5 }
+t "" 2 "LimitedAid_1_Object" { 3.0, 2.0 }
+t "" 3 "LimitedAid_2" { 4.5, 2.5 }
+t "" 4 "LimitedAid_3" { 4.5, 2.5 }
+c "" 2 "" { "1" 1/100 "2" 49/50 "3" 1/100 } 0
+t "" 5 "FullAid_1" { 4.0, 4.0 }
+t "" 6 "FullAid_2" { 4.0, 4.0 }
+p "" 2 2 "" { "Acknowledge" "VolunteerExtraTime" } 0
+t "" 7 "FullAid_3_Acknowledge" { 4.0, 4.0 }
+t "" 8 "FullAid_3_VolunteerExtraTime" { 5.5, 3.5 }

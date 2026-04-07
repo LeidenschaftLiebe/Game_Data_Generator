@@ -1,0 +1,36 @@
+V0 — Reciprocity
+
+Set p = 0.01 and q = 0.01
+Two participants, A and B, interact in a reciprocal decision problem.
+
+Player A moves first and chooses between S and H.
+
+If A chooses S, Nature then selects one of three follow-up cases.
+With probability 0.01, the interaction goes to case 1.
+With probability 0.98, it goes to case 2.
+With probability 0.01, it goes to case 3.
+
+If case 1 is reached after S, Player B chooses between N and P.
+
+If the path is S, 1, N, the outcome is A: $4.50 and B: $2.50.
+
+If the path is S, 1, P, the outcome is A: $3.00 and B: $2.00.
+
+If case 2 is reached after S, the interaction ends with A: $4.50 and B: $2.50.
+
+If case 3 is reached after S, the interaction also ends with A: $4.50 and B: $2.50.
+
+If A chooses H, Nature again selects one of three follow-up cases.
+With probability 0.01, the interaction goes to case 1.
+With probability 0.98, it goes to case 2.
+With probability 0.01, it goes to case 3.
+
+If case 1 is reached after H, the interaction ends with A: $4.00 and B: $4.00.
+
+If case 2 is reached after H, the interaction ends with A: $4.00 and B: $4.00.
+
+If case 3 is reached after H, Player B chooses between N and R.
+
+If the path is H, 3, N, the outcome is A: $4.00 and B: $4.00.
+
+If the path is H, 3, R, the outcome is A: $5.50 and B: $3.50.

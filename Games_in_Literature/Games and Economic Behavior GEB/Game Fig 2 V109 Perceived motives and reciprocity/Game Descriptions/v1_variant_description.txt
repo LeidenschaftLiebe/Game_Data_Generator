@@ -1,0 +1,43 @@
+V1 — Workplace Bonus
+
+A manager and an employee are involved in a year-end bonus decision.
+
+The manager moves first and chooses between Standard Bonus and Generous Bonus.
+
+If the manager chooses Standard Bonus, a follow-up review then lands in one of three cases.
+Case 1 happens with probability 0.01.
+Case 2 happens with probability 0.98.
+Case 3 happens with probability 0.01.
+
+If case 1 happens after Standard Bonus, the employee chooses between
+Leave It Alone and Complain.
+
+If the path is Standard Bonus, 1, Leave It Alone, the outcome is
+Manager: $4.50 and Employee: $2.50.
+
+If the path is Standard Bonus, 1, Complain, the outcome is
+Manager: $3.00 and Employee: $2.00.
+
+If case 2 happens after Standard Bonus, the outcome is
+Manager: $4.50 and Employee: $2.50.
+
+If case 3 happens after Standard Bonus, the outcome is also
+Manager: $4.50 and Employee: $2.50.
+
+If the manager chooses Generous Bonus, the same three-case review follows,
+with probabilities 0.01, 0.98, and 0.01.
+
+If case 1 happens after Generous Bonus, the outcome is
+Manager: $4.00 and Employee: $4.00.
+
+If case 2 happens after Generous Bonus, the outcome is
+Manager: $4.00 and Employee: $4.00.
+
+If case 3 happens after Generous Bonus, the employee chooses between
+Say Thanks and Go the Extra Mile.
+
+If the path is Generous Bonus, 3, Say Thanks, the outcome is
+Manager: $4.00 and Employee: $4.00.
+
+If the path is Generous Bonus, 3, Go the Extra Mile, the outcome is
+Manager: $5.50 and Employee: $3.50.

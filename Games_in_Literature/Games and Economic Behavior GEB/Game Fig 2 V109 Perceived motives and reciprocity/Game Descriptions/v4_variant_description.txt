@@ -1,0 +1,41 @@
+V4 — Hotel Upgrade
+
+A hotel host and a guest are involved in a service decision.
+
+The host moves first and chooses between Standard Room and Upgrade.
+
+If the host chooses Standard Room, later events fall into three cases,
+with probabilities 0.01, 0.98, and 0.01.
+
+If case 1 happens after Standard Room, the guest chooses between
+Do Nothing and File Complaint.
+
+If the path is Standard Room, 1, Do Nothing, the outcome is
+Host: $4.50 and Guest: $2.50.
+
+If the path is Standard Room, 1, File Complaint, the outcome is
+Host: $3.00 and Guest: $2.00.
+
+If case 2 happens after Standard Room, the outcome is
+Host: $4.50 and Guest: $2.50.
+
+If case 3 happens after Standard Room, the outcome is also
+Host: $4.50 and Guest: $2.50.
+
+If the host chooses Upgrade, the same three cases follow
+with probabilities 0.01, 0.98, and 0.01.
+
+If case 1 happens after Upgrade, the outcome is
+Host: $4.00 and Guest: $4.00.
+
+If case 2 happens after Upgrade, the outcome is
+Host: $4.00 and Guest: $4.00.
+
+If case 3 happens after Upgrade, the guest chooses between
+Be Polite and Leave a Glowing Review.
+
+If the path is Upgrade, 3, Be Polite, the outcome is
+Host: $4.00 and Guest: $4.00.
+
+If the path is Upgrade, 3, Leave a Glowing Review, the outcome is
+Host: $5.50 and Guest: $3.50.

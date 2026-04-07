@@ -1,0 +1,41 @@
+V3 — Emergency Aid
+
+A community organizer and a volunteer are deciding on support for a local relief effort.
+
+The organizer moves first and chooses between Limited Aid and Full Aid.
+
+If the organizer chooses Limited Aid, later events split into three cases,
+with probabilities 0.01, 0.98, and 0.01.
+
+If case 1 happens after Limited Aid, the volunteer chooses between
+Accept Quietly and Object.
+
+If the path is Limited Aid, 1, Accept Quietly, the outcome is
+Organizer: $4.50 and Volunteer: $2.50.
+
+If the path is Limited Aid, 1, Object, the outcome is
+Organizer: $3.00 and Volunteer: $2.00.
+
+If case 2 happens after Limited Aid, the outcome is
+Organizer: $4.50 and Volunteer: $2.50.
+
+If case 3 happens after Limited Aid, the outcome is again
+Organizer: $4.50 and Volunteer: $2.50.
+
+If the organizer chooses Full Aid, the same three cases follow
+with probabilities 0.01, 0.98, and 0.01.
+
+If case 1 happens after Full Aid, the outcome is
+Organizer: $4.00 and Volunteer: $4.00.
+
+If case 2 happens after Full Aid, the outcome is
+Organizer: $4.00 and Volunteer: $4.00.
+
+If case 3 happens after Full Aid, the volunteer chooses between
+Acknowledge and Volunteer Extra Time.
+
+If the path is Full Aid, 3, Acknowledge, the outcome is
+Organizer: $4.00 and Volunteer: $4.00.
+
+If the path is Full Aid, 3, Volunteer Extra Time, the outcome is
+Organizer: $5.50 and Volunteer: $3.50.

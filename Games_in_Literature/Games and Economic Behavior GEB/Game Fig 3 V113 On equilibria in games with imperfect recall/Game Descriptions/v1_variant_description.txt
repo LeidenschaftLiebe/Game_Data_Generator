@@ -1,0 +1,21 @@
+V1 [Flooded canyon escape]
+
+A runner first chooses between DashForIt [T] and GiveUp [S].
+If the runner gives up, the result is 0, 0.
+
+If the runner dashes for it, the marshal chooses between HoldBack [W] and CutOffNow [I].
+CutOffNow [I] gives -1, -1.
+HoldBack [W] leads to a later escape sequence.
+
+During that escape sequence, the runner repeatedly faces the choice between KeepGoing [C] and TakeRamp [E], 
+without knowing whether it is the earlier chance or the later one.
+
+If the runner takes the earlier ramp, the marshal later chooses between WatchHighway [H] and GuardRamp [E].
+WatchHighway [H] gives 1, -1.
+GuardRamp [E] gives 0, 0.
+
+If the runner keeps going once, then later chooses TakeRamp [E], the result is 0, 0.
+
+If the runner keeps going twice, the marshal again chooses between WatchHighway [H] and GuardRamp [E].
+WatchHighway [H] gives 0, 0.
+GuardRamp [E] gives 1, -1.

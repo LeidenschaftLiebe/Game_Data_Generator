@@ -1,0 +1,16 @@
+EFG 2 R "GEB Extension of the Absentminded Driver and the Policeman Fig. 3 V4" { "TruckDriver" "PatrolChief" }
+""
+
+p "" 1 1 "" { "MakeRun" "PullOver" } 0
+p "" 2 1 "" { "StayBack" "BlockNow" } 0
+p "" 1 2 "" { "KeepRolling" "TakeTurnoff" } 0
+p "" 1 2 "" { "KeepRolling" "TakeTurnoff" } 0
+p "" 2 2 "" { "RoadPatrol" "TurnoffPatrol" } 0
+t "" 6 "MakeRun_StayBack_KeepRolling_KeepRolling_RoadPatrol" { 0, 0 }
+t "" 7 "MakeRun_StayBack_KeepRolling_KeepRolling_TurnoffPatrol" { 1, -1 }
+t "" 3 "MakeRun_StayBack_KeepRolling_TakeTurnoff" { 0, 0 }
+p "" 2 2 "" { "RoadPatrol" "TurnoffPatrol" } 0
+t "" 4 "MakeRun_StayBack_TakeTurnoff_RoadPatrol" { 1, -1 }
+t "" 5 "MakeRun_StayBack_TakeTurnoff_TurnoffPatrol" { 0, 0 }
+t "" 2 "MakeRun_BlockNow" { -1, -1 }
+t "" 1 "PullOver" { 0, 0 }

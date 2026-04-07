@@ -1,0 +1,16 @@
+EFG 2 R "GEB Extension of the Absentminded Driver and the Policeman Fig. 3 V5" { "FireCrewDriver" "SafetyOfficer" }
+""
+
+p "" 1 1 "" { "PushOut" "StandDown" } 0
+p "" 2 1 "" { "WaitForRoute" "StopImmediately" } 0
+p "" 1 2 "" { "ContinueLine" "TakeExitGap" } 0
+p "" 1 2 "" { "ContinueLine" "TakeExitGap" } 0
+p "" 2 2 "" { "LineWatch" "GapWatch" } 0
+t "" 6 "PushOut_WaitForRoute_ContinueLine_ContinueLine_LineWatch" { 0, 0 }
+t "" 7 "PushOut_WaitForRoute_ContinueLine_ContinueLine_GapWatch" { 1, -1 }
+t "" 3 "PushOut_WaitForRoute_ContinueLine_TakeExitGap" { 0, 0 }
+p "" 2 2 "" { "LineWatch" "GapWatch" } 0
+t "" 4 "PushOut_WaitForRoute_TakeExitGap_LineWatch" { 1, -1 }
+t "" 5 "PushOut_WaitForRoute_TakeExitGap_GapWatch" { 0, 0 }
+t "" 2 "PushOut_StopImmediately" { -1, -1 }
+t "" 1 "StandDown" { 0, 0 }

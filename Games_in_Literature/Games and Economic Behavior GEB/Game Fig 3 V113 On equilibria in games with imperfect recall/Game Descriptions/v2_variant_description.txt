@@ -1,0 +1,21 @@
+V2 [Smuggling pursuit]
+
+A courier first chooses between RunCargo [T] and StopNow [S].
+If the courier stops now, the result is 0, 0.
+
+If the courier runs the cargo, the border officer chooses between WaitAndTrack [W] and StrikeNow [I].
+StrikeNow [I] gives -1, -1.
+WaitAndTrack [W] sends the courier onto the route.
+
+On that route, the courier repeatedly chooses between StayOnRoad [C] and SlipOff [E], 
+without knowing whether it is the first chance or the second.
+
+If the courier slips off at the earlier chance, the border officer later chooses between RoadWatch [H] and ExitTrap [E].
+RoadWatch [H] gives 1, -1.
+ExitTrap [E] gives 0, 0.
+
+If the courier stays on the road once and then slips off, the result is 0, 0.
+
+If the courier stays on the road twice, the border officer again chooses between RoadWatch [H] and ExitTrap [E].
+RoadWatch [H] gives 0, 0.
+ExitTrap [E] gives 1, -1.

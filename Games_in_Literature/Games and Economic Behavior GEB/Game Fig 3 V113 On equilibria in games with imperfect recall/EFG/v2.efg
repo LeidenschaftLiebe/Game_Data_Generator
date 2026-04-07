@@ -1,0 +1,16 @@
+EFG 2 R "GEB Extension of the Absentminded Driver and the Policeman Fig. 3 V2" { "Courier" "BorderOfficer" }
+""
+
+p "" 1 1 "" { "RunCargo" "StopNow" } 0
+p "" 2 1 "" { "WaitAndTrack" "StrikeNow" } 0
+p "" 1 2 "" { "StayOnRoad" "SlipOff" } 0
+p "" 1 2 "" { "StayOnRoad" "SlipOff" } 0
+p "" 2 2 "" { "RoadWatch" "ExitTrap" } 0
+t "" 6 "RunCargo_WaitAndTrack_StayOnRoad_StayOnRoad_RoadWatch" { 0, 0 }
+t "" 7 "RunCargo_WaitAndTrack_StayOnRoad_StayOnRoad_ExitTrap" { 1, -1 }
+t "" 3 "RunCargo_WaitAndTrack_StayOnRoad_SlipOff" { 0, 0 }
+p "" 2 2 "" { "RoadWatch" "ExitTrap" } 0
+t "" 4 "RunCargo_WaitAndTrack_SlipOff_RoadWatch" { 1, -1 }
+t "" 5 "RunCargo_WaitAndTrack_SlipOff_ExitTrap" { 0, 0 }
+t "" 2 "RunCargo_StrikeNow" { -1, -1 }
+t "" 1 "StopNow" { 0, 0 }

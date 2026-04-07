@@ -1,0 +1,22 @@
+V0 [Original article context]
+
+The article extends the absentminded-driver setting by adding an earlier choice for the driver and an earlier choice for the policeman.
+At the start, the Driver chooses between trying to escape Try [T] and surrendering Surrender [S].
+If the driver surrenders, the interaction ends immediately with 0 to the Driver and 0 to the Policeman.
+
+If the driver tries to escape, the Policeman chooses between waiting Wait [W] and intercepting immediately Intercept [I].
+If the policeman intercepts immediately, there is a crash, giving -1 to the Driver and -1 to the Policeman.
+If the policeman waits, the chase continues onto the highway.
+
+Once the chase reaches the highway, the driver faces the same choice each time she comes to an exit: continue Continue [C] or take the exit Exit [E].
+She cannot tell whether she is at the first exit or the second one.
+
+If the driver takes the first exit, the policeman later chooses between waiting on the highway Highway [H] and waiting at the first exit FirstExit [E].
+Waiting on the highway gives 1 to the Driver and -1 to the Policeman.
+Waiting at the first exit gives 0 to the Driver and 0 to the Policeman.
+
+If the driver continues past the first exit, she reaches the same kind of choice again and once more chooses between Continue [C] and Exit [E].
+If she takes that later exit, the result is 0, 0.
+If she continues again instead, the policeman later chooses between Highway [H] and FirstExit [E].
+Waiting on the highway gives 0 to the Driver and 0 to the Policeman.
+Waiting at the first exit gives 1 to the Driver and -1 to the Policeman.

@@ -1,0 +1,16 @@
+EFG 2 R "GEB Extension of the Absentminded Driver and the Policeman Fig. 3 V3" { "Pilot" "Interceptor" }
+""
+
+p "" 1 1 "" { "BoostAway" "PowerDown" } 0
+p "" 2 1 "" { "ShadowCourse" "DirectHit" } 0
+p "" 1 2 "" { "StayCourse" "BreakOrbit" } 0
+p "" 1 2 "" { "StayCourse" "BreakOrbit" } 0
+p "" 2 2 "" { "HighwayTrack" "ExitTrack" } 0
+t "" 6 "BoostAway_ShadowCourse_StayCourse_StayCourse_HighwayTrack" { 0, 0 }
+t "" 7 "BoostAway_ShadowCourse_StayCourse_StayCourse_ExitTrack" { 1, -1 }
+t "" 3 "BoostAway_ShadowCourse_StayCourse_BreakOrbit" { 0, 0 }
+p "" 2 2 "" { "HighwayTrack" "ExitTrack" } 0
+t "" 4 "BoostAway_ShadowCourse_BreakOrbit_HighwayTrack" { 1, -1 }
+t "" 5 "BoostAway_ShadowCourse_BreakOrbit_ExitTrack" { 0, 0 }
+t "" 2 "BoostAway_DirectHit" { -1, -1 }
+t "" 1 "PowerDown" { 0, 0 }

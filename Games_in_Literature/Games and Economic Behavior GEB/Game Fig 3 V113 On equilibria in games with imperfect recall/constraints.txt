@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Player 1 moves first. 
+If the safe stop is chosen, the outcome is 0, 0.
+The first mover’s later two road decisions are in one infoset, 
+and the second mover’s two later waiting decisions are in one infoset. 
+This preserves the imperfect-recall structure of the figure.

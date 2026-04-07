@@ -1,0 +1,21 @@
+V3 [Orbital debris chase]
+
+A pilot first chooses between BoostAway [T] and PowerDown [S].
+If the pilot powers down, the result is 0, 0.
+
+If the pilot boosts away, the interceptor chooses between ShadowCourse [W] and DirectHit [I].
+DirectHit [I] gives -1, -1.
+ShadowCourse [W] lets the pilot continue into a repeated navigation problem.
+
+There, the pilot repeatedly chooses between StayCourse [C] and BreakOrbit [E], 
+without knowing whether it is the earlier chance or the later one.
+
+If the pilot breaks orbit at the earlier chance, the interceptor later chooses between HighwayTrack [H] and ExitTrack [E].
+HighwayTrack [H] gives 1, -1.
+ExitTrack [E] gives 0, 0.
+
+If the pilot stays on course once and then breaks orbit, the result is 0, 0.
+
+If the pilot stays on course twice, the interceptor again chooses between HighwayTrack [H] and ExitTrack [E].
+HighwayTrack [H] gives 0, 0.
+ExitTrack [E] gives 1, -1.

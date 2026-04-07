@@ -1,0 +1,16 @@
+EFG 2 R "GEB Extension of the Absentminded Driver and the Policeman Fig. 3 V1" { "Runner" "Marshal" }
+""
+
+p "" 1 1 "" { "DashForIt" "GiveUp" } 0
+p "" 2 1 "" { "HoldBack" "CutOffNow" } 0
+p "" 1 2 "" { "KeepGoing" "TakeRamp" } 0
+p "" 1 2 "" { "KeepGoing" "TakeRamp" } 0
+p "" 2 2 "" { "WatchHighway" "GuardRamp" } 0
+t "" 6 "DashForIt_HoldBack_KeepGoing_KeepGoing_WatchHighway" { 0, 0 }
+t "" 7 "DashForIt_HoldBack_KeepGoing_KeepGoing_GuardRamp" { 1, -1 }
+t "" 3 "DashForIt_HoldBack_KeepGoing_TakeRamp" { 0, 0 }
+p "" 2 2 "" { "WatchHighway" "GuardRamp" } 0
+t "" 4 "DashForIt_HoldBack_TakeRamp_WatchHighway" { 1, -1 }
+t "" 5 "DashForIt_HoldBack_TakeRamp_GuardRamp" { 0, 0 }
+t "" 2 "DashForIt_CutOffNow" { -1, -1 }
+t "" 1 "GiveUp" { 0, 0 }

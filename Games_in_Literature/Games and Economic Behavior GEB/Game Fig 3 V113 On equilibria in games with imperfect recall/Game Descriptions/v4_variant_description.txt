@@ -1,0 +1,21 @@
+V4 [Artifact convoy pursuit]
+
+A truck driver first chooses between MakeRun [T] and PullOver [S].
+If the truck driver pulls over, the result is 0, 0.
+
+If the truck driver makes the run, the patrol chief chooses between StayBack [W] and BlockNow [I].
+BlockNow [I] gives -1, -1.
+StayBack [W] leads to a repeated road choice.
+
+The truck driver then repeatedly chooses between KeepRolling [C] and TakeTurnoff [E], 
+without knowing whether it is the earlier chance or the later one.
+
+If the truck driver takes the earlier turnoff, the patrol chief later chooses between RoadPatrol [H] and TurnoffPatrol [E].
+RoadPatrol [H] gives 1, -1.
+TurnoffPatrol [E] gives 0, 0.
+
+If the truck driver keeps rolling once and then takes the later turnoff, the result is 0, 0.
+
+If the truck driver keeps rolling twice, the patrol chief again chooses between RoadPatrol [H] and TurnoffPatrol [E].
+RoadPatrol [H] gives 0, 0.
+TurnoffPatrol [E] gives 1, -1.

@@ -1,0 +1,16 @@
+EFG 2 R "GEB Extension of the Absentminded Driver and the Policeman Fig. 3" { "Driver" "Policeman" }
+""
+
+p "" 1 1 "" { "T" "S" } 0
+p "" 2 1 "" { "W" "I" } 0
+p "" 1 2 "" { "C" "E" } 0
+p "" 1 2 "" { "C" "E" } 0
+p "" 2 2 "" { "H" "E" } 0
+t "" 6 "T_W_C_C_H" { 0, 0 }
+t "" 7 "T_W_C_C_E" { 1, -1 }
+t "" 3 "T_W_C_E" { 0, 0 }
+p "" 2 2 "" { "H" "E" } 0
+t "" 4 "T_W_E_H" { 1, -1 }
+t "" 5 "T_W_E_E" { 0, 0 }
+t "" 2 "T_I" { -1, -1 }
+t "" 1 "S" { 0, 0 }

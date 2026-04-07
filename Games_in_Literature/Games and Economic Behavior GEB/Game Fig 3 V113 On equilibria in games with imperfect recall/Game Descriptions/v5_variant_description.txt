@@ -1,0 +1,21 @@
+V5 [Wildfire perimeter break]
+
+A fire crew driver first chooses between PushOut [T] and StandDown [S].
+If the driver stands down, the result is 0, 0.
+
+If the driver pushes out, the safety officer chooses between WaitForRoute [W] and StopImmediately [I].
+StopImmediately [I] gives -1, -1.
+WaitForRoute [W] sends the driver into a repeated route-choice problem.
+
+The driver repeatedly chooses between ContinueLine [C] and TakeExitGap [E], 
+without knowing whether it is the earlier chance or the later one.
+
+If the driver takes the earlier exit gap, the safety officer later chooses between LineWatch [H] and GapWatch [E].
+LineWatch [H] gives 1, -1.
+GapWatch [E] gives 0, 0.
+
+If the driver continues once and then takes the later exit gap, the result is 0, 0.
+
+If the driver continues twice, the safety officer again chooses between LineWatch [H] and GapWatch [E].
+LineWatch [H] gives 0, 0.
+GapWatch [E] gives 1, -1.

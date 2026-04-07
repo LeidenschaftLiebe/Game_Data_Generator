@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 4 Farm Control V4" { "Agronomy Advisor" "Farm Manager" }
+""
+
+c "" 1 "" { "HealthySoil" 1/2 "FungalRisk" 1/2 } 0
+p "" 1 1 "" { "Mode0" "Mode1" } 0
+p "" 2 1 "" { "TreatmentA" "TreatmentB" } 0
+t "" 1 "HealthySoil_Mode0_TreatmentA" { 0, 0 }
+t "" 2 "HealthySoil_Mode0_TreatmentB" { -1, -1 }
+p "" 2 2 "" { "TreatmentA" "TreatmentB" } 0
+t "" 3 "HealthySoil_Mode1_TreatmentA" { 0, -10 }
+t "" 4 "HealthySoil_Mode1_TreatmentB" { -1, -11 }
+p "" 1 2 "" { "Mode0" "Mode1" } 0
+p "" 2 1 "" { "TreatmentA" "TreatmentB" } 0
+t "" 5 "FungalRisk_Mode0_TreatmentA" { -1, -11 }
+t "" 6 "FungalRisk_Mode0_TreatmentB" { 0, -10 }
+p "" 2 2 "" { "TreatmentA" "TreatmentB" } 0
+t "" 7 "FungalRisk_Mode1_TreatmentA" { -1, -1 }
+t "" 8 "FungalRisk_Mode1_TreatmentB" { 0, 0 }

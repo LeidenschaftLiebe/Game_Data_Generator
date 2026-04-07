@@ -1,0 +1,21 @@
+V0 — Standard Recommendation
+
+Nature moves first and selects either Gamma0 or Gamma1.
+After seeing the state, E (Expert) sends a recommendation, either 0 or 1.
+Then DM (Decision Maker) chooses between a0 and a1.
+
+When DM moves, DM observes the recommendation from E but does not observe whether the state is Gamma0 or Gamma1.
+So after hearing 0, DM must choose between a0 and a1 without knowing which of those two states occurred.
+Likewise, after hearing 1, DM again chooses between a0 and a1 without knowing which state occurred.
+
+If the path is Gamma0, 0, a0, the outcome gives reward 0 to E and reward 0 to DM.
+If the path is Gamma0, 0, a1, the outcome gives reward -1 to E and reward -1 to DM.
+
+If the path is Gamma0, 1, a0, the outcome gives reward 0 to E and reward -10 to DM.
+If the path is Gamma0, 1, a1, the outcome gives reward -1 to E and reward -11 to DM.
+
+If the path is Gamma1, 0, a0, the outcome gives reward -1 to E and reward -11 to DM.
+If the path is Gamma1, 0, a1, the outcome gives reward 0 to E and reward -10 to DM.
+
+If the path is Gamma1, 1, a0, the outcome gives reward -1 to E and reward -1 to DM.
+If the path is Gamma1, 1, a1, the outcome gives reward 0 to E and reward 0 to DM.

@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 4 Museum Security V2" { "Security Analyst" "Museum Director" }
+""
+
+c "" 1 "" { "RoutineDay" 1/2 "HighThreat" 1/2 } 0
+p "" 1 1 "" { "LowAlert" "HighAlert" } 0
+p "" 2 1 "" { "ProtocolA" "ProtocolB" } 0
+t "" 1 "RoutineDay_LowAlert_ProtocolA" { 0, 0 }
+t "" 2 "RoutineDay_LowAlert_ProtocolB" { -1, -1 }
+p "" 2 2 "" { "ProtocolA" "ProtocolB" } 0
+t "" 3 "RoutineDay_HighAlert_ProtocolA" { 0, -10 }
+t "" 4 "RoutineDay_HighAlert_ProtocolB" { -1, -11 }
+p "" 1 2 "" { "LowAlert" "HighAlert" } 0
+p "" 2 1 "" { "ProtocolA" "ProtocolB" } 0
+t "" 5 "HighThreat_LowAlert_ProtocolA" { -1, -11 }
+t "" 6 "HighThreat_LowAlert_ProtocolB" { 0, -10 }
+p "" 2 2 "" { "ProtocolA" "ProtocolB" } 0
+t "" 7 "HighThreat_HighAlert_ProtocolA" { -1, -1 }
+t "" 8 "HighThreat_HighAlert_ProtocolB" { 0, 0 }

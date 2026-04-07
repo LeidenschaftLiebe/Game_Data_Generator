@@ -1,0 +1,23 @@
+V5 — Archive Recovery
+
+Nature first determines whether the real archive condition is Minor Damage or Severe Damage.
+After observing that condition, the restoration expert sends either Code 0 (0) or Code 1 (1).
+The archive director then chooses between Recovery A (a0) and Recovery B (a1).
+
+When the director moves, the director observes the expert’s code but does not observe whether the archive condition is
+Minor Damage or Severe Damage.
+So after hearing Code 0 (0), the director chooses between Recovery A (a0) and Recovery B (a1) without
+knowing which condition occurred.
+After hearing Code 1 (1), the director again chooses without seeing the condition itself.
+
+If the path is Minor Damage, Code 0 (0), Recovery A (a0), the outcome gives reward 0 to the expert and reward 0 to the director.
+If the path is Minor Damage, Code 0 (0), Recovery B (a1), the outcome gives reward -1 to the expert and reward -1 to the director.
+
+If the path is Minor Damage, Code 1 (1), Recovery A (a0), the outcome gives reward 0 to the expert and reward -10 to the director.
+If the path is Minor Damage, Code 1 (1), Recovery B (a1), the outcome gives reward -1 to the expert and reward -11 to the director.
+
+If the path is Severe Damage, Code 0 (0), Recovery A (a0), the outcome gives reward -1 to the expert and reward -11 to the director.
+If the path is Severe Damage, Code 0 (0), Recovery B (a1), the outcome gives reward 0 to the expert and reward -10 to the director.
+
+If the path is Severe Damage, Code 1 (1), Recovery A (a0), the outcome gives reward -1 to the expert and reward -1 to the director.
+If the path is Severe Damage, Code 1 (1), Recovery B (a1), the outcome gives reward 0 to the expert and reward 0 to the director.

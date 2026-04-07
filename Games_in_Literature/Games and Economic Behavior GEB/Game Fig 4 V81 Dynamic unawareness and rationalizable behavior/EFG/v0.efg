@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 4 Standard Recommendation V0" { "Expert" "Decision Maker" }
+""
+
+c "" 1 "" { "gamma0" 1/2 "gamma1" 1/2 } 0
+p "" 1 1 "" { "0" "1" } 0
+p "" 2 1 "" { "a0" "a1" } 0
+t "" 1 "gamma0_0_a0" { 0, 0 }
+t "" 2 "gamma0_0_a1" { -1, -1 }
+p "" 2 2 "" { "a0" "a1" } 0
+t "" 3 "gamma0_1_a0" { 0, -10 }
+t "" 4 "gamma0_1_a1" { -1, -11 }
+p "" 1 2 "" { "0" "1" } 0
+p "" 2 1 "" { "a0" "a1" } 0
+t "" 5 "gamma1_0_a0" { -1, -11 }
+t "" 6 "gamma1_0_a1" { 0, -10 }
+p "" 2 2 "" { "a0" "a1" } 0
+t "" 7 "gamma1_1_a0" { -1, -1 }
+t "" 8 "gamma1_1_a1" { 0, 0 }

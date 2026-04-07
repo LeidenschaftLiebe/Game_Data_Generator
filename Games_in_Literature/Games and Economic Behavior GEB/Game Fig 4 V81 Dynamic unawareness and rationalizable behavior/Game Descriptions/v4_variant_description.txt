@@ -1,0 +1,23 @@
+V4 — Farm Control
+
+Nature first determines whether the real crop condition is Healthy Soil or Fungal Risk.
+After observing that condition, the agronomy advisor sends either Mode 0 (0) or Mode 1 (1).
+The farm manager then chooses between Treatment A (a0) and Treatment B (a1).
+
+When the manager moves, the manager observes the advisor’s message but does not observe whether the crop condition is
+Healthy Soil or Fungal Risk.
+So after hearing Mode 0 (0), the manager chooses between Treatment A (a0) and Treatment B (a1) without
+knowing which condition occurred.
+After hearing Mode 1 (1), the manager again chooses without seeing the condition itself.
+
+If the path is Healthy Soil, Mode 0 (0), Treatment A (a0), the outcome gives reward 0 to the advisor and reward 0 to the manager.
+If the path is Healthy Soil, Mode 0 (0), Treatment B (a1), the outcome gives reward -1 to the advisor and reward -1 to the manager.
+
+If the path is Healthy Soil, Mode 1 (1), Treatment A (a0), the outcome gives reward 0 to the advisor and reward -10 to the manager.
+If the path is Healthy Soil, Mode 1 (1), Treatment B (a1), the outcome gives reward -1 to the advisor and reward -11 to the manager.
+
+If the path is Fungal Risk, Mode 0 (0), Treatment A (a0), the outcome gives reward -1 to the advisor and reward -11 to the manager.
+If the path is Fungal Risk, Mode 0 (0), Treatment B (a1), the outcome gives reward 0 to the advisor and reward -10 to the manager.
+
+If the path is Fungal Risk, Mode 1 (1), Treatment A (a0), the outcome gives reward -1 to the advisor and reward -1 to the manager.
+If the path is Fungal Risk, Mode 1 (1), Treatment B (a1), the outcome gives reward 0 to the advisor and reward 0 to the manager.

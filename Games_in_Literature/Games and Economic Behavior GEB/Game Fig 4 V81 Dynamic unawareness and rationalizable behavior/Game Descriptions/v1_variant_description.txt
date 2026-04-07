@@ -1,0 +1,23 @@
+V1 — Storm Alert
+
+Nature first determines whether the real condition is Calm or Severe.
+After observing the condition, the forecaster sends either Stay Put (0) or Move Now (1).
+The field commander then chooses between Base Plan (a0) and Emergency Plan (a1).
+
+When the commander moves, the commander hears the forecaster’s message but does not observe whether the condition is
+Calm or Severe.
+So after hearing Stay Put (0), the commander must choose between Base Plan (a0) and Emergency Plan (a1)
+without knowing which condition occurred.
+After hearing Move Now (1), the commander again chooses without observing the condition.
+
+If the path is Calm, Stay Put (0), Base Plan (a0), the outcome gives reward 0 to the forecaster and reward 0 to the commander.
+If the path is Calm, Stay Put (0), Emergency Plan (a1), the outcome gives reward -1 to the forecaster and reward -1 to the commander.
+
+If the path is Calm, Move Now (1), Base Plan (a0), the outcome gives reward 0 to the forecaster and reward -10 to the commander.
+If the path is Calm, Move Now (1), Emergency Plan (a1), the outcome gives reward -1 to the forecaster and reward -11 to the commander.
+
+If the path is Severe, Stay Put (0), Base Plan (a0), the outcome gives reward -1 to the forecaster and reward -11 to the commander.
+If the path is Severe, Stay Put (0), Emergency Plan (a1), the outcome gives reward 0 to the forecaster and reward -10 to the commander.
+
+If the path is Severe, Move Now (1), Base Plan (a0), the outcome gives reward -1 to the forecaster and reward -1 to the commander.
+If the path is Severe, Move Now (1), Emergency Plan (a1), the outcome gives reward 0 to the forecaster and reward 0 to the commander.

@@ -1,0 +1,23 @@
+V2 — Museum Security
+
+Nature first determines whether the real condition is Routine Day or High Threat.
+After observing that condition, the security analyst sends either Low Alert (0) or High Alert (1).
+The museum director then chooses between Protocol A (a0) and Protocol B (a1).
+
+When the director moves, the director observes the analyst’s alert but does not observe whether the condition is
+Routine Day or High Threat.
+So after hearing Low Alert (0), the director chooses between Protocol A (a0) and Protocol B (a1) without
+knowing which condition occurred.
+After hearing High Alert (1), the director again chooses without seeing the condition itself.
+
+If the path is Routine Day, Low Alert (0), Protocol A (a0), the outcome gives reward 0 to the analyst and reward 0 to the director.
+If the path is Routine Day, Low Alert (0), Protocol B (a1), the outcome gives reward -1 to the analyst and reward -1 to the director.
+
+If the path is Routine Day, High Alert (1), Protocol A (a0), the outcome gives reward 0 to the analyst and reward -10 to the director.
+If the path is Routine Day, High Alert (1), Protocol B (a1), the outcome gives reward -1 to the analyst and reward -11 to the director.
+
+If the path is High Threat, Low Alert (0), Protocol A (a0), the outcome gives reward -1 to the analyst and reward -11 to the director.
+If the path is High Threat, Low Alert (0), Protocol B (a1), the outcome gives reward 0 to the analyst and reward -10 to the director.
+
+If the path is High Threat, High Alert (1), Protocol A (a0), the outcome gives reward -1 to the analyst and reward -1 to the director.
+If the path is High Threat, High Alert (1), Protocol B (a1), the outcome gives reward 0 to the analyst and reward 0 to the director.

@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 4 Shipping Guidance V3" { "Port Expert" "Shipping Manager" }
+""
+
+c "" 1 "" { "OpenChannel" 1/2 "BlockedChannel" 1/2 } 0
+p "" 1 1 "" { "Route0" "Route1" } 0
+p "" 2 1 "" { "OptionA" "OptionB" } 0
+t "" 1 "OpenChannel_Route0_OptionA" { 0, 0 }
+t "" 2 "OpenChannel_Route0_OptionB" { -1, -1 }
+p "" 2 2 "" { "OptionA" "OptionB" } 0
+t "" 3 "OpenChannel_Route1_OptionA" { 0, -10 }
+t "" 4 "OpenChannel_Route1_OptionB" { -1, -11 }
+p "" 1 2 "" { "Route0" "Route1" } 0
+p "" 2 1 "" { "OptionA" "OptionB" } 0
+t "" 5 "BlockedChannel_Route0_OptionA" { -1, -11 }
+t "" 6 "BlockedChannel_Route0_OptionB" { 0, -10 }
+p "" 2 2 "" { "OptionA" "OptionB" } 0
+t "" 7 "BlockedChannel_Route1_OptionA" { -1, -1 }
+t "" 8 "BlockedChannel_Route1_OptionB" { 0, 0 }

@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 4 Archive Recovery V5" { "Restoration Expert" "Archive Director" }
+""
+
+c "" 1 "" { "MinorDamage" 1/2 "SevereDamage" 1/2 } 0
+p "" 1 1 "" { "Code0" "Code1" } 0
+p "" 2 1 "" { "RecoveryA" "RecoveryB" } 0
+t "" 1 "MinorDamage_Code0_RecoveryA" { 0, 0 }
+t "" 2 "MinorDamage_Code0_RecoveryB" { -1, -1 }
+p "" 2 2 "" { "RecoveryA" "RecoveryB" } 0
+t "" 3 "MinorDamage_Code1_RecoveryA" { 0, -10 }
+t "" 4 "MinorDamage_Code1_RecoveryB" { -1, -11 }
+p "" 1 2 "" { "Code0" "Code1" } 0
+p "" 2 1 "" { "RecoveryA" "RecoveryB" } 0
+t "" 5 "SevereDamage_Code0_RecoveryA" { -1, -11 }
+t "" 6 "SevereDamage_Code0_RecoveryB" { 0, -10 }
+p "" 2 2 "" { "RecoveryA" "RecoveryB" } 0
+t "" 7 "SevereDamage_Code1_RecoveryA" { -1, -1 }
+t "" 8 "SevereDamage_Code1_RecoveryB" { 0, 0 }

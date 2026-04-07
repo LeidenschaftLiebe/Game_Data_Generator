@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 4 Storm Alert V1" { "Forecaster" "Field Commander" }
+""
+
+c "" 1 "" { "Calm" 1/2 "Severe" 1/2 } 0
+p "" 1 1 "" { "StayPut" "MoveNow" } 0
+p "" 2 1 "" { "BasePlan" "EmergencyPlan" } 0
+t "" 1 "Calm_StayPut_BasePlan" { 0, 0 }
+t "" 2 "Calm_StayPut_EmergencyPlan" { -1, -1 }
+p "" 2 2 "" { "BasePlan" "EmergencyPlan" } 0
+t "" 3 "Calm_MoveNow_BasePlan" { 0, -10 }
+t "" 4 "Calm_MoveNow_EmergencyPlan" { -1, -11 }
+p "" 1 2 "" { "StayPut" "MoveNow" } 0
+p "" 2 1 "" { "BasePlan" "EmergencyPlan" } 0
+t "" 5 "Severe_StayPut_BasePlan" { -1, -11 }
+t "" 6 "Severe_StayPut_EmergencyPlan" { 0, -10 }
+p "" 2 2 "" { "BasePlan" "EmergencyPlan" } 0
+t "" 7 "Severe_MoveNow_BasePlan" { -1, -1 }
+t "" 8 "Severe_MoveNow_EmergencyPlan" { 0, 0 }

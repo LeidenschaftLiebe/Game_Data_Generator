@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 2 Vaccine Rollout V4" { "Health Director" "Clinic Manager" "Medical Analyst" }
+""
+
+p "" 1 1 "" { "TargetedRollout" "PauseExpansion" } 0
+p "" 2 1 "" { "NeighborhoodClinics" "MobileUnits" } 0
+p "" 3 1 "" { "StartThisWeek" "DelayStart" } 0
+t "" 1 "TargetedRollout_NeighborhoodClinics_StartThisWeek" { 1, 1, 0 }
+t "" 2 "TargetedRollout_NeighborhoodClinics_DelayStart" { 3, 3, 1 }
+p "" 3 2 "" { "PartialCoverage" "FullCoverage" } 0
+t "" 3 "TargetedRollout_MobileUnits_PartialCoverage" { 1, 2, 1 }
+t "" 4 "TargetedRollout_MobileUnits_FullCoverage" { 4, 0, 0 }
+t "" 5 "PauseExpansion" { 2, 2, 0 }

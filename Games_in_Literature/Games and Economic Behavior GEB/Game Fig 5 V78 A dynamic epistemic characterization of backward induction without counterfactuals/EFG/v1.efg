@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 2 Harbor Deployment V1" { "Harbor Chief" "Dock Supervisor" "Marine Analyst" }
+""
+
+p "" 1 1 "" { "InspectionPlan" "StandDown" } 0
+p "" 2 1 "" { "SendPatrolBoat" "SendSurveyTeam" } 0
+p "" 3 1 "" { "BoardImmediately" "ShadowFirst" } 0
+t "" 1 "InspectionPlan_SendPatrolBoat_BoardImmediately" { 1, 1, 0 }
+t "" 2 "InspectionPlan_SendPatrolBoat_ShadowFirst" { 3, 3, 1 }
+p "" 3 2 "" { "SurfaceScan" "DeepScan" } 0
+t "" 3 "InspectionPlan_SendSurveyTeam_SurfaceScan" { 1, 2, 1 }
+t "" 4 "InspectionPlan_SendSurveyTeam_DeepScan" { 4, 0, 0 }
+t "" 5 "StandDown" { 2, 2, 0 }

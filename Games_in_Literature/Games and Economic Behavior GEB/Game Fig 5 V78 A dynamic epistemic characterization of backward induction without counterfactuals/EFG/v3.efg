@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 2 Festival Planning V3" { "Festival Director" "Stage Manager" "Guest Curator" }
+""
+
+p "" 1 1 "" { "CuratedProgram" "KeepCurrentSchedule" } 0
+p "" 2 1 "" { "BookLocalHeadliner" "BookTouringHeadliner" } 0
+p "" 3 1 "" { "SmallOpeningSet" "ExpandedOpeningSet" } 0
+t "" 1 "CuratedProgram_BookLocalHeadliner_SmallOpeningSet" { 1, 1, 0 }
+t "" 2 "CuratedProgram_BookLocalHeadliner_ExpandedOpeningSet" { 3, 3, 1 }
+p "" 3 2 "" { "GalleryEvent" "CitywideEvent" } 0
+t "" 3 "CuratedProgram_BookTouringHeadliner_GalleryEvent" { 1, 2, 1 }
+t "" 4 "CuratedProgram_BookTouringHeadliner_CitywideEvent" { 4, 0, 0 }
+t "" 5 "KeepCurrentSchedule" { 2, 2, 0 }

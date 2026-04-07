@@ -1,0 +1,24 @@
+V1 — Harbor Deployment
+
+A harbor chief is deciding how to organize a coastal operation.
+The harbor chief moves first and chooses between Inspection Plan (a1) and Stand Down (b1).
+
+If the harbor chief chooses Stand Down (b1), the process ends immediately with reward 2 to the harbor chief,
+reward 2 to the dock supervisor, and reward 0 to the marine analyst.
+
+If the harbor chief chooses Inspection Plan (a1), the dock supervisor moves next and chooses between
+Send Patrol Boat (a2) and Send Survey Team (b2).
+
+If the dock supervisor chooses Send Patrol Boat (a2), the marine analyst then chooses between
+Board Immediately (a3) and Shadow First (b3).
+If the path is a1, a2, a3, the outcome gives reward 1 to the harbor chief, reward 1 to the dock supervisor,
+and reward 0 to the marine analyst.
+If the path is a1, a2, b3, the outcome gives reward 3 to the harbor chief, reward 3 to the dock supervisor,
+and reward 1 to the marine analyst.
+
+If the dock supervisor chooses Send Survey Team (b2), the marine analyst then chooses between
+Surface Scan (c3) and Deep Scan (d3).
+If the path is a1, b2, c3, the outcome gives reward 1 to the harbor chief, reward 2 to the dock supervisor,
+and reward 1 to the marine analyst.
+If the path is a1, b2, d3, the outcome gives reward 4 to the harbor chief, reward 0 to the dock supervisor,
+and reward 0 to the marine analyst.

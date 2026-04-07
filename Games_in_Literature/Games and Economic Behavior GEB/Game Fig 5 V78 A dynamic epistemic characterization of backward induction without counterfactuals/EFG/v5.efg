@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 2 Mountain Expedition V5" { "Expedition Leader" "Route Captain" "Weather Specialist" }
+""
+
+p "" 1 1 "" { "AdvancePlan" "BaseCampHold" } 0
+p "" 2 1 "" { "RidgeApproach" "ValleyApproach" } 0
+p "" 3 1 "" { "SummitPush" "ShortProbe" } 0
+t "" 1 "AdvancePlan_RidgeApproach_SummitPush" { 1, 1, 0 }
+t "" 2 "AdvancePlan_RidgeApproach_ShortProbe" { 3, 3, 1 }
+p "" 3 2 "" { "CampShift" "NightClimb" } 0
+t "" 3 "AdvancePlan_ValleyApproach_CampShift" { 1, 2, 1 }
+t "" 4 "AdvancePlan_ValleyApproach_NightClimb" { 4, 0, 0 }
+t "" 5 "BaseCampHold" { 2, 2, 0 }

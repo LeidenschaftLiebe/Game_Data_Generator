@@ -1,0 +1,24 @@
+V2 — Wildlife Corridor
+
+A conservation director is deciding how to manage a wildlife corridor.
+The director moves first and chooses between Active Monitoring (a1) and Leave Undisturbed (b1).
+
+If the director chooses Leave Undisturbed (b1), the process ends immediately with reward 2 to the director,
+reward 2 to the field coordinator, and reward 0 to the ecologist.
+
+If the director chooses Active Monitoring (a1), the field coordinator moves next and chooses between
+Deploy Camera Grid (a2) and Deploy Tracking Team (b2).
+
+If the field coordinator chooses Deploy Camera Grid (a2), the ecologist then chooses between
+Tag Now (a3) and Observe Longer (b3).
+If the path is a1, a2, a3, the outcome gives reward 1 to the director, reward 1 to the coordinator,
+and reward 0 to the ecologist.
+If the path is a1, a2, b3, the outcome gives reward 3 to the director, reward 3 to the coordinator,
+and reward 1 to the ecologist.
+
+If the field coordinator chooses Deploy Tracking Team (b2), the ecologist then chooses between
+Lowland Route (c3) and Highland Route (d3).
+If the path is a1, b2, c3, the outcome gives reward 1 to the director, reward 2 to the coordinator,
+and reward 1 to the ecologist.
+If the path is a1, b2, d3, the outcome gives reward 4 to the director, reward 0 to the coordinator,
+and reward 0 to the ecologist.

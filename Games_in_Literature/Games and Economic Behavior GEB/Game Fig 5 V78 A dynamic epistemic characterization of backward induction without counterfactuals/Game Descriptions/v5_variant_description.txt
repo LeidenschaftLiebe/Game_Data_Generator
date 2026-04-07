@@ -1,0 +1,24 @@
+V5 — Mountain Expedition
+
+An expedition leader is deciding how to run a climbing mission.
+The leader moves first and chooses between Advance Plan (a1) and Base Camp Hold (b1).
+
+If the leader chooses Base Camp Hold (b1), the mission ends immediately with reward 2 to the leader,
+reward 2 to the route captain, and reward 0 to the weather specialist.
+
+If the leader chooses Advance Plan (a1), the route captain moves next and chooses between
+Ridge Approach (a2) and Valley Approach (b2).
+
+If the route captain chooses Ridge Approach (a2), the weather specialist then chooses between
+Summit Push (a3) and Short Probe (b3).
+If the path is a1, a2, a3, the outcome gives reward 1 to the leader, reward 1 to the route captain,
+and reward 0 to the weather specialist.
+If the path is a1, a2, b3, the outcome gives reward 3 to the leader, reward 3 to the route captain,
+and reward 1 to the weather specialist.
+
+If the route captain chooses Valley Approach (b2), the weather specialist then chooses between
+Camp Shift (c3) and Night Climb (d3).
+If the path is a1, b2, c3, the outcome gives reward 1 to the leader, reward 2 to the route captain,
+and reward 1 to the weather specialist.
+If the path is a1, b2, d3, the outcome gives reward 4 to the leader, reward 0 to the route captain,
+and reward 0 to the weather specialist.

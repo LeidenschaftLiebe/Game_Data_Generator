@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 2 Wildlife Corridor V2" { "Conservation Director" "Field Coordinator" "Ecologist" }
+""
+
+p "" 1 1 "" { "ActiveMonitoring" "LeaveUndisturbed" } 0
+p "" 2 1 "" { "DeployCameraGrid" "DeployTrackingTeam" } 0
+p "" 3 1 "" { "TagNow" "ObserveLonger" } 0
+t "" 1 "ActiveMonitoring_DeployCameraGrid_TagNow" { 1, 1, 0 }
+t "" 2 "ActiveMonitoring_DeployCameraGrid_ObserveLonger" { 3, 3, 1 }
+p "" 3 2 "" { "LowlandRoute" "HighlandRoute" } 0
+t "" 3 "ActiveMonitoring_DeployTrackingTeam_LowlandRoute" { 1, 2, 1 }
+t "" 4 "ActiveMonitoring_DeployTrackingTeam_HighlandRoute" { 4, 0, 0 }
+t "" 5 "LeaveUndisturbed" { 2, 2, 0 }

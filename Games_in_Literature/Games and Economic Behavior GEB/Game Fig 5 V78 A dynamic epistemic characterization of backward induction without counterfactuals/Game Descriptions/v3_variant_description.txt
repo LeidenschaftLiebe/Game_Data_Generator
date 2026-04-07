@@ -1,0 +1,24 @@
+V3 — Festival Planning
+
+A festival director is deciding how to shape an upcoming program.
+The director moves first and chooses between Curated Program (a1) and Keep Current Schedule (b1).
+
+If the director chooses Keep Current Schedule (b1), the process ends immediately with reward 2 to the director,
+reward 2 to the stage manager, and reward 0 to the guest curator.
+
+If the director chooses Curated Program (a1), the stage manager moves next and chooses between
+Book Local Headliner (a2) and Book Touring Headliner (b2).
+
+If the stage manager chooses Book Local Headliner (a2), the guest curator then chooses between
+Small Opening Set (a3) and Expanded Opening Set (b3).
+If the path is a1, a2, a3, the outcome gives reward 1 to the director, reward 1 to the stage manager,
+and reward 0 to the guest curator.
+If the path is a1, a2, b3, the outcome gives reward 3 to the director, reward 3 to the stage manager,
+and reward 1 to the guest curator.
+
+If the stage manager chooses Book Touring Headliner (b2), the guest curator then chooses between
+Gallery Event (c3) and Citywide Event (d3).
+If the path is a1, b2, c3, the outcome gives reward 1 to the director, reward 2 to the stage manager,
+and reward 1 to the guest curator.
+If the path is a1, b2, d3, the outcome gives reward 4 to the director, reward 0 to the stage manager,
+and reward 0 to the guest curator.

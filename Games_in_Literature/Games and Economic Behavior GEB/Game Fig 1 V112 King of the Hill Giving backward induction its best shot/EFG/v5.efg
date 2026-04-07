@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 1 Prediction Line Game N=4 V5 Expedition Command Handoff" { "Explorer 1" "Explorer 2" "Explorer 3" "Explorer 4" }
+""
+
+p "" 1 1 "" { "KeepRank" "SeizeCommand" } 0
+t "" 1 "KeepRank" { 4, 4, 4, 4 }
+p "" 2 1 "" { "KeepRank" "SeizeCommand" } 0
+t "" 2 "SeizeCommand_KeepRank" { 8, 4, 4, 4 }
+p "" 3 1 "" { "KeepRank" "SeizeCommand" } 0
+t "" 3 "SeizeCommand_SeizeCommand_KeepRank" { 0, 8, 4, 4 }
+p "" 4 1 "" { "KeepRank" "SeizeCommand" } 0
+t "" 4 "SeizeCommand_SeizeCommand_SeizeCommand_KeepRank" { 0, 0, 8, 4 }
+t "" 5 "SeizeCommand_SeizeCommand_SeizeCommand_SeizeCommand" { 0, 0, 0, 8 }

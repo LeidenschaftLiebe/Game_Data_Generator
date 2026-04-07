@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 1 Prediction Line Game N=4 V1 Corporate Takeover Ladder" { "Executive 1" "Executive 2" "Executive 3" "Executive 4" }
+""
+
+p "" 1 1 "" { "HoldPosition" "LaunchChallenge" } 0
+t "" 1 "HoldPosition" { 4, 4, 4, 4 }
+p "" 2 1 "" { "HoldPosition" "LaunchChallenge" } 0
+t "" 2 "LaunchChallenge_HoldPosition" { 8, 4, 4, 4 }
+p "" 3 1 "" { "HoldPosition" "LaunchChallenge" } 0
+t "" 3 "LaunchChallenge_LaunchChallenge_HoldPosition" { 0, 8, 4, 4 }
+p "" 4 1 "" { "HoldPosition" "LaunchChallenge" } 0
+t "" 4 "LaunchChallenge_LaunchChallenge_LaunchChallenge_HoldPosition" { 0, 0, 8, 4 }
+t "" 5 "LaunchChallenge_LaunchChallenge_LaunchChallenge_LaunchChallenge" { 0, 0, 0, 8 }

@@ -1,0 +1,35 @@
+V3 — Fantasy throne succession
+
+Four nobles stand in line before a throne.
+
+Noble 1 moves first and can Remain Loyal (Stay) or Storm the Throne (Charge).
+
+If Noble 1 chooses Remain Loyal (Stay), the struggle ends immediately.
+All four stay as ordinary nobles, and each receives reward 4.
+
+If Noble 1 chooses Storm the Throne (Charge), Noble 1 becomes ruler,
+and Noble 2 decides next.
+
+Noble 2 can Remain Loyal (Stay) or Storm the Throne (Charge).
+
+If Noble 2 chooses Remain Loyal (Stay), the struggle ends with reward 8 to Noble 1,
+and reward 4 to Nobles 2, 3, and 4.
+
+If Noble 2 chooses Storm the Throne (Charge), Noble 2 becomes ruler,
+Noble 1 is cast down, and Noble 3 moves next.
+
+Noble 3 can Remain Loyal (Stay) or Storm the Throne (Charge).
+
+If Noble 3 chooses Remain Loyal (Stay), the struggle ends with reward 0 to Noble 1,
+reward 8 to Noble 2, and reward 4 to Nobles 3 and 4.
+
+If Noble 3 chooses Storm the Throne (Charge), Noble 3 becomes ruler,
+Noble 2 is cast down, and Noble 4 gets the final choice.
+
+Noble 4 can Remain Loyal (Stay) or Storm the Throne (Charge).
+
+If Noble 4 chooses Remain Loyal (Stay), the struggle ends with reward 0 to Nobles 1 and 2,
+reward 8 to Noble 3, and reward 4 to Noble 4.
+
+If Noble 4 chooses Storm the Throne (Charge), Noble 4 becomes the final ruler.
+The struggle ends with reward 0 to Nobles 1, 2, and 3, and reward 8 to Noble 4.

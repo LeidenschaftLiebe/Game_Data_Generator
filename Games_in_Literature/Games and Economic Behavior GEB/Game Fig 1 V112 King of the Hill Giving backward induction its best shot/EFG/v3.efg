@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 1 Prediction Line Game N=4 V3 Fantasy Throne Succession" { "Noble 1" "Noble 2" "Noble 3" "Noble 4" }
+""
+
+p "" 1 1 "" { "RemainLoyal" "StormThrone" } 0
+t "" 1 "RemainLoyal" { 4, 4, 4, 4 }
+p "" 2 1 "" { "RemainLoyal" "StormThrone" } 0
+t "" 2 "StormThrone_RemainLoyal" { 8, 4, 4, 4 }
+p "" 3 1 "" { "RemainLoyal" "StormThrone" } 0
+t "" 3 "StormThrone_StormThrone_RemainLoyal" { 0, 8, 4, 4 }
+p "" 4 1 "" { "RemainLoyal" "StormThrone" } 0
+t "" 4 "StormThrone_StormThrone_StormThrone_RemainLoyal" { 0, 0, 8, 4 }
+t "" 5 "StormThrone_StormThrone_StormThrone_StormThrone" { 0, 0, 0, 8 }

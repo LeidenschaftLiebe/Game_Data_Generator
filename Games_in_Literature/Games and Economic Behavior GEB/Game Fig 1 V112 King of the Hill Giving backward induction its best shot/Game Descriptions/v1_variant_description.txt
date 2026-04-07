@@ -1,0 +1,35 @@
+V1 — Corporate takeover ladder
+
+Four executives are lined up in order for a possible takeover of the CEO seat.
+
+Executive 1 moves first and can Hold Position (Stay) or Launch Challenge (Charge).
+
+If Executive 1 chooses Hold Position (Stay), the contest ends at once.
+All four remain ordinary executives, and each ends with reward 4.
+
+If Executive 1 chooses Launch Challenge (Charge), Executive 1 takes the top seat,
+and Executive 2 decides next.
+
+Executive 2 can Hold Position (Stay) or Launch Challenge (Charge).
+
+If Executive 2 chooses Hold Position (Stay), the contest ends with reward 8 to Executive 1,
+and reward 4 to Executives 2, 3, and 4.
+
+If Executive 2 chooses Launch Challenge (Charge), Executive 2 takes the top seat,
+Executive 1 is pushed out, and Executive 3 moves next.
+
+Executive 3 can Hold Position (Stay) or Launch Challenge (Charge).
+
+If Executive 3 chooses Hold Position (Stay), the contest ends with reward 0 to Executive 1,
+reward 8 to Executive 2, and reward 4 to Executives 3 and 4.
+
+If Executive 3 chooses Launch Challenge (Charge), Executive 3 takes the top seat,
+Executive 2 is pushed out, and Executive 4 gets the last decision.
+
+Executive 4 can Hold Position (Stay) or Launch Challenge (Charge).
+
+If Executive 4 chooses Hold Position (Stay), the contest ends with reward 0 to Executives 1 and 2,
+reward 8 to Executive 3, and reward 4 to Executive 4.
+
+If Executive 4 chooses Launch Challenge (Charge), Executive 4 takes the top seat at the end.
+The result is reward 0 to Executives 1, 2, and 3, and reward 8 to Executive 4.

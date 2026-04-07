@@ -1,0 +1,35 @@
+V5 — Expedition command handoff
+
+Four explorers are lined up for control of the expedition.
+
+Explorer 1 moves first and can Keep Rank (Stay) or Seize Command (Charge).
+
+If Explorer 1 chooses Keep Rank (Stay), the expedition settles immediately.
+All four remain ordinary team members, and each receives reward 4.
+
+If Explorer 1 chooses Seize Command (Charge), Explorer 1 becomes commander,
+and Explorer 2 decides next.
+
+Explorer 2 can Keep Rank (Stay) or Seize Command (Charge).
+
+If Explorer 2 chooses Keep Rank (Stay), the expedition ends with reward 8 to Explorer 1,
+and reward 4 to Explorers 2, 3, and 4.
+
+If Explorer 2 chooses Seize Command (Charge), Explorer 2 becomes commander,
+Explorer 1 is removed from command, and Explorer 3 moves next.
+
+Explorer 3 can Keep Rank (Stay) or Seize Command (Charge).
+
+If Explorer 3 chooses Keep Rank (Stay), the expedition ends with reward 0 to Explorer 1,
+reward 8 to Explorer 2, and reward 4 to Explorers 3 and 4.
+
+If Explorer 3 chooses Seize Command (Charge), Explorer 3 becomes commander,
+Explorer 2 is removed from command, and Explorer 4 gets the final move.
+
+Explorer 4 can Keep Rank (Stay) or Seize Command (Charge).
+
+If Explorer 4 chooses Keep Rank (Stay), the expedition ends with reward 0 to Explorers 1 and 2,
+reward 8 to Explorer 3, and reward 4 to Explorer 4.
+
+If Explorer 4 chooses Seize Command (Charge), Explorer 4 becomes final commander.
+The expedition ends with reward 0 to Explorers 1, 2, and 3, and reward 8 to Explorer 4.

@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 1 Prediction Line Game N=4 V0" { "Subject 1" "Subject 2" "Subject 3" "Subject 4" }
+""
+
+p "" 1 1 "" { "Stay" "Charge" } 0
+t "" 1 "Stay" { 4, 4, 4, 4 }
+p "" 2 1 "" { "Stay" "Charge" } 0
+t "" 2 "Charge_Stay" { 8, 4, 4, 4 }
+p "" 3 1 "" { "Stay" "Charge" } 0
+t "" 3 "Charge_Charge_Stay" { 0, 8, 4, 4 }
+p "" 4 1 "" { "Stay" "Charge" } 0
+t "" 4 "Charge_Charge_Charge_Stay" { 0, 0, 8, 4 }
+t "" 5 "Charge_Charge_Charge_Charge" { 0, 0, 0, 8 }

@@ -1,0 +1,35 @@
+V4 — Influencer spotlight chain
+
+Four creators are lined up for the platform’s top spotlight slot.
+
+Creator 1 moves first and can Stay Supporting (Stay) or Go for Spotlight (Charge).
+
+If Creator 1 chooses Stay Supporting (Stay), the process ends right away.
+All four remain regular creators, and each receives reward 4.
+
+If Creator 1 chooses Go for Spotlight (Charge), Creator 1 takes the spotlight,
+and Creator 2 decides next.
+
+Creator 2 can Stay Supporting (Stay) or Go for Spotlight (Charge).
+
+If Creator 2 chooses Stay Supporting (Stay), the process ends with reward 8 to Creator 1,
+and reward 4 to Creators 2, 3, and 4.
+
+If Creator 2 chooses Go for Spotlight (Charge), Creator 2 takes the spotlight,
+Creator 1 loses it, and Creator 3 moves next.
+
+Creator 3 can Stay Supporting (Stay) or Go for Spotlight (Charge).
+
+If Creator 3 chooses Stay Supporting (Stay), the process ends with reward 0 to Creator 1,
+reward 8 to Creator 2, and reward 4 to Creators 3 and 4.
+
+If Creator 3 chooses Go for Spotlight (Charge), Creator 3 takes the spotlight,
+Creator 2 loses it, and Creator 4 gets the final move.
+
+Creator 4 can Stay Supporting (Stay) or Go for Spotlight (Charge).
+
+If Creator 4 chooses Stay Supporting (Stay), the process ends with reward 0 to Creators 1 and 2,
+reward 8 to Creator 3, and reward 4 to Creator 4.
+
+If Creator 4 chooses Go for Spotlight (Charge), Creator 4 gets the final spotlight.
+The process ends with reward 0 to Creators 1, 2, and 3, and reward 8 to Creator 4.

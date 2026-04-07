@@ -1,0 +1,35 @@
+V2 — Racing championship challenge
+
+Four riders are queued for a shot at the championship lead.
+
+Rider 1 moves first and can Keep Place (Stay) or Make Challenge (Charge).
+
+If Rider 1 chooses Keep Place (Stay), the event stops there.
+All four remain regular contenders, and each receives reward 4.
+
+If Rider 1 chooses Make Challenge (Charge), Rider 1 takes the lead,
+and Rider 2 decides next.
+
+Rider 2 can Keep Place (Stay) or Make Challenge (Charge).
+
+If Rider 2 chooses Keep Place (Stay), the event ends with reward 8 to Rider 1,
+and reward 4 to Riders 2, 3, and 4.
+
+If Rider 2 chooses Make Challenge (Charge), Rider 2 takes the lead,
+Rider 1 loses that spot, and Rider 3 moves next.
+
+Rider 3 can Keep Place (Stay) or Make Challenge (Charge).
+
+If Rider 3 chooses Keep Place (Stay), the event ends with reward 0 to Rider 1,
+reward 8 to Rider 2, and reward 4 to Riders 3 and 4.
+
+If Rider 3 chooses Make Challenge (Charge), Rider 3 takes the lead,
+Rider 2 loses that spot, and Rider 4 gets the final move.
+
+Rider 4 can Keep Place (Stay) or Make Challenge (Charge).
+
+If Rider 4 chooses Keep Place (Stay), the event ends with reward 0 to Riders 1 and 2,
+reward 8 to Rider 3, and reward 4 to Rider 4.
+
+If Rider 4 chooses Make Challenge (Charge), Rider 4 finishes as champion.
+The event ends with reward 0 to Riders 1, 2, and 3, and reward 8 to Rider 4.

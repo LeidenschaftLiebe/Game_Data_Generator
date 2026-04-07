@@ -1,0 +1,34 @@
+V0 — King of the Hill line game
+
+Four subjects stand in a line in front of a king on a hill.
+
+Subject 1 moves first and chooses whether to Stay or Charge.
+
+If Subject 1 chooses Stay, the interaction stops immediately.
+All four people remain ordinary subjects, and it ends with reward 4 to each of the four players.
+
+If Subject 1 chooses Charge, Subject 1 becomes the new king and Subject 2 gets the next choice.
+
+Subject 2 then chooses whether to Stay or Charge.
+
+If Subject 2 chooses Stay, the interaction ends there.
+Subject 1 remains king and receives reward 8, while Subjects 2, 3, and 4 each receive reward 4.
+
+If Subject 2 chooses Charge, Subject 2 becomes the new king, Subject 1 is dethroned,
+and Subject 3 gets the next choice.
+
+Subject 3 then chooses whether to Stay or Charge.
+
+If Subject 3 chooses Stay, the interaction ends there.
+Subject 1 gets reward 0, Subject 2 gets reward 8, and Subjects 3 and 4 each get reward 4.
+
+If Subject 3 chooses Charge, Subject 3 becomes the new king, Subject 2 is dethroned,
+and Subject 4 gets the final choice.
+
+Subject 4 then chooses whether to Stay or Charge.
+
+If Subject 4 chooses Stay, the interaction ends there.
+Subjects 1 and 2 each get reward 0, Subject 3 gets reward 8, and Subject 4 gets reward 4.
+
+If Subject 4 chooses Charge, Subject 4 becomes the final king and Subject 3 is dethroned.
+The interaction ends with reward 0 to Subjects 1, 2, and 3, and reward 8 to Subject 4.

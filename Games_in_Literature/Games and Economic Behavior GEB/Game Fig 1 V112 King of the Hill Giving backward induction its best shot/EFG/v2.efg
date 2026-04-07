@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 1 Prediction Line Game N=4 V2 Racing Championship Challenge" { "Rider 1" "Rider 2" "Rider 3" "Rider 4" }
+""
+
+p "" 1 1 "" { "KeepPlace" "MakeChallenge" } 0
+t "" 1 "KeepPlace" { 4, 4, 4, 4 }
+p "" 2 1 "" { "KeepPlace" "MakeChallenge" } 0
+t "" 2 "MakeChallenge_KeepPlace" { 8, 4, 4, 4 }
+p "" 3 1 "" { "KeepPlace" "MakeChallenge" } 0
+t "" 3 "MakeChallenge_MakeChallenge_KeepPlace" { 0, 8, 4, 4 }
+p "" 4 1 "" { "KeepPlace" "MakeChallenge" } 0
+t "" 4 "MakeChallenge_MakeChallenge_MakeChallenge_KeepPlace" { 0, 0, 8, 4 }
+t "" 5 "MakeChallenge_MakeChallenge_MakeChallenge_MakeChallenge" { 0, 0, 0, 8 }

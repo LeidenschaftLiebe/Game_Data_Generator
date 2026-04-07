@@ -1,0 +1,29 @@
+V0 — Inspections
+
+Set beta = 0.4, w1 = 0.6, r1 = 0.2, cL = 0.1, cH = 0.5, w2 = 0.8, r2 = 0.3
+A hostile state may or may not find it costly to open its facilities to outside inspection.
+
+At the start, the state is one of two types.
+With probability 0.6 it is the low-cost type L.
+With probability 0.4 it is the high-cost type H.
+
+After learning its type, Player 1 chooses among Open (NBO), No Bomb (NB), and Build (B).
+
+If the low-cost type chooses Open (NBO), the interaction ends with reward 0.5 to Player 1 and 1.0 to Player 2.
+
+If the high-cost type chooses Open (NBO), the interaction ends with reward 0.1 to Player 1 and 1.0 to Player 2.
+
+If Player 1 instead chooses No Bomb (NB) or Build (B), Player 2 moves next.
+
+At that point, Player 2 only sees that the facilities were not opened.
+Player 2 does not know whether Player 1 is type L or H, and does not know whether Player 1 chose No Bomb (NB) or Build (B).
+
+Player 2 then chooses between No Attack (NA) and Attack (A).
+
+If the path is No Bomb (NB), No Attack (NA), the outcome is reward 0.6 to Player 1 and 1.0 to Player 2.
+
+If the path is No Bomb (NB), Attack (A), the outcome is reward 0.2 to Player 1 and 0.3 to Player 2.
+
+If the path is Build (B), No Attack (NA), the outcome is reward 1.0 to Player 1 and 0.0 to Player 2.
+
+If the path is Build (B), Attack (A), the outcome is reward 0.0 to Player 1 and 0.8 to Player 2.

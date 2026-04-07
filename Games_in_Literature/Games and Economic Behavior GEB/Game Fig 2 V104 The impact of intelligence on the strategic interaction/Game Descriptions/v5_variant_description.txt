@@ -1,0 +1,36 @@
+V5 — Customs Inspection
+
+A trading company may find it easy or costly to open all containers to customs.
+
+At the start, the company is one of two types.
+With probability 0.6 the inspection cost is low (L).
+With probability 0.4 the inspection cost is high (H).
+
+After learning the type, the company chooses among Open Containers (NBO),
+Carry Legal Goods (NB), and Hide Contraband (B).
+
+If the low-cost company chooses Open Containers (NBO), the outcome is reward 0.5 to the company
+and 1.0 to customs.
+
+If the high-cost company chooses Open Containers (NBO), the outcome is reward 0.1 to the company
+and 1.0 to customs.
+
+If the company instead chooses Carry Legal Goods (NB) or Hide Contraband (B), customs moves.
+
+Customs only sees that the company did not open everything.
+Customs cannot tell whether the company is low-cost or high-cost, and cannot tell whether the company chose
+Carry Legal Goods (NB) or Hide Contraband (B).
+
+Customs chooses between No Seizure (NA) and Seizure (A).
+
+If the path is Carry Legal Goods (NB), No Seizure (NA), the outcome is reward 0.6 to the company
+and 1.0 to customs.
+
+If the path is Carry Legal Goods (NB), Seizure (A), the outcome is reward 0.2 to the company
+and 0.3 to customs.
+
+If the path is Hide Contraband (B), No Seizure (NA), the outcome is reward 1.0 to the company
+and 0.0 to customs.
+
+If the path is Hide Contraband (B), Seizure (A), the outcome is reward 0.0 to the company
+and 0.8 to customs.

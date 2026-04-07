@@ -1,0 +1,20 @@
+EFG 2 R "GEB Fig. 2.2 Drug Approval V3" { "Biotech Firm" "Regulator" }
+""
+
+c "" 1 "" { "LowCost" 3/5 "HighCost" 2/5 } 0
+p "" 1 1 "" { "FullDisclosure" "NoHiddenRisk" "ConcealSideEffects" } 0
+t "" 1 "LowCost_FullDisclosure" { 0.5, 1.0 }
+p "" 2 1 "" { "NoIntervention" "BlockApproval" } 0
+t "" 2 "LowCost_NoHiddenRisk_NoIntervention" { 0.6, 1.0 }
+t "" 3 "LowCost_NoHiddenRisk_BlockApproval" { 0.2, 0.3 }
+p "" 2 1 "" { "NoIntervention" "BlockApproval" } 0
+t "" 4 "LowCost_ConcealSideEffects_NoIntervention" { 1.0, 0.0 }
+t "" 5 "LowCost_ConcealSideEffects_BlockApproval" { 0.0, 0.8 }
+p "" 1 2 "" { "FullDisclosure" "NoHiddenRisk" "ConcealSideEffects" } 0
+t "" 6 "HighCost_FullDisclosure" { 0.1, 1.0 }
+p "" 2 1 "" { "NoIntervention" "BlockApproval" } 0
+t "" 7 "HighCost_NoHiddenRisk_NoIntervention" { 0.6, 1.0 }
+t "" 8 "HighCost_NoHiddenRisk_BlockApproval" { 0.2, 0.3 }
+p "" 2 1 "" { "NoIntervention" "BlockApproval" } 0
+t "" 9 "HighCost_ConcealSideEffects_NoIntervention" { 1.0, 0.0 }
+t "" 10 "HighCost_ConcealSideEffects_BlockApproval" { 0.0, 0.8 }

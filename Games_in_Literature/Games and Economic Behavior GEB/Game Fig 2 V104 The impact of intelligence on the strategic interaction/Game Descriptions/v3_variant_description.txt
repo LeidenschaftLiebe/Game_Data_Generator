@@ -1,0 +1,36 @@
+V3 — Drug Approval
+
+A biotech firm may find it easy or costly to disclose everything during a regulatory review.
+
+At the start, the firm is one of two types.
+With probability 0.6 disclosure is low-cost (L).
+With probability 0.4 disclosure is high-cost (H).
+
+After learning the type, the firm chooses among Full Disclosure (NBO),
+No Hidden Risk (NB), and Conceal Side Effects (B).
+
+If the low-cost firm chooses Full Disclosure (NBO), the outcome is reward 0.5 to the firm
+and 1.0 to the regulator.
+
+If the high-cost firm chooses Full Disclosure (NBO), the outcome is reward 0.1 to the firm
+and 1.0 to the regulator.
+
+If the firm instead chooses No Hidden Risk (NB) or Conceal Side Effects (B), the regulator moves.
+
+The regulator only sees that the firm did not fully disclose.
+The regulator cannot tell whether the firm is low-cost or high-cost, and cannot tell whether the firm chose
+No Hidden Risk (NB) or Conceal Side Effects (B).
+
+The regulator chooses between No Intervention (NA) and Block Approval (A).
+
+If the path is No Hidden Risk (NB), No Intervention (NA), the outcome is reward 0.6 to the firm
+and 1.0 to the regulator.
+
+If the path is No Hidden Risk (NB), Block Approval (A), the outcome is reward 0.2 to the firm
+and 0.3 to the regulator.
+
+If the path is Conceal Side Effects (B), No Intervention (NA), the outcome is reward 1.0 to the firm
+and 0.0 to the regulator.
+
+If the path is Conceal Side Effects (B), Block Approval (A), the outcome is reward 0.0 to the firm
+and 0.8 to the regulator.

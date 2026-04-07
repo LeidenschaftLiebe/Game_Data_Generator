@@ -1,0 +1,36 @@
+V2 — Factory Emissions
+
+A factory owner may find it easy or costly to allow a full environmental inspection.
+
+At the start, the owner is one of two types.
+With probability 0.6 the inspection cost is low (L).
+With probability 0.4 the inspection cost is high (H).
+
+After learning the type, the owner chooses among Open Books and Site (NBO),
+Meet Standards (NB), and Pollute Secretly (B).
+
+If the low-cost owner chooses Open Books and Site (NBO), the outcome is reward 0.5 to the owner
+and 1.0 to the agency.
+
+If the high-cost owner chooses Open Books and Site (NBO), the outcome is reward 0.1 to the owner
+and 1.0 to the agency.
+
+If the owner instead chooses Meet Standards (NB) or Pollute Secretly (B), the agency moves.
+
+The agency only knows that the owner did not open up fully.
+It cannot tell whether the owner is type L or H, and cannot tell whether the owner chose
+Meet Standards (NB) or Pollute Secretly (B).
+
+The agency chooses between No Raid (NA) and Raid (A).
+
+If the path is Meet Standards (NB), No Raid (NA), the outcome is reward 0.6 to the owner
+and 1.0 to the agency.
+
+If the path is Meet Standards (NB), Raid (A), the outcome is reward 0.2 to the owner
+and 0.3 to the agency.
+
+If the path is Pollute Secretly (B), No Raid (NA), the outcome is reward 1.0 to the owner
+and 0.0 to the agency.
+
+If the path is Pollute Secretly (B), Raid (A), the outcome is reward 0.0 to the owner
+and 0.8 to the agency.

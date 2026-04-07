@@ -1,0 +1,36 @@
+V1 — Doping Test
+
+An athlete may find it easy or costly to submit fully to a deep anti-doping review.
+
+At the start, the athlete is one of two types.
+With probability 0.6 the review cost is low (L).
+With probability 0.4 the review cost is high (H).
+
+After learning the type, the athlete chooses among Open for Full Test (NBO), Stay Clean (NB),
+and Dope (B).
+
+If the low-cost athlete chooses Open for Full Test (NBO), the outcome is reward 0.5 to the athlete
+and 1.0 to the regulator.
+
+If the high-cost athlete chooses Open for Full Test (NBO), the outcome is reward 0.1 to the athlete
+and 1.0 to the regulator.
+
+If the athlete instead chooses Stay Clean (NB) or Dope (B), the regulator moves.
+
+The regulator only sees that there was no full opening.
+The regulator cannot tell whether the athlete is low-cost or high-cost, and cannot tell whether the athlete chose
+Stay Clean (NB) or Dope (B).
+
+The regulator chooses between No Sanction (NA) and Sanction (A).
+
+If the path is Stay Clean (NB), No Sanction (NA), the outcome is reward 0.6 to the athlete
+and 1.0 to the regulator.
+
+If the path is Stay Clean (NB), Sanction (A), the outcome is reward 0.2 to the athlete
+and 0.3 to the regulator.
+
+If the path is Dope (B), No Sanction (NA), the outcome is reward 1.0 to the athlete
+and 0.0 to the regulator.
+
+If the path is Dope (B), Sanction (A), the outcome is reward 0.0 to the athlete
+and 0.8 to the regulator.

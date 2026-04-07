@@ -1,0 +1,36 @@
+V4 — League Compliance
+
+A club may find it easy or costly to open its records to the league.
+
+At the start, the club is one of two types.
+With probability 0.6 the disclosure cost is low (L).
+With probability 0.4 the disclosure cost is high (H).
+
+After learning the type, the club chooses among Open Records (NBO),
+Follow the Rules (NB), and Break Salary Rules (B).
+
+If the low-cost club chooses Open Records (NBO), the outcome is reward 0.5 to the club
+and 1.0 to the league.
+
+If the high-cost club chooses Open Records (NBO), the outcome is reward 0.1 to the club
+and 1.0 to the league.
+
+If the club instead chooses Follow the Rules (NB) or Break Salary Rules (B), the league moves.
+
+The league only sees that the club did not open its records.
+It cannot tell whether the club is type L or H, and cannot tell whether the club chose
+Follow the Rules (NB) or Break Salary Rules (B).
+
+The league chooses between No Penalty (NA) and Penalty (A).
+
+If the path is Follow the Rules (NB), No Penalty (NA), the outcome is reward 0.6 to the club
+and 1.0 to the league.
+
+If the path is Follow the Rules (NB), Penalty (A), the outcome is reward 0.2 to the club
+and 0.3 to the league.
+
+If the path is Break Salary Rules (B), No Penalty (NA), the outcome is reward 1.0 to the club
+and 0.0 to the league.
+
+If the path is Break Salary Rules (B), Penalty (A), the outcome is reward 0.0 to the club
+and 0.8 to the league.

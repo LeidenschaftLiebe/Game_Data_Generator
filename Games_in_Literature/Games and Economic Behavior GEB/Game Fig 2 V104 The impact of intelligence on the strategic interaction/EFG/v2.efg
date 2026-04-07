@@ -1,0 +1,20 @@
+EFG 2 R "GEB Fig. 2.2 Factory Emissions V2" { "Factory Owner" "Agency" }
+""
+
+c "" 1 "" { "LowCost" 3/5 "HighCost" 2/5 } 0
+p "" 1 1 "" { "OpenBooksAndSite" "MeetStandards" "PolluteSecretly" } 0
+t "" 1 "LowCost_OpenBooksAndSite" { 0.5, 1.0 }
+p "" 2 1 "" { "NoRaid" "Raid" } 0
+t "" 2 "LowCost_MeetStandards_NoRaid" { 0.6, 1.0 }
+t "" 3 "LowCost_MeetStandards_Raid" { 0.2, 0.3 }
+p "" 2 1 "" { "NoRaid" "Raid" } 0
+t "" 4 "LowCost_PolluteSecretly_NoRaid" { 1.0, 0.0 }
+t "" 5 "LowCost_PolluteSecretly_Raid" { 0.0, 0.8 }
+p "" 1 2 "" { "OpenBooksAndSite" "MeetStandards" "PolluteSecretly" } 0
+t "" 6 "HighCost_OpenBooksAndSite" { 0.1, 1.0 }
+p "" 2 1 "" { "NoRaid" "Raid" } 0
+t "" 7 "HighCost_MeetStandards_NoRaid" { 0.6, 1.0 }
+t "" 8 "HighCost_MeetStandards_Raid" { 0.2, 0.3 }
+p "" 2 1 "" { "NoRaid" "Raid" } 0
+t "" 9 "HighCost_PolluteSecretly_NoRaid" { 1.0, 0.0 }
+t "" 10 "HighCost_PolluteSecretly_Raid" { 0.0, 0.8 }

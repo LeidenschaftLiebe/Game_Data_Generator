@@ -1,0 +1,20 @@
+EFG 2 R "GEB Fig. 2.2 Doping Test V1" { "Athlete" "Regulator" }
+""
+
+c "" 1 "" { "LowCost" 3/5 "HighCost" 2/5 } 0
+p "" 1 1 "" { "OpenForFullTest" "StayClean" "Dope" } 0
+t "" 1 "LowCost_OpenForFullTest" { 0.5, 1.0 }
+p "" 2 1 "" { "NoSanction" "Sanction" } 0
+t "" 2 "LowCost_StayClean_NoSanction" { 0.6, 1.0 }
+t "" 3 "LowCost_StayClean_Sanction" { 0.2, 0.3 }
+p "" 2 1 "" { "NoSanction" "Sanction" } 0
+t "" 4 "LowCost_Dope_NoSanction" { 1.0, 0.0 }
+t "" 5 "LowCost_Dope_Sanction" { 0.0, 0.8 }
+p "" 1 2 "" { "OpenForFullTest" "StayClean" "Dope" } 0
+t "" 6 "HighCost_OpenForFullTest" { 0.1, 1.0 }
+p "" 2 1 "" { "NoSanction" "Sanction" } 0
+t "" 7 "HighCost_StayClean_NoSanction" { 0.6, 1.0 }
+t "" 8 "HighCost_StayClean_Sanction" { 0.2, 0.3 }
+p "" 2 1 "" { "NoSanction" "Sanction" } 0
+t "" 9 "HighCost_Dope_NoSanction" { 1.0, 0.0 }
+t "" 10 "HighCost_Dope_Sanction" { 0.0, 0.8 }

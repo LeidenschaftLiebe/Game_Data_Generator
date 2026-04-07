@@ -1,0 +1,20 @@
+EFG 2 R "GEB Fig. 2.2 League Compliance V4" { "Club" "League" }
+""
+
+c "" 1 "" { "LowCost" 3/5 "HighCost" 2/5 } 0
+p "" 1 1 "" { "OpenRecords" "FollowRules" "BreakSalaryRules" } 0
+t "" 1 "LowCost_OpenRecords" { 0.5, 1.0 }
+p "" 2 1 "" { "NoPenalty" "Penalty" } 0
+t "" 2 "LowCost_FollowRules_NoPenalty" { 0.6, 1.0 }
+t "" 3 "LowCost_FollowRules_Penalty" { 0.2, 0.3 }
+p "" 2 1 "" { "NoPenalty" "Penalty" } 0
+t "" 4 "LowCost_BreakSalaryRules_NoPenalty" { 1.0, 0.0 }
+t "" 5 "LowCost_BreakSalaryRules_Penalty" { 0.0, 0.8 }
+p "" 1 2 "" { "OpenRecords" "FollowRules" "BreakSalaryRules" } 0
+t "" 6 "HighCost_OpenRecords" { 0.1, 1.0 }
+p "" 2 1 "" { "NoPenalty" "Penalty" } 0
+t "" 7 "HighCost_FollowRules_NoPenalty" { 0.6, 1.0 }
+t "" 8 "HighCost_FollowRules_Penalty" { 0.2, 0.3 }
+p "" 2 1 "" { "NoPenalty" "Penalty" } 0
+t "" 9 "HighCost_BreakSalaryRules_NoPenalty" { 1.0, 0.0 }
+t "" 10 "HighCost_BreakSalaryRules_Penalty" { 0.0, 0.8 }

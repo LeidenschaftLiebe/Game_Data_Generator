@@ -1,0 +1,19 @@
+EFG 2 R "GEB Fig. 11 Product Review V1" { "Company" "Retail Partner" }
+""
+
+p "" 1 1 "" { "CancelPlan" "LimitedRollout" "FullRollout" } 0
+t "" 1 "CancelPlan" { 2, 1 }
+p "" 2 1 "" { "CautiousResponse" "StrongResponse" } 0
+p "" 1 2 "" { "KeepCurrentPlan" "PullBack" } 0
+t "" 2 "LimitedRollout_CautiousResponse_KeepCurrentPlan" { 2, 3 }
+t "" 3 "LimitedRollout_CautiousResponse_PullBack" { 0, 2 }
+p "" 1 3 "" { "ExpandCarefully" "StopExpansion" } 0
+t "" 4 "LimitedRollout_StrongResponse_ExpandCarefully" { 1, 4 }
+t "" 5 "LimitedRollout_StrongResponse_StopExpansion" { 0, 0 }
+p "" 2 1 "" { "CautiousResponse" "StrongResponse" } 0
+p "" 1 4 "" { "PushNationwide" "SlowDown" } 0
+t "" 6 "FullRollout_CautiousResponse_PushNationwide" { 3, 5 }
+t "" 7 "FullRollout_CautiousResponse_SlowDown" { 0, 1 }
+p "" 1 5 "" { "KeepMomentum" "AbandonPush" } 0
+t "" 8 "FullRollout_StrongResponse_KeepMomentum" { 1, 4 }
+t "" 9 "FullRollout_StrongResponse_AbandonPush" { 0, 0 }

@@ -1,0 +1,19 @@
+EFG 2 R "GEB Fig. 11 Cyber Response V4" { "Firm" "Outside Auditor" }
+""
+
+p "" 1 1 "" { "ShutDownSystem" "InternalPatch" "PublicFix" } 0
+t "" 1 "ShutDownSystem" { 2, 1 }
+p "" 2 1 "" { "CautiousReview" "SupportiveReview" } 0
+p "" 1 2 "" { "DeployFix" "ScrapFix" } 0
+t "" 2 "InternalPatch_CautiousReview_DeployFix" { 2, 3 }
+t "" 3 "InternalPatch_CautiousReview_ScrapFix" { 0, 2 }
+p "" 1 3 "" { "ContinueUpdate" "StopUpdate" } 0
+t "" 4 "InternalPatch_SupportiveReview_ContinueUpdate" { 1, 4 }
+t "" 5 "InternalPatch_SupportiveReview_StopUpdate" { 0, 0 }
+p "" 2 1 "" { "CautiousReview" "SupportiveReview" } 0
+p "" 1 4 "" { "RollOutFully" "PauseRollout" } 0
+t "" 6 "PublicFix_CautiousReview_RollOutFully" { 3, 5 }
+t "" 7 "PublicFix_CautiousReview_PauseRollout" { 0, 1 }
+p "" 1 5 "" { "MaintainRelease" "WithdrawRelease" } 0
+t "" 8 "PublicFix_SupportiveReview_MaintainRelease" { 1, 4 }
+t "" 9 "PublicFix_SupportiveReview_WithdrawRelease" { 0, 0 }

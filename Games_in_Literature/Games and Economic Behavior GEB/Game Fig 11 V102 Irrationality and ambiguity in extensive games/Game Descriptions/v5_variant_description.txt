@@ -1,0 +1,29 @@
+V5 — Player Transfer
+
+A club manager is deciding how to handle a transfer.
+The manager moves first and chooses between End Pursuit (O), Low-Key Bid (L), and Aggressive Bid (R).
+If the manager chooses End Pursuit (O), the process ends immediately with reward 2 to the club manager and reward 1 to the sporting director.
+
+If the manager chooses Low-Key Bid (L) or Aggressive Bid (R), the sporting director moves next.
+The sporting director cannot tell which of those two bidding plans was chosen.
+The sporting director then chooses between Conservative Approval (A) and Strong Approval (B).
+
+If the path is Low-Key Bid (L), Conservative Approval (A), the manager moves again.
+The manager then chooses between Proceed Slowly (C) and Step Away (D).
+If Proceed Slowly (C) is chosen, the outcome gives reward 2 to the manager and reward 3 to the sporting director.
+If Step Away (D) is chosen, the outcome gives reward 0 to the manager and reward 2 to the sporting director.
+
+If the path is Low-Key Bid (L), Strong Approval (B), the manager moves again.
+The manager then chooses between Continue Talks (E) and End Talks (F).
+If Continue Talks (E) is chosen, the outcome gives reward 1 to the manager and reward 4 to the sporting director.
+If End Talks (F) is chosen, the outcome gives reward 0 to both players.
+
+If the path is Aggressive Bid (R), Conservative Approval (A), the manager moves again.
+The manager then chooses between Push Deal Through (G) and Reduce Offer (H).
+If Push Deal Through (G) is chosen, the outcome gives reward 3 to the manager and reward 5 to the sporting director.
+If Reduce Offer (H) is chosen, the outcome gives reward 0 to the manager and reward 1 to the sporting director.
+
+If the path is Aggressive Bid (R), Strong Approval (B), the manager moves again.
+The manager then chooses between Keep Pressure On (J) and Walk Away (K).
+If Keep Pressure On (J) is chosen, the outcome gives reward 1 to the manager and reward 4 to the sporting director.
+If Walk Away (K) is chosen, the outcome gives reward 0 to both players.

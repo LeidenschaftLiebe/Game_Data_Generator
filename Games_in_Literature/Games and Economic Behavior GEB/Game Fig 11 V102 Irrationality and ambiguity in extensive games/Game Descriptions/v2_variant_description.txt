@@ -1,0 +1,29 @@
+V2 — Clinical Path
+
+A doctor is deciding how to manage a difficult case.
+The doctor moves first and chooses between No Procedure (O), Conservative Path (L), and Aggressive Path (R).
+If the doctor chooses No Procedure (O), the case ends immediately with reward 2 to the doctor and reward 1 to the hospital.
+
+If the doctor chooses Conservative Path (L) or Aggressive Path (R), the hospital administration moves next.
+The administration cannot tell which of those two treatment paths was chosen.
+It then chooses between Restrict Support (A) and Back Plan (B).
+
+If the path is Conservative Path (L), Restrict Support (A), the doctor moves again.
+The doctor then chooses between Proceed Carefully (C) and Withdraw (D).
+If Proceed Carefully (C) is chosen, the outcome gives reward 2 to the doctor and reward 3 to the hospital.
+If Withdraw (D) is chosen, the outcome gives reward 0 to the doctor and reward 2 to the hospital.
+
+If the path is Conservative Path (L), Back Plan (B), the doctor moves again.
+The doctor then chooses between Continue Treatment (E) and End Treatment (F).
+If Continue Treatment (E) is chosen, the outcome gives reward 1 to the doctor and reward 4 to the hospital.
+If End Treatment (F) is chosen, the outcome gives reward 0 to both players.
+
+If the path is Aggressive Path (R), Restrict Support (A), the doctor moves again.
+The doctor then chooses between Press Ahead (G) and Scale Back (H).
+If Press Ahead (G) is chosen, the outcome gives reward 3 to the doctor and reward 5 to the hospital.
+If Scale Back (H) is chosen, the outcome gives reward 0 to the doctor and reward 1 to the hospital.
+
+If the path is Aggressive Path (R), Back Plan (B), the doctor moves again.
+The doctor then chooses between Maintain Course (J) and Terminate Plan (K).
+If Maintain Course (J) is chosen, the outcome gives reward 1 to the doctor and reward 4 to the hospital.
+If Terminate Plan (K) is chosen, the outcome gives reward 0 to both players.

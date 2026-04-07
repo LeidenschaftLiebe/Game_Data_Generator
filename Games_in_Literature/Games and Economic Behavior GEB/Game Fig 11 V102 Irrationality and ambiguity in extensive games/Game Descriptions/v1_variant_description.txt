@@ -1,0 +1,29 @@
+V1 — Product Review
+
+A company is deciding how to handle a new product plan.
+The company moves first and chooses between Cancel Plan (O), Limited Rollout (L), and Full Rollout (R).
+If it chooses Cancel Plan (O), the process ends immediately with reward 2 to the company and reward 1 to the retail partner.
+
+If the company chooses Limited Rollout (L) or Full Rollout (R), the retail partner moves next.
+The retail partner cannot tell which of those two rollout choices was made.
+The retail partner then chooses between Cautious Response (A) and Strong Response (B).
+
+If the path is Limited Rollout (L), Cautious Response (A), the company moves again.
+It then chooses between Keep Current Plan (C) and Pull Back (D).
+If Keep Current Plan (C) is chosen, the outcome gives reward 2 to the company and reward 3 to the retail partner.
+If Pull Back (D) is chosen, the outcome gives reward 0 to the company and reward 2 to the retail partner.
+
+If the path is Limited Rollout (L), Strong Response (B), the company moves again.
+It then chooses between Expand Carefully (E) and Stop Expansion (F).
+If Expand Carefully (E) is chosen, the outcome gives reward 1 to the company and reward 4 to the retail partner.
+If Stop Expansion (F) is chosen, the outcome gives reward 0 to both players.
+
+If the path is Full Rollout (R), Cautious Response (A), the company moves again.
+It then chooses between Push Nationwide (G) and Slow Down (H).
+If Push Nationwide (G) is chosen, the outcome gives reward 3 to the company and reward 5 to the retail partner.
+If Slow Down (H) is chosen, the outcome gives reward 0 to the company and reward 1 to the retail partner.
+
+If the path is Full Rollout (R), Strong Response (B), the company moves again.
+It then chooses between Keep Momentum (J) and Abandon Push (K).
+If Keep Momentum (J) is chosen, the outcome gives reward 1 to the company and reward 4 to the retail partner.
+If Abandon Push (K) is chosen, the outcome gives reward 0 to both players.

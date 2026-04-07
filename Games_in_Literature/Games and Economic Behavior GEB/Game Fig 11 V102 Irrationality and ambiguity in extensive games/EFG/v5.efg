@@ -1,0 +1,19 @@
+EFG 2 R "GEB Fig. 11 Player Transfer V5" { "Club Manager" "Sporting Director" }
+""
+
+p "" 1 1 "" { "EndPursuit" "LowKeyBid" "AggressiveBid" } 0
+t "" 1 "EndPursuit" { 2, 1 }
+p "" 2 1 "" { "ConservativeApproval" "StrongApproval" } 0
+p "" 1 2 "" { "ProceedSlowly" "StepAway" } 0
+t "" 2 "LowKeyBid_ConservativeApproval_ProceedSlowly" { 2, 3 }
+t "" 3 "LowKeyBid_ConservativeApproval_StepAway" { 0, 2 }
+p "" 1 3 "" { "ContinueTalks" "EndTalks" } 0
+t "" 4 "LowKeyBid_StrongApproval_ContinueTalks" { 1, 4 }
+t "" 5 "LowKeyBid_StrongApproval_EndTalks" { 0, 0 }
+p "" 2 1 "" { "ConservativeApproval" "StrongApproval" } 0
+p "" 1 4 "" { "PushDealThrough" "ReduceOffer" } 0
+t "" 6 "AggressiveBid_ConservativeApproval_PushDealThrough" { 3, 5 }
+t "" 7 "AggressiveBid_ConservativeApproval_ReduceOffer" { 0, 1 }
+p "" 1 5 "" { "KeepPressureOn" "WalkAway" } 0
+t "" 8 "AggressiveBid_StrongApproval_KeepPressureOn" { 1, 4 }
+t "" 9 "AggressiveBid_StrongApproval_WalkAway" { 0, 0 }

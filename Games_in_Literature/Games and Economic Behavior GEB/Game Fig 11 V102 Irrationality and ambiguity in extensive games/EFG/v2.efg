@@ -1,0 +1,19 @@
+EFG 2 R "GEB Fig. 11 Clinical Path V2" { "Doctor" "Hospital Administration" }
+""
+
+p "" 1 1 "" { "NoProcedure" "ConservativePath" "AggressivePath" } 0
+t "" 1 "NoProcedure" { 2, 1 }
+p "" 2 1 "" { "RestrictSupport" "BackPlan" } 0
+p "" 1 2 "" { "ProceedCarefully" "Withdraw" } 0
+t "" 2 "ConservativePath_RestrictSupport_ProceedCarefully" { 2, 3 }
+t "" 3 "ConservativePath_RestrictSupport_Withdraw" { 0, 2 }
+p "" 1 3 "" { "ContinueTreatment" "EndTreatment" } 0
+t "" 4 "ConservativePath_BackPlan_ContinueTreatment" { 1, 4 }
+t "" 5 "ConservativePath_BackPlan_EndTreatment" { 0, 0 }
+p "" 2 1 "" { "RestrictSupport" "BackPlan" } 0
+p "" 1 4 "" { "PressAhead" "ScaleBack" } 0
+t "" 6 "AggressivePath_RestrictSupport_PressAhead" { 3, 5 }
+t "" 7 "AggressivePath_RestrictSupport_ScaleBack" { 0, 1 }
+p "" 1 5 "" { "MaintainCourse" "TerminatePlan" } 0
+t "" 8 "AggressivePath_BackPlan_MaintainCourse" { 1, 4 }
+t "" 9 "AggressivePath_BackPlan_TerminatePlan" { 0, 0 }

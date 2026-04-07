@@ -1,0 +1,29 @@
+V3 — Film Campaign
+
+A producer is deciding how to handle a film campaign.
+The producer moves first and chooses between Drop Project (O), Festival Route (L), and Wide Release (R).
+If the producer chooses Drop Project (O), the game ends immediately with reward 2 to the producer and reward 1 to the distributor.
+
+If the producer chooses Festival Route (L) or Wide Release (R), the distributor moves next.
+The distributor cannot tell which of those two release plans was chosen.
+The distributor then chooses between Light Support (A) and Heavy Support (B).
+
+If the path is Festival Route (L), Light Support (A), the producer moves again.
+The producer then chooses between Keep Pushing (C) and Withdraw Entry (D).
+If Keep Pushing (C) is chosen, the outcome gives reward 2 to the producer and reward 3 to the distributor.
+If Withdraw Entry (D) is chosen, the outcome gives reward 0 to the producer and reward 2 to the distributor.
+
+If the path is Festival Route (L), Heavy Support (B), the producer moves again.
+The producer then chooses between Continue Campaign (E) and End Campaign (F).
+If Continue Campaign (E) is chosen, the outcome gives reward 1 to the producer and reward 4 to the distributor.
+If End Campaign (F) is chosen, the outcome gives reward 0 to both players.
+
+If the path is Wide Release (R), Light Support (A), the producer moves again.
+The producer then chooses between Expand Release (G) and Cut Scope (H).
+If Expand Release (G) is chosen, the outcome gives reward 3 to the producer and reward 5 to the distributor.
+If Cut Scope (H) is chosen, the outcome gives reward 0 to the producer and reward 1 to the distributor.
+
+If the path is Wide Release (R), Heavy Support (B), the producer moves again.
+The producer then chooses between Keep Promotion (J) and Cancel Promotion (K).
+If Keep Promotion (J) is chosen, the outcome gives reward 1 to the producer and reward 4 to the distributor.
+If Cancel Promotion (K) is chosen, the outcome gives reward 0 to both players.

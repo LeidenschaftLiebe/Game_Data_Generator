@@ -1,0 +1,29 @@
+V4 — Cyber Response
+
+A firm is deciding how to respond to a major security issue.
+The firm moves first and chooses between Shut Down System (O), Internal Patch (L), and Public Fix (R).
+If the firm chooses Shut Down System (O), the matter ends immediately with reward 2 to the firm and reward 1 to the outside auditor.
+
+If the firm chooses Internal Patch (L) or Public Fix (R), the outside auditor moves next.
+The auditor cannot tell which of those two responses was chosen.
+The auditor then chooses between Cautious Review (A) and Supportive Review (B).
+
+If the path is Internal Patch (L), Cautious Review (A), the firm moves again.
+The firm then chooses between Deploy Fix (C) and Scrap Fix (D).
+If Deploy Fix (C) is chosen, the outcome gives reward 2 to the firm and reward 3 to the auditor.
+If Scrap Fix (D) is chosen, the outcome gives reward 0 to the firm and reward 2 to the auditor.
+
+If the path is Internal Patch (L), Supportive Review (B), the firm moves again.
+The firm then chooses between Continue Update (E) and Stop Update (F).
+If Continue Update (E) is chosen, the outcome gives reward 1 to the firm and reward 4 to the auditor.
+If Stop Update (F) is chosen, the outcome gives reward 0 to both players.
+
+If the path is Public Fix (R), Cautious Review (A), the firm moves again.
+The firm then chooses between Roll Out Fully (G) and Pause Rollout (H).
+If Roll Out Fully (G) is chosen, the outcome gives reward 3 to the firm and reward 5 to the auditor.
+If Pause Rollout (H) is chosen, the outcome gives reward 0 to the firm and reward 1 to the auditor.
+
+If the path is Public Fix (R), Supportive Review (B), the firm moves again.
+The firm then chooses between Maintain Release (J) and Withdraw Release (K).
+If Maintain Release (J) is chosen, the outcome gives reward 1 to the firm and reward 4 to the auditor.
+If Withdraw Release (K) is chosen, the outcome gives reward 0 to both players.

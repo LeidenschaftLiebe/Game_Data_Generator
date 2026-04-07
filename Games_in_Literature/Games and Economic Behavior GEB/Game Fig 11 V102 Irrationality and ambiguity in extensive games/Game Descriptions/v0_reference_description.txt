@@ -1,0 +1,25 @@
+V0 — Example 5
+
+There are two players.
+Player 1 moves first and chooses between O, L, and R.
+If Player 1 chooses O, the game ends immediately with reward 2 to Player 1 and reward 1 to Player 2.
+
+If Player 1 chooses L or R, Player 2 moves next.
+At Player 2’s decision point, Player 2 cannot tell whether Player 1 chose L or R.
+Player 2 then chooses between A and B.
+
+If the path is L, A, Player 1 moves again and chooses between C and D.
+If C is chosen, the outcome gives reward 2 to Player 1 and reward 3 to Player 2.
+If D is chosen, the outcome gives reward 0 to Player 1 and reward 2 to Player 2.
+
+If the path is L, B, Player 1 moves again and chooses between E and F.
+If E is chosen, the outcome gives reward 1 to Player 1 and reward 4 to Player 2.
+If F is chosen, the outcome gives reward 0 to Player 1 and reward 0 to Player 2.
+
+If the path is R, A, Player 1 moves again and chooses between G and H.
+If G is chosen, the outcome gives reward 3 to Player 1 and reward 5 to Player 2.
+If H is chosen, the outcome gives reward 0 to Player 1 and reward 1 to Player 2.
+
+If the path is R, B, Player 1 moves again and chooses between J and K.
+If J is chosen, the outcome gives reward 1 to Player 1 and reward 4 to Player 2.
+If K is chosen, the outcome gives reward 0 to Player 1 and reward 0 to Player 2.

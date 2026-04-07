@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Player 1 moves first. 
+If Player 1 chooses N, then the outcome is (0, 0). 

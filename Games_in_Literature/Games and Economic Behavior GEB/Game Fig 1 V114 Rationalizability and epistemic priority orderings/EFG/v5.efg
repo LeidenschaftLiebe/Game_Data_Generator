@@ -1,0 +1,10 @@
+EFG 2 R "GEB Rationalizability and Epistemic Priority Order Fig. 1 V5" { "FirmExecutive" "RecordsOfficer" }
+""
+
+p "" 1 1 "" { "DoNothing" "OfferKickback" } 0
+t "" 1 "DoNothing" { 0, 0 }
+p "" 2 1 "" { "ReportExecutive" "AcceptKickback" } 0
+t "" 2 "OfferKickback_ReportExecutive" { -2, 0 }
+p "" 1 2 "" { "RevealDeal" "UseRecords" } 0
+t "" 3 "OfferKickback_AcceptKickback_RevealDeal" { -1, -3 }
+t "" 4 "OfferKickback_AcceptKickback_UseRecords" { 1, 1 }

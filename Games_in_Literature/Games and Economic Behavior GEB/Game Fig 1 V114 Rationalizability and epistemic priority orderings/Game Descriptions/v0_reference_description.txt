@@ -1,0 +1,23 @@
+V0 [Original article context]
+
+This is the article’s opening example.
+Ann is considering whether to bribe Bob, who is a public officer.
+The paper explains the sequence as follows: 
+Ann can choose not to try, or try to bribe Bob; if she tries, Bob can report her or accept; 
+if Bob accepts, Ann can either carry out her plan or back out and go to the prosecutor, which hurts both of them.
+
+Ann moves first and chooses between N and B.
+
+If Ann chooses N, the interaction ends immediately.
+This gives 0 to Ann, and 0 to Bob.
+
+If Ann chooses B, then Bob chooses between R and A.
+
+If Bob chooses R, the interaction ends there.
+This gives -2 to Ann, and 0 to Bob.
+
+If Bob chooses A, then Ann chooses between P and I.
+
+If Ann chooses P, this gives -1 to Ann, and -3 to Bob.
+
+If Ann chooses I, this gives 1 to Ann, and 1 to Bob.

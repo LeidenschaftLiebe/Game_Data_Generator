@@ -1,0 +1,16 @@
+V2 [Tournament fixing]
+
+A team manager first chooses between StayClean and OfferFix.
+
+If the team manager chooses StayClean, the matter ends there.
+This gives 0 to the team manager, and 0 to the referee.
+
+If the team manager chooses OfferFix, the referee chooses between ReportFix and AcceptFix.
+
+If the referee chooses ReportFix, this gives -2 to the team manager, and 0 to the referee.
+
+If the referee chooses AcceptFix, the team manager then chooses between ExposeScheme and GoThroughWithFix.
+
+If the team manager chooses ExposeScheme, this gives -1 to the team manager, and -3 to the referee.
+
+If the team manager chooses GoThroughWithFix, this gives 1 to the team manager, and 1 to the referee.

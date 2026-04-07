@@ -1,0 +1,16 @@
+V1 [Harbor inspection]
+
+A ship owner first chooses between SkipDeal and OfferPayment.
+
+If the ship owner chooses SkipDeal, the matter ends there.
+This gives 0 to the ship owner, and 0 to the harbor inspector.
+
+If the ship owner chooses OfferPayment, the harbor inspector chooses between ReportOffer and TakeOffer.
+
+If the harbor inspector chooses ReportOffer, this gives -2 to the ship owner, and 0 to the harbor inspector.
+
+If the harbor inspector chooses TakeOffer, the ship owner then chooses between ConfessLater and ProceedShipment.
+
+If the ship owner chooses ConfessLater, this gives -1 to the ship owner, and -3 to the harbor inspector.
+
+If the ship owner chooses ProceedShipment, this gives 1 to the ship owner, and 1 to the harbor inspector.

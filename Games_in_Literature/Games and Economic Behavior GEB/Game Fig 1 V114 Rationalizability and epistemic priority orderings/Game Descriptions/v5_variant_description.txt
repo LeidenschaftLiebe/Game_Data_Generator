@@ -1,0 +1,16 @@
+V5 [Data access scandal]
+
+A firm executive first chooses between DoNothing and OfferKickback.
+
+If the firm executive chooses DoNothing, the matter ends there.
+This gives 0 to the firm executive, and 0 to the records officer.
+
+If the firm executive chooses OfferKickback, the records officer chooses between ReportExecutive and AcceptKickback.
+
+If the records officer chooses ReportExecutive, this gives -2 to the firm executive, and 0 to the records officer.
+
+If the records officer chooses AcceptKickback, the firm executive then chooses between RevealDeal and UseRecords.
+
+If the firm executive chooses RevealDeal, this gives -1 to the firm executive, and -3 to the records officer.
+
+If the firm executive chooses UseRecords, this gives 1 to the firm executive, and 1 to the records officer.

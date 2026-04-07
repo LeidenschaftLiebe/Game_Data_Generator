@@ -1,0 +1,10 @@
+EFG 2 R "GEB Rationalizability and Epistemic Priority Order Fig. 1 V1" { "ShipOwner" "HarborInspector" }
+""
+
+p "" 1 1 "" { "SkipDeal" "OfferPayment" } 0
+t "" 1 "SkipDeal" { 0, 0 }
+p "" 2 1 "" { "ReportOffer" "TakeOffer" } 0
+t "" 2 "OfferPayment_ReportOffer" { -2, 0 }
+p "" 1 2 "" { "ConfessLater" "ProceedShipment" } 0
+t "" 3 "OfferPayment_TakeOffer_ConfessLater" { -1, -3 }
+t "" 4 "OfferPayment_TakeOffer_ProceedShipment" { 1, 1 }

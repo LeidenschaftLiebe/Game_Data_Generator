@@ -1,0 +1,16 @@
+V4 [Artifact export]
+
+An artifact dealer first chooses between WalkAway and MakeOffer.
+
+If the artifact dealer chooses WalkAway, the interaction ends there.
+This gives 0 to the artifact dealer, and 0 to the customs official.
+
+If the artifact dealer chooses MakeOffer, the customs official chooses between ReportDealer and TakeDeal.
+
+If the customs official chooses ReportDealer, this gives -2 to the artifact dealer, and 0 to the customs official.
+
+If the customs official chooses TakeDeal, the artifact dealer then chooses between BlowWhistle and ShipArtifact.
+
+If the artifact dealer chooses BlowWhistle, this gives -1 to the artifact dealer, and -3 to the customs official.
+
+If the artifact dealer chooses ShipArtifact, this gives 1 to the artifact dealer, and 1 to the customs official.

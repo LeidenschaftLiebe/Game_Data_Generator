@@ -1,0 +1,16 @@
+V3 [Smuggling checkpoint]
+
+A courier first chooses between StayLegal and OfferBribe.
+
+If the courier chooses StayLegal, the situation ends there.
+This gives 0 to the courier, and 0 to the checkpoint officer.
+
+If the courier chooses OfferBribe, the checkpoint officer chooses between TurnInCourier and AcceptBribe.
+
+If the checkpoint officer chooses TurnInCourier, this gives -2 to the courier, and 0 to the checkpoint officer.
+
+If the checkpoint officer chooses AcceptBribe, the courier then chooses between ConfessAfterward and MoveCargo.
+
+If the courier chooses ConfessAfterward, this gives -1 to the courier, and -3 to the checkpoint officer.
+
+If the courier chooses MoveCargo, this gives 1 to the courier, and 1 to the checkpoint officer.

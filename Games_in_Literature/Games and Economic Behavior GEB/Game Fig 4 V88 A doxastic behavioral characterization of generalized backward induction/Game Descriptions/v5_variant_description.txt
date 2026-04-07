@@ -1,0 +1,41 @@
+V5 — Transfer Review
+
+A club begins by choosing between End Search (a), Domestic Route (b), and International Route (c).
+If the club chooses End Search (a), the process ends immediately with reward 2 to the club,
+reward 0 to the recruitment head, and reward 0 to the board reviewer.
+
+If the club chooses Domestic Route (b) or International Route (c), the recruitment head moves next.
+The recruitment head cannot tell which scouting route was chosen.
+The recruitment head then chooses between Track D (d) and Track E (e).
+
+After that, the board reviewer moves.
+The board reviewer cannot tell which earlier route led there.
+The board reviewer then chooses between Approve Deal (s), Revise Deal (t), and Delay Deal (u).
+
+If the path is Domestic Route (b), Track D (d), Approve Deal (s),
+the outcome gives reward 3 to the club, reward 1 to the recruitment head, and reward 1 to the board reviewer.
+If the path is Domestic Route (b), Track D (d), Revise Deal (t),
+the outcome gives reward 0 to the club, reward 1 to the recruitment head, and reward 2 to the board reviewer.
+If the path is Domestic Route (b), Track D (d), Delay Deal (u),
+the outcome gives reward 2 to the club, reward 2 to the recruitment head, and reward 0 to the board reviewer.
+
+If the path is Domestic Route (b), Track E (e), Approve Deal (s),
+the outcome gives reward 0 to the club, reward 0 to the recruitment head, and reward 2 to the board reviewer.
+If the path is Domestic Route (b), Track E (e), Revise Deal (t),
+the outcome gives reward 2 to the club, reward 0 to the recruitment head, and reward 1 to the board reviewer.
+If the path is Domestic Route (b), Track E (e), Delay Deal (u),
+the outcome gives reward 1 to the club, reward 2 to the recruitment head, and reward 0 to the board reviewer.
+
+If the path is International Route (c), Track D (d), Approve Deal (s),
+the outcome gives reward 0 to the club, reward 1 to the recruitment head, and reward 1 to the board reviewer.
+If the path is International Route (c), Track D (d), Revise Deal (t),
+the outcome gives reward 0 to the club, reward 1 to the recruitment head, and reward 2 to the board reviewer.
+If the path is International Route (c), Track D (d), Delay Deal (u),
+the outcome gives reward 2 to the club, reward 2 to the recruitment head, and reward 0 to the board reviewer.
+
+If the path is International Route (c), Track E (e), Approve Deal (s),
+the outcome gives reward 2 to the club, reward 0 to the recruitment head, and reward 2 to the board reviewer.
+If the path is International Route (c), Track E (e), Revise Deal (t),
+the outcome gives reward 3 to the club, reward 0 to the recruitment head, and reward 1 to the board reviewer.
+If the path is International Route (c), Track E (e), Delay Deal (u),
+the outcome gives reward 2 to the club, reward 2 to the recruitment head, and reward 0 to the board reviewer.

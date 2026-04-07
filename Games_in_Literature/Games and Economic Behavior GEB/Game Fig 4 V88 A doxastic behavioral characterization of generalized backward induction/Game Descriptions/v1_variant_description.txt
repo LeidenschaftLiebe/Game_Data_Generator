@@ -1,0 +1,41 @@
+V1 — Product Escalation
+
+A company begins by choosing between Shut Plan (a), Internal Escalation (b), and External Escalation (c).
+If it chooses Shut Plan (a), the process ends immediately with reward 2 to the company,
+reward 0 to the operations lead, and reward 0 to the reviewer.
+
+If the company chooses Internal Escalation (b) or External Escalation (c), the operations lead moves next.
+The operations lead cannot tell which of those two escalation routes was chosen.
+The operations lead then chooses between Route D (d) and Route E (e).
+
+After that, the reviewer moves.
+The reviewer cannot tell which earlier route was taken.
+The reviewer then chooses between Approve Fast (s), Request Changes (t), and Hold Back (u).
+
+If the path is Internal Escalation (b), Route D (d), Approve Fast (s),
+the outcome gives reward 3 to the company, reward 1 to the operations lead, and reward 1 to the reviewer.
+If the path is Internal Escalation (b), Route D (d), Request Changes (t),
+the outcome gives reward 0 to the company, reward 1 to the operations lead, and reward 2 to the reviewer.
+If the path is Internal Escalation (b), Route D (d), Hold Back (u),
+the outcome gives reward 2 to the company, reward 2 to the operations lead, and reward 0 to the reviewer.
+
+If the path is Internal Escalation (b), Route E (e), Approve Fast (s),
+the outcome gives reward 0 to the company, reward 0 to the operations lead, and reward 2 to the reviewer.
+If the path is Internal Escalation (b), Route E (e), Request Changes (t),
+the outcome gives reward 2 to the company, reward 0 to the operations lead, and reward 1 to the reviewer.
+If the path is Internal Escalation (b), Route E (e), Hold Back (u),
+the outcome gives reward 1 to the company, reward 2 to the operations lead, and reward 0 to the reviewer.
+
+If the path is External Escalation (c), Route D (d), Approve Fast (s),
+the outcome gives reward 0 to the company, reward 1 to the operations lead, and reward 1 to the reviewer.
+If the path is External Escalation (c), Route D (d), Request Changes (t),
+the outcome gives reward 0 to the company, reward 1 to the operations lead, and reward 2 to the reviewer.
+If the path is External Escalation (c), Route D (d), Hold Back (u),
+the outcome gives reward 2 to the company, reward 2 to the operations lead, and reward 0 to the reviewer.
+
+If the path is External Escalation (c), Route E (e), Approve Fast (s),
+the outcome gives reward 2 to the company, reward 0 to the operations lead, and reward 2 to the reviewer.
+If the path is External Escalation (c), Route E (e), Request Changes (t),
+the outcome gives reward 3 to the company, reward 0 to the operations lead, and reward 1 to the reviewer.
+If the path is External Escalation (c), Route E (e), Hold Back (u),
+the outcome gives reward 2 to the company, reward 2 to the operations lead, and reward 0 to the reviewer.

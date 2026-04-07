@@ -1,0 +1,41 @@
+V3 — Film Screening
+
+A producer begins by choosing between Drop Film (a), Festival Push (b), and Commercial Push (c).
+If the producer chooses Drop Film (a), the campaign ends immediately with reward 2 to the producer,
+reward 0 to the distributor, and reward 0 to the critic.
+
+If the producer chooses Festival Push (b) or Commercial Push (c), the distributor moves next.
+The distributor cannot tell which release route was chosen.
+The distributor then chooses between Package D (d) and Package E (e).
+
+After that, the critic moves.
+The critic cannot tell which earlier route led there.
+The critic then chooses between Praise (s), Request Edits (t), and Hold Review (u).
+
+If the path is Festival Push (b), Package D (d), Praise (s),
+the outcome gives reward 3 to the producer, reward 1 to the distributor, and reward 1 to the critic.
+If the path is Festival Push (b), Package D (d), Request Edits (t),
+the outcome gives reward 0 to the producer, reward 1 to the distributor, and reward 2 to the critic.
+If the path is Festival Push (b), Package D (d), Hold Review (u),
+the outcome gives reward 2 to the producer, reward 2 to the distributor, and reward 0 to the critic.
+
+If the path is Festival Push (b), Package E (e), Praise (s),
+the outcome gives reward 0 to the producer, reward 0 to the distributor, and reward 2 to the critic.
+If the path is Festival Push (b), Package E (e), Request Edits (t),
+the outcome gives reward 2 to the producer, reward 0 to the distributor, and reward 1 to the critic.
+If the path is Festival Push (b), Package E (e), Hold Review (u),
+the outcome gives reward 1 to the producer, reward 2 to the distributor, and reward 0 to the critic.
+
+If the path is Commercial Push (c), Package D (d), Praise (s),
+the outcome gives reward 0 to the producer, reward 1 to the distributor, and reward 1 to the critic.
+If the path is Commercial Push (c), Package D (d), Request Edits (t),
+the outcome gives reward 0 to the producer, reward 1 to the distributor, and reward 2 to the critic.
+If the path is Commercial Push (c), Package D (d), Hold Review (u),
+the outcome gives reward 2 to the producer, reward 2 to the distributor, and reward 0 to the critic.
+
+If the path is Commercial Push (c), Package E (e), Praise (s),
+the outcome gives reward 2 to the producer, reward 0 to the distributor, and reward 2 to the critic.
+If the path is Commercial Push (c), Package E (e), Request Edits (t),
+the outcome gives reward 3 to the producer, reward 0 to the distributor, and reward 1 to the critic.
+If the path is Commercial Push (c), Package E (e), Hold Review (u),
+the outcome gives reward 2 to the producer, reward 2 to the distributor, and reward 0 to the critic.

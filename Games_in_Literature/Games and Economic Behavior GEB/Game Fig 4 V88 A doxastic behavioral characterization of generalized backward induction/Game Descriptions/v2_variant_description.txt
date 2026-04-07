@@ -1,0 +1,41 @@
+V2 — Medical Review
+
+A lead doctor begins by choosing between Close Case (a), Standard Referral (b), and Special Referral (c).
+If the doctor chooses Close Case (a), the case ends immediately with reward 2 to the doctor,
+reward 0 to the department head, and reward 0 to the final reviewer.
+
+If the doctor chooses Standard Referral (b) or Special Referral (c), the department head moves next.
+The department head cannot tell which referral route was chosen.
+The department head then chooses between Track D (d) and Track E (e).
+
+After that, the final reviewer moves.
+The final reviewer cannot tell which earlier route led there.
+The final reviewer then chooses between Clear Quickly (s), Revise Plan (t), and Delay (u).
+
+If the path is Standard Referral (b), Track D (d), Clear Quickly (s),
+the outcome gives reward 3 to the doctor, reward 1 to the department head, and reward 1 to the final reviewer.
+If the path is Standard Referral (b), Track D (d), Revise Plan (t),
+the outcome gives reward 0 to the doctor, reward 1 to the department head, and reward 2 to the final reviewer.
+If the path is Standard Referral (b), Track D (d), Delay (u),
+the outcome gives reward 2 to the doctor, reward 2 to the department head, and reward 0 to the final reviewer.
+
+If the path is Standard Referral (b), Track E (e), Clear Quickly (s),
+the outcome gives reward 0 to the doctor, reward 0 to the department head, and reward 2 to the final reviewer.
+If the path is Standard Referral (b), Track E (e), Revise Plan (t),
+the outcome gives reward 2 to the doctor, reward 0 to the department head, and reward 1 to the final reviewer.
+If the path is Standard Referral (b), Track E (e), Delay (u),
+the outcome gives reward 1 to the doctor, reward 2 to the department head, and reward 0 to the final reviewer.
+
+If the path is Special Referral (c), Track D (d), Clear Quickly (s),
+the outcome gives reward 0 to the doctor, reward 1 to the department head, and reward 1 to the final reviewer.
+If the path is Special Referral (c), Track D (d), Revise Plan (t),
+the outcome gives reward 0 to the doctor, reward 1 to the department head, and reward 2 to the final reviewer.
+If the path is Special Referral (c), Track D (d), Delay (u),
+the outcome gives reward 2 to the doctor, reward 2 to the department head, and reward 0 to the final reviewer.
+
+If the path is Special Referral (c), Track E (e), Clear Quickly (s),
+the outcome gives reward 2 to the doctor, reward 0 to the department head, and reward 2 to the final reviewer.
+If the path is Special Referral (c), Track E (e), Revise Plan (t),
+the outcome gives reward 3 to the doctor, reward 0 to the department head, and reward 1 to the final reviewer.
+If the path is Special Referral (c), Track E (e), Delay (u),
+the outcome gives reward 2 to the doctor, reward 2 to the department head, and reward 0 to the final reviewer.

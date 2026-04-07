@@ -1,0 +1,41 @@
+V4 — Security Audit
+
+A firm begins by choosing between Close Incident (a), Internal Escalation (b), and External Escalation (c).
+If the firm chooses Close Incident (a), the matter ends immediately with reward 2 to the firm,
+reward 0 to the compliance team, and reward 0 to the auditor.
+
+If the firm chooses Internal Escalation (b) or External Escalation (c), the compliance team moves next.
+The compliance team cannot tell which escalation route was chosen.
+The compliance team then chooses between Route D (d) and Route E (e).
+
+After that, the auditor moves.
+The auditor cannot tell which earlier route led there.
+The auditor then chooses between Approve (s), Demand Changes (t), and Delay Certification (u).
+
+If the path is Internal Escalation (b), Route D (d), Approve (s),
+the outcome gives reward 3 to the firm, reward 1 to the compliance team, and reward 1 to the auditor.
+If the path is Internal Escalation (b), Route D (d), Demand Changes (t),
+the outcome gives reward 0 to the firm, reward 1 to the compliance team, and reward 2 to the auditor.
+If the path is Internal Escalation (b), Route D (d), Delay Certification (u),
+the outcome gives reward 2 to the firm, reward 2 to the compliance team, and reward 0 to the auditor.
+
+If the path is Internal Escalation (b), Route E (e), Approve (s),
+the outcome gives reward 0 to the firm, reward 0 to the compliance team, and reward 2 to the auditor.
+If the path is Internal Escalation (b), Route E (e), Demand Changes (t),
+the outcome gives reward 2 to the firm, reward 0 to the compliance team, and reward 1 to the auditor.
+If the path is Internal Escalation (b), Route E (e), Delay Certification (u),
+the outcome gives reward 1 to the firm, reward 2 to the compliance team, and reward 0 to the auditor.
+
+If the path is External Escalation (c), Route D (d), Approve (s),
+the outcome gives reward 0 to the firm, reward 1 to the compliance team, and reward 1 to the auditor.
+If the path is External Escalation (c), Route D (d), Demand Changes (t),
+the outcome gives reward 0 to the firm, reward 1 to the compliance team, and reward 2 to the auditor.
+If the path is External Escalation (c), Route D (d), Delay Certification (u),
+the outcome gives reward 2 to the firm, reward 2 to the compliance team, and reward 0 to the auditor.
+
+If the path is External Escalation (c), Route E (e), Approve (s),
+the outcome gives reward 2 to the firm, reward 0 to the compliance team, and reward 2 to the auditor.
+If the path is External Escalation (c), Route E (e), Demand Changes (t),
+the outcome gives reward 3 to the firm, reward 0 to the compliance team, and reward 1 to the auditor.
+If the path is External Escalation (c), Route E (e), Delay Certification (u),
+the outcome gives reward 2 to the firm, reward 2 to the compliance team, and reward 0 to the auditor.

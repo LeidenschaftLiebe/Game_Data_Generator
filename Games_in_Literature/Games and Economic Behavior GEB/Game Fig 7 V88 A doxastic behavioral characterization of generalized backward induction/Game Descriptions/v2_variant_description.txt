@@ -1,0 +1,24 @@
+V2 — Medical Triage
+
+A doctor is deciding how to handle a case.
+The doctor moves first and chooses between Direct Treatment (a), Standard Review (b),
+and Minimal Intervention (c).
+
+After that, the hospital administrator moves.
+The administrator cannot tell which of those three medical routes was chosen.
+The administrator then chooses between Approve Resources (d) and Limit Resources (e).
+
+If the path is Direct Treatment (a), Approve Resources (d),
+the outcome gives reward 2 to the doctor and reward 1 to the administrator.
+If the path is Direct Treatment (a), Limit Resources (e),
+the outcome gives reward 1 to the doctor and reward 0 to the administrator.
+
+If the path is Standard Review (b), Approve Resources (d),
+the outcome gives reward 1 to the doctor and reward 1 to the administrator.
+If the path is Standard Review (b), Limit Resources (e),
+the outcome gives reward 2 to the doctor and reward 0 to the administrator.
+
+If the path is Minimal Intervention (c), Approve Resources (d),
+the outcome gives reward 0 to the doctor and reward 0 to the administrator.
+If the path is Minimal Intervention (c), Limit Resources (e),
+the outcome gives reward 0 to the doctor and reward 1 to the administrator.

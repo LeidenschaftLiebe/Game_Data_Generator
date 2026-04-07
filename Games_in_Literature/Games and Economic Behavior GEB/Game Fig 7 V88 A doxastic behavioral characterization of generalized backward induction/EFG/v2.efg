@@ -1,0 +1,13 @@
+EFG 2 R "GEB Fig. 7 Medical Triage V2" { "Doctor" "Hospital Administrator" }
+""
+
+p "" 1 1 "" { "DirectTreatment" "StandardReview" "MinimalIntervention" } 0
+p "" 2 1 "" { "ApproveResources" "LimitResources" } 0
+t "" 1 "DirectTreatment_ApproveResources" { 2, 1 }
+t "" 2 "DirectTreatment_LimitResources" { 1, 0 }
+p "" 2 1 "" { "ApproveResources" "LimitResources" } 0
+t "" 3 "StandardReview_ApproveResources" { 1, 1 }
+t "" 4 "StandardReview_LimitResources" { 2, 0 }
+p "" 2 1 "" { "ApproveResources" "LimitResources" } 0
+t "" 5 "MinimalIntervention_ApproveResources" { 0, 0 }
+t "" 6 "MinimalIntervention_LimitResources" { 0, 1 }

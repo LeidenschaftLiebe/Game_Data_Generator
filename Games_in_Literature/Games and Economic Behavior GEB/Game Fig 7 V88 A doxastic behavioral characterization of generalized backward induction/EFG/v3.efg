@@ -1,0 +1,13 @@
+EFG 2 R "GEB Fig. 7 Film Release Choice V3" { "Producer" "Distributor" }
+""
+
+p "" 1 1 "" { "FestivalDebut" "StandardRelease" "QuietRelease" } 0
+p "" 2 1 "" { "PromoteWidely" "KeepItLimited" } 0
+t "" 1 "FestivalDebut_PromoteWidely" { 2, 1 }
+t "" 2 "FestivalDebut_KeepItLimited" { 1, 0 }
+p "" 2 1 "" { "PromoteWidely" "KeepItLimited" } 0
+t "" 3 "StandardRelease_PromoteWidely" { 1, 1 }
+t "" 4 "StandardRelease_KeepItLimited" { 2, 0 }
+p "" 2 1 "" { "PromoteWidely" "KeepItLimited" } 0
+t "" 5 "QuietRelease_PromoteWidely" { 0, 0 }
+t "" 6 "QuietRelease_KeepItLimited" { 0, 1 }

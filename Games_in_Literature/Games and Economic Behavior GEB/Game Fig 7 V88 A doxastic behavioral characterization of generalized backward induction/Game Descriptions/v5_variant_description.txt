@@ -1,0 +1,24 @@
+V5 — Transfer Strategy
+
+A club is deciding how to approach a player search.
+The club moves first and chooses between Go All-In (a), Balanced Search (b),
+and Wait Option (c).
+
+After that, the sporting director moves.
+The sporting director cannot tell which of those three search plans was chosen.
+The sporting director then chooses between Back the Move (d) and Stay Cautious (e).
+
+If the path is Go All-In (a), Back the Move (d),
+the outcome gives reward 2 to the club and reward 1 to the sporting director.
+If the path is Go All-In (a), Stay Cautious (e),
+the outcome gives reward 1 to the club and reward 0 to the sporting director.
+
+If the path is Balanced Search (b), Back the Move (d),
+the outcome gives reward 1 to the club and reward 1 to the sporting director.
+If the path is Balanced Search (b), Stay Cautious (e),
+the outcome gives reward 2 to the club and reward 0 to the sporting director.
+
+If the path is Wait Option (c), Back the Move (d),
+the outcome gives reward 0 to the club and reward 0 to the sporting director.
+If the path is Wait Option (c), Stay Cautious (e),
+the outcome gives reward 0 to the club and reward 1 to the sporting director.

@@ -1,0 +1,24 @@
+V1 — Product Positioning
+
+A company is deciding how to position a new product.
+The company moves first and chooses between Premium Route (a), Balanced Route (b),
+and Budget Route (c).
+
+After that, the retail partner moves.
+The retail partner cannot tell which of those three product routes was chosen.
+The retail partner then chooses between Push in Stores (d) and Hold Back (e).
+
+If the path is Premium Route (a), Push in Stores (d),
+the outcome gives reward 2 to the company and reward 1 to the retail partner.
+If the path is Premium Route (a), Hold Back (e),
+the outcome gives reward 1 to the company and reward 0 to the retail partner.
+
+If the path is Balanced Route (b), Push in Stores (d),
+the outcome gives reward 1 to the company and reward 1 to the retail partner.
+If the path is Balanced Route (b), Hold Back (e),
+the outcome gives reward 2 to the company and reward 0 to the retail partner.
+
+If the path is Budget Route (c), Push in Stores (d),
+the outcome gives reward 0 to the company and reward 0 to the retail partner.
+If the path is Budget Route (c), Hold Back (e),
+the outcome gives reward 0 to the company and reward 1 to the retail partner.

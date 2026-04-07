@@ -1,0 +1,24 @@
+V4 — Cybersecurity Policy
+
+A firm is deciding how to respond to a security concern.
+The firm moves first and chooses between Immediate Patch (a), Internal Review (b),
+and Temporary Delay (c).
+
+After that, the outside auditor moves.
+The auditor cannot tell which of those three response paths was chosen.
+The auditor then chooses between Approve (d) and Flag Issue (e).
+
+If the path is Immediate Patch (a), Approve (d),
+the outcome gives reward 2 to the firm and reward 1 to the auditor.
+If the path is Immediate Patch (a), Flag Issue (e),
+the outcome gives reward 1 to the firm and reward 0 to the auditor.
+
+If the path is Internal Review (b), Approve (d),
+the outcome gives reward 1 to the firm and reward 1 to the auditor.
+If the path is Internal Review (b), Flag Issue (e),
+the outcome gives reward 2 to the firm and reward 0 to the auditor.
+
+If the path is Temporary Delay (c), Approve (d),
+the outcome gives reward 0 to the firm and reward 0 to the auditor.
+If the path is Temporary Delay (c), Flag Issue (e),
+the outcome gives reward 0 to the firm and reward 1 to the auditor.

@@ -1,0 +1,24 @@
+V3 — Film Release Choice
+
+A producer is deciding how to release a film.
+The producer moves first and chooses between Festival Debut (a), Standard Release (b),
+and Quiet Release (c).
+
+After that, the distributor moves.
+The distributor cannot tell which of those three release plans was chosen.
+The distributor then chooses between Promote Widely (d) and Keep It Limited (e).
+
+If the path is Festival Debut (a), Promote Widely (d),
+the outcome gives reward 2 to the producer and reward 1 to the distributor.
+If the path is Festival Debut (a), Keep It Limited (e),
+the outcome gives reward 1 to the producer and reward 0 to the distributor.
+
+If the path is Standard Release (b), Promote Widely (d),
+the outcome gives reward 1 to the producer and reward 1 to the distributor.
+If the path is Standard Release (b), Keep It Limited (e),
+the outcome gives reward 2 to the producer and reward 0 to the distributor.
+
+If the path is Quiet Release (c), Promote Widely (d),
+the outcome gives reward 0 to the producer and reward 0 to the distributor.
+If the path is Quiet Release (c), Keep It Limited (e),
+the outcome gives reward 0 to the producer and reward 1 to the distributor.

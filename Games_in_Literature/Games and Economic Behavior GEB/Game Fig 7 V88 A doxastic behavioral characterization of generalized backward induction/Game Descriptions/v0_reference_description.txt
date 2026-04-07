@@ -1,0 +1,17 @@
+V0 — Forward and Backward Belief
+
+There are two players.
+Player 1 moves first and chooses between a, b, and c.
+
+After that, Player 2 moves.
+Player 2 cannot tell whether Player 1 chose a, b, or c.
+Player 2 then chooses between d and e.
+
+If the path is a, d, the outcome gives reward 2 to Player 1 and reward 1 to Player 2.
+If the path is a, e, the outcome gives reward 1 to Player 1 and reward 0 to Player 2.
+
+If the path is b, d, the outcome gives reward 1 to Player 1 and reward 1 to Player 2.
+If the path is b, e, the outcome gives reward 2 to Player 1 and reward 0 to Player 2.
+
+If the path is c, d, the outcome gives reward 0 to Player 1 and reward 0 to Player 2.
+If the path is c, e, the outcome gives reward 0 to Player 1 and reward 1 to Player 2.

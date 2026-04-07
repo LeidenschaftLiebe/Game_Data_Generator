@@ -1,0 +1,13 @@
+EFG 2 R "GEB Fig. 7 Transfer Strategy V5" { "Club" "Sporting Director" }
+""
+
+p "" 1 1 "" { "GoAllIn" "BalancedSearch" "WaitOption" } 0
+p "" 2 1 "" { "BackTheMove" "StayCautious" } 0
+t "" 1 "GoAllIn_BackTheMove" { 2, 1 }
+t "" 2 "GoAllIn_StayCautious" { 1, 0 }
+p "" 2 1 "" { "BackTheMove" "StayCautious" } 0
+t "" 3 "BalancedSearch_BackTheMove" { 1, 1 }
+t "" 4 "BalancedSearch_StayCautious" { 2, 0 }
+p "" 2 1 "" { "BackTheMove" "StayCautious" } 0
+t "" 5 "WaitOption_BackTheMove" { 0, 0 }
+t "" 6 "WaitOption_StayCautious" { 0, 1 }

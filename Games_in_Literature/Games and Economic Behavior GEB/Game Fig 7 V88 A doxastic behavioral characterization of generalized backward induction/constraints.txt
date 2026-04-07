@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+1) Check that Player 2's three decision nodes are in the same information set.
+2) Check the move order: Player 1 moves first, and then Player 2 moves without observing which action Player 1 chose.
+3) Check the anchor payoff: the outcome after c -> e is (0, 1).

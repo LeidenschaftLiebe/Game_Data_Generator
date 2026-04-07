@@ -1,0 +1,13 @@
+EFG 2 R "GEB Fig. 7 Product Positioning V1" { "Company" "Retail Partner" }
+""
+
+p "" 1 1 "" { "PremiumRoute" "BalancedRoute" "BudgetRoute" } 0
+p "" 2 1 "" { "PushInStores" "HoldBack" } 0
+t "" 1 "PremiumRoute_PushInStores" { 2, 1 }
+t "" 2 "PremiumRoute_HoldBack" { 1, 0 }
+p "" 2 1 "" { "PushInStores" "HoldBack" } 0
+t "" 3 "BalancedRoute_PushInStores" { 1, 1 }
+t "" 4 "BalancedRoute_HoldBack" { 2, 0 }
+p "" 2 1 "" { "PushInStores" "HoldBack" } 0
+t "" 5 "BudgetRoute_PushInStores" { 0, 0 }
+t "" 6 "BudgetRoute_HoldBack" { 0, 1 }

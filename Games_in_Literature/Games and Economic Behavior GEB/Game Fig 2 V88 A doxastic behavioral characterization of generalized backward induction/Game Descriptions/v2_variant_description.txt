@@ -1,0 +1,38 @@
+V2 — Clinical Escalation
+
+A lead doctor starts by choosing between Standard Track (a) and Specialist Track (b).
+If Standard Track (a) is chosen, the department head chooses between
+Discharge (c) and Escalate Case (d).
+
+If Discharge (c) is chosen, the case ends with reward 2 to the doctor,
+reward 2 to the department head, reward 1 to the specialist, and reward 0 to the final reviewer.
+If Escalate Case (d) is chosen, the final reviewer moves later.
+
+If Specialist Track (b) is chosen first, the specialist chooses between
+Escalate Case (e) and Treat Directly (f).
+If Treat Directly (f) is chosen, the case ends with reward 1 to the doctor,
+reward 0 to the department head, reward 2 to the specialist, and reward 0 to the final reviewer.
+
+When the final reviewer moves, the reviewer cannot tell whether the earlier path was
+Standard Track (a), Escalate Case (d) or Specialist Track (b), Escalate Case (e).
+The reviewer then chooses between Clear (g), Modify Plan (h), and Block (k).
+
+If the path is Standard Track (a), Escalate Case (d), Clear (g),
+the outcome gives reward 3 to the doctor, reward 1 to the department head,
+reward 0 to the specialist, and reward 0 to the reviewer.
+If the path is Standard Track (a), Escalate Case (d), Modify Plan (h),
+the outcome gives reward 2 to the doctor, reward 3 to the department head,
+reward 1 to the specialist, and reward 2 to the reviewer.
+If the path is Standard Track (a), Escalate Case (d), Block (k),
+the outcome gives reward 4 to the doctor, reward 4 to the department head,
+reward 0 to the specialist, and reward 1 to the reviewer.
+
+If the path is Specialist Track (b), Escalate Case (e), Clear (g),
+the outcome gives reward 0 to the doctor, reward 2 to the department head,
+reward 3 to the specialist, and reward 2 to the reviewer.
+If the path is Specialist Track (b), Escalate Case (e), Modify Plan (h),
+the outcome gives reward 3 to the doctor, reward 3 to the department head,
+reward 1 to the specialist, and reward 1 to the reviewer.
+If the path is Specialist Track (b), Escalate Case (e), Block (k),
+the outcome gives reward 4 to the doctor, reward 3 to the department head,
+reward 4 to the specialist, and reward 0 to the reviewer.

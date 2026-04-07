@@ -1,0 +1,31 @@
+V0 — Dynamic Choice
+
+There are four players.
+Player 1 moves first and chooses between a and b.
+
+If Player 1 chooses a, Player 2 moves next and chooses between c and d.
+If Player 2 chooses c, the game ends with reward 2 to Player 1, reward 2 to Player 2,
+reward 1 to Player 3, and reward 0 to Player 4.
+If Player 2 chooses d, Player 4 moves later.
+
+If Player 1 chooses b, Player 3 moves next and chooses between e and f.
+If Player 3 chooses f, the game ends with reward 1 to Player 1, reward 0 to Player 2,
+reward 2 to Player 3, and reward 0 to Player 4.
+If Player 3 chooses e, Player 4 moves later.
+
+When Player 4 moves, Player 4 cannot tell whether the earlier path was a, d or b, e.
+Player 4 then chooses between g, h, and k.
+
+If the path is a, d, g, the outcome gives reward 3 to Player 1, reward 1 to Player 2,
+reward 0 to Player 3, and reward 0 to Player 4.
+If the path is a, d, h, the outcome gives reward 2 to Player 1, reward 3 to Player 2,
+reward 1 to Player 3, and reward 2 to Player 4.
+If the path is a, d, k, the outcome gives reward 4 to Player 1, reward 4 to Player 2,
+reward 0 to Player 3, and reward 1 to Player 4.
+
+If the path is b, e, g, the outcome gives reward 0 to Player 1, reward 2 to Player 2,
+reward 3 to Player 3, and reward 2 to Player 4.
+If the path is b, e, h, the outcome gives reward 3 to Player 1, reward 3 to Player 2,
+reward 1 to Player 3, and reward 1 to Player 4.
+If the path is b, e, k, the outcome gives reward 4 to Player 1, reward 3 to Player 2,
+reward 4 to Player 3, and reward 0 to Player 4.

@@ -1,0 +1,38 @@
+V4 — Security Response
+
+A tech firm starts by choosing between Internal Fix (a) and Public Response (b).
+If Internal Fix (a) is chosen, the compliance lead chooses between
+Close Incident (c) and Escalate Review (d).
+
+If Close Incident (c) is chosen, the matter ends with reward 2 to the firm,
+reward 2 to compliance, reward 1 to the outside consultant, and reward 0 to the auditor.
+If Escalate Review (d) is chosen, the auditor moves later.
+
+If Public Response (b) is chosen first, the outside consultant chooses between
+Escalate Review (e) and Publish Guidance (f).
+If Publish Guidance (f) is chosen, the matter ends with reward 1 to the firm,
+reward 0 to compliance, reward 2 to the outside consultant, and reward 0 to the auditor.
+
+When the auditor moves, the auditor cannot tell whether the earlier path was
+Internal Fix (a), Escalate Review (d) or Public Response (b), Escalate Review (e).
+The auditor then chooses between Approve (g), Demand Changes (h), and Issue Warning (k).
+
+If the path is Internal Fix (a), Escalate Review (d), Approve (g),
+the outcome gives reward 3 to the firm, reward 1 to compliance,
+reward 0 to the outside consultant, and reward 0 to the auditor.
+If the path is Internal Fix (a), Escalate Review (d), Demand Changes (h),
+the outcome gives reward 2 to the firm, reward 3 to compliance,
+reward 1 to the outside consultant, and reward 2 to the auditor.
+If the path is Internal Fix (a), Escalate Review (d), Issue Warning (k),
+the outcome gives reward 4 to the firm, reward 4 to compliance,
+reward 0 to the outside consultant, and reward 1 to the auditor.
+
+If the path is Public Response (b), Escalate Review (e), Approve (g),
+the outcome gives reward 0 to the firm, reward 2 to compliance,
+reward 3 to the outside consultant, and reward 2 to the auditor.
+If the path is Public Response (b), Escalate Review (e), Demand Changes (h),
+the outcome gives reward 3 to the firm, reward 3 to compliance,
+reward 1 to the outside consultant, and reward 1 to the auditor.
+If the path is Public Response (b), Escalate Review (e), Issue Warning (k),
+the outcome gives reward 4 to the firm, reward 3 to compliance,
+reward 4 to the outside consultant, and reward 0 to the auditor.

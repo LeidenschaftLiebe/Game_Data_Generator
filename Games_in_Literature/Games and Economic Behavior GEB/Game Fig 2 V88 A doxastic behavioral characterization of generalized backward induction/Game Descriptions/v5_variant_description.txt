@@ -1,0 +1,38 @@
+V5 — Transfer Decision
+
+A club begins by choosing between Local Search (a) and International Search (b).
+If Local Search (a) is chosen, the recruitment lead chooses between
+End Search (c) and Escalate Review (d).
+
+If End Search (c) is chosen, the process ends with reward 2 to the club,
+reward 2 to recruitment, reward 1 to the scouting unit, and reward 0 to the board reviewer.
+If Escalate Review (d) is chosen, the board reviewer moves later.
+
+If International Search (b) is chosen first, the scouting unit chooses between
+Escalate Review (e) and Pursue Directly (f).
+If Pursue Directly (f) is chosen, the process ends with reward 1 to the club,
+reward 0 to recruitment, reward 2 to the scouting unit, and reward 0 to the board reviewer.
+
+When the board reviewer moves, the reviewer cannot tell whether the earlier path was
+Local Search (a), Escalate Review (d) or International Search (b), Escalate Review (e).
+The reviewer then chooses between Approve Deal (g), Revise Deal (h), and Block Deal (k).
+
+If the path is Local Search (a), Escalate Review (d), Approve Deal (g),
+the outcome gives reward 3 to the club, reward 1 to recruitment,
+reward 0 to the scouting unit, and reward 0 to the reviewer.
+If the path is Local Search (a), Escalate Review (d), Revise Deal (h),
+the outcome gives reward 2 to the club, reward 3 to recruitment,
+reward 1 to the scouting unit, and reward 2 to the reviewer.
+If the path is Local Search (a), Escalate Review (d), Block Deal (k),
+the outcome gives reward 4 to the club, reward 4 to recruitment,
+reward 0 to the scouting unit, and reward 1 to the reviewer.
+
+If the path is International Search (b), Escalate Review (e), Approve Deal (g),
+the outcome gives reward 0 to the club, reward 2 to recruitment,
+reward 3 to the scouting unit, and reward 2 to the reviewer.
+If the path is International Search (b), Escalate Review (e), Revise Deal (h),
+the outcome gives reward 3 to the club, reward 3 to recruitment,
+reward 1 to the scouting unit, and reward 1 to the reviewer.
+If the path is International Search (b), Escalate Review (e), Block Deal (k),
+the outcome gives reward 4 to the club, reward 3 to recruitment,
+reward 4 to the scouting unit, and reward 0 to the reviewer.

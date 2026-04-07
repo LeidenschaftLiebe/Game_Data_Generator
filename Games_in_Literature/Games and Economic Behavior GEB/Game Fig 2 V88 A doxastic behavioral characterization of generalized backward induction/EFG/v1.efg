@@ -1,0 +1,16 @@
+EFG 2 R "GEB Fig. 2 Product Routing V1" { "Firm" "Operations Lead" "Outside Partner" "Reviewer" }
+""
+
+p "" 1 1 "" { "InternalRoute" "ExternalRoute" } 0
+p "" 2 1 "" { "LocalRelease" "EscalateReview" } 0
+t "" 1 "InternalRoute_LocalRelease" { 2, 2, 1, 0 }
+p "" 4 1 "" { "Approve" "Revise" "Reject" } 0
+t "" 3 "InternalRoute_EscalateReview_Approve" { 3, 1, 0, 0 }
+t "" 4 "InternalRoute_EscalateReview_Revise" { 2, 3, 1, 2 }
+t "" 5 "InternalRoute_EscalateReview_Reject" { 4, 4, 0, 1 }
+p "" 3 1 "" { "EscalateReview" "DirectDelivery" } 0
+p "" 4 1 "" { "Approve" "Revise" "Reject" } 0
+t "" 6 "ExternalRoute_EscalateReview_Approve" { 0, 2, 3, 2 }
+t "" 7 "ExternalRoute_EscalateReview_Revise" { 3, 3, 1, 1 }
+t "" 8 "ExternalRoute_EscalateReview_Reject" { 4, 3, 4, 0 }
+t "" 2 "ExternalRoute_DirectDelivery" { 1, 0, 2, 0 }

@@ -1,0 +1,8 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+1) Check the move order: Player 1 moves first; after the left branch (a) Player 2 moves, 
+after the right branch (b) Player 3 moves, and Player 4 moves only after the two escalation branches (d and e).
+2) Check that Player 4's two decision nodes are in the same information set.
+3) Check the anchor payoff: the outcome after b -> e -> h is (3, 3, 1, 1).

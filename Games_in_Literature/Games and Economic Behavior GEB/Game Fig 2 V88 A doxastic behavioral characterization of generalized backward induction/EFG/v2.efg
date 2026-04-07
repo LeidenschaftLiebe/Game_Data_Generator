@@ -1,0 +1,16 @@
+EFG 2 R "GEB Fig. 2 Clinical Escalation V2" { "Lead Doctor" "Department Head" "Specialist" "Final Reviewer" }
+""
+
+p "" 1 1 "" { "StandardTrack" "SpecialistTrack" } 0
+p "" 2 1 "" { "Discharge" "EscalateCase" } 0
+t "" 1 "StandardTrack_Discharge" { 2, 2, 1, 0 }
+p "" 4 1 "" { "Clear" "ModifyPlan" "Block" } 0
+t "" 3 "StandardTrack_EscalateCase_Clear" { 3, 1, 0, 0 }
+t "" 4 "StandardTrack_EscalateCase_ModifyPlan" { 2, 3, 1, 2 }
+t "" 5 "StandardTrack_EscalateCase_Block" { 4, 4, 0, 1 }
+p "" 3 1 "" { "EscalateCase" "TreatDirectly" } 0
+p "" 4 1 "" { "Clear" "ModifyPlan" "Block" } 0
+t "" 6 "SpecialistTrack_EscalateCase_Clear" { 0, 2, 3, 2 }
+t "" 7 "SpecialistTrack_EscalateCase_ModifyPlan" { 3, 3, 1, 1 }
+t "" 8 "SpecialistTrack_EscalateCase_Block" { 4, 3, 4, 0 }
+t "" 2 "SpecialistTrack_TreatDirectly" { 1, 0, 2, 0 }

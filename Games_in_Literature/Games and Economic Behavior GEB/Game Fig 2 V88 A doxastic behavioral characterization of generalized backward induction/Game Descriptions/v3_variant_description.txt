@@ -1,0 +1,38 @@
+V3 — Film Distribution
+
+A producer begins by choosing between Festival Route (a) and Commercial Route (b).
+If Festival Route (a) is chosen, the distributor chooses between
+Release Quietly (c) and Send to Review (d).
+
+If Release Quietly (c) is chosen, the campaign ends with reward 2 to the producer,
+reward 2 to the distributor, reward 1 to the marketing partner, and reward 0 to the critic panel.
+If Send to Review (d) is chosen, the critic panel moves later.
+
+If Commercial Route (b) is chosen first, the marketing partner chooses between
+Send to Review (e) and Push Directly (f).
+If Push Directly (f) is chosen, the campaign ends with reward 1 to the producer,
+reward 0 to the distributor, reward 2 to the marketing partner, and reward 0 to the critic panel.
+
+When the critic panel moves, it cannot tell whether the earlier path was
+Festival Route (a), Send to Review (d) or Commercial Route (b), Send to Review (e).
+The panel then chooses between Praise (g), Request Changes (h), and Dismiss (k).
+
+If the path is Festival Route (a), Send to Review (d), Praise (g),
+the outcome gives reward 3 to the producer, reward 1 to the distributor,
+reward 0 to the marketing partner, and reward 0 to the panel.
+If the path is Festival Route (a), Send to Review (d), Request Changes (h),
+the outcome gives reward 2 to the producer, reward 3 to the distributor,
+reward 1 to the marketing partner, and reward 2 to the panel.
+If the path is Festival Route (a), Send to Review (d), Dismiss (k),
+the outcome gives reward 4 to the producer, reward 4 to the distributor,
+reward 0 to the marketing partner, and reward 1 to the panel.
+
+If the path is Commercial Route (b), Send to Review (e), Praise (g),
+the outcome gives reward 0 to the producer, reward 2 to the distributor,
+reward 3 to the marketing partner, and reward 2 to the panel.
+If the path is Commercial Route (b), Send to Review (e), Request Changes (h),
+the outcome gives reward 3 to the producer, reward 3 to the distributor,
+reward 1 to the marketing partner, and reward 1 to the panel.
+If the path is Commercial Route (b), Send to Review (e), Dismiss (k),
+the outcome gives reward 4 to the producer, reward 3 to the distributor,
+reward 4 to the marketing partner, and reward 0 to the panel.

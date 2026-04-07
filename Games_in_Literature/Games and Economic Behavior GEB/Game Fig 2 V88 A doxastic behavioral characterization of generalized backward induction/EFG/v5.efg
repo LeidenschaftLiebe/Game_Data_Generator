@@ -1,0 +1,16 @@
+EFG 2 R "GEB Fig. 2 Transfer Decision V5" { "Club" "Recruitment Lead" "Scouting Unit" "Board Reviewer" }
+""
+
+p "" 1 1 "" { "LocalSearch" "InternationalSearch" } 0
+p "" 2 1 "" { "EndSearch" "EscalateReview" } 0
+t "" 1 "LocalSearch_EndSearch" { 2, 2, 1, 0 }
+p "" 4 1 "" { "ApproveDeal" "ReviseDeal" "BlockDeal" } 0
+t "" 3 "LocalSearch_EscalateReview_ApproveDeal" { 3, 1, 0, 0 }
+t "" 4 "LocalSearch_EscalateReview_ReviseDeal" { 2, 3, 1, 2 }
+t "" 5 "LocalSearch_EscalateReview_BlockDeal" { 4, 4, 0, 1 }
+p "" 3 1 "" { "EscalateReview" "PursueDirectly" } 0
+p "" 4 1 "" { "ApproveDeal" "ReviseDeal" "BlockDeal" } 0
+t "" 6 "InternationalSearch_EscalateReview_ApproveDeal" { 0, 2, 3, 2 }
+t "" 7 "InternationalSearch_EscalateReview_ReviseDeal" { 3, 3, 1, 1 }
+t "" 8 "InternationalSearch_EscalateReview_BlockDeal" { 4, 3, 4, 0 }
+t "" 2 "InternationalSearch_PursueDirectly" { 1, 0, 2, 0 }

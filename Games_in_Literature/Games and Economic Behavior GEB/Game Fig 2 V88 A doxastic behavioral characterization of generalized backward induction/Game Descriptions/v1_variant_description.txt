@@ -1,0 +1,38 @@
+V1 — Product Routing
+
+A firm begins by choosing between Internal Route (a) and External Route (b).
+If it chooses Internal Route (a), the operations lead chooses between Local Release (c)
+and Escalate Review (d).
+
+If Local Release (c) is chosen, the process ends with reward 2 to the firm,
+reward 2 to operations, reward 1 to the outside partner, and reward 0 to the reviewer.
+If Escalate Review (d) is chosen, the reviewer moves later.
+
+If the firm instead chooses External Route (b), the outside partner chooses between
+Escalate Review (e) and Direct Delivery (f).
+If Direct Delivery (f) is chosen, the process ends with reward 1 to the firm,
+reward 0 to operations, reward 2 to the outside partner, and reward 0 to the reviewer.
+
+If the reviewer gets to move, the reviewer cannot tell whether the earlier path was
+Internal Route (a), Escalate Review (d) or External Route (b), Escalate Review (e).
+The reviewer then chooses between Approve (g), Revise (h), and Reject (k).
+
+If the path is Internal Route (a), Escalate Review (d), Approve (g),
+the outcome gives reward 3 to the firm, reward 1 to operations, reward 0 to the outside partner,
+and reward 0 to the reviewer.
+If the path is Internal Route (a), Escalate Review (d), Revise (h),
+the outcome gives reward 2 to the firm, reward 3 to operations, reward 1 to the outside partner,
+and reward 2 to the reviewer.
+If the path is Internal Route (a), Escalate Review (d), Reject (k),
+the outcome gives reward 4 to the firm, reward 4 to operations, reward 0 to the outside partner,
+and reward 1 to the reviewer.
+
+If the path is External Route (b), Escalate Review (e), Approve (g),
+the outcome gives reward 0 to the firm, reward 2 to operations, reward 3 to the outside partner,
+and reward 2 to the reviewer.
+If the path is External Route (b), Escalate Review (e), Revise (h),
+the outcome gives reward 3 to the firm, reward 3 to operations, reward 1 to the outside partner,
+and reward 1 to the reviewer.
+If the path is External Route (b), Escalate Review (e), Reject (k),
+the outcome gives reward 4 to the firm, reward 3 to operations, reward 4 to the outside partner,
+and reward 0 to the reviewer.

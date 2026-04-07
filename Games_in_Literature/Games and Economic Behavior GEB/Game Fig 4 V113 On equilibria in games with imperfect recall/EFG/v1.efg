@@ -1,0 +1,22 @@
+EFG 2 R "GEB Multiselves Agent Form Fig. 4 V1" { "Runner A" "Runner B" "Marshal" }
+""
+
+c "" 1 "" { "LeftOrder" 1/2 "RightOrder" 1/2 } 0
+p "" 1 1 "" { "KeepGoing" "TakeRamp" } 0
+p "" 2 1 "" { "KeepGoingAgain" "TakeLateRamp" } 0
+p "" 3 1 "" { "WatchHighway" "GuardRamp" } 0
+t "" 1 "Left_KeepGoing_KeepGoingAgain_WatchHighway" { 0, 0, 0 }
+t "" 2 "Left_KeepGoing_KeepGoingAgain_GuardRamp" { 1, 1, -1 }
+t "" 3 "Left_KeepGoing_TakeLateRamp" { 0, 0, 0 }
+p "" 3 1 "" { "WatchHighway" "GuardRamp" } 0
+t "" 4 "Left_TakeRamp_WatchHighway" { 1, 1, -1 }
+t "" 5 "Left_TakeRamp_GuardRamp" { 0, 0, 0 }
+p "" 2 1 "" { "KeepGoingAgain" "TakeLateRamp" } 0
+p "" 1 1 "" { "KeepGoing" "TakeRamp" } 0
+p "" 3 1 "" { "WatchHighway" "GuardRamp" } 0
+t "" 6 "Right_KeepGoingAgain_KeepGoing_WatchHighway" { 0, 0, 0 }
+t "" 7 "Right_KeepGoingAgain_KeepGoing_GuardRamp" { 1, 1, -1 }
+t "" 8 "Right_KeepGoingAgain_TakeRamp" { 0, 0, 0 }
+p "" 3 1 "" { "WatchHighway" "GuardRamp" } 0
+t "" 9 "Right_TakeLateRamp_WatchHighway" { 1, 1, -1 }
+t "" 10 "Right_TakeLateRamp_GuardRamp" { 0, 0, 0 }

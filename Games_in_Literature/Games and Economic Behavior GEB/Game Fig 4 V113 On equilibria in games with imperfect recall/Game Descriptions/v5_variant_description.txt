@@ -1,0 +1,16 @@
+V5 [Ancient tunnel escape]
+
+Nature first chooses, with probability 1/2 each, which explorer-order is used.
+
+In the left setup, Explorer A moves first and chooses between GoDeeper and TakePassage.
+If Explorer A chooses TakePassage, then the Guard Captain later chooses between WatchTunnel and GuardPassage.
+WatchTunnel gives (1, 1, -1).
+GuardPassage gives (0, 0, 0).
+
+If Explorer A chooses GoDeeper, then Explorer B chooses between GoDeeperAgain and TakeLatePassage.
+TakeLatePassage gives (0, 0, 0).
+If Explorer B chooses GoDeeperAgain, the Guard Captain chooses between WatchTunnel and GuardPassage.
+WatchTunnel gives (0, 0, 0).
+GuardPassage gives (1, 1, -1).
+
+In the right setup, Explorer B moves first and Explorer A moves second in the mirrored version.

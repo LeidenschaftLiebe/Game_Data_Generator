@@ -1,0 +1,22 @@
+EFG 2 R "GEB Multiselves Agent Form Fig. 4 V2" { "Pilot A" "Pilot B" "Interceptor" }
+""
+
+c "" 1 "" { "LeftOrder" 1/2 "RightOrder" 1/2 } 0
+p "" 1 1 "" { "StayCourse" "BreakOrbit" } 0
+p "" 2 1 "" { "StayCourseAgain" "BreakLate" } 0
+p "" 3 1 "" { "TrackMainLine" "TrapExit" } 0
+t "" 1 "Left_StayCourse_StayCourseAgain_TrackMainLine" { 0, 0, 0 }
+t "" 2 "Left_StayCourse_StayCourseAgain_TrapExit" { 1, 1, -1 }
+t "" 3 "Left_StayCourse_BreakLate" { 0, 0, 0 }
+p "" 3 1 "" { "TrackMainLine" "TrapExit" } 0
+t "" 4 "Left_BreakOrbit_TrackMainLine" { 1, 1, -1 }
+t "" 5 "Left_BreakOrbit_TrapExit" { 0, 0, 0 }
+p "" 2 1 "" { "StayCourseAgain" "BreakLate" } 0
+p "" 1 1 "" { "StayCourse" "BreakOrbit" } 0
+p "" 3 1 "" { "TrackMainLine" "TrapExit" } 0
+t "" 6 "Right_StayCourseAgain_StayCourse_TrackMainLine" { 0, 0, 0 }
+t "" 7 "Right_StayCourseAgain_StayCourse_TrapExit" { 1, 1, -1 }
+t "" 8 "Right_StayCourseAgain_BreakOrbit" { 0, 0, 0 }
+p "" 3 1 "" { "TrackMainLine" "TrapExit" } 0
+t "" 9 "Right_BreakLate_TrackMainLine" { 1, 1, -1 }
+t "" 10 "Right_BreakLate_TrapExit" { 0, 0, 0 }

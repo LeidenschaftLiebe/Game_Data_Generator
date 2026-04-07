@@ -1,0 +1,33 @@
+V0 [Original article context]
+
+This figure is the article’s multiselves agent form of the absentminded driver and policeman example.
+The article explains that Nature first chooses, with equal probability, which assignment of the driver-agents is used.
+That is why the figure begins with Nature and then splits into two mirror-image arrangements for Agent 1 and Agent 2.
+
+Nature moves first and chooses between two equally likely setups.
+
+In the left setup, Agent 1 moves first and chooses between C1 and E1.
+If Agent 1 chooses E1, then Agent 3 later chooses between H and E.
+If Agent 3 chooses H, the result is (1, 1, -1).
+If Agent 3 chooses E, the result is (0, 0, 0).
+
+If instead Agent 1 chooses C1, then Agent 2 chooses between C2 and E2.
+If Agent 2 chooses E2, the result is (0, 0, 0).
+If Agent 2 chooses C2, then Agent 3 chooses between H and E.
+If Agent 3 chooses H, the result is (0, 0, 0).
+If Agent 3 chooses E, the result is (1, 1, -1).
+
+In the right setup, the roles of Agent 1 and Agent 2 are reversed.
+Agent 2 moves first and chooses between C2 and E2.
+If Agent 2 chooses E2, then Agent 3 later chooses between H and E.
+If Agent 3 chooses H, the result is (1, 1, -1).
+If Agent 3 chooses E, the result is (0, 0, 0).
+
+If instead Agent 2 chooses C2, then Agent 1 chooses between C1 and E1.
+If Agent 1 chooses E1, the result is (0, 0, 0).
+If Agent 1 chooses C1, then Agent 3 chooses between H and E.
+If Agent 3 chooses H, the result is (0, 0, 0).
+If Agent 3 chooses E, the result is (1, 1, -1).
+
+So the article’s idea is that the original absentminded driver situation is rewritten as a game among several separate agents, 
+with Nature randomly deciding which of the first two agents is encountered first.

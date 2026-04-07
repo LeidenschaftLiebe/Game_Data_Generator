@@ -1,0 +1,16 @@
+V2 [Orbital debris chase]
+
+Nature first chooses, with probability 1/2 each, which pilot-order is used.
+
+In the left setup, Pilot A moves first and chooses between StayCourse and BreakOrbit.
+If Pilot A chooses BreakOrbit, then the Interceptor later chooses between TrackMainLine and TrapExit.
+TrackMainLine gives (1, 1, -1).
+TrapExit gives (0, 0, 0).
+
+If Pilot A chooses StayCourse, then Pilot B chooses between StayCourseAgain and BreakLate.
+BreakLate gives (0, 0, 0).
+If Pilot B chooses StayCourseAgain, the Interceptor chooses between TrackMainLine and TrapExit.
+TrackMainLine gives (0, 0, 0).
+TrapExit gives (1, 1, -1).
+
+In the right setup, Pilot B moves first and Pilot A moves second in the same mirrored pattern.

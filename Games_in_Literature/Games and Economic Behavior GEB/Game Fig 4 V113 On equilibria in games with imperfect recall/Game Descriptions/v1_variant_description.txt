@@ -1,0 +1,22 @@
+V1 [Flooded canyon escape]
+
+This is the flooded-canyon version of the same structure.
+
+Nature first chooses, with probability 1/2 each, which runner-order is used.
+
+In the left setup, Runner A moves first and chooses between KeepGoing and TakeRamp.
+If Runner A chooses TakeRamp, then the Marshal later chooses between WatchHighway and GuardRamp.
+WatchHighway gives (1, 1, -1).
+GuardRamp gives (0, 0, 0).
+
+If Runner A chooses KeepGoing, then Runner B chooses between KeepGoingAgain and TakeLateRamp.
+TakeLateRamp gives (0, 0, 0).
+If Runner B chooses KeepGoingAgain, then the Marshal chooses between WatchHighway and GuardRamp.
+WatchHighway gives (0, 0, 0).
+GuardRamp gives (1, 1, -1).
+
+In the right setup, Runner B moves first and Runner A moves second in the matching way.
+If Runner B takes the early ramp, the Marshal later chooses between WatchHighway and GuardRamp, giving (1, 1, -1) or (0, 0, 0).
+If Runner B keeps going, then Runner A chooses between KeepGoing and TakeRamp.
+TakeRamp gives (0, 0, 0).
+If Runner A also keeps going, the Marshal again chooses between WatchHighway and GuardRamp, giving (0, 0, 0) or (1, 1, -1).

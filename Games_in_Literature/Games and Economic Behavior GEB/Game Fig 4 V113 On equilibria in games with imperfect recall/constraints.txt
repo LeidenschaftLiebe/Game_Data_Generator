@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Nature first chooses one of two orderings with probability 1/2 each.
+In the left ordering, Agent 1 moves first. In the right ordering, Agent 2 moves first.
+The two Agent 1 decisions are in one infoset, the two Agent 2 decisions are in one infoset, and the four Agent 3 decisions are in one infoset.
+Anchor payoff: If Agent 1 chooses C1, Agent 2 chooses C2 and Agent 3 chooses E, then the outcome is (1, 1, -1).

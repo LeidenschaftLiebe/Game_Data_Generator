@@ -1,0 +1,22 @@
+EFG 2 R "GEB Multiselves Agent Form Fig. 4 V4" { "Driver A" "Driver B" "Safety Officer" }
+""
+
+c "" 1 "" { "LeftOrder" 1/2 "RightOrder" 1/2 } 0
+p "" 1 1 "" { "ContinueLine" "TakeExitGap" } 0
+p "" 2 1 "" { "ContinueLineAgain" "TakeLateGap" } 0
+p "" 3 1 "" { "LineWatch" "GapWatch" } 0
+t "" 1 "Left_ContinueLine_ContinueLineAgain_LineWatch" { 0, 0, 0 }
+t "" 2 "Left_ContinueLine_ContinueLineAgain_GapWatch" { 1, 1, -1 }
+t "" 3 "Left_ContinueLine_TakeLateGap" { 0, 0, 0 }
+p "" 3 1 "" { "LineWatch" "GapWatch" } 0
+t "" 4 "Left_TakeExitGap_LineWatch" { 1, 1, -1 }
+t "" 5 "Left_TakeExitGap_GapWatch" { 0, 0, 0 }
+p "" 2 1 "" { "ContinueLineAgain" "TakeLateGap" } 0
+p "" 1 1 "" { "ContinueLine" "TakeExitGap" } 0
+p "" 3 1 "" { "LineWatch" "GapWatch" } 0
+t "" 6 "Right_ContinueLineAgain_ContinueLine_LineWatch" { 0, 0, 0 }
+t "" 7 "Right_ContinueLineAgain_ContinueLine_GapWatch" { 1, 1, -1 }
+t "" 8 "Right_ContinueLineAgain_TakeExitGap" { 0, 0, 0 }
+p "" 3 1 "" { "LineWatch" "GapWatch" } 0
+t "" 9 "Right_TakeLateGap_LineWatch" { 1, 1, -1 }
+t "" 10 "Right_TakeLateGap_GapWatch" { 0, 0, 0 }

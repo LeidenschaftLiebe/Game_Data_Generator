@@ -1,0 +1,22 @@
+EFG 2 R "GEB Multiselves Agent Form Fig. 4 V5" { "Explorer A" "Explorer B" "Guard Captain" }
+""
+
+c "" 1 "" { "LeftOrder" 1/2 "RightOrder" 1/2 } 0
+p "" 1 1 "" { "GoDeeper" "TakePassage" } 0
+p "" 2 1 "" { "GoDeeperAgain" "TakeLatePassage" } 0
+p "" 3 1 "" { "WatchTunnel" "GuardPassage" } 0
+t "" 1 "Left_GoDeeper_GoDeeperAgain_WatchTunnel" { 0, 0, 0 }
+t "" 2 "Left_GoDeeper_GoDeeperAgain_GuardPassage" { 1, 1, -1 }
+t "" 3 "Left_GoDeeper_TakeLatePassage" { 0, 0, 0 }
+p "" 3 1 "" { "WatchTunnel" "GuardPassage" } 0
+t "" 4 "Left_TakePassage_WatchTunnel" { 1, 1, -1 }
+t "" 5 "Left_TakePassage_GuardPassage" { 0, 0, 0 }
+p "" 2 1 "" { "GoDeeperAgain" "TakeLatePassage" } 0
+p "" 1 1 "" { "GoDeeper" "TakePassage" } 0
+p "" 3 1 "" { "WatchTunnel" "GuardPassage" } 0
+t "" 6 "Right_GoDeeperAgain_GoDeeper_WatchTunnel" { 0, 0, 0 }
+t "" 7 "Right_GoDeeperAgain_GoDeeper_GuardPassage" { 1, 1, -1 }
+t "" 8 "Right_GoDeeperAgain_TakePassage" { 0, 0, 0 }
+p "" 3 1 "" { "WatchTunnel" "GuardPassage" } 0
+t "" 9 "Right_TakeLatePassage_WatchTunnel" { 1, 1, -1 }
+t "" 10 "Right_TakeLatePassage_GuardPassage" { 0, 0, 0 }

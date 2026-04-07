@@ -1,0 +1,16 @@
+V4 [Wildfire breakout]
+
+Nature first chooses, with probability 1/2 each, which driver-order is used.
+
+In the left setup, Driver A moves first and chooses between ContinueLine and TakeExitGap.
+If Driver A chooses TakeExitGap, then the Safety Officer later chooses between LineWatch and GapWatch.
+LineWatch gives (1, 1, -1).
+GapWatch gives (0, 0, 0).
+
+If Driver A chooses ContinueLine, then Driver B chooses between ContinueLineAgain and TakeLateGap.
+TakeLateGap gives (0, 0, 0).
+If Driver B chooses ContinueLineAgain, the Safety Officer chooses between LineWatch and GapWatch.
+LineWatch gives (0, 0, 0).
+GapWatch gives (1, 1, -1).
+
+In the right setup, Driver B moves first and Driver A moves second in the corresponding mirrored way.

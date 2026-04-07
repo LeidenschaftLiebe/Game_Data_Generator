@@ -1,0 +1,22 @@
+EFG 2 R "GEB Multiselves Agent Form Fig. 4 V3" { "Courier A" "Courier B" "Border Officer" }
+""
+
+c "" 1 "" { "LeftOrder" 1/2 "RightOrder" 1/2 } 0
+p "" 1 1 "" { "StayOnRoad" "SlipOff" } 0
+p "" 2 1 "" { "StayOnRoadAgain" "SlipOffLate" } 0
+p "" 3 1 "" { "RoadWatch" "ExitTrap" } 0
+t "" 1 "Left_StayOnRoad_StayOnRoadAgain_RoadWatch" { 0, 0, 0 }
+t "" 2 "Left_StayOnRoad_StayOnRoadAgain_ExitTrap" { 1, 1, -1 }
+t "" 3 "Left_StayOnRoad_SlipOffLate" { 0, 0, 0 }
+p "" 3 1 "" { "RoadWatch" "ExitTrap" } 0
+t "" 4 "Left_SlipOff_RoadWatch" { 1, 1, -1 }
+t "" 5 "Left_SlipOff_ExitTrap" { 0, 0, 0 }
+p "" 2 1 "" { "StayOnRoadAgain" "SlipOffLate" } 0
+p "" 1 1 "" { "StayOnRoad" "SlipOff" } 0
+p "" 3 1 "" { "RoadWatch" "ExitTrap" } 0
+t "" 6 "Right_StayOnRoadAgain_StayOnRoad_RoadWatch" { 0, 0, 0 }
+t "" 7 "Right_StayOnRoadAgain_StayOnRoad_ExitTrap" { 1, 1, -1 }
+t "" 8 "Right_StayOnRoadAgain_SlipOff" { 0, 0, 0 }
+p "" 3 1 "" { "RoadWatch" "ExitTrap" } 0
+t "" 9 "Right_SlipOffLate_RoadWatch" { 1, 1, -1 }
+t "" 10 "Right_SlipOffLate_ExitTrap" { 0, 0, 0 }

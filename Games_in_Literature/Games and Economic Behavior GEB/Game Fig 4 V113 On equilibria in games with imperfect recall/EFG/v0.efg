@@ -1,0 +1,22 @@
+EFG 2 R "GEB Multiselves Agent Form of the Absentminded Driver and the Policeman Fig. 4" { "Agent 1" "Agent 2" "Agent 3" }
+""
+
+c "" 1 "" { "LeftOrder" 1/2 "RightOrder" 1/2 } 0
+p "" 1 1 "" { "C1" "E1" } 0
+p "" 2 1 "" { "C2" "E2" } 0
+p "" 3 1 "" { "H" "E" } 0
+t "" 1 "Left_C1_C2_H" { 0, 0, 0 }
+t "" 2 "Left_C1_C2_E" { 1, 1, -1 }
+t "" 3 "Left_C1_E2" { 0, 0, 0 }
+p "" 3 1 "" { "H" "E" } 0
+t "" 4 "Left_E1_H" { 1, 1, -1 }
+t "" 5 "Left_E1_E" { 0, 0, 0 }
+p "" 2 1 "" { "C2" "E2" } 0
+p "" 1 1 "" { "C1" "E1" } 0
+p "" 3 1 "" { "H" "E" } 0
+t "" 6 "Right_C2_C1_H" { 0, 0, 0 }
+t "" 7 "Right_C2_C1_E" { 1, 1, -1 }
+t "" 8 "Right_C2_E1" { 0, 0, 0 }
+p "" 3 1 "" { "H" "E" } 0
+t "" 9 "Right_E2_H" { 1, 1, -1 }
+t "" 10 "Right_E2_E" { 0, 0, 0 }

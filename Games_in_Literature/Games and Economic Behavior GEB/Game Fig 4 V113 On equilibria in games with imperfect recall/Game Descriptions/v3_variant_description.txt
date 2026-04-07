@@ -1,0 +1,16 @@
+V3 [Smuggling pursuit]
+
+Nature first chooses, with probability 1/2 each, which courier-order is used.
+
+In the left setup, Courier A moves first and chooses between StayOnRoad and SlipOff.
+If Courier A chooses SlipOff, then the Border Officer later chooses between RoadWatch and ExitTrap.
+RoadWatch gives (1, 1, -1).
+ExitTrap gives (0, 0, 0).
+
+If Courier A chooses StayOnRoad, then Courier B chooses between StayOnRoadAgain and SlipOffLate.
+SlipOffLate gives (0, 0, 0).
+If Courier B chooses StayOnRoadAgain, the Border Officer chooses between RoadWatch and ExitTrap.
+RoadWatch gives (0, 0, 0).
+ExitTrap gives (1, 1, -1).
+
+In the right setup, Courier B moves first and Courier A moves second in the mirrored version.

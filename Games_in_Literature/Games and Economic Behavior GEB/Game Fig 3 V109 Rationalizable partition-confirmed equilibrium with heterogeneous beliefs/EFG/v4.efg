@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 3 Insurance Claim V4" { "Advisor" "Claims Officer" "Claimant" }
+""
+
+c "" 1 "" { "Legitimate" 1/2 "Dubious" 1/2 } 0
+p "" 2 1 "" { "NoChallenge" "Investigate" } 0
+t "" 1 "Legitimate_NoChallenge" { 0, 1, 0 }
+t "" 2 "Legitimate_Investigate" { 0, 0, 0 }
+p "" 1 1 "" { "AggressiveFiling" "CarefulFiling" } 0
+p "" 2 1 "" { "NoChallenge" "Investigate" } 0
+t "" 3 "Dubious_AggressiveFiling_NoChallenge" { 2, 0, 0 }
+t "" 4 "Dubious_AggressiveFiling_Investigate" { 0, 2, 0 }
+p "" 3 1 "" { "KeepAdvisor" "ReplaceAdvisor" } 0
+t "" 5 "Dubious_CarefulFiling_KeepAdvisor" { 1, 0, 0 }
+t "" 6 "Dubious_CarefulFiling_ReplaceAdvisor" { -1, 0, 0 }

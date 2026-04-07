@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 3 Safety Review V1" { "Engineer" "Inspector" "Client" }
+""
+
+c "" 1 "" { "Routine" 1/2 "Faulty" 1/2 } 0
+p "" 2 1 "" { "NoEscalation" "Escalate" } 0
+t "" 1 "Routine_NoEscalation" { 0, 1, 0 }
+t "" 2 "Routine_Escalate" { 0, 0, 0 }
+p "" 1 1 "" { "RiskyPatch" "QuickFix" } 0
+p "" 2 1 "" { "NoEscalation" "Escalate" } 0
+t "" 3 "Faulty_RiskyPatch_NoEscalation" { 2, 0, 0 }
+t "" 4 "Faulty_RiskyPatch_Escalate" { 0, 2, 0 }
+p "" 3 1 "" { "KeepContract" "DropEngineer" } 0
+t "" 5 "Faulty_QuickFix_KeepContract" { 1, 0, 0 }
+t "" 6 "Faulty_QuickFix_DropEngineer" { -1, 0, 0 }

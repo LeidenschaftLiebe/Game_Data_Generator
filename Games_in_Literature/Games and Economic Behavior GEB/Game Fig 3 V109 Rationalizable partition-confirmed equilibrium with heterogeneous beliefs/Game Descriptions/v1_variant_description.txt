@@ -1,0 +1,36 @@
+V1 — Safety Review
+
+A random case first turns out to be either Routine (Good) or Faulty (Bad),
+with each happening half the time.
+
+If it is Routine (Good), the inspector moves and chooses No Escalation (N)
+or Escalate (E).
+
+If the path is Routine (Good), No Escalation (N), the engineer gets 0,
+the inspector gets 1, and the client gets 0.
+
+If the path is Routine (Good), Escalate (E), all three get 0.
+
+If the case is Faulty (Bad), the engineer moves next and chooses
+Quick Fix (Safe) or Risky Patch (Risky).
+
+If the engineer chooses Risky Patch (Risky), the inspector moves,
+but cannot tell whether the case came from Routine (Good) or from
+Faulty (Bad) followed by Risky Patch (Risky).
+
+The inspector again chooses No Escalation (N) or Escalate (E).
+
+If the path is Faulty (Bad), Risky Patch (Risky), No Escalation (N),
+the engineer gets 2, the inspector gets 0, and the client gets 0.
+
+If the path is Faulty (Bad), Risky Patch (Risky), Escalate (E),
+the engineer gets 0, the inspector gets 2, and the client gets 0.
+
+If the engineer chooses Quick Fix (Safe), the client moves last and chooses
+Keep Contract (Stay) or Drop Engineer (Fire).
+
+If the path is Faulty (Bad), Quick Fix (Safe), Keep Contract (Stay),
+the engineer gets 1, the inspector gets 0, and the client gets 0.
+
+If the path is Faulty (Bad), Quick Fix (Safe), Drop Engineer (Fire),
+the engineer gets -1, the inspector gets 0, and the client gets 0.

@@ -1,0 +1,36 @@
+V5 — Grant Compliance
+
+A project first turns out to be either Compliant (Good) or Noncompliant (Bad),
+with each state occurring half the time.
+
+If it is Compliant (Good), the auditor moves and chooses
+No Follow-up (N) or Escalate Review (E).
+
+If the path is Compliant (Good), No Follow-up (N), the consultant gets 0,
+the auditor gets 1, and the applicant gets 0.
+
+If the path is Compliant (Good), Escalate Review (E), all three get 0.
+
+If it is Noncompliant (Bad), the consultant moves next and chooses
+Correct Quietly (Safe) or Press Ahead (Risky).
+
+If the consultant chooses Press Ahead (Risky), the auditor moves,
+but cannot tell whether the situation came from Compliant (Good)
+or from Noncompliant (Bad) followed by Press Ahead (Risky).
+
+The auditor then chooses No Follow-up (N) or Escalate Review (E).
+
+If the path is Noncompliant (Bad), Press Ahead (Risky), No Follow-up (N),
+the consultant gets 2, the auditor gets 0, and the applicant gets 0.
+
+If the path is Noncompliant (Bad), Press Ahead (Risky), Escalate Review (E),
+the consultant gets 0, the auditor gets 2, and the applicant gets 0.
+
+If the consultant chooses Correct Quietly (Safe), the applicant moves last and chooses
+Keep Consultant (Stay) or Drop Consultant (Fire).
+
+If the path is Noncompliant (Bad), Correct Quietly (Safe), Keep Consultant (Stay),
+the consultant gets 1, the auditor gets 0, and the applicant gets 0.
+
+If the path is Noncompliant (Bad), Correct Quietly (Safe), Drop Consultant (Fire),
+the consultant gets -1, the auditor gets 0, and the applicant gets 0.

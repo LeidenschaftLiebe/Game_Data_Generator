@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+1) Check the probabilities at the chance node.
+2) Check that the two decision nodes of Player 2 are in the same information set.
+3) Check the anchor payoff: the outcome after Bad -> Risky -> N is (2, 0, 0).

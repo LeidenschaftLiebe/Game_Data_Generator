@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 3 Grant Compliance V5" { "Consultant" "Auditor" "Applicant" }
+""
+
+c "" 1 "" { "Compliant" 1/2 "Noncompliant" 1/2 } 0
+p "" 2 1 "" { "NoFollowUp" "EscalateReview" } 0
+t "" 1 "Compliant_NoFollowUp" { 0, 1, 0 }
+t "" 2 "Compliant_EscalateReview" { 0, 0, 0 }
+p "" 1 1 "" { "PressAhead" "CorrectQuietly" } 0
+p "" 2 1 "" { "NoFollowUp" "EscalateReview" } 0
+t "" 3 "Noncompliant_PressAhead_NoFollowUp" { 2, 0, 0 }
+t "" 4 "Noncompliant_PressAhead_EscalateReview" { 0, 2, 0 }
+p "" 3 1 "" { "KeepConsultant" "DropConsultant" } 0
+t "" 5 "Noncompliant_CorrectQuietly_KeepConsultant" { 1, 0, 0 }
+t "" 6 "Noncompliant_CorrectQuietly_DropConsultant" { -1, 0, 0 }

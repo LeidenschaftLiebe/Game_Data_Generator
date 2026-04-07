@@ -1,0 +1,36 @@
+V4 — Insurance Claim
+
+A claim first turns out to be either Legitimate (Good) or Dubious (Bad),
+with each case equally likely.
+
+If it is Legitimate (Good), the claims officer moves and chooses
+No Challenge (N) or Investigate (E).
+
+If the path is Legitimate (Good), No Challenge (N), the advisor gets 0,
+the claims officer gets 1, and the claimant gets 0.
+
+If the path is Legitimate (Good), Investigate (E), all three get 0.
+
+If it is Dubious (Bad), the advisor moves next and chooses
+Careful Filing (Safe) or Aggressive Filing (Risky).
+
+If the advisor chooses Aggressive Filing (Risky), the claims officer moves,
+but cannot tell whether the current node came from Legitimate (Good)
+or from Dubious (Bad) followed by Aggressive Filing (Risky).
+
+The claims officer again chooses No Challenge (N) or Investigate (E).
+
+If the path is Dubious (Bad), Aggressive Filing (Risky), No Challenge (N),
+the advisor gets 2, the claims officer gets 0, and the claimant gets 0.
+
+If the path is Dubious (Bad), Aggressive Filing (Risky), Investigate (E),
+the advisor gets 0, the claims officer gets 2, and the claimant gets 0.
+
+If the advisor chooses Careful Filing (Safe), the claimant moves last and chooses
+Keep Advisor (Stay) or Replace Advisor (Fire).
+
+If the path is Dubious (Bad), Careful Filing (Safe), Keep Advisor (Stay),
+the advisor gets 1, the claims officer gets 0, and the claimant gets 0.
+
+If the path is Dubious (Bad), Careful Filing (Safe), Replace Advisor (Fire),
+the advisor gets -1, the claims officer gets 0, and the claimant gets 0.

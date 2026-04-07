@@ -1,0 +1,35 @@
+V0 — Tax Return
+
+Nature moves first and picks Good or Bad, with each case occurring half the time.
+
+If Good occurs, the IRS agent moves.
+The IRS agent chooses between N and E.
+
+If the path is Good, N, the outcome gives reward 0 to the tax attorney,
+reward 1 to the IRS agent, and reward 0 to the tax evader.
+
+If the path is Good, E, the outcome gives reward 0 to all three players.
+
+If Bad occurs, the tax attorney moves next.
+The attorney chooses between Risky and Safe.
+
+If the attorney chooses Risky, the IRS agent moves.
+At that point, the IRS agent does not know whether the situation came from Good
+or from Bad followed by Risky.
+
+The IRS agent again chooses between N and E.
+
+If the path is Bad, Risky, N, the outcome gives reward 2 to the tax attorney,
+reward 0 to the IRS agent, and reward 0 to the tax evader.
+
+If the path is Bad, Risky, E, the outcome gives reward 0 to the tax attorney,
+reward 2 to the IRS agent, and reward 0 to the tax evader.
+
+If the attorney chooses Safe, the tax evader moves last.
+The evader chooses between Stay and Fire.
+
+If the path is Bad, Safe, Stay, the outcome gives reward 1 to the tax attorney,
+reward 0 to the IRS agent, and reward 0 to the tax evader.
+
+If the path is Bad, Safe, Fire, the outcome gives reward -1 to the tax attorney,
+reward 0 to the IRS agent, and reward 0 to the tax evader.

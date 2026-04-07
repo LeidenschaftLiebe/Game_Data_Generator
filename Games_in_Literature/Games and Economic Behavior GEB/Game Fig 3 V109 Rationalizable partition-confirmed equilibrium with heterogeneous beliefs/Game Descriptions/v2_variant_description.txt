@@ -1,0 +1,36 @@
+V2 — Publishing Deal
+
+A manuscript first turns out to be either Clean (Good) or Problematic (Bad),
+with each case equally likely.
+
+If it is Clean (Good), the compliance reviewer moves and chooses
+No Inquiry (N) or Examine (E).
+
+If the path is Clean (Good), No Inquiry (N), the author gets 0,
+the reviewer gets 1, and the publisher gets 0.
+
+If the path is Clean (Good), Examine (E), all three get 0.
+
+If it is Problematic (Bad), the author moves next and chooses
+Conservative Edit (Safe) or Push Through (Risky).
+
+If the author chooses Push Through (Risky), the reviewer moves,
+but cannot tell whether the current case came from Clean (Good)
+or from Problematic (Bad) followed by Push Through (Risky).
+
+The reviewer again chooses No Inquiry (N) or Examine (E).
+
+If the path is Problematic (Bad), Push Through (Risky), No Inquiry (N),
+the author gets 2, the reviewer gets 0, and the publisher gets 0.
+
+If the path is Problematic (Bad), Push Through (Risky), Examine (E),
+the author gets 0, the reviewer gets 2, and the publisher gets 0.
+
+If the author chooses Conservative Edit (Safe), the publisher moves last and chooses
+Keep Author (Stay) or Cut Ties (Fire).
+
+If the path is Problematic (Bad), Conservative Edit (Safe), Keep Author (Stay),
+the author gets 1, the reviewer gets 0, and the publisher gets 0.
+
+If the path is Problematic (Bad), Conservative Edit (Safe), Cut Ties (Fire),
+the author gets -1, the reviewer gets 0, and the publisher gets 0.

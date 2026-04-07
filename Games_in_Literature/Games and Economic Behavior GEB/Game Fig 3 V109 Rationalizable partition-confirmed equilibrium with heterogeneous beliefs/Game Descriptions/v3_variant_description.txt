@@ -1,0 +1,36 @@
+V3 — Lab Audit
+
+A sample first turns out to be either Normal (Good) or Contaminated (Bad),
+with each case happening with probability 1/2.
+
+If it is Normal (Good), the regulator moves and chooses
+No Action (N) or Enforce (E).
+
+If the path is Normal (Good), No Action (N), the lab consultant gets 0,
+the regulator gets 1, and the facility owner gets 0.
+
+If the path is Normal (Good), Enforce (E), all three get 0.
+
+If it is Contaminated (Bad), the lab consultant moves and chooses
+Standard Handling (Safe) or Hide Issue (Risky).
+
+If the consultant chooses Hide Issue (Risky), the regulator moves,
+but cannot tell whether the situation came from Normal (Good)
+or from Contaminated (Bad) followed by Hide Issue (Risky).
+
+The regulator then chooses No Action (N) or Enforce (E).
+
+If the path is Contaminated (Bad), Hide Issue (Risky), No Action (N),
+the consultant gets 2, the regulator gets 0, and the facility owner gets 0.
+
+If the path is Contaminated (Bad), Hide Issue (Risky), Enforce (E),
+the consultant gets 0, the regulator gets 2, and the facility owner gets 0.
+
+If the consultant chooses Standard Handling (Safe), the facility owner moves last and chooses
+Retain Consultant (Stay) or Dismiss Consultant (Fire).
+
+If the path is Contaminated (Bad), Standard Handling (Safe), Retain Consultant (Stay),
+the consultant gets 1, the regulator gets 0, and the facility owner gets 0.
+
+If the path is Contaminated (Bad), Standard Handling (Safe), Dismiss Consultant (Fire),
+the consultant gets -1, the regulator gets 0, and the facility owner gets 0.

@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 3 Tax Return V0" { "Tax Attorney" "IRS Agent" "Tax Evader" }
+""
+
+c "" 1 "" { "Good" 1/2 "Bad" 1/2 } 0
+p "" 2 1 "" { "N" "E" } 0
+t "" 1 "Good_N" { 0, 1, 0 }
+t "" 2 "Good_E" { 0, 0, 0 }
+p "" 1 1 "" { "Risky" "Safe" } 0
+p "" 2 1 "" { "N" "E" } 0
+t "" 3 "Bad_Risky_N" { 2, 0, 0 }
+t "" 4 "Bad_Risky_E" { 0, 2, 0 }
+p "" 3 1 "" { "Stay" "Fire" } 0
+t "" 5 "Bad_Safe_Stay" { 1, 0, 0 }
+t "" 6 "Bad_Safe_Fire" { -1, 0, 0 }

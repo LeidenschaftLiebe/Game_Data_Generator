@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 3 Lab Audit V3" { "Lab Consultant" "Regulator" "Facility Owner" }
+""
+
+c "" 1 "" { "Normal" 1/2 "Contaminated" 1/2 } 0
+p "" 2 1 "" { "NoAction" "Enforce" } 0
+t "" 1 "Normal_NoAction" { 0, 1, 0 }
+t "" 2 "Normal_Enforce" { 0, 0, 0 }
+p "" 1 1 "" { "HideIssue" "StandardHandling" } 0
+p "" 2 1 "" { "NoAction" "Enforce" } 0
+t "" 3 "Contaminated_HideIssue_NoAction" { 2, 0, 0 }
+t "" 4 "Contaminated_HideIssue_Enforce" { 0, 2, 0 }
+p "" 3 1 "" { "RetainConsultant" "DismissConsultant" } 0
+t "" 5 "Contaminated_StandardHandling_RetainConsultant" { 1, 0, 0 }
+t "" 6 "Contaminated_StandardHandling_DismissConsultant" { -1, 0, 0 }

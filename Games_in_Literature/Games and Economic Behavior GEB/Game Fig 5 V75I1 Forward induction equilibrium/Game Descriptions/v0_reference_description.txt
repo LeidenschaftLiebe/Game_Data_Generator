@@ -1,0 +1,28 @@
+V0 — Outside Option
+
+There are three players.
+Player 1 moves first and chooses between Out, T, and B.
+
+If Player 1 chooses Out, the game ends immediately with reward 2 to each player.
+
+If Player 1 chooses T or B, Player 2 moves next and chooses between L and R.
+When Player 2 moves, Player 2 cannot tell whether Player 1 chose T or B.
+
+After that, Player 3 moves and chooses between U, M, and D.
+When Player 3 moves, Player 3 cannot tell which earlier choices were taken.
+
+If the path is T, L, U, the outcome gives reward 3 to Player 1, reward 1 to Player 2, and reward 1 to Player 3.
+If the path is T, L, M, the outcome gives reward 0 to Player 1, reward 0 to Player 2, and reward -1 to Player 3.
+If the path is T, L, D, the outcome gives reward 0 to Player 1, reward 2 to Player 2, and reward 0 to Player 3.
+
+If the path is T, R, U, the outcome gives reward 0 to Player 1, reward 0 to Player 2, and reward 1 to Player 3.
+If the path is T, R, M, the outcome gives reward 0 to Player 1, reward 1 to Player 2, and reward -1 to Player 3.
+If the path is T, R, D, the outcome gives reward 0 to Player 1, reward 3 to Player 2, and reward 0 to Player 3.
+
+If the path is B, L, U, the outcome gives reward 0 to Player 1, reward 1 to Player 2, and reward 0 to Player 3.
+If the path is B, L, M, the outcome gives reward 0 to Player 1, reward 0 to Player 2, and reward -1 to Player 3.
+If the path is B, L, D, the outcome gives reward 0 to Player 1, reward 2 to Player 2, and reward 1 to Player 3.
+
+If the path is B, R, U, the outcome gives reward 0 to Player 1, reward 0 to Player 2, and reward 0 to Player 3.
+If the path is B, R, M, the outcome gives reward 0 to Player 1, reward 1 to Player 2, and reward -1 to Player 3.
+If the path is B, R, D, the outcome gives reward 3 to Player 1, reward 1 to Player 2, and reward 1 to Player 3.

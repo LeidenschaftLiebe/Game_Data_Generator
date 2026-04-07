@@ -1,0 +1,23 @@
+EFG 2 R "GEB Fig. 5 River Crossing V2" { "Expedition Leader" "Route Officer" "Terrain Scout" }
+""
+
+p "" 1 1 "" { "CampHere" "TopRidge" "BottomPass" } 0
+t "" 1 "CampHere" { 2, 2, 2 }
+p "" 2 1 "" { "LeftFork" "RightFork" } 0
+p "" 3 1 "" { "ClimbUp" "MarkCamp" "Descend" } 0
+t "" 2 "TopRidge_LeftFork_ClimbUp" { 3, 1, 1 }
+t "" 3 "TopRidge_LeftFork_MarkCamp" { 0, 0, -1 }
+t "" 4 "TopRidge_LeftFork_Descend" { 0, 2, 0 }
+p "" 3 1 "" { "ClimbUp" "MarkCamp" "Descend" } 0
+t "" 5 "TopRidge_RightFork_ClimbUp" { 0, 0, 1 }
+t "" 6 "TopRidge_RightFork_MarkCamp" { 0, 1, -1 }
+t "" 7 "TopRidge_RightFork_Descend" { 0, 3, 0 }
+p "" 2 1 "" { "LeftFork" "RightFork" } 0
+p "" 3 1 "" { "ClimbUp" "MarkCamp" "Descend" } 0
+t "" 8 "BottomPass_LeftFork_ClimbUp" { 0, 1, 0 }
+t "" 9 "BottomPass_LeftFork_MarkCamp" { 0, 0, -1 }
+t "" 10 "BottomPass_LeftFork_Descend" { 0, 2, 1 }
+p "" 3 1 "" { "ClimbUp" "MarkCamp" "Descend" } 0
+t "" 11 "BottomPass_RightFork_ClimbUp" { 0, 0, 0 }
+t "" 12 "BottomPass_RightFork_MarkCamp" { 0, 1, -1 }
+t "" 13 "BottomPass_RightFork_Descend" { 3, 1, 1 }

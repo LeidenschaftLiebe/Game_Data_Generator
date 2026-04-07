@@ -1,0 +1,42 @@
+V1 — Media Buyout
+
+There are three sides in a media deal: a studio chief, a distributor, and a critic panel.
+The studio chief moves first and chooses between Cash Out (Out), Theatrical Route (T), and Broadcast Route (B).
+
+If the studio chief chooses Cash Out (Out), the deal ends immediately with reward 2 to each side.
+
+If the studio chief chooses Theatrical Route (T) or Broadcast Route (B), the distributor moves next and chooses
+between Local Push (L) and Regional Push (R).
+The distributor observes that the deal continued, but cannot tell whether the first move was
+Theatrical Route (T) or Broadcast Route (B).
+
+After that, the critic panel moves and chooses between Approve (U), Mixed Review (M), and Reject (D).
+The critic panel does not know the earlier choices.
+
+If the path is Theatrical Route (T), Local Push (L), Approve (U),
+the outcome gives reward 3 to the studio chief, reward 1 to the distributor, and reward 1 to the critic panel.
+If the path is Theatrical Route (T), Local Push (L), Mixed Review (M),
+the outcome gives reward 0 to the studio chief, reward 0 to the distributor, and reward -1 to the critic panel.
+If the path is Theatrical Route (T), Local Push (L), Reject (D),
+the outcome gives reward 0 to the studio chief, reward 2 to the distributor, and reward 0 to the critic panel.
+
+If the path is Theatrical Route (T), Regional Push (R), Approve (U),
+the outcome gives reward 0 to the studio chief, reward 0 to the distributor, and reward 1 to the critic panel.
+If the path is Theatrical Route (T), Regional Push (R), Mixed Review (M),
+the outcome gives reward 0 to the studio chief, reward 1 to the distributor, and reward -1 to the critic panel.
+If the path is Theatrical Route (T), Regional Push (R), Reject (D),
+the outcome gives reward 0 to the studio chief, reward 3 to the distributor, and reward 0 to the critic panel.
+
+If the path is Broadcast Route (B), Local Push (L), Approve (U),
+the outcome gives reward 0 to the studio chief, reward 1 to the distributor, and reward 0 to the critic panel.
+If the path is Broadcast Route (B), Local Push (L), Mixed Review (M),
+the outcome gives reward 0 to the studio chief, reward 0 to the distributor, and reward -1 to the critic panel.
+If the path is Broadcast Route (B), Local Push (L), Reject (D),
+the outcome gives reward 0 to the studio chief, reward 2 to the distributor, and reward 1 to the critic panel.
+
+If the path is Broadcast Route (B), Regional Push (R), Approve (U),
+the outcome gives reward 0 to the studio chief, reward 0 to the distributor, and reward 0 to the critic panel.
+If the path is Broadcast Route (B), Regional Push (R), Mixed Review (M),
+the outcome gives reward 0 to the studio chief, reward 1 to the distributor, and reward -1 to the critic panel.
+If the path is Broadcast Route (B), Regional Push (R), Reject (D),
+the outcome gives reward 3 to the studio chief, reward 1 to the distributor, and reward 1 to the critic panel.

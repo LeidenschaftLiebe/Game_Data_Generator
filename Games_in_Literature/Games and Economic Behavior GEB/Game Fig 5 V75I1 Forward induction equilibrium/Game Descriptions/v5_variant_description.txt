@@ -1,0 +1,41 @@
+V5 — Offshore Drilling
+
+There are three sides in a drilling project: a platform owner, a routing manager, and a safety engineer.
+The platform owner moves first and chooses between Take Buyout (Out), Top Platform (T), and Bottom Platform (B).
+
+If the platform owner chooses Take Buyout (Out), the project ends immediately with reward 2 to each side.
+
+If the platform owner chooses Top Platform (T) or Bottom Platform (B), the routing manager moves next and chooses
+between Left Shaft (L) and Right Shaft (R).
+The routing manager cannot tell whether the earlier platform choice was Top Platform (T) or Bottom Platform (B).
+
+After that, the safety engineer moves and chooses between Upgrade (U), Maintain (M), and Drill Down (D).
+The safety engineer does not know the earlier choices.
+
+If the path is Top Platform (T), Left Shaft (L), Upgrade (U),
+the outcome gives reward 3 to the owner, reward 1 to the routing manager, and reward 1 to the engineer.
+If the path is Top Platform (T), Left Shaft (L), Maintain (M),
+the outcome gives reward 0 to the owner, reward 0 to the routing manager, and reward -1 to the engineer.
+If the path is Top Platform (T), Left Shaft (L), Drill Down (D),
+the outcome gives reward 0 to the owner, reward 2 to the routing manager, and reward 0 to the engineer.
+
+If the path is Top Platform (T), Right Shaft (R), Upgrade (U),
+the outcome gives reward 0 to the owner, reward 0 to the routing manager, and reward 1 to the engineer.
+If the path is Top Platform (T), Right Shaft (R), Maintain (M),
+the outcome gives reward 0 to the owner, reward 1 to the routing manager, and reward -1 to the engineer.
+If the path is Top Platform (T), Right Shaft (R), Drill Down (D),
+the outcome gives reward 0 to the owner, reward 3 to the routing manager, and reward 0 to the engineer.
+
+If the path is Bottom Platform (B), Left Shaft (L), Upgrade (U),
+the outcome gives reward 0 to the owner, reward 1 to the routing manager, and reward 0 to the engineer.
+If the path is Bottom Platform (B), Left Shaft (L), Maintain (M),
+the outcome gives reward 0 to the owner, reward 0 to the routing manager, and reward -1 to the engineer.
+If the path is Bottom Platform (B), Left Shaft (L), Drill Down (D),
+the outcome gives reward 0 to the owner, reward 2 to the routing manager, and reward 1 to the engineer.
+
+If the path is Bottom Platform (B), Right Shaft (R), Upgrade (U),
+the outcome gives reward 0 to the owner, reward 0 to the routing manager, and reward 0 to the engineer.
+If the path is Bottom Platform (B), Right Shaft (R), Maintain (M),
+the outcome gives reward 0 to the owner, reward 1 to the routing manager, and reward -1 to the engineer.
+If the path is Bottom Platform (B), Right Shaft (R), Drill Down (D),
+the outcome gives reward 3 to the owner, reward 1 to the routing manager, and reward 1 to the engineer.

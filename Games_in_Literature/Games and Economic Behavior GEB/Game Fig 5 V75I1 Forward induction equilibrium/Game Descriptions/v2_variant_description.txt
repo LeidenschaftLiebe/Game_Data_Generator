@@ -1,0 +1,41 @@
+V2 — River Crossing
+
+There are three decision makers: an expedition leader, a route officer, and a terrain scout.
+The expedition leader moves first and chooses between Camp Here (Out), Top Ridge (T), and Bottom Pass (B).
+
+If the expedition leader chooses Camp Here (Out), the expedition ends immediately with reward 2 to each player.
+
+If the expedition leader chooses Top Ridge (T) or Bottom Pass (B), the route officer moves next and chooses
+between Left Fork (L) and Right Fork (R).
+The route officer cannot tell whether the earlier route choice was Top Ridge (T) or Bottom Pass (B).
+
+After that, the terrain scout moves and chooses between Climb Up (U), Mark Camp (M), and Descend (D).
+The terrain scout does not know the earlier choices.
+
+If the path is Top Ridge (T), Left Fork (L), Climb Up (U),
+the outcome gives reward 3 to the leader, reward 1 to the route officer, and reward 1 to the scout.
+If the path is Top Ridge (T), Left Fork (L), Mark Camp (M),
+the outcome gives reward 0 to the leader, reward 0 to the route officer, and reward -1 to the scout.
+If the path is Top Ridge (T), Left Fork (L), Descend (D),
+the outcome gives reward 0 to the leader, reward 2 to the route officer, and reward 0 to the scout.
+
+If the path is Top Ridge (T), Right Fork (R), Climb Up (U),
+the outcome gives reward 0 to the leader, reward 0 to the route officer, and reward 1 to the scout.
+If the path is Top Ridge (T), Right Fork (R), Mark Camp (M),
+the outcome gives reward 0 to the leader, reward 1 to the route officer, and reward -1 to the scout.
+If the path is Top Ridge (T), Right Fork (R), Descend (D),
+the outcome gives reward 0 to the leader, reward 3 to the route officer, and reward 0 to the scout.
+
+If the path is Bottom Pass (B), Left Fork (L), Climb Up (U),
+the outcome gives reward 0 to the leader, reward 1 to the route officer, and reward 0 to the scout.
+If the path is Bottom Pass (B), Left Fork (L), Mark Camp (M),
+the outcome gives reward 0 to the leader, reward 0 to the route officer, and reward -1 to the scout.
+If the path is Bottom Pass (B), Left Fork (L), Descend (D),
+the outcome gives reward 0 to the leader, reward 2 to the route officer, and reward 1 to the scout.
+
+If the path is Bottom Pass (B), Right Fork (R), Climb Up (U),
+the outcome gives reward 0 to the leader, reward 0 to the route officer, and reward 0 to the scout.
+If the path is Bottom Pass (B), Right Fork (R), Mark Camp (M),
+the outcome gives reward 0 to the leader, reward 1 to the route officer, and reward -1 to the scout.
+If the path is Bottom Pass (B), Right Fork (R), Descend (D),
+the outcome gives reward 3 to the leader, reward 1 to the route officer, and reward 1 to the scout.

@@ -1,0 +1,41 @@
+V4 — Emergency Broadcast
+
+There are three sides in a public warning system: a central director, a station editor, and a field monitor.
+The central director moves first and chooses between Issue Standard Notice (Out), Top Alert (T), and Bottom Alert (B).
+
+If the central director chooses Issue Standard Notice (Out), the process ends immediately with reward 2 to each side.
+
+If the central director chooses Top Alert (T) or Bottom Alert (B), the station editor moves next and chooses
+between Left Channel (L) and Right Channel (R).
+The station editor cannot tell whether the earlier alert was Top Alert (T) or Bottom Alert (B).
+
+After that, the field monitor moves and chooses between Urgent Tag (U), Moderate Tag (M), and Delayed Tag (D).
+The field monitor does not know the earlier choices.
+
+If the path is Top Alert (T), Left Channel (L), Urgent Tag (U),
+the outcome gives reward 3 to the central director, reward 1 to the station editor, and reward 1 to the field monitor.
+If the path is Top Alert (T), Left Channel (L), Moderate Tag (M),
+the outcome gives reward 0 to the central director, reward 0 to the station editor, and reward -1 to the field monitor.
+If the path is Top Alert (T), Left Channel (L), Delayed Tag (D),
+the outcome gives reward 0 to the central director, reward 2 to the station editor, and reward 0 to the field monitor.
+
+If the path is Top Alert (T), Right Channel (R), Urgent Tag (U),
+the outcome gives reward 0 to the central director, reward 0 to the station editor, and reward 1 to the field monitor.
+If the path is Top Alert (T), Right Channel (R), Moderate Tag (M),
+the outcome gives reward 0 to the central director, reward 1 to the station editor, and reward -1 to the field monitor.
+If the path is Top Alert (T), Right Channel (R), Delayed Tag (D),
+the outcome gives reward 0 to the central director, reward 3 to the station editor, and reward 0 to the field monitor.
+
+If the path is Bottom Alert (B), Left Channel (L), Urgent Tag (U),
+the outcome gives reward 0 to the central director, reward 1 to the station editor, and reward 0 to the field monitor.
+If the path is Bottom Alert (B), Left Channel (L), Moderate Tag (M),
+the outcome gives reward 0 to the central director, reward 0 to the station editor, and reward -1 to the field monitor.
+If the path is Bottom Alert (B), Left Channel (L), Delayed Tag (D),
+the outcome gives reward 0 to the central director, reward 2 to the station editor, and reward 1 to the field monitor.
+
+If the path is Bottom Alert (B), Right Channel (R), Urgent Tag (U),
+the outcome gives reward 0 to the central director, reward 0 to the station editor, and reward 0 to the field monitor.
+If the path is Bottom Alert (B), Right Channel (R), Moderate Tag (M),
+the outcome gives reward 0 to the central director, reward 1 to the station editor, and reward -1 to the field monitor.
+If the path is Bottom Alert (B), Right Channel (R), Delayed Tag (D),
+the outcome gives reward 3 to the central director, reward 1 to the station editor, and reward 1 to the field monitor.

@@ -1,0 +1,23 @@
+EFG 2 R "GEB Fig. 5 Media Buyout V1" { "Studio Chief" "Distributor" "Critic Panel" }
+""
+
+p "" 1 1 "" { "CashOut" "TheatricalRoute" "BroadcastRoute" } 0
+t "" 1 "CashOut" { 2, 2, 2 }
+p "" 2 1 "" { "LocalPush" "RegionalPush" } 0
+p "" 3 1 "" { "Approve" "MixedReview" "Reject" } 0
+t "" 2 "TheatricalRoute_LocalPush_Approve" { 3, 1, 1 }
+t "" 3 "TheatricalRoute_LocalPush_MixedReview" { 0, 0, -1 }
+t "" 4 "TheatricalRoute_LocalPush_Reject" { 0, 2, 0 }
+p "" 3 1 "" { "Approve" "MixedReview" "Reject" } 0
+t "" 5 "TheatricalRoute_RegionalPush_Approve" { 0, 0, 1 }
+t "" 6 "TheatricalRoute_RegionalPush_MixedReview" { 0, 1, -1 }
+t "" 7 "TheatricalRoute_RegionalPush_Reject" { 0, 3, 0 }
+p "" 2 1 "" { "LocalPush" "RegionalPush" } 0
+p "" 3 1 "" { "Approve" "MixedReview" "Reject" } 0
+t "" 8 "BroadcastRoute_LocalPush_Approve" { 0, 1, 0 }
+t "" 9 "BroadcastRoute_LocalPush_MixedReview" { 0, 0, -1 }
+t "" 10 "BroadcastRoute_LocalPush_Reject" { 0, 2, 1 }
+p "" 3 1 "" { "Approve" "MixedReview" "Reject" } 0
+t "" 11 "BroadcastRoute_RegionalPush_Approve" { 0, 0, 0 }
+t "" 12 "BroadcastRoute_RegionalPush_MixedReview" { 0, 1, -1 }
+t "" 13 "BroadcastRoute_RegionalPush_Reject" { 3, 1, 1 }

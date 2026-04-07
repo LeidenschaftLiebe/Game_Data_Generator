@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+1) Check the move order: Player 1 moves first; if Player 1 does not take the outside option, Player 2 moves next; then Player 3 moves last.
+2) Check that Player 2's two decision nodes are in the same information set, and that Player 3's four decision nodes are in the same information set.
+3) Check the anchor payoff: the outcome after B -> R -> D is (3, 1, 1).

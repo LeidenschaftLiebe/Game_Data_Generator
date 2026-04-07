@@ -1,0 +1,23 @@
+EFG 2 R "GEB Fig. 5 Offshore Drilling V5" { "Platform Owner" "Routing Manager" "Safety Engineer" }
+""
+
+p "" 1 1 "" { "TakeBuyout" "TopPlatform" "BottomPlatform" } 0
+t "" 1 "TakeBuyout" { 2, 2, 2 }
+p "" 2 1 "" { "LeftShaft" "RightShaft" } 0
+p "" 3 1 "" { "Upgrade" "Maintain" "DrillDown" } 0
+t "" 2 "TopPlatform_LeftShaft_Upgrade" { 3, 1, 1 }
+t "" 3 "TopPlatform_LeftShaft_Maintain" { 0, 0, -1 }
+t "" 4 "TopPlatform_LeftShaft_DrillDown" { 0, 2, 0 }
+p "" 3 1 "" { "Upgrade" "Maintain" "DrillDown" } 0
+t "" 5 "TopPlatform_RightShaft_Upgrade" { 0, 0, 1 }
+t "" 6 "TopPlatform_RightShaft_Maintain" { 0, 1, -1 }
+t "" 7 "TopPlatform_RightShaft_DrillDown" { 0, 3, 0 }
+p "" 2 1 "" { "LeftShaft" "RightShaft" } 0
+p "" 3 1 "" { "Upgrade" "Maintain" "DrillDown" } 0
+t "" 8 "BottomPlatform_LeftShaft_Upgrade" { 0, 1, 0 }
+t "" 9 "BottomPlatform_LeftShaft_Maintain" { 0, 0, -1 }
+t "" 10 "BottomPlatform_LeftShaft_DrillDown" { 0, 2, 1 }
+p "" 3 1 "" { "Upgrade" "Maintain" "DrillDown" } 0
+t "" 11 "BottomPlatform_RightShaft_Upgrade" { 0, 0, 0 }
+t "" 12 "BottomPlatform_RightShaft_Maintain" { 0, 1, -1 }
+t "" 13 "BottomPlatform_RightShaft_DrillDown" { 3, 1, 1 }

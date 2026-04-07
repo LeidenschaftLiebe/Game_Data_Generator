@@ -1,0 +1,23 @@
+EFG 2 R "GEB Fig. 5 Emergency Broadcast V4" { "Central Director" "Station Editor" "Field Monitor" }
+""
+
+p "" 1 1 "" { "IssueStandardNotice" "TopAlert" "BottomAlert" } 0
+t "" 1 "IssueStandardNotice" { 2, 2, 2 }
+p "" 2 1 "" { "LeftChannel" "RightChannel" } 0
+p "" 3 1 "" { "UrgentTag" "ModerateTag" "DelayedTag" } 0
+t "" 2 "TopAlert_LeftChannel_UrgentTag" { 3, 1, 1 }
+t "" 3 "TopAlert_LeftChannel_ModerateTag" { 0, 0, -1 }
+t "" 4 "TopAlert_LeftChannel_DelayedTag" { 0, 2, 0 }
+p "" 3 1 "" { "UrgentTag" "ModerateTag" "DelayedTag" } 0
+t "" 5 "TopAlert_RightChannel_UrgentTag" { 0, 0, 1 }
+t "" 6 "TopAlert_RightChannel_ModerateTag" { 0, 1, -1 }
+t "" 7 "TopAlert_RightChannel_DelayedTag" { 0, 3, 0 }
+p "" 2 1 "" { "LeftChannel" "RightChannel" } 0
+p "" 3 1 "" { "UrgentTag" "ModerateTag" "DelayedTag" } 0
+t "" 8 "BottomAlert_LeftChannel_UrgentTag" { 0, 1, 0 }
+t "" 9 "BottomAlert_LeftChannel_ModerateTag" { 0, 0, -1 }
+t "" 10 "BottomAlert_LeftChannel_DelayedTag" { 0, 2, 1 }
+p "" 3 1 "" { "UrgentTag" "ModerateTag" "DelayedTag" } 0
+t "" 11 "BottomAlert_RightChannel_UrgentTag" { 0, 0, 0 }
+t "" 12 "BottomAlert_RightChannel_ModerateTag" { 0, 1, -1 }
+t "" 13 "BottomAlert_RightChannel_DelayedTag" { 3, 1, 1 }

@@ -1,0 +1,41 @@
+V3 — Antique Auction
+
+There are three sides in an antique sale: a seller, a broker, and an appraiser.
+The seller moves first and chooses between Take Reserve Price (Out), Private Table (T), and Public Floor (B).
+
+If the seller chooses Take Reserve Price (Out), the sale ends immediately with reward 2 to each side.
+
+If the seller chooses Private Table (T) or Public Floor (B), the broker moves next and chooses
+between Left Bidder Group (L) and Right Bidder Group (R).
+The broker cannot tell whether the first move was Private Table (T) or Public Floor (B).
+
+After that, the appraiser moves and chooses between Upgrade Grade (U), Middle Grade (M), and Downgrade Grade (D).
+The appraiser does not know the earlier choices.
+
+If the path is Private Table (T), Left Bidder Group (L), Upgrade Grade (U),
+the outcome gives reward 3 to the seller, reward 1 to the broker, and reward 1 to the appraiser.
+If the path is Private Table (T), Left Bidder Group (L), Middle Grade (M),
+the outcome gives reward 0 to the seller, reward 0 to the broker, and reward -1 to the appraiser.
+If the path is Private Table (T), Left Bidder Group (L), Downgrade Grade (D),
+the outcome gives reward 0 to the seller, reward 2 to the broker, and reward 0 to the appraiser.
+
+If the path is Private Table (T), Right Bidder Group (R), Upgrade Grade (U),
+the outcome gives reward 0 to the seller, reward 0 to the broker, and reward 1 to the appraiser.
+If the path is Private Table (T), Right Bidder Group (R), Middle Grade (M),
+the outcome gives reward 0 to the seller, reward 1 to the broker, and reward -1 to the appraiser.
+If the path is Private Table (T), Right Bidder Group (R), Downgrade Grade (D),
+the outcome gives reward 0 to the seller, reward 3 to the broker, and reward 0 to the appraiser.
+
+If the path is Public Floor (B), Left Bidder Group (L), Upgrade Grade (U),
+the outcome gives reward 0 to the seller, reward 1 to the broker, and reward 0 to the appraiser.
+If the path is Public Floor (B), Left Bidder Group (L), Middle Grade (M),
+the outcome gives reward 0 to the seller, reward 0 to the broker, and reward -1 to the appraiser.
+If the path is Public Floor (B), Left Bidder Group (L), Downgrade Grade (D),
+the outcome gives reward 0 to the seller, reward 2 to the broker, and reward 1 to the appraiser.
+
+If the path is Public Floor (B), Right Bidder Group (R), Upgrade Grade (U),
+the outcome gives reward 0 to the seller, reward 0 to the broker, and reward 0 to the appraiser.
+If the path is Public Floor (B), Right Bidder Group (R), Middle Grade (M),
+the outcome gives reward 0 to the seller, reward 1 to the broker, and reward -1 to the appraiser.
+If the path is Public Floor (B), Right Bidder Group (R), Downgrade Grade (D),
+the outcome gives reward 3 to the seller, reward 1 to the broker, and reward 1 to the appraiser.

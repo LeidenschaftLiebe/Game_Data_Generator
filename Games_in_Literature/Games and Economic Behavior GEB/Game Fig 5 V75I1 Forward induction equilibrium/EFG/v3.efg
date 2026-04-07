@@ -1,0 +1,23 @@
+EFG 2 R "GEB Fig. 5 Antique Auction V3" { "Seller" "Broker" "Appraiser" }
+""
+
+p "" 1 1 "" { "TakeReservePrice" "PrivateTable" "PublicFloor" } 0
+t "" 1 "TakeReservePrice" { 2, 2, 2 }
+p "" 2 1 "" { "LeftBidderGroup" "RightBidderGroup" } 0
+p "" 3 1 "" { "UpgradeGrade" "MiddleGrade" "DowngradeGrade" } 0
+t "" 2 "PrivateTable_LeftBidderGroup_UpgradeGrade" { 3, 1, 1 }
+t "" 3 "PrivateTable_LeftBidderGroup_MiddleGrade" { 0, 0, -1 }
+t "" 4 "PrivateTable_LeftBidderGroup_DowngradeGrade" { 0, 2, 0 }
+p "" 3 1 "" { "UpgradeGrade" "MiddleGrade" "DowngradeGrade" } 0
+t "" 5 "PrivateTable_RightBidderGroup_UpgradeGrade" { 0, 0, 1 }
+t "" 6 "PrivateTable_RightBidderGroup_MiddleGrade" { 0, 1, -1 }
+t "" 7 "PrivateTable_RightBidderGroup_DowngradeGrade" { 0, 3, 0 }
+p "" 2 1 "" { "LeftBidderGroup" "RightBidderGroup" } 0
+p "" 3 1 "" { "UpgradeGrade" "MiddleGrade" "DowngradeGrade" } 0
+t "" 8 "PublicFloor_LeftBidderGroup_UpgradeGrade" { 0, 1, 0 }
+t "" 9 "PublicFloor_LeftBidderGroup_MiddleGrade" { 0, 0, -1 }
+t "" 10 "PublicFloor_LeftBidderGroup_DowngradeGrade" { 0, 2, 1 }
+p "" 3 1 "" { "UpgradeGrade" "MiddleGrade" "DowngradeGrade" } 0
+t "" 11 "PublicFloor_RightBidderGroup_UpgradeGrade" { 0, 0, 0 }
+t "" 12 "PublicFloor_RightBidderGroup_MiddleGrade" { 0, 1, -1 }
+t "" 13 "PublicFloor_RightBidderGroup_DowngradeGrade" { 3, 1, 1 }

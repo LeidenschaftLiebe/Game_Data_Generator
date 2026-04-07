@@ -1,0 +1,13 @@
+EFG 2 R "GEB Fig. 2 Rescue Routing V1" { "Rescue Coordinator" "Logistics Chief" "Field Specialist" }
+""
+
+p "" 1 1 "" { "NorthRoute" "SouthRoute" } 0
+p "" 2 1 "" { "SendGroundTeam" "HoldSupportTeam" } 0
+p "" 3 1 "" { "ImmediateEntry" "CautiousEntry" } 0
+t "" 1 "NorthRoute_SendGroundTeam_ImmediateEntry" { 2, 2, 2 }
+t "" 2 "NorthRoute_SendGroundTeam_CautiousEntry" { 1, 1, 1 }
+t "" 3 "NorthRoute_HoldSupportTeam" { 1, 0, 0 }
+p "" 3 2 "" { "BridgeAccess" "TunnelAccess" "AirAccess" } 0
+t "" 4 "SouthRoute_BridgeAccess" { 3, 0, 1 }
+t "" 5 "SouthRoute_TunnelAccess" { 0, 0, 2 }
+t "" 6 "SouthRoute_AirAccess" { 0, 0, 0 }

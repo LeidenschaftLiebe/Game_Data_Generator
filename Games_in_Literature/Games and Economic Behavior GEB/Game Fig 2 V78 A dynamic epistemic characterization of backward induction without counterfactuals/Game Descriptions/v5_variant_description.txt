@@ -1,0 +1,20 @@
+V5 — Wildlife Protection
+
+A park director is deciding how to organize a conservation response.
+The park director moves first and chooses between Habitat Plan (a1) and Patrol Plan (b1).
+
+If the park director chooses Habitat Plan (a1), the operations ranger moves next and chooses between
+Deploy Survey Team (a2) and Cancel Survey Team (b2).
+If the operations ranger chooses Deploy Survey Team (a2), the field biologist then chooses between
+Immediate Tagging (a3) and Observation Only (b3).
+If the path is a1, a2, a3, the outcome gives reward 2 to the director, reward 2 to the ranger, and reward 2 to the biologist.
+If the path is a1, a2, b3, the outcome gives reward 1 to the director, reward 1 to the ranger, and reward 1 to the biologist.
+
+If the operations ranger chooses Cancel Survey Team (b2), the game ends immediately.
+The outcome then gives reward 1 to the director, reward 0 to the ranger, and reward 0 to the biologist.
+
+If the park director chooses Patrol Plan (b1), the field biologist moves next and chooses between
+River Patrol (c2), Cliff Patrol (d2), and No Patrol (e2).
+If the path is b1, c2, the outcome gives reward 3 to the director, reward 0 to the ranger, and reward 1 to the biologist.
+If the path is b1, d2, the outcome gives reward 0 to the director, reward 0 to the ranger, and reward 2 to the biologist.
+If the path is b1, e2, the outcome gives reward 0 to all three players.

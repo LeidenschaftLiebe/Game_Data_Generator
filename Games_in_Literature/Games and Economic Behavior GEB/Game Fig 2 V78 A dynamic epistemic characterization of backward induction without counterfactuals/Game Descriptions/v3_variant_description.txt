@@ -1,0 +1,20 @@
+V3 — Space Mission Setup
+
+A mission director is deciding how to set up a probe launch.
+The mission director moves first and chooses between Testing Path (a1) and Fast Launch Path (b1).
+
+If the mission director chooses Testing Path (a1), the systems engineer moves next and chooses between
+Run Full Diagnostics (a2) and Skip Diagnostics (b2).
+If the systems engineer chooses Run Full Diagnostics (a2), the flight analyst then chooses between
+Proceed to Launch Window (a3) and Delay Launch Window (b3).
+If the path is a1, a2, a3, the outcome gives reward 2 to the director, reward 2 to the engineer, and reward 2 to the analyst.
+If the path is a1, a2, b3, the outcome gives reward 1 to the director, reward 1 to the engineer, and reward 1 to the analyst.
+
+If the systems engineer chooses Skip Diagnostics (b2), the game ends immediately.
+The outcome then gives reward 1 to the director, reward 0 to the engineer, and reward 0 to the analyst.
+
+If the mission director chooses Fast Launch Path (b1), the flight analyst moves next and chooses between
+Orbit Entry Plan (c2), Surface Pass Plan (d2), and Abort Plan (e2).
+If the path is b1, c2, the outcome gives reward 3 to the director, reward 0 to the engineer, and reward 1 to the analyst.
+If the path is b1, d2, the outcome gives reward 0 to the director, reward 0 to the engineer, and reward 2 to the analyst.
+If the path is b1, e2, the outcome gives reward 0 to all three players.

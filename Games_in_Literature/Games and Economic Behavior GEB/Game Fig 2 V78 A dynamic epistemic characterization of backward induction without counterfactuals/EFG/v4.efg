@@ -1,0 +1,13 @@
+EFG 2 R "GEB Fig. 2 Courtroom Strategy V4" { "Lead Attorney" "Case Manager" "Trial Consultant" }
+""
+
+p "" 1 1 "" { "WitnessTrack" "DocumentTrack" } 0
+p "" 2 1 "" { "CallMainWitness" "DropWitness" } 0
+p "" 3 1 "" { "DirectExamination" "LimitedExamination" } 0
+t "" 1 "WitnessTrack_CallMainWitness_DirectExamination" { 2, 2, 2 }
+t "" 2 "WitnessTrack_CallMainWitness_LimitedExamination" { 1, 1, 1 }
+t "" 3 "WitnessTrack_DropWitness" { 1, 0, 0 }
+p "" 3 2 "" { "PresentContractFile" "PresentAuditFile" "PresentNothing" } 0
+t "" 4 "DocumentTrack_PresentContractFile" { 3, 0, 1 }
+t "" 5 "DocumentTrack_PresentAuditFile" { 0, 0, 2 }
+t "" 6 "DocumentTrack_PresentNothing" { 0, 0, 0 }

@@ -1,0 +1,17 @@
+V0 — Perfect-Information Game
+
+There are three players.
+Player 1 moves first and chooses between a1 and b1.
+
+If Player 1 chooses a1, Player 2 moves next and chooses between a2 and b2.
+If Player 2 chooses a2, Player 3 then chooses between a3 and b3.
+If the path is a1, a2, a3, the outcome gives reward 2 to Player 1, reward 2 to Player 2, and reward 2 to Player 3.
+If the path is a1, a2, b3, the outcome gives reward 1 to Player 1, reward 1 to Player 2, and reward 1 to Player 3.
+
+If Player 2 chooses b2, the game ends immediately.
+The outcome then gives reward 1 to Player 1, reward 0 to Player 2, and reward 0 to Player 3.
+
+If Player 1 chooses b1, Player 3 moves next and chooses between c2, d2, and e2.
+If the path is b1, c2, the outcome gives reward 3 to Player 1, reward 0 to Player 2, and reward 1 to Player 3.
+If the path is b1, d2, the outcome gives reward 0 to Player 1, reward 0 to Player 2, and reward 2 to Player 3.
+If the path is b1, e2, the outcome gives reward 0 to Player 1, reward 0 to Player 2, and reward 0 to Player 3.

@@ -1,0 +1,13 @@
+EFG 2 R "GEB Fig. 2 Space Mission Setup V3" { "Mission Director" "Systems Engineer" "Flight Analyst" }
+""
+
+p "" 1 1 "" { "TestingPath" "FastLaunchPath" } 0
+p "" 2 1 "" { "RunFullDiagnostics" "SkipDiagnostics" } 0
+p "" 3 1 "" { "ProceedToLaunchWindow" "DelayLaunchWindow" } 0
+t "" 1 "TestingPath_RunFullDiagnostics_ProceedToLaunchWindow" { 2, 2, 2 }
+t "" 2 "TestingPath_RunFullDiagnostics_DelayLaunchWindow" { 1, 1, 1 }
+t "" 3 "TestingPath_SkipDiagnostics" { 1, 0, 0 }
+p "" 3 2 "" { "OrbitEntryPlan" "SurfacePassPlan" "AbortPlan" } 0
+t "" 4 "FastLaunchPath_OrbitEntryPlan" { 3, 0, 1 }
+t "" 5 "FastLaunchPath_SurfacePassPlan" { 0, 0, 2 }
+t "" 6 "FastLaunchPath_AbortPlan" { 0, 0, 0 }

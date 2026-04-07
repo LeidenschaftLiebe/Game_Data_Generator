@@ -1,0 +1,24 @@
+V1 — Rescue Routing
+
+A rescue coordinator is deciding how to route an emergency response.
+The coordinator moves first and chooses between North Route (a1) and South Route (b1).
+
+If the coordinator chooses North Route (a1), the logistics chief moves next and chooses between
+Send Ground Team (a2) and Hold Support Team (b2).
+If the logistics chief chooses Send Ground Team (a2), the field specialist then chooses between
+Immediate Entry (a3) and Cautious Entry (b3).
+If the path is North Route (a1), Send Ground Team (a2), Immediate Entry (a3),
+the outcome gives reward 2 to the coordinator, reward 2 to the logistics chief, and reward 2 to the specialist.
+If the path is North Route (a1), Send Ground Team (a2), Cautious Entry (b3),
+the outcome gives reward 1 to the coordinator, reward 1 to the logistics chief, and reward 1 to the specialist.
+
+If the logistics chief chooses Hold Support Team (b2), the game ends immediately.
+The outcome then gives reward 1 to the coordinator, reward 0 to the logistics chief, and reward 0 to the specialist.
+
+If the coordinator chooses South Route (b1), the field specialist moves next and chooses between
+Bridge Access (c2), Tunnel Access (d2), and Air Access (e2).
+If the path is South Route (b1), Bridge Access (c2), the outcome gives reward 3 to the coordinator,
+reward 0 to the logistics chief, and reward 1 to the specialist.
+If the path is South Route (b1), Tunnel Access (d2), the outcome gives reward 0 to the coordinator,
+reward 0 to the logistics chief, and reward 2 to the specialist.
+If the path is South Route (b1), Air Access (e2), the outcome gives reward 0 to all three players.

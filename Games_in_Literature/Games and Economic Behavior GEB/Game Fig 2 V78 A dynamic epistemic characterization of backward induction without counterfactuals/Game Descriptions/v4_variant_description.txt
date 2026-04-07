@@ -1,0 +1,24 @@
+V4 — Courtroom Strategy
+
+A lead attorney is deciding how to run a trial strategy.
+The lead attorney moves first and chooses between Witness Track (a1) and Document Track (b1).
+
+If the lead attorney chooses Witness Track (a1), the case manager moves next and chooses between
+Call Main Witness (a2) and Drop Witness (b2).
+If the case manager chooses Call Main Witness (a2), the trial consultant then chooses between
+Direct Examination (a3) and Limited Examination (b3).
+If the path is a1, a2, a3, the outcome gives reward 2 to the attorney, reward 2 to the case manager,
+and reward 2 to the consultant.
+If the path is a1, a2, b3, the outcome gives reward 1 to the attorney, reward 1 to the case manager,
+and reward 1 to the consultant.
+
+If the case manager chooses Drop Witness (b2), the game ends immediately.
+The outcome then gives reward 1 to the attorney, reward 0 to the case manager, and reward 0 to the consultant.
+
+If the lead attorney chooses Document Track (b1), the trial consultant moves next and chooses between
+Present Contract File (c2), Present Audit File (d2), and Present Nothing (e2).
+If the path is b1, c2, the outcome gives reward 3 to the attorney, reward 0 to the case manager,
+and reward 1 to the consultant.
+If the path is b1, d2, the outcome gives reward 0 to the attorney, reward 0 to the case manager,
+and reward 2 to the consultant.
+If the path is b1, e2, the outcome gives reward 0 to all three players.

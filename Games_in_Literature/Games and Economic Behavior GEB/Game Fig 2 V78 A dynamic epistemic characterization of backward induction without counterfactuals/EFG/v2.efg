@@ -1,0 +1,13 @@
+EFG 2 R "GEB Fig. 2 Heritage Restoration V2" { "Project Lead" "Restoration Manager" "Conservation Expert" }
+""
+
+p "" 1 1 "" { "InternalTeamPlan" "OutsideConsultantPlan" } 0
+p "" 2 1 "" { "DetailedSurvey" "SkipSurvey" } 0
+p "" 3 1 "" { "RestoreFully" "RestorePartly" } 0
+t "" 1 "InternalTeamPlan_DetailedSurvey_RestoreFully" { 2, 2, 2 }
+t "" 2 "InternalTeamPlan_DetailedSurvey_RestorePartly" { 1, 1, 1 }
+t "" 3 "InternalTeamPlan_SkipSurvey" { 1, 0, 0 }
+p "" 3 2 "" { "StoneRepair" "WoodRepair" "NoRepair" } 0
+t "" 4 "OutsideConsultantPlan_StoneRepair" { 3, 0, 1 }
+t "" 5 "OutsideConsultantPlan_WoodRepair" { 0, 0, 2 }
+t "" 6 "OutsideConsultantPlan_NoRepair" { 0, 0, 0 }

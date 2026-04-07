@@ -1,0 +1,24 @@
+V2 — Heritage Restoration
+
+A project lead is deciding how to organize a restoration plan for a historic building.
+The project lead moves first and chooses between Internal Team Plan (a1) and Outside Consultant Plan (b1).
+
+If the project lead chooses Internal Team Plan (a1), the restoration manager moves next and chooses between
+Detailed Survey (a2) and Skip Survey (b2).
+If the restoration manager chooses Detailed Survey (a2), the conservation expert then chooses between
+Restore Fully (a3) and Restore Partly (b3).
+If the path is a1, a2, a3, the outcome gives reward 2 to the project lead, reward 2 to the restoration manager,
+and reward 2 to the conservation expert.
+If the path is a1, a2, b3, the outcome gives reward 1 to the project lead, reward 1 to the restoration manager,
+and reward 1 to the conservation expert.
+
+If the restoration manager chooses Skip Survey (b2), the game ends immediately.
+The outcome then gives reward 1 to the project lead, reward 0 to the restoration manager, and reward 0 to the expert.
+
+If the project lead chooses Outside Consultant Plan (b1), the conservation expert moves next and chooses between
+Stone Repair (c2), Wood Repair (d2), and No Repair (e2).
+If the path is b1, c2, the outcome gives reward 3 to the project lead, reward 0 to the restoration manager,
+and reward 1 to the conservation expert.
+If the path is b1, d2, the outcome gives reward 0 to the project lead, reward 0 to the restoration manager,
+and reward 2 to the conservation expert.
+If the path is b1, e2, the outcome gives reward 0 to all three players.

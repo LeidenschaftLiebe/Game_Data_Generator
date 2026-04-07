@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+1) Check the move order: Player 1 moves first; after a1 Player 2 moves; 
+after Player 2's a2 Player 3 moves; after Player 1's b1 Player 3 moves.
+2) Check the anchor payoff: the outcome after a1 -> a2 -> a3 is (2, 2, 2).

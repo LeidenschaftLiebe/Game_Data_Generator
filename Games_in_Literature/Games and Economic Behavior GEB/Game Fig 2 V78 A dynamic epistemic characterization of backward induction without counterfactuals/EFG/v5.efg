@@ -1,0 +1,13 @@
+EFG 2 R "GEB Fig. 2 Wildlife Protection V5" { "Park Director" "Operations Ranger" "Field Biologist" }
+""
+
+p "" 1 1 "" { "HabitatPlan" "PatrolPlan" } 0
+p "" 2 1 "" { "DeploySurveyTeam" "CancelSurveyTeam" } 0
+p "" 3 1 "" { "ImmediateTagging" "ObservationOnly" } 0
+t "" 1 "HabitatPlan_DeploySurveyTeam_ImmediateTagging" { 2, 2, 2 }
+t "" 2 "HabitatPlan_DeploySurveyTeam_ObservationOnly" { 1, 1, 1 }
+t "" 3 "HabitatPlan_CancelSurveyTeam" { 1, 0, 0 }
+p "" 3 2 "" { "RiverPatrol" "CliffPatrol" "NoPatrol" } 0
+t "" 4 "PatrolPlan_RiverPatrol" { 3, 0, 1 }
+t "" 5 "PatrolPlan_CliffPatrol" { 0, 0, 2 }
+t "" 6 "PatrolPlan_NoPatrol" { 0, 0, 0 }

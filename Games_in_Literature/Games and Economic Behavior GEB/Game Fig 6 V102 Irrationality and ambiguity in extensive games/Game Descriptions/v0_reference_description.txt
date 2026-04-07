@@ -1,0 +1,39 @@
+V0 — Bargaining
+
+Set the discount factor to ρ = 4/5 = 0.8
+Two players are dividing a pie across two stages.
+
+In stage 1, Player 1 chooses one of three claims:
+take 1/4, take 1/2, or take 3/4 of the pie.
+
+After Player 1 makes that claim, Player 2 decides whether to Accept (A) or Reject (R).
+
+If Player 2 accepts in stage 1, the game ends immediately.
+
+If Player 1 claims 1/4 and Player 2 accepts, the result is 1/4 for Player 1 and 3/4 for Player 2.
+
+If Player 1 claims 1/2 and Player 2 accepts, the result is 1/2 for each player.
+
+If Player 1 claims 3/4 and Player 2 accepts, the result is 3/4 for Player 1 and 1/4 for Player 2.
+
+If Player 2 rejects in stage 1, the game moves to stage 2.
+
+In stage 2, Player 2 now makes an offer to Player 1.
+The offer can again be 1/4, 1/2, or 3/4 for Player 1.
+
+After that, Player 1 decides whether to Accept (A) or Reject (R).
+
+Because this is the second stage, the payoffs are discounted by ρ = 4/5.
+
+So if Player 2 offers 1/4 to Player 1 in stage 2 and Player 1 accepts,
+the result is 1/5 for Player 1 and 3/5 for Player 2.
+
+If Player 2 offers 1/2 to Player 1 in stage 2 and Player 1 accepts,
+the result is 2/5 for each player.
+
+If Player 2 offers 3/4 to Player 1 in stage 2 and Player 1 accepts,
+the result is 3/5 for Player 1 and 1/5 for Player 2.
+
+If Player 1 rejects in stage 2, the game ends with 0 for both players.
+
+This description follows the article’s two-stage bargaining setup shown in Fig. 5 and Fig. 6.

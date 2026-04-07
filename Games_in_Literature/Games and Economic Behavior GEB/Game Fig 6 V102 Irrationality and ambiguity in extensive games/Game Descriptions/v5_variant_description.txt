@@ -1,0 +1,35 @@
+V5 — Stadium Concert Booking
+
+A performer and a venue are bargaining over ticket revenue for a concert.
+
+In stage 1, the performer proposes a split:
+the performer asks for 1/4, 1/2, or 3/4 of the revenue.
+
+The venue then chooses whether to Accept (A) or Reject (R).
+
+If the venue accepts in stage 1, the booking is settled immediately.
+
+If the performer asks for 1/4 and the venue accepts, the result is 1/4 for the performer
+and 3/4 for the venue.
+
+If the performer asks for 1/2 and the venue accepts, the result is 1/2 for each side.
+
+If the performer asks for 3/4 and the venue accepts, the result is 3/4 for the performer
+and 1/4 for the venue.
+
+If the venue rejects, the bargaining goes to stage 2.
+
+In stage 2, the venue makes the next offer.
+The venue can offer the performer 1/4, 1/2, or 3/4 of the revenue.
+
+The performer then chooses whether to Accept (A) or Reject (R).
+
+An agreement reached in stage 2 is discounted by ρ = 4/5.
+
+So an accepted 1/4 offer gives 1/5 to the performer and 3/5 to the venue.
+
+An accepted 1/2 offer gives 2/5 to each side.
+
+An accepted 3/4 offer gives 3/5 to the performer and 1/5 to the venue.
+
+If the performer rejects in stage 2, both sides get 0.

@@ -1,0 +1,40 @@
+EFG 2 R "GEB Fig. 5-6 Bargaining V0" { "Player 1" "Player 2" }
+""
+
+p "" 1 1 "" { "Quarter" "Half" "ThreeQuarters" } 0
+p "" 2 1 "" { "Accept" "Reject" } 0
+t "" 1 "S1_Quarter_Accept" { 1/4, 3/4 }
+p "" 2 4 "" { "Quarter" "Half" "ThreeQuarters" } 0
+p "" 1 2 "" { "Accept" "Reject" } 0
+t "" 4 "Q_R_Q_Accept" { 1/5, 3/5 }
+t "" 5 "Q_R_Q_Reject" { 0, 0 }
+p "" 1 3 "" { "Accept" "Reject" } 0
+t "" 6 "Q_R_H_Accept" { 2/5, 2/5 }
+t "" 7 "Q_R_H_Reject" { 0, 0 }
+p "" 1 4 "" { "Accept" "Reject" } 0
+t "" 8 "Q_R_T_Accept" { 3/5, 1/5 }
+t "" 9 "Q_R_T_Reject" { 0, 0 }
+p "" 2 2 "" { "Accept" "Reject" } 0
+t "" 2 "S1_Half_Accept" { 1/2, 1/2 }
+p "" 2 5 "" { "Quarter" "Half" "ThreeQuarters" } 0
+p "" 1 5 "" { "Accept" "Reject" } 0
+t "" 10 "H_R_Q_Accept" { 1/5, 3/5 }
+t "" 11 "H_R_Q_Reject" { 0, 0 }
+p "" 1 6 "" { "Accept" "Reject" } 0
+t "" 12 "H_R_H_Accept" { 2/5, 2/5 }
+t "" 13 "H_R_H_Reject" { 0, 0 }
+p "" 1 7 "" { "Accept" "Reject" } 0
+t "" 14 "H_R_T_Accept" { 3/5, 1/5 }
+t "" 15 "H_R_T_Reject" { 0, 0 }
+p "" 2 3 "" { "Accept" "Reject" } 0
+t "" 3 "S1_ThreeQuarters_Accept" { 3/4, 1/4 }
+p "" 2 6 "" { "Quarter" "Half" "ThreeQuarters" } 0
+p "" 1 8 "" { "Accept" "Reject" } 0
+t "" 16 "T_R_Q_Accept" { 1/5, 3/5 }
+t "" 17 "T_R_Q_Reject" { 0, 0 }
+p "" 1 9 "" { "Accept" "Reject" } 0
+t "" 18 "T_R_H_Accept" { 2/5, 2/5 }
+t "" 19 "T_R_H_Reject" { 0, 0 }
+p "" 1 10 "" { "Accept" "Reject" } 0
+t "" 20 "T_R_T_Accept" { 3/5, 1/5 }
+t "" 21 "T_R_T_Reject" { 0, 0 }

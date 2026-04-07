@@ -1,0 +1,35 @@
+V2 — Film Rights Deal
+
+A screenwriter and a studio are bargaining over the revenue split for a script.
+
+In stage 1, the screenwriter proposes a split:
+the writer asks for 1/4, 1/2, or 3/4 of the rights value.
+
+The studio then chooses whether to Accept (A) or Reject (R).
+
+If the studio accepts in stage 1, the deal ends immediately.
+
+If the writer asks for 1/4 and the studio accepts, the result is 1/4 for the writer
+and 3/4 for the studio.
+
+If the writer asks for 1/2 and the studio accepts, the result is 1/2 for each side.
+
+If the writer asks for 3/4 and the studio accepts, the result is 3/4 for the writer
+and 1/4 for the studio.
+
+If the studio rejects, the bargaining moves to stage 2.
+
+In stage 2, the studio makes the offer instead.
+The studio can offer the writer 1/4, 1/2, or 3/4 of the rights value.
+
+The writer then chooses whether to Accept (A) or Reject (R).
+
+Because this is a delayed deal, accepted stage 2 payoffs are discounted by ρ = 4/5.
+
+So an accepted 1/4 offer gives 1/5 to the writer and 3/5 to the studio.
+
+An accepted 1/2 offer gives 2/5 to each side.
+
+An accepted 3/4 offer gives 3/5 to the writer and 1/5 to the studio.
+
+If the writer rejects in stage 2, both sides get 0.

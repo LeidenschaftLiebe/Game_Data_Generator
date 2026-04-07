@@ -1,0 +1,35 @@
+V4 — Sponsorship Agreement
+
+A creator and a sponsor are bargaining over the revenue split from a campaign.
+
+In stage 1, the creator proposes a split:
+the creator asks for 1/4, 1/2, or 3/4 of the campaign value.
+
+The sponsor then chooses whether to Accept (A) or Reject (R).
+
+If the sponsor accepts in stage 1, the agreement ends there.
+
+If the creator asks for 1/4 and the sponsor accepts, the result is 1/4 for the creator
+and 3/4 for the sponsor.
+
+If the creator asks for 1/2 and the sponsor accepts, the result is 1/2 for each side.
+
+If the creator asks for 3/4 and the sponsor accepts, the result is 3/4 for the creator
+and 1/4 for the sponsor.
+
+If the sponsor rejects, the discussion moves to stage 2.
+
+In stage 2, the sponsor makes the offer instead.
+The sponsor can offer the creator 1/4, 1/2, or 3/4 of the campaign value.
+
+The creator then chooses whether to Accept (A) or Reject (R).
+
+Because the deal is delayed, accepted stage 2 outcomes are discounted by ρ = 4/5.
+
+So an accepted 1/4 offer gives 1/5 to the creator and 3/5 to the sponsor.
+
+An accepted 1/2 offer gives 2/5 to each side.
+
+An accepted 3/4 offer gives 3/5 to the creator and 1/5 to the sponsor.
+
+If the creator rejects in stage 2, both sides get 0.

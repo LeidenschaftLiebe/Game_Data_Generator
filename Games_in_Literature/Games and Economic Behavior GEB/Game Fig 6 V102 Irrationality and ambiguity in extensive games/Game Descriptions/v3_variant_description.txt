@@ -1,0 +1,35 @@
+V3 — Trade Contract
+
+A supplier and a retailer are bargaining over the margin on a supply contract.
+
+In stage 1, the supplier proposes a margin split:
+the supplier asks for 1/4, 1/2, or 3/4 of the surplus.
+
+The retailer then chooses whether to Accept (A) or Reject (R).
+
+If the retailer accepts in stage 1, the contract is fixed immediately.
+
+If the supplier asks for 1/4 and the retailer accepts, the result is 1/4 for the supplier
+and 3/4 for the retailer.
+
+If the supplier asks for 1/2 and the retailer accepts, the result is 1/2 for each side.
+
+If the supplier asks for 3/4 and the retailer accepts, the result is 3/4 for the supplier
+and 1/4 for the retailer.
+
+If the retailer rejects, the bargaining continues to stage 2.
+
+In stage 2, the retailer makes the next offer.
+The retailer can offer the supplier 1/4, 1/2, or 3/4 of the surplus.
+
+The supplier then chooses whether to Accept (A) or Reject (R).
+
+Any agreement reached in stage 2 is discounted by ρ = 4/5.
+
+So an accepted 1/4 offer gives 1/5 to the supplier and 3/5 to the retailer.
+
+An accepted 1/2 offer gives 2/5 to each side.
+
+An accepted 3/4 offer gives 3/5 to the supplier and 1/5 to the retailer.
+
+If the supplier rejects in stage 2, both sides get 0.

@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+1) Check the move order across both stages: Player 1 moves first in stage 1; 
+if Player 2 rejects, stage 2 starts with Player 2 making an offer and Player 1 responding.
+2) Check the anchor payoff: the outcome after stage 1 rejection and then ThreeQuarters -> Accept in stage 2 is (3/5, 1/5).

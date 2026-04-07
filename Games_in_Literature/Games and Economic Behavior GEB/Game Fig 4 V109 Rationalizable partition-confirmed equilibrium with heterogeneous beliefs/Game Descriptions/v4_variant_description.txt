@@ -1,0 +1,33 @@
+V4 — Medical Referral
+
+There are four people in a medical referral chain.
+
+Doctor 1 moves first and chooses between DoNotRefer (Out1) and ReferCase (In1).
+
+If Doctor 1 chooses DoNotRefer (Out1), the interaction ends with reward 0 to all four.
+
+If Doctor 1 chooses ReferCase (In1), Coordinator 2 moves and chooses between
+StopReferral (Out2) and AdvanceReferral (In2).
+
+If Coordinator 2 chooses StopReferral (Out2), the interaction ends with reward -1 to Doctor 1
+and reward 0 to the others.
+
+If Coordinator 2 chooses AdvanceReferral (In2), Specialist 3 moves and chooses between
+Prioritize (L3) and Delay (R3).
+
+Approver 4 then moves without knowing whether Specialist 3 chose Prioritize (L3)
+or Delay (R3).
+
+Approver 4 chooses between Authorize (L4) and Refuse (R4).
+
+If the path is ReferCase (In1), AdvanceReferral (In2), Prioritize (L3), Authorize (L4),
+each player receives reward 1.
+
+If the path is ReferCase (In1), AdvanceReferral (In2), Prioritize (L3), Refuse (R4),
+Doctor 1 gets 1, Coordinator 2 gets -5, and Players 3 and 4 get 0.
+
+If the path is ReferCase (In1), AdvanceReferral (In2), Delay (R3), Authorize (L4),
+Doctor 1 gets 1, Coordinator 2 gets -5, and Players 3 and 4 get 0.
+
+If the path is ReferCase (In1), AdvanceReferral (In2), Delay (R3), Refuse (R4),
+Doctor 1 gets 1, Coordinator 2 gets -5, while Players 3 and 4 each get 1.

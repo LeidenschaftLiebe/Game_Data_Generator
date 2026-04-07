@@ -1,0 +1,33 @@
+V3 — Film Festival Selection
+
+There are four people involved in a festival selection chain.
+
+Producer 1 moves first and chooses between Withdraw (Out1) and Submit (In1).
+
+If Producer 1 chooses Withdraw (Out1), the process ends immediately and all four receive reward 0.
+
+If Producer 1 chooses Submit (In1), Screener 2 moves next and chooses between
+RejectEarly (Out2) and PassToPanel (In2).
+
+If Screener 2 chooses RejectEarly (Out2), the outcome gives reward -1 to Producer 1
+and reward 0 to the others.
+
+If Screener 2 chooses PassToPanel (In2), Reviewer 3 moves and chooses between
+SupportFilm (L3) and HoldSupport (R3).
+
+Judge 4 then moves, but cannot observe whether Reviewer 3 chose SupportFilm (L3)
+or HoldSupport (R3).
+
+Judge 4 chooses between Select (L4) and Decline (R4).
+
+If the path is Submit (In1), PassToPanel (In2), SupportFilm (L3), Select (L4),
+each player receives reward 1.
+
+If the path is Submit (In1), PassToPanel (In2), SupportFilm (L3), Decline (R4),
+Producer 1 gets 1, Screener 2 gets -5, and Players 3 and 4 get 0.
+
+If the path is Submit (In1), PassToPanel (In2), HoldSupport (R3), Select (L4),
+Producer 1 gets 1, Screener 2 gets -5, and Players 3 and 4 get 0.
+
+If the path is Submit (In1), PassToPanel (In2), HoldSupport (R3), Decline (R4),
+Producer 1 gets 1, Screener 2 gets -5, and Players 3 and 4 each get 1.

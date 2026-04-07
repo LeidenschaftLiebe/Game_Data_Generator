@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 4 Inference Example V0" { "Player 1" "Player 2" "Player 3" "Player 4" }
+""
+
+p "" 1 1 "" { "Out1" "In1" } 0
+t "" 1 "Out1" { 0, 0, 0, 0 }
+p "" 2 1 "" { "Out2" "In2" } 0
+t "" 2 "In1_Out2" { -1, 0, 0, 0 }
+p "" 3 1 "" { "L3" "R3" } 0
+p "" 4 1 "" { "L4" "R4" } 0
+t "" 3 "In1_In2_L3_L4" { 1, 1, 1, 1 }
+t "" 4 "In1_In2_L3_R4" { 1, -5, 0, 0 }
+p "" 4 1 "" { "L4" "R4" } 0
+t "" 5 "In1_In2_R3_L4" { 1, -5, 0, 0 }
+t "" 6 "In1_In2_R3_R4" { 1, -5, 1, 1 }

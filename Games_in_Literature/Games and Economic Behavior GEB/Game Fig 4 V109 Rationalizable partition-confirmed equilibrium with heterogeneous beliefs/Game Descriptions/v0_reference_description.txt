@@ -1,0 +1,31 @@
+V0 — Inference example
+
+There are four players.
+
+Player 1 moves first and chooses between Out1 and In1.
+
+If Player 1 chooses Out1, the interaction ends immediately.
+All four players receive reward 0.
+
+If Player 1 chooses In1, Player 2 moves next and chooses between Out2 and In2.
+
+If Player 2 chooses Out2, the interaction ends there.
+Player 1 receives reward -1, and Players 2, 3, and 4 each receive reward 0.
+
+If Player 2 chooses In2, Player 3 moves next and chooses between L3 and R3.
+
+After that, Player 4 moves last.
+Player 4 does not know whether Player 3 chose L3 or R3.
+
+At Player 4’s move, the available actions are L4 and R4.
+
+If the path is In1, In2, L3, L4, the outcome gives reward 1 to each of the four players.
+
+If the path is In1, In2, L3, R4, the outcome gives reward 1 to Player 1,
+reward -5 to Player 2, reward 0 to Player 3, and reward 0 to Player 4.
+
+If the path is In1, In2, R3, L4, the outcome gives reward 1 to Player 1,
+reward -5 to Player 2, reward 0 to Player 3, and reward 0 to Player 4.
+
+If the path is In1, In2, R3, R4, the outcome gives reward 1 to Player 1,
+reward -5 to Player 2, reward 1 to Player 3, and reward 1 to Player 4.

@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 4 Film Festival V3" { "Producer 1" "Screener 2" "Reviewer 3" "Judge 4" }
+""
+
+p "" 1 1 "" { "Withdraw" "Submit" } 0
+t "" 1 "Withdraw" { 0, 0, 0, 0 }
+p "" 2 1 "" { "RejectEarly" "PassToPanel" } 0
+t "" 2 "Submit_RejectEarly" { -1, 0, 0, 0 }
+p "" 3 1 "" { "SupportFilm" "HoldSupport" } 0
+p "" 4 1 "" { "Select" "Decline" } 0
+t "" 3 "Submit_PassToPanel_SupportFilm_Select" { 1, 1, 1, 1 }
+t "" 4 "Submit_PassToPanel_SupportFilm_Decline" { 1, -5, 0, 0 }
+p "" 4 1 "" { "Select" "Decline" } 0
+t "" 5 "Submit_PassToPanel_HoldSupport_Select" { 1, -5, 0, 0 }
+t "" 6 "Submit_PassToPanel_HoldSupport_Decline" { 1, -5, 1, 1 }

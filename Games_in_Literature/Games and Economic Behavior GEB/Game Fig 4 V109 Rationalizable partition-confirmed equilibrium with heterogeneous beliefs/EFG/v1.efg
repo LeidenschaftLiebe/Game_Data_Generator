@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 4 Venture Screening V1" { "Investor 1" "Partner 2" "Analyst 3" "Committee Member 4" }
+""
+
+p "" 1 1 "" { "PassDeal" "OpenReview" } 0
+t "" 1 "PassDeal" { 0, 0, 0, 0 }
+p "" 2 1 "" { "DropCase" "SendAhead" } 0
+t "" 2 "OpenReview_DropCase" { -1, 0, 0, 0 }
+p "" 3 1 "" { "Recommend" "RejectInternally" } 0
+p "" 4 1 "" { "Approve" "Block" } 0
+t "" 3 "OpenReview_SendAhead_Recommend_Approve" { 1, 1, 1, 1 }
+t "" 4 "OpenReview_SendAhead_Recommend_Block" { 1, -5, 0, 0 }
+p "" 4 1 "" { "Approve" "Block" } 0
+t "" 5 "OpenReview_SendAhead_RejectInternally_Approve" { 1, -5, 0, 0 }
+t "" 6 "OpenReview_SendAhead_RejectInternally_Block" { 1, -5, 1, 1 }

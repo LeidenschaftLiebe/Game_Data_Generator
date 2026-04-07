@@ -1,0 +1,33 @@
+V5 — Record Label Decision
+
+There are four people in a music release decision.
+
+Artist Manager 1 moves first and chooses between HoldBack (Out1) and SendDemo (In1).
+
+If Artist Manager 1 chooses HoldBack (Out1), the process ends with reward 0 to all four.
+
+If Artist Manager 1 chooses SendDemo (In1), A&R Lead 2 moves and chooses between
+PassOnDemo (Out2) and MoveForward (In2).
+
+If A&R Lead 2 chooses PassOnDemo (Out2), the process ends with reward -1 to Artist Manager 1
+and reward 0 to the other three.
+
+If A&R Lead 2 chooses MoveForward (In2), Producer 3 moves and chooses between
+BackTrack (L3) and StayNeutral (R3).
+
+Executive 4 then makes the last choice, but cannot observe whether Producer 3 chose
+BackTrack (L3) or StayNeutral (R3).
+
+Executive 4 chooses between Release (L4) and Shelve (R4).
+
+If the path is SendDemo (In1), MoveForward (In2), BackTrack (L3), Release (L4),
+all four players receive reward 1.
+
+If the path is SendDemo (In1), MoveForward (In2), BackTrack (L3), Shelve (R4),
+Player 1 gets 1, Player 2 gets -5, and Players 3 and 4 get 0.
+
+If the path is SendDemo (In1), MoveForward (In2), StayNeutral (R3), Release (L4),
+Player 1 gets 1, Player 2 gets -5, and Players 3 and 4 get 0.
+
+If the path is SendDemo (In1), MoveForward (In2), StayNeutral (R3), Shelve (R4),
+Player 1 gets 1, Player 2 gets -5, and Players 3 and 4 each get 1.

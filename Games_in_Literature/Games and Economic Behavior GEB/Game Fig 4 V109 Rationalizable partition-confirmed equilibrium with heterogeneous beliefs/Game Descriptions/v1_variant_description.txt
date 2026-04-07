@@ -1,0 +1,33 @@
+V1 — Venture Screening
+
+There are four people in a startup screening process.
+
+Investor 1 moves first and chooses between PassDeal (Out1) and OpenReview (In1).
+
+If Investor 1 chooses PassDeal (Out1), the process ends immediately.
+All four people receive reward 0.
+
+If Investor 1 chooses OpenReview (In1), Partner 2 moves next and chooses between
+DropCase (Out2) and SendAhead (In2).
+
+If Partner 2 chooses DropCase (Out2), the process ends with reward -1 to Investor 1
+and reward 0 to the other three.
+
+If Partner 2 chooses SendAhead (In2), Analyst 3 moves and chooses between
+Recommend (L3) and RejectInternally (R3).
+
+Committee Member 4 then moves last, but cannot tell which of Analyst 3’s two actions was taken.
+
+Committee Member 4 chooses between Approve (L4) and Block (R4).
+
+If the path is OpenReview (In1), SendAhead (In2), Recommend (L3), Approve (L4),
+each of the four receives reward 1.
+
+If the path is OpenReview (In1), SendAhead (In2), Recommend (L3), Block (R4),
+Investor 1 gets 1, Partner 2 gets -5, and the last two get 0.
+
+If the path is OpenReview (In1), SendAhead (In2), RejectInternally (R3), Approve (L4),
+Investor 1 gets 1, Partner 2 gets -5, and the last two get 0.
+
+If the path is OpenReview (In1), SendAhead (In2), RejectInternally (R3), Block (R4),
+Investor 1 gets 1, Partner 2 gets -5, and Players 3 and 4 each get 1.

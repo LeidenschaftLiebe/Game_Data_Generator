@@ -1,0 +1,33 @@
+V2 — Security Escalation
+
+There are four people in a cyber incident process.
+
+Supervisor 1 moves first and chooses between DoNothing (Out1) and Escalate (In1).
+
+If Supervisor 1 chooses DoNothing (Out1), the process ends and all four receive reward 0.
+
+If Supervisor 1 chooses Escalate (In1), Officer 2 moves and chooses between
+CloseTicket (Out2) and ForwardCase (In2).
+
+If Officer 2 chooses CloseTicket (Out2), the process ends with reward -1 to Supervisor 1
+and 0 to everyone else.
+
+If Officer 2 chooses ForwardCase (In2), Specialist 3 moves and chooses between
+PatchNow (L3) and HoldPatch (R3).
+
+Auditor 4 then moves without knowing whether Specialist 3 chose PatchNow (L3)
+or HoldPatch (R3).
+
+Auditor 4 chooses between SignOff (L4) and FlagIssue (R4).
+
+If the path is Escalate (In1), ForwardCase (In2), PatchNow (L3), SignOff (L4),
+each player receives reward 1.
+
+If the path is Escalate (In1), ForwardCase (In2), PatchNow (L3), FlagIssue (R4),
+Supervisor 1 gets 1, Officer 2 gets -5, and Players 3 and 4 get 0.
+
+If the path is Escalate (In1), ForwardCase (In2), HoldPatch (R3), SignOff (L4),
+Supervisor 1 gets 1, Officer 2 gets -5, and Players 3 and 4 get 0.
+
+If the path is Escalate (In1), ForwardCase (In2), HoldPatch (R3), FlagIssue (R4),
+Supervisor 1 gets 1, Officer 2 gets -5, while Players 3 and 4 each get 1.

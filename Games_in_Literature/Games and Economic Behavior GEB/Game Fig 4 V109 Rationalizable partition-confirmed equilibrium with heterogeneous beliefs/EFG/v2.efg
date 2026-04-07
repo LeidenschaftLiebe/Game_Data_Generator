@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 4 Security Escalation V2" { "Supervisor 1" "Officer 2" "Specialist 3" "Auditor 4" }
+""
+
+p "" 1 1 "" { "DoNothing" "Escalate" } 0
+t "" 1 "DoNothing" { 0, 0, 0, 0 }
+p "" 2 1 "" { "CloseTicket" "ForwardCase" } 0
+t "" 2 "Escalate_CloseTicket" { -1, 0, 0, 0 }
+p "" 3 1 "" { "PatchNow" "HoldPatch" } 0
+p "" 4 1 "" { "SignOff" "FlagIssue" } 0
+t "" 3 "Escalate_ForwardCase_PatchNow_SignOff" { 1, 1, 1, 1 }
+t "" 4 "Escalate_ForwardCase_PatchNow_FlagIssue" { 1, -5, 0, 0 }
+p "" 4 1 "" { "SignOff" "FlagIssue" } 0
+t "" 5 "Escalate_ForwardCase_HoldPatch_SignOff" { 1, -5, 0, 0 }
+t "" 6 "Escalate_ForwardCase_HoldPatch_FlagIssue" { 1, -5, 1, 1 }

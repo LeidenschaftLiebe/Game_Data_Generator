@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 4 Record Label V5" { "Artist Manager 1" "A&R Lead 2" "Producer 3" "Executive 4" }
+""
+
+p "" 1 1 "" { "HoldBack" "SendDemo" } 0
+t "" 1 "HoldBack" { 0, 0, 0, 0 }
+p "" 2 1 "" { "PassOnDemo" "MoveForward" } 0
+t "" 2 "SendDemo_PassOnDemo" { -1, 0, 0, 0 }
+p "" 3 1 "" { "BackTrack" "StayNeutral" } 0
+p "" 4 1 "" { "Release" "Shelve" } 0
+t "" 3 "SendDemo_MoveForward_BackTrack_Release" { 1, 1, 1, 1 }
+t "" 4 "SendDemo_MoveForward_BackTrack_Shelve" { 1, -5, 0, 0 }
+p "" 4 1 "" { "Release" "Shelve" } 0
+t "" 5 "SendDemo_MoveForward_StayNeutral_Release" { 1, -5, 0, 0 }
+t "" 6 "SendDemo_MoveForward_StayNeutral_Shelve" { 1, -5, 1, 1 }

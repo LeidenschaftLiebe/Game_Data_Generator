@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 4 Medical Referral V4" { "Doctor 1" "Coordinator 2" "Specialist 3" "Approver 4" }
+""
+
+p "" 1 1 "" { "DoNotRefer" "ReferCase" } 0
+t "" 1 "DoNotRefer" { 0, 0, 0, 0 }
+p "" 2 1 "" { "StopReferral" "AdvanceReferral" } 0
+t "" 2 "ReferCase_StopReferral" { -1, 0, 0, 0 }
+p "" 3 1 "" { "Prioritize" "Delay" } 0
+p "" 4 1 "" { "Authorize" "Refuse" } 0
+t "" 3 "ReferCase_AdvanceReferral_Prioritize_Authorize" { 1, 1, 1, 1 }
+t "" 4 "ReferCase_AdvanceReferral_Prioritize_Refuse" { 1, -5, 0, 0 }
+p "" 4 1 "" { "Authorize" "Refuse" } 0
+t "" 5 "ReferCase_AdvanceReferral_Delay_Authorize" { 1, -5, 0, 0 }
+t "" 6 "ReferCase_AdvanceReferral_Delay_Refuse" { 1, -5, 1, 1 }

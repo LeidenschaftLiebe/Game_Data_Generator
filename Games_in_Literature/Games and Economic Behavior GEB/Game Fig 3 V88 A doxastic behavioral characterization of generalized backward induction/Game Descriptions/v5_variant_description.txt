@@ -1,0 +1,24 @@
+V5 — Transfer Planning
+
+A club is deciding whether to end a player search or carry it forward.
+The club moves first and chooses between Continue Search (a₁) and End Search (b₁).
+
+If the club chooses End Search (b₁), the process ends immediately with reward 2 to the club,
+reward 2 to the sporting director, and reward 0 to the scout.
+
+If the club chooses Continue Search (a₁), the sporting director moves next and chooses between
+Domestic Route (a₂) and International Route (b₂).
+
+If the sporting director chooses Domestic Route (a₂), the scout chooses between
+Shortlist One (a₃) and Push Top Target (b₃).
+If Shortlist One (a₃) is chosen, the outcome gives reward 1 to the club,
+reward 1 to the sporting director, and reward 0 to the scout.
+If Push Top Target (b₃) is chosen, the outcome gives reward 3 to the club,
+reward 3 to the sporting director, and reward 1 to the scout.
+
+If the sporting director chooses International Route (b₂), the scout chooses between
+Balanced Search (c₃) and All-In Search (d₃).
+If Balanced Search (c₃) is chosen, the outcome gives reward 1 to the club,
+reward 2 to the sporting director, and reward 1 to the scout.
+If All-In Search (d₃) is chosen, the outcome gives reward 4 to the club,
+reward 0 to the sporting director, and reward 0 to the scout.

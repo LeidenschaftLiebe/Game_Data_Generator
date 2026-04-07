@@ -1,0 +1,24 @@
+V1 — Product Pipeline
+
+A company is deciding whether to stop a product plan or send it down an internal review path.
+The company moves first and chooses between Internal Review (a₁) and Cancel Plan (b₁).
+
+If the company chooses Cancel Plan (b₁), the process ends immediately with reward 2 to the company,
+reward 2 to the operations lead, and reward 0 to the technical advisor.
+
+If the company chooses Internal Review (a₁), the operations lead moves next and chooses between
+Team Review (a₂) and Expert Review (b₂).
+
+If the operations lead chooses Team Review (a₂), the technical advisor chooses between
+Approve Early (a₃) and Push Harder (b₃).
+If Approve Early (a₃) is chosen, the outcome gives reward 1 to the company,
+reward 1 to the operations lead, and reward 0 to the advisor.
+If Push Harder (b₃) is chosen, the outcome gives reward 3 to the company,
+reward 3 to the operations lead, and reward 1 to the advisor.
+
+If the operations lead chooses Expert Review (b₂), the technical advisor chooses between
+Limited Greenlight (c₃) and Full Greenlight (d₃).
+If Limited Greenlight (c₃) is chosen, the outcome gives reward 1 to the company,
+reward 2 to the operations lead, and reward 1 to the advisor.
+If Full Greenlight (d₃) is chosen, the outcome gives reward 4 to the company,
+reward 0 to the operations lead, and reward 0 to the advisor.

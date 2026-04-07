@@ -1,0 +1,21 @@
+V0 — Perfect-Information Example
+
+There are three players.
+Player 1 moves first and chooses between a₁ and b₁.
+
+If Player 1 chooses b₁, the game ends immediately with reward 2 to Player 1,
+reward 2 to Player 2, and reward 0 to Player 3.
+
+If Player 1 chooses a₁, Player 2 moves next and chooses between a₂ and b₂.
+
+If Player 2 chooses a₂, Player 3 moves next and chooses between a₃ and b₃.
+If Player 3 chooses a₃, the outcome gives reward 1 to Player 1, reward 1 to Player 2,
+and reward 0 to Player 3.
+If Player 3 chooses b₃, the outcome gives reward 3 to Player 1, reward 3 to Player 2,
+and reward 1 to Player 3.
+
+If Player 2 chooses b₂, Player 3 moves next and chooses between c₃ and d₃.
+If Player 3 chooses c₃, the outcome gives reward 1 to Player 1, reward 2 to Player 2,
+and reward 1 to Player 3.
+If Player 3 chooses d₃, the outcome gives reward 4 to Player 1, reward 0 to Player 2,
+and reward 0 to Player 3.

@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 3 Medical Referral V2" { "Lead Doctor" "Department Head" "Specialist" }
+""
+
+p "" 1 1 "" { "ReferForward" "CloseCase" } 0
+p "" 2 1 "" { "RoutinePath" "SpecialistPath" } 0
+p "" 3 1 "" { "BasicTreatment" "EnhancedTreatment" } 0
+t "" 2 "ReferForward_RoutinePath_BasicTreatment" { 1, 1, 0 }
+t "" 3 "ReferForward_RoutinePath_EnhancedTreatment" { 3, 3, 1 }
+p "" 3 2 "" { "ModeratePlan" "AggressivePlan" } 0
+t "" 4 "ReferForward_SpecialistPath_ModeratePlan" { 1, 2, 1 }
+t "" 5 "ReferForward_SpecialistPath_AggressivePlan" { 4, 0, 0 }
+t "" 1 "CloseCase" { 2, 2, 0 }

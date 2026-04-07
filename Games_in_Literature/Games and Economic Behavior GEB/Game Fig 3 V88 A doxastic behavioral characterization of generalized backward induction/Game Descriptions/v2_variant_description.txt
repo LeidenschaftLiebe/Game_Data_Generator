@@ -1,0 +1,24 @@
+V2 — Medical Referral
+
+A lead doctor is deciding whether to close a case quickly or send it through more review.
+The lead doctor moves first and chooses between Refer Forward (a₁) and Close Case (b₁).
+
+If the lead doctor chooses Close Case (b₁), the case ends immediately with reward 2 to the doctor,
+reward 2 to the department head, and reward 0 to the specialist.
+
+If the lead doctor chooses Refer Forward (a₁), the department head moves next and chooses between
+Routine Path (a₂) and Specialist Path (b₂).
+
+If the department head chooses Routine Path (a₂), the specialist chooses between
+Basic Treatment (a₃) and Enhanced Treatment (b₃).
+If Basic Treatment (a₃) is chosen, the outcome gives reward 1 to the doctor,
+reward 1 to the department head, and reward 0 to the specialist.
+If Enhanced Treatment (b₃) is chosen, the outcome gives reward 3 to the doctor,
+reward 3 to the department head, and reward 1 to the specialist.
+
+If the department head chooses Specialist Path (b₂), the specialist chooses between
+Moderate Plan (c₃) and Aggressive Plan (d₃).
+If Moderate Plan (c₃) is chosen, the outcome gives reward 1 to the doctor,
+reward 2 to the department head, and reward 1 to the specialist.
+If Aggressive Plan (d₃) is chosen, the outcome gives reward 4 to the doctor,
+reward 0 to the department head, and reward 0 to the specialist.

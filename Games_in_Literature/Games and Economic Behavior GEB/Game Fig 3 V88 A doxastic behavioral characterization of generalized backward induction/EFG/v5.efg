@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 3 Transfer Planning V5" { "Club" "Sporting Director" "Scout" }
+""
+
+p "" 1 1 "" { "ContinueSearch" "EndSearch" } 0
+p "" 2 1 "" { "DomesticRoute" "InternationalRoute" } 0
+p "" 3 1 "" { "ShortlistOne" "PushTopTarget" } 0
+t "" 2 "ContinueSearch_DomesticRoute_ShortlistOne" { 1, 1, 0 }
+t "" 3 "ContinueSearch_DomesticRoute_PushTopTarget" { 3, 3, 1 }
+p "" 3 2 "" { "BalancedSearch" "AllInSearch" } 0
+t "" 4 "ContinueSearch_InternationalRoute_BalancedSearch" { 1, 2, 1 }
+t "" 5 "ContinueSearch_InternationalRoute_AllInSearch" { 4, 0, 0 }
+t "" 1 "EndSearch" { 2, 2, 0 }

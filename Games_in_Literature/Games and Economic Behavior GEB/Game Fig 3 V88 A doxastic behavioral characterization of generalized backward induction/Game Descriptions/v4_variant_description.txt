@@ -1,0 +1,24 @@
+V4 — Cyber Escalation
+
+A firm is deciding whether to stop after a security alert or escalate the matter.
+The firm moves first and chooses between Escalate Case (a₁) and Stop Response (b₁).
+
+If the firm chooses Stop Response (b₁), the matter ends immediately with reward 2 to the firm,
+reward 2 to the compliance lead, and reward 0 to the outside analyst.
+
+If the firm chooses Escalate Case (a₁), the compliance lead moves next and chooses between
+Internal Track (a₂) and External Track (b₂).
+
+If the compliance lead chooses Internal Track (a₂), the outside analyst chooses between
+Minimal Check (a₃) and Detailed Check (b₃).
+If Minimal Check (a₃) is chosen, the outcome gives reward 1 to the firm,
+reward 1 to the compliance lead, and reward 0 to the analyst.
+If Detailed Check (b₃) is chosen, the outcome gives reward 3 to the firm,
+reward 3 to the compliance lead, and reward 1 to the analyst.
+
+If the compliance lead chooses External Track (b₂), the outside analyst chooses between
+Moderate Audit (c₃) and Full Audit (d₃).
+If Moderate Audit (c₃) is chosen, the outcome gives reward 1 to the firm,
+reward 2 to the compliance lead, and reward 1 to the analyst.
+If Full Audit (d₃) is chosen, the outcome gives reward 4 to the firm,
+reward 0 to the compliance lead, and reward 0 to the analyst.

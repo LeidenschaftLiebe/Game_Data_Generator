@@ -1,0 +1,24 @@
+V3 — Film Release
+
+A producer is deciding whether to shut down a film release idea or develop it further.
+The producer moves first and chooses between Develop Project (a₁) and Drop Project (b₁).
+
+If the producer chooses Drop Project (b₁), the campaign ends immediately with reward 2 to the producer,
+reward 2 to the distributor, and reward 0 to the marketing advisor.
+
+If the producer chooses Develop Project (a₁), the distributor moves next and chooses between
+Festival Route (a₂) and Commercial Route (b₂).
+
+If the distributor chooses Festival Route (a₂), the marketing advisor chooses between
+Quiet Campaign (a₃) and Strong Campaign (b₃).
+If Quiet Campaign (a₃) is chosen, the outcome gives reward 1 to the producer,
+reward 1 to the distributor, and reward 0 to the advisor.
+If Strong Campaign (b₃) is chosen, the outcome gives reward 3 to the producer,
+reward 3 to the distributor, and reward 1 to the advisor.
+
+If the distributor chooses Commercial Route (b₂), the marketing advisor chooses between
+Limited Push (c₃) and Wide Push (d₃).
+If Limited Push (c₃) is chosen, the outcome gives reward 1 to the producer,
+reward 2 to the distributor, and reward 1 to the advisor.
+If Wide Push (d₃) is chosen, the outcome gives reward 4 to the producer,
+reward 0 to the distributor, and reward 0 to the advisor.

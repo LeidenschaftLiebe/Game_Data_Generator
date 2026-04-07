@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 3 Film Release V3" { "Producer" "Distributor" "Marketing Advisor" }
+""
+
+p "" 1 1 "" { "DevelopProject" "DropProject" } 0
+p "" 2 1 "" { "FestivalRoute" "CommercialRoute" } 0
+p "" 3 1 "" { "QuietCampaign" "StrongCampaign" } 0
+t "" 2 "DevelopProject_FestivalRoute_QuietCampaign" { 1, 1, 0 }
+t "" 3 "DevelopProject_FestivalRoute_StrongCampaign" { 3, 3, 1 }
+p "" 3 2 "" { "LimitedPush" "WidePush" } 0
+t "" 4 "DevelopProject_CommercialRoute_LimitedPush" { 1, 2, 1 }
+t "" 5 "DevelopProject_CommercialRoute_WidePush" { 4, 0, 0 }
+t "" 1 "DropProject" { 2, 2, 0 }

@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 3 Product Pipeline V1" { "Company" "Operations Lead" "Technical Advisor" }
+""
+
+p "" 1 1 "" { "InternalReview" "CancelPlan" } 0
+p "" 2 1 "" { "TeamReview" "ExpertReview" } 0
+p "" 3 1 "" { "ApproveEarly" "PushHarder" } 0
+t "" 2 "InternalReview_TeamReview_ApproveEarly" { 1, 1, 0 }
+t "" 3 "InternalReview_TeamReview_PushHarder" { 3, 3, 1 }
+p "" 3 2 "" { "LimitedGreenlight" "FullGreenlight" } 0
+t "" 4 "InternalReview_ExpertReview_LimitedGreenlight" { 1, 2, 1 }
+t "" 5 "InternalReview_ExpertReview_FullGreenlight" { 4, 0, 0 }
+t "" 1 "CancelPlan" { 2, 2, 0 }

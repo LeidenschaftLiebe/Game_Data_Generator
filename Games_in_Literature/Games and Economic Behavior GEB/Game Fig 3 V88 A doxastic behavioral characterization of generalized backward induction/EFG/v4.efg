@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 3 Cyber Escalation V4" { "Firm" "Compliance Lead" "Outside Analyst" }
+""
+
+p "" 1 1 "" { "EscalateCase" "StopResponse" } 0
+p "" 2 1 "" { "InternalTrack" "ExternalTrack" } 0
+p "" 3 1 "" { "MinimalCheck" "DetailedCheck" } 0
+t "" 2 "EscalateCase_InternalTrack_MinimalCheck" { 1, 1, 0 }
+t "" 3 "EscalateCase_InternalTrack_DetailedCheck" { 3, 3, 1 }
+p "" 3 2 "" { "ModerateAudit" "FullAudit" } 0
+t "" 4 "EscalateCase_ExternalTrack_ModerateAudit" { 1, 2, 1 }
+t "" 5 "EscalateCase_ExternalTrack_FullAudit" { 4, 0, 0 }
+t "" 1 "StopResponse" { 2, 2, 0 }

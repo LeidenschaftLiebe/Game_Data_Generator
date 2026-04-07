@@ -1,0 +1,28 @@
+V3 — International trade project
+
+A country’s trade minister moves first.
+She can keep the plan domestic (A), and the process ends with reward 5 to each party.
+
+Or she can open the door to a regional trade arrangement (B) and let the next official respond.
+
+The regional negotiator then decides whether to block the plan (C) or move it ahead (D).
+
+Blocking it (C) gives reward 7 to the minister, reward 9 to the negotiator,
+and a loss of 3 to the local industry group.
+
+Moving it ahead (D) sends the decision back to the minister.
+
+The minister then chooses a narrow agreement (E) or a broader cooperative package (F).
+
+The narrow agreement (E) ends with reward 8 to the minister, reward 5 to the negotiator,
+and reward 0 to the local industry group.
+
+The broader package (F) gives the local industry group the final choice.
+
+The industry group can support the package (G) or resist it while seeking stronger protection (H).
+
+Support (G) leads to reward 11 to the minister, reward 11 to the negotiator,
+and reward 9 to the industry group.
+
+Resistance (H) leads to reward 2 to the minister, reward 7 to the negotiator,
+and reward 10 to the industry group.

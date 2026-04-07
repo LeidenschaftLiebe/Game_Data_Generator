@@ -1,0 +1,28 @@
+V2 — Film production deal
+
+A producer moves first.
+She can keep the film as a small in-house project (A), which ends with reward 5 to each of the three people.
+
+Or she can bring in an outside distributor (B) and let the negotiations continue.
+
+The distributor then decides whether to shut the deal down (C) or keep it alive (D).
+
+If the distributor shuts it down (C), the project ends with reward 7 to the producer,
+reward 9 to the distributor, and a loss of 3 to the lead actor.
+
+If the distributor keeps it alive (D), the producer chooses the next direction.
+
+She can go with a modest release (E) or a major awards campaign (F).
+
+A modest release (E) ends with reward 8 to the producer, reward 5 to the distributor,
+and reward 0 to the lead actor.
+
+A major awards campaign (F) gives the lead actor the last move.
+
+The lead actor can actively promote the film (G) or refuse the push and protect personal interests (H).
+
+If the lead actor promotes it (G), the result is reward 11 to the producer, reward 11 to the distributor,
+and reward 9 to the lead actor.
+
+If the lead actor refuses (H), the result is reward 2 to the producer, reward 7 to the distributor,
+and reward 10 to the lead actor.

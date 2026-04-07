@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 4 V3 International Trade Project" { "Trade Minister" "Regional Negotiator" "Industry Group" }
+""
+
+p "" 1 1 "" { "KeepDomestic" "OpenRegionalTalks" } 0
+t "" 1 "KeepDomestic" { 5, 5, 5 }
+p "" 2 1 "" { "BlockPlan" "MoveAhead" } 0
+t "" 2 "OpenRegionalTalks_BlockPlan" { 7, 9, -3 }
+p "" 1 2 "" { "NarrowAgreement" "BroadPackage" } 0
+t "" 3 "OpenRegionalTalks_MoveAhead_NarrowAgreement" { 8, 5, 0 }
+p "" 3 1 "" { "SupportPackage" "ResistPackage" } 0
+t "" 4 "OpenRegionalTalks_MoveAhead_BroadPackage_SupportPackage" { 11, 11, 9 }
+t "" 5 "OpenRegionalTalks_MoveAhead_BroadPackage_ResistPackage" { 2, 7, 10 }

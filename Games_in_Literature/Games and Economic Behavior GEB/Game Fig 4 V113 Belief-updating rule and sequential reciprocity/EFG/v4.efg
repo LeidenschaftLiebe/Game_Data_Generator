@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 4 V4 Charity Fundraising Campaign" { "Campaign Director" "Sponsor Liaison" "Beneficiary Organization" }
+""
+
+p "" 1 1 "" { "RunLocalFundraiser" "HandToLiaison" } 0
+t "" 1 "RunLocalFundraiser" { 5, 5, 5 }
+p "" 2 1 "" { "StopCampaign" "KeepMoving" } 0
+t "" 2 "HandToLiaison_StopCampaign" { 7, 9, -3 }
+p "" 1 2 "" { "StandardAppeal" "PublicCampaign" } 0
+t "" 3 "HandToLiaison_KeepMoving_StandardAppeal" { 8, 5, 0 }
+p "" 3 1 "" { "PubliclyEndorse" "KeepDistance" } 0
+t "" 4 "HandToLiaison_KeepMoving_PublicCampaign_PubliclyEndorse" { 11, 11, 9 }
+t "" 5 "HandToLiaison_KeepMoving_PublicCampaign_KeepDistance" { 2, 7, 10 }

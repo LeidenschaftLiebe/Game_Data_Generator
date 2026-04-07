@@ -1,0 +1,28 @@
+V5 — Space mission planning
+
+A mission commander moves first.
+She can stick with a safe standard mission (A), which ends with reward 5 to each team involved.
+
+Or she can pursue a more ambitious mission path (B) and send the next choice to the operations chief.
+
+The operations chief can cancel the advanced mission plan (C) or approve the next stage (D).
+
+Canceling it (C) gives reward 7 to the commander, reward 9 to the operations chief,
+and a loss of 3 to the science team.
+
+Approving the next stage (D) returns the choice to the commander.
+
+The commander can choose a restricted mission profile (E) or a bold deep-space attempt (F).
+
+The restricted profile (E) ends with reward 8 to the commander, reward 5 to the operations chief,
+and reward 0 to the science team.
+
+The deep-space attempt (F) gives the final choice to the science team.
+
+The science team can back the full mission (G) or redirect it toward their own preferred objective (H).
+
+Backing the full mission (G) leads to reward 11 to the commander, reward 11 to the operations chief,
+and reward 9 to the science team.
+
+Redirecting it (H) leads to reward 2 to the commander, reward 7 to the operations chief,
+and reward 10 to the science team.

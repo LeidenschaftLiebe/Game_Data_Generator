@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 4 V1 Startup Partnership" { "Founder" "Business Lead" "Community Partner" }
+""
+
+p "" 1 1 "" { "StayIndependent" "PursuePartnership" } 0
+t "" 1 "StayIndependent" { 5, 5, 5 }
+p "" 2 1 "" { "BlockDeal" "ApproveProcess" } 0
+t "" 2 "PursuePartnership_BlockDeal" { 7, 9, -3 }
+p "" 1 2 "" { "LimitedRollout" "FullLaunch" } 0
+t "" 3 "PursuePartnership_ApproveProcess_LimitedRollout" { 8, 5, 0 }
+p "" 3 1 "" { "FullyCommit" "StayCautious" } 0
+t "" 4 "PursuePartnership_ApproveProcess_FullLaunch_FullyCommit" { 11, 11, 9 }
+t "" 5 "PursuePartnership_ApproveProcess_FullLaunch_StayCautious" { 2, 7, 10 }

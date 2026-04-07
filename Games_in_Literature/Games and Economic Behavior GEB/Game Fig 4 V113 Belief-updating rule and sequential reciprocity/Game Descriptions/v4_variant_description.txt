@@ -1,0 +1,28 @@
+V4 — Charity fundraising campaign
+
+A campaign director moves first.
+She can run a simple local fundraiser (A), and the campaign ends with reward 5 to each participant.
+
+Or she can hand part of the process to a major sponsor liaison (B).
+
+The sponsor liaison can stop the broader campaign (C) or keep it moving (D).
+
+If he stops it (C), the result is reward 7 to the director, reward 9 to the liaison,
+and a loss of 3 to the beneficiary organization.
+
+If he keeps it moving (D), the director chooses again.
+
+She can launch a standard appeal (E) or a large public campaign (F).
+
+The standard appeal (E) ends with reward 8 to the director, reward 5 to the liaison,
+and reward 0 to the beneficiary organization.
+
+The large public campaign (F) lets the beneficiary organization make the final choice.
+
+The beneficiary organization can endorse the campaign publicly (G) or keep some distance (H).
+
+A public endorsement (G) leads to reward 11 to the director, reward 11 to the liaison,
+and reward 9 to the beneficiary organization.
+
+Keeping distance (H) leads to reward 2 to the director, reward 7 to the liaison,
+and reward 10 to the beneficiary organization.

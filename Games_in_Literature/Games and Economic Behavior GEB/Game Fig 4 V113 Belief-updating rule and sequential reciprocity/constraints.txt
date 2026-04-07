@@ -1,0 +1,8 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints
+
+Check the move order: Player 1 moves first; if Player 1 takes the continuation branch, Player 2 moves next;
+if Player 2 continues, Player 1 moves again; if Player 1 continues again, Player 3 moves last.
+Check the anchor payoff: the terminal outcome after the continuation path followed by B -> D -> F -> G is (11, 11, 9).

@@ -1,0 +1,26 @@
+V1 — Startup partnership
+
+A startup founder moves first.
+She can keep the company independent (A), which gives a steady result with reward 5 to each side involved.
+
+Or she can pursue a partnership route (B) and send the matter to the business development lead.
+
+The business development lead can block the deal (C).
+That outcome gives reward 7 to the founder, reward 9 to the business lead, and a loss of 3 to the community partner.
+
+He can also approve the process (D) and hand the next step back to the founder.
+
+The founder then chooses between a limited rollout (E) and a full launch with shared visibility (F).
+
+If she chooses the limited rollout (E), the result is reward 8 to the founder, reward 5 to the
+business lead, and reward 0 to the community partner.
+
+If she chooses the full launch (F), the community partner makes the final choice.
+
+The community partner can fully commit (G) or stay cautious (H).
+
+A full commitment (G) leads to reward 11 to the founder, reward 11 to the business lead,
+and reward 9 to the community partner.
+
+A cautious response (H) leads to reward 2 to the founder, reward 7 to the business lead,
+and reward 10 to the community partner.

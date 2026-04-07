@@ -1,0 +1,27 @@
+V0 — Delegation setting from the article
+
+Three people are involved in a delegation-style decision. Player 1 moves first.
+
+Player 1 can keep the matter simple by choosing A, and the interaction ends with reward 5 to each player.
+
+Or Player 1 can choose B and pass the situation forward to Player 2.
+
+If Player 2 then chooses C, the process stops there.
+It ends with reward 7 to Player 1, reward 9 to Player 2, and a loss of 3 to Player 3.
+
+If Player 2 instead chooses D, control returns to Player 1.
+
+At that point, Player 1 can choose E or F.
+
+If Player 1 chooses E, the interaction ends with reward 8 to Player 1, reward 5 to Player 2,
+and reward 0 to Player 3.
+
+If Player 1 chooses F, Player 3 gets the final say.
+
+Player 3 can then choose G or H.
+
+If Player 3 chooses G, the interaction ends with reward 11 to Player 1, reward 11 to Player 2,
+and reward 9 to Player 3.
+
+If Player 3 chooses H, the interaction ends with reward 2 to Player 1, reward 7 to Player 2,
+and reward 10 to Player 3.

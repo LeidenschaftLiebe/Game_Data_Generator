@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 4 V5 Space Mission Planning" { "Mission Commander" "Operations Chief" "Science Team" }
+""
+
+p "" 1 1 "" { "StandardMission" "AmbitiousMission" } 0
+t "" 1 "StandardMission" { 5, 5, 5 }
+p "" 2 1 "" { "CancelPlan" "ApproveStage" } 0
+t "" 2 "AmbitiousMission_CancelPlan" { 7, 9, -3 }
+p "" 1 2 "" { "RestrictedProfile" "DeepSpaceAttempt" } 0
+t "" 3 "AmbitiousMission_ApproveStage_RestrictedProfile" { 8, 5, 0 }
+p "" 3 1 "" { "BackMission" "RedirectMission" } 0
+t "" 4 "AmbitiousMission_ApproveStage_DeepSpaceAttempt_BackMission" { 11, 11, 9 }
+t "" 5 "AmbitiousMission_ApproveStage_DeepSpaceAttempt_RedirectMission" { 2, 7, 10 }

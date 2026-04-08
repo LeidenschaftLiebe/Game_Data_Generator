@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 3 Robotics Contract V5" { "Tech Firm" "Robotics Team" }
+""
+
+p "" 1 1 "" { "LowContract" "HighContract" } 0
+c "" 1 "" { "StablePower" 1/2 "GridDisruption" 1/2 } 0
+p "" 2 1 "" { "basic_effort" "high_effort" } 0
+t "" 1 "LowContract_StablePower_basic_effort" { 4, 4 }
+t "" 2 "LowContract_StablePower_high_effort" { 12, 3 }
+p "" 2 2 "" { "basic_effort" "high_effort" } 0
+t "" 3 "LowContract_GridDisruption_basic_effort" { 4, 2 }
+t "" 4 "LowContract_GridDisruption_high_effort" { 12, 1 }
+c "" 2 "" { "StablePower" 1/2 "GridDisruption" 1/2 } 0
+p "" 2 3 "" { "basic_effort" "high_effort" } 0
+t "" 5 "HighContract_StablePower_basic_effort" { 2, 6 }
+t "" 6 "HighContract_StablePower_high_effort" { 10, 5 }
+p "" 2 4 "" { "basic_effort" "high_effort" } 0
+t "" 7 "HighContract_GridDisruption_basic_effort" { 2, 4 }
+t "" 8 "HighContract_GridDisruption_high_effort" { 10, 3 }

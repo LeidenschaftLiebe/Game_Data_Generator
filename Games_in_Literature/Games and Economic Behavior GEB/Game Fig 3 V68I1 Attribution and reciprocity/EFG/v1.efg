@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 3 Shipping Contract V1" { "Shipping Firm" "Port Crew" }
+""
+
+p "" 1 1 "" { "LowBonus" "HighBonus" } 0
+c "" 1 "" { "ClearHarbor" 1/2 "StormDelay" 1/2 } 0
+p "" 2 1 "" { "standard_effort" "extra_effort" } 0
+t "" 1 "LowBonus_ClearHarbor_standard_effort" { 4, 4 }
+t "" 2 "LowBonus_ClearHarbor_extra_effort" { 12, 3 }
+p "" 2 2 "" { "standard_effort" "extra_effort" } 0
+t "" 3 "LowBonus_StormDelay_standard_effort" { 4, 2 }
+t "" 4 "LowBonus_StormDelay_extra_effort" { 12, 1 }
+c "" 2 "" { "ClearHarbor" 1/2 "StormDelay" 1/2 } 0
+p "" 2 3 "" { "standard_effort" "extra_effort" } 0
+t "" 5 "HighBonus_ClearHarbor_standard_effort" { 2, 6 }
+t "" 6 "HighBonus_ClearHarbor_extra_effort" { 10, 5 }
+p "" 2 4 "" { "standard_effort" "extra_effort" } 0
+t "" 7 "HighBonus_StormDelay_standard_effort" { 2, 4 }
+t "" 8 "HighBonus_StormDelay_extra_effort" { 10, 3 }

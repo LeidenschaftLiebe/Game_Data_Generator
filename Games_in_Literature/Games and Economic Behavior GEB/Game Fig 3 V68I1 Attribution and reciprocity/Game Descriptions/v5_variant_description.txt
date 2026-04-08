@@ -1,0 +1,28 @@
+V5 — Robotics Contract
+
+There are two sides, a Tech Firm and a Robotics Team.
+The Tech Firm first chooses between Low Contract (Low) and High Contract (High).
+
+After that, chance determines the operating conditions.
+With probability 1/2, there is Stable Power.
+With probability 1/2, there is Grid Disruption.
+
+If the Tech Firm chooses Low Contract (Low) and the conditions are Stable Power,
+the Robotics Team chooses between basic effort (low) and high effort (high).
+If the path is Low Contract (Low), Stable Power, basic effort (low), the outcome gives reward 4 to the Tech Firm and reward 4 to the Robotics Team.
+If the path is Low Contract (Low), Stable Power, high effort (high), the outcome gives reward 12 to the Tech Firm and reward 3 to the Robotics Team.
+
+If the Tech Firm chooses Low Contract (Low) and the conditions are Grid Disruption,
+the Robotics Team again chooses between basic effort (low) and high effort (high).
+If the path is Low Contract (Low), Grid Disruption, basic effort (low), the outcome gives reward 4 to the Tech Firm and reward 2 to the Robotics Team.
+If the path is Low Contract (Low), Grid Disruption, high effort (high), the outcome gives reward 12 to the Tech Firm and reward 1 to the Robotics Team.
+
+If the Tech Firm chooses High Contract (High) and the conditions are Stable Power,
+the Robotics Team chooses between basic effort (low) and high effort (high).
+If the path is High Contract (High), Stable Power, basic effort (low), the outcome gives reward 2 to the Tech Firm and reward 6 to the Robotics Team.
+If the path is High Contract (High), Stable Power, high effort (high), the outcome gives reward 10 to the Tech Firm and reward 5 to the Robotics Team.
+
+If the Tech Firm chooses High Contract (High) and the conditions are Grid Disruption,
+the Robotics Team chooses between basic effort (low) and high effort (high).
+If the path is High Contract (High), Grid Disruption, basic effort (low), the outcome gives reward 2 to the Tech Firm and reward 4 to the Robotics Team.
+If the path is High Contract (High), Grid Disruption, high effort (high), the outcome gives reward 10 to the Tech Firm and reward 3 to the Robotics Team.

@@ -1,0 +1,28 @@
+V1 — Shipping Contract
+
+There are two sides, a Shipping Firm and a Port Crew.
+The Shipping Firm first chooses between Low Bonus (Low) and High Bonus (High).
+
+After that, chance determines the operating environment.
+With probability 1/2, there is Clear Harbor.
+With probability 1/2, there is Storm Delay.
+
+If the Shipping Firm chooses Low Bonus (Low) and the environment is Clear Harbor,
+the Port Crew chooses between standard effort (low) and extra effort (high).
+If the path is Low Bonus (Low), Clear Harbor, standard effort (low), the outcome gives reward 4 to the Shipping Firm and reward 4 to the Port Crew.
+If the path is Low Bonus (Low), Clear Harbor, extra effort (high), the outcome gives reward 12 to the Shipping Firm and reward 3 to the Port Crew.
+
+If the Shipping Firm chooses Low Bonus (Low) and the environment is Storm Delay,
+the Port Crew again chooses between standard effort (low) and extra effort (high).
+If the path is Low Bonus (Low), Storm Delay, standard effort (low), the outcome gives reward 4 to the Shipping Firm and reward 2 to the Port Crew.
+If the path is Low Bonus (Low), Storm Delay, extra effort (high), the outcome gives reward 12 to the Shipping Firm and reward 1 to the Port Crew.
+
+If the Shipping Firm chooses High Bonus (High) and the environment is Clear Harbor,
+the Port Crew chooses between standard effort (low) and extra effort (high).
+If the path is High Bonus (High), Clear Harbor, standard effort (low), the outcome gives reward 2 to the Shipping Firm and reward 6 to the Port Crew.
+If the path is High Bonus (High), Clear Harbor, extra effort (high), the outcome gives reward 10 to the Shipping Firm and reward 5 to the Port Crew.
+
+If the Shipping Firm chooses High Bonus (High) and the environment is Storm Delay,
+the Port Crew chooses between standard effort (low) and extra effort (high).
+If the path is High Bonus (High), Storm Delay, standard effort (low), the outcome gives reward 2 to the Shipping Firm and reward 4 to the Port Crew.
+If the path is High Bonus (High), Storm Delay, extra effort (high), the outcome gives reward 10 to the Shipping Firm and reward 3 to the Port Crew.

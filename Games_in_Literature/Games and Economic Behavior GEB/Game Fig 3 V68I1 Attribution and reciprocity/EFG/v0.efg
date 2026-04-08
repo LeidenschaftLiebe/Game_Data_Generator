@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 3 Gamma3 V0" { "Principal" "Agent" }
+""
+
+p "" 1 1 "" { "Low" "High" } 0
+c "" 1 "" { "NoInflation" 1/2 "Inflation" 1/2 } 0
+p "" 2 1 "" { "low" "high" } 0
+t "" 1 "Low_NoInflation_low" { 4, 4 }
+t "" 2 "Low_NoInflation_high" { 12, 3 }
+p "" 2 2 "" { "low" "high" } 0
+t "" 3 "Low_Inflation_low" { 4, 2 }
+t "" 4 "Low_Inflation_high" { 12, 1 }
+c "" 2 "" { "NoInflation" 1/2 "Inflation" 1/2 } 0
+p "" 2 3 "" { "low" "high" } 0
+t "" 5 "High_NoInflation_low" { 2, 6 }
+t "" 6 "High_NoInflation_high" { 10, 5 }
+p "" 2 4 "" { "low" "high" } 0
+t "" 7 "High_Inflation_low" { 2, 4 }
+t "" 8 "High_Inflation_high" { 10, 3 }

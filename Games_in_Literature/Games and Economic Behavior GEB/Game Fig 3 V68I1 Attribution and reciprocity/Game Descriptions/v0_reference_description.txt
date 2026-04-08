@@ -1,0 +1,24 @@
+V0 — Principal-Agent with Inflation
+
+There are two players, Principal and Agent.
+The Principal moves first and chooses between Low and High.
+
+After that, chance determines the economic condition.
+With probability 1/2, there is No-Inflation.
+With probability 1/2, there is Inflation.
+
+If the Principal chooses Low and the economy is No-Inflation, the Agent then chooses between low and high effort.
+If the path is Low, No-Inflation, low, the outcome gives reward 4 to the Principal and reward 4 to the Agent.
+If the path is Low, No-Inflation, high, the outcome gives reward 12 to the Principal and reward 3 to the Agent.
+
+If the Principal chooses Low and the economy is Inflation, the Agent again chooses between low and high effort.
+If the path is Low, Inflation, low, the outcome gives reward 4 to the Principal and reward 2 to the Agent.
+If the path is Low, Inflation, high, the outcome gives reward 12 to the Principal and reward 1 to the Agent.
+
+If the Principal chooses High and the economy is No-Inflation, the Agent chooses between low and high effort.
+If the path is High, No-Inflation, low, the outcome gives reward 2 to the Principal and reward 6 to the Agent.
+If the path is High, No-Inflation, high, the outcome gives reward 10 to the Principal and reward 5 to the Agent.
+
+If the Principal chooses High and the economy is Inflation, the Agent chooses between low and high effort.
+If the path is High, Inflation, low, the outcome gives reward 2 to the Principal and reward 4 to the Agent.
+If the path is High, Inflation, high, the outcome gives reward 10 to the Principal and reward 3 to the Agent.

@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 3 Film Production V2" { "Studio" "Production Team" }
+""
+
+p "" 1 1 "" { "LowBudget" "HighBudget" } 0
+c "" 1 "" { "SmoothSchedule" 1/2 "WeatherDelay" 1/2 } 0
+p "" 2 1 "" { "basic_effort" "intensive_effort" } 0
+t "" 1 "LowBudget_SmoothSchedule_basic_effort" { 4, 4 }
+t "" 2 "LowBudget_SmoothSchedule_intensive_effort" { 12, 3 }
+p "" 2 2 "" { "basic_effort" "intensive_effort" } 0
+t "" 3 "LowBudget_WeatherDelay_basic_effort" { 4, 2 }
+t "" 4 "LowBudget_WeatherDelay_intensive_effort" { 12, 1 }
+c "" 2 "" { "SmoothSchedule" 1/2 "WeatherDelay" 1/2 } 0
+p "" 2 3 "" { "basic_effort" "intensive_effort" } 0
+t "" 5 "HighBudget_SmoothSchedule_basic_effort" { 2, 6 }
+t "" 6 "HighBudget_SmoothSchedule_intensive_effort" { 10, 5 }
+p "" 2 4 "" { "basic_effort" "intensive_effort" } 0
+t "" 7 "HighBudget_WeatherDelay_basic_effort" { 2, 4 }
+t "" 8 "HighBudget_WeatherDelay_intensive_effort" { 10, 3 }

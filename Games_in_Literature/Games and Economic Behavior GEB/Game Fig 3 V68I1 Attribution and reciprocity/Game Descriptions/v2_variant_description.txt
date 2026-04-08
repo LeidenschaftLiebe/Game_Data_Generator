@@ -1,0 +1,28 @@
+V2 — Film Production
+
+There are two sides, a Studio and a Production Team.
+The Studio first chooses between Low Budget (Low) and High Budget (High).
+
+After that, chance determines the filming conditions.
+With probability 1/2, there is Smooth Schedule.
+With probability 1/2, there is Weather Delay.
+
+If the Studio chooses Low Budget (Low) and the conditions are Smooth Schedule,
+the Production Team chooses between basic effort (low) and intensive effort (high).
+If the path is Low Budget (Low), Smooth Schedule, basic effort (low), the outcome gives reward 4 to the Studio and reward 4 to the Production Team.
+If the path is Low Budget (Low), Smooth Schedule, intensive effort (high), the outcome gives reward 12 to the Studio and reward 3 to the Production Team.
+
+If the Studio chooses Low Budget (Low) and the conditions are Weather Delay,
+the Production Team again chooses between basic effort (low) and intensive effort (high).
+If the path is Low Budget (Low), Weather Delay, basic effort (low), the outcome gives reward 4 to the Studio and reward 2 to the Production Team.
+If the path is Low Budget (Low), Weather Delay, intensive effort (high), the outcome gives reward 12 to the Studio and reward 1 to the Production Team.
+
+If the Studio chooses High Budget (High) and the conditions are Smooth Schedule,
+the Production Team chooses between basic effort (low) and intensive effort (high).
+If the path is High Budget (High), Smooth Schedule, basic effort (low), the outcome gives reward 2 to the Studio and reward 6 to the Production Team.
+If the path is High Budget (High), Smooth Schedule, intensive effort (high), the outcome gives reward 10 to the Studio and reward 5 to the Production Team.
+
+If the Studio chooses High Budget (High) and the conditions are Weather Delay,
+the Production Team chooses between basic effort (low) and intensive effort (high).
+If the path is High Budget (High), Weather Delay, basic effort (low), the outcome gives reward 2 to the Studio and reward 4 to the Production Team.
+If the path is High Budget (High), Weather Delay, intensive effort (high), the outcome gives reward 10 to the Studio and reward 3 to the Production Team.

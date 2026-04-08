@@ -1,0 +1,36 @@
+V4 — Museum Restoration
+
+There are two sides, a Museum Board and a Restoration Team.
+The Museum Board first chooses between Low Funding (Low) and High Funding (High).
+
+After that, chance determines the restoration environment.
+With probability 1/2, there is Stable Condition.
+With probability 1/2, there is Unexpected Damage.
+
+If the Museum Board chooses Low Funding (Low) and the environment is Stable Condition,
+the Restoration Team chooses between basic effort (low) and intensive effort (high).
+If the path is Low Funding (Low), Stable Condition, basic effort (low), 
+the outcome gives reward 4 to the Museum Board and reward 4 to the Restoration Team.
+If the path is Low Funding (Low), Stable Condition, intensive effort (high), 
+the outcome gives reward 12 to the Museum Board and reward 3 to the Restoration Team.
+
+If the Museum Board chooses Low Funding (Low) and the environment is Unexpected Damage,
+the Restoration Team again chooses between basic effort (low) and intensive effort (high).
+If the path is Low Funding (Low), Unexpected Damage, basic effort (low), 
+the outcome gives reward 4 to the Museum Board and reward 2 to the Restoration Team.
+If the path is Low Funding (Low), Unexpected Damage, intensive effort (high), 
+the outcome gives reward 12 to the Museum Board and reward 1 to the Restoration Team.
+
+If the Museum Board chooses High Funding (High) and the environment is Stable Condition,
+the Restoration Team chooses between basic effort (low) and intensive effort (high).
+If the path is High Funding (High), Stable Condition, basic effort (low), 
+the outcome gives reward 2 to the Museum Board and reward 6 to the Restoration Team.
+If the path is High Funding (High), Stable Condition, intensive effort (high), 
+the outcome gives reward 10 to the Museum Board and reward 5 to the Restoration Team.
+
+If the Museum Board chooses High Funding (High) and the environment is Unexpected Damage,
+the Restoration Team chooses between basic effort (low) and intensive effort (high).
+If the path is High Funding (High), Unexpected Damage, basic effort (low), 
+the outcome gives reward 2 to the Museum Board and reward 4 to the Restoration Team.
+If the path is High Funding (High), Unexpected Damage, intensive effort (high), 
+the outcome gives reward 10 to the Museum Board and reward 3 to the Restoration Team.

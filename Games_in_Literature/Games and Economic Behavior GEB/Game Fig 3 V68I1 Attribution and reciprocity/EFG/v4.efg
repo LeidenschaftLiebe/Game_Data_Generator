@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 3 Museum Restoration V4" { "Museum Board" "Restoration Team" }
+""
+
+p "" 1 1 "" { "LowFunding" "HighFunding" } 0
+c "" 1 "" { "StableCondition" 1/2 "UnexpectedDamage" 1/2 } 0
+p "" 2 1 "" { "basic_effort" "intensive_effort" } 0
+t "" 1 "LowFunding_StableCondition_basic_effort" { 4, 4 }
+t "" 2 "LowFunding_StableCondition_intensive_effort" { 12, 3 }
+p "" 2 2 "" { "basic_effort" "intensive_effort" } 0
+t "" 3 "LowFunding_UnexpectedDamage_basic_effort" { 4, 2 }
+t "" 4 "LowFunding_UnexpectedDamage_intensive_effort" { 12, 1 }
+c "" 2 "" { "StableCondition" 1/2 "UnexpectedDamage" 1/2 } 0
+p "" 2 3 "" { "basic_effort" "intensive_effort" } 0
+t "" 5 "HighFunding_StableCondition_basic_effort" { 2, 6 }
+t "" 6 "HighFunding_StableCondition_intensive_effort" { 10, 5 }
+p "" 2 4 "" { "basic_effort" "intensive_effort" } 0
+t "" 7 "HighFunding_UnexpectedDamage_basic_effort" { 2, 4 }
+t "" 8 "HighFunding_UnexpectedDamage_intensive_effort" { 10, 3 }

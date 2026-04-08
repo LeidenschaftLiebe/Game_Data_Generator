@@ -1,0 +1,28 @@
+V3 — Harvest Season
+
+There are two sides, a Farm Owner and a Harvest Crew.
+The Farm Owner first chooses between Low Pay (Low) and High Pay (High).
+
+After that, chance determines the season conditions.
+With probability 1/2, there is Dry Weather.
+With probability 1/2, there is Heavy Rain.
+
+If the Farm Owner chooses Low Pay (Low) and the conditions are Dry Weather,
+the Harvest Crew chooses between basic effort (low) and high effort (high).
+If the path is Low Pay (Low), Dry Weather, basic effort (low), the outcome gives reward 4 to the Farm Owner and reward 4 to the Harvest Crew.
+If the path is Low Pay (Low), Dry Weather, high effort (high), the outcome gives reward 12 to the Farm Owner and reward 3 to the Harvest Crew.
+
+If the Farm Owner chooses Low Pay (Low) and the conditions are Heavy Rain,
+the Harvest Crew again chooses between basic effort (low) and high effort (high).
+If the path is Low Pay (Low), Heavy Rain, basic effort (low), the outcome gives reward 4 to the Farm Owner and reward 2 to the Harvest Crew.
+If the path is Low Pay (Low), Heavy Rain, high effort (high), the outcome gives reward 12 to the Farm Owner and reward 1 to the Harvest Crew.
+
+If the Farm Owner chooses High Pay (High) and the conditions are Dry Weather,
+the Harvest Crew chooses between basic effort (low) and high effort (high).
+If the path is High Pay (High), Dry Weather, basic effort (low), the outcome gives reward 2 to the Farm Owner and reward 6 to the Harvest Crew.
+If the path is High Pay (High), Dry Weather, high effort (high), the outcome gives reward 10 to the Farm Owner and reward 5 to the Harvest Crew.
+
+If the Farm Owner chooses High Pay (High) and the conditions are Heavy Rain,
+the Harvest Crew chooses between basic effort (low) and high effort (high).
+If the path is High Pay (High), Heavy Rain, basic effort (low), the outcome gives reward 2 to the Farm Owner and reward 4 to the Harvest Crew.
+If the path is High Pay (High), Heavy Rain, high effort (high), the outcome gives reward 10 to the Farm Owner and reward 3 to the Harvest Crew.

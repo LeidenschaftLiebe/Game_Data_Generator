@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Art Authentication V2" { "Art Dealer" "Buyer" }
+""
+
+c "" 1 "" { "ArchivePiece" 1/4 "CollectorPiece" 3/4 } 0
+p "" 1 1 "" { "LabelOne" "LabelTwo" } 0
+p "" 2 1 "" { "BidOptionA" "BidOptionB" } 0
+t "" 1 "ArchivePiece_LabelOne_BidOptionA" { 15, 10 }
+t "" 2 "ArchivePiece_LabelOne_BidOptionB" { 80, 80 }
+p "" 2 2 "" { "BidOptionA" "BidOptionB" } 0
+t "" 3 "ArchivePiece_LabelTwo_BidOptionA" { 25, 10 }
+t "" 4 "ArchivePiece_LabelTwo_BidOptionB" { 50, 50 }
+p "" 1 2 "" { "LabelOne" "LabelTwo" } 0
+p "" 2 1 "" { "BidOptionA" "BidOptionB" } 0
+t "" 5 "CollectorPiece_LabelOne_BidOptionA" { 80, 80 }
+t "" 6 "CollectorPiece_LabelOne_BidOptionB" { 15, 30 }
+p "" 2 2 "" { "BidOptionA" "BidOptionB" } 0
+t "" 7 "CollectorPiece_LabelTwo_BidOptionA" { 50, 50 }
+t "" 8 "CollectorPiece_LabelTwo_BidOptionB" { 25, 30 }

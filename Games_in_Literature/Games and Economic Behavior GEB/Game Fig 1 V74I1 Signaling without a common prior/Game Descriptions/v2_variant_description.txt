@@ -1,0 +1,21 @@
+V2 — Art Authentication
+
+An art dealer is deciding how to describe a painting.
+Nature first determines whether the painting is Archive Piece (t1) or Collector Piece (t2).
+The dealer sees the type and then sends either Label One (m1) or Label Two (m2).
+
+The buyer observes the label but does not observe the true type of the painting.
+So after Label One (m1), the buyer chooses between Bid Option A (a1) and Bid Option B (a2).
+After Label Two (m2), the buyer again chooses between Bid Option A (a1) and Bid Option B (a2).
+
+If the path is Archive Piece (t1), Label One (m1), Bid Option A (a1), the outcome gives reward 15 to the dealer and reward 10 to the buyer.
+If the path is Archive Piece (t1), Label One (m1), Bid Option B (a2), the outcome gives reward 80 to the dealer and reward 80 to the buyer.
+
+If the path is Archive Piece (t1), Label Two (m2), Bid Option A (a1), the outcome gives reward 25 to the dealer and reward 10 to the buyer.
+If the path is Archive Piece (t1), Label Two (m2), Bid Option B (a2), the outcome gives reward 50 to the dealer and reward 50 to the buyer.
+
+If the path is Collector Piece (t2), Label One (m1), Bid Option A (a1), the outcome gives reward 80 to the dealer and reward 80 to the buyer.
+If the path is Collector Piece (t2), Label One (m1), Bid Option B (a2), the outcome gives reward 15 to the dealer and reward 30 to the buyer.
+
+If the path is Collector Piece (t2), Label Two (m2), Bid Option A (a1), the outcome gives reward 50 to the dealer and reward 50 to the buyer.
+If the path is Collector Piece (t2), Label Two (m2), Bid Option B (a2), the outcome gives reward 25 to the dealer and reward 30 to the buyer.

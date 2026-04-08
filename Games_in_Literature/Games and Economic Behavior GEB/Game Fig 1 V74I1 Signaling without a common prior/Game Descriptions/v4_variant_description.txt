@@ -1,0 +1,21 @@
+V4 — Opera Casting
+
+A casting director is deciding what signal to send about a singer.
+Nature first determines whether the singer is Studio Type (t1) or Stage Type (t2).
+The director sees the type and then sends either Profile A (m1) or Profile B (m2).
+
+The producer observes the profile but does not observe the singer’s true type.
+So after Profile A (m1), the producer chooses between Contract A (a1) and Contract B (a2).
+After Profile B (m2), the producer again chooses between Contract A (a1) and Contract B (a2).
+
+If the path is Studio Type (t1), Profile A (m1), Contract A (a1), the outcome gives reward 15 to the director and reward 10 to the producer.
+If the path is Studio Type (t1), Profile A (m1), Contract B (a2), the outcome gives reward 80 to the director and reward 80 to the producer.
+
+If the path is Studio Type (t1), Profile B (m2), Contract A (a1), the outcome gives reward 25 to the director and reward 10 to the producer.
+If the path is Studio Type (t1), Profile B (m2), Contract B (a2), the outcome gives reward 50 to the director and reward 50 to the producer.
+
+If the path is Stage Type (t2), Profile A (m1), Contract A (a1), the outcome gives reward 80 to the director and reward 80 to the producer.
+If the path is Stage Type (t2), Profile A (m1), Contract B (a2), the outcome gives reward 15 to the director and reward 30 to the producer.
+
+If the path is Stage Type (t2), Profile B (m2), Contract A (a1), the outcome gives reward 50 to the director and reward 50 to the producer.
+If the path is Stage Type (t2), Profile B (m2), Contract B (a2), the outcome gives reward 25 to the director and reward 30 to the producer.

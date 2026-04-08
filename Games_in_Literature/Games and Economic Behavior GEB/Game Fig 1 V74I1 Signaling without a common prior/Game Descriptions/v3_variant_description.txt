@@ -1,0 +1,21 @@
+V3 — Flood Barrier
+
+A river authority is deciding what warning to send to a control station.
+Nature first determines whether the river condition is Moderate Flow (t1) or Critical Flow (t2).
+The authority sees the condition and then sends either Signal North (m1) or Signal South (m2).
+
+The control station observes the signal but does not observe the true river condition.
+So after Signal North (m1), the control station chooses between Gate Plan A (a1) and Gate Plan B (a2).
+After Signal South (m2), the control station again chooses between Gate Plan A (a1) and Gate Plan B (a2).
+
+If the path is Moderate Flow (t1), Signal North (m1), Gate Plan A (a1), the outcome gives reward 15 to the authority and reward 10 to the control station.
+If the path is Moderate Flow (t1), Signal North (m1), Gate Plan B (a2), the outcome gives reward 80 to the authority and reward 80 to the control station.
+
+If the path is Moderate Flow (t1), Signal South (m2), Gate Plan A (a1), the outcome gives reward 25 to the authority and reward 10 to the control station.
+If the path is Moderate Flow (t1), Signal South (m2), Gate Plan B (a2), the outcome gives reward 50 to the authority and reward 50 to the control station.
+
+If the path is Critical Flow (t2), Signal North (m1), Gate Plan A (a1), the outcome gives reward 80 to the authority and reward 80 to the control station.
+If the path is Critical Flow (t2), Signal North (m1), Gate Plan B (a2), the outcome gives reward 15 to the authority and reward 30 to the control station.
+
+If the path is Critical Flow (t2), Signal South (m2), Gate Plan A (a1), the outcome gives reward 50 to the authority and reward 50 to the control station.
+If the path is Critical Flow (t2), Signal South (m2), Gate Plan B (a2), the outcome gives reward 25 to the authority and reward 30 to the control station.

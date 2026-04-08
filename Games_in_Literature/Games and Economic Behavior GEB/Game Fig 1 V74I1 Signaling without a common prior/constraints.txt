@@ -1,0 +1,8 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+1) Check the move order: chance moves first, then the Sender, then the Receiver.
+2) Check the chance probabilities: t1 occurs with probability 1/4 and t2 occurs with probability 3/4.
+3) Check that the Receiver has one information set after m1 and one information set after m2, and in each case observes the message but not the Sender's type.
+4) Check the anchor payoff: the outcome after t1 -> m1 -> a2 is (80, 80).

@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Flood Barrier V3" { "River Authority" "Control Station" }
+""
+
+c "" 1 "" { "ModerateFlow" 1/4 "CriticalFlow" 3/4 } 0
+p "" 1 1 "" { "SignalNorth" "SignalSouth" } 0
+p "" 2 1 "" { "GatePlanA" "GatePlanB" } 0
+t "" 1 "ModerateFlow_SignalNorth_GatePlanA" { 15, 10 }
+t "" 2 "ModerateFlow_SignalNorth_GatePlanB" { 80, 80 }
+p "" 2 2 "" { "GatePlanA" "GatePlanB" } 0
+t "" 3 "ModerateFlow_SignalSouth_GatePlanA" { 25, 10 }
+t "" 4 "ModerateFlow_SignalSouth_GatePlanB" { 50, 50 }
+p "" 1 2 "" { "SignalNorth" "SignalSouth" } 0
+p "" 2 1 "" { "GatePlanA" "GatePlanB" } 0
+t "" 5 "CriticalFlow_SignalNorth_GatePlanA" { 80, 80 }
+t "" 6 "CriticalFlow_SignalNorth_GatePlanB" { 15, 30 }
+p "" 2 2 "" { "GatePlanA" "GatePlanB" } 0
+t "" 7 "CriticalFlow_SignalSouth_GatePlanA" { 50, 50 }
+t "" 8 "CriticalFlow_SignalSouth_GatePlanB" { 25, 30 }

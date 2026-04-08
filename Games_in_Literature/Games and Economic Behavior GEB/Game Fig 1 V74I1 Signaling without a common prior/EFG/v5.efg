@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Rare Book Recovery V5" { "Archive Specialist" "Archive Director" }
+""
+
+c "" 1 "" { "LightDamage" 1/4 "HeavyDamage" 3/4 } 0
+p "" 1 1 "" { "ReportOne" "ReportTwo" } 0
+p "" 2 1 "" { "RecoveryMethodA" "RecoveryMethodB" } 0
+t "" 1 "LightDamage_ReportOne_RecoveryMethodA" { 15, 10 }
+t "" 2 "LightDamage_ReportOne_RecoveryMethodB" { 80, 80 }
+p "" 2 2 "" { "RecoveryMethodA" "RecoveryMethodB" } 0
+t "" 3 "LightDamage_ReportTwo_RecoveryMethodA" { 25, 10 }
+t "" 4 "LightDamage_ReportTwo_RecoveryMethodB" { 50, 50 }
+p "" 1 2 "" { "ReportOne" "ReportTwo" } 0
+p "" 2 1 "" { "RecoveryMethodA" "RecoveryMethodB" } 0
+t "" 5 "HeavyDamage_ReportOne_RecoveryMethodA" { 80, 80 }
+t "" 6 "HeavyDamage_ReportOne_RecoveryMethodB" { 15, 30 }
+p "" 2 2 "" { "RecoveryMethodA" "RecoveryMethodB" } 0
+t "" 7 "HeavyDamage_ReportTwo_RecoveryMethodA" { 50, 50 }
+t "" 8 "HeavyDamage_ReportTwo_RecoveryMethodB" { 25, 30 }

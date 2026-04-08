@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Opera Casting V4" { "Casting Director" "Producer" }
+""
+
+c "" 1 "" { "StudioType" 1/4 "StageType" 3/4 } 0
+p "" 1 1 "" { "ProfileA" "ProfileB" } 0
+p "" 2 1 "" { "ContractA" "ContractB" } 0
+t "" 1 "StudioType_ProfileA_ContractA" { 15, 10 }
+t "" 2 "StudioType_ProfileA_ContractB" { 80, 80 }
+p "" 2 2 "" { "ContractA" "ContractB" } 0
+t "" 3 "StudioType_ProfileB_ContractA" { 25, 10 }
+t "" 4 "StudioType_ProfileB_ContractB" { 50, 50 }
+p "" 1 2 "" { "ProfileA" "ProfileB" } 0
+p "" 2 1 "" { "ContractA" "ContractB" } 0
+t "" 5 "StageType_ProfileA_ContractA" { 80, 80 }
+t "" 6 "StageType_ProfileA_ContractB" { 15, 30 }
+p "" 2 2 "" { "ContractA" "ContractB" } 0
+t "" 7 "StageType_ProfileB_ContractA" { 50, 50 }
+t "" 8 "StageType_ProfileB_ContractB" { 25, 30 }

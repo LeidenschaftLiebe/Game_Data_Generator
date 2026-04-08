@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Emergency Dispatch V1" { "Dispatcher" "Response Chief" }
+""
+
+c "" 1 "" { "MinorCase" 1/4 "MajorCase" 3/4 } 0
+p "" 1 1 "" { "CodeBlue" "CodeRed" } 0
+p "" 2 1 "" { "SendUnitA" "SendUnitB" } 0
+t "" 1 "MinorCase_CodeBlue_SendUnitA" { 15, 10 }
+t "" 2 "MinorCase_CodeBlue_SendUnitB" { 80, 80 }
+p "" 2 2 "" { "SendUnitA" "SendUnitB" } 0
+t "" 3 "MinorCase_CodeRed_SendUnitA" { 25, 10 }
+t "" 4 "MinorCase_CodeRed_SendUnitB" { 50, 50 }
+p "" 1 2 "" { "CodeBlue" "CodeRed" } 0
+p "" 2 1 "" { "SendUnitA" "SendUnitB" } 0
+t "" 5 "MajorCase_CodeBlue_SendUnitA" { 80, 80 }
+t "" 6 "MajorCase_CodeBlue_SendUnitB" { 15, 30 }
+p "" 2 2 "" { "SendUnitA" "SendUnitB" } 0
+t "" 7 "MajorCase_CodeRed_SendUnitA" { 50, 50 }
+t "" 8 "MajorCase_CodeRed_SendUnitB" { 25, 30 }

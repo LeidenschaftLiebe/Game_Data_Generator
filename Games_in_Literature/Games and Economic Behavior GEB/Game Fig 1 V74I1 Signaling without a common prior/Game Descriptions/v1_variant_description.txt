@@ -1,0 +1,21 @@
+V1 — Emergency Dispatch
+
+A dispatch center is handling an emergency report.
+Nature first determines whether the situation is Minor Case (t1) or Major Case (t2).
+The dispatcher sees the case type and then sends either Code Blue (m1) or Code Red (m2).
+
+The response chief observes the code but does not observe the true case type.
+So after Code Blue (m1), the response chief chooses between Send Unit A (a1) and Send Unit B (a2).
+After Code Red (m2), the response chief again chooses between Send Unit A (a1) and Send Unit B (a2).
+
+If the path is Minor Case (t1), Code Blue (m1), Send Unit A (a1), the outcome gives reward 15 to the dispatcher and reward 10 to the response chief.
+If the path is Minor Case (t1), Code Blue (m1), Send Unit B (a2), the outcome gives reward 80 to the dispatcher and reward 80 to the response chief.
+
+If the path is Minor Case (t1), Code Red (m2), Send Unit A (a1), the outcome gives reward 25 to the dispatcher and reward 10 to the response chief.
+If the path is Minor Case (t1), Code Red (m2), Send Unit B (a2), the outcome gives reward 50 to the dispatcher and reward 50 to the response chief.
+
+If the path is Major Case (t2), Code Blue (m1), Send Unit A (a1), the outcome gives reward 80 to the dispatcher and reward 80 to the response chief.
+If the path is Major Case (t2), Code Blue (m1), Send Unit B (a2), the outcome gives reward 15 to the dispatcher and reward 30 to the response chief.
+
+If the path is Major Case (t2), Code Red (m2), Send Unit A (a1), the outcome gives reward 50 to the dispatcher and reward 50 to the response chief.
+If the path is Major Case (t2), Code Red (m2), Send Unit B (a2), the outcome gives reward 25 to the dispatcher and reward 30 to the response chief.

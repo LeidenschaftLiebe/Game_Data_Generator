@@ -1,0 +1,21 @@
+V5 — Rare Book Recovery
+
+An archive specialist is deciding what report to send about a damaged manuscript.
+Nature first determines whether the manuscript is Light Damage (t1) or Heavy Damage (t2).
+The specialist sees the type and then sends either Report One (m1) or Report Two (m2).
+
+The archive director observes the report but does not observe the true damage level.
+So after Report One (m1), the director chooses between Recovery Method A (a1) and Recovery Method B (a2).
+After Report Two (m2), the director again chooses between Recovery Method A (a1) and Recovery Method B (a2).
+
+If the path is Light Damage (t1), Report One (m1), Recovery Method A (a1), the outcome gives reward 15 to the specialist and reward 10 to the director.
+If the path is Light Damage (t1), Report One (m1), Recovery Method B (a2), the outcome gives reward 80 to the specialist and reward 80 to the director.
+
+If the path is Light Damage (t1), Report Two (m2), Recovery Method A (a1), the outcome gives reward 25 to the specialist and reward 10 to the director.
+If the path is Light Damage (t1), Report Two (m2), Recovery Method B (a2), the outcome gives reward 50 to the specialist and reward 50 to the director.
+
+If the path is Heavy Damage (t2), Report One (m1), Recovery Method A (a1), the outcome gives reward 80 to the specialist and reward 80 to the director.
+If the path is Heavy Damage (t2), Report One (m1), Recovery Method B (a2), the outcome gives reward 15 to the specialist and reward 30 to the director.
+
+If the path is Heavy Damage (t2), Report Two (m2), Recovery Method A (a1), the outcome gives reward 50 to the specialist and reward 50 to the director.
+If the path is Heavy Damage (t2), Report Two (m2), Recovery Method B (a2), the outcome gives reward 25 to the specialist and reward 30 to the director.

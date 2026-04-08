@@ -1,0 +1,16 @@
+V4 — Streaming Schedule
+
+There are two people, a Platform Manager and a Release Editor.
+The Platform Manager moves first and chooses between Slot A (A), Slot B (B), and Slot C (C).
+
+If the Manager chooses Slot A (A), the Editor chooses between Left Edit A (LA) and Right Edit A (RA).
+If the path is Slot A (A), Left Edit A (LA), the outcome gives reward 20 to the Manager and reward 35 to the Editor.
+If the path is Slot A (A), Right Edit A (RA), the outcome gives reward 40 to the Manager and reward 15 to the Editor.
+
+If the Manager chooses Slot B (B), the Editor chooses between Left Edit B (LB) and Right Edit B (RB).
+If the path is Slot B (B), Left Edit B (LB), the outcome gives reward 10 to the Manager and reward 20 to the Editor.
+If the path is Slot B (B), Right Edit B (RB), the outcome gives reward 90 to the Manager and reward 75 to the Editor.
+
+If the Manager chooses Slot C (C), the Editor chooses between Left Edit C (LC) and Right Edit C (RC).
+If the path is Slot C (C), Left Edit C (LC), the outcome gives reward 70 to the Manager and reward 50 to the Editor.
+If the path is Slot C (C), Right Edit C (RC), the outcome gives reward 30 to the Manager and reward 50 to the Editor.

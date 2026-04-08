@@ -1,0 +1,13 @@
+EFG 2 R "GEB Appendix Archive Purchase V3" { "Archive Director" "Acquisitions Officer" }
+""
+
+p "" 1 1 "" { "LotA" "LotB" "LotC" } 0
+p "" 2 1 "" { "LeftBidA" "RightBidA" } 0
+t "" 1 "LotA_LeftBidA" { 20, 35 }
+t "" 2 "LotA_RightBidA" { 40, 15 }
+p "" 2 2 "" { "LeftBidB" "RightBidB" } 0
+t "" 3 "LotB_LeftBidB" { 10, 20 }
+t "" 4 "LotB_RightBidB" { 90, 75 }
+p "" 2 3 "" { "LeftBidC" "RightBidC" } 0
+t "" 5 "LotC_LeftBidC" { 70, 50 }
+t "" 6 "LotC_RightBidC" { 30, 50 }

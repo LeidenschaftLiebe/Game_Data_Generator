@@ -1,0 +1,13 @@
+EFG 2 R "GEB Appendix Rescue Allocation V2" { "Rescue Lead" "Field Coordinator" }
+""
+
+p "" 1 1 "" { "RouteAlpha" "RouteBravo" "RouteCharlie" } 0
+p "" 2 1 "" { "LeftActionAlpha" "RightActionAlpha" } 0
+t "" 1 "RouteAlpha_LeftActionAlpha" { 20, 35 }
+t "" 2 "RouteAlpha_RightActionAlpha" { 40, 15 }
+p "" 2 2 "" { "LeftActionBravo" "RightActionBravo" } 0
+t "" 3 "RouteBravo_LeftActionBravo" { 10, 20 }
+t "" 4 "RouteBravo_RightActionBravo" { 90, 75 }
+p "" 2 3 "" { "LeftActionCharlie" "RightActionCharlie" } 0
+t "" 5 "RouteCharlie_LeftActionCharlie" { 70, 50 }
+t "" 6 "RouteCharlie_RightActionCharlie" { 30, 50 }

@@ -1,0 +1,13 @@
+EFG 2 R "GEB Appendix Lab Equipment V5" { "Lab Director" "Procurement Officer" }
+""
+
+p "" 1 1 "" { "PackageA" "PackageB" "PackageC" } 0
+p "" 2 1 "" { "LeftCheckA" "RightCheckA" } 0
+t "" 1 "PackageA_LeftCheckA" { 20, 35 }
+t "" 2 "PackageA_RightCheckA" { 40, 15 }
+p "" 2 2 "" { "LeftCheckB" "RightCheckB" } 0
+t "" 3 "PackageB_LeftCheckB" { 10, 20 }
+t "" 4 "PackageB_RightCheckB" { 90, 75 }
+p "" 2 3 "" { "LeftCheckC" "RightCheckC" } 0
+t "" 5 "PackageC_LeftCheckC" { 70, 50 }
+t "" 6 "PackageC_RightCheckC" { 30, 50 }

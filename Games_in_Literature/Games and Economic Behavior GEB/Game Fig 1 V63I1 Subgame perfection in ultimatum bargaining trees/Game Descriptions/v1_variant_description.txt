@@ -1,0 +1,16 @@
+V1 — Research Grant
+
+There are two people, a Committee Chair and a Reviewer.
+The Committee Chair moves first and chooses between Proposal A (A), Proposal B (B), and Proposal C (C).
+
+If the Chair chooses Proposal A (A), the Reviewer chooses between Left Review A (LA) and Right Review A (RA).
+If the path is Proposal A (A), Left Review A (LA), the outcome gives reward 20 to the Chair and reward 35 to the Reviewer.
+If the path is Proposal A (A), Right Review A (RA), the outcome gives reward 40 to the Chair and reward 15 to the Reviewer.
+
+If the Chair chooses Proposal B (B), the Reviewer chooses between Left Review B (LB) and Right Review B (RB).
+If the path is Proposal B (B), Left Review B (LB), the outcome gives reward 10 to the Chair and reward 20 to the Reviewer.
+If the path is Proposal B (B), Right Review B (RB), the outcome gives reward 90 to the Chair and reward 75 to the Reviewer.
+
+If the Chair chooses Proposal C (C), the Reviewer chooses between Left Review C (LC) and Right Review C (RC).
+If the path is Proposal C (C), Left Review C (LC), the outcome gives reward 70 to the Chair and reward 50 to the Reviewer.
+If the path is Proposal C (C), Right Review C (RC), the outcome gives reward 30 to the Chair and reward 50 to the Reviewer.

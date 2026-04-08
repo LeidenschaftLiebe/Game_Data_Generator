@@ -1,0 +1,16 @@
+V2 — Rescue Allocation
+
+There are two people, a Rescue Lead and a Field Coordinator.
+The Rescue Lead moves first and chooses between Route Alpha (A), Route Bravo (B), and Route Charlie (C).
+
+If the Lead chooses Route Alpha (A), the Coordinator chooses between Left Action Alpha (LA) and Right Action Alpha (RA).
+If the path is Route Alpha (A), Left Action Alpha (LA), the outcome gives reward 20 to the Lead and reward 35 to the Coordinator.
+If the path is Route Alpha (A), Right Action Alpha (RA), the outcome gives reward 40 to the Lead and reward 15 to the Coordinator.
+
+If the Lead chooses Route Bravo (B), the Coordinator chooses between Left Action Bravo (LB) and Right Action Bravo (RB).
+If the path is Route Bravo (B), Left Action Bravo (LB), the outcome gives reward 10 to the Lead and reward 20 to the Coordinator.
+If the path is Route Bravo (B), Right Action Bravo (RB), the outcome gives reward 90 to the Lead and reward 75 to the Coordinator.
+
+If the Lead chooses Route Charlie (C), the Coordinator chooses between Left Action Charlie (LC) and Right Action Charlie (RC).
+If the path is Route Charlie (C), Left Action Charlie (LC), the outcome gives reward 70 to the Lead and reward 50 to the Coordinator.
+If the path is Route Charlie (C), Right Action Charlie (RC), the outcome gives reward 30 to the Lead and reward 50 to the Coordinator.

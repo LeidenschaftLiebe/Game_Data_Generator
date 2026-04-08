@@ -1,0 +1,16 @@
+V5 — Lab Equipment
+
+There are two people, a Lab Director and a Procurement Officer.
+The Lab Director moves first and chooses between Package A (A), Package B (B), and Package C (C).
+
+If the Director chooses Package A (A), the Officer chooses between Left Check A (LA) and Right Check A (RA).
+If the path is Package A (A), Left Check A (LA), the outcome gives reward 20 to the Director and reward 35 to the Officer.
+If the path is Package A (A), Right Check A (RA), the outcome gives reward 40 to the Director and reward 15 to the Officer.
+
+If the Director chooses Package B (B), the Officer chooses between Left Check B (LB) and Right Check B (RB).
+If the path is Package B (B), Left Check B (LB), the outcome gives reward 10 to the Director and reward 20 to the Officer.
+If the path is Package B (B), Right Check B (RB), the outcome gives reward 90 to the Director and reward 75 to the Officer.
+
+If the Director chooses Package C (C), the Officer chooses between Left Check C (LC) and Right Check C (RC).
+If the path is Package C (C), Left Check C (LC), the outcome gives reward 70 to the Director and reward 50 to the Officer.
+If the path is Package C (C), Right Check C (RC), the outcome gives reward 30 to the Director and reward 50 to the Officer.

@@ -1,0 +1,16 @@
+V0 — Instruction Tree
+
+There are two players, First Mover and Second Mover.
+The First Mover moves first and chooses between A, B, and C.
+
+If the First Mover chooses A, the Second Mover chooses between LA and RA.
+If the path is A, LA, the game ends with reward 20 to the First Mover and reward 35 to the Second Mover.
+If the path is A, RA, the game ends with reward 40 to the First Mover and reward 15 to the Second Mover.
+
+If the First Mover chooses B, the Second Mover chooses between LB and RB.
+If the path is B, LB, the game ends with reward 10 to the First Mover and reward 20 to the Second Mover.
+If the path is B, RB, the game ends with reward 90 to the First Mover and reward 75 to the Second Mover.
+
+If the First Mover chooses C, the Second Mover chooses between LC and RC.
+If the path is C, LC, the game ends with reward 70 to the First Mover and reward 50 to the Second Mover.
+If the path is C, RC, the game ends with reward 30 to the First Mover and reward 50 to the Second Mover.

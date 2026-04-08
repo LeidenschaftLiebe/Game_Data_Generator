@@ -1,0 +1,16 @@
+V3 — Archive Purchase
+
+There are two people, an Archive Director and an Acquisitions Officer.
+The Director moves first and chooses between Lot A (A), Lot B (B), and Lot C (C).
+
+If the Director chooses Lot A (A), the Officer chooses between Left Bid A (LA) and Right Bid A (RA).
+If the path is Lot A (A), Left Bid A (LA), the outcome gives reward 20 to the Director and reward 35 to the Officer.
+If the path is Lot A (A), Right Bid A (RA), the outcome gives reward 40 to the Director and reward 15 to the Officer.
+
+If the Director chooses Lot B (B), the Officer chooses between Left Bid B (LB) and Right Bid B (RB).
+If the path is Lot B (B), Left Bid B (LB), the outcome gives reward 10 to the Director and reward 20 to the Officer.
+If the path is Lot B (B), Right Bid B (RB), the outcome gives reward 90 to the Director and reward 75 to the Officer.
+
+If the Director chooses Lot C (C), the Officer chooses between Left Bid C (LC) and Right Bid C (RC).
+If the path is Lot C (C), Left Bid C (LC), the outcome gives reward 70 to the Director and reward 50 to the Officer.
+If the path is Lot C (C), Right Bid C (RC), the outcome gives reward 30 to the Director and reward 50 to the Officer.

@@ -1,0 +1,16 @@
+V0 — Consecutive-Move Example
+
+There are two players.
+Player 1 moves first at h0 and chooses between L and R.
+
+If Player 1 chooses R at h0, the game ends immediately with reward 2 to Player 1 and reward 2 to Player 2.
+
+If Player 1 chooses L at h0, Player 1 moves again at h1 and chooses between L and R.
+
+If Player 1 chooses L at h1, Player 2 then moves at h3 and chooses between l and r.
+If the path is L, L, l, the outcome gives reward 0 to Player 1 and reward 1 to Player 2.
+If the path is L, L, r, the outcome gives reward 0 to each player.
+
+If Player 1 chooses R at h1, Player 2 then moves at h4 and chooses between l and r.
+If the path is L, R, l, the outcome gives reward 1 to Player 1 and reward 0 to Player 2.
+If the path is L, R, r, the outcome gives reward 4 to Player 1 and reward 1 to Player 2.

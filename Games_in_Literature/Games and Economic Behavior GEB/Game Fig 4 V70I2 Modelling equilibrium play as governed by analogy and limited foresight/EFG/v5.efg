@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 4 Satellite Setup V5" { "Mission Controller" "Systems Analyst" }
+""
+
+p "" 1 1 "" { "StartTestChain" "HoldCurrentSetup" } 0
+p "" 1 2 "" { "BaseSequence" "HighSequence" } 0
+p "" 2 1 "" { "LowCalibration" "AbortCheck" } 0
+t "" 2 "StartTestChain_BaseSequence_LowCalibration" { 0, 1 }
+t "" 3 "StartTestChain_BaseSequence_AbortCheck" { 0, 0 }
+p "" 2 2 "" { "LowCalibration" "AbortCheck" } 0
+t "" 4 "StartTestChain_HighSequence_LowCalibration" { 1, 0 }
+t "" 5 "StartTestChain_HighSequence_AbortCheck" { 4, 1 }
+t "" 1 "HoldCurrentSetup" { 2, 2 }

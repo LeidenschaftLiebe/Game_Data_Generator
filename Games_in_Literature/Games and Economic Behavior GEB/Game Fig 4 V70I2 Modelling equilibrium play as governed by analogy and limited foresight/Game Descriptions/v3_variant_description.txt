@@ -1,0 +1,16 @@
+V3 — Rescue Drill
+
+A safety chief is deciding how to run a training drill.
+The chief moves first and chooses between Run Drill (L) and Keep Standard Routine (R).
+
+If the chief chooses Keep Standard Routine (R), the process ends immediately with reward 2 to the chief and reward 2 to the response coordinator.
+
+If the chief chooses Run Drill (L), the chief moves again and chooses between Basic Scenario (L) and Advanced Scenario (R).
+
+If the chief chooses Basic Scenario (L), the response coordinator then chooses between Low Response (l) and Stand Down (r).
+If the path is Run Drill (L), Basic Scenario (L), Low Response (l), the outcome gives reward 0 to the chief and reward 1 to the coordinator.
+If the path is Run Drill (L), Basic Scenario (L), Stand Down (r), the outcome gives reward 0 to each player.
+
+If the chief chooses Advanced Scenario (R), the response coordinator then chooses between Low Response (l) and Stand Down (r).
+If the path is Run Drill (L), Advanced Scenario (R), Low Response (l), the outcome gives reward 1 to the chief and reward 0 to the coordinator.
+If the path is Run Drill (L), Advanced Scenario (R), Stand Down (r), the outcome gives reward 4 to the chief and reward 1 to the coordinator.

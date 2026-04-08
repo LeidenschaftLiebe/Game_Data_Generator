@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 4 Archive Transfer V4" { "Archive Director" "Restoration Lead" }
+""
+
+p "" 1 1 "" { "BeginTransfer" "PauseTransfer" } 0
+p "" 1 2 "" { "SlowPacking" "FastPacking" } 0
+p "" 2 1 "" { "LabelFirst" "SkipLabels" } 0
+t "" 2 "BeginTransfer_SlowPacking_LabelFirst" { 0, 1 }
+t "" 3 "BeginTransfer_SlowPacking_SkipLabels" { 0, 0 }
+p "" 2 2 "" { "LabelFirst" "SkipLabels" } 0
+t "" 4 "BeginTransfer_FastPacking_LabelFirst" { 1, 0 }
+t "" 5 "BeginTransfer_FastPacking_SkipLabels" { 4, 1 }
+t "" 1 "PauseTransfer" { 2, 2 }

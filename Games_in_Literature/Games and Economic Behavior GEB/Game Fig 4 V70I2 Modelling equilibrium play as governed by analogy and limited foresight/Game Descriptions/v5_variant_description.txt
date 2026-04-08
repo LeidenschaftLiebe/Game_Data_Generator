@@ -1,0 +1,16 @@
+V5 — Satellite Setup
+
+A mission controller is deciding how to prepare a satellite test.
+The controller moves first and chooses between Start Test Chain (L) and Hold Current Setup (R).
+
+If the controller chooses Hold Current Setup (R), the process ends immediately with reward 2 to the controller and reward 2 to the systems analyst.
+
+If the controller chooses Start Test Chain (L), the controller moves again and chooses between Base Sequence (L) and High Sequence (R).
+
+If the controller chooses Base Sequence (L), the systems analyst then chooses between Low Calibration (l) and Abort Check (r).
+If the path is Start Test Chain (L), Base Sequence (L), Low Calibration (l), the outcome gives reward 0 to the controller and reward 1 to the analyst.
+If the path is Start Test Chain (L), Base Sequence (L), Abort Check (r), the outcome gives reward 0 to each player.
+
+If the controller chooses High Sequence (R), the systems analyst then chooses between Low Calibration (l) and Abort Check (r).
+If the path is Start Test Chain (L), High Sequence (R), Low Calibration (l), the outcome gives reward 1 to the controller and reward 0 to the analyst.
+If the path is Start Test Chain (L), High Sequence (R), Abort Check (r), the outcome gives reward 4 to the controller and reward 1 to the analyst.

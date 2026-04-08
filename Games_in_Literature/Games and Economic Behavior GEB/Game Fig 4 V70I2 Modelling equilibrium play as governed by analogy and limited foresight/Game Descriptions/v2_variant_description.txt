@@ -1,0 +1,16 @@
+V2 — Vineyard Plan
+
+A vineyard owner is deciding how to handle a harvest weekend.
+The owner moves first and chooses between Run Special Harvest (L) and Stay With Base Plan (R).
+
+If the owner chooses Stay With Base Plan (R), the process ends immediately with reward 2 to the owner and reward 2 to the field supervisor.
+
+If the owner chooses Run Special Harvest (L), the owner moves again and chooses between Small Crew Route (L) and Extended Crew Route (R).
+
+If the owner chooses Small Crew Route (L), the field supervisor then chooses between Light Sorting (l) and Delay Sorting (r).
+If the path is Run Special Harvest (L), Small Crew Route (L), Light Sorting (l), the outcome gives reward 0 to the owner and reward 1 to the supervisor.
+If the path is Run Special Harvest (L), Small Crew Route (L), Delay Sorting (r), the outcome gives reward 0 to each player.
+
+If the owner chooses Extended Crew Route (R), the field supervisor then chooses between Light Sorting (l) and Delay Sorting (r).
+If the path is Run Special Harvest (L), Extended Crew Route (R), Light Sorting (l), the outcome gives reward 1 to the owner and reward 0 to the supervisor.
+If the path is Run Special Harvest (L), Extended Crew Route (R), Delay Sorting (r), the outcome gives reward 4 to the owner and reward 1 to the supervisor.

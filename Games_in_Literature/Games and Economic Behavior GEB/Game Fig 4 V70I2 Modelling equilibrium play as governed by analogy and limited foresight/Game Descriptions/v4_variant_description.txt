@@ -1,0 +1,16 @@
+V4 — Archive Transfer
+
+An archive director is deciding how to move a collection.
+The director moves first and chooses between Begin Transfer (L) and Pause Transfer (R).
+
+If the director chooses Pause Transfer (R), the process ends immediately with reward 2 to the director and reward 2 to the restoration lead.
+
+If the director chooses Begin Transfer (L), the director moves again and chooses between Slow Packing (L) and Fast Packing (R).
+
+If the director chooses Slow Packing (L), the restoration lead then chooses between Label First (l) and Skip Labels (r).
+If the path is Begin Transfer (L), Slow Packing (L), Label First (l), the outcome gives reward 0 to the director and reward 1 to the restoration lead.
+If the path is Begin Transfer (L), Slow Packing (L), Skip Labels (r), the outcome gives reward 0 to each player.
+
+If the director chooses Fast Packing (R), the restoration lead then chooses between Label First (l) and Skip Labels (r).
+If the path is Begin Transfer (L), Fast Packing (R), Label First (l), the outcome gives reward 1 to the director and reward 0 to the restoration lead.
+If the path is Begin Transfer (L), Fast Packing (R), Skip Labels (r), the outcome gives reward 4 to the director and reward 1 to the restoration lead.

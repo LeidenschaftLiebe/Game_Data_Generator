@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 4 Vineyard Plan V2" { "Vineyard Owner" "Field Supervisor" }
+""
+
+p "" 1 1 "" { "RunSpecialHarvest" "StayWithBasePlan" } 0
+p "" 1 2 "" { "SmallCrewRoute" "ExtendedCrewRoute" } 0
+p "" 2 1 "" { "LightSorting" "DelaySorting" } 0
+t "" 2 "RunSpecialHarvest_SmallCrewRoute_LightSorting" { 0, 1 }
+t "" 3 "RunSpecialHarvest_SmallCrewRoute_DelaySorting" { 0, 0 }
+p "" 2 2 "" { "LightSorting" "DelaySorting" } 0
+t "" 4 "RunSpecialHarvest_ExtendedCrewRoute_LightSorting" { 1, 0 }
+t "" 5 "RunSpecialHarvest_ExtendedCrewRoute_DelaySorting" { 4, 1 }
+t "" 1 "StayWithBasePlan" { 2, 2 }

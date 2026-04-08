@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 4 Rescue Drill V3" { "Safety Chief" "Response Coordinator" }
+""
+
+p "" 1 1 "" { "RunDrill" "KeepStandardRoutine" } 0
+p "" 1 2 "" { "BasicScenario" "AdvancedScenario" } 0
+p "" 2 1 "" { "LowResponse" "StandDown" } 0
+t "" 2 "RunDrill_BasicScenario_LowResponse" { 0, 1 }
+t "" 3 "RunDrill_BasicScenario_StandDown" { 0, 0 }
+p "" 2 2 "" { "LowResponse" "StandDown" } 0
+t "" 4 "RunDrill_AdvancedScenario_LowResponse" { 1, 0 }
+t "" 5 "RunDrill_AdvancedScenario_StandDown" { 4, 1 }
+t "" 1 "KeepStandardRoutine" { 2, 2 }

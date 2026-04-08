@@ -1,0 +1,16 @@
+V1 — Museum Wing
+
+A museum director is deciding how to handle a new wing.
+The director moves first and chooses between Open Wing (L) and Keep Current Layout (R).
+
+If the director chooses Keep Current Layout (R), the process ends immediately with reward 2 to the director and reward 2 to the operations manager.
+
+If the director chooses Open Wing (L), the director moves again and chooses between Quiet Opening (L) and Public Launch (R).
+
+If the director chooses Quiet Opening (L), the operations manager then chooses between Limited Staffing (l) and Full Reset (r).
+If the path is Open Wing (L), Quiet Opening (L), Limited Staffing (l), the outcome gives reward 0 to the director and reward 1 to the manager.
+If the path is Open Wing (L), Quiet Opening (L), Full Reset (r), the outcome gives reward 0 to each player.
+
+If the director chooses Public Launch (R), the operations manager then chooses between Limited Staffing (l) and Full Reset (r).
+If the path is Open Wing (L), Public Launch (R), Limited Staffing (l), the outcome gives reward 1 to the director and reward 0 to the manager.
+If the path is Open Wing (L), Public Launch (R), Full Reset (r), the outcome gives reward 4 to the director and reward 1 to the manager.

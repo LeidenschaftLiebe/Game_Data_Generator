@@ -1,0 +1,12 @@
+EFG 2 R "GEB Fig. 4 Museum Wing V1" { "Museum Director" "Operations Manager" }
+""
+
+p "" 1 1 "" { "OpenWing" "KeepCurrentLayout" } 0
+p "" 1 2 "" { "QuietOpening" "PublicLaunch" } 0
+p "" 2 1 "" { "LimitedStaffing" "FullReset" } 0
+t "" 2 "OpenWing_QuietOpening_LimitedStaffing" { 0, 1 }
+t "" 3 "OpenWing_QuietOpening_FullReset" { 0, 0 }
+p "" 2 2 "" { "LimitedStaffing" "FullReset" } 0
+t "" 4 "OpenWing_PublicLaunch_LimitedStaffing" { 1, 0 }
+t "" 5 "OpenWing_PublicLaunch_FullReset" { 4, 1 }
+t "" 1 "KeepCurrentLayout" { 2, 2 }

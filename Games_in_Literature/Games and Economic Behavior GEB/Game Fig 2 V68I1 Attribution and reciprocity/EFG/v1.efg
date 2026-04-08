@@ -1,0 +1,17 @@
+EFG 2 R "GEB Fig. 2 Casting Call V1" { "Producer" "Actor 2" "Actor 3" }
+""
+
+p "" 1 1 "" { "GiveRoleToActor2" "FlipCoin" "GiveRoleToActor3" } 0
+p "" 2 1 "" { "StayFriendly" "ComplainPublicly" } 0
+t "" 1 "GiveRoleToActor2_StayFriendly" { 3, 0, 1 }
+t "" 2 "GiveRoleToActor2_ComplainPublicly" { 1, -1, 1 }
+c "" 1 "" { "Actor2Side" 1/2 "Actor3Side" 1/2 } 0
+p "" 2 2 "" { "StayFriendly" "ComplainPublicly" } 0
+t "" 5 "FlipCoin_Actor2Side_StayFriendly" { 3, 0, 1 }
+t "" 6 "FlipCoin_Actor2Side_ComplainPublicly" { 1, -1, 1 }
+p "" 3 2 "" { "StayFriendly" "ComplainPublicly" } 0
+t "" 7 "FlipCoin_Actor3Side_StayFriendly" { 3, 1, 0 }
+t "" 8 "FlipCoin_Actor3Side_ComplainPublicly" { 1, 1, -1 }
+p "" 3 1 "" { "StayFriendly" "ComplainPublicly" } 0
+t "" 3 "GiveRoleToActor3_StayFriendly" { 3, 1, 0 }
+t "" 4 "GiveRoleToActor3_ComplainPublicly" { 1, 1, -1 }

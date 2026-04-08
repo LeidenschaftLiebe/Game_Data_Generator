@@ -1,0 +1,15 @@
+V2 — Field Grant
+
+A research director is deciding who receives a travel grant.
+The director first chooses between Award to Team 2 (L), Lottery Draw (M), and Award to Team 3 (R).
+
+If the director chooses Award to Team 2 (L), Team 2 then chooses between Accept Quietly (l) and Challenge the Process (r).
+If the path is Award to Team 2 (L), Accept Quietly (l), the outcome gives reward 3 to the director, reward 0 to Team 2, and reward 1 to Team 3.
+If the path is Award to Team 2 (L), Challenge the Process (r), the outcome gives reward 1 to the director, reward -1 to Team 2, and reward 1 to Team 3.
+
+If the director chooses Award to Team 3 (R), Team 3 then chooses between Accept Quietly (l) and Challenge the Process (r).
+If the path is Award to Team 3 (R), Accept Quietly (l), the outcome gives reward 3 to the director, reward 1 to Team 2, and reward 0 to Team 3.
+If the path is Award to Team 3 (R), Challenge the Process (r), the outcome gives reward 1 to the director, reward 1 to Team 2, and reward -1 to Team 3.
+
+If the director chooses Lottery Draw (M), chance selects Team 2’s side or Team 3’s side with probability 1/2 each.
+The chosen team then makes the same response choice as above, and the resulting rewards are the same as in the corresponding direct-award branch.

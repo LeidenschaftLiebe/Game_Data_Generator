@@ -1,0 +1,17 @@
+EFG 2 R "GEB Fig. 2 Field Grant V2" { "Research Director" "Team 2" "Team 3" }
+""
+
+p "" 1 1 "" { "AwardToTeam2" "LotteryDraw" "AwardToTeam3" } 0
+p "" 2 1 "" { "AcceptQuietly" "ChallengeProcess" } 0
+t "" 1 "AwardToTeam2_AcceptQuietly" { 3, 0, 1 }
+t "" 2 "AwardToTeam2_ChallengeProcess" { 1, -1, 1 }
+c "" 1 "" { "Team2Side" 1/2 "Team3Side" 1/2 } 0
+p "" 2 2 "" { "AcceptQuietly" "ChallengeProcess" } 0
+t "" 5 "LotteryDraw_Team2Side_AcceptQuietly" { 3, 0, 1 }
+t "" 6 "LotteryDraw_Team2Side_ChallengeProcess" { 1, -1, 1 }
+p "" 3 2 "" { "AcceptQuietly" "ChallengeProcess" } 0
+t "" 7 "LotteryDraw_Team3Side_AcceptQuietly" { 3, 1, 0 }
+t "" 8 "LotteryDraw_Team3Side_ChallengeProcess" { 1, 1, -1 }
+p "" 3 1 "" { "AcceptQuietly" "ChallengeProcess" } 0
+t "" 3 "AwardToTeam3_AcceptQuietly" { 3, 1, 0 }
+t "" 4 "AwardToTeam3_ChallengeProcess" { 1, 1, -1 }

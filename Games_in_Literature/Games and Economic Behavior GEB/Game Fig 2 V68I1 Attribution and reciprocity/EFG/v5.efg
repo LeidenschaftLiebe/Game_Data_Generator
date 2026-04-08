@@ -1,0 +1,17 @@
+EFG 2 R "GEB Fig. 2 Expedition Slot V5" { "Mission Leader" "Specialist 2" "Specialist 3" }
+""
+
+p "" 1 1 "" { "ChooseSpecialist2" "CoinToss" "ChooseSpecialist3" } 0
+p "" 2 1 "" { "RemainCooperative" "PushBack" } 0
+t "" 1 "ChooseSpecialist2_RemainCooperative" { 3, 0, 1 }
+t "" 2 "ChooseSpecialist2_PushBack" { 1, -1, 1 }
+c "" 1 "" { "Specialist2Side" 1/2 "Specialist3Side" 1/2 } 0
+p "" 2 2 "" { "RemainCooperative" "PushBack" } 0
+t "" 5 "CoinToss_Specialist2Side_RemainCooperative" { 3, 0, 1 }
+t "" 6 "CoinToss_Specialist2Side_PushBack" { 1, -1, 1 }
+p "" 3 2 "" { "RemainCooperative" "PushBack" } 0
+t "" 7 "CoinToss_Specialist3Side_RemainCooperative" { 3, 1, 0 }
+t "" 8 "CoinToss_Specialist3Side_PushBack" { 1, 1, -1 }
+p "" 3 1 "" { "RemainCooperative" "PushBack" } 0
+t "" 3 "ChooseSpecialist3_RemainCooperative" { 3, 1, 0 }
+t "" 4 "ChooseSpecialist3_PushBack" { 1, 1, -1 }

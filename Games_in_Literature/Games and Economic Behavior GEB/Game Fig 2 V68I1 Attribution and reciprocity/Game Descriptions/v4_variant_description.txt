@@ -1,0 +1,15 @@
+V4 — School Exchange
+
+A principal is deciding who gets a final exchange slot.
+The principal first chooses between Pick Student 2 (L), Draw Lots (M), and Pick Student 3 (R).
+
+If the principal chooses Pick Student 2 (L), Student 2 then chooses between Accept Calmly (l) and Protest (r).
+If the path is Pick Student 2 (L), Accept Calmly (l), the outcome gives reward 3 to the principal, reward 0 to Student 2, and reward 1 to Student 3.
+If the path is Pick Student 2 (L), Protest (r), the outcome gives reward 1 to the principal, reward -1 to Student 2, and reward 1 to Student 3.
+
+If the principal chooses Pick Student 3 (R), Student 3 then chooses between Accept Calmly (l) and Protest (r).
+If the path is Pick Student 3 (R), Accept Calmly (l), the outcome gives reward 3 to the principal, reward 1 to Student 2, and reward 0 to Student 3.
+If the path is Pick Student 3 (R), Protest (r), the outcome gives reward 1 to the principal, reward 1 to Student 2, and reward -1 to Student 3.
+
+If the principal chooses Draw Lots (M), chance selects the left or right side with probability 1/2 each, 
+and the corresponding student then responds in the same way as above.

@@ -1,0 +1,14 @@
+V3 — Gallery Prize
+
+A gallery owner is deciding who receives a featured prize.
+The owner first chooses between Choose Artist 2 (L), Random Draw (M), and Choose Artist 3 (R).
+
+If the owner chooses Choose Artist 2 (L), Artist 2 then chooses between Take It Well (l) and Object Loudly (r).
+If the path is Choose Artist 2 (L), Take It Well (l), the outcome gives reward 3 to the owner, reward 0 to Artist 2, and reward 1 to Artist 3.
+If the path is Choose Artist 2 (L), Object Loudly (r), the outcome gives reward 1 to the owner, reward -1 to Artist 2, and reward 1 to Artist 3.
+
+If the owner chooses Choose Artist 3 (R), Artist 3 then chooses between Take It Well (l) and Object Loudly (r).
+If the path is Choose Artist 3 (R), Take It Well (l), the outcome gives reward 3 to the owner, reward 1 to Artist 2, and reward 0 to Artist 3.
+If the path is Choose Artist 3 (R), Object Loudly (r), the outcome gives reward 1 to the owner, reward 1 to Artist 2, and reward -1 to Artist 3.
+
+If the owner chooses Random Draw (M), chance selects the left or right side with probability 1/2 each, and the corresponding artist then responds as above.

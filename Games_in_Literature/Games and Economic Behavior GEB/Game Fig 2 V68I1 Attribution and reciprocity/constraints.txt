@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+1) Check the move order: Player 1 moves first; after L Player 2 moves; 
+after M chance moves with probability 1/2 on each branch and then Player 2 or Player 3 moves; 
+after R Player 3 moves.
+2) Check the chance node: the two chance branches after M each occur with probability 1/2.
+3) Check the anchor payoff: the outcome after L -> l is (3, 0, 1).

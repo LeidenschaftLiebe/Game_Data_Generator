@@ -1,0 +1,17 @@
+EFG 2 R "GEB Fig. 2 Gallery Prize V3" { "Gallery Owner" "Artist 2" "Artist 3" }
+""
+
+p "" 1 1 "" { "ChooseArtist2" "RandomDraw" "ChooseArtist3" } 0
+p "" 2 1 "" { "TakeItWell" "ObjectLoudly" } 0
+t "" 1 "ChooseArtist2_TakeItWell" { 3, 0, 1 }
+t "" 2 "ChooseArtist2_ObjectLoudly" { 1, -1, 1 }
+c "" 1 "" { "Artist2Side" 1/2 "Artist3Side" 1/2 } 0
+p "" 2 2 "" { "TakeItWell" "ObjectLoudly" } 0
+t "" 5 "RandomDraw_Artist2Side_TakeItWell" { 3, 0, 1 }
+t "" 6 "RandomDraw_Artist2Side_ObjectLoudly" { 1, -1, 1 }
+p "" 3 2 "" { "TakeItWell" "ObjectLoudly" } 0
+t "" 7 "RandomDraw_Artist3Side_TakeItWell" { 3, 1, 0 }
+t "" 8 "RandomDraw_Artist3Side_ObjectLoudly" { 1, 1, -1 }
+p "" 3 1 "" { "TakeItWell" "ObjectLoudly" } 0
+t "" 3 "ChooseArtist3_TakeItWell" { 3, 1, 0 }
+t "" 4 "ChooseArtist3_ObjectLoudly" { 1, 1, -1 }

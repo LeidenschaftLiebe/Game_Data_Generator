@@ -1,0 +1,17 @@
+EFG 2 R "GEB Fig. 2 School Exchange V4" { "Principal" "Student 2" "Student 3" }
+""
+
+p "" 1 1 "" { "PickStudent2" "DrawLots" "PickStudent3" } 0
+p "" 2 1 "" { "AcceptCalmly" "Protest" } 0
+t "" 1 "PickStudent2_AcceptCalmly" { 3, 0, 1 }
+t "" 2 "PickStudent2_Protest" { 1, -1, 1 }
+c "" 1 "" { "Student2Side" 1/2 "Student3Side" 1/2 } 0
+p "" 2 2 "" { "AcceptCalmly" "Protest" } 0
+t "" 5 "DrawLots_Student2Side_AcceptCalmly" { 3, 0, 1 }
+t "" 6 "DrawLots_Student2Side_Protest" { 1, -1, 1 }
+p "" 3 2 "" { "AcceptCalmly" "Protest" } 0
+t "" 7 "DrawLots_Student3Side_AcceptCalmly" { 3, 1, 0 }
+t "" 8 "DrawLots_Student3Side_Protest" { 1, 1, -1 }
+p "" 3 1 "" { "AcceptCalmly" "Protest" } 0
+t "" 3 "PickStudent3_AcceptCalmly" { 3, 1, 0 }
+t "" 4 "PickStudent3_Protest" { 1, 1, -1 }

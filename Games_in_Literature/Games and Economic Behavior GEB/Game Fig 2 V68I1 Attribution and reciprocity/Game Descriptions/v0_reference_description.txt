@@ -1,0 +1,22 @@
+V0 — Coin-Flip Procedure
+
+Set epsilon = 1.
+There are three players.
+Player 1 moves first and chooses between L, M, and R.
+
+If Player 1 chooses L, Player 2 moves next and chooses between l and r.
+If Player 2 chooses l, the game ends with reward 3 to Player 1, reward 0 to Player 2, and reward 1 to Player 3.
+If Player 2 chooses r, the game ends with reward 1 to Player 1, reward -1 to Player 2, and reward 1 to Player 3.
+
+If Player 1 chooses R, Player 3 moves next and chooses between l and r.
+If Player 3 chooses l, the game ends with reward 3 to Player 1, reward 1 to Player 2, and reward 0 to Player 3.
+If Player 3 chooses r, the game ends with reward 1 to Player 1, reward 1 to Player 2, and reward -1 to Player 3.
+
+If Player 1 chooses M, chance moves next and selects the left branch or the right branch with probability 1/2 each.
+On the left branch, Player 2 chooses between l and r.
+If the path is M, left branch, l, the outcome gives reward 3 to Player 1, reward 0 to Player 2, and reward 1 to Player 3.
+If the path is M, left branch, r, the outcome gives reward 1 to Player 1, reward -1 to Player 2, and reward 1 to Player 3.
+
+On the right branch, Player 3 chooses between l and r.
+If the path is M, right branch, l, the outcome gives reward 3 to Player 1, reward 1 to Player 2, and reward 0 to Player 3.
+If the path is M, right branch, r, the outcome gives reward 1 to Player 1, reward 1 to Player 2, and reward -1 to Player 3.

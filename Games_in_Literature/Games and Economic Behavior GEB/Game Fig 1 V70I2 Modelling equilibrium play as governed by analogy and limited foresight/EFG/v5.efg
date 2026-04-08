@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Robotics Trial V5" { "Lead Engineer" "Systems Operator" }
+""
+
+c "" 1 "" { "LabAlpha" 1/2 "LabBeta" 1/2 } 0
+p "" 1 1 "" { "LeftProtocol" "RightProtocol" } 0
+p "" 2 1 "" { "LoadRoutine" "ResetRoutine" } 0
+t "" 1 "LabAlpha_LeftProtocol_LoadRoutine" { 4, 2 }
+t "" 2 "LabAlpha_LeftProtocol_ResetRoutine" { 0, 0 }
+p "" 2 2 "" { "LoadRoutine" "ResetRoutine" } 0
+t "" 3 "LabAlpha_RightProtocol_LoadRoutine" { 0, 2 }
+t "" 4 "LabAlpha_RightProtocol_ResetRoutine" { 0, 0 }
+p "" 1 2 "" { "LeftProtocol" "RightProtocol" } 0
+p "" 2 3 "" { "LoadRoutine" "ResetRoutine" } 0
+t "" 5 "LabBeta_LeftProtocol_LoadRoutine" { 0, 2 }
+t "" 6 "LabBeta_LeftProtocol_ResetRoutine" { 0, 0 }
+p "" 2 4 "" { "UploadPatch" "DeployPatch" } 0
+t "" 7 "LabBeta_RightProtocol_UploadPatch" { 0, 0 }
+t "" 8 "LabBeta_RightProtocol_DeployPatch" { 3, 2 }

@@ -1,0 +1,23 @@
+V0 — Analogy Example
+
+Nature moves first and chooses between two possible starting situations, h1 and h2.
+Each of these occurs with probability 1/2.
+After that, Player 1 moves.
+
+If Nature chooses h1, Player 1 chooses between L and R.
+If Player 1 chooses L, Player 2 then chooses between l and r.
+If the path is h1, L, l, the outcome gives reward 4 to Player 1 and reward 2 to Player 2.
+If the path is h1, L, r, the outcome gives reward 0 to each player.
+
+If Nature chooses h1 and Player 1 chooses R, Player 2 again chooses between l and r.
+If the path is h1, R, l, the outcome gives reward 0 to Player 1 and reward 2 to Player 2.
+If the path is h1, R, r, the outcome gives reward 0 to each player.
+
+If Nature chooses h2, Player 1 again chooses between L and R.
+If Player 1 chooses L, Player 2 chooses between l and r.
+If the path is h2, L, l, the outcome gives reward 0 to Player 1 and reward 2 to Player 2.
+If the path is h2, L, r, the outcome gives reward 0 to each player.
+
+If Nature chooses h2 and Player 1 chooses R, Player 2 chooses between u and d.
+If the path is h2, R, u, the outcome gives reward 0 to each player.
+If the path is h2, R, d, the outcome gives reward 3 to Player 1 and reward 2 to Player 2.

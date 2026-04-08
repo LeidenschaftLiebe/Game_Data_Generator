@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Orchestra Setup V3" { "Conductor" "Concert Manager" }
+""
+
+c "" 1 "" { "HallOne" 1/2 "HallTwo" 1/2 } 0
+p "" 1 1 "" { "LeftProgram" "RightProgram" } 0
+p "" 2 1 "" { "LightRehearsal" "ResetStage" } 0
+t "" 1 "HallOne_LeftProgram_LightRehearsal" { 4, 2 }
+t "" 2 "HallOne_LeftProgram_ResetStage" { 0, 0 }
+p "" 2 2 "" { "LightRehearsal" "ResetStage" } 0
+t "" 3 "HallOne_RightProgram_LightRehearsal" { 0, 2 }
+t "" 4 "HallOne_RightProgram_ResetStage" { 0, 0 }
+p "" 1 2 "" { "LeftProgram" "RightProgram" } 0
+p "" 2 3 "" { "LightRehearsal" "ResetStage" } 0
+t "" 5 "HallTwo_LeftProgram_LightRehearsal" { 0, 2 }
+t "" 6 "HallTwo_LeftProgram_ResetStage" { 0, 0 }
+p "" 2 4 "" { "UpgradeAcoustics" "DimLights" } 0
+t "" 7 "HallTwo_RightProgram_UpgradeAcoustics" { 0, 0 }
+t "" 8 "HallTwo_RightProgram_DimLights" { 3, 2 }

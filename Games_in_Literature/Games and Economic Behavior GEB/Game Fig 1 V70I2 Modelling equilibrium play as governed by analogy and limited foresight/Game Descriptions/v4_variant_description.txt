@@ -1,0 +1,29 @@
+V4 — Desert Relay
+
+A relay team starts from either Dune Camp or Rock Camp.
+Each starting point occurs with probability 1/2.
+The team captain then chooses between Left Route (L) and Right Route (R).
+
+If the team starts from Dune Camp and the captain chooses Left Route (L),
+the navigator chooses between Lead March (l) and Retreat Marker (r).
+If the path is Dune Camp, Left Route (L), Lead March (l),
+the outcome gives reward 4 to the captain and reward 2 to the navigator.
+If the path is Dune Camp, Left Route (L), Retreat Marker (r), the outcome gives reward 0 to each player.
+
+If the team starts from Dune Camp and the captain chooses Right Route (R),
+the navigator again chooses between Lead March (l) and Retreat Marker (r).
+If the path is Dune Camp, Right Route (R), Lead March (l),
+the outcome gives reward 0 to the captain and reward 2 to the navigator.
+If the path is Dune Camp, Right Route (R), Retreat Marker (r), the outcome gives reward 0 to each player.
+
+If the team starts from Rock Camp and the captain chooses Left Route (L),
+the navigator chooses between Lead March (l) and Retreat Marker (r).
+If the path is Rock Camp, Left Route (L), Lead March (l),
+the outcome gives reward 0 to the captain and reward 2 to the navigator.
+If the path is Rock Camp, Left Route (L), Retreat Marker (r), the outcome gives reward 0 to each player.
+
+If the team starts from Rock Camp and the captain chooses Right Route (R),
+the navigator chooses between Use Ramp (u) and Dig Through (d).
+If the path is Rock Camp, Right Route (R), Use Ramp (u), the outcome gives reward 0 to each player.
+If the path is Rock Camp, Right Route (R), Dig Through (d),
+the outcome gives reward 3 to the captain and reward 2 to the navigator.

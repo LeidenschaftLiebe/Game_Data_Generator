@@ -1,0 +1,29 @@
+V5 — Robotics Trial
+
+A robot is tested in either Lab Alpha or Lab Beta.
+Each lab occurs with probability 1/2.
+The lead engineer then chooses between Left Protocol (L) and Right Protocol (R).
+
+If the robot is tested in Lab Alpha and the engineer chooses Left Protocol (L),
+the systems operator chooses between Load Routine (l) and Reset Routine (r).
+If the path is Lab Alpha, Left Protocol (L), Load Routine (l),
+the outcome gives reward 4 to the engineer and reward 2 to the operator.
+If the path is Lab Alpha, Left Protocol (L), Reset Routine (r), the outcome gives reward 0 to each player.
+
+If the robot is tested in Lab Alpha and the engineer chooses Right Protocol (R),
+the operator again chooses between Load Routine (l) and Reset Routine (r).
+If the path is Lab Alpha, Right Protocol (R), Load Routine (l),
+the outcome gives reward 0 to the engineer and reward 2 to the operator.
+If the path is Lab Alpha, Right Protocol (R), Reset Routine (r), the outcome gives reward 0 to each player.
+
+If the robot is tested in Lab Beta and the engineer chooses Left Protocol (L),
+the operator chooses between Load Routine (l) and Reset Routine (r).
+If the path is Lab Beta, Left Protocol (L), Load Routine (l),
+the outcome gives reward 0 to the engineer and reward 2 to the operator.
+If the path is Lab Beta, Left Protocol (L), Reset Routine (r), the outcome gives reward 0 to each player.
+
+If the robot is tested in Lab Beta and the engineer chooses Right Protocol (R),
+the operator chooses between Upload Patch (u) and Deploy Patch (d).
+If the path is Lab Beta, Right Protocol (R), Upload Patch (u), the outcome gives reward 0 to each player.
+If the path is Lab Beta, Right Protocol (R), Deploy Patch (d),
+the outcome gives reward 3 to the engineer and reward 2 to the operator.

@@ -1,0 +1,29 @@
+V2 — Glacier Survey
+
+A survey mission begins in either Ice Shelf A or Ice Shelf B.
+Each starting point occurs with probability 1/2.
+After that, the expedition head chooses between Left Traverse (L) and Right Traverse (R).
+
+If the mission starts at Ice Shelf A and the head chooses Left Traverse (L),
+the data specialist chooses between Log Reading (l) and Return Early (r).
+If the path is Ice Shelf A, Left Traverse (L), Log Reading (l),
+the outcome gives reward 4 to the expedition head and reward 2 to the specialist.
+If the path is Ice Shelf A, Left Traverse (L), Return Early (r), the outcome gives reward 0 to each player.
+
+If the mission starts at Ice Shelf A and the head chooses Right Traverse (R),
+the specialist again chooses between Log Reading (l) and Return Early (r).
+If the path is Ice Shelf A, Right Traverse (R), Log Reading (l),
+the outcome gives reward 0 to the head and reward 2 to the specialist.
+If the path is Ice Shelf A, Right Traverse (R), Return Early (r), the outcome gives reward 0 to each player.
+
+If the mission starts at Ice Shelf B and the head chooses Left Traverse (L),
+the specialist chooses between Log Reading (l) and Return Early (r).
+If the path is Ice Shelf B, Left Traverse (L), Log Reading (l),
+the outcome gives reward 0 to the head and reward 2 to the specialist.
+If the path is Ice Shelf B, Left Traverse (L), Return Early (r), the outcome gives reward 0 to each player.
+
+If the mission starts at Ice Shelf B and the head chooses Right Traverse (R),
+the specialist chooses between Climb Ridge (u) and Drop Beacon (d).
+If the path is Ice Shelf B, Right Traverse (R), Climb Ridge (u), the outcome gives reward 0 to each player.
+If the path is Ice Shelf B, Right Traverse (R), Drop Beacon (d),
+the outcome gives reward 3 to the head and reward 2 to the specialist.

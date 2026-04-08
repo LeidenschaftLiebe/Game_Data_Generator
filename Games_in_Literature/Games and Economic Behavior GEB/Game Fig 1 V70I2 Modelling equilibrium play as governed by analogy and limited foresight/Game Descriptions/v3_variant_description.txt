@@ -1,0 +1,29 @@
+V3 — Orchestra Setup
+
+An orchestra arrives in either Hall One or Hall Two.
+Each hall is chosen with probability 1/2.
+The conductor then chooses between Left Program (L) and Right Program (R).
+
+If the orchestra is in Hall One and the conductor chooses Left Program (L),
+the concert manager chooses between Light Rehearsal (l) and Reset Stage (r).
+If the path is Hall One, Left Program (L), Light Rehearsal (l),
+the outcome gives reward 4 to the conductor and reward 2 to the manager.
+If the path is Hall One, Left Program (L), Reset Stage (r), the outcome gives reward 0 to each player.
+
+If the orchestra is in Hall One and the conductor chooses Right Program (R),
+the manager again chooses between Light Rehearsal (l) and Reset Stage (r).
+If the path is Hall One, Right Program (R), Light Rehearsal (l),
+the outcome gives reward 0 to the conductor and reward 2 to the manager.
+If the path is Hall One, Right Program (R), Reset Stage (r), the outcome gives reward 0 to each player.
+
+If the orchestra is in Hall Two and the conductor chooses Left Program (L),
+the manager chooses between Light Rehearsal (l) and Reset Stage (r).
+If the path is Hall Two, Left Program (L), Light Rehearsal (l),
+the outcome gives reward 0 to the conductor and reward 2 to the manager.
+If the path is Hall Two, Left Program (L), Reset Stage (r), the outcome gives reward 0 to each player.
+
+If the orchestra is in Hall Two and the conductor chooses Right Program (R),
+the manager chooses between Upgrade Acoustics (u) and Dim Lights (d).
+If the path is Hall Two, Right Program (R), Upgrade Acoustics (u), the outcome gives reward 0 to each player.
+If the path is Hall Two, Right Program (R), Dim Lights (d),
+the outcome gives reward 3 to the conductor and reward 2 to the manager.

@@ -1,0 +1,29 @@
+V1 — Salvage Route
+
+A recovery team is dropped into one of two field conditions, North Sector or South Sector.
+Each condition occurs with probability 1/2.
+After seeing the condition, the route leader chooses between Left Passage (L) and Right Passage (R).
+
+If the team is in North Sector and the leader chooses Left Passage (L),
+the extraction officer chooses between Lift Cargo (l) and Retreat (r).
+If the path is North Sector, Left Passage (L), Lift Cargo (l),
+the outcome gives reward 4 to the route leader and reward 2 to the extraction officer.
+If the path is North Sector, Left Passage (L), Retreat (r), the outcome gives reward 0 to each player.
+
+If the team is in North Sector and the leader chooses Right Passage (R),
+the extraction officer again chooses between Lift Cargo (l) and Retreat (r).
+If the path is North Sector, Right Passage (R), Lift Cargo (l),
+the outcome gives reward 0 to the leader and reward 2 to the officer.
+If the path is North Sector, Right Passage (R), Retreat (r), the outcome gives reward 0 to each player.
+
+If the team is in South Sector and the leader chooses Left Passage (L),
+the extraction officer chooses between Lift Cargo (l) and Retreat (r).
+If the path is South Sector, Left Passage (L), Lift Cargo (l),
+the outcome gives reward 0 to the leader and reward 2 to the officer.
+If the path is South Sector, Left Passage (L), Retreat (r), the outcome gives reward 0 to each player.
+
+If the team is in South Sector and the leader chooses Right Passage (R),
+the extraction officer chooses between Ascend Rope (u) and Descend Shaft (d).
+If the path is South Sector, Right Passage (R), Ascend Rope (u), the outcome gives reward 0 to each player.
+If the path is South Sector, Right Passage (R), Descend Shaft (d),
+the outcome gives reward 3 to the leader and reward 2 to the officer.

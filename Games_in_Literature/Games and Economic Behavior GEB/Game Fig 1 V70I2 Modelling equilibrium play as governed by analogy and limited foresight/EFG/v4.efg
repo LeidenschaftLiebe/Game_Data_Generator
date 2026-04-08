@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Desert Relay V4" { "Team Captain" "Navigator" }
+""
+
+c "" 1 "" { "DuneCamp" 1/2 "RockCamp" 1/2 } 0
+p "" 1 1 "" { "LeftRoute" "RightRoute" } 0
+p "" 2 1 "" { "LeadMarch" "RetreatMarker" } 0
+t "" 1 "DuneCamp_LeftRoute_LeadMarch" { 4, 2 }
+t "" 2 "DuneCamp_LeftRoute_RetreatMarker" { 0, 0 }
+p "" 2 2 "" { "LeadMarch" "RetreatMarker" } 0
+t "" 3 "DuneCamp_RightRoute_LeadMarch" { 0, 2 }
+t "" 4 "DuneCamp_RightRoute_RetreatMarker" { 0, 0 }
+p "" 1 2 "" { "LeftRoute" "RightRoute" } 0
+p "" 2 3 "" { "LeadMarch" "RetreatMarker" } 0
+t "" 5 "RockCamp_LeftRoute_LeadMarch" { 0, 2 }
+t "" 6 "RockCamp_LeftRoute_RetreatMarker" { 0, 0 }
+p "" 2 4 "" { "UseRamp" "DigThrough" } 0
+t "" 7 "RockCamp_RightRoute_UseRamp" { 0, 0 }
+t "" 8 "RockCamp_RightRoute_DigThrough" { 3, 2 }

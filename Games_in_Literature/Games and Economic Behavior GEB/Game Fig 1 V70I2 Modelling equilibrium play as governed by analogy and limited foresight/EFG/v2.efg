@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Glacier Survey V2" { "Expedition Head" "Data Specialist" }
+""
+
+c "" 1 "" { "IceShelfA" 1/2 "IceShelfB" 1/2 } 0
+p "" 1 1 "" { "LeftTraverse" "RightTraverse" } 0
+p "" 2 1 "" { "LogReading" "ReturnEarly" } 0
+t "" 1 "IceShelfA_LeftTraverse_LogReading" { 4, 2 }
+t "" 2 "IceShelfA_LeftTraverse_ReturnEarly" { 0, 0 }
+p "" 2 2 "" { "LogReading" "ReturnEarly" } 0
+t "" 3 "IceShelfA_RightTraverse_LogReading" { 0, 2 }
+t "" 4 "IceShelfA_RightTraverse_ReturnEarly" { 0, 0 }
+p "" 1 2 "" { "LeftTraverse" "RightTraverse" } 0
+p "" 2 3 "" { "LogReading" "ReturnEarly" } 0
+t "" 5 "IceShelfB_LeftTraverse_LogReading" { 0, 2 }
+t "" 6 "IceShelfB_LeftTraverse_ReturnEarly" { 0, 0 }
+p "" 2 4 "" { "ClimbRidge" "DropBeacon" } 0
+t "" 7 "IceShelfB_RightTraverse_ClimbRidge" { 0, 0 }
+t "" 8 "IceShelfB_RightTraverse_DropBeacon" { 3, 2 }

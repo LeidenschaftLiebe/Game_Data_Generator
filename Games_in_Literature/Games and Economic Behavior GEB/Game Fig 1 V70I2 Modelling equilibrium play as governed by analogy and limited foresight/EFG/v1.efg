@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Salvage Route V1" { "Route Leader" "Extraction Officer" }
+""
+
+c "" 1 "" { "NorthSector" 1/2 "SouthSector" 1/2 } 0
+p "" 1 1 "" { "LeftPassage" "RightPassage" } 0
+p "" 2 1 "" { "LiftCargo" "Retreat" } 0
+t "" 1 "NorthSector_LeftPassage_LiftCargo" { 4, 2 }
+t "" 2 "NorthSector_LeftPassage_Retreat" { 0, 0 }
+p "" 2 2 "" { "LiftCargo" "Retreat" } 0
+t "" 3 "NorthSector_RightPassage_LiftCargo" { 0, 2 }
+t "" 4 "NorthSector_RightPassage_Retreat" { 0, 0 }
+p "" 1 2 "" { "LeftPassage" "RightPassage" } 0
+p "" 2 3 "" { "LiftCargo" "Retreat" } 0
+t "" 5 "SouthSector_LeftPassage_LiftCargo" { 0, 2 }
+t "" 6 "SouthSector_LeftPassage_Retreat" { 0, 0 }
+p "" 2 4 "" { "AscendRope" "DescendShaft" } 0
+t "" 7 "SouthSector_RightPassage_AscendRope" { 0, 0 }
+t "" 8 "SouthSector_RightPassage_DescendShaft" { 3, 2 }

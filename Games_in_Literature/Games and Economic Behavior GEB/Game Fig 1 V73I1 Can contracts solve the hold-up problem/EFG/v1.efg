@@ -1,0 +1,16 @@
+EFG 2 R "GEB Film Rights V1" { "Producer" "Distributor" }
+""
+
+p "" 1 1 "" { "AcceptContract" "DeclineContract" } 0
+p "" 2 1 "" { "AcceptContract" "DeclineContract" } 0
+p "" 1 2 "" { "BasicEdit" "PremiumEdit" } 0
+p "" 2 2 "" { "ReleaseRights" "PassRights" } 0
+t "" 4 "AcceptContract_AcceptContract_BasicEdit_ReleaseRights" { 15, -5 }
+t "" 5 "AcceptContract_AcceptContract_BasicEdit_PassRights" { 0, 0 }
+p "" 2 3 "" { "ReleaseRights" "PassRights" } 0
+t "" 6 "AcceptContract_AcceptContract_PremiumEdit_ReleaseRights" { 7, 7 }
+t "" 7 "AcceptContract_AcceptContract_PremiumEdit_PassRights" { -8, 0 }
+t "" 3 "producer_accept_distributor_decline" { 0, 0 }
+p "" 2 1 "" { "AcceptContract" "DeclineContract" } 0
+t "" 1 "producer_decline_distributor_accept" { 0, 0 }
+t "" 2 "producer_decline_distributor_decline" { 0, 0 }

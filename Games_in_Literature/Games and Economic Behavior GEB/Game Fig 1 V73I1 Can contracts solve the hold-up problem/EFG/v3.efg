@@ -1,0 +1,16 @@
+EFG 2 R "GEB Archive License V3" { "Archive Lab" "Publisher" }
+""
+
+p "" 1 1 "" { "SignOption" "DoNotSign" } 0
+p "" 2 1 "" { "SignOption" "DoNotSign" } 0
+p "" 1 2 "" { "LightRestoration" "DeepRestoration" } 0
+p "" 2 2 "" { "ActivateLicense" "DoNotActivate" } 0
+t "" 4 "SignOption_SignOption_LightRestoration_ActivateLicense" { 15, -5 }
+t "" 5 "SignOption_SignOption_LightRestoration_DoNotActivate" { 0, 0 }
+p "" 2 3 "" { "ActivateLicense" "DoNotActivate" } 0
+t "" 6 "SignOption_SignOption_DeepRestoration_ActivateLicense" { 7, 7 }
+t "" 7 "SignOption_SignOption_DeepRestoration_DoNotActivate" { -8, 0 }
+t "" 3 "lab_sign_publisher_no" { 0, 0 }
+p "" 2 1 "" { "SignOption" "DoNotSign" } 0
+t "" 1 "lab_no_publisher_sign" { 0, 0 }
+t "" 2 "lab_no_publisher_no" { 0, 0 }

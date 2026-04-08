@@ -1,0 +1,20 @@
+V1 — Film Rights
+
+There are two sides in a film deal, a Producer and a Distributor.
+First, both sides decide whether to accept a distribution option.
+
+If either side says Decline Contract (no), the process ends immediately with reward 0 to each side.
+If both sides say Accept Contract (yes), the Producer chooses the preparation level.
+
+The Producer then chooses between Basic Edit (e = 0) and Premium Edit (e = 8).
+After seeing the preparation level, the Distributor chooses between Release Rights (exercise) and Pass Rights (not exercise).
+
+If the path is Accept Contract (yes), Accept Contract (yes), Basic Edit (e = 0), Release Rights (exercise), 
+the outcome gives reward 15 to the Producer and reward -5 to the Distributor.
+If the path is Accept Contract (yes), Accept Contract (yes), Basic Edit (e = 0), Pass Rights (not exercise), 
+the outcome gives reward 0 to the Producer and reward 0 to the Distributor.
+
+If the path is Accept Contract (yes), Accept Contract (yes), Premium Edit (e = 8), Release Rights (exercise), 
+the outcome gives reward 7 to the Producer and reward 7 to the Distributor.
+If the path is Accept Contract (yes), Accept Contract (yes), Premium Edit (e = 8), Pass Rights (not exercise), 
+the outcome gives reward -8 to the Producer and reward 0 to the Distributor.

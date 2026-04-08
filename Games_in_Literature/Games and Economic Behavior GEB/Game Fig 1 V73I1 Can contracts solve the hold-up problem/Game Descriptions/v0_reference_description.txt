@@ -1,0 +1,16 @@
+V0 — Option Contract
+
+There are two players, Seller and Buyer.
+First, both players decide whether to accept the option contract.
+
+If either player says no, the game ends immediately with reward 0 to each player.
+If both players say yes, the Seller chooses the investment level.
+
+The Seller then chooses between e = 0 and e = 8.
+After observing the investment, the Buyer chooses between exercise and not exercise.
+
+If the path is yes, yes, e = 0, exercise, the outcome gives reward 15 to the Seller and reward -5 to the Buyer.
+If the path is yes, yes, e = 0, not exercise, the outcome gives reward 0 to the Seller and reward 0 to the Buyer.
+
+If the path is yes, yes, e = 8, exercise, the outcome gives reward 7 to the Seller and reward 7 to the Buyer.
+If the path is yes, yes, e = 8, not exercise, the outcome gives reward -8 to the Seller and reward 0 to the Buyer.

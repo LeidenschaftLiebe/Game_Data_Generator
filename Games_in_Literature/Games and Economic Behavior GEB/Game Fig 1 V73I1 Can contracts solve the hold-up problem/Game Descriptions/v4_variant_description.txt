@@ -1,0 +1,20 @@
+V4 — Medical Device Trial
+
+There are two sides in a medical project, a Device Maker and a Hospital Group.
+First, both sides decide whether to accept a trial option.
+
+If either side says Reject Trial (no), the process ends immediately with reward 0 to each side.
+If both sides say Accept Trial (yes), the Device Maker chooses the development level.
+
+The Device Maker then chooses between Standard Build (e = 0) and Enhanced Build (e = 8).
+After observing the development level, the Hospital Group chooses between Run Trial (exercise) and Do Not Run Trial (not exercise).
+
+If the path is Accept Trial (yes), Accept Trial (yes), Standard Build (e = 0), Run Trial (exercise), 
+the outcome gives reward 15 to the Device Maker and reward -5 to the Hospital Group.
+If the path is Accept Trial (yes), Accept Trial (yes), Standard Build (e = 0), Do Not Run Trial (not exercise), 
+the outcome gives reward 0 to the Device Maker and reward 0 to the Hospital Group.
+
+If the path is Accept Trial (yes), Accept Trial (yes), Enhanced Build (e = 8), Run Trial (exercise), 
+the outcome gives reward 7 to the Device Maker and reward 7 to the Hospital Group.
+If the path is Accept Trial (yes), Accept Trial (yes), Enhanced Build (e = 8), Do Not Run Trial (not exercise), 
+the outcome gives reward -8 to the Device Maker and reward 0 to the Hospital Group.

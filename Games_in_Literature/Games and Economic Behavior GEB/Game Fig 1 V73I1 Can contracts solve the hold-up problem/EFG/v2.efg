@@ -1,0 +1,16 @@
+EFG 2 R "GEB Harbor Lease V2" { "Dock Owner" "Shipping Firm" }
+""
+
+p "" 1 1 "" { "AcceptLease" "RejectLease" } 0
+p "" 2 1 "" { "AcceptLease" "RejectLease" } 0
+p "" 1 2 "" { "NoUpgrade" "HarborUpgrade" } 0
+p "" 2 2 "" { "UseLease" "SkipLease" } 0
+t "" 4 "AcceptLease_AcceptLease_NoUpgrade_UseLease" { 15, -5 }
+t "" 5 "AcceptLease_AcceptLease_NoUpgrade_SkipLease" { 0, 0 }
+p "" 2 3 "" { "UseLease" "SkipLease" } 0
+t "" 6 "AcceptLease_AcceptLease_HarborUpgrade_UseLease" { 7, 7 }
+t "" 7 "AcceptLease_AcceptLease_HarborUpgrade_SkipLease" { -8, 0 }
+t "" 3 "owner_accept_firm_reject" { 0, 0 }
+p "" 2 1 "" { "AcceptLease" "RejectLease" } 0
+t "" 1 "owner_reject_firm_accept" { 0, 0 }
+t "" 2 "owner_reject_firm_reject" { 0, 0 }

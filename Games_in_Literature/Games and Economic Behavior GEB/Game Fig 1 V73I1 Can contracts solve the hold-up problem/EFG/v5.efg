@@ -1,0 +1,16 @@
+EFG 2 R "GEB Stadium Booking V5" { "Venue Owner" "Concert Promoter" }
+""
+
+p "" 1 1 "" { "AcceptBooking" "RejectBooking" } 0
+p "" 2 1 "" { "AcceptBooking" "RejectBooking" } 0
+p "" 1 2 "" { "BasicSetup" "FullSetup" } 0
+p "" 2 2 "" { "UseBooking" "DropBooking" } 0
+t "" 4 "AcceptBooking_AcceptBooking_BasicSetup_UseBooking" { 15, -5 }
+t "" 5 "AcceptBooking_AcceptBooking_BasicSetup_DropBooking" { 0, 0 }
+p "" 2 3 "" { "UseBooking" "DropBooking" } 0
+t "" 6 "AcceptBooking_AcceptBooking_FullSetup_UseBooking" { 7, 7 }
+t "" 7 "AcceptBooking_AcceptBooking_FullSetup_DropBooking" { -8, 0 }
+t "" 3 "owner_accept_promoter_reject" { 0, 0 }
+p "" 2 1 "" { "AcceptBooking" "RejectBooking" } 0
+t "" 1 "owner_reject_promoter_accept" { 0, 0 }
+t "" 2 "owner_reject_promoter_reject" { 0, 0 }

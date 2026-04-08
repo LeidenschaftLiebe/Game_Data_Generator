@@ -1,0 +1,16 @@
+EFG 2 R "GEB Medical Device Trial V4" { "Device Maker" "Hospital Group" }
+""
+
+p "" 1 1 "" { "AcceptTrial" "RejectTrial" } 0
+p "" 2 1 "" { "AcceptTrial" "RejectTrial" } 0
+p "" 1 2 "" { "StandardBuild" "EnhancedBuild" } 0
+p "" 2 2 "" { "RunTrial" "DoNotRunTrial" } 0
+t "" 4 "AcceptTrial_AcceptTrial_StandardBuild_RunTrial" { 15, -5 }
+t "" 5 "AcceptTrial_AcceptTrial_StandardBuild_DoNotRunTrial" { 0, 0 }
+p "" 2 3 "" { "RunTrial" "DoNotRunTrial" } 0
+t "" 6 "AcceptTrial_AcceptTrial_EnhancedBuild_RunTrial" { 7, 7 }
+t "" 7 "AcceptTrial_AcceptTrial_EnhancedBuild_DoNotRunTrial" { -8, 0 }
+t "" 3 "maker_accept_hospital_reject" { 0, 0 }
+p "" 2 1 "" { "AcceptTrial" "RejectTrial" } 0
+t "" 1 "maker_reject_hospital_accept" { 0, 0 }
+t "" 2 "maker_reject_hospital_reject" { 0, 0 }

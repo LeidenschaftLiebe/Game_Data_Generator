@@ -1,0 +1,7 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+1) Check the move order: Seller moves first, then Buyer decides whether to accept; 
+if both accept, Seller chooses the investment level, then Buyer decides whether to exercise.
+2) Check the anchor payoff: the outcome after yes -> yes -> e8 -> exercise is (7, 7).

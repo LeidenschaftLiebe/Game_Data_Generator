@@ -1,0 +1,20 @@
+V2 — Harbor Lease
+
+There are two sides in a port agreement, a Dock Owner and a Shipping Firm.
+First, both sides decide whether to accept a temporary lease option.
+
+If either side says Reject Lease (no), the process ends immediately with reward 0 to each side.
+If both sides say Accept Lease (yes), the Dock Owner chooses the upgrade level.
+
+The Dock Owner then chooses between No Upgrade (e = 0) and Harbor Upgrade (e = 8).
+After observing the upgrade, the Shipping Firm chooses between Use Lease (exercise) and Skip Lease (not exercise).
+
+If the path is Accept Lease (yes), Accept Lease (yes), No Upgrade (e = 0), Use Lease (exercise), 
+the outcome gives reward 15 to the Dock Owner and reward -5 to the Shipping Firm.
+If the path is Accept Lease (yes), Accept Lease (yes), No Upgrade (e = 0), Skip Lease (not exercise), 
+the outcome gives reward 0 to the Dock Owner and reward 0 to the Shipping Firm.
+
+If the path is Accept Lease (yes), Accept Lease (yes), Harbor Upgrade (e = 8), Use Lease (exercise), 
+the outcome gives reward 7 to the Dock Owner and reward 7 to the Shipping Firm.
+If the path is Accept Lease (yes), Accept Lease (yes), Harbor Upgrade (e = 8), Skip Lease (not exercise), 
+the outcome gives reward -8 to the Dock Owner and reward 0 to the Shipping Firm.

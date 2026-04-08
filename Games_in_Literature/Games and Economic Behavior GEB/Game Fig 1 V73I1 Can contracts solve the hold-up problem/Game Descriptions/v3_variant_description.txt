@@ -1,0 +1,20 @@
+V3 — Archive License
+
+There are two sides in a document project, an Archive Lab and a Publisher.
+First, both sides decide whether to accept a publishing option.
+
+If either side says Do Not Sign (no), the process ends immediately with reward 0 to each side.
+If both sides say Sign Option (yes), the Archive Lab chooses the restoration level.
+
+The Archive Lab then chooses between Light Restoration (e = 0) and Deep Restoration (e = 8).
+After seeing the restoration level, the Publisher chooses between Activate License (exercise) and Do Not Activate (not exercise).
+
+If the path is Sign Option (yes), Sign Option (yes), Light Restoration (e = 0), Activate License (exercise), 
+the outcome gives reward 15 to the Archive Lab and reward -5 to the Publisher.
+If the path is Sign Option (yes), Sign Option (yes), Light Restoration (e = 0), Do Not Activate (not exercise), 
+the outcome gives reward 0 to the Archive Lab and reward 0 to the Publisher.
+
+If the path is Sign Option (yes), Sign Option (yes), Deep Restoration (e = 8), Activate License (exercise), 
+the outcome gives reward 7 to the Archive Lab and reward 7 to the Publisher.
+If the path is Sign Option (yes), Sign Option (yes), Deep Restoration (e = 8), Do Not Activate (not exercise), 
+the outcome gives reward -8 to the Archive Lab and reward 0 to the Publisher.

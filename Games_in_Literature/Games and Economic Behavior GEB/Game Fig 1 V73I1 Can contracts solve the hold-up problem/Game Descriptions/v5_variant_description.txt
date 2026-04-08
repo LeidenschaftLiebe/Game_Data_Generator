@@ -1,0 +1,20 @@
+V5 — Stadium Booking
+
+There are two sides in an event project, a Venue Owner and a Concert Promoter.
+First, both sides decide whether to accept a booking option.
+
+If either side says Reject Booking (no), the process ends immediately with reward 0 to each side.
+If both sides say Accept Booking (yes), the Venue Owner chooses the preparation level.
+
+The Venue Owner then chooses between Basic Setup (e = 0) and Full Setup (e = 8).
+After seeing the preparation level, the Concert Promoter chooses between Use Booking (exercise) and Drop Booking (not exercise).
+
+If the path is Accept Booking (yes), Accept Booking (yes), Basic Setup (e = 0), Use Booking (exercise), 
+the outcome gives reward 15 to the Venue Owner and reward -5 to the Concert Promoter.
+If the path is Accept Booking (yes), Accept Booking (yes), Basic Setup (e = 0), Drop Booking (not exercise), 
+the outcome gives reward 0 to the Venue Owner and reward 0 to the Concert Promoter.
+
+If the path is Accept Booking (yes), Accept Booking (yes), Full Setup (e = 8), Use Booking (exercise), 
+the outcome gives reward 7 to the Venue Owner and reward 7 to the Concert Promoter.
+If the path is Accept Booking (yes), Accept Booking (yes), Full Setup (e = 8), Drop Booking (not exercise), 
+the outcome gives reward -8 to the Venue Owner and reward 0 to the Concert Promoter.

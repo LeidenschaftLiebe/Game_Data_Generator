@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 7(a) Modified Selten's Horse V0" { "Player 1" "Player 2" "Player 3" }
+""
+
+p "" 1 1 "" { "T" "NotT" } 0
+p "" 3 1 "" { "U" "D" } 0
+t "" 3 "T_U" { 3, 1, 1 }
+t "" 4 "T_D" { 0, 0, 0 }
+p "" 2 1 "" { "L" "R" } 0
+p "" 1 2 "" { "B" "M" } 0
+t "" 2 "NotT_L_B" { 2, 0, 0 }
+p "" 3 1 "" { "U" "D" } 0
+t "" 5 "NotT_L_M_U" { 0, 0, 0 }
+t "" 6 "NotT_L_M_D" { 1, 1, 1 }
+t "" 1 "NotT_R" { 1, 2, 2 }

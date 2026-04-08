@@ -1,0 +1,31 @@
+V1 — Museum Exhibit
+
+A museum director is deciding how to handle a new exhibit.
+The director first chooses between Open Immediately (T) and Delay Opening (Not T).
+
+If the director chooses Open Immediately (T), the public reviewer moves later.
+If the director chooses Delay Opening (Not T), the operations head moves next and chooses between
+Run Final Check (L) and Approve Release (R).
+
+If the operations head chooses Approve Release (R), the process ends immediately with reward 1 to the director,
+reward 2 to the operations head, and reward 2 to the reviewer.
+
+If the operations head chooses Run Final Check (L), the director moves again and chooses between
+Box the Exhibit (B) and Make Revisions (M).
+If the director chooses Box the Exhibit (B), the process ends immediately with reward 2 to the director,
+reward 0 to the operations head, and reward 0 to the reviewer.
+
+If the director chooses Make Revisions (M), the reviewer then moves.
+
+When the reviewer moves, the reviewer cannot tell whether the earlier path was
+Open Immediately (T) or Delay Opening (Not T), Run Final Check (L), Make Revisions (M).
+The reviewer then chooses between Praise It (U) and Dismiss It (D).
+
+If the path is Open Immediately (T), Praise It (U), the outcome gives reward 3 to the director,
+reward 1 to the operations head, and reward 1 to the reviewer.
+If the path is Open Immediately (T), Dismiss It (D), the outcome gives reward 0 to all three players.
+
+If the path is Delay Opening (Not T), Run Final Check (L), Make Revisions (M), Praise It (U),
+the outcome gives reward 0 to all three players.
+If the path is Delay Opening (Not T), Run Final Check (L), Make Revisions (M), Dismiss It (D),
+the outcome gives reward 1 to each player.

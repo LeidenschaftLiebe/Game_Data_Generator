@@ -1,0 +1,31 @@
+V5 — Vineyard Harvest
+
+A vineyard owner is deciding how to handle the start of harvest.
+The owner first chooses between Harvest Today (T) and Not Today (Not T).
+
+If the owner chooses Harvest Today (T), the tasting judge moves later.
+If the owner chooses Not Today (Not T), the field supervisor moves next and chooses between
+Light Sorting (L) and Release Grapes (R).
+
+If the field supervisor chooses Release Grapes (R), the process ends immediately with reward 1 to the owner,
+reward 2 to the supervisor, and reward 2 to the judge.
+
+If the field supervisor chooses Light Sorting (L), the owner moves again and chooses between
+Bottle Early (B) and Mature Longer (M).
+If the owner chooses Bottle Early (B), the process ends immediately with reward 2 to the owner,
+reward 0 to the supervisor, and reward 0 to the judge.
+
+If the owner chooses Mature Longer (M), the judge then moves.
+
+When the judge moves, the judge cannot tell whether the earlier path was
+Harvest Today (T) or Not Today (Not T), Light Sorting (L), Mature Longer (M).
+The judge then chooses between Upgrade Rating (U) and Downgrade Rating (D).
+
+If the path is Harvest Today (T), Upgrade Rating (U), the outcome gives reward 3 to the owner,
+reward 1 to the supervisor, and reward 1 to the judge.
+If the path is Harvest Today (T), Downgrade Rating (D), the outcome gives reward 0 to all three players.
+
+If the path is Not Today (Not T), Light Sorting (L), Mature Longer (M), Upgrade Rating (U),
+the outcome gives reward 0 to all three players.
+If the path is Not Today (Not T), Light Sorting (L), Mature Longer (M), Downgrade Rating (D),
+the outcome gives reward 1 to each player.

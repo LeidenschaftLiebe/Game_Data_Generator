@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 7(a) Vineyard Harvest V5" { "Vineyard Owner" "Field Supervisor" "Tasting Judge" }
+""
+
+p "" 1 1 "" { "HarvestToday" "NotToday" } 0
+p "" 3 1 "" { "UpgradeRating" "DowngradeRating" } 0
+t "" 3 "HarvestToday_UpgradeRating" { 3, 1, 1 }
+t "" 4 "HarvestToday_DowngradeRating" { 0, 0, 0 }
+p "" 2 1 "" { "LightSorting" "ReleaseGrapes" } 0
+p "" 1 2 "" { "BottleEarly" "MatureLonger" } 0
+t "" 2 "NotToday_LightSorting_BottleEarly" { 2, 0, 0 }
+p "" 3 1 "" { "UpgradeRating" "DowngradeRating" } 0
+t "" 5 "NotToday_LightSorting_MatureLonger_UpgradeRating" { 0, 0, 0 }
+t "" 6 "NotToday_LightSorting_MatureLonger_DowngradeRating" { 1, 1, 1 }
+t "" 1 "NotToday_ReleaseGrapes" { 1, 2, 2 }

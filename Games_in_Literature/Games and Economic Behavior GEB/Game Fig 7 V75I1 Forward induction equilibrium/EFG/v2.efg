@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 7(a) Dam Inspection V2" { "Chief Engineer" "Site Manager" "Outside Inspector" }
+""
+
+p "" 1 1 "" { "ProceedNow" "DoNotProceedYet" } 0
+p "" 3 1 "" { "ClearIt" "DelayIt" } 0
+t "" 3 "ProceedNow_ClearIt" { 3, 1, 1 }
+t "" 4 "ProceedNow_DelayIt" { 0, 0, 0 }
+p "" 2 1 "" { "LimitedReview" "ReleaseApproval" } 0
+p "" 1 2 "" { "BlockWork" "ModifyPlan" } 0
+t "" 2 "DoNotProceedYet_LimitedReview_BlockWork" { 2, 0, 0 }
+p "" 3 1 "" { "ClearIt" "DelayIt" } 0
+t "" 5 "DoNotProceedYet_LimitedReview_ModifyPlan_ClearIt" { 0, 0, 0 }
+t "" 6 "DoNotProceedYet_LimitedReview_ModifyPlan_DelayIt" { 1, 1, 1 }
+t "" 1 "DoNotProceedYet_ReleaseApproval" { 1, 2, 2 }

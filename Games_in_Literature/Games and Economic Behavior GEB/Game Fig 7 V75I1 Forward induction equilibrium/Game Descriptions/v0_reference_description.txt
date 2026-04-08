@@ -1,0 +1,25 @@
+V0 — Modified Selten’s Horse
+
+There are three players.
+Player 1 moves first and chooses between T and Not T.
+
+If Player 1 chooses T, Player 3 moves later.
+If Player 1 chooses Not T, Player 2 moves next and chooses between L and R.
+
+If Player 2 chooses R, the game ends immediately with reward 1 to Player 1, reward 2 to Player 2,
+and reward 2 to Player 3.
+
+If Player 2 chooses L, Player 1 moves again and chooses between B and M.
+If Player 1 chooses B, the game ends immediately with reward 2 to Player 1, reward 0 to Player 2,
+and reward 0 to Player 3.
+
+If Player 1 chooses M, then Player 3 moves.
+
+When Player 3 moves, Player 3 cannot tell whether the earlier path was T or Not T, L, M.
+So Player 3 chooses between U and D without knowing which of those two decision points has been reached.
+
+If the path is T, U, the outcome gives reward 3 to Player 1, reward 1 to Player 2, and reward 1 to Player 3.
+If the path is T, D, the outcome gives reward 0 everyone.
+
+If the path is Not T, L, M, U, the outcome gives reward 0 to everyone.
+If the path is Not T, L, M, D, the outcome gives reward 1 to everyone.

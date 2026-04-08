@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 7(a) Fashion Launch V3" { "Brand Lead" "Retail Manager" "Fashion Critic" }
+""
+
+p "" 1 1 "" { "LaunchThisWeek" "NotThisWeek" } 0
+p "" 3 1 "" { "CelebrateIt" "PanIt" } 0
+t "" 3 "LaunchThisWeek_CelebrateIt" { 3, 1, 1 }
+t "" 4 "LaunchThisWeek_PanIt" { 0, 0, 0 }
+p "" 2 1 "" { "SoftPrep" "StoreRollout" } 0
+p "" 1 2 "" { "BoxStock" "MakeTweaks" } 0
+t "" 2 "NotThisWeek_SoftPrep_BoxStock" { 2, 0, 0 }
+p "" 3 1 "" { "CelebrateIt" "PanIt" } 0
+t "" 5 "NotThisWeek_SoftPrep_MakeTweaks_CelebrateIt" { 0, 0, 0 }
+t "" 6 "NotThisWeek_SoftPrep_MakeTweaks_PanIt" { 1, 1, 1 }
+t "" 1 "NotThisWeek_StoreRollout" { 1, 2, 2 }

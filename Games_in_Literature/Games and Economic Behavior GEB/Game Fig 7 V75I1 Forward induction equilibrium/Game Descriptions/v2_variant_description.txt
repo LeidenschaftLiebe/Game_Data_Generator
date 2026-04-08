@@ -1,0 +1,31 @@
+V2 — Dam Inspection
+
+A chief engineer is deciding how to handle a dam inspection.
+The chief engineer first chooses between Proceed Now (T) and Do Not Proceed Yet (Not T).
+
+If the chief engineer chooses Proceed Now (T), the outside inspector moves later.
+If the chief engineer chooses Do Not Proceed Yet (Not T), the site manager moves next and chooses between
+Limited Review (L) and Release Approval (R).
+
+If the site manager chooses Release Approval (R), the case ends immediately with reward 1 to the chief engineer,
+reward 2 to the site manager, and reward 2 to the inspector.
+
+If the site manager chooses Limited Review (L), the chief engineer moves again and chooses between
+Block Work (B) and Modify Plan (M).
+If the chief engineer chooses Block Work (B), the case ends immediately with reward 2 to the chief engineer,
+reward 0 to the site manager, and reward 0 to the inspector.
+
+If the chief engineer chooses Modify Plan (M), the inspector then moves.
+
+When the inspector moves, the inspector cannot tell whether the earlier path was
+Proceed Now (T) or Do Not Proceed Yet (Not T), Limited Review (L), Modify Plan (M).
+The inspector then chooses between Clear It (U) and Delay It (D).
+
+If the path is Proceed Now (T), Clear It (U), the outcome gives reward 3 to the chief engineer,
+reward 1 to the site manager, and reward 1 to the inspector.
+If the path is Proceed Now (T), Delay It (D), the outcome gives reward 0 to all three players.
+
+If the path is Do Not Proceed Yet (Not T), Limited Review (L), Modify Plan (M), Clear It (U),
+the outcome gives reward 0 to all three players.
+If the path is Do Not Proceed Yet (Not T), Limited Review (L), Modify Plan (M), Delay It (D),
+the outcome gives reward 1 to each player.

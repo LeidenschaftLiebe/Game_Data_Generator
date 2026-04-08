@@ -1,0 +1,31 @@
+V3 — Fashion Launch
+
+A brand lead is deciding how to handle a collection launch.
+The brand lead first chooses between Launch This Week (T) and Not This Week (Not T).
+
+If the brand lead chooses Launch This Week (T), the fashion critic moves later.
+If the brand lead chooses Not This Week (Not T), the retail manager moves next and chooses between
+Soft Prep (L) and Store Rollout (R).
+
+If the retail manager chooses Store Rollout (R), the process ends immediately with reward 1 to the brand lead,
+reward 2 to the retail manager, and reward 2 to the critic.
+
+If the retail manager chooses Soft Prep (L), the brand lead moves again and chooses between
+Box Stock (B) and Make Tweaks (M).
+If the brand lead chooses Box Stock (B), the process ends immediately with reward 2 to the brand lead,
+reward 0 to the retail manager, and reward 0 to the critic.
+
+If the brand lead chooses Make Tweaks (M), the critic then moves.
+
+When the critic moves, the critic cannot tell whether the earlier path was
+Launch This Week (T) or Not This Week (Not T), Soft Prep (L), Make Tweaks (M).
+The critic then chooses between Celebrate It (U) and Pan It (D).
+
+If the path is Launch This Week (T), Celebrate It (U), the outcome gives reward 3 to the brand lead,
+reward 1 to the retail manager, and reward 1 to the critic.
+If the path is Launch This Week (T), Pan It (D), the outcome gives reward 0 to all three players.
+
+If the path is Not This Week (Not T), Soft Prep (L), Make Tweaks (M), Celebrate It (U),
+the outcome gives reward 0 to all three players.
+If the path is Not This Week (Not T), Soft Prep (L), Make Tweaks (M), Pan It (D),
+the outcome gives reward 1 to each player.

@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 7(a) Satellite Repair V4" { "Mission Controller" "Ground Commander" "Diagnostic Specialist" }
+""
+
+p "" 1 1 "" { "RepairLive" "DoNotRepairLive" } 0
+p "" 3 1 "" { "ApprovePatch" "DenyPatch" } 0
+t "" 3 "RepairLive_ApprovePatch" { 3, 1, 1 }
+t "" 4 "RepairLive_DenyPatch" { 0, 0, 0 }
+p "" 2 1 "" { "LimitedTest" "RestoreService" } 0
+p "" 1 2 "" { "BypassFault" "ManualCalibration" } 0
+t "" 2 "DoNotRepairLive_LimitedTest_BypassFault" { 2, 0, 0 }
+p "" 3 1 "" { "ApprovePatch" "DenyPatch" } 0
+t "" 5 "DoNotRepairLive_LimitedTest_ManualCalibration_ApprovePatch" { 0, 0, 0 }
+t "" 6 "DoNotRepairLive_LimitedTest_ManualCalibration_DenyPatch" { 1, 1, 1 }
+t "" 1 "DoNotRepairLive_RestoreService" { 1, 2, 2 }

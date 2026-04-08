@@ -1,0 +1,14 @@
+EFG 2 R "GEB Fig. 7(a) Museum Exhibit V1" { "Museum Director" "Operations Head" "Public Reviewer" }
+""
+
+p "" 1 1 "" { "OpenImmediately" "DelayOpening" } 0
+p "" 3 1 "" { "PraiseIt" "DismissIt" } 0
+t "" 3 "OpenImmediately_PraiseIt" { 3, 1, 1 }
+t "" 4 "OpenImmediately_DismissIt" { 0, 0, 0 }
+p "" 2 1 "" { "RunFinalCheck" "ApproveRelease" } 0
+p "" 1 2 "" { "BoxTheExhibit" "MakeRevisions" } 0
+t "" 2 "DelayOpening_RunFinalCheck_BoxTheExhibit" { 2, 0, 0 }
+p "" 3 1 "" { "PraiseIt" "DismissIt" } 0
+t "" 5 "DelayOpening_RunFinalCheck_MakeRevisions_PraiseIt" { 0, 0, 0 }
+t "" 6 "DelayOpening_RunFinalCheck_MakeRevisions_DismissIt" { 1, 1, 1 }
+t "" 1 "DelayOpening_ApproveRelease" { 1, 2, 2 }

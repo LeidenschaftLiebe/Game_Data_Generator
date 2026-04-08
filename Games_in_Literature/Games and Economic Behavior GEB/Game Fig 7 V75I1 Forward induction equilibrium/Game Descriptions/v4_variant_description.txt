@@ -1,0 +1,31 @@
+V4 — Satellite Repair
+
+A mission controller is deciding how to handle a satellite fault.
+The mission controller first chooses between Repair Live (T) and Do Not Repair Live (Not T).
+
+If the mission controller chooses Repair Live (T), the diagnostic specialist moves later.
+If the mission controller chooses Do Not Repair Live (Not T), the ground commander moves next and chooses between
+Limited Test (L) and Restore Service (R).
+
+If the ground commander chooses Restore Service (R), the process ends immediately with reward 1 to the controller,
+reward 2 to the ground commander, and reward 2 to the specialist.
+
+If the ground commander chooses Limited Test (L), the mission controller moves again and chooses between
+Bypass Fault (B) and Manual Calibration (M).
+If the mission controller chooses Bypass Fault (B), the process ends immediately with reward 2 to the controller,
+reward 0 to the ground commander, and reward 0 to the specialist.
+
+If the mission controller chooses Manual Calibration (M), the specialist then moves.
+
+When the specialist moves, the specialist cannot tell whether the earlier path was
+Repair Live (T) or Do Not Repair Live (Not T), Limited Test (L), Manual Calibration (M).
+The specialist then chooses between Approve Patch (U) and Deny Patch (D).
+
+If the path is Repair Live (T), Approve Patch (U), the outcome gives reward 3 to the controller,
+reward 1 to the ground commander, and reward 1 to the specialist.
+If the path is Repair Live (T), Deny Patch (D), the outcome gives reward 0 to all three players.
+
+If the path is Do Not Repair Live (Not T), Limited Test (L), Manual Calibration (M), Approve Patch (U),
+the outcome gives reward 0 to all three players.
+If the path is Do Not Repair Live (Not T), Limited Test (L), Manual Calibration (M), Deny Patch (D),
+the outcome gives reward 1 to each player.

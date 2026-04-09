@@ -1,0 +1,25 @@
+V3 — Backstage Festival Tunnels
+
+A stage director first sends the performer through Backstage Entry A or Backstage Entry B.
+
+At the first passage split, the performer chooses FirstLeftPassage [left1] or FirstRightPassage [right1].
+
+At the second passage split, the performer chooses SecondLeftPassage [left2] or SecondRightPassage [right2].
+
+From Backstage Entry A, choosing FirstLeftPassage [left1] always leads to a blocked passage.
+From Backstage Entry A, choosing FirstRightPassage [right1] and then SecondRightPassage [right2] also leads to a blocked passage.
+From Backstage Entry A, choosing FirstRightPassage [right1] and then SecondLeftPassage [left2] reaches the last curtain choice.
+
+From Backstage Entry B, choosing FirstLeftPassage [left1] always leads to a blocked passage.
+From Backstage Entry B, choosing FirstRightPassage [right1] and then SecondRightPassage [right2] leads to a blocked passage.
+From Backstage Entry B, choosing FirstRightPassage [right1] and then SecondLeftPassage [left2] reaches the last curtain choice.
+
+At that point, the performer remembers the sequence of turns but not which backstage entry was used.
+
+Then the performer chooses FinalLeftCurtain [left3] or FinalRightCurtain [right3].
+
+If the route began at Backstage Entry A, FinalLeftCurtain [left3] reaches the stage and FinalRightCurtain [right3] is blocked.
+If the route began at Backstage Entry B, FinalLeftCurtain [left3] is blocked and FinalRightCurtain [right3] reaches the stage.
+
+Reaching the stage gives reward 1.
+Any blocked route gives reward 0.

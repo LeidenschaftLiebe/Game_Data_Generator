@@ -1,0 +1,22 @@
+EFG 2 R "Memory and Perfect Recall Fig 6 V0" { "Player 1" }
+""
+
+c "" 1 "" { "entryA" 1/2 "entryB" 1/2 } 0
+p "" 1 1 "" { "left1" "right1" } 0
+p "" 1 3 "" { "left2" "right2" } 0
+t "" 1 "entryA_left1_left2_blocked" { 0 }
+t "" 2 "entryA_left1_right2_blocked" { 0 }
+p "" 1 4 "" { "left2" "right2" } 0
+p "" 1 7 "" { "left3" "right3" } 0
+t "" 7 "A_left3_exit" { 1 }
+t "" 8 "A_right3_blocked" { 0 }
+t "" 3 "entryA_right1_right2_blocked" { 0 }
+p "" 1 2 "" { "left1" "right1" } 0
+p "" 1 5 "" { "left2" "right2" } 0
+t "" 4 "entryB_left1_left2_blocked" { 0 }
+t "" 5 "entryB_left1_right2_blocked" { 0 }
+p "" 1 6 "" { "left2" "right2" } 0
+p "" 1 7 "" { "left3" "right3" } 0
+t "" 9 "B_left3_blocked" { 0 }
+t "" 10 "B_right3_exit" { 1 }
+t "" 6 "entryB_right1_right2_blocked" { 0 }

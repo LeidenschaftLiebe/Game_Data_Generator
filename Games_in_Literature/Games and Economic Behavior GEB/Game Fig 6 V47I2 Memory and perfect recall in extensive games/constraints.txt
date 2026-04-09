@@ -1,0 +1,8 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+The root is a chance node that chooses between entryA and entryB with probability 1/2 each.
+Player 1 moves at every decision node.
+Only At terminal A_left3_exit and terminal B_right3_exit, the payoff is 1.

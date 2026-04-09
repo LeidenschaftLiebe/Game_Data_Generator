@@ -1,0 +1,22 @@
+EFG 2 R "Backstage Festival Tunnels V3" { "Performer" }
+""
+
+c "" 1 "" { "backstageA" 1/2 "backstageB" 1/2 } 0
+p "" 1 1 "" { "firstLeftPassage" "firstRightPassage" } 0
+p "" 1 3 "" { "secondLeftPassage" "secondRightPassage" } 0
+t "" 1 "backstageA_firstLeft_secondLeft_blocked" { 0 }
+t "" 2 "backstageA_firstLeft_secondRight_blocked" { 0 }
+p "" 1 4 "" { "secondLeftPassage" "secondRightPassage" } 0
+p "" 1 7 "" { "leftCurtain" "rightCurtain" } 0
+t "" 7 "backstageA_leftCurtain_stage" { 1 }
+t "" 8 "backstageA_rightCurtain_blocked" { 0 }
+t "" 3 "backstageA_firstRight_secondRight_blocked" { 0 }
+p "" 1 2 "" { "firstLeftPassage" "firstRightPassage" } 0
+p "" 1 5 "" { "secondLeftPassage" "secondRightPassage" } 0
+t "" 4 "backstageB_firstLeft_secondLeft_blocked" { 0 }
+t "" 5 "backstageB_firstLeft_secondRight_blocked" { 0 }
+p "" 1 6 "" { "secondLeftPassage" "secondRightPassage" } 0
+p "" 1 7 "" { "leftCurtain" "rightCurtain" } 0
+t "" 9 "backstageB_leftCurtain_blocked" { 0 }
+t "" 10 "backstageB_rightCurtain_stage" { 1 }
+t "" 6 "backstageB_firstRight_secondRight_blocked" { 0 }

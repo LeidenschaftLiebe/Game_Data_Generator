@@ -1,0 +1,25 @@
+V0 — Maze with Fading Entry Memory
+
+A guide first takes player 1 to entry A or entry B.
+
+At the first junction, player 1 chooses left1 or right1.
+
+At the second junction, player 1 chooses left2 or right2.
+
+From entry A, choosing left1 leads to a dead end no matter whether the next move is left2 or right2.
+From entry A, choosing right1 and then right2 also leads to a dead end.
+From entry A, choosing right1 and then left2 brings the player to a later junction.
+
+From entry B, choosing left1 leads to a dead end no matter whether the next move is left2 or right2.
+From entry B, choosing right1 and then right2 leads to a dead end.
+From entry B, choosing right1 and then left2 brings the player to a later junction.
+
+At that later junction, player 1 remembers the earlier turns but no longer knows whether the path began at entry A or entry B.
+
+Then player 1 chooses left3 or right3.
+
+If the player reached the later junction from entry A, then left3 leads to EXIT and right3 is blocked.
+If the player reached the later junction from entry B, then left3 is blocked and right3 leads to EXIT.
+
+Reaching EXIT gives player 1 a reward of 1.
+Any blocked path gives player 1 a reward of 0.

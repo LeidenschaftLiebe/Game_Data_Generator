@@ -1,0 +1,25 @@
+V5 — Archive Search Paths
+
+An archivist first places the researcher at Shelf Corridor A or Shelf Corridor B.
+
+At the first aisle split, the researcher chooses FirstLeftAisle [left1] or FirstRightAisle [right1].
+
+At the second aisle split, the researcher chooses SecondLeftAisle [left2] or SecondRightAisle [right2].
+
+From Shelf Corridor A, choosing FirstLeftAisle [left1] always ends at a blocked cabinet.
+From Shelf Corridor A, choosing FirstRightAisle [right1] and then SecondRightAisle [right2] also ends at a blocked cabinet.
+From Shelf Corridor A, choosing FirstRightAisle [right1] and then SecondLeftAisle [left2] reaches the final archive gate.
+
+From Shelf Corridor B, choosing FirstLeftAisle [left1] always ends at a blocked cabinet.
+From Shelf Corridor B, choosing FirstRightAisle [right1] and then SecondRightAisle [right2] ends at a blocked cabinet.
+From Shelf Corridor B, choosing FirstRightAisle [right1] and then SecondLeftAisle [left2] reaches the final archive gate.
+
+At the final archive gate, the researcher remembers the turns taken but cannot tell which shelf corridor was the starting point.
+
+Then the researcher chooses LeftGate [left3] or RightGate [right3].
+
+If the route began at Shelf Corridor A, LeftGate [left3] leads to the needed file and RightGate [right3] is blocked.
+If the route began at Shelf Corridor B, LeftGate [left3] is blocked and RightGate [right3] leads to the needed file.
+
+Finding the file gives reward 1.
+Any blocked route gives reward 0.

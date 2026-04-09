@@ -1,0 +1,22 @@
+EFG 2 R "Museum Service Corridors V2" { "Technician" }
+""
+
+c "" 1 "" { "wingA" 1/2 "wingB" 1/2 } 0
+p "" 1 1 "" { "firstLeftTurn" "firstRightTurn" } 0
+p "" 1 3 "" { "secondLeftTurn" "secondRightTurn" } 0
+t "" 1 "wingA_firstLeft_secondLeft_blocked" { 0 }
+t "" 2 "wingA_firstLeft_secondRight_blocked" { 0 }
+p "" 1 4 "" { "secondLeftTurn" "secondRightTurn" } 0
+p "" 1 7 "" { "leftDoor" "rightDoor" } 0
+t "" 7 "wingA_leftDoor_targetRoom" { 1 }
+t "" 8 "wingA_rightDoor_blocked" { 0 }
+t "" 3 "wingA_firstRight_secondRight_blocked" { 0 }
+p "" 1 2 "" { "firstLeftTurn" "firstRightTurn" } 0
+p "" 1 5 "" { "secondLeftTurn" "secondRightTurn" } 0
+t "" 4 "wingB_firstLeft_secondLeft_blocked" { 0 }
+t "" 5 "wingB_firstLeft_secondRight_blocked" { 0 }
+p "" 1 6 "" { "secondLeftTurn" "secondRightTurn" } 0
+p "" 1 7 "" { "leftDoor" "rightDoor" } 0
+t "" 9 "wingB_leftDoor_blocked" { 0 }
+t "" 10 "wingB_rightDoor_targetRoom" { 1 }
+t "" 6 "wingB_firstRight_secondRight_blocked" { 0 }

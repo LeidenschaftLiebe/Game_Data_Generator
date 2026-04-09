@@ -1,0 +1,25 @@
+V1 — Cave Rescue Route
+
+A rescue coordinator first drops the explorer at North Entrance or South Entrance.
+
+At the first fork, the explorer chooses GoLeftAtFirstFork [left1] or GoRightAtFirstFork [right1].
+
+At the second fork, the explorer chooses GoLeftAtSecondFork [left2] or GoRightAtSecondFork [right2].
+
+From North Entrance, choosing GoLeftAtFirstFork [left1] always ends in a blocked tunnel.
+From North Entrance, choosing GoRightAtFirstFork [right1] and then GoRightAtSecondFork [right2] also ends in a blocked tunnel.
+From North Entrance, choosing GoRightAtFirstFork [right1] and then GoLeftAtSecondFork [left2] reaches the final chamber.
+
+From South Entrance, choosing GoLeftAtFirstFork [left1] always ends in a blocked tunnel.
+From South Entrance, choosing GoRightAtFirstFork [right1] and then GoRightAtSecondFork [right2] ends in a blocked tunnel.
+From South Entrance, choosing GoRightAtFirstFork [right1] and then GoLeftAtSecondFork [left2] reaches the final chamber.
+
+At the final chamber, the explorer remembers the turning pattern but not which entrance was used.
+
+Then the explorer chooses TakeLeftExit [left3] or TakeRightExit [right3].
+
+If the explorer came from North Entrance, TakeLeftExit [left3] leads out and TakeRightExit [right3] is blocked.
+If the explorer came from South Entrance, TakeLeftExit [left3] is blocked and TakeRightExit [right3] leads out.
+
+Escaping gives reward 1.
+Any blocked route gives reward 0.

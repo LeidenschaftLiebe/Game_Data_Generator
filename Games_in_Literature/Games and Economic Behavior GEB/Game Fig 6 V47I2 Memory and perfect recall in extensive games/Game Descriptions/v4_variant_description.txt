@@ -1,0 +1,25 @@
+V4 — Data Center Maintenance Ducts
+
+A supervisor first sends the engineer to Server Hall A or Server Hall B.
+
+At the first duct junction, the engineer chooses FirstLeftDuct [left1] or FirstRightDuct [right1].
+
+At the second duct junction, the engineer chooses SecondLeftDuct [left2] or SecondRightDuct [right2].
+
+From Server Hall A, choosing FirstLeftDuct [left1] always ends at a sealed panel.
+From Server Hall A, choosing FirstRightDuct [right1] and then SecondRightDuct [right2] also ends at a sealed panel.
+From Server Hall A, choosing FirstRightDuct [right1] and then SecondLeftDuct [left2] reaches the final access point.
+
+From Server Hall B, choosing FirstLeftDuct [left1] always ends at a sealed panel.
+From Server Hall B, choosing FirstRightDuct [right1] and then SecondRightDuct [right2] ends at a sealed panel.
+From Server Hall B, choosing FirstRightDuct [right1] and then SecondLeftDuct [left2] reaches the final access point.
+
+At the final access point, the engineer remembers the turn pattern but not whether the route started from Server Hall A or Server Hall B.
+
+Then the engineer chooses OpenLeftPanel [left3] or OpenRightPanel [right3].
+
+If the route began at Server Hall A, OpenLeftPanel [left3] reaches the repair point and OpenRightPanel [right3] is blocked.
+If the route began at Server Hall B, OpenLeftPanel [left3] is blocked and OpenRightPanel [right3] reaches the repair point.
+
+Reaching the repair point gives reward 1.
+Any blocked route gives reward 0.

@@ -1,0 +1,25 @@
+V2 — Museum Service Corridors
+
+A staff manager first sends the technician to Wing A or Wing B.
+
+At the first service turn, the technician chooses TakeFirstLeft [left1] or TakeFirstRight [right1].
+
+At the second service turn, the technician chooses TakeSecondLeft [left2] or TakeSecondRight [right2].
+
+From Wing A, choosing TakeFirstLeft [left1] always reaches a locked corridor.
+From Wing A, choosing TakeFirstRight [right1] and then TakeSecondRight [right2] also reaches a locked corridor.
+From Wing A, choosing TakeFirstRight [right1] and then TakeSecondLeft [left2] reaches the final door.
+
+From Wing B, choosing TakeFirstLeft [left1] always reaches a locked corridor.
+From Wing B, choosing TakeFirstRight [right1] and then TakeSecondRight [right2] reaches a locked corridor.
+From Wing B, choosing TakeFirstRight [right1] and then TakeSecondLeft [left2] reaches the final door.
+
+At the final door, the technician remembers the earlier turns but cannot tell whether the route began in Wing A or Wing B.
+
+Then the technician chooses LeftDoor [left3] or RightDoor [right3].
+
+If the route began in Wing A, LeftDoor [left3] leads to the target room and RightDoor [right3] is blocked.
+If the route began in Wing B, LeftDoor [left3] is blocked and RightDoor [right3] leads to the target room.
+
+Reaching the target room gives reward 1.
+Any blocked route gives reward 0.

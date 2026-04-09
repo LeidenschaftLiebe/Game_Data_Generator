@@ -1,0 +1,21 @@
+V5 — Vineyard Expansion
+
+A vineyard owner is deciding how to handle a new expansion plan.
+The owner first chooses among Leave It As Is (L), Moderate Expansion (M), and Major Expansion (R).
+
+If the owner chooses Leave It As Is (L), the process ends immediately with reward 2 to the owner and reward 2 to the operations manager.
+
+If the owner chooses Moderate Expansion (M) or Major Expansion (R), the operations manager then chooses between
+Left Schedule (l) and Right Schedule (r).
+When the operations manager moves, the operations manager does not know whether the owner chose
+Moderate Expansion (M) or Major Expansion (R).
+
+If the owner chose Moderate Expansion (M) and the operations manager chooses Left Schedule (l),
+the outcome gives reward 4 to the owner and reward 1 to the manager.
+If the owner chose Moderate Expansion (M) and the operations manager chooses Right Schedule (r),
+the outcome gives reward 1 to the owner and reward 0 to the manager.
+
+If the owner chose Major Expansion (R) and the operations manager chooses Left Schedule (l),
+the outcome gives reward 3 to the owner and reward 0 to the manager.
+If the owner chose Major Expansion (R) and the operations manager chooses Right Schedule (r),
+the outcome gives reward 0 to the owner and reward 3 to the manager.

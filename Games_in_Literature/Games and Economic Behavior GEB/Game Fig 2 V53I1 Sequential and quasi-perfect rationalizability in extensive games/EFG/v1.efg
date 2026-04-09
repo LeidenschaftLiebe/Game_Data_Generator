@@ -1,0 +1,11 @@
+EFG 2 R "GEB Fig. 2 Museum Launch V1" { "Museum Director" "Curator" }
+""
+
+p "" 1 1 "" { "KeepCurrentPlan" "SoftOpening" "FullPremiere" } 0
+t "" 1 "KeepCurrentPlan" { 2, 2 }
+p "" 2 1 "" { "LeftReview" "RightReview" } 0
+t "" 2 "SoftOpening_LeftReview" { 4, 1 }
+t "" 3 "SoftOpening_RightReview" { 1, 0 }
+p "" 2 1 "" { "LeftReview" "RightReview" } 0
+t "" 4 "FullPremiere_LeftReview" { 3, 0 }
+t "" 5 "FullPremiere_RightReview" { 0, 3 }

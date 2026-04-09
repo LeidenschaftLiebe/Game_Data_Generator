@@ -1,0 +1,11 @@
+EFG 2 R "GEB Fig. 2 Film Release V3" { "Studio Head" "Distributor" }
+""
+
+p "" 1 1 "" { "LeaveItUnchanged" "FestivalRun" "WideRelease" } 0
+t "" 1 "LeaveItUnchanged" { 2, 2 }
+p "" 2 1 "" { "LeftCampaign" "RightCampaign" } 0
+t "" 2 "FestivalRun_LeftCampaign" { 4, 1 }
+t "" 3 "FestivalRun_RightCampaign" { 1, 0 }
+p "" 2 1 "" { "LeftCampaign" "RightCampaign" } 0
+t "" 4 "WideRelease_LeftCampaign" { 3, 0 }
+t "" 5 "WideRelease_RightCampaign" { 0, 3 }

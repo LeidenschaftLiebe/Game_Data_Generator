@@ -1,0 +1,11 @@
+EFG 2 R "GEB Fig. 2 Space Test V4" { "Mission Controller" "Systems Analyst" }
+""
+
+p "" 1 1 "" { "LockCurrentSetup" "MediumTest" "RiskyTest" } 0
+t "" 1 "LockCurrentSetup" { 2, 2 }
+p "" 2 1 "" { "LeftCalibration" "RightCalibration" } 0
+t "" 2 "MediumTest_LeftCalibration" { 4, 1 }
+t "" 3 "MediumTest_RightCalibration" { 1, 0 }
+p "" 2 1 "" { "LeftCalibration" "RightCalibration" } 0
+t "" 4 "RiskyTest_LeftCalibration" { 3, 0 }
+t "" 5 "RiskyTest_RightCalibration" { 0, 3 }

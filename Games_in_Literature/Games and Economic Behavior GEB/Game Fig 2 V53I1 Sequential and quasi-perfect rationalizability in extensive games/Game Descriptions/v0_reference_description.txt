@@ -1,0 +1,15 @@
+V0 — Sequential Choice
+
+There are two players.
+Player 1 moves first and chooses among L, M, and R.
+
+If Player 1 chooses L, the game ends immediately with reward 2 to Player 1 and reward 2 to Player 2.
+
+If Player 1 chooses M or R, Player 2 then chooses between l and r.
+When Player 2 moves, Player 2 does not know whether Player 1 chose M or R.
+
+If Player 1 chose M and Player 2 chooses l, Player 1 gets reward 4 and Player 2 gets reward 1.
+If Player 1 chose M and Player 2 chooses r, Player 1 gets reward 1 and Player 2 gets reward 0.
+
+If Player 1 chose R and Player 2 chooses l, Player 1 gets reward 3 and Player 2 gets reward 0.
+If Player 1 chose R and Player 2 chooses r, Player 1 gets reward 0 and Player 2 gets reward 3.

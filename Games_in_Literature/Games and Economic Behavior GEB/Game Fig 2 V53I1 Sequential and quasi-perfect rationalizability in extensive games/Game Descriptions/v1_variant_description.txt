@@ -1,0 +1,21 @@
+V1 — Museum Launch
+
+A museum director is deciding how to handle a new exhibit.
+The director first chooses among Keep Current Plan (L), Soft Opening (M), and Full Premiere (R).
+
+If the director chooses Keep Current Plan (L), the process ends immediately with reward 2 to the director and reward 2 to the curator.
+
+If the director chooses Soft Opening (M) or Full Premiere (R), the curator then chooses between
+Left Review (l) and Right Review (r).
+When the curator moves, the curator does not know whether the director chose
+Soft Opening (M) or Full Premiere (R).
+
+If the director chose Soft Opening (M) and the curator chooses Left Review (l),
+the outcome gives reward 4 to the director and reward 1 to the curator.
+If the director chose Soft Opening (M) and the curator chooses Right Review (r),
+the outcome gives reward 1 to the director and reward 0 to the curator.
+
+If the director chose Full Premiere (R) and the curator chooses Left Review (l),
+the outcome gives reward 3 to the director and reward 0 to the curator.
+If the director chose Full Premiere (R) and the curator chooses Right Review (r),
+the outcome gives reward 0 to the director and reward 3 to the curator.

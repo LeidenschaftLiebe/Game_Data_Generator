@@ -1,0 +1,21 @@
+V3 — Film Release
+
+A studio head is deciding how to release a film.
+The studio head first chooses among Leave It Unchanged (L), Festival Run (M), and Wide Release (R).
+
+If the studio head chooses Leave It Unchanged (L), the matter ends immediately with reward 2 to the studio head and reward 2 to the distributor.
+
+If the studio head chooses Festival Run (M) or Wide Release (R), the distributor then chooses between
+Left Campaign (l) and Right Campaign (r).
+When the distributor moves, the distributor does not know whether the studio head chose
+Festival Run (M) or Wide Release (R).
+
+If the studio head chose Festival Run (M) and the distributor chooses Left Campaign (l),
+the outcome gives reward 4 to the studio head and reward 1 to the distributor.
+If the studio head chose Festival Run (M) and the distributor chooses Right Campaign (r),
+the outcome gives reward 1 to the studio head and reward 0 to the distributor.
+
+If the studio head chose Wide Release (R) and the distributor chooses Left Campaign (l),
+the outcome gives reward 3 to the studio head and reward 0 to the distributor.
+If the studio head chose Wide Release (R) and the distributor chooses Right Campaign (r),
+the outcome gives reward 0 to the studio head and reward 3 to the distributor.

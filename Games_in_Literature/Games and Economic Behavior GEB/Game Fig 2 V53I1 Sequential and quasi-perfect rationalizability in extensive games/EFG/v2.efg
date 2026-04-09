@@ -1,0 +1,11 @@
+EFG 2 R "GEB Fig. 2 Rescue Deployment V2" { "Rescue Chief" "Field Coordinator" }
+""
+
+p "" 1 1 "" { "HoldPosition" "LimitedDeployment" "FullDeployment" } 0
+t "" 1 "HoldPosition" { 2, 2 }
+p "" 2 1 "" { "LeftResponse" "RightResponse" } 0
+t "" 2 "LimitedDeployment_LeftResponse" { 4, 1 }
+t "" 3 "LimitedDeployment_RightResponse" { 1, 0 }
+p "" 2 1 "" { "LeftResponse" "RightResponse" } 0
+t "" 4 "FullDeployment_LeftResponse" { 3, 0 }
+t "" 5 "FullDeployment_RightResponse" { 0, 3 }

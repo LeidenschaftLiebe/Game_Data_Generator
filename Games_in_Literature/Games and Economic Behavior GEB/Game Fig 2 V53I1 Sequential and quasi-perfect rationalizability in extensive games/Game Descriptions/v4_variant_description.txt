@@ -1,0 +1,21 @@
+V4 — Space Test
+
+A mission controller is deciding how to proceed with a system test.
+The controller first chooses among Lock Current Setup (L), Medium Test (M), and Risky Test (R).
+
+If the controller chooses Lock Current Setup (L), the process ends immediately with reward 2 to the controller and reward 2 to the systems analyst.
+
+If the controller chooses Medium Test (M) or Risky Test (R), the analyst then chooses between
+Left Calibration (l) and Right Calibration (r).
+When the analyst moves, the analyst does not know whether the controller chose
+Medium Test (M) or Risky Test (R).
+
+If the controller chose Medium Test (M) and the analyst chooses Left Calibration (l),
+the outcome gives reward 4 to the controller and reward 1 to the analyst.
+If the controller chose Medium Test (M) and the analyst chooses Right Calibration (r),
+the outcome gives reward 1 to the controller and reward 0 to the analyst.
+
+If the controller chose Risky Test (R) and the analyst chooses Left Calibration (l),
+the outcome gives reward 3 to the controller and reward 0 to the analyst.
+If the controller chose Risky Test (R) and the analyst chooses Right Calibration (r),
+the outcome gives reward 0 to the controller and reward 3 to the analyst.

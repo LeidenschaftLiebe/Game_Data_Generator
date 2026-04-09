@@ -1,0 +1,21 @@
+V2 — Rescue Deployment
+
+A rescue chief is deciding how to deploy a response team.
+The chief first chooses among Hold Position (L), Limited Deployment (M), and Full Deployment (R).
+
+If the chief chooses Hold Position (L), the situation ends immediately with reward 2 to the chief and reward 2 to the field coordinator.
+
+If the chief chooses Limited Deployment (M) or Full Deployment (R), the field coordinator then chooses between
+Left Response (l) and Right Response (r).
+When the field coordinator moves, the field coordinator does not know whether the chief chose
+Limited Deployment (M) or Full Deployment (R).
+
+If the chief chose Limited Deployment (M) and the field coordinator chooses Left Response (l),
+the outcome gives reward 4 to the chief and reward 1 to the coordinator.
+If the chief chose Limited Deployment (M) and the field coordinator chooses Right Response (r),
+the outcome gives reward 1 to the chief and reward 0 to the coordinator.
+
+If the chief chose Full Deployment (R) and the field coordinator chooses Left Response (l),
+the outcome gives reward 3 to the chief and reward 0 to the coordinator.
+If the chief chose Full Deployment (R) and the field coordinator chooses Right Response (r),
+the outcome gives reward 0 to the chief and reward 3 to the coordinator.

@@ -1,0 +1,26 @@
+EFG 2 R "Film Test Screening Report V4" { "Producer" "Distributor" }
+""
+
+c "" 1 "" { "strongReaction" 1/2 "weakReaction" 1/2 } 0
+p "" 1 1 "" { "{strongReaction}" "vagueReport" } 0
+p "" 2 1 "" { "WideRelease" "SelectiveRelease" "Reshoot" "Shelve" } 0
+t "" 1 "strongReaction_reveal_choose_WideRelease" { 0, 6 }
+t "" 2 "strongReaction_reveal_choose_SelectiveRelease" { 1, 5 }
+t "" 3 "strongReaction_reveal_choose_Reshoot" { -2, 0 }
+t "" 4 "strongReaction_reveal_choose_Shelve" { 1, -6 }
+p "" 2 3 "" { "WideRelease" "SelectiveRelease" "Reshoot" "Shelve" } 0
+t "" 9 "strongReaction_vagueReport_choose_WideRelease" { 0, 6 }
+t "" 10 "strongReaction_vagueReport_choose_SelectiveRelease" { 1, 5 }
+t "" 11 "strongReaction_vagueReport_choose_Reshoot" { -2, 0 }
+t "" 12 "strongReaction_vagueReport_choose_Shelve" { 1, -6 }
+p "" 1 2 "" { "{weakReaction}" "vagueReport" } 0
+p "" 2 2 "" { "WideRelease" "SelectiveRelease" "Reshoot" "Shelve" } 0
+t "" 5 "weakReaction_reveal_choose_WideRelease" { 1, -6 }
+t "" 6 "weakReaction_reveal_choose_SelectiveRelease" { 1, 1 }
+t "" 7 "weakReaction_reveal_choose_Reshoot" { -2, 2 }
+t "" 8 "weakReaction_reveal_choose_Shelve" { 0, 3 }
+p "" 2 3 "" { "WideRelease" "SelectiveRelease" "Reshoot" "Shelve" } 0
+t "" 13 "weakReaction_vagueReport_choose_WideRelease" { 1, -6 }
+t "" 14 "weakReaction_vagueReport_choose_SelectiveRelease" { 1, 1 }
+t "" 15 "weakReaction_vagueReport_choose_Reshoot" { -2, 2 }
+t "" 16 "weakReaction_vagueReport_choose_Shelve" { 0, 3 }

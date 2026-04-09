@@ -1,0 +1,26 @@
+EFG 2 R "Land Survey Communication V5" { "Surveyor" "Developer" }
+""
+
+c "" 1 "" { "highQualityGround" 1/2 "lowQualityGround" 1/2 } 0
+p "" 1 1 "" { "{highQualityGround}" "generalCertificate" } 0
+p "" 2 1 "" { "BuildTower" "BuildMidrise" "RunExtraTests" "AbandonSite" } 0
+t "" 1 "highQualityGround_reveal_choose_BuildTower" { 0, 6 }
+t "" 2 "highQualityGround_reveal_choose_BuildMidrise" { 1, 5 }
+t "" 3 "highQualityGround_reveal_choose_RunExtraTests" { -2, 0 }
+t "" 4 "highQualityGround_reveal_choose_AbandonSite" { 1, -6 }
+p "" 2 3 "" { "BuildTower" "BuildMidrise" "RunExtraTests" "AbandonSite" } 0
+t "" 9 "highQualityGround_generalCertificate_choose_BuildTower" { 0, 6 }
+t "" 10 "highQualityGround_generalCertificate_choose_BuildMidrise" { 1, 5 }
+t "" 11 "highQualityGround_generalCertificate_choose_RunExtraTests" { -2, 0 }
+t "" 12 "highQualityGround_generalCertificate_choose_AbandonSite" { 1, -6 }
+p "" 1 2 "" { "{lowQualityGround}" "generalCertificate" } 0
+p "" 2 2 "" { "BuildTower" "BuildMidrise" "RunExtraTests" "AbandonSite" } 0
+t "" 5 "lowQualityGround_reveal_choose_BuildTower" { 1, -6 }
+t "" 6 "lowQualityGround_reveal_choose_BuildMidrise" { 1, 1 }
+t "" 7 "lowQualityGround_reveal_choose_RunExtraTests" { -2, 2 }
+t "" 8 "lowQualityGround_reveal_choose_AbandonSite" { 0, 3 }
+p "" 2 3 "" { "BuildTower" "BuildMidrise" "RunExtraTests" "AbandonSite" } 0
+t "" 13 "lowQualityGround_generalCertificate_choose_BuildTower" { 1, -6 }
+t "" 14 "lowQualityGround_generalCertificate_choose_BuildMidrise" { 1, 1 }
+t "" 15 "lowQualityGround_generalCertificate_choose_RunExtraTests" { -2, 2 }
+t "" 16 "lowQualityGround_generalCertificate_choose_AbandonSite" { 0, 3 }

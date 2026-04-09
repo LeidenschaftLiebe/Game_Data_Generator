@@ -1,0 +1,23 @@
+V4 — Film Test Screening Report
+
+Nature first determines whether the unseen audience reaction is StrongReaction [ω1] or WeakReaction [ω2], each with probability 1/2.
+
+The producer, player 1, observes the reaction.
+
+If the reaction is StrongReaction [ω1], the producer can send StrongReport [{ω1}] or VagueReport [Ω].
+If the reaction is WeakReaction [ω2], the producer can send WeakReport [{ω2}] or VagueReport [Ω].
+
+After receiving the report, the distributor, player 2, chooses WideRelease [A], SelectiveRelease [B], Reshoot [C], or Shelve [D].
+
+If the state is StrongReaction [ω1] and the distributor chooses WideRelease [A], player 1 gets 0 and player 2 gets 6.
+If the state is StrongReaction [ω1] and the distributor chooses SelectiveRelease [B], player 1 gets 1 and player 2 gets 5.
+If the state is StrongReaction [ω1] and the distributor chooses Reshoot [C], player 1 gets -2 and player 2 gets 0.
+If the state is StrongReaction [ω1] and the distributor chooses Shelve [D], player 1 gets 1 and player 2 gets -6.
+
+If the state is WeakReaction [ω2] and the distributor chooses WideRelease [A], player 1 gets 1 and player 2 gets -6.
+If the state is WeakReaction [ω2] and the distributor chooses SelectiveRelease [B], player 1 gets 1 and player 2 gets 1.
+If the state is WeakReaction [ω2] and the distributor chooses Reshoot [C], player 1 gets -2 and player 2 gets 2.
+If the state is WeakReaction [ω2] and the distributor chooses Shelve [D], player 1 gets 0 and player 2 gets 3.
+
+A specific report tells the distributor exactly which reaction occurred.
+A VagueReport [Ω] leaves the distributor uncertain.

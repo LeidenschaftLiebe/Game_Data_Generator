@@ -1,0 +1,23 @@
+V5 — Land Survey Communication
+
+Nature first determines whether the parcel has HighQualityGround [ω1] or LowQualityGround [ω2], each with probability 1/2.
+
+The surveyor, player 1, sees the true ground condition.
+
+If the state is HighQualityGround [ω1], the surveyor can submit HighQualityCertificate [{ω1}] or GeneralCertificate [Ω].
+If the state is LowQualityGround [ω2], the surveyor can submit LowQualityCertificate [{ω2}] or GeneralCertificate [Ω].
+
+After seeing the certificate, the developer, player 2, chooses BuildTower [A], BuildMidrise [B], RunExtraTests [C], or AbandonSite [D].
+
+If the state is HighQualityGround [ω1] and the developer chooses BuildTower [A], player 1 gets 0 and player 2 gets 6.
+If the state is HighQualityGround [ω1] and the developer chooses BuildMidrise [B], player 1 gets 1 and player 2 gets 5.
+If the state is HighQualityGround [ω1] and the developer chooses RunExtraTests [C], player 1 gets -2 and player 2 gets 0.
+If the state is HighQualityGround [ω1] and the developer chooses AbandonSite [D], player 1 gets 1 and player 2 gets -6.
+
+If the state is LowQualityGround [ω2] and the developer chooses BuildTower [A], player 1 gets 1 and player 2 gets -6.
+If the state is LowQualityGround [ω2] and the developer chooses BuildMidrise [B], player 1 gets 1 and player 2 gets 1.
+If the state is LowQualityGround [ω2] and the developer chooses RunExtraTests [C], player 1 gets -2 and player 2 gets 2.
+If the state is LowQualityGround [ω2] and the developer chooses AbandonSite [D], player 1 gets 0 and player 2 gets 3.
+
+A specific certificate reveals the ground condition.
+A GeneralCertificate [Ω] does not.

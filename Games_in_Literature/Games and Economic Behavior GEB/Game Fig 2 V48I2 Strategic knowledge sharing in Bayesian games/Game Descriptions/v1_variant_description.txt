@@ -1,0 +1,23 @@
+V1 — Startup Demand Signal
+
+Nature first determines whether demand is HighDemand [ω1] or LowDemand [ω2], each with probability 1/2.
+
+The founder, player 1, observes the demand state.
+
+If the state is HighDemand [ω1], the founder can announce HighDemandReport [{ω1}] or GeneralUpdate [Ω].
+If the state is LowDemand [ω2], the founder can announce LowDemandReport [{ω2}] or GeneralUpdate [Ω].
+
+After hearing the announcement, the investor, player 2, chooses ScaleFast [A], TargetNiche [B], PauseHiring [C], or CutBack [D].
+
+If the state is HighDemand [ω1] and the investor chooses ScaleFast [A], player 1 gets 0 and player 2 gets 6.
+If the state is HighDemand [ω1] and the investor chooses TargetNiche [B], player 1 gets 1 and player 2 gets 5.
+If the state is HighDemand [ω1] and the investor chooses PauseHiring [C], player 1 gets -2 and player 2 gets 0.
+If the state is HighDemand [ω1] and the investor chooses CutBack [D], player 1 gets 1 and player 2 gets -6.
+
+If the state is LowDemand [ω2] and the investor chooses ScaleFast [A], player 1 gets 1 and player 2 gets -6.
+If the state is LowDemand [ω2] and the investor chooses TargetNiche [B], player 1 gets 1 and player 2 gets 1.
+If the state is LowDemand [ω2] and the investor chooses PauseHiring [C], player 1 gets -2 and player 2 gets 2.
+If the state is LowDemand [ω2] and the investor chooses CutBack [D], player 1 gets 0 and player 2 gets 3.
+
+A specific report reveals the state.
+A GeneralUpdate [Ω] does not.

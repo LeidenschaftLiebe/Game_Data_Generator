@@ -1,0 +1,26 @@
+EFG 2 R "Startup Demand Signal V1" { "Founder" "Investor" }
+""
+
+c "" 1 "" { "highDemand" 1/2 "lowDemand" 1/2 } 0
+p "" 1 1 "" { "{highDemand}" "generalUpdate" } 0
+p "" 2 1 "" { "ScaleFast" "TargetNiche" "PauseHiring" "CutBack" } 0
+t "" 1 "highDemand_reveal_choose_ScaleFast" { 0, 6 }
+t "" 2 "highDemand_reveal_choose_TargetNiche" { 1, 5 }
+t "" 3 "highDemand_reveal_choose_PauseHiring" { -2, 0 }
+t "" 4 "highDemand_reveal_choose_CutBack" { 1, -6 }
+p "" 2 3 "" { "ScaleFast" "TargetNiche" "PauseHiring" "CutBack" } 0
+t "" 9 "highDemand_generalUpdate_choose_ScaleFast" { 0, 6 }
+t "" 10 "highDemand_generalUpdate_choose_TargetNiche" { 1, 5 }
+t "" 11 "highDemand_generalUpdate_choose_PauseHiring" { -2, 0 }
+t "" 12 "highDemand_generalUpdate_choose_CutBack" { 1, -6 }
+p "" 1 2 "" { "{lowDemand}" "generalUpdate" } 0
+p "" 2 2 "" { "ScaleFast" "TargetNiche" "PauseHiring" "CutBack" } 0
+t "" 5 "lowDemand_reveal_choose_ScaleFast" { 1, -6 }
+t "" 6 "lowDemand_reveal_choose_TargetNiche" { 1, 1 }
+t "" 7 "lowDemand_reveal_choose_PauseHiring" { -2, 2 }
+t "" 8 "lowDemand_reveal_choose_CutBack" { 0, 3 }
+p "" 2 3 "" { "ScaleFast" "TargetNiche" "PauseHiring" "CutBack" } 0
+t "" 13 "lowDemand_generalUpdate_choose_ScaleFast" { 1, -6 }
+t "" 14 "lowDemand_generalUpdate_choose_TargetNiche" { 1, 1 }
+t "" 15 "lowDemand_generalUpdate_choose_PauseHiring" { -2, 2 }
+t "" 16 "lowDemand_generalUpdate_choose_CutBack" { 0, 3 }

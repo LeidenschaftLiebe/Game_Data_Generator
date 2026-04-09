@@ -1,0 +1,26 @@
+EFG 2 R "Cybersecurity Incident Update V3" { "Security Chief" "Board Member" }
+""
+
+c "" 1 "" { "minorBreach" 1/2 "majorBreach" 1/2 } 0
+p "" 1 1 "" { "{minorBreach}" "genericNotice" } 0
+p "" 2 1 "" { "ContainInternally" "CallSpecialists" "FreezeSystems" "DelayResponse" } 0
+t "" 1 "minorBreach_reveal_choose_ContainInternally" { 0, 6 }
+t "" 2 "minorBreach_reveal_choose_CallSpecialists" { 1, 5 }
+t "" 3 "minorBreach_reveal_choose_FreezeSystems" { -2, 0 }
+t "" 4 "minorBreach_reveal_choose_DelayResponse" { 1, -6 }
+p "" 2 3 "" { "ContainInternally" "CallSpecialists" "FreezeSystems" "DelayResponse" } 0
+t "" 9 "minorBreach_genericNotice_choose_ContainInternally" { 0, 6 }
+t "" 10 "minorBreach_genericNotice_choose_CallSpecialists" { 1, 5 }
+t "" 11 "minorBreach_genericNotice_choose_FreezeSystems" { -2, 0 }
+t "" 12 "minorBreach_genericNotice_choose_DelayResponse" { 1, -6 }
+p "" 1 2 "" { "{majorBreach}" "genericNotice" } 0
+p "" 2 2 "" { "ContainInternally" "CallSpecialists" "FreezeSystems" "DelayResponse" } 0
+t "" 5 "majorBreach_reveal_choose_ContainInternally" { 1, -6 }
+t "" 6 "majorBreach_reveal_choose_CallSpecialists" { 1, 1 }
+t "" 7 "majorBreach_reveal_choose_FreezeSystems" { -2, 2 }
+t "" 8 "majorBreach_reveal_choose_DelayResponse" { 0, 3 }
+p "" 2 3 "" { "ContainInternally" "CallSpecialists" "FreezeSystems" "DelayResponse" } 0
+t "" 13 "majorBreach_genericNotice_choose_ContainInternally" { 1, -6 }
+t "" 14 "majorBreach_genericNotice_choose_CallSpecialists" { 1, 1 }
+t "" 15 "majorBreach_genericNotice_choose_FreezeSystems" { -2, 2 }
+t "" 16 "majorBreach_genericNotice_choose_DelayResponse" { 0, 3 }

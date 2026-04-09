@@ -1,0 +1,24 @@
+V0 — Strategic Knowledge Sharing Example
+
+Nature first selects ω1 or ω2, each with probability 1/2.
+
+Player 1 observes which of the two states occurred.
+
+If the state is ω1, player 1 can publicly send the message {ω1} or Ω.
+If the state is ω2, player 1 can publicly send the message {ω2} or Ω.
+
+After seeing the message, player 2 chooses A, B, C, or D.
+
+If the true state is ω1 and player 2 chooses A, player 1 gets 0 and player 2 gets 6.
+If the true state is ω1 and player 2 chooses B, player 1 gets 1 and player 2 gets 5.
+If the true state is ω1 and player 2 chooses C, player 1 gets -2 and player 2 gets 0.
+If the true state is ω1 and player 2 chooses D, player 1 gets 1 and player 2 gets -6.
+
+If the true state is ω2 and player 2 chooses A, player 1 gets 1 and player 2 gets -6.
+If the true state is ω2 and player 2 chooses B, player 1 gets 1 and player 2 gets 1.
+If the true state is ω2 and player 2 chooses C, player 1 gets -2 and player 2 gets 2.
+If the true state is ω2 and player 2 chooses D, player 1 gets 0 and player 2 gets 3.
+
+If player 1 sends {ω1}, player 2 knows the state is ω1.
+If player 1 sends {ω2}, player 2 knows the state is ω2.
+If player 1 sends Ω, player 2 knows only that one of the two states occurred, but does not know which one.

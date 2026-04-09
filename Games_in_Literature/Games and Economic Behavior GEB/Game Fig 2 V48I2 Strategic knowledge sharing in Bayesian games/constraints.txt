@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+The root is a chance node that chooses between omega1 and omega2 with probability 1/2 each.
+Player 1 moves after the chance node.
+Player 2 has one information set for the two nodes reached after message Omega.
+The nodes reached after messages {omega1} and {omega2} are separate Player 2 information sets.
+At terminal omega1_reveal_choose_B, the payoffs are (1, 5).

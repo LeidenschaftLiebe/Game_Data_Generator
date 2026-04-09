@@ -1,0 +1,23 @@
+V3 — Cybersecurity Incident Update
+
+Nature first determines whether the incident is MinorBreach [ω1] or MajorBreach [ω2], each with probability 1/2.
+
+The security chief, player 1, learns which incident occurred.
+
+If the incident is MinorBreach [ω1], the security chief can issue MinorAlert [{ω1}] or GenericNotice [Ω].
+If the incident is MajorBreach [ω2], the security chief can issue MajorAlert [{ω2}] or GenericNotice [Ω].
+
+After seeing the notice, the board member, player 2, chooses ContainInternally [A], CallSpecialists [B], FreezeSystems [C], or DelayResponse [D].
+
+If the state is MinorBreach [ω1] and the board member chooses ContainInternally [A], player 1 gets 0 and player 2 gets 6.
+If the state is MinorBreach [ω1] and the board member chooses CallSpecialists [B], player 1 gets 1 and player 2 gets 5.
+If the state is MinorBreach [ω1] and the board member chooses FreezeSystems [C], player 1 gets -2 and player 2 gets 0.
+If the state is MinorBreach [ω1] and the board member chooses DelayResponse [D], player 1 gets 1 and player 2 gets -6.
+
+If the state is MajorBreach [ω2] and the board member chooses ContainInternally [A], player 1 gets 1 and player 2 gets -6.
+If the state is MajorBreach [ω2] and the board member chooses CallSpecialists [B], player 1 gets 1 and player 2 gets 1.
+If the state is MajorBreach [ω2] and the board member chooses FreezeSystems [C], player 1 gets -2 and player 2 gets 2.
+If the state is MajorBreach [ω2] and the board member chooses DelayResponse [D], player 1 gets 0 and player 2 gets 3.
+
+A specific alert reveals the incident type.
+A GenericNotice [Ω] does not reveal whether the breach is minor or major.

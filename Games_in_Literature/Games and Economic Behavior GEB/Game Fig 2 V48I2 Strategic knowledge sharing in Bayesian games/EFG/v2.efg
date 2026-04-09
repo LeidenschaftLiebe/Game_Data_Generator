@@ -1,0 +1,26 @@
+EFG 2 R "Drug Trial Disclosure V2" { "Lab Director" "Regulator" }
+""
+
+c "" 1 "" { "strongResult" 1/2 "weakResult" 1/2 } 0
+p "" 1 1 "" { "{strongResult}" "broadStatement" } 0
+p "" 2 1 "" { "FastTrack" "LimitedApproval" "RequestMoreTests" "RejectNow" } 0
+t "" 1 "strongResult_reveal_choose_FastTrack" { 0, 6 }
+t "" 2 "strongResult_reveal_choose_LimitedApproval" { 1, 5 }
+t "" 3 "strongResult_reveal_choose_RequestMoreTests" { -2, 0 }
+t "" 4 "strongResult_reveal_choose_RejectNow" { 1, -6 }
+p "" 2 3 "" { "FastTrack" "LimitedApproval" "RequestMoreTests" "RejectNow" } 0
+t "" 9 "strongResult_broadStatement_choose_FastTrack" { 0, 6 }
+t "" 10 "strongResult_broadStatement_choose_LimitedApproval" { 1, 5 }
+t "" 11 "strongResult_broadStatement_choose_RequestMoreTests" { -2, 0 }
+t "" 12 "strongResult_broadStatement_choose_RejectNow" { 1, -6 }
+p "" 1 2 "" { "{weakResult}" "broadStatement" } 0
+p "" 2 2 "" { "FastTrack" "LimitedApproval" "RequestMoreTests" "RejectNow" } 0
+t "" 5 "weakResult_reveal_choose_FastTrack" { 1, -6 }
+t "" 6 "weakResult_reveal_choose_LimitedApproval" { 1, 1 }
+t "" 7 "weakResult_reveal_choose_RequestMoreTests" { -2, 2 }
+t "" 8 "weakResult_reveal_choose_RejectNow" { 0, 3 }
+p "" 2 3 "" { "FastTrack" "LimitedApproval" "RequestMoreTests" "RejectNow" } 0
+t "" 13 "weakResult_broadStatement_choose_FastTrack" { 1, -6 }
+t "" 14 "weakResult_broadStatement_choose_LimitedApproval" { 1, 1 }
+t "" 15 "weakResult_broadStatement_choose_RequestMoreTests" { -2, 2 }
+t "" 16 "weakResult_broadStatement_choose_RejectNow" { 0, 3 }

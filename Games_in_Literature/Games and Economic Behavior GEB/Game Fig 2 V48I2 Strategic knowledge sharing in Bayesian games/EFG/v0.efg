@@ -1,0 +1,26 @@
+EFG 2 R "Strategic Knowledge Sharing Example 1 V0" { "1" "2" }
+""
+
+c "" 1 "" { "omega1" 1/2 "omega2" 1/2 } 0
+p "" 1 1 "" { "{omega1}" "Omega" } 0
+p "" 2 1 "" { "A" "B" "C" "D" } 0
+t "" 1 "omega1_reveal_choose_A" { 0, 6 }
+t "" 2 "omega1_reveal_choose_B" { 1, 5 }
+t "" 3 "omega1_reveal_choose_C" { -2, 0 }
+t "" 4 "omega1_reveal_choose_D" { 1, -6 }
+p "" 2 3 "" { "A" "B" "C" "D" } 0
+t "" 9 "omega1_Omega_choose_A" { 0, 6 }
+t "" 10 "omega1_Omega_choose_B" { 1, 5 }
+t "" 11 "omega1_Omega_choose_C" { -2, 0 }
+t "" 12 "omega1_Omega_choose_D" { 1, -6 }
+p "" 1 2 "" { "{omega2}" "Omega" } 0
+p "" 2 2 "" { "A" "B" "C" "D" } 0
+t "" 5 "omega2_reveal_choose_A" { 1, -6 }
+t "" 6 "omega2_reveal_choose_B" { 1, 1 }
+t "" 7 "omega2_reveal_choose_C" { -2, 2 }
+t "" 8 "omega2_reveal_choose_D" { 0, 3 }
+p "" 2 3 "" { "A" "B" "C" "D" } 0
+t "" 13 "omega2_Omega_choose_A" { 1, -6 }
+t "" 14 "omega2_Omega_choose_B" { 1, 1 }
+t "" 15 "omega2_Omega_choose_C" { -2, 2 }
+t "" 16 "omega2_Omega_choose_D" { 0, 3 }

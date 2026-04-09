@@ -1,0 +1,23 @@
+V2 — Drug Trial Disclosure
+
+Nature first determines whether the trial result is StrongResult [ω1] or WeakResult [ω2], each with probability 1/2.
+
+The lab director, player 1, sees the true result.
+
+If the result is StrongResult [ω1], the lab director can release StrongDisclosure [{ω1}] or BroadStatement [Ω].
+If the result is WeakResult [ω2], the lab director can release WeakDisclosure [{ω2}] or BroadStatement [Ω].
+
+After observing the statement, the regulator, player 2, chooses FastTrack [A], LimitedApproval [B], RequestMoreTests [C], or RejectNow [D].
+
+If the state is StrongResult [ω1] and the regulator chooses FastTrack [A], player 1 gets 0 and player 2 gets 6.
+If the state is StrongResult [ω1] and the regulator chooses LimitedApproval [B], player 1 gets 1 and player 2 gets 5.
+If the state is StrongResult [ω1] and the regulator chooses RequestMoreTests [C], player 1 gets -2 and player 2 gets 0.
+If the state is StrongResult [ω1] and the regulator chooses RejectNow [D], player 1 gets 1 and player 2 gets -6.
+
+If the state is WeakResult [ω2] and the regulator chooses FastTrack [A], player 1 gets 1 and player 2 gets -6.
+If the state is WeakResult [ω2] and the regulator chooses LimitedApproval [B], player 1 gets 1 and player 2 gets 1.
+If the state is WeakResult [ω2] and the regulator chooses RequestMoreTests [C], player 1 gets -2 and player 2 gets 2.
+If the state is WeakResult [ω2] and the regulator chooses RejectNow [D], player 1 gets 0 and player 2 gets 3.
+
+A specific disclosure reveals the true result.
+A BroadStatement [Ω] leaves the regulator uncertain about which result occurred.

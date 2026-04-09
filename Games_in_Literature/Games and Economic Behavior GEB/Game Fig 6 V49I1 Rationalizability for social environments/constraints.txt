@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+The root is a chance node that chooses between (x1,x2) and (x2,x1) with probability 1/2 each.
+Player 1 moves after the chance node, and the two Player 1 decision nodes are in the same information set.
+Player 2 moves after Player 1, and all four Player 2 decision nodes are in the same information set.
+If both players choose 1, the realized outcome depends on the chance ordering: under (x1,x2) it yields (2, 1), and under (x2,x1) it yields (1, 2).

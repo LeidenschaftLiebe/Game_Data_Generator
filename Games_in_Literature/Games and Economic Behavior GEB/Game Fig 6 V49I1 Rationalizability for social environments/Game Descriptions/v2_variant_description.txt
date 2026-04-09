@@ -1,0 +1,23 @@
+V2 — Product Roadmap Choice
+
+A company can move ahead with Feature Alpha [x1], Feature Beta [x2], or leave the roadmap unchanged at Current Plan [x0].
+
+At the start, senior management quietly selects which feature has priority if both teams push for launch.
+The order is either AlphaFirst [ (x1, x2) ] or BetaFirst [ (x2, x1) ].
+
+Then Team Alpha chooses Push [1] or Hold [0] for Feature Alpha [x1].
+
+After that, Team Beta chooses Push [1] or Hold [0] for Feature Beta [x2].
+
+Team Alpha does not know which priority order was selected.
+Team Beta does not know which priority order was selected, and also does not know Team Alpha’s choice.
+
+If neither team pushes, the result is Current Plan [x0], and both teams get 0.
+
+If only Team Alpha pushes, the result is Feature Alpha [x1].
+Team Alpha gets 2 and Team Beta gets 1.
+
+If only Team Beta pushes, the result is Feature Beta [x2].
+Team Alpha gets 1 and Team Beta gets 2.
+
+If both teams push, the selected priority order determines which feature is launched.

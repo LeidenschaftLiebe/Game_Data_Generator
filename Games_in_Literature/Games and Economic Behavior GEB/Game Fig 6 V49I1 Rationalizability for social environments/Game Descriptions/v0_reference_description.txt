@@ -1,0 +1,27 @@
+V0 — Social Environment Example
+
+There are two individuals, 1 and 2, and three possible final results: x0, x1, and x2.
+
+At the start, an outside procedure selects an order between (x1, x2) and (x2, x1).
+
+Then individual 1 decides whether to support the move to x1 by choosing 1 or 0.
+Choosing 1 means supporting the move to x1, and choosing 0 means not supporting it.
+
+After that, individual 2 decides whether to support the move to x2 by choosing 1 or 0.
+Choosing 1 means supporting the move to x2, and choosing 0 means not supporting it.
+
+Individual 1 does not know which order was selected when making the choice.
+Individual 2 does not know which order was selected, and also does not know what individual 1 chose.
+
+If neither individual supports a move, the result is x0.
+At x0, both individuals get 0.
+
+If only individual 1 supports a move, the result is x1.
+At x1, individual 1 gets 2 and individual 2 gets 1.
+
+If only individual 2 supports a move, the result is x2.
+At x2, individual 1 gets 1 and individual 2 gets 2.
+
+If both individuals support their moves, then the outside procedure decides which result is implemented.
+If the selected order is (x1, x2), the result is x1.
+If the selected order is (x2, x1), the result is x2.

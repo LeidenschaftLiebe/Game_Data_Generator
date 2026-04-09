@@ -1,0 +1,18 @@
+EFG 2 R "Research Funding Route V5" { "AI Lead" "Bio Lead" }
+""
+
+c "" 1 "" { "(AIInitiative,BioInitiative)" 1/2 "(BioInitiative,AIInitiative)" 1/2 } 0
+p "" 1 1 "" { "Propose" "DoNotPropose" } 0
+p "" 2 1 "" { "Propose" "DoNotPropose" } 0
+t "" 1 "ai_first_both_propose" { 2, 1 }
+t "" 2 "ai_first_only_ai_proposes" { 2, 1 }
+p "" 2 1 "" { "Propose" "DoNotPropose" } 0
+t "" 3 "ai_first_only_bio_proposes" { 1, 2 }
+t "" 4 "ai_first_no_one_proposes" { 0, 0 }
+p "" 1 1 "" { "Propose" "DoNotPropose" } 0
+p "" 2 1 "" { "Propose" "DoNotPropose" } 0
+t "" 5 "bio_first_both_propose" { 1, 2 }
+t "" 6 "bio_first_only_ai_proposes" { 2, 1 }
+p "" 2 1 "" { "Propose" "DoNotPropose" } 0
+t "" 7 "bio_first_only_bio_proposes" { 1, 2 }
+t "" 8 "bio_first_no_one_proposes" { 0, 0 }

@@ -1,0 +1,23 @@
+V1 — Budget Priority Rule
+
+A school can fund one of two proposals, Library Upgrade [x1] or Sports Renovation [x2], or keep the current plan Status Quo [x0].
+
+At the start, an outside budgeting rule selects which proposal has priority if both are approved.
+The rule is either LibraryFirst [ (x1, x2) ] or SportsFirst [ (x2, x1) ].
+
+Then the library representative decides whether to back the library proposal by choosing Support [1] or DoNotSupport [0].
+
+After that, the sports representative decides whether to back the sports proposal by choosing Support [1] or DoNotSupport [0].
+
+The library representative does not know which priority rule was selected.
+The sports representative does not know which priority rule was selected, and also does not know the earlier choice of the library representative.
+
+If neither side supports its proposal, the result is Status Quo [x0], and both sides get 0.
+
+If only the library side supports, the result is Library Upgrade [x1].
+The library side gets 2 and the sports side gets 1.
+
+If only the sports side supports, the result is Sports Renovation [x2].
+The library side gets 1 and the sports side gets 2.
+
+If both sides support their proposals, the selected priority rule decides which proposal goes through.

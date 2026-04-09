@@ -1,0 +1,18 @@
+EFG 2 R "Budget Priority Rule V1" { "Library Representative" "Sports Representative" }
+""
+
+c "" 1 "" { "(LibraryUpgrade,SportsRenovation)" 1/2 "(SportsRenovation,LibraryUpgrade)" 1/2 } 0
+p "" 1 1 "" { "Support" "DoNotSupport" } 0
+p "" 2 1 "" { "Support" "DoNotSupport" } 0
+t "" 1 "library_first_both_support" { 2, 1 }
+t "" 2 "library_first_only_library_supports" { 2, 1 }
+p "" 2 1 "" { "Support" "DoNotSupport" } 0
+t "" 3 "library_first_only_sports_supports" { 1, 2 }
+t "" 4 "library_first_no_one_supports" { 0, 0 }
+p "" 1 1 "" { "Support" "DoNotSupport" } 0
+p "" 2 1 "" { "Support" "DoNotSupport" } 0
+t "" 5 "sports_first_both_support" { 1, 2 }
+t "" 6 "sports_first_only_library_supports" { 2, 1 }
+p "" 2 1 "" { "Support" "DoNotSupport" } 0
+t "" 7 "sports_first_only_sports_supports" { 1, 2 }
+t "" 8 "sports_first_no_one_supports" { 0, 0 }

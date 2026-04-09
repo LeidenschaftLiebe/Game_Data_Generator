@@ -1,0 +1,23 @@
+V5 — Research Funding Route
+
+A lab can move to AI Initiative [x1], Bio Initiative [x2], or remain at Current Allocation [x0].
+
+At the start, the institute’s internal rule selects which initiative has priority if both are proposed.
+The order is either AIFirst [ (x1, x2) ] or BioFirst [ (x2, x1) ].
+
+Then the AI lead chooses Propose [1] or DoNotPropose [0] for AI Initiative [x1].
+
+After that, the Bio lead chooses Propose [1] or DoNotPropose [0] for Bio Initiative [x2].
+
+The AI lead does not know which priority order was selected.
+The Bio lead does not know which priority order was selected, and also does not know the earlier choice of the AI lead.
+
+If neither lead proposes an initiative, the result is Current Allocation [x0], and both leads get 0.
+
+If only the AI lead proposes, the result is AI Initiative [x1].
+The AI lead gets 2 and the Bio lead gets 1.
+
+If only the Bio lead proposes, the result is Bio Initiative [x2].
+The AI lead gets 1 and the Bio lead gets 2.
+
+If both leads propose their initiatives, the selected priority order determines which initiative is funded.

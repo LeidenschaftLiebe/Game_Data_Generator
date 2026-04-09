@@ -1,0 +1,23 @@
+V3 — City Development Decision
+
+A city can move to River Park [x1], Transit Hub [x2], or keep the current arrangement As Is [x0].
+
+At the start, an administrative rule selects which project takes priority if both are endorsed.
+The order is either ParkFirst [ (x1, x2) ] or TransitFirst [ (x2, x1) ].
+
+Then the parks department chooses Endorse [1] or Decline [0] for River Park [x1].
+
+After that, the transit department chooses Endorse [1] or Decline [0] for Transit Hub [x2].
+
+The parks department does not know which priority order was chosen.
+The transit department does not know which priority order was chosen, and also does not know the earlier choice of the parks department.
+
+If neither department endorses its project, the result is As Is [x0], and both departments get 0.
+
+If only the parks department endorses, the result is River Park [x1].
+The parks department gets 2 and the transit department gets 1.
+
+If only the transit department endorses, the result is Transit Hub [x2].
+The parks department gets 1 and the transit department gets 2.
+
+If both departments endorse, the selected priority order decides which project is adopted.

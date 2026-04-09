@@ -1,0 +1,18 @@
+EFG 2 R "Product Roadmap Choice V2" { "Team Alpha" "Team Beta" }
+""
+
+c "" 1 "" { "(FeatureAlpha,FeatureBeta)" 1/2 "(FeatureBeta,FeatureAlpha)" 1/2 } 0
+p "" 1 1 "" { "Push" "Hold" } 0
+p "" 2 1 "" { "Push" "Hold" } 0
+t "" 1 "alpha_first_both_push" { 2, 1 }
+t "" 2 "alpha_first_only_alpha_pushes" { 2, 1 }
+p "" 2 1 "" { "Push" "Hold" } 0
+t "" 3 "alpha_first_only_beta_pushes" { 1, 2 }
+t "" 4 "alpha_first_no_one_pushes" { 0, 0 }
+p "" 1 1 "" { "Push" "Hold" } 0
+p "" 2 1 "" { "Push" "Hold" } 0
+t "" 5 "beta_first_both_push" { 1, 2 }
+t "" 6 "beta_first_only_alpha_pushes" { 2, 1 }
+p "" 2 1 "" { "Push" "Hold" } 0
+t "" 7 "beta_first_only_beta_pushes" { 1, 2 }
+t "" 8 "beta_first_no_one_pushes" { 0, 0 }

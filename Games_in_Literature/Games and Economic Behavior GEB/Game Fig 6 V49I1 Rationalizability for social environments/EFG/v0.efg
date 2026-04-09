@@ -1,0 +1,18 @@
+EFG 2 R "Social Environment Example 3 V0" { "1" "2" }
+""
+
+c "" 1 "" { "(x1,x2)" 1/2 "(x2,x1)" 1/2 } 0
+p "" 1 1 "" { "1" "0" } 0
+p "" 2 1 "" { "1" "0" } 0
+t "" 1 "order_x1_first_both_support" { 2, 1 }
+t "" 2 "order_x1_first_only_p1_supports" { 2, 1 }
+p "" 2 1 "" { "1" "0" } 0
+t "" 3 "order_x1_first_only_p2_supports" { 1, 2 }
+t "" 4 "order_x1_first_no_one_supports" { 0, 0 }
+p "" 1 1 "" { "1" "0" } 0
+p "" 2 1 "" { "1" "0" } 0
+t "" 5 "order_x2_first_both_support" { 1, 2 }
+t "" 6 "order_x2_first_only_p1_supports" { 2, 1 }
+p "" 2 1 "" { "1" "0" } 0
+t "" 7 "order_x2_first_only_p2_supports" { 1, 2 }
+t "" 8 "order_x2_first_no_one_supports" { 0, 0 }

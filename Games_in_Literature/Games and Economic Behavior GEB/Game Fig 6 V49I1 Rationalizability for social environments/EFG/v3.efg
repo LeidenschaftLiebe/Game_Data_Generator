@@ -1,0 +1,18 @@
+EFG 2 R "City Development Decision V3" { "Parks Department" "Transit Department" }
+""
+
+c "" 1 "" { "(RiverPark,TransitHub)" 1/2 "(TransitHub,RiverPark)" 1/2 } 0
+p "" 1 1 "" { "Endorse" "Decline" } 0
+p "" 2 1 "" { "Endorse" "Decline" } 0
+t "" 1 "park_first_both_endorse" { 2, 1 }
+t "" 2 "park_first_only_park_endorses" { 2, 1 }
+p "" 2 1 "" { "Endorse" "Decline" } 0
+t "" 3 "park_first_only_transit_endorses" { 1, 2 }
+t "" 4 "park_first_no_one_endorses" { 0, 0 }
+p "" 1 1 "" { "Endorse" "Decline" } 0
+p "" 2 1 "" { "Endorse" "Decline" } 0
+t "" 5 "transit_first_both_endorse" { 1, 2 }
+t "" 6 "transit_first_only_park_endorses" { 2, 1 }
+p "" 2 1 "" { "Endorse" "Decline" } 0
+t "" 7 "transit_first_only_transit_endorses" { 1, 2 }
+t "" 8 "transit_first_no_one_endorses" { 0, 0 }

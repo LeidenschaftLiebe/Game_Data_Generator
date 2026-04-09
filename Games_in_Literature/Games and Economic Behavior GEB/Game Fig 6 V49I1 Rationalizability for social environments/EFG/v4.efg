@@ -1,0 +1,18 @@
+EFG 2 R "Film Slate Selection V4" { "Producer A" "Producer B" }
+""
+
+c "" 1 "" { "(FilmA,FilmB)" 1/2 "(FilmB,FilmA)" 1/2 } 0
+p "" 1 1 "" { "BackProject" "StepBack" } 0
+p "" 2 1 "" { "BackProject" "StepBack" } 0
+t "" 1 "film_a_first_both_back" { 2, 1 }
+t "" 2 "film_a_first_only_a_backs" { 2, 1 }
+p "" 2 1 "" { "BackProject" "StepBack" } 0
+t "" 3 "film_a_first_only_b_backs" { 1, 2 }
+t "" 4 "film_a_first_no_one_backs" { 0, 0 }
+p "" 1 1 "" { "BackProject" "StepBack" } 0
+p "" 2 1 "" { "BackProject" "StepBack" } 0
+t "" 5 "film_b_first_both_back" { 1, 2 }
+t "" 6 "film_b_first_only_a_backs" { 2, 1 }
+p "" 2 1 "" { "BackProject" "StepBack" } 0
+t "" 7 "film_b_first_only_b_backs" { 1, 2 }
+t "" 8 "film_b_first_no_one_backs" { 0, 0 }

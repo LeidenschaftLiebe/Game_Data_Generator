@@ -1,0 +1,23 @@
+V4 — Film Slate Selection
+
+A studio can greenlight Film A [x1], Film B [x2], or keep the slate unchanged at No New Film [x0].
+
+At the start, the studio head sets an unseen ranking for what happens if both projects are pushed at once.
+The order is either AFirst [ (x1, x2) ] or BFirst [ (x2, x1) ].
+
+Then Producer A chooses BackProject [1] or StepBack [0] for Film A [x1].
+
+After that, Producer B chooses BackProject [1] or StepBack [0] for Film B [x2].
+
+Producer A does not know which ranking was set.
+Producer B does not know which ranking was set, and also does not know Producer A’s choice.
+
+If neither producer backs a project, the result is No New Film [x0], and both producers get 0.
+
+If only Producer A backs a project, the result is Film A [x1].
+Producer A gets 2 and Producer B gets 1.
+
+If only Producer B backs a project, the result is Film B [x2].
+Producer A gets 1 and Producer B gets 2.
+
+If both producers back their projects, the chosen ranking decides which film is greenlit.

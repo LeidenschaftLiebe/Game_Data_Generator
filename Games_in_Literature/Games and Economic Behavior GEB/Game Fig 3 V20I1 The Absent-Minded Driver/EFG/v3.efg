@@ -1,0 +1,10 @@
+EFG 2 R "Hiker on a Foggy Mountain Road V3" { "Hiker" }
+""
+
+p "" 1 1 "" { "LeaveTrail" "KeepWalking" } 0
+t "" 1 "leave_at_trail_X" { 7 }
+p "" 1 1 "" { "LeaveTrail" "KeepWalking" } 0
+t "" 2 "leave_at_trail_Y" { 0 }
+p "" 1 1 "" { "LeaveTrail" "KeepWalking" } 0
+t "" 3 "leave_at_trail_Z" { 22 }
+t "" 4 "keep_walking_past_Z" { 2 }

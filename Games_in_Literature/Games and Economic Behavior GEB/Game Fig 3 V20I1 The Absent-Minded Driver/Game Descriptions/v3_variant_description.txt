@@ -1,0 +1,17 @@
+V3 — Hiker on a Foggy Mountain Road
+
+A hiker starts on a mountain path and passes three trail exits.
+
+The exits are TrailX [X], TrailY [Y], and TrailZ [Z].
+
+At each one, the hiker chooses LeaveTrail [EXIT] or KeepWalking [CONT].
+
+Heavy fog makes the three exits look the same, so the hiker cannot tell whether the current place is TrailX [X], TrailY [Y], or TrailZ [Z].
+
+If the hiker leaves at TrailX [X], the reward is 7.
+
+If the hiker leaves at TrailY [Y], the reward is 0.
+
+If the hiker leaves at TrailZ [Z], the reward is 22.
+
+If the hiker keeps walking past TrailZ [Z], the reward is 2.

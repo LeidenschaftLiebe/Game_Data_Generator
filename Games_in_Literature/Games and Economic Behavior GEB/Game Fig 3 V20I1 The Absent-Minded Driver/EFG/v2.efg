@@ -1,0 +1,10 @@
+EFG 2 R "Space Probe Passing Three Stations V2" { "Controller" }
+""
+
+p "" 1 1 "" { "DockNow" "KeepFlying" } 0
+t "" 1 "dock_at_station_X" { 7 }
+p "" 1 1 "" { "DockNow" "KeepFlying" } 0
+t "" 2 "dock_at_station_Y" { 0 }
+p "" 1 1 "" { "DockNow" "KeepFlying" } 0
+t "" 3 "dock_at_station_Z" { 22 }
+t "" 4 "keep_flying_past_Z" { 2 }

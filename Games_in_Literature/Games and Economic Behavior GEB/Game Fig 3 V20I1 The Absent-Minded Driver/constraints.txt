@@ -1,0 +1,12 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+There is one player, Driver, who moves at three successive decision nodes.
+All three Driver decision nodes are in the same information set.
+At each decision node, the available actions are EXIT and CONT.
+The first EXIT leads to payoff 7.
+The second EXIT leads to payoff 0.
+The third EXIT leads to payoff 22.
+If the player chooses CONT at all three decision nodes, the final payoff is 2.

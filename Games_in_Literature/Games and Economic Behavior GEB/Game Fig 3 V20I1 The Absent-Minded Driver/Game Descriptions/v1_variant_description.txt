@@ -1,0 +1,18 @@
+V1 — Delivery Van with Confusing Off-Ramps
+
+A delivery van leaves the depot and keeps driving along a highway.
+
+The van may arrive at three similar-looking off-ramps called RampX [X], RampY [Y], and RampZ [Z].
+
+At each ramp, the driver chooses TakeRamp [EXIT] or StayOnHighway [CONT].
+
+The driver cannot tell which of the three ramps it is.
+So the same choice rule is used each time.
+
+If the driver takes RampX [X], the reward is 7.
+
+If the driver takes RampY [Y], the reward is 0.
+
+If the driver takes RampZ [Z], the reward is 22.
+
+If the driver stays on the highway even after RampZ [Z], the reward is 2.

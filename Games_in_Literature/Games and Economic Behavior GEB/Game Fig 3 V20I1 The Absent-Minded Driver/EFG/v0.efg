@@ -1,0 +1,10 @@
+EFG 2 R "More Challenging Absent-Minded Driver Example V0" { "Driver" }
+""
+
+p "" 1 1 "" { "EXIT" "CONT" } 0
+t "" 1 "exit_at_X" { 7 }
+p "" 1 1 "" { "EXIT" "CONT" } 0
+t "" 2 "exit_at_Y" { 0 }
+p "" 1 1 "" { "EXIT" "CONT" } 0
+t "" 3 "exit_at_Z" { 22 }
+t "" 4 "continue_past_Z" { 2 }

@@ -1,0 +1,18 @@
+V4 — Warehouse Robot and Identical Checkpoints
+
+A warehouse robot starts moving down a long service corridor.
+
+It may reach three identical checkpoints: CheckpointX [X], CheckpointY [Y], and CheckpointZ [Z].
+
+At each checkpoint, the robot chooses StopHere [EXIT] or ContinueRoute [CONT].
+
+Because the checkpoint markers are identical, the robot cannot tell which checkpoint it is currently at.
+So it must use the same choice pattern at all three points.
+
+If the robot stops at CheckpointX [X], the reward is 7.
+
+If the robot stops at CheckpointY [Y], the reward is 0.
+
+If the robot stops at CheckpointZ [Z], the reward is 22.
+
+If the robot continues even after CheckpointZ [Z], the reward is 2.

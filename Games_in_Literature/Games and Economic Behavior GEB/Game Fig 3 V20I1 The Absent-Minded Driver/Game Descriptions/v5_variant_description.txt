@@ -1,0 +1,18 @@
+V5 — Museum Visitor with Repeating Hallways
+
+A visitor enters a museum hallway that passes three exits.
+
+The exits are HallX [X], HallY [Y], and HallZ [Z].
+
+At each exit, the visitor chooses LeaveNow [EXIT] or KeepGoing [CONT].
+
+The hallways are designed so similarly that the visitor cannot tell whether the current exit is HallX [X], HallY [Y], or HallZ [Z].
+So the same decision rule is used whenever an exit appears.
+
+If the visitor leaves at HallX [X], the reward is 7.
+
+If the visitor leaves at HallY [Y], the reward is 0.
+
+If the visitor leaves at HallZ [Z], the reward is 22.
+
+If the visitor keeps going past HallZ [Z], the reward is 2.

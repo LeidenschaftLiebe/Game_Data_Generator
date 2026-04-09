@@ -1,0 +1,18 @@
+V2 — Space Probe Passing Three Stations
+
+A probe starts its route and moves past three docking stations.
+
+The stations are StationX [X], StationY [Y], and StationZ [Z].
+
+At each station, the controller chooses DockNow [EXIT] or KeepFlying [CONT].
+
+Because the station displays are confusing, the controller cannot tell whether the probe is at StationX [X], StationY [Y], or StationZ [Z].
+So the same decision is used at all three stations.
+
+If the probe docks at StationX [X], the reward is 7.
+
+If the probe docks at StationY [Y], the reward is 0.
+
+If the probe docks at StationZ [Z], the reward is 22.
+
+If the probe keeps flying past StationZ [Z], the reward is 2.

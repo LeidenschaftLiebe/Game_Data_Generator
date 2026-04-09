@@ -1,0 +1,10 @@
+EFG 2 R "Museum Visitor with Repeating Hallways V5" { "Visitor" }
+""
+
+p "" 1 1 "" { "LeaveNow" "KeepGoing" } 0
+t "" 1 "leave_at_hall_X" { 7 }
+p "" 1 1 "" { "LeaveNow" "KeepGoing" } 0
+t "" 2 "leave_at_hall_Y" { 0 }
+p "" 1 1 "" { "LeaveNow" "KeepGoing" } 0
+t "" 3 "leave_at_hall_Z" { 22 }
+t "" 4 "keep_going_past_Z" { 2 }

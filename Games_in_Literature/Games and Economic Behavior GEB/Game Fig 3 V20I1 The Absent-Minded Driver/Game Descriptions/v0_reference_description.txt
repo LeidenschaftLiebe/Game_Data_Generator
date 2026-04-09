@@ -1,0 +1,18 @@
+V0 — More Challenging Absent-Minded Driver Example
+
+A driver starts at START and keeps moving forward along the road.
+
+Along the way, the driver may arrive at X, Y, or Z.
+
+At each of these points, the driver chooses EXIT or CONT.
+
+The driver cannot tell whether the current point is X, Y, or Z.
+The same reasoning therefore applies at all three points.
+
+If the driver exits at X, the reward is 7.
+
+If the driver exits at Y, the reward is 0.
+
+If the driver exits at Z, the reward is 22.
+
+If the driver continues past Z, the reward is 2.

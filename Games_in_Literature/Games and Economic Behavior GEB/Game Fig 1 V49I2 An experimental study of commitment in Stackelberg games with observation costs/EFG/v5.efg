@@ -1,0 +1,18 @@
+EFG 2 R "Streaming Release Strategy V5 (tracking cost=30)" { "Major Platform" "Smaller Platform" }
+""
+
+p "" 1 1 "" { "SplashRelease" "ConventionalRelease" } 0
+p "" 2 1 "" { "TrackLaunch" "IgnoreLaunch" } 0
+p "" 2 2 "" { "PushSignatureShow" "HoldLineup" } 0
+t "" 1 "SplashRelease_TrackLaunch_PushSignatureShow" { 500, 170 }
+t "" 2 "SplashRelease_TrackLaunch_HoldLineup" { 300, 70 }
+p "" 2 3 "" { "PushSignatureShow" "HoldLineup" } 0
+t "" 3 "SplashRelease_IgnoreLaunch_PushSignatureShow" { 500, 200 }
+t "" 4 "SplashRelease_IgnoreLaunch_HoldLineup" { 300, 100 }
+p "" 2 1 "" { "TrackLaunch" "IgnoreLaunch" } 0
+p "" 2 4 "" { "PushSignatureShow" "HoldLineup" } 0
+t "" 7 "ConventionalRelease_TrackLaunch_PushSignatureShow" { 600, 270 }
+t "" 8 "ConventionalRelease_TrackLaunch_HoldLineup" { 400, 370 }
+p "" 2 3 "" { "PushSignatureShow" "HoldLineup" } 0
+t "" 5 "ConventionalRelease_IgnoreLaunch_PushSignatureShow" { 600, 300 }
+t "" 6 "ConventionalRelease_IgnoreLaunch_HoldLineup" { 400, 400 }

@@ -1,0 +1,25 @@
+V0 — Costly Leader Game
+
+Two firms interact, a Leader and a Follower.
+
+The Leader moves first and chooses S or C.
+
+After that, the Follower decides whether to Observe the Leader’s choice or Not Observe it.
+Observing costs the Follower 30 points.
+
+If the Follower chooses Observe, the Follower sees whether the Leader chose S or C before making the final choice.
+If the Follower chooses Not Observe, the Follower receives no information about the Leader’s earlier move.
+
+The Follower then chooses s or c.
+
+If the Leader chose S, the Follower observed, and then chose s, the Leader gets 500 and the Follower gets 170.
+If the Leader chose S, the Follower observed, and then chose c, the Leader gets 300 and the Follower gets 70.
+
+If the Leader chose S, the Follower did not observe, and then chose s, the Leader gets 500 and the Follower gets 200.
+If the Leader chose S, the Follower did not observe, and then chose c, the Leader gets 300 and the Follower gets 100.
+
+If the Leader chose C, the Follower did not observe, and then chose s, the Leader gets 600 and the Follower gets 300.
+If the Leader chose C, the Follower did not observe, and then chose c, the Leader gets 400 and the Follower gets 400.
+
+If the Leader chose C, the Follower observed, and then chose s, the Leader gets 600 and the Follower gets 270.
+If the Leader chose C, the Follower observed, and then chose c, the Leader gets 400 and the Follower gets 370.

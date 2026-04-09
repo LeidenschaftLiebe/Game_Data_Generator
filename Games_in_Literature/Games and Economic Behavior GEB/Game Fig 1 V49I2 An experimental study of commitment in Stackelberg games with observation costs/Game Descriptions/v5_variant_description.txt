@@ -1,0 +1,33 @@
+V5 — Streaming Release Strategy
+
+A major streaming platform chooses its release strategy first, and a smaller platform reacts after that.
+
+The major platform chooses SplashRelease [S] or ConventionalRelease [C].
+
+The smaller platform then decides whether to TrackLaunch [Observe] or IgnoreLaunch [Not Observe].
+Tracking the launch costs 30 points.
+
+If it tracks the launch, it sees the major platform’s move before choosing its own response.
+If it ignores the launch, it chooses without that information.
+
+The smaller platform then chooses PushSignatureShow [s] or HoldLineup [c].
+
+If the major platform chose SplashRelease [S], the smaller platform tracked the move, and then chose PushSignatureShow [s], 
+the major platform gets 500 and the smaller platform gets 170.
+If the major platform chose SplashRelease [S], the smaller platform tracked the move, and then chose HoldLineup [c], 
+the major platform gets 300 and the smaller platform gets 70.
+
+If the major platform chose SplashRelease [S], the smaller platform did not track the move, and then chose PushSignatureShow [s], 
+the major platform gets 500 and the smaller platform gets 200.
+If the major platform chose SplashRelease [S], the smaller platform did not track the move, and then chose HoldLineup [c], 
+the major platform gets 300 and the smaller platform gets 100.
+
+If the major platform chose ConventionalRelease [C], the smaller platform did not track the move, and then chose PushSignatureShow [s], 
+the major platform gets 600 and the smaller platform gets 300.
+If the major platform chose ConventionalRelease [C], the smaller platform did not track the move, and then chose HoldLineup [c], 
+the major platform gets 400 and the smaller platform gets 400.
+
+If the major platform chose ConventionalRelease [C], the smaller platform tracked the move, and then chose PushSignatureShow [s], 
+the major platform gets 600 and the smaller platform gets 270.
+If the major platform chose ConventionalRelease [C], the smaller platform tracked the move, and then chose HoldLineup [c], 
+the major platform gets 400 and the smaller platform gets 370.

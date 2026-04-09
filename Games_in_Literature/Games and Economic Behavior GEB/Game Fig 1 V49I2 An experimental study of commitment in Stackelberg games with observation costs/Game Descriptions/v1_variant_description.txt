@@ -1,0 +1,33 @@
+V1 — Factory Output Planning
+
+A large manufacturer acts first, and a smaller rival reacts afterward.
+
+The first firm chooses HighOutput [S] or RegularOutput [C].
+
+The second firm then decides whether to Inspect [Observe] the first firm’s output choice or SkipInspection [Not Observe].
+Inspection costs the second firm 30 points.
+
+If the second firm inspects, it sees the first firm’s earlier choice before deciding what to produce.
+If it skips inspection, it must choose without seeing that earlier move.
+
+The second firm then chooses AggressiveReply [s] or ConservativeReply [c].
+
+If the first firm chose HighOutput [S], the second firm inspected, and then chose AggressiveReply [s], 
+the first firm gets 500 and the second firm gets 170.
+If the first firm chose HighOutput [S], the second firm inspected, and then chose ConservativeReply [c], 
+the first firm gets 300 and the second firm gets 70.
+
+If the first firm chose HighOutput [S], the second firm skipped inspection, and then chose AggressiveReply [s], 
+the first firm gets 500 and the second firm gets 200.
+If the first firm chose HighOutput [S], the second firm skipped inspection, and then chose ConservativeReply [c], 
+the first firm gets 300 and the second firm gets 100.
+
+If the first firm chose RegularOutput [C], the second firm skipped inspection, and then chose AggressiveReply [s], 
+the first firm gets 600 and the second firm gets 300.
+If the first firm chose RegularOutput [C], the second firm skipped inspection, and then chose ConservativeReply [c], 
+the first firm gets 400 and the second firm gets 400.
+
+If the first firm chose RegularOutput [C], the second firm inspected, and then chose AggressiveReply [s], 
+the first firm gets 600 and the second firm gets 270.
+If the first firm chose RegularOutput [C], the second firm inspected, and then chose ConservativeReply [c], 
+the first firm gets 400 and the second firm gets 370.

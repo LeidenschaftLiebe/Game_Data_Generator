@@ -1,0 +1,33 @@
+V2 — Campaign Spending Choice
+
+A leading campaign chooses its level of spending first, and the other campaign reacts after that.
+
+The leading campaign chooses HeavySpend [S] or StandardSpend [C].
+
+The other campaign then chooses whether to PollAndTrack [Observe] or GoInBlind [Not Observe].
+Polling and tracking cost 30 points.
+
+If it pays this cost, it learns the first campaign’s spending choice before making its own move.
+Otherwise, it chooses without that information.
+
+The reacting campaign then chooses SharpResponse [s] or CalmResponse [c].
+
+If the leading campaign chose HeavySpend [S], the other campaign paid to observe, and then chose SharpResponse [s], 
+the leading campaign gets 500 and the reacting campaign gets 170.
+If the leading campaign chose HeavySpend [S], the other campaign paid to observe, and then chose CalmResponse [c], 
+the leading campaign gets 300 and the reacting campaign gets 70.
+
+If the leading campaign chose HeavySpend [S], the other campaign did not observe, and then chose SharpResponse [s], 
+the leading campaign gets 500 and the reacting campaign gets 200.
+If the leading campaign chose HeavySpend [S], the other campaign did not observe, and then chose CalmResponse [c], 
+the leading campaign gets 300 and the reacting campaign gets 100.
+
+If the leading campaign chose StandardSpend [C], the other campaign did not observe, and then chose SharpResponse [s], 
+the leading campaign gets 600 and the reacting campaign gets 300.
+If the leading campaign chose StandardSpend [C], the other campaign did not observe, and then chose CalmResponse [c], 
+the leading campaign gets 400 and the reacting campaign gets 400.
+
+If the leading campaign chose StandardSpend [C], the other campaign paid to observe, and then chose SharpResponse [s], 
+the leading campaign gets 600 and the reacting campaign gets 270.
+If the leading campaign chose StandardSpend [C], the other campaign paid to observe, and then chose CalmResponse [c], 
+the leading campaign gets 400 and the reacting campaign gets 370.

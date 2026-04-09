@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+The Leader moves first at the root and chooses between S and C.
+The Follower next chooses between Observe and NotObserve, and the two Follower nodes after S and C are in the same information set.
+If the Follower chooses Observe, the subsequent Follower decision nodes after Observe are in different information sets.
+If the Follower chooses NotObserve, the subsequent Follower decision nodes after NotObserve are in the same information set.
+At terminal S_Observe_s, the payoffs are (500, 170).

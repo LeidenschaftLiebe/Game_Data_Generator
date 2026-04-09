@@ -1,0 +1,33 @@
+V4 — Retail Promotion Decision
+
+A large retailer commits to a promotion plan first, and a rival retailer responds afterward.
+
+The large retailer chooses BigPromotion [S] or BasePromotion [C].
+
+The rival retailer then decides whether to CheckFlyers [Observe] or DoNotCheck [Not Observe].
+Checking the flyers costs 30 points.
+
+If the rival checks, it sees the earlier promotion plan before making its own decision.
+If it does not check, it must choose without that information.
+
+The rival retailer then chooses StrongMatch [s] or LimitedMatch [c].
+
+If the large retailer chose BigPromotion [S], the rival checked, and then chose StrongMatch [s], 
+the large retailer gets 500 and the rival gets 170.
+If the large retailer chose BigPromotion [S], the rival checked, and then chose LimitedMatch [c], 
+the large retailer gets 300 and the rival gets 70.
+
+If the large retailer chose BigPromotion [S], the rival did not check, and then chose StrongMatch [s], 
+the large retailer gets 500 and the rival gets 200.
+If the large retailer chose BigPromotion [S], the rival did not check, and then chose LimitedMatch [c], 
+the large retailer gets 300 and the rival gets 100.
+
+If the large retailer chose BasePromotion [C], the rival did not check, and then chose StrongMatch [s], 
+the large retailer gets 600 and the rival gets 300.
+If the large retailer chose BasePromotion [C], the rival did not check, and then chose LimitedMatch [c], 
+the large retailer gets 400 and the rival gets 400.
+
+If the large retailer chose BasePromotion [C], the rival checked, and then chose StrongMatch [s], 
+the large retailer gets 600 and the rival gets 270.
+If the large retailer chose BasePromotion [C], the rival checked, and then chose LimitedMatch [c], 
+the large retailer gets 400 and the rival gets 370.

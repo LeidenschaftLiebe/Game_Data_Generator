@@ -1,0 +1,33 @@
+V3 — Cloud Pricing Move
+
+A major cloud provider sets its pricing position first, and a smaller competitor reacts later.
+
+The major provider chooses PremiumPush [S] or BalancedPlan [C].
+
+The smaller provider then chooses whether to RunMarketScan [Observe] or SkipScan [Not Observe].
+Running the scan costs 30 points.
+
+If it runs the scan, it sees the earlier pricing move before deciding how to respond.
+If it skips the scan, it chooses without that information.
+
+The smaller provider then chooses ScaleFast [s] or CutBack [c].
+
+If the major provider chose PremiumPush [S], the smaller provider scanned, and then chose ScaleFast [s], 
+the major provider gets 500 and the smaller provider gets 170.
+If the major provider chose PremiumPush [S], the smaller provider scanned, and then chose CutBack [c], 
+the major provider gets 300 and the smaller provider gets 70.
+
+If the major provider chose PremiumPush [S], the smaller provider skipped the scan, and then chose ScaleFast [s], 
+the major provider gets 500 and the smaller provider gets 200.
+If the major provider chose PremiumPush [S], the smaller provider skipped the scan, and then chose CutBack [c], 
+the major provider gets 300 and the smaller provider gets 100.
+
+If the major provider chose BalancedPlan [C], the smaller provider skipped the scan, and then chose ScaleFast [s], 
+the major provider gets 600 and the smaller provider gets 300.
+If the major provider chose BalancedPlan [C], the smaller provider skipped the scan, and then chose CutBack [c], 
+the major provider gets 400 and the smaller provider gets 400.
+
+If the major provider chose BalancedPlan [C], the smaller provider scanned, and then chose ScaleFast [s], 
+the major provider gets 600 and the smaller provider gets 270.
+If the major provider chose BalancedPlan [C], the smaller provider scanned, and then chose CutBack [c], 
+the major provider gets 400 and the smaller provider gets 370.

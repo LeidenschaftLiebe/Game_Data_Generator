@@ -1,0 +1,16 @@
+V1 — Optional Concert Plan
+
+Alex moves first and chooses StayFlexible [No] or CommitNow [Yes].
+
+After that, Blair chooses Opera [O] or Basketball [B].
+
+Then Alex chooses Opera [O] or Basketball [B].
+At this later move, Alex remembers whether the first move was StayFlexible [No] or CommitNow [Yes], but cannot tell which option Blair picked.
+
+If the first move was StayFlexible [No] and both later choices are Opera [O], Alex gets 2 and Blair gets 1.
+If the first move was StayFlexible [No] and both later choices are Basketball [B], Alex gets 1 and Blair gets 2.
+If the first move was StayFlexible [No] and the later choices do not match, both get 0.
+
+If the first move was CommitNow [Yes] and both later choices are Opera [O], Alex gets 2 and Blair gets 1.
+If the first move was CommitNow [Yes] and both later choices are Basketball [B], Alex gets 1 and Blair gets 2.
+If the first move was CommitNow [Yes] and the later choices do not match, both get 0.

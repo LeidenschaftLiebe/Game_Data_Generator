@@ -1,0 +1,18 @@
+EFG 2 R "Optional Festival Programming V3" { "Festival Director" "Curator" }
+""
+
+p "" 1 1 "" { "KeepOptionsOpen" "SetTheme" } 0
+p "" 2 1 "" { "ArtHouse" "Blockbuster" } 0
+p "" 1 2 "" { "ArtHouse" "Blockbuster" } 0
+t "" 1 "open_match_arthouse" { 2, 1 }
+t "" 2 "open_mismatch_arthouse_blockbuster" { 0, 0 }
+p "" 1 2 "" { "ArtHouse" "Blockbuster" } 0
+t "" 3 "open_mismatch_blockbuster_arthouse" { 0, 0 }
+t "" 4 "open_match_blockbuster" { 1, 2 }
+p "" 2 2 "" { "ArtHouse" "Blockbuster" } 0
+p "" 1 3 "" { "ArtHouse" "Blockbuster" } 0
+t "" 5 "theme_match_arthouse" { 2, 1 }
+t "" 6 "theme_mismatch_arthouse_blockbuster" { 0, 0 }
+p "" 1 3 "" { "ArtHouse" "Blockbuster" } 0
+t "" 7 "theme_mismatch_blockbuster_arthouse" { 0, 0 }
+t "" 8 "theme_match_blockbuster" { 1, 2 }

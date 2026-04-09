@@ -1,0 +1,16 @@
+V4 — Optional Marketing Style
+
+The campaign lead moves first and chooses HoldOff [No] or GoPublic [Yes].
+
+After that, the media adviser chooses Optimistic [O] or Bold [B].
+
+Then the campaign lead chooses Optimistic [O] or Bold [B].
+At this later move, the campaign lead knows whether the first move was HoldOff [No] or GoPublic [Yes], but does not know which style the media adviser chose.
+
+If the first move was HoldOff [No] and both later choices are Optimistic [O], the campaign lead gets 2 and the media adviser gets 1.
+If the first move was HoldOff [No] and both later choices are Bold [B], the campaign lead gets 1 and the media adviser gets 2.
+If the first move was HoldOff [No] and the later choices do not match, both get 0.
+
+If the first move was GoPublic [Yes] and both later choices are Optimistic [O], the campaign lead gets 2 and the media adviser gets 1.
+If the first move was GoPublic [Yes] and both later choices are Bold [B], the campaign lead gets 1 and the media adviser gets 2.
+If the first move was GoPublic [Yes] and the later choices do not match, both get 0.

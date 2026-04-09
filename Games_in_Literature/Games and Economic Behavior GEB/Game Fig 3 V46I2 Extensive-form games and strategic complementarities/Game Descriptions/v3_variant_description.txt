@@ -1,0 +1,17 @@
+V3 — Optional Festival Programming
+
+The festival director moves first and chooses KeepOptionsOpen [No] or SetTheme [Yes].
+
+After that, the curator chooses ArtHouse [O] or Blockbuster [B].
+
+Then the festival director chooses ArtHouse [O] or Blockbuster [B].
+At this later move, the festival director knows whether the first move was KeepOptionsOpen [No] or SetTheme [Yes], 
+but cannot observe which genre the curator chose.
+
+If the first move was KeepOptionsOpen [No] and both later choices are ArtHouse [O], the festival director gets 2 and the curator gets 1.
+If the first move was KeepOptionsOpen [No] and both later choices are Blockbuster [B], the festival director gets 1 and the curator gets 2.
+If the first move was KeepOptionsOpen [No] and the later choices do not match, both get 0.
+
+If the first move was SetTheme [Yes] and both later choices are ArtHouse [O], the festival director gets 2 and the curator gets 1.
+If the first move was SetTheme [Yes] and both later choices are Blockbuster [B], the festival director gets 1 and the curator gets 2.
+If the first move was SetTheme [Yes] and the later choices do not match, both get 0.

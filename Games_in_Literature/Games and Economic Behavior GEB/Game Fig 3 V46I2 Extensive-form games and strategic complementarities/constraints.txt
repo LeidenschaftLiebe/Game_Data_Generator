@@ -1,0 +1,11 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+Player 1 moves first at the root and chooses between No and Yes.
+Player 2 moves after No and after Yes, choosing between O and B.
+After No, player 1 moves again after player 2’s choice, and the two resulting player 1 nodes are in the same information set.
+After Yes, player 1 moves again after player 2’s choice, and the two resulting player 1 nodes are in the same information set.
+The above two information sets are different.
+At terminal no_branch_match_O, the payoffs are (2, 1).

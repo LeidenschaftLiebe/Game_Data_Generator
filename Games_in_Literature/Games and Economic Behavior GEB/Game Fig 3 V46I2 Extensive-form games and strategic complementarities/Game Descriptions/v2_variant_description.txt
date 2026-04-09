@@ -1,0 +1,16 @@
+V2 — Optional Product Focus
+
+The founder moves first and chooses DelayDecision [No] or LockDirection [Yes].
+
+After that, the partner chooses DesignFocus [O] or BusinessFocus [B].
+
+Then the founder chooses DesignFocus [O] or BusinessFocus [B].
+At this later move, the founder knows whether the first move was DelayDecision [No] or LockDirection [Yes], but does not know which focus the partner selected.
+
+If the first move was DelayDecision [No] and both later choices are DesignFocus [O], the founder gets 2 and the partner gets 1.
+If the first move was DelayDecision [No] and both later choices are BusinessFocus [B], the founder gets 1 and the partner gets 2.
+If the first move was DelayDecision [No] and the later choices do not match, both get 0.
+
+If the first move was LockDirection [Yes] and both later choices are DesignFocus [O], the founder gets 2 and the partner gets 1.
+If the first move was LockDirection [Yes] and both later choices are BusinessFocus [B], the founder gets 1 and the partner gets 2.
+If the first move was LockDirection [Yes] and the later choices do not match, both get 0.

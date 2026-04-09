@@ -1,0 +1,16 @@
+V0 — Optional BoS II
+
+Player 1 moves first and chooses No or Yes.
+
+After that, player 2 chooses O or B.
+
+Then player 1 moves again and chooses O or B.
+At this later move, player 1 knows whether the first move was No or Yes, but does not know whether player 2 chose O or B.
+
+If the first move was No and both later choices are O, then player 1 gets 2 and player 2 gets 1.
+If the first move was No and both later choices are B, then player 1 gets 1 and player 2 gets 2.
+If the first move was No and the later choices do not match, then both players get 0.
+
+If the first move was Yes and both later choices are O, then player 1 gets 2 and player 2 gets 1.
+If the first move was Yes and both later choices are B, then player 1 gets 1 and player 2 gets 2.
+If the first move was Yes and the later choices do not match, then both players get 0.

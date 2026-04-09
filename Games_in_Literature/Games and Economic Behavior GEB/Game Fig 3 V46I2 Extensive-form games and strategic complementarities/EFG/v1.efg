@@ -1,0 +1,18 @@
+EFG 2 R "Optional Concert Plan V1" { "Alex" "Blair" }
+""
+
+p "" 1 1 "" { "StayFlexible" "CommitNow" } 0
+p "" 2 1 "" { "Opera" "Basketball" } 0
+p "" 1 2 "" { "Opera" "Basketball" } 0
+t "" 1 "flexible_match_opera" { 2, 1 }
+t "" 2 "flexible_mismatch_opera_basketball" { 0, 0 }
+p "" 1 2 "" { "Opera" "Basketball" } 0
+t "" 3 "flexible_mismatch_basketball_opera" { 0, 0 }
+t "" 4 "flexible_match_basketball" { 1, 2 }
+p "" 2 2 "" { "Opera" "Basketball" } 0
+p "" 1 3 "" { "Opera" "Basketball" } 0
+t "" 5 "commit_match_opera" { 2, 1 }
+t "" 6 "commit_mismatch_opera_basketball" { 0, 0 }
+p "" 1 3 "" { "Opera" "Basketball" } 0
+t "" 7 "commit_mismatch_basketball_opera" { 0, 0 }
+t "" 8 "commit_match_basketball" { 1, 2 }

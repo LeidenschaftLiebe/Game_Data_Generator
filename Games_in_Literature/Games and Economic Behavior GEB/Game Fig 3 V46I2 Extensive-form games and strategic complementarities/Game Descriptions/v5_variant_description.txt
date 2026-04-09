@@ -1,0 +1,16 @@
+V5 — Optional Museum Exhibit Theme
+
+The museum manager moves first and chooses Wait [No] or Announce [Yes].
+
+After that, the curator chooses OldMasters [O] or ModernArt [B].
+
+Then the museum manager chooses OldMasters [O] or ModernArt [B].
+At this later move, the museum manager knows whether the first move was Wait [No] or Announce [Yes], but cannot observe which theme the curator chose.
+
+If the first move was Wait [No] and both later choices are OldMasters [O], the museum manager gets 2 and the curator gets 1.
+If the first move was Wait [No] and both later choices are ModernArt [B], the museum manager gets 1 and the curator gets 2.
+If the first move was Wait [No] and the later choices do not match, both get 0.
+
+If the first move was Announce [Yes] and both later choices are OldMasters [O], the museum manager gets 2 and the curator gets 1.
+If the first move was Announce [Yes] and both later choices are ModernArt [B], the museum manager gets 1 and the curator gets 2.
+If the first move was Announce [Yes] and the later choices do not match, both get 0.

@@ -1,0 +1,24 @@
+V1 — Product Launch Review
+
+Alice is a product director deciding how to handle a new feature.
+She first chooses DirectLaunch [l], RevisePlan [m], or CancelTrack [r].
+
+If Alice chooses RevisePlan [m] or CancelTrack [r], the file goes to Bob in internal review.
+Bob must act without knowing which of those two earlier choices Alice made.
+Bob then chooses Approve [L] or Block [R].
+
+If Alice chooses DirectLaunch [l], the case goes to Emma in communications.
+If Alice chooses RevisePlan [m] and Bob chooses Approve [L], the case also goes to Emma.
+
+When Emma receives the case, she cannot tell whether it came from a direct launch or from a revised plan that Bob approved.
+Emma then chooses CampaignA [p] or CampaignB [q].
+
+If Alice chose DirectLaunch [l], then whether Emma chooses CampaignA [p] or CampaignB [q], Alice gets 0, Bob gets 2, and Emma gets 0.
+
+If Alice chose RevisePlan [m] and Bob chose Approve [L], then whether Emma chooses CampaignA [p] or CampaignB [q], Alice gets 2, Bob gets 0, and Emma gets 0.
+
+If Alice chose RevisePlan [m] and Bob chose Block [R], then Alice gets 1, Bob gets 1, and Emma gets 0.
+
+If Alice chose CancelTrack [r] and Bob chose Approve [L], then Alice gets -1, Bob gets -1, and Emma gets 0.
+
+If Alice chose CancelTrack [r] and Bob chose Block [R], then Alice gets -1, Bob gets 0, and Emma gets 0.

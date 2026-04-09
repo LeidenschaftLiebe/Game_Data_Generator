@@ -1,0 +1,15 @@
+EFG 2 R "GEB Fig. 3 Prototype Development V4" { "Lena" "Marcus" "Tara" }
+""
+
+p "" 1 1 "" { "SendPrototype" "ReworkDesign" "DropProject" } 0
+p "" 3 1 "" { "TestModeA" "TestModeB" } 0
+t "" 1 "SendPrototype_TestModeA" { 0, 2, 0 }
+t "" 2 "SendPrototype_TestModeB" { 0, 2, 0 }
+p "" 2 1 "" { "Continue" "Stop" } 0
+p "" 3 1 "" { "TestModeA" "TestModeB" } 0
+t "" 3 "ReworkDesign_Continue_TestModeA" { 2, 0, 0 }
+t "" 4 "ReworkDesign_Continue_TestModeB" { 2, 0, 0 }
+t "" 5 "ReworkDesign_Stop" { 1, 1, 0 }
+p "" 2 1 "" { "Continue" "Stop" } 0
+t "" 6 "DropProject_Continue" { -1, -1, 0 }
+t "" 7 "DropProject_Stop" { -1, 0, 0 }

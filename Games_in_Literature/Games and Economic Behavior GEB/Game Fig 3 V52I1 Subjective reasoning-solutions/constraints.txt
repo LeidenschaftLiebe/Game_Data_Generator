@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+Alice moves first at the root and chooses among l, m, and r.
+Bob moves after m and after r, and these two Bob decision nodes are in the same information set.
+Emma moves after l and after m then L, and these two Emma decision nodes are in the same information set.
+At terminal m_R, the payoffs are (1, 1, 0).

@@ -1,0 +1,15 @@
+EFG 2 R "GEB Fig. 3 Product Launch Review V1" { "Ava" "Brian" "Chloe" }
+""
+
+p "" 1 1 "" { "DirectLaunch" "RevisePlan" "CancelTrack" } 0
+p "" 3 1 "" { "CampaignA" "CampaignB" } 0
+t "" 1 "DirectLaunch_CampaignA" { 0, 2, 0 }
+t "" 2 "DirectLaunch_CampaignB" { 0, 2, 0 }
+p "" 2 1 "" { "Approve" "Block" } 0
+p "" 3 1 "" { "CampaignA" "CampaignB" } 0
+t "" 3 "RevisePlan_Approve_CampaignA" { 2, 0, 0 }
+t "" 4 "RevisePlan_Approve_CampaignB" { 2, 0, 0 }
+t "" 5 "RevisePlan_Block" { 1, 1, 0 }
+p "" 2 1 "" { "Approve" "Block" } 0
+t "" 6 "CancelTrack_Approve" { -1, -1, 0 }
+t "" 7 "CancelTrack_Block" { -1, 0, 0 }

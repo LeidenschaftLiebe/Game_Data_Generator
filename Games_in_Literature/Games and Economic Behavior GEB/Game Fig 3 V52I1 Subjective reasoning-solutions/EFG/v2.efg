@@ -1,0 +1,15 @@
+EFG 2 R "GEB Fig. 3 Film Release Strategy V2" { "Mia" "Noah" "Sophie" }
+""
+
+p "" 1 1 "" { "IndieRelease" "StudioRevision" "ShelveFilm" } 0
+p "" 3 1 "" { "MorningScreening" "EveningScreening" } 0
+t "" 1 "IndieRelease_MorningScreening" { 0, 2, 0 }
+t "" 2 "IndieRelease_EveningScreening" { 0, 2, 0 }
+p "" 2 1 "" { "PushRelease" "HoldBack" } 0
+p "" 3 1 "" { "MorningScreening" "EveningScreening" } 0
+t "" 3 "StudioRevision_PushRelease_MorningScreening" { 2, 0, 0 }
+t "" 4 "StudioRevision_PushRelease_EveningScreening" { 2, 0, 0 }
+t "" 5 "StudioRevision_HoldBack" { 1, 1, 0 }
+p "" 2 1 "" { "PushRelease" "HoldBack" } 0
+t "" 6 "ShelveFilm_PushRelease" { -1, -1, 0 }
+t "" 7 "ShelveFilm_HoldBack" { -1, 0, 0 }

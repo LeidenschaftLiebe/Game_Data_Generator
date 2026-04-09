@@ -1,0 +1,24 @@
+V4 — Prototype Development
+
+Alice is a product lead deciding what to do with an early prototype.
+She first chooses SendPrototype [l], ReworkDesign [m], or DropProject [r].
+
+If Alice chooses ReworkDesign [m] or DropProject [r], the project goes to Bob in operations.
+Bob does not know which of those two decisions Alice made.
+Bob then chooses Continue [L] or Stop [R].
+
+If Alice chooses SendPrototype [l], the product goes to Emma in user testing.
+If Alice chooses ReworkDesign [m] and Bob chooses Continue [L], the product also goes to Emma.
+
+When Emma receives it, she cannot tell whether she is testing the original prototype or a reworked version that Bob allowed to continue.
+Emma then chooses TestModeA [p] or TestModeB [q].
+
+If Alice chose SendPrototype [l], then whether Emma chooses TestModeA [p] or TestModeB [q], Alice gets 0, Bob gets 2, and Emma gets 0.
+
+If Alice chose ReworkDesign [m] and Bob chose Continue [L], then whether Emma chooses TestModeA [p] or TestModeB [q], Alice gets 2, Bob gets 0, and Emma gets 0.
+
+If Alice chose ReworkDesign [m] and Bob chose Stop [R], then Alice gets 1, Bob gets 1, and Emma gets 0.
+
+If Alice chose DropProject [r] and Bob chose Continue [L], then Alice gets -1, Bob gets -1, and Emma gets 0.
+
+If Alice chose DropProject [r] and Bob chose Stop [R], then Alice gets -1, Bob gets 0, and Emma gets 0.

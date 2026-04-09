@@ -1,0 +1,15 @@
+EFG 2 R "GEB Fig. 3 Election Campaign Direction V3" { "Nina" "Owen" "Priya" }
+""
+
+p "" 1 1 "" { "GrassrootsPush" "RebrandMessage" "ExitRace" } 0
+p "" 3 1 "" { "NorthCanvass" "SouthCanvass" } 0
+t "" 1 "GrassrootsPush_NorthCanvass" { 0, 2, 0 }
+t "" 2 "GrassrootsPush_SouthCanvass" { 0, 2, 0 }
+p "" 2 1 "" { "Promote" "PullBack" } 0
+p "" 3 1 "" { "NorthCanvass" "SouthCanvass" } 0
+t "" 3 "RebrandMessage_Promote_NorthCanvass" { 2, 0, 0 }
+t "" 4 "RebrandMessage_Promote_SouthCanvass" { 2, 0, 0 }
+t "" 5 "RebrandMessage_PullBack" { 1, 1, 0 }
+p "" 2 1 "" { "Promote" "PullBack" } 0
+t "" 6 "ExitRace_Promote" { -1, -1, 0 }
+t "" 7 "ExitRace_PullBack" { -1, 0, 0 }

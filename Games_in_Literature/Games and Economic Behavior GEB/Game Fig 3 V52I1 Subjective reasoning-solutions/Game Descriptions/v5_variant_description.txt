@@ -1,0 +1,25 @@
+V5 — Museum Exhibit Decision
+
+Alice is a museum curator deciding what to do with a newly arrived artwork.
+She first chooses DisplayNow [l], RestoreFirst [m], or StoreAway [r].
+
+If Alice chooses RestoreFirst [m] or StoreAway [r], the artwork goes to Bob in logistics.
+Bob does not know which of those two choices Alice made.
+Bob then chooses ShipToGallery [L] or KeepBack [R].
+
+If Alice chooses DisplayNow [l], the artwork goes to Emma, the gallery planner.
+If Alice chooses RestoreFirst [m] and Bob chooses ShipToGallery [L], the artwork also goes to Emma.
+
+When Emma receives the artwork, she cannot tell whether it came directly for display or after restoration and shipment.
+Emma then chooses MainHall [p] or SideHall [q].
+
+If Alice chose DisplayNow [l], then whether Emma chooses MainHall [p] or SideHall [q], Alice gets 0, Bob gets 2, and Emma gets 0.
+
+If Alice chose RestoreFirst [m] and Bob chose ShipToGallery [L], then whether Emma chooses MainHall [p] or SideHall [q], 
+Alice gets 2, Bob gets 0, and Emma gets 0.
+
+If Alice chose RestoreFirst [m] and Bob chose KeepBack [R], then Alice gets 1, Bob gets 1, and Emma gets 0.
+
+If Alice chose StoreAway [r] and Bob chose ShipToGallery [L], then Alice gets -1, Bob gets -1, and Emma gets 0.
+
+If Alice chose StoreAway [r] and Bob chose KeepBack [R], then Alice gets -1, Bob gets 0, and Emma gets 0.

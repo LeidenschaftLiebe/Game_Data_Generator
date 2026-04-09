@@ -1,0 +1,22 @@
+V0 — Procedural Reasoning Order
+
+Alice moves first and chooses l, m, or r.
+
+If Alice chooses m or r, then Bob moves without knowing which of those two choices Alice made.
+Bob then chooses L or R.
+
+If Alice chooses l, the move passes to Emma.
+If Alice chooses m and Bob chooses L, the move also passes to Emma.
+
+When Emma moves, she does not know whether she is there because Alice chose l, or because Alice chose m and Bob chose L.
+Emma then chooses p or q.
+
+If Alice chose l, then whether Emma picks p or q, Alice gets 0, Bob gets 2, and Emma gets 0.
+
+If Alice chose m and Bob chose L, then whether Emma picks p or q, Alice gets 2, Bob gets 0, and Emma gets 0.
+
+If Alice chose m and Bob chose R, then Alice gets 1, Bob gets 1, and Emma gets 0.
+
+If Alice chose r and Bob chose L, then Alice gets -1, Bob gets -1, and Emma gets 0.
+
+If Alice chose r and Bob chose R, then Alice gets -1, Bob gets 0, and Emma gets 0.

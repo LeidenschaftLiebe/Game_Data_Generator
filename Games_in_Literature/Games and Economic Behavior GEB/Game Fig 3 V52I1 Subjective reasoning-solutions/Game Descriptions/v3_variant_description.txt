@@ -1,0 +1,24 @@
+V3 — Election Campaign Direction
+
+Alice is a campaign manager deciding the direction of a race.
+She first chooses GrassrootsPush [l], RebrandMessage [m], or ExitRace [r].
+
+If Alice chooses RebrandMessage [m] or ExitRace [r], the campaign passes to Bob, the media adviser.
+Bob does not know which of those two paths Alice chose.
+Bob then chooses Promote [L] or PullBack [R].
+
+If Alice chooses GrassrootsPush [l], the campaign reaches Emma, the field organizer.
+If Alice chooses RebrandMessage [m] and Bob chooses Promote [L], the campaign also reaches Emma.
+
+When Emma steps in, she cannot tell whether she is working on the original grassroots plan or on a reworked message that Bob decided to promote.
+Emma then chooses NorthCanvass [p] or SouthCanvass [q].
+
+If Alice chose GrassrootsPush [l], then whether Emma chooses NorthCanvass [p] or SouthCanvass [q], Alice gets 0, Bob gets 2, and Emma gets 0.
+
+If Alice chose RebrandMessage [m] and Bob chose Promote [L], then whether Emma chooses NorthCanvass [p] or SouthCanvass [q], Alice gets 2, Bob gets 0, and Emma gets 0.
+
+If Alice chose RebrandMessage [m] and Bob chose PullBack [R], then Alice gets 1, Bob gets 1, and Emma gets 0.
+
+If Alice chose ExitRace [r] and Bob chose Promote [L], then Alice gets -1, Bob gets -1, and Emma gets 0.
+
+If Alice chose ExitRace [r] and Bob chose PullBack [R], then Alice gets -1, Bob gets 0, and Emma gets 0.

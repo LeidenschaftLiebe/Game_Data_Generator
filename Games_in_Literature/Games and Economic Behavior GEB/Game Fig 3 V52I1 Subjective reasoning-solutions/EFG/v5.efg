@@ -1,0 +1,15 @@
+EFG 2 R "GEB Fig. 3 Museum Exhibit Decision V5" { "Clara" "Daniel" "Eva" }
+""
+
+p "" 1 1 "" { "DisplayNow" "RestoreFirst" "StoreAway" } 0
+p "" 3 1 "" { "MainHall" "SideHall" } 0
+t "" 1 "DisplayNow_MainHall" { 0, 2, 0 }
+t "" 2 "DisplayNow_SideHall" { 0, 2, 0 }
+p "" 2 1 "" { "ShipToGallery" "KeepBack" } 0
+p "" 3 1 "" { "MainHall" "SideHall" } 0
+t "" 3 "RestoreFirst_ShipToGallery_MainHall" { 2, 0, 0 }
+t "" 4 "RestoreFirst_ShipToGallery_SideHall" { 2, 0, 0 }
+t "" 5 "RestoreFirst_KeepBack" { 1, 1, 0 }
+p "" 2 1 "" { "ShipToGallery" "KeepBack" } 0
+t "" 6 "StoreAway_ShipToGallery" { -1, -1, 0 }
+t "" 7 "StoreAway_KeepBack" { -1, 0, 0 }

@@ -1,0 +1,25 @@
+V2 — Film Release Strategy
+
+Alice is a producer deciding what to do with a film.
+She first chooses IndieRelease [l], StudioRevision [m], or ShelveFilm [r].
+
+If Alice chooses StudioRevision [m] or ShelveFilm [r], the project goes to Bob, the distributor.
+Bob does not know which of those two choices Alice made.
+Bob then chooses PushRelease [L] or HoldBack [R].
+
+If Alice chooses IndieRelease [l], the film goes to Emma, the festival planner.
+If Alice chooses StudioRevision [m] and Bob chooses PushRelease [L], the film also goes to Emma.
+
+When Emma becomes involved, she cannot tell whether she is handling the original indie version or a revised version that Bob pushed forward.
+Emma then chooses MorningScreening [p] or EveningScreening [q].
+
+If Alice chose IndieRelease [l], then whether Emma chooses MorningScreening [p] or EveningScreening [q], Alice gets 0, Bob gets 2, and Emma gets 0.
+
+If Alice chose StudioRevision [m] and Bob chose PushRelease [L], then whether Emma chooses MorningScreening [p] or EveningScreening [q], 
+Alice gets 2, Bob gets 0, and Emma gets 0.
+
+If Alice chose StudioRevision [m] and Bob chose HoldBack [R], then Alice gets 1, Bob gets 1, and Emma gets 0.
+
+If Alice chose ShelveFilm [r] and Bob chose PushRelease [L], then Alice gets -1, Bob gets -1, and Emma gets 0.
+
+If Alice chose ShelveFilm [r] and Bob chose HoldBack [R], then Alice gets -1, Bob gets 0, and Emma gets 0.

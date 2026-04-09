@@ -1,0 +1,28 @@
+V3 — Harbor Inspection
+
+A port owner may face one of two inspection cases.
+Nature first determines whether the case is Routine Check with probability 0.1 or Major Violation with probability 0.9.
+
+If it is a Routine Check, the port owner chooses between Stop Here (Out1) and Disclose It (In1).
+If the owner chooses Stop Here (Out1), the matter ends with reward 0 to the owner and reward 0 to the inspector.
+
+If it is a Major Violation, the port owner chooses between Stop Here (Out2) and Disclose It (In2).
+If the owner chooses Stop Here (Out2), the matter ends with reward 0 to the owner and reward 0 to the inspector.
+
+If the owner chooses Disclose It (In1/In2), the inspector chooses between
+Escalate (U), Record Only (M), and Drop It (D).
+When the inspector moves, the inspector knows disclosure happened, but does not know which case occurred.
+
+If the case was Routine Check and the inspector chooses Escalate (U),
+the owner gets reward -1 and the inspector gets reward 3.
+If the case was Routine Check and the inspector chooses Record Only (M),
+the owner gets reward -1 and the inspector gets reward 2.
+If the case was Routine Check and the inspector chooses Drop It (D),
+the owner gets reward 2 and the inspector gets reward 0.
+
+If the case was Major Violation and the inspector chooses Escalate (U),
+the owner gets reward -3 and the inspector gets reward 0.
+If the case was Major Violation and the inspector chooses Record Only (M),
+the owner gets reward -1 and the inspector gets reward 2.
+If the case was Major Violation and the inspector chooses Drop It (D),
+the owner gets reward 3 and the inspector gets reward 3.

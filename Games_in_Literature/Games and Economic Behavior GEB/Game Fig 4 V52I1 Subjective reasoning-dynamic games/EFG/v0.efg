@@ -1,0 +1,16 @@
+EFG 2 R "GEB Fig. 4 Another Signaling Game V0" { "Alice" "Bob" }
+""
+
+c "" 1 "" { "One" 1/10 "Two" 9/10 } 0
+p "" 1 1 "" { "Out1" "In1" } 0
+t "" 1 "One_Out1" { 0, 0 }
+p "" 2 1 "" { "U" "M" "D" } 0
+t "" 3 "One_In1_U" { -1, 3 }
+t "" 4 "One_In1_M" { -1, 2 }
+t "" 5 "One_In1_D" { 2, 0 }
+p "" 1 2 "" { "Out2" "In2" } 0
+t "" 2 "Two_Out2" { 0, 0 }
+p "" 2 1 "" { "U" "M" "D" } 0
+t "" 6 "Two_In2_U" { -3, 0 }
+t "" 7 "Two_In2_M" { -1, 2 }
+t "" 8 "Two_In2_D" { 3, 3 }

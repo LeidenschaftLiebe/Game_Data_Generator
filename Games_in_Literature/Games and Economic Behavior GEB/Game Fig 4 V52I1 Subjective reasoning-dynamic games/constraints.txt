@@ -1,0 +1,8 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+1) Check the move order: chance moves first, then Alice, then Bob if Alice enters.
+2) Check the chance probabilities: Type One occurs with probability 1/10 and Type Two occurs with probability 9/10.
+3) Check that Bob's two decision nodes after In1 and In2 are in the same information set.
+4) Check the anchor payoff: the outcome after Two -> In2 -> D is (3, 3).

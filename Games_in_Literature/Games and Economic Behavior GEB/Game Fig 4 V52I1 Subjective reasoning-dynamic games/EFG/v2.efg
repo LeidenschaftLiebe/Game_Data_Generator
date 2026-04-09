@@ -1,0 +1,16 @@
+EFG 2 R "GEB Fig. 4 Museum Security V2" { "Museum Director" "Security Chief" }
+""
+
+c "" 1 "" { "SmallRisk" 1/10 "SeriousRisk" 9/10 } 0
+p "" 1 1 "" { "KeepClosed" "Escalate" } 0
+t "" 1 "SmallRisk_KeepClosed" { 0, 0 }
+p "" 2 1 "" { "Lockdown" "ExtraPatrol" "StandDown" } 0
+t "" 3 "SmallRisk_Escalate_Lockdown" { -1, 3 }
+t "" 4 "SmallRisk_Escalate_ExtraPatrol" { -1, 2 }
+t "" 5 "SmallRisk_Escalate_StandDown" { 2, 0 }
+p "" 1 2 "" { "KeepClosed" "Escalate" } 0
+t "" 2 "SeriousRisk_KeepClosed" { 0, 0 }
+p "" 2 1 "" { "Lockdown" "ExtraPatrol" "StandDown" } 0
+t "" 6 "SeriousRisk_Escalate_Lockdown" { -3, 0 }
+t "" 7 "SeriousRisk_Escalate_ExtraPatrol" { -1, 2 }
+t "" 8 "SeriousRisk_Escalate_StandDown" { 3, 3 }

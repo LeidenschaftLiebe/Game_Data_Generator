@@ -1,0 +1,16 @@
+EFG 2 R "GEB Fig. 4 Space Mission Alert V4" { "Flight Lead" "Mission Control" }
+""
+
+c "" 1 "" { "MinorFault" 1/10 "MajorFault" 9/10 } 0
+p "" 1 1 "" { "KeepLocal" "SendAlert" } 0
+t "" 1 "MinorFault_KeepLocal" { 0, 0 }
+p "" 2 1 "" { "EmergencyOverride" "WatchClosely" "NoOverride" } 0
+t "" 3 "MinorFault_SendAlert_EmergencyOverride" { -1, 3 }
+t "" 4 "MinorFault_SendAlert_WatchClosely" { -1, 2 }
+t "" 5 "MinorFault_SendAlert_NoOverride" { 2, 0 }
+p "" 1 2 "" { "KeepLocal" "SendAlert" } 0
+t "" 2 "MajorFault_KeepLocal" { 0, 0 }
+p "" 2 1 "" { "EmergencyOverride" "WatchClosely" "NoOverride" } 0
+t "" 6 "MajorFault_SendAlert_EmergencyOverride" { -3, 0 }
+t "" 7 "MajorFault_SendAlert_WatchClosely" { -1, 2 }
+t "" 8 "MajorFault_SendAlert_NoOverride" { 3, 3 }

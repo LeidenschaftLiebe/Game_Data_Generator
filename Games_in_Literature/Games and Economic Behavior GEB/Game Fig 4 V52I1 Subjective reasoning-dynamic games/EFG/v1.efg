@@ -1,0 +1,16 @@
+EFG 2 R "GEB Fig. 4 Product Recall V1" { "Manufacturer" "Regulator" }
+""
+
+c "" 1 "" { "MinorDefect" 1/10 "MajorDefect" 9/10 } 0
+p "" 1 1 "" { "StayQuiet" "ReportIt" } 0
+t "" 1 "MinorDefect_StayQuiet" { 0, 0 }
+p "" 2 1 "" { "UrgentAction" "MonitorOnly" "DismissIt" } 0
+t "" 3 "MinorDefect_ReportIt_UrgentAction" { -1, 3 }
+t "" 4 "MinorDefect_ReportIt_MonitorOnly" { -1, 2 }
+t "" 5 "MinorDefect_ReportIt_DismissIt" { 2, 0 }
+p "" 1 2 "" { "StayQuiet" "ReportIt" } 0
+t "" 2 "MajorDefect_StayQuiet" { 0, 0 }
+p "" 2 1 "" { "UrgentAction" "MonitorOnly" "DismissIt" } 0
+t "" 6 "MajorDefect_ReportIt_UrgentAction" { -3, 0 }
+t "" 7 "MajorDefect_ReportIt_MonitorOnly" { -1, 2 }
+t "" 8 "MajorDefect_ReportIt_DismissIt" { 3, 3 }

@@ -1,0 +1,24 @@
+V0 — Another Signaling Game
+
+There are two players, Alice and Bob.
+Nature moves first and determines Alice’s type.
+
+With probability 0.1, Alice is Type One.
+With probability 0.9, Alice is Type Two.
+
+If Alice is Type One, she chooses between Out1 and In1.
+If she chooses Out1, the game ends with reward 0 to Alice and reward 0 to Bob.
+
+If Alice is Type Two, she chooses between Out2 and In2.
+If she chooses Out2, the game ends with reward 0 to Alice and reward 0 to Bob.
+
+If Alice chooses In1 or In2, then Bob moves and chooses between U, M, and D.
+When Bob moves, Bob knows that Alice entered, but does not know whether she is Type One or Type Two.
+
+If Alice is Type One and Bob chooses U, Alice gets reward -1 and Bob gets reward 3.
+If Alice is Type One and Bob chooses M, Alice gets reward -1 and Bob gets reward 2.
+If Alice is Type One and Bob chooses D, Alice gets reward 2 and Bob gets reward 0.
+
+If Alice is Type Two and Bob chooses U, Alice gets reward -3 and Bob gets reward 0.
+If Alice is Type Two and Bob chooses M, Alice gets reward -1 and Bob gets reward 2.
+If Alice is Type Two and Bob chooses D, Alice gets reward 3 and Bob gets reward 3.

@@ -1,0 +1,16 @@
+EFG 2 R "GEB Fig. 4 Archive Damage Report V5" { "Archive Manager" "Preservation Director" }
+""
+
+c "" 1 "" { "SurfaceDamage" 1/10 "DeepDamage" 9/10 } 0
+p "" 1 1 "" { "FileInternally" "ReportUpward" } 0
+t "" 1 "SurfaceDamage_FileInternally" { 0, 0 }
+p "" 2 1 "" { "UrgentRestoration" "MonitorCondition" "LeaveIt" } 0
+t "" 3 "SurfaceDamage_ReportUpward_UrgentRestoration" { -1, 3 }
+t "" 4 "SurfaceDamage_ReportUpward_MonitorCondition" { -1, 2 }
+t "" 5 "SurfaceDamage_ReportUpward_LeaveIt" { 2, 0 }
+p "" 1 2 "" { "FileInternally" "ReportUpward" } 0
+t "" 2 "DeepDamage_FileInternally" { 0, 0 }
+p "" 2 1 "" { "UrgentRestoration" "MonitorCondition" "LeaveIt" } 0
+t "" 6 "DeepDamage_ReportUpward_UrgentRestoration" { -3, 0 }
+t "" 7 "DeepDamage_ReportUpward_MonitorCondition" { -1, 2 }
+t "" 8 "DeepDamage_ReportUpward_LeaveIt" { 3, 3 }

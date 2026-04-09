@@ -1,0 +1,30 @@
+V2 — Museum Security
+
+A museum director may be facing one of two security situations.
+Nature first determines whether it is a Small Risk with probability 0.1 or a Serious Risk with probability 0.9.
+
+If it is a Small Risk, the director chooses between Keep Closed (Out1) and Escalate (In1).
+If the director chooses Keep Closed (Out1), the matter ends with reward 0 to the director
+and reward 0 to the security chief.
+
+If it is a Serious Risk, the director chooses between Keep Closed (Out2) and Escalate (In2).
+If the director chooses Keep Closed (Out2), the matter ends with reward 0 to the director
+and reward 0 to the security chief.
+
+If the director chooses Escalate (In1/In2), the security chief then chooses between
+Lockdown (U), Extra Patrol (M), and Stand Down (D).
+When the security chief moves, the chief knows the director escalated, but does not know which risk level was present.
+
+If the risk was Small Risk and the chief chooses Lockdown (U),
+the director gets reward -1 and the chief gets reward 3.
+If the risk was Small Risk and the chief chooses Extra Patrol (M),
+the director gets reward -1 and the chief gets reward 2.
+If the risk was Small Risk and the chief chooses Stand Down (D),
+the director gets reward 2 and the chief gets reward 0.
+
+If the risk was Serious Risk and the chief chooses Lockdown (U),
+the director gets reward -3 and the chief gets reward 0.
+If the risk was Serious Risk and the chief chooses Extra Patrol (M),
+the director gets reward -1 and the chief gets reward 2.
+If the risk was Serious Risk and the chief chooses Stand Down (D),
+the director gets reward 3 and the chief gets reward 3.

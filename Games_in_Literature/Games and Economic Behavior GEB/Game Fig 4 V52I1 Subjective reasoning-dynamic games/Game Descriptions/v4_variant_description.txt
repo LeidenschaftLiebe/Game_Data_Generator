@@ -1,0 +1,32 @@
+V4 — Space Mission Alert
+
+A mission team may encounter one of two system states.
+Nature first determines whether the state is Minor Fault with probability 0.1 or Major Fault with probability 0.9.
+
+If the system is in Minor Fault, the flight lead chooses between
+Keep Local (Out1) and Send Alert (In1).
+If the flight lead chooses Keep Local (Out1), the matter ends with reward 0 to the flight lead
+and reward 0 to mission control.
+
+If the system is in Major Fault, the flight lead chooses between
+Keep Local (Out2) and Send Alert (In2).
+If the flight lead chooses Keep Local (Out2), the matter ends with reward 0 to the flight lead
+and reward 0 to mission control.
+
+If the flight lead chooses Send Alert (In1/In2), mission control then chooses between
+Emergency Override (U), Watch Closely (M), and No Override (D).
+When mission control moves, it knows an alert was sent, but does not know which fault level occurred.
+
+If the state was Minor Fault and mission control chooses Emergency Override (U),
+the flight lead gets reward -1 and mission control gets reward 3.
+If the state was Minor Fault and mission control chooses Watch Closely (M),
+the flight lead gets reward -1 and mission control gets reward 2.
+If the state was Minor Fault and mission control chooses No Override (D),
+the flight lead gets reward 2 and mission control gets reward 0.
+
+If the state was Major Fault and mission control chooses Emergency Override (U),
+the flight lead gets reward -3 and mission control gets reward 0.
+If the state was Major Fault and mission control chooses Watch Closely (M),
+the flight lead gets reward -1 and mission control gets reward 2.
+If the state was Major Fault and mission control chooses No Override (D),
+the flight lead gets reward 3 and mission control gets reward 3.

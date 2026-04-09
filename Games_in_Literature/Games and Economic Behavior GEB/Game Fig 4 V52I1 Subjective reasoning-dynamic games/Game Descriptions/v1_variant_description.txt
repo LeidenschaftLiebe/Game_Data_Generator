@@ -1,0 +1,32 @@
+V1 — Product Recall
+
+A manufacturer may face one of two internal product cases.
+Nature first determines whether the case is Minor Defect with probability 0.1 or Major Defect with probability 0.9.
+
+If the case is Minor Defect, the manufacturer chooses between
+Stay Quiet (Out1) and Report It (In1).
+If the manufacturer chooses Stay Quiet (Out1), the matter ends with reward 0 to the manufacturer
+and reward 0 to the regulator.
+
+If the case is Major Defect, the manufacturer chooses between
+Stay Quiet (Out2) and Report It (In2).
+If the manufacturer chooses Stay Quiet (Out2), the matter ends with reward 0 to the manufacturer
+and reward 0 to the regulator.
+
+If the manufacturer chooses Report It (In1/In2), the regulator then chooses between
+Urgent Action (U), Monitor Only (M), and Dismiss It (D).
+When the regulator moves, the regulator knows a report was made, but does not know which defect case occurred.
+
+If the case was Minor Defect and the regulator chooses Urgent Action (U),
+the manufacturer gets reward -1 and the regulator gets reward 3.
+If the case was Minor Defect and the regulator chooses Monitor Only (M),
+the manufacturer gets reward -1 and the regulator gets reward 2.
+If the case was Minor Defect and the regulator chooses Dismiss It (D),
+the manufacturer gets reward 2 and the regulator gets reward 0.
+
+If the case was Major Defect and the regulator chooses Urgent Action (U),
+the manufacturer gets reward -3 and the regulator gets reward 0.
+If the case was Major Defect and the regulator chooses Monitor Only (M),
+the manufacturer gets reward -1 and the regulator gets reward 2.
+If the case was Major Defect and the regulator chooses Dismiss It (D),
+the manufacturer gets reward 3 and the regulator gets reward 3.

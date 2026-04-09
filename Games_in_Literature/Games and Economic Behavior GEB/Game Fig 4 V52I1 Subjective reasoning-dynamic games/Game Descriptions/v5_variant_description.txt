@@ -1,0 +1,32 @@
+V5 — Archive Damage Report
+
+An archive may be dealing with one of two document conditions.
+Nature first determines whether it is Surface Damage with probability 0.1 or Deep Damage with probability 0.9.
+
+If it is Surface Damage, the archive manager chooses between
+File Internally (Out1) and Report Upward (In1).
+If the manager chooses File Internally (Out1), the matter ends with reward 0 to the manager
+and reward 0 to the preservation director.
+
+If it is Deep Damage, the archive manager chooses between
+File Internally (Out2) and Report Upward (In2).
+If the manager chooses File Internally (Out2), the matter ends with reward 0 to the manager
+and reward 0 to the preservation director.
+
+If the manager chooses Report Upward (In1/In2), the preservation director then chooses between
+Urgent Restoration (U), Monitor Condition (M), and Leave It (D).
+When the preservation director moves, the director knows a report was made, but does not know which damage level occurred.
+
+If the condition was Surface Damage and the director chooses Urgent Restoration (U),
+the manager gets reward -1 and the director gets reward 3.
+If the condition was Surface Damage and the director chooses Monitor Condition (M),
+the manager gets reward -1 and the director gets reward 2.
+If the condition was Surface Damage and the director chooses Leave It (D),
+the manager gets reward 2 and the director gets reward 0.
+
+If the condition was Deep Damage and the director chooses Urgent Restoration (U),
+the manager gets reward -3 and the director gets reward 0.
+If the condition was Deep Damage and the director chooses Monitor Condition (M),
+the manager gets reward -1 and the director gets reward 2.
+If the condition was Deep Damage and the director chooses Leave It (D),
+the manager gets reward 3 and the director gets reward 3.

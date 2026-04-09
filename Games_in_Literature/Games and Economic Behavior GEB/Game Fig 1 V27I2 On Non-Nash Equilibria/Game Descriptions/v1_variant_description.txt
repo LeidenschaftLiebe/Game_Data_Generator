@@ -1,0 +1,19 @@
+V1 — Market Entry with Small or Big Scale
+
+Firm 1 first chooses StayOut [O], SmallEntry [S], or BigEntry [B].
+
+If firm 1 chooses StayOut [O], the interaction ends there.
+Firm 1 gets 0 and firm 2 gets 6.
+
+If firm 1 chooses SmallEntry [S] or BigEntry [B], then firm 2 chooses Accommodate [A] or Fight [F].
+
+When firm 2 moves, it knows only that entry occurred.
+It cannot tell whether the entrant chose SmallEntry [S] or BigEntry [B].
+
+If firm 1 chose SmallEntry [S] and firm 2 chose Accommodate [A], firm 1 gets 1 and firm 2 gets 4.
+
+If firm 1 chose SmallEntry [S] and firm 2 chose Fight [F], firm 1 gets -2 and firm 2 gets 5.
+
+If firm 1 chose BigEntry [B] and firm 2 chose Accommodate [A], firm 1 gets 2 and firm 2 gets 4.
+
+If firm 1 chose BigEntry [B] and firm 2 chose Fight [F], firm 1 gets -1 and firm 2 gets 0.

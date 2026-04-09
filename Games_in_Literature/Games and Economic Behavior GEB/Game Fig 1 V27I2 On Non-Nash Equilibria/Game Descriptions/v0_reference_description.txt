@@ -1,0 +1,18 @@
+V0 — Entry Game with Imperfect Monitoring
+
+Player 1 moves first and chooses O, S, or B.
+
+If player 1 chooses O, the game ends immediately.
+Player 1 gets 0 and player 2 gets 6.
+
+If player 1 chooses S or B, then player 2 moves and chooses A or F.
+
+When player 2 moves, player 2 knows that player 1 did not choose O, but cannot tell whether player 1 chose S or B.
+
+If player 1 chose S and player 2 chose A, player 1 gets 1 and player 2 gets 4.
+
+If player 1 chose S and player 2 chose F, player 1 gets -2 and player 2 gets 5.
+
+If player 1 chose B and player 2 chose A, player 1 gets 2 and player 2 gets 4.
+
+If player 1 chose B and player 2 chose F, player 1 gets -1 and player 2 gets 0.

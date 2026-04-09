@@ -1,0 +1,18 @@
+V4 — Research Proposal Submission
+
+Researcher 1 first chooses Withdraw [O], ShortProposal [S], or FullProposal [B].
+
+If researcher 1 chooses Withdraw [O], the process ends there.
+Researcher 1 gets 0 and reviewer 2 gets 6.
+
+If researcher 1 chooses ShortProposal [S] or FullProposal [B], then reviewer 2 chooses AcceptForReview [A] or RejectHarshly [F].
+
+When reviewer 2 moves, the reviewer knows that a proposal was submitted, but cannot tell whether it was short or full.
+
+If researcher 1 chose ShortProposal [S] and reviewer 2 chose AcceptForReview [A], researcher 1 gets 1 and reviewer 2 gets 4.
+
+If researcher 1 chose ShortProposal [S] and reviewer 2 chose RejectHarshly [F], researcher 1 gets -2 and reviewer 2 gets 5.
+
+If researcher 1 chose FullProposal [B] and reviewer 2 chose AcceptForReview [A], researcher 1 gets 2 and reviewer 2 gets 4.
+
+If researcher 1 chose FullProposal [B] and reviewer 2 chose RejectHarshly [F], researcher 1 gets -1 and reviewer 2 gets 0.

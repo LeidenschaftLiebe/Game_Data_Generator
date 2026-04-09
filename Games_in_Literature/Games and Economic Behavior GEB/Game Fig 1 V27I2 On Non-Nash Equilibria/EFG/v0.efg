@@ -1,0 +1,11 @@
+EFG 2 R "Entry Game with Imperfect Monitoring V0" { "1" "2" }
+""
+
+p "" 1 1 "" { "O" "S" "B" } 0
+t "" 1 "choose_O" { 0, 6 }
+p "" 2 1 "" { "A" "F" } 0
+t "" 2 "choose_S_then_A" { 1, 4 }
+t "" 3 "choose_S_then_F" { -2, 5 }
+p "" 2 1 "" { "A" "F" } 0
+t "" 4 "choose_B_then_A" { 2, 4 }
+t "" 5 "choose_B_then_F" { -1, 0 }

@@ -1,0 +1,11 @@
+EFG 2 R "Product Release and Rival Response V5" { "Company 1" "Company 2" }
+""
+
+p "" 1 1 "" { "Cancel" "PilotRelease" "NationalRelease" } 0
+t "" 1 "cancel" { 0, 6 }
+p "" 2 1 "" { "Coexist" "Retaliate" } 0
+t "" 2 "pilotrelease_then_coexist" { 1, 4 }
+t "" 3 "pilotrelease_then_retaliate" { -2, 5 }
+p "" 2 1 "" { "Coexist" "Retaliate" } 0
+t "" 4 "nationalrelease_then_coexist" { 2, 4 }
+t "" 5 "nationalrelease_then_retaliate" { -1, 0 }

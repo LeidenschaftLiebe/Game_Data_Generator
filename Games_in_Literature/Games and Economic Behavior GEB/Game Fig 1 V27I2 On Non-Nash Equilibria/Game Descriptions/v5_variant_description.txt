@@ -1,0 +1,18 @@
+V5 — Product Release and Rival Response
+
+Company 1 first chooses Cancel [O], PilotRelease [S], or NationalRelease [B].
+
+If company 1 chooses Cancel [O], the interaction ends immediately.
+Company 1 gets 0 and company 2 gets 6.
+
+If company 1 chooses PilotRelease [S] or NationalRelease [B], then company 2 chooses Coexist [A] or Retaliate [F].
+
+When company 2 moves, it knows that release happened, but it cannot tell whether the release was a pilot or a national rollout.
+
+If company 1 chose PilotRelease [S] and company 2 chose Coexist [A], company 1 gets 1 and company 2 gets 4.
+
+If company 1 chose PilotRelease [S] and company 2 chose Retaliate [F], company 1 gets -2 and company 2 gets 5.
+
+If company 1 chose NationalRelease [B] and company 2 chose Coexist [A], company 1 gets 2 and company 2 gets 4.
+
+If company 1 chose NationalRelease [B] and company 2 chose Retaliate [F], company 1 gets -1 and company 2 gets 0.

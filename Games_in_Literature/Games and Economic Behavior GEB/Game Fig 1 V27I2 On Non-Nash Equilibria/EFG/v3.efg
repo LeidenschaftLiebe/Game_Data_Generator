@@ -1,0 +1,11 @@
+EFG 2 R "Political Campaign Rollout V3" { "Campaign 1" "Campaign 2" }
+""
+
+p "" 1 1 "" { "DoNothing" "LimitedRollout" "MajorRollout" } 0
+t "" 1 "do_nothing" { 0, 6 }
+p "" 2 1 "" { "AdaptMessage" "Attack" } 0
+t "" 2 "limited_rollout_then_adaptmessage" { 1, 4 }
+t "" 3 "limited_rollout_then_attack" { -2, 5 }
+p "" 2 1 "" { "AdaptMessage" "Attack" } 0
+t "" 4 "major_rollout_then_adaptmessage" { 2, 4 }
+t "" 5 "major_rollout_then_attack" { -1, 0 }

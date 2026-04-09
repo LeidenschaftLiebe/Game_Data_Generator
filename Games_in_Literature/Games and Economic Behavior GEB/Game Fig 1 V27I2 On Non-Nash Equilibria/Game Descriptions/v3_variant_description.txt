@@ -1,0 +1,18 @@
+V3 — Political Campaign Rollout
+
+Campaign 1 first chooses DoNothing [O], LimitedRollout [S], or MajorRollout [B].
+
+If campaign 1 chooses DoNothing [O], the interaction ends immediately.
+Campaign 1 gets 0 and campaign 2 gets 6.
+
+If campaign 1 chooses LimitedRollout [S] or MajorRollout [B], then campaign 2 chooses AdaptMessage [A] or Attack [F].
+
+When campaign 2 moves, it knows that a rollout happened, but it cannot tell whether it was limited or major.
+
+If campaign 1 chose LimitedRollout [S] and campaign 2 chose AdaptMessage [A], campaign 1 gets 1 and campaign 2 gets 4.
+
+If campaign 1 chose LimitedRollout [S] and campaign 2 chose Attack [F], campaign 1 gets -2 and campaign 2 gets 5.
+
+If campaign 1 chose MajorRollout [B] and campaign 2 chose AdaptMessage [A], campaign 1 gets 2 and campaign 2 gets 4.
+
+If campaign 1 chose MajorRollout [B] and campaign 2 chose Attack [F], campaign 1 gets -1 and campaign 2 gets 0.

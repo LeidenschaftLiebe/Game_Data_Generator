@@ -1,0 +1,11 @@
+EFG 2 R "Streaming Platform Launch V2" { "Platform 1" "Platform 2" }
+""
+
+p "" 1 1 "" { "NoLaunch" "SoftLaunch" "FullLaunch" } 0
+t "" 1 "no_launch" { 0, 6 }
+p "" 2 1 "" { "MatchContent" "CounterCampaign" } 0
+t "" 2 "soft_launch_then_matchcontent" { 1, 4 }
+t "" 3 "soft_launch_then_countercampaign" { -2, 5 }
+p "" 2 1 "" { "MatchContent" "CounterCampaign" } 0
+t "" 4 "full_launch_then_matchcontent" { 2, 4 }
+t "" 5 "full_launch_then_countercampaign" { -1, 0 }

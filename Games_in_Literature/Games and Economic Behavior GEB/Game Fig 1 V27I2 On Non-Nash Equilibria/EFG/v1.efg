@@ -1,0 +1,11 @@
+EFG 2 R "Market Entry with Small or Big Scale V1" { "Firm 1" "Firm 2" }
+""
+
+p "" 1 1 "" { "StayOut" "SmallEntry" "BigEntry" } 0
+t "" 1 "stay_out" { 0, 6 }
+p "" 2 1 "" { "Accommodate" "Fight" } 0
+t "" 2 "small_entry_then_accommodate" { 1, 4 }
+t "" 3 "small_entry_then_fight" { -2, 5 }
+p "" 2 1 "" { "Accommodate" "Fight" } 0
+t "" 4 "big_entry_then_accommodate" { 2, 4 }
+t "" 5 "big_entry_then_fight" { -1, 0 }

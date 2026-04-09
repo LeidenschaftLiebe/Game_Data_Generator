@@ -1,0 +1,18 @@
+V2 — Streaming Platform Launch
+
+Platform 1 first chooses NoLaunch [O], SoftLaunch [S], or FullLaunch [B].
+
+If platform 1 chooses NoLaunch [O], the outcome is immediate.
+Platform 1 gets 0 and platform 2 gets 6.
+
+If platform 1 chooses SoftLaunch [S] or FullLaunch [B], then platform 2 chooses MatchContent [A] or CounterCampaign [F].
+
+When platform 2 moves, it knows that a launch happened, but it cannot tell whether the launch was soft or full.
+
+If platform 1 chose SoftLaunch [S] and platform 2 chose MatchContent [A], platform 1 gets 1 and platform 2 gets 4.
+
+If platform 1 chose SoftLaunch [S] and platform 2 chose CounterCampaign [F], platform 1 gets -2 and platform 2 gets 5.
+
+If platform 1 chose FullLaunch [B] and platform 2 chose MatchContent [A], platform 1 gets 2 and platform 2 gets 4.
+
+If platform 1 chose FullLaunch [B] and platform 2 chose CounterCampaign [F], platform 1 gets -1 and platform 2 gets 0.

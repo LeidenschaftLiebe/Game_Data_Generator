@@ -1,0 +1,11 @@
+EFG 2 R "Research Proposal Submission V4" { "Researcher" "Reviewer" }
+""
+
+p "" 1 1 "" { "Withdraw" "ShortProposal" "FullProposal" } 0
+t "" 1 "withdraw" { 0, 6 }
+p "" 2 1 "" { "AcceptForReview" "RejectHarshly" } 0
+t "" 2 "shortproposal_then_acceptforreview" { 1, 4 }
+t "" 3 "shortproposal_then_rejectharshly" { -2, 5 }
+p "" 2 1 "" { "AcceptForReview" "RejectHarshly" } 0
+t "" 4 "fullproposal_then_acceptforreview" { 2, 4 }
+t "" 5 "fullproposal_then_rejectharshly" { -1, 0 }

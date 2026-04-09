@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Robotics Trial V5" { "Test Engineer" "Mission Operator" }
+""
+
+c "" 1 "" { "ModeA" 1/2 "ModeB" 1/2 } 0
+p "" 1 1 "" { "ModeAMessage" "ModeBMessage" } 0
+p "" 2 1 "" { "RunSequence" "AbortSequence" } 0
+t "" 1 "ModeA_ModeAMessage_RunSequence" { 2, 1 }
+t "" 2 "ModeA_ModeAMessage_AbortSequence" { 1, 2 }
+p "" 2 2 "" { "RunSequence" "AbortSequence" } 0
+t "" 3 "ModeA_ModeBMessage_RunSequence" { 2, 1 }
+t "" 4 "ModeA_ModeBMessage_AbortSequence" { 1, 2 }
+p "" 1 2 "" { "ModeAMessage" "ModeBMessage" } 0
+p "" 2 1 "" { "RunSequence" "AbortSequence" } 0
+t "" 5 "ModeB_ModeAMessage_RunSequence" { 1, 2 }
+t "" 6 "ModeB_ModeAMessage_AbortSequence" { 2, 1 }
+p "" 2 2 "" { "RunSequence" "AbortSequence" } 0
+t "" 7 "ModeB_ModeBMessage_RunSequence" { 1, 2 }
+t "" 8 "ModeB_ModeBMessage_AbortSequence" { 2, 1 }

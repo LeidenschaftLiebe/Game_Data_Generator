@@ -1,0 +1,21 @@
+V4 — Rare Book Assessment
+
+There are two players, an Archive Specialist and a Library Director.
+At the start, chance selects one of two hidden manuscript states: Stable Copy (A) or
+Fragile Copy (B).
+
+The Archive Specialist learns which state was selected.
+The Archive Specialist then sends either Stable Note (A) or Fragile Note (B).
+
+After seeing the note, the Library Director chooses between Display It (U) and
+Store It (D).
+
+If the true state is Stable Copy (A) and the Library Director chooses Display It (U),
+the outcome gives reward 2 to the Archive Specialist and reward 1 to the Library Director.
+If the true state is Stable Copy (A) and the Library Director chooses Store It (D),
+the outcome gives reward 1 to the Archive Specialist and reward 2 to the Library Director.
+
+If the true state is Fragile Copy (B) and the Library Director chooses Display It (U),
+the outcome gives reward 1 to the Archive Specialist and reward 2 to the Library Director.
+If the true state is Fragile Copy (B) and the Library Director chooses Store It (D),
+the outcome gives reward 2 to the Archive Specialist and reward 1 to the Library Director.

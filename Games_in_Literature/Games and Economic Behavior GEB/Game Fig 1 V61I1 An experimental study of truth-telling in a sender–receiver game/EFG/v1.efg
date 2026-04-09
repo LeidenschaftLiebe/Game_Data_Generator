@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Product Safety Report V1" { "Manufacturer" "Inspector" }
+""
+
+c "" 1 "" { "RoutineCase" 1/2 "CriticalCase" 1/2 } 0
+p "" 1 1 "" { "RoutineReport" "CriticalReport" } 0
+p "" 2 1 "" { "ApproveRelease" "DelayRelease" } 0
+t "" 1 "RoutineCase_RoutineReport_ApproveRelease" { 2, 1 }
+t "" 2 "RoutineCase_RoutineReport_DelayRelease" { 1, 2 }
+p "" 2 2 "" { "ApproveRelease" "DelayRelease" } 0
+t "" 3 "RoutineCase_CriticalReport_ApproveRelease" { 2, 1 }
+t "" 4 "RoutineCase_CriticalReport_DelayRelease" { 1, 2 }
+p "" 1 2 "" { "RoutineReport" "CriticalReport" } 0
+p "" 2 1 "" { "ApproveRelease" "DelayRelease" } 0
+t "" 5 "CriticalCase_RoutineReport_ApproveRelease" { 1, 2 }
+t "" 6 "CriticalCase_RoutineReport_DelayRelease" { 2, 1 }
+p "" 2 2 "" { "ApproveRelease" "DelayRelease" } 0
+t "" 7 "CriticalCase_CriticalReport_ApproveRelease" { 1, 2 }
+t "" 8 "CriticalCase_CriticalReport_DelayRelease" { 2, 1 }

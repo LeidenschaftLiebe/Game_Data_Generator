@@ -1,0 +1,20 @@
+V0 — Benchmark Sender–Receiver
+
+There are two players, Sender and Receiver.
+At the start, chance selects one of two payoff tables with equal probability: A or B.
+
+The Sender observes which table was selected.
+The Sender then sends one of two messages, A or B, to the Receiver.
+
+After observing the message, the Receiver chooses between U and D.
+The beliefs shown in the figure are not part of the moves, so they can be ignored when describing the game.
+
+If the true table is A and the Receiver chooses U, the outcome gives reward 2 to the Sender
+and reward 1 to the Receiver.
+If the true table is A and the Receiver chooses D, the outcome gives reward 1 to the Sender
+and reward 2 to the Receiver.
+
+If the true table is B and the Receiver chooses U, the outcome gives reward 1 to the Sender
+and reward 2 to the Receiver.
+If the true table is B and the Receiver chooses D, the outcome gives reward 2 to the Sender
+and reward 1 to the Receiver.

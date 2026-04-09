@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Rare Book Assessment V4" { "Archive Specialist" "Library Director" }
+""
+
+c "" 1 "" { "StableCopy" 1/2 "FragileCopy" 1/2 } 0
+p "" 1 1 "" { "StableNote" "FragileNote" } 0
+p "" 2 1 "" { "DisplayIt" "StoreIt" } 0
+t "" 1 "StableCopy_StableNote_DisplayIt" { 2, 1 }
+t "" 2 "StableCopy_StableNote_StoreIt" { 1, 2 }
+p "" 2 2 "" { "DisplayIt" "StoreIt" } 0
+t "" 3 "StableCopy_FragileNote_DisplayIt" { 2, 1 }
+t "" 4 "StableCopy_FragileNote_StoreIt" { 1, 2 }
+p "" 1 2 "" { "StableNote" "FragileNote" } 0
+p "" 2 1 "" { "DisplayIt" "StoreIt" } 0
+t "" 5 "FragileCopy_StableNote_DisplayIt" { 1, 2 }
+t "" 6 "FragileCopy_StableNote_StoreIt" { 2, 1 }
+p "" 2 2 "" { "DisplayIt" "StoreIt" } 0
+t "" 7 "FragileCopy_FragileNote_DisplayIt" { 1, 2 }
+t "" 8 "FragileCopy_FragileNote_StoreIt" { 2, 1 }

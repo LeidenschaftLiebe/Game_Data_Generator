@@ -1,0 +1,20 @@
+V1 — Product Safety Report
+
+There are two players, a Manufacturer and an Inspector.
+At the start, chance selects one of two hidden conditions: Routine Case (A) or Critical Case (B).
+
+The Manufacturer learns which condition was selected.
+The Manufacturer then sends either Routine Report (A) or Critical Report (B).
+
+After seeing the report, the Inspector chooses between Approve Release (U) and
+Delay Release (D).
+
+If the true condition is Routine Case (A) and the Inspector chooses
+Approve Release (U), the outcome gives reward 2 to the Manufacturer and reward 1 to the Inspector.
+If the true condition is Routine Case (A) and the Inspector chooses
+Delay Release (D), the outcome gives reward 1 to the Manufacturer and reward 2 to the Inspector.
+
+If the true condition is Critical Case (B) and the Inspector chooses
+Approve Release (U), the outcome gives reward 1 to the Manufacturer and reward 2 to the Inspector.
+If the true condition is Critical Case (B) and the Inspector chooses
+Delay Release (D), the outcome gives reward 2 to the Manufacturer and reward 1 to the Inspector.

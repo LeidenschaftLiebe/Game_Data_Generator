@@ -1,0 +1,19 @@
+V3 — Casting Memo
+
+There are two players, a Casting Director and a Producer.
+At the start, chance selects one of two hidden performer profiles: Profile A or Profile B.
+
+The Casting Director learns which profile was selected.
+The Casting Director then sends either Memo A (A) or Memo B (B).
+
+After seeing the memo, the Producer chooses between Sign Now (U) and Pass for Now (D).
+
+If the true profile is A and the Producer chooses Sign Now (U),
+the outcome gives reward 2 to the Casting Director and reward 1 to the Producer.
+If the true profile is A and the Producer chooses Pass for Now (D),
+the outcome gives reward 1 to the Casting Director and reward 2 to the Producer.
+
+If the true profile is B and the Producer chooses Sign Now (U),
+the outcome gives reward 1 to the Casting Director and reward 2 to the Producer.
+If the true profile is B and the Producer chooses Pass for Now (D),
+the outcome gives reward 2 to the Casting Director and reward 1 to the Producer.

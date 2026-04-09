@@ -1,0 +1,20 @@
+V2 — Flood Warning
+
+There are two players, a River Station and a Control Center.
+At the start, chance selects one of two hidden conditions: North Flow (A) or South Flow (B).
+
+The River Station learns which condition was selected.
+The River Station then sends either North Signal (A) or South Signal (B).
+
+After seeing the signal, the Control Center chooses between Open Gates (U) and
+Hold Gates (D).
+
+If the true condition is North Flow (A) and the Control Center chooses
+Open Gates (U), the outcome gives reward 2 to the River Station and reward 1 to the Control Center.
+If the true condition is North Flow (A) and the Control Center chooses
+Hold Gates (D), the outcome gives reward 1 to the River Station and reward 2 to the Control Center.
+
+If the true condition is South Flow (B) and the Control Center chooses
+Open Gates (U), the outcome gives reward 1 to the River Station and reward 2 to the Control Center.
+If the true condition is South Flow (B) and the Control Center chooses
+Hold Gates (D), the outcome gives reward 2 to the River Station and reward 1 to the Control Center.

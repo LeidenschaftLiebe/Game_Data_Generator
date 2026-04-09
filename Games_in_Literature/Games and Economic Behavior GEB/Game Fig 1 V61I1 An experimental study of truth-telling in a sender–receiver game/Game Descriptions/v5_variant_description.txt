@@ -1,0 +1,20 @@
+V5 — Robotics Trial
+
+There are two players, a Test Engineer and a Mission Operator.
+At the start, chance selects one of two hidden system states: Mode A or Mode B.
+
+The Test Engineer learns which state was selected.
+The Test Engineer then sends either Mode A Message (A) or Mode B Message (B).
+
+After seeing the message, the Mission Operator chooses between Run Sequence (U) and
+Abort Sequence (D).
+
+If the true state is Mode A and the Mission Operator chooses Run Sequence (U),
+the outcome gives reward 2 to the Test Engineer and reward 1 to the Mission Operator.
+If the true state is Mode A and the Mission Operator chooses Abort Sequence (D),
+the outcome gives reward 1 to the Test Engineer and reward 2 to the Mission Operator.
+
+If the true state is Mode B and the Mission Operator chooses Run Sequence (U),
+the outcome gives reward 1 to the Test Engineer and reward 2 to the Mission Operator.
+If the true state is Mode B and the Mission Operator chooses Abort Sequence (D),
+the outcome gives reward 2 to the Test Engineer and reward 1 to the Mission Operator.

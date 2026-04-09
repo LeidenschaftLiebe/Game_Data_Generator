@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Flood Warning V2" { "River Station" "Control Center" }
+""
+
+c "" 1 "" { "NorthFlow" 1/2 "SouthFlow" 1/2 } 0
+p "" 1 1 "" { "NorthSignal" "SouthSignal" } 0
+p "" 2 1 "" { "OpenGates" "HoldGates" } 0
+t "" 1 "NorthFlow_NorthSignal_OpenGates" { 2, 1 }
+t "" 2 "NorthFlow_NorthSignal_HoldGates" { 1, 2 }
+p "" 2 2 "" { "OpenGates" "HoldGates" } 0
+t "" 3 "NorthFlow_SouthSignal_OpenGates" { 2, 1 }
+t "" 4 "NorthFlow_SouthSignal_HoldGates" { 1, 2 }
+p "" 1 2 "" { "NorthSignal" "SouthSignal" } 0
+p "" 2 1 "" { "OpenGates" "HoldGates" } 0
+t "" 5 "SouthFlow_NorthSignal_OpenGates" { 1, 2 }
+t "" 6 "SouthFlow_NorthSignal_HoldGates" { 2, 1 }
+p "" 2 2 "" { "OpenGates" "HoldGates" } 0
+t "" 7 "SouthFlow_SouthSignal_OpenGates" { 1, 2 }
+t "" 8 "SouthFlow_SouthSignal_HoldGates" { 2, 1 }

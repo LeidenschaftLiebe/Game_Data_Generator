@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 1 Casting Memo V3" { "Casting Director" "Producer" }
+""
+
+c "" 1 "" { "ProfileA" 1/2 "ProfileB" 1/2 } 0
+p "" 1 1 "" { "MemoA" "MemoB" } 0
+p "" 2 1 "" { "SignNow" "PassForNow" } 0
+t "" 1 "ProfileA_MemoA_SignNow" { 2, 1 }
+t "" 2 "ProfileA_MemoA_PassForNow" { 1, 2 }
+p "" 2 2 "" { "SignNow" "PassForNow" } 0
+t "" 3 "ProfileA_MemoB_SignNow" { 2, 1 }
+t "" 4 "ProfileA_MemoB_PassForNow" { 1, 2 }
+p "" 1 2 "" { "MemoA" "MemoB" } 0
+p "" 2 1 "" { "SignNow" "PassForNow" } 0
+t "" 5 "ProfileB_MemoA_SignNow" { 1, 2 }
+t "" 6 "ProfileB_MemoA_PassForNow" { 2, 1 }
+p "" 2 2 "" { "SignNow" "PassForNow" } 0
+t "" 7 "ProfileB_MemoB_SignNow" { 1, 2 }
+t "" 8 "ProfileB_MemoB_PassForNow" { 2, 1 }

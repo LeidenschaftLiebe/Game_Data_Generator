@@ -1,0 +1,17 @@
+V3 — Cyber Incident Routing
+
+Lead analyst 1 moves first and chooses Contain [C] or Escalate [D].
+
+If analyst 1 chooses Contain [C], then security officer 2 chooses CloseCase [c] or KeepOpen [d].
+
+If officer 2 chooses CloseCase [c], the incident is closed.
+Analyst 1 gets 1, officer 2 gets 1, and auditor 3 gets 1.
+
+If analyst 1 chooses Escalate [D], the issue goes to auditor 3.
+If analyst 1 chooses Contain [C] and officer 2 chooses KeepOpen [d], the issue also goes to auditor 3.
+
+When auditor 3 moves, auditor 3 cannot tell whether the issue came from direct escalation or from the earlier contain branch followed by keeping the case open.
+Auditor 3 then chooses BlameAnalyst [L] or BlameOfficer [R].
+
+If auditor 3 chooses BlameAnalyst [L], analyst 1 gets 3, officer 2 gets 0, and auditor 3 gets 0.
+If auditor 3 chooses BlameOfficer [R], analyst 1 gets 0, officer 2 gets 3, and auditor 3 gets 0.

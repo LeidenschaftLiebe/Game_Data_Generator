@@ -1,0 +1,12 @@
+EFG 2 R "Film Release Decision V2" { "Producer" "Distributor" "Critic" }
+""
+
+p "" 1 1 "" { "PremiereNow" "HoldBack" } 0
+p "" 2 1 "" { "Greenlight" "Postpone" } 0
+t "" 1 "PremiereNow_then_Greenlight" { 1, 1, 1 }
+p "" 3 1 "" { "Praise" "Pan" } 0
+t "" 4 "PremiereNow_then_Postpone_then_Praise" { 3, 0, 0 }
+t "" 5 "PremiereNow_then_Postpone_then_Pan" { 0, 3, 0 }
+p "" 3 1 "" { "Praise" "Pan" } 0
+t "" 2 "HoldBack_then_Praise" { 3, 0, 0 }
+t "" 3 "HoldBack_then_Pan" { 0, 3, 0 }

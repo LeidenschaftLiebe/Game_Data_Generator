@@ -1,0 +1,17 @@
+V4 — Museum Exhibit Decision
+
+Curator 1 moves first and chooses Display [C] or Store [D].
+
+If curator 1 chooses Display [C], then registrar 2 chooses ApproveLabel [c] or ReviseLabel [d].
+
+If registrar 2 chooses ApproveLabel [c], the exhibit opens immediately.
+Curator 1 gets 1, registrar 2 gets 1, and sponsor 3 gets 1.
+
+If curator 1 chooses Store [D], the decision goes to sponsor 3.
+If curator 1 chooses Display [C] and registrar 2 chooses ReviseLabel [d], the decision also goes to sponsor 3.
+
+When sponsor 3 moves, sponsor 3 cannot tell whether the case came from storing the work or from revising the label after display was attempted.
+Sponsor 3 then chooses BackCurator [L] or BackRegistrar [R].
+
+If sponsor 3 chooses BackCurator [L], curator 1 gets 3, registrar 2 gets 0, and sponsor 3 gets 0.
+If sponsor 3 chooses BackRegistrar [R], curator 1 gets 0, registrar 2 gets 3, and sponsor 3 gets 0.

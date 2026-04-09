@@ -1,0 +1,12 @@
+EFG 2 R "Project Approval with Hidden Escalation V1" { "Director" "Reviewer" "Manager" }
+""
+
+p "" 1 1 "" { "Approve" "Escalate" } 0
+p "" 2 1 "" { "Confirm" "Delay" } 0
+t "" 1 "Approve_then_Confirm" { 1, 1, 1 }
+p "" 3 1 "" { "SendToTeamA" "SendToTeamB" } 0
+t "" 4 "Approve_then_Delay_then_SendToTeamA" { 3, 0, 0 }
+t "" 5 "Approve_then_Delay_then_SendToTeamB" { 0, 3, 0 }
+p "" 3 1 "" { "SendToTeamA" "SendToTeamB" } 0
+t "" 2 "Escalate_then_SendToTeamA" { 3, 0, 0 }
+t "" 3 "Escalate_then_SendToTeamB" { 0, 3, 0 }

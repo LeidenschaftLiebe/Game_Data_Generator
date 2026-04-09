@@ -1,0 +1,12 @@
+EFG 2 R "Uncertainty-Averse Coordination Example V0" { "1" "2" "3" }
+""
+
+p "" 1 1 "" { "C" "D" } 0
+p "" 2 1 "" { "c" "d" } 0
+t "" 1 "C_then_c" { 1, 1, 1 }
+p "" 3 1 "" { "L" "R" } 0
+t "" 4 "C_then_d_then_L" { 3, 0, 0 }
+t "" 5 "C_then_d_then_R" { 0, 3, 0 }
+p "" 3 1 "" { "L" "R" } 0
+t "" 2 "D_then_L" { 3, 0, 0 }
+t "" 3 "D_then_R" { 0, 3, 0 }

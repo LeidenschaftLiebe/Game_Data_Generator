@@ -1,0 +1,12 @@
+EFG 2 R "Research Grant Screening V5" { "Applicant" "Screener" "Chair" }
+""
+
+p "" 1 1 "" { "SubmitFull" "Withdraw" } 0
+p "" 2 1 "" { "ApproveFile" "RequestChanges" } 0
+t "" 1 "SubmitFull_then_ApproveFile" { 1, 1, 1 }
+p "" 3 1 "" { "FavorApplicant" "FavorScreener" } 0
+t "" 4 "SubmitFull_then_RequestChanges_then_FavorApplicant" { 3, 0, 0 }
+t "" 5 "SubmitFull_then_RequestChanges_then_FavorScreener" { 0, 3, 0 }
+p "" 3 1 "" { "FavorApplicant" "FavorScreener" } 0
+t "" 2 "Withdraw_then_FavorApplicant" { 3, 0, 0 }
+t "" 3 "Withdraw_then_FavorScreener" { 0, 3, 0 }

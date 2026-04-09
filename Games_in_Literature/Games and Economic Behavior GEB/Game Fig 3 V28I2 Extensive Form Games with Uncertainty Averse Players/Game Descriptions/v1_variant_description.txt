@@ -1,0 +1,17 @@
+V1 — Project Approval with Hidden Escalation
+
+Director 1 moves first and chooses Approve [C] or Escalate [D].
+
+If director 1 chooses Approve [C], then reviewer 2 chooses Confirm [c] or Delay [d].
+
+If reviewer 2 chooses Confirm [c], the matter ends there.
+Director 1 gets 1, reviewer 2 gets 1, and manager 3 gets 1.
+
+If director 1 chooses Escalate [D], the case goes to manager 3.
+If director 1 chooses Approve [C] and reviewer 2 chooses Delay [d], the case also goes to manager 3.
+
+When manager 3 receives the case, manager 3 cannot tell whether it came directly from Escalate [D] or from Approve [C] followed by Delay [d].
+Manager 3 then chooses SendToTeamA [L] or SendToTeamB [R].
+
+If manager 3 chooses SendToTeamA [L], director 1 gets 3, reviewer 2 gets 0, and manager 3 gets 0.
+If manager 3 chooses SendToTeamB [R], director 1 gets 0, reviewer 2 gets 3, and manager 3 gets 0.

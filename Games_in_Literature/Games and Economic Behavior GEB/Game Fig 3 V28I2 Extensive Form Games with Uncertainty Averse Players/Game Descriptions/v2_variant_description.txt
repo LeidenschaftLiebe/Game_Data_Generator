@@ -1,0 +1,17 @@
+V2 — Film Release Decision
+
+Producer 1 moves first and chooses PremiereNow [C] or HoldBack [D].
+
+If producer 1 chooses PremiereNow [C], then distributor 2 chooses Greenlight [c] or Postpone [d].
+
+If distributor 2 chooses Greenlight [c], the film is released immediately.
+Producer 1 gets 1, distributor 2 gets 1, and critic 3 gets 1.
+
+If producer 1 chooses HoldBack [D], the matter goes to critic 3.
+If producer 1 chooses PremiereNow [C] and distributor 2 chooses Postpone [d], the matter also goes to critic 3.
+
+When critic 3 moves, critic 3 cannot tell whether the film arrived because the producer held it back or because the distributor postponed it.
+Critic 3 then chooses Praise [L] or Pan [R].
+
+If critic 3 chooses Praise [L], producer 1 gets 3, distributor 2 gets 0, and critic 3 gets 0.
+If critic 3 chooses Pan [R], producer 1 gets 0, distributor 2 gets 3, and critic 3 gets 0.

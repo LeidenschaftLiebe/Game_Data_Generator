@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+Player 1 moves first at the root and chooses between C and D.
+Player 2 moves only after C, choosing between c and d.
+Player 3 moves after D and after C then d, and these two player 3 nodes are in the same information set.
+At terminal C_then_c, the payoffs are (1, 1, 1).

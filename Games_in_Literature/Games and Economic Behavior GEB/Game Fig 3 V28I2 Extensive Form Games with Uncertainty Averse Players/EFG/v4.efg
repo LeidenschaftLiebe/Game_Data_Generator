@@ -1,0 +1,12 @@
+EFG 2 R "Museum Exhibit Decision V4" { "Curator" "Registrar" "Sponsor" }
+""
+
+p "" 1 1 "" { "Display" "Store" } 0
+p "" 2 1 "" { "ApproveLabel" "ReviseLabel" } 0
+t "" 1 "Display_then_ApproveLabel" { 1, 1, 1 }
+p "" 3 1 "" { "BackCurator" "BackRegistrar" } 0
+t "" 4 "Display_then_ReviseLabel_then_BackCurator" { 3, 0, 0 }
+t "" 5 "Display_then_ReviseLabel_then_BackRegistrar" { 0, 3, 0 }
+p "" 3 1 "" { "BackCurator" "BackRegistrar" } 0
+t "" 2 "Store_then_BackCurator" { 3, 0, 0 }
+t "" 3 "Store_then_BackRegistrar" { 0, 3, 0 }

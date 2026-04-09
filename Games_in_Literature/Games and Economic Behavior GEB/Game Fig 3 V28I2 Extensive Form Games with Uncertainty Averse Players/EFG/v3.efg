@@ -1,0 +1,12 @@
+EFG 2 R "Cyber Incident Routing V3" { "LeadAnalyst" "SecurityOfficer" "Auditor" }
+""
+
+p "" 1 1 "" { "Contain" "Escalate" } 0
+p "" 2 1 "" { "CloseCase" "KeepOpen" } 0
+t "" 1 "Contain_then_CloseCase" { 1, 1, 1 }
+p "" 3 1 "" { "BlameAnalyst" "BlameOfficer" } 0
+t "" 4 "Contain_then_KeepOpen_then_BlameAnalyst" { 3, 0, 0 }
+t "" 5 "Contain_then_KeepOpen_then_BlameOfficer" { 0, 3, 0 }
+p "" 3 1 "" { "BlameAnalyst" "BlameOfficer" } 0
+t "" 2 "Escalate_then_BlameAnalyst" { 3, 0, 0 }
+t "" 3 "Escalate_then_BlameOfficer" { 0, 3, 0 }

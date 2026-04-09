@@ -1,0 +1,17 @@
+V5 — Research Grant Screening
+
+Applicant 1 moves first and chooses SubmitFull [C] or Withdraw [D].
+
+If applicant 1 chooses SubmitFull [C], then screener 2 chooses ApproveFile [c] or RequestChanges [d].
+
+If screener 2 chooses ApproveFile [c], the file is accepted immediately.
+Applicant 1 gets 1, screener 2 gets 1, and chair 3 gets 1.
+
+If applicant 1 chooses Withdraw [D], the matter goes to chair 3.
+If applicant 1 chooses SubmitFull [C] and screener 2 chooses RequestChanges [d], the matter also goes to chair 3.
+
+When chair 3 moves, chair 3 cannot tell whether the file reached that point because the applicant withdrew or because the screener requested changes.
+Chair 3 then chooses FavorApplicant [L] or FavorScreener [R].
+
+If chair 3 chooses FavorApplicant [L], applicant 1 gets 3, screener 2 gets 0, and chair 3 gets 0.
+If chair 3 chooses FavorScreener [R], applicant 1 gets 0, screener 2 gets 3, and chair 3 gets 0.

@@ -1,0 +1,26 @@
+V5 — University Grant Routing
+
+Clara is a department chair deciding how to submit a research proposal.
+She first chooses InternalTrack [a1] or ExternalTrack [a2].
+
+Then Daniel in the faculty panel moves without knowing which track Clara selected, and chooses Recommend [b1] or Return [b2].
+
+If Clara chose InternalTrack [a1] and Daniel chose Recommend [b1], the process ends there.
+Clara gets 1, Daniel gets 1, Eva gets 0, and David gets 0.
+
+If Clara chose ExternalTrack [a2], then after Daniel chooses Recommend [b1] or Return [b2], the proposal goes to Eva in compliance review.
+Eva cannot tell which of Daniel’s two choices brought the proposal to her, and she chooses AcceptFormat [c1] or RequestEdits [c2].
+
+If the path is ExternalTrack [a2] then Return [b2] then AcceptFormat [c1], everyone gets 0.
+If the path is ExternalTrack [a2] then Return [b2] then RequestEdits [c2], Clara gets 0, Daniel gets 0, Eva gets 1, and David gets 0.
+
+If the path is ExternalTrack [a2] then Recommend [b1] then AcceptFormat [c1], Clara gets 0, Daniel gets 1, Eva gets 1, and David gets 0.
+
+David moves in two cases: after InternalTrack [a1] then Return [b2], or after ExternalTrack [a2] then Recommend [b1] then RequestEdits [c2].
+He cannot tell which of these two cases has occurred, and chooses ReleaseFunds [d1] or HoldFunds [d2].
+
+If David is reached after InternalTrack [a1] then Return [b2], then whether he chooses ReleaseFunds [d1] or HoldFunds [d2], 
+Clara gets 1, Daniel gets 0, Eva gets 0, and David gets 0.
+
+If David is reached after ExternalTrack [a2] then Recommend [b1] then RequestEdits [c2], then whether he chooses ReleaseFunds [d1] or HoldFunds [d2], 
+Clara gets 0, Daniel gets 1, Eva gets 0, and David gets 0.

@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 5 Procedural Reasoning Is Not Lexicographic V0" { "Alice" "Bob" "Emma" "David" }
+""
+
+p "" 1 1 "" { "a1" "a2" } 0
+p "" 2 1 "" { "b1" "b2" } 0
+t "" 1 "a1_b1" { 1, 1, 0, 0 }
+p "" 4 1 "" { "d1" "d2" } 0
+t "" 5 "left_d1" { 1, 0, 0, 0 }
+t "" 6 "left_d2" { 1, 0, 0, 0 }
+p "" 2 1 "" { "b1" "b2" } 0
+p "" 3 1 "" { "c1" "c2" } 0
+t "" 4 "a2_b1_c1" { 0, 1, 1, 0 }
+p "" 4 1 "" { "d1" "d2" } 0
+t "" 7 "right_d1" { 0, 1, 0, 0 }
+t "" 8 "right_d2" { 0, 1, 0, 0 }
+p "" 3 1 "" { "c1" "c2" } 0
+t "" 2 "a2_b2_c1" { 0, 0, 0, 0 }
+t "" 3 "a2_b2_c2" { 0, 0, 1, 0 }

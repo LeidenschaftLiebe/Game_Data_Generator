@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 5 Film Distribution Decision V2" { "Mia" "Noah" "Sophie" "Daniel" }
+""
+
+p "" 1 1 "" { "FestivalRoute" "DistributorRoute" } 0
+p "" 2 1 "" { "DirectRelease" "HoldForChanges" } 0
+t "" 1 "FestivalRoute_DirectRelease" { 1, 1, 0, 0 }
+p "" 4 1 "" { "FundMarketing" "PauseBudget" } 0
+t "" 5 "HoldForChanges_d1" { 1, 0, 0, 0 }
+t "" 6 "HoldForChanges_d2" { 1, 0, 0, 0 }
+p "" 2 1 "" { "DirectRelease" "HoldForChanges" } 0
+p "" 3 1 "" { "MorningSlot" "EveningSlot" } 0
+t "" 4 "DistributorRoute_DirectRelease_MorningSlot" { 0, 1, 1, 0 }
+p "" 4 1 "" { "FundMarketing" "PauseBudget" } 0
+t "" 7 "EveningSlot_d1" { 0, 1, 0, 0 }
+t "" 8 "EveningSlot_d2" { 0, 1, 0, 0 }
+p "" 3 1 "" { "MorningSlot" "EveningSlot" } 0
+t "" 2 "DistributorRoute_HoldForChanges_MorningSlot" { 0, 0, 0, 0 }
+t "" 3 "DistributorRoute_HoldForChanges_EveningSlot" { 0, 0, 1, 0 }

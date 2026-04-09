@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 5 University Grant Routing V5" { "Clara" "Daniel" "Eva" "David" }
+""
+
+p "" 1 1 "" { "InternalTrack" "ExternalTrack" } 0
+p "" 2 1 "" { "Recommend" "Return" } 0
+t "" 1 "InternalTrack_Recommend" { 1, 1, 0, 0 }
+p "" 4 1 "" { "ReleaseFunds" "HoldFunds" } 0
+t "" 5 "Return_d1" { 1, 0, 0, 0 }
+t "" 6 "Return_d2" { 1, 0, 0, 0 }
+p "" 2 1 "" { "Recommend" "Return" } 0
+p "" 3 1 "" { "AcceptFormat" "RequestEdits" } 0
+t "" 4 "ExternalTrack_Recommend_AcceptFormat" { 0, 1, 1, 0 }
+p "" 4 1 "" { "ReleaseFunds" "HoldFunds" } 0
+t "" 7 "RequestEdits_d1" { 0, 1, 0, 0 }
+t "" 8 "RequestEdits_d2" { 0, 1, 0, 0 }
+p "" 3 1 "" { "AcceptFormat" "RequestEdits" } 0
+t "" 2 "ExternalTrack_Return_AcceptFormat" { 0, 0, 0, 0 }
+t "" 3 "ExternalTrack_Return_RequestEdits" { 0, 0, 1, 0 }

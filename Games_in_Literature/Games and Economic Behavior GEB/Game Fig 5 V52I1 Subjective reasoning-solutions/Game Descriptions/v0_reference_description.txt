@@ -1,0 +1,25 @@
+V0 — Procedural Reasoning Is Not Lexicographic
+
+This example is used to show that the order of the reasoning procedure matters, and that the process is not simply lexicographic.
+
+Alice moves first and chooses a1 or a2.
+
+Then Bob moves without knowing whether Alice chose a1 or a2, and Bob chooses b1 or b2.
+
+If Alice chose a1 and Bob chose b1, the interaction ends there.
+Alice gets 1, Bob gets 1, Emma gets 0, and David gets 0.
+
+If Alice chose a2, then after Bob chooses b1 or b2, the move passes to Emma.
+Emma does not know which of Bob’s two choices led to her move, and she chooses c1 or c2.
+
+If the path is a2 then b2 then c1, everyone gets 0.
+If the path is a2 then b2 then c2, Alice gets 0, Bob gets 0, Emma gets 1, and David gets 0.
+
+If the path is a2 then b1 then c1, Alice gets 0, Bob gets 1, Emma gets 1, and David gets 0.
+
+David moves in two cases: after a1 then b2, or after a2 then b1 then c2.
+He does not know which of these two cases has occurred, and he chooses d1 or d2.
+
+If David is reached after a1 then b2, then whether he chooses d1 or d2, Alice gets 1, Bob gets 0, Emma gets 0, and David gets 0.
+
+If David is reached after a2 then b1 then c2, then whether he chooses d1 or d2, Alice gets 0, Bob gets 1, Emma gets 0, and David gets 0.

@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 5 Product Security Review V1" { "Ava" "Ben" "Chloe" "Daniel" }
+""
+
+p "" 1 1 "" { "FastTrack" "Escalate" } 0
+p "" 2 1 "" { "Clear" "Flag" } 0
+t "" 1 "FastTrack_Clear" { 1, 1, 0, 0 }
+p "" 4 1 "" { "SignOff" "Defer" } 0
+t "" 5 "Flag_d1" { 1, 0, 0, 0 }
+t "" 6 "Flag_d2" { 1, 0, 0, 0 }
+p "" 2 1 "" { "Clear" "Flag" } 0
+p "" 3 1 "" { "ApproveDocs" "RequestRewrite" } 0
+t "" 4 "Escalate_Clear_ApproveDocs" { 0, 1, 1, 0 }
+p "" 4 1 "" { "SignOff" "Defer" } 0
+t "" 7 "Rewrite_d1" { 0, 1, 0, 0 }
+t "" 8 "Rewrite_d2" { 0, 1, 0, 0 }
+p "" 3 1 "" { "ApproveDocs" "RequestRewrite" } 0
+t "" 2 "Escalate_Flag_ApproveDocs" { 0, 0, 0, 0 }
+t "" 3 "Escalate_Flag_RequestRewrite" { 0, 0, 1, 0 }

@@ -1,0 +1,26 @@
+V3 — Cyber Incident Escalation
+
+Nina is the operations chief facing a possible security incident.
+She first chooses ContainInternally [a1] or EscalateExternally [a2].
+
+Then Omar in the response team moves without knowing which route Nina selected, and chooses PatchNow [b1] or Investigate [b2].
+
+If Nina chose ContainInternally [a1] and Omar chose PatchNow [b1], the response ends there.
+Nina gets 1, Omar gets 1, Priya gets 0, and Diego gets 0.
+
+If Nina chose EscalateExternally [a2], then after Omar chooses PatchNow [b1] or Investigate [b2], the case goes to Priya in legal review.
+Priya cannot tell which of Omar’s two choices brought the case to her, and she chooses FileNotice [c1] or DelayNotice [c2].
+
+If the path is EscalateExternally [a2] then Investigate [b2] then FileNotice [c1], everyone gets 0.
+If the path is EscalateExternally [a2] then Investigate [b2] then DelayNotice [c2], Nina gets 0, Omar gets 0, Priya gets 1, and Diego gets 0.
+
+If the path is EscalateExternally [a2] then PatchNow [b1] then FileNotice [c1], Nina gets 0, Omar gets 1, Priya gets 1, and Diego gets 0.
+
+Diego moves in two cases: after ContainInternally [a1] then Investigate [b2], or after EscalateExternally [a2] then PatchNow [b1] then DelayNotice [c2].
+He cannot tell which of these two cases has occurred, and chooses CloseMatter [d1] or KeepOpen [d2].
+
+If Diego is reached after ContainInternally [a1] then Investigate [b2], then whether he chooses CloseMatter [d1] or KeepOpen [d2], 
+Nina gets 1, Omar gets 0, Priya gets 0, and Diego gets 0.
+
+If Diego is reached after EscalateExternally [a2] then PatchNow [b1] then DelayNotice [c2], then whether he chooses CloseMatter [d1] or KeepOpen [d2], 
+Nina gets 0, Omar gets 1, Priya gets 0, and Diego gets 0.

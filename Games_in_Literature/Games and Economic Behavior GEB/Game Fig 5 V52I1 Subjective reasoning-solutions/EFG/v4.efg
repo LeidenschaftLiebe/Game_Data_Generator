@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 5 Space Mission Review V4" { "Lena" "Marcus" "Tessa" "Darius" }
+""
+
+p "" 1 1 "" { "StandardPath" "SpecialReview" } 0
+p "" 2 1 "" { "ApproveNow" "SendBack" } 0
+t "" 1 "StandardPath_ApproveNow" { 1, 1, 0, 0 }
+p "" 4 1 "" { "Authorize" "Delay" } 0
+t "" 5 "SendBack_d1" { 1, 0, 0, 0 }
+t "" 6 "SendBack_d2" { 1, 0, 0, 0 }
+p "" 2 1 "" { "ApproveNow" "SendBack" } 0
+p "" 3 1 "" { "SimulationA" "SimulationB" } 0
+t "" 4 "SpecialReview_ApproveNow_SimulationA" { 0, 1, 1, 0 }
+p "" 4 1 "" { "Authorize" "Delay" } 0
+t "" 7 "SimulationB_d1" { 0, 1, 0, 0 }
+t "" 8 "SimulationB_d2" { 0, 1, 0, 0 }
+p "" 3 1 "" { "SimulationA" "SimulationB" } 0
+t "" 2 "SpecialReview_SendBack_SimulationA" { 0, 0, 0, 0 }
+t "" 3 "SpecialReview_SendBack_SimulationB" { 0, 0, 1, 0 }

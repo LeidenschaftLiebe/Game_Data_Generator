@@ -1,0 +1,18 @@
+EFG 2 R "GEB Fig. 5 Cyber Incident Escalation V3" { "Nina" "Omar" "Priya" "Diego" }
+""
+
+p "" 1 1 "" { "ContainInternally" "EscalateExternally" } 0
+p "" 2 1 "" { "PatchNow" "Investigate" } 0
+t "" 1 "ContainInternally_PatchNow" { 1, 1, 0, 0 }
+p "" 4 1 "" { "CloseMatter" "KeepOpen" } 0
+t "" 5 "Investigate_d1" { 1, 0, 0, 0 }
+t "" 6 "Investigate_d2" { 1, 0, 0, 0 }
+p "" 2 1 "" { "PatchNow" "Investigate" } 0
+p "" 3 1 "" { "FileNotice" "DelayNotice" } 0
+t "" 4 "EscalateExternally_PatchNow_FileNotice" { 0, 1, 1, 0 }
+p "" 4 1 "" { "CloseMatter" "KeepOpen" } 0
+t "" 7 "DelayNotice_d1" { 0, 1, 0, 0 }
+t "" 8 "DelayNotice_d2" { 0, 1, 0, 0 }
+p "" 3 1 "" { "FileNotice" "DelayNotice" } 0
+t "" 2 "EscalateExternally_Investigate_FileNotice" { 0, 0, 0, 0 }
+t "" 3 "EscalateExternally_Investigate_DelayNotice" { 0, 0, 1, 0 }

@@ -1,0 +1,26 @@
+V2 — Film Distribution Decision
+
+Mia is a producer deciding how to handle a new film.
+She first chooses FestivalRoute [a1] or DistributorRoute [a2].
+
+Then Noah at the distribution office moves without knowing which route Mia selected, and chooses DirectRelease [b1] or HoldForChanges [b2].
+
+If Mia chose FestivalRoute [a1] and Noah chose DirectRelease [b1], the process ends there.
+Mia gets 1, Noah gets 1, Sophie gets 0, and Daniel gets 0.
+
+If Mia chose DistributorRoute [a2], then after Noah chooses DirectRelease [b1] or HoldForChanges [b2], the film goes to Sophie in programming.
+Sophie cannot tell which of Noah’s two choices brought the film to her, and she chooses MorningSlot [c1] or EveningSlot [c2].
+
+If the path is DistributorRoute [a2] then HoldForChanges [b2] then MorningSlot [c1], everyone gets 0.
+If the path is DistributorRoute [a2] then HoldForChanges [b2] then EveningSlot [c2], Mia gets 0, Noah gets 0, Sophie gets 1, and Daniel gets 0.
+
+If the path is DistributorRoute [a2] then DirectRelease [b1] then MorningSlot [c1], Mia gets 0, Noah gets 1, Sophie gets 1, and Daniel gets 0.
+
+Daniel moves in two cases: after FestivalRoute [a1] then HoldForChanges [b2], or after DistributorRoute [a2] then DirectRelease [b1] then EveningSlot [c2].
+He cannot tell which of these two cases has occurred, and chooses FundMarketing [d1] or PauseBudget [d2].
+
+If Daniel is reached after FestivalRoute [a1] then HoldForChanges [b2], then whether he chooses FundMarketing [d1] or PauseBudget [d2], 
+Mia gets 1, Noah gets 0, Sophie gets 0, and Daniel gets 0.
+
+If Daniel is reached after DistributorRoute [a2] then DirectRelease [b1] then EveningSlot [c2], then whether he chooses FundMarketing [d1] or PauseBudget [d2], 
+Mia gets 0, Noah gets 1, Sophie gets 0, and Daniel gets 0.

@@ -1,0 +1,26 @@
+V1 — Product Security Review
+
+Ava is the product lead deciding how to route a sensitive feature review.
+She first chooses FastTrack [a1] or Escalate [a2].
+
+Then Ben in security review moves without knowing which route Ava selected, and chooses Clear [b1] or Flag [b2].
+
+If Ava chose FastTrack [a1] and Ben chose Clear [b1], the process ends there.
+Ava gets 1, Ben gets 1, Chloe gets 0, and Daniel gets 0.
+
+If Ava chose Escalate [a2], then after Ben chooses Clear [b1] or Flag [b2], the case goes to Chloe in compliance.
+Chloe cannot tell which of Ben’s two choices brought the case to her, and she chooses ApproveDocs [c1] or RequestRewrite [c2].
+
+If the path is Escalate [a2] then Flag [b2] then ApproveDocs [c1], everyone gets 0.
+If the path is Escalate [a2] then Flag [b2] then RequestRewrite [c2], Ava gets 0, Ben gets 0, Chloe gets 1, and Daniel gets 0.
+
+If the path is Escalate [a2] then Clear [b1] then ApproveDocs [c1], Ava gets 0, Ben gets 1, Chloe gets 1, and Daniel gets 0.
+
+Daniel moves in two cases: after FastTrack [a1] then Flag [b2], or after Escalate [a2] then Clear [b1] then RequestRewrite [c2].
+He cannot tell which of these two cases has occurred, and chooses SignOff [d1] or Defer [d2].
+
+If Daniel is reached after FastTrack [a1] then Flag [b2], then whether he chooses SignOff [d1] or Defer [d2], 
+Ava gets 1, Ben gets 0, Chloe gets 0, and Daniel gets 0.
+
+If Daniel is reached after Escalate [a2] then Clear [b1] then RequestRewrite [c2], then whether he chooses SignOff [d1] or Defer [d2], 
+Ava gets 0, Ben gets 1, Chloe gets 0, and Daniel gets 0.

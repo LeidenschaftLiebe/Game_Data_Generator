@@ -1,0 +1,26 @@
+V4 — Space Mission Review
+
+Lena is the mission director deciding how to advance a new launch plan.
+She first chooses StandardPath [a1] or SpecialReview [a2].
+
+Then Marcus on the mission board moves without knowing which path Lena selected, and chooses ApproveNow [b1] or SendBack [b2].
+
+If Lena chose StandardPath [a1] and Marcus chose ApproveNow [b1], the process ends there.
+Lena gets 1, Marcus gets 1, Tessa gets 0, and Darius gets 0.
+
+If Lena chose SpecialReview [a2], then after Marcus chooses ApproveNow [b1] or SendBack [b2], the plan goes to Tessa in systems analysis.
+Tessa cannot tell which of Marcus’s two choices brought the plan to her, and she chooses SimulationA [c1] or SimulationB [c2].
+
+If the path is SpecialReview [a2] then SendBack [b2] then SimulationA [c1], everyone gets 0.
+If the path is SpecialReview [a2] then SendBack [b2] then SimulationB [c2], Lena gets 0, Marcus gets 0, Tessa gets 1, and Darius gets 0.
+
+If the path is SpecialReview [a2] then ApproveNow [b1] then SimulationA [c1], Lena gets 0, Marcus gets 1, Tessa gets 1, and Darius gets 0.
+
+Darius moves in two cases: after StandardPath [a1] then SendBack [b2], or after SpecialReview [a2] then ApproveNow [b1] then SimulationB [c2].
+He cannot tell which of these two cases has occurred, and chooses Authorize [d1] or Delay [d2].
+
+If Darius is reached after StandardPath [a1] then SendBack [b2], then whether he chooses Authorize [d1] or Delay [d2], 
+Lena gets 1, Marcus gets 0, Tessa gets 0, and Darius gets 0.
+
+If Darius is reached after SpecialReview [a2] then ApproveNow [b1] then SimulationB [c2], then whether he chooses Authorize [d1] or Delay [d2], 
+Lena gets 0, Marcus gets 1, Tessa gets 0, and Darius gets 0.

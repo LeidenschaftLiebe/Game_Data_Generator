@@ -1,0 +1,19 @@
+V2 — Two Campaigns under Two News Cycles
+
+A random news cycle first turns out to be CalmCycle [u] or TenseCycle [v], each with probability 1/2.
+
+Campaign I sees which news cycle arrived and then chooses ResponseR [R], ResponseS [S], or ResponseP [P].
+
+Campaign II then chooses ResponseR [R], ResponseS [S], or ResponseP [P].
+Campaign II knows whether the cycle is CalmCycle [u] or TenseCycle [v], but does not know which response Campaign I selected.
+
+Under either news cycle, choosing the same response gives both campaigns 0.
+
+If Campaign I chooses ResponseR [R] and Campaign II chooses ResponseS [S], Campaign I gets 6 and Campaign II gets -4.
+If Campaign I chooses ResponseR [R] and Campaign II chooses ResponseP [P], Campaign I gets -4 and Campaign II gets 2.
+
+If Campaign I chooses ResponseS [S] and Campaign II chooses ResponseR [R], Campaign I gets -4 and Campaign II gets 6.
+If Campaign I chooses ResponseS [S] and Campaign II chooses ResponseP [P], Campaign I gets 4 and Campaign II gets -2.
+
+If Campaign I chooses ResponseP [P] and Campaign II chooses ResponseR [R], Campaign I gets 2 and Campaign II gets -4.
+If Campaign I chooses ResponseP [P] and Campaign II chooses ResponseS [S], Campaign I gets -2 and Campaign II gets 4.

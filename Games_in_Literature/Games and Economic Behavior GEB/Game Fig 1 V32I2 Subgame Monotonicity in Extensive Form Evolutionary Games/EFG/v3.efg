@@ -1,0 +1,30 @@
+EFG 2 R "Two Security Teams under Two Alert Modes V3" { "Security Team I" "Security Team II" }
+""
+
+c "" 1 "" { "modeU" 1/2 "modeV" 1/2 } 0
+p "" 1 1 "" { "PatchR" "PatchS" "PatchP" } 0
+p "" 2 1 "" { "PatchR" "PatchS" "PatchP" } 0
+t "" 1 "modeU_teamI_R_teamII_R" { 0, 0 }
+t "" 2 "modeU_teamI_R_teamII_S" { 6, -4 }
+t "" 3 "modeU_teamI_R_teamII_P" { -4, 2 }
+p "" 2 1 "" { "PatchR" "PatchS" "PatchP" } 0
+t "" 4 "modeU_teamI_S_teamII_R" { -4, 6 }
+t "" 5 "modeU_teamI_S_teamII_S" { 0, 0 }
+t "" 6 "modeU_teamI_S_teamII_P" { 4, -2 }
+p "" 2 1 "" { "PatchR" "PatchS" "PatchP" } 0
+t "" 7 "modeU_teamI_P_teamII_R" { 2, -4 }
+t "" 8 "modeU_teamI_P_teamII_S" { -2, 4 }
+t "" 9 "modeU_teamI_P_teamII_P" { 0, 0 }
+p "" 1 2 "" { "PatchR" "PatchS" "PatchP" } 0
+p "" 2 2 "" { "PatchR" "PatchS" "PatchP" } 0
+t "" 10 "modeV_teamI_R_teamII_R" { 0, 0 }
+t "" 11 "modeV_teamI_R_teamII_S" { 6, -4 }
+t "" 12 "modeV_teamI_R_teamII_P" { -4, 2 }
+p "" 2 2 "" { "PatchR" "PatchS" "PatchP" } 0
+t "" 13 "modeV_teamI_S_teamII_R" { -4, 6 }
+t "" 14 "modeV_teamI_S_teamII_S" { 0, 0 }
+t "" 15 "modeV_teamI_S_teamII_P" { 4, -2 }
+p "" 2 2 "" { "PatchR" "PatchS" "PatchP" } 0
+t "" 16 "modeV_teamI_P_teamII_R" { 2, -4 }
+t "" 17 "modeV_teamI_P_teamII_S" { -2, 4 }
+t "" 18 "modeV_teamI_P_teamII_P" { 0, 0 }

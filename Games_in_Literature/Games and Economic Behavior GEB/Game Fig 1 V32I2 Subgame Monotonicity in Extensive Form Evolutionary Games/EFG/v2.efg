@@ -1,0 +1,30 @@
+EFG 2 R "Two Campaigns under Two News Cycles V2" { "Campaign I" "Campaign II" }
+""
+
+c "" 1 "" { "calmCycle" 1/2 "tenseCycle" 1/2 } 0
+p "" 1 1 "" { "ResponseR" "ResponseS" "ResponseP" } 0
+p "" 2 1 "" { "ResponseR" "ResponseS" "ResponseP" } 0
+t "" 1 "calm_campaignI_R_campaignII_R" { 0, 0 }
+t "" 2 "calm_campaignI_R_campaignII_S" { 6, -4 }
+t "" 3 "calm_campaignI_R_campaignII_P" { -4, 2 }
+p "" 2 1 "" { "ResponseR" "ResponseS" "ResponseP" } 0
+t "" 4 "calm_campaignI_S_campaignII_R" { -4, 6 }
+t "" 5 "calm_campaignI_S_campaignII_S" { 0, 0 }
+t "" 6 "calm_campaignI_S_campaignII_P" { 4, -2 }
+p "" 2 1 "" { "ResponseR" "ResponseS" "ResponseP" } 0
+t "" 7 "calm_campaignI_P_campaignII_R" { 2, -4 }
+t "" 8 "calm_campaignI_P_campaignII_S" { -2, 4 }
+t "" 9 "calm_campaignI_P_campaignII_P" { 0, 0 }
+p "" 1 2 "" { "ResponseR" "ResponseS" "ResponseP" } 0
+p "" 2 2 "" { "ResponseR" "ResponseS" "ResponseP" } 0
+t "" 10 "tense_campaignI_R_campaignII_R" { 0, 0 }
+t "" 11 "tense_campaignI_R_campaignII_S" { 6, -4 }
+t "" 12 "tense_campaignI_R_campaignII_P" { -4, 2 }
+p "" 2 2 "" { "ResponseR" "ResponseS" "ResponseP" } 0
+t "" 13 "tense_campaignI_S_campaignII_R" { -4, 6 }
+t "" 14 "tense_campaignI_S_campaignII_S" { 0, 0 }
+t "" 15 "tense_campaignI_S_campaignII_P" { 4, -2 }
+p "" 2 2 "" { "ResponseR" "ResponseS" "ResponseP" } 0
+t "" 16 "tense_campaignI_P_campaignII_R" { 2, -4 }
+t "" 17 "tense_campaignI_P_campaignII_S" { -2, 4 }
+t "" 18 "tense_campaignI_P_campaignII_P" { 0, 0 }

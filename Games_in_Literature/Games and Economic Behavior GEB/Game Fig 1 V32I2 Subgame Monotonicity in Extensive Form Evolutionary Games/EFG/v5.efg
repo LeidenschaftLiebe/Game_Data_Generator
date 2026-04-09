@@ -1,0 +1,30 @@
+EFG 2 R "Two Robotics Teams under Two Terrain States V5" { "Robotics Team I" "Robotics Team II" }
+""
+
+c "" 1 "" { "terrainU" 1/2 "terrainV" 1/2 } 0
+p "" 1 1 "" { "MoveR" "MoveS" "MoveP" } 0
+p "" 2 1 "" { "MoveR" "MoveS" "MoveP" } 0
+t "" 1 "terrainU_teamI_R_teamII_R" { 0, 0 }
+t "" 2 "terrainU_teamI_R_teamII_S" { 6, -4 }
+t "" 3 "terrainU_teamI_R_teamII_P" { -4, 2 }
+p "" 2 1 "" { "MoveR" "MoveS" "MoveP" } 0
+t "" 4 "terrainU_teamI_S_teamII_R" { -4, 6 }
+t "" 5 "terrainU_teamI_S_teamII_S" { 0, 0 }
+t "" 6 "terrainU_teamI_S_teamII_P" { 4, -2 }
+p "" 2 1 "" { "MoveR" "MoveS" "MoveP" } 0
+t "" 7 "terrainU_teamI_P_teamII_R" { 2, -4 }
+t "" 8 "terrainU_teamI_P_teamII_S" { -2, 4 }
+t "" 9 "terrainU_teamI_P_teamII_P" { 0, 0 }
+p "" 1 2 "" { "MoveR" "MoveS" "MoveP" } 0
+p "" 2 2 "" { "MoveR" "MoveS" "MoveP" } 0
+t "" 10 "terrainV_teamI_R_teamII_R" { 0, 0 }
+t "" 11 "terrainV_teamI_R_teamII_S" { 6, -4 }
+t "" 12 "terrainV_teamI_R_teamII_P" { -4, 2 }
+p "" 2 2 "" { "MoveR" "MoveS" "MoveP" } 0
+t "" 13 "terrainV_teamI_S_teamII_R" { -4, 6 }
+t "" 14 "terrainV_teamI_S_teamII_S" { 0, 0 }
+t "" 15 "terrainV_teamI_S_teamII_P" { 4, -2 }
+p "" 2 2 "" { "MoveR" "MoveS" "MoveP" } 0
+t "" 16 "terrainV_teamI_P_teamII_R" { 2, -4 }
+t "" 17 "terrainV_teamI_P_teamII_S" { -2, 4 }
+t "" 18 "terrainV_teamI_P_teamII_P" { 0, 0 }

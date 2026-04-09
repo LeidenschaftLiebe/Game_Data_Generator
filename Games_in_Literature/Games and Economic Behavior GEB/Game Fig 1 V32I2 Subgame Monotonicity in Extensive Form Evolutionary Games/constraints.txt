@@ -1,0 +1,11 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+The root is a chance node that chooses between u and v with probability 1/2 each.
+Player I moves after u and after v, choosing among R, S, and P.
+After u, player II moves without observing player I’s action, and the three player II nodes there are in the same information set.
+After v, player II moves without observing player I’s action, and the three player II nodes there are in the same information set.
+The player II information set after u is different from the player II information set after v.
+t terminals u_I_P_II_S and v_I_P_II_S, the payoffs are (-2, 4).

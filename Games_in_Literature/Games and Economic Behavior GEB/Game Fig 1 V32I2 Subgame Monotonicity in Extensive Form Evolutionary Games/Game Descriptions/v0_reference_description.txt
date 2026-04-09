@@ -1,0 +1,32 @@
+V0 — Symmetric Extensive Form Game
+
+Nature first selects u or v, each with probability 1/2.
+
+Player I learns whether the game is in u or v and then chooses R, S, or P.
+
+After that, player II chooses R, S, or P.
+Player II knows whether the game is in u or v, but does not know whether player I chose R, S, or P.
+
+If the game is in u and both players choose R, both get 0.
+If the game is in u, player I chooses R, and player II chooses S, then player I gets 6 and player II gets -4.
+If the game is in u, player I chooses R, and player II chooses P, then player I gets -4 and player II gets 2.
+
+If the game is in u, player I chooses S, and player II chooses R, then player I gets -4 and player II gets 6.
+If the game is in u and both players choose S, both get 0.
+If the game is in u, player I chooses S, and player II chooses P, then player I gets 4 and player II gets -2.
+
+If the game is in u, player I chooses P, and player II chooses R, then player I gets 2 and player II gets -4.
+If the game is in u, player I chooses P, and player II chooses S, then player I gets -2 and player II gets 4.
+If the game is in u and both players choose P, both get 0.
+
+If the game is in v, player I chooses R, and player II chooses R, both get 0.
+If the game is in v, player I chooses R, and player II chooses S, then player I gets 6 and player II gets -4.
+If the game is in v, player I chooses R, and player II chooses P, then player I gets -4 and player II gets 2.
+
+If the game is in v, player I chooses S, and player II chooses R, then player I gets -4 and player II gets 6.
+If the game is in v and both players choose S, both get 0.
+If the game is in v, player I chooses S, and player II chooses P, then player I gets 4 and player II gets -2.
+
+If the game is in v, player I chooses P, and player II chooses R, then player I gets 2 and player II gets -4.
+If the game is in v, player I chooses P, and player II chooses S, then player I gets -2 and player II gets 4.
+If the game is in v and both players choose P, both get 0.

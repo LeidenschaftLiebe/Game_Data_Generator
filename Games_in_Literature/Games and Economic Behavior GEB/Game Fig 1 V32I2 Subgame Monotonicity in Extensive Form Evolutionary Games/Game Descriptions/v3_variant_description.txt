@@ -1,0 +1,19 @@
+V3 — Two Security Teams under Two Alert Modes
+
+A random system event first puts the network in ModeU [u] or ModeV [v], each with probability 1/2.
+
+Security team I sees which mode is active and then chooses PatchR [R], PatchS [S], or PatchP [P].
+
+Security team II then chooses PatchR [R], PatchS [S], or PatchP [P].
+Security team II knows whether the network is in ModeU [u] or ModeV [v], but does not know which patch line team I selected.
+
+Under either alert mode, matching on the same patch line gives both teams 0.
+
+If team I chooses PatchR [R] and team II chooses PatchS [S], team I gets 6 and team II gets -4.
+If team I chooses PatchR [R] and team II chooses PatchP [P], team I gets -4 and team II gets 2.
+
+If team I chooses PatchS [S] and team II chooses PatchR [R], team I gets -4 and team II gets 6.
+If team I chooses PatchS [S] and team II chooses PatchP [P], team I gets 4 and team II gets -2.
+
+If team I chooses PatchP [P] and team II chooses PatchR [R], team I gets 2 and team II gets -4.
+If team I chooses PatchP [P] and team II chooses PatchS [S], team I gets -2 and team II gets 4.

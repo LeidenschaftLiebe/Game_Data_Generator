@@ -1,0 +1,19 @@
+V5 — Two Robotics Teams under Two Terrain States
+
+A random field condition first becomes TerrainU [u] or TerrainV [v], each with probability 1/2.
+
+Robotics team I sees which terrain state is active and then chooses MoveR [R], MoveS [S], or MoveP [P].
+
+Robotics team II then chooses MoveR [R], MoveS [S], or MoveP [P].
+Robotics team II knows whether the field is TerrainU [u] or TerrainV [v], but does not know which move Team I selected.
+
+Under either terrain state, choosing the same move gives both teams 0.
+
+If Team I chooses MoveR [R] and Team II chooses MoveS [S], Team I gets 6 and Team II gets -4.
+If Team I chooses MoveR [R] and Team II chooses MoveP [P], Team I gets -4 and Team II gets 2.
+
+If Team I chooses MoveS [S] and Team II chooses MoveR [R], Team I gets -4 and Team II gets 6.
+If Team I chooses MoveS [S] and Team II chooses MoveP [P], Team I gets 4 and Team II gets -2.
+
+If Team I chooses MoveP [P] and Team II chooses MoveR [R], Team I gets 2 and Team II gets -4.
+If Team I chooses MoveP [P] and Team II chooses MoveS [S], Team I gets -2 and Team II gets 4.

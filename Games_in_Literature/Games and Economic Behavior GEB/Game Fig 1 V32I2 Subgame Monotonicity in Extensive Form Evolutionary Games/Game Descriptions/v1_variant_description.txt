@@ -1,0 +1,19 @@
+V1 — Two Research Teams under Two Lab Conditions
+
+A random setup first places the two teams in DryLab [u] or WetLab [v], each with probability 1/2.
+
+Team I sees which lab condition was selected and then chooses RouteR [R], RouteS [S], or RouteP [P].
+
+Team II then chooses RouteR [R], RouteS [S], or RouteP [P].
+Team II knows whether the lab condition is DryLab [u] or WetLab [v], but does not know which route Team I selected.
+
+Under either lab condition, matching on the same route gives both teams 0.
+
+If Team I chooses RouteR [R] and Team II chooses RouteS [S], Team I gets 6 and Team II gets -4.
+If Team I chooses RouteR [R] and Team II chooses RouteP [P], Team I gets -4 and Team II gets 2.
+
+If Team I chooses RouteS [S] and Team II chooses RouteR [R], Team I gets -4 and Team II gets 6.
+If Team I chooses RouteS [S] and Team II chooses RouteP [P], Team I gets 4 and Team II gets -2.
+
+If Team I chooses RouteP [P] and Team II chooses RouteR [R], Team I gets 2 and Team II gets -4.
+If Team I chooses RouteP [P] and Team II chooses RouteS [S], Team I gets -2 and Team II gets 4.

@@ -1,0 +1,19 @@
+V4 — Two Studios under Two Release Windows
+
+A random release window first turns out to be HolidayWindow [u] or OffSeasonWindow [v], each with probability 1/2.
+
+Studio I sees which window was selected and then chooses PlanR [R], PlanS [S], or PlanP [P].
+
+Studio II then chooses PlanR [R], PlanS [S], or PlanP [P].
+Studio II knows whether the release window is HolidayWindow [u] or OffSeasonWindow [v], but does not know which plan Studio I selected.
+
+Under either release window, choosing the same plan gives both studios 0.
+
+If Studio I chooses PlanR [R] and Studio II chooses PlanS [S], Studio I gets 6 and Studio II gets -4.
+If Studio I chooses PlanR [R] and Studio II chooses PlanP [P], Studio I gets -4 and Studio II gets 2.
+
+If Studio I chooses PlanS [S] and Studio II chooses PlanR [R], Studio I gets -4 and Studio II gets 6.
+If Studio I chooses PlanS [S] and Studio II chooses PlanP [P], Studio I gets 4 and Studio II gets -2.
+
+If Studio I chooses PlanP [P] and Studio II chooses PlanR [R], Studio I gets 2 and Studio II gets -4.
+If Studio I chooses PlanP [P] and Studio II chooses PlanS [S], Studio I gets -2 and Studio II gets 4.

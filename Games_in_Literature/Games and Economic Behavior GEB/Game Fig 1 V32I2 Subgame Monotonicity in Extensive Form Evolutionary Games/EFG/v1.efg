@@ -1,0 +1,30 @@
+EFG 2 R "Two Research Teams under Two Lab Conditions V1" { "Team I" "Team II" }
+""
+
+c "" 1 "" { "dryLab" 1/2 "wetLab" 1/2 } 0
+p "" 1 1 "" { "RouteR" "RouteS" "RouteP" } 0
+p "" 2 1 "" { "RouteR" "RouteS" "RouteP" } 0
+t "" 1 "dry_teamI_R_teamII_R" { 0, 0 }
+t "" 2 "dry_teamI_R_teamII_S" { 6, -4 }
+t "" 3 "dry_teamI_R_teamII_P" { -4, 2 }
+p "" 2 1 "" { "RouteR" "RouteS" "RouteP" } 0
+t "" 4 "dry_teamI_S_teamII_R" { -4, 6 }
+t "" 5 "dry_teamI_S_teamII_S" { 0, 0 }
+t "" 6 "dry_teamI_S_teamII_P" { 4, -2 }
+p "" 2 1 "" { "RouteR" "RouteS" "RouteP" } 0
+t "" 7 "dry_teamI_P_teamII_R" { 2, -4 }
+t "" 8 "dry_teamI_P_teamII_S" { -2, 4 }
+t "" 9 "dry_teamI_P_teamII_P" { 0, 0 }
+p "" 1 2 "" { "RouteR" "RouteS" "RouteP" } 0
+p "" 2 2 "" { "RouteR" "RouteS" "RouteP" } 0
+t "" 10 "wet_teamI_R_teamII_R" { 0, 0 }
+t "" 11 "wet_teamI_R_teamII_S" { 6, -4 }
+t "" 12 "wet_teamI_R_teamII_P" { -4, 2 }
+p "" 2 2 "" { "RouteR" "RouteS" "RouteP" } 0
+t "" 13 "wet_teamI_S_teamII_R" { -4, 6 }
+t "" 14 "wet_teamI_S_teamII_S" { 0, 0 }
+t "" 15 "wet_teamI_S_teamII_P" { 4, -2 }
+p "" 2 2 "" { "RouteR" "RouteS" "RouteP" } 0
+t "" 16 "wet_teamI_P_teamII_R" { 2, -4 }
+t "" 17 "wet_teamI_P_teamII_S" { -2, 4 }
+t "" 18 "wet_teamI_P_teamII_P" { 0, 0 }

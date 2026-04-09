@@ -1,0 +1,14 @@
+EFG 2 R "Awake Pilot or Drowsy Pilot V2" { "Pilot" }
+""
+
+p "" 1 1 "" { "AwakeMode" "DrowsyMode" } 0
+c "" 1 "" { "LandNow" 3/7 "KeepFlying" 4/7 } 0
+t "" 1 "awake_land_at_X" { 0 }
+c "" 2 "" { "LandNow" 3/7 "KeepFlying" 4/7 } 0
+t "" 2 "awake_land_at_Y" { 0 }
+t "" 3 "awake_keep_flying_past_Y" { 1 }
+c "" 3 "" { "LandNow" 1/2 "KeepFlying" 1/2 } 0
+t "" 4 "drowsy_land_at_X" { 0 }
+c "" 4 "" { "LandNow" 1/2 "KeepFlying" 1/2 } 0
+t "" 5 "drowsy_land_at_Y" { 0 }
+t "" 6 "drowsy_keep_flying_past_Y" { 1 }

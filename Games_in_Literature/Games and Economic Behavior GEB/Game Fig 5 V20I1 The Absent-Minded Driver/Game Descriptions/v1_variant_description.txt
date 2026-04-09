@@ -1,0 +1,17 @@
+V1 — Clear Route or Foggy Route
+
+At START, the courier chooses between ClearRoute and FoggyRoute.
+
+Under ClearRoute, the courier reaches CheckpointX [X] first.
+There, the courier takes the side road with probability 3/7 and gets 0, or stays on the main road with probability 4/7.
+
+If the courier stays on the main road, the courier reaches CheckpointY [Y].
+There, the courier takes the side road with probability 3/7 and gets 0, or stays on the main road with probability 4/7 and gets 1.
+
+Under FoggyRoute, the courier also reaches CheckpointX [X] first.
+There, the courier takes the side road with probability 1/2 and gets 0, or stays on the main road with probability 1/2.
+
+If the courier stays on the main road, the courier reaches CheckpointY [Y].
+There, the courier takes the side road with probability 1/2 and gets 0, or stays on the main road with probability 1/2 and gets 1.
+
+Under FoggyRoute, the courier cannot tell whether the current checkpoint is CheckpointX [X] or CheckpointY [Y].

@@ -1,0 +1,14 @@
+EFG 2 R "Clear-Headed or Absent-Minded V0" { "Driver" }
+""
+
+p "" 1 1 "" { "ClearHeaded" "AbsentMinded" } 0
+c "" 1 "" { "EXIT" 3/7 "CONT" 4/7 } 0
+t "" 1 "clear_exit_at_X" { 0 }
+c "" 2 "" { "EXIT" 3/7 "CONT" 4/7 } 0
+t "" 2 "clear_exit_at_Y" { 0 }
+t "" 3 "clear_continue_past_Y" { 1 }
+c "" 3 "" { "EXIT" 1/2 "CONT" 1/2 } 0
+t "" 4 "absent_exit_at_X" { 0 }
+c "" 4 "" { "EXIT" 1/2 "CONT" 1/2 } 0
+t "" 5 "absent_exit_at_Y" { 0 }
+t "" 6 "absent_continue_past_Y" { 1 }

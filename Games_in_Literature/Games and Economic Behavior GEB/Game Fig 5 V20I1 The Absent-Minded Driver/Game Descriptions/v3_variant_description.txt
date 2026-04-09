@@ -1,0 +1,17 @@
+V3 — Focused Hiker or Distracted Hiker
+
+At START, the hiker chooses between Focused and Distracted.
+
+Under Focused, the hiker first reaches JunctionX [X].
+At JunctionX [X], the hiker leaves the trail with probability 3/7 and gets 0, or keeps going with probability 4/7.
+
+If the hiker keeps going, the hiker reaches JunctionY [Y].
+At JunctionY [Y], the hiker leaves the trail with probability 3/7 and gets 0, or keeps going with probability 4/7 and gets 1.
+
+Under Distracted, the hiker first reaches JunctionX [X].
+At JunctionX [X], the hiker leaves the trail with probability 1/2 and gets 0, or keeps going with probability 1/2.
+
+If the hiker keeps going, the hiker reaches JunctionY [Y].
+At JunctionY [Y], the hiker leaves the trail with probability 1/2 and gets 0, or keeps going with probability 1/2 and gets 1.
+
+Under Distracted, the hiker cannot tell whether the current junction is JunctionX [X] or JunctionY [Y].

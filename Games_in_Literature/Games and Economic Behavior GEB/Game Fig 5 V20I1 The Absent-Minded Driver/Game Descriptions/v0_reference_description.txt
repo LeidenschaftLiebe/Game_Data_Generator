@@ -1,0 +1,18 @@
+V0 — Clear-Headed or Absent-Minded
+
+At START, the traveler chooses between ClearHeaded and AbsentMinded.
+
+Under ClearHeaded, the traveler reaches X first.
+At X, the traveler exits with probability 3/7 and gets 0, or continues with probability 4/7 and moves on.
+
+If the traveler continues under ClearHeaded, the traveler reaches Y.
+At Y, the traveler exits with probability 3/7 and gets 0, or continues with probability 4/7 and gets 1.
+
+Under AbsentMinded, the traveler also reaches X first.
+At X, the traveler exits with probability 1/2 and gets 0, or continues with probability 1/2 and moves on.
+
+If the traveler continues under AbsentMinded, the traveler reaches Y.
+At Y, the traveler exits with probability 1/2 and gets 0, or continues with probability 1/2 and gets 1.
+
+Under AbsentMinded, the traveler cannot tell whether the current intersection is X or Y.
+Under ClearHeaded, the traveler can tell.

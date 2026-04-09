@@ -1,0 +1,14 @@
+EFG 2 R "Clear Route or Foggy Route V1" { "Courier" }
+""
+
+p "" 1 1 "" { "ClearRoute" "FoggyRoute" } 0
+c "" 1 "" { "TakeSideRoad" 3/7 "StayOnMainRoad" 4/7 } 0
+t "" 1 "clear_take_side_road_at_X" { 0 }
+c "" 2 "" { "TakeSideRoad" 3/7 "StayOnMainRoad" 4/7 } 0
+t "" 2 "clear_take_side_road_at_Y" { 0 }
+t "" 3 "clear_stay_on_main_road_past_Y" { 1 }
+c "" 3 "" { "TakeSideRoad" 1/2 "StayOnMainRoad" 1/2 } 0
+t "" 4 "foggy_take_side_road_at_X" { 0 }
+c "" 4 "" { "TakeSideRoad" 1/2 "StayOnMainRoad" 1/2 } 0
+t "" 5 "foggy_take_side_road_at_Y" { 0 }
+t "" 6 "foggy_stay_on_main_road_past_Y" { 1 }

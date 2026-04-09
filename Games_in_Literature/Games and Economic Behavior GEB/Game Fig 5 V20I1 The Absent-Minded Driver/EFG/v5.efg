@@ -1,0 +1,14 @@
+EFG 2 R "Attentive Visitor or Absent-Minded Visitor V5" { "Visitor" }
+""
+
+p "" 1 1 "" { "Attentive" "AbsentMinded" } 0
+c "" 1 "" { "LeaveNow" 3/7 "KeepGoing" 4/7 } 0
+t "" 1 "attentive_leave_now_at_X" { 0 }
+c "" 2 "" { "LeaveNow" 3/7 "KeepGoing" 4/7 } 0
+t "" 2 "attentive_leave_now_at_Y" { 0 }
+t "" 3 "attentive_keep_going_past_Y" { 1 }
+c "" 3 "" { "LeaveNow" 1/2 "KeepGoing" 1/2 } 0
+t "" 4 "absentminded_leave_now_at_X" { 0 }
+c "" 4 "" { "LeaveNow" 1/2 "KeepGoing" 1/2 } 0
+t "" 5 "absentminded_leave_now_at_Y" { 0 }
+t "" 6 "absentminded_keep_going_past_Y" { 1 }

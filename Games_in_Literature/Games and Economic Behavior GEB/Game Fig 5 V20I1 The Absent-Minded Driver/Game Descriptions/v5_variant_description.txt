@@ -1,0 +1,17 @@
+V5 — Attentive Visitor or Absent-Minded Visitor
+
+At START, the visitor chooses between Attentive and AbsentMinded.
+
+Under Attentive, the visitor first reaches HallX [X].
+At HallX [X], the visitor exits with probability 3/7 and gets 0, or continues with probability 4/7.
+
+If the visitor continues, the visitor reaches HallY [Y].
+At HallY [Y], the visitor exits with probability 3/7 and gets 0, or continues with probability 4/7 and gets 1.
+
+Under AbsentMinded, the visitor first reaches HallX [X].
+At HallX [X], the visitor exits with probability 1/2 and gets 0, or continues with probability 1/2.
+
+If the visitor continues, the visitor reaches HallY [Y].
+At HallY [Y], the visitor exits with probability 1/2 and gets 0, or continues with probability 1/2 and gets 1.
+
+Under AbsentMinded, the visitor cannot tell whether the current hallway is HallX [X] or HallY [Y].

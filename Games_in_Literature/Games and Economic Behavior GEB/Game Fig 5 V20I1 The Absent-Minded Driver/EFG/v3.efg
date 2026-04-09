@@ -1,0 +1,14 @@
+EFG 2 R "Focused Hiker or Distracted Hiker V3" { "Hiker" }
+""
+
+p "" 1 1 "" { "Focused" "Distracted" } 0
+c "" 1 "" { "LeaveTrail" 3/7 "KeepGoing" 4/7 } 0
+t "" 1 "focused_leave_trail_at_X" { 0 }
+c "" 2 "" { "LeaveTrail" 3/7 "KeepGoing" 4/7 } 0
+t "" 2 "focused_leave_trail_at_Y" { 0 }
+t "" 3 "focused_keep_going_past_Y" { 1 }
+c "" 3 "" { "LeaveTrail" 1/2 "KeepGoing" 1/2 } 0
+t "" 4 "distracted_leave_trail_at_X" { 0 }
+c "" 4 "" { "LeaveTrail" 1/2 "KeepGoing" 1/2 } 0
+t "" 5 "distracted_leave_trail_at_Y" { 0 }
+t "" 6 "distracted_keep_going_past_Y" { 1 }

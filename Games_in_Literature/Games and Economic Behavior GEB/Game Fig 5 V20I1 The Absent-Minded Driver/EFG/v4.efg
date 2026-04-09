@@ -1,0 +1,14 @@
+EFG 2 R "Guided Robot or Memory-Loss Robot V4" { "Robot" }
+""
+
+p "" 1 1 "" { "GuidedMode" "MemoryLossMode" } 0
+c "" 1 "" { "ShutDown" 3/7 "Continue" 4/7 } 0
+t "" 1 "guided_shutdown_at_X" { 0 }
+c "" 2 "" { "ShutDown" 3/7 "Continue" 4/7 } 0
+t "" 2 "guided_shutdown_at_Y" { 0 }
+t "" 3 "guided_continue_past_Y" { 1 }
+c "" 3 "" { "ShutDown" 1/2 "Continue" 1/2 } 0
+t "" 4 "memoryloss_shutdown_at_X" { 0 }
+c "" 4 "" { "ShutDown" 1/2 "Continue" 1/2 } 0
+t "" 5 "memoryloss_shutdown_at_Y" { 0 }
+t "" 6 "memoryloss_continue_past_Y" { 1 }

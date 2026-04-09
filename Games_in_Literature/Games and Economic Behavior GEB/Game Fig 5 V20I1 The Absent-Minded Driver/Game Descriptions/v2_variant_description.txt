@@ -1,0 +1,17 @@
+V2 — Awake Pilot or Drowsy Pilot
+
+At START, the pilot chooses between AwakeMode and DrowsyMode.
+
+Under AwakeMode, the pilot reaches BeaconX [X] first.
+At BeaconX [X], the pilot lands with probability 3/7 and gets 0, or keeps flying with probability 4/7.
+
+If the pilot keeps flying, the pilot reaches BeaconY [Y].
+At BeaconY [Y], the pilot lands with probability 3/7 and gets 0, or keeps flying with probability 4/7 and gets 1.
+
+Under DrowsyMode, the pilot reaches BeaconX [X] first.
+At BeaconX [X], the pilot lands with probability 1/2 and gets 0, or keeps flying with probability 1/2.
+
+If the pilot keeps flying, the pilot reaches BeaconY [Y].
+At BeaconY [Y], the pilot lands with probability 1/2 and gets 0, or keeps flying with probability 1/2 and gets 1.
+
+Under DrowsyMode, the pilot cannot tell whether the current beacon is BeaconX [X] or BeaconY [Y].

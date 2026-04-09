@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+The player moves first at the root and chooses between ClearHeaded and AbsentMinded.
+After ClearHeaded, there are two successive chance nodes. At each one, EXIT occurs with probability 3/7 and CONT occurs with probability 4/7.
+After AbsentMinded, there are two successive chance nodes. At each one, EXIT occurs with probability 1/2 and CONT occurs with probability 1/2.
+Under ClearHeaded and AbsentMinded: All other outcomes are 0; Only continuing past the second node leads to payoff 1.

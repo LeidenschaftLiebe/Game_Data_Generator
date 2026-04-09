@@ -1,0 +1,17 @@
+V4 — Guided Robot or Memory-Loss Robot
+
+At START, the robot chooses between GuidedMode and MemoryLossMode.
+
+Under GuidedMode, the robot reaches NodeX [X] first.
+At NodeX [X], the robot shuts down with probability 3/7 and gets 0, or continues with probability 4/7.
+
+If the robot continues, it reaches NodeY [Y].
+At NodeY [Y], the robot shuts down with probability 3/7 and gets 0, or continues with probability 4/7 and gets 1.
+
+Under MemoryLossMode, the robot reaches NodeX [X] first.
+At NodeX [X], the robot shuts down with probability 1/2 and gets 0, or continues with probability 1/2.
+
+If the robot continues, it reaches NodeY [Y].
+At NodeY [Y], the robot shuts down with probability 1/2 and gets 0, or continues with probability 1/2 and gets 1.
+
+Under MemoryLossMode, the robot cannot tell whether the current node is NodeX [X] or NodeY [Y].

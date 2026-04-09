@@ -1,0 +1,35 @@
+V5 — Theater Scheduling
+
+A theater season may begin under either Program A or Program B.
+Nature selects the program, with probability 1/2 for each.
+
+If the season begins under Program A, the producer makes an A-program choice between End Program (Ea) and Continue Program (Ca).
+Choosing End Program (Ea) ends the process with reward 1 to the producer and reward 0 to the stage manager.
+Choosing Continue Program (Ca) passes the move to the stage manager.
+
+If the season begins under Program B, the producer makes a B-program choice between End Program (Eb) and Continue Program (Cb).
+Choosing End Program (Eb) ends the process with reward 1 to the producer and reward 0 to the stage manager.
+Choosing Continue Program (Cb) passes the move to the stage manager.
+
+If Continue Program (Ca) or Continue Program (Cb) is chosen, the stage manager then chooses among
+Left Staging (L), Right Staging (R), and Cross-Stage Review (C2).
+At that moment, the stage manager knows the producer continued, but does not know whether the earlier situation was Program A or Program B.
+
+If the earlier situation was Program A and the stage manager chooses Left Staging (L), the game ends with reward 0 to the producer and reward 3 to the stage manager.
+If the earlier situation was Program A and the stage manager chooses Right Staging (R), the game ends with reward 3 to the producer and reward 0 to the stage manager.
+If the earlier situation was Program A and the stage manager chooses Cross-Stage Review (C2), the producer gets another turn in the B-program situation.
+
+If the earlier situation was Program B and the stage manager chooses Right Staging (R), the game ends with reward 0 to the producer and reward 3 to the stage manager.
+If the earlier situation was Program B and the stage manager chooses Left Staging (L), the game ends with reward 3 to the producer and reward 0 to the stage manager.
+If the earlier situation was Program B and the stage manager chooses Cross-Stage Review (C2), the producer gets another turn in the A-program situation.
+
+When the producer later returns to the B-program situation, the producer again chooses between End Program (Eb) and Continue Program (Cb).
+Either choice then ends the process with reward 0 to the producer and reward 2 to the stage manager.
+
+When the producer later returns to the A-program situation, the producer again chooses between End Program (Ea) and Continue Program (Ca).
+Either choice then ends the process with reward 0 to the producer and reward 2 to the stage manager.
+
+Whenever the producer is making an A-program choice, 
+the producer cannot tell whether it is the earlier A situation or the later one reached after Cross-Stage Review (C2).
+Likewise, whenever the producer is making a B-program choice, 
+the producer cannot tell whether it is the earlier B situation or the later one reached after Cross-Stage Review (C2).

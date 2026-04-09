@@ -1,0 +1,20 @@
+EFG 2 R "GEB Fig. 1 Lab Procedure V4" { "Lab Lead" "Compliance Officer" }
+""
+
+c "" 1 "" { "ModeA" 1/2 "ModeB" 1/2 } 0
+p "" 1 1 "" { "EndTestA" "ContinueTestA" } 0
+t "" 1 "ModeA_EndTestA" { 1, 0 }
+p "" 2 1 "" { "LeftCheck" "RightCheck" "TransferCase" } 0
+t "" 3 "ModeA_ContinueTestA_LeftCheck" { 0, 3 }
+t "" 4 "ModeA_ContinueTestA_RightCheck" { 3, 0 }
+p "" 1 2 "" { "EndTestB" "ContinueTestB" } 0
+t "" 7 "laterB_EndTestB" { 0, 2 }
+t "" 8 "laterB_ContinueTestB" { 0, 2 }
+p "" 1 2 "" { "EndTestB" "ContinueTestB" } 0
+t "" 2 "ModeB_EndTestB" { 1, 0 }
+p "" 2 1 "" { "LeftCheck" "RightCheck" "TransferCase" } 0
+t "" 6 "ModeB_ContinueTestB_LeftCheck" { 3, 0 }
+t "" 5 "ModeB_ContinueTestB_RightCheck" { 0, 3 }
+p "" 1 1 "" { "EndTestA" "ContinueTestA" } 0
+t "" 9 "laterA_EndTestA" { 0, 2 }
+t "" 10 "laterA_ContinueTestA" { 0, 2 }

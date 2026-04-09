@@ -1,0 +1,20 @@
+EFG 2 R "GEB Fig. 1 Theater Scheduling V5" { "Producer" "Stage Manager" }
+""
+
+c "" 1 "" { "ProgramA" 1/2 "ProgramB" 1/2 } 0
+p "" 1 1 "" { "EndProgramA" "ContinueProgramA" } 0
+t "" 1 "ProgramA_EndProgramA" { 1, 0 }
+p "" 2 1 "" { "LeftStaging" "RightStaging" "CrossStageReview" } 0
+t "" 3 "ProgramA_ContinueProgramA_LeftStaging" { 0, 3 }
+t "" 4 "ProgramA_ContinueProgramA_RightStaging" { 3, 0 }
+p "" 1 2 "" { "EndProgramB" "ContinueProgramB" } 0
+t "" 7 "laterB_EndProgramB" { 0, 2 }
+t "" 8 "laterB_ContinueProgramB" { 0, 2 }
+p "" 1 2 "" { "EndProgramB" "ContinueProgramB" } 0
+t "" 2 "ProgramB_EndProgramB" { 1, 0 }
+p "" 2 1 "" { "LeftStaging" "RightStaging" "CrossStageReview" } 0
+t "" 6 "ProgramB_ContinueProgramB_LeftStaging" { 3, 0 }
+t "" 5 "ProgramB_ContinueProgramB_RightStaging" { 0, 3 }
+p "" 1 1 "" { "EndProgramA" "ContinueProgramA" } 0
+t "" 9 "laterA_EndProgramA" { 0, 2 }
+t "" 10 "laterA_ContinueProgramA" { 0, 2 }

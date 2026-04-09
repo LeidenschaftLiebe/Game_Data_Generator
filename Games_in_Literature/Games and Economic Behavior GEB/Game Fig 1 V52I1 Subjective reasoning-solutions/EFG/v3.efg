@@ -1,0 +1,20 @@
+EFG 2 R "GEB Fig. 1 Archive Inspection V3" { "Archive Director" "Reviewer" }
+""
+
+c "" 1 "" { "PlanA" 1/2 "PlanB" 1/2 } 0
+p "" 1 1 "" { "EndPlanA" "ContinuePlanA" } 0
+t "" 1 "PlanA_EndPlanA" { 1, 0 }
+p "" 2 1 "" { "LeftAssessment" "RightAssessment" "ReopenReview" } 0
+t "" 3 "PlanA_ContinuePlanA_LeftAssessment" { 0, 3 }
+t "" 4 "PlanA_ContinuePlanA_RightAssessment" { 3, 0 }
+p "" 1 2 "" { "EndPlanB" "ContinuePlanB" } 0
+t "" 7 "laterB_EndPlanB" { 0, 2 }
+t "" 8 "laterB_ContinuePlanB" { 0, 2 }
+p "" 1 2 "" { "EndPlanB" "ContinuePlanB" } 0
+t "" 2 "PlanB_EndPlanB" { 1, 0 }
+p "" 2 1 "" { "LeftAssessment" "RightAssessment" "ReopenReview" } 0
+t "" 6 "PlanB_ContinuePlanB_LeftAssessment" { 3, 0 }
+t "" 5 "PlanB_ContinuePlanB_RightAssessment" { 0, 3 }
+p "" 1 1 "" { "EndPlanA" "ContinuePlanA" } 0
+t "" 9 "laterA_EndPlanA" { 0, 2 }
+t "" 10 "laterA_ContinuePlanA" { 0, 2 }

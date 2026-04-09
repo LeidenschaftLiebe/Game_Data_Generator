@@ -1,0 +1,20 @@
+EFG 2 R "GEB Fig. 1 Kreps-Ramey Example V0" { "Player 1" "Player 2" }
+""
+
+c "" 1 "" { "a" 1/2 "b" 1/2 } 0
+p "" 1 1 "" { "Ea" "Ca" } 0
+t "" 1 "a_Ea" { 1, 0 }
+p "" 2 1 "" { "L" "R" "C2" } 0
+t "" 3 "a_Ca_L" { 0, 3 }
+t "" 4 "a_Ca_R" { 3, 0 }
+p "" 1 2 "" { "Eb" "Cb" } 0
+t "" 7 "later_b_Eb" { 0, 2 }
+t "" 8 "later_b_Cb" { 0, 2 }
+p "" 1 2 "" { "Eb" "Cb" } 0
+t "" 2 "b_Eb" { 1, 0 }
+p "" 2 1 "" { "L" "R" "C2" } 0
+t "" 6 "b_Cb_L" { 3, 0 }
+t "" 5 "b_Cb_R" { 0, 3 }
+p "" 1 1 "" { "Ea" "Ca" } 0
+t "" 9 "later_a_Ea" { 0, 2 }
+t "" 10 "later_a_Ca" { 0, 2 }

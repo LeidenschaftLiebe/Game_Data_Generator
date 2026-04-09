@@ -1,0 +1,20 @@
+EFG 2 R "GEB Fig. 1 Harbor Control V2" { "Harbor Chief" "Inspector" }
+""
+
+c "" 1 "" { "DockA" 1/2 "DockB" 1/2 } 0
+p "" 1 1 "" { "CloseDockA" "ContinueDockA" } 0
+t "" 1 "DockA_CloseDockA" { 1, 0 }
+p "" 2 1 "" { "OpenLane" "RedFlag" "Redirect" } 0
+t "" 3 "DockA_ContinueDockA_OpenLane" { 0, 3 }
+t "" 4 "DockA_ContinueDockA_RedFlag" { 3, 0 }
+p "" 1 2 "" { "CloseDockB" "ContinueDockB" } 0
+t "" 7 "laterB_CloseDockB" { 0, 2 }
+t "" 8 "laterB_ContinueDockB" { 0, 2 }
+p "" 1 2 "" { "CloseDockB" "ContinueDockB" } 0
+t "" 2 "DockB_CloseDockB" { 1, 0 }
+p "" 2 1 "" { "OpenLane" "RedFlag" "Redirect" } 0
+t "" 6 "DockB_ContinueDockB_OpenLane" { 3, 0 }
+t "" 5 "DockB_ContinueDockB_RedFlag" { 0, 3 }
+p "" 1 1 "" { "CloseDockA" "ContinueDockA" } 0
+t "" 9 "laterA_CloseDockA" { 0, 2 }
+t "" 10 "laterA_ContinueDockA" { 0, 2 }

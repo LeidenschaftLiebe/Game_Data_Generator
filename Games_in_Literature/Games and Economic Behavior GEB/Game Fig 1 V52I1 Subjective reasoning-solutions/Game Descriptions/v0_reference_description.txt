@@ -1,0 +1,31 @@
+V0 — Kreps-Ramey Example
+
+Nature moves first and chooses between a and b, with probability 1/2 for each.
+
+If Nature chooses a, Player 1 faces the a-type choice and decides between Ea and Ca.
+Choosing Ea ends the game with reward 1 to Player 1 and reward 0 to Player 2.
+Choosing Ca passes the move to Player 2.
+
+If Nature chooses b, Player 1 faces the b-type choice and decides between Eb and Cb.
+Choosing Eb ends the game with reward 1 to Player 1 and reward 0 to Player 2.
+Choosing Cb passes the move to Player 2.
+
+If Ca or Cb is chosen, Player 2 then decides among L, R, and C2.
+At that moment, Player 2 knows that Player 1 continued, but does not know whether the earlier case was a or b.
+
+If the earlier case was a and Player 2 chooses L, the game ends with reward 0 to Player 1 and reward 3 to Player 2.
+If the earlier case was a and Player 2 chooses R, the game ends with reward 3 to Player 1 and reward 0 to Player 2.
+If the earlier case was a and Player 2 chooses C2, Player 1 gets another turn in the b-type situation.
+
+If the earlier case was b and Player 2 chooses R, the game ends with reward 0 to Player 1 and reward 3 to Player 2.
+If the earlier case was b and Player 2 chooses L, the game ends with reward 3 to Player 1 and reward 0 to Player 2.
+If the earlier case was b and Player 2 chooses C2, Player 1 gets another turn in the a-type situation.
+
+When Player 1 later returns to the b-type situation, Player 1 again chooses between Eb and Cb.
+Either choice then ends the game with reward 0 to Player 1 and reward 2 to Player 2.
+
+When Player 1 later returns to the a-type situation, Player 1 again chooses between Ea and Ca.
+Either choice then ends the game with reward 0 to Player 1 and reward 2 to Player 2.
+
+Whenever Player 1 is making an a-type choice, Player 1 cannot tell whether it is the earlier a situation or the later one reached after C2.
+Likewise, whenever Player 1 is making a b-type choice, Player 1 cannot tell whether it is the earlier b situation or the later one reached after C2.

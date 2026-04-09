@@ -1,0 +1,35 @@
+V1 — Security Audit
+
+A company may begin in either Case A or Case B.
+Nature selects the case, with probability 1/2 for each.
+
+If the company is in Case A, the director makes an A-case choice between End Review (Ea) and Continue Review (Ca).
+Choosing End Review (Ea) ends the process with reward 1 to the director and reward 0 to the auditor.
+Choosing Continue Review (Ca) passes the move to the auditor.
+
+If the company is in Case B, the director makes a B-case choice between End Briefing (Eb) and Continue Briefing (Cb).
+Choosing End Briefing (Eb) ends the process with reward 1 to the director and reward 0 to the auditor.
+Choosing Continue Briefing (Cb) passes the move to the auditor.
+
+If Continue Review (Ca) or Continue Briefing (Cb) is chosen, the auditor then chooses among
+Approve (L), Escalate (R), and Cross-Check (C2).
+At that moment, the auditor knows that the director continued, but does not know whether the earlier case was A or B.
+
+If the earlier case was A and the auditor chooses Approve (L), the game ends with reward 0 to the director and reward 3 to the auditor.
+If the earlier case was A and the auditor chooses Escalate (R), the game ends with reward 3 to the director and reward 0 to the auditor.
+If the earlier case was A and the auditor chooses Cross-Check (C2), the director gets another turn in the B-case situation.
+
+If the earlier case was B and the auditor chooses Escalate (R), the game ends with reward 0 to the director and reward 3 to the auditor.
+If the earlier case was B and the auditor chooses Approve (L), the game ends with reward 3 to the director and reward 0 to the auditor.
+If the earlier case was B and the auditor chooses Cross-Check (C2), the director gets another turn in the A-case situation.
+
+When the director later returns to the B-case situation, the director again chooses between End Briefing (Eb) and Continue Briefing (Cb).
+Either choice then ends the process with reward 0 to the director and reward 2 to the auditor.
+
+When the director later returns to the A-case situation, the director again chooses between End Review (Ea) and Continue Review (Ca).
+Either choice then ends the process with reward 0 to the director and reward 2 to the auditor.
+
+Whenever the director is making an A-case choice, 
+the director cannot tell whether it is the earlier A situation or the later one reached after Cross-Check (C2).
+Likewise, whenever the director is making a B-case choice, 
+the director cannot tell whether it is the earlier B situation or the later one reached after Cross-Check (C2).

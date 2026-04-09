@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+1) Check the move order: chance moves first, then Player 1; if Player 1 continues, Player 2 moves; if Player 2 chooses C2, Player 1 moves again.
+2) Check the chance probabilities: the two initial cases occur with probability 1/2 each.
+3) Check that when Player 2 moves, Player 2 knows Player 1 continued but cannot tell whether the earlier case was a or b.
+4) Check that when Player 1 later faces the A-type choice, Player 1 cannot tell whether it is the earlier A situation or the later one; likewise for the B-type choice.
+5) Check the anchor payoff: after a -> Ca -> R and after b -> Cb -> L the outcome is (3, 0).

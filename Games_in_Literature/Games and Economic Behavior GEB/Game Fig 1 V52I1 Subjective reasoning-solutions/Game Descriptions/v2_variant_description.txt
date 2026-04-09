@@ -1,0 +1,35 @@
+V2 — Harbor Control
+
+A harbor operation may begin under either Dock A or Dock B.
+Nature selects the dock, with probability 1/2 for each.
+
+If the operation begins at Dock A, the harbor chief makes an A-dock choice between Close Dock (Ea) and Continue Dock (Ca).
+Choosing Close Dock (Ea) ends the process with reward 1 to the harbor chief and reward 0 to the inspector.
+Choosing Continue Dock (Ca) passes the move to the inspector.
+
+If the operation begins at Dock B, the harbor chief makes a B-dock choice between Close Dock (Eb) and Continue Dock (Cb).
+Choosing Close Dock (Eb) ends the process with reward 1 to the harbor chief and reward 0 to the inspector.
+Choosing Continue Dock (Cb) passes the move to the inspector.
+
+If Continue Dock (Ca) or Continue Dock (Cb) is chosen, the inspector then chooses among
+Open Lane (L), Red Flag (R), and Redirect (C2).
+At that moment, the inspector knows the harbor chief continued, but does not know whether the earlier situation was Dock A or Dock B.
+
+If the earlier situation was Dock A and the inspector chooses Open Lane (L), the game ends with reward 0 to the harbor chief and reward 3 to the inspector.
+If the earlier situation was Dock A and the inspector chooses Red Flag (R), the game ends with reward 3 to the harbor chief and reward 0 to the inspector.
+If the earlier situation was Dock A and the inspector chooses Redirect (C2), the harbor chief gets another turn in the B-dock situation.
+
+If the earlier situation was Dock B and the inspector chooses Red Flag (R), the game ends with reward 0 to the harbor chief and reward 3 to the inspector.
+If the earlier situation was Dock B and the inspector chooses Open Lane (L), the game ends with reward 3 to the harbor chief and reward 0 to the inspector.
+If the earlier situation was Dock B and the inspector chooses Redirect (C2), the harbor chief gets another turn in the A-dock situation.
+
+When the harbor chief later returns to the B-dock situation, the harbor chief again chooses between Close Dock (Eb) and Continue Dock (Cb).
+Either choice then ends the process with reward 0 to the harbor chief and reward 2 to the inspector.
+
+When the harbor chief later returns to the A-dock situation, the harbor chief again chooses between Close Dock (Ea) and Continue Dock (Ca).
+Either choice then ends the process with reward 0 to the harbor chief and reward 2 to the inspector.
+
+Whenever the harbor chief is making an A-dock choice, 
+the harbor chief cannot tell whether it is the earlier A situation or the later one reached after Redirect (C2).
+Likewise, whenever the harbor chief is making a B-dock choice, 
+the harbor chief cannot tell whether it is the earlier B situation or the later one reached after Redirect (C2).

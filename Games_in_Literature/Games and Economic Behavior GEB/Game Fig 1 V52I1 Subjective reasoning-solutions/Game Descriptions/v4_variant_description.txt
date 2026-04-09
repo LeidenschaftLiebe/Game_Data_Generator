@@ -1,0 +1,35 @@
+V4 — Lab Procedure
+
+A lab test may begin in either Mode A or Mode B.
+Nature selects the mode, with probability 1/2 for each.
+
+If the test begins in Mode A, the lab lead makes an A-mode choice between End Test (Ea) and Continue Test (Ca).
+Choosing End Test (Ea) ends the process with reward 1 to the lab lead and reward 0 to the compliance officer.
+Choosing Continue Test (Ca) passes the move to the compliance officer.
+
+If the test begins in Mode B, the lab lead makes a B-mode choice between End Test (Eb) and Continue Test (Cb).
+Choosing End Test (Eb) ends the process with reward 1 to the lab lead and reward 0 to the compliance officer.
+Choosing Continue Test (Cb) passes the move to the compliance officer.
+
+If Continue Test (Ca) or Continue Test (Cb) is chosen, the compliance officer then chooses among
+Left Check (L), Right Check (R), and Transfer Case (C2).
+At that moment, the compliance officer knows the lab lead continued, but does not know whether the earlier situation was Mode A or Mode B.
+
+If the earlier situation was Mode A and the compliance officer chooses Left Check (L), the game ends with reward 0 to the lab lead and reward 3 to the compliance officer.
+If the earlier situation was Mode A and the compliance officer chooses Right Check (R), the game ends with reward 3 to the lab lead and reward 0 to the compliance officer.
+If the earlier situation was Mode A and the compliance officer chooses Transfer Case (C2), the lab lead gets another turn in the B-mode situation.
+
+If the earlier situation was Mode B and the compliance officer chooses Right Check (R), the game ends with reward 0 to the lab lead and reward 3 to the compliance officer.
+If the earlier situation was Mode B and the compliance officer chooses Left Check (L), the game ends with reward 3 to the lab lead and reward 0 to the compliance officer.
+If the earlier situation was Mode B and the compliance officer chooses Transfer Case (C2), the lab lead gets another turn in the A-mode situation.
+
+When the lab lead later returns to the B-mode situation, the lab lead again chooses between End Test (Eb) and Continue Test (Cb).
+Either choice then ends the process with reward 0 to the lab lead and reward 2 to the compliance officer.
+
+When the lab lead later returns to the A-mode situation, the lab lead again chooses between End Test (Ea) and Continue Test (Ca).
+Either choice then ends the process with reward 0 to the lab lead and reward 2 to the compliance officer.
+
+Whenever the lab lead is making an A-mode choice, 
+the lab lead cannot tell whether it is the earlier A situation or the later one reached after Transfer Case (C2).
+Likewise, whenever the lab lead is making a B-mode choice, 
+the lab lead cannot tell whether it is the earlier B situation or the later one reached after Transfer Case (C2).

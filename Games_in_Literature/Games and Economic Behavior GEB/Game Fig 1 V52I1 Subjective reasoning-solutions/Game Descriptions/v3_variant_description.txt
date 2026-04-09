@@ -1,0 +1,35 @@
+V3 — Archive Inspection
+
+An archive project may begin under either Plan A or Plan B.
+Nature selects the plan, with probability 1/2 for each.
+
+If the project begins under Plan A, the archive director makes an A-plan choice between End Plan (Ea) and Continue Plan (Ca).
+Choosing End Plan (Ea) ends the process with reward 1 to the archive director and reward 0 to the reviewer.
+Choosing Continue Plan (Ca) passes the move to the reviewer.
+
+If the project begins under Plan B, the archive director makes a B-plan choice between End Plan (Eb) and Continue Plan (Cb).
+Choosing End Plan (Eb) ends the process with reward 1 to the archive director and reward 0 to the reviewer.
+Choosing Continue Plan (Cb) passes the move to the reviewer.
+
+If Continue Plan (Ca) or Continue Plan (Cb) is chosen, the reviewer then chooses among
+Left Assessment (L), Right Assessment (R), and Reopen Review (C2).
+At that moment, the reviewer knows the archive director continued, but does not know whether the earlier situation was Plan A or Plan B.
+
+If the earlier situation was Plan A and the reviewer chooses Left Assessment (L), the game ends with reward 0 to the archive director and reward 3 to the reviewer.
+If the earlier situation was Plan A and the reviewer chooses Right Assessment (R), the game ends with reward 3 to the archive director and reward 0 to the reviewer.
+If the earlier situation was Plan A and the reviewer chooses Reopen Review (C2), the archive director gets another turn in the B-plan situation.
+
+If the earlier situation was Plan B and the reviewer chooses Right Assessment (R), the game ends with reward 0 to the archive director and reward 3 to the reviewer.
+If the earlier situation was Plan B and the reviewer chooses Left Assessment (L), the game ends with reward 3 to the archive director and reward 0 to the reviewer.
+If the earlier situation was Plan B and the reviewer chooses Reopen Review (C2), the archive director gets another turn in the A-plan situation.
+
+When the archive director later returns to the B-plan situation, the archive director again chooses between End Plan (Eb) and Continue Plan (Cb).
+Either choice then ends the process with reward 0 to the archive director and reward 2 to the reviewer.
+
+When the archive director later returns to the A-plan situation, the archive director again chooses between End Plan (Ea) and Continue Plan (Ca).
+Either choice then ends the process with reward 0 to the archive director and reward 2 to the reviewer.
+
+Whenever the archive director is making an A-plan choice, 
+the archive director cannot tell whether it is the earlier A situation or the later one reached after Reopen Review (C2).
+Likewise, whenever the archive director is making a B-plan choice, 
+the archive director cannot tell whether it is the earlier B situation or the later one reached after Reopen Review (C2).

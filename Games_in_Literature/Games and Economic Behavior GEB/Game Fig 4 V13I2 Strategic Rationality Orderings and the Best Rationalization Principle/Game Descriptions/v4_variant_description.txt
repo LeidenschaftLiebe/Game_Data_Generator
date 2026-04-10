@@ -1,0 +1,18 @@
+V4 — Security Upgrade and Audit Board
+
+Security chief I moves first and chooses LimitedUpgrade [L] or FullUpgrade [R].
+
+Operations head II then chooses TestNow [l] or TestLater [r].
+When operations head II moves, the operations head cannot tell whether the security chief chose LimitedUpgrade [L] or FullUpgrade [R].
+
+If the security chief chose FullUpgrade [R] and operations head II chooses TestLater [r], the process ends immediately with 0, 0, 0.
+
+In all other cases, auditor III then chooses AuditA [a], AuditB [b], or AuditC [c].
+
+When auditor III moves, the auditor cannot tell which earlier situation led to the current point.
+
+If the earlier choices were LimitedUpgrade [L] and TestNow [l], then AuditA [a] gives 1, 1, 0, AuditB [b] gives -1, -1, -1, and AuditC [c] gives 1, 1, 0.
+
+If the earlier choices were LimitedUpgrade [L] and TestLater [r], then AuditA [a] gives 1, 0, 0, AuditB [b] gives -1, -1, 1, and AuditC [c] gives 1, 0, 2.
+
+If the earlier choices were FullUpgrade [R] and TestNow [l], then AuditA [a] gives 0, 1, 2, AuditB [b] gives -1, -1, 1, and AuditC [c] gives 0, 1, 0.

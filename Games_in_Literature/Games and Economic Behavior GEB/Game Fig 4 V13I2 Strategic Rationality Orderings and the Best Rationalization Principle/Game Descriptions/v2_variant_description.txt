@@ -1,0 +1,18 @@
+V2 — Film Project and Festival Committee
+
+Director I moves first and chooses ArtHouseRoute [L] or CommercialRoute [R].
+
+Producer II then chooses PushEarly [l] or PushLate [r].
+When producer II moves, the producer cannot tell whether the director chose ArtHouseRoute [L] or CommercialRoute [R].
+
+If the director chose CommercialRoute [R] and producer II chooses PushLate [r], the project ends immediately with 0, 0, 0.
+
+In all other cases, critic III then chooses ReviewA [a], ReviewB [b], or ReviewC [c].
+
+When critic III moves, the critic cannot tell which earlier situation led to the current point.
+
+If the earlier choices were ArtHouseRoute [L] and PushEarly [l], then ReviewA [a] gives 1, 1, 0, ReviewB [b] gives -1, -1, -1, and ReviewC [c] gives 1, 1, 0.
+
+If the earlier choices were ArtHouseRoute [L] and PushLate [r], then ReviewA [a] gives 1, 0, 0, ReviewB [b] gives -1, -1, 1, and ReviewC [c] gives 1, 0, 2.
+
+If the earlier choices were CommercialRoute [R] and PushEarly [l], then ReviewA [a] gives 0, 1, 2, ReviewB [b] gives -1, -1, 1, and ReviewC [c] gives 0, 1, 0.

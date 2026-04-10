@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+Player I moves first and chooses between L and R.
+The two player II decision nodes are in the same information set.
+If player II chooses r after R, the game ends immediately with payoffs (0, 0, 0).
+The three player III decision nodes are in the same information set.

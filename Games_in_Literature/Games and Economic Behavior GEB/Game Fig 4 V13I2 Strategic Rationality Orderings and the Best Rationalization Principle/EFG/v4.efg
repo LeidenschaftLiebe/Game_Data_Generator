@@ -1,0 +1,19 @@
+EFG 2 R "Security Upgrade and Audit Board V4" { "SecurityChief" "OperationsHead" "Auditor" }
+""
+
+p "" 1 1 "" { "LimitedUpgrade" "FullUpgrade" } 0
+p "" 2 1 "" { "TestNow" "TestLater" } 0
+p "" 3 1 "" { "AuditA" "AuditB" "AuditC" } 0
+t "" 2 "LimitedUpgrade_then_TestNow_then_AuditA" { 1, 1, 0 }
+t "" 3 "LimitedUpgrade_then_TestNow_then_AuditB" { -1, -1, -1 }
+t "" 4 "LimitedUpgrade_then_TestNow_then_AuditC" { 1, 1, 0 }
+p "" 3 1 "" { "AuditA" "AuditB" "AuditC" } 0
+t "" 5 "LimitedUpgrade_then_TestLater_then_AuditA" { 1, 0, 0 }
+t "" 6 "LimitedUpgrade_then_TestLater_then_AuditB" { -1, -1, 1 }
+t "" 7 "LimitedUpgrade_then_TestLater_then_AuditC" { 1, 0, 2 }
+p "" 2 1 "" { "TestNow" "TestLater" } 0
+p "" 3 1 "" { "AuditA" "AuditB" "AuditC" } 0
+t "" 8 "FullUpgrade_then_TestNow_then_AuditA" { 0, 1, 2 }
+t "" 9 "FullUpgrade_then_TestNow_then_AuditB" { -1, -1, 1 }
+t "" 10 "FullUpgrade_then_TestNow_then_AuditC" { 0, 1, 0 }
+t "" 1 "FullUpgrade_then_TestLater" { 0, 0, 0 }

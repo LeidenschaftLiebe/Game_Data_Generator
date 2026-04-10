@@ -1,0 +1,19 @@
+EFG 2 R "Startup Pitch and Review Panel V1" { "Founder" "Investor" "Adviser" }
+""
+
+p "" 1 1 "" { "LocalPitch" "RegionalPitch" } 0
+p "" 2 1 "" { "EarlySupport" "LateSupport" } 0
+p "" 3 1 "" { "PlanA" "PlanB" "PlanC" } 0
+t "" 2 "LocalPitch_then_EarlySupport_then_PlanA" { 1, 1, 0 }
+t "" 3 "LocalPitch_then_EarlySupport_then_PlanB" { -1, -1, -1 }
+t "" 4 "LocalPitch_then_EarlySupport_then_PlanC" { 1, 1, 0 }
+p "" 3 1 "" { "PlanA" "PlanB" "PlanC" } 0
+t "" 5 "LocalPitch_then_LateSupport_then_PlanA" { 1, 0, 0 }
+t "" 6 "LocalPitch_then_LateSupport_then_PlanB" { -1, -1, 1 }
+t "" 7 "LocalPitch_then_LateSupport_then_PlanC" { 1, 0, 2 }
+p "" 2 1 "" { "EarlySupport" "LateSupport" } 0
+p "" 3 1 "" { "PlanA" "PlanB" "PlanC" } 0
+t "" 8 "RegionalPitch_then_EarlySupport_then_PlanA" { 0, 1, 2 }
+t "" 9 "RegionalPitch_then_EarlySupport_then_PlanB" { -1, -1, 1 }
+t "" 10 "RegionalPitch_then_EarlySupport_then_PlanC" { 0, 1, 0 }
+t "" 1 "RegionalPitch_then_LateSupport" { 0, 0, 0 }

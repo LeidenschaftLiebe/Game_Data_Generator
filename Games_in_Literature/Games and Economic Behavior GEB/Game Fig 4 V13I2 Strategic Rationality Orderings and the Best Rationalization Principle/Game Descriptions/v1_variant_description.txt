@@ -1,0 +1,18 @@
+V1 — Startup Pitch and Review Panel
+
+Founder I moves first and chooses LocalPitch [L] or RegionalPitch [R].
+
+Investor II then chooses EarlySupport [l] or LateSupport [r].
+When investor II moves, the investor cannot tell whether the founder chose LocalPitch [L] or RegionalPitch [R].
+
+If the founder chose RegionalPitch [R] and investor II chooses LateSupport [r], the process ends immediately with 0, 0, 0.
+
+In all other cases, adviser III then chooses PlanA [a], PlanB [b], or PlanC [c].
+
+When adviser III moves, the adviser cannot tell which earlier situation led to the current point.
+
+If the earlier choices were LocalPitch [L] and EarlySupport [l], then PlanA [a] gives 1, 1, 0, PlanB [b] gives -1, -1, -1, and PlanC [c] gives 1, 1, 0.
+
+If the earlier choices were LocalPitch [L] and LateSupport [r], then PlanA [a] gives 1, 0, 0, PlanB [b] gives -1, -1, 1, and PlanC [c] gives 1, 0, 2.
+
+If the earlier choices were RegionalPitch [R] and EarlySupport [l], then PlanA [a] gives 0, 1, 2, PlanB [b] gives -1, -1, 1, and PlanC [c] gives 0, 1, 0.

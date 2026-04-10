@@ -1,0 +1,22 @@
+V0 — Fig. 4 from the article
+
+Player I moves first and chooses L or R.
+
+Player II moves next and chooses l or r.
+When player II moves, player II cannot tell whether player I chose L or R.
+
+If player I chose R and player II chooses r, the interaction ends immediately.
+All three players get 0.
+
+In all other cases, the move passes to player III, who chooses a, b, or c.
+
+When player III moves, player III cannot tell which of the three possible earlier situations led to this point.
+
+If player I chose L and player II chose l, then player III choosing a gives reward 1, 1, 0 to each player, respectively.
+In that same case, choosing b gives -1, -1, -1, and choosing c gives 1, 1, 0.
+
+If player I chose L and player II chose r, then player III choosing a gives 1, 0, 0.
+In that same case, choosing b gives -1, -1, 1, and choosing c gives 1, 0, 2.
+
+If player I chose R and player II chose l, then player III choosing a gives 0, 1, 2.
+In that same case, choosing b gives -1, -1, 1, and choosing c gives 0, 1, 0.

@@ -1,0 +1,18 @@
+V5 — Museum Expansion and Donor Review
+
+Director I moves first and chooses WestWing [L] or EastWing [R].
+
+Board chair II then chooses ReviewNow [l] or ReviewLater [r].
+When board chair II moves, the board chair cannot tell whether the director chose WestWing [L] or EastWing [R].
+
+If the director chose EastWing [R] and board chair II chooses ReviewLater [r], the process ends immediately with 0, 0, 0.
+
+In all other cases, donor III then chooses OfferA [a], OfferB [b], or OfferC [c].
+
+When donor III moves, the donor cannot tell which earlier situation led to the current point.
+
+If the earlier choices were WestWing [L] and ReviewNow [l], then OfferA [a] gives 1, 1, 0, OfferB [b] gives -1, -1, -1, and OfferC [c] gives 1, 1, 0.
+
+If the earlier choices were WestWing [L] and ReviewLater [r], then OfferA [a] gives 1, 0, 0, OfferB [b] gives -1, -1, 1, and OfferC [c] gives 1, 0, 2.
+
+If the earlier choices were EastWing [R] and ReviewNow [l], then OfferA [a] gives 0, 1, 2, OfferB [b] gives -1, -1, 1, and OfferC [c] gives 0, 1, 0.

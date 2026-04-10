@@ -1,0 +1,18 @@
+V3 — Research Proposal and Committee Decision
+
+Research lead I moves first and chooses SmallStudy [L] or LargeStudy [R].
+
+Sponsor II then chooses ApproveSoon [l] or ApproveLate [r].
+When sponsor II moves, the sponsor cannot tell whether the research lead chose SmallStudy [L] or LargeStudy [R].
+
+If the research lead chose LargeStudy [R] and sponsor II chooses ApproveLate [r], the process ends immediately with 0, 0, 0.
+
+In all other cases, reviewer III then chooses ReportA [a], ReportB [b], or ReportC [c].
+
+When reviewer III moves, the reviewer cannot tell which earlier situation led to the current point.
+
+If the earlier choices were SmallStudy [L] and ApproveSoon [l], then ReportA [a] gives 1, 1, 0, ReportB [b] gives -1, -1, -1, and ReportC [c] gives 1, 1, 0.
+
+If the earlier choices were SmallStudy [L] and ApproveLate [r], then ReportA [a] gives 1, 0, 0, ReportB [b] gives -1, -1, 1, and ReportC [c] gives 1, 0, 2.
+
+If the earlier choices were LargeStudy [R] and ApproveSoon [l], then ReportA [a] gives 0, 1, 2, ReportB [b] gives -1, -1, 1, and ReportC [c] gives 0, 1, 0.

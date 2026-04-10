@@ -1,0 +1,22 @@
+V0 — Dynamic Consistency with Imperfect Recall
+
+The decision maker first chooses T or G.
+
+If the decision maker chooses T, the interaction ends immediately with reward 3.
+
+If the decision maker chooses G, chance next selects l or r, each with probability 1/2.
+
+If chance chooses l, the decision maker reaches d1.
+If chance chooses r, the decision maker reaches d2.
+At d1 or d2, the decision maker chooses E or D.
+Choosing E gives reward 2.
+Choosing D leads later to d3.
+
+When making a move at d3, the decision maker cannot tell whether the earlier chance move was l or r, 
+and cannot tell whether the current situation came from d1 or from d2.
+
+If the decision maker reaches d3 after l and chooses L, the reward is 5.
+If the decision maker reaches d3 after l and chooses R, the reward is 0.
+
+If the decision maker reaches d3 after r and chooses L, the reward is 0.
+If the decision maker reaches d3 after r and chooses R, the reward is 6.

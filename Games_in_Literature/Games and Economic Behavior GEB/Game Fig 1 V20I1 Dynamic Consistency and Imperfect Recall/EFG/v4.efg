@@ -1,0 +1,16 @@
+EFG 2 R "Robot Mission under Hidden Terrain State V4" { "Robot" }
+""
+
+p "" 1 1 "" { "ReturnBase" "ContinueMission" } 0
+t "" 1 "return_base" { 3 }
+c "" 1 "" { "leftTerrain" 1/2 "rightTerrain" 1/2 } 0
+p "" 1 2 "" { "Abort" "Proceed" } 0
+t "" 2 "scan1_then_abort" { 2 }
+p "" 1 4 "" { "LeftTarget" "RightTarget" } 0
+t "" 4 "after_leftterrain_then_lefttarget" { 5 }
+t "" 5 "after_leftterrain_then_righttarget" { 0 }
+p "" 1 3 "" { "Abort" "Proceed" } 0
+t "" 3 "scan2_then_abort" { 2 }
+p "" 1 4 "" { "LeftTarget" "RightTarget" } 0
+t "" 6 "after_rightterrain_then_lefttarget" { 0 }
+t "" 7 "after_rightterrain_then_righttarget" { 6 }

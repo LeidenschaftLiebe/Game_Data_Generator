@@ -1,0 +1,22 @@
+V4 — Robot Mission under Hidden Terrain State
+
+A robot first chooses ReturnBase [T] or ContinueMission [G].
+
+If the robot chooses ReturnBase [T], the mission ends immediately with reward 3.
+
+If the robot chooses ContinueMission [G], terrain is leftTerrain [l] or rightTerrain [r], each with probability 1/2.
+
+If the terrain is leftTerrain [l], the robot reaches Scan1 [d1].
+If the terrain is rightTerrain [r], the robot reaches Scan2 [d2].
+At Scan1 [d1] or Scan2 [d2], the robot chooses Abort [E] or Proceed [D].
+Choosing Abort [E] gives reward 2.
+Choosing Proceed [D] leads later to TargetLock [d3].
+
+When making a move at TargetLock [d3], the robot cannot tell whether the earlier terrain state was leftTerrain [l] or rightTerrain [r], 
+and cannot tell whether the current situation came from Scan1 [d1] or from Scan2 [d2].
+
+If the robot reaches TargetLock [d3] after leftTerrain [l] and chooses LeftTarget [L], the reward is 5.
+If the robot reaches TargetLock [d3] after leftTerrain [l] and chooses RightTarget [R], the reward is 0.
+
+If the robot reaches TargetLock [d3] after rightTerrain [r] and chooses LeftTarget [L], the reward is 0.
+If the robot reaches TargetLock [d3] after rightTerrain [r] and chooses RightTarget [R], the reward is 6.

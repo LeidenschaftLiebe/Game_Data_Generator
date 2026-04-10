@@ -1,0 +1,16 @@
+EFG 2 R "Treasure Hunt with Hidden Clue Direction V5" { "Explorer" }
+""
+
+p "" 1 1 "" { "TakeCash" "ChaseTreasure" } 0
+t "" 1 "take_cash" { 3 }
+c "" 1 "" { "left" 1/2 "right" 1/2 } 0
+p "" 1 2 "" { "EndTrip" "GoOn" } 0
+t "" 2 "cluepoint1_then_endtrip" { 2 }
+p "" 1 4 "" { "SearchLeft" "SearchRight" } 0
+t "" 4 "after_left_then_searchleft" { 5 }
+t "" 5 "after_left_then_searchright" { 0 }
+p "" 1 3 "" { "EndTrip" "GoOn" } 0
+t "" 3 "cluepoint2_then_endtrip" { 2 }
+p "" 1 4 "" { "SearchLeft" "SearchRight" } 0
+t "" 6 "after_right_then_searchleft" { 0 }
+t "" 7 "after_right_then_searchright" { 6 }

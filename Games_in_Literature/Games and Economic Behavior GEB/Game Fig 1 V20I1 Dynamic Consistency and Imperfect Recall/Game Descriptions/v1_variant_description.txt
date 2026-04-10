@@ -1,0 +1,22 @@
+V1 — Project Launch with Hidden Market Signal
+
+A founder first chooses TakeSafeDeal [T] or LaunchProject [G].
+
+If the founder chooses TakeSafeDeal [T], the process ends immediately with reward 3.
+
+If the founder chooses LaunchProject [G], the market signal is then leftSignal [l] or rightSignal [r], each with probability 1/2.
+
+If the signal is leftSignal [l], the founder reaches Review1 [d1].
+If the signal is rightSignal [r], the founder reaches Review2 [d2].
+At Review1 [d1] or Review2 [d2], the founder chooses ExitEarly [E] or DoubleDown [D].
+Choosing ExitEarly [E] gives reward 2.
+Choosing DoubleDown [D] leads later to FinalChoice [d3].
+
+When making a move at FinalChoice [d3], the founder cannot tell whether the earlier market signal was leftSignal [l] or rightSignal [r], 
+and cannot tell whether the current situation came from Review1 [d1] or from Review2 [d2].
+
+If the founder reaches FinalChoice [d3] after leftSignal [l] and chooses TeamLeft [L], the reward is 5.
+If the founder reaches FinalChoice [d3] after leftSignal [l] and chooses TeamRight [R], the reward is 0.
+
+If the founder reaches FinalChoice [d3] after rightSignal [r] and chooses TeamLeft [L], the reward is 0.
+If the founder reaches FinalChoice [d3] after rightSignal [r] and chooses TeamRight [R], the reward is 6.

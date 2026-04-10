@@ -1,0 +1,22 @@
+V5 — Treasure Hunt with Hidden Clue Direction
+
+An explorer first chooses TakeCash [T] or ChaseTreasure [G].
+
+If the explorer chooses TakeCash [T], the search ends immediately with reward 3.
+
+If the explorer chooses ChaseTreasure [G], the clue points left [l] or right [r], each with probability 1/2.
+
+If the clue points left [l], the explorer reaches CluePoint1 [d1].
+If the clue points right [r], the explorer reaches CluePoint2 [d2].
+At CluePoint1 [d1] or CluePoint2 [d2], the explorer chooses EndTrip [E] or GoOn [D].
+Choosing EndTrip [E] gives reward 2.
+Choosing GoOn [D] leads later to FinalSearch [d3].
+
+When making a move at FinalSearch [d3], the explorer cannot tell whether the earlier clue pointed left [l] or right [r], 
+and cannot tell whether the current situation came from CluePoint1 [d1] or from CluePoint2 [d2].
+
+If the explorer reaches FinalSearch [d3] after left [l] and chooses SearchLeft [L], the reward is 5.
+If the explorer reaches FinalSearch [d3] after left [l] and chooses SearchRight [R], the reward is 0.
+
+If the explorer reaches FinalSearch [d3] after right [r] and chooses SearchLeft [L], the reward is 0.
+If the explorer reaches FinalSearch [d3] after right [r] and chooses SearchRight [R], the reward is 6.

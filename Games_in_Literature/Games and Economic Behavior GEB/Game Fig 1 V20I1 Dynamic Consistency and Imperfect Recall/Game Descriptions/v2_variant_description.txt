@@ -1,0 +1,22 @@
+V2 — Film Production under Hidden Audience Response
+
+A producer first chooses SellNow [T] or MakeFilm [G].
+
+If the producer chooses SellNow [T], the process ends immediately with reward 3.
+
+If the producer chooses MakeFilm [G], early audience reaction is warm [l] or cold [r], each with probability 1/2.
+
+If the reaction is warm [l], the producer reaches Stage1 [d1].
+If the reaction is cold [r], the producer reaches Stage2 [d2].
+At Stage1 [d1] or Stage2 [d2], the producer chooses WrapUp [E] or KeepInvesting [D].
+Choosing WrapUp [E] gives reward 2.
+Choosing KeepInvesting [D] leads later to FinalEdit [d3].
+
+When making a move at FinalEdit [d3], the producer cannot tell whether the earlier audience reaction was warm [l] or cold [r], 
+and cannot tell whether the current situation came from Stage1 [d1] or from Stage2 [d2].
+
+If the producer reaches FinalEdit [d3] after warm [l] and chooses CutLeft [L], the reward is 5.
+If the producer reaches FinalEdit [d3] after warm [l] and chooses CutRight [R], the reward is 0.
+
+If the producer reaches FinalEdit [d3] after cold [r] and chooses CutLeft [L], the reward is 0.
+If the producer reaches FinalEdit [d3] after cold [r] and chooses CutRight [R], the reward is 6.

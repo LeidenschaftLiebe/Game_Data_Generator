@@ -1,0 +1,16 @@
+EFG 2 R "Research Path with Hidden Experimental Result V3" { "Researcher" }
+""
+
+p "" 1 1 "" { "TakeGrant" "RunExperiment" } 0
+t "" 1 "take_grant" { 3 }
+c "" 1 "" { "leftOutcome" 1/2 "rightOutcome" 1/2 } 0
+p "" 1 2 "" { "StopStudy" "ContinueStudy" } 0
+t "" 2 "checkpoint1_then_stopstudy" { 2 }
+p "" 1 4 "" { "PathLeft" "PathRight" } 0
+t "" 4 "after_leftoutcome_then_pathleft" { 5 }
+t "" 5 "after_leftoutcome_then_pathright" { 0 }
+p "" 1 3 "" { "StopStudy" "ContinueStudy" } 0
+t "" 3 "checkpoint2_then_stopstudy" { 2 }
+p "" 1 4 "" { "PathLeft" "PathRight" } 0
+t "" 6 "after_rightoutcome_then_pathleft" { 0 }
+t "" 7 "after_rightoutcome_then_pathright" { 6 }

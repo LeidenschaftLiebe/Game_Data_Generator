@@ -1,0 +1,22 @@
+V3 — Research Path with Hidden Experimental Result
+
+A researcher first chooses TakeGrant [T] or RunExperiment [G].
+
+If the researcher chooses TakeGrant [T], the process ends immediately with reward 3.
+
+If the researcher chooses RunExperiment [G], the result is leftOutcome [l] or rightOutcome [r], each with probability 1/2.
+
+If the result is leftOutcome [l], the researcher reaches Checkpoint1 [d1].
+If the result is rightOutcome [r], the researcher reaches Checkpoint2 [d2].
+At Checkpoint1 [d1] or Checkpoint2 [d2], the researcher chooses StopStudy [E] or ContinueStudy [D].
+Choosing StopStudy [E] gives reward 2.
+Choosing ContinueStudy [D] leads later to LateDecision [d3].
+
+When making a move at LateDecision [d3], the researcher cannot tell whether the earlier result was leftOutcome [l] or rightOutcome [r], 
+and cannot tell whether the current situation came from Checkpoint1 [d1] or from Checkpoint2 [d2].
+
+If the researcher reaches LateDecision [d3] after leftOutcome [l] and chooses PathLeft [L], the reward is 5.
+If the researcher reaches LateDecision [d3] after leftOutcome [l] and chooses PathRight [R], the reward is 0.
+
+If the researcher reaches LateDecision [d3] after rightOutcome [r] and chooses PathLeft [L], the reward is 0.
+If the researcher reaches LateDecision [d3] after rightOutcome [r] and chooses PathRight [R], the reward is 6.

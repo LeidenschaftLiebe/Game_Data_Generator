@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+There is one player, 1, who first chooses between T and G.
+Choosing T ends the game immediately with payoff 3.
+If the player chooses G, chance then chooses between l and r with probability 1/2 each.
+When making a move at d3, the player cannot tell whether the earlier chance move was l or r, 
+and cannot tell whether the current situation came from d1 or from d2.

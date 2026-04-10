@@ -1,0 +1,16 @@
+EFG 2 R "Film Production under Hidden Audience Response V2" { "Producer" }
+""
+
+p "" 1 1 "" { "SellNow" "MakeFilm" } 0
+t "" 1 "sell_now" { 3 }
+c "" 1 "" { "warm" 1/2 "cold" 1/2 } 0
+p "" 1 2 "" { "WrapUp" "KeepInvesting" } 0
+t "" 2 "stage1_then_wrapup" { 2 }
+p "" 1 4 "" { "CutLeft" "CutRight" } 0
+t "" 4 "after_warm_then_cutleft" { 5 }
+t "" 5 "after_warm_then_cutright" { 0 }
+p "" 1 3 "" { "WrapUp" "KeepInvesting" } 0
+t "" 3 "stage2_then_wrapup" { 2 }
+p "" 1 4 "" { "CutLeft" "CutRight" } 0
+t "" 6 "after_cold_then_cutleft" { 0 }
+t "" 7 "after_cold_then_cutright" { 6 }

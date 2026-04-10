@@ -1,0 +1,15 @@
+EFG 2 R "Cybersecurity Upgrade Rollout V4" { "SecurityChief" "OperationsHead" }
+""
+
+p "" 1 1 "" { "TakeSafePatch" "ControlledRollout" "FullRollout" } 0
+t "" 1 "take_safe_patch" { 16, 0 }
+p "" 2 1 "" { "RouteLeft" "RouteRight" } 0
+t "" 2 "controlledrollout_then_routeleft" { 0, 0 }
+t "" 3 "controlledrollout_then_routeright" { 0, 4 }
+p "" 2 1 "" { "RouteLeft" "RouteRight" } 0
+p "" 1 2 "" { "FixLeft" "FixRight" } 0
+t "" 4 "fullrollout_then_routeleft_then_fixleft" { 23, 7 }
+t "" 5 "fullrollout_then_routeleft_then_fixright" { 0, 0 }
+p "" 1 2 "" { "FixLeft" "FixRight" } 0
+t "" 6 "fullrollout_then_routeright_then_fixleft" { 0, 0 }
+t "" 7 "fullrollout_then_routeright_then_fixright" { 17, 33 }

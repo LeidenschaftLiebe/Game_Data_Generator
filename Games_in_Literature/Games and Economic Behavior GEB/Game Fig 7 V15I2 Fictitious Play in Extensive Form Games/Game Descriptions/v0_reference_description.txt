@@ -1,0 +1,23 @@
+V0 — Article Example with Two Updating Paths
+
+Player 1 moves first and chooses S, C, or G.
+
+If player 1 chooses S, the interaction ends immediately.
+Player 1 gets 16 and player 2 gets 0.
+
+If player 1 chooses C or G, player 2 then chooses l or r.
+When player 2 moves, player 2 cannot tell whether the current situation came from C or from G.
+
+If player 1 chose C and player 2 chooses l, both players get 0.
+If player 1 chose C and player 2 chooses r, player 1 gets 0 and player 2 gets 4.
+
+If player 1 chose G and player 2 chooses l, player 1 moves again and chooses L or R.
+If player 1 chose G and player 2 chooses r, player 1 also moves again and chooses L or R.
+
+When player 1 makes this later move, player 1 cannot tell whether the current situation came after l or after r.
+
+If player 1 is moving after G then l and chooses L, the rewards are 23 and 7.
+If player 1 is moving after G then l and chooses R, both players get 0.
+
+If player 1 is moving after G then r and chooses L, both players get 0.
+If player 1 is moving after G then r and chooses R, the rewards are 17 and 33.

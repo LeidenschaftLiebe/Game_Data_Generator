@@ -1,0 +1,15 @@
+EFG 2 R "Research Program Expansion V3" { "LeadScientist" "Sponsor" }
+""
+
+p "" 1 1 "" { "TakeGrant" "CarefulTrial" "FullProgram" } 0
+t "" 1 "take_grant" { 16, 0 }
+p "" 2 1 "" { "TrackLeft" "TrackRight" } 0
+t "" 2 "carefultrial_then_trackleft" { 0, 0 }
+t "" 3 "carefultrial_then_trackright" { 0, 4 }
+p "" 2 1 "" { "TrackLeft" "TrackRight" } 0
+p "" 1 2 "" { "MethodLeft" "MethodRight" } 0
+t "" 4 "fullprogram_then_trackleft_then_methodleft" { 23, 7 }
+t "" 5 "fullprogram_then_trackleft_then_methodright" { 0, 0 }
+p "" 1 2 "" { "MethodLeft" "MethodRight" } 0
+t "" 6 "fullprogram_then_trackright_then_methodleft" { 0, 0 }
+t "" 7 "fullprogram_then_trackright_then_methodright" { 17, 33 }

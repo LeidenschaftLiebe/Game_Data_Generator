@@ -1,0 +1,15 @@
+EFG 2 R "Film Studio Release Choice V2" { "Producer" "Distributor" }
+""
+
+p "" 1 1 "" { "SellRights" "LimitedRelease" "MajorRelease" } 0
+t "" 1 "sell_rights" { 16, 0 }
+p "" 2 1 "" { "PushLeft" "PushRight" } 0
+t "" 2 "limitedrelease_then_pushleft" { 0, 0 }
+t "" 3 "limitedrelease_then_pushright" { 0, 4 }
+p "" 2 1 "" { "PushLeft" "PushRight" } 0
+p "" 1 2 "" { "EditLeft" "EditRight" } 0
+t "" 4 "majorrelease_then_pushleft_then_editleft" { 23, 7 }
+t "" 5 "majorrelease_then_pushleft_then_editright" { 0, 0 }
+p "" 1 2 "" { "EditLeft" "EditRight" } 0
+t "" 6 "majorrelease_then_pushright_then_editleft" { 0, 0 }
+t "" 7 "majorrelease_then_pushright_then_editright" { 17, 33 }

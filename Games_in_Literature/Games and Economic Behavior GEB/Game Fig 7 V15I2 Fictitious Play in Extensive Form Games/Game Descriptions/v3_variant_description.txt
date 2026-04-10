@@ -1,0 +1,23 @@
+V3 — Research Program Expansion
+
+Lead scientist 1 moves first and chooses TakeGrant [S], CarefulTrial [C], or FullProgram [G].
+
+If the lead scientist chooses TakeGrant [S], the process ends immediately.
+The lead scientist gets 16 and the sponsor, player 2, gets 0.
+
+If the lead scientist chooses CarefulTrial [C] or FullProgram [G], the sponsor then chooses TrackLeft [l] or TrackRight [r].
+When the sponsor moves, the sponsor cannot tell whether the current situation came from CarefulTrial [C] or from FullProgram [G].
+
+If the lead scientist chose CarefulTrial [C] and the sponsor chooses TrackLeft [l], both sides get 0.
+If the lead scientist chose CarefulTrial [C] and the sponsor chooses TrackRight [r], the lead scientist gets 0 and the sponsor gets 4.
+
+If the lead scientist chose FullProgram [G] and the sponsor chooses TrackLeft [l], the lead scientist later chooses MethodLeft [L] or MethodRight [R].
+If the lead scientist chose FullProgram [G] and the sponsor chooses TrackRight [r], the lead scientist later also chooses MethodLeft [L] or MethodRight [R].
+
+When making that later move, the lead scientist cannot tell whether the current situation came after TrackLeft [l] or after TrackRight [r].
+
+If the lead scientist is moving after FullProgram [G] then TrackLeft [l] and chooses MethodLeft [L], the rewards are 23 and 7.
+If the lead scientist is moving after FullProgram [G] then TrackLeft [l] and chooses MethodRight [R], both sides get 0.
+
+If the lead scientist is moving after FullProgram [G] then TrackRight [r] and chooses MethodLeft [L], both sides get 0.
+If the lead scientist is moving after FullProgram [G] then TrackRight [r] and chooses MethodRight [R], the rewards are 17 and 33.

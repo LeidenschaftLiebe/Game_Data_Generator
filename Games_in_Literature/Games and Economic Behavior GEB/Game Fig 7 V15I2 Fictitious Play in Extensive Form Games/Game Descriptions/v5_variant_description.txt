@@ -1,0 +1,23 @@
+V5 — Museum Redevelopment Plan
+
+Museum director 1 moves first and chooses KeepCurrentSite [S], SmallUpgrade [C], or MajorRedevelopment [G].
+
+If the director chooses KeepCurrentSite [S], the process ends immediately.
+The director gets 16 and the board chair, player 2, gets 0.
+
+If the director chooses SmallUpgrade [C] or MajorRedevelopment [G], the board chair then chooses PlanLeft [l] or PlanRight [r].
+When the board chair moves, the board chair cannot tell whether the current situation came from SmallUpgrade [C] or from MajorRedevelopment [G].
+
+If the director chose SmallUpgrade [C] and the board chair chooses PlanLeft [l], both sides get 0.
+If the director chose SmallUpgrade [C] and the board chair chooses PlanRight [r], the director gets 0 and the board chair gets 4.
+
+If the director chose MajorRedevelopment [G] and the board chair chooses PlanLeft [l], the director later chooses WingLeft [L] or WingRight [R].
+If the director chose MajorRedevelopment [G] and the board chair chooses PlanRight [r], the director later also chooses WingLeft [L] or WingRight [R].
+
+When making that later move, the director cannot tell whether the current situation came after PlanLeft [l] or after PlanRight [r].
+
+If the director is moving after MajorRedevelopment [G] then PlanLeft [l] and chooses WingLeft [L], the rewards are 23 and 7.
+If the director is moving after MajorRedevelopment [G] then PlanLeft [l] and chooses WingRight [R], both sides get 0.
+
+If the director is moving after MajorRedevelopment [G] then PlanRight [r] and chooses WingLeft [L], both sides get 0.
+If the director is moving after MajorRedevelopment [G] then PlanRight [r] and chooses WingRight [R], the rewards are 17 and 33.

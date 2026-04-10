@@ -1,0 +1,23 @@
+V2 — Film Studio Release Choice
+
+Producer 1 moves first and chooses SellRights [S], LimitedRelease [C], or MajorRelease [G].
+
+If the producer chooses SellRights [S], the process ends immediately.
+The producer gets 16 and the distributor, player 2, gets 0.
+
+If the producer chooses LimitedRelease [C] or MajorRelease [G], the distributor then chooses PushLeft [l] or PushRight [r].
+When the distributor moves, the distributor cannot tell whether the current situation came from LimitedRelease [C] or from MajorRelease [G].
+
+If the producer chose LimitedRelease [C] and the distributor chooses PushLeft [l], both sides get 0.
+If the producer chose LimitedRelease [C] and the distributor chooses PushRight [r], the producer gets 0 and the distributor gets 4.
+
+If the producer chose MajorRelease [G] and the distributor chooses PushLeft [l], the producer later chooses EditLeft [L] or EditRight [R].
+If the producer chose MajorRelease [G] and the distributor chooses PushRight [r], the producer later also chooses EditLeft [L] or EditRight [R].
+
+When making that later move, the producer cannot tell whether the current situation came after PushLeft [l] or after PushRight [r].
+
+If the producer is moving after MajorRelease [G] then PushLeft [l] and chooses EditLeft [L], the rewards are 23 and 7.
+If the producer is moving after MajorRelease [G] then PushLeft [l] and chooses EditRight [R], both sides get 0.
+
+If the producer is moving after MajorRelease [G] then PushRight [r] and chooses EditLeft [L], both sides get 0.
+If the producer is moving after MajorRelease [G] then PushRight [r] and chooses EditRight [R], the rewards are 17 and 33.

@@ -1,0 +1,23 @@
+V1 — Startup Scale-Up or Safe Exit
+
+Founder 1 moves first and chooses SafeExit [S], CarefulBuild [C], or GoBig [G].
+
+If the founder chooses SafeExit [S], the process ends immediately.
+The founder gets 16 and the investor, player 2, gets 0.
+
+If the founder chooses CarefulBuild [C] or GoBig [G], the investor then chooses BackLeft [l] or BackRight [r].
+When the investor moves, the investor cannot tell whether the current situation came from CarefulBuild [C] or from GoBig [G].
+
+If the founder chose CarefulBuild [C] and the investor chooses BackLeft [l], both sides get 0.
+If the founder chose CarefulBuild [C] and the investor chooses BackRight [r], the founder gets 0 and the investor gets 4.
+
+If the founder chose GoBig [G] and the investor chooses BackLeft [l], the founder later chooses ScaleLeft [L] or ScaleRight [R].
+If the founder chose GoBig [G] and the investor chooses BackRight [r], the founder later also chooses ScaleLeft [L] or ScaleRight [R].
+
+When making that later move, the founder cannot tell whether the current situation came after BackLeft [l] or after BackRight [r].
+
+If the founder is moving after GoBig [G] then BackLeft [l] and chooses ScaleLeft [L], the rewards are 23 and 7.
+If the founder is moving after GoBig [G] then BackLeft [l] and chooses ScaleRight [R], both sides get 0.
+
+If the founder is moving after GoBig [G] then BackRight [r] and chooses ScaleLeft [L], both sides get 0.
+If the founder is moving after GoBig [G] then BackRight [r] and chooses ScaleRight [R], the rewards are 17 and 33.

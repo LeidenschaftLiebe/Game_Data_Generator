@@ -1,0 +1,23 @@
+V4 — Cybersecurity Upgrade Rollout
+
+Security chief 1 moves first and chooses TakeSafePatch [S], ControlledRollout [C], or FullRollout [G].
+
+If the security chief chooses TakeSafePatch [S], the process ends immediately.
+The security chief gets 16 and the operations head, player 2, gets 0.
+
+If the security chief chooses ControlledRollout [C] or FullRollout [G], the operations head then chooses RouteLeft [l] or RouteRight [r].
+When the operations head moves, the operations head cannot tell whether the current situation came from ControlledRollout [C] or from FullRollout [G].
+
+If the security chief chose ControlledRollout [C] and the operations head chooses RouteLeft [l], both sides get 0.
+If the security chief chose ControlledRollout [C] and the operations head chooses RouteRight [r], the security chief gets 0 and the operations head gets 4.
+
+If the security chief chose FullRollout [G] and the operations head chooses RouteLeft [l], the security chief later chooses FixLeft [L] or FixRight [R].
+If the security chief chose FullRollout [G] and the operations head chooses RouteRight [r], the security chief later also chooses FixLeft [L] or FixRight [R].
+
+When making that later move, the security chief cannot tell whether the current situation came after RouteLeft [l] or after RouteRight [r].
+
+If the security chief is moving after FullRollout [G] then RouteLeft [l] and chooses FixLeft [L], the rewards are 23 and 7.
+If the security chief is moving after FullRollout [G] then RouteLeft [l] and chooses FixRight [R], both sides get 0.
+
+If the security chief is moving after FullRollout [G] then RouteRight [r] and chooses FixLeft [L], both sides get 0.
+If the security chief is moving after FullRollout [G] then RouteRight [r] and chooses FixRight [R], the rewards are 17 and 33.

@@ -1,0 +1,15 @@
+EFG 2 R "Museum Redevelopment Plan V5" { "Director" "BoardChair" }
+""
+
+p "" 1 1 "" { "KeepCurrentSite" "SmallUpgrade" "MajorRedevelopment" } 0
+t "" 1 "keep_current_site" { 16, 0 }
+p "" 2 1 "" { "PlanLeft" "PlanRight" } 0
+t "" 2 "smallupgrade_then_planleft" { 0, 0 }
+t "" 3 "smallupgrade_then_planright" { 0, 4 }
+p "" 2 1 "" { "PlanLeft" "PlanRight" } 0
+p "" 1 2 "" { "WingLeft" "WingRight" } 0
+t "" 4 "majorredevelopment_then_planleft_then_wingleft" { 23, 7 }
+t "" 5 "majorredevelopment_then_planleft_then_wingright" { 0, 0 }
+p "" 1 2 "" { "WingLeft" "WingRight" } 0
+t "" 6 "majorredevelopment_then_planright_then_wingleft" { 0, 0 }
+t "" 7 "majorredevelopment_then_planright_then_wingright" { 17, 33 }

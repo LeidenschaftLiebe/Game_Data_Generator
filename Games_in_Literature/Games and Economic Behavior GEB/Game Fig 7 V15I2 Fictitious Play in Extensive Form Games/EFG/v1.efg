@@ -1,0 +1,15 @@
+EFG 2 R "Startup Scale-Up or Safe Exit V1" { "Founder" "Investor" }
+""
+
+p "" 1 1 "" { "SafeExit" "CarefulBuild" "GoBig" } 0
+t "" 1 "safe_exit" { 16, 0 }
+p "" 2 1 "" { "BackLeft" "BackRight" } 0
+t "" 2 "carefulbuild_then_backleft" { 0, 0 }
+t "" 3 "carefulbuild_then_backright" { 0, 4 }
+p "" 2 1 "" { "BackLeft" "BackRight" } 0
+p "" 1 2 "" { "ScaleLeft" "ScaleRight" } 0
+t "" 4 "gobig_then_backleft_then_scaleleft" { 23, 7 }
+t "" 5 "gobig_then_backleft_then_scaleright" { 0, 0 }
+p "" 1 2 "" { "ScaleLeft" "ScaleRight" } 0
+t "" 6 "gobig_then_backright_then_scaleleft" { 0, 0 }
+t "" 7 "gobig_then_backright_then_scaleright" { 17, 33 }

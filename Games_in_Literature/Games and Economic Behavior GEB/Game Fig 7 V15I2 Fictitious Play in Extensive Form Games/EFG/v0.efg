@@ -1,0 +1,15 @@
+EFG 2 R "Article Example with Two Updating Paths V0" { "1" "2" }
+""
+
+p "" 1 1 "" { "S" "C" "G" } 0
+t "" 1 "choose_S" { 16, 0 }
+p "" 2 1 "" { "l" "r" } 0
+t "" 2 "C_then_l" { 0, 0 }
+t "" 3 "C_then_r" { 0, 4 }
+p "" 2 1 "" { "l" "r" } 0
+p "" 1 2 "" { "L" "R" } 0
+t "" 4 "G_then_l_then_L" { 23, 7 }
+t "" 5 "G_then_l_then_R" { 0, 0 }
+p "" 1 2 "" { "L" "R" } 0
+t "" 6 "G_then_r_then_L" { 0, 0 }
+t "" 7 "G_then_r_then_R" { 17, 33 }

@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+Player 1 moves first at the root and chooses among S, C, and G.
+Choosing S ends the game immediately with payoffs (16, 0).
+The two player 2 decision nodes after C and G are in the same information set.
+The two later player 1 decision nodes are in the same information set.

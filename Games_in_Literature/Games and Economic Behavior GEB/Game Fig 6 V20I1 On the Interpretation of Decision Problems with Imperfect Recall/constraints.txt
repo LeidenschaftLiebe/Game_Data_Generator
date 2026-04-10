@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+The root is a chance node that chooses between L and R with probability 1/2 each.
+There is one player, 1, who moves at all decision nodes.
+When making a move at d1 or d2, the player cannot tell whether this is the earlier or the later decision point, 
+and also cannot tell whether the path began with L or R.
+At the earlier d1 node, choosing S leads to payoff 3.

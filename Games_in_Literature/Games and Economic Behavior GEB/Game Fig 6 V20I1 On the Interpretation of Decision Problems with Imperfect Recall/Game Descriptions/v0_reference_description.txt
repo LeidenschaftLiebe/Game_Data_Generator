@@ -1,0 +1,20 @@
+V0 — Imperfect Recall Example 6
+
+Chance first chooses L or R, each with probability 1/2.
+
+If chance chooses L, the decision maker first faces one kind of decision situation and chooses S or B.
+If the decision maker chooses S, the reward is 3.
+If the decision maker chooses B, the decision maker later faces the other kind of decision situation.
+
+If chance chooses R, the decision maker first faces the other kind of decision situation and chooses S or B.
+If the decision maker chooses S, the reward is 3.
+If the decision maker chooses B, the decision maker later faces the first kind of decision situation.
+
+When making a move at d1 or d2, the decision maker cannot tell whether this is the earlier or the later decision point, 
+and also cannot tell whether the path began with L or R.
+
+If the decision maker is at d1 and chooses S, the reward is 0.
+If the decision maker is at d1 and chooses B, the reward is 2.
+
+If the decision maker is at d2 and chooses S, the reward is 0.
+If the decision maker is at d2 and chooses B, the reward is 2.

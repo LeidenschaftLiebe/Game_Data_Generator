@@ -1,0 +1,20 @@
+V3 — Cave Explorer with Alternating Chambers
+
+Chance first sends the explorer into the LeftPassage [L] or the RightPassage [R], each with probability 1/2.
+
+If the explorer enters the LeftPassage [L], the explorer first faces Marker2 [d2] and chooses StopHere [S] or GoDeeper [B].
+Choosing StopHere [S] gives reward 3.
+Choosing GoDeeper [B] leads later to Marker1 [d1].
+
+If the explorer enters the RightPassage [R], the explorer first faces Marker1 [d1] and chooses StopHere [S] or GoDeeper [B].
+Choosing StopHere [S] gives reward 3.
+Choosing GoDeeper [B] leads later to Marker2 [d2].
+
+When making a move at Marker1 [d1] or Marker2 [d2], the explorer cannot tell whether this is the earlier or the later decision point, 
+and also cannot tell whether the path began with LeftPassage [L] or RightPassage [R].
+
+If the explorer is at Marker1 [d1] and chooses StopHere [S], the reward is 0.
+If the explorer is at Marker1 [d1] and chooses GoDeeper [B], the reward is 2.
+
+If the explorer is at Marker2 [d2] and chooses StopHere [S], the reward is 0.
+If the explorer is at Marker2 [d2] and chooses GoDeeper [B], the reward is 2.

@@ -1,0 +1,14 @@
+EFG 2 R "Security Checkpoints with Repeated Alerts V1" { "Traveler" }
+""
+
+c "" 1 "" { "LeftRoute" 1/2 "RightRoute" 1/2 } 0
+p "" 1 1 "" { "Stop" "Bypass" } 0
+t "" 1 "first_alert2_then_stop" { 3 }
+p "" 1 2 "" { "Stop" "Bypass" } 0
+t "" 3 "later_alert1_then_stop" { 0 }
+t "" 4 "later_alert1_then_bypass" { 2 }
+p "" 1 2 "" { "Stop" "Bypass" } 0
+t "" 2 "first_alert1_then_stop" { 3 }
+p "" 1 1 "" { "Stop" "Bypass" } 0
+t "" 5 "later_alert2_then_stop" { 0 }
+t "" 6 "later_alert2_then_bypass" { 2 }

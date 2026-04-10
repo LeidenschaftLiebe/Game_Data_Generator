@@ -1,0 +1,14 @@
+EFG 2 R "Research Workflow with Repeated Review Stages V2" { "Researcher" }
+""
+
+c "" 1 "" { "LeftTrack" 1/2 "RightTrack" 1/2 } 0
+p "" 1 1 "" { "Submit" "BuildMore" } 0
+t "" 1 "first_review2_then_submit" { 3 }
+p "" 1 2 "" { "Submit" "BuildMore" } 0
+t "" 3 "later_review1_then_submit" { 0 }
+t "" 4 "later_review1_then_buildmore" { 2 }
+p "" 1 2 "" { "Submit" "BuildMore" } 0
+t "" 2 "first_review1_then_submit" { 3 }
+p "" 1 1 "" { "Submit" "BuildMore" } 0
+t "" 5 "later_review2_then_submit" { 0 }
+t "" 6 "later_review2_then_buildmore" { 2 }

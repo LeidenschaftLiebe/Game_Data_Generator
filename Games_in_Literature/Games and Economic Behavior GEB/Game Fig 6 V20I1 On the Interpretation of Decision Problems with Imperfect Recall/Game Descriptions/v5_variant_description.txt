@@ -1,0 +1,20 @@
+V5 — Museum Tour with Repeated Exhibit Signals
+
+Chance first sends the visitor to the LeftWing [L] or the RightWing [R], each with probability 1/2.
+
+If the visitor goes to the LeftWing [L], the visitor first faces Signal2 [d2] and chooses StopTour [S] or KeepTouring [B].
+Choosing StopTour [S] gives reward 3.
+Choosing KeepTouring [B] leads later to Signal1 [d1].
+
+If the visitor goes to the RightWing [R], the visitor first faces Signal1 [d1] and chooses StopTour [S] or KeepTouring [B].
+Choosing StopTour [S] gives reward 3.
+Choosing KeepTouring [B] leads later to Signal2 [d2].
+
+When making a move at Signal1 [d1] or Signal2 [d2], the visitor cannot tell whether this is the earlier or the later decision point, 
+and also cannot tell whether the path began with LeftWing [L] or RightWing [R].
+
+If the visitor is at Signal1 [d1] and chooses StopTour [S], the reward is 0.
+If the visitor is at Signal1 [d1] and chooses KeepTouring [B], the reward is 2.
+
+If the visitor is at Signal2 [d2] and chooses StopTour [S], the reward is 0.
+If the visitor is at Signal2 [d2] and chooses KeepTouring [B], the reward is 2.

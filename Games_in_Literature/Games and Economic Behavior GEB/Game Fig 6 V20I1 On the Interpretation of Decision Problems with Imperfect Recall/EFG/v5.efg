@@ -1,0 +1,14 @@
+EFG 2 R "Museum Tour with Repeated Exhibit Signals V5" { "Visitor" }
+""
+
+c "" 1 "" { "LeftWing" 1/2 "RightWing" 1/2 } 0
+p "" 1 1 "" { "StopTour" "KeepTouring" } 0
+t "" 1 "first_signal2_then_stoptour" { 3 }
+p "" 1 2 "" { "StopTour" "KeepTouring" } 0
+t "" 3 "later_signal1_then_stoptour" { 0 }
+t "" 4 "later_signal1_then_keeptouring" { 2 }
+p "" 1 2 "" { "StopTour" "KeepTouring" } 0
+t "" 2 "first_signal1_then_stoptour" { 3 }
+p "" 1 1 "" { "StopTour" "KeepTouring" } 0
+t "" 5 "later_signal2_then_stoptour" { 0 }
+t "" 6 "later_signal2_then_keeptouring" { 2 }

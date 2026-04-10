@@ -1,0 +1,14 @@
+EFG 2 R "Robot Testing with Alternating Modes V4" { "Robot" }
+""
+
+c "" 1 "" { "ModeLeft" 1/2 "ModeRight" 1/2 } 0
+p "" 1 1 "" { "ShutDown" "BootFurther" } 0
+t "" 1 "first_mode2_then_shutdown" { 3 }
+p "" 1 2 "" { "ShutDown" "BootFurther" } 0
+t "" 3 "later_mode1_then_shutdown" { 0 }
+t "" 4 "later_mode1_then_bootfurther" { 2 }
+p "" 1 2 "" { "ShutDown" "BootFurther" } 0
+t "" 2 "first_mode1_then_shutdown" { 3 }
+p "" 1 1 "" { "ShutDown" "BootFurther" } 0
+t "" 5 "later_mode2_then_shutdown" { 0 }
+t "" 6 "later_mode2_then_bootfurther" { 2 }

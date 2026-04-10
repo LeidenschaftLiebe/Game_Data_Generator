@@ -1,0 +1,14 @@
+EFG 2 R "Cave Explorer with Alternating Chambers V3" { "Explorer" }
+""
+
+c "" 1 "" { "LeftPassage" 1/2 "RightPassage" 1/2 } 0
+p "" 1 1 "" { "StopHere" "GoDeeper" } 0
+t "" 1 "first_marker2_then_stophere" { 3 }
+p "" 1 2 "" { "StopHere" "GoDeeper" } 0
+t "" 3 "later_marker1_then_stophere" { 0 }
+t "" 4 "later_marker1_then_godeeper" { 2 }
+p "" 1 2 "" { "StopHere" "GoDeeper" } 0
+t "" 2 "first_marker1_then_stophere" { 3 }
+p "" 1 1 "" { "StopHere" "GoDeeper" } 0
+t "" 5 "later_marker2_then_stophere" { 0 }
+t "" 6 "later_marker2_then_godeeper" { 2 }

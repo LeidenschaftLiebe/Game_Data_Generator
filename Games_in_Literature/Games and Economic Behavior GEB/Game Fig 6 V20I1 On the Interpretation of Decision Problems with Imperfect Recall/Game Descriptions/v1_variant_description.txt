@@ -1,0 +1,20 @@
+V1 — Security Checkpoints with Repeated Alerts
+
+Chance first sends the traveler onto the LeftRoute [L] or the RightRoute [R], each with probability 1/2.
+
+If the traveler is sent onto the LeftRoute [L], the traveler first faces Alert2 [d2] and chooses Stop [S] or Bypass [B].
+Choosing Stop [S] gives reward 3.
+Choosing Bypass [B] leads later to Alert1 [d1].
+
+If the traveler is sent onto the RightRoute [R], the traveler first faces Alert1 [d1] and chooses Stop [S] or Bypass [B].
+Choosing Stop [S] gives reward 3.
+Choosing Bypass [B] leads later to Alert2 [d2].
+
+When making a move at Alert1 [d1] or Alert2 [d2], the traveler cannot tell whether this is the earlier or the later decision point, 
+and also cannot tell whether the path began with LeftRoute [L] or RightRoute [R].
+
+If the traveler is at Alert1 [d1] and chooses Stop [S], the reward is 0.
+If the traveler is at Alert1 [d1] and chooses Bypass [B], the reward is 2.
+
+If the traveler is at Alert2 [d2] and chooses Stop [S], the reward is 0.
+If the traveler is at Alert2 [d2] and chooses Bypass [B], the reward is 2.

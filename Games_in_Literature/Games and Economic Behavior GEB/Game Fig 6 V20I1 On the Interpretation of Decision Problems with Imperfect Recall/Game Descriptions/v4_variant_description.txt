@@ -1,0 +1,20 @@
+V4 — Robot Testing with Alternating Modes
+
+Chance first starts the robot in ModeLeft [L] or ModeRight [R], each with probability 1/2.
+
+If the robot starts in ModeLeft [L], it first faces Mode2 [d2] and chooses ShutDown [S] or BootFurther [B].
+Choosing ShutDown [S] gives reward 3.
+Choosing BootFurther [B] leads later to Mode1 [d1].
+
+If the robot starts in ModeRight [R], it first faces Mode1 [d1] and chooses ShutDown [S] or BootFurther [B].
+Choosing ShutDown [S] gives reward 3.
+Choosing BootFurther [B] leads later to Mode2 [d2].
+
+When making a move at Mode1 [d1] or Mode2 [d2], the robot cannot tell whether this is the earlier or the later decision point, 
+and also cannot tell whether the path began with ModeLeft [L] or ModeRight [R].
+
+If the robot is at Mode1 [d1] and chooses ShutDown [S], the reward is 0.
+If the robot is at Mode1 [d1] and chooses BootFurther [B], the reward is 2.
+
+If the robot is at Mode2 [d2] and chooses ShutDown [S], the reward is 0.
+If the robot is at Mode2 [d2] and chooses BootFurther [B], the reward is 2.

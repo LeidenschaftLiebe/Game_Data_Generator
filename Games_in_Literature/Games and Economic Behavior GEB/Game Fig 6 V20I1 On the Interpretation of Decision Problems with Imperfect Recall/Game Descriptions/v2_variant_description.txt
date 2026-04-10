@@ -1,0 +1,20 @@
+V2 — Research Workflow with Repeated Review Stages
+
+Chance first places the project on the LeftTrack [L] or the RightTrack [R], each with probability 1/2.
+
+If the project goes to the LeftTrack [L], the researcher first faces Review2 [d2] and chooses Submit [S] or BuildMore [B].
+Choosing Submit [S] gives reward 3.
+Choosing BuildMore [B] leads later to Review1 [d1].
+
+If the project goes to the RightTrack [R], the researcher first faces Review1 [d1] and chooses Submit [S] or BuildMore [B].
+Choosing Submit [S] gives reward 3.
+Choosing BuildMore [B] leads later to Review2 [d2].
+
+When making a move at Review1 [d1] or Review2 [d2], the researcher cannot tell whether this is the earlier or the later decision point, 
+and also cannot tell whether the path began with LeftTrack [L] or RightTrack [R].
+
+If the researcher is at Review1 [d1] and chooses Submit [S], the reward is 0.
+If the researcher is at Review1 [d1] and chooses BuildMore [B], the reward is 2.
+
+If the researcher is at Review2 [d2] and chooses Submit [S], the reward is 0.
+If the researcher is at Review2 [d2] and chooses BuildMore [B], the reward is 2.

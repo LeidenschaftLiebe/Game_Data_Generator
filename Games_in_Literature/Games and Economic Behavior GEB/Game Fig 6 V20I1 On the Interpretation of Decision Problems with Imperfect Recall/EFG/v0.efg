@@ -1,0 +1,14 @@
+EFG 2 R "Imperfect Recall Example 6 V0" { "1" }
+""
+
+c "" 1 "" { "L" 1/2 "R" 1/2 } 0
+p "" 1 1 "" { "S" "B" } 0
+t "" 1 "first_d2_then_S" { 3 }
+p "" 1 2 "" { "S" "B" } 0
+t "" 3 "later_d1_then_S" { 0 }
+t "" 4 "later_d1_then_B" { 2 }
+p "" 1 2 "" { "S" "B" } 0
+t "" 2 "first_d1_then_S" { 3 }
+p "" 1 1 "" { "S" "B" } 0
+t "" 5 "later_d2_then_S" { 0 }
+t "" 6 "later_d2_then_B" { 2 }

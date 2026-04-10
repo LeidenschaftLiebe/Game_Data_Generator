@@ -1,0 +1,18 @@
+V1 — Startup Expansion Decision
+
+Founder 1 moves first and chooses Expand [A] or Delay [D].
+
+If the founder chooses Expand [A], investor 2 then chooses Approve [a] or DemandChanges [d].
+If the investor chooses Approve [a], the process ends there and all three sides get 1.
+
+If the founder chooses Delay [D], the matter goes to adviser 3.
+If the founder chooses Expand [A] and the investor chooses DemandChanges [d], the matter also goes to adviser 3.
+
+When adviser 3 moves, the adviser cannot tell whether the current situation came from Delay [D] or from Expand [A] followed by DemandChanges [d].
+The adviser then chooses BackPlan [l] or RejectPlan [r].
+
+If adviser 3 is acting after Delay [D] and chooses BackPlan [l], the rewards are 3, 2, and 2.
+If adviser 3 is acting after Delay [D] and chooses RejectPlan [r], the rewards are 0, 0, and 0.
+
+If adviser 3 is acting after Expand [A] then DemandChanges [d] and chooses BackPlan [l], the rewards are 4, 4, and 0.
+If adviser 3 is acting after Expand [A] then DemandChanges [d] and chooses RejectPlan [r], the rewards are 0, 0, and 1.

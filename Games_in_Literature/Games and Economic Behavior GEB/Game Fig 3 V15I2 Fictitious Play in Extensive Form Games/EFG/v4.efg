@@ -1,0 +1,12 @@
+EFG 2 R "Museum Expansion Proposal V4" { "Director" "BoardChair" "Donor" }
+""
+
+p "" 1 1 "" { "BuildWing" "Postpone" } 0
+p "" 2 1 "" { "ApproveBudget" "RequestCuts" } 0
+t "" 1 "BuildWing_then_ApproveBudget" { 1, 1, 1 }
+p "" 3 1 "" { "BackMuseum" "DeclineSupport" } 0
+t "" 4 "BuildWing_then_RequestCuts_then_BackMuseum" { 4, 4, 0 }
+t "" 5 "BuildWing_then_RequestCuts_then_DeclineSupport" { 0, 0, 1 }
+p "" 3 1 "" { "BackMuseum" "DeclineSupport" } 0
+t "" 2 "Postpone_then_BackMuseum" { 3, 2, 2 }
+t "" 3 "Postpone_then_DeclineSupport" { 0, 0, 0 }

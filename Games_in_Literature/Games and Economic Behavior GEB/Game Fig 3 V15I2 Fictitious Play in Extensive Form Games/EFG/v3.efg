@@ -1,0 +1,12 @@
+EFG 2 R "Research Funding Decision V3" { "LeadScientist" "Sponsor" "Reviewer" }
+""
+
+p "" 1 1 "" { "LaunchStudy" "PauseStudy" } 0
+p "" 2 1 "" { "FundNow" "AskForRevision" } 0
+t "" 1 "LaunchStudy_then_FundNow" { 1, 1, 1 }
+p "" 3 1 "" { "Support" "Block" } 0
+t "" 4 "LaunchStudy_then_AskForRevision_then_Support" { 4, 4, 0 }
+t "" 5 "LaunchStudy_then_AskForRevision_then_Block" { 0, 0, 1 }
+p "" 3 1 "" { "Support" "Block" } 0
+t "" 2 "PauseStudy_then_Support" { 3, 2, 2 }
+t "" 3 "PauseStudy_then_Block" { 0, 0, 0 }

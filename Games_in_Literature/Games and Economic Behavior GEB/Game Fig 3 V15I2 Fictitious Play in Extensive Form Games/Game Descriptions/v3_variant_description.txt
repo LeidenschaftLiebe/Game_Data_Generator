@@ -1,0 +1,18 @@
+V3 — Research Funding Decision
+
+Lead scientist 1 moves first and chooses LaunchStudy [A] or PauseStudy [D].
+
+If the lead scientist chooses LaunchStudy [A], sponsor 2 then chooses FundNow [a] or AskForRevision [d].
+If the sponsor chooses FundNow [a], the process ends there and all three sides get 1.
+
+If the lead scientist chooses PauseStudy [D], the matter goes to reviewer 3.
+If the lead scientist chooses LaunchStudy [A] and the sponsor chooses AskForRevision [d], the matter also goes to reviewer 3.
+
+When reviewer 3 moves, the reviewer cannot tell whether the current situation came from PauseStudy [D] or from LaunchStudy [A] followed by AskForRevision [d].
+The reviewer then chooses Support [l] or Block [r].
+
+If reviewer 3 is acting after PauseStudy [D] and chooses Support [l], the rewards are 3, 2, and 2.
+If reviewer 3 is acting after PauseStudy [D] and chooses Block [r], the rewards are 0, 0, and 0.
+
+If reviewer 3 is acting after LaunchStudy [A] then AskForRevision [d] and chooses Support [l], the rewards are 4, 4, and 0.
+If reviewer 3 is acting after LaunchStudy [A] then AskForRevision [d] and chooses Block [r], the rewards are 0, 0, and 1.

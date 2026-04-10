@@ -1,0 +1,12 @@
+EFG 2 R "Film Production Deal V2" { "Producer" "Distributor" "Critic" }
+""
+
+p "" 1 1 "" { "StartProduction" "HoldProject" } 0
+p "" 2 1 "" { "Greenlight" "RequestRewrite" } 0
+t "" 1 "StartProduction_then_Greenlight" { 1, 1, 1 }
+p "" 3 1 "" { "Praise" "Dismiss" } 0
+t "" 4 "StartProduction_then_RequestRewrite_then_Praise" { 4, 4, 0 }
+t "" 5 "StartProduction_then_RequestRewrite_then_Dismiss" { 0, 0, 1 }
+p "" 3 1 "" { "Praise" "Dismiss" } 0
+t "" 2 "HoldProject_then_Praise" { 3, 2, 2 }
+t "" 3 "HoldProject_then_Dismiss" { 0, 0, 0 }

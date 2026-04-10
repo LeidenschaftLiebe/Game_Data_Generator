@@ -1,0 +1,18 @@
+V5 — Cybersecurity Upgrade Plan
+
+Security chief 1 moves first and chooses DeployUpgrade [A] or DelayUpgrade [D].
+
+If the security chief chooses DeployUpgrade [A], operations head 2 then chooses Approve [a] or SendBack [d].
+If the operations head chooses Approve [a], the process ends there and all three sides get 1.
+
+If the security chief chooses DelayUpgrade [D], the matter goes to auditor 3.
+If the security chief chooses DeployUpgrade [A] and the operations head chooses SendBack [d], the matter also goes to auditor 3.
+
+When auditor 3 moves, the auditor cannot tell whether the current situation came from DelayUpgrade [D] or from DeployUpgrade [A] followed by SendBack [d].
+The auditor then chooses SupportUpgrade [l] or RejectUpgrade [r].
+
+If auditor 3 is acting after DelayUpgrade [D] and chooses SupportUpgrade [l], the rewards are 3, 2, and 2.
+If auditor 3 is acting after DelayUpgrade [D] and chooses RejectUpgrade [r], the rewards are 0, 0, and 0.
+
+If auditor 3 is acting after DeployUpgrade [A] then SendBack [d] and chooses SupportUpgrade [l], the rewards are 4, 4, and 0.
+If auditor 3 is acting after DeployUpgrade [A] then SendBack [d] and chooses RejectUpgrade [r], the rewards are 0, 0, and 1.

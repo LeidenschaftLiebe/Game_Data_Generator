@@ -1,0 +1,12 @@
+EFG 2 R "Cybersecurity Upgrade Plan V5" { "SecurityChief" "OperationsHead" "Auditor" }
+""
+
+p "" 1 1 "" { "DeployUpgrade" "DelayUpgrade" } 0
+p "" 2 1 "" { "Approve" "SendBack" } 0
+t "" 1 "DeployUpgrade_then_Approve" { 1, 1, 1 }
+p "" 3 1 "" { "SupportUpgrade" "RejectUpgrade" } 0
+t "" 4 "DeployUpgrade_then_SendBack_then_SupportUpgrade" { 4, 4, 0 }
+t "" 5 "DeployUpgrade_then_SendBack_then_RejectUpgrade" { 0, 0, 1 }
+p "" 3 1 "" { "SupportUpgrade" "RejectUpgrade" } 0
+t "" 2 "DelayUpgrade_then_SupportUpgrade" { 3, 2, 2 }
+t "" 3 "DelayUpgrade_then_RejectUpgrade" { 0, 0, 0 }

@@ -1,0 +1,12 @@
+EFG 2 R "Startup Expansion Decision V1" { "Founder" "Investor" "Adviser" }
+""
+
+p "" 1 1 "" { "Expand" "Delay" } 0
+p "" 2 1 "" { "Approve" "DemandChanges" } 0
+t "" 1 "Expand_then_Approve" { 1, 1, 1 }
+p "" 3 1 "" { "BackPlan" "RejectPlan" } 0
+t "" 4 "Expand_then_DemandChanges_then_BackPlan" { 4, 4, 0 }
+t "" 5 "Expand_then_DemandChanges_then_RejectPlan" { 0, 0, 1 }
+p "" 3 1 "" { "BackPlan" "RejectPlan" } 0
+t "" 2 "Delay_then_BackPlan" { 3, 2, 2 }
+t "" 3 "Delay_then_RejectPlan" { 0, 0, 0 }

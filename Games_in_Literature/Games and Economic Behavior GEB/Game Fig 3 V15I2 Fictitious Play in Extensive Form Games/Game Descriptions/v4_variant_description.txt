@@ -1,0 +1,18 @@
+V4 — Museum Expansion Proposal
+
+Director 1 moves first and chooses BuildWing [A] or Postpone [D].
+
+If the director chooses BuildWing [A], board chair 2 then chooses ApproveBudget [a] or RequestCuts [d].
+If the board chair chooses ApproveBudget [a], the process ends there and all three sides get 1.
+
+If the director chooses Postpone [D], the matter goes to donor 3.
+If the director chooses BuildWing [A] and the board chair chooses RequestCuts [d], the matter also goes to donor 3.
+
+When donor 3 moves, the donor cannot tell whether the current situation came from Postpone [D] or from BuildWing [A] followed by RequestCuts [d].
+The donor then chooses BackMuseum [l] or DeclineSupport [r].
+
+If donor 3 is acting after Postpone [D] and chooses BackMuseum [l], the rewards are 3, 2, and 2.
+If donor 3 is acting after Postpone [D] and chooses DeclineSupport [r], the rewards are 0, 0, and 0.
+
+If donor 3 is acting after BuildWing [A] then RequestCuts [d] and chooses BackMuseum [l], the rewards are 4, 4, and 0.
+If donor 3 is acting after BuildWing [A] then RequestCuts [d] and chooses DeclineSupport [r], the rewards are 0, 0, and 1.

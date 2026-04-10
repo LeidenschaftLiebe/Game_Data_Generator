@@ -1,0 +1,18 @@
+V2 — Film Production Deal
+
+Producer 1 moves first and chooses StartProduction [A] or HoldProject [D].
+
+If the producer chooses StartProduction [A], distributor 2 then chooses Greenlight [a] or RequestRewrite [d].
+If the distributor chooses Greenlight [a], the process ends there and all three sides get 1.
+
+If the producer chooses HoldProject [D], the matter goes to critic 3.
+If the producer chooses StartProduction [A] and the distributor chooses RequestRewrite [d], the matter also goes to critic 3.
+
+When critic 3 moves, the critic cannot tell whether the current situation came from HoldProject [D] or from StartProduction [A] followed by RequestRewrite [d].
+The critic then chooses Praise [l] or Dismiss [r].
+
+If critic 3 is acting after HoldProject [D] and chooses Praise [l], the rewards are 3, 2, and 2.
+If critic 3 is acting after HoldProject [D] and chooses Dismiss [r], the rewards are 0, 0, and 0.
+
+If critic 3 is acting after StartProduction [A] then RequestRewrite [d] and chooses Praise [l], the rewards are 4, 4, and 0.
+If critic 3 is acting after StartProduction [A] then RequestRewrite [d] and chooses Dismiss [r], the rewards are 0, 0, and 1.

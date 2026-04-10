@@ -1,0 +1,18 @@
+V0 — One-Player-One-Move Example from the Article
+
+Player 1 moves first and chooses A or D.
+
+If player 1 chooses A, player 2 then chooses a or d.
+If player 2 chooses a, the interaction ends immediately and all three players get 1.
+
+If player 1 chooses D, the move passes to player 3.
+If player 1 chooses A and player 2 chooses d, the move also passes to player 3.
+
+When player 3 moves, player 3 cannot tell whether the current situation came from D or from A followed by d.
+Player 3 then chooses l or r.
+
+If player 3 is moving after D and chooses l, the rewards are 3 for player 1, 2 for player 2, and 2 for player 3.
+If player 3 is moving after D and chooses r, all three players get 0.
+
+If player 3 is moving after A then d and chooses l, the rewards are 4 for player 1, 4 for player 2, and 0 for player 3.
+If player 3 is moving after A then d and chooses r, the rewards are 0 for player 1, 0 for player 2, and 1 for player 3.

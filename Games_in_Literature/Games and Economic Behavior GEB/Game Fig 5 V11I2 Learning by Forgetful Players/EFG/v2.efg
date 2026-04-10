@@ -1,0 +1,18 @@
+EFG 2 R "Studio Burns Publicity Money Before Release V2" { "Director" "Distributor" "Producer" }
+""
+
+p "" 3 1 "" { "NoPublicityBurn" "BurnPublicityMoney" } 0
+p "" 1 1 "" { "FestivalRoute" "CommercialRoute" } 0
+p "" 2 1 "" { "PushNow" "HoldBack" } 0
+t "" 1 "NoPublicityBurn_FestivalRoute_PushNow" { 3, 3, 3 }
+t "" 2 "NoPublicityBurn_FestivalRoute_HoldBack" { 0, 0, 0 }
+p "" 2 1 "" { "PushNow" "HoldBack" } 0
+t "" 3 "NoPublicityBurn_CommercialRoute_PushNow" { 0, 0, 0 }
+t "" 4 "NoPublicityBurn_CommercialRoute_HoldBack" { 1, 1, 1 }
+p "" 1 2 "" { "FestivalRoute" "CommercialRoute" } 0
+p "" 2 2 "" { "PushNow" "HoldBack" } 0
+t "" 5 "BurnPublicityMoney_FestivalRoute_PushNow" { 3, 3, 2 }
+t "" 6 "BurnPublicityMoney_FestivalRoute_HoldBack" { 0, 0, -1 }
+p "" 2 2 "" { "PushNow" "HoldBack" } 0
+t "" 7 "BurnPublicityMoney_CommercialRoute_PushNow" { 0, 0, -1 }
+t "" 8 "BurnPublicityMoney_CommercialRoute_HoldBack" { 1, 1, 0 }

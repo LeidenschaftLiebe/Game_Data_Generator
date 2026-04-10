@@ -1,0 +1,21 @@
+V5 — Museum Team Burns Promotional Funds
+
+The donor, player 3, moves first and chooses KeepFunds [burn 0] or BurnFunds [burn 1].
+
+If player 3 chooses KeepFunds [burn 0], the director, player 1, then chooses LocalExhibit [L] or TouringExhibit [R].
+
+After that, the board chair, player 2, chooses ApproveSoon [l] or ApproveLate [r].
+When player 2 moves after KeepFunds [burn 0], the board chair cannot tell whether player 1 chose LocalExhibit [L] or TouringExhibit [R].
+
+If the earlier choices were KeepFunds [burn 0] and LocalExhibit [L], then ApproveSoon [l] gives 3, 3, 3 and ApproveLate [r] gives 0, 0, 0.
+
+If the earlier choices were KeepFunds [burn 0] and TouringExhibit [R], then ApproveSoon [l] gives 0, 0, 0 and ApproveLate [r] gives 1, 1, 1.
+
+If player 3 chooses BurnFunds [burn 1], player 1 then chooses LocalExhibit [L] or TouringExhibit [R].
+
+After that, player 2 chooses ApproveSoon [l] or ApproveLate [r].
+When player 2 moves after BurnFunds [burn 1], the board chair cannot tell whether player 1 chose LocalExhibit [L] or TouringExhibit [R].
+
+If the earlier choices were BurnFunds [burn 1] and LocalExhibit [L], then ApproveSoon [l] gives 3, 3, 2 and ApproveLate [r] gives 0, 0, -1.
+
+If the earlier choices were BurnFunds [burn 1] and TouringExhibit [R], then ApproveSoon [l] gives 0, 0, -1 and ApproveLate [r] gives 1, 1, 0.

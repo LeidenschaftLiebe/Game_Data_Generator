@@ -1,0 +1,18 @@
+EFG 2 R "Museum Team Burns Promotional Funds V5" { "Director" "BoardChair" "Donor" }
+""
+
+p "" 3 1 "" { "KeepFunds" "BurnFunds" } 0
+p "" 1 1 "" { "LocalExhibit" "TouringExhibit" } 0
+p "" 2 1 "" { "ApproveSoon" "ApproveLate" } 0
+t "" 1 "KeepFunds_LocalExhibit_ApproveSoon" { 3, 3, 3 }
+t "" 2 "KeepFunds_LocalExhibit_ApproveLate" { 0, 0, 0 }
+p "" 2 1 "" { "ApproveSoon" "ApproveLate" } 0
+t "" 3 "KeepFunds_TouringExhibit_ApproveSoon" { 0, 0, 0 }
+t "" 4 "KeepFunds_TouringExhibit_ApproveLate" { 1, 1, 1 }
+p "" 1 2 "" { "LocalExhibit" "TouringExhibit" } 0
+p "" 2 2 "" { "ApproveSoon" "ApproveLate" } 0
+t "" 5 "BurnFunds_LocalExhibit_ApproveSoon" { 3, 3, 2 }
+t "" 6 "BurnFunds_LocalExhibit_ApproveLate" { 0, 0, -1 }
+p "" 2 2 "" { "ApproveSoon" "ApproveLate" } 0
+t "" 7 "BurnFunds_TouringExhibit_ApproveSoon" { 0, 0, -1 }
+t "" 8 "BurnFunds_TouringExhibit_ApproveLate" { 1, 1, 0 }

@@ -1,0 +1,21 @@
+V3 — Research Team Burns Grant Funds Up Front
+
+The senior adviser, player 3, moves first and chooses KeepGrant [burn 0] or BurnGrant [burn 1].
+
+If player 3 chooses KeepGrant [burn 0], the lead researcher, player 1, then chooses TheoryTrack [L] or DataTrack [R].
+
+After that, the sponsor, player 2, chooses SupportNow [l] or Delay [r].
+When player 2 moves after KeepGrant [burn 0], the sponsor cannot tell whether player 1 chose TheoryTrack [L] or DataTrack [R].
+
+If the earlier choices were KeepGrant [burn 0] and TheoryTrack [L], then SupportNow [l] gives 3, 3, 3 and Delay [r] gives 0, 0, 0.
+
+If the earlier choices were KeepGrant [burn 0] and DataTrack [R], then SupportNow [l] gives 0, 0, 0 and Delay [r] gives 1, 1, 1.
+
+If player 3 chooses BurnGrant [burn 1], player 1 then chooses TheoryTrack [L] or DataTrack [R].
+
+After that, player 2 chooses SupportNow [l] or Delay [r].
+When player 2 moves after BurnGrant [burn 1], the sponsor cannot tell whether player 1 chose TheoryTrack [L] or DataTrack [R].
+
+If the earlier choices were BurnGrant [burn 1] and TheoryTrack [L], then SupportNow [l] gives 3, 3, 2 and Delay [r] gives 0, 0, -1.
+
+If the earlier choices were BurnGrant [burn 1] and DataTrack [R], then SupportNow [l] gives 0, 0, -1 and Delay [r] gives 1, 1, 0.

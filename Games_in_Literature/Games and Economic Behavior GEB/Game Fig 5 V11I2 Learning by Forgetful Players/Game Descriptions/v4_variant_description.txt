@@ -1,0 +1,21 @@
+V4 — Security Team Burns Recovery Resources
+
+The planner, player 3, moves first and chooses SaveResources [burn 0] or SpendResources [burn 1].
+
+If player 3 chooses SaveResources [burn 0], the security chief, player 1, then chooses LeftProtocol [L] or RightProtocol [R].
+
+After that, operations, player 2, chooses ReactFast [l] or ReactSlow [r].
+When player 2 moves after SaveResources [burn 0], operations cannot tell whether player 1 chose LeftProtocol [L] or RightProtocol [R].
+
+If the earlier choices were SaveResources [burn 0] and LeftProtocol [L], then ReactFast [l] gives 3, 3, 3 and ReactSlow [r] gives 0, 0, 0.
+
+If the earlier choices were SaveResources [burn 0] and RightProtocol [R], then ReactFast [l] gives 0, 0, 0 and ReactSlow [r] gives 1, 1, 1.
+
+If player 3 chooses SpendResources [burn 1], player 1 then chooses LeftProtocol [L] or RightProtocol [R].
+
+After that, player 2 chooses ReactFast [l] or ReactSlow [r].
+When player 2 moves after SpendResources [burn 1], operations cannot tell whether player 1 chose LeftProtocol [L] or RightProtocol [R].
+
+If the earlier choices were SpendResources [burn 1] and LeftProtocol [L], then ReactFast [l] gives 3, 3, 2 and ReactSlow [r] gives 0, 0, -1.
+
+If the earlier choices were SpendResources [burn 1] and RightProtocol [R], then ReactFast [l] gives 0, 0, -1 and ReactSlow [r] gives 1, 1, 0.

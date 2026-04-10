@@ -1,0 +1,18 @@
+EFG 2 R "Research Team Burns Grant Funds Up Front V3" { "ResearchLead" "Sponsor" "SeniorAdviser" }
+""
+
+p "" 3 1 "" { "KeepGrant" "BurnGrant" } 0
+p "" 1 1 "" { "TheoryTrack" "DataTrack" } 0
+p "" 2 1 "" { "SupportNow" "Delay" } 0
+t "" 1 "KeepGrant_TheoryTrack_SupportNow" { 3, 3, 3 }
+t "" 2 "KeepGrant_TheoryTrack_Delay" { 0, 0, 0 }
+p "" 2 1 "" { "SupportNow" "Delay" } 0
+t "" 3 "KeepGrant_DataTrack_SupportNow" { 0, 0, 0 }
+t "" 4 "KeepGrant_DataTrack_Delay" { 1, 1, 1 }
+p "" 1 2 "" { "TheoryTrack" "DataTrack" } 0
+p "" 2 2 "" { "SupportNow" "Delay" } 0
+t "" 5 "BurnGrant_TheoryTrack_SupportNow" { 3, 3, 2 }
+t "" 6 "BurnGrant_TheoryTrack_Delay" { 0, 0, -1 }
+p "" 2 2 "" { "SupportNow" "Delay" } 0
+t "" 7 "BurnGrant_DataTrack_SupportNow" { 0, 0, -1 }
+t "" 8 "BurnGrant_DataTrack_Delay" { 1, 1, 0 }

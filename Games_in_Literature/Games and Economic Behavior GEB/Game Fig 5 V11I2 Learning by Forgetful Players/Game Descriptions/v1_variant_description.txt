@@ -1,0 +1,21 @@
+V1 — Founder Burns Budget Before the Pitch
+
+The adviser, player 3, moves first and chooses KeepBudget [burn 0] or BurnBudget [burn 1].
+
+If player 3 chooses KeepBudget [burn 0], the founder, player 1, then chooses PitchLeft [L] or PitchRight [R].
+
+After that, the investor, player 2, chooses BackEarly [l] or WaitOut [r].
+When player 2 moves after KeepBudget [burn 0], the investor cannot tell whether the founder chose PitchLeft [L] or PitchRight [R].
+
+If the earlier choices were KeepBudget [burn 0] and PitchLeft [L], then BackEarly [l] gives 3, 3, 3 and WaitOut [r] gives 0, 0, 0.
+
+If the earlier choices were KeepBudget [burn 0] and PitchRight [R], then BackEarly [l] gives 0, 0, 0 and WaitOut [r] gives 1, 1, 1.
+
+If player 3 chooses BurnBudget [burn 1], player 1 then chooses PitchLeft [L] or PitchRight [R].
+
+After that, player 2 chooses BackEarly [l] or WaitOut [r].
+When player 2 moves after BurnBudget [burn 1], the investor cannot tell whether the founder chose PitchLeft [L] or PitchRight [R].
+
+If the earlier choices were BurnBudget [burn 1] and PitchLeft [L], then BackEarly [l] gives 3, 3, 2 and WaitOut [r] gives 0, 0, -1.
+
+If the earlier choices were BurnBudget [burn 1] and PitchRight [R], then BackEarly [l] gives 0, 0, -1 and WaitOut [r] gives 1, 1, 0.

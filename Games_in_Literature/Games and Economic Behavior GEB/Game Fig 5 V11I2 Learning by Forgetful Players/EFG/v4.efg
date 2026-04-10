@@ -1,0 +1,18 @@
+EFG 2 R "Security Team Burns Recovery Resources V4" { "SecurityChief" "Operations" "Planner" }
+""
+
+p "" 3 1 "" { "SaveResources" "SpendResources" } 0
+p "" 1 1 "" { "LeftProtocol" "RightProtocol" } 0
+p "" 2 1 "" { "ReactFast" "ReactSlow" } 0
+t "" 1 "SaveResources_LeftProtocol_ReactFast" { 3, 3, 3 }
+t "" 2 "SaveResources_LeftProtocol_ReactSlow" { 0, 0, 0 }
+p "" 2 1 "" { "ReactFast" "ReactSlow" } 0
+t "" 3 "SaveResources_RightProtocol_ReactFast" { 0, 0, 0 }
+t "" 4 "SaveResources_RightProtocol_ReactSlow" { 1, 1, 1 }
+p "" 1 2 "" { "LeftProtocol" "RightProtocol" } 0
+p "" 2 2 "" { "ReactFast" "ReactSlow" } 0
+t "" 5 "SpendResources_LeftProtocol_ReactFast" { 3, 3, 2 }
+t "" 6 "SpendResources_LeftProtocol_ReactSlow" { 0, 0, -1 }
+p "" 2 2 "" { "ReactFast" "ReactSlow" } 0
+t "" 7 "SpendResources_RightProtocol_ReactFast" { 0, 0, -1 }
+t "" 8 "SpendResources_RightProtocol_ReactSlow" { 1, 1, 0 }

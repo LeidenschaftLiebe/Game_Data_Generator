@@ -1,0 +1,18 @@
+EFG 2 R "Founder Burns Budget Before the Pitch V1" { "Founder" "Investor" "Adviser" }
+""
+
+p "" 3 1 "" { "KeepBudget" "BurnBudget" } 0
+p "" 1 1 "" { "PitchLeft" "PitchRight" } 0
+p "" 2 1 "" { "BackEarly" "WaitOut" } 0
+t "" 1 "KeepBudget_PitchLeft_BackEarly" { 3, 3, 3 }
+t "" 2 "KeepBudget_PitchLeft_WaitOut" { 0, 0, 0 }
+p "" 2 1 "" { "BackEarly" "WaitOut" } 0
+t "" 3 "KeepBudget_PitchRight_BackEarly" { 0, 0, 0 }
+t "" 4 "KeepBudget_PitchRight_WaitOut" { 1, 1, 1 }
+p "" 1 2 "" { "PitchLeft" "PitchRight" } 0
+p "" 2 2 "" { "BackEarly" "WaitOut" } 0
+t "" 5 "BurnBudget_PitchLeft_BackEarly" { 3, 3, 2 }
+t "" 6 "BurnBudget_PitchLeft_WaitOut" { 0, 0, -1 }
+p "" 2 2 "" { "BackEarly" "WaitOut" } 0
+t "" 7 "BurnBudget_PitchRight_BackEarly" { 0, 0, -1 }
+t "" 8 "BurnBudget_PitchRight_WaitOut" { 1, 1, 0 }

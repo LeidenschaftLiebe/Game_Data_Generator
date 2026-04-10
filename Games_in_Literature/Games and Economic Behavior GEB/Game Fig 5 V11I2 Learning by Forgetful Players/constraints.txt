@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+Player 3 moves first and chooses between burn0 and burn1.
+he two player 2 nodes after burn0 are in the same information set.
+The two player 2 nodes after burn1 are in another information set.
+Anchor payoff At terminal burn0_R_r, the payoffs is (1, 1, 1).

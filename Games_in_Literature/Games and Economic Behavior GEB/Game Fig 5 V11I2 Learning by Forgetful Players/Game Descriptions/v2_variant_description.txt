@@ -1,0 +1,21 @@
+V2 — Studio Burns Publicity Money Before Release
+
+The producer, player 3, moves first and chooses NoPublicityBurn [burn 0] or BurnPublicityMoney [burn 1].
+
+If player 3 chooses NoPublicityBurn [burn 0], the director, player 1, then chooses FestivalRoute [L] or CommercialRoute [R].
+
+After that, the distributor, player 2, chooses PushNow [l] or HoldBack [r].
+When player 2 moves after NoPublicityBurn [burn 0], the distributor cannot tell whether player 1 chose FestivalRoute [L] or CommercialRoute [R].
+
+If the earlier choices were NoPublicityBurn [burn 0] and FestivalRoute [L], then PushNow [l] gives 3, 3, 3 and HoldBack [r] gives 0, 0, 0.
+
+If the earlier choices were NoPublicityBurn [burn 0] and CommercialRoute [R], then PushNow [l] gives 0, 0, 0 and HoldBack [r] gives 1, 1, 1.
+
+If player 3 chooses BurnPublicityMoney [burn 1], player 1 then chooses FestivalRoute [L] or CommercialRoute [R].
+
+After that, player 2 chooses PushNow [l] or HoldBack [r].
+When player 2 moves after BurnPublicityMoney [burn 1], the distributor cannot tell whether player 1 chose FestivalRoute [L] or CommercialRoute [R].
+
+If the earlier choices were BurnPublicityMoney [burn 1] and FestivalRoute [L], then PushNow [l] gives 3, 3, 2 and HoldBack [r] gives 0, 0, -1.
+
+If the earlier choices were BurnPublicityMoney [burn 1] and CommercialRoute [R], then PushNow [l] gives 0, 0, -1 and HoldBack [r] gives 1, 1, 0.

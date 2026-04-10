@@ -1,0 +1,26 @@
+V0 — Extensive Game and Its Normal Form Example
+
+Chance moves first.
+
+With probability 1/3, chance sends the interaction to v.
+With probability 2/3, chance sends the interaction to v′.
+
+If the interaction goes to v, player 1 chooses l or r.
+
+If player 1 chooses l, the interaction ends immediately.
+Player 1 gets 0 and player 2 gets 0.
+
+If the interaction goes to v′, player 1 chooses L or R.
+
+If player 1 chooses R, the interaction ends immediately.
+Player 1 gets 3/2 and player 2 gets -3/2.
+
+If player 1 chooses r at v, or L at v′, player 2 then chooses c or d.
+
+When player 2 moves, player 2 cannot tell whether the current situation came after r at v or after L at v′.
+
+If the current situation came after r at v and player 2 chooses c, player 1 gets 3 and player 2 gets -3.
+If the current situation came after r at v and player 2 chooses d, player 1 gets -3 and player 2 gets 3.
+
+If the current situation came after L at v′ and player 2 chooses c, player 1 gets -3 and player 2 gets 3.
+If the current situation came after L at v′ and player 2 chooses d, player 1 gets 6 and player 2 gets -6.

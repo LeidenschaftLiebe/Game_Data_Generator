@@ -1,0 +1,14 @@
+EFG 2 R "Film Studio under Two Audience Moods V2" { "Studio 1" "Distributor 2" }
+""
+
+c "" 1 "" { "MoodV" 1/3 "MoodVPrime" 2/3 } 0
+p "" 1 1 "" { "ArtCut" "RiskyCut" } 0
+t "" 1 "moodv_then_artcut" { 0, 0 }
+p "" 2 1 "" { "PushA" "PushB" } 0
+t "" 3 "moodv_then_riskycut_then_pushA" { 3, -3 }
+t "" 4 "moodv_then_riskycut_then_pushB" { -3, 3 }
+p "" 1 2 "" { "WideCut" "ShelveNow" } 0
+p "" 2 1 "" { "PushA" "PushB" } 0
+t "" 5 "moodvprime_then_widecut_then_pushA" { -3, 3 }
+t "" 6 "moodvprime_then_widecut_then_pushB" { 6, -6 }
+t "" 2 "moodvprime_then_shelvenow" { 3/2, -3/2 }

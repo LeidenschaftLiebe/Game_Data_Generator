@@ -1,0 +1,14 @@
+EFG 2 R "Security Response under Two Threat Types V4" { "Security Team 1" "Operations 2" }
+""
+
+c "" 1 "" { "ThreatV" 1/3 "ThreatVPrime" 2/3 } 0
+p "" 1 1 "" { "LocalFix" "FullEscalation" } 0
+t "" 1 "threatv_then_localfix" { 0, 0 }
+p "" 2 1 "" { "RouteA" "RouteB" } 0
+t "" 3 "threatv_then_fullescalation_then_routeA" { 3, -3 }
+t "" 4 "threatv_then_fullescalation_then_routeB" { -3, 3 }
+p "" 1 2 "" { "MajorPatch" "StandDown" } 0
+p "" 2 1 "" { "RouteA" "RouteB" } 0
+t "" 5 "threatvprime_then_majorpatch_then_routeA" { -3, 3 }
+t "" 6 "threatvprime_then_majorpatch_then_routeB" { 6, -6 }
+t "" 2 "threatvprime_then_standdown" { 3/2, -3/2 }

@@ -1,0 +1,10 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+The root is a chance node that chooses between v and v_prime with probabilities 1/3 and 2/3.
+After v, player 1 chooses between l and r.
+After v_prime, player 1 chooses between L and R.
+Terminal v_then_l has payoffs (0, 0), and terminal vprime_then_R has payoffs (3/2, -3/2).
+The two player 2 decision points are in the same information set.

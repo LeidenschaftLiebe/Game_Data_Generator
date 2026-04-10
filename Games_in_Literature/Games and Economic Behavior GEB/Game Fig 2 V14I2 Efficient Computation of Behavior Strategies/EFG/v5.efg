@@ -1,0 +1,14 @@
+EFG 2 R "Museum Exhibition under Two Visitor Profiles V5" { "Curator 1" "Board 2" }
+""
+
+c "" 1 "" { "ProfileV" 1/3 "ProfileVPrime" 2/3 } 0
+p "" 1 1 "" { "QuietDisplay" "BoldDisplay" } 0
+t "" 1 "profilev_then_quietdisplay" { 0, 0 }
+p "" 2 1 "" { "ApproveA" "ApproveB" } 0
+t "" 3 "profilev_then_bolddisplay_then_approveA" { 3, -3 }
+t "" 4 "profilev_then_bolddisplay_then_approveB" { -3, 3 }
+p "" 1 2 "" { "LargeExhibit" "CancelShow" } 0
+p "" 2 1 "" { "ApproveA" "ApproveB" } 0
+t "" 5 "profilevprime_then_largeexhibit_then_approveA" { -3, 3 }
+t "" 6 "profilevprime_then_largeexhibit_then_approveB" { 6, -6 }
+t "" 2 "profilevprime_then_cancelshow" { 3/2, -3/2 }

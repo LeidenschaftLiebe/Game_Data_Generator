@@ -1,0 +1,14 @@
+EFG 2 R "Research Program under Two Experimental States V3" { "Researcher 1" "Sponsor 2" }
+""
+
+c "" 1 "" { "StateV" 1/3 "StateVPrime" 2/3 } 0
+p "" 1 1 "" { "CarefulTest" "AggressiveTest" } 0
+t "" 1 "statev_then_carefultest" { 0, 0 }
+p "" 2 1 "" { "FundA" "FundB" } 0
+t "" 3 "statev_then_aggressivetest_then_fundA" { 3, -3 }
+t "" 4 "statev_then_aggressivetest_then_fundB" { -3, 3 }
+p "" 1 2 "" { "ScaleUp" "EndNow" } 0
+p "" 2 1 "" { "FundA" "FundB" } 0
+t "" 5 "statevprime_then_scaleup_then_fundA" { -3, 3 }
+t "" 6 "statevprime_then_scaleup_then_fundB" { 6, -6 }
+t "" 2 "statevprime_then_endnow" { 3/2, -3/2 }

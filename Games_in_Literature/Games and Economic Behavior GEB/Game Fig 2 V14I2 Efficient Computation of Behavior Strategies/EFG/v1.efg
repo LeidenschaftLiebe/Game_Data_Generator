@@ -1,0 +1,14 @@
+EFG 2 R "Product Launch under Two Market Conditions V1" { "Firm 1" "Firm 2" }
+""
+
+c "" 1 "" { "ConditionV" 1/3 "ConditionVPrime" 2/3 } 0
+p "" 1 1 "" { "SmallPush" "Escalate" } 0
+t "" 1 "conditionv_then_smallpush" { 0, 0 }
+p "" 2 1 "" { "CounterA" "CounterB" } 0
+t "" 3 "conditionv_then_escalate_then_counterA" { 3, -3 }
+t "" 4 "conditionv_then_escalate_then_counterB" { -3, 3 }
+p "" 1 2 "" { "LargePush" "HoldBack" } 0
+p "" 2 1 "" { "CounterA" "CounterB" } 0
+t "" 5 "conditionvprime_then_largepush_then_counterA" { -3, 3 }
+t "" 6 "conditionvprime_then_largepush_then_counterB" { 6, -6 }
+t "" 2 "conditionvprime_then_holdback" { 3/2, -3/2 }

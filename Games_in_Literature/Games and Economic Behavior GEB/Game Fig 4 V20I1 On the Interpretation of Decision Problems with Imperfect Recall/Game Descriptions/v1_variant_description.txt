@@ -1,0 +1,14 @@
+V1 — Tunnel Route with Repeated Junctions
+
+A traveler first reaches a junction and chooses LeftPath [L] or RightPath [R].
+
+If the traveler chooses RightPath [R], the trip ends immediately with reward 0.
+
+If the traveler chooses LeftPath [L], the traveler reaches another junction that feels identical to the first one.
+There, the traveler again chooses LeftPath [L] or RightPath [R].
+
+After that, the traveler reaches one of two later checkpoints, but cannot tell which checkpoint it is.
+
+At the left checkpoint, choosing LeftExit [L] gives reward 1, while choosing RightExit [R] gives reward 0.
+
+At the right checkpoint, choosing LeftExit [L] gives reward 0, while choosing RightExit [R] gives reward 3.

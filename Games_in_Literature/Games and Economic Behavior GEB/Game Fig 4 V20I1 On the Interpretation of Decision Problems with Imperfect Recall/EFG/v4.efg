@@ -1,0 +1,12 @@
+EFG 2 R "Robot Navigation with Repeating Checkpoints V4" { "Robot" }
+""
+
+p "" 1 1 "" { "LeftRoute" "RightRoute" } 0
+p "" 1 1 "" { "LeftRoute" "RightRoute" } 0
+p "" 1 2 "" { "LeftMode" "RightMode" } 0
+t "" 2 "left_checkpoint_then_left_mode" { 1 }
+t "" 3 "left_checkpoint_then_right_mode" { 0 }
+p "" 1 2 "" { "LeftMode" "RightMode" } 0
+t "" 4 "right_checkpoint_then_left_mode" { 0 }
+t "" 5 "right_checkpoint_then_right_mode" { 3 }
+t "" 1 "first_checkpoint_then_right_route" { 0 }

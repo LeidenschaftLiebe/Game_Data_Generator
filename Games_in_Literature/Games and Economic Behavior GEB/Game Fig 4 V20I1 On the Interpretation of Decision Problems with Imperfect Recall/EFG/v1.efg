@@ -1,0 +1,12 @@
+EFG 2 R "Tunnel Route with Repeated Junctions V1" { "Traveler" }
+""
+
+p "" 1 1 "" { "LeftPath" "RightPath" } 0
+p "" 1 1 "" { "LeftPath" "RightPath" } 0
+p "" 1 2 "" { "LeftExit" "RightExit" } 0
+t "" 2 "left_checkpoint_then_left_exit" { 1 }
+t "" 3 "left_checkpoint_then_right_exit" { 0 }
+p "" 1 2 "" { "LeftExit" "RightExit" } 0
+t "" 4 "right_checkpoint_then_left_exit" { 0 }
+t "" 5 "right_checkpoint_then_right_exit" { 3 }
+t "" 1 "first_junction_then_right_path" { 0 }

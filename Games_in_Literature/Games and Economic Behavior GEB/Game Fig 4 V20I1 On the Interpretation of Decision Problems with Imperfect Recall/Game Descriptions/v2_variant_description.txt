@@ -1,0 +1,14 @@
+V2 — Project Review with Repeated Meeting Stage
+
+A manager first reaches a review stage and chooses ApproveSmall [L] or StopNow [R].
+
+If the manager chooses StopNow [R], the process ends immediately with reward 0.
+
+If the manager chooses ApproveSmall [L], the manager reaches another review stage that seems exactly the same as the first one.
+There, the manager again chooses ApproveSmall [L] or StopNow [R].
+
+After that, the manager reaches a final review stage, but cannot tell which of the two possible final review points has been reached.
+
+At one final review point, choosing OptionLeft [L] gives reward 1, while OptionRight [R] gives reward 0.
+
+At the other final review point, choosing OptionLeft [L] gives reward 0, while OptionRight [R] gives reward 3.

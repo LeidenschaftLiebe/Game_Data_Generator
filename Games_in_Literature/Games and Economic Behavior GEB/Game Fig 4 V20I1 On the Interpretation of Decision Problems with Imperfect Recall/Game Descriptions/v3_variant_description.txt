@@ -1,0 +1,14 @@
+V3 — Cave Explorer with Similar Chambers
+
+An explorer first reaches a chamber and chooses GoLeft [L] or GoRight [R].
+
+If the explorer chooses GoRight [R], the exploration ends immediately with reward 0.
+
+If the explorer chooses GoLeft [L], the explorer reaches another chamber that looks identical to the first one.
+There, the explorer again chooses GoLeft [L] or GoRight [R].
+
+After that, the explorer reaches one of two later chambers, but cannot tell which one it is.
+
+At the left later chamber, choosing LeftDoor [L] gives reward 1, while RightDoor [R] gives reward 0.
+
+At the right later chamber, choosing LeftDoor [L] gives reward 0, while RightDoor [R] gives reward 3.

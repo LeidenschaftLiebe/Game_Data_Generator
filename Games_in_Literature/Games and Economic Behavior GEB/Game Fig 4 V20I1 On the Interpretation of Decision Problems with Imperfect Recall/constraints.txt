@@ -1,0 +1,9 @@
+Strategic Definition:
+Better-Response Equivalence
+
+Constraints:
+
+There is one player, 1, who moves at all decision nodes.
+The first two decision nodes are in the same information set, labeled by the same d1 structure.
+Choosing R at the first d1 node ends the game immediately with payoff 0.
+After the second d1 node, the player reaches one of two later nodes that are in the same information set, labeled by the same d2 structure.

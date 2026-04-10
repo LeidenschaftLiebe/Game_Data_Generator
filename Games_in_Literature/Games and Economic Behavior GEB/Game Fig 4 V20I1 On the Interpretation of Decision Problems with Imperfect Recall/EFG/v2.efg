@@ -1,0 +1,12 @@
+EFG 2 R "Project Review with Repeated Meeting Stage V2" { "Manager" }
+""
+
+p "" 1 1 "" { "ApproveSmall" "StopNow" } 0
+p "" 1 1 "" { "ApproveSmall" "StopNow" } 0
+p "" 1 2 "" { "OptionLeft" "OptionRight" } 0
+t "" 2 "left_review_then_option_left" { 1 }
+t "" 3 "left_review_then_option_right" { 0 }
+p "" 1 2 "" { "OptionLeft" "OptionRight" } 0
+t "" 4 "right_review_then_option_left" { 0 }
+t "" 5 "right_review_then_option_right" { 3 }
+t "" 1 "first_review_then_stop_now" { 0 }

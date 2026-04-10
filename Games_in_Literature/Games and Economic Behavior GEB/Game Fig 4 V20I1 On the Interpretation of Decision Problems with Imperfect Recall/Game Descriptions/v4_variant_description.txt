@@ -1,0 +1,14 @@
+V4 — Robot Navigation with Repeating Checkpoints
+
+A robot first reaches a checkpoint and chooses LeftRoute [L] or RightRoute [R].
+
+If the robot chooses RightRoute [R], the run ends immediately with reward 0.
+
+If the robot chooses LeftRoute [L], it reaches another checkpoint that appears identical to the first one.
+There, it again chooses LeftRoute [L] or RightRoute [R].
+
+After that, the robot reaches a later checkpoint, but cannot tell which of two possible later checkpoints it is at.
+
+At one later checkpoint, choosing LeftMode [L] gives reward 1, while RightMode [R] gives reward 0.
+
+At the other later checkpoint, choosing LeftMode [L] gives reward 0, while RightMode [R] gives reward 3.

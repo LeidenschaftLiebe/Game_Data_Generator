@@ -1,0 +1,19 @@
+V0 — Imperfect Recall Example 4
+
+The decision maker first reaches a point called d1 and chooses L or R.
+
+If the choice is R, the interaction ends immediately with reward 0.
+
+If the choice is L, the decision maker reaches another point that is in the same situation d1.
+At that point, the decision maker again chooses L or R.
+
+After that second choice, the decision maker reaches a later situation called d2.
+At d2, the decision maker cannot tell which of the two possible d2 points has been reached.
+
+If the decision maker reaches the left d2 point and chooses L, the reward is 1.
+If the decision maker reaches the left d2 point and chooses R, the reward is 0.
+
+If the decision maker reaches the right d2 point and chooses L, the reward is 0.
+If the decision maker reaches the right d2 point and chooses R, the reward is 3.
+
+The key feature is that the decision maker does not distinguish between the two d1 points, and also does not distinguish between the two d2 points.

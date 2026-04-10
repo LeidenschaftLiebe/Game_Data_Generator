@@ -1,0 +1,12 @@
+EFG 2 R "Cave Explorer with Similar Chambers V3" { "Explorer" }
+""
+
+p "" 1 1 "" { "GoLeft" "GoRight" } 0
+p "" 1 1 "" { "GoLeft" "GoRight" } 0
+p "" 1 2 "" { "LeftDoor" "RightDoor" } 0
+t "" 2 "left_chamber_then_left_door" { 1 }
+t "" 3 "left_chamber_then_right_door" { 0 }
+p "" 1 2 "" { "LeftDoor" "RightDoor" } 0
+t "" 4 "right_chamber_then_left_door" { 0 }
+t "" 5 "right_chamber_then_right_door" { 3 }
+t "" 1 "first_chamber_then_go_right" { 0 }

@@ -5,7 +5,7 @@ Microsoft knows its own type.
 Celera knows only that the two types are equally likely.
 
 After learning its type, Microsoft chooses whether to Invest or Sabotage.
-Celera then chooses whether to Reveal or Hide its proprietary trade secrets.
+Celera chooses whether to Reveal or Hide its proprietary trade secrets simultaneously.
 When Celera makes that choice, Celera does not know Microsoft’s type and does not observe whether Microsoft chose Invest or Sabotage.
 
 If Microsoft is Enemy and chooses Invest, then Reveal leads to a final reward of 5 for Microsoft and 1 for Celera.

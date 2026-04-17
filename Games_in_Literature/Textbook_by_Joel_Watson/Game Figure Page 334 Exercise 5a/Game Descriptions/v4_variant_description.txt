@@ -5,7 +5,7 @@ The label knows its own type.
 The independent studio knows only that the two types are equally likely.
 
 After learning its type, the label chooses whether to Back the collaboration or Hijack it.
-The independent studio then chooses whether to Reveal its master tracks or Keep them private.
+The independent studio chooses whether to Reveal its master tracks or Keep them private simultaneously.
 When the studio makes that choice, it does not know the label’s type and does not observe whether the label chose Back or Hijack.
 
 If the label is predatory and chooses Back, then Reveal leads to a final reward of 5 for the label and 1 for the studio.

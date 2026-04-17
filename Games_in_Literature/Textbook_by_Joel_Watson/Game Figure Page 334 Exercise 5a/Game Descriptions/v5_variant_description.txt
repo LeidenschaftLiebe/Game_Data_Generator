@@ -5,7 +5,7 @@ The large firm knows its own type.
 The smaller security lab knows only that the two types are equally likely.
 
 After learning its type, the large firm chooses whether to Defend the joint platform or Exploit it.
-The smaller lab then chooses whether to Expose its detection models or Conceal them.
+The smaller lab chooses whether to Expose its detection models or Conceal them simultaneously.
 When the lab makes that choice, it does not know the large firm’s type and does not observe whether the large firm chose Defend or Exploit.
 
 If the large firm is opportunistic and chooses Defend, then Expose leads to a final reward of 5 for the large firm and 1 for the smaller lab.

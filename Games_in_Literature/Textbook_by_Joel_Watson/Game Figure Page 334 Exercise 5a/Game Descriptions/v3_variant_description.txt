@@ -5,7 +5,7 @@ The vendor knows its own type.
 The museum knows only that the two types are equally likely.
 
 After learning its type, the vendor chooses whether to Invest in the digitization program or Strip value from it.
-The museum then chooses whether to Open its archive data or Restrict access.
+The museum chooses whether to Open its archive data or Restrict access simultaneously.
 When the museum makes that choice, it does not know the vendor’s type and does not observe whether the vendor chose Invest or Strip value.
 
 If the vendor is exploitative and chooses Invest, then Open leads to a final reward of 5 for the vendor and 1 for the museum.

@@ -5,7 +5,7 @@ The pharmaceutical company knows which type it is.
 The biotech startup knows only that the two types are equally likely.
 
 After learning its type, the pharmaceutical company chooses whether to Fund the joint project or Undermine it.
-The biotech startup then chooses whether to Share its core research notes or Protect them.
+The biotech startup chooses whether to Share its core research notes or Protect them simultaneously.
 When the startup makes that choice, it does not know the larger firm’s type and does not observe whether the larger firm chose to Fund or Undermine.
 
 If the larger firm is predatory and chooses Fund, then Share leads to a final reward of 5 for the larger firm and 1 for the startup.

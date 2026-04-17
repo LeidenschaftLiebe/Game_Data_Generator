@@ -1,8 +1,5 @@
-Strategic Equivalence Notion: Better-response equivalence
+Strategic Equivalence Notion: Better response equivalence
 
 Constraints:
 Check that Microsoft is Enemy with probability 0.5 and Friend with probability 0.5.
-Check that Celera’s four decision nodes are in the same information set.
-Check that if Microsoft is Enemy and chooses Invest while Celera chooses Reveal, the final reward is 5 for Microsoft and 1 for Celera.
-Check that if Microsoft is Friend and chooses Invest while Celera chooses Reveal, the final reward is 9 for Microsoft and 9 for Celera.
-Check that if Microsoft is Friend and chooses Sabotage while Celera chooses Hide, the final reward is 0 for Microsoft and 4 for Celera.
+Check payoffs in the game as they are explicitly specifed. 

@@ -1,0 +1,19 @@
+game_id: Game_Figure_Page_454_Exercise_5
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Page 454, Exercise 5'
+extraction_methodology: Manual
+description: |-
+  There are two players and two envelopes.
+  At the beginning, each envelope contains 1 dollar.
+  Whenever a player chooses to continue, 1 dollar is removed from that player’s own envelope and 2 dollars are added to the other player’s envelope.
+  The players move in turn, and each move is a choice between stopping and continuing.
+  If someone stops, the game ends immediately and each player keeps the money then in that player’s own envelope.
+  If nobody stops by the end of the fifth move, both players get 0.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

@@ -1,0 +1,19 @@
+game_id: Game_Figure_25.1
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Figure 25.1'
+extraction_methodology: Manual
+description: |-
+  You choose between option A and option B.
+  If you choose option A, you receive 950 for certain.
+
+  If you choose option B, a coin is flipped.
+  With probability 0.5, the coin lands heads and you receive 2000.
+  With probability 0.5, the coin lands tails and you receive 0.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

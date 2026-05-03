@@ -1,0 +1,18 @@
+game_id: Game_Figure_3.5_Tree_1
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Figure 3.5 Tree 1'
+extraction_methodology: Manual
+description: |-
+  Player 1 moves first and chooses between action A and action B.
+  If Player 1 chooses action A, the interaction ends immediately and the result is 1 for Player 1 and 2 for Player 2.
+  If Player 1 chooses action B, then Player 2 chooses between action C and action D.
+  If Player 2 chooses action C, the result is 3 for Player 1 and 1 for Player 2.
+  If Player 2 chooses action D, the result is 2 for Player 1 and 4 for Player 2.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

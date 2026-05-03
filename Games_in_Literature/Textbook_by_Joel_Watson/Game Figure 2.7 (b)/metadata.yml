@@ -1,0 +1,19 @@
+game_id: Game_Figure_2.7_b
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Figure 2.7b'
+extraction_methodology: Manual
+description: |-
+  Two firms sell the same product and compete by choosing either a high price or a low price.
+  The choices are made at the same time, so neither firm gets to see the other’s price before making its own decision.
+  If both firms choose a high price, they do equally well and each earns 1 million.
+  If Firm 1 chooses a high price while Firm 2 chooses a low price, Firm 1 earns nothing and Firm 2 earns 2 million.
+  If Firm 1 chooses a low price while Firm 2 chooses a high price, Firm 1 earns 2 million and Firm 2 earns nothing.
+  If both firms choose low prices, competition is tougher and they split the market more evenly, so each earns 0.5 million.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

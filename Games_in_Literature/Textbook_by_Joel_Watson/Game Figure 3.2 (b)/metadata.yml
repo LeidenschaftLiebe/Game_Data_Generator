@@ -1,0 +1,26 @@
+game_id: Game_Figure_3.2_b
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Figure 3.2b'
+extraction_methodology: Manual
+description: |-
+  Player 1 moves first and chooses between action A, action B, and action C.
+  If Player 1 chooses action A, then Player 2 chooses between action X and action Y.
+  If Player 2 chooses action X after A, the outcome is 2 for Player 1 and 5 for Player 2.
+  If Player 2 chooses action Y after A, the outcome is 5 for Player 1 and 2 for Player 2.
+
+  If Player 1 chooses action B, then Player 2 again chooses between action X and action Y.
+  At that point, Player 2 cannot tell whether the game reached this decision after action A or after action B.
+  If Player 2 chooses action X after B, the outcome is 5 for Player 1 and 2 for Player 2.
+  If Player 2 chooses action Y after B, the outcome is 2 for Player 1 and 5 for Player 2.
+
+  If Player 1 chooses action C, then Player 1 makes one more choice between action W and action Z.
+  If Player 1 chooses action W, the outcome is 2 for Player 1 and 2 for Player 2.
+  If Player 1 chooses action Z, the outcome is 3 for Player 1 and 3 for Player 2.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

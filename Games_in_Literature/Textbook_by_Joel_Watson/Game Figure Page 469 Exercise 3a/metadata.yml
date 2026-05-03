@@ -1,0 +1,27 @@
+game_id: Game_Figure_Page_469_Exercise_3a
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Page 469 Exercise_3a'
+extraction_methodology: Manual
+description: |-
+  At the outset, nature selects A or B with equal probability.
+  Player 1 observes which case has been selected.
+  Player 2 does not observe whether the game is in A or B.
+
+  If nature selects A, Player 1 chooses between U and D.
+  After that, Player 2 chooses between L and R without knowing whether Player 1 faced A or B.
+  If A and U are chosen, then L gives a final reward of 2 for Player 1 and 2 for Player 2, while R gives 0 for both.
+  If A and D are chosen, then L gives 0 for both, while R gives 4 for Player 1 and 4 for Player 2.
+
+  If nature selects B, Player 1 chooses between u and d.
+  Player 2 again chooses between L and R without knowing whether the game is in A or B.
+  If B and u are chosen, then L gives a final reward of 0 for Player 1 and 2 for Player 2, while R gives 2 for Player 1 and 0 for Player 2.
+  If B and d are chosen, then L gives 4 for Player 1 and 0 for Player 2, while R gives 0 for Player 1 and 4 for Player 2.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+- After chance moves, check that Player 1 moves first and Player 2 moves second in the simultaneous move on each branch of the game tree.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

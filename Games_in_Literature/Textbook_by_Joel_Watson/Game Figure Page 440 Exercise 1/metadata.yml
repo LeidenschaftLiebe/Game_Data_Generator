@@ -1,0 +1,21 @@
+game_id: Game_Figure_Page_440_Exercise_1
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Page 440, Exercise 1'
+extraction_methodology: Manual
+description: |-
+  Liz chooses first, while Janet is out of the room.
+  She hides behind either door A or door B.
+  Monty sees where Liz is standing.
+  Janet then comes in, and Monty says either “Red” or “Green.”
+  After hearing that message, Janet picks a door.
+  If Janet picks the correct door, Janet wins 100 and Liz gets 0.
+  If Janet picks the wrong door, Liz wins 100 and Janet gets 0.
+  Monty gets 10 if Janet picks door A and 0 if Janet picks door B.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

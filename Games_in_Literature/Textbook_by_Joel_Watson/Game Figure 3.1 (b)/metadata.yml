@@ -1,0 +1,20 @@
+game_id: Game_Figure_3.1_b
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Figure 3.1b'
+extraction_methodology: Manual
+description: |-
+  Player 1 first decides whether to stay out or go in.
+  If Player 1 stays out, the game ends immediately with 2 for Player 1 and 2 for Player 2.
+  If Player 1 goes in, Player 2 then decides whether to stay out or go in.
+  If Player 2 stays out, the game ends with 1 for Player 1 and 3 for Player 2.
+  If Player 2 also goes in, Player 1 makes one more choice between A and B.
+  Choosing A leads to 4 for Player 1 and 2 for Player 2.
+  Choosing B leads to 3 for Player 1 and 4 for Player 2.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

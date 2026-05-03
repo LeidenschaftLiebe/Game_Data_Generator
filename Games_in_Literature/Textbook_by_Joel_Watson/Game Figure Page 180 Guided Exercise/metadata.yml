@@ -1,0 +1,22 @@
+game_id: Game_Figure_Page_180_Guided_Exercise
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Page 180, Guided Exercise'
+extraction_methodology: Manual
+description: |-
+  Player 1 moves first and chooses between action A and action B.
+
+  If Player 1 chooses action A, then Player 2 chooses between action a and action b.
+  If Player 2 chooses action a, the final reward is 3 for Player 1 and 3 for Player 2.
+  If Player 2 chooses action b, the final reward is also 3 for Player 1 and 3 for Player 2.
+
+  If Player 1 chooses action B, then Player 2 chooses between action c and action d.
+  If Player 2 chooses action c, the final reward is 0 for Player 1 and 4 for Player 2.
+  If Player 2 chooses action d, the final reward is 0 for Player 1 and 3.5 for Player 2.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

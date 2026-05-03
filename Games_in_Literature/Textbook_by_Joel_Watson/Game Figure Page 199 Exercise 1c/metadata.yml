@@ -1,0 +1,27 @@
+game_id: Game_Figure_Page_199_Exercise_1c
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Page 199 Exercise_1c'
+extraction_methodology: Manual
+description: |-
+  Player 1 moves first and chooses between action O and action I.
+  If Player 1 chooses action O, the game ends immediately with a final reward of 2 for Player 1, 2 for Player 2, and 2 for Player 3.
+
+  If Player 1 chooses action I, then Player 2 chooses between action A, action B, and action C.
+  If Player 2 chooses action C, the game ends immediately with a final reward of 4 for Player 1, 3 for Player 2, and 1 for Player 3.
+
+  If Player 2 chooses action A, then Player 3 chooses between action X and action Y.
+  If Player 3 chooses action X after A, the final reward is 3 for Player 1, 2 for Player 2, and 1 for Player 3.
+  If Player 3 chooses action Y after A, the final reward is 5 for Player 1, 0 for Player 2, and 0 for Player 3.
+
+  If Player 2 chooses action B, then Player 3 again chooses between action X and action Y.
+  When Player 3 makes that choice, Player 3 cannot tell whether the game reached this point after action A or after action B.
+  If Player 3 chooses action X after B, the final reward is 1 for Player 1, 2 for Player 2, and 6 for Player 3.
+  If Player 3 chooses action Y after B, the final reward is 7 for Player 1, 5 for Player 2, and 5 for Player 3.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

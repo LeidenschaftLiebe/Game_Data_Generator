@@ -1,0 +1,24 @@
+game_id: Game_Figure_15.2
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Figure 15.2'
+extraction_methodology: Manual
+description: |-
+  Player 1 moves first and chooses between action U and action D.
+
+  If Player 1 chooses action U, then Player 2 chooses between action A and action B.
+  If Player 2 chooses action A, the final reward is 1 for Player 1 and 4 for Player 2.
+  If Player 2 chooses action B, the final reward is 5 for Player 1 and 2 for Player 2.
+
+  If Player 1 chooses action D, then Player 2 chooses between action C and action D.
+  If Player 2 chooses action D there, the final reward is 6 for Player 1 and 2 for Player 2.
+  If Player 2 chooses action C, then Player 1 moves again and chooses between action E and action F.
+  If Player 1 chooses action E, the final reward is 3 for Player 1 and 3 for Player 2.
+  If Player 1 chooses action F, the final reward is 2 for Player 1 and 0 for Player 2.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

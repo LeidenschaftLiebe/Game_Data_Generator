@@ -1,0 +1,30 @@
+game_id: Game_Figure_Page_466_Exercise_1
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Page 466, Exercise 1'
+extraction_methodology: Manual
+description: |-
+  There are two players and only two cards in the deck: an Ace and a King.
+  At the start, one of those two cards is dealt to Player 1.
+  The card is an Ace with probability 0.5 and a King with probability 0.5.
+  Player 1 sees the card.
+  Player 2 does not.
+
+  Player 1 then chooses whether to bid or fold.
+  If Player 1 folds, the game ends immediately with a final reward of -1 for Player 1 and 1 for Player 2.
+
+  If Player 1 bids, Player 2 must respond by either bidding or folding.
+  Player 2 knows that Player 1 bid, but does not know whether Player 1 holds the Ace or the King.
+
+  If Player 2 folds after Player 1 bids, the final reward is 1 for Player 1 and -1 for Player 2.
+
+  If Player 2 bids after Player 1 bids, the result depends on Player 1’s card.
+  If Player 1 holds the Ace, the final reward is 2 for Player 1 and -2 for Player 2.
+  If Player 1 holds the King, the final reward is -2 for Player 1 and 2 for Player 2.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

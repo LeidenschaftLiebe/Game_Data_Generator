@@ -1,6 +1,6 @@
 V3 (museum digitization deal)
 
-At the outset, a technology vendor may be either a trustworthy partner or an opportunistic partner, with probability 0.5 for each.
+A technology vendor may be either a trustworthy partner or an opportunistic partner, with probability 0.5 for each.
 The vendor knows which type it is.
 The museum knows only that the two types are equally likely.
 

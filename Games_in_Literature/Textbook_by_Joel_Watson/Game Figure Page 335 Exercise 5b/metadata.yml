@@ -1,0 +1,35 @@
+game_id: Game_Figure_Page_335_Exercise_5b
+source: 'Watson, J., 2002. Strategy: An introduction to game theory. Game_Figure_Page_335_Exercise_5b'
+extraction_methodology: Manual
+description: |-
+  At the outset, Microsoft may be one of two types, Friend or Enemy, with probability 0.5 for each.
+  Microsoft knows its own type.
+  Celera knows only that the two types are equally likely.
+
+  If Microsoft is Friend, it chooses whether to Buy more Celera stock or Sell what it is holding.
+  Celera observes whether Microsoft chose Buy or Sell, but Celera does not observe whether Microsoft is Friend or Enemy.
+  If Microsoft is Friend and chooses Buy, then Celera chooses whether to Reveal or Hide its trade secrets.
+  If Celera reveals after seeing Buy from a Friend, the final reward is 15 for Microsoft and 12 for Celera.
+  If Celera hides after seeing Buy from a Friend, the final reward is -1 for Microsoft and 1 for Celera.
+
+  If Microsoft is Friend and chooses Sell, then Celera again chooses whether to Reveal or Hide.
+  If Celera reveals after seeing Sell from a Friend, the final reward is 5 for Microsoft and 6 for Celera.
+  If Celera hides after seeing Sell from a Friend, the final reward is 5 for Microsoft and -1 for Celera.
+
+  If Microsoft is Enemy, it also chooses whether to Buy more stock or Sell what it is holding.
+  If Microsoft is Enemy and chooses Buy, then Celera chooses whether to Reveal or Hide.
+  If Celera reveals after seeing Buy from an Enemy, the final reward is 5 for Microsoft and -6 for Celera.
+  If Celera hides after seeing Buy from an Enemy, the final reward is 5 for Microsoft and 1 for Celera.
+
+  If Microsoft is Enemy and chooses Sell, then Celera again chooses whether to Reveal or Hide.
+  If Celera reveals after seeing Sell from an Enemy, the final reward is 15 for Microsoft and -14 for Celera.
+  If Celera hides after seeing Sell from an Enemy, the final reward is 0 for Microsoft and -1 for Celera.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

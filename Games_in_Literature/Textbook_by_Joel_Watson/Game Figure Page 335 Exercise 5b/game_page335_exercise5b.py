@@ -5,7 +5,7 @@ import pygambit as gbt
 def build_joint_venture_game_part_b() -> gbt.Game:
     """Construct Microsoft-Celera part (b)."""
     g = gbt.Game.new_tree(
-        players=["1", "2"],
+        players=["Microsoft", "Celera"],
         title="Joint Venture with Hidden Type - Part B"
     )
 
@@ -17,8 +17,8 @@ def build_joint_venture_game_part_b() -> gbt.Game:
     enemy_node = g.root.children["Enemy"]
 
     # Microsoft observes its type and chooses Buy or Sell.
-    g.append_move(friend_node, player="1", actions=["Sell_F", "Buy_F"])
-    g.append_move(enemy_node, player="1", actions=["Sell_E", "Buy_E"])
+    g.append_move(friend_node, player="Microsoft", actions=["Sell_F", "Buy_F"])
+    g.append_move(enemy_node, player="Microsoft", actions=["Sell_E", "Buy_E"])
 
     sell_f = friend_node.children["Sell_F"]
     buy_f = friend_node.children["Buy_F"]
@@ -27,10 +27,10 @@ def build_joint_venture_game_part_b() -> gbt.Game:
 
     # Celera observes Buy versus Sell, but not Microsoft's type.
     # One infoset after Sell, one infoset after Buy.
-    g.append_move(sell_f, player="2", actions=["Reveal", "Hide"])
+    g.append_move(sell_f, player="Celera", actions=["Reveal", "Hide"])
     g.append_infoset(sell_e, sell_f.infoset)
 
-    g.append_move(buy_f, player="2", actions=["Reveal", "Hide"])
+    g.append_move(buy_f, player="Celera", actions=["Reveal", "Hide"])
     g.append_infoset(buy_e, buy_f.infoset)
 
     # Terminal nodes after Sell.

@@ -1,6 +1,6 @@
 V5 (cybersecurity alliance)
 
-At the outset, a large cybersecurity firm may be either a genuine ally or an opportunistic infiltrator, with probability 0.5 for each.
+A large cybersecurity firm may be either a genuine ally or an opportunistic infiltrator, with probability 0.5 for each.
 The large firm knows which type it is.
 The smaller security lab knows only that the two types are equally likely.
 

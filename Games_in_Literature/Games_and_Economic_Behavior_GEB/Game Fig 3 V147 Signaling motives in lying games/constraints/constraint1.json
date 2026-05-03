@@ -1,0 +1,29 @@
+{
+    "Cst Type": 1,
+    "Path": {
+        "1": {
+            "type": "Decision",
+            "player": "Agent",
+            "action": "i=0"
+        },
+        "2": {
+            "type": "Chance",
+            "player": "Chance",
+            "action": "z=1"
+        },
+        "3": {
+            "type": "Chance",
+            "player": "Chance",
+            "action": "j=1"
+        },
+        "4": {
+            "type": "Decision",
+            "player": "Agent",
+            "action": "a=2"
+        }
+    },
+    "Payoffs": {
+        "Agent": 2
+    },
+    "Comments": "Type 1 is a payoff-seeding constraint for one terminal path."
+}

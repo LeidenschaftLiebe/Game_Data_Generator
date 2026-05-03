@@ -1,0 +1,20 @@
+{
+    "Cst Type": 1,
+    "Path": {
+        "1": {
+            "type": "Chance",
+            "player": "Chance",
+            "action": "L"
+        },
+        "2": {
+            "type": "Decision",
+            "player": "Player 1",
+            "action": "M"
+        }
+    },
+    "Payoffs": {
+        "Player 1": 0,
+        "Player 2": 0
+    },
+    "Comments": "Type 1 is a payoff-seeding constraint for one terminal path. No terminal path with non-zero payoffs for all players was found, so the first terminal path with an assigned outcome was used."
+}

@@ -1,0 +1,8 @@
+{
+    "Cst Type":2,
+    "Path":{
+        "1":{"type":"Decision","player":"Broker","action":"In1"},
+        "2":{"type":"Decision","player":"Seller"},
+        "3":{"type":"Decision","player":"Buyer"}},
+    "Comments":"Type 2 is a move-order constraint."
+}

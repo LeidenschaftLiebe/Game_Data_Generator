@@ -1,0 +1,19 @@
+{
+    "Cst Type": 2,
+    "Path": {
+        "1": {
+            "type": "Decision",
+            "player": "Player 1",
+            "action": "T"
+        }, 
+        "2": {
+            "type": "Decision",
+            "player": "Player 2"
+        }, 
+        "3": {
+            "type": "Decision",
+            "player": "Player 3"
+        }
+    },
+    "Comments": "Type 1 is a move-order constraint."
+}

@@ -1,5 +1,0 @@
-Strategic Equivalence Notion: Better-response equivalence
-
-Constraints:
-Check that Player 1 moves first, followed by Player 2.
-Check all payoffs, as they are explicitly specified. 

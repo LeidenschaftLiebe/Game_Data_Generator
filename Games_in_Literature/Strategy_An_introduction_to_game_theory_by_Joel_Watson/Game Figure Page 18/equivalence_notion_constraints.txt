@@ -1,5 +1,0 @@
-Strategic Equivalence Notion: Better-response equivalence
-
-Constraints:
-Check that Firm A's two second decision nodes are in the same information set.
-Check that if Firm A chooses D and Firm B chooses a', the outcome is 0 for A and 4 for B.

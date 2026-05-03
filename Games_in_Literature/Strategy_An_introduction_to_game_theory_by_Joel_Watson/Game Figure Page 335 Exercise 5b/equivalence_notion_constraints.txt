@@ -1,5 +1,0 @@
-Strategic Equivalence Notion: Better response equivalence
-
-Constraints:
-Check that Microsoft is Friend with probability 0.5 and Enemy with probability 0.5.
-Check payoffs in the game as they are explicitly specifed. 

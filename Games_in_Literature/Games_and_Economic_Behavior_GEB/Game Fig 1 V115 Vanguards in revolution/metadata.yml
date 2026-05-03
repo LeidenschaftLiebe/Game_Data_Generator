@@ -1,0 +1,27 @@
+game_id: Game_Fig_1_V115_Vanguards_in_revolution
+source: Vanguards in revolution, Games and Economic Behavior, Volume 115, Figure 1
+extraction_methodology: Manual
+description: |-
+  This is the article’s basic vanguard-citizen setup.
+  A vanguard moves first and chooses between NoRevolt and Revolt.
+  A citizen then sees that choice and chooses between NoRevolt and Revolt.
+
+  If the vanguard chooses NoRevolt and the citizen also chooses NoRevolt, this gives 1 to the vanguard, and 2 to the citizen.
+
+  If the vanguard chooses NoRevolt and the citizen chooses Revolt, this gives 3 to the vanguard, and 0 to the citizen.
+
+  If the vanguard chooses Revolt and the citizen chooses NoRevolt, this gives 0 to the vanguard, and 3 to the citizen.
+
+  If the vanguard chooses Revolt and the citizen chooses Revolt, this gives 3 to the vanguard, and 2 to the citizen.
+
+  The article uses this simple structure to capture a core Leninist idea: 
+  the organized vanguard must move first, and the citizen then decides whether to follow.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

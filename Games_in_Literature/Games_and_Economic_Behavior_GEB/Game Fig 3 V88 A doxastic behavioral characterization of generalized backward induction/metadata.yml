@@ -1,0 +1,27 @@
+game_id: Game_Fig_3_V88_A_doxastic_behavioral_characterization_of_generalized_backward_induction
+source: A doxastic behavioral characterization of generalized backward induction, Games and Economic Behavior, Volume 88, Figure 3
+extraction_methodology: Manual
+description: |-
+  There are three players.
+  Player 1 moves first and chooses between a1 and b1.
+
+  If Player 1 chooses b1, the game ends immediately with reward 2 to Player 1, reward 2 to Player 2, and reward 0 to Player 3.
+
+  If Player 1 chooses a1, Player 2 moves next and chooses between a2 and b2.
+
+  If Player 2 chooses a2, Player 3 moves next and chooses between a3 and b3.
+  If Player 3 chooses a3, the outcome gives reward 1 to Player 1, reward 1 to Player 2, and reward 0 to Player 3.
+  If Player 3 chooses b3, the outcome gives reward 3 to Player 1, reward 3 to Player 2, and reward 1 to Player 3.
+
+  If Player 2 chooses b2, Player 3 moves next and chooses between c3 and d3.
+  If Player 3 chooses c3, the outcome gives reward 1 to Player 1, reward 2 to Player 2, and reward 1 to Player 3.
+  If Player 3 chooses d3, the outcome gives reward 4 to Player 1, reward 0 to Player 2, and reward 0 to Player 3.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

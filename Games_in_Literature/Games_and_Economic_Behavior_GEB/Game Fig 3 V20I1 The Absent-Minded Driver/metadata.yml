@@ -1,0 +1,29 @@
+game_id: Game_Fig_3_V20I1_The_Absent_Minded_Driver
+source: The Absent Minded Driver, Games and Economic Behavior, Volume 20, Issue 1, Figure 3
+extraction_methodology: Manual
+description: |-
+  A driver starts at START and keeps moving forward along the road.
+
+  Along the way, the driver may arrive at X, Y, or Z.
+
+  At each of these points, the driver chooses EXIT or CONT.
+
+  The driver cannot tell whether the current point is X, Y, or Z.
+  The same reasoning therefore applies at all three points.
+
+  If the driver exits at X, the reward is 7.
+
+  If the driver exits at Y, the reward is 0.
+
+  If the driver exits at Z, the reward is 22.
+
+  If the driver continues past Z, the reward is 2.
+strategic_equivalence_notion:
+constraint_descriptions:
+- This is a game with absentmindedness, and the payoffs are given explicitly. As a result, the game cannot be checked via strategic equivalence, so each payoff must instead be checked using constraints.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

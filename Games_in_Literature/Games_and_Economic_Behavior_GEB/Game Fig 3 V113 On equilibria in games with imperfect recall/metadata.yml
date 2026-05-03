@@ -1,0 +1,33 @@
+game_id: Game_Fig_3_V113_On_equilibria_in_games_with_imperfect_recall
+source: On equilibria in games with imperfect recall, Games and Economic Behavior, Volume 113, Figure 3
+extraction_methodology: Manual
+description: |-
+  At the start, the Driver chooses between trying to escape Try [T] and surrendering Surrender [S].
+  If the driver surrenders, the interaction ends immediately with 0 to the Driver and 0 to the Policeman.
+
+  If the driver tries to escape, the Policeman chooses between waiting Wait [W] and intercepting immediately Intercept [I].
+  If the policeman intercepts immediately, there is a crash, giving -1 to the Driver and -1 to the Policeman.
+  If the policeman waits, the chase continues onto the highway.
+
+  Once the chase reaches the highway, the driver faces the same choice each time she comes to an exit: continue Continue [C] or take the exit Exit [E].
+  She cannot tell whether she is at the first exit or the second one.
+  The Policeman does not observe whether the Driver chooses Continue or Exit on the highway.
+
+  If the driver takes the first exit, the policeman later chooses between waiting on the highway Highway [H] and waiting at the first exit FirstExit [E].
+  Waiting on the highway gives 1 to the Driver and -1 to the Policeman.
+  Waiting at the first exit gives 0 to the Driver and 0 to the Policeman.
+
+  If the driver continues past the first exit, she reaches the same kind of choice again and once more chooses between Continue [C] and Exit [E].
+  If she takes that later exit, the result is 0 for both Driver and Policeman.
+  If she continues again instead, the policeman later chooses between Highway [H] and FirstExit [E]. 
+  Waiting on the highway gives 0 to the Driver and 0 to the Policeman.
+  Waiting at the first exit gives 1 to the Driver and -1 to the Policeman.
+strategic_equivalence_notion:
+constraint_descriptions:
+- This is a game with absentmindedness, and the payoffs are given explicitly. As a result, the game cannot be checked via strategic equivalence, so each payoff must instead be checked using constraints.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

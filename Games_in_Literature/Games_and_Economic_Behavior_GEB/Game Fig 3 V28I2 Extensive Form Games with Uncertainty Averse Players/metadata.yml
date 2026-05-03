@@ -1,0 +1,28 @@
+game_id: Game_Fig_3_V28I2_Extensive_Form_Games_with_Uncertainty_Averse_Players
+source: Extensive Form Games with Uncertainty Averse Players, Games and Economic Behavior, Volume 28, Issue 2, Figure 3
+extraction_methodology: Manual
+description: |-
+  Player 1 moves first and chooses C or D.
+
+  If player 1 chooses C, then player 2 chooses c or d.
+
+  If player 2 chooses c, the interaction ends there.
+  Player 1 gets 1, player 2 gets 1, and player 3 gets 1.
+
+  If player 1 chooses D, the move passes to player 3.
+  If player 1 chooses C and player 2 chooses d, the move also passes to player 3.
+
+  When player 3 moves, player 3 cannot tell whether the move came from D or from C followed by d.
+  Player 3 then chooses L or R.
+
+  If player 3 chooses L, player 1 gets 3, player 2 gets 0, and player 3 gets 0.
+  If player 3 chooses R, player 1 gets 0, player 2 gets 3, and player 3 gets 0.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

@@ -1,0 +1,29 @@
+game_id: Game_Fig_1_V142_Guilt_aversion_in_new_games
+source: Guilt aversion in new games, Games and Economic Behavior, Volume 142, Figure 1
+extraction_methodology: Manual
+description: |-
+  There are two players: A and B.
+  Player A moves first and chooses between Out and In.
+
+  If A chooses Out, the game ends immediately.
+  The result is 170 for A, 100 for B.
+
+  If A chooses In, A sends 25 ECU from A’s own endowment to B.
+  Then B chooses between Left and Right.
+
+  If B chooses Left, B keeps 20 ECU and transfers 5 ECU back to A.
+  That transferred amount is doubled, so A receives 10.
+  The result is 155 for A, 120 for B.
+
+  If B chooses Right, B transfers the full 25 ECU back to A.
+  That amount is doubled, so A receives 50.
+  The result is 195 for A, 100 for B.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments: We removed the redundant Player C from this description compared to the version of the original paper.
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

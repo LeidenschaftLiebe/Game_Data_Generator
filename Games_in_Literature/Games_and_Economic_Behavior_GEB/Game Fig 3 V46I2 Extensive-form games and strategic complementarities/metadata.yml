@@ -1,0 +1,28 @@
+game_id: Game_Fig_3_V46I2_Extensive_form_games_and_strategic_complementarities
+source: Extensive form games and strategic complementarities, Games and Economic Behavior, Volume 46, Issue 2, Figure 3
+extraction_methodology: Manual
+description: |-
+  Player 1 moves first and chooses No or Yes.
+
+  After that, player 2 chooses O or B.
+
+  Then player 1 moves again and chooses O or B.
+  At this later move, player 1 knows whether the first move was No or Yes, but does not know whether player 2 chose O or B.
+
+  If the first move was No and both later choices are O, then player 1 gets 2 and player 2 gets 1.
+  If the first move was No and both later choices are B, then player 1 gets 1 and player 2 gets 2.
+  If the first move was No and the later choices do not match, then both players get 0.
+
+  If the first move was Yes and both later choices are O, then player 1 gets 2 and player 2 gets 1.
+  If the first move was Yes and both later choices are B, then player 1 gets 1 and player 2 gets 2.
+  If the first move was Yes and the later choices do not match, then both players get 0.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+- After Player 1 chooses No or Yes, check that Player 2 moves first and Player 1 moves second in the simultaneous move.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

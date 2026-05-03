@@ -1,0 +1,35 @@
+game_id: Game_Fig_2_V48I2_Strategic_knowledge_sharing_in_Bayesian_games
+source: Strategic knowledge sharing in Bayesian games, Games and Economic Behavior, Volume 48, Issue 2, Figure 2
+extraction_methodology: Manual
+description: |-
+  Nature first selects ω1 or ω2, each with probability 1/2.
+
+  Player 1 observes which of the two states occurred.
+
+  If the state is ω1, player 1 can publicly send the message {ω1} or Ω.
+  If the state is ω2, player 1 can publicly send the message {ω2} or Ω.
+
+  After seeing the message, player 2 chooses A, B, C, or D.
+
+  If the true state is ω1 and player 2 chooses A, player 1 gets 0 and player 2 gets 6.
+  If the true state is ω1 and player 2 chooses B, player 1 gets 1 and player 2 gets 5.
+  If the true state is ω1 and player 2 chooses C, player 1 gets -2 and player 2 gets 0.
+  If the true state is ω1 and player 2 chooses D, player 1 gets 1 and player 2 gets -6.
+
+  If the true state is ω2 and player 2 chooses A, player 1 gets 1 and player 2 gets -6.
+  If the true state is ω2 and player 2 chooses B, player 1 gets 1 and player 2 gets 1.
+  If the true state is ω2 and player 2 chooses C, player 1 gets -2 and player 2 gets 2.
+  If the true state is ω2 and player 2 chooses D, player 1 gets 0 and player 2 gets 3.
+
+  If player 1 sends {ω1}, player 2 knows the state is ω1.
+  If player 1 sends {ω2}, player 2 knows the state is ω2.
+  If player 1 sends Ω, player 2 knows only that one of the two states occurred, but does not know which one.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

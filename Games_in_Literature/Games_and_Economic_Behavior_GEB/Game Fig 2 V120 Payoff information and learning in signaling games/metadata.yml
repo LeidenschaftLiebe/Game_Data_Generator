@@ -1,0 +1,33 @@
+game_id: Game_Fig_2_V120_Payoff_information_and_learning_in_signaling_games
+source: Payoff information and learning in signaling games, Games and Economic Behavior, Volume 120, Figure 2
+extraction_methodology: Manual
+description: |-
+  A random event first determines Player 1’s type.
+  With probability 9/10, Player 1 is Strong.
+  With probability 1/10, Player 1 is Weak.
+
+  Player 1 then chooses between Quiche and Beer.
+
+  After seeing that choice, Player 2 chooses between Fight and NotFight.
+  Player 2 sees whether Player 1 chose Quiche or Beer, but does not know whether Player 1 is Strong or Weak.
+
+  If Player 1 is Strong and chooses Quiche, then Fight gives 0 to Player 1, and 0 to Player 2.
+  If Player 1 is Strong and chooses Quiche, then NotFight gives 2 to Player 1, and 1 to Player 2.
+
+  If Player 1 is Strong and chooses Beer, then Fight gives 1 to Player 1, and 0 to Player 2.
+  If Player 1 is Strong and chooses Beer, then NotFight gives 3 to Player 1, and 1 to Player 2.
+
+  If Player 1 is Weak and chooses Quiche, then Fight gives 1 to Player 1, and 1 to Player 2.
+  If Player 1 is Weak and chooses Quiche, then NotFight gives 3 to Player 1, and 0 to Player 2.
+
+  If Player 1 is Weak and chooses Beer, then Fight gives 0 to Player 1, and 1 to Player 2.
+  If Player 1 is Weak and chooses Beer, then NotFight gives 2 to Player 1, and 0 to Player 2.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

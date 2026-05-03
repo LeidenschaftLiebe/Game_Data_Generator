@@ -1,0 +1,35 @@
+game_id: Game_Fig_1_V74I1_Signaling_without_a_common_prior
+source: Signaling without a common prior, Games and Economic Behavior, Volume 74, Issue 1, Figure 1
+extraction_methodology: Manual
+description: |-
+  There are two players, the Sender and the Receiver.
+  Nature moves first and determines the Sender’s type.
+  With probability 1/4, the Sender is t1, and with probability 3/4, the Sender is t2.
+
+  The Sender observes the type and then chooses between m1 and m2.
+  The Receiver does not observe the type.
+  The Receiver only observes which message was sent.
+
+  So after observing m1, the Receiver chooses between a1 and a2 without knowing whether the Sender is t1 or t2.
+  After observing m2, the Receiver again chooses between a1 and a2 without knowing the Sender’s type.
+
+  If the path is t1, m1, a1, the outcome gives reward 15 to the Sender and reward 10 to the Receiver.
+  If the path is t1, m1, a2, the outcome gives reward 80 to the Sender and reward 80 to the Receiver.
+
+  If the path is t1, m2, a1, the outcome gives reward 25 to the Sender and reward 10 to the Receiver.
+  If the path is t1, m2, a2, the outcome gives reward 50 to the Sender and reward 50 to the Receiver.
+
+  If the path is t2, m1, a1, the outcome gives reward 80 to the Sender and reward 80 to the Receiver.
+  If the path is t2, m1, a2, the outcome gives reward 15 to the Sender and reward 30 to the Receiver.
+
+  If the path is t2, m2, a1, the outcome gives reward 50 to the Sender and reward 50 to the Receiver.
+  If the path is t2, m2, a2, the outcome gives reward 25 to the Sender and reward 30 to the Receiver.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

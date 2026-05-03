@@ -1,0 +1,26 @@
+game_id: Game_Fig_2_V53I1_Sequential_and_quasi_perfect_rationalizability_in_extensive_games
+source: Sequential and quasi perfect rationalizability in extensive games, Games and Economic Behavior, Volume 53, Issue 1, Figure 2
+extraction_methodology: Manual
+description: |-
+  There are two players.
+  Player 1 moves first and chooses among L, M, and R.
+
+  If Player 1 chooses L, the game ends immediately with reward 2 to Player 1 and reward 2 to Player 2.
+
+  If Player 1 chooses M or R, Player 2 then chooses between l and r.
+  When Player 2 moves, Player 2 does not know whether Player 1 chose M or R.
+
+  If Player 1 chose M and Player 2 chooses l, Player 1 gets reward 4 and Player 2 gets reward 1.
+  If Player 1 chose M and Player 2 chooses r, Player 1 gets reward 1 and Player 2 gets reward 0.
+
+  If Player 1 chose R and Player 2 chooses l, Player 1 gets reward 3 and Player 2 gets reward 0.
+  If Player 1 chose R and Player 2 chooses r, Player 1 gets reward 0 and Player 2 gets reward 3.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

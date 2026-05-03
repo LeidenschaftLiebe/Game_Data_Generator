@@ -1,0 +1,21 @@
+game_id: Game_Fig_2_V136_Reciprocity_with_uncertainty_about_others
+source: Reciprocity with uncertainty about others, Games and Economic Behavior, Volume 136, Figure 2
+extraction_methodology: Manual
+description: |-
+  Player 1 moves first and chooses between C and D.
+  After observing that choice, Player 2 moves and chooses between c and d.
+
+  If Player 1 chooses C and Player 2 chooses c, the result is (2, 2).
+  If Player 1 chooses C and Player 2 chooses d, the result is (0, 3).
+
+  If Player 1 chooses D and Player 2 chooses c, the result is (3, 0).
+  If Player 1 chooses D and Player 2 chooses d, the result is (1, 1).
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

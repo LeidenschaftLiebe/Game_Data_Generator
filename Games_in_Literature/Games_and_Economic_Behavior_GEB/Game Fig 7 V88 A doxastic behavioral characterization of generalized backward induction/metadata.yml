@@ -1,0 +1,29 @@
+game_id: Game_Fig_7_V88_A_doxastic_behavioral_characterization_of_generalized_backward_induction
+source: A doxastic behavioral characterization of generalized backward induction, Games and Economic Behavior, Volume 88, Figure 7
+extraction_methodology: Manual
+description: |-
+  There are two players.
+  Player 1 moves first and chooses between a, b, and c.
+
+  After that, Player 2 moves.
+  Player 2 cannot tell whether Player 1 chose a, b, or c.
+  Player 2 then chooses between d and e.
+
+  If the path is a, d, the outcome gives reward 2 to Player 1 and reward 1 to Player 2.
+  If the path is a, e, the outcome gives reward 1 to Player 1 and reward 0 to Player 2.
+
+  If the path is b, d, the outcome gives reward 1 to Player 1 and reward 1 to Player 2.
+  If the path is b, e, the outcome gives reward 2 to Player 1 and reward 0 to Player 2.
+
+  If the path is c, d, the outcome gives reward 0 to Player 1 and reward 0 to Player 2.
+  If the path is c, e, the outcome gives reward 0 to Player 1 and reward 1 to Player 2.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+- Check that Player 1 moves first and Player 2 moves second in the simultaneous move.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

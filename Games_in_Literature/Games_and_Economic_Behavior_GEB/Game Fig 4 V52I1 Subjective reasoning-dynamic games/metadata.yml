@@ -1,0 +1,35 @@
+game_id: Game_Fig_4_V52I1_Subjective_reasoning_dynamic_games
+source: Subjective reasoning dynamic games, Games and Economic Behavior, Volume 52, Issue 1, Figure 4
+extraction_methodology: Manual
+description: |-
+  There are two players, Alice and Bob.
+  Nature moves first and determines Alice’s type.
+
+  With probability 0.1, Alice is Type One.
+  With probability 0.9, Alice is Type Two.
+
+  If Alice is Type One, she chooses between Out1 and In1.
+  If she chooses Out1, the game ends with reward 0 to Alice and reward 0 to Bob.
+
+  If Alice is Type Two, she chooses between Out2 and In2.
+  If she chooses Out2, the game ends with reward 0 to Alice and reward 0 to Bob.
+
+  If Alice chooses In1 or In2, then Bob moves and chooses between U, M, and D.
+  When Bob moves, Bob knows that Alice entered, but does not know whether she is Type One or Type Two.
+
+  If Alice is Type One and Bob chooses U, Alice gets reward -1 and Bob gets reward 3.
+  If Alice is Type One and Bob chooses M, Alice gets reward -1 and Bob gets reward 2.
+  If Alice is Type One and Bob chooses D, Alice gets reward 2 and Bob gets reward 0.
+
+  If Alice is Type Two and Bob chooses U, Alice gets reward -3 and Bob gets reward 0.
+  If Alice is Type Two and Bob chooses M, Alice gets reward -1 and Bob gets reward 2.
+  If Alice is Type Two and Bob chooses D, Alice gets reward 3 and Bob gets reward 3.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

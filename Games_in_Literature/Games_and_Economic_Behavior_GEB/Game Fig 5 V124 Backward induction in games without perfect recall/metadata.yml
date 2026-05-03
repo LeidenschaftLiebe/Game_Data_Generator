@@ -1,0 +1,31 @@
+game_id: Game_Fig_5_V124_Backward_induction_in_games_without_perfect_recall
+source: Backward induction in games without perfect recall, Games and Economic Behavior, Volume 124, Figure 5
+extraction_methodology: Manual
+description: |-
+  Player 1 moves first and chooses between X, T, and B.
+
+  If Player 1 chooses X, the game ends immediately.
+  This gives 4 to Player 1, and 4 to Player 2.
+
+  If Player 1 chooses T, then Player 2 chooses between L and R.
+  If Player 1 chooses B, then Player 2 also chooses between L and R.
+
+  When Player 2 makes that choice, Player 2 cannot tell whether Player 1 earlier chose T or B.
+
+  After that, Player 1 chooses between U and D.
+  When Player 1 makes that later choice, Player 1 cannot tell which of the four possible earlier action combinations led there.
+
+  If the earlier choices were T and L, then U gives 5 to Player 1, and 0 to Player 2, while D gives 2 to Player 1, and 1 to Player 2.
+  If the earlier choices were T and R, then U gives 2 to Player 1, and 0 to Player 2, while D gives 0 to Player 1, and 1 to Player 2.
+  If the earlier choices were B and L, then U gives 0 to Player 1, and 1 to Player 2, while D gives 2 to Player 1, and 0 to Player 2.
+  If the earlier choices were B and R, then U gives 2 to Player 1, and 1 to Player 2, while D gives 5 to Player 1, and 0 to Player 2.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+- After Player 1 chooses T or B, check that Player 2 moves first and Player 1 moves second in the simultaneous move on each branch.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

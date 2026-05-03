@@ -1,0 +1,29 @@
+game_id: Game_Fig_1_V27I2_On_Non_Nash_Equilibria
+source: On Non Nash Equilibria, Games and Economic Behavior, Volume 27, Issue 2, Figure 1
+extraction_methodology: Manual
+description: |-
+  Player 1 moves first and chooses O, S, or B.
+
+  If player 1 chooses O, the game ends immediately.
+  Player 1 gets 0 and player 2 gets 6.
+
+  If player 1 chooses S or B, then player 2 moves and chooses A or F.
+
+  When player 2 moves, player 2 knows that player 1 did not choose O, but cannot tell whether player 1 chose S or B.
+
+  If player 1 chose S and player 2 chose A, player 1 gets 1 and player 2 gets 4.
+
+  If player 1 chose S and player 2 chose F, player 1 gets -2 and player 2 gets 5.
+
+  If player 1 chose B and player 2 chose A, player 1 gets 2 and player 2 gets 4.
+
+  If player 1 chose B and player 2 chose F, player 1 gets -1 and player 2 gets 0.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

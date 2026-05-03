@@ -1,0 +1,37 @@
+game_id: Game_Fig_1_V135_Kuhns_equivalence_theorem_for_games_in_product_form
+source: Kuhns equivalence theorem for games in product form, Games and Economic Behavior, Volume 135, Figure 1
+extraction_methodology: Manual
+description: |-
+  Nature moves first, Bob observes Nature’s move, and Alice then observes both Nature’s move and Bob’s action.
+
+  Nature first chooses between omega+ and omega-, with probabilities 1/2 each.
+
+  After seeing Nature’s move, Bob chooses between L and R.
+
+  Then Alice moves.
+  If Bob chose L, Alice chooses between T and B.
+  If Bob chose R, Alice also chooses between T and B.
+
+  If Nature chose omega+, then:
+  L, then T leads to z_1 = 3, 2.
+  L, then B leads to z_2 = 1, 4.
+  R, then T leads to z_3 = 4, 1.
+  R, then B leads to z_4 = 2, 3.
+
+  If Nature chose omega-, then:
+  L, then T leads to z_5 = 2, 3.
+  L, then B leads to z_6 = 4, 1.
+  R, then T leads to z_7 = 1, 4.
+  R, then B leads to z_8 = 3, 2.
+
+  So in this game, Bob knows which state Nature selected before choosing L or R,
+  and Alice knows both the state and Bob’s move before choosing T or B.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

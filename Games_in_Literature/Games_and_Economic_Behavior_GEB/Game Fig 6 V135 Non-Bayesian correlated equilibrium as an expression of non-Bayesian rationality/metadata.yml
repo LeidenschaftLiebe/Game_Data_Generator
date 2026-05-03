@@ -1,0 +1,26 @@
+game_id: Game_Fig_6_V135_Non_Bayesian_correlated_equilibrium_as_an_expression_of_non_Bayesian_rationality
+source: Non Bayesian correlated equilibrium as an expression of non Bayesian rationality, Games and Economic Behavior, Volume 135, Figure 6
+extraction_methodology: Manual
+description: |-
+  There are two players in this game, Player 1 and Player 2.
+  Player 1 moves first and chooses between B and not B.
+  If Player 1 chooses B, the game ends immediately with (-1, 1).
+
+  If Player 1 chooses not B, then Player 1 moves again and chooses between H and T.
+  After that, Player 2 moves and chooses between H and T.
+  Player 2 observes all of Player 1's earlier choices.
+
+  If the path is not B, then H, then H, the result is (4, -4).
+  If the path is not B, then H, then T, the result is (-4, 4).
+
+  If the path is not B, then T, then H, the result is (-4, 4).
+  If the path is not B, then T, then T, the result is (4, -4).
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

@@ -1,0 +1,38 @@
+game_id: Game_Fig_1_V141_Reciprocity_and_gift_exchange_in_markets_for_credence_goods
+source: Reciprocity and gift exchange in markets for credence goods, Games and Economic Behavior, Volume 141, Figure 1
+extraction_methodology: Manual
+description: |-
+  A consumer has a problem that may be severe or mild, while an expert knows more about what service is really needed.
+
+  First, the expert posts two prices: p_l = 4 for the low-quality service and p_h = 8 for the high-quality service.
+  After seeing these prices, the consumer chooses between out and in.
+
+  If the consumer chooses out, the interaction ends immediately.
+  Both sides get 1.6.
+
+  If the consumer chooses in, nature determines whether the problem is high or low, each with probability 0.5.
+  The expert then learns which one it is.
+
+  If the problem is high, only the high-quality service can solve it.
+  If the expert provides q_h and charges p_h, the result is 2 for the expert and 2 for the consumer.
+  If the expert provides q_h and charges p_l, the result is -2 for the expert and 6 for the consumer.
+
+  If the problem is high and the expert instead provides q_l, the problem remains unsolved.
+  If the expert then charges p_h, the result is 6 for the expert and -8 for the consumer.
+  If the expert charges p_l, the result is 2 for the expert and -4 for the consumer.
+
+  If the problem is low, either service solves it.
+  If the expert provides q_h and charges p_h, the result is 2 for the expert and 2 for the consumer.
+  If the expert provides q_h and charges p_l, the result is -2 for the expert and 6 for the consumer.
+
+  If the problem is low and the expert provides q_l, then charging p_h gives 6 for the expert and 2 for the consumer.
+  Charging p_l gives 2 for the expert and 6 for the consumer.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

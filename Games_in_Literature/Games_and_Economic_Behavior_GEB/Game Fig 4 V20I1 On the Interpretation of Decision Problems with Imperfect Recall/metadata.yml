@@ -1,0 +1,30 @@
+game_id: Game Fig 4 V20I1 
+source: On the Interpretation of Decision Problems with Imperfect Recall, Games and Economic Behavior, Volume 20, Issue 1, Figure 4
+extraction_methodology: Manual
+description: |-
+  The decision maker first reaches a point called d1 and chooses L or R.
+
+  If the choice is R, the interaction ends immediately with reward 0.
+
+  If the choice is L, the decision maker reaches another point that is in the same situation d1.
+  At that point, the decision maker again chooses L or R.
+
+  After that second choice, the decision maker reaches a later situation called d2.
+  At d2, the decision maker cannot tell which of the two possible d2 points has been reached.
+
+  If the decision maker reaches the left d2 point and chooses L, the reward is 1.
+  If the decision maker reaches the left d2 point and chooses R, the reward is 0.
+
+  If the decision maker reaches the right d2 point and chooses L, the reward is 0.
+  If the decision maker reaches the right d2 point and chooses R, the reward is 3.
+
+  The key feature is that the decision maker does not distinguish between the two d1 points, and also does not distinguish between the two d2 points.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

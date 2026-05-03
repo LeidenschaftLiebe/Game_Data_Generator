@@ -1,0 +1,20 @@
+game_id: Game_1_Fig_1_V154_Reasoning_about_your_own_future_mistakes
+source: Reasoning about your own future mistakes, Games and Economic Behavior, Volume 154, Figure 1
+extraction_methodology: Manual
+description: |-
+  A single decision-maker is choosing a plan while thinking about the possibility of making a mistake later on.
+  At the start, the person chooses between a and b.
+  If b is chosen, the process ends immediately with award 1.
+  If a is chosen, the person must make one more choice later between c and d.
+  Choosing c leads to award 1.
+  Choosing d leads to award 0.
+  The key idea is that even if the person intends to choose c later, they may still worry that they could accidentally end up choosing d.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

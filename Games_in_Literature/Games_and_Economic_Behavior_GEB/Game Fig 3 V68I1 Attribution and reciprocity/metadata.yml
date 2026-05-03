@@ -1,0 +1,35 @@
+game_id: Game_Fig_3_V68I1_Attribution_and_reciprocity
+source: Attribution and reciprocity, Games and Economic Behavior, Volume 68, Issue 1, Figure 3
+extraction_methodology: Manual
+description: |-
+  There are two players, Principal and Agent.
+  The Principal moves first and chooses between Low and High.
+
+  After that, chance determines the economic condition.
+  With probability 1/2, there is No-Inflation.
+  With probability 1/2, there is Inflation.
+
+  If the Principal chooses Low and the economy is No-Inflation, the Agent then chooses between low and high effort.
+  If the path is Low, No-Inflation, low, the outcome gives reward 4 to the Principal and reward 4 to the Agent.
+  If the path is Low, No-Inflation, high, the outcome gives reward 12 to the Principal and reward 3 to the Agent.
+
+  If the Principal chooses Low and the economy is Inflation, the Agent again chooses between low and high effort.
+  If the path is Low, Inflation, low, the outcome gives reward 4 to the Principal and reward 2 to the Agent.
+  If the path is Low, Inflation, high, the outcome gives reward 12 to the Principal and reward 1 to the Agent.
+
+  If the Principal chooses High and the economy is No-Inflation, the Agent chooses between low and high effort.
+  If the path is High, No-Inflation, low, the outcome gives reward 2 to the Principal and reward 6 to the Agent.
+  If the path is High, No-Inflation, high, the outcome gives reward 10 to the Principal and reward 5 to the Agent.
+
+  If the Principal chooses High and the economy is Inflation, the Agent chooses between low and high effort.
+  If the path is High, Inflation, low, the outcome gives reward 2 to the Principal and reward 4 to the Agent.
+  If the path is High, Inflation, high, the outcome gives reward 10 to the Principal and reward 3 to the Agent.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

@@ -1,0 +1,31 @@
+game_id: Game_Fig_4_V144_Information_disclosure_in_mitigating_moral_hazard
+source: Information disclosure in mitigating moral hazard, Games and Economic Behavior, Volume 144, Figure 4
+extraction_methodology: Manual
+description: |-
+  The task is easy with probability 0.50 and difficult with probability 0.50.
+
+  The principal learns whether the task is easy or difficult, and only then chooses whether to disclose that information right away or not.
+
+  If the principal chooses Immediate Disclosure, the agent learns the task difficulty before choosing whether to enter.
+  If the principal chooses No Disclosure, the agent does not learn the task difficulty before choosing whether to enter.
+
+  If the agent chooses OUT, the agent gets 30 and the principal gets 25.
+
+  If the agent chooses IN, the agent then chooses between HIGH and LOW.
+  On the no-disclosure side, the agent still does not know whether the task is easy or difficult when choosing effort.
+  On the immediate-disclosure side, the agent does know the realized difficulty when choosing effort.
+
+  If the task is easy and the agent chooses HIGH, the result is 20 for the agent and 50 for the principal.
+  If the task is easy and the agent chooses LOW, the result is 50 for the agent and 35 for the principal.
+
+  If the task is difficult and the agent chooses HIGH, the result is 20 for the agent and 50 for the principal.
+  If the task is difficult and the agent chooses LOW, the result is 0 for the agent and 35 for the principal.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

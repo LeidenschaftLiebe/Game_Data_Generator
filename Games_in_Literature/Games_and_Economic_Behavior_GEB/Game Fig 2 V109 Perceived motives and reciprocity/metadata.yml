@@ -1,0 +1,46 @@
+game_id: Game_Fig_2_V109_Perceived_motives_and_reciprocity
+source: Perceived motives and reciprocity, Games and Economic Behavior, Volume 109, Figure 2
+extraction_methodology: Manual
+description: |-
+  Two participants, A and B, interact in a reciprocal decision problem.
+
+  Player A moves first and chooses between S and H.
+
+  If A chooses S, Nature then selects one of three follow-up cases.
+  With probability 0.01, the interaction goes to case 1.
+  With probability 0.98, it goes to case 2.
+  With probability 0.01, it goes to case 3.
+
+  If case 1 is reached after S, Player B chooses between N and P.
+
+  If the path is S, 1, N, the outcome is A: $4.50 and B: $2.50.
+
+  If the path is S, 1, P, the outcome is A: $3.00 and B: $2.00.
+
+  If case 2 is reached after S, the interaction ends with A: $4.50 and B: $2.50.
+
+  If case 3 is reached after S, the interaction also ends with A: $4.50 and B: $2.50.
+
+  If A chooses H, Nature again selects one of three follow-up cases.
+  With probability 0.01, the interaction goes to case 1.
+  With probability 0.98, it goes to case 2.
+  With probability 0.01, it goes to case 3.
+
+  If case 1 is reached after H, the interaction ends with A: $4.00 and B: $4.00.
+
+  If case 2 is reached after H, the interaction ends with A: $4.00 and B: $4.00.
+
+  If case 3 is reached after H, Player B chooses between N and R.
+
+  If the path is H, 3, N, the outcome is A: $4.00 and B: $4.00.
+
+  If the path is H, 3, R, the outcome is A: $5.50 and B: $3.50.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

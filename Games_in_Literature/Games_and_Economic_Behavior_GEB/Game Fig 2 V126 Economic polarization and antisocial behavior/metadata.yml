@@ -1,0 +1,27 @@
+game_id: Game_Fig_2_V126_Economic_polarization_and_antisocial_behavior
+source: Economic polarization and antisocial behavior, Games and Economic Behavior, Volume 126, Figure 2
+extraction_methodology: Manual
+description: |-
+  The Weak player chooses between Exploit, Exit, and Collaborate.
+  At the same time, the Strong player chooses between Exit, Defensive, and Generous.
+  The three Strong decision nodes are linked because the Strong player does not know which of the three Weak actions was chosen when making that choice.
+
+  If the Weak player chooses Exploit and the Strong player chooses Exit, both get 0, 0.
+  If the Weak player chooses Exploit and the Strong player chooses Defensive, this gives the Weak player 0, and the Strong player 10.
+  If the Weak player chooses Exploit and the Strong player chooses Generous, this gives the Weak player 9, and the Strong player 1.
+
+  If the Weak player chooses Exit, the result is always 0, 0, no matter what the Strong player chose.
+  So Exit destroys all the surplus for both sides.
+
+  If the Weak player chooses Collaborate and the Strong player chooses Exit, both get 0, 0.
+  If the Weak player chooses Collaborate and the Strong player chooses Defensive, this gives the Weak player 1, and the Strong player 9.
+  If the Weak player chooses Collaborate and the Strong player chooses Generous, this gives the Weak player 5, and the Strong player 5.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

@@ -1,0 +1,30 @@
+game_id: Game_Fig_3_V147_Signaling_motives_in_lying_games
+source: Signaling motives in lying games, Games and Economic Behavior, Volume 147, Figure 3
+extraction_methodology: Manual
+description: |-
+  The agent first chooses whether to indicate interest in entering a manipulable reporting stage: i = 0 or i = 1.
+
+  After that, chance determines whether the agent actually enters the reporting stage.
+  If the agent chose i = 0, chance leads to z = 1 with probability 1/10 and to z = 2 with probability 9/10.
+  If the agent chose i = 1, chance leads to z = 1 with probability 3/5 and to z = 3 with probability 2/5.
+
+  Chance then draws a hidden state j = 1 or j = 2, each occurs with probability 1/2.
+
+  If z = 2 or z = 3, the agent does not enter the manipulable reporting stage.
+  In that case, the outcome simply matches the state drawn by chance.
+  With y(1) = 0 and y(2) = 2, the result is 0 if j = 1 and 2 if j = 2.
+
+  If z = 1, the agent enters the reporting stage after seeing the state.
+  The agent then reports either a = 1 or a = 2.
+
+  If the state is j = 1, reporting a = 1 gives 0 and reporting a = 2 gives 2.
+  If the state is j = 2, reporting a = 1 gives 0 and reporting a = 2 gives 2.
+strategic_equivalence_notion: Strong VNM Equivalence
+constraint_descriptions:
+- Payoffs are stated explicitly, strong VNM is used and one payoff constraint is needed for seeding non-zero payoff for each player.
+additional_comments:
+related games: []
+assets:
+  description: description.txt
+  script: game.py
+  game_file: game.efg

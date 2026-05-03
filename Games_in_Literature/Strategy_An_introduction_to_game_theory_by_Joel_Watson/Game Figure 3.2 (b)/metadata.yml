@@ -1,5 +1,5 @@
 game_id: Game_Figure_3.2_b
-source: 'Watson, J., 2002. Strategy: An introduction to game theory. Figure 3.2b'
+source: 'Watson, J., 2013. Strategy: An introduction to game theory. Figure 3.2b'
 extraction_methodology: Manual
 description: |-
   Player 1 moves first and chooses between action A, action B, and action C.
@@ -21,6 +21,9 @@ constraint_descriptions:
 additional_comments:
 related games: []
 assets:
-  description: description.txt
-  script: game.py
-  game_file: game.efg
+  - original game tree figure
+  - V0-V5 description.txt
+  - Pygambit Source Code
+  - V0-V5.efg
+  - metadata.yml
+  - constraints.json

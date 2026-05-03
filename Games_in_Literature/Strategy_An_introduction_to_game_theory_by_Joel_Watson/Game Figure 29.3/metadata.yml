@@ -1,5 +1,5 @@
 game_id: Game_Figure_29.3
-source: 'Watson, J., 2002. Strategy: An introduction to game theory. Figure 29.3'
+source: 'Watson, J., 2013. Strategy: An introduction to game theory. Figure 29.3'
 extraction_methodology: Manual
 description: |-
   At the outset, Player 1 may be either the ordinary type or the cooperative type.
@@ -31,6 +31,9 @@ constraint_descriptions:
 additional_comments:
 related games: []
 assets:
-  description: description.txt
-  script: game.py
-  game_file: game.efg
+  - original game tree figure
+  - V0-V5 description.txt
+  - Pygambit Source Code
+  - V0-V5.efg
+  - metadata.yml
+  - constraints.json

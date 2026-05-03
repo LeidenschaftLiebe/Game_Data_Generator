@@ -1,5 +1,5 @@
 game_id: Game_Figure_Page_202_Exercise_11
-source: 'Watson, J., 2002. Strategy: An introduction to game theory. Page 202, Exercise 11'
+source: 'Watson, J., 2013. Strategy: An introduction to game theory. Page 202, Exercise 11'
 extraction_methodology: Manual
 description: |-
   Player 1 moves first and chooses between action A and action B.
@@ -27,6 +27,9 @@ constraint_descriptions:
 additional_comments:
 related games: []
 assets:
-  description: description.txt
-  script: game.py
-  game_file: game.efg
+  - original game tree figure
+  - V0-V5 description.txt
+  - Pygambit Source Code
+  - V0-V5.efg
+  - metadata.yml
+  - constraints.json

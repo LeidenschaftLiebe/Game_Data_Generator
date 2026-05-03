@@ -1,5 +1,5 @@
 game_id: Game_Figure_Page_466_Exercise_1
-source: 'Watson, J., 2002. Strategy: An introduction to game theory. Page 466, Exercise 1'
+source: 'Watson, J., 2013. Strategy: An introduction to game theory. Page 466, Exercise 1'
 extraction_methodology: Manual
 description: |-
   There are two players and only two cards in the deck: an Ace and a King.
@@ -25,6 +25,9 @@ constraint_descriptions:
 additional_comments:
 related games: []
 assets:
-  description: description.txt
-  script: game.py
-  game_file: game.efg
+  - original game tree figure
+  - V0-V5 description.txt
+  - Pygambit Source Code
+  - V0-V5.efg
+  - metadata.yml
+  - constraints.json

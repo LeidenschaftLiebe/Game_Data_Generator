@@ -34,6 +34,9 @@ constraint_descriptions:
 additional_comments: This figure comes from the paper as a small example where one player later has to act again without being able to tell exactly how that point was reached. The article uses it to show why standard backward-induction style reasoning becomes tricky in such settings.
 related games: []
 assets:
-  description: description.txt
-  script: game.py
-  game_file: game.efg
+  - original game tree figure
+  - V0-V5 description.txt
+  - Pygambit Source Code
+  - V0-V5.efg
+  - metadata.yml
+  - constraints.json

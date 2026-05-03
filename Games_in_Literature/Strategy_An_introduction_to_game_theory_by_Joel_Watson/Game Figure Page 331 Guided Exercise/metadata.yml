@@ -1,5 +1,5 @@
 game_id: Game_Figure_Page_331_Guided_Exercise
-source: 'Watson, J., 2002. Strategy: An introduction to game theory. Page 331, Guided Exercise'
+source: 'Watson, J., 2013. Strategy: An introduction to game theory. Page 331, Guided Exercise'
 extraction_methodology: Manual
 description: |-
   At the outset, the incumbent may be a high-cost firm or a low-cost firm, with probability 0.5 for each case.
@@ -30,6 +30,9 @@ constraint_descriptions:
 additional_comments:
 related games: []
 assets:
-  description: description.txt
-  script: game.py
-  game_file: game.efg
+  - original game tree figure
+  - V0-V5 description.txt
+  - Pygambit Source Code
+  - V0-V5.efg
+  - metadata.yml
+  - constraints.json

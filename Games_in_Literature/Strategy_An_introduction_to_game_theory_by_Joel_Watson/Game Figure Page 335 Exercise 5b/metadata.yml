@@ -1,5 +1,5 @@
 game_id: Game_Figure_Page_335_Exercise_5b
-source: 'Watson, J., 2002. Strategy: An introduction to game theory. Game_Figure_Page_335_Exercise_5b'
+source: 'Watson, J., 2013. Strategy: An introduction to game theory. Game_Figure_Page_335_Exercise_5b'
 extraction_methodology: Manual
 description: |-
   Chance selects Microsoft's type as a Friend or Enemy, with probability 0.5 each.
@@ -30,6 +30,9 @@ constraint_descriptions:
 additional_comments:
 related games: []
 assets:
-  description: description.txt
-  script: game.py
-  game_file: game.efg
+  - original game tree figure
+  - V0-V5 description.txt
+  - Pygambit Source Code
+  - V0-V5.efg
+  - metadata.yml
+  - constraints.json

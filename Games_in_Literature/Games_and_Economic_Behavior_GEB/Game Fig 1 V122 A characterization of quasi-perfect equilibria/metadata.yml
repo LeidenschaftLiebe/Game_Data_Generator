@@ -28,6 +28,9 @@ constraint_descriptions:
 additional_comments: This figure is used in the paper as a small two-player example showing that one well-known way of adding tiny mistakes does not recover every quasi-perfect equilibrium, even in a two-player setting.
 related games: []
 assets:
-  description: description.txt
-  script: game.py
-  game_file: game.efg
+  - original game tree figure
+  - V0-V5 description.txt
+  - Pygambit Source Code
+  - V0-V5.efg
+  - metadata.yml
+  - constraints.json

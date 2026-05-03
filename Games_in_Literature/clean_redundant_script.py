@@ -2,12 +2,12 @@ from pathlib import Path
 import argparse
 
 
-TARGET_FILENAME = "equivalence_notion_constraints.txt"
+TARGET_FILENAME = "constraints.txt"
 
 
 def find_target_files(root: Path) -> list[Path]:
     """
-    Find every equivalence_notion_constraints.txt file under root.
+    Find every constraints.txt file under root.
     """
     return sorted(root.rglob(TARGET_FILENAME))
 
